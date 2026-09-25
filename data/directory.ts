@@ -1,10 +1,12 @@
 import { activeRegions, regions, slug, trades, type RegionSlug } from './catalog';
 import { expandedProviders } from './expanded-directory';
 import { newCategoryProviders } from './new-category-providers';
+import verifiedActiveProvidersData from './verified-active-providers.json';
 
 type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
+type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[] };
 
 const clusterRegions: Record<Cluster, readonly RegionSlug[]> = {
   pensacola: ['pensacola-fl', 'gulf-breeze-fl', 'navarre-fl', 'perdido-key-fl'],
@@ -421,9 +423,8 @@ const providers: Record<Cluster, Record<TradeSlug, readonly Provider[]>> = {
 };
 
 const regionNames = new Map(regions.map((region) => [region.slug, region.name]));
-const tradeNames = new Map(trades.map((trade) => [trade.slug, trade.name]));
 
-export const directorySeed = (Object.entries(providers) as [Cluster, Record<TradeSlug, readonly Provider[]>][])
+const clusterDirectorySeed = (Object.entries(providers) as [Cluster, Record<TradeSlug, readonly Provider[]>][])
   .flatMap(([cluster, tradeGroups]) => clusterRegions[cluster].flatMap((region) =>
     (Object.entries(tradeGroups) as [TradeSlug, readonly Provider[]][]).flatMap(([trade, businesses]) =>
       businesses.map((business, index) => ({
@@ -433,11 +434,42 @@ export const directorySeed = (Object.entries(providers) as [Cluster, Record<Trad
         region,
         trade,
         location: regionNames.get(region) ?? region,
-        summary: `Learn about ${business.name}'s ${String(tradeNames.get(trade) ?? trade).toLowerCase()} offerings, current availability, and service area on the company's official website.`,
+        summary: '',
         website: business.website,
       })),
     ),
   ));
+
+const activeRegionSlugs = new Set<string>(activeRegions.map((region) => region.slug));
+const tradeSlugs = new Set<string>(trades.map((trade) => trade.slug));
+const seenPairWebsites = new Set(clusterDirectorySeed.map((business) => `${business.region}|${business.trade}|${normalizedWebsite(business.website)}`));
+const seenBusinessSlugs = new Set(clusterDirectorySeed.map((business) => business.slug));
+
+const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedProvider[])
+  .flatMap((business) => business.regions.flatMap((region) => business.trades.map((trade) => {
+    if (!activeRegionSlugs.has(region) || !tradeSlugs.has(trade)) return null;
+    const businessSlug = `${slug(business.name)}-${region}-${trade}`;
+    return {
+      id: `verified-v1-${region}-${trade}-${slug(normalizedWebsite(business.website))}`,
+      name: business.name,
+      slug: businessSlug,
+      region,
+      trade,
+      location: regionNames.get(region) ?? region,
+      summary: '',
+      website: business.website,
+    };
+  })))
+  .filter((business): business is NonNullable<typeof business> => business !== null)
+  .filter((business) => {
+    const pairWebsite = `${business.region}|${business.trade}|${normalizedWebsite(business.website)}`;
+    if (seenPairWebsites.has(pairWebsite) || seenBusinessSlugs.has(business.slug)) return false;
+    seenPairWebsites.add(pairWebsite);
+    seenBusinessSlugs.add(business.slug);
+    return true;
+  });
+
+export const directorySeed = [...clusterDirectorySeed, ...verifiedDirectorySeed];
 
 export const directoryStats = {
   cities: activeRegions.length,

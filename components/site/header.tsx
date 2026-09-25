@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- Native anchors keep navigation consistent with the Sites build. */
 import { BadgeCheck, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 

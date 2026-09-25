@@ -10,6 +10,12 @@ export type Business = {
   summary: string;
   website: string;
   phone: string | null;
+  address: string | null;
+  service_area: string | null;
+  hours: string | null;
+  specialties: string | null;
+  year_founded: number | null;
+  license_number: string | null;
   logo_url: string | null;
   photo_urls: string;
   owner_email: string | null;
@@ -23,6 +29,12 @@ function publicBusiness(seed: (typeof directorySeed)[number]): Business {
   return {
     ...seed,
     phone: null,
+    address: null,
+    service_area: null,
+    hours: null,
+    specialties: null,
+    year_founded: null,
+    license_number: null,
     logo_url: null,
     photo_urls: '[]',
     owner_email: null,
@@ -60,7 +72,26 @@ export async function listBusinesses(region?: string, trade?: string): Promise<B
 
 export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: number }[]> {
   const updatedAt = Date.UTC(2026, 8, 25);
-  return publicDirectory.map(({ slug }) => ({ slug, updated_at: updatedAt }));
+  return publicDirectory
+    .filter((business) => {
+      let hasPhotos = false;
+      try {
+        hasPhotos = (JSON.parse(business.photo_urls || '[]') as unknown[]).length > 0;
+      } catch {}
+      return Boolean(
+        business.summary.trim()
+        || business.phone
+        || business.address
+        || business.service_area
+        || business.hours
+        || business.specialties
+        || business.year_founded
+        || business.license_number
+        || business.logo_url
+        || hasPhotos
+      );
+    })
+    .map(({ slug }) => ({ slug, updated_at: updatedAt }));
 }
 
 export async function listListedDirectoryPairs(): Promise<{ region: string; trade: string }[]> {
@@ -75,8 +106,21 @@ export async function listListedDirectoryPairs(): Promise<{ region: string; trad
   return pairs.sort((a, b) => a.region.localeCompare(b.region) || a.trade.localeCompare(b.trade));
 }
 
+export async function listCategoryCounts(region: string): Promise<{ trade: string; count: number }[]> {
+  const counts = new Map<string, number>();
+  for (const business of await listBusinesses(region)) {
+    counts.set(business.trade, (counts.get(business.trade) ?? 0) + 1);
+  }
+  return Array.from(counts, ([trade, count]) => ({ trade, count }))
+    .sort((a, b) => a.trade.localeCompare(b.trade));
+}
+
 export async function getBusiness(id: string): Promise<Business | null> {
   return publicDirectory.find((business) => business.id === id || business.slug === id) ?? null;
+}
+
+export async function getBusinessBySlug(slug: string): Promise<Business | null> {
+  return publicDirectory.find((business) => business.slug === slug) ?? null;
 }
 
 export async function sha256(text: string): Promise<string> {

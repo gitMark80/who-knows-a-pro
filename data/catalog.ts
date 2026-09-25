@@ -148,6 +148,8 @@ export const trades = [
   { slug: 'trading-card-stores', name: 'Trading card stores' },
 ] as const;
 
+export type TradeSlug = (typeof trades)[number]['slug'];
+
 export const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const marineSeed = marineListings.map((item) => ({
   id: `marine-${item.id}`,
