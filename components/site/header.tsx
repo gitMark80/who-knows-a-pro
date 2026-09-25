@@ -12,6 +12,7 @@ export function Header() {
       <nav className="hidden items-center gap-7 text-sm font-semibold text-slate-600 md:flex" aria-label="Main navigation">
         <a href="/#find" className="hover:text-[#142c4c]">Find a pro</a>
         <a href="/#regions" className="hover:text-[#142c4c]">Browse regions</a>
+        <a href="/pricing" className="hover:text-[#142c4c]">Pricing</a>
         <a href="/claim" className="hover:text-[#142c4c]">For businesses</a>
       </nav>
       <div className="flex gap-2">

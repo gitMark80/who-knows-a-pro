@@ -81,7 +81,7 @@ export function businessStructuredJsonLd(business: Business) {
     '@type': business.address ? 'LocalBusiness' : 'Organization',
     name: business.name,
     url: `${SITE_URL}/business/${business.main_slug || business.slug}`,
-    sameAs: business.website,
+    ...(business.website ? { sameAs: business.website } : {}),
     ...(business.phone ? { telephone: business.phone } : {}),
     ...(business.address ? { address: { '@type': 'PostalAddress', streetAddress: business.address } } : {}),
     ...(business.service_area ? { areaServed: business.service_area } : {}),

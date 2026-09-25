@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import { Footer } from '@/components/site/footer';
 import { Header } from '@/components/site/header';
 import { ListingCard } from '@/components/site/listing-card';
+import { QuoteRequestForm } from '@/components/site/quote-request-form';
 import { SearchBox } from '@/components/site/search-box';
 import { Breadcrumbs } from '@/components/seo/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
@@ -13,6 +14,7 @@ import { nearbyRegionSlugs } from '@/data/nearby-regions';
 import { categoryFaqs, categoryIntro, relatedTradeSlugs } from '@/data/seo-content';
 import { MIN_INDEXABLE_LISTINGS } from '@/data/directory-config';
 import { listBusinesses, listListedDirectoryPairs } from '@/db/runtime';
+import { getFeaturedBusiness } from '@/db/revenue';
 import { SITE_URL } from '@/lib/business-profile';
 
 export const dynamic = 'force-dynamic';
@@ -31,6 +33,10 @@ const loadListedPairs = cache(async () => {
   } catch {
     return { pairs: [] as Awaited<ReturnType<typeof listListedDirectoryPairs>>, unavailable: true };
   }
+});
+
+const loadFeatured = cache(async (region: string, trade: string) => {
+  try { return await getFeaturedBusiness(region, trade); } catch { return null; }
 });
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; trade: string }> }): Promise<Metadata> {
@@ -61,10 +67,15 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
   const trade = trades.find((item) => item.slug === tradeSlug);
   if (!region || !trade) notFound();
 
-  const [{ businesses, unavailable }, listed] = await Promise.all([
+  const [{ businesses, unavailable }, listed, featured] = await Promise.all([
     loadBusinesses(region.slug, trade.slug),
     loadListedPairs(),
+    loadFeatured(region.slug, trade.slug),
   ]);
+  const featuredSlug = featured?.business.main_slug || featured?.business.slug;
+  const regularBusinesses = featuredSlug
+    ? businesses.filter((business) => (business.main_slug || business.slug) !== featuredSlug)
+    : businesses;
   const pairKeys = new Set(listed.pairs.map((pair) => `${pair.region}|${pair.trade}`));
   const relatedTrades = relatedTradeSlugs(trade.slug as TradeSlug)
     .filter((slug) => pairKeys.has(`${region.slug}|${slug}`))
@@ -133,15 +144,30 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-5 pt-10 sm:px-8 sm:pt-12">
+        <QuoteRequestForm region={region.slug} regionName={region.name} trade={trade.slug} tradeName={trade.name}/>
+      </section>
+
       <section className="mx-auto max-w-7xl px-5 py-12 sm:px-8">
         <div className="flex items-end justify-between gap-5">
           <div><p className="eyebrow">Directory results</p><h2 className="mt-2 text-2xl font-black text-[#142c4c]">Pros serving {region.name}</h2></div>
           <p className="text-sm text-slate-500">{businesses.length} {businesses.length === 1 ? 'business' : 'businesses'}</p>
         </div>
+        <div className="mt-8">
+          {featured ? <div>
+            <p className="mb-3 text-xs font-black uppercase tracking-[.16em] text-[#9b4917]">Exclusive featured business</p>
+            <div className="max-w-2xl"><ListingCard business={featured.business} featured/></div>
+          </div> : <a href={`/pricing?plan=featured&region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} className="group block rounded-2xl border-2 border-dashed border-[#ec7d2c]/50 bg-[#fff7f0] p-6 hover:border-[#ec7d2c]">
+            <p className="text-xs font-black uppercase tracking-[.16em] text-[#9b4917]">Featured spot available</p>
+            <h3 className="mt-2 text-xl font-black text-[#142c4c]">Feature your business at the top of this page</h3>
+            <p className="mt-2 text-sm leading-6 text-slate-600">One business gets the exclusive featured position and this page’s incoming quote requests.</p>
+            <span className="mt-4 inline-flex items-center gap-1 font-extrabold text-[#d96c20]">See featured checkout <ArrowRight className="size-4 transition group-hover:translate-x-1"/></span>
+          </a>}
+        </div>
         {unavailable
           ? <div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-amber-900">The directory is temporarily unavailable. Please try again shortly.</div>
           : businesses.length
-            ? <><div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{businesses.map((business) => <ListingCard key={business.id} business={business}/>)}</div>
+            ? <><div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{regularBusinesses.map((business) => <ListingCard key={business.id} business={business}/>)}</div>
               {businesses.length < MIN_INDEXABLE_LISTINGS ? <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 text-center"><p className="font-extrabold text-[#142c4c]">Know another qualified {trade.name.toLowerCase()} pro serving {region.name}?</p><p className="mt-2 text-sm text-slate-600">Business owners can claim a free listing and add verified contact details.</p><a href={`/claim?region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} className="mt-4 inline-flex rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim a free listing</a></div> : null}</>
             : <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-10 text-center">
               <h3 className="text-xl font-extrabold">No {trade.name.toLowerCase()} pros listed here yet.</h3>
