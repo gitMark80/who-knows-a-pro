@@ -26,19 +26,20 @@ export async function POST(request: Request) {
   }
 
   const extension = file.type === 'image/png' ? 'png' : file.type === 'image/webp' ? 'webp' : 'jpg';
-  const blob = await put(`businesses/${business.main_slug || business.slug}/${kind}.${extension}`, file, {
-    access: 'public',
+  const blob = await put(`businesses/${business.id}/${kind}.${extension}`, file, {
+    access: 'private',
     addRandomSuffix: true,
     contentType: file.type,
   });
+  const imageUrl = `/api/photos/${encodeURIComponent(business.id)}/${encodeURIComponent(blob.pathname.split('/').pop()!)}`;
 
   if (kind === 'logo') {
-    await sqlRun('UPDATE businesses SET logo_url = ?, updated_at = ? WHERE id = ?', [blob.url, Date.now(), business.id]);
+    await sqlRun('UPDATE businesses SET logo_url = ?, updated_at = ? WHERE id = ?', [imageUrl, Date.now(), business.id]);
   } else {
     let photos: string[] = [];
     try { photos = JSON.parse(business.photo_urls || '[]') as string[]; } catch {}
-    photos = [...photos, blob.url].slice(-6);
+    photos = [...photos, imageUrl].slice(-6);
     await sqlRun('UPDATE businesses SET photo_urls = ?, updated_at = ? WHERE id = ?', [JSON.stringify(photos), Date.now(), business.id]);
   }
-  return NextResponse.json({ url: blob.url });
+  return NextResponse.json({ url: imageUrl });
 }
