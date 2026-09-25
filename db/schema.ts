@@ -4,11 +4,15 @@ export const businesses = sqliteTable("businesses", {
   id: text("id").primaryKey(),
   name: text("name").notNull(),
   slug: text("slug").notNull(),
+  mainSlug: text("main_slug"),
   region: text("region").notNull(),
   trade: text("trade").notNull(),
   location: text("location").notNull(),
   summary: text("summary").notNull(),
   website: text("website").notNull(),
+  sourceUrl: text("source_url"),
+  sourceVerifiedAt: text("source_verified_at"),
+  publicEmail: text("public_email"),
   phone: text("phone"),
   address: text("address"),
   serviceArea: text("service_area"),
@@ -24,7 +28,7 @@ export const businesses = sqliteTable("businesses", {
   stripeSubscriptionId: text("stripe_subscription_id"),
   approved: integer("approved").notNull().default(0),
   updatedAt: integer("updated_at").notNull(),
-}, (t) => [uniqueIndex("idx_businesses_slug").on(t.slug), index("idx_businesses_region_trade").on(t.region, t.trade)]);
+}, (t) => [uniqueIndex("idx_businesses_slug").on(t.slug), index("idx_businesses_main_slug").on(t.mainSlug), index("idx_businesses_region_trade").on(t.region, t.trade)]);
 
 export const claims = sqliteTable("claims", {
   id: text("id").primaryKey(),

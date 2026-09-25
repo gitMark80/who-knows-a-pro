@@ -4,6 +4,7 @@ export type Business = {
   id: string;
   name: string;
   slug: string;
+  main_slug: string | null;
   region: string;
   trade: string;
   location: string;
@@ -23,11 +24,17 @@ export type Business = {
   approved: number;
   stripe_customer_id: string | null;
   stripe_subscription_id: string | null;
+  source_url: string | null;
+  source_verified_at: string | null;
+  public_email: string | null;
 };
+
+export type BusinessProfile = Business & { main_slug: string; regions: string[]; trades: string[]; placements: Business[] };
 
 function publicBusiness(seed: (typeof directorySeed)[number]): Business {
   return {
     ...seed,
+    main_slug: seed.mainSlug,
     phone: null,
     address: null,
     service_area: null,
@@ -42,6 +49,9 @@ function publicBusiness(seed: (typeof directorySeed)[number]): Business {
     approved: 1,
     stripe_customer_id: null,
     stripe_subscription_id: null,
+    source_url: seed.sourceUrl,
+    source_verified_at: seed.sourceVerifiedAt,
+    public_email: seed.publicEmail,
   };
 }
 
@@ -72,26 +82,22 @@ export async function listBusinesses(region?: string, trade?: string): Promise<B
 
 export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: number }[]> {
   const updatedAt = Date.UTC(2026, 8, 25);
-  return publicDirectory
-    .filter((business) => {
-      let hasPhotos = false;
-      try {
-        hasPhotos = (JSON.parse(business.photo_urls || '[]') as unknown[]).length > 0;
-      } catch {}
-      return Boolean(
-        business.summary.trim()
-        || business.phone
-        || business.address
-        || business.service_area
-        || business.hours
-        || business.specialties
-        || business.year_founded
-        || business.license_number
-        || business.logo_url
-        || hasPhotos
-      );
-    })
-    .map(({ slug }) => ({ slug, updated_at: updatedAt }));
+  return [...new Set(publicDirectory.map((business) => business.main_slug || business.slug))]
+    .map((slug) => ({ slug, updated_at: updatedAt }));
+}
+
+export async function listDirectoryPairCounts(): Promise<{ region: string; trade: string; count: number }[]> {
+  const groups = new Map<string, Set<string>>();
+  for (const business of publicDirectory) {
+    const key = `${business.region}|${business.trade}`;
+    const profiles = groups.get(key) ?? new Set<string>();
+    profiles.add(business.main_slug || business.slug);
+    groups.set(key, profiles);
+  }
+  return [...groups].map(([key, profiles]) => {
+    const [region, trade] = key.split('|');
+    return { region, trade, count: profiles.size };
+  }).sort((a, b) => a.region.localeCompare(b.region) || a.trade.localeCompare(b.trade));
 }
 
 export async function listListedDirectoryPairs(): Promise<{ region: string; trade: string }[]> {
@@ -121,6 +127,23 @@ export async function getBusiness(id: string): Promise<Business | null> {
 
 export async function getBusinessBySlug(slug: string): Promise<Business | null> {
   return publicDirectory.find((business) => business.slug === slug) ?? null;
+}
+
+export async function getBusinessProfile(slug: string): Promise<{ profile: BusinessProfile; legacy: boolean } | null> {
+  const direct = publicDirectory.find((business) => business.slug === slug || business.main_slug === slug);
+  if (!direct) return null;
+  const mainSlug = direct.main_slug || direct.slug;
+  const placements = publicDirectory.filter((business) => (business.main_slug || business.slug) === mainSlug);
+  return {
+    legacy: direct.slug === slug && mainSlug !== slug,
+    profile: {
+      ...direct,
+      main_slug: mainSlug,
+      regions: [...new Set(placements.map((business) => business.region))],
+      trades: [...new Set(placements.map((business) => business.trade))],
+      placements,
+    },
+  };
 }
 
 export async function sha256(text: string): Promise<string> {

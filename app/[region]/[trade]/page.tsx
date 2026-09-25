@@ -11,6 +11,7 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { activeRegions, trades, type RegionSlug, type TradeSlug } from '@/data/catalog';
 import { nearbyRegionSlugs } from '@/data/nearby-regions';
 import { categoryFaqs, categoryIntro, relatedTradeSlugs } from '@/data/seo-content';
+import { MIN_INDEXABLE_LISTINGS } from '@/data/directory-config';
 import { listBusinesses, listListedDirectoryPairs } from '@/db/runtime';
 import { SITE_URL } from '@/lib/business-profile';
 
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     title: `${trade.name} in ${region.name}`,
     description,
     alternates: { canonical: `/${region.slug}/${trade.slug}` },
-    robots: !unavailable && count === 0 ? { index: false, follow: true } : undefined,
+    robots: !unavailable && count < MIN_INDEXABLE_LISTINGS ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -103,7 +104,7 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
       item: {
         '@type': 'Organization',
         name: business.name,
-        url: `${SITE_URL}/business/${business.slug}`,
+        url: `${SITE_URL}/business/${business.main_slug || business.slug}`,
       },
     })),
   };
@@ -140,7 +141,8 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
         {unavailable
           ? <div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-amber-900">The directory is temporarily unavailable. Please try again shortly.</div>
           : businesses.length
-            ? <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{businesses.map((business) => <ListingCard key={business.id} business={business}/>)}</div>
+            ? <><div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{businesses.map((business) => <ListingCard key={business.id} business={business}/>)}</div>
+              {businesses.length < MIN_INDEXABLE_LISTINGS ? <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 text-center"><p className="font-extrabold text-[#142c4c]">Know another qualified {trade.name.toLowerCase()} pro serving {region.name}?</p><p className="mt-2 text-sm text-slate-600">Business owners can claim a free listing and add verified contact details.</p><a href={`/claim?region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} className="mt-4 inline-flex rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim a free listing</a></div> : null}</>
             : <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-10 text-center">
               <h3 className="text-xl font-extrabold">No {trade.name.toLowerCase()} pros listed here yet.</h3>
               <p className="mt-2 text-slate-600">Own a {trade.name.toLowerCase()} business in {region.name}? Claim a free listing.</p>

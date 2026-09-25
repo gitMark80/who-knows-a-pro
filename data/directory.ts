@@ -2,6 +2,7 @@ import { activeRegions, regions, slug, trades, type RegionSlug } from './catalog
 import { expandedProviders } from './expanded-directory';
 import { newCategoryProviders } from './new-category-providers';
 import verifiedActiveProvidersData from './verified-active-providers.json';
+import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
 type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
@@ -424,6 +425,32 @@ const providers: Record<Cluster, Record<TradeSlug, readonly Provider[]>> = {
 
 const regionNames = new Map(regions.map((region) => [region.slug, region.name]));
 
+function websiteDomain(value: string) {
+  try { return new URL(value).hostname.replace(/^www\./, '').toLowerCase(); }
+  catch { return normalizedWebsite(value).split('/')[0]; }
+}
+
+const identityDomains = new Map<string, Set<string>>();
+for (const groups of Object.values(providers)) for (const businesses of Object.values(groups)) for (const business of businesses) {
+  const name = slug(business.name);
+  const domains = identityDomains.get(name) ?? new Set<string>();
+  domains.add(websiteDomain(business.website));
+  identityDomains.set(name, domains);
+}
+for (const business of verifiedActiveProvidersData as readonly VerifiedProvider[]) {
+  const name = slug(business.name);
+  const domains = identityDomains.get(name) ?? new Set<string>();
+  domains.add(websiteDomain(business.website));
+  identityDomains.set(name, domains);
+}
+
+function canonicalBusinessSlug(name: string, website: string) {
+  const nameSlug = slug(name);
+  return (identityDomains.get(nameSlug)?.size ?? 0) > 1
+    ? `${nameSlug}-${slug(websiteDomain(website))}`
+    : nameSlug;
+}
+
 const clusterDirectorySeed = (Object.entries(providers) as [Cluster, Record<TradeSlug, readonly Provider[]>][])
   .flatMap(([cluster, tradeGroups]) => clusterRegions[cluster].flatMap((region) =>
     (Object.entries(tradeGroups) as [TradeSlug, readonly Provider[]][]).flatMap(([trade, businesses]) =>
@@ -431,11 +458,16 @@ const clusterDirectorySeed = (Object.entries(providers) as [Cluster, Record<Trad
         id: `seed-v1-${region}-${trade}-${business.seedKey ?? index + 1}`,
         name: business.name,
         slug: `${slug(business.name)}-${region}-${trade}`,
+        mainSlug: canonicalBusinessSlug(business.name, business.website),
         region,
         trade,
         location: regionNames.get(region) ?? region,
         summary: '',
         website: business.website,
+        sourceUrl: business.website,
+        sourceVerifiedAt: DIRECTORY_VERIFIED_AT,
+        source: DIRECTORY_SOURCE,
+        publicEmail: null as string | null,
       })),
     ),
   ));
@@ -453,11 +485,16 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
       id: `verified-v1-${region}-${trade}-${slug(normalizedWebsite(business.website))}`,
       name: business.name,
       slug: businessSlug,
+      mainSlug: canonicalBusinessSlug(business.name, business.website),
       region,
       trade,
       location: regionNames.get(region) ?? region,
       summary: '',
       website: business.website,
+      sourceUrl: business.website,
+      sourceVerifiedAt: DIRECTORY_VERIFIED_AT,
+      source: DIRECTORY_SOURCE,
+      publicEmail: null as string | null,
     };
   })))
   .filter((business): business is NonNullable<typeof business> => business !== null)

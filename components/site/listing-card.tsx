@@ -27,7 +27,7 @@ export function ListingCard({ business }: { business: Business }) {
 
     <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-3 pt-6">
       <a href={business.website} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${business.name} official website`} className="inline-flex items-center gap-1 rounded-lg bg-[#ec7d2c] px-3 py-2 text-sm font-extrabold text-white hover:bg-[#d96c20]">Visit website <ExternalLink className="size-3.5"/></a>
-      <a href={`/business/${business.slug}`} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">Profile & claim <ArrowRight className="size-4"/></a>
+      <a href={`/business/${business.main_slug || business.slug}`} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">Profile & claim <ArrowRight className="size-4"/></a>
     </div>
   </article>;
 }

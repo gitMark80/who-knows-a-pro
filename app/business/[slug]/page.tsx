@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { cache } from 'react';
 import { BadgeCheck, Building2, CalendarDays, Clock3, ExternalLink, Globe2, Hash, MapPin, MapPinned, Phone, ShieldCheck, Wrench } from 'lucide-react';
 import { Header } from '@/components/site/header';
@@ -8,17 +8,18 @@ import { Footer } from '@/components/site/footer';
 import { Breadcrumbs } from '@/components/seo/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
 import { regions, trades } from '@/data/catalog';
-import { getBusinessBySlug } from '@/db/runtime';
-import { businessMetaDescription, businessStructuredJsonLd, isBusinessProfileIndexable, SITE_URL, specialtyList } from '@/lib/business-profile';
+import { getBusinessProfile } from '@/db/runtime';
+import { businessMetaDescription, businessStructuredJsonLd, SITE_URL, specialtyList } from '@/lib/business-profile';
 
 export const dynamic = 'force-dynamic';
 
-const loadBusiness = cache((slug: string) => getBusinessBySlug(slug));
+const loadBusiness = cache((slug: string) => getBusinessProfile(slug));
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const business = await loadBusiness(slug);
-  if (!business) return { title: 'Business profile', robots: { index: false, follow: true } };
+  const result = await loadBusiness(slug);
+  if (!result) return { title: 'Business profile', robots: { index: false, follow: true } };
+  const business = result.profile;
   const region = regions.find((item) => item.slug === business.region);
   const trade = trades.find((item) => item.slug === business.trade);
   const city = region?.name || business.location;
@@ -26,21 +27,24 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: { absolute: `${business.name} – ${category} in ${city} | Who Knows a Pro?` },
     description: businessMetaDescription(business, category, city),
-    alternates: { canonical: `/business/${business.slug}` },
-    robots: isBusinessProfileIndexable(business) ? undefined : { index: false, follow: true },
+    alternates: { canonical: `/business/${business.main_slug}` },
   };
 }
 
 export default async function BusinessPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const business = await loadBusiness(slug);
-  if (!business) notFound();
+  const result = await loadBusiness(slug);
+  if (!result) notFound();
+  if (result.legacy) permanentRedirect(`/business/${result.profile.main_slug}`);
+  const business = result.profile;
 
   const region = regions.find((item) => item.slug === business.region);
   const trade = trades.find((item) => item.slug === business.trade);
   const regionName = region?.name || business.location;
   const tradeName = trade?.name || business.trade;
   const specialties = specialtyList(business.specialties);
+  const servedRegions = business.regions.map((slug) => regions.find((item) => item.slug === slug)).filter((item) => item !== undefined);
+  const servedTrades = business.trades.map((slug) => trades.find((item) => item.slug === slug)).filter((item) => item !== undefined);
   let photos: string[] = [];
   if (business.tier !== 'free') {
     try { photos = JSON.parse(business.photo_urls || '[]') as string[]; } catch { photos = []; }
@@ -59,7 +63,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
       { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
       { '@type': 'ListItem', position: 2, name: regionName, item: `${SITE_URL}/${business.region}` },
       { '@type': 'ListItem', position: 3, name: tradeName, item: `${SITE_URL}/${business.region}/${business.trade}` },
-      { '@type': 'ListItem', position: 4, name: business.name, item: `${SITE_URL}/business/${business.slug}` },
+      { '@type': 'ListItem', position: 4, name: business.name, item: `${SITE_URL}/business/${business.main_slug}` },
     ],
   };
 
@@ -96,6 +100,11 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
                   {specialties.length ? <Detail icon={Wrench} label="Specialties" value={specialties.join(', ')}/> : null}
                 </dl>
               </section> : null}
+
+              <section className="mt-8 grid gap-6 sm:grid-cols-2">
+                <div><h2 className="text-xl font-extrabold text-[#142c4c]">Areas served</h2><div className="mt-3 flex flex-wrap gap-2">{servedRegions.map((item) => <a key={item.slug} href={`/${item.slug}`} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
+                <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories</h2><div className="mt-3 flex flex-wrap gap-2">{servedTrades.map((item) => <a key={item.slug} href={`/${business.region}/${item.slug}`} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
+              </section>
 
               <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5">
                 <h2 className="font-extrabold">Before you hire</h2>

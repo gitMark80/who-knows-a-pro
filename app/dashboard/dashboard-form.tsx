@@ -1,7 +1,7 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
-import { Check, ImagePlus, Loader2, Star } from 'lucide-react';
+import { Check, Copy, ImagePlus, Loader2, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -13,6 +13,14 @@ export function DashboardForm({ business }: { business: Business }) {
   const [message, setMessage] = useState('');
   const [isError, setIsError] = useState(false);
   const [uploading, setUploading] = useState(false);
+  const [badgeMessage, setBadgeMessage] = useState('');
+  const profileUrl = `https://whoknowsapro.com/business/${business.main_slug || business.slug}`;
+  const badgeCode = (theme: 'light' | 'dark') => `<a href="${profileUrl}"><img src="https://whoknowsapro.com/badges/find-us-${theme}.svg" alt="Find us on Who Knows a Pro."></a>`;
+
+  async function copyBadge(theme: 'light' | 'dark') {
+    await navigator.clipboard.writeText(badgeCode(theme));
+    setBadgeMessage(`${theme === 'light' ? 'Light' : 'Dark'} badge code copied.`);
+  }
   const missingProfileFields = [
     business.phone,
     business.address,
@@ -108,6 +116,18 @@ export function DashboardForm({ business }: { business: Business }) {
       {message ? <p role={isError ? 'alert' : 'status'} aria-live="polite" className={`mt-4 text-sm font-semibold ${isError ? 'text-red-700' : 'text-[#27715c]'}`}>{message}</p> : null}
       <Button disabled={saving} className="mt-6 bg-[#142c4c] text-white hover:bg-[#203d62]">{saving ? <Loader2 className="size-4 animate-spin"/> : <Check className="size-4"/>}Save profile</Button>
     </form>
+
+    <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
+      <h2 className="text-xl font-black">Find us badge</h2>
+      <p className="mt-2 text-sm leading-6 text-slate-600">Add this linked badge to your website so customers can reach your Who Knows a Pro profile.</p>
+      <div className="mt-5 grid gap-4 md:grid-cols-2">
+        {(['light', 'dark'] as const).map((theme) => <div key={theme} className={`rounded-2xl border p-5 ${theme === 'dark' ? 'border-slate-700 bg-[#10243e]' : 'border-slate-200 bg-white'}`}>
+          <img src={`/badges/find-us-${theme}.svg`} alt="Find us on Who Knows a Pro." width="220" height="56"/>
+          <Button type="button" variant={theme === 'dark' ? 'secondary' : 'outline'} onClick={() => copyBadge(theme)} className="mt-4"><Copy className="size-4"/>Copy {theme} badge</Button>
+        </div>)}
+      </div>
+      {badgeMessage ? <p role="status" aria-live="polite" className="mt-3 text-sm font-semibold text-[#27715c]">{badgeMessage}</p> : null}
+    </div>
 
     <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
       <h2 className="text-xl font-black">Logo and photos</h2>

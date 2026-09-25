@@ -80,7 +80,8 @@ export function businessStructuredJsonLd(business: Business) {
     // the owner supplies an address; no address is ever inferred or invented.
     '@type': business.address ? 'LocalBusiness' : 'Organization',
     name: business.name,
-    url: business.website,
+    url: `${SITE_URL}/business/${business.main_slug || business.slug}`,
+    sameAs: business.website,
     ...(business.phone ? { telephone: business.phone } : {}),
     ...(business.address ? { address: { '@type': 'PostalAddress', streetAddress: business.address } } : {}),
     ...(business.service_area ? { areaServed: business.service_area } : {}),
