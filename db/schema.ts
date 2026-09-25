@@ -13,6 +13,8 @@ export const businesses = sqliteTable("businesses", {
   sourceUrl: text("source_url"),
   sourceVerifiedAt: text("source_verified_at"),
   publicEmail: text("public_email"),
+  emailSourceUrl: text("email_source_url"),
+  emailVerifiedAt: text("email_verified_at"),
   phone: text("phone"),
   address: text("address"),
   serviceArea: text("service_area"),

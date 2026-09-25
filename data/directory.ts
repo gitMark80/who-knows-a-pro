@@ -2,12 +2,18 @@ import { activeRegions, regions, slug, trades, type RegionSlug } from './catalog
 import { expandedProviders } from './expanded-directory';
 import { newCategoryProviders } from './new-category-providers';
 import verifiedActiveProvidersData from './verified-active-providers.json';
+import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
 type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
 type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[] };
+type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
+
+const businessEmailEvidence = new Map(
+  (businessEmailEvidenceData.records as readonly EmailEvidence[]).map((record) => [record.mainSlug, record]),
+);
 
 const clusterRegions: Record<Cluster, readonly RegionSlug[]> = {
   pensacola: ['pensacola-fl', 'gulf-breeze-fl', 'navarre-fl', 'perdido-key-fl'],
@@ -454,21 +460,27 @@ function canonicalBusinessSlug(name: string, website: string) {
 const clusterDirectorySeed = (Object.entries(providers) as [Cluster, Record<TradeSlug, readonly Provider[]>][])
   .flatMap(([cluster, tradeGroups]) => clusterRegions[cluster].flatMap((region) =>
     (Object.entries(tradeGroups) as [TradeSlug, readonly Provider[]][]).flatMap(([trade, businesses]) =>
-      businesses.map((business, index) => ({
-        id: `seed-v1-${region}-${trade}-${business.seedKey ?? index + 1}`,
-        name: business.name,
-        slug: `${slug(business.name)}-${region}-${trade}`,
-        mainSlug: canonicalBusinessSlug(business.name, business.website),
-        region,
-        trade,
-        location: regionNames.get(region) ?? region,
-        summary: '',
-        website: business.website,
-        sourceUrl: business.website,
-        sourceVerifiedAt: DIRECTORY_VERIFIED_AT,
-        source: DIRECTORY_SOURCE,
-        publicEmail: null as string | null,
-      })),
+      businesses.map((business, index) => {
+        const mainSlug = canonicalBusinessSlug(business.name, business.website);
+        const emailEvidence = businessEmailEvidence.get(mainSlug);
+        return {
+          id: `seed-v1-${region}-${trade}-${business.seedKey ?? index + 1}`,
+          name: business.name,
+          slug: `${slug(business.name)}-${region}-${trade}`,
+          mainSlug,
+          region,
+          trade,
+          location: regionNames.get(region) ?? region,
+          summary: '',
+          website: business.website,
+          sourceUrl: business.website,
+          sourceVerifiedAt: DIRECTORY_VERIFIED_AT,
+          source: DIRECTORY_SOURCE,
+          publicEmail: emailEvidence?.email ?? null,
+          emailSourceUrl: emailEvidence?.sourceUrl ?? null,
+          emailVerifiedAt: emailEvidence?.verifiedAt ?? null,
+        };
+      }),
     ),
   ));
 
@@ -481,11 +493,13 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
   .flatMap((business) => business.regions.flatMap((region) => business.trades.map((trade) => {
     if (!activeRegionSlugs.has(region) || !tradeSlugs.has(trade)) return null;
     const businessSlug = `${slug(business.name)}-${region}-${trade}`;
+    const mainSlug = canonicalBusinessSlug(business.name, business.website);
+    const emailEvidence = businessEmailEvidence.get(mainSlug);
     return {
       id: `verified-v1-${region}-${trade}-${slug(normalizedWebsite(business.website))}`,
       name: business.name,
       slug: businessSlug,
-      mainSlug: canonicalBusinessSlug(business.name, business.website),
+      mainSlug,
       region,
       trade,
       location: regionNames.get(region) ?? region,
@@ -494,7 +508,9 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
       sourceUrl: business.website,
       sourceVerifiedAt: DIRECTORY_VERIFIED_AT,
       source: DIRECTORY_SOURCE,
-      publicEmail: null as string | null,
+      publicEmail: emailEvidence?.email ?? null,
+      emailSourceUrl: emailEvidence?.sourceUrl ?? null,
+      emailVerifiedAt: emailEvidence?.verifiedAt ?? null,
     };
   })))
   .filter((business): business is NonNullable<typeof business> => business !== null)

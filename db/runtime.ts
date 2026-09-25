@@ -27,6 +27,8 @@ export type Business = {
   source_url: string | null;
   source_verified_at: string | null;
   public_email: string | null;
+  email_source_url: string | null;
+  email_verified_at: string | null;
 };
 
 export type BusinessProfile = Business & { main_slug: string; regions: string[]; trades: string[]; placements: Business[] };
@@ -52,6 +54,8 @@ function publicBusiness(seed: (typeof directorySeed)[number]): Business {
     source_url: seed.sourceUrl,
     source_verified_at: seed.sourceVerifiedAt,
     public_email: seed.publicEmail,
+    email_source_url: seed.emailSourceUrl,
+    email_verified_at: seed.emailVerifiedAt,
   };
 }
 
