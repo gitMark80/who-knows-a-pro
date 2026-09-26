@@ -48,7 +48,11 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Complete the required fields.' }, { status: 400 });
     }
 
-    let business = input.businessId ? await getBusiness(input.businessId) : null;
+    const testRequested = input.businessId === 'wkap-live-billing-test' || slug(businessName) === 'wkap-test-business';
+    let business = testRequested ? await getBusiness('wkap-live-billing-test') : input.businessId ? await getBusiness(input.businessId) : null;
+    if (testRequested && !business) {
+      return NextResponse.json({ error: 'The private billing test has been removed or is unavailable.' }, { status: 404 });
+    }
     if (business?.is_test && email !== 'hello@whoknowsapro.com') {
       return NextResponse.json({ error: 'This private test profile is reserved for the site owner.' }, { status: 403 });
     }
