@@ -146,6 +146,7 @@ export const schemaStatements = [
 
 export const additiveColumns = {
   businesses: [
+    ['is_test', 'INTEGER NOT NULL DEFAULT 0'],
     ['email_source_url', 'TEXT'],
     ['email_verified_at', 'TEXT'],
   ],

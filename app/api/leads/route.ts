@@ -41,7 +41,7 @@ export async function POST(request: Request) {
 
     const slot = await getActiveFeaturedSlot(region, trade);
     const featuredBusiness = slot ? await getBusiness(slot.business_id) : null;
-    const routed = Boolean(slot && featuredBusiness?.owner_email);
+    const routed = Boolean(slot && featuredBusiness?.owner_email && !featuredBusiness.is_test);
     const createdAt = Date.now();
     const leadId = crypto.randomUUID();
     const siteUrl = (config('SITE_URL') || PUBLIC_SITE_URL).replace(/\/$/, '');

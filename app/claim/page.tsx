@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: 'Claim your business',
   description: 'Claim and manage your Who Knows a Pro business profile.',
   alternates: { canonical: '/claim' },
+  robots: { index: false, follow: true },
 };
 
 export default async function ClaimPage({ searchParams }: { searchParams: Promise<{ business?: string | string[]; region?: string | string[]; trade?: string | string[]; plan?: string | string[]; error?: string | string[] }> }) {
@@ -39,10 +40,10 @@ export default async function ClaimPage({ searchParams }: { searchParams: Promis
     {verificationError ? <p role="alert" className="mt-5 rounded-xl border border-red-200 bg-red-50 p-4 text-sm font-semibold text-red-700">That verification link is invalid or expired. Submit the form again for a new link.</p> : null}
     <div className="mt-8 space-y-5">{benefits.map(([Icon, title, copy]) => <div key={title} className="flex gap-3"><span className="grid size-10 shrink-0 place-items-center rounded-xl bg-[#e6edf4]"><Icon className="size-4 text-[#142c4c]"/></span><div><h2 className="font-extrabold">{title}</h2><p className="mt-1 text-sm leading-6 text-slate-600">{copy}</p></div></div>)}</div>
     <Link href="/pricing" className="mt-7 inline-flex font-extrabold text-[#d96c20] underline underline-offset-4">Compare paid plans</Link>
-  </div><ClaimForm
+  </div><div>{business?.is_test ? <p className="mb-5 rounded-xl border border-amber-300 bg-amber-50 p-4 font-semibold">WKAP Test Business is a private billing fixture, not a real service provider. Claim only with hello@whoknowsapro.com. It will never appear in public listings or the sitemap.</p> : null}<ClaimForm
     initialBusiness={business ? { id: business.id, name: business.name, website: business.website, location: business.location, region: business.region, trade: business.trade } : null}
     initialRegion={requestedRegion}
     initialTrade={requestedTrade}
     requestedPlan={requestedPlan}
-  /></div></main><Footer/></>;
+  /></div></div></main><Footer/></>;
 }

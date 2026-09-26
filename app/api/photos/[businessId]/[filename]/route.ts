@@ -11,7 +11,7 @@ export async function GET(request: Request, context: { params: Promise<{ busines
     return new Response(null, { status: 404 });
   }
   const business = await getBusiness(businessId);
-  if (!business?.approved || !['enhanced', 'featured', 'sponsored'].includes(business.tier)) {
+  if (business?.is_test || !business?.approved || !['enhanced', 'featured', 'sponsored'].includes(business.tier)) {
     return new Response(null, { status: 404 });
   }
   const imageUrl = `/api/photos/${encodeURIComponent(businessId)}/${encodeURIComponent(filename)}`;

@@ -24,6 +24,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Choose a valid plan.' }, { status: 400 });
   }
 
+  if (business.is_test && plan === 'featured') {
+    return NextResponse.json({ error: 'This private fixture supports Enhanced billing only; it cannot reserve public Featured spots or receive real leads.' }, { status: 400 });
+  }
+
   const businessSlug = business.main_slug || business.slug;
   const existingSubscription = await getActiveSubscriptionForBusiness(businessSlug);
   if (existingSubscription) {

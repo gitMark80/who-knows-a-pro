@@ -5,7 +5,8 @@ export async function POST(request: Request) {
   try {
     const input = await request.json() as { slug?: string };
     const slug = (input.slug || '').trim().slice(0, 220);
-    if (!slug || !await getBusinessProfile(slug)) return NextResponse.json({ ok: false }, { status: 404 });
+    const result = slug ? await getBusinessProfile(slug) : null;
+    if (!result || result.profile.is_test) return NextResponse.json({ ok: false }, { status: 404 });
     const ip = (request.headers.get('x-vercel-forwarded-for') || request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown').split(',')[0].trim();
     const userAgent = (request.headers.get('user-agent') || 'unknown').slice(0, 300);
     const hour = Math.floor(Date.now() / 3_600_000);

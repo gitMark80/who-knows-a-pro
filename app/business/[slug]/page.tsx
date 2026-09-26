@@ -19,7 +19,7 @@ const loadBusiness = cache((slug: string) => getBusinessProfile(slug));
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const result = await loadBusiness(slug);
-  if (!result) return { title: 'Business profile', robots: { index: false, follow: true } };
+  if (!result || result.profile.is_test) return { title: 'Business profile', robots: { index: false, follow: true } };
   const business = result.profile;
   const region = regions.find((item) => item.slug === business.region);
   const trade = trades.find((item) => item.slug === business.trade);
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function BusinessPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const result = await loadBusiness(slug);
-  if (!result) notFound();
+  if (!result || result.profile.is_test) notFound();
   if (result.legacy) permanentRedirect(`/business/${result.profile.main_slug}`);
   const business = result.profile;
 

@@ -28,6 +28,7 @@ export const businesses = sqliteTable("businesses", {
   tier: text("tier").notNull().default("free"),
   stripeCustomerId: text("stripe_customer_id"),
   stripeSubscriptionId: text("stripe_subscription_id"),
+  isTest: integer("is_test").notNull().default(0),
   approved: integer("approved").notNull().default(0),
   updatedAt: integer("updated_at").notNull(),
 }, (t) => [uniqueIndex("idx_businesses_slug").on(t.slug), index("idx_businesses_main_slug").on(t.mainSlug), index("idx_businesses_region_trade").on(t.region, t.trade)]);

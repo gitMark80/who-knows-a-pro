@@ -65,7 +65,7 @@ export async function getFeaturedBusiness(region: string, trade: string): Promis
   const slot = await getActiveFeaturedSlot(region, trade);
   if (!slot) return null;
   const business = await getBusiness(slot.business_id);
-  if (!business) return null;
+  if (!business || business.is_test) return null;
   return { slot, business: { ...business, tier: 'featured' } };
 }
 

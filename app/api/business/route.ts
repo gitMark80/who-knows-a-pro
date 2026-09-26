@@ -12,7 +12,7 @@ export async function PATCH(request: Request) {
   if (!business) return NextResponse.json({ error: 'Sign in required.' }, { status: 401 });
 
   const input = await request.json() as Record<string, string>;
-  const name = (input.name || '').trim().slice(0, 180);
+  const name = business.is_test ? 'WKAP Test Business' : (input.name || '').trim().slice(0, 180);
   const phone = optional(input.phone, 80);
   const website = (input.website || '').trim().slice(0, 500);
   const location = (input.location || '').trim().slice(0, 300);

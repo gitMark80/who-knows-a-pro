@@ -6,6 +6,7 @@ const STATIC_UPDATED_AT = Date.UTC(2026, 8, 25);
 
 export type Business = {
   id: string;
+  is_test?: number;
   name: string;
   slug: string;
   main_slug: string | null;
@@ -115,6 +116,28 @@ async function initializeDatabase() {
       if (!names.has(name)) await db.execute(`ALTER TABLE ${table} ADD COLUMN ${name} ${type}`);
     }
   }
+
+  // One-time, explicitly authorized private billing fixture. The marker remains
+  // after cleanup so builds and cold starts never recreate a deleted test profile.
+  if (config('SITE_URL') === 'https://whoknowsapro.com' && config('STRIPE_LIVE_MODE') === 'true') {
+    await db.batch([
+      {
+        sql: `INSERT INTO businesses
+          (id,name,slug,main_slug,region,trade,location,summary,website,is_test,approved,updated_at)
+          SELECT 'wkap-live-billing-test','WKAP Test Business','wkap-test-business','wkap-test-business',
+            'pensacola-fl','lawn-care','Pensacola, FL',
+            'Private billing test fixture. Not a real service provider.',
+            'https://whoknowsapro.com',1,0,?
+          WHERE NOT EXISTS (SELECT 1 FROM directory_seed_versions WHERE id = 'private-billing-fixture-v1')
+          ON CONFLICT(id) DO NOTHING`, args: [Date.now()],
+      },
+      {
+        sql: `INSERT OR IGNORE INTO directory_seed_versions (id,version,updated_at)
+          VALUES ('private-billing-fixture-v1','1',?)`, args: [Date.now()],
+      },
+    ], 'write');
+  }
+
 }
 
 export async function sqlAll<T>(sql: string, args: InValue[] = []): Promise<T[]> {
@@ -141,7 +164,7 @@ export async function sqlBatch(statements: Array<{ sql: string; args?: InValue[]
 const overlayKeys = [
   'name', 'location', 'summary', 'website', 'phone', 'address', 'service_area', 'hours',
   'specialties', 'year_founded', 'license_number', 'logo_url', 'photo_urls', 'owner_email',
-  'tier', 'stripe_customer_id', 'stripe_subscription_id', 'source_url', 'source_verified_at',
+  'is_test', 'tier', 'stripe_customer_id', 'stripe_subscription_id', 'source_url', 'source_verified_at',
   'public_email', 'email_source_url', 'email_verified_at', 'approved', 'updated_at',
 ] as const satisfies ReadonlyArray<keyof Business>;
 
@@ -178,7 +201,7 @@ async function databaseBusinessesForPage(region?: string, trade?: string, slugs:
   if (region) { where.push('region = ?'); values.push(region); }
   if (trade) { where.push('trade = ?'); values.push(trade); }
   if (where.length) {
-    rows.push(...await sqlAll<Business>(`SELECT * FROM businesses WHERE approved = 1 AND ${where.join(' AND ')}`, values));
+    rows.push(...await sqlAll<Business>(`SELECT * FROM businesses WHERE approved = 1 AND is_test = 0 AND ${where.join(' AND ')}`, values));
   }
   if (slugs.length) {
     for (let index = 0; index < slugs.length; index += 100) {
@@ -249,7 +272,7 @@ export async function listBusinesses(region?: string, trade?: string): Promise<B
 
   const seen = new Set<string>();
   return combined
-    .filter((business) => business.approved === 1)
+    .filter((business) => business.approved === 1 && !business.is_test)
     .filter((business) => {
       let website = business.website.trim().toLowerCase().replace(/\/+$/, '');
       try {
@@ -275,7 +298,7 @@ export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: n
     try {
       const rows = await sqlAll<{ slug: string; updated_at: number }>(
         `SELECT COALESCE(main_slug, slug) AS slug, MAX(updated_at) AS updated_at
-         FROM businesses WHERE approved = 1 GROUP BY COALESCE(main_slug, slug)`,
+         FROM businesses WHERE approved = 1 AND is_test = 0 GROUP BY COALESCE(main_slug, slug)`,
       );
       for (const row of rows) slugs.set(row.slug, Math.max(slugs.get(row.slug) ?? 0, row.updated_at));
     } catch (error) {
@@ -296,7 +319,7 @@ export async function listDirectoryPairCounts(): Promise<{ region: string; trade
   if (databaseConfigured()) {
     try {
       const rows = await sqlAll<Pick<Business, 'region' | 'trade' | 'slug' | 'main_slug'>>(
-        'SELECT region,trade,slug,main_slug FROM businesses WHERE approved = 1',
+        'SELECT region,trade,slug,main_slug FROM businesses WHERE approved = 1 AND is_test = 0',
       );
       for (const business of rows) {
         const key = `${business.region}|${business.trade}`;

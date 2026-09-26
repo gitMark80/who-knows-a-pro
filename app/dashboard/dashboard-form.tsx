@@ -161,12 +161,12 @@ export function DashboardForm({ business, pageOptions, stats, requestedPlan, req
       <Button disabled={saving} className="mt-6 bg-[#142c4c] text-white hover:bg-[#203d62]">{saving ? <Loader2 className="size-4 animate-spin"/> : <Check className="size-4"/>}Save profile</Button>
     </form>
 
-    <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
+    {!business.is_test ? <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
       <h2 className="text-xl font-black">Find us badge</h2>
       <p className="mt-2 text-sm leading-6 text-slate-600">Add this linked badge to your website so customers can reach your Who Knows a Pro profile.</p>
       <div className="mt-5 grid gap-4 md:grid-cols-2">{(['light', 'dark'] as const).map((theme) => <div key={theme} className={`rounded-2xl border p-5 ${theme === 'dark' ? 'border-slate-700 bg-[#10243e]' : 'border-slate-200 bg-white'}`}><Image src={`/badges/find-us-${theme}.svg`} alt="Find us on Who Knows a Pro" width={220} height={56}/><Button type="button" variant={theme === 'dark' ? 'secondary' : 'outline'} onClick={() => copyBadge(theme)} className="mt-4"><Copy className="size-4"/>Copy {theme} badge</Button></div>)}</div>
       {badgeMessage ? <p role="status" aria-live="polite" className="mt-3 text-sm font-semibold text-[#27715c]">{badgeMessage}</p> : null}
-    </div>
+    </div> : null}
 
     <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
       <h2 className="text-xl font-black">Logo and photos</h2>
@@ -178,13 +178,13 @@ export function DashboardForm({ business, pageOptions, stats, requestedPlan, req
       <div className="flex flex-wrap items-start justify-between gap-3"><div><h2 className="text-xl font-black">Listing plan</h2><p className="mt-2 text-sm text-slate-600">Current plan: <strong className="capitalize">{business.tier === 'sponsored' ? 'Featured' : business.tier}</strong></p></div>{business.stripe_customer_id ? <Button variant="outline" onClick={billingPortal}>Manage billing</Button> : null}</div>
       <div className="mt-6 grid gap-4 md:grid-cols-2">
         <Plan name="Enhanced" price="$29/month" items={['Full profile details', 'Logo and photo gallery', 'Placement above free listings']} action={() => checkout('enhanced')} busy={checkoutPlan === 'enhanced'} selected={requestedPlan === 'enhanced'}/>
-        <div>
+        {!business.is_test ? <div>
           <Plan name="Featured" price="$99/month" items={['Everything in Enhanced', 'Exclusive top spot on one page', 'That page’s incoming leads']} action={() => checkout('featured')} busy={checkoutPlan === 'featured'} selected={requestedPlan === 'featured'} featured/>
           <Label htmlFor="featuredPage" className="mt-4 block">Featured city/category page</Label>
           <select id="featuredPage" value={selectedPage} onChange={(event) => setSelectedPage(event.target.value)} className="mt-2 h-12 w-full rounded-md border border-input bg-transparent px-3 text-sm">
             {pageOptions.map((option) => <option key={`${option.region}|${option.trade}`} value={`${option.region}|${option.trade}`}>{option.label}</option>)}
           </select>
-        </div>
+        </div> : null}
       </div>
       <p className="mt-5 text-xs leading-5 text-slate-500">Checkout uses Stripe’s hosted payment page. The Featured spot is checked and reserved immediately before checkout.</p>
     </div>

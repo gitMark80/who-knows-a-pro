@@ -49,6 +49,9 @@ export async function POST(request: Request) {
     }
 
     let business = input.businessId ? await getBusiness(input.businessId) : null;
+    if (business?.is_test && email !== 'hello@whoknowsapro.com') {
+      return NextResponse.json({ error: 'This private test profile is reserved for the site owner.' }, { status: 403 });
+    }
     const now = Date.now();
     const businessId = business?.id || crypto.randomUUID();
     const recent = await sqlOne<{ id: string }>(
