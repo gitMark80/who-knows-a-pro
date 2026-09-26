@@ -59,12 +59,17 @@ export async function POST(request: Request) {
     reservationId = reservation.id;
   }
 
+  let checkoutSessionId: string | null = null;
+  let checkoutCreationStarted = false;
   try {
     const origin = requestOrigin(request);
     const client = stripe();
+    const price = priceForPlan(plan);
+    checkoutCreationStarted = true;
     const session = await client.checkout.sessions.create({
       mode: 'subscription',
-      line_items: [{ price: priceForPlan(plan), quantity: 1 }],
+      line_items: [{ price, quantity: 1 }],
+      expires_at: Math.floor(Date.now() / 1_000) + 31 * 60,
       success_url: `${origin}/dashboard?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/dashboard?checkout=cancelled`,
       client_reference_id: business.id,
@@ -88,13 +93,25 @@ export async function POST(request: Request) {
           featured_trade: featuredTrade || '',
         },
       },
-    });
+    }, reservationId ? { idempotencyKey: `featured-${reservationId}` } : undefined);
+    checkoutSessionId = session.id;
     if (!session.url) throw new Error('Stripe did not return a Checkout URL');
     if (reservationId) await attachCheckoutToFeaturedSlot(reservationId, session.id);
     return NextResponse.json({ url: session.url });
   } catch (error) {
-    if (reservationId) await releaseFeaturedReservation(reservationId);
+    if (reservationId) {
+      // Never free a spot while an existing (or ambiguously created) checkout
+      // might still accept payment. Expire it first, or leave the lock intact.
+      let safeToRelease = !checkoutCreationStarted;
+      if (checkoutSessionId) {
+        try {
+          const expired = await stripe().checkout.sessions.expire(checkoutSessionId);
+          safeToRelease = expired.status === 'expired';
+        } catch { /* Keep the reservation when Stripe cannot confirm expiration. */ }
+      }
+      if (safeToRelease) await releaseFeaturedReservation(reservationId);
+    }
     console.error('Stripe Checkout creation failed', error);
-    return NextResponse.json({ error: 'Checkout is not available yet. Verify the Stripe test connection and try again.' }, { status: 503 });
+    return NextResponse.json({ error: 'Checkout is temporarily unavailable. Please try again later.' }, { status: 503 });
   }
 }

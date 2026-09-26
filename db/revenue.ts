@@ -74,7 +74,8 @@ export async function pageHasUnavailableFeaturedSlot(region: string, trade: stri
   const slot = await sqlOne<FeaturedSlot>(
     `SELECT * FROM featured_slots
      WHERE region = ? AND trade = ?
-       AND (status = 'active' OR (status = 'pending' AND reserved_until > ?))
+       AND (status = 'active' OR (status = 'pending' AND
+         (stripe_checkout_session_id IS NOT NULL OR reserved_until > ?)))
      LIMIT 1`,
     [region, trade, now],
   );
@@ -87,14 +88,17 @@ export async function reserveFeaturedSlot(input: { region: string; trade: string
   await sqlBatch([
     {
       sql: `DELETE FROM featured_slots
-            WHERE region = ? AND trade = ? AND status = 'pending' AND reserved_until <= ?`,
+            WHERE region = ? AND trade = ? AND status = 'pending'
+              AND stripe_checkout_session_id IS NULL AND reserved_until <= ?`,
       args: [input.region, input.trade, now],
     },
     {
       sql: `INSERT OR IGNORE INTO featured_slots
             (id,region,trade,business_id,business_slug,status,reserved_until,updated_at)
             VALUES (?,?,?,?,?,'pending',?,?)`,
-      args: [id, input.region, input.trade, input.businessId, input.businessSlug, now + 30 * 60_000, now],
+      // Attached sessions are released only by Stripe's expiration webhook.
+      // A crash before attachment stays locked beyond Stripe's maximum 24h lifetime.
+      args: [id, input.region, input.trade, input.businessId, input.businessSlug, now + 25 * 60 * 60_000, now],
     },
   ]);
   const slot = await sqlOne<FeaturedSlot>('SELECT * FROM featured_slots WHERE region = ? AND trade = ?', [input.region, input.trade]);
@@ -102,11 +106,12 @@ export async function reserveFeaturedSlot(input: { region: string; trade: string
 }
 
 export async function attachCheckoutToFeaturedSlot(slotId: string, checkoutSessionId: string) {
-  await sqlRun(
+  const result = await sqlRun(
     `UPDATE featured_slots SET stripe_checkout_session_id = ?, updated_at = ?
      WHERE id = ? AND status = 'pending'`,
     [checkoutSessionId, Date.now(), slotId],
   );
+  if (result.rowsAffected !== 1) throw new Error('Featured reservation was lost before checkout attachment');
 }
 
 export async function releaseFeaturedReservation(slotId: string) {
