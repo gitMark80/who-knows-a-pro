@@ -20,6 +20,6 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     [await sha256(token), Date.now() + 86_400_000, id],
   );
   const link = `${requestOrigin(request)}/api/verify-claim?token=${encodeURIComponent(token)}`;
-  await sendEmail(claim.email, `Your ${claim.business_name} claim was approved`, `<p>Your ownership request for <strong>${escapeHtml(claim.business_name)}</strong> was approved.</p><p><a href="${link}">Open your business dashboard</a></p><p>This secure link expires in 24 hours.</p>`);
+  await sendEmail(claim.email, `Your ${claim.business_name} claim was approved`, `<h1>Your business claim is approved</h1><p>Your ownership request for <strong>${escapeHtml(claim.business_name)}</strong> on Who Knows a Pro was approved. Use the secure link below to finish signing in and manage this listing.</p><p><a href="${link}">Open your business dashboard</a></p><p>This single-use link expires in 24 hours. Keep it private. Your free claim does not purchase a subscription; paid upgrades are optional.</p><p>If you did not request this claim, contact us instead of using the link.</p>`);
   return NextResponse.redirect(new URL('/admin', request.url), 303);
 }

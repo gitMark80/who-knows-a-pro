@@ -164,7 +164,7 @@ export async function POST(request: Request) {
         await sendEmail(
           adminEmail,
           `Claim review: ${business.name}`,
-          `<p>${escapeHtml(contactName)} (${escapeHtml(email)}) requested access to <strong>${escapeHtml(business.name)}</strong>.</p><p>${escapeHtml(note || 'No note supplied.')}</p><p><a href="${requestOrigin(request)}/admin">Review request</a></p>`,
+          `<h1>Business claim needs review</h1><p>This is an admin notification from Who Knows a Pro. The submitted email domain did not qualify for automatic verification. Review ownership before approving access.</p><p>${escapeHtml(contactName)} (${escapeHtml(email)}) requested access to <strong>${escapeHtml(business.name)}</strong>.</p><p>${escapeHtml(note || 'No note supplied.')}</p><p><a href="${requestOrigin(request)}/admin">Review request</a></p>`,
         );
       } catch (error) {
         console.error('Could not send claim review notification', error);
@@ -178,5 +178,5 @@ export async function POST(request: Request) {
 }
 
 function verificationEmail(name: string, link: string) {
-  return `<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto"><h1>Verify your business profile</h1><p>Use the button below to confirm that you represent <strong>${escapeHtml(name)}</strong>.</p><p><a href="${link}" style="display:inline-block;background:#ec7d2c;color:white;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:bold">Verify business</a></p><p>This link expires in 24 hours.</p></div>`;
+  return `<h1>Verify your free business claim</h1><p>You requested to claim or manage <strong>${escapeHtml(name)}</strong> on Who Knows a Pro.</p><p>Confirm your email address using the secure link below to finish this claim and open your business dashboard. Only continue if you are authorized to represent this business.</p><p><a href="${escapeHtml(link)}" style="display:inline-block;background:#ec7d2c;color:#172b49;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:bold">Verify email and open dashboard</a></p><p>This single-use link expires in 24 hours. Keep it private.</p><p>Claiming is free. This verification does not purchase a plan or charge a card; paid upgrades are optional.</p><p>If you did not request this claim, ignore this email or contact us. Do not forward the verification link.</p>`;
 }

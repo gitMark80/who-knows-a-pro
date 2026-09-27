@@ -65,7 +65,7 @@ export async function POST(request: Request) {
     const emailTasks: Array<Promise<void>> = [];
     if (emailConfigured() && ownerEmail) {
       emailTasks.push(
-        sendEmail(ownerEmail, `New quote request: ${tradeName} in ${regionName}`, leadEmail({ name, email, phone, zip, jobDescription, preferredContactMethod, regionName, tradeName, pageUrl, routedTo: featuredBusiness?.name || null }))
+        sendEmail(ownerEmail, `New quote request: ${tradeName} in ${regionName}`, leadEmail({ name, email, phone, zip, jobDescription, preferredContactMethod, regionName, tradeName, pageUrl, routedTo: routed ? featuredBusiness!.name : null }))
           .then(() => sqlRun(`UPDATE leads SET owner_notification_status = 'sent' WHERE id = ?`, [leadId]).then(() => undefined))
           .catch(async (error) => {
             console.error('Lead owner notification failed', error);
@@ -124,9 +124,9 @@ function leadDetails(input: LeadEmailInput) {
 }
 
 function leadEmail(input: LeadEmailInput & { pageUrl: string; routedTo: string | null }) {
-  return `<h1>New quote request</h1><p><strong>${escapeHtml(input.tradeName)}</strong> in <strong>${escapeHtml(input.regionName)}</strong></p>${leadDetails(input)}<p><strong>Routing:</strong> ${input.routedTo ? `Sent to ${escapeHtml(input.routedTo)}` : 'Unsold — held in the admin queue'}</p><p><a href="${input.pageUrl}">View the directory page</a></p>`;
+  return `<h1>New quote request</h1><p>Admin notification: a visitor submitted the quote form on Who Knows a Pro.</p><p><strong>${escapeHtml(input.tradeName)}</strong> in <strong>${escapeHtml(input.regionName)}</strong></p>${leadDetails(input)}<p><strong>Routing:</strong> ${input.routedTo ? `Assigned to ${escapeHtml(input.routedTo)} — check the admin dashboard for email notification status` : 'Unsold — held in the admin queue'}</p><p><a href="${input.pageUrl}">View the directory page</a></p>`;
 }
 
 function businessLeadEmail(input: LeadEmailInput) {
-  return `<h1>New lead from Who Knows a Pro</h1><p>This customer requested quotes for <strong>${escapeHtml(input.tradeName)}</strong> in <strong>${escapeHtml(input.regionName)}</strong>.</p>${leadDetails(input)}<p>Please contact the customer directly. Do not share or resell this lead.</p>`;
+  return `<h1>New lead from Who Knows a Pro</h1><p>This customer requested quotes for <strong>${escapeHtml(input.tradeName)}</strong> in <strong>${escapeHtml(input.regionName)}</strong>.</p>${leadDetails(input)}<p>You received this request because your business holds the Featured spot on this city/category page. Please contact the customer directly using their preferred contact method. Do not share or resell this lead.</p>`;
 }

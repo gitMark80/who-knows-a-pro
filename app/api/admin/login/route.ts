@@ -26,6 +26,6 @@ export async function POST(request: Request) {
     [await sha256(token), email, expiresAt, Date.now()],
   );
   const link = `${requestOrigin(request)}/api/admin/verify?token=${encodeURIComponent(token)}`;
-  await sendEmail(email, 'Your Who Knows a Pro admin sign-in link', `<h1>Admin sign in</h1><p><a href="${link}">Open the lead dashboard</a></p><p>This single-use link expires in 15 minutes.</p>`);
+  await sendEmail(email, 'Your Who Knows a Pro admin sign-in link', `<h1>Sign in to your admin dashboard</h1><p>A sign-in link was requested for the Who Knows a Pro admin dashboard. Use it to review quote requests and business claims.</p><p><a href="${link}">Open the lead dashboard</a></p><p>This single-use link expires in 15 minutes. Keep it private. If you did not request it, ignore this email.</p>`);
   return NextResponse.json({ message: genericMessage });
 }
