@@ -14,6 +14,8 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--base-url', default='https://whoknowsapro.com')
 parser.add_argument('--minimum', type=int, default=5)
 parser.add_argument('--output', default='reports/live-directory-coverage.csv')
+parser.add_argument('--allow-shortfalls', action='store_true',
+                    help='Report gaps without failing; fetch and parsing errors still fail')
 args = parser.parse_args()
 root = Path(__file__).resolve().parent.parent
 catalog = (root / 'data/catalog.ts').read_text()
@@ -69,4 +71,4 @@ print(json.dumps(dict(cities=len(regions), categories=len(trades), pairs=len(row
                       meets_minimum=len(rows)-below, below_minimum=below,
                       empty=sum(row['listing_count'] == 0 for row in rows),
                       missing_placements=sum(row['missing'] for row in rows)), indent=2))
-sys.exit(1 if below else 0)
+sys.exit(1 if below and not args.allow_shortfalls else 0)

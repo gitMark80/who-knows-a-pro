@@ -1,0 +1,62 @@
+name: Collect directory website candidates
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_requests:
+        description: 'Maximum Foursquare API searches (0 = dry run; 1,600 maximum)'
+        required: true
+        default: '0'
+        type: number
+
+permissions:
+  contents: read
+
+concurrency:
+  group: directory-candidate-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check request ceiling
+        env:
+          MAX_REQUESTS: ${{ inputs.max_requests }}
+        run: |
+          python - <<'PY'
+          import os
+          value = int(os.environ['MAX_REQUESTS'])
+          if not 0 <= value <= 1600:
+              raise SystemExit('Choose a request ceiling between 0 and 1600')
+          PY
+      - name: Refresh live coverage
+        run: python scripts/audit-live-directory.py --allow-shortfalls
+      - uses: actions/cache/restore@v4
+        with:
+          path: research/foursquare-candidates
+          key: directory-foursquare-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: directory-foursquare-v1-
+      - name: Collect candidates for deficient pages
+        env:
+          FOURSQUARE_API_KEY: ${{ secrets.FOURSQUARE_API_KEY }}
+          MAX_REQUESTS: ${{ inputs.max_requests }}
+        run: python scripts/collect-directory-candidates.py --max-requests "$MAX_REQUESTS"
+      - uses: actions/cache/save@v4
+        if: always() && hashFiles('research/foursquare-candidates/*.json') != ''
+        with:
+          path: research/foursquare-candidates
+          key: directory-foursquare-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: directory-website-candidates-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            reports/live-directory-coverage.csv
+            research/foursquare-candidates/
