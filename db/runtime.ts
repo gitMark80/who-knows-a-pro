@@ -246,7 +246,7 @@ export async function upsertBusinessRecord(business: Business) {
   );
 }
 
-export async function listBusinesses(region?: string, trade?: string): Promise<Business[]> {
+export async function listBusinesses(region?: string, trade?: string, limit = 200): Promise<Business[]> {
   const base = publicDirectory.filter((business) => (!region || business.region === region) && (!trade || business.trade === trade));
   let databaseRows: Business[] = [];
   try {
@@ -288,7 +288,7 @@ export async function listBusinesses(region?: string, trade?: string): Promise<B
       const rank = (tier: string) => tier === 'featured' || tier === 'sponsored' ? 0 : tier === 'enhanced' ? 1 : 2;
       return rank(a.tier) - rank(b.tier) || Number(Boolean(b.owner_email)) - Number(Boolean(a.owner_email)) || a.name.localeCompare(b.name);
     })
-    .slice(0, 200);
+    .slice(0, limit);
 }
 
 export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: number }[]> {
@@ -343,7 +343,8 @@ export async function listListedDirectoryPairs(): Promise<{ region: string; trad
 
 export async function listCategoryCounts(region: string): Promise<{ trade: string; count: number }[]> {
   const counts = new Map<string, Set<string>>();
-  for (const business of await listBusinesses(region)) {
+  // Counts must include the whole city, not just the first page of results.
+  for (const business of await listBusinesses(region, undefined, Infinity)) {
     const profiles = counts.get(business.trade) ?? new Set<string>();
     profiles.add(canonicalSlug(business));
     counts.set(business.trade, profiles);
