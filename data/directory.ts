@@ -1,14 +1,16 @@
 import { activeRegions, regions, slug, trades, type RegionSlug } from './catalog';
 import { expandedProviders } from './expanded-directory';
 import { newCategoryProviders } from './new-category-providers';
-import verifiedActiveProvidersData from './verified-active-providers.json';
+import originalVerifiedProvidersData from './verified-active-providers.json';
+import verifiedExpansionData from './verified-expansion-2026-09-28.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
 type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
-type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[] };
+type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; sourceUrl?: string; sourceVerifiedAt?: string };
+const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(
@@ -505,8 +507,8 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
       location: regionNames.get(region) ?? region,
       summary: '',
       website: business.website,
-      sourceUrl: business.website,
-      sourceVerifiedAt: DIRECTORY_VERIFIED_AT,
+      sourceUrl: business.sourceUrl ?? business.website,
+      sourceVerifiedAt: business.sourceVerifiedAt ?? DIRECTORY_VERIFIED_AT,
       source: DIRECTORY_SOURCE,
       publicEmail: emailEvidence?.email ?? null,
       emailSourceUrl: emailEvidence?.sourceUrl ?? null,
