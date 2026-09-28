@@ -45,6 +45,11 @@ const regionDefinitions = [
   { slug: 'montgomery-al', name: 'Montgomery, AL', state: 'AL', batch: 'batch1' },
   { slug: 'huntsville-al', name: 'Huntsville, AL', state: 'AL', batch: 'batch1' },
 
+  { slug: 'grayton-beach-fl', name: 'Grayton Beach, FL', state: 'FL', batch: 'batch1' },
+  { slug: 'panama-city-fl', name: 'Panama City, FL', state: 'FL', batch: 'batch1' },
+  { slug: 'auburn-al', name: 'Auburn, AL', state: 'AL', batch: 'batch1' },
+  { slug: 'dothan-al', name: 'Dothan, AL', state: 'AL', batch: 'batch1' },
+
   { slug: 'new-york-ny', name: 'New York, NY', state: 'NY', batch: 'batch2' },
   { slug: 'los-angeles-ca', name: 'Los Angeles, CA', state: 'CA', batch: 'batch2' },
   { slug: 'chicago-il', name: 'Chicago, IL', state: 'IL', batch: 'batch2' },
@@ -146,6 +151,9 @@ export const trades = [
   { slug: 'screen-enclosures-pool-cages', name: 'Screen enclosures & pool cages' },
   { slug: 'hurricane-shutters-impact-windows', name: 'Hurricane shutters & impact windows' },
   { slug: 'trading-card-stores', name: 'Trading card stores' },
+  { slug: 'home-inspections', name: 'Home inspections' },
+  { slug: 'irrigation-sprinkler-repair', name: 'Irrigation & sprinkler repair' },
+  { slug: 'mobile-auto-detailing', name: 'Mobile auto detailing' },
 ] as const;
 
 export type TradeSlug = (typeof trades)[number]['slug'];

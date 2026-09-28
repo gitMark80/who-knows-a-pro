@@ -1,7 +1,7 @@
 import { activeRegions, type RegionSlug } from './catalog';
 
 const neighborhoodGroups: readonly (readonly RegionSlug[])[] = [
-  ['perdido-key-fl', 'pensacola-fl', 'gulf-breeze-fl', 'pace-fl', 'milton-fl', 'navarre-fl', 'fort-walton-beach-fl', 'destin-fl', 'crestview-fl', 'panama-city-beach-fl'],
+  ['perdido-key-fl', 'pensacola-fl', 'gulf-breeze-fl', 'pace-fl', 'milton-fl', 'navarre-fl', 'fort-walton-beach-fl', 'destin-fl', 'crestview-fl', 'grayton-beach-fl', 'panama-city-beach-fl', 'panama-city-fl'],
   ['orange-beach-al', 'gulf-shores-al', 'foley-al', 'fairhope-al', 'daphne-al', 'mobile-al'],
   ['biloxi-ms', 'gulfport-ms'],
   ['new-orleans-la', 'baton-rouge-la'],
@@ -9,7 +9,7 @@ const neighborhoodGroups: readonly (readonly RegionSlug[])[] = [
   ['orlando-fl', 'tampa-fl', 'st-petersburg-fl', 'clearwater-fl'],
   ['sarasota-fl', 'fort-myers-fl', 'naples-fl'],
   ['miami-fl', 'fort-lauderdale-fl', 'west-palm-beach-fl'],
-  ['birmingham-al', 'montgomery-al', 'huntsville-al'],
+  ['huntsville-al', 'birmingham-al', 'montgomery-al', 'auburn-al', 'dothan-al'],
   ['atlanta-ga', 'birmingham-al', 'huntsville-al', 'montgomery-al', 'tallahassee-fl', 'jacksonville-fl'],
 ];
 
