@@ -3,6 +3,7 @@ import { expandedProviders } from './expanded-directory';
 import { newCategoryProviders } from './new-category-providers';
 import originalVerifiedProvidersData from './verified-active-providers.json';
 import verifiedExpansionData from './verified-expansion-2026-09-28.json';
+import verifiedCoverageData from './verified-coverage-2026-09-28.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -10,7 +11,7 @@ type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
 type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; sourceUrl?: string; sourceVerifiedAt?: string };
-const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData];
+const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(
