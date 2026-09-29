@@ -162,3 +162,10 @@ Remaining nearby gaps (confirmed live count):
 - fort-walton-beach-fl: auto-body-collision=1, hurricane-shutters-impact-windows=2, pool-installation=4, screen-enclosures-pool-cages=3, trading-card-stores=1.
 - crestview-fl: auto-body-collision=2, flooring=3, generator-installation=4, handyman=4, hurricane-shutters-impact-windows=1, pool-installation=3, screen-enclosures-pool-cages=4, towing=3, trading-card-stores=1.
 - grayton-beach-fl: appliance-repair=4, auto-body-collision=1, auto-mechanics=0, carpet-cleaning=0, concrete=1, fence-builders=1, flooring=2, generator-installation=1, gutters=2, handyman=3, hurricane-shutters-impact-windows=0, insulation=2, irrigation-sprinkler-repair=4, junk-removal=0, kitchen-bath-remodeling=2, locksmith=2, marine-services=0, mobile-auto-detailing=4, movers=0, pest-control=2, pool-installation=1, pool-service=1, screen-enclosures-pool-cages=1, septic-services=1, towing=0, trading-card-stores=0, tree-service=2, water-damage-mold-remediation=0, window-tinting=0.
+
+## Coastal pools and windows continuation — 2026-09-29, run 1828
+
+- Baseline 4ff7a51; prepared 35 placements across 11 approved cities using explicit official city and service evidence. Source records and exclusions: `reports/verified-coastal-pools-windows-2026-09-29.json`.
+- All 5,584 existing seed records unchanged by complete-value comparison; 5,619 total. Unique IDs and canonical domain/city/category checks passed. No paid API calls, billing, claimed records or application code changes.
+- Expected six more pairs reach five, including pool installation and hurricane protection in Destin, Fort Walton Beach and Crestview. Grayton Beach gains first carpet cleaning and water-damage entries.
+- Publication and live verification pending. Refresh current main before subsequent writes.
