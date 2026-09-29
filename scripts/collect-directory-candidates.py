@@ -58,13 +58,62 @@ QUERIES = {
     'marine-services': 'boat repair marine service',
     'screen-enclosures-pool-cages': 'screen enclosure contractor',
     'hurricane-shutters-impact-windows': 'hurricane shutters impact windows',
-    'trading-card-stores': 'trading card store',
-    'home-inspections': 'home inspector',
-    'irrigation-sprinkler-repair': 'irrigation sprinkler repair',
-    'mobile-auto-detailing': 'mobile auto detailing',
+    'trading-card-stores': 'trading cards',
+    'home-inspections': 'inspection',
+    'irrigation-sprinkler-repair': 'irrigation',
+    'mobile-auto-detailing': 'detailing',
 }
+# IDs observed in Places API responses; category matching is only a review gate.
+CATEGORY_IDS = {
+    'home-inspections': '63be6904847c3692a84b9b57',
+    'mobile-auto-detailing': '4f04ae1f2fb6e1c99f3db0ba',
+    'auto-mechanics': '52f2ab2ebcbc57f1066b8b44',
+    'electrical': '63be6904847c3692a84b9b52',
+    'locksmith': '52f2ab2ebcbc57f1066b8b1e',
+    'roofing': '63be6904847c3692a84b9b61',
+    'landscaping': '63be6904847c3692a84b9b5b',
+}
+TRADE_PATTERNS = {
+    'hvac': r'hvac|heating|air condition', 'plumbing': r'plumb',
+    'auto-mechanics': r'auto.*repair|mechanic', 'roofing': r'roof',
+    'electrical': r'electric', 'lawn-care': r'lawn|landscap|garden',
+    'pest-control': r'pest|exterminat', 'house-cleaning': r'cleaning|maid',
+    'landscaping': r'landscap|garden', 'tree-service': r'tree|arborist',
+    'garage-door-repair': r'garage door', 'locksmith': r'locksmith',
+    'appliance-repair': r'appliance', 'movers': r'moving|mover',
+    'handyman': r'handyman', 'painting': r'paint',
+    'pool-service': r'pool', 'kitchen-bath-remodeling': r'remodel|kitchen|bath',
+    'flooring': r'floor|tile|carpet', 'towing': r'towing|wrecker',
+    'auto-body-collision': r'auto body|collision', 'fence-builders': r'fenc',
+    'junk-removal': r'junk|hauling|waste|rubbish',
+    'water-damage-mold-remediation': r'water damage|restoration|mold|remediation',
+    'concrete': r'concrete|masonry', 'gutters': r'gutter',
+    'carpet-cleaning': r'carpet.*clean|clean.*carpet',
+    'pressure-washing': r'pressure wash|power wash|soft wash',
+    'septic-services': r'septic', 'pool-installation': r'pool',
+    'window-tinting': r'tint', 'generator-installation': r'generator',
+    'insulation': r'insulation', 'marine-services': r'boat|marine|yacht',
+    'screen-enclosures-pool-cages': r'screen|enclosure|pool cage',
+    'hurricane-shutters-impact-windows': r'hurricane|shutter|impact window',
+    'trading-card-stores': r'trading card|sports card|collectible|hobby|game store',
+    'home-inspections': r'home inspect|property inspect|building inspect',
+    'irrigation-sprinkler-repair': r'irrigation|sprinkler',
+    'mobile-auto-detailing': r'detail|car wash',
+}
+
+
+def relevant_trade(place, trade):
+    # No keyword in an address or URL can qualify an unrelated business.
+    text = ' '.join([str(place.get('name') or '')] +
+                    [str(c.get('name') or '') for c in place.get('categories') or []])
+    if re.search(r'board of|licensing|training school', text, re.I):
+        return False
+    return bool(re.search(TRADE_PATTERNS[trade], text, re.I))
+
+
 EXCLUDED_DOMAINS = ('google.com', 'yelp.com', 'angi.com', 'homeadvisor.com',
-                    'yellowpages.com', 'facebook.com', 'instagram.com', 'foursquare.com')
+                    'yellowpages.com', 'facebook.com', 'instagram.com', 'foursquare.com',
+                    'hub.biz', 'showmelocal.com', 'eventful.com', 'zillow.com')
 
 
 def website_domain(value):
@@ -102,6 +151,8 @@ def candidates(pair, response, source_url, fetched_at):
         if not domain or not name or not place.get('fsq_place_id'):
             continue
         if place.get('date_closed') or place.get('unresolved_flags'):
+            continue
+        if not relevant_trade(place, pair['category_slug']):
             continue
         name_key = normalized(name)
         if domain in seen_domains or name_key in seen_names:
@@ -167,6 +218,8 @@ def main():
     for pair in pairs:
         params = {'near': pair['city'] + ', USA', 'query': QUERIES[pair['category_slug']],
                   'limit': 50, 'fields': FIELDS}
+        if pair['category_slug'] in CATEGORY_IDS:
+            params['fsq_category_ids'] = CATEGORY_IDS[pair['category_slug']]
         url = ENDPOINT + '?' + urllib.parse.urlencode(params)
         cache_id = hashlib.sha256((url + VERSION).encode()).hexdigest()[:20]
         path = args.output / (cache_id + '.json')
