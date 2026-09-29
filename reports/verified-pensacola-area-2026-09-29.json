@@ -1,0 +1,635 @@
+{
+  "verifiedAt": "2026-09-29",
+  "before": 4396,
+  "after": 4501,
+  "added": 105,
+  "complete": 316,
+  "missing": 4884,
+  "newComplete": [
+    {
+      "region": "pensacola-fl",
+      "trade": "house-cleaning",
+      "count": 5
+    },
+    {
+      "region": "pensacola-fl",
+      "trade": "garage-door-repair",
+      "count": 5
+    },
+    {
+      "region": "pensacola-fl",
+      "trade": "appliance-repair",
+      "count": 5
+    },
+    {
+      "region": "pensacola-fl",
+      "trade": "movers",
+      "count": 5
+    },
+    {
+      "region": "pensacola-fl",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "pensacola-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "count": 5
+    },
+    {
+      "region": "pensacola-fl",
+      "trade": "mobile-auto-detailing",
+      "count": 5
+    },
+    {
+      "region": "gulf-breeze-fl",
+      "trade": "house-cleaning",
+      "count": 5
+    },
+    {
+      "region": "gulf-breeze-fl",
+      "trade": "garage-door-repair",
+      "count": 5
+    },
+    {
+      "region": "gulf-breeze-fl",
+      "trade": "movers",
+      "count": 5
+    },
+    {
+      "region": "gulf-breeze-fl",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "gulf-breeze-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "count": 5
+    },
+    {
+      "region": "gulf-breeze-fl",
+      "trade": "mobile-auto-detailing",
+      "count": 5
+    },
+    {
+      "region": "navarre-fl",
+      "trade": "house-cleaning",
+      "count": 5
+    },
+    {
+      "region": "navarre-fl",
+      "trade": "garage-door-repair",
+      "count": 5
+    },
+    {
+      "region": "navarre-fl",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "navarre-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "count": 5
+    },
+    {
+      "region": "perdido-key-fl",
+      "trade": "house-cleaning",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "house-cleaning",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "mobile-auto-detailing",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "house-cleaning",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "mobile-auto-detailing",
+      "count": 5
+    }
+  ],
+  "additions": [
+    {
+      "name": "Elevate Auto & Marine Care",
+      "website": "https://elevateautoandmarine.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://elevateautoandmarine.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Pensacola Auto Spa",
+      "website": "https://pensacolaautospa.com/contact-us/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://pensacolaautospa.com/contact-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Anthony's Mobile Detailing",
+      "website": "https://anthonysmobiledetailing.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://anthonysmobiledetailing.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: pensacola-fl, gulf-breeze-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Spick & Span Mobile Detailing",
+      "website": "https://spickandspanmobiledetailing.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://spickandspanmobiledetailing.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: pensacola-fl, gulf-breeze-fl, pace-fl, navarre-fl."
+    },
+    {
+      "name": "Direct Detailers",
+      "website": "https://directdetailers.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://directdetailers.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: pensacola-fl, gulf-breeze-fl, milton-fl, pace-fl."
+    },
+    {
+      "name": "Aqua Spa Mobile Detailing",
+      "website": "https://aquaspamobile.com/",
+      "regions": [
+        "milton-fl",
+        "orange-beach-al",
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://aquaspamobile.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: milton-fl, orange-beach-al, gulf-shores-al."
+    },
+    {
+      "name": "Detailguy",
+      "website": "https://detailguy11.com/",
+      "regions": [
+        "orange-beach-al",
+        "foley-al"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://detailguy11.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms mobile auto detailing services and the listed local service areas: orange-beach-al, foley-al."
+    },
+    {
+      "name": "HydraFlow Irrigation",
+      "website": "https://www.hydraflowirrigationfl.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.hydraflowirrigationfl.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: pensacola-fl, gulf-breeze-fl, navarre-fl."
+    },
+    {
+      "name": "R House",
+      "website": "https://www.rhouseservices.com/services/lawn-care/sprinkler-system-repair",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.rhouseservices.com/services/lawn-care/sprinkler-system-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "Octopus Solutions",
+      "website": "https://www.octopussolutionsllc.com/services/irrigation-repair",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.octopussolutionsllc.com/services/irrigation-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "Town & Country Irrigation Service",
+      "website": "https://town-and-country-irrigation-service.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://town-and-country-irrigation-service.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "The Wallace Company",
+      "website": "https://www.thewallacecompany.com/services/irrigation",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.thewallacecompany.com/services/irrigation",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "MacDaddy Irrigation",
+      "website": "https://macdaddyirrigation.com/irrigation-services/",
+      "regions": [
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://macdaddyirrigation.com/irrigation-services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: gulf-breeze-fl, navarre-fl."
+    },
+    {
+      "name": "Aitken's On Demand",
+      "website": "https://www.aitkensondemand.com/irrigation",
+      "regions": [
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.aitkensondemand.com/irrigation",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: gulf-breeze-fl, navarre-fl."
+    },
+    {
+      "name": "Knight Landscape Concepts",
+      "website": "https://knightlandscapeconcepts.com/irrigation-services/",
+      "regions": [
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://knightlandscapeconcepts.com/irrigation-services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: gulf-breeze-fl, navarre-fl."
+    },
+    {
+      "name": "Coastal Lawn and Landscaping",
+      "website": "https://www.coastallawnandlandscaping.com/irrigation",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.coastallawnandlandscaping.com/irrigation",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and the listed local service areas: gulf-breeze-fl."
+    },
+    {
+      "name": "Accutech Carpet and Tile Cleaning",
+      "website": "https://www.accutechclean.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.accutechclean.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms carpet cleaning services and the listed local service areas: pensacola-fl, gulf-breeze-fl, navarre-fl."
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "website": "https://www.procleannotsomekid.com/carpet-cleaning",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.procleannotsomekid.com/carpet-cleaning",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms carpet cleaning services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Pensacola Carpet and Tile Cleaning",
+      "website": "https://www.pensacolacarpetandtilecleaning.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.pensacolacarpetandtilecleaning.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms carpet cleaning services and the listed local service areas: gulf-breeze-fl, perdido-key-fl."
+    },
+    {
+      "name": "Christopher's Chem-Dry",
+      "website": "https://www.christopherschemdry.com/services/",
+      "regions": [
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.christopherschemdry.com/services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms carpet cleaning services and the listed local service areas: perdido-key-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Precision Garage Door Service of Pensacola",
+      "website": "https://precisiondoorpensacola.com/service-areas",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://precisiondoorpensacola.com/service-areas",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms garage door repair services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, navarre-fl."
+    },
+    {
+      "name": "ProLift Garage Doors of Florida Panhandle",
+      "website": "https://book.proliftdoors.com/florida-panhandle/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://book.proliftdoors.com/florida-panhandle/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms garage door repair services and the listed local service areas: pensacola-fl, gulf-breeze-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "RTS All-American Garage Doors",
+      "website": "https://www.rtsallamericangaragedoors.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.rtsallamericangaragedoors.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms garage door repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "American Garage Door",
+      "website": "https://www.garagedoorus.com/fl/",
+      "regions": [
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.garagedoorus.com/fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms garage door repair services and the listed local service areas: gulf-breeze-fl, perdido-key-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Paradise Appliance Repair",
+      "website": "https://www.paradiserepairpensacola.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.paradiserepairpensacola.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site offers appliance repair throughout Escambia and Santa Rosa Counties and names Pensacola, Perdido, Gulf Breeze, Pace and Milton; Navarre is within Santa Rosa County."
+    },
+    {
+      "name": "Scott's Appliance Service",
+      "website": "https://www.scottsappservice.com/about-us/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.scottsappservice.com/about-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms appliance repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "Florida Man Residential",
+      "website": "https://floridamanresidential.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://floridamanresidential.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms appliance repair services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "Rowe's Moving",
+      "website": "https://rowesmoving.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://rowesmoving.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Two Men and a Truck Pensacola",
+      "website": "https://twomenandatruck.com/movers/fl/pensacola",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://twomenandatruck.com/movers/fl/pensacola",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and the listed local service areas: pensacola-fl."
+    },
+    {
+      "name": "Coastal Moving & Storage",
+      "website": "https://www.mycoastalmoving.com/service-areas",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.mycoastalmoving.com/service-areas",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and the listed local service areas: pensacola-fl, gulf-breeze-fl, navarre-fl."
+    },
+    {
+      "name": "ASAP Movers 808",
+      "website": "https://asapmovers808llc.com/",
+      "regions": [
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://asapmovers808llc.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and the listed local service areas: perdido-key-fl, gulf-breeze-fl, milton-fl."
+    },
+    {
+      "name": "Two Maids Pensacola",
+      "website": "https://www.twomaidscleaning.com/pensacola/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "house-cleaning"
+      ],
+      "sourceUrl": "https://www.twomaidscleaning.com/pensacola/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms house cleaning services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "Great Change Cleaning Service",
+      "website": "https://www.greatchangecleaningservice.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "house-cleaning"
+      ],
+      "sourceUrl": "https://www.greatchangecleaningservice.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms house cleaning services and the listed local service areas: pensacola-fl, gulf-breeze-fl, perdido-key-fl, navarre-fl, pace-fl, milton-fl."
+    },
+    {
+      "name": "The Tidy Bunch Co.",
+      "website": "https://www.thetidybunchco.com/Services/home-cleaning",
+      "regions": [
+        "navarre-fl"
+      ],
+      "trades": [
+        "house-cleaning"
+      ],
+      "sourceUrl": "https://www.thetidybunchco.com/Services/home-cleaning",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms house cleaning services and the listed local service areas: navarre-fl."
+    }
+  ]
+}
