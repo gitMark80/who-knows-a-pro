@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-29",
+  "baselinePlacements": 5698,
+  "validatedPlacements": 5757,
+  "addedPlacements": 59,
+  "baselineCompletedPages": 594,
+  "validatedCompletedPages": 614,
+  "newCompletedPages": 20,
+  "uniqueProfiles": 2521,
+  "totalPages": 1600,
+  "checks": {
+    "approvedRegionsOnly": true,
+    "approvedTradesOnly": true,
+    "newPlacementDomainDuplicates": 0,
+    "sourceUrlsRecorded": true,
+    "verificationDatesRecorded": true,
+    "missingFieldsHidden": true,
+    "paidOrClaimedRecordsModified": false,
+    "directoryReportsRegenerated": true,
+    "productionBuild": "passed",
+    "lint": "blocked by 11 pre-existing errors in app/admin/page.tsx and scripts/verify-private-billing-fixture.cjs"
+  },
+  "generatedReports": {
+    "directoryListingCounts": "reports/directory-listing-counts.csv",
+    "unclaimedInvitations": "reports/unclaimed-business-claim-invitations.csv"
+  },
+  "publicationStatus": "candidate changes validated locally; not yet committed, merged, deployed, or confirmed live"
+}
