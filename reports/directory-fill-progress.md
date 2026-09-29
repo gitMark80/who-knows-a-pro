@@ -101,3 +101,12 @@ Remaining nearby gaps (current live count):
 - destin-fl: appliance-repair=2, auto-body-collision=1, concrete=4, generator-installation=2, hurricane-shutters-impact-windows=2, locksmith=1, pool-installation=4, screen-enclosures-pool-cages=3, septic-services=2, towing=1, trading-card-stores=1, window-tinting=2.
 - fort-walton-beach-fl: appliance-repair=2, auto-body-collision=1, concrete=4, generator-installation=2, hurricane-shutters-impact-windows=2, locksmith=1, pool-installation=4, screen-enclosures-pool-cages=2, septic-services=2, towing=1, trading-card-stores=1, window-tinting=2.
 - crestview-fl: appliance-repair=1, auto-body-collision=2, concrete=4, flooring=3, generator-installation=1, handyman=4, hurricane-shutters-impact-windows=1, locksmith=1, pool-installation=3, screen-enclosures-pool-cages=2, septic-services=2, towing=2, trading-card-stores=1, window-tinting=2.
+
+## Baldwin and coastal continuation — pending PR #2
+
+- Refreshed against current main `c822e9b`, including all 144 confirmed-live Emerald Coast additions. Reconciled the earlier 19 pending PR #2 placements without changing existing data.
+- Added 72 more official-site-backed placements this run; combined pending total 91 across 18 active cities. New sources: `reports/verified-baldwin-services-2026-09-29.json`; earlier 19: `reports/verified-coastal-services-continuation-2026-09-29.json`.
+- All 5,379 published generated records unchanged by complete-value comparison; combined total 5,470. Unique IDs and canonical domain/city/category checks pass. TypeScript passed. Evidence: `reports/validation-baldwin-services-2026-09-29.json`.
+- Expected 16 additional pairs reach five after publication: six appliance-repair pairs (Daphne, Fairhope, Foley, Gulf Shores, Orange Beach, Mobile), three garage-door pairs (Fairhope, Foley, Gulf Shores), four junk-removal pairs (Daphne, Fairhope, Foley, Gulf Shores), three mobile-detailing pairs (Orange Beach, Foley, Gulf Shores).
+- Not published or live-verified. Prior automatic approval review requires explicit approval to merge/publish; expanded PR #2 is prepared for review. Last confirmed live coverage remains 531/1,600. No paid API calls; no billing/claims/DB/registry changes.
+- Next: publish approved PR #2 and verify all additions, then refresh live counts. Remaining nearby gaps include Perdido Key categories, Daphne/Orange Beach garage doors, Orange Beach junk removal, and broader Baldwin service categories. Pace/Milton card-store gaps still need genuine official websites.
