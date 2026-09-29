@@ -1,4 +1,4 @@
-import type { Region, TradeSlug } from './catalog';
+import { hiddenTradeSlugs, type Region, type TradeSlug } from './catalog';
 
 type CategoryContent = {
   providers: string;
@@ -146,5 +146,5 @@ export function categoryFaqs(trade: TradeSlug, region: Region): DirectoryFaq[] {
 }
 
 export function relatedTradeSlugs(trade: TradeSlug) {
-  return categoryContent[trade].related;
+  return categoryContent[trade].related.filter((slug) => !hiddenTradeSlugs.has(slug));
 }
