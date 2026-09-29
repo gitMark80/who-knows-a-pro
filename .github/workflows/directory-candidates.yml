@@ -26,14 +26,21 @@ jobs:
         with:
           python-version: '3.12'
       - name: Check request ceiling
+        id: request_limit
         env:
           MAX_REQUESTS: ${{ inputs.max_requests }}
         run: |
           python - <<'PY'
           import os
-          value = int(os.environ['MAX_REQUESTS'])
-          if not 0 <= value <= 1600:
-              raise SystemExit('Choose a request ceiling between 0 and 1600')
+          from decimal import Decimal, InvalidOperation
+          try:
+              value = Decimal(os.environ['MAX_REQUESTS'])
+          except InvalidOperation:
+              raise SystemExit('Choose a whole number between 0 and 1600')
+          if not value.is_finite() or not 0 <= value <= 1600 or value != value.to_integral_value():
+              raise SystemExit('Choose a whole number between 0 and 1600')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'max_requests={int(value)}\n')
           PY
       - name: Refresh live coverage
         run: python scripts/audit-live-directory.py --allow-shortfalls
@@ -45,7 +52,7 @@ jobs:
       - name: Collect candidates for deficient pages
         env:
           FOURSQUARE_API_KEY: ${{ secrets.FOURSQUARE_API_KEY }}
-          MAX_REQUESTS: ${{ inputs.max_requests }}
+          MAX_REQUESTS: ${{ steps.request_limit.outputs.max_requests }}
         run: python scripts/collect-directory-candidates.py --max-requests "$MAX_REQUESTS"
       - uses: actions/cache/save@v4
         if: always() && hashFiles('research/foursquare-candidates/*.json') != ''
