@@ -61,6 +61,7 @@ export default async function PricingPage({ searchParams }: { searchParams: Prom
         featured
       />
       <div className="lg:col-span-2 flex items-start gap-3 rounded-2xl border border-slate-200 bg-white p-5 text-sm leading-6 text-slate-600"><ShieldCheck className="mt-0.5 size-5 shrink-0 text-[#27715c]"/><p>Payments use Stripe Checkout. Who Knows a Pro never stores card details. Featured availability is checked again before checkout so two businesses cannot purchase the same page.</p></div>
+    </section>
     <section className="mx-auto max-w-5xl px-5 pb-6 sm:px-8">
       <h2 className="text-2xl font-black text-[#142c4c]">Compare plans</h2>
       <div className="mt-5 overflow-x-auto rounded-2xl border border-slate-200 bg-white">
