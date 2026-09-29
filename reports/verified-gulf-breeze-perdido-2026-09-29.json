@@ -1,0 +1,610 @@
+{
+  "date": "2026-09-29",
+  "baselineCommit": "221d916f16d177f679273964017a8f474dfd5b9d",
+  "addedRecords": 46,
+  "addedPlacements": 50,
+  "sources": [
+    {
+      "name": "GameStop — Santa Rosa Commons",
+      "website": "https://www.gamestop.com/store/us/fl/milton/5951/santa-rosa-commons-gamestop",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "trading-card-stores"
+      ],
+      "sourceUrl": "https://www.gamestop.com/store/us/fl/milton/5951/santa-rosa-commons-gamestop",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official store page identifies Santa Rosa Commons at 4785 HWY 90, Milton FL 32571 and links the retailer's trading-card catalog. PSA also identifies this specific store as a card dealer. Postal city retained; no second Pace placement inferred."
+    },
+    {
+      "name": "Coast to Country Home Inspection",
+      "website": "https://www.coast2countryhomeinspections.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.coast2countryhomeinspections.com/contact/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official contact page identifies Gulf Breeze base, residential and condo home inspections, and explicitly includes Perdido Key in service areas."
+    },
+    {
+      "name": "Coast to Country Home Inspection",
+      "website": "https://www.coast2countryhomeinspections.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.coast2countryhomeinspections.com/contact/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official contact page identifies Gulf Breeze base, residential and condo home inspections, and explicitly includes Perdido Key in service areas."
+    },
+    {
+      "name": "Gulf State Home Inspections",
+      "website": "https://www.pensacolainspectors.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://gulfstatehomeinspections.com/home-inspections/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Gulf State home-inspection page explicitly lists Gulf Breeze and Perdido Key. Existing repository business name and website identity retained."
+    },
+    {
+      "name": "Gulf State Home Inspections",
+      "website": "https://www.pensacolainspectors.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://gulfstatehomeinspections.com/home-inspections/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Gulf State home-inspection page explicitly lists Gulf Breeze and Perdido Key. Existing repository business name and website identity retained."
+    },
+    {
+      "name": "Target Home Inspections",
+      "website": "https://targetinspectionsflorida.com/pensacola-home-inspections/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://targetinspectionsflorida.com/pensacola-home-inspections/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Pensacola service page explicitly lists Gulf Breeze and Perdido Key for home inspections; this is service-area coverage, not a local office claim."
+    },
+    {
+      "name": "Target Home Inspections",
+      "website": "https://targetinspectionsflorida.com/pensacola-home-inspections/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://targetinspectionsflorida.com/pensacola-home-inspections/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Pensacola service page explicitly lists Gulf Breeze and Perdido Key for home inspections; this is service-area coverage, not a local office claim."
+    },
+    {
+      "name": "Wren's Collision Centers",
+      "website": "https://www.wrenscollisioncenters.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.wrenscollisioncenters.com/gulf-breeze",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Wren's Gulf Breeze location identifies Bayside Collision Center at 202 McClure Drive, Gulf Breeze, and auto body/collision repair. Bayside and Wren's are one business, not two entries."
+    },
+    {
+      "name": "Tiger Point Paint & Body",
+      "website": "https://www.tigerpointpaintandbody.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "auto-body-collision",
+        "towing"
+      ],
+      "sourceUrl": "https://www.tigerpointpaintandbody.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site lists 3630 Gulf Breeze Pkwy, Gulf Breeze, and explicitly offers automotive collision repair and 24-hour towing."
+    },
+    {
+      "name": "No Sweat Automotive",
+      "website": "https://www.nosweatautomotive.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.nosweatautomotive.com/locations/gulf-breeze",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Gulf Breeze coverage page offers collision repair with vehicle pickup and delivery; shop is in Pensacola, not Gulf Breeze."
+    },
+    {
+      "name": "Bob Tyler Toyota Collision Center",
+      "website": "https://www.bobtylertoyota.com/toyota-collision-service-in-pensacola-fl/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.bobtylertoyota.com/toyota-collision-service-in-pensacola-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official collision-center page describes body and frame repair and explicitly serves Gulf Breeze drivers; physical shop is in Pensacola."
+    },
+    {
+      "name": "Emerald Coast Appliance Repair",
+      "website": "https://www.pensacolappliancerepair.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.pensacolappliancerepair.com/contact-us",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official contact page gives Gulf Breeze/Navarre appliance service contact in addition to its Pensacola/Perdido Key service area."
+    },
+    {
+      "name": "Bluegill Appliance Repair LLC",
+      "website": "https://appliancerepairservicesgulfbreeze.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://appliancerepairservicesgulfbreeze.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business site names Bluegill Appliance Repair LLC, Gulf Breeze FL 32563 and repair of refrigerators, ovens, dishwashers, washers and dryers."
+    },
+    {
+      "name": "Budget Appliance Service",
+      "website": "https://pensacolaaplliancerepair.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://pensacolaaplliancerepair.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service-area FAQ explicitly includes Perdido Key for residential and commercial appliance repair. Domain spelling retained exactly as retrieved."
+    },
+    {
+      "name": "Economy Appliance Heat & Air",
+      "website": "https://economyapplianceheatandair.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://economyapplianceheatandair.com/services/appliance-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official appliance-repair page explicitly names Perdido Key, Destin and Fort Walton Beach and lists household appliance repair services."
+    },
+    {
+      "name": "Economy Appliance Heat & Air",
+      "website": "https://economyapplianceheatandair.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://economyapplianceheatandair.com/services/appliance-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official appliance-repair page explicitly names Perdido Key, Destin and Fort Walton Beach and lists household appliance repair services."
+    },
+    {
+      "name": "Economy Appliance Heat & Air",
+      "website": "https://economyapplianceheatandair.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://economyapplianceheatandair.com/services/appliance-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official appliance-repair page explicitly names Perdido Key, Destin and Fort Walton Beach and lists household appliance repair services."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "daphne-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "fairhope-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Into Gutters",
+      "website": "https://www.intogutters.com/",
+      "regions": [
+        "orange-beach-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.intogutters.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service areas include these cities. Florida service is expressly gutter CLEANING ONLY at this time; installation and repair are offered in Baldwin County, Alabama. No Florida installation claim."
+    },
+    {
+      "name": "Gutters By Design",
+      "website": "https://www.guttersbydesign.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.guttersbydesign.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site lists each named city in its service area and describes seamless gutter installation and repair."
+    },
+    {
+      "name": "Gutters By Design",
+      "website": "https://www.guttersbydesign.com/",
+      "regions": [
+        "orange-beach-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.guttersbydesign.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site lists each named city in its service area and describes seamless gutter installation and repair."
+    },
+    {
+      "name": "Custom Fit Rain Gutters",
+      "website": "https://www.customfitraingutters.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.customfitraingutters.com/gutter-installation-perdido-key-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official city service page identifies gutter installation in Perdido Key."
+    },
+    {
+      "name": "Ace Handyman Services Pensacola",
+      "website": "https://www.acehandymanservices.com/offices/pensacola",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "flooring",
+        "gutters"
+      ],
+      "sourceUrl": "https://www.acehandymanservices.com/offices/pensacola/city/perdido_key_services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Perdido Key service page explicitly offers floor services and gutter repair/replacement; existing franchise identity and website retained."
+    },
+    {
+      "name": "Elite Stone Services, Inc.",
+      "website": "https://elitestoneservicesinc.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://elitestoneservicesinc.com/epoxy-floors/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official epoxy floor installation page explicitly includes Perdido Key, Destin, Panama City, Mobile and Orange Beach. Specialized flooring provider, not a claim to install every floor material."
+    },
+    {
+      "name": "Elite Stone Services, Inc.",
+      "website": "https://elitestoneservicesinc.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://elitestoneservicesinc.com/epoxy-floors/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official epoxy floor installation page explicitly includes Perdido Key, Destin, Panama City, Mobile and Orange Beach. Specialized flooring provider, not a claim to install every floor material."
+    },
+    {
+      "name": "Elite Stone Services, Inc.",
+      "website": "https://elitestoneservicesinc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://elitestoneservicesinc.com/epoxy-floors/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official epoxy floor installation page explicitly includes Perdido Key, Destin, Panama City, Mobile and Orange Beach. Specialized flooring provider, not a claim to install every floor material."
+    },
+    {
+      "name": "Elite Stone Services, Inc.",
+      "website": "https://elitestoneservicesinc.com/",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://elitestoneservicesinc.com/epoxy-floors/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official epoxy floor installation page explicitly includes Perdido Key, Destin, Panama City, Mobile and Orange Beach. Specialized flooring provider, not a claim to install every floor material."
+    },
+    {
+      "name": "Elite Stone Services, Inc.",
+      "website": "https://elitestoneservicesinc.com/",
+      "regions": [
+        "orange-beach-al"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://elitestoneservicesinc.com/epoxy-floors/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official epoxy floor installation page explicitly includes Perdido Key, Destin, Panama City, Mobile and Orange Beach. Specialized flooring provider, not a claim to install every floor material."
+    },
+    {
+      "name": "Rusty's Carpet Care",
+      "website": "https://rustyscarpets.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "flooring",
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://rustyscarpets.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site identifies Perdido Key service, carpet cleaning, stretching, repairs and installation. Flooring placement is for carpet work, not hardwood installation."
+    },
+    {
+      "name": "Ensley Landscaping",
+      "website": "https://www.ensleyoutdoors.com/irrigation-services-jay",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.ensleyoutdoors.com/irrigation-services-jay",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official irrigation page explicitly names Perdido Key and offers sprinkler-head, leak, valve and controller repairs plus installation; existing identity retained."
+    },
+    {
+      "name": "1-800-GOT-JUNK? Pensacola",
+      "website": "https://www.1800gotjunk.com/us_en/locations/junk-removal-pensacola",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "junk-removal"
+      ],
+      "sourceUrl": "https://www.1800gotjunk.com/us_en/locations/junk-removal-pensacola",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Pensacola franchise page lists Perdido Key, Destin, Fort Walton Beach and Crestview service areas and junk pickup services."
+    },
+    {
+      "name": "Ace Mobile Detailing",
+      "website": "https://acedetailing.pro/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://acedetailing.pro/contact/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Ace Mobile Detailing contact page lists auto detailing services and explicit service areas of Perdido Key, Orange Beach, Gulf Shores and Foley."
+    },
+    {
+      "name": "Ace Mobile Detailing",
+      "website": "https://acedetailing.pro/",
+      "regions": [
+        "orange-beach-al"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://acedetailing.pro/contact/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Ace Mobile Detailing contact page lists auto detailing services and explicit service areas of Perdido Key, Orange Beach, Gulf Shores and Foley."
+    },
+    {
+      "name": "Ace Mobile Detailing",
+      "website": "https://acedetailing.pro/",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://acedetailing.pro/contact/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Ace Mobile Detailing contact page lists auto detailing services and explicit service areas of Perdido Key, Orange Beach, Gulf Shores and Foley."
+    },
+    {
+      "name": "Ace Mobile Detailing",
+      "website": "https://acedetailing.pro/",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "mobile-auto-detailing"
+      ],
+      "sourceUrl": "https://acedetailing.pro/contact/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Ace Mobile Detailing contact page lists auto detailing services and explicit service areas of Perdido Key, Orange Beach, Gulf Shores and Foley."
+    },
+    {
+      "name": "S.E. Tradesmen Plumbing & Gas",
+      "website": "https://setradesmen.net/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://setradesmen.net/plumbing/drain-and-sewer/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official drain-and-sewer page lists septic tank and drain-field installation, replacement and repairs, explicitly excludes pumping, and includes Perdido Key, Orange Beach and Foley in coverage."
+    },
+    {
+      "name": "S.E. Tradesmen Plumbing & Gas",
+      "website": "https://setradesmen.net/",
+      "regions": [
+        "orange-beach-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://setradesmen.net/plumbing/drain-and-sewer/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official drain-and-sewer page lists septic tank and drain-field installation, replacement and repairs, explicitly excludes pumping, and includes Perdido Key, Orange Beach and Foley in coverage."
+    },
+    {
+      "name": "S.E. Tradesmen Plumbing & Gas",
+      "website": "https://setradesmen.net/",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://setradesmen.net/plumbing/drain-and-sewer/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official drain-and-sewer page lists septic tank and drain-field installation, replacement and repairs, explicitly excludes pumping, and includes Perdido Key, Orange Beach and Foley in coverage."
+    },
+    {
+      "name": "Roto-Rooter — Perdido Key",
+      "website": "https://www.rotorooter.com/perdidokeyfl/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.rotorooter.com/perdidokeyfl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Perdido Key service page explicitly offers septic-system service and tank pumping; local number 850-477-7349. No separate physical Perdido Key office inferred."
+    },
+    {
+      "name": "Ionnic Locksmith",
+      "website": "https://www.ionniclocksmith.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.ionniclocksmith.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website offers residential and automotive locksmith services and explicitly names Perdido Key in service area; based in Pensacola."
+    },
+    {
+      "name": "JubileeScape",
+      "website": "https://jubileescape.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "lawn-care",
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://jubileescape.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official website lists Perdido Key coverage, lawn/landscape maintenance and irrigation services. Irrigation category is supported by irrigation design/installation services, not a claim of emergency sprinkler repair."
+    }
+  ]
+}
