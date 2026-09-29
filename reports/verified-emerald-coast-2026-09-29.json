@@ -1,0 +1,1080 @@
+{
+  "date": "2026-09-29",
+  "baselineCommit": "c2bb2bd150fb1bfc03a74b83e1cf6081a25bf4eb",
+  "status": "merged_and_confirmed_live",
+  "newPlacements": 144,
+  "businessIdentities": 22,
+  "sources": [
+    {
+      "name": "Kairos Contracting",
+      "website": "https://kairoscontractingfl.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling",
+        "flooring",
+        "painting",
+        "handyman",
+        "insulation"
+      ],
+      "sourceUrl": "https://kairoscontractingfl.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service descriptions cover kitchens/baths, floor installation, painting, minor property repairs and insulation. Service-area list names all five cities; form spells out Fort Walton Beach. No hurricane-window claim inferred.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "insulation"
+        }
+      ]
+    },
+    {
+      "name": "Renovations by Salt Water",
+      "website": "https://renovationsbysaltwater.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling",
+        "flooring",
+        "painting",
+        "handyman"
+      ],
+      "sourceUrl": "https://renovationsbysaltwater.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage names Destin and Fort Walton Beach, kitchens, bathrooms, flooring, paint and handyman work.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "handyman"
+        }
+      ]
+    },
+    {
+      "name": "Patriot Pool & Spa",
+      "website": "https://www.patriotpoolandspa.us/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-installation",
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.patriotpoolandspa.us/poolservice",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official pool page describes complete pool builds, resurfacing/liner replacement and repair; footer names all three cities. Distinct from Patriot Pool Solutions: separate website, address and phone.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "pool-installation"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-installation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "pool-installation"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "pool-service"
+        }
+      ]
+    },
+    {
+      "name": "ProFix Handyman",
+      "website": "https://www.profixflorida.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "handyman",
+        "painting",
+        "insulation"
+      ],
+      "sourceUrl": "https://www.profixflorida.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage describes handyman repairs, painting and wall/attic insulation; service-area section names Fort Walton Beach, Destin and Crestview. No HVAC or appliance-repair placement inferred from testimonials or replacement work.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "insulation"
+        }
+      ]
+    },
+    {
+      "name": "Screenmobile of Destin",
+      "website": "https://www.screenmobile.com/locations/destin/",
+      "regions": [
+        "destin-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.screenmobile.com/locations/destin/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official location page confirms porch/enclosure screening and pool rescreening; town list names all three cities. Foursquare legacy /destin URL was resolved to the current official location page.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "screen-enclosures-pool-cages"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "screen-enclosures-pool-cages"
+        },
+        {
+          "region": "panama-city-fl",
+          "trade": "screen-enclosures-pool-cages"
+        }
+      ]
+    },
+    {
+      "name": "Ovation Painting",
+      "website": "https://ovationpainting.com/",
+      "regions": [
+        "destin-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://ovationpainting.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Existing Foursquare candidate verified on official homepage: Destin interior/exterior painting and explicit 30A service area (includes Grayton Beach). No third-party review data used.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "painting"
+        }
+      ]
+    },
+    {
+      "name": "Southern Tide Pools",
+      "website": "https://www.southerntidepools.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.southerntidepools.com/contact-us",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official contact page names Fort Walton Beach and Destin and coverage through Panama City, with pool cleaning and repair. Crestview PO box alone was not used as a service-area claim. Existing identity preserved.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "panama-city-fl",
+          "trade": "pool-service"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix Services LLC",
+      "website": "https://phoenixservicellc.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://phoenixservicellc.com/about-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official about page identifies pool maintenance/repair company and explicitly lists both cities. No new-pool construction inferred from liner installation.",
+      "selectedPlacements": [
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "pool-service"
+        }
+      ]
+    },
+    {
+      "name": "Southland Pool & Lawn LLC",
+      "website": "https://southlandpoolandlawn.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://southlandpoolandlawn.com/about-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official about page describes pool maintenance and explicitly names all three cities. Unrelated template content about another company was excluded.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "pool-service"
+        }
+      ]
+    },
+    {
+      "name": "ASP - America's Swimming Pool Company of Destin",
+      "website": "https://www.asppoolco.com/destin/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "pool-service",
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.asppoolco.com/destin/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Destin page offers pool installation, cleaning, repair and remodeling, explicitly covering Destin, Fort Walton Beach and 30A; Grayton Beach is within stated 30A area.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "pool-installation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-installation"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "pool-service"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "pool-installation"
+        }
+      ]
+    },
+    {
+      "name": "Patriot Pool Solutions",
+      "website": "https://patriotpoolsolutions.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "pool-service",
+        "pool-installation"
+      ],
+      "sourceUrl": "https://patriotpoolsolutions.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage confirms pool builds, cleaning and repair in Destin and Fort Walton Beach. Distinct from Patriot Pool & Spa: phone 850-517-0830 and Destin address.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "pool-installation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "pool-installation"
+        }
+      ]
+    },
+    {
+      "name": "Florida State Tile and Flooring LLC",
+      "website": "https://www.floridastatetileandflooring.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "painting",
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.floridastatetileandflooring.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Existing identity retained. Official homepage lists painting, remodeling, shower/tub surrounds and backsplashes, with all three cities in service areas. Kitchen/bath scope is tile work, not general contracting.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "kitchen-bath-remodeling"
+        }
+      ]
+    },
+    {
+      "name": "Carroll Coastal Contracting",
+      "website": "https://www.carrollcoastalcontracting.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "painting",
+        "flooring",
+        "handyman",
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.carrollcoastalcontracting.com/services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official services page names all selected cities, house painting, natural-stone/slate flooring, rental-property repairs and cabinet refinishing. Kitchen/bath scope is cabinet refinishing; handyman scope is property repairs.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "panama-city-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "flooring"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "handyman"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "orange-beach-al",
+          "trade": "flooring"
+        },
+        {
+          "region": "gulf-shores-al",
+          "trade": "painting"
+        },
+        {
+          "region": "gulf-shores-al",
+          "trade": "flooring"
+        },
+        {
+          "region": "gulf-shores-al",
+          "trade": "handyman"
+        },
+        {
+          "region": "gulf-shores-al",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "fairhope-al",
+          "trade": "painting"
+        },
+        {
+          "region": "fairhope-al",
+          "trade": "flooring"
+        },
+        {
+          "region": "fairhope-al",
+          "trade": "handyman"
+        },
+        {
+          "region": "fairhope-al",
+          "trade": "kitchen-bath-remodeling"
+        },
+        {
+          "region": "daphne-al",
+          "trade": "painting"
+        },
+        {
+          "region": "daphne-al",
+          "trade": "flooring"
+        },
+        {
+          "region": "daphne-al",
+          "trade": "handyman"
+        },
+        {
+          "region": "daphne-al",
+          "trade": "kitchen-bath-remodeling"
+        }
+      ]
+    },
+    {
+      "name": "Carter Insulation LLC",
+      "website": "https://www.carterinsulation.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "foley-al",
+        "dothan-al"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.carterinsulation.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage names all selected cities and spray foam, blown-in and fiberglass installation/removal. Existing identity preserved.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "foley-al",
+          "trade": "insulation"
+        },
+        {
+          "region": "dothan-al",
+          "trade": "insulation"
+        }
+      ]
+    },
+    {
+      "name": "Wall 2 Wall Restoration",
+      "website": "https://www.w2wrestoration.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "insulation",
+        "painting"
+      ],
+      "sourceUrl": "https://www.w2wrestoration.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage lists insulation/painting and Destin, Fort Walton, Crestview, Panama City and 30A coverage. Grayton Beach is within stated 30A area; no mold-remediation service inferred from business name.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "panama-city-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "panama-city-fl",
+          "trade": "painting"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "insulation"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "painting"
+        }
+      ]
+    },
+    {
+      "name": "850 Concrete Inc.",
+      "website": "https://www.850concrete.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://www.850concrete.com/about",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official about page identifies owner Joe Rizzo and concrete driveways, slabs and decorative installations across all three cities.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "concrete"
+        }
+      ]
+    },
+    {
+      "name": "Gutter Downspout Installation",
+      "website": "https://gutterdownspoutinstallation.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://gutterdownspoutinstallation.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site identifies GDI, phone 850-685-2094, gutter installation and all three cities in its service-area header.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "gutters"
+        }
+      ]
+    },
+    {
+      "name": "Mako Gutters LLC",
+      "website": "https://www.makogutters.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.makogutters.com/gutter-installation-services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official gutter-service page confirms installation, repair and service areas including all four cities. Distinct from similarly named existing Mako businesses by domain and phone 850-855-6686.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "gutters"
+        }
+      ]
+    },
+    {
+      "name": "Rock Solid Construction and Demo",
+      "website": "https://www.rocksolidconstructionanddemo.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "concrete",
+        "kitchen-bath-remodeling",
+        "painting"
+      ],
+      "sourceUrl": "https://www.rocksolidconstructionanddemo.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage describes driveways/slabs, kitchen/bath remodeling and painting, with all three cities in the footer. Fence categories already meet target.",
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "kitchen-bath-remodeling"
+        }
+      ]
+    },
+    {
+      "name": "Architectural Gutter Systems LLC",
+      "website": "https://www.architecturalguttersystems.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "gutters",
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.architecturalguttersystems.com/gutter-installation",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official gutter and screened-enclosure pages confirm installation, patio enclosures and pool-cage rescreening; each names all four cities.",
+      "additionalSourceUrls": [
+        "https://www.architecturalguttersystems.com/screened-enclosures"
+      ],
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "destin-fl",
+          "trade": "screen-enclosures-pool-cages"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "screen-enclosures-pool-cages"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "screen-enclosures-pool-cages"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "screen-enclosures-pool-cages"
+        }
+      ]
+    },
+    {
+      "name": "Sun State Services",
+      "website": "https://sunstateservices.jobbersites.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://sunstateservices.jobbersites.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business site hosted on Jobber identifies the company, phone, gutter installation/repair and all three cities.",
+      "additionalSourceUrls": [],
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "gutters"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "gutters"
+        }
+      ]
+    },
+    {
+      "name": "Iknerco, Inc.",
+      "website": "https://www.iknercontractors.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://www.iknercontractors.com/concrete-contractors/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official concrete-service page identifies Iknerco and driveways, slabs, repairs and decorative concrete; names three Okaloosa cities and countywide Walton coverage for Grayton Beach.",
+      "additionalSourceUrls": [],
+      "selectedPlacements": [
+        {
+          "region": "destin-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "fort-walton-beach-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "crestview-fl",
+          "trade": "concrete"
+        },
+        {
+          "region": "grayton-beach-fl",
+          "trade": "concrete"
+        }
+      ]
+    }
+  ],
+  "candidateReview": {
+    "artifactRun": 36559444099,
+    "artifactId": 11029098206,
+    "paidApiCalls": 0,
+    "reviewed": "Existing cached Destin/Crestview/Fort Walton/Pace/Milton queries; category matches independently verified on official sites.",
+    "excluded": [
+      "Earthbound Trading Company is not a trading-card store.",
+      "Miltons Collectibles official address is Farmers Branch, Texas, not Milton FL.",
+      "Crocker Brothers, Midbay Floors, Destin Collision and Panhandle Home Remodeling websites returned 502; deferred.",
+      "Idalia painting site returned 404 locally; deferred.",
+      "BT Kitchen and Bath confirms design/retail but complete installation/remodeling scope not established; deferred.",
+      "CEMEX plant is a material supplier, not verified driveway installation.",
+      "Pace and Milton trading-card shortfalls persist; nearby or online-only shops not assigned without official local evidence."
+    ],
+    "matchingArtifactRecords": [
+      {
+        "artifactFile": "research/foursquare-candidates/2079a5c04ed50264b9ff.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=painting+contractor&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "Ovation Painting, Inc.",
+        "officialWebsite": "https://ovationpainting.com/"
+      },
+      {
+        "artifactFile": "research/foursquare-candidates/afd43b805c496886e05d.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=swimming+pool+contractor&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "ASP - America's Swimming Pool Company of Destin",
+        "officialWebsite": "https://www.asppoolco.com/destin/"
+      },
+      {
+        "artifactFile": "research/foursquare-candidates/4645ed8c636e2a96ee7c.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=moving+company&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "ASP - America's Swimming Pool Company of Destin",
+        "officialWebsite": "https://www.asppoolco.com/destin/"
+      },
+      {
+        "artifactFile": "research/foursquare-candidates/72ee51828899b9a249c0.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=screen+enclosure+contractor&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "Screenmobile of Destin",
+        "officialWebsite": "https://www.screenmobile.com/locations/destin/"
+      }
+    ],
+    "additionalVerifiedButNotAdded": [
+      {
+        "name": "Coastal Carpet & Tile Carpet One Floor & Home",
+        "website": "https://www.coastalcarpetntiledestin.com/",
+        "verifiedAt": "2026-09-29",
+        "reason": "Official Destin flooring installation confirmed, but selected additions already filled the category to five."
+      }
+    ]
+  },
+  "pendingWorkAvoided": "Uncommitted fill-hourly Perdido/Baldwin batch was left untouched; source identities and targeted pairs compared to avoid overlap.",
+  "validation": {
+    "unchangedExistingSeedRecords": 5235,
+    "newSeedRecords": 144,
+    "finalSeedRecords": 5379,
+    "uniqueIds": true,
+    "paidApiCalls": 0,
+    "typeScript": "passed",
+    "productionBuild": "passed"
+  },
+  "publication": {
+    "pullRequest": 3,
+    "dataCommit": "2c26604d2d0dbda10ebac189e736e704c29e3a39",
+    "mergeCommit": "50a0ca34023771470e092ea154da22a34e9df7ac",
+    "productionDeploymentStatus": "success",
+    "productionDeploymentUrl": "https://vercel.com/restless-faith-media/who-knows-a-pro/5n1Ra7Ba1Uc6M9zbNjpFFiBbX2Zv",
+    "verifiedPlacements": 144,
+    "categoryPagesChecked": 65,
+    "liveEvidence": "reports/live-emerald-coast-2026-09-29.json"
+  },
+  "concurrentWork": {
+    "pullRequest": 2,
+    "head": "578022821792cd32bb90605c9f2b85d0e6dc9c67",
+    "status": "open_at_final_review",
+    "note": "Separate 19-placement garage-door/detailing batch; no overlap with the 144 additions. Not merged or modified by this run. Refresh and reconcile shared JSON/checkpoint append conflicts before its publication."
+  },
+  "liveCoverage": {
+    "pairs": 1600,
+    "meetsMinimum": 531,
+    "belowMinimum": 1069,
+    "empty": 88,
+    "missingPlacements": 4006,
+    "newlyCompletedPairs": 20,
+    "auditDate": "2026-09-29",
+    "note": "City-card count audit; historical records not independently reverified."
+  }
+}
