@@ -92,6 +92,7 @@ const comparison = [
 ];
 
 const faqs = [
+  ['Why should I pay when a listing is already free?', 'A free listing gets your business into the directory. A paid plan makes it stand out: Enhanced adds your logo, a fuller profile, and profile-view and website-click counts, and Featured puts you at the top of a city and category page and sends you that page’s quote requests. You can start with the free listing and upgrade only if you want the extra visibility. We cannot guarantee results.'],
   ['How does billing work?', 'Plans are billed monthly through Stripe Checkout and renew until you cancel.'],
   ['Can I cancel anytime?', 'Yes. Cancel from your business dashboard. Your plan stays active through the end of the period you already paid for.'],
   ['How do quote requests reach me?', 'Consumers submit a quote request on a city and category page. While you hold the Featured spot on that page, the request is sent to you. Pages without a Featured business do not show the quote form.'],
