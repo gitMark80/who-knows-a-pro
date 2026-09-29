@@ -1,0 +1,730 @@
+{
+  "verifiedAt": "2026-09-29",
+  "before": 4613,
+  "after": 4689,
+  "added": 76,
+  "complete": 367,
+  "missing": 4696,
+  "newComplete": [
+    {
+      "region": "milton-fl",
+      "trade": "hvac",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "plumbing",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "roofing",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "electrical",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "lawn-care",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "pest-control",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "garage-door-repair",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "appliance-repair",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "movers",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "flooring",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "junk-removal",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "gutters",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "septic-services",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "home-inspections",
+      "count": 5
+    },
+    {
+      "region": "milton-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "hvac",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "plumbing",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "roofing",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "electrical",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "lawn-care",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "pest-control",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "garage-door-repair",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "appliance-repair",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "movers",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "flooring",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "junk-removal",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "gutters",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "septic-services",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "home-inspections",
+      "count": 5
+    },
+    {
+      "region": "pace-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "count": 5
+    }
+  ],
+  "paceComplete": 19,
+  "miltonComplete": 19,
+  "additions": [
+    {
+      "name": "Southern Gutter Company of NWFL",
+      "website": "https://www.southernguttercompany.com/contact",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.southernguttercompany.com/contact",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms gutters services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "David's Appliance Service",
+      "website": "https://www.davidsapplianceservice.com/services.html",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.davidsapplianceservice.com/services.html",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms appliance repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Sears Home Services",
+      "website": "https://www.searshomeservices.com/locations/fl/milton/sears-appliance-repair/4563-bell-lane",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.searshomeservices.com/locations/fl/milton/sears-appliance-repair/4563-bell-lane",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms appliance repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Fusion Cleaning & Restoration",
+      "website": "https://www.emeraldcoastfusion.com/carpet-cleaning-milton/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.emeraldcoastfusion.com/carpet-cleaning-milton/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms carpet cleaning services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Octopus Solutions",
+      "website": "https://www.octopussolutionsllc.com/services/irrigation-repair",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.octopussolutionsllc.com/services/irrigation-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Pace Land Services",
+      "website": "https://www.pacelandservices.com/service-areas",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.pacelandservices.com/service-areas",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "A Cut Above Landscaping",
+      "website": "https://landscapingacutabove.com/irrigation-maintenance/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://landscapingacutabove.com/irrigation-maintenance/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Ensley Landscaping",
+      "website": "https://www.ensleyoutdoors.com/irrigation-services-jay",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.ensleyoutdoors.com/irrigation-services-jay",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "R House",
+      "website": "https://www.rhouseservices.com/services/lawn-care/sprinkler-system-repair",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.rhouseservices.com/services/lawn-care/sprinkler-system-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms irrigation sprinkler repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Armor Service Group Heating & Cooling",
+      "website": "https://www.armorservicegroup.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.armorservicegroup.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms hvac services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Baileys Air",
+      "website": "https://www.baileysair.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.baileysair.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms hvac services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Wingate's Air Conditioning",
+      "website": "https://wingatesac.com/services/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://wingatesac.com/services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms hvac services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "DeGraaf Electrical Service",
+      "website": "https://degraafelectrical.com/electrician-pace-milton-fl/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://degraafelectrical.com/electrician-pace-milton-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms electrical services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Paul Patrick Electric",
+      "website": "https://paulpatrickelectric.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://paulpatrickelectric.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms electrical services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "RL Baker Electric",
+      "website": "https://www.rlbakerelectric.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://www.rlbakerelectric.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms electrical services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "McCombs Electrical Heating & Air",
+      "website": "https://mccombselectrical.com/electrical/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://mccombselectrical.com/electrical/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms electrical services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Living Water Plumbing",
+      "website": "https://livingwaterplumbingservices.com/locations/milton-pace",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://livingwaterplumbingservices.com/locations/milton-pace",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms plumbing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Pace Plumbing",
+      "website": "https://www.paceplumber.com/services/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://www.paceplumber.com/services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms plumbing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Apexx Plumbing",
+      "website": "https://www.apexxplumbing.net/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://www.apexxplumbing.net/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms plumbing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Swisher Plumbing",
+      "website": "https://swisherplumbingllc.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://swisherplumbingllc.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms plumbing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Defender Roofing",
+      "website": "https://defenderroofco.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://defenderroofco.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms roofing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Whitrock Associates",
+      "website": "https://whitrockassociates.com/locations/pace",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://whitrockassociates.com/locations/pace",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms roofing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Tide & Timber Building",
+      "website": "https://www.tideandtimberbuilding.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.tideandtimberbuilding.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms roofing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "FFS Roofing & Construction",
+      "website": "https://www.ffsroofingandconstruction.com/contact-us",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.ffsroofingandconstruction.com/contact-us",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms roofing services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "PROCARE Pest Control",
+      "website": "https://procarepestcontrol.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://procarepestcontrol.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms pest control services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Pine Grove Pest",
+      "website": "https://pinegrovepest.net/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://pinegrovepest.net/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms pest control services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Bug Out Service of West Florida",
+      "website": "https://www.bugoutwf.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.bugoutwf.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms pest control services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Cadenhead Services",
+      "website": "https://www.dontbugme.com/pest-control/milton-fl",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.dontbugme.com/pest-control/milton-fl",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms pest control services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Floors 4 Less",
+      "website": "https://flooringpensacola.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://flooringpensacola.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms flooring services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Precision Garage Door Service of Pensacola",
+      "website": "https://precisiondoorpensacola.com/reviews/area/pace",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://precisiondoorpensacola.com/reviews/area/pace",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms garage door repair services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "T & A Lawn Care Service",
+      "website": "https://www.talawncareservice.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "lawn-care"
+      ],
+      "sourceUrl": "https://www.talawncareservice.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms lawn care services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Maverick Septic Service",
+      "website": "https://www.mavericksepticservice.com/septic-pumping",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.mavericksepticservice.com/septic-pumping",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms septic services services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Ace Junk Removal Service",
+      "website": "https://acejunkremovalservice.com/junk-removal/pace-fl/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "junk-removal"
+      ],
+      "sourceUrl": "https://acejunkremovalservice.com/junk-removal/pace-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms junk removal services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Houk's Services",
+      "website": "https://houksservices.com/about-us/",
+      "regions": [
+        "pace-fl"
+      ],
+      "trades": [
+        "junk-removal"
+      ],
+      "sourceUrl": "https://houksservices.com/about-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms junk removal services and coverage in pace-fl."
+    },
+    {
+      "name": "Homestead Inspections",
+      "website": "https://www.homesteadinspections.us/home-inspections-in-pace-fl/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.homesteadinspections.us/home-inspections-in-pace-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms home inspections services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Gulf State Home Inspections",
+      "website": "https://www.pensacolainspectors.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.pensacolainspectors.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms home inspections services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Southern Sky Inspections",
+      "website": "https://www.southernskys.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.southernskys.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms home inspections services and coverage in pace-fl, milton-fl."
+    },
+    {
+      "name": "Emerald Moving & Storage",
+      "website": "https://emeraldcoastmoving.com/movers/pace-fl/",
+      "regions": [
+        "pace-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://emeraldcoastmoving.com/movers/pace-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and coverage in pace-fl."
+    },
+    {
+      "name": "Emerald Moving & Storage",
+      "website": "https://emeraldcoastmoving.com/movers/milton-fl/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://emeraldcoastmoving.com/movers/milton-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and coverage in milton-fl."
+    },
+    {
+      "name": "Southern Shores Moving",
+      "website": "https://southernshoresmoving.com/movers-pace-fl/",
+      "regions": [
+        "pace-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://southernshoresmoving.com/movers-pace-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website confirms movers services and coverage in pace-fl."
+    }
+  ]
+}
