@@ -7,6 +7,7 @@
  */
 export const excludedWebsiteDomains = [
   '1800gotjunk.com',
+  '911restoration.com',
   'acehandymanservices.com',
   'asppoolco.com',
   'belfor.com',
@@ -44,6 +45,15 @@ export const excludedWebsiteDomains = [
   'tintworld.com',
   'twomenandatruck.com',
   'walmart.com',
+  'emco-restore.com',
+  'mrfenceflorida.com',
+  'mrfencepensacola.com',
+  'pella.com',
+  'trulynolen.com',
+  'windowworldpensacola.com',
+  'windowworldriverregion.com',
+  'windowworldsouthernms.com',
+  'windowworldtampa.com',
 ] as const;
 
 function hostOf(website: string) {
