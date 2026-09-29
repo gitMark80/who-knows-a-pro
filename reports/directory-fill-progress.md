@@ -193,3 +193,22 @@ Remaining closest gaps after this batch:
 - Baseline 770b137 includes concurrent private business-results dashboards and referral tracking. Prepared 44 verified placements across five approved cities; official sources, service limits and exclusions saved in `reports/verified-grayton-crestview-2026-09-29.json`.
 - All 5,619 existing generated records unchanged by full-value comparison; 5,663 total. IDs and new canonical domain/city/category keys unique. No paid API calls; no database, billing, claims, tracking or application code changes.
 - Expected 9 additional completed city/category pairs. Publication/live verification pending. Refresh main before future writes.
+
+### Grayton/Crestview publication
+
+- PR #7 merged as `52973e33642c51691428904451f246b2d12e902b`. Vercel production status succeeded. All 44 new placements verified live across 24 category pages, with profile and official website links. Initial check preceded deployment and was repeated after success. Evidence: `reports/live-grayton-crestview-2026-09-29.json`.
+- TypeScript check passed using the current analytics dependency cache; all 5,619 prior generated records unchanged. No paid API calls. Full live coverage audit follows.
+
+- Complete live audit: **589/1,600 pairs meet five; 1,011 below; 75 empty; 3,722 missing placements.** Nine additional pairs completed. Fairhope returned temporary HTTP 502 twice and then passed. Counts indicate coverage, not independent re-verification of historical entries.
+
+Next run: refresh main and open PRs, preserve concurrent analytics/results changes, and continue nearby gaps using explicit official coverage. Remaining priority gaps:
+
+- pace-fl: trading-card-stores=1.
+- milton-fl: trading-card-stores=3.
+- perdido-key-fl: auto-body-collision=1, garage-door-repair=4, junk-removal=4, mobile-auto-detailing=4, septic-services=4, towing=2.
+- destin-fl: auto-body-collision=1, towing=3, trading-card-stores=1, window-tinting=4.
+- fort-walton-beach-fl: auto-body-collision=1, trading-card-stores=1.
+- crestview-fl: auto-body-collision=2, handyman=4, towing=3, trading-card-stores=1.
+- grayton-beach-fl: appliance-repair=4, auto-body-collision=1, auto-mechanics=0, carpet-cleaning=2, concrete=2, fence-builders=3, generator-installation=2, gutters=4, handyman=4, hurricane-shutters-impact-windows=2, insulation=2, irrigation-sprinkler-repair=4, kitchen-bath-remodeling=2, locksmith=2, marine-services=0, mobile-auto-detailing=4, movers=2, pest-control=2, pool-installation=2, pool-service=1, screen-enclosures-pool-cages=3, septic-services=1, towing=0, trading-card-stores=0, water-damage-mold-remediation=2, window-tinting=0.
+- panama-city-beach-fl: appliance-repair=2, auto-body-collision=1, auto-mechanics=1, carpet-cleaning=1, concrete=2, fence-builders=2, garage-door-repair=2, generator-installation=3, gutters=1, handyman=3, home-inspections=2, house-cleaning=2, hurricane-shutters-impact-windows=3, hvac=3, insulation=2, irrigation-sprinkler-repair=0, kitchen-bath-remodeling=3, landscaping=2, lawn-care=2, locksmith=4, marine-services=1, mobile-auto-detailing=0, movers=4, painting=3, pest-control=1, plumbing=3, pool-installation=2, pool-service=1, pressure-washing=2, roofing=2, screen-enclosures-pool-cages=3, septic-services=1, towing=2, trading-card-stores=1, tree-service=3, water-damage-mold-remediation=2, window-tinting=1.
+- panama-city-fl: appliance-repair=1, auto-body-collision=0, concrete=2, flooring=3, generator-installation=2, gutters=0, handyman=0, hurricane-shutters-impact-windows=1, insulation=1, irrigation-sprinkler-repair=3, kitchen-bath-remodeling=0, locksmith=0, movers=2, painting=2, pool-installation=0, pool-service=1, screen-enclosures-pool-cages=4, septic-services=1, trading-card-stores=0, window-tinting=0.
