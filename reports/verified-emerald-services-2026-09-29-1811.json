@@ -1,0 +1,932 @@
+{
+  "verifiedAt": "2026-09-29",
+  "baselineCommit": "33ce051",
+  "sourcePolicy": "Official business websites only; cached Foursquare artifact checked first; no paid API calls.",
+  "candidateArtifactReview": {
+    "runId": 36559444099,
+    "artifactId": 11029098206,
+    "relevantCachedQueries": 95,
+    "resultsReviewed": 556,
+    "findings": "Appliance and Grayton queries empty; unrelated restaurants/suppliers excluded; Allen and AutoWorks towing independently verified. A to Z/Resorts and AutoWorks/Destin Auto deduplicated."
+  },
+  "records": [
+    {
+      "name": "Cal's Appliance Repair",
+      "website": "https://www.calsappliancerepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.calsappliancerepair.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage names all three cities and residential appliance repairs."
+    },
+    {
+      "name": "Purvis Appliance Repair LLC",
+      "website": "https://purvisappliancerepair.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://purvisappliancerepair.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site identifies Crestview, Florida and home appliance repair."
+    },
+    {
+      "name": "Home Appliance Service of Destin",
+      "website": "https://hasdestin.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://hasdestin.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage confirms residential appliance repairs in Destin and gives its Industrial Park Lane address."
+    },
+    {
+      "name": "Sears Home Services",
+      "website": "https://www.searshomeservices.com/locations/al/auburn/sears-appliance-repair",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.searshomeservices.com/locations/fl/crestview/sears-appliance-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official city service page confirms in-home appliance repair; no physical storefront implied."
+    },
+    {
+      "name": "Sears Home Services",
+      "website": "https://www.searshomeservices.com/locations/al/auburn/sears-appliance-repair",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.searshomeservices.com/locations/fl/fort-walton-beach/sears-appliance-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official city service page confirms in-home appliance repair; no physical storefront implied."
+    },
+    {
+      "name": "Xpress Locksmith Service",
+      "website": "https://www.xpresslocksmithservice.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.xpresslocksmithservice.com/contact-us",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official contact page lists locksmith coverage for these cities."
+    },
+    {
+      "name": "Destin Locksmithing",
+      "website": "https://www.destinlocksmithing.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.destinlocksmithing.com/locksmith-services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official locksmith services page explicitly names the selected cities."
+    },
+    {
+      "name": "Derl's Lock & Safe",
+      "website": "https://www.derlslock.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.derlslock.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site confirms Destin and Crestview service plus Fort Walton Beach premises. Ben Marshalls and Knox are now managed by Derl and are not counted separately."
+    },
+    {
+      "name": "ASAP Locksmith",
+      "website": "https://www.asap24locksmith.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.asap24locksmith.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage lists locksmith services and both selected city ZIP codes."
+    },
+    {
+      "name": "Resorts Locksmith Services",
+      "website": "https://resortslocksmithservices.com/",
+      "regions": [
+        "destin-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://resortslocksmithservices.com/contact",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official contact page lists these cities; business is associated with A to Z Lock & Safe, which is not separately added."
+    },
+    {
+      "name": "Pop-A-Lock Santa Rosa Beach",
+      "website": "https://www.popalock.com/franchise/santa-rosa-beach-fl/",
+      "regions": [
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.popalock.com/franchise/santa-rosa-beach-fl/contact-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official franchise contact page explicitly lists Grayton Beach coverage."
+    },
+    {
+      "name": "Allen's Tow Service",
+      "website": "https://allenstowservice.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://allenstowservice.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage lists towing coverage in all selected cities. Cached Foursquare candidate uses the alternate allensdestintowing.com name/domain."
+    },
+    {
+      "name": "Destin Auto Center",
+      "website": "https://www.autoworksofdestin.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.autoworksofdestin.com/services/towing",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official towing page identifies service in Destin and 221 Main St. AutoWorks Towing at the same address is not separately counted."
+    },
+    {
+      "name": "KPI Towing",
+      "website": "https://kpitowing.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://kpitowing.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage names both cities for heavy-duty towing. Scope is heavy vehicles and recovery."
+    },
+    {
+      "name": "Jimmy Nichols Towing & Repair, LLC",
+      "website": "https://www.jimmynicholstowing.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.jimmynicholstowing.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage confirms towing and its Fort Walton Beach Navy Street address."
+    },
+    {
+      "name": "AJZ Towing LLC",
+      "website": "https://ajztowingllc.us/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://ajztowingllc.us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage provides towing services, local telephone and Fort Walton Beach address."
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "foley-al",
+        "gulf-shores-al",
+        "orange-beach-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.wprincfl.com/services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official services page names selected cities and septic installation plus commercial concrete work. Concrete scope is commercial; septic scope is installation."
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "foley-al",
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://www.wprincfl.com/services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official services page names selected cities and septic installation plus commercial concrete work. Concrete scope is commercial; septic scope is installation."
+    },
+    {
+      "name": "Crown Plumbing",
+      "website": "https://www.thecrownplumbing.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.thecrownplumbing.com/drainfield-installation-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official drainfield page confirms installation/repair in selected cities. Superior Septic shares the same phone and is not counted separately."
+    },
+    {
+      "name": "Prime Plumbing Services",
+      "website": "https://primeplumbingservicesfl.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://primeplumbingservicesfl.com/septic-tank-pumping/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official septic page lists each selected city for tank pumping and repairs. Alternate Prime Plumbing & Septic website shares license CFC1432115 and is not counted separately."
+    },
+    {
+      "name": "Gulf Coast Electric",
+      "website": "https://gcedestin.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://gcedestin.com/services/residential-electrical-services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official residential services page lists home generator installation and selected service cities."
+    },
+    {
+      "name": "Heritage Generator",
+      "website": "https://emerald.heritagegenerator.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://emerald.heritagegenerator.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official Emerald Coast site offers whole-house generator installation and explicitly names all three cities."
+    },
+    {
+      "name": "RCS Electrical Services",
+      "website": "https://www.rcs-electricalservices.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.rcs-electricalservices.com/niceville-generator-repair.html",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official generator page describes installations and lists all three communities."
+    },
+    {
+      "name": "Dan's Aluminum, Inc.",
+      "website": "https://www.dansaluminum.com/",
+      "regions": [
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.dansaluminum.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage confirms pool enclosures and selected cities; based in Panama City."
+    },
+    {
+      "name": "Anthony's Screens",
+      "website": "https://www.anthonysscreens.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.anthonysscreens.com/pool-enclosures",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official pool-enclosure page names all three cities and construction/re-screening service."
+    },
+    {
+      "name": "MB Auto Detail and Tint",
+      "website": "https://www.mbdetailtint.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "window-tinting"
+      ],
+      "sourceUrl": "https://www.mbdetailtint.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage lists window tinting and clients from the selected cities. Shop is in Valparaiso; no mobile service claim."
+    },
+    {
+      "name": "Accurate Glass Tinting",
+      "website": "https://accurate-glass-tinting.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "window-tinting"
+      ],
+      "sourceUrl": "https://accurate-glass-tinting.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official homepage confirms auto/residential/commercial tinting and physical locations in both selected cities."
+    },
+    {
+      "name": "Restylers Aftermarket Specialist",
+      "website": "https://restylersinc.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "window-tinting"
+      ],
+      "sourceUrl": "https://restylersinc.com/fort-walton-beach/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official page confirms window tinting and clients from selected cities. Work is performed at its shops; no mobile service claim."
+    }
+  ],
+  "selectedPlacements": [
+    {
+      "name": "Cal's Appliance Repair",
+      "website": "https://www.calsappliancerepair.com/",
+      "region": "destin-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Cal's Appliance Repair",
+      "website": "https://www.calsappliancerepair.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Cal's Appliance Repair",
+      "website": "https://www.calsappliancerepair.com/",
+      "region": "crestview-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Purvis Appliance Repair LLC",
+      "website": "https://purvisappliancerepair.com/",
+      "region": "crestview-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Home Appliance Service of Destin",
+      "website": "https://hasdestin.com/",
+      "region": "destin-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Sears Home Services",
+      "website": "https://www.searshomeservices.com/locations/al/auburn/sears-appliance-repair",
+      "region": "crestview-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Sears Home Services",
+      "website": "https://www.searshomeservices.com/locations/al/auburn/sears-appliance-repair",
+      "region": "fort-walton-beach-fl",
+      "trade": "appliance-repair"
+    },
+    {
+      "name": "Xpress Locksmith Service",
+      "website": "https://www.xpresslocksmithservice.com/",
+      "region": "destin-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Xpress Locksmith Service",
+      "website": "https://www.xpresslocksmithservice.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Xpress Locksmith Service",
+      "website": "https://www.xpresslocksmithservice.com/",
+      "region": "crestview-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Xpress Locksmith Service",
+      "website": "https://www.xpresslocksmithservice.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Destin Locksmithing",
+      "website": "https://www.destinlocksmithing.com/",
+      "region": "destin-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Destin Locksmithing",
+      "website": "https://www.destinlocksmithing.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Destin Locksmithing",
+      "website": "https://www.destinlocksmithing.com/",
+      "region": "crestview-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Destin Locksmithing",
+      "website": "https://www.destinlocksmithing.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Derl's Lock & Safe",
+      "website": "https://www.derlslock.com/",
+      "region": "destin-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Derl's Lock & Safe",
+      "website": "https://www.derlslock.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Derl's Lock & Safe",
+      "website": "https://www.derlslock.com/",
+      "region": "crestview-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "ASAP Locksmith",
+      "website": "https://www.asap24locksmith.com/",
+      "region": "crestview-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "ASAP Locksmith",
+      "website": "https://www.asap24locksmith.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Resorts Locksmith Services",
+      "website": "https://resortslocksmithservices.com/",
+      "region": "destin-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Resorts Locksmith Services",
+      "website": "https://resortslocksmithservices.com/",
+      "region": "grayton-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Resorts Locksmith Services",
+      "website": "https://resortslocksmithservices.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Pop-A-Lock Santa Rosa Beach",
+      "website": "https://www.popalock.com/franchise/santa-rosa-beach-fl/",
+      "region": "grayton-beach-fl",
+      "trade": "locksmith"
+    },
+    {
+      "name": "Allen's Tow Service",
+      "website": "https://allenstowservice.com/",
+      "region": "destin-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "Allen's Tow Service",
+      "website": "https://allenstowservice.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "Allen's Tow Service",
+      "website": "https://allenstowservice.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "Destin Auto Center",
+      "website": "https://www.autoworksofdestin.com/",
+      "region": "destin-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "KPI Towing",
+      "website": "https://kpitowing.com/",
+      "region": "crestview-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "KPI Towing",
+      "website": "https://kpitowing.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "Jimmy Nichols Towing & Repair, LLC",
+      "website": "https://www.jimmynicholstowing.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "AJZ Towing LLC",
+      "website": "https://ajztowingllc.us/",
+      "region": "fort-walton-beach-fl",
+      "trade": "towing"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "destin-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "crestview-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "panama-city-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "foley-al",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "gulf-shores-al",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "orange-beach-al",
+      "trade": "septic-services"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "destin-fl",
+      "trade": "concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "crestview-fl",
+      "trade": "concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "panama-city-fl",
+      "trade": "concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "foley-al",
+      "trade": "concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "region": "gulf-shores-al",
+      "trade": "concrete"
+    },
+    {
+      "name": "Crown Plumbing",
+      "website": "https://www.thecrownplumbing.com/",
+      "region": "destin-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Crown Plumbing",
+      "website": "https://www.thecrownplumbing.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Crown Plumbing",
+      "website": "https://www.thecrownplumbing.com/",
+      "region": "crestview-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Prime Plumbing Services",
+      "website": "https://primeplumbingservicesfl.com/",
+      "region": "destin-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Prime Plumbing Services",
+      "website": "https://primeplumbingservicesfl.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Prime Plumbing Services",
+      "website": "https://primeplumbingservicesfl.com/",
+      "region": "crestview-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Prime Plumbing Services",
+      "website": "https://primeplumbingservicesfl.com/",
+      "region": "grayton-beach-fl",
+      "trade": "septic-services"
+    },
+    {
+      "name": "Gulf Coast Electric",
+      "website": "https://gcedestin.com/",
+      "region": "destin-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Gulf Coast Electric",
+      "website": "https://gcedestin.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Gulf Coast Electric",
+      "website": "https://gcedestin.com/",
+      "region": "crestview-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Gulf Coast Electric",
+      "website": "https://gcedestin.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Gulf Coast Electric",
+      "website": "https://gcedestin.com/",
+      "region": "panama-city-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Heritage Generator",
+      "website": "https://emerald.heritagegenerator.com/",
+      "region": "destin-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Heritage Generator",
+      "website": "https://emerald.heritagegenerator.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Heritage Generator",
+      "website": "https://emerald.heritagegenerator.com/",
+      "region": "crestview-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "RCS Electrical Services",
+      "website": "https://www.rcs-electricalservices.com/",
+      "region": "destin-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "RCS Electrical Services",
+      "website": "https://www.rcs-electricalservices.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "RCS Electrical Services",
+      "website": "https://www.rcs-electricalservices.com/",
+      "region": "crestview-fl",
+      "trade": "generator-installation"
+    },
+    {
+      "name": "Dan's Aluminum, Inc.",
+      "website": "https://www.dansaluminum.com/",
+      "region": "destin-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Dan's Aluminum, Inc.",
+      "website": "https://www.dansaluminum.com/",
+      "region": "crestview-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Dan's Aluminum, Inc.",
+      "website": "https://www.dansaluminum.com/",
+      "region": "panama-city-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Dan's Aluminum, Inc.",
+      "website": "https://www.dansaluminum.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Anthony's Screens",
+      "website": "https://www.anthonysscreens.com/",
+      "region": "destin-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Anthony's Screens",
+      "website": "https://www.anthonysscreens.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Anthony's Screens",
+      "website": "https://www.anthonysscreens.com/",
+      "region": "crestview-fl",
+      "trade": "screen-enclosures-pool-cages"
+    },
+    {
+      "name": "MB Auto Detail and Tint",
+      "website": "https://www.mbdetailtint.com/",
+      "region": "destin-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "MB Auto Detail and Tint",
+      "website": "https://www.mbdetailtint.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "MB Auto Detail and Tint",
+      "website": "https://www.mbdetailtint.com/",
+      "region": "crestview-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "Accurate Glass Tinting",
+      "website": "https://accurate-glass-tinting.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "Accurate Glass Tinting",
+      "website": "https://accurate-glass-tinting.com/",
+      "region": "crestview-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "Restylers Aftermarket Specialist",
+      "website": "https://restylersinc.com/",
+      "region": "destin-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "Restylers Aftermarket Specialist",
+      "website": "https://restylersinc.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "window-tinting"
+    },
+    {
+      "name": "Restylers Aftermarket Specialist",
+      "website": "https://restylersinc.com/",
+      "region": "crestview-fl",
+      "trade": "window-tinting"
+    }
+  ],
+  "exclusions": [
+    {
+      "business": "Beach2Bay Appliances",
+      "reason": "Homepage contains extensive unrelated gambling injection; excluded."
+    },
+    {
+      "business": "Murphy's Home Services",
+      "reason": "Official pages returned 403 through direct and web retrieval; deferred."
+    },
+    {
+      "business": "Laser Appliance Repair",
+      "reason": "Broad multi-state coverage; no sufficiently explicit current target-city evidence in page body."
+    },
+    {
+      "business": "Superior Septic Services",
+      "reason": "Same telephone 850-682-4440 as Crown Plumbing; conservative single identity."
+    },
+    {
+      "business": "Prime Plumbing & Septic",
+      "reason": "Alternate domain shares license CFC1432115 with existing Prime Plumbing Services."
+    },
+    {
+      "business": "Fort Walton Locksmith / Crestview Locksmith",
+      "reason": "Generic city domains; independent operator identity not sufficiently corroborated; deferred."
+    },
+    {
+      "business": "Emerald Coast Window Films",
+      "reason": "Official site fetch returned 502; deferred."
+    },
+    {
+      "business": "Pace / Milton trading-card stores",
+      "reason": "Recheck found existing PokeShop, Fan2Fan, Cades and GameStop only; new independent official websites not verified."
+    }
+  ]
+}

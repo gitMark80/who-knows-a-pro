@@ -1,0 +1,122 @@
+{
+  "baselineRecords": 5506,
+  "finalRecords": 5584,
+  "addedPlacements": 78,
+  "previousRecordsUnchanged": true,
+  "newIdsUnique": true,
+  "newDomainCityCategoryKeysUnique": true,
+  "expectedNewCompletePairs": 18,
+  "completedPairs": [
+    {
+      "city": "destin-fl",
+      "category": "appliance-repair",
+      "before": 3,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "appliance-repair",
+      "before": 3,
+      "after": 5
+    },
+    {
+      "city": "crestview-fl",
+      "category": "appliance-repair",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "destin-fl",
+      "category": "locksmith",
+      "before": 1,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "locksmith",
+      "before": 1,
+      "after": 5
+    },
+    {
+      "city": "crestview-fl",
+      "category": "locksmith",
+      "before": 1,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "towing",
+      "before": 1,
+      "after": 5
+    },
+    {
+      "city": "destin-fl",
+      "category": "septic-services",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "septic-services",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "crestview-fl",
+      "category": "septic-services",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "destin-fl",
+      "category": "concrete",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "concrete",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "city": "crestview-fl",
+      "category": "concrete",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "city": "destin-fl",
+      "category": "generator-installation",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "generator-installation",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "destin-fl",
+      "category": "screen-enclosures-pool-cages",
+      "before": 3,
+      "after": 5
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "window-tinting",
+      "before": 2,
+      "after": 5
+    },
+    {
+      "city": "crestview-fl",
+      "category": "window-tinting",
+      "before": 2,
+      "after": 5
+    }
+  ],
+  "status": "prepared_not_published",
+  "typeScript": "passed",
+  "productionBuild": "passed"
+}
