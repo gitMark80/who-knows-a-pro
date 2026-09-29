@@ -5,7 +5,7 @@
 - Baseline: main commit `221d916f16d177f679273964017a8f474dfd5b9d`.
 - Prepared 50 new placements across 12 approved cities (46 source records representing 25 business identities).
 - Source evidence and verification dates: `reports/verified-gulf-breeze-perdido-2026-09-29.json`.
-- Publication status at commit creation: validated entries included in this commit; live confirmation pending. Do not treat candidate collection or this statement as live confirmation.
+- Committed and confirmed live: all 50 additions from `77fafdf89302fec5a2155411a740ba49cc18536d`. Vercel reported deployment success. Each added identity's profile link and official website link was found on its live category page (33 category pages checked). Evidence: `reports/live-additions-2026-09-29.json`.
 - Existing 5,143 seed entries compared by ID and full serialized value: unchanged. New total: 5,193. No DB, owner, claimed, billing, subscription or paid-tier records modified.
 - Registry remains 40 active cities × 40 categories. Grayton Beach retained; Pensacola Beach not added.
 
@@ -13,10 +13,11 @@
 
 - Initial live city-card audit before concurrent 90-placement update: 470/1,600 combinations meet five; 1,130 below; 108 empty; 4,332 missing placements.
 - Latest pre-publication live audit after the concurrent update: 495/1,600 meet five; 1,105 below; 101 empty; 4,242 missing placements.
-- `reports/live-directory-coverage.csv` will be refreshed after publication; historical committed counts must not be treated as current.
+- Post-publication live audit: **504/1,600 combinations meet five; 1,096 below; 99 empty; 4,192 missing placements.** Nine additional combinations reached five in this batch.
+- `reports/live-directory-coverage.csv` is the fresh post-publication audit from 2026-09-29.
 - City-card counts are coverage indicators, not an independent re-verification of every historical listing.
 
-## Priority cities after this batch (source counts; verify live)
+## Priority cities after this batch (confirmed live counts)
 
 - pace-fl: trading-card-stores=1
 - milton-fl: trading-card-stores=3
@@ -43,7 +44,7 @@
 
 ## Next actions
 
-1. Confirm this data commit deployed and verify every added identity on its live category page; refresh the full 1,600-combination audit.
+1. Read current main and this checkpoint before starting the next batch; check for concurrent work and refresh live coverage when needed.
 2. Continue honest research for Pace/Milton trading-card shortfalls, then Perdido Key remaining gaps, then surrounding approved cities outward from Pensacola.
 3. Reuse the existing artifact before any new sourcing calls. Other cities still have substantial shortfalls; task is not complete.
 4. Refresh main and any open PRs before each write; retain sources, dates and checkpoint updates in the repository. Do not overwrite concurrent additions.

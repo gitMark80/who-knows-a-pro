@@ -11,19 +11,19 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Atlanta, GA",atlanta-ga,Generator installation,generator-installation,10,5,0,True
 "Atlanta, GA",atlanta-ga,Gutters,gutters,1,5,4,False
 "Atlanta, GA",atlanta-ga,Handyman,handyman,12,5,0,True
-"Atlanta, GA",atlanta-ga,Home inspections,home-inspections,0,5,5,False
+"Atlanta, GA",atlanta-ga,Home inspections,home-inspections,5,5,0,True
 "Atlanta, GA",atlanta-ga,House cleaning,house-cleaning,2,5,3,False
 "Atlanta, GA",atlanta-ga,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,10,5,0,True
 "Atlanta, GA",atlanta-ga,HVAC,hvac,12,5,0,True
 "Atlanta, GA",atlanta-ga,Insulation,insulation,12,5,0,True
-"Atlanta, GA",atlanta-ga,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Atlanta, GA",atlanta-ga,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
 "Atlanta, GA",atlanta-ga,Junk removal,junk-removal,2,5,3,False
 "Atlanta, GA",atlanta-ga,Kitchen & bath remodeling,kitchen-bath-remodeling,12,5,0,True
 "Atlanta, GA",atlanta-ga,Landscaping,landscaping,12,5,0,True
 "Atlanta, GA",atlanta-ga,Lawn care,lawn-care,1,5,4,False
 "Atlanta, GA",atlanta-ga,Locksmith,locksmith,1,5,4,False
 "Atlanta, GA",atlanta-ga,Marine services,marine-services,13,5,0,True
-"Atlanta, GA",atlanta-ga,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Atlanta, GA",atlanta-ga,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
 "Atlanta, GA",atlanta-ga,Movers,movers,1,5,4,False
 "Atlanta, GA",atlanta-ga,Painting,painting,11,5,0,True
 "Atlanta, GA",atlanta-ga,Pest control,pest-control,12,5,0,True
@@ -55,7 +55,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Auburn, AL",auburn-al,House cleaning,house-cleaning,5,5,0,True
 "Auburn, AL",auburn-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,0,5,5,False
 "Auburn, AL",auburn-al,HVAC,hvac,5,5,0,True
-"Auburn, AL",auburn-al,Insulation,insulation,4,5,1,False
+"Auburn, AL",auburn-al,Insulation,insulation,5,5,0,True
 "Auburn, AL",auburn-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
 "Auburn, AL",auburn-al,Junk removal,junk-removal,5,5,0,True
 "Auburn, AL",auburn-al,Kitchen & bath remodeling,kitchen-bath-remodeling,5,5,0,True
@@ -82,7 +82,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Baton Rouge, LA",baton-rouge-la,Appliance repair,appliance-repair,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Auto body & collision,auto-body-collision,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Auto mechanics,auto-mechanics,1,5,4,False
-"Baton Rouge, LA",baton-rouge-la,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Baton Rouge, LA",baton-rouge-la,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Baton Rouge, LA",baton-rouge-la,Concrete & driveways,concrete,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Electrical,electrical,2,5,3,False
 "Baton Rouge, LA",baton-rouge-la,Fence builders,fence-builders,1,5,4,False
@@ -91,27 +91,27 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Baton Rouge, LA",baton-rouge-la,Generator installation,generator-installation,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Gutters,gutters,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Handyman,handyman,1,5,4,False
-"Baton Rouge, LA",baton-rouge-la,Home inspections,home-inspections,0,5,5,False
+"Baton Rouge, LA",baton-rouge-la,Home inspections,home-inspections,5,5,0,True
 "Baton Rouge, LA",baton-rouge-la,House cleaning,house-cleaning,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,HVAC,hvac,2,5,3,False
 "Baton Rouge, LA",baton-rouge-la,Insulation,insulation,1,5,4,False
-"Baton Rouge, LA",baton-rouge-la,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Baton Rouge, LA",baton-rouge-la,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
 "Baton Rouge, LA",baton-rouge-la,Junk removal,junk-removal,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Landscaping,landscaping,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Lawn care,lawn-care,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Locksmith,locksmith,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Marine services,marine-services,1,5,4,False
-"Baton Rouge, LA",baton-rouge-la,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Baton Rouge, LA",baton-rouge-la,Movers,movers,1,5,4,False
+"Baton Rouge, LA",baton-rouge-la,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Baton Rouge, LA",baton-rouge-la,Movers,movers,9,5,0,True
 "Baton Rouge, LA",baton-rouge-la,Painting,painting,1,5,4,False
-"Baton Rouge, LA",baton-rouge-la,Pest control,pest-control,1,5,4,False
+"Baton Rouge, LA",baton-rouge-la,Pest control,pest-control,5,5,0,True
 "Baton Rouge, LA",baton-rouge-la,Plumbing,plumbing,2,5,3,False
 "Baton Rouge, LA",baton-rouge-la,Pool installation,pool-installation,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Pool service,pool-service,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Pressure washing,pressure-washing,1,5,4,False
-"Baton Rouge, LA",baton-rouge-la,Roofing,roofing,1,5,4,False
+"Baton Rouge, LA",baton-rouge-la,Roofing,roofing,5,5,0,True
 "Baton Rouge, LA",baton-rouge-la,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Septic services,septic-services,1,5,4,False
 "Baton Rouge, LA",baton-rouge-la,Towing,towing,1,5,4,False
@@ -122,21 +122,21 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Biloxi, MS",biloxi-ms,Appliance repair,appliance-repair,1,5,4,False
 "Biloxi, MS",biloxi-ms,Auto body & collision,auto-body-collision,1,5,4,False
 "Biloxi, MS",biloxi-ms,Auto mechanics,auto-mechanics,1,5,4,False
-"Biloxi, MS",biloxi-ms,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Biloxi, MS",biloxi-ms,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Biloxi, MS",biloxi-ms,Concrete & driveways,concrete,1,5,4,False
 "Biloxi, MS",biloxi-ms,Electrical,electrical,2,5,3,False
 "Biloxi, MS",biloxi-ms,Fence builders,fence-builders,1,5,4,False
 "Biloxi, MS",biloxi-ms,Flooring,flooring,1,5,4,False
-"Biloxi, MS",biloxi-ms,Garage door repair,garage-door-repair,1,5,4,False
+"Biloxi, MS",biloxi-ms,Garage door repair,garage-door-repair,2,5,3,False
 "Biloxi, MS",biloxi-ms,Generator installation,generator-installation,1,5,4,False
 "Biloxi, MS",biloxi-ms,Gutters,gutters,1,5,4,False
 "Biloxi, MS",biloxi-ms,Handyman,handyman,1,5,4,False
-"Biloxi, MS",biloxi-ms,Home inspections,home-inspections,0,5,5,False
+"Biloxi, MS",biloxi-ms,Home inspections,home-inspections,5,5,0,True
 "Biloxi, MS",biloxi-ms,House cleaning,house-cleaning,1,5,4,False
 "Biloxi, MS",biloxi-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Biloxi, MS",biloxi-ms,HVAC,hvac,2,5,3,False
 "Biloxi, MS",biloxi-ms,Insulation,insulation,1,5,4,False
-"Biloxi, MS",biloxi-ms,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Biloxi, MS",biloxi-ms,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
 "Biloxi, MS",biloxi-ms,Junk removal,junk-removal,1,5,4,False
 "Biloxi, MS",biloxi-ms,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
 "Biloxi, MS",biloxi-ms,Landscaping,landscaping,2,5,3,False
@@ -148,8 +148,8 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Biloxi, MS",biloxi-ms,Painting,painting,1,5,4,False
 "Biloxi, MS",biloxi-ms,Pest control,pest-control,1,5,4,False
 "Biloxi, MS",biloxi-ms,Plumbing,plumbing,2,5,3,False
-"Biloxi, MS",biloxi-ms,Pool installation,pool-installation,1,5,4,False
-"Biloxi, MS",biloxi-ms,Pool service,pool-service,1,5,4,False
+"Biloxi, MS",biloxi-ms,Pool installation,pool-installation,2,5,3,False
+"Biloxi, MS",biloxi-ms,Pool service,pool-service,2,5,3,False
 "Biloxi, MS",biloxi-ms,Pressure washing,pressure-washing,2,5,3,False
 "Biloxi, MS",biloxi-ms,Roofing,roofing,1,5,4,False
 "Biloxi, MS",biloxi-ms,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
@@ -171,11 +171,11 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Birmingham, AL",birmingham-al,Generator installation,generator-installation,1,5,4,False
 "Birmingham, AL",birmingham-al,Gutters,gutters,1,5,4,False
 "Birmingham, AL",birmingham-al,Handyman,handyman,1,5,4,False
-"Birmingham, AL",birmingham-al,Home inspections,home-inspections,0,5,5,False
+"Birmingham, AL",birmingham-al,Home inspections,home-inspections,5,5,0,True
 "Birmingham, AL",birmingham-al,House cleaning,house-cleaning,1,5,4,False
 "Birmingham, AL",birmingham-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Birmingham, AL",birmingham-al,HVAC,hvac,2,5,3,False
-"Birmingham, AL",birmingham-al,Insulation,insulation,4,5,1,False
+"Birmingham, AL",birmingham-al,Insulation,insulation,7,5,0,True
 "Birmingham, AL",birmingham-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
 "Birmingham, AL",birmingham-al,Junk removal,junk-removal,1,5,4,False
 "Birmingham, AL",birmingham-al,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
@@ -183,10 +183,10 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Birmingham, AL",birmingham-al,Lawn care,lawn-care,1,5,4,False
 "Birmingham, AL",birmingham-al,Locksmith,locksmith,1,5,4,False
 "Birmingham, AL",birmingham-al,Marine services,marine-services,3,5,2,False
-"Birmingham, AL",birmingham-al,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Birmingham, AL",birmingham-al,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
 "Birmingham, AL",birmingham-al,Movers,movers,1,5,4,False
 "Birmingham, AL",birmingham-al,Painting,painting,1,5,4,False
-"Birmingham, AL",birmingham-al,Pest control,pest-control,1,5,4,False
+"Birmingham, AL",birmingham-al,Pest control,pest-control,5,5,0,True
 "Birmingham, AL",birmingham-al,Plumbing,plumbing,2,5,3,False
 "Birmingham, AL",birmingham-al,Pool installation,pool-installation,2,5,3,False
 "Birmingham, AL",birmingham-al,Pool service,pool-service,1,5,4,False
@@ -202,16 +202,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Clearwater, FL",clearwater-fl,Appliance repair,appliance-repair,1,5,4,False
 "Clearwater, FL",clearwater-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Clearwater, FL",clearwater-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Clearwater, FL",clearwater-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Clearwater, FL",clearwater-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Clearwater, FL",clearwater-fl,Concrete & driveways,concrete,1,5,4,False
 "Clearwater, FL",clearwater-fl,Electrical,electrical,2,5,3,False
 "Clearwater, FL",clearwater-fl,Fence builders,fence-builders,1,5,4,False
 "Clearwater, FL",clearwater-fl,Flooring,flooring,1,5,4,False
-"Clearwater, FL",clearwater-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Clearwater, FL",clearwater-fl,Garage door repair,garage-door-repair,5,5,0,True
 "Clearwater, FL",clearwater-fl,Generator installation,generator-installation,1,5,4,False
 "Clearwater, FL",clearwater-fl,Gutters,gutters,1,5,4,False
 "Clearwater, FL",clearwater-fl,Handyman,handyman,1,5,4,False
-"Clearwater, FL",clearwater-fl,Home inspections,home-inspections,0,5,5,False
+"Clearwater, FL",clearwater-fl,Home inspections,home-inspections,5,5,0,True
 "Clearwater, FL",clearwater-fl,House cleaning,house-cleaning,1,5,4,False
 "Clearwater, FL",clearwater-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Clearwater, FL",clearwater-fl,HVAC,hvac,2,5,3,False
@@ -223,15 +223,15 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Clearwater, FL",clearwater-fl,Lawn care,lawn-care,1,5,4,False
 "Clearwater, FL",clearwater-fl,Locksmith,locksmith,1,5,4,False
 "Clearwater, FL",clearwater-fl,Marine services,marine-services,1,5,4,False
-"Clearwater, FL",clearwater-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Clearwater, FL",clearwater-fl,Movers,movers,1,5,4,False
+"Clearwater, FL",clearwater-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Clearwater, FL",clearwater-fl,Movers,movers,5,5,0,True
 "Clearwater, FL",clearwater-fl,Painting,painting,1,5,4,False
-"Clearwater, FL",clearwater-fl,Pest control,pest-control,1,5,4,False
+"Clearwater, FL",clearwater-fl,Pest control,pest-control,5,5,0,True
 "Clearwater, FL",clearwater-fl,Plumbing,plumbing,2,5,3,False
 "Clearwater, FL",clearwater-fl,Pool installation,pool-installation,1,5,4,False
 "Clearwater, FL",clearwater-fl,Pool service,pool-service,1,5,4,False
 "Clearwater, FL",clearwater-fl,Pressure washing,pressure-washing,1,5,4,False
-"Clearwater, FL",clearwater-fl,Roofing,roofing,1,5,4,False
+"Clearwater, FL",clearwater-fl,Roofing,roofing,5,5,0,True
 "Clearwater, FL",clearwater-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Clearwater, FL",clearwater-fl,Septic services,septic-services,1,5,4,False
 "Clearwater, FL",clearwater-fl,Towing,towing,1,5,4,False
@@ -241,75 +241,75 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Clearwater, FL",clearwater-fl,Window tinting,window-tinting,1,5,4,False
 "Crestview, FL",crestview-fl,Appliance repair,appliance-repair,1,5,4,False
 "Crestview, FL",crestview-fl,Auto body & collision,auto-body-collision,2,5,3,False
-"Crestview, FL",crestview-fl,Auto mechanics,auto-mechanics,2,5,3,False
-"Crestview, FL",crestview-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Crestview, FL",crestview-fl,Auto mechanics,auto-mechanics,5,5,0,True
+"Crestview, FL",crestview-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Crestview, FL",crestview-fl,Concrete & driveways,concrete,1,5,4,False
-"Crestview, FL",crestview-fl,Electrical,electrical,1,5,4,False
-"Crestview, FL",crestview-fl,Fence builders,fence-builders,1,5,4,False
+"Crestview, FL",crestview-fl,Electrical,electrical,5,5,0,True
+"Crestview, FL",crestview-fl,Fence builders,fence-builders,5,5,0,True
 "Crestview, FL",crestview-fl,Flooring,flooring,1,5,4,False
-"Crestview, FL",crestview-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Crestview, FL",crestview-fl,Garage door repair,garage-door-repair,5,5,0,True
 "Crestview, FL",crestview-fl,Generator installation,generator-installation,1,5,4,False
 "Crestview, FL",crestview-fl,Gutters,gutters,1,5,4,False
 "Crestview, FL",crestview-fl,Handyman,handyman,1,5,4,False
-"Crestview, FL",crestview-fl,Home inspections,home-inspections,1,5,4,False
-"Crestview, FL",crestview-fl,House cleaning,house-cleaning,1,5,4,False
+"Crestview, FL",crestview-fl,Home inspections,home-inspections,5,5,0,True
+"Crestview, FL",crestview-fl,House cleaning,house-cleaning,5,5,0,True
 "Crestview, FL",crestview-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
-"Crestview, FL",crestview-fl,HVAC,hvac,2,5,3,False
+"Crestview, FL",crestview-fl,HVAC,hvac,5,5,0,True
 "Crestview, FL",crestview-fl,Insulation,insulation,1,5,4,False
-"Crestview, FL",crestview-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Crestview, FL",crestview-fl,Junk removal,junk-removal,2,5,3,False
+"Crestview, FL",crestview-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Crestview, FL",crestview-fl,Junk removal,junk-removal,5,5,0,True
 "Crestview, FL",crestview-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
-"Crestview, FL",crestview-fl,Landscaping,landscaping,1,5,4,False
-"Crestview, FL",crestview-fl,Lawn care,lawn-care,1,5,4,False
+"Crestview, FL",crestview-fl,Landscaping,landscaping,5,5,0,True
+"Crestview, FL",crestview-fl,Lawn care,lawn-care,5,5,0,True
 "Crestview, FL",crestview-fl,Locksmith,locksmith,1,5,4,False
-"Crestview, FL",crestview-fl,Marine services,marine-services,1,5,4,False
-"Crestview, FL",crestview-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Crestview, FL",crestview-fl,Movers,movers,1,5,4,False
+"Crestview, FL",crestview-fl,Marine services,marine-services,5,5,0,True
+"Crestview, FL",crestview-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Crestview, FL",crestview-fl,Movers,movers,5,5,0,True
 "Crestview, FL",crestview-fl,Painting,painting,1,5,4,False
-"Crestview, FL",crestview-fl,Pest control,pest-control,1,5,4,False
-"Crestview, FL",crestview-fl,Plumbing,plumbing,1,5,4,False
-"Crestview, FL",crestview-fl,Pool installation,pool-installation,1,5,4,False
-"Crestview, FL",crestview-fl,Pool service,pool-service,1,5,4,False
-"Crestview, FL",crestview-fl,Pressure washing,pressure-washing,1,5,4,False
-"Crestview, FL",crestview-fl,Roofing,roofing,1,5,4,False
+"Crestview, FL",crestview-fl,Pest control,pest-control,5,5,0,True
+"Crestview, FL",crestview-fl,Plumbing,plumbing,5,5,0,True
+"Crestview, FL",crestview-fl,Pool installation,pool-installation,2,5,3,False
+"Crestview, FL",crestview-fl,Pool service,pool-service,2,5,3,False
+"Crestview, FL",crestview-fl,Pressure washing,pressure-washing,5,5,0,True
+"Crestview, FL",crestview-fl,Roofing,roofing,5,5,0,True
 "Crestview, FL",crestview-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Crestview, FL",crestview-fl,Septic services,septic-services,2,5,3,False
 "Crestview, FL",crestview-fl,Towing,towing,2,5,3,False
 "Crestview, FL",crestview-fl,Trading card stores,trading-card-stores,1,5,4,False
-"Crestview, FL",crestview-fl,Tree service,tree-service,1,5,4,False
-"Crestview, FL",crestview-fl,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
+"Crestview, FL",crestview-fl,Tree service,tree-service,5,5,0,True
+"Crestview, FL",crestview-fl,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,True
 "Crestview, FL",crestview-fl,Window tinting,window-tinting,2,5,3,False
 "Daphne, AL",daphne-al,Appliance repair,appliance-repair,1,5,4,False
 "Daphne, AL",daphne-al,Auto body & collision,auto-body-collision,1,5,4,False
 "Daphne, AL",daphne-al,Auto mechanics,auto-mechanics,1,5,4,False
-"Daphne, AL",daphne-al,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Daphne, AL",daphne-al,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Daphne, AL",daphne-al,Concrete & driveways,concrete,1,5,4,False
 "Daphne, AL",daphne-al,Electrical,electrical,2,5,3,False
 "Daphne, AL",daphne-al,Fence builders,fence-builders,1,5,4,False
 "Daphne, AL",daphne-al,Flooring,flooring,1,5,4,False
 "Daphne, AL",daphne-al,Garage door repair,garage-door-repair,1,5,4,False
 "Daphne, AL",daphne-al,Generator installation,generator-installation,1,5,4,False
-"Daphne, AL",daphne-al,Gutters,gutters,2,5,3,False
+"Daphne, AL",daphne-al,Gutters,gutters,3,5,2,False
 "Daphne, AL",daphne-al,Handyman,handyman,1,5,4,False
-"Daphne, AL",daphne-al,Home inspections,home-inspections,0,5,5,False
+"Daphne, AL",daphne-al,Home inspections,home-inspections,2,5,3,False
 "Daphne, AL",daphne-al,House cleaning,house-cleaning,1,5,4,False
 "Daphne, AL",daphne-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Daphne, AL",daphne-al,HVAC,hvac,2,5,3,False
 "Daphne, AL",daphne-al,Insulation,insulation,2,5,3,False
-"Daphne, AL",daphne-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Daphne, AL",daphne-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Daphne, AL",daphne-al,Junk removal,junk-removal,1,5,4,False
 "Daphne, AL",daphne-al,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
-"Daphne, AL",daphne-al,Landscaping,landscaping,1,5,4,False
-"Daphne, AL",daphne-al,Lawn care,lawn-care,1,5,4,False
+"Daphne, AL",daphne-al,Landscaping,landscaping,2,5,3,False
+"Daphne, AL",daphne-al,Lawn care,lawn-care,2,5,3,False
 "Daphne, AL",daphne-al,Locksmith,locksmith,1,5,4,False
-"Daphne, AL",daphne-al,Marine services,marine-services,1,5,4,False
+"Daphne, AL",daphne-al,Marine services,marine-services,2,5,3,False
 "Daphne, AL",daphne-al,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
 "Daphne, AL",daphne-al,Movers,movers,1,5,4,False
 "Daphne, AL",daphne-al,Painting,painting,1,5,4,False
 "Daphne, AL",daphne-al,Pest control,pest-control,2,5,3,False
 "Daphne, AL",daphne-al,Plumbing,plumbing,2,5,3,False
-"Daphne, AL",daphne-al,Pool installation,pool-installation,1,5,4,False
-"Daphne, AL",daphne-al,Pool service,pool-service,2,5,3,False
+"Daphne, AL",daphne-al,Pool installation,pool-installation,2,5,3,False
+"Daphne, AL",daphne-al,Pool service,pool-service,3,5,2,False
 "Daphne, AL",daphne-al,Pressure washing,pressure-washing,2,5,3,False
 "Daphne, AL",daphne-al,Roofing,roofing,2,5,3,False
 "Daphne, AL",daphne-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
@@ -319,117 +319,117 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Daphne, AL",daphne-al,Tree service,tree-service,1,5,4,False
 "Daphne, AL",daphne-al,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
 "Daphne, AL",daphne-al,Window tinting,window-tinting,1,5,4,False
-"Destin, FL",destin-fl,Appliance repair,appliance-repair,1,5,4,False
+"Destin, FL",destin-fl,Appliance repair,appliance-repair,2,5,3,False
 "Destin, FL",destin-fl,Auto body & collision,auto-body-collision,1,5,4,False
-"Destin, FL",destin-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Destin, FL",destin-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Destin, FL",destin-fl,Auto mechanics,auto-mechanics,5,5,0,True
+"Destin, FL",destin-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Destin, FL",destin-fl,Concrete & driveways,concrete,1,5,4,False
-"Destin, FL",destin-fl,Electrical,electrical,2,5,3,False
-"Destin, FL",destin-fl,Fence builders,fence-builders,1,5,4,False
-"Destin, FL",destin-fl,Flooring,flooring,1,5,4,False
-"Destin, FL",destin-fl,Garage door repair,garage-door-repair,1,5,4,False
-"Destin, FL",destin-fl,Generator installation,generator-installation,1,5,4,False
+"Destin, FL",destin-fl,Electrical,electrical,5,5,0,True
+"Destin, FL",destin-fl,Fence builders,fence-builders,5,5,0,True
+"Destin, FL",destin-fl,Flooring,flooring,2,5,3,False
+"Destin, FL",destin-fl,Garage door repair,garage-door-repair,5,5,0,True
+"Destin, FL",destin-fl,Generator installation,generator-installation,2,5,3,False
 "Destin, FL",destin-fl,Gutters,gutters,1,5,4,False
 "Destin, FL",destin-fl,Handyman,handyman,1,5,4,False
-"Destin, FL",destin-fl,Home inspections,home-inspections,4,5,1,False
-"Destin, FL",destin-fl,House cleaning,house-cleaning,2,5,3,False
+"Destin, FL",destin-fl,Home inspections,home-inspections,6,5,0,True
+"Destin, FL",destin-fl,House cleaning,house-cleaning,5,5,0,True
 "Destin, FL",destin-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,2,5,3,False
-"Destin, FL",destin-fl,HVAC,hvac,3,5,2,False
+"Destin, FL",destin-fl,HVAC,hvac,5,5,0,True
 "Destin, FL",destin-fl,Insulation,insulation,1,5,4,False
-"Destin, FL",destin-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Destin, FL",destin-fl,Junk removal,junk-removal,2,5,3,False
+"Destin, FL",destin-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Destin, FL",destin-fl,Junk removal,junk-removal,5,5,0,True
 "Destin, FL",destin-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
-"Destin, FL",destin-fl,Landscaping,landscaping,1,5,4,False
-"Destin, FL",destin-fl,Lawn care,lawn-care,1,5,4,False
+"Destin, FL",destin-fl,Landscaping,landscaping,5,5,0,True
+"Destin, FL",destin-fl,Lawn care,lawn-care,5,5,0,True
 "Destin, FL",destin-fl,Locksmith,locksmith,1,5,4,False
-"Destin, FL",destin-fl,Marine services,marine-services,2,5,3,False
-"Destin, FL",destin-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Destin, FL",destin-fl,Movers,movers,1,5,4,False
+"Destin, FL",destin-fl,Marine services,marine-services,5,5,0,True
+"Destin, FL",destin-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Destin, FL",destin-fl,Movers,movers,5,5,0,True
 "Destin, FL",destin-fl,Painting,painting,1,5,4,False
-"Destin, FL",destin-fl,Pest control,pest-control,1,5,4,False
-"Destin, FL",destin-fl,Plumbing,plumbing,2,5,3,False
+"Destin, FL",destin-fl,Pest control,pest-control,5,5,0,True
+"Destin, FL",destin-fl,Plumbing,plumbing,5,5,0,True
 "Destin, FL",destin-fl,Pool installation,pool-installation,1,5,4,False
 "Destin, FL",destin-fl,Pool service,pool-service,1,5,4,False
-"Destin, FL",destin-fl,Pressure washing,pressure-washing,2,5,3,False
-"Destin, FL",destin-fl,Roofing,roofing,1,5,4,False
+"Destin, FL",destin-fl,Pressure washing,pressure-washing,5,5,0,True
+"Destin, FL",destin-fl,Roofing,roofing,5,5,0,True
 "Destin, FL",destin-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Destin, FL",destin-fl,Septic services,septic-services,2,5,3,False
 "Destin, FL",destin-fl,Towing,towing,1,5,4,False
 "Destin, FL",destin-fl,Trading card stores,trading-card-stores,1,5,4,False
-"Destin, FL",destin-fl,Tree service,tree-service,1,5,4,False
-"Destin, FL",destin-fl,Water damage & mold remediation,water-damage-mold-remediation,2,5,3,False
+"Destin, FL",destin-fl,Tree service,tree-service,5,5,0,True
+"Destin, FL",destin-fl,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,True
 "Destin, FL",destin-fl,Window tinting,window-tinting,2,5,3,False
-"Dothan, AL",dothan-al,Appliance repair,appliance-repair,0,5,5,False
-"Dothan, AL",dothan-al,Auto body & collision,auto-body-collision,0,5,5,False
-"Dothan, AL",dothan-al,Auto mechanics,auto-mechanics,0,5,5,False
+"Dothan, AL",dothan-al,Appliance repair,appliance-repair,1,5,4,False
+"Dothan, AL",dothan-al,Auto body & collision,auto-body-collision,5,5,0,True
+"Dothan, AL",dothan-al,Auto mechanics,auto-mechanics,5,5,0,True
 "Dothan, AL",dothan-al,Carpet cleaning,carpet-cleaning,0,5,5,False
 "Dothan, AL",dothan-al,Concrete & driveways,concrete,0,5,5,False
-"Dothan, AL",dothan-al,Electrical,electrical,0,5,5,False
+"Dothan, AL",dothan-al,Electrical,electrical,1,5,4,False
 "Dothan, AL",dothan-al,Fence builders,fence-builders,0,5,5,False
-"Dothan, AL",dothan-al,Flooring,flooring,0,5,5,False
-"Dothan, AL",dothan-al,Garage door repair,garage-door-repair,0,5,5,False
+"Dothan, AL",dothan-al,Flooring,flooring,5,5,0,True
+"Dothan, AL",dothan-al,Garage door repair,garage-door-repair,1,5,4,False
 "Dothan, AL",dothan-al,Generator installation,generator-installation,0,5,5,False
-"Dothan, AL",dothan-al,Gutters,gutters,0,5,5,False
+"Dothan, AL",dothan-al,Gutters,gutters,1,5,4,False
 "Dothan, AL",dothan-al,Handyman,handyman,0,5,5,False
 "Dothan, AL",dothan-al,Home inspections,home-inspections,5,5,0,True
 "Dothan, AL",dothan-al,House cleaning,house-cleaning,0,5,5,False
 "Dothan, AL",dothan-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,0,5,5,False
-"Dothan, AL",dothan-al,HVAC,hvac,0,5,5,False
+"Dothan, AL",dothan-al,HVAC,hvac,5,5,0,True
 "Dothan, AL",dothan-al,Insulation,insulation,1,5,4,False
 "Dothan, AL",dothan-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Dothan, AL",dothan-al,Junk removal,junk-removal,0,5,5,False
-"Dothan, AL",dothan-al,Kitchen & bath remodeling,kitchen-bath-remodeling,0,5,5,False
+"Dothan, AL",dothan-al,Junk removal,junk-removal,1,5,4,False
+"Dothan, AL",dothan-al,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
 "Dothan, AL",dothan-al,Landscaping,landscaping,0,5,5,False
 "Dothan, AL",dothan-al,Lawn care,lawn-care,0,5,5,False
-"Dothan, AL",dothan-al,Locksmith,locksmith,0,5,5,False
+"Dothan, AL",dothan-al,Locksmith,locksmith,1,5,4,False
 "Dothan, AL",dothan-al,Marine services,marine-services,0,5,5,False
 "Dothan, AL",dothan-al,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Dothan, AL",dothan-al,Movers,movers,0,5,5,False
+"Dothan, AL",dothan-al,Movers,movers,1,5,4,False
 "Dothan, AL",dothan-al,Painting,painting,0,5,5,False
-"Dothan, AL",dothan-al,Pest control,pest-control,0,5,5,False
+"Dothan, AL",dothan-al,Pest control,pest-control,5,5,0,True
 "Dothan, AL",dothan-al,Plumbing,plumbing,0,5,5,False
-"Dothan, AL",dothan-al,Pool installation,pool-installation,0,5,5,False
-"Dothan, AL",dothan-al,Pool service,pool-service,0,5,5,False
+"Dothan, AL",dothan-al,Pool installation,pool-installation,1,5,4,False
+"Dothan, AL",dothan-al,Pool service,pool-service,1,5,4,False
 "Dothan, AL",dothan-al,Pressure washing,pressure-washing,0,5,5,False
-"Dothan, AL",dothan-al,Roofing,roofing,0,5,5,False
+"Dothan, AL",dothan-al,Roofing,roofing,5,5,0,True
 "Dothan, AL",dothan-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Dothan, AL",dothan-al,Septic services,septic-services,0,5,5,False
-"Dothan, AL",dothan-al,Towing,towing,0,5,5,False
+"Dothan, AL",dothan-al,Towing,towing,1,5,4,False
 "Dothan, AL",dothan-al,Trading card stores,trading-card-stores,0,5,5,False
 "Dothan, AL",dothan-al,Tree service,tree-service,0,5,5,False
-"Dothan, AL",dothan-al,Water damage & mold remediation,water-damage-mold-remediation,0,5,5,False
+"Dothan, AL",dothan-al,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
 "Dothan, AL",dothan-al,Window tinting,window-tinting,0,5,5,False
 "Fairhope, AL",fairhope-al,Appliance repair,appliance-repair,1,5,4,False
 "Fairhope, AL",fairhope-al,Auto body & collision,auto-body-collision,1,5,4,False
 "Fairhope, AL",fairhope-al,Auto mechanics,auto-mechanics,1,5,4,False
-"Fairhope, AL",fairhope-al,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Fairhope, AL",fairhope-al,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Fairhope, AL",fairhope-al,Concrete & driveways,concrete,2,5,3,False
 "Fairhope, AL",fairhope-al,Electrical,electrical,2,5,3,False
 "Fairhope, AL",fairhope-al,Fence builders,fence-builders,2,5,3,False
 "Fairhope, AL",fairhope-al,Flooring,flooring,1,5,4,False
 "Fairhope, AL",fairhope-al,Garage door repair,garage-door-repair,1,5,4,False
 "Fairhope, AL",fairhope-al,Generator installation,generator-installation,1,5,4,False
-"Fairhope, AL",fairhope-al,Gutters,gutters,1,5,4,False
+"Fairhope, AL",fairhope-al,Gutters,gutters,2,5,3,False
 "Fairhope, AL",fairhope-al,Handyman,handyman,2,5,3,False
-"Fairhope, AL",fairhope-al,Home inspections,home-inspections,0,5,5,False
+"Fairhope, AL",fairhope-al,Home inspections,home-inspections,2,5,3,False
 "Fairhope, AL",fairhope-al,House cleaning,house-cleaning,1,5,4,False
 "Fairhope, AL",fairhope-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Fairhope, AL",fairhope-al,HVAC,hvac,2,5,3,False
 "Fairhope, AL",fairhope-al,Insulation,insulation,2,5,3,False
-"Fairhope, AL",fairhope-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Fairhope, AL",fairhope-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Fairhope, AL",fairhope-al,Junk removal,junk-removal,1,5,4,False
 "Fairhope, AL",fairhope-al,Kitchen & bath remodeling,kitchen-bath-remodeling,2,5,3,False
-"Fairhope, AL",fairhope-al,Landscaping,landscaping,2,5,3,False
-"Fairhope, AL",fairhope-al,Lawn care,lawn-care,2,5,3,False
+"Fairhope, AL",fairhope-al,Landscaping,landscaping,3,5,2,False
+"Fairhope, AL",fairhope-al,Lawn care,lawn-care,3,5,2,False
 "Fairhope, AL",fairhope-al,Locksmith,locksmith,1,5,4,False
-"Fairhope, AL",fairhope-al,Marine services,marine-services,1,5,4,False
+"Fairhope, AL",fairhope-al,Marine services,marine-services,2,5,3,False
 "Fairhope, AL",fairhope-al,Mobile auto detailing,mobile-auto-detailing,1,5,4,False
 "Fairhope, AL",fairhope-al,Movers,movers,1,5,4,False
 "Fairhope, AL",fairhope-al,Painting,painting,2,5,3,False
 "Fairhope, AL",fairhope-al,Pest control,pest-control,2,5,3,False
 "Fairhope, AL",fairhope-al,Plumbing,plumbing,2,5,3,False
-"Fairhope, AL",fairhope-al,Pool installation,pool-installation,2,5,3,False
-"Fairhope, AL",fairhope-al,Pool service,pool-service,2,5,3,False
+"Fairhope, AL",fairhope-al,Pool installation,pool-installation,3,5,2,False
+"Fairhope, AL",fairhope-al,Pool service,pool-service,3,5,2,False
 "Fairhope, AL",fairhope-al,Pressure washing,pressure-washing,2,5,3,False
 "Fairhope, AL",fairhope-al,Roofing,roofing,1,5,4,False
 "Fairhope, AL",fairhope-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
@@ -442,38 +442,38 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Foley, AL",foley-al,Appliance repair,appliance-repair,1,5,4,False
 "Foley, AL",foley-al,Auto body & collision,auto-body-collision,1,5,4,False
 "Foley, AL",foley-al,Auto mechanics,auto-mechanics,1,5,4,False
-"Foley, AL",foley-al,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Foley, AL",foley-al,Carpet cleaning,carpet-cleaning,3,5,2,False
 "Foley, AL",foley-al,Concrete & driveways,concrete,2,5,3,False
 "Foley, AL",foley-al,Electrical,electrical,2,5,3,False
 "Foley, AL",foley-al,Fence builders,fence-builders,2,5,3,False
 "Foley, AL",foley-al,Flooring,flooring,1,5,4,False
 "Foley, AL",foley-al,Garage door repair,garage-door-repair,1,5,4,False
 "Foley, AL",foley-al,Generator installation,generator-installation,1,5,4,False
-"Foley, AL",foley-al,Gutters,gutters,1,5,4,False
+"Foley, AL",foley-al,Gutters,gutters,2,5,3,False
 "Foley, AL",foley-al,Handyman,handyman,2,5,3,False
-"Foley, AL",foley-al,Home inspections,home-inspections,0,5,5,False
+"Foley, AL",foley-al,Home inspections,home-inspections,2,5,3,False
 "Foley, AL",foley-al,House cleaning,house-cleaning,1,5,4,False
 "Foley, AL",foley-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Foley, AL",foley-al,HVAC,hvac,2,5,3,False
 "Foley, AL",foley-al,Insulation,insulation,2,5,3,False
-"Foley, AL",foley-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Foley, AL",foley-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Foley, AL",foley-al,Junk removal,junk-removal,1,5,4,False
 "Foley, AL",foley-al,Kitchen & bath remodeling,kitchen-bath-remodeling,2,5,3,False
-"Foley, AL",foley-al,Landscaping,landscaping,2,5,3,False
-"Foley, AL",foley-al,Lawn care,lawn-care,2,5,3,False
+"Foley, AL",foley-al,Landscaping,landscaping,3,5,2,False
+"Foley, AL",foley-al,Lawn care,lawn-care,3,5,2,False
 "Foley, AL",foley-al,Locksmith,locksmith,1,5,4,False
-"Foley, AL",foley-al,Marine services,marine-services,1,5,4,False
-"Foley, AL",foley-al,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Foley, AL",foley-al,Marine services,marine-services,2,5,3,False
+"Foley, AL",foley-al,Mobile auto detailing,mobile-auto-detailing,2,5,3,False
 "Foley, AL",foley-al,Movers,movers,1,5,4,False
 "Foley, AL",foley-al,Painting,painting,2,5,3,False
 "Foley, AL",foley-al,Pest control,pest-control,2,5,3,False
 "Foley, AL",foley-al,Plumbing,plumbing,2,5,3,False
-"Foley, AL",foley-al,Pool installation,pool-installation,2,5,3,False
-"Foley, AL",foley-al,Pool service,pool-service,2,5,3,False
+"Foley, AL",foley-al,Pool installation,pool-installation,3,5,2,False
+"Foley, AL",foley-al,Pool service,pool-service,3,5,2,False
 "Foley, AL",foley-al,Pressure washing,pressure-washing,2,5,3,False
 "Foley, AL",foley-al,Roofing,roofing,2,5,3,False
 "Foley, AL",foley-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
-"Foley, AL",foley-al,Septic services,septic-services,1,5,4,False
+"Foley, AL",foley-al,Septic services,septic-services,2,5,3,False
 "Foley, AL",foley-al,Towing,towing,1,5,4,False
 "Foley, AL",foley-al,Trading card stores,trading-card-stores,1,5,4,False
 "Foley, AL",foley-al,Tree service,tree-service,2,5,3,False
@@ -503,15 +503,15 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fort Lauderdale, FL",fort-lauderdale-fl,Lawn care,lawn-care,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Locksmith,locksmith,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Marine services,marine-services,1,5,4,False
-"Fort Lauderdale, FL",fort-lauderdale-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Fort Lauderdale, FL",fort-lauderdale-fl,Mobile auto detailing,mobile-auto-detailing,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Movers,movers,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Painting,painting,1,5,4,False
-"Fort Lauderdale, FL",fort-lauderdale-fl,Pest control,pest-control,1,5,4,False
+"Fort Lauderdale, FL",fort-lauderdale-fl,Pest control,pest-control,5,5,0,True
 "Fort Lauderdale, FL",fort-lauderdale-fl,Plumbing,plumbing,2,5,3,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Pool installation,pool-installation,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Pool service,pool-service,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Pressure washing,pressure-washing,1,5,4,False
-"Fort Lauderdale, FL",fort-lauderdale-fl,Roofing,roofing,1,5,4,False
+"Fort Lauderdale, FL",fort-lauderdale-fl,Roofing,roofing,5,5,0,True
 "Fort Lauderdale, FL",fort-lauderdale-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Septic services,septic-services,1,5,4,False
 "Fort Lauderdale, FL",fort-lauderdale-fl,Towing,towing,1,5,4,False
@@ -522,21 +522,21 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fort Myers, FL",fort-myers-fl,Appliance repair,appliance-repair,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Fort Myers, FL",fort-myers-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Fort Myers, FL",fort-myers-fl,Carpet cleaning,carpet-cleaning,9,5,0,True
 "Fort Myers, FL",fort-myers-fl,Concrete & driveways,concrete,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Electrical,electrical,2,5,3,False
 "Fort Myers, FL",fort-myers-fl,Fence builders,fence-builders,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Flooring,flooring,1,5,4,False
-"Fort Myers, FL",fort-myers-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Fort Myers, FL",fort-myers-fl,Garage door repair,garage-door-repair,10,5,0,True
 "Fort Myers, FL",fort-myers-fl,Generator installation,generator-installation,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Gutters,gutters,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Handyman,handyman,1,5,4,False
-"Fort Myers, FL",fort-myers-fl,Home inspections,home-inspections,0,5,5,False
+"Fort Myers, FL",fort-myers-fl,Home inspections,home-inspections,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,House cleaning,house-cleaning,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,HVAC,hvac,2,5,3,False
 "Fort Myers, FL",fort-myers-fl,Insulation,insulation,1,5,4,False
-"Fort Myers, FL",fort-myers-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Fort Myers, FL",fort-myers-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Junk removal,junk-removal,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Landscaping,landscaping,1,5,4,False
@@ -544,14 +544,14 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fort Myers, FL",fort-myers-fl,Locksmith,locksmith,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Marine services,marine-services,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Fort Myers, FL",fort-myers-fl,Movers,movers,1,5,4,False
+"Fort Myers, FL",fort-myers-fl,Movers,movers,6,5,0,True
 "Fort Myers, FL",fort-myers-fl,Painting,painting,1,5,4,False
-"Fort Myers, FL",fort-myers-fl,Pest control,pest-control,1,5,4,False
+"Fort Myers, FL",fort-myers-fl,Pest control,pest-control,6,5,0,True
 "Fort Myers, FL",fort-myers-fl,Plumbing,plumbing,2,5,3,False
 "Fort Myers, FL",fort-myers-fl,Pool installation,pool-installation,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Pool service,pool-service,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Pressure washing,pressure-washing,1,5,4,False
-"Fort Myers, FL",fort-myers-fl,Roofing,roofing,1,5,4,False
+"Fort Myers, FL",fort-myers-fl,Roofing,roofing,8,5,0,True
 "Fort Myers, FL",fort-myers-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Septic services,septic-services,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Towing,towing,1,5,4,False
@@ -559,122 +559,122 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fort Myers, FL",fort-myers-fl,Tree service,tree-service,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
 "Fort Myers, FL",fort-myers-fl,Window tinting,window-tinting,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Appliance repair,appliance-repair,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Appliance repair,appliance-repair,2,5,3,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Auto body & collision,auto-body-collision,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Auto mechanics,auto-mechanics,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Concrete & driveways,concrete,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Electrical,electrical,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Fence builders,fence-builders,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Electrical,electrical,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Fence builders,fence-builders,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Flooring,flooring,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Garage door repair,garage-door-repair,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Generator installation,generator-installation,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Garage door repair,garage-door-repair,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Generator installation,generator-installation,2,5,3,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Gutters,gutters,1,5,4,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Handyman,handyman,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Home inspections,home-inspections,5,5,0,True
-"Fort Walton Beach, FL",fort-walton-beach-fl,House cleaning,house-cleaning,2,5,3,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Home inspections,home-inspections,6,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,House cleaning,house-cleaning,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,2,5,3,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,HVAC,hvac,2,5,3,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,HVAC,hvac,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Insulation,insulation,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Junk removal,junk-removal,2,5,3,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Junk removal,junk-removal,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Landscaping,landscaping,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Lawn care,lawn-care,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Landscaping,landscaping,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Lawn care,lawn-care,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Locksmith,locksmith,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Marine services,marine-services,2,5,3,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Movers,movers,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Marine services,marine-services,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Movers,movers,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Painting,painting,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Pest control,pest-control,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Plumbing,plumbing,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Pest control,pest-control,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Plumbing,plumbing,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pool installation,pool-installation,1,5,4,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pool service,pool-service,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Pressure washing,pressure-washing,2,5,3,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Roofing,roofing,1,5,4,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Pressure washing,pressure-washing,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Roofing,roofing,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Septic services,septic-services,2,5,3,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Towing,towing,1,5,4,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Trading card stores,trading-card-stores,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Tree service,tree-service,1,5,4,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Water damage & mold remediation,water-damage-mold-remediation,2,5,3,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Tree service,tree-service,5,5,0,True
+"Fort Walton Beach, FL",fort-walton-beach-fl,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,True
 "Fort Walton Beach, FL",fort-walton-beach-fl,Window tinting,window-tinting,2,5,3,False
-"Grayton Beach, FL",grayton-beach-fl,Appliance repair,appliance-repair,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Auto body & collision,auto-body-collision,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Appliance repair,appliance-repair,4,5,1,False
+"Grayton Beach, FL",grayton-beach-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Grayton Beach, FL",grayton-beach-fl,Auto mechanics,auto-mechanics,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Carpet cleaning,carpet-cleaning,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Concrete & driveways,concrete,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Electrical,electrical,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Fence builders,fence-builders,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Electrical,electrical,5,5,0,True
+"Grayton Beach, FL",grayton-beach-fl,Fence builders,fence-builders,1,5,4,False
 "Grayton Beach, FL",grayton-beach-fl,Flooring,flooring,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Garage door repair,garage-door-repair,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Generator installation,generator-installation,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Garage door repair,garage-door-repair,5,5,0,True
+"Grayton Beach, FL",grayton-beach-fl,Generator installation,generator-installation,1,5,4,False
 "Grayton Beach, FL",grayton-beach-fl,Gutters,gutters,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Handyman,handyman,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Handyman,handyman,1,5,4,False
 "Grayton Beach, FL",grayton-beach-fl,Home inspections,home-inspections,5,5,0,True
-"Grayton Beach, FL",grayton-beach-fl,House cleaning,house-cleaning,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,House cleaning,house-cleaning,5,5,0,True
 "Grayton Beach, FL",grayton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,HVAC,hvac,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,HVAC,hvac,6,5,0,True
 "Grayton Beach, FL",grayton-beach-fl,Insulation,insulation,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,4,5,1,False
 "Grayton Beach, FL",grayton-beach-fl,Junk removal,junk-removal,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Landscaping,landscaping,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Lawn care,lawn-care,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Landscaping,landscaping,6,5,0,True
+"Grayton Beach, FL",grayton-beach-fl,Lawn care,lawn-care,6,5,0,True
 "Grayton Beach, FL",grayton-beach-fl,Locksmith,locksmith,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Marine services,marine-services,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Mobile auto detailing,mobile-auto-detailing,4,5,1,False
 "Grayton Beach, FL",grayton-beach-fl,Movers,movers,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Painting,painting,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Pest control,pest-control,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Plumbing,plumbing,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Painting,painting,1,5,4,False
+"Grayton Beach, FL",grayton-beach-fl,Pest control,pest-control,2,5,3,False
+"Grayton Beach, FL",grayton-beach-fl,Plumbing,plumbing,6,5,0,True
 "Grayton Beach, FL",grayton-beach-fl,Pool installation,pool-installation,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Pool service,pool-service,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Pressure washing,pressure-washing,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Roofing,roofing,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Pressure washing,pressure-washing,5,5,0,True
+"Grayton Beach, FL",grayton-beach-fl,Roofing,roofing,5,5,0,True
 "Grayton Beach, FL",grayton-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Septic services,septic-services,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Towing,towing,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Trading card stores,trading-card-stores,0,5,5,False
-"Grayton Beach, FL",grayton-beach-fl,Tree service,tree-service,0,5,5,False
+"Grayton Beach, FL",grayton-beach-fl,Tree service,tree-service,2,5,3,False
 "Grayton Beach, FL",grayton-beach-fl,Water damage & mold remediation,water-damage-mold-remediation,0,5,5,False
 "Grayton Beach, FL",grayton-beach-fl,Window tinting,window-tinting,0,5,5,False
-"Gulf Breeze, FL",gulf-breeze-fl,Appliance repair,appliance-repair,2,5,3,False
-"Gulf Breeze, FL",gulf-breeze-fl,Auto body & collision,auto-body-collision,1,5,4,False
+"Gulf Breeze, FL",gulf-breeze-fl,Appliance repair,appliance-repair,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Auto body & collision,auto-body-collision,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Auto mechanics,auto-mechanics,12,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
+"Gulf Breeze, FL",gulf-breeze-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Concrete & driveways,concrete,13,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Electrical,electrical,12,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Fence builders,fence-builders,13,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Flooring,flooring,2,5,3,False
-"Gulf Breeze, FL",gulf-breeze-fl,Garage door repair,garage-door-repair,2,5,3,False
+"Gulf Breeze, FL",gulf-breeze-fl,Flooring,flooring,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Garage door repair,garage-door-repair,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Generator installation,generator-installation,12,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Gutters,gutters,1,5,4,False
+"Gulf Breeze, FL",gulf-breeze-fl,Gutters,gutters,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Handyman,handyman,13,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Home inspections,home-inspections,0,5,5,False
-"Gulf Breeze, FL",gulf-breeze-fl,House cleaning,house-cleaning,3,5,2,False
+"Gulf Breeze, FL",gulf-breeze-fl,Home inspections,home-inspections,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,House cleaning,house-cleaning,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,HVAC,hvac,12,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Insulation,insulation,12,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Gulf Breeze, FL",gulf-breeze-fl,Junk removal,junk-removal,2,5,3,False
+"Gulf Breeze, FL",gulf-breeze-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Junk removal,junk-removal,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,13,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Landscaping,landscaping,13,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Lawn care,lawn-care,2,5,3,False
-"Gulf Breeze, FL",gulf-breeze-fl,Locksmith,locksmith,2,5,3,False
+"Gulf Breeze, FL",gulf-breeze-fl,Lawn care,lawn-care,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Locksmith,locksmith,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Marine services,marine-services,12,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Gulf Breeze, FL",gulf-breeze-fl,Movers,movers,2,5,3,False
+"Gulf Breeze, FL",gulf-breeze-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Movers,movers,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Painting,painting,11,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Pest control,pest-control,12,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Plumbing,plumbing,12,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Pool installation,pool-installation,12,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Pool service,pool-service,13,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Pool installation,pool-installation,13,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Pool service,pool-service,14,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Pressure washing,pressure-washing,11,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Roofing,roofing,12,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,5,0,True
-"Gulf Breeze, FL",gulf-breeze-fl,Septic services,septic-services,2,5,3,False
-"Gulf Breeze, FL",gulf-breeze-fl,Towing,towing,1,5,4,False
+"Gulf Breeze, FL",gulf-breeze-fl,Septic services,septic-services,5,5,0,True
+"Gulf Breeze, FL",gulf-breeze-fl,Towing,towing,5,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Trading card stores,trading-card-stores,10,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Tree service,tree-service,13,5,0,True
 "Gulf Breeze, FL",gulf-breeze-fl,Water damage & mold remediation,water-damage-mold-remediation,12,5,0,True
@@ -682,34 +682,34 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulf Shores, AL",gulf-shores-al,Appliance repair,appliance-repair,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Auto body & collision,auto-body-collision,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Auto mechanics,auto-mechanics,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Gulf Shores, AL",gulf-shores-al,Carpet cleaning,carpet-cleaning,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Concrete & driveways,concrete,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Electrical,electrical,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Fence builders,fence-builders,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Flooring,flooring,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Garage door repair,garage-door-repair,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Generator installation,generator-installation,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Gutters,gutters,1,5,4,False
+"Gulf Shores, AL",gulf-shores-al,Gutters,gutters,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Handyman,handyman,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Home inspections,home-inspections,0,5,5,False
+"Gulf Shores, AL",gulf-shores-al,Home inspections,home-inspections,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,House cleaning,house-cleaning,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,HVAC,hvac,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Insulation,insulation,3,5,2,False
-"Gulf Shores, AL",gulf-shores-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Gulf Shores, AL",gulf-shores-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Junk removal,junk-removal,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Landscaping,landscaping,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Lawn care,lawn-care,1,5,4,False
+"Gulf Shores, AL",gulf-shores-al,Landscaping,landscaping,2,5,3,False
+"Gulf Shores, AL",gulf-shores-al,Lawn care,lawn-care,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Locksmith,locksmith,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Marine services,marine-services,1,5,4,False
-"Gulf Shores, AL",gulf-shores-al,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Gulf Shores, AL",gulf-shores-al,Marine services,marine-services,2,5,3,False
+"Gulf Shores, AL",gulf-shores-al,Mobile auto detailing,mobile-auto-detailing,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Movers,movers,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Painting,painting,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Pest control,pest-control,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Plumbing,plumbing,2,5,3,False
-"Gulf Shores, AL",gulf-shores-al,Pool installation,pool-installation,2,5,3,False
-"Gulf Shores, AL",gulf-shores-al,Pool service,pool-service,2,5,3,False
+"Gulf Shores, AL",gulf-shores-al,Pool installation,pool-installation,3,5,2,False
+"Gulf Shores, AL",gulf-shores-al,Pool service,pool-service,3,5,2,False
 "Gulf Shores, AL",gulf-shores-al,Pressure washing,pressure-washing,1,5,4,False
 "Gulf Shores, AL",gulf-shores-al,Roofing,roofing,2,5,3,False
 "Gulf Shores, AL",gulf-shores-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
@@ -722,16 +722,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulfport, MS",gulfport-ms,Appliance repair,appliance-repair,1,5,4,False
 "Gulfport, MS",gulfport-ms,Auto body & collision,auto-body-collision,1,5,4,False
 "Gulfport, MS",gulfport-ms,Auto mechanics,auto-mechanics,1,5,4,False
-"Gulfport, MS",gulfport-ms,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Gulfport, MS",gulfport-ms,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Gulfport, MS",gulfport-ms,Concrete & driveways,concrete,1,5,4,False
 "Gulfport, MS",gulfport-ms,Electrical,electrical,2,5,3,False
 "Gulfport, MS",gulfport-ms,Fence builders,fence-builders,1,5,4,False
 "Gulfport, MS",gulfport-ms,Flooring,flooring,1,5,4,False
-"Gulfport, MS",gulfport-ms,Garage door repair,garage-door-repair,1,5,4,False
+"Gulfport, MS",gulfport-ms,Garage door repair,garage-door-repair,2,5,3,False
 "Gulfport, MS",gulfport-ms,Generator installation,generator-installation,1,5,4,False
 "Gulfport, MS",gulfport-ms,Gutters,gutters,1,5,4,False
 "Gulfport, MS",gulfport-ms,Handyman,handyman,1,5,4,False
-"Gulfport, MS",gulfport-ms,Home inspections,home-inspections,0,5,5,False
+"Gulfport, MS",gulfport-ms,Home inspections,home-inspections,5,5,0,True
 "Gulfport, MS",gulfport-ms,House cleaning,house-cleaning,1,5,4,False
 "Gulfport, MS",gulfport-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Gulfport, MS",gulfport-ms,HVAC,hvac,2,5,3,False
@@ -748,8 +748,8 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulfport, MS",gulfport-ms,Painting,painting,1,5,4,False
 "Gulfport, MS",gulfport-ms,Pest control,pest-control,1,5,4,False
 "Gulfport, MS",gulfport-ms,Plumbing,plumbing,2,5,3,False
-"Gulfport, MS",gulfport-ms,Pool installation,pool-installation,1,5,4,False
-"Gulfport, MS",gulfport-ms,Pool service,pool-service,1,5,4,False
+"Gulfport, MS",gulfport-ms,Pool installation,pool-installation,2,5,3,False
+"Gulfport, MS",gulfport-ms,Pool service,pool-service,2,5,3,False
 "Gulfport, MS",gulfport-ms,Pressure washing,pressure-washing,2,5,3,False
 "Gulfport, MS",gulfport-ms,Roofing,roofing,1,5,4,False
 "Gulfport, MS",gulfport-ms,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
@@ -771,12 +771,12 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Huntsville, AL",huntsville-al,Generator installation,generator-installation,1,5,4,False
 "Huntsville, AL",huntsville-al,Gutters,gutters,1,5,4,False
 "Huntsville, AL",huntsville-al,Handyman,handyman,1,5,4,False
-"Huntsville, AL",huntsville-al,Home inspections,home-inspections,0,5,5,False
+"Huntsville, AL",huntsville-al,Home inspections,home-inspections,5,5,0,True
 "Huntsville, AL",huntsville-al,House cleaning,house-cleaning,1,5,4,False
 "Huntsville, AL",huntsville-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Huntsville, AL",huntsville-al,HVAC,hvac,2,5,3,False
-"Huntsville, AL",huntsville-al,Insulation,insulation,4,5,1,False
-"Huntsville, AL",huntsville-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Huntsville, AL",huntsville-al,Insulation,insulation,5,5,0,True
+"Huntsville, AL",huntsville-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
 "Huntsville, AL",huntsville-al,Junk removal,junk-removal,1,5,4,False
 "Huntsville, AL",huntsville-al,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
 "Huntsville, AL",huntsville-al,Landscaping,landscaping,1,5,4,False
@@ -807,7 +807,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Jacksonville, FL",jacksonville-fl,Electrical,electrical,2,5,3,False
 "Jacksonville, FL",jacksonville-fl,Fence builders,fence-builders,1,5,4,False
 "Jacksonville, FL",jacksonville-fl,Flooring,flooring,1,5,4,False
-"Jacksonville, FL",jacksonville-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Jacksonville, FL",jacksonville-fl,Garage door repair,garage-door-repair,2,5,3,False
 "Jacksonville, FL",jacksonville-fl,Generator installation,generator-installation,1,5,4,False
 "Jacksonville, FL",jacksonville-fl,Gutters,gutters,1,5,4,False
 "Jacksonville, FL",jacksonville-fl,Handyman,handyman,1,5,4,False
@@ -879,59 +879,59 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Miami, FL",miami-fl,Tree service,tree-service,1,5,4,False
 "Miami, FL",miami-fl,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
 "Miami, FL",miami-fl,Window tinting,window-tinting,1,5,4,False
-"Milton, FL",milton-fl,Appliance repair,appliance-repair,2,5,3,False
-"Milton, FL",milton-fl,Auto body & collision,auto-body-collision,1,5,4,False
-"Milton, FL",milton-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Milton, FL",milton-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
-"Milton, FL",milton-fl,Concrete & driveways,concrete,2,5,3,False
-"Milton, FL",milton-fl,Electrical,electrical,1,5,4,False
-"Milton, FL",milton-fl,Fence builders,fence-builders,2,5,3,False
-"Milton, FL",milton-fl,Flooring,flooring,2,5,3,False
-"Milton, FL",milton-fl,Garage door repair,garage-door-repair,2,5,3,False
-"Milton, FL",milton-fl,Generator installation,generator-installation,1,5,4,False
-"Milton, FL",milton-fl,Gutters,gutters,1,5,4,False
-"Milton, FL",milton-fl,Handyman,handyman,2,5,3,False
-"Milton, FL",milton-fl,Home inspections,home-inspections,0,5,5,False
-"Milton, FL",milton-fl,House cleaning,house-cleaning,3,5,2,False
-"Milton, FL",milton-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
-"Milton, FL",milton-fl,HVAC,hvac,2,5,3,False
-"Milton, FL",milton-fl,Insulation,insulation,1,5,4,False
-"Milton, FL",milton-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Milton, FL",milton-fl,Junk removal,junk-removal,2,5,3,False
-"Milton, FL",milton-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,2,5,3,False
-"Milton, FL",milton-fl,Landscaping,landscaping,2,5,3,False
-"Milton, FL",milton-fl,Lawn care,lawn-care,2,5,3,False
-"Milton, FL",milton-fl,Locksmith,locksmith,1,5,4,False
-"Milton, FL",milton-fl,Marine services,marine-services,1,5,4,False
-"Milton, FL",milton-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Milton, FL",milton-fl,Movers,movers,2,5,3,False
-"Milton, FL",milton-fl,Painting,painting,2,5,3,False
-"Milton, FL",milton-fl,Pest control,pest-control,1,5,4,False
-"Milton, FL",milton-fl,Plumbing,plumbing,1,5,4,False
-"Milton, FL",milton-fl,Pool installation,pool-installation,1,5,4,False
-"Milton, FL",milton-fl,Pool service,pool-service,2,5,3,False
-"Milton, FL",milton-fl,Pressure washing,pressure-washing,2,5,3,False
-"Milton, FL",milton-fl,Roofing,roofing,1,5,4,False
-"Milton, FL",milton-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,5,3,False
-"Milton, FL",milton-fl,Septic services,septic-services,2,5,3,False
-"Milton, FL",milton-fl,Towing,towing,1,5,4,False
-"Milton, FL",milton-fl,Trading card stores,trading-card-stores,1,5,4,False
-"Milton, FL",milton-fl,Tree service,tree-service,2,5,3,False
-"Milton, FL",milton-fl,Water damage & mold remediation,water-damage-mold-remediation,2,5,3,False
-"Milton, FL",milton-fl,Window tinting,window-tinting,1,5,4,False
+"Milton, FL",milton-fl,Appliance repair,appliance-repair,5,5,0,True
+"Milton, FL",milton-fl,Auto body & collision,auto-body-collision,5,5,0,True
+"Milton, FL",milton-fl,Auto mechanics,auto-mechanics,5,5,0,True
+"Milton, FL",milton-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
+"Milton, FL",milton-fl,Concrete & driveways,concrete,5,5,0,True
+"Milton, FL",milton-fl,Electrical,electrical,5,5,0,True
+"Milton, FL",milton-fl,Fence builders,fence-builders,5,5,0,True
+"Milton, FL",milton-fl,Flooring,flooring,5,5,0,True
+"Milton, FL",milton-fl,Garage door repair,garage-door-repair,5,5,0,True
+"Milton, FL",milton-fl,Generator installation,generator-installation,5,5,0,True
+"Milton, FL",milton-fl,Gutters,gutters,5,5,0,True
+"Milton, FL",milton-fl,Handyman,handyman,5,5,0,True
+"Milton, FL",milton-fl,Home inspections,home-inspections,5,5,0,True
+"Milton, FL",milton-fl,House cleaning,house-cleaning,5,5,0,True
+"Milton, FL",milton-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,5,0,True
+"Milton, FL",milton-fl,HVAC,hvac,5,5,0,True
+"Milton, FL",milton-fl,Insulation,insulation,5,5,0,True
+"Milton, FL",milton-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Milton, FL",milton-fl,Junk removal,junk-removal,5,5,0,True
+"Milton, FL",milton-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,5,5,0,True
+"Milton, FL",milton-fl,Landscaping,landscaping,5,5,0,True
+"Milton, FL",milton-fl,Lawn care,lawn-care,5,5,0,True
+"Milton, FL",milton-fl,Locksmith,locksmith,5,5,0,True
+"Milton, FL",milton-fl,Marine services,marine-services,5,5,0,True
+"Milton, FL",milton-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Milton, FL",milton-fl,Movers,movers,5,5,0,True
+"Milton, FL",milton-fl,Painting,painting,5,5,0,True
+"Milton, FL",milton-fl,Pest control,pest-control,5,5,0,True
+"Milton, FL",milton-fl,Plumbing,plumbing,5,5,0,True
+"Milton, FL",milton-fl,Pool installation,pool-installation,5,5,0,True
+"Milton, FL",milton-fl,Pool service,pool-service,5,5,0,True
+"Milton, FL",milton-fl,Pressure washing,pressure-washing,5,5,0,True
+"Milton, FL",milton-fl,Roofing,roofing,5,5,0,True
+"Milton, FL",milton-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,5,5,0,True
+"Milton, FL",milton-fl,Septic services,septic-services,5,5,0,True
+"Milton, FL",milton-fl,Towing,towing,5,5,0,True
+"Milton, FL",milton-fl,Trading card stores,trading-card-stores,3,5,2,False
+"Milton, FL",milton-fl,Tree service,tree-service,5,5,0,True
+"Milton, FL",milton-fl,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,True
+"Milton, FL",milton-fl,Window tinting,window-tinting,5,5,0,True
 "Mobile, AL",mobile-al,Appliance repair,appliance-repair,1,5,4,False
 "Mobile, AL",mobile-al,Auto body & collision,auto-body-collision,1,5,4,False
 "Mobile, AL",mobile-al,Auto mechanics,auto-mechanics,12,5,0,True
-"Mobile, AL",mobile-al,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Mobile, AL",mobile-al,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Mobile, AL",mobile-al,Concrete & driveways,concrete,12,5,0,True
 "Mobile, AL",mobile-al,Electrical,electrical,13,5,0,True
 "Mobile, AL",mobile-al,Fence builders,fence-builders,12,5,0,True
-"Mobile, AL",mobile-al,Flooring,flooring,1,5,4,False
+"Mobile, AL",mobile-al,Flooring,flooring,2,5,3,False
 "Mobile, AL",mobile-al,Garage door repair,garage-door-repair,1,5,4,False
 "Mobile, AL",mobile-al,Generator installation,generator-installation,10,5,0,True
 "Mobile, AL",mobile-al,Gutters,gutters,1,5,4,False
 "Mobile, AL",mobile-al,Handyman,handyman,12,5,0,True
-"Mobile, AL",mobile-al,Home inspections,home-inspections,0,5,5,False
+"Mobile, AL",mobile-al,Home inspections,home-inspections,2,5,3,False
 "Mobile, AL",mobile-al,House cleaning,house-cleaning,1,5,4,False
 "Mobile, AL",mobile-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,10,5,0,True
 "Mobile, AL",mobile-al,HVAC,hvac,13,5,0,True
@@ -949,7 +949,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Mobile, AL",mobile-al,Pest control,pest-control,12,5,0,True
 "Mobile, AL",mobile-al,Plumbing,plumbing,13,5,0,True
 "Mobile, AL",mobile-al,Pool installation,pool-installation,12,5,0,True
-"Mobile, AL",mobile-al,Pool service,pool-service,12,5,0,True
+"Mobile, AL",mobile-al,Pool service,pool-service,13,5,0,True
 "Mobile, AL",mobile-al,Pressure washing,pressure-washing,12,5,0,True
 "Mobile, AL",mobile-al,Roofing,roofing,11,5,0,True
 "Mobile, AL",mobile-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,10,5,0,True
@@ -1002,21 +1002,21 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Naples, FL",naples-fl,Appliance repair,appliance-repair,1,5,4,False
 "Naples, FL",naples-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Naples, FL",naples-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Naples, FL",naples-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Naples, FL",naples-fl,Carpet cleaning,carpet-cleaning,9,5,0,True
 "Naples, FL",naples-fl,Concrete & driveways,concrete,1,5,4,False
 "Naples, FL",naples-fl,Electrical,electrical,2,5,3,False
 "Naples, FL",naples-fl,Fence builders,fence-builders,1,5,4,False
 "Naples, FL",naples-fl,Flooring,flooring,1,5,4,False
-"Naples, FL",naples-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Naples, FL",naples-fl,Garage door repair,garage-door-repair,10,5,0,True
 "Naples, FL",naples-fl,Generator installation,generator-installation,1,5,4,False
 "Naples, FL",naples-fl,Gutters,gutters,1,5,4,False
 "Naples, FL",naples-fl,Handyman,handyman,1,5,4,False
-"Naples, FL",naples-fl,Home inspections,home-inspections,0,5,5,False
+"Naples, FL",naples-fl,Home inspections,home-inspections,1,5,4,False
 "Naples, FL",naples-fl,House cleaning,house-cleaning,1,5,4,False
 "Naples, FL",naples-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "Naples, FL",naples-fl,HVAC,hvac,2,5,3,False
 "Naples, FL",naples-fl,Insulation,insulation,1,5,4,False
-"Naples, FL",naples-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Naples, FL",naples-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Naples, FL",naples-fl,Junk removal,junk-removal,1,5,4,False
 "Naples, FL",naples-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
 "Naples, FL",naples-fl,Landscaping,landscaping,1,5,4,False
@@ -1024,14 +1024,14 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Naples, FL",naples-fl,Locksmith,locksmith,1,5,4,False
 "Naples, FL",naples-fl,Marine services,marine-services,1,5,4,False
 "Naples, FL",naples-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Naples, FL",naples-fl,Movers,movers,1,5,4,False
+"Naples, FL",naples-fl,Movers,movers,6,5,0,True
 "Naples, FL",naples-fl,Painting,painting,1,5,4,False
-"Naples, FL",naples-fl,Pest control,pest-control,1,5,4,False
+"Naples, FL",naples-fl,Pest control,pest-control,6,5,0,True
 "Naples, FL",naples-fl,Plumbing,plumbing,2,5,3,False
 "Naples, FL",naples-fl,Pool installation,pool-installation,1,5,4,False
 "Naples, FL",naples-fl,Pool service,pool-service,1,5,4,False
 "Naples, FL",naples-fl,Pressure washing,pressure-washing,1,5,4,False
-"Naples, FL",naples-fl,Roofing,roofing,1,5,4,False
+"Naples, FL",naples-fl,Roofing,roofing,8,5,0,True
 "Naples, FL",naples-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Naples, FL",naples-fl,Septic services,septic-services,1,5,4,False
 "Naples, FL",naples-fl,Towing,towing,1,5,4,False
@@ -1039,44 +1039,44 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Naples, FL",naples-fl,Tree service,tree-service,1,5,4,False
 "Naples, FL",naples-fl,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
 "Naples, FL",naples-fl,Window tinting,window-tinting,1,5,4,False
-"Navarre, FL",navarre-fl,Appliance repair,appliance-repair,2,5,3,False
-"Navarre, FL",navarre-fl,Auto body & collision,auto-body-collision,1,5,4,False
+"Navarre, FL",navarre-fl,Appliance repair,appliance-repair,5,5,0,True
+"Navarre, FL",navarre-fl,Auto body & collision,auto-body-collision,5,5,0,True
 "Navarre, FL",navarre-fl,Auto mechanics,auto-mechanics,12,5,0,True
-"Navarre, FL",navarre-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
+"Navarre, FL",navarre-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Navarre, FL",navarre-fl,Concrete & driveways,concrete,13,5,0,True
 "Navarre, FL",navarre-fl,Electrical,electrical,12,5,0,True
 "Navarre, FL",navarre-fl,Fence builders,fence-builders,13,5,0,True
-"Navarre, FL",navarre-fl,Flooring,flooring,2,5,3,False
-"Navarre, FL",navarre-fl,Garage door repair,garage-door-repair,2,5,3,False
+"Navarre, FL",navarre-fl,Flooring,flooring,5,5,0,True
+"Navarre, FL",navarre-fl,Garage door repair,garage-door-repair,5,5,0,True
 "Navarre, FL",navarre-fl,Generator installation,generator-installation,12,5,0,True
-"Navarre, FL",navarre-fl,Gutters,gutters,1,5,4,False
+"Navarre, FL",navarre-fl,Gutters,gutters,5,5,0,True
 "Navarre, FL",navarre-fl,Handyman,handyman,13,5,0,True
-"Navarre, FL",navarre-fl,Home inspections,home-inspections,0,5,5,False
-"Navarre, FL",navarre-fl,House cleaning,house-cleaning,3,5,2,False
+"Navarre, FL",navarre-fl,Home inspections,home-inspections,5,5,0,True
+"Navarre, FL",navarre-fl,House cleaning,house-cleaning,5,5,0,True
 "Navarre, FL",navarre-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,5,0,True
 "Navarre, FL",navarre-fl,HVAC,hvac,12,5,0,True
 "Navarre, FL",navarre-fl,Insulation,insulation,12,5,0,True
-"Navarre, FL",navarre-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Navarre, FL",navarre-fl,Junk removal,junk-removal,2,5,3,False
+"Navarre, FL",navarre-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Navarre, FL",navarre-fl,Junk removal,junk-removal,5,5,0,True
 "Navarre, FL",navarre-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,13,5,0,True
-"Navarre, FL",navarre-fl,Landscaping,landscaping,13,5,0,True
-"Navarre, FL",navarre-fl,Lawn care,lawn-care,2,5,3,False
-"Navarre, FL",navarre-fl,Locksmith,locksmith,2,5,3,False
+"Navarre, FL",navarre-fl,Landscaping,landscaping,14,5,0,True
+"Navarre, FL",navarre-fl,Lawn care,lawn-care,5,5,0,True
+"Navarre, FL",navarre-fl,Locksmith,locksmith,5,5,0,True
 "Navarre, FL",navarre-fl,Marine services,marine-services,12,5,0,True
-"Navarre, FL",navarre-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Navarre, FL",navarre-fl,Movers,movers,2,5,3,False
+"Navarre, FL",navarre-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Navarre, FL",navarre-fl,Movers,movers,5,5,0,True
 "Navarre, FL",navarre-fl,Painting,painting,11,5,0,True
 "Navarre, FL",navarre-fl,Pest control,pest-control,12,5,0,True
 "Navarre, FL",navarre-fl,Plumbing,plumbing,12,5,0,True
-"Navarre, FL",navarre-fl,Pool installation,pool-installation,12,5,0,True
-"Navarre, FL",navarre-fl,Pool service,pool-service,13,5,0,True
+"Navarre, FL",navarre-fl,Pool installation,pool-installation,13,5,0,True
+"Navarre, FL",navarre-fl,Pool service,pool-service,14,5,0,True
 "Navarre, FL",navarre-fl,Pressure washing,pressure-washing,11,5,0,True
 "Navarre, FL",navarre-fl,Roofing,roofing,12,5,0,True
 "Navarre, FL",navarre-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,5,0,True
-"Navarre, FL",navarre-fl,Septic services,septic-services,2,5,3,False
-"Navarre, FL",navarre-fl,Towing,towing,1,5,4,False
+"Navarre, FL",navarre-fl,Septic services,septic-services,5,5,0,True
+"Navarre, FL",navarre-fl,Towing,towing,5,5,0,True
 "Navarre, FL",navarre-fl,Trading card stores,trading-card-stores,10,5,0,True
-"Navarre, FL",navarre-fl,Tree service,tree-service,13,5,0,True
+"Navarre, FL",navarre-fl,Tree service,tree-service,14,5,0,True
 "Navarre, FL",navarre-fl,Water damage & mold remediation,water-damage-mold-remediation,12,5,0,True
 "Navarre, FL",navarre-fl,Window tinting,window-tinting,13,5,0,True
 "New Orleans, LA",new-orleans-la,Appliance repair,appliance-repair,1,5,4,False
@@ -1122,38 +1122,38 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Orange Beach, AL",orange-beach-al,Appliance repair,appliance-repair,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Auto body & collision,auto-body-collision,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Auto mechanics,auto-mechanics,12,5,0,True
-"Orange Beach, AL",orange-beach-al,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Orange Beach, AL",orange-beach-al,Carpet cleaning,carpet-cleaning,3,5,2,False
 "Orange Beach, AL",orange-beach-al,Concrete & driveways,concrete,13,5,0,True
 "Orange Beach, AL",orange-beach-al,Electrical,electrical,13,5,0,True
 "Orange Beach, AL",orange-beach-al,Fence builders,fence-builders,13,5,0,True
-"Orange Beach, AL",orange-beach-al,Flooring,flooring,1,5,4,False
+"Orange Beach, AL",orange-beach-al,Flooring,flooring,2,5,3,False
 "Orange Beach, AL",orange-beach-al,Garage door repair,garage-door-repair,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Generator installation,generator-installation,10,5,0,True
-"Orange Beach, AL",orange-beach-al,Gutters,gutters,1,5,4,False
+"Orange Beach, AL",orange-beach-al,Gutters,gutters,3,5,2,False
 "Orange Beach, AL",orange-beach-al,Handyman,handyman,13,5,0,True
-"Orange Beach, AL",orange-beach-al,Home inspections,home-inspections,0,5,5,False
+"Orange Beach, AL",orange-beach-al,Home inspections,home-inspections,2,5,3,False
 "Orange Beach, AL",orange-beach-al,House cleaning,house-cleaning,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,10,5,0,True
 "Orange Beach, AL",orange-beach-al,HVAC,hvac,13,5,0,True
 "Orange Beach, AL",orange-beach-al,Insulation,insulation,13,5,0,True
-"Orange Beach, AL",orange-beach-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
+"Orange Beach, AL",orange-beach-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Junk removal,junk-removal,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Kitchen & bath remodeling,kitchen-bath-remodeling,13,5,0,True
-"Orange Beach, AL",orange-beach-al,Landscaping,landscaping,13,5,0,True
-"Orange Beach, AL",orange-beach-al,Lawn care,lawn-care,2,5,3,False
+"Orange Beach, AL",orange-beach-al,Landscaping,landscaping,14,5,0,True
+"Orange Beach, AL",orange-beach-al,Lawn care,lawn-care,3,5,2,False
 "Orange Beach, AL",orange-beach-al,Locksmith,locksmith,1,5,4,False
-"Orange Beach, AL",orange-beach-al,Marine services,marine-services,12,5,0,True
-"Orange Beach, AL",orange-beach-al,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
+"Orange Beach, AL",orange-beach-al,Marine services,marine-services,13,5,0,True
+"Orange Beach, AL",orange-beach-al,Mobile auto detailing,mobile-auto-detailing,3,5,2,False
 "Orange Beach, AL",orange-beach-al,Movers,movers,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Painting,painting,13,5,0,True
 "Orange Beach, AL",orange-beach-al,Pest control,pest-control,12,5,0,True
 "Orange Beach, AL",orange-beach-al,Plumbing,plumbing,13,5,0,True
 "Orange Beach, AL",orange-beach-al,Pool installation,pool-installation,12,5,0,True
-"Orange Beach, AL",orange-beach-al,Pool service,pool-service,13,5,0,True
+"Orange Beach, AL",orange-beach-al,Pool service,pool-service,14,5,0,True
 "Orange Beach, AL",orange-beach-al,Pressure washing,pressure-washing,13,5,0,True
 "Orange Beach, AL",orange-beach-al,Roofing,roofing,10,5,0,True
 "Orange Beach, AL",orange-beach-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,10,5,0,True
-"Orange Beach, AL",orange-beach-al,Septic services,septic-services,1,5,4,False
+"Orange Beach, AL",orange-beach-al,Septic services,septic-services,2,5,3,False
 "Orange Beach, AL",orange-beach-al,Towing,towing,1,5,4,False
 "Orange Beach, AL",orange-beach-al,Trading card stores,trading-card-stores,10,5,0,True
 "Orange Beach, AL",orange-beach-al,Tree service,tree-service,13,5,0,True
@@ -1167,7 +1167,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Orlando, FL",orlando-fl,Electrical,electrical,2,5,3,False
 "Orlando, FL",orlando-fl,Fence builders,fence-builders,1,5,4,False
 "Orlando, FL",orlando-fl,Flooring,flooring,1,5,4,False
-"Orlando, FL",orlando-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Orlando, FL",orlando-fl,Garage door repair,garage-door-repair,2,5,3,False
 "Orlando, FL",orlando-fl,Generator installation,generator-installation,1,5,4,False
 "Orlando, FL",orlando-fl,Gutters,gutters,1,5,4,False
 "Orlando, FL",orlando-fl,Handyman,handyman,1,5,4,False
@@ -1199,56 +1199,56 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Orlando, FL",orlando-fl,Tree service,tree-service,1,5,4,False
 "Orlando, FL",orlando-fl,Water damage & mold remediation,water-damage-mold-remediation,1,5,4,False
 "Orlando, FL",orlando-fl,Window tinting,window-tinting,1,5,4,False
-"Pace, FL",pace-fl,Appliance repair,appliance-repair,2,5,3,False
-"Pace, FL",pace-fl,Auto body & collision,auto-body-collision,1,5,4,False
-"Pace, FL",pace-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Pace, FL",pace-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
-"Pace, FL",pace-fl,Concrete & driveways,concrete,2,5,3,False
-"Pace, FL",pace-fl,Electrical,electrical,1,5,4,False
-"Pace, FL",pace-fl,Fence builders,fence-builders,2,5,3,False
-"Pace, FL",pace-fl,Flooring,flooring,2,5,3,False
-"Pace, FL",pace-fl,Garage door repair,garage-door-repair,2,5,3,False
-"Pace, FL",pace-fl,Generator installation,generator-installation,1,5,4,False
-"Pace, FL",pace-fl,Gutters,gutters,1,5,4,False
-"Pace, FL",pace-fl,Handyman,handyman,2,5,3,False
-"Pace, FL",pace-fl,Home inspections,home-inspections,0,5,5,False
-"Pace, FL",pace-fl,House cleaning,house-cleaning,3,5,2,False
-"Pace, FL",pace-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
-"Pace, FL",pace-fl,HVAC,hvac,2,5,3,False
-"Pace, FL",pace-fl,Insulation,insulation,1,5,4,False
-"Pace, FL",pace-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Pace, FL",pace-fl,Junk removal,junk-removal,1,5,4,False
-"Pace, FL",pace-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,2,5,3,False
-"Pace, FL",pace-fl,Landscaping,landscaping,2,5,3,False
-"Pace, FL",pace-fl,Lawn care,lawn-care,2,5,3,False
-"Pace, FL",pace-fl,Locksmith,locksmith,1,5,4,False
-"Pace, FL",pace-fl,Marine services,marine-services,1,5,4,False
-"Pace, FL",pace-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Pace, FL",pace-fl,Movers,movers,2,5,3,False
-"Pace, FL",pace-fl,Painting,painting,2,5,3,False
-"Pace, FL",pace-fl,Pest control,pest-control,1,5,4,False
-"Pace, FL",pace-fl,Plumbing,plumbing,1,5,4,False
-"Pace, FL",pace-fl,Pool installation,pool-installation,1,5,4,False
-"Pace, FL",pace-fl,Pool service,pool-service,1,5,4,False
-"Pace, FL",pace-fl,Pressure washing,pressure-washing,2,5,3,False
-"Pace, FL",pace-fl,Roofing,roofing,1,5,4,False
-"Pace, FL",pace-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,5,3,False
-"Pace, FL",pace-fl,Septic services,septic-services,2,5,3,False
-"Pace, FL",pace-fl,Towing,towing,1,5,4,False
+"Pace, FL",pace-fl,Appliance repair,appliance-repair,5,5,0,True
+"Pace, FL",pace-fl,Auto body & collision,auto-body-collision,5,5,0,True
+"Pace, FL",pace-fl,Auto mechanics,auto-mechanics,5,5,0,True
+"Pace, FL",pace-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
+"Pace, FL",pace-fl,Concrete & driveways,concrete,5,5,0,True
+"Pace, FL",pace-fl,Electrical,electrical,5,5,0,True
+"Pace, FL",pace-fl,Fence builders,fence-builders,5,5,0,True
+"Pace, FL",pace-fl,Flooring,flooring,5,5,0,True
+"Pace, FL",pace-fl,Garage door repair,garage-door-repair,5,5,0,True
+"Pace, FL",pace-fl,Generator installation,generator-installation,5,5,0,True
+"Pace, FL",pace-fl,Gutters,gutters,5,5,0,True
+"Pace, FL",pace-fl,Handyman,handyman,5,5,0,True
+"Pace, FL",pace-fl,Home inspections,home-inspections,5,5,0,True
+"Pace, FL",pace-fl,House cleaning,house-cleaning,5,5,0,True
+"Pace, FL",pace-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,5,0,True
+"Pace, FL",pace-fl,HVAC,hvac,5,5,0,True
+"Pace, FL",pace-fl,Insulation,insulation,5,5,0,True
+"Pace, FL",pace-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Pace, FL",pace-fl,Junk removal,junk-removal,5,5,0,True
+"Pace, FL",pace-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,5,5,0,True
+"Pace, FL",pace-fl,Landscaping,landscaping,5,5,0,True
+"Pace, FL",pace-fl,Lawn care,lawn-care,5,5,0,True
+"Pace, FL",pace-fl,Locksmith,locksmith,5,5,0,True
+"Pace, FL",pace-fl,Marine services,marine-services,5,5,0,True
+"Pace, FL",pace-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Pace, FL",pace-fl,Movers,movers,5,5,0,True
+"Pace, FL",pace-fl,Painting,painting,5,5,0,True
+"Pace, FL",pace-fl,Pest control,pest-control,5,5,0,True
+"Pace, FL",pace-fl,Plumbing,plumbing,5,5,0,True
+"Pace, FL",pace-fl,Pool installation,pool-installation,5,5,0,True
+"Pace, FL",pace-fl,Pool service,pool-service,5,5,0,True
+"Pace, FL",pace-fl,Pressure washing,pressure-washing,5,5,0,True
+"Pace, FL",pace-fl,Roofing,roofing,5,5,0,True
+"Pace, FL",pace-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,5,5,0,True
+"Pace, FL",pace-fl,Septic services,septic-services,5,5,0,True
+"Pace, FL",pace-fl,Towing,towing,5,5,0,True
 "Pace, FL",pace-fl,Trading card stores,trading-card-stores,1,5,4,False
-"Pace, FL",pace-fl,Tree service,tree-service,2,5,3,False
-"Pace, FL",pace-fl,Water damage & mold remediation,water-damage-mold-remediation,2,5,3,False
-"Pace, FL",pace-fl,Window tinting,window-tinting,1,5,4,False
+"Pace, FL",pace-fl,Tree service,tree-service,5,5,0,True
+"Pace, FL",pace-fl,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,True
+"Pace, FL",pace-fl,Window tinting,window-tinting,5,5,0,True
 "Panama City Beach, FL",panama-city-beach-fl,Appliance repair,appliance-repair,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Auto mechanics,auto-mechanics,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Concrete & driveways,concrete,1,5,4,False
-"Panama City Beach, FL",panama-city-beach-fl,Electrical,electrical,3,5,2,False
+"Panama City Beach, FL",panama-city-beach-fl,Electrical,electrical,7,5,0,True
 "Panama City Beach, FL",panama-city-beach-fl,Fence builders,fence-builders,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Flooring,flooring,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Garage door repair,garage-door-repair,1,5,4,False
-"Panama City Beach, FL",panama-city-beach-fl,Generator installation,generator-installation,1,5,4,False
+"Panama City Beach, FL",panama-city-beach-fl,Generator installation,generator-installation,2,5,3,False
 "Panama City Beach, FL",panama-city-beach-fl,Gutters,gutters,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Handyman,handyman,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Home inspections,home-inspections,2,5,3,False
@@ -1259,8 +1259,8 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City Beach, FL",panama-city-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
 "Panama City Beach, FL",panama-city-beach-fl,Junk removal,junk-removal,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,1,5,4,False
-"Panama City Beach, FL",panama-city-beach-fl,Landscaping,landscaping,1,5,4,False
-"Panama City Beach, FL",panama-city-beach-fl,Lawn care,lawn-care,1,5,4,False
+"Panama City Beach, FL",panama-city-beach-fl,Landscaping,landscaping,2,5,3,False
+"Panama City Beach, FL",panama-city-beach-fl,Lawn care,lawn-care,2,5,3,False
 "Panama City Beach, FL",panama-city-beach-fl,Locksmith,locksmith,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Marine services,marine-services,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
@@ -1271,7 +1271,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City Beach, FL",panama-city-beach-fl,Pool installation,pool-installation,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Pool service,pool-service,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Pressure washing,pressure-washing,2,5,3,False
-"Panama City Beach, FL",panama-city-beach-fl,Roofing,roofing,1,5,4,False
+"Panama City Beach, FL",panama-city-beach-fl,Roofing,roofing,2,5,3,False
 "Panama City Beach, FL",panama-city-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Septic services,septic-services,1,5,4,False
 "Panama City Beach, FL",panama-city-beach-fl,Towing,towing,1,5,4,False
@@ -1281,120 +1281,120 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City Beach, FL",panama-city-beach-fl,Window tinting,window-tinting,1,5,4,False
 "Panama City, FL",panama-city-fl,Appliance repair,appliance-repair,0,5,5,False
 "Panama City, FL",panama-city-fl,Auto body & collision,auto-body-collision,0,5,5,False
-"Panama City, FL",panama-city-fl,Auto mechanics,auto-mechanics,0,5,5,False
-"Panama City, FL",panama-city-fl,Carpet cleaning,carpet-cleaning,0,5,5,False
+"Panama City, FL",panama-city-fl,Auto mechanics,auto-mechanics,5,5,0,True
+"Panama City, FL",panama-city-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Panama City, FL",panama-city-fl,Concrete & driveways,concrete,0,5,5,False
-"Panama City, FL",panama-city-fl,Electrical,electrical,0,5,5,False
-"Panama City, FL",panama-city-fl,Fence builders,fence-builders,0,5,5,False
-"Panama City, FL",panama-city-fl,Flooring,flooring,0,5,5,False
-"Panama City, FL",panama-city-fl,Garage door repair,garage-door-repair,0,5,5,False
-"Panama City, FL",panama-city-fl,Generator installation,generator-installation,0,5,5,False
+"Panama City, FL",panama-city-fl,Electrical,electrical,5,5,0,True
+"Panama City, FL",panama-city-fl,Fence builders,fence-builders,5,5,0,True
+"Panama City, FL",panama-city-fl,Flooring,flooring,1,5,4,False
+"Panama City, FL",panama-city-fl,Garage door repair,garage-door-repair,5,5,0,True
+"Panama City, FL",panama-city-fl,Generator installation,generator-installation,1,5,4,False
 "Panama City, FL",panama-city-fl,Gutters,gutters,0,5,5,False
 "Panama City, FL",panama-city-fl,Handyman,handyman,0,5,5,False
-"Panama City, FL",panama-city-fl,Home inspections,home-inspections,5,5,0,True
-"Panama City, FL",panama-city-fl,House cleaning,house-cleaning,0,5,5,False
+"Panama City, FL",panama-city-fl,Home inspections,home-inspections,6,5,0,True
+"Panama City, FL",panama-city-fl,House cleaning,house-cleaning,5,5,0,True
 "Panama City, FL",panama-city-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,0,5,5,False
-"Panama City, FL",panama-city-fl,HVAC,hvac,0,5,5,False
+"Panama City, FL",panama-city-fl,HVAC,hvac,5,5,0,True
 "Panama City, FL",panama-city-fl,Insulation,insulation,0,5,5,False
-"Panama City, FL",panama-city-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Panama City, FL",panama-city-fl,Junk removal,junk-removal,0,5,5,False
+"Panama City, FL",panama-city-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,3,5,2,False
+"Panama City, FL",panama-city-fl,Junk removal,junk-removal,5,5,0,True
 "Panama City, FL",panama-city-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,0,5,5,False
-"Panama City, FL",panama-city-fl,Landscaping,landscaping,0,5,5,False
-"Panama City, FL",panama-city-fl,Lawn care,lawn-care,0,5,5,False
+"Panama City, FL",panama-city-fl,Landscaping,landscaping,5,5,0,True
+"Panama City, FL",panama-city-fl,Lawn care,lawn-care,5,5,0,True
 "Panama City, FL",panama-city-fl,Locksmith,locksmith,0,5,5,False
-"Panama City, FL",panama-city-fl,Marine services,marine-services,0,5,5,False
-"Panama City, FL",panama-city-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Panama City, FL",panama-city-fl,Movers,movers,0,5,5,False
-"Panama City, FL",panama-city-fl,Painting,painting,0,5,5,False
-"Panama City, FL",panama-city-fl,Pest control,pest-control,0,5,5,False
-"Panama City, FL",panama-city-fl,Plumbing,plumbing,0,5,5,False
+"Panama City, FL",panama-city-fl,Marine services,marine-services,5,5,0,True
+"Panama City, FL",panama-city-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Panama City, FL",panama-city-fl,Movers,movers,1,5,4,False
+"Panama City, FL",panama-city-fl,Painting,painting,1,5,4,False
+"Panama City, FL",panama-city-fl,Pest control,pest-control,5,5,0,True
+"Panama City, FL",panama-city-fl,Plumbing,plumbing,5,5,0,True
 "Panama City, FL",panama-city-fl,Pool installation,pool-installation,0,5,5,False
 "Panama City, FL",panama-city-fl,Pool service,pool-service,0,5,5,False
-"Panama City, FL",panama-city-fl,Pressure washing,pressure-washing,0,5,5,False
-"Panama City, FL",panama-city-fl,Roofing,roofing,0,5,5,False
+"Panama City, FL",panama-city-fl,Pressure washing,pressure-washing,5,5,0,True
+"Panama City, FL",panama-city-fl,Roofing,roofing,5,5,0,True
 "Panama City, FL",panama-city-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,0,5,5,False
 "Panama City, FL",panama-city-fl,Septic services,septic-services,0,5,5,False
-"Panama City, FL",panama-city-fl,Towing,towing,0,5,5,False
+"Panama City, FL",panama-city-fl,Towing,towing,5,5,0,True
 "Panama City, FL",panama-city-fl,Trading card stores,trading-card-stores,0,5,5,False
-"Panama City, FL",panama-city-fl,Tree service,tree-service,0,5,5,False
-"Panama City, FL",panama-city-fl,Water damage & mold remediation,water-damage-mold-remediation,0,5,5,False
+"Panama City, FL",panama-city-fl,Tree service,tree-service,5,5,0,True
+"Panama City, FL",panama-city-fl,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,True
 "Panama City, FL",panama-city-fl,Window tinting,window-tinting,0,5,5,False
-"Pensacola, FL",pensacola-fl,Appliance repair,appliance-repair,2,5,3,False
-"Pensacola, FL",pensacola-fl,Auto body & collision,auto-body-collision,1,5,4,False
+"Pensacola, FL",pensacola-fl,Appliance repair,appliance-repair,5,5,0,True
+"Pensacola, FL",pensacola-fl,Auto body & collision,auto-body-collision,5,5,0,True
 "Pensacola, FL",pensacola-fl,Auto mechanics,auto-mechanics,12,5,0,True
-"Pensacola, FL",pensacola-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
+"Pensacola, FL",pensacola-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Pensacola, FL",pensacola-fl,Concrete & driveways,concrete,13,5,0,True
 "Pensacola, FL",pensacola-fl,Electrical,electrical,12,5,0,True
 "Pensacola, FL",pensacola-fl,Fence builders,fence-builders,13,5,0,True
-"Pensacola, FL",pensacola-fl,Flooring,flooring,2,5,3,False
-"Pensacola, FL",pensacola-fl,Garage door repair,garage-door-repair,2,5,3,False
+"Pensacola, FL",pensacola-fl,Flooring,flooring,5,5,0,True
+"Pensacola, FL",pensacola-fl,Garage door repair,garage-door-repair,5,5,0,True
 "Pensacola, FL",pensacola-fl,Generator installation,generator-installation,12,5,0,True
-"Pensacola, FL",pensacola-fl,Gutters,gutters,1,5,4,False
+"Pensacola, FL",pensacola-fl,Gutters,gutters,5,5,0,True
 "Pensacola, FL",pensacola-fl,Handyman,handyman,13,5,0,True
-"Pensacola, FL",pensacola-fl,Home inspections,home-inspections,1,5,4,False
-"Pensacola, FL",pensacola-fl,House cleaning,house-cleaning,3,5,2,False
+"Pensacola, FL",pensacola-fl,Home inspections,home-inspections,5,5,0,True
+"Pensacola, FL",pensacola-fl,House cleaning,house-cleaning,5,5,0,True
 "Pensacola, FL",pensacola-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,5,0,True
 "Pensacola, FL",pensacola-fl,HVAC,hvac,12,5,0,True
 "Pensacola, FL",pensacola-fl,Insulation,insulation,12,5,0,True
-"Pensacola, FL",pensacola-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Pensacola, FL",pensacola-fl,Junk removal,junk-removal,2,5,3,False
+"Pensacola, FL",pensacola-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,True
+"Pensacola, FL",pensacola-fl,Junk removal,junk-removal,5,5,0,True
 "Pensacola, FL",pensacola-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,13,5,0,True
 "Pensacola, FL",pensacola-fl,Landscaping,landscaping,13,5,0,True
-"Pensacola, FL",pensacola-fl,Lawn care,lawn-care,2,5,3,False
-"Pensacola, FL",pensacola-fl,Locksmith,locksmith,2,5,3,False
+"Pensacola, FL",pensacola-fl,Lawn care,lawn-care,5,5,0,True
+"Pensacola, FL",pensacola-fl,Locksmith,locksmith,5,5,0,True
 "Pensacola, FL",pensacola-fl,Marine services,marine-services,12,5,0,True
-"Pensacola, FL",pensacola-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Pensacola, FL",pensacola-fl,Movers,movers,2,5,3,False
+"Pensacola, FL",pensacola-fl,Mobile auto detailing,mobile-auto-detailing,5,5,0,True
+"Pensacola, FL",pensacola-fl,Movers,movers,5,5,0,True
 "Pensacola, FL",pensacola-fl,Painting,painting,11,5,0,True
 "Pensacola, FL",pensacola-fl,Pest control,pest-control,12,5,0,True
 "Pensacola, FL",pensacola-fl,Plumbing,plumbing,12,5,0,True
 "Pensacola, FL",pensacola-fl,Pool installation,pool-installation,12,5,0,True
 "Pensacola, FL",pensacola-fl,Pool service,pool-service,13,5,0,True
 "Pensacola, FL",pensacola-fl,Pressure washing,pressure-washing,11,5,0,True
-"Pensacola, FL",pensacola-fl,Roofing,roofing,13,5,0,True
+"Pensacola, FL",pensacola-fl,Roofing,roofing,14,5,0,True
 "Pensacola, FL",pensacola-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,5,0,True
-"Pensacola, FL",pensacola-fl,Septic services,septic-services,1,5,4,False
-"Pensacola, FL",pensacola-fl,Towing,towing,1,5,4,False
+"Pensacola, FL",pensacola-fl,Septic services,septic-services,5,5,0,True
+"Pensacola, FL",pensacola-fl,Towing,towing,5,5,0,True
 "Pensacola, FL",pensacola-fl,Trading card stores,trading-card-stores,10,5,0,True
 "Pensacola, FL",pensacola-fl,Tree service,tree-service,13,5,0,True
 "Pensacola, FL",pensacola-fl,Water damage & mold remediation,water-damage-mold-remediation,12,5,0,True
 "Pensacola, FL",pensacola-fl,Window tinting,window-tinting,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Appliance repair,appliance-repair,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Appliance repair,appliance-repair,4,5,1,False
 "Perdido Key, FL",perdido-key-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Perdido Key, FL",perdido-key-fl,Auto mechanics,auto-mechanics,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "Perdido Key, FL",perdido-key-fl,Concrete & driveways,concrete,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Electrical,electrical,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Fence builders,fence-builders,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Flooring,flooring,1,5,4,False
-"Perdido Key, FL",perdido-key-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Flooring,flooring,4,5,1,False
+"Perdido Key, FL",perdido-key-fl,Garage door repair,garage-door-repair,3,5,2,False
 "Perdido Key, FL",perdido-key-fl,Generator installation,generator-installation,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Gutters,gutters,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Gutters,gutters,5,5,0,True
 "Perdido Key, FL",perdido-key-fl,Handyman,handyman,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Home inspections,home-inspections,0,5,5,False
-"Perdido Key, FL",perdido-key-fl,House cleaning,house-cleaning,3,5,2,False
+"Perdido Key, FL",perdido-key-fl,Home inspections,home-inspections,5,5,0,True
+"Perdido Key, FL",perdido-key-fl,House cleaning,house-cleaning,5,5,0,True
 "Perdido Key, FL",perdido-key-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,HVAC,hvac,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Insulation,insulation,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,5,5,False
-"Perdido Key, FL",perdido-key-fl,Junk removal,junk-removal,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,5,3,False
+"Perdido Key, FL",perdido-key-fl,Junk removal,junk-removal,4,5,1,False
 "Perdido Key, FL",perdido-key-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Landscaping,landscaping,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Lawn care,lawn-care,1,5,4,False
-"Perdido Key, FL",perdido-key-fl,Locksmith,locksmith,2,5,3,False
+"Perdido Key, FL",perdido-key-fl,Lawn care,lawn-care,4,5,1,False
+"Perdido Key, FL",perdido-key-fl,Locksmith,locksmith,5,5,0,True
 "Perdido Key, FL",perdido-key-fl,Marine services,marine-services,12,5,0,True
-"Perdido Key, FL",perdido-key-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Perdido Key, FL",perdido-key-fl,Movers,movers,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Mobile auto detailing,mobile-auto-detailing,3,5,2,False
+"Perdido Key, FL",perdido-key-fl,Movers,movers,3,5,2,False
 "Perdido Key, FL",perdido-key-fl,Painting,painting,10,5,0,True
 "Perdido Key, FL",perdido-key-fl,Pest control,pest-control,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Plumbing,plumbing,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Pool installation,pool-installation,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Pool service,pool-service,13,5,0,True
 "Perdido Key, FL",perdido-key-fl,Pressure washing,pressure-washing,10,5,0,True
-"Perdido Key, FL",perdido-key-fl,Roofing,roofing,12,5,0,True
+"Perdido Key, FL",perdido-key-fl,Roofing,roofing,13,5,0,True
 "Perdido Key, FL",perdido-key-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,5,0,True
-"Perdido Key, FL",perdido-key-fl,Septic services,septic-services,1,5,4,False
-"Perdido Key, FL",perdido-key-fl,Towing,towing,1,5,4,False
+"Perdido Key, FL",perdido-key-fl,Septic services,septic-services,4,5,1,False
+"Perdido Key, FL",perdido-key-fl,Towing,towing,2,5,3,False
 "Perdido Key, FL",perdido-key-fl,Trading card stores,trading-card-stores,10,5,0,True
 "Perdido Key, FL",perdido-key-fl,Tree service,tree-service,12,5,0,True
 "Perdido Key, FL",perdido-key-fl,Water damage & mold remediation,water-damage-mold-remediation,12,5,0,True
@@ -1402,12 +1402,12 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Sarasota, FL",sarasota-fl,Appliance repair,appliance-repair,1,5,4,False
 "Sarasota, FL",sarasota-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Sarasota, FL",sarasota-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"Sarasota, FL",sarasota-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Sarasota, FL",sarasota-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
 "Sarasota, FL",sarasota-fl,Concrete & driveways,concrete,1,5,4,False
 "Sarasota, FL",sarasota-fl,Electrical,electrical,2,5,3,False
 "Sarasota, FL",sarasota-fl,Fence builders,fence-builders,1,5,4,False
 "Sarasota, FL",sarasota-fl,Flooring,flooring,1,5,4,False
-"Sarasota, FL",sarasota-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Sarasota, FL",sarasota-fl,Garage door repair,garage-door-repair,3,5,2,False
 "Sarasota, FL",sarasota-fl,Generator installation,generator-installation,1,5,4,False
 "Sarasota, FL",sarasota-fl,Gutters,gutters,1,5,4,False
 "Sarasota, FL",sarasota-fl,Handyman,handyman,1,5,4,False
@@ -1424,14 +1424,14 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Sarasota, FL",sarasota-fl,Locksmith,locksmith,1,5,4,False
 "Sarasota, FL",sarasota-fl,Marine services,marine-services,1,5,4,False
 "Sarasota, FL",sarasota-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Sarasota, FL",sarasota-fl,Movers,movers,1,5,4,False
+"Sarasota, FL",sarasota-fl,Movers,movers,3,5,2,False
 "Sarasota, FL",sarasota-fl,Painting,painting,1,5,4,False
-"Sarasota, FL",sarasota-fl,Pest control,pest-control,1,5,4,False
+"Sarasota, FL",sarasota-fl,Pest control,pest-control,2,5,3,False
 "Sarasota, FL",sarasota-fl,Plumbing,plumbing,2,5,3,False
 "Sarasota, FL",sarasota-fl,Pool installation,pool-installation,1,5,4,False
 "Sarasota, FL",sarasota-fl,Pool service,pool-service,1,5,4,False
 "Sarasota, FL",sarasota-fl,Pressure washing,pressure-washing,1,5,4,False
-"Sarasota, FL",sarasota-fl,Roofing,roofing,1,5,4,False
+"Sarasota, FL",sarasota-fl,Roofing,roofing,2,5,3,False
 "Sarasota, FL",sarasota-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Sarasota, FL",sarasota-fl,Septic services,septic-services,1,5,4,False
 "Sarasota, FL",sarasota-fl,Towing,towing,1,5,4,False
@@ -1442,16 +1442,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "St. Petersburg, FL",st-petersburg-fl,Appliance repair,appliance-repair,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Auto mechanics,auto-mechanics,1,5,4,False
-"St. Petersburg, FL",st-petersburg-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"St. Petersburg, FL",st-petersburg-fl,Carpet cleaning,carpet-cleaning,5,5,0,True
 "St. Petersburg, FL",st-petersburg-fl,Concrete & driveways,concrete,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Electrical,electrical,2,5,3,False
 "St. Petersburg, FL",st-petersburg-fl,Fence builders,fence-builders,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Flooring,flooring,1,5,4,False
-"St. Petersburg, FL",st-petersburg-fl,Garage door repair,garage-door-repair,1,5,4,False
+"St. Petersburg, FL",st-petersburg-fl,Garage door repair,garage-door-repair,3,5,2,False
 "St. Petersburg, FL",st-petersburg-fl,Generator installation,generator-installation,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Gutters,gutters,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Handyman,handyman,1,5,4,False
-"St. Petersburg, FL",st-petersburg-fl,Home inspections,home-inspections,0,5,5,False
+"St. Petersburg, FL",st-petersburg-fl,Home inspections,home-inspections,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,House cleaning,house-cleaning,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,HVAC,hvac,2,5,3,False
@@ -1464,9 +1464,9 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "St. Petersburg, FL",st-petersburg-fl,Locksmith,locksmith,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Marine services,marine-services,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"St. Petersburg, FL",st-petersburg-fl,Movers,movers,1,5,4,False
+"St. Petersburg, FL",st-petersburg-fl,Movers,movers,4,5,1,False
 "St. Petersburg, FL",st-petersburg-fl,Painting,painting,1,5,4,False
-"St. Petersburg, FL",st-petersburg-fl,Pest control,pest-control,1,5,4,False
+"St. Petersburg, FL",st-petersburg-fl,Pest control,pest-control,2,5,3,False
 "St. Petersburg, FL",st-petersburg-fl,Plumbing,plumbing,2,5,3,False
 "St. Petersburg, FL",st-petersburg-fl,Pool installation,pool-installation,1,5,4,False
 "St. Petersburg, FL",st-petersburg-fl,Pool service,pool-service,1,5,4,False
@@ -1508,10 +1508,10 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Tallahassee, FL",tallahassee-fl,Painting,painting,1,5,4,False
 "Tallahassee, FL",tallahassee-fl,Pest control,pest-control,1,5,4,False
 "Tallahassee, FL",tallahassee-fl,Plumbing,plumbing,2,5,3,False
-"Tallahassee, FL",tallahassee-fl,Pool installation,pool-installation,1,5,4,False
-"Tallahassee, FL",tallahassee-fl,Pool service,pool-service,1,5,4,False
+"Tallahassee, FL",tallahassee-fl,Pool installation,pool-installation,2,5,3,False
+"Tallahassee, FL",tallahassee-fl,Pool service,pool-service,2,5,3,False
 "Tallahassee, FL",tallahassee-fl,Pressure washing,pressure-washing,1,5,4,False
-"Tallahassee, FL",tallahassee-fl,Roofing,roofing,1,5,4,False
+"Tallahassee, FL",tallahassee-fl,Roofing,roofing,2,5,3,False
 "Tallahassee, FL",tallahassee-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,5,4,False
 "Tallahassee, FL",tallahassee-fl,Septic services,septic-services,1,5,4,False
 "Tallahassee, FL",tallahassee-fl,Towing,towing,1,5,4,False
@@ -1522,16 +1522,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Tampa, FL",tampa-fl,Appliance repair,appliance-repair,1,5,4,False
 "Tampa, FL",tampa-fl,Auto body & collision,auto-body-collision,1,5,4,False
 "Tampa, FL",tampa-fl,Auto mechanics,auto-mechanics,12,5,0,True
-"Tampa, FL",tampa-fl,Carpet cleaning,carpet-cleaning,1,5,4,False
+"Tampa, FL",tampa-fl,Carpet cleaning,carpet-cleaning,2,5,3,False
 "Tampa, FL",tampa-fl,Concrete & driveways,concrete,12,5,0,True
 "Tampa, FL",tampa-fl,Electrical,electrical,11,5,0,True
 "Tampa, FL",tampa-fl,Fence builders,fence-builders,12,5,0,True
 "Tampa, FL",tampa-fl,Flooring,flooring,1,5,4,False
-"Tampa, FL",tampa-fl,Garage door repair,garage-door-repair,1,5,4,False
+"Tampa, FL",tampa-fl,Garage door repair,garage-door-repair,3,5,2,False
 "Tampa, FL",tampa-fl,Generator installation,generator-installation,10,5,0,True
 "Tampa, FL",tampa-fl,Gutters,gutters,1,5,4,False
 "Tampa, FL",tampa-fl,Handyman,handyman,12,5,0,True
-"Tampa, FL",tampa-fl,Home inspections,home-inspections,0,5,5,False
+"Tampa, FL",tampa-fl,Home inspections,home-inspections,1,5,4,False
 "Tampa, FL",tampa-fl,House cleaning,house-cleaning,1,5,4,False
 "Tampa, FL",tampa-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,10,5,0,True
 "Tampa, FL",tampa-fl,HVAC,hvac,13,5,0,True
@@ -1544,9 +1544,9 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Tampa, FL",tampa-fl,Locksmith,locksmith,1,5,4,False
 "Tampa, FL",tampa-fl,Marine services,marine-services,12,5,0,True
 "Tampa, FL",tampa-fl,Mobile auto detailing,mobile-auto-detailing,0,5,5,False
-"Tampa, FL",tampa-fl,Movers,movers,1,5,4,False
+"Tampa, FL",tampa-fl,Movers,movers,5,5,0,True
 "Tampa, FL",tampa-fl,Painting,painting,10,5,0,True
-"Tampa, FL",tampa-fl,Pest control,pest-control,12,5,0,True
+"Tampa, FL",tampa-fl,Pest control,pest-control,13,5,0,True
 "Tampa, FL",tampa-fl,Plumbing,plumbing,11,5,0,True
 "Tampa, FL",tampa-fl,Pool installation,pool-installation,12,5,0,True
 "Tampa, FL",tampa-fl,Pool service,pool-service,12,5,0,True
