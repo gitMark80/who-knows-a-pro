@@ -104,6 +104,9 @@ TRADE_PATTERNS = {
 
 def relevant_trade(place, trade):
     # No keyword in an address or URL can qualify an unrelated business.
+    category_text = ' '.join(str(c.get('name') or '') for c in place.get('categories') or [])
+    if re.search(r'restaurant|bar and grill|military|recruiting|medical|physician|hospital|church|museum|apartment|swimming pool|government', category_text, re.I):
+        return False
     text = ' '.join([str(place.get('name') or '')] +
                     [str(c.get('name') or '') for c in place.get('categories') or []])
     if re.search(r'board of|licensing|training school', text, re.I):
@@ -113,7 +116,9 @@ def relevant_trade(place, trade):
 
 EXCLUDED_DOMAINS = ('google.com', 'yelp.com', 'angi.com', 'homeadvisor.com',
                     'yellowpages.com', 'facebook.com', 'instagram.com', 'foursquare.com',
-                    'hub.biz', 'showmelocal.com', 'eventful.com', 'zillow.com')
+                    'hub.biz', 'showmelocal.com', 'eventful.com', 'zillow.com',
+                    'goo.gl', 'maps.app.goo.gl', 'superpages.com',
+                    'hvacnearyou.com', 'moverrankings.com', 'bellsouth.com')
 
 
 def website_domain(value):
