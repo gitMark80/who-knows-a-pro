@@ -118,3 +118,10 @@ Remaining nearby gaps (current live count):
 - Complete live coverage audit encountered HTTP 502. A retry was interrupted when the execution connection ended with `network approval was cancelled before a decision was returned`; no new full-audit count claimed. Last complete audit remains 531/1,600 before this batch; 16 additional completed pairs are expected from validated seed counts.
 - Total generated records 5,470; all 5,379 previous records unchanged. No paid API calls. These 91 additions no longer await approval.
 - Next run: refresh full live coverage first, then continue remaining gaps. ProLift Garage Doors of South Alabama officially lists Daphne on https://www.proliftdoors.com/south-alabama/areas-we-serve/baldwin-county/ and is a candidate for its remaining garage-door gap. Baldwin Junk Removal /service-areas returned a soft 404; do not rely on search snippets for Orange Beach coverage. No new candidate from this follow-up was added.
+
+## Baldwin trades continuation — 2026-09-29
+
+- Full live audit before this batch succeeded: 547/1,600 pairs meet five, 1,053 below, 85 empty, 3,915 missing placements. CSV refreshed.
+- Added 36 official-site-backed placements across Daphne, Fairhope, Foley and Gulf Shores, with source URLs, dates and evidence notes.
+- All 5,470 prior records unchanged; new total 5,506. Nine pairs newly reach five: HVAC and plumbing in all four cities, plus Daphne garage doors.
+- Evidence and complete-value validation saved in the corresponding baldwin-trades reports. Publication/live verification follows. No paid API calls.
