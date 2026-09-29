@@ -110,3 +110,11 @@ Remaining nearby gaps (current live count):
 - Expected 16 additional pairs reach five after publication: six appliance-repair pairs (Daphne, Fairhope, Foley, Gulf Shores, Orange Beach, Mobile), three garage-door pairs (Fairhope, Foley, Gulf Shores), four junk-removal pairs (Daphne, Fairhope, Foley, Gulf Shores), three mobile-detailing pairs (Orange Beach, Foley, Gulf Shores).
 - Not published or live-verified. Prior automatic approval review requires explicit approval to merge/publish; expanded PR #2 is prepared for review. Last confirmed live coverage remains 531/1,600. No paid API calls; no billing/claims/DB/registry changes.
 - Next: publish approved PR #2 and verify all additions, then refresh live counts. Remaining nearby gaps include Perdido Key categories, Daphne/Orange Beach garage doors, Orange Beach junk removal, and broader Baldwin service categories. Pace/Milton card-store gaps still need genuine official websites.
+
+## PR #2 publication confirmation — 2026-09-29
+
+- PR #2 merged as `8d897cd1b74bd4af3b29add7a2e968f9a11df1c0`. Vercel production status succeeded.
+- All 91 placements verified live across 40 category pages: both business-profile and official-website links present. Initial check verified 90; Gulfport appliance repair returned HTTP 502, then the targeted retry verified the final placement.
+- Complete live coverage audit encountered HTTP 502. A retry was interrupted when the execution connection ended with `network approval was cancelled before a decision was returned`; no new full-audit count claimed. Last complete audit remains 531/1,600 before this batch; 16 additional completed pairs are expected from validated seed counts.
+- Total generated records 5,470; all 5,379 previous records unchanged. No paid API calls. These 91 additions no longer await approval.
+- Next run: refresh full live coverage first, then continue remaining gaps. ProLift Garage Doors of South Alabama officially lists Daphne on https://www.proliftdoors.com/south-alabama/areas-we-serve/baldwin-county/ and is a candidate for its remaining garage-door gap. Baldwin Junk Removal /service-areas returned a soft 404; do not rely on search snippets for Orange Beach coverage. No new candidate from this follow-up was added.
