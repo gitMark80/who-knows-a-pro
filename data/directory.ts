@@ -453,8 +453,28 @@ for (const business of verifiedActiveProvidersData as readonly VerifiedProvider[
   identityDomains.set(name, domains);
 }
 
+/**
+ * Name variants that are the same business (same website, only the legal suffix or wording differs).
+ * Keys are the variant slugs; values are the canonical slug they merge into.
+ */
+export const duplicateSlugAliases: Readonly<Record<string, string>> = {
+  'perdido-heating-and-air': 'perdido-heating-air',
+  'horizon-concrete-llc': 'horizon-concrete',
+  'jones-roofing-inc': 'jones-roofing',
+  'mitchell-fence-company': 'mitchell-fence',
+  'pace-septic-service': 'pace-septic',
+  'r-d-plumbing-co-llc': 'r-d-plumbing-co',
+  'robert-s-painting-llc': 'robert-s-painting',
+  'taurus-electrical-llc': 'taurus-electrical',
+  'storm-force-shutter-solutions': 'storm-force-hurricane-shutters',
+  'a-cut-above-landscaping-and-property-maintenance': 'a-cut-above-landscaping',
+  'advantage-hvac-plumbing-and-electrical': 'advantage-hvac-plumbing-electrical',
+};
+
 function canonicalBusinessSlug(name: string, website: string) {
   const nameSlug = slug(name);
+  const aliased = duplicateSlugAliases[nameSlug];
+  if (aliased) return aliased;
   return (identityDomains.get(nameSlug)?.size ?? 0) > 1
     ? `${nameSlug}-${slug(websiteDomain(website))}`
     : nameSlug;
