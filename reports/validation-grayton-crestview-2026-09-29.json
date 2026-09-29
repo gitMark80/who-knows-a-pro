@@ -1,0 +1,47 @@
+{
+  "baselineCount": 5619,
+  "finalCount": 5663,
+  "additions": 44,
+  "existingUnchanged": true,
+  "uniqueIds": true,
+  "newDomainCityCategoryUnique": true,
+  "expectedNewlyComplete": [
+    [
+      "grayton-beach-fl",
+      "junk-removal"
+    ],
+    [
+      "panama-city-beach-fl",
+      "junk-removal"
+    ],
+    [
+      "grayton-beach-fl",
+      "tree-service"
+    ],
+    [
+      "crestview-fl",
+      "flooring"
+    ],
+    [
+      "crestview-fl",
+      "screen-enclosures-pool-cages"
+    ],
+    [
+      "fort-walton-beach-fl",
+      "screen-enclosures-pool-cages"
+    ],
+    [
+      "crestview-fl",
+      "generator-installation"
+    ],
+    [
+      "grayton-beach-fl",
+      "flooring"
+    ],
+    [
+      "panama-city-beach-fl",
+      "flooring"
+    ]
+  ],
+  "typeScriptCheck": "passed"
+}
