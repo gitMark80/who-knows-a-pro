@@ -46,7 +46,7 @@ export default async function PricingPage({ searchParams }: { searchParams: Prom
         name="Enhanced listing"
         price="$29/month"
         description="Show more of what makes your business useful and appear above free listings on pages where you are listed."
-        items={['Full profile details', 'Logo and photo gallery', 'Placement above non-paying listings', 'Profile view and lead-page statistics']}
+        items={['Full profile details', 'Logo and photo gallery', 'Placement above non-paying listings', 'Profile views and website-click counts']}
         href={destination('enhanced')}
         action="Choose Enhanced"
       />
@@ -62,8 +62,42 @@ export default async function PricingPage({ searchParams }: { searchParams: Prom
       />
       <div className="lg:col-span-2 flex items-start gap-3 rounded-2xl border border-slate-200 bg-white p-5 text-sm leading-6 text-slate-600"><ShieldCheck className="mt-0.5 size-5 shrink-0 text-[#27715c]"/><p>Payments use Stripe Checkout. Who Knows a Pro never stores card details. Featured availability is checked again before checkout so two businesses cannot purchase the same page.</p></div>
     </section>
+    <section className="mx-auto max-w-5xl px-5 pb-6 sm:px-8">
+      <h2 className="text-2xl font-black text-[#142c4c]">Compare plans</h2>
+      <div className="mt-5 overflow-x-auto rounded-2xl border border-slate-200 bg-white">
+        <table className="w-full min-w-[34rem] text-left text-sm">
+          <thead className="bg-[#eef3f8] text-[#142c4c]"><tr><th className="p-4">&nbsp;</th><th className="p-4">Free</th><th className="p-4">Enhanced · $29/mo</th><th className="p-4">Featured · $99/mo</th></tr></thead>
+          <tbody className="divide-y divide-slate-100 text-slate-700">
+            {comparison.map(([feature, free, enhanced, featured]) => <tr key={feature}><th scope="row" className="p-4 font-semibold text-[#142c4c]">{feature}</th><td className="p-4">{free}</td><td className="p-4">{enhanced}</td><td className="p-4">{featured}</td></tr>)}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section className="mx-auto max-w-3xl px-5 pb-16 pt-8 sm:px-8">
+      <h2 className="text-2xl font-black text-[#142c4c]">Questions</h2>
+      <div className="mt-5 space-y-3">
+        {faqs.map(([q, a]) => <details key={q} className="rounded-2xl border border-slate-200 bg-white p-5"><summary className="cursor-pointer font-extrabold text-[#142c4c]">{q}</summary><p className="mt-3 text-sm leading-7 text-slate-600">{a}</p></details>)}
+      </div>
+    </section>
   </main><Footer/></>;
 }
+
+const comparison = [
+  ['Listing on your city and category pages', 'Yes', 'Yes', 'Yes'],
+  ['Claim and edit your profile', 'Yes', 'Yes', 'Yes'],
+  ['Logo and photo gallery', 'No', 'Yes', 'Yes'],
+  ['Placed above non-paying listings', 'No', 'Yes', 'Yes'],
+  ['Exclusive top spot on one page', 'No', 'No', 'Yes'],
+  ['Receives that page’s quote requests', 'No', 'No', 'Yes'],
+];
+
+const faqs = [
+  ['How does billing work?', 'Plans are billed monthly through Stripe Checkout and renew until you cancel.'],
+  ['Can I cancel anytime?', 'Yes. Cancel from your business dashboard. Your plan stays active through the end of the period you already paid for.'],
+  ['How do quote requests reach me?', 'Consumers submit a quote request on a city and category page. While you hold the Featured spot on that page, the request is sent to you. Pages without a Featured business do not show the quote form.'],
+  ['What does “exclusive” mean?', 'Only one business can be Featured on a given city and category page. Availability is checked again before checkout.'],
+  ['Are results guaranteed?', 'No. We cannot promise a number of views, leads, or customers.'],
+];
 
 function PlanCard({ icon: Icon, name, price, description, items, href, action, featured = false }: { icon: typeof Sparkles; name: string; price: string; description: string; items: string[]; href: string; action: string; featured?: boolean }) {
   return <article className={`rounded-3xl border bg-white p-7 shadow-[0_18px_55px_rgba(20,44,76,.08)] ${featured ? 'border-[#ec7d2c] ring-2 ring-[#ec7d2c]/10' : 'border-slate-200'}`}>

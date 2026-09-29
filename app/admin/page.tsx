@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- Native anchors keep navigation consistent with the rest of the site. */
 import type { Metadata } from 'next';
 import { Download, Inbox, MailCheck, Route } from 'lucide-react';
 import { Footer } from '@/components/site/footer';

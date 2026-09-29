@@ -87,6 +87,35 @@ export function categoryIntro(trade: TradeSlug, region: Region, count: number) {
   return variants[((regionIntroVariant[region.slug] ?? 0) + categoryOffset) % variants.length];
 }
 
+const stormSensitiveTrades: ReadonlySet<TradeSlug> = new Set<TradeSlug>([
+  'hvac', 'roofing', 'gutters', 'tree-service', 'hurricane-shutters-impact-windows', 'generator-installation',
+  'water-damage-mold-remediation', 'screen-enclosures-pool-cages', 'insulation', 'marine-services', 'fence-builders',
+  'concrete', 'pool-installation', 'pool-service', 'electrical', 'septic-services', 'auto-body-collision',
+]);
+
+const permitTrades: ReadonlySet<TradeSlug> = new Set<TradeSlug>([
+  'hvac', 'plumbing', 'roofing', 'electrical', 'kitchen-bath-remodeling', 'fence-builders', 'concrete', 'septic-services',
+  'pool-installation', 'generator-installation', 'screen-enclosures-pool-cages', 'hurricane-shutters-impact-windows',
+  'water-damage-mold-remediation', 'flooring', 'gutters', 'tree-service',
+]);
+
+function localConditionsFaq(trade: TradeSlug, region: Region, city: string): DirectoryFaq | null {
+  const content = categoryContent[trade];
+  const storm = stormSensitiveTrades.has(trade);
+  const permit = permitTrades.has(trade);
+  if (!storm && !permit) return null;
+  const permitText = permit
+    ? `Some ${content.scope} projects need a permit. Ask the business who pulls it, and confirm requirements with the ${city} or county building department. `
+    : '';
+  const stormText = storm
+    ? `Gulf Coast weather can affect scheduling and materials. Atlantic hurricane season runs June 1 to November 30, so ask about wind-rated products, storm preparation, and how a storm could change your project dates.`
+    : '';
+  return {
+    question: `What local conditions should I consider for ${content.scope} in ${city}?`,
+    answer: `${permitText}${stormText}`.trim(),
+  };
+}
+
 export function categoryFaqs(trade: TradeSlug, region: Region): DirectoryFaq[] {
   const content = categoryContent[trade];
   const city = cityOnly(region);
@@ -112,6 +141,7 @@ export function categoryFaqs(trade: TradeSlug, region: Region): DirectoryFaq[] {
       question: `How long can ${content.scope} take?`,
       answer: `Timing depends on ${content.timelineFactors}. Ask the business for a project-specific schedule and confirm what could change the start or completion date.`,
     },
+    ...(localConditionsFaq(trade, region, city) ? [localConditionsFaq(trade, region, city) as DirectoryFaq] : []),
   ];
 }
 
