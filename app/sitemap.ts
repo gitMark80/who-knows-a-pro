@@ -9,6 +9,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = 'https://whoknowsapro.com';
   const pages: MetadataRoute.Sitemap = [
     { url: base, changeFrequency: 'weekly', priority: 1 },
+    { url: `${base}/privacy`, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${base}/terms`, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
   for (const region of activeRegions) {

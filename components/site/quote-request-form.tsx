@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
+import { lowerCategory } from '@/lib/utils';
 
 type QuoteRequestFormProps = {
   region: string;
@@ -55,8 +56,8 @@ export function QuoteRequestForm({ region, regionName, trade, tradeName }: Quote
   return <section className="overflow-hidden rounded-3xl border border-[#bed0df] bg-white shadow-[0_18px_55px_rgba(20,44,76,.10)]">
     <div className="bg-[#142c4c] px-6 py-5 text-white sm:px-8">
       <p className="text-xs font-black uppercase tracking-[.16em] text-[#f4a66b]">Tell us what you need</p>
-      <h2 className="mt-2 text-2xl font-black tracking-tight sm:text-3xl">Get free quotes from {tradeName.toLowerCase()} pros in {regionName}</h2>
-      <p className="mt-2 text-sm leading-6 text-white/70">Your contact details are shared only with a featured business on this page, if one is available. Otherwise the request stays in our private admin queue.</p>
+      <h2 className="mt-2 text-2xl font-black tracking-tight sm:text-3xl">Get free quotes from {lowerCategory(tradeName)} pros in {regionName}</h2>
+      <p className="mt-2 text-sm leading-6 text-white/70">Your contact details are shared only with the featured business on this page.</p>
     </div>
     <form onSubmit={submit} className="grid gap-4 p-6 sm:grid-cols-2 sm:p-8">
       <input type="hidden" name="region" value={region}/>
@@ -77,7 +78,7 @@ export function QuoteRequestForm({ region, regionName, trade, tradeName }: Quote
       </div>
       <div className="flex items-end"><Button type="submit" disabled={busy} className="h-11 w-full bg-[#ec7d2c] text-white hover:bg-[#d96c20]">{busy ? <Loader2 className="size-4 animate-spin"/> : <Send className="size-4"/>}{busy ? 'Sending…' : 'Get free quotes'}</Button></div>
       {error ? <p role="alert" className="sm:col-span-2 rounded-xl bg-red-50 p-3 text-sm font-semibold text-red-700">{error}</p> : null}
-      <p className="sm:col-span-2 text-xs leading-5 text-slate-500">By submitting, you agree that Who Knows a Pro and the page’s featured business, if any, may contact you about this request. No third-party lead networks receive it.</p>
+      <p className="sm:col-span-2 text-xs leading-5 text-slate-500">By submitting, you agree that Who Knows a Pro and the page’s featured business may contact you about this request. No third-party lead networks receive it. See our <a href="/privacy" className="underline">Privacy Policy</a>.</p>
     </form>
   </section>;
 }
