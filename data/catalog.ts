@@ -158,6 +158,26 @@ export const trades = [
 
 export type TradeSlug = (typeof trades)[number]['slug'];
 
+/**
+ * Categories retired from the public directory: low-ticket work unlikely to buy
+ * paid placement (or off-brand, like retail). Their data stays in place, but they
+ * are hidden from grids, search, and the sitemap, and their pages 301 to the city page.
+ */
+export const hiddenTradeSlugs: ReadonlySet<string> = new Set([
+  'trading-card-stores',
+  'house-cleaning',
+  'carpet-cleaning',
+  'mobile-auto-detailing',
+  'pressure-washing',
+  'handyman',
+  'lawn-care',
+  'window-tinting',
+  'movers',
+  'junk-removal',
+]);
+
+export const visibleTrades = trades.filter((trade) => !hiddenTradeSlugs.has(trade.slug));
+
 export const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const marineSeed = marineListings.map((item) => ({
   id: `marine-${item.id}`,

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { cache } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Footer } from '@/components/site/footer';
@@ -9,7 +9,7 @@ import { QuoteRequestForm } from '@/components/site/quote-request-form';
 import { SearchBox } from '@/components/site/search-box';
 import { Breadcrumbs } from '@/components/seo/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
-import { activeRegions, trades, type RegionSlug, type TradeSlug } from '@/data/catalog';
+import { activeRegions, hiddenTradeSlugs, trades, type RegionSlug, type TradeSlug } from '@/data/catalog';
 import { nearbyRegionSlugs } from '@/data/nearby-regions';
 import { categoryFaqs, categoryIntro, relatedTradeSlugs } from '@/data/seo-content';
 import { MIN_INDEXABLE_LISTINGS } from '@/data/directory-config';
@@ -67,6 +67,7 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
   const region = activeRegions.find((item) => item.slug === regionSlug);
   const trade = trades.find((item) => item.slug === tradeSlug);
   if (!region || !trade) notFound();
+  if (hiddenTradeSlugs.has(trade.slug)) permanentRedirect(`/${region.slug}`);
 
   const [{ businesses, unavailable }, listed, featured] = await Promise.all([
     loadBusinesses(region.slug, trade.slug),

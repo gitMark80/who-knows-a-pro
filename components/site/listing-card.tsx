@@ -13,8 +13,8 @@ export function ListingCard({ business, featured = false }: { business: Business
     {isFeatured ? <div className="absolute right-0 top-0 rounded-bl-xl bg-[#ec7d2c] px-3 py-1.5 text-[.67rem] font-extrabold uppercase tracking-wider text-white"><Star className="mr-1 inline size-3 fill-current"/>Featured</div> : null}
     {enhanced ? <div className="absolute right-0 top-0 rounded-bl-xl bg-[#142c4c] px-3 py-1.5 text-[.67rem] font-extrabold uppercase tracking-wider text-white">Enhanced</div> : null}
     {business.logo_url && business.tier !== 'free' ? <div className="flex size-12 items-center justify-center overflow-hidden rounded-xl bg-[#eaf0f6]"><Image src={business.logo_url} alt={`${business.name} logo`} width={48} height={48} unoptimized className="size-full object-cover"/></div> : null}
-    <div className={`${business.logo_url && business.tier !== 'free' ? 'mt-4' : ''} flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#27715c]`}><BadgeCheck className="size-3.5"/>{business.owner_email ? 'Claimed business' : 'Public listing'}</div>
-    <h2 className="mt-2 pr-8 text-xl font-extrabold tracking-tight text-[#142c4c]">{business.name}</h2>
+    {business.owner_email ? <div className={`${business.logo_url && business.tier !== 'free' ? 'mt-4' : ''} flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#27715c]`}><BadgeCheck className="size-3.5"/>Claimed business</div> : null}
+    <h2 className={`${business.owner_email ? 'mt-2' : ''} pr-8 text-xl font-extrabold tracking-tight text-[#142c4c]`}>{business.name}</h2>
 
     {business.summary ? <p className="mt-4 text-sm leading-6 text-slate-600">{business.summary}</p> : null}
 
@@ -32,6 +32,6 @@ export function ListingCard({ business, featured = false }: { business: Business
       {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="listing" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="inline-flex items-center gap-1 rounded-lg bg-[#ec7d2c] px-3 py-2 text-sm font-extrabold text-white hover:bg-[#d96c20]">Visit website <ExternalLink className="size-3.5"/></TrackedBusinessLink> : null}
       <a href={`/business/${business.main_slug || business.slug}`} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">View profile <ArrowRight className="size-4"/></a>
     </div>
-    {!business.owner_email ? <a href={`/claim?business=${encodeURIComponent(business.id)}`} className="mt-4 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-[#d96c20]">Is this your business? Claim it free</a> : null}
+    {!business.owner_email ? <a href={`/claim?business=${encodeURIComponent(business.id)}`} className="mt-4 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-[#d96c20]">Claim</a> : null}
   </article>;
 }

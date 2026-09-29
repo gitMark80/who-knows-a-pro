@@ -7,7 +7,7 @@ import { Header } from '@/components/site/header';
 import { SearchBox } from '@/components/site/search-box';
 import { Breadcrumbs } from '@/components/seo/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, hiddenTradeSlugs, visibleTrades as trades } from '@/data/catalog';
 import { listCategoryCounts } from '@/db/runtime';
 import { SITE_URL } from '@/lib/business-profile';
 
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const region = activeRegions.find((item) => item.slug === regionSlug);
   if (!region) return { title: 'Browse local businesses', description: 'Browse local businesses by region and category.' };
   const { counts, unavailable } = await loadCategoryCounts(region.slug);
-  const listedCategories = counts.filter((item) => item.count > 0).length;
+  const listedCategories = counts.filter((item) => item.count > 0 && !hiddenTradeSlugs.has(item.trade)).length;
   return {
     title: `Local businesses in ${region.name}`,
     description: unavailable
@@ -48,7 +48,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
   const { counts, unavailable } = await loadCategoryCounts(region.slug);
   const countMap = new Map(counts.map((item) => [item.trade, item.count]));
   const listedCategories = trades.filter((trade) => (countMap.get(trade.slug) ?? 0) > 0);
-  const totalBusinesses = counts.reduce((total, item) => total + item.count, 0);
+  const totalBusinesses = counts.filter((item) => !hiddenTradeSlugs.has(item.trade)).reduce((total, item) => total + item.count, 0);
   const city = region.name.replace(/,\s*[A-Z]{2}$/, '');
   const breadcrumbItems = [{ label: 'Home', href: '/' }, { label: region.name }];
   const breadcrumbJsonLd = {

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, trades, hiddenTradeSlugs } from '@/data/catalog';
 import { listBusinessSlugs, listDirectoryPairCounts } from '@/db/runtime';
 import { MIN_INDEXABLE_LISTINGS } from '@/data/directory-config';
 
@@ -21,7 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // misleadingly shrunken sitemap that search engines may cache.
   const listedPairs = await listDirectoryPairCounts();
   const activeRegionSlugs = new Set<string>(activeRegions.map((region) => region.slug));
-  const tradeSlugs = new Set<string>(trades.map((trade) => trade.slug));
+  const tradeSlugs = new Set<string>(trades.filter((trade) => !hiddenTradeSlugs.has(trade.slug)).map((trade) => trade.slug));
   for (const pair of listedPairs) {
     if (pair.count >= MIN_INDEXABLE_LISTINGS && activeRegionSlugs.has(pair.region) && tradeSlugs.has(pair.trade)) {
       pages.push({

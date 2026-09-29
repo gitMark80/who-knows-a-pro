@@ -2,7 +2,7 @@
 import { FormEvent, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ChevronDown, MapPin, Search, Wrench } from 'lucide-react';
-import { activeRegionGroups, activeRegions, trades } from '@/data/catalog';
+import { activeRegionGroups, activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { Button } from '@/components/ui/button';
 type SearchBoxProps = { compact?: boolean; initialRegion?: string; initialTrade?: string };
 

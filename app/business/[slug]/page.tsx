@@ -121,7 +121,6 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
                 {business.phone ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="phone" source="profile" href={`tel:${business.phone}`} className="flex items-center gap-2 rounded-xl bg-white/10 p-3 font-bold hover:bg-white/15"><Phone className="size-4"/>{business.phone}</TrackedBusinessLink> : null}
                 {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="profile" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="flex items-center gap-2 rounded-xl bg-[#ec7d2c] p-3 font-bold hover:bg-[#d96c20]"><Globe2 className="size-4"/>Visit official website <ExternalLink className="ml-auto size-3.5"/></TrackedBusinessLink> : null}
               </div>
-              {business.website ? <p className="mt-3 break-all text-xs text-white/65">{business.website}</p> : null}
               <div className="mt-5 flex items-start gap-2 border-t border-white/15 pt-5 text-xs leading-5 text-white/60"><ShieldCheck className="mt-0.5 size-4 shrink-0"/>Directory profiles are informational and are not endorsements.</div>
             </aside>
           </div>
