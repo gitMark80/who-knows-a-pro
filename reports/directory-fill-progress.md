@@ -133,3 +133,14 @@ Remaining nearby gaps (current live count):
 - Full live audit: **556/1,600 pairs meet five; 1,044 below; 85 empty; 3,879 missing placements.** A transient Dothan 502 passed on targeted retry. Updated CSV persisted. Nine additional pairs completed.
 - All 5,470 previous records unchanged; 5,506 total generated records. TypeScript and canonical domain/city/category duplicate checks passed.
 - Continue nearby gaps. Sexton officially offers Mobile irrigation repair at https://www.sextonlandscapes.com/service/irrigation-services/ ; Mobile currently has zero irrigation listings, and this verified candidate was not included in this 36-placement batch.
+
+## Emerald services continuation — 2026-09-29, run 1811
+
+- Refreshed main to `33ce051` after concurrent PR #4 merged; no open PRs at the pre-write check. Left concurrent working directories untouched.
+- Fresh live audit: 556/1,600 pairs meet five, 1,044 below, 85 empty, 3,879 missing placements. Pace trading cards remains 1; Milton 3; Navarre all 40 meet the count target. Rechecked official-site discovery without fabricating extra stores.
+- Prepared 78 verified placements across nine approved cities: Fort Walton Beach 21, Crestview 20, Destin 19, Panama City Beach 6, Panama City 4, Grayton Beach 3, Foley 2, Gulf Shores 2, Orange Beach 1.
+- Evidence, verification dates, service limitations and rejected candidates: `reports/verified-emerald-services-2026-09-29-1811.json`. Existing Foursquare artifact 11029098206 (run 36559444099) reused; inspected 95 relevant cached queries containing 556 candidate results. No new API calls or purchases.
+- All 5,506 prior generated records unchanged by full-value comparison; final total 5,584. Unique IDs and new canonical domain/city/category keys passed. Validation: `reports/validation-emerald-services-2026-09-29-1811.json`. Expected 18 more pairs reach five.
+- Duplicate identities withheld: Superior Septic/Crown Plumbing share a phone; the two Prime Plumbing sites share a license; AutoWorks Towing/Destin Auto Center share premises; Resorts/A to Z and Derl/Knox/Ben Marshalls are associated. Beach2Bay excluded for unrelated gambling content.
+- Current status: prepared, not published; TypeScript and production build passed. No database, paid/claimed records, billing, application code or city/category definitions changed.
+- Next: finish production checks, publish through existing GitHub/Vercel workflow, verify all additions on live pages, refresh coverage. Remaining east gaps include towing, auto body, hurricane protection, pools, and card stores. Continue closest approved cities outward; do not add Pensacola Beach.
