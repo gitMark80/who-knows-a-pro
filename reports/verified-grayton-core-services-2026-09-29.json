@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-29",
+  "baselineCommit": "eb6f0e57f8dcfa6fdb6be54bb3ac8c07629d8aa2",
+  "addedSourceRecords": 45,
+  "addedPlacements": 59,
+  "sourceDataPath": "data/verified-coverage-2026-09-28.json",
+  "evidencePolicy": "Every added source record stores its official website, the exact official verification URL, verification date, service/category evidence, and explicit location or service-area evidence. Missing contact fields remain omitted.",
+  "researchNotes": [
+    "Existing cached Foursquare artifacts were inspected first; none supplied a usable additional candidate for the targeted Grayton Beach gaps.",
+    "No paid API request was made.",
+    "Google Maps, Google Places, Yelp, and Angi were not used as sources.",
+    "Gulf Coast Roadside Assistance and Panama City Roadside share phone 850-328-3898 and were treated as one identity, not two listings.",
+    "Existing business identities and canonical websites were retained when extending verified service areas."
+  ],
+  "completedPages": [
+    "grayton-beach-fl/auto-mechanics",
+    "grayton-beach-fl/appliance-repair",
+    "grayton-beach-fl/carpet-cleaning",
+    "grayton-beach-fl/concrete",
+    "grayton-beach-fl/generator-installation",
+    "grayton-beach-fl/hurricane-shutters-impact-windows",
+    "grayton-beach-fl/insulation",
+    "grayton-beach-fl/kitchen-bath-remodeling",
+    "grayton-beach-fl/locksmith",
+    "grayton-beach-fl/marine-services",
+    "grayton-beach-fl/movers",
+    "grayton-beach-fl/pool-installation",
+    "grayton-beach-fl/screen-enclosures-pool-cages",
+    "grayton-beach-fl/septic-services",
+    "grayton-beach-fl/towing",
+    "grayton-beach-fl/water-damage-mold-remediation",
+    "grayton-beach-fl/window-tinting",
+    "panama-city-beach-fl/movers",
+    "panama-city-beach-fl/screen-enclosures-pool-cages",
+    "panama-city-fl/screen-enclosures-pool-cages"
+  ],
+  "remainingPriorityGaps": {
+    "pace-fl": {"trading-card-stores": 1},
+    "milton-fl": {"trading-card-stores": 3},
+    "navarre-fl": {},
+    "grayton-beach-fl": {
+      "trading-card-stores": 0,
+      "auto-body-collision": 1,
+      "pest-control": 2,
+      "fence-builders": 3,
+      "irrigation-sprinkler-repair": 4,
+      "mobile-auto-detailing": 4
+    }
+  }
+}
