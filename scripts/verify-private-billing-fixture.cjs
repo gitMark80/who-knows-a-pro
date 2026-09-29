@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- CommonJS test script; require() is required here. */
 // Runs the real runtime against a disposable local SQLite database; no service keys.
 const assert = require('node:assert/strict');
 const fs = require('node:fs');

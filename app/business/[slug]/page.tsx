@@ -128,7 +128,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
 
         {!business.owner_email ? <div className="mt-5 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white p-5">
           <div><p className="font-extrabold">Own this business?</p><p className="text-sm text-slate-500">Claim this profile to add verified details and keep its information current.</p></div>
-          <a href={`/claim?business=${encodeURIComponent(business.id)}`} className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
+          <a href={`/claim?business=${encodeURIComponent(business.slug)}`} className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
         </div> : null}
       </div>
     </main>

@@ -32,6 +32,6 @@ export function ListingCard({ business, featured = false }: { business: Business
       {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="listing" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="inline-flex items-center gap-1 rounded-lg bg-[#ec7d2c] px-3 py-2 text-sm font-extrabold text-white hover:bg-[#d96c20]">Visit website <ExternalLink className="size-3.5"/></TrackedBusinessLink> : null}
       <a href={`/business/${business.main_slug || business.slug}`} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">View profile <ArrowRight className="size-4"/></a>
     </div>
-    {!business.owner_email ? <a href={`/claim?business=${encodeURIComponent(business.id)}`} className="mt-4 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-[#d96c20]">Claim</a> : null}
+    {!business.owner_email ? <a href={`/claim?business=${encodeURIComponent(business.slug)}`} className="mt-4 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-[#d96c20]">Claim</a> : null}
   </article>;
 }
