@@ -1,0 +1,1091 @@
+{
+  "verifiedAt": "2026-09-29",
+  "before": 4213,
+  "after": 4331,
+  "added": 118,
+  "complete": 279,
+  "missing": 5041,
+  "newComplete": [
+    {
+      "region": "baton-rouge-la",
+      "trade": "roofing",
+      "count": 5
+    },
+    {
+      "region": "baton-rouge-la",
+      "trade": "pest-control",
+      "count": 5
+    },
+    {
+      "region": "baton-rouge-la",
+      "trade": "movers",
+      "count": 9
+    },
+    {
+      "region": "baton-rouge-la",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "clearwater-fl",
+      "trade": "roofing",
+      "count": 5
+    },
+    {
+      "region": "clearwater-fl",
+      "trade": "pest-control",
+      "count": 5
+    },
+    {
+      "region": "clearwater-fl",
+      "trade": "garage-door-repair",
+      "count": 5
+    },
+    {
+      "region": "clearwater-fl",
+      "trade": "movers",
+      "count": 5
+    },
+    {
+      "region": "clearwater-fl",
+      "trade": "carpet-cleaning",
+      "count": 5
+    },
+    {
+      "region": "fort-myers-fl",
+      "trade": "pest-control",
+      "count": 6
+    },
+    {
+      "region": "fort-myers-fl",
+      "trade": "garage-door-repair",
+      "count": 10
+    },
+    {
+      "region": "fort-myers-fl",
+      "trade": "movers",
+      "count": 6
+    },
+    {
+      "region": "fort-myers-fl",
+      "trade": "carpet-cleaning",
+      "count": 9
+    },
+    {
+      "region": "naples-fl",
+      "trade": "pest-control",
+      "count": 6
+    },
+    {
+      "region": "naples-fl",
+      "trade": "garage-door-repair",
+      "count": 10
+    },
+    {
+      "region": "naples-fl",
+      "trade": "movers",
+      "count": 6
+    },
+    {
+      "region": "naples-fl",
+      "trade": "carpet-cleaning",
+      "count": 9
+    }
+  ],
+  "additions": [
+    {
+      "name": "Fox Pest Control",
+      "website": "https://fox-pest.com/locations/louisiana/baton-rouge/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://fox-pest.com/locations/louisiana/baton-rouge/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "ClearDefense Pest Control",
+      "website": "https://cleardefensepest.com/service-areas/baton-rouge-pest-control/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://cleardefensepest.com/service-areas/baton-rouge-pest-control/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Bug Ninja Pest Control",
+      "website": "https://www.bugninjapestcontrol.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.bugninjapestcontrol.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Arrow Termite & Pest Control",
+      "website": "https://www.arrowtermiteandpestcontrol.com/locations/baton-rouge/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.arrowtermiteandpestcontrol.com/locations/baton-rouge/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Cribbs Inc.",
+      "website": "https://www.cribbsinc.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.cribbsinc.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Parish Construction & Roofing",
+      "website": "https://www.parishbuilt.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.parishbuilt.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Burks Construction",
+      "website": "https://www.burksbuilt.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.burksbuilt.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Ralph’s Roofing & Restoration",
+      "website": "https://ralphsroofing.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://ralphsroofing.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Oxi Fresh Carpet Cleaning",
+      "website": "https://www.oxifresh.com/locations/la/baton-rouge-carpet-cleaning/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.oxifresh.com/locations/la/baton-rouge-carpet-cleaning/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Sparky Carpet Cleaning",
+      "website": "https://www.sparkycarpetcleaning.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.sparkycarpetcleaning.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Durasteam Restoration",
+      "website": "https://durasteamrestoration.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://durasteamrestoration.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "ICI Building Services",
+      "website": "https://www.icijanitorial.com/janitorial-services",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.icijanitorial.com/janitorial-services",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in baton-rouge-la."
+    },
+    {
+      "name": "Dean Roofing Company",
+      "website": "https://deanroofs.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://deanroofs.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in clearwater-fl."
+    },
+    {
+      "name": "John Hogan Roofing",
+      "website": "https://johnhoganroofing.com/roofing-clearwater-fl/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://johnhoganroofing.com/roofing-clearwater-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in clearwater-fl."
+    },
+    {
+      "name": "Classic Roofing & Construction",
+      "website": "https://classicroofreplacement.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://classicroofreplacement.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in clearwater-fl."
+    },
+    {
+      "name": "West Coast Roofing & Contracting",
+      "website": "https://westcoastroof.net/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://westcoastroof.net/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies roofing services and coverage in clearwater-fl."
+    },
+    {
+      "name": "Nextgen Pest Solutions",
+      "website": "https://ngpest.com/service-areas/tampa-fl-pest-control/",
+      "regions": [
+        "clearwater-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://ngpest.com/service-areas/tampa-fl-pest-control/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in clearwater-fl, tampa-fl."
+    },
+    {
+      "name": "ProHealth Pest Control",
+      "website": "https://prohealthpestcontrol.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://prohealthpestcontrol.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in clearwater-fl."
+    },
+    {
+      "name": "JD Smith Termite & Pest Control",
+      "website": "https://www.jdsmithpest.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.jdsmithpest.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in clearwater-fl, st-petersburg-fl."
+    },
+    {
+      "name": "McDonald Pest Control",
+      "website": "https://www.mcdonaldpestcontrol.com/pest-control-clearwater/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.mcdonaldpestcontrol.com/pest-control-clearwater/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in clearwater-fl."
+    },
+    {
+      "name": "Dime Movers",
+      "website": "https://www.dimemovingcompany.com/service-areas",
+      "regions": [
+        "clearwater-fl",
+        "tampa-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.dimemovingcompany.com/service-areas",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service-area page identifies Clearwater base and all Pinellas and Hillsborough County coverage, including the listed cities."
+    },
+    {
+      "name": "Big Man’s Moving Company",
+      "website": "https://bigmansmoving.com/clearwater/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://bigmansmoving.com/clearwater/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in clearwater-fl."
+    },
+    {
+      "name": "Big Man’s Moving Company",
+      "website": "https://bigmansmoving.com/tampa/",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://bigmansmoving.com/tampa/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in tampa-fl."
+    },
+    {
+      "name": "3 Guys Moving",
+      "website": "https://3guysmoving.com/services/local-moving",
+      "regions": [
+        "clearwater-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://3guysmoving.com/services/local-moving",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in clearwater-fl, tampa-fl, st-petersburg-fl, sarasota-fl."
+    },
+    {
+      "name": "The Movers Moving & Storage",
+      "website": "https://www.themoversusa.com/clearwater",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.themoversusa.com/clearwater",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in clearwater-fl."
+    },
+    {
+      "name": "Quality Garage Door Services",
+      "website": "https://www.qualitygaragedoortampa.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.qualitygaragedoortampa.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in clearwater-fl, tampa-fl."
+    },
+    {
+      "name": "Precision Garage Door Service of Clearwater",
+      "website": "https://clearwatergaragedoorsfl.com/garage-door-repair",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://clearwatergaragedoorsfl.com/garage-door-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in clearwater-fl."
+    },
+    {
+      "name": "Overhead Door Company of Clearwater",
+      "website": "https://www.overheaddoorclearwater.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.overheaddoorclearwater.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official site confirms garage door repairs throughout Clearwater and Pinellas County, which includes St. Petersburg."
+    },
+    {
+      "name": "Stat Pest Control",
+      "website": "https://www.statpestcontrol.com/pest-control/naples-fl/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.statpestcontrol.com/pest-control/naples-fl/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Certified Pest Control",
+      "website": "https://certifiedpest.com/services/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://certifiedpest.com/services/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "SWFL Pest Pros",
+      "website": "https://www.swflpestpros.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.swflpestpros.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Your Days Without Pests",
+      "website": "https://yourdayswithoutpests.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://yourdayswithoutpests.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "The Bug Terminators",
+      "website": "https://thebugterminators.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://thebugterminators.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies pest control services and coverage in fort-myers-fl, naples-fl, sarasota-fl."
+    },
+    {
+      "name": "Act of Class Moving & Storage",
+      "website": "https://www.actofclassmoving.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.actofclassmoving.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Suncoast Moving & Storage",
+      "website": "https://www.suncoastmoving.com/tablet/index",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.suncoastmoving.com/tablet/index",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "American Dream Moving & Storage",
+      "website": "https://americandreammoving.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://americandreammoving.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Helping Hand Movers Naples",
+      "website": "https://www.helpinghandmoversnaples.com/about",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.helpinghandmoversnaples.com/about",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Williams Family Moving & Delivery",
+      "website": "https://www.williamsfamilymovingfl.com/naples",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.williamsfamilymovingfl.com/naples",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies movers services and coverage in fort-myers-fl, naples-fl, sarasota-fl."
+    },
+    {
+      "name": "Precision Garage Door Service of Southwest Florida",
+      "website": "https://precisiondoor-swfl.com/garage-door-openers/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://precisiondoor-swfl.com/garage-door-openers/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl, sarasota-fl."
+    },
+    {
+      "name": "D & D Garage Doors",
+      "website": "https://www.danddgaragedoors.com/residential/repair/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.danddgaragedoors.com/residential/repair/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl, jacksonville-fl, orlando-fl, sarasota-fl, tampa-fl."
+    },
+    {
+      "name": "Door Doctor",
+      "website": "https://doordoctorinc.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://doordoctorinc.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "On Track Doors",
+      "website": "https://www.ontrackdoorsswfl.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.ontrackdoorsswfl.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Gulf Coast Garage Door",
+      "website": "https://gulfcoastgaragerepairs.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://gulfcoastgaragerepairs.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Island Garage Door",
+      "website": "https://islandgaragedoors.net/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://islandgaragedoors.net/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "West Bay Garage Doors",
+      "website": "https://westbaygaragedoors.com/emergency-garage-door-repair/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://westbaygaragedoors.com/emergency-garage-door-repair/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Safe Family Garage Repair",
+      "website": "https://www.safefamilygaragerepair.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.safefamilygaragerepair.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Prime Garage Door",
+      "website": "https://primegaragedoorsfl.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://primegaragedoorsfl.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies garage door repair services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Naples Carpet and Tile Cleaning",
+      "website": "https://naplescarpetandtile.com/contact-us/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://naplescarpetandtile.com/contact-us/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "NIC Group",
+      "website": "https://nicgroup.net/carpet-cleaning/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://nicgroup.net/carpet-cleaning/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Fort Myers Carpet Cleaning",
+      "website": "https://www.fortmyerscarpetcleaning.com/residential-deep-cleaning/naples-fl",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.fortmyerscarpetcleaning.com/residential-deep-cleaning/naples-fl",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Southwest Chem-Dry",
+      "website": "https://southwestcd.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://southwestcd.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Zerorez Southwest Florida",
+      "website": "https://www.zerorez.com/swfl",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.zerorez.com/swfl",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "TST Cleaning & Restoration of SWFL",
+      "website": "https://www.tsttotalrestoration.com/residential-carpet-cleaning",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.tsttotalrestoration.com/residential-carpet-cleaning",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Steam Way Carpet and Tile Care",
+      "website": "https://steamwaycc.com/index.php",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://steamwaycc.com/index.php",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Captain Steamer",
+      "website": "https://captainsteamer.com/about/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://captainsteamer.com/about/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business website identifies carpet cleaning services and coverage in fort-myers-fl, naples-fl."
+    },
+    {
+      "name": "Duke’s Garage Doors",
+      "website": "https://www.dgdoors.com/clearwater-fl/garage-door-repair",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.dgdoors.com/clearwater-fl/garage-door-repair",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies garage door repair service in clearwater-fl, st-petersburg-fl."
+    },
+    {
+      "name": "Duke’s Garage Doors",
+      "website": "https://www.dgdoors.com/locations/tampa-fl/garage-door-repair-service",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.dgdoors.com/locations/tampa-fl/garage-door-repair-service",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies garage door repair service in tampa-fl."
+    },
+    {
+      "name": "Armstrong Moving & Storage",
+      "website": "https://www.goarmstrong.com/locations/baton-rouge/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.goarmstrong.com/locations/baton-rouge/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "David Moving Company",
+      "website": "https://www.davidmoving.com/services/local-moving",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.davidmoving.com/services/local-moving",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "Profit’s Transportation",
+      "website": "https://profitstransportation.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://profitstransportation.com/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "Maloney Moving & Storage",
+      "website": "https://www.maloneymoving.net/service-area/baton-rouge-movers",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.maloneymoving.net/service-area/baton-rouge-movers",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "Atmosphere Movers",
+      "website": "https://atmospheremovers.com/baton-rouge-movers/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://atmospheremovers.com/baton-rouge-movers/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "Keep It Moving",
+      "website": "https://www.keepitmovinglouisiana.com/baton-rouge/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.keepitmovinglouisiana.com/baton-rouge/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "All My Sons Moving & Storage",
+      "website": "https://www.allmysons.com/louisiana/baton-rouge/index.aspx",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://www.allmysons.com/louisiana/baton-rouge/index.aspx",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "Two Men and a Truck Baton Rouge",
+      "website": "https://twomenandatruck.com/movers/la/baton-rouge",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "movers"
+      ],
+      "sourceUrl": "https://twomenandatruck.com/movers/la/baton-rouge",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies movers service in baton-rouge-la."
+    },
+    {
+      "name": "Zerorez Carpet Cleaning",
+      "website": "https://www.zerorez.com/clearwater-florida",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.zerorez.com/clearwater-florida",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies carpet cleaning service in clearwater-fl."
+    },
+    {
+      "name": "Zerorez Carpet Cleaning",
+      "website": "https://www.zerorez.com/st-petersburg-florida",
+      "regions": [
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.zerorez.com/st-petersburg-florida",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies carpet cleaning service in st-petersburg-fl."
+    },
+    {
+      "name": "Zerorez Carpet Cleaning",
+      "website": "https://www.zerorez.com/sarasota-florida",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.zerorez.com/sarasota-florida",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies carpet cleaning service in sarasota-fl."
+    },
+    {
+      "name": "Zerorez Carpet Cleaning",
+      "website": "https://www.zerorez.com/pensacola-fl",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.zerorez.com/pensacola-fl",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies carpet cleaning service in pensacola-fl."
+    },
+    {
+      "name": "Stanley Steemer Tampa Bay",
+      "website": "https://www.stanleysteemer.com/locations/FL/Tampa/577",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.stanleysteemer.com/locations/FL/Tampa/577",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies carpet cleaning service in tampa-fl, clearwater-fl, st-petersburg-fl."
+    },
+    {
+      "name": "Oxi Fresh Carpet Cleaning",
+      "website": "https://www.oxifresh.com/locations/fl/st-petersburg-carpet-cleaning/",
+      "regions": [
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.oxifresh.com/locations/fl/st-petersburg-carpet-cleaning/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official business page identifies carpet cleaning service in st-petersburg-fl."
+    },
+    {
+      "name": "Steambrite Cleaning Services",
+      "website": "https://steambritecarpetcleaning.com/cleaning-services-clearwater/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://steambritecarpetcleaning.com/cleaning-services-clearwater/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service page confirms carpet cleaning in Clearwater, Florida."
+    },
+    {
+      "name": "Mr. Steam Clearwater",
+      "website": "https://www.mrsteamclearwater.com/carpet-cleaning/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "carpet-cleaning"
+      ],
+      "sourceUrl": "https://www.mrsteamclearwater.com/carpet-cleaning/",
+      "sourceVerifiedAt": "2026-09-29",
+      "evidenceNote": "Official service page confirms carpet cleaning in Clearwater, Florida."
+    }
+  ]
+}
