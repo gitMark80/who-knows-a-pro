@@ -1,6 +1,7 @@
 import { createClient, type Client, type InValue } from '@libsql/client';
 import { directorySeed } from '@/data/directory';
 import { additiveColumns, schemaStatements } from '@/db/setup';
+import { excludedWebsiteDomains } from '@/data/excluded-businesses';
 
 const STATIC_UPDATED_AT = Date.UTC(2026, 8, 25);
 
@@ -116,6 +117,14 @@ async function initializeDatabase() {
       if (!names.has(name)) await db.execute(`ALTER TABLE ${table} ADD COLUMN ${name} ${type}`);
     }
   }
+
+  // Hide unclaimed database rows for excluded franchises/chains. Claimed businesses are never touched.
+  const excludedClauses = excludedWebsiteDomains.map(() => "(LOWER(website) LIKE ? OR LOWER(website) LIKE ? OR LOWER(website) LIKE ?)").join(' OR ');
+  const excludedArgs = excludedWebsiteDomains.flatMap((domain) => [`%://${domain}%`, `%://www.${domain}%`, `%.${domain}%`]);
+  await db.execute({
+    sql: `UPDATE businesses SET approved = 0 WHERE approved = 1 AND is_test = 0 AND owner_email IS NULL AND (${excludedClauses})`,
+    args: excludedArgs,
+  });
 
   // One-time, explicitly authorized private billing fixture. The marker remains
   // after cleanup so builds and cold starts never recreate a deleted test profile.

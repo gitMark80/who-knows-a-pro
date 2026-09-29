@@ -1,4 +1,5 @@
 import { activeRegions, regions, slug, trades, type RegionSlug } from './catalog';
+import { isExcludedWebsite } from './excluded-businesses';
 import { expandedProviders } from './expanded-directory';
 import { newCategoryProviders } from './new-category-providers';
 import originalVerifiedProvidersData from './verified-active-providers.json';
@@ -545,7 +546,7 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
     return true;
   });
 
-export const directorySeed = [...clusterDirectorySeed, ...verifiedDirectorySeed];
+export const directorySeed = [...clusterDirectorySeed, ...verifiedDirectorySeed].filter((business) => !isExcludedWebsite(business.website));
 
 export const directoryStats = {
   cities: activeRegions.length,
