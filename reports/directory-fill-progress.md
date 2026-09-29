@@ -169,3 +169,21 @@ Remaining nearby gaps (confirmed live count):
 - All 5,584 existing seed records unchanged by complete-value comparison; 5,619 total. Unique IDs and canonical domain/city/category checks passed. No paid API calls, billing, claimed records or application code changes.
 - Expected six more pairs reach five, including pool installation and hurricane protection in Destin, Fort Walton Beach and Crestview. Grayton Beach gains first carpet cleaning and water-damage entries.
 - Publication and live verification pending. Refresh current main before subsequent writes.
+
+### Coastal pools and windows publication confirmed
+
+- PR #6 merged as `02dee5358573ff1c8e95ea00f10b85599783937a`; Vercel production status succeeded. All 35 additions verified live across 24 public category pages with profile and official website links. Evidence: `reports/live-coastal-pools-windows-2026-09-29.json`.
+- Preserved concurrent analytics commit d6349f3. TypeScript and full existing-record preservation checks passed. All 5,584 prior records unchanged; 5,619 total. No paid API calls.
+- Next: continue actual remaining gaps in Perdido Key, Grayton Beach and surrounding cities. Pace/Milton card-store shortfalls still require real official websites. Emerald Coast Pools and HydraKlean are deferred pending accessible source pages. Do not fill shortages with referral pages or decorative-shutter companies.
+
+- Complete post-publication audit: **580/1,600 pairs meet five; 1,020 below; 77 empty; 3,766 missing placements.** Six additional pairs completed. A temporary Montgomery HTTP 502 passed on retry. Fresh CSV saved; counts indicate coverage, not independent re-verification of historical entries.
+
+Remaining closest gaps after this batch:
+
+- pace-fl: trading-card-stores=1.
+- milton-fl: trading-card-stores=3.
+- perdido-key-fl: auto-body-collision=1, garage-door-repair=4, junk-removal=4, mobile-auto-detailing=4, septic-services=4, towing=2.
+- destin-fl: auto-body-collision=1, towing=3, trading-card-stores=1, window-tinting=4.
+- fort-walton-beach-fl: auto-body-collision=1, screen-enclosures-pool-cages=3, trading-card-stores=1.
+- crestview-fl: auto-body-collision=2, flooring=3, generator-installation=4, handyman=4, screen-enclosures-pool-cages=4, towing=3, trading-card-stores=1.
+- grayton-beach-fl: appliance-repair=4, auto-body-collision=1, auto-mechanics=0, carpet-cleaning=2, concrete=1, fence-builders=1, flooring=2, generator-installation=1, gutters=2, handyman=3, hurricane-shutters-impact-windows=2, insulation=2, irrigation-sprinkler-repair=4, junk-removal=0, kitchen-bath-remodeling=2, locksmith=2, marine-services=0, mobile-auto-detailing=4, movers=0, pest-control=2, pool-installation=2, pool-service=1, screen-enclosures-pool-cages=2, septic-services=1, towing=0, trading-card-stores=0, tree-service=2, water-damage-mold-remediation=2, window-tinting=0.
