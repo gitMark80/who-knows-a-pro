@@ -105,7 +105,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
               </section> : null}
 
               <section className="mt-8 grid gap-6 sm:grid-cols-2">
-                <div><h2 className="text-xl font-extrabold text-[#142c4c]">Areas served</h2><div className="mt-3 flex flex-wrap gap-2">{servedRegions.map((item) => <a key={item.slug} href={`/${item.slug}`} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
+                <div><h2 className="text-xl font-extrabold text-[#142c4c]">{business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{servedRegions.map((item) => <a key={item.slug} href={`/${item.slug}`} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
                 <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories</h2><div className="mt-3 flex flex-wrap gap-2">{servedTrades.map((item) => <a key={item.slug} href={`/${business.region}/${item.slug}`} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
               </section>
 
