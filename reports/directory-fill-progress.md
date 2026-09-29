@@ -74,3 +74,10 @@
 - Both batches confirmed live: 31 + 11 = 42 placements this continuation. Total generated seed records: 5,235. All 5,224 records predating the second batch are unchanged. TypeScript passed.
 - Latest full live audit: **511/1,600 meet five; 1,089 below; 99 empty; 4,150 missing placements.** Updated `reports/live-directory-coverage.csv`.
 - Data commit: `f265923eb7ee9b626fdd0d38be48f23d6484a488`. No open publication approval remains for these batches. Refresh current main and coverage before next write.
+
+## Coastal services continuation
+
+- Baseline `c2bb2bd`; added 19 placements across seven active cities. Evidence: `reports/verified-coastal-services-continuation-2026-09-29.json`.
+- All 5,235 prior generated records remain identical; 5,254 generated records after additions. New mobile detailing coverage in Daphne; Orange Beach, Gulf Shores, and Foley reach five mobile detailers.
+- TypeScript and duplicate checks passed. Direct publication was blocked by automatic approval review; batch is prepared for a pull request and is not confirmed live. No paid API calls. Skipped inactive Niceville and Miramar Beach; no registry changes.
+- Next: Perdido Key still needs one mobile detailer plus other remaining categories; Daphne/Fairhope detailing and nearby Baldwin County gaps. Pace/Milton card-store gaps remain deferred pending official sites.
