@@ -125,3 +125,11 @@ Remaining nearby gaps (current live count):
 - Added 36 official-site-backed placements across Daphne, Fairhope, Foley and Gulf Shores, with source URLs, dates and evidence notes.
 - All 5,470 prior records unchanged; new total 5,506. Nine pairs newly reach five: HVAC and plumbing in all four cities, plus Daphne garage doors.
 - Evidence and complete-value validation saved in the corresponding baldwin-trades reports. Publication/live verification follows. No paid API calls.
+
+### Baldwin trades publication confirmed
+
+- PR #4 merged as `9d5972ebd651a8bdad6f023015c2d76056fd3536`; Vercel production status succeeded.
+- All 36 additions verified live on 24 category pages, including both profile and official-website links. Report: `reports/live-baldwin-trades-2026-09-29.json`.
+- Full live audit: **556/1,600 pairs meet five; 1,044 below; 85 empty; 3,879 missing placements.** A transient Dothan 502 passed on targeted retry. Updated CSV persisted. Nine additional pairs completed.
+- All 5,470 previous records unchanged; 5,506 total generated records. TypeScript and canonical domain/city/category duplicate checks passed.
+- Continue nearby gaps. Sexton officially offers Mobile irrigation repair at https://www.sextonlandscapes.com/service/irrigation-services/ ; Mobile currently has zero irrigation listings, and this verified candidate was not included in this 36-placement batch.
