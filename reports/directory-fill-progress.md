@@ -142,5 +142,23 @@ Remaining nearby gaps (current live count):
 - Evidence, verification dates, service limitations and rejected candidates: `reports/verified-emerald-services-2026-09-29-1811.json`. Existing Foursquare artifact 11029098206 (run 36559444099) reused; inspected 95 relevant cached queries containing 556 candidate results. No new API calls or purchases.
 - All 5,506 prior generated records unchanged by full-value comparison; final total 5,584. Unique IDs and new canonical domain/city/category keys passed. Validation: `reports/validation-emerald-services-2026-09-29-1811.json`. Expected 18 more pairs reach five.
 - Duplicate identities withheld: Superior Septic/Crown Plumbing share a phone; the two Prime Plumbing sites share a license; AutoWorks Towing/Destin Auto Center share premises; Resorts/A to Z and Derl/Knox/Ben Marshalls are associated. Beach2Bay excluded for unrelated gambling content.
-- Current status: prepared, not published; TypeScript and production build passed. No database, paid/claimed records, billing, application code or city/category definitions changed.
+- Publication status: PR #5 merged; all 78 placements confirmed live. TypeScript and production build passed. No database, paid/claimed records, billing, application code or city/category definitions changed.
 - Next: finish production checks, publish through existing GitHub/Vercel workflow, verify all additions on live pages, refresh coverage. Remaining east gaps include towing, auto body, hurricane protection, pools, and card stores. Continue closest approved cities outward; do not add Pensacola Beach.
+
+### Emerald services publication confirmation
+
+- PR #5 merged as `d85b0e773bdf9feb2b71e93395f7398aeafe9436`; Vercel production deployment succeeded. All 78 new placements confirmed on 39 public category pages with both profile and official website links. Two temporary HTTP 502 pages passed on targeted retry. Evidence: `reports/live-emerald-services-2026-09-29-1811.json`.
+- Complete post-publication live audit: **574/1,600 pairs meet five; 1,026 below; 81 empty; 3,801 missing placements.** This batch completed 18 additional pairs and filled four previously empty pairs. Updated `reports/live-directory-coverage.csv`. City-card counts are coverage indicators, not a new independent verification of historical listings.
+- No paid API requests, purchases or paid/claimed record changes. Total generated records: 5,584; all 5,506 prior records unchanged.
+- Next run: refresh main, open PRs, cached candidates and coverage. Priority card-store gaps remain in Pace and Milton; Navarre meets the count target. Continue the genuine nearby gaps below, with explicit official service-area evidence. Do not add uncertain businesses merely to reach five.
+
+Remaining nearby gaps (confirmed live count):
+
+- pace-fl: trading-card-stores=1.
+- milton-fl: trading-card-stores=3.
+- navarre-fl: all 40 categories meet the count target.
+- perdido-key-fl: auto-body-collision=1, garage-door-repair=3, junk-removal=4, mobile-auto-detailing=4, septic-services=4, towing=2.
+- destin-fl: auto-body-collision=1, hurricane-shutters-impact-windows=2, pool-installation=4, towing=3, trading-card-stores=1, window-tinting=4.
+- fort-walton-beach-fl: auto-body-collision=1, hurricane-shutters-impact-windows=2, pool-installation=4, screen-enclosures-pool-cages=3, trading-card-stores=1.
+- crestview-fl: auto-body-collision=2, flooring=3, generator-installation=4, handyman=4, hurricane-shutters-impact-windows=1, pool-installation=3, screen-enclosures-pool-cages=4, towing=3, trading-card-stores=1.
+- grayton-beach-fl: appliance-repair=4, auto-body-collision=1, auto-mechanics=0, carpet-cleaning=0, concrete=1, fence-builders=1, flooring=2, generator-installation=1, gutters=2, handyman=3, hurricane-shutters-impact-windows=0, insulation=2, irrigation-sprinkler-repair=4, junk-removal=0, kitchen-bath-remodeling=2, locksmith=2, marine-services=0, mobile-auto-detailing=4, movers=0, pest-control=2, pool-installation=1, pool-service=1, screen-enclosures-pool-cages=1, septic-services=1, towing=0, trading-card-stores=0, tree-service=2, water-damage-mold-remediation=0, window-tinting=0.

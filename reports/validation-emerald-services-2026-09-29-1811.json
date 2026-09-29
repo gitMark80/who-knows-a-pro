@@ -116,7 +116,10 @@
       "after": 5
     }
   ],
-  "status": "prepared_not_published",
+  "status": "published_and_all_78_confirmed_live",
   "typeScript": "passed",
-  "productionBuild": "passed"
+  "productionBuild": "passed",
+  "mergeCommit": "d85b0e773bdf9feb2b71e93395f7398aeafe9436",
+  "productionDeployment": "success",
+  "verifiedLivePlacements": 78
 }
