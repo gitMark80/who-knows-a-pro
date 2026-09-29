@@ -187,3 +187,9 @@ Remaining closest gaps after this batch:
 - fort-walton-beach-fl: auto-body-collision=1, screen-enclosures-pool-cages=3, trading-card-stores=1.
 - crestview-fl: auto-body-collision=2, flooring=3, generator-installation=4, handyman=4, screen-enclosures-pool-cages=4, towing=3, trading-card-stores=1.
 - grayton-beach-fl: appliance-repair=4, auto-body-collision=1, auto-mechanics=0, carpet-cleaning=2, concrete=1, fence-builders=1, flooring=2, generator-installation=1, gutters=2, handyman=3, hurricane-shutters-impact-windows=2, insulation=2, irrigation-sprinkler-repair=4, junk-removal=0, kitchen-bath-remodeling=2, locksmith=2, marine-services=0, mobile-auto-detailing=4, movers=0, pest-control=2, pool-installation=2, pool-service=1, screen-enclosures-pool-cages=2, septic-services=1, towing=0, trading-card-stores=0, tree-service=2, water-damage-mold-remediation=2, window-tinting=0.
+
+## Grayton Beach and Crestview continuation — 2026-09-29, run 1847
+
+- Baseline 770b137 includes concurrent private business-results dashboards and referral tracking. Prepared 44 verified placements across five approved cities; official sources, service limits and exclusions saved in `reports/verified-grayton-crestview-2026-09-29.json`.
+- All 5,619 existing generated records unchanged by full-value comparison; 5,663 total. IDs and new canonical domain/city/category keys unique. No paid API calls; no database, billing, claims, tracking or application code changes.
+- Expected 9 additional completed city/category pairs. Publication/live verification pending. Refresh main before future writes.
