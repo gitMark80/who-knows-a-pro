@@ -150,3 +150,14 @@ export const adminSessions = sqliteTable("admin_sessions", {
   email: text("email").notNull(),
   expiresAt: integer("expires_at").notNull(),
 }, (t) => [index("idx_admin_sessions_email").on(t.email)]);
+
+export const businessClicks = sqliteTable("business_clicks", {
+  id: text("id").primaryKey(),
+  businessSlug: text("business_slug").notNull(),
+  action: text("action").notNull(),
+  source: text("source").notNull(),
+  createdAt: integer("created_at").notNull(),
+}, (t) => [
+  index("idx_business_clicks_slug_date").on(t.businessSlug, t.createdAt),
+  index("idx_business_clicks_date").on(t.createdAt),
+]);

@@ -121,6 +121,15 @@ export const schemaStatements = [
   `CREATE INDEX IF NOT EXISTS idx_subscriptions_business ON subscriptions (business_slug)`,
   `CREATE INDEX IF NOT EXISTS idx_subscriptions_customer ON subscriptions (stripe_customer_id)`,
   `CREATE INDEX IF NOT EXISTS idx_subscriptions_status ON subscriptions (status)`,
+  `CREATE TABLE IF NOT EXISTS business_clicks (
+    id TEXT PRIMARY KEY NOT NULL,
+    business_slug TEXT NOT NULL,
+    action TEXT NOT NULL CHECK(action IN ('website','phone')),
+    source TEXT NOT NULL CHECK(source IN ('listing','profile')),
+    created_at INTEGER NOT NULL
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_business_clicks_slug_date ON business_clicks (business_slug, created_at)`,
+  `CREATE INDEX IF NOT EXISTS idx_business_clicks_date ON business_clicks (created_at)`,
   `CREATE TABLE IF NOT EXISTS profile_views (
     id TEXT PRIMARY KEY NOT NULL,
     business_slug TEXT NOT NULL,

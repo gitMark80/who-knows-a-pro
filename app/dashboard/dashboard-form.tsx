@@ -136,7 +136,7 @@ export function DashboardForm({ business, pageOptions, stats, requestedPlan, req
       <div className="mt-6 grid gap-4 sm:grid-cols-3">
         <Stat label="Profile views, all time" value={stats.totalViews}/>
         <Stat label="Profile views, last 30 days" value={stats.viewsLast30Days}/>
-        <Stat label="Quote requests on your pages, last 30 days" value={stats.pageLeadsLast30Days}/>
+        <Stat label="Assigned quote requests, last 30 days" value={stats.routedLeadsLast30Days}/>
       </div>
       {business.tier === 'free' ? <div className="mt-5 flex items-start gap-3 rounded-2xl border border-[#bed0df] bg-[#eef3f8] p-4"><TrendingUp className="mt-0.5 size-5 shrink-0 text-[#27715c]"/><p className="text-sm leading-6 text-slate-700">Enhanced adds richer placement. Featured adds one exclusive page position and routes that page’s future quote requests to your verified business email. These numbers are measured from actual site activity.</p></div> : <p className="mt-4 text-sm text-slate-500">Leads routed directly to this business in the last 30 days: <strong>{stats.routedLeadsLast30Days}</strong></p>}
     </section>

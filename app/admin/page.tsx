@@ -38,6 +38,7 @@ export default async function AdminPage({ searchParams }: { searchParams: Promis
 
   return <><Header/><main className="min-h-screen bg-[#f5f7fa]"><div className="mx-auto max-w-7xl px-5 py-10 sm:px-8">
     <p className="eyebrow">Private admin</p><h1 className="mt-2 text-4xl font-black tracking-tight text-[#142c4c]">Leads and claim reviews</h1><p className="mt-2 text-sm text-slate-500">Signed in as {adminEmail}</p>
+    <a href="/admin/results" className="mt-5 inline-block rounded-xl bg-[#142c4c] px-5 py-3 font-bold text-white">View business results</a>
     <div className="mt-8 grid gap-4 sm:grid-cols-3"><Summary icon={Inbox} label="Leads in this view" value={leads.length}/><Summary icon={Route} label="Routed" value={routed}/><Summary icon={MailCheck} label="Unsold" value={leads.length - routed}/></div>
 
     <section className="mt-8 rounded-3xl border border-slate-200 bg-white p-6">

@@ -1,3 +1,5 @@
+import { businessResults, emptyResults } from '@/db/business-results';
+import { BusinessResultsPanel } from '@/components/site/business-results';
 import type { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 import { ArrowLeft, BadgeCheck } from 'lucide-react';
@@ -29,13 +31,15 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
       label: `${trade?.name || placement.trade} in ${region?.name || placement.location}`,
     }];
   })).values()];
-  const stats = await getBusinessPerformance(profile.main_slug || profile.slug, placements);
+  const [stats, results] = await Promise.all([getBusinessPerformance(profile.main_slug || profile.slug, placements), businessResults(profile.main_slug || profile.slug)]);
+  const result = results.get(profile.main_slug || profile.slug) || emptyResults();
   const requestedPlan = query.plan === 'featured' || query.plan === 'enhanced' ? query.plan : undefined;
   const requestedPage = pageOptions.find((option) => option.region === query.region && option.trade === query.trade);
 
   return <><Header/><main className="bg-[#f5f7fa]"><div className="mx-auto max-w-5xl px-5 py-10 sm:px-8">
     {!business.is_test ? <a href={`/business/${profile.main_slug || profile.slug}`} className="flex items-center gap-1 text-sm font-bold text-slate-600"><ArrowLeft className="size-4"/>View public profile</a> : <p className="rounded-xl border border-amber-300 bg-amber-50 p-4 font-semibold">Private billing test — excluded from public listings, search, counts, and the sitemap. No public profile is available. Live Checkout charges real money. After refunding and canceling, ask the site administrator to remove this test profile.</p>}
     <div className="my-7 flex items-start gap-3"><span className="grid size-12 place-items-center rounded-2xl bg-[#142c4c] text-white"><BadgeCheck/></span><div><p className="eyebrow">Business dashboard</p><h1 className="mt-1 text-3xl font-black tracking-tight">{profile.name}</h1></div></div>
+    <BusinessResultsPanel results={result}/>
     <DashboardForm
       business={profile}
       pageOptions={pageOptions}

@@ -1,3 +1,4 @@
+import { TrackedBusinessLink } from '@/components/site/tracked-business-link';
 import { ArrowRight, BadgeCheck, CalendarDays, Clock3, ExternalLink, Hash, MapPin, MapPinned, Phone, Star, Wrench } from 'lucide-react';
 import Image from 'next/image';
 import type { Business } from '@/db/runtime';
@@ -18,7 +19,7 @@ export function ListingCard({ business, featured = false }: { business: Business
     {business.summary ? <p className="mt-4 text-sm leading-6 text-slate-600">{business.summary}</p> : null}
 
     {(business.phone || business.address || business.service_area || business.hours || specialties.length > 0 || business.year_founded || business.license_number) ? <dl className="mt-5 space-y-3 border-t border-slate-100 pt-4 text-sm text-slate-600">
-      {business.phone ? <div className="flex items-start gap-2"><Phone aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-[#d96c20]"/><dt className="sr-only">Phone</dt><dd><a href={`tel:${business.phone}`} className="font-bold text-[#142c4c] hover:text-[#d96c20] hover:underline">{business.phone}</a></dd></div> : null}
+      {business.phone ? <div className="flex items-start gap-2"><Phone aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-[#d96c20]"/><dt className="sr-only">Phone</dt><dd><TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="phone" source="listing" href={`tel:${business.phone}`} className="font-bold text-[#142c4c] hover:text-[#d96c20] hover:underline">{business.phone}</TrackedBusinessLink></dd></div> : null}
       {business.address ? <div className="flex items-start gap-2"><MapPin aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-[#d96c20]"/><dt className="sr-only">Address</dt><dd>{business.address}</dd></div> : null}
       {business.service_area ? <div className="flex items-start gap-2"><MapPinned aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-[#d96c20]"/><dt className="sr-only">Service area</dt><dd><span className="font-semibold text-slate-700">Service area:</span> {business.service_area}</dd></div> : null}
       {business.hours ? <div className="flex items-start gap-2"><Clock3 aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-[#d96c20]"/><dt className="sr-only">Hours</dt><dd className="whitespace-pre-line">{business.hours}</dd></div> : null}
@@ -28,7 +29,7 @@ export function ListingCard({ business, featured = false }: { business: Business
     </dl> : null}
 
     <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-3 pt-6">
-      {business.website ? <a href={business.website} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${business.name} official website`} className="inline-flex items-center gap-1 rounded-lg bg-[#ec7d2c] px-3 py-2 text-sm font-extrabold text-white hover:bg-[#d96c20]">Visit website <ExternalLink className="size-3.5"/></a> : null}
+      {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="listing" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="inline-flex items-center gap-1 rounded-lg bg-[#ec7d2c] px-3 py-2 text-sm font-extrabold text-white hover:bg-[#d96c20]">Visit website <ExternalLink className="size-3.5"/></TrackedBusinessLink> : null}
       <a href={`/business/${business.main_slug || business.slug}`} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">View profile <ArrowRight className="size-4"/></a>
     </div>
     {!business.owner_email ? <a href={`/claim?business=${encodeURIComponent(business.id)}`} className="mt-4 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-[#d96c20]">Is this your business? Claim it free</a> : null}
