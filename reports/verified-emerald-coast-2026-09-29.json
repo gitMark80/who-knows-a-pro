@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "baselineCommit": "c2bb2bd150fb1bfc03a74b83e1cf6081a25bf4eb",
-  "status": "prepared_not_live",
+  "status": "merged_and_confirmed_live",
   "newPlacements": 144,
   "businessIdentities": 22,
   "sources": [
@@ -1005,6 +1005,40 @@
       "BT Kitchen and Bath confirms design/retail but complete installation/remodeling scope not established; deferred.",
       "CEMEX plant is a material supplier, not verified driveway installation.",
       "Pace and Milton trading-card shortfalls persist; nearby or online-only shops not assigned without official local evidence."
+    ],
+    "matchingArtifactRecords": [
+      {
+        "artifactFile": "research/foursquare-candidates/2079a5c04ed50264b9ff.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=painting+contractor&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "Ovation Painting, Inc.",
+        "officialWebsite": "https://ovationpainting.com/"
+      },
+      {
+        "artifactFile": "research/foursquare-candidates/afd43b805c496886e05d.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=swimming+pool+contractor&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "ASP - America's Swimming Pool Company of Destin",
+        "officialWebsite": "https://www.asppoolco.com/destin/"
+      },
+      {
+        "artifactFile": "research/foursquare-candidates/4645ed8c636e2a96ee7c.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=moving+company&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "ASP - America's Swimming Pool Company of Destin",
+        "officialWebsite": "https://www.asppoolco.com/destin/"
+      },
+      {
+        "artifactFile": "research/foursquare-candidates/72ee51828899b9a249c0.json",
+        "querySourceUrl": "https://places-api.foursquare.com/places/search?near=Destin%2C+FL%2C+USA&query=screen+enclosure+contractor&limit=50&fields=fsq_place_id%2Cname%2Cwebsite%2Ccategories%2Clocation%2Cdate_closed%2Cunresolved_flags%2Cplacemaker_url",
+        "candidateName": "Screenmobile of Destin",
+        "officialWebsite": "https://www.screenmobile.com/locations/destin/"
+      }
+    ],
+    "additionalVerifiedButNotAdded": [
+      {
+        "name": "Coastal Carpet & Tile Carpet One Floor & Home",
+        "website": "https://www.coastalcarpetntiledestin.com/",
+        "verifiedAt": "2026-09-29",
+        "reason": "Official Destin flooring installation confirmed, but selected additions already filled the category to five."
+      }
     ]
   },
   "pendingWorkAvoided": "Uncommitted fill-hourly Perdido/Baldwin batch was left untouched; source identities and targeted pairs compared to avoid overlap.",
@@ -1016,5 +1050,31 @@
     "paidApiCalls": 0,
     "typeScript": "passed",
     "productionBuild": "passed"
+  },
+  "publication": {
+    "pullRequest": 3,
+    "dataCommit": "2c26604d2d0dbda10ebac189e736e704c29e3a39",
+    "mergeCommit": "50a0ca34023771470e092ea154da22a34e9df7ac",
+    "productionDeploymentStatus": "success",
+    "productionDeploymentUrl": "https://vercel.com/restless-faith-media/who-knows-a-pro/5n1Ra7Ba1Uc6M9zbNjpFFiBbX2Zv",
+    "verifiedPlacements": 144,
+    "categoryPagesChecked": 65,
+    "liveEvidence": "reports/live-emerald-coast-2026-09-29.json"
+  },
+  "concurrentWork": {
+    "pullRequest": 2,
+    "head": "578022821792cd32bb90605c9f2b85d0e6dc9c67",
+    "status": "open_at_final_review",
+    "note": "Separate 19-placement garage-door/detailing batch; no overlap with the 144 additions. Not merged or modified by this run. Refresh and reconcile shared JSON/checkpoint append conflicts before its publication."
+  },
+  "liveCoverage": {
+    "pairs": 1600,
+    "meetsMinimum": 531,
+    "belowMinimum": 1069,
+    "empty": 88,
+    "missingPlacements": 4006,
+    "newlyCompletedPairs": 20,
+    "auditDate": "2026-09-29",
+    "note": "City-card count audit; historical records not independently reverified."
   }
 }
