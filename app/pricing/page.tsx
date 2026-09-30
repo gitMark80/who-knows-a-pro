@@ -76,7 +76,7 @@ export default async function PricingPage({ searchParams }: { searchParams: Prom
     <section className="mx-auto max-w-3xl px-5 pb-16 pt-8 sm:px-8">
       <h2 className="text-2xl font-black text-[#142c4c]">Questions</h2>
       <div className="mt-5 space-y-3">
-        {faqs.map(([q, a]) => <details key={q} className="rounded-2xl border border-slate-200 bg-white p-5"><summary className="cursor-pointer font-extrabold text-[#142c4c]">{q}</summary><p className="mt-3 text-sm leading-7 text-slate-600">{a}</p></details>)}
+        {faqs.map(([q, a]) => <details key={q} className="rounded-2xl border border-slate-200 bg-white p-5"><summary className="cursor-pointer font-extrabold text-[#142c4c]">{q}</summary><div className="mt-3 space-y-3 text-sm leading-7 text-slate-600">{a.split('\n\n').map((para) => <p key={para}>{para.split(/(\*\*[^*]+\*\*)/).map((part, i) => part.startsWith('**') ? <strong key={i} className="font-extrabold text-[#142c4c]">{part.slice(2, -2)}</strong> : part)}</p>)}</div></details>)}
       </div>
     </section>
   </main><Footer/></>;
@@ -92,7 +92,7 @@ const comparison = [
 ];
 
 const faqs = [
-  ['Why should I pay when a listing is already free?', 'A free listing gets your business into the directory. A paid plan makes it stand out: Enhanced adds your logo, a fuller profile, and profile-view and website-click counts, and Featured puts you at the top of a city and category page and sends you that page’s quote requests. You can start with the free listing and upgrade only if you want the extra visibility. We cannot guarantee results.'],
+  ['Why should I pay when a listing is already free?', 'A free listing gets you found. A paid plan gets you chosen.\n\n**Enhanced** makes you look established, with your logo, a fuller profile, and live view and click counts so you can see who’s looking.\n\n**Featured** puts you at the top of your city and category page and sends you its quote requests, so you’re first in line when customers are ready to hire.\n\nStart free and upgrade whenever you’re ready. Results aren’t guaranteed, but visibility is the point.'],
   ['How does billing work?', 'Plans are billed monthly through Stripe Checkout and renew until you cancel.'],
   ['Can I cancel anytime?', 'Yes. Cancel from your business dashboard. Your plan stays active through the end of the period you already paid for.'],
   ['How do quote requests reach me?', 'Consumers submit a quote request on a city and category page. While you hold the Featured spot on that page, the request is sent to you. Pages without a Featured business do not show the quote form.'],
