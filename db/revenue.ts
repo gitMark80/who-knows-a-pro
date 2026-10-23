@@ -151,7 +151,7 @@ export async function deactivateFeaturedSlot(subscriptionId: string) {
 }
 
 /** Stripe statuses where the customer can still pay and keep the subscription. */
-export const recoverableStatuses = ['past_due', 'unpaid', 'paused', 'incomplete'];
+export const recoverableStatuses = ['past_due', 'incomplete'];
 /** Statuses that block starting a second checkout for the same business. */
 export const blockingStatuses = ['active', 'trialing', ...recoverableStatuses];
 
@@ -159,9 +159,9 @@ export const blockingStatuses = ['active', 'trialing', ...recoverableStatuses];
  * Keeps the exclusive Featured slot in step with the Stripe subscription:
  * - active/trialing: activate (including after a past-due period is paid, or if an earlier
  *   version of this code released the slot), never displacing a different business;
- * - past_due/unpaid/paused/incomplete: hold the slot without showing it or routing leads,
- *   so nobody else can buy a page the customer is still paying to recover;
- * - canceled/incomplete_expired: release it.
+ * - past_due/incomplete (Stripe is still retrying, which ends by itself): hold the slot without
+ *   showing it or routing leads, so nobody else can buy a page the customer is recovering;
+ * - unpaid/paused/canceled/incomplete_expired (no automatic end date): release it.
  */
 export async function syncFeaturedSlot(input: {
   subscriptionId: string;
@@ -232,7 +232,7 @@ export async function getBlockingSubscriptionForBusiness(businessSlug: string) {
 export async function getLatestSubscriptionForBusiness(businessSlug: string) {
   return sqlOne<SubscriptionRecord>(
     `SELECT * FROM subscriptions WHERE business_slug = ?
-     ORDER BY CASE WHEN status IN ('active','trialing') THEN 0 WHEN status IN ('past_due','unpaid','paused','incomplete') THEN 1 ELSE 2 END,
+     ORDER BY CASE WHEN status IN ('active','trialing') THEN 0 WHEN status IN ('past_due','incomplete') THEN 1 ELSE 2 END,
               updated_at DESC LIMIT 1`,
     [businessSlug],
   );

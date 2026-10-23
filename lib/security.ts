@@ -34,6 +34,9 @@ export function isAutomatedUserAgent(userAgent: string | null | undefined) {
  */
 export function sameOrigin(request: Request) {
   const origin = request.headers.get('origin');
+  // Some privacy settings send "Origin: null" on same-site form posts; the browser's own
+  // Sec-Fetch-Site header (not settable by scripts) still proves the request came from this site.
+  if (origin === 'null') return request.headers.get('sec-fetch-site') === 'same-origin';
   if (!origin) return false;
   const host = (request.headers.get('x-forwarded-host') || request.headers.get('host') || new URL(request.url).host).split(',')[0].trim().toLowerCase();
   try {
@@ -90,13 +93,14 @@ export async function anyOverLimit(limits: Limit[]) {
  * to fill in a claim or quote form; scripted submissions arrive almost instantly.
  * Missing values are allowed so cached pages from before this change keep working.
  */
-export function submittedTooFast(value: unknown, minimumMs = 2_500) {
+export function submittedTooFast(value: unknown, minimumMs = 1_000) {
   const elapsed = Number(value);
   return Number.isFinite(elapsed) && elapsed >= 0 && elapsed < minimumMs;
 }
 
+/** Enforced only when BOTH keys are set, so a half-configured deploy can never block every form. */
 export function turnstileEnabled() {
-  return Boolean(config('TURNSTILE_SECRET_KEY'));
+  return Boolean(config('TURNSTILE_SECRET_KEY') && config('NEXT_PUBLIC_TURNSTILE_SITE_KEY'));
 }
 
 /**
@@ -104,8 +108,8 @@ export function turnstileEnabled() {
  * Fails closed: a missing, reused, expired, or wrong-action token is rejected.
  */
 export async function verifyTurnstile(token: unknown, ip: string, action: string) {
+  if (!turnstileEnabled()) return true;
   const secret = config('TURNSTILE_SECRET_KEY');
-  if (!secret) return true;
   if (typeof token !== 'string' || !token || token.length > 2_048) return false;
   try {
     const body = new URLSearchParams({ secret, response: token });

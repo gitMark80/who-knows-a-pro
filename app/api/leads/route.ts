@@ -15,9 +15,13 @@ export async function POST(request: Request) {
     let input: Record<string, string>;
     try { input = await request.json() as Record<string, string>; } catch { return NextResponse.json({ error: 'Invalid request.' }, { status: 400 }); }
     const country = requestCountry(request);
-    if (input.companyWebsite || submittedTooFast(input.formMs)) {
-      await recordEvent('form_blocked', { detail: input.companyWebsite ? 'quote-honeypot' : 'quote-too-fast', country, automation: true, attribution: null });
+    if (input.companyWebsite) {
+      await recordEvent('form_blocked', { detail: 'quote-honeypot', country, automation: true, attribution: null });
       return NextResponse.json({ message: confirmation(false) });
+    }
+    if (submittedTooFast(input.formMs)) {
+      await recordEvent('form_blocked', { detail: 'quote-too-fast', country, attribution: null });
+      return NextResponse.json({ error: 'That was quick! Please check your details and press the button again.' }, { status: 400 });
     }
 
     const name = (input.name || '').trim().slice(0, 120);

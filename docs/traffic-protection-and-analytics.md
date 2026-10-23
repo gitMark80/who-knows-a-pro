@@ -6,10 +6,10 @@
 | --- | --- | --- |
 | Same-origin check (blocks cross-site posts and most scripts) | Yes | Yes |
 | Honeypot field (silent fake success) | `companyFax` | `companyWebsite` |
-| Minimum fill time (silent fake success under 2.5 s) | Yes | Yes |
+| Minimum fill time (under 1 s gets a “please press again” message) | Yes | Yes |
 | Per-connection limits | 5/hour, 15/day | `LEAD_RATE_LIMIT_PER_HOUR` (default 5) |
 | Per-recipient / per-listing limits | 4 emails/day per address, 8/day per listing | 6/day per email |
-| Cloudflare Turnstile (server-verified, fails closed) | When `TURNSTILE_SECRET_KEY` is set | Same |
+| Cloudflare Turnstile (server-verified, fails closed) | When both Turnstile keys are set | Same |
 | Admin notification cap | 25 review emails/day (queue still records all) | — |
 
 Other endpoints: verification links are scanner-safe (GET shows a confirm page, POST consumes the
@@ -31,9 +31,9 @@ Rate-limit rows store salted hashes only (`rate_limits` table), never raw IPs or
 ## Featured slot lifecycle (Stripe webhook)
 
 - `active`/`trialing`: slot active (also restored after a payment problem is fixed).
-- `past_due`/`unpaid`/`paused`/`incomplete`: slot held but hidden, no leads routed, not sellable to others.
-- `canceled`/`incomplete_expired`: slot released.
-- A business with any of those live or recoverable statuses cannot start a second checkout; it is sent to Manage billing.
+- `past_due`/`incomplete` (Stripe still retrying): slot held but hidden, no leads routed, not sellable to others.
+- `unpaid`/`paused`/`canceled`/`incomplete_expired`: slot released.
+- A business with an active, trialing, past-due, or incomplete subscription cannot start a second checkout; it is sent to Manage billing.
 
 ## Conversion dashboard
 

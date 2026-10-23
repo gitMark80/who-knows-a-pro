@@ -13,7 +13,7 @@ type PageOption = { region: string; trade: string; label: string };
 type Performance = { totalViews: number; viewsLast30Days: number; pageLeadsLast30Days: number; routedLeadsLast30Days: number };
 type SubscriptionSummary = { plan: 'enhanced' | 'featured'; status: string; cancelAtPeriodEnd: boolean; currentPeriodEnd: number | null; featuredLabel: string | null };
 const liveStatuses = ['active', 'trialing'];
-const paymentIssueStatuses = ['past_due', 'unpaid', 'paused', 'incomplete'];
+const paymentIssueStatuses = ['past_due', 'incomplete'];
 
 export function DashboardForm({ business, pageOptions, stats, requestedPlan, requestedPage, checkoutState, subscription = null }: {
   business: Business;

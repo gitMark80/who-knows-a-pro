@@ -40,9 +40,13 @@ export async function POST(request: Request) {
     const country = requestCountry(request);
 
     // Honeypot and instant submissions get a quiet, generic success so bots learn nothing.
-    if (input.companyFax || submittedTooFast(input.formMs)) {
-      await recordEvent('form_blocked', { detail: input.companyFax ? 'claim-honeypot' : 'claim-too-fast', country, automation: true, attribution: null });
+    if (input.companyFax) {
+      await recordEvent('form_blocked', { detail: 'claim-honeypot', country, automation: true, attribution: null });
       return NextResponse.json({ message: receivedMessage });
+    }
+    if (submittedTooFast(input.formMs)) {
+      await recordEvent('form_blocked', { detail: 'claim-too-fast', country, attribution: null });
+      return NextResponse.json({ error: 'That was quick! Please check your details and press the button again.' }, { status: 400 });
     }
     if (await anyOverLimit([
       { bucket: 'claim-ip-hour', id: ip, limit: 5, windowMs: HOUR },
@@ -151,9 +155,11 @@ export async function POST(request: Request) {
     }
 
     // Per-recipient and per-listing limits stop the form being used to flood a business inbox.
+    // The verified owner is exempt from the per-listing limit so strangers cannot lock them out of signing in.
+    const isOwnerRequest = Boolean(business.owner_email) && business.owner_email!.toLowerCase() === email;
     if (await anyOverLimit([
       { bucket: 'claim-email-day', id: email, limit: 4, windowMs: DAY },
-      { bucket: 'claim-business-day', id: business.id, limit: 8, windowMs: DAY },
+      ...(isOwnerRequest ? [] : [{ bucket: 'claim-business-day', id: business.id, limit: 8, windowMs: DAY }]),
     ])) {
       return NextResponse.json({ error: 'Several claim requests were already sent for this business today. Check your inbox (and spam folder) for the latest link, or try again tomorrow.' }, { status: 429 });
     }

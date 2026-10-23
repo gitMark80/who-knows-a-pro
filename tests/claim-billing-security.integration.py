@@ -106,7 +106,7 @@ assert call('/api/claim', {'email': 'x@y.z'}, origin='https://evil.example')[0] 
 status, text, _ = claim('203.0.113.10', email='bot@gulf-test-plumbing.example', companyFax='spam')
 assert status == 200 and count("SELECT COUNT(*) FROM claims WHERE email='bot@gulf-test-plumbing.example'") == 0, 'honeypot drops silently'
 status, text, _ = claim('203.0.113.11', email='fast@gulf-test-plumbing.example', formMs=150)
-assert status == 200 and count("SELECT COUNT(*) FROM claims WHERE email='fast@gulf-test-plumbing.example'") == 0, 'instant submission dropped'
+assert status == 400 and 'press the button again' in body(text).get('error', '') and count("SELECT COUNT(*) FROM claims WHERE email='fast@gulf-test-plumbing.example'") == 0, 'instant submission asks the person to retry'
 assert count("SELECT COUNT(*) FROM analytics_events WHERE event='form_blocked'") >= 2
 
 # --- New business: domain email verifies via scanner-safe link -------------------------------
@@ -141,6 +141,18 @@ status, text, _ = claim('203.0.113.22', email='pat@gulf-test-plumbing.example', 
 assert status == 200 and 'secure link' in body(text)['message'], 'returning owner gets a sign-in link'
 status, text, _ = claim('203.0.113.23', email='someone@gmail.com', businessName='Gmail Pool Co', website='https://gmail-pool.example', trade='pool-service')
 assert status == 200 and 'ownership review' in body(text)['message'], 'free-mail claims go to manual review'
+
+# Strangers flooding a listing cannot lock the verified owner out of signing in.
+for i in range(9):
+    claim(f'203.0.114.{i}', email=f'stranger{i}@gmail.com', businessId=business_id)
+status, text, _ = claim('203.0.113.24', email='pat@gulf-test-plumbing.example', businessId=business_id)
+assert status == 200 and 'secure link' in body(text)['message'], ('owner exempt from per-listing limit', text)
+# Privacy settings may send Origin: null on same-site form posts; Sec-Fetch-Site still proves the source.
+claim('203.0.113.25', email='pat@gulf-test-plumbing.example', businessId=business_id)
+status, _, headers = call('/api/verify-claim', form={'token': token_of(last_link('pat@gulf-test-plumbing.example'))}, origin='null', headers={'sec-fetch-site': 'same-origin'})
+assert status == 303 and '/dashboard' in headers['location'], headers
+status, page, _ = call('/claim/verify?token=x', origin=None)
+assert 'content="same-origin"' in page or "content='same-origin'" in page, 'referrer policy must keep Origin on the form post'
 
 # --- Rate limiting -----------------------------------------------------------------------------
 statuses = [claim('203.0.113.99', email=f'r{i}@gmail.com', businessName=f'Rate Biz {i}', website=f'https://rate{i}.example')[0] for i in range(7)]

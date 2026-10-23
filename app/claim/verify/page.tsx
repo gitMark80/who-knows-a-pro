@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Confirm your business claim',
   robots: { index: false, follow: false },
-  referrer: 'no-referrer',
+  referrer: 'same-origin',
 };
 
 export default async function VerifyClaimPage({ searchParams }: { searchParams: Promise<{ token?: string | string[] }> }) {

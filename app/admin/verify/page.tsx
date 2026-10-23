@@ -3,7 +3,7 @@ import { Footer } from '@/components/site/footer';
 import { Header } from '@/components/site/header';
 
 export const dynamic = 'force-dynamic';
-export const metadata: Metadata = { title: 'Confirm admin sign-in', robots: { index: false, follow: false }, referrer: 'no-referrer' };
+export const metadata: Metadata = { title: 'Confirm admin sign-in', robots: { index: false, follow: false }, referrer: 'same-origin' };
 
 export default async function AdminVerifyPage({ searchParams }: { searchParams: Promise<{ token?: string | string[] }> }) {
   const { token } = await searchParams;

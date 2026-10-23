@@ -323,8 +323,12 @@ export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: n
  * until an owner adds details. Mirrors isBusinessProfileIndexable in lib/business-profile.ts.
  */
 export async function listIndexableBusinessSlugs(): Promise<{ slug: string; updated_at: number }[]> {
-  if (!databaseConfigured()) return [];
-  return sqlAll<{ slug: string; updated_at: number }>(
+  const slugs = new Map<string, number>();
+  for (const business of publicDirectory) {
+    if (business.summary.trim()) slugs.set(canonicalSlug(business), STATIC_UPDATED_AT);
+  }
+  if (!databaseConfigured()) return [...slugs].map(([slug, updated_at]) => ({ slug, updated_at }));
+  const rows = await sqlAll<{ slug: string; updated_at: number }>(
     `SELECT COALESCE(main_slug, slug) AS slug, MAX(updated_at) AS updated_at
      FROM businesses
      WHERE approved = 1 AND is_test = 0 AND (
@@ -336,6 +340,8 @@ export async function listIndexableBusinessSlugs(): Promise<{ slug: string; upda
      GROUP BY COALESCE(main_slug, slug)
      ORDER BY slug`,
   );
+  for (const row of rows) slugs.set(row.slug, Math.max(slugs.get(row.slug) ?? 0, row.updated_at));
+  return [...slugs].map(([slug, updated_at]) => ({ slug, updated_at })).sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
 export async function listDirectoryPairCounts(): Promise<{ region: string; trade: string; count: number }[]> {
