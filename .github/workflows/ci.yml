@@ -54,10 +54,14 @@ jobs:
             local pid=$!
             for _ in $(seq 1 60); do curl -fsS http://127.0.0.1:3091/robots.txt >/dev/null 2>&1 && break; sleep 1; done
             shift 2
-            if ! python "$@"; then
-              echo "::group::$name server log"; tail -n 200 "/tmp/$name-server.log"; echo "::endgroup::"
+            if ! python "$@" > "/tmp/$name-test.log" 2>&1; then
+              cat "/tmp/$name-test.log"
+              # Annotations are readable without signing in to GitHub, unlike raw logs.
+              echo "::error title=$name test output::$(tail -n 25 "/tmp/$name-test.log" | sed -e 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
+              echo "::error title=$name server log::$(tail -n 40 "/tmp/$name-server.log" | cut -c1-300 | sed -e 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
               kill "$pid"; exit 1
             fi
+            cat "/tmp/$name-test.log"
             kill "$pid"; wait "$pid" 2>/dev/null || true
           }
           run_suite results /tmp/wkap-results.db tests/business-results.integration.py /tmp/wkap-results.db
