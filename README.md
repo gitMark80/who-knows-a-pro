@@ -31,9 +31,10 @@ Cities, launch batches, category order, and legacy slugs are defined in
 - To launch Batch 2, change `regionBatchActive.batch2` from `false` to `true`.
 - Existing category slugs must not be renamed because they are part of published URLs.
 
-## Vercel migration status
+## Protection, tracking, and tests
 
-The public directory is Vercel-compatible and uses the verified public seed data.
-Claim, dashboard, and admin routes redirect to the live site until the database,
-uploads, email, and Stripe workflows are migrated. See `VERCEL_MIGRATION.md` for
-the remaining production cutover work.
+See `docs/traffic-protection-and-analytics.md` for rate limits, Turnstile, honeypots,
+the conversion dashboard (`/admin/funnel`), indexing rules, and the Vercel checklist.
+
+CI (`.github/workflows/ci.yml`) runs type checking, lint, a production build, and the
+integration tests in `tests/` against an isolated SQLite file with fake keys.

@@ -317,6 +317,27 @@ export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: n
   return [...slugs].map(([slug, updated_at]) => ({ slug, updated_at })).sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
+/**
+ * Business profiles with real, owner-supplied detail. Unclaimed seed listings carry only a name and
+ * website, so their profile pages are near-empty and stay out of the sitemap (and are noindexed)
+ * until an owner adds details. Mirrors isBusinessProfileIndexable in lib/business-profile.ts.
+ */
+export async function listIndexableBusinessSlugs(): Promise<{ slug: string; updated_at: number }[]> {
+  if (!databaseConfigured()) return [];
+  return sqlAll<{ slug: string; updated_at: number }>(
+    `SELECT COALESCE(main_slug, slug) AS slug, MAX(updated_at) AS updated_at
+     FROM businesses
+     WHERE approved = 1 AND is_test = 0 AND (
+       TRIM(COALESCE(summary,'')) <> '' OR TRIM(COALESCE(phone,'')) <> '' OR TRIM(COALESCE(address,'')) <> ''
+       OR TRIM(COALESCE(service_area,'')) <> '' OR TRIM(COALESCE(hours,'')) <> '' OR TRIM(COALESCE(specialties,'')) <> ''
+       OR year_founded IS NOT NULL OR TRIM(COALESCE(license_number,'')) <> '' OR TRIM(COALESCE(logo_url,'')) <> ''
+       OR COALESCE(photo_urls,'[]') NOT IN ('','[]')
+     )
+     GROUP BY COALESCE(main_slug, slug)
+     ORDER BY slug`,
+  );
+}
+
 export async function listDirectoryPairCounts(): Promise<{ region: string; trade: string; count: number }[]> {
   const groups = new Map<string, Set<string>>();
   for (const business of publicDirectory) {
@@ -378,6 +399,85 @@ export async function getBusiness(id: string): Promise<Business | null> {
 
 export async function getBusinessBySlug(slug: string): Promise<Business | null> {
   return getBusiness(slug);
+}
+
+function hostOf(website: string) {
+  try {
+    const url = new URL(website);
+    return ['http:', 'https:'].includes(url.protocol) ? url.hostname.toLowerCase().replace(/^www\./, '') : '';
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Finds an existing listing on the same website domain so a "new business" claim
+ * attaches to it instead of creating a duplicate profile. Callers must exclude shared hosts.
+ */
+export async function findBusinessByWebsiteDomain(domain: string, region?: string, trade?: string): Promise<Business | null> {
+  const target = domain.toLowerCase().replace(/^www\./, '');
+  if (!target) return null;
+  const rank = (business: Business) => (business.region === region ? 2 : 0) + (business.trade === trade ? 1 : 0);
+  const candidates = publicDirectory.filter((business) => hostOf(business.website) === target);
+  if (databaseConfigured()) {
+    try {
+      const rows = await sqlAll<Business>(
+        `SELECT * FROM businesses WHERE is_test = 0 AND (LOWER(website) LIKE ? OR LOWER(website) LIKE ?)`,
+        [`%://${target}%`, `%://www.${target}%`],
+      );
+      candidates.push(...rows.filter((row) => hostOf(row.website) === target && (row.approved === 1 || row.owner_email)));
+    } catch (error) {
+      console.error('Could not search businesses by website domain', error);
+    }
+  }
+  const best = candidates.sort((a, b) => rank(b) - rank(a))[0];
+  return best ? getBusiness(best.id) : null;
+}
+
+export type DirectorySearchResult = { slug: string; name: string; regions: string[]; trades: string[]; claimed: boolean };
+
+/** Name search used by the claim page so owners find their existing listing instead of creating a duplicate. */
+export async function searchDirectory(query: string, limit = 8): Promise<DirectorySearchResult[]> {
+  const terms = query.toLowerCase().replace(/[^a-z0-9&' ]+/g, ' ').split(/\s+/).filter((term) => term.length > 1).slice(0, 6);
+  if (!terms.length) return [];
+  const groups = new Map<string, DirectorySearchResult & { score: number; id: string }>();
+  const consider = (business: Business) => {
+    const name = business.name.toLowerCase();
+    if (!terms.every((term) => name.includes(term))) return;
+    const key = canonicalSlug(business);
+    const existing = groups.get(key);
+    if (existing) {
+      if (!existing.regions.includes(business.region)) existing.regions.push(business.region);
+      if (!existing.trades.includes(business.trade)) existing.trades.push(business.trade);
+      existing.claimed ||= Boolean(business.owner_email);
+      return;
+    }
+    groups.set(key, {
+      id: business.id,
+      slug: business.slug,
+      name: business.name,
+      regions: [business.region],
+      trades: [business.trade],
+      claimed: Boolean(business.owner_email),
+      score: name.startsWith(terms[0]) ? 0 : 1,
+    });
+  };
+  publicDirectory.forEach(consider);
+  if (databaseConfigured()) {
+    try {
+      const rows = await sqlAll<Business>(
+        `SELECT * FROM businesses WHERE is_test = 0 AND (approved = 1 OR owner_email IS NOT NULL) AND LOWER(name) LIKE ? LIMIT 200`,
+        [`%${terms[0]}%`],
+      );
+      rows.forEach(consider);
+    } catch (error) {
+      console.error('Directory search could not read database rows', error);
+    }
+  }
+  return [...groups.values()]
+    .sort((a, b) => a.score - b.score || a.name.localeCompare(b.name))
+    .slice(0, limit)
+    .map((item) => ({ slug: item.slug, name: item.name, regions: item.regions, trades: item.trades, claimed: item.claimed }));
 }
 
 export async function getBusinessProfile(slug: string): Promise<{ profile: BusinessProfile; legacy: boolean } | null> {

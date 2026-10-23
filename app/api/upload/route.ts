@@ -2,12 +2,17 @@ import { put } from '@vercel/blob';
 import { NextResponse } from 'next/server';
 import { currentBusiness } from '@/db/auth';
 import { config, sqlRun } from '@/db/runtime';
+import { HOUR, overLimit, sameOrigin } from '@/lib/security';
 
 export const runtime = 'nodejs';
 
 export async function POST(request: Request) {
+  if (!sameOrigin(request)) return NextResponse.json({ error: 'Forbidden.' }, { status: 403 });
   const business = await currentBusiness();
   if (!business) return NextResponse.json({ error: 'Sign in required.' }, { status: 401 });
+  if (await overLimit({ bucket: 'upload-business-hour', id: business.id, limit: 30, windowMs: HOUR })) {
+    return NextResponse.json({ error: 'Too many uploads. Please wait and try again.' }, { status: 429 });
+  }
   if (!['enhanced', 'featured', 'sponsored'].includes(business.tier)) {
     return NextResponse.json({ error: 'Upgrade to add logos and photos.' }, { status: 403 });
   }

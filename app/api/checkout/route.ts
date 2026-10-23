@@ -4,20 +4,27 @@ import { currentBusiness } from '@/db/auth';
 import { getBusinessProfile } from '@/db/runtime';
 import {
   attachCheckoutToFeaturedSlot,
-  getActiveSubscriptionForBusiness,
+  getBlockingSubscriptionForBusiness,
   releaseFeaturedReservation,
   reserveFeaturedSlot,
 } from '@/db/revenue';
+import { readAttribution, recordEvent } from '@/lib/analytics';
+import { HOUR, overLimit, requestCountry, sameOrigin } from '@/lib/security';
 import { requestOrigin } from '@/lib/site-url';
 import { priceForPlan, stripe, stripeTaxEnabled } from '@/lib/stripe';
 
 export const runtime = 'nodejs';
 
 export async function POST(request: Request) {
+  if (!sameOrigin(request)) return NextResponse.json({ error: 'Forbidden.' }, { status: 403 });
   const business = await currentBusiness();
   if (!business?.owner_email) return NextResponse.json({ error: 'Claim your business before checkout.' }, { status: 401 });
+  if (await overLimit({ bucket: 'checkout-business-hour', id: business.id, limit: 10, windowMs: HOUR })) {
+    return NextResponse.json({ error: 'Too many checkout attempts. Please wait a few minutes and try again.' }, { status: 429 });
+  }
 
-  const input = await request.json() as { plan?: string; tier?: string; region?: string; trade?: string };
+  let input: { plan?: string; tier?: string; region?: string; trade?: string };
+  try { input = await request.json() as typeof input; } catch { return NextResponse.json({ error: 'Invalid request.' }, { status: 400 }); }
   const rawPlan = input.plan || input.tier;
   const plan = rawPlan === 'sponsored' ? 'featured' : rawPlan;
   if (plan !== 'enhanced' && plan !== 'featured') {
@@ -29,10 +36,23 @@ export async function POST(request: Request) {
   }
 
   const businessSlug = business.main_slug || business.slug;
-  const existingSubscription = await getActiveSubscriptionForBusiness(businessSlug);
+  const existingSubscription = await getBlockingSubscriptionForBusiness(businessSlug);
   if (existingSubscription) {
-    return NextResponse.json({ error: 'This business already has an active subscription. Use Manage billing before choosing another plan.' }, { status: 409 });
+    const pastDue = !['active', 'trialing'].includes(existingSubscription.status);
+    return NextResponse.json({
+      error: pastDue
+        ? 'This business has a subscription with a payment issue. Use Manage billing to update your payment method instead of starting a new plan.'
+        : 'This business already has an active subscription. Use Manage billing to change or cancel it.',
+      manageBilling: true,
+    }, { status: 409 });
   }
+  const attribution = await readAttribution();
+  const attributionMetadata = {
+    utm_source: attribution.source || '',
+    utm_medium: attribution.medium || '',
+    utm_campaign: attribution.campaign || '',
+    referrer_host: attribution.referrerHost || '',
+  };
 
   let reservationId: string | null = null;
   let featuredRegion: string | null = null;
@@ -87,6 +107,7 @@ export async function POST(request: Request) {
         plan,
         featured_region: featuredRegion || '',
         featured_trade: featuredTrade || '',
+        ...attributionMetadata,
       },
       subscription_data: {
         metadata: {
@@ -95,12 +116,21 @@ export async function POST(request: Request) {
           plan,
           featured_region: featuredRegion || '',
           featured_trade: featuredTrade || '',
+          ...attributionMetadata,
         },
       },
     }, reservationId ? { idempotencyKey: `featured-${reservationId}` } : undefined);
     checkoutSessionId = session.id;
     if (!session.url) throw new Error('Stripe did not return a Checkout URL');
     if (reservationId) await attachCheckoutToFeaturedSlot(reservationId, session.id);
+    await recordEvent('checkout_initiated', {
+      businessSlug,
+      plan,
+      region: featuredRegion || business.region,
+      trade: featuredTrade || business.trade,
+      country: requestCountry(request),
+      attribution,
+    });
     return NextResponse.json({ url: session.url });
   } catch (error) {
     if (reservationId) {

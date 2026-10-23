@@ -4,13 +4,21 @@ import { config, getBusiness, sqlOne, sqlRun } from '@/db/runtime';
 import { getActiveFeaturedSlot } from '@/db/revenue';
 import { emailConfigured, escapeHtml, sendEmail } from '@/lib/email';
 import { PUBLIC_SITE_URL } from '@/lib/site-url';
+import { recordEvent } from '@/lib/analytics';
+import { clientIp, DAY, overLimit, requestCountry, sameOrigin, submittedTooFast, verifyTurnstile } from '@/lib/security';
 
 const contactMethods = new Set(['email', 'phone', 'either']);
 
 export async function POST(request: Request) {
   try {
-    const input = await request.json() as Record<string, string>;
-    if (input.companyWebsite) return NextResponse.json({ message: confirmation(false) });
+    if (!sameOrigin(request)) return NextResponse.json({ error: 'Submit the request from whoknowsapro.com.' }, { status: 403 });
+    let input: Record<string, string>;
+    try { input = await request.json() as Record<string, string>; } catch { return NextResponse.json({ error: 'Invalid request.' }, { status: 400 }); }
+    const country = requestCountry(request);
+    if (input.companyWebsite || submittedTooFast(input.formMs)) {
+      await recordEvent('form_blocked', { detail: input.companyWebsite ? 'quote-honeypot' : 'quote-too-fast', country, automation: true, attribution: null });
+      return NextResponse.json({ message: confirmation(false) });
+    }
 
     const name = (input.name || '').trim().slice(0, 120);
     const email = (input.email || '').trim().toLowerCase().slice(0, 254);
@@ -21,14 +29,14 @@ export async function POST(request: Request) {
     const region = (input.region || '').trim();
     const trade = (input.trade || '').trim();
 
-    if (!name || !email.includes('@') || !phone || !zip || !jobDescription || !contactMethods.has(preferredContactMethod)) {
+    if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email) || !phone || !zip || !jobDescription || !contactMethods.has(preferredContactMethod)) {
       return NextResponse.json({ error: 'Complete each required field.' }, { status: 400 });
     }
     if (!activeRegions.some((item) => item.slug === region) || !trades.some((item) => item.slug === trade)) {
       return NextResponse.json({ error: 'This directory page is not available.' }, { status: 400 });
     }
 
-    const ipAddress = requestIp(request);
+    const ipAddress = clientIp(request);
     const since = Date.now() - 60 * 60_000;
     const recent = await sqlOne<{ count: number }>(
       'SELECT COUNT(*) AS count FROM leads WHERE ip_address = ? AND created_at >= ?',
@@ -37,6 +45,13 @@ export async function POST(request: Request) {
     const hourlyLimit = Math.max(1, Number.parseInt(config('LEAD_RATE_LIMIT_PER_HOUR') || '5', 10) || 5);
     if (Number(recent?.count ?? 0) >= hourlyLimit) {
       return NextResponse.json({ error: 'Too many quote requests were submitted from this connection. Please try again later.' }, { status: 429 });
+    }
+    if (await overLimit({ bucket: 'quote-email-day', id: email, limit: 6, windowMs: DAY })) {
+      return NextResponse.json({ error: 'Several quote requests were already sent with this email today. Please try again tomorrow.' }, { status: 429 });
+    }
+    if (!await verifyTurnstile(input.turnstileToken, ipAddress, 'quote')) {
+      await recordEvent('form_blocked', { detail: 'quote-turnstile', country, attribution: null });
+      return NextResponse.json({ error: 'Please complete the security check and submit again.' }, { status: 400 });
     }
 
     const slot = await getActiveFeaturedSlot(region, trade);
@@ -87,6 +102,7 @@ export async function POST(request: Request) {
       );
     }
     await Promise.all(emailTasks);
+    await recordEvent('quote_submitted', { region, trade, businessSlug: routed ? featuredBusiness?.main_slug || featuredBusiness?.slug || null : null, detail: routed ? 'routed' : 'unrouted', country });
     return NextResponse.json({ message: confirmation(routed), routed });
   } catch (error) {
     console.error('Lead submission failed', error);
@@ -94,13 +110,6 @@ export async function POST(request: Request) {
   }
 }
 
-function requestIp(request: Request) {
-  const value = request.headers.get('x-vercel-forwarded-for')
-    || request.headers.get('x-forwarded-for')
-    || request.headers.get('x-real-ip')
-    || 'unknown';
-  return value.split(',')[0].trim().slice(0, 80);
-}
 
 function confirmation(routed: boolean) {
   return routed

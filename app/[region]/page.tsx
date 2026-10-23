@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
       ? `Browse service categories and business profiles serving ${region.name} on Who Knows a Pro.`
       : `Browse ${listedCategories} service ${listedCategories === 1 ? 'category' : 'categories'} with business listings in ${region.name}. Compare available details and contact businesses directly.`,
     alternates: { canonical: `/${region.slug}` },
+    robots: !unavailable && listedCategories === 0 ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -94,7 +95,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
           {!unavailable ? <p className="text-sm text-slate-500">{listedCategories.length} categories with listings</p> : null}
         </div>
         <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {trades.map((trade) => {
+          {[...trades].sort((a, b) => Number((countMap.get(b.slug) ?? 0) > 0) - Number((countMap.get(a.slug) ?? 0) > 0)).map((trade) => {
             const count = countMap.get(trade.slug) ?? 0;
             return <a key={trade.slug} href={`/${region.slug}/${trade.slug}`} className="group flex min-h-28 items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_35px_rgba(15,35,60,.05)] transition hover:-translate-y-0.5 hover:border-[#ec7d2c]">
               <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-[#eef3f8] text-[#d96c20]"><Wrench className="size-5"/></span>

@@ -11,15 +11,22 @@ import type { Business } from '@/db/runtime';
 
 type PageOption = { region: string; trade: string; label: string };
 type Performance = { totalViews: number; viewsLast30Days: number; pageLeadsLast30Days: number; routedLeadsLast30Days: number };
+type SubscriptionSummary = { plan: 'enhanced' | 'featured'; status: string; cancelAtPeriodEnd: boolean; currentPeriodEnd: number | null; featuredLabel: string | null };
+const liveStatuses = ['active', 'trialing'];
+const paymentIssueStatuses = ['past_due', 'unpaid', 'paused', 'incomplete'];
 
-export function DashboardForm({ business, pageOptions, stats, requestedPlan, requestedPage, checkoutState }: {
+export function DashboardForm({ business, pageOptions, stats, requestedPlan, requestedPage, checkoutState, subscription = null }: {
   business: Business;
   pageOptions: PageOption[];
   stats: Performance;
   requestedPlan?: 'enhanced' | 'featured';
   requestedPage?: string;
   checkoutState?: string;
+  subscription?: SubscriptionSummary | null;
 }) {
+  const hasLivePlan = Boolean(subscription && liveStatuses.includes(subscription.status));
+  const hasPaymentIssue = Boolean(subscription && paymentIssueStatuses.includes(subscription.status));
+  const periodEnd = subscription?.currentPeriodEnd ? new Date(subscription.currentPeriodEnd).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' }) : null;
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
   const [isError, setIsError] = useState(false);
@@ -128,7 +135,7 @@ export function DashboardForm({ business, pageOptions, stats, requestedPlan, req
   }
 
   return <div className="space-y-7">
-    {checkoutState === 'success' ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5 font-semibold text-emerald-900">Stripe Checkout completed. Your plan will appear as soon as the verified Stripe webhook is processed.</div> : null}
+    {checkoutState === 'success' ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5 font-semibold text-emerald-900">Payment received. Your plan activates as soon as Stripe confirms it — usually within a minute. Refresh this page if it still shows Free.</div> : null}
     {checkoutState === 'cancelled' ? <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5 font-semibold text-amber-900">Checkout was cancelled and no plan change was made.</div> : null}
 
     <section className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
@@ -175,8 +182,16 @@ export function DashboardForm({ business, pageOptions, stats, requestedPlan, req
     </div>
 
     <div className={`rounded-3xl border bg-white p-6 sm:p-8 ${requestedPlan ? 'border-[#ec7d2c] ring-2 ring-[#ec7d2c]/10' : 'border-slate-200'}`}>
-      <div className="flex flex-wrap items-start justify-between gap-3"><div><h2 className="text-xl font-black">Listing plan</h2><p className="mt-2 text-sm text-slate-600">Current plan: <strong className="capitalize">{business.tier === 'sponsored' ? 'Featured' : business.tier}</strong></p></div>{business.stripe_customer_id ? <Button variant="outline" onClick={billingPortal}>Manage billing</Button> : null}</div>
-      <div className="mt-6 grid gap-4 md:grid-cols-2">
+      <div className="flex flex-wrap items-start justify-between gap-3"><div><h2 className="text-xl font-black">Listing plan</h2><p className="mt-2 text-sm text-slate-600">Current plan: <strong className="capitalize">{business.tier === 'sponsored' ? 'Featured' : business.tier}</strong></p></div>{business.stripe_customer_id || subscription ? <Button variant="outline" onClick={billingPortal}>Manage billing</Button> : null}</div>
+      {subscription && (hasLivePlan || hasPaymentIssue) ? <div className={`mt-5 rounded-2xl border p-4 text-sm leading-6 ${hasPaymentIssue ? 'border-red-200 bg-red-50 text-red-900' : 'border-emerald-200 bg-emerald-50 text-emerald-900'}`}>
+        <p className="font-extrabold">{subscription.plan === 'featured' ? 'Featured' : 'Enhanced'}{subscription.featuredLabel ? ` · ${subscription.featuredLabel}` : ''}</p>
+        {hasPaymentIssue
+          ? <p className="mt-1">Your last payment did not go through. Use Manage billing to update your card. {subscription.plan === 'featured' ? 'Your Featured page is held for you, but it is hidden and does not receive quote requests until payment succeeds.' : ''}</p>
+          : subscription.cancelAtPeriodEnd
+            ? <p className="mt-1">Canceled — your plan stays active{periodEnd ? ` until ${periodEnd}` : ' until the end of the paid period'}. You can resume it from Manage billing.</p>
+            : <p className="mt-1">Active{periodEnd ? ` · renews ${periodEnd}` : ''}. Change your card, view invoices, or cancel anytime from Manage billing. To switch between Enhanced and Featured, email hello@whoknowsapro.com.</p>}
+      </div> : null}
+      {!hasLivePlan && !hasPaymentIssue ? <div className="mt-6 grid gap-4 md:grid-cols-2">
         <Plan name="Enhanced" price="$29/month" items={['Full profile details', 'Logo and photo gallery', 'Placement above free listings']} action={() => checkout('enhanced')} busy={checkoutPlan === 'enhanced'} selected={requestedPlan === 'enhanced'}/>
         {!business.is_test ? <div>
           <Plan name="Featured" price="$99/month" items={['Everything in Enhanced', 'Exclusive top spot on one page', 'That page’s incoming leads']} action={() => checkout('featured')} busy={checkoutPlan === 'featured'} selected={requestedPlan === 'featured'} featured/>
@@ -185,8 +200,8 @@ export function DashboardForm({ business, pageOptions, stats, requestedPlan, req
             {pageOptions.map((option) => <option key={`${option.region}|${option.trade}`} value={`${option.region}|${option.trade}`}>{option.label}</option>)}
           </select>
         </div> : null}
-      </div>
-      <p className="mt-5 text-xs leading-5 text-slate-500">Checkout uses Stripe’s hosted payment page. The Featured spot is checked and reserved immediately before checkout.</p>
+      </div> : null}
+      <p className="mt-5 text-xs leading-5 text-slate-500">Checkout uses Stripe’s hosted payment page. The Featured spot is checked and reserved immediately before checkout. Plans renew monthly until canceled; results such as views or leads are not guaranteed.</p>
     </div>
   </div>;
 }
