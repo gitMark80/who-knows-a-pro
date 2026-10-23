@@ -58,7 +58,7 @@ export function isBusinessProfileIndexable(business: Business) {
   try { hasPhotos = (JSON.parse(business.photo_urls || '[]') as unknown[]).length > 0; } catch {}
   return Boolean(
     business.summary.trim()
-    || business.phone
+    || business.phone?.trim()
     || business.address
     || business.service_area
     || business.hours

@@ -2,12 +2,13 @@ import Stripe from 'stripe';
 import { NextResponse } from 'next/server';
 import { config, sqlOne, sqlRun } from '@/db/runtime';
 import {
-  activateFeaturedSlot,
-  deactivateFeaturedSlot,
+  getSubscriptionById,
   recomputeBusinessTier,
   releaseFeaturedReservationByCheckout,
+  syncFeaturedSlot,
   upsertSubscription,
 } from '@/db/revenue';
+import { recordEvent } from '@/lib/analytics';
 import { stripe } from '@/lib/stripe';
 
 export const runtime = 'nodejs';
@@ -39,8 +40,14 @@ export async function POST(request: Request) {
       }
     } else if (event.type === 'checkout.session.expired') {
       await releaseFeaturedReservationByCheckout(event.data.object.id);
-    } else if (event.type === 'customer.subscription.updated' || event.type === 'customer.subscription.deleted') {
-      await syncSubscription(event.data.object);
+    } else if (
+      event.type === 'customer.subscription.updated'
+      || event.type === 'customer.subscription.deleted'
+      || event.type === 'customer.subscription.paused'
+      || event.type === 'customer.subscription.resumed'
+    ) {
+      // Events can arrive out of order; prefer Stripe's current state over the event snapshot.
+      await syncSubscription(await currentSubscription(event.data.object));
     } else if (event.type === 'invoice.payment_failed') {
       const invoice = event.data.object;
       const subscriptionId = typeof invoice.parent?.subscription_details?.subscription === 'string'
@@ -59,12 +66,25 @@ export async function POST(request: Request) {
   }
 }
 
+async function currentSubscription(snapshot: Stripe.Subscription) {
+  try {
+    return await stripe().subscriptions.retrieve(snapshot.id);
+  } catch (error) {
+    console.warn(`Could not refresh Stripe subscription ${snapshot.id}; using the event payload`, error instanceof Error ? error.message : error);
+    return snapshot;
+  }
+}
+
 async function syncSubscription(subscription: Stripe.Subscription, checkoutSessionId?: string) {
   const businessId = subscription.metadata.business_id;
   const businessSlug = subscription.metadata.business_slug;
   const plan = subscription.metadata.plan;
-  if (!businessId || !businessSlug || (plan !== 'enhanced' && plan !== 'featured')) return;
+  if (!businessId || !businessSlug || (plan !== 'enhanced' && plan !== 'featured')) {
+    console.warn(`Stripe subscription ${subscription.id} has no Who Knows a Pro metadata; skipped.`);
+    return;
+  }
 
+  const previous = await getSubscriptionById(subscription.id);
   const customerId = typeof subscription.customer === 'string' ? subscription.customer : subscription.customer.id;
   const currentPeriodEnd = subscription.items.data.reduce<number | null>((latest, item) => {
     if (!item.current_period_end) return latest;
@@ -91,20 +111,36 @@ async function syncSubscription(subscription: Stripe.Subscription, checkoutSessi
     [customerId, subscription.id, Date.now(), businessSlug],
   );
 
-  const active = subscription.status === 'active' || subscription.status === 'trialing';
   if (plan === 'featured') {
-    if (active && checkoutSessionId && featuredRegion && featuredTrade) {
-      await activateFeaturedSlot({
-        checkoutSessionId,
-        subscriptionId: subscription.id,
-        businessId,
-        businessSlug,
-        region: featuredRegion,
-        trade: featuredTrade,
-      });
-    } else if (!active) {
-      await deactivateFeaturedSlot(subscription.id);
-    }
+    await syncFeaturedSlot({
+      subscriptionId: subscription.id,
+      status: subscription.status,
+      businessId,
+      businessSlug,
+      region: featuredRegion,
+      trade: featuredTrade,
+      checkoutSessionId,
+    });
   }
   await recomputeBusinessTier(businessSlug);
+
+  // Server-confirmed billing events, recorded on state transitions so retries do not double count.
+  const isActive = subscription.status === 'active' || subscription.status === 'trialing';
+  const wasActive = previous?.status === 'active' || previous?.status === 'trialing';
+  const attribution = {
+    source: subscription.metadata.utm_source || null,
+    medium: subscription.metadata.utm_medium || null,
+    campaign: subscription.metadata.utm_campaign || null,
+    referrerHost: subscription.metadata.referrer_host || null,
+  };
+  const eventBase = { businessSlug, plan, region: featuredRegion, trade: featuredTrade, attribution };
+  if (isActive && !wasActive && previous?.status !== 'past_due' && previous?.status !== 'unpaid') {
+    await recordEvent('subscription_activated', eventBase);
+  }
+  if (subscription.cancel_at_period_end && !previous?.cancel_at_period_end && subscription.status !== 'canceled') {
+    await recordEvent('subscription_cancel_scheduled', eventBase);
+  }
+  if (subscription.status === 'canceled' && previous?.status !== 'canceled') {
+    await recordEvent('subscription_canceled', eventBase);
+  }
 }

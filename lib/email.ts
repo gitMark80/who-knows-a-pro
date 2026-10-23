@@ -10,8 +10,13 @@ export function escapeHtml(value: string) {
   })[character] || character);
 }
 
+/** Local integration tests only: write messages to a file instead of sending. Ignored on Vercel. */
+function testOutbox() {
+  return config('VERCEL') ? '' : config('EMAIL_OUTBOX_FILE');
+}
+
 export function emailConfigured() {
-  return Boolean(config('RESEND_API_KEY') && config('CLAIM_EMAIL_FROM'));
+  return Boolean(testOutbox() || (config('RESEND_API_KEY') && config('CLAIM_EMAIL_FROM')));
 }
 
 export function brandedEmail(subject: string, html: string) {
@@ -19,6 +24,12 @@ export function brandedEmail(subject: string, html: string) {
 }
 
 export async function sendEmail(to: string, subject: string, html: string) {
+  const outbox = testOutbox();
+  if (outbox) {
+    const { appendFile } = await import('node:fs/promises');
+    await appendFile(outbox, `${JSON.stringify({ to, subject, html })}\n`);
+    return;
+  }
   const key = config('RESEND_API_KEY');
   const from = config('CLAIM_EMAIL_FROM');
   if (!key || !from) throw new Error('Email delivery is not configured');

@@ -159,7 +159,7 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
           {featured ? <div>
             <p className="mb-3 text-xs font-black uppercase tracking-[.16em] text-[#9b4917]">Exclusive featured business</p>
             <div className="max-w-2xl"><ListingCard business={featured.business} featured/></div>
-          </div> : <a href={`/pricing?plan=featured&region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} className="group block rounded-2xl border-2 border-dashed border-[#ec7d2c]/50 bg-[#fff7f0] p-6 hover:border-[#ec7d2c]">
+          </div> : <a href={`/pricing?plan=featured&region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} rel="nofollow" className="group block rounded-2xl border-2 border-dashed border-[#ec7d2c]/50 bg-[#fff7f0] p-6 hover:border-[#ec7d2c]">
             <p className="text-xs font-black uppercase tracking-[.16em] text-[#9b4917]">Featured spot available</p>
             <h3 className="mt-2 text-xl font-black text-[#142c4c]">Feature your business at the top of this page</h3>
             <p className="mt-2 text-sm leading-6 text-slate-600">One business gets the exclusive featured position, plus this page’s incoming quote requests.</p>
@@ -170,11 +170,11 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
           ? <div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-amber-900">The directory is temporarily unavailable. Please try again shortly.</div>
           : businesses.length
             ? <><div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{regularBusinesses.map((business) => <ListingCard key={business.id} business={business}/>)}</div>
-              {businesses.length < MIN_INDEXABLE_LISTINGS ? <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 text-center"><p className="font-extrabold text-[#142c4c]">Know another qualified {lowerCategory(trade.name)} pro serving {region.name}?</p><p className="mt-2 text-sm text-slate-600">Business owners can claim a free listing and add verified contact details.</p><a href={`/claim?region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} className="mt-4 inline-flex rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim a free listing</a></div> : null}</>
+              {businesses.length < MIN_INDEXABLE_LISTINGS ? <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 text-center"><p className="font-extrabold text-[#142c4c]">Know another qualified {lowerCategory(trade.name)} pro serving {region.name}?</p><p className="mt-2 text-sm text-slate-600">Business owners can claim a free listing and add verified contact details.</p><a href={`/claim?region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} rel="nofollow" className="mt-4 inline-flex rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim a free listing</a></div> : null}</>
             : <div className="mt-8 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-10 text-center">
               <h3 className="text-xl font-extrabold">No {lowerCategory(trade.name)} pros listed here yet.</h3>
               <p className="mt-2 text-slate-600">Own a {lowerCategory(trade.name)} business in {region.name}? Claim a free listing.</p>
-              <a href={`/claim?region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} className="mt-5 inline-flex rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim a free listing</a>
+              <a href={`/claim?region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} rel="nofollow" className="mt-5 inline-flex rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim a free listing</a>
             </div>}
       </section>
 

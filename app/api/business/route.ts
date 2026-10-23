@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { currentBusiness } from '@/db/auth';
 import { sqlRun } from '@/db/runtime';
+import { HOUR, overLimit, sameOrigin } from '@/lib/security';
 
 const optional = (value: string | undefined, limit: number) => {
   const cleaned = (value || '').trim();
@@ -8,10 +9,15 @@ const optional = (value: string | undefined, limit: number) => {
 };
 
 export async function PATCH(request: Request) {
+  if (!sameOrigin(request)) return NextResponse.json({ error: 'Forbidden.' }, { status: 403 });
   const business = await currentBusiness();
   if (!business) return NextResponse.json({ error: 'Sign in required.' }, { status: 401 });
+  if (await overLimit({ bucket: 'profile-save-hour', id: business.id, limit: 60, windowMs: HOUR })) {
+    return NextResponse.json({ error: 'Too many saves. Please wait a few minutes.' }, { status: 429 });
+  }
 
-  const input = await request.json() as Record<string, string>;
+  let input: Record<string, string>;
+  try { input = await request.json() as Record<string, string>; } catch { return NextResponse.json({ error: 'Invalid request.' }, { status: 400 }); }
   const name = business.is_test ? 'WKAP Test Business' : (input.name || '').trim().slice(0, 180);
   const phone = optional(input.phone, 80);
   const website = (input.website || '').trim().slice(0, 500);

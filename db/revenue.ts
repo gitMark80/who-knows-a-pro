@@ -74,7 +74,7 @@ export async function pageHasUnavailableFeaturedSlot(region: string, trade: stri
   const slot = await sqlOne<FeaturedSlot>(
     `SELECT * FROM featured_slots
      WHERE region = ? AND trade = ?
-       AND (status = 'active' OR (status = 'pending' AND
+       AND (status IN ('active','past_due') OR (status = 'pending' AND
          (stripe_checkout_session_id IS NOT NULL OR reserved_until > ?)))
      LIMIT 1`,
     [region, trade, now],
@@ -147,6 +147,94 @@ export async function deactivateFeaturedSlot(subscriptionId: string) {
   await sqlRun(
     `DELETE FROM featured_slots WHERE stripe_subscription_id = ?`,
     [subscriptionId],
+  );
+}
+
+/** Stripe statuses where the customer can still pay and keep the subscription. */
+export const recoverableStatuses = ['past_due', 'incomplete'];
+/** Statuses that block starting a second checkout for the same business. */
+export const blockingStatuses = ['active', 'trialing', ...recoverableStatuses];
+
+/**
+ * Keeps the exclusive Featured slot in step with the Stripe subscription:
+ * - active/trialing: activate (including after a past-due period is paid, or if an earlier
+ *   version of this code released the slot), never displacing a different business;
+ * - past_due/incomplete (Stripe is still retrying, which ends by itself): hold the slot without
+ *   showing it or routing leads, so nobody else can buy a page the customer is recovering;
+ * - unpaid/paused/canceled/incomplete_expired (no automatic end date): release it.
+ */
+export async function syncFeaturedSlot(input: {
+  subscriptionId: string;
+  status: string;
+  businessId: string;
+  businessSlug: string;
+  region: string | null;
+  trade: string | null;
+  checkoutSessionId?: string;
+}) {
+  const now = Date.now();
+  if (activeStatuses.includes(input.status)) {
+    if (!input.region || !input.trade) return;
+    const updated = await sqlRun(
+      `UPDATE featured_slots
+       SET business_id = ?, business_slug = ?, stripe_subscription_id = ?, status = 'active',
+           reserved_until = NULL, activated_at = COALESCE(activated_at, ?), updated_at = ?
+       WHERE region = ? AND trade = ?
+         AND (stripe_subscription_id = ?
+           OR (? IS NOT NULL AND stripe_checkout_session_id = ?)
+           OR (business_slug = ? AND status IN ('pending','past_due')))`,
+      [
+        input.businessId, input.businessSlug, input.subscriptionId, now, now, input.region, input.trade,
+        input.subscriptionId, input.checkoutSessionId ?? null, input.checkoutSessionId ?? null, input.businessSlug,
+      ],
+    );
+    if (updated.rowsAffected > 0) return;
+    await sqlRun(
+      `INSERT OR IGNORE INTO featured_slots
+        (id,region,trade,business_id,business_slug,stripe_checkout_session_id,stripe_subscription_id,status,reserved_until,activated_at,updated_at)
+       VALUES (?,?,?,?,?,?,?,'active',NULL,?,?)`,
+      [crypto.randomUUID(), input.region, input.trade, input.businessId, input.businessSlug, input.checkoutSessionId ?? null, input.subscriptionId, now, now],
+    );
+    const slot = await sqlOne<FeaturedSlot>('SELECT * FROM featured_slots WHERE region = ? AND trade = ?', [input.region, input.trade]);
+    if (slot?.stripe_subscription_id !== input.subscriptionId) {
+      console.error(`Featured slot conflict: subscription ${input.subscriptionId} is active but ${input.region}/${input.trade} belongs to ${slot?.business_slug}. Manual review required.`);
+    }
+    return;
+  }
+  if (recoverableStatuses.includes(input.status)) {
+    await sqlRun(
+      `UPDATE featured_slots SET status = 'past_due', updated_at = ? WHERE stripe_subscription_id = ? AND status = 'active'`,
+      [now, input.subscriptionId],
+    );
+    return;
+  }
+  await deactivateFeaturedSlot(input.subscriptionId);
+  if (input.region && input.trade) {
+    // A checkout whose first payment never completed leaves its reservation without a subscription id.
+    await sqlRun(
+      `DELETE FROM featured_slots WHERE region = ? AND trade = ? AND business_slug = ? AND status = 'pending' AND stripe_subscription_id IS NULL`,
+      [input.region, input.trade, input.businessSlug],
+    );
+  }
+}
+
+export async function getBlockingSubscriptionForBusiness(businessSlug: string) {
+  return sqlOne<SubscriptionRecord>(
+    `SELECT * FROM subscriptions
+     WHERE business_slug = ? AND status IN (${blockingStatuses.map(() => '?').join(',')})
+     ORDER BY CASE status WHEN 'active' THEN 0 WHEN 'trialing' THEN 1 ELSE 2 END,
+              CASE plan WHEN 'featured' THEN 0 ELSE 1 END, updated_at DESC LIMIT 1`,
+    [businessSlug, ...blockingStatuses],
+  );
+}
+
+/** Most recent subscription of any status, for the owner's dashboard. */
+export async function getLatestSubscriptionForBusiness(businessSlug: string) {
+  return sqlOne<SubscriptionRecord>(
+    `SELECT * FROM subscriptions WHERE business_slug = ?
+     ORDER BY CASE WHEN status IN ('active','trialing') THEN 0 WHEN status IN ('past_due','incomplete') THEN 1 ELSE 2 END,
+              updated_at DESC LIMIT 1`,
+    [businessSlug],
   );
 }
 

@@ -2,11 +2,17 @@ import { NextResponse } from 'next/server';
 import { config, randomToken, sha256, sqlOne, sqlRun } from '@/db/runtime';
 import { emailConfigured, sendEmail } from '@/lib/email';
 import { requestOrigin } from '@/lib/site-url';
+import { clientIp, HOUR, overLimit, sameOrigin } from '@/lib/security';
 
 const genericMessage = 'If that address is authorized, a sign-in link is on the way.';
 
 export async function POST(request: Request) {
-  const input = await request.json() as { email?: string; company?: string };
+  if (!sameOrigin(request)) return NextResponse.json({ error: 'Forbidden.' }, { status: 403 });
+  if (await overLimit({ bucket: 'admin-login-ip-hour', id: clientIp(request), limit: 10, windowMs: HOUR })) {
+    return NextResponse.json({ error: 'Too many sign-in attempts. Try again later.' }, { status: 429 });
+  }
+  let input: { email?: string; company?: string };
+  try { input = await request.json() as { email?: string; company?: string }; } catch { return NextResponse.json({ error: 'Invalid request.' }, { status: 400 }); }
   if (input.company) return NextResponse.json({ message: genericMessage });
   const email = (input.email || '').trim().toLowerCase();
   const adminEmail = config('ADMIN_EMAIL').toLowerCase();

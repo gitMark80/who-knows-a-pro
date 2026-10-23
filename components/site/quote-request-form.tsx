@@ -1,12 +1,14 @@
 'use client';
+/* eslint-disable @next/next/no-html-link-for-pages -- Native anchors keep navigation consistent with the rest of the site. */
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useEffect, useRef, useState } from 'react';
 import { CheckCircle2, Loader2, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { lowerCategory } from '@/lib/utils';
+import { TURNSTILE_RESET_EVENT, TurnstileField } from '@/components/site/turnstile-field';
 
 type QuoteRequestFormProps = {
   region: string;
@@ -19,6 +21,8 @@ export function QuoteRequestForm({ region, regionName, trade, tradeName }: Quote
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+  const startedAt = useRef(0);
+  useEffect(() => { startedAt.current = Date.now(); }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -31,13 +35,14 @@ export function QuoteRequestForm({ region, regionName, trade, tradeName }: Quote
       const response = await fetch('/api/leads', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...values, region, trade }),
+        body: JSON.stringify({ ...values, region, trade, formMs: Date.now() - startedAt.current }),
       });
       const data = await response.json() as { message?: string; error?: string };
       if (!response.ok) throw new Error(data.error || 'We could not send your request.');
       setMessage(data.message || 'Your request was received.');
       form.reset();
     } catch (submissionError) {
+      window.dispatchEvent(new Event(TURNSTILE_RESET_EVENT));
       setError(submissionError instanceof Error ? submissionError.message : 'We could not send your request.');
     } finally {
       setBusy(false);
@@ -49,7 +54,7 @@ export function QuoteRequestForm({ region, regionName, trade, tradeName }: Quote
       <CheckCircle2 className="size-8 text-emerald-600"/>
       <h2 className="mt-3 text-2xl font-black text-emerald-950">Quote request received</h2>
       <p className="mt-2 max-w-3xl leading-7 text-emerald-900">{message}</p>
-      <button type="button" onClick={() => setMessage('')} className="mt-4 text-sm font-extrabold text-emerald-800 underline">Send another request</button>
+      <button type="button" onClick={() => { startedAt.current = Date.now(); setMessage(''); }} className="mt-4 text-sm font-extrabold text-emerald-800 underline">Send another request</button>
     </section>;
   }
 
@@ -77,6 +82,7 @@ export function QuoteRequestForm({ region, regionName, trade, tradeName }: Quote
         </select>
       </div>
       <div className="flex items-end"><Button type="submit" disabled={busy} className="h-11 w-full bg-[#ec7d2c] text-white hover:bg-[#d96c20]">{busy ? <Loader2 className="size-4 animate-spin"/> : <Send className="size-4"/>}{busy ? 'Sending…' : 'Get free quotes'}</Button></div>
+      <TurnstileField action="quote"/>
       {error ? <p role="alert" className="sm:col-span-2 rounded-xl bg-red-50 p-3 text-sm font-semibold text-red-700">{error}</p> : null}
       <p className="sm:col-span-2 text-xs leading-5 text-slate-500">By submitting, you agree that Who Knows a Pro and the page’s featured business may contact you about this request. No third-party lead networks receive it. See our <a href="/privacy" className="underline">Privacy Policy</a>.</p>
     </form>

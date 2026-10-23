@@ -8,7 +8,7 @@ import { Header } from '@/components/site/header';
 import { regions, trades } from '@/data/catalog';
 import { currentBusiness } from '@/db/auth';
 import { getBusinessProfile, type Business } from '@/db/runtime';
-import { getBusinessPerformance } from '@/db/revenue';
+import { getBusinessPerformance, getLatestSubscriptionForBusiness } from '@/db/revenue';
 import { DashboardForm } from './dashboard-form';
 
 export const dynamic = 'force-dynamic';
@@ -31,7 +31,11 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
       label: `${trade?.name || placement.trade} in ${region?.name || placement.location}`,
     }];
   })).values()];
-  const [stats, results] = await Promise.all([getBusinessPerformance(profile.main_slug || profile.slug, placements), businessResults(profile.main_slug || profile.slug)]);
+  const [stats, results, subscription] = await Promise.all([
+    getBusinessPerformance(profile.main_slug || profile.slug, placements),
+    businessResults(profile.main_slug || profile.slug),
+    getLatestSubscriptionForBusiness(profile.main_slug || profile.slug).catch(() => null),
+  ]);
   const result = results.get(profile.main_slug || profile.slug) || emptyResults();
   const requestedPlan = query.plan === 'featured' || query.plan === 'enhanced' ? query.plan : undefined;
   const requestedPage = pageOptions.find((option) => option.region === query.region && option.trade === query.trade);
@@ -47,6 +51,15 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
       requestedPlan={requestedPlan}
       requestedPage={requestedPage ? `${requestedPage.region}|${requestedPage.trade}` : undefined}
       checkoutState={query.checkout}
+      subscription={subscription ? {
+        plan: subscription.plan,
+        status: subscription.status,
+        cancelAtPeriodEnd: Boolean(subscription.cancel_at_period_end),
+        currentPeriodEnd: subscription.current_period_end,
+        featuredLabel: subscription.featured_region && subscription.featured_trade
+          ? `${trades.find((item) => item.slug === subscription.featured_trade)?.name || subscription.featured_trade} in ${regions.find((item) => item.slug === subscription.featured_region)?.name || subscription.featured_region}`
+          : null,
+      } : null}
     />
   </div></main><Footer/></>;
 }

@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: pnpm install --frozen-lockfile
+      - name: Type check
+        run: pnpm exec tsc --noEmit
+      - name: Lint
+        run: pnpm lint
+      - name: Production build
+        run: pnpm build
+      # Integration tests run against an isolated SQLite file with fake keys.
+      # No real email is sent and no real Stripe account or card is ever used.
+      - name: Integration tests
+        env:
+          ADMIN_EMAIL: admin@example.test
+          SITE_URL: http://127.0.0.1:3091
+          STRIPE_SECRET_KEY: sk_test_dummy_for_ci
+          STRIPE_WEBHOOK_SECRET: whsec_integration
+          STRIPE_PRICE_ID_ENHANCED: price_test_enhanced
+          STRIPE_PRICE_ID_FEATURED: price_test_featured
+        run: |
+          set -euo pipefail
+          # pnpm does not forward signals to its child, so stop every Next server explicitly
+          # before starting the next suite on the same port.
+          stop_server() { pkill -f 'next start' || true; pkill -f 'next-server' || true; fuser -k 3091/tcp 2>/dev/null || true; for _ in $(seq 1 20); do curl -fsS http://127.0.0.1:3091/robots.txt >/dev/null 2>&1 || break; sleep 1; done; }
+          run_suite() {
+            local name="$1" db="$2"
+            rm -f "$db" /tmp/wkap-outbox.jsonl
+            TURSO_DATABASE_URL="file:$db" EMAIL_OUTBOX_FILE=/tmp/wkap-outbox.jsonl \
+              pnpm exec next start -p 3091 > "/tmp/$name-server.log" 2>&1 &
+            for _ in $(seq 1 60); do curl -fsS http://127.0.0.1:3091/robots.txt >/dev/null 2>&1 && break; sleep 1; done
+            shift 2
+            if ! python "$@" > "/tmp/$name-test.log" 2>&1; then
+              cat "/tmp/$name-test.log"
+              # Annotations are readable without signing in to GitHub, unlike raw logs.
+              echo "::error title=$name test output::$(tail -n 25 "/tmp/$name-test.log" | sed -e 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
+              echo "::error title=$name server log::$(tail -n 40 "/tmp/$name-server.log" | cut -c1-300 | sed -e 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
+              stop_server; exit 1
+            fi
+            cat "/tmp/$name-test.log"
+            stop_server
+          }
+          run_suite results /tmp/wkap-results.db tests/business-results.integration.py /tmp/wkap-results.db
+          run_suite flows /tmp/wkap-flows.db tests/claim-billing-security.integration.py /tmp/wkap-flows.db /tmp/wkap-outbox.jsonl

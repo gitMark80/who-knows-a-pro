@@ -11,7 +11,7 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { ProfileViewTracker } from '@/components/site/profile-view-tracker';
 import { regions, trades } from '@/data/catalog';
 import { getBusinessProfile } from '@/db/runtime';
-import { businessMetaDescription, businessStructuredJsonLd, SITE_URL, specialtyList } from '@/lib/business-profile';
+import { businessMetaDescription, businessStructuredJsonLd, isBusinessProfileIndexable, SITE_URL, specialtyList } from '@/lib/business-profile';
 
 export const dynamic = 'force-dynamic';
 
@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: { absolute: `${business.name} – ${category} in ${city} | Who Knows a Pro?` },
     description: businessMetaDescription(business, category, city),
     alternates: { canonical: `/business/${business.main_slug}` },
+    // Name-and-website-only profiles are thin; keep them out of the index (links still followed)
+    // until the owner adds real details. City/category pages carry these listings for search.
+    robots: isBusinessProfileIndexable(business) ? undefined : { index: false, follow: true },
   };
 }
 
@@ -128,7 +131,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
 
         {!business.owner_email ? <div className="mt-5 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white p-5">
           <div><p className="font-extrabold">Own this business?</p><p className="text-sm text-slate-500">Claim this profile to add verified details and keep its information current.</p></div>
-          <a href={`/claim?business=${encodeURIComponent(business.slug)}`} className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
+          <a href={`/claim?business=${encodeURIComponent(business.slug)}`} rel="nofollow" className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
         </div> : null}
       </div>
     </main>

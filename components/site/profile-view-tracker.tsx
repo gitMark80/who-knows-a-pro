@@ -7,9 +7,9 @@ export function ProfileViewTracker({ slug }: { slug: string }) {
     void fetch('/api/profile-views', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ slug }),
+      body: JSON.stringify({ slug, wd: Boolean((navigator as Navigator & { webdriver?: boolean }).webdriver) }),
       keepalive: true,
-    });
+    }).catch(() => {});
   }, [slug]);
   return null;
 }

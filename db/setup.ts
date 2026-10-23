@@ -151,6 +151,33 @@ export const schemaStatements = [
     expires_at INTEGER NOT NULL
   )`,
   `CREATE INDEX IF NOT EXISTS idx_admin_sessions_email ON admin_sessions (email)`,
+  // Additive tables only: fixed-window rate limits keyed by salted hashes (no raw IPs),
+  // and privacy-light funnel events (no names, emails, phone numbers, or IP addresses).
+  `CREATE TABLE IF NOT EXISTS rate_limits (
+    key TEXT PRIMARY KEY NOT NULL,
+    window_start INTEGER NOT NULL,
+    count INTEGER NOT NULL
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_rate_limits_window ON rate_limits (window_start)`,
+  `CREATE TABLE IF NOT EXISTS analytics_events (
+    id TEXT PRIMARY KEY NOT NULL,
+    event TEXT NOT NULL,
+    created_at INTEGER NOT NULL,
+    path TEXT,
+    region TEXT,
+    trade TEXT,
+    business_slug TEXT,
+    plan TEXT,
+    detail TEXT,
+    source TEXT,
+    medium TEXT,
+    campaign TEXT,
+    referrer_host TEXT,
+    country TEXT,
+    automation INTEGER NOT NULL DEFAULT 0
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_analytics_events_event_date ON analytics_events (event, created_at)`,
+  `CREATE INDEX IF NOT EXISTS idx_analytics_events_date ON analytics_events (created_at)`,
 ] as const;
 
 export const additiveColumns = {
