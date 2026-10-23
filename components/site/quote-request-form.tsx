@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable @next/next/no-html-link-for-pages -- Native anchors keep navigation consistent with the rest of the site. */
 
 import { FormEvent, useEffect, useRef, useState } from 'react';
 import { CheckCircle2, Loader2, Send } from 'lucide-react';
