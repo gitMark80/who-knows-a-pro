@@ -42,9 +42,9 @@ def call(path, payload=None, form=None, origin=BASE, ip='198.51.100.1', cookie=N
     opener = urllib.request.build_opener() if follow else raw
     try:
         with opener.open(request) as response:
-            return response.status, response.read().decode(), dict(response.headers)
+            return response.status, response.read().decode(), {k.lower(): v for k, v in response.headers.items()}
     except urllib.error.HTTPError as error:
-        return error.code, error.read().decode(), dict(error.headers)
+        return error.code, error.read().decode(), {k.lower(): v for k, v in error.headers.items()}
 
 
 def body(text):
@@ -116,16 +116,16 @@ link = last_link('pat@gulf-test-plumbing.example')
 token = token_of(link)
 for _ in range(2):  # an email scanner prefetching the link must not consume it
     status, _, headers = call('/api/verify-claim?token=' + urllib.parse.quote(token), origin=None)
-    assert status == 303 and '/claim/verify?token=' in headers['Location'], headers
+    assert status == 303 and '/claim/verify?token=' in headers['location'], headers
 status, page, _ = call('/claim/verify?token=' + urllib.parse.quote(token), origin=None)
 assert status == 200 and 'Confirm and continue' in page and 'noindex' in page
 assert call('/api/verify-claim', form={'token': token}, origin='https://evil.example')[0] == 303
 assert count("SELECT COUNT(*) FROM claims WHERE status='verified'") == 0, 'cross-site POST must not verify'
 status, _, headers = call('/api/verify-claim', form={'token': token})
-assert status == 303 and headers['Location'].endswith('/dashboard?claimed=1'), headers
-session_cookie = re.search(r'pro_session=([^;]+)', headers['Set-Cookie']).group(0)
+assert status == 303 and headers['location'].endswith('/dashboard?claimed=1'), headers
+session_cookie = re.search(r'pro_session=([^;]+)', headers['set-cookie']).group(0)
 status, _, headers = call('/api/verify-claim', form={'token': token})
-assert '/claim?error=expired' in headers['Location'], 'token is single-use'
+assert '/claim?error=expired' in headers['location'], 'token is single-use'
 business_id, main_slug = db.execute("SELECT business_id, b.main_slug FROM claims c JOIN businesses b ON b.id=c.business_id WHERE c.email='pat@gulf-test-plumbing.example'").fetchone()
 assert count("SELECT COUNT(*) FROM analytics_events WHERE event='claim_submitted'") >= 1
 assert count("SELECT COUNT(*) FROM analytics_events WHERE event='claim_verified'") == 1
