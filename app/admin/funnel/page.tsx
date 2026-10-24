@@ -16,7 +16,7 @@ export default async function FunnelPage() {
   ]);
   const cell = 'px-3 py-2.5';
   return <><Header/><main className="min-h-screen bg-[#f5f7fa] px-5 py-10"><div className="mx-auto max-w-6xl space-y-8">
-    <div><a href="/admin" className="text-sm font-bold underline">Back to admin</a><h1 className="mt-4 text-3xl font-black text-[#142c4c]">Conversion dashboard</h1>
+    <div><a href="/admin" className="text-sm font-bold underline">Back to admin</a> <a href="/admin/stats" className="ml-4 text-sm font-bold underline">Site stats</a><h1 className="mt-4 text-3xl font-black text-[#142c4c]">Conversion dashboard</h1>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600">Server-confirmed events are recorded only after the action succeeds (or Stripe confirms it). Page views and form starts come from the browser after the page loads, skip self-identified bots, and count visits from automated browsers separately as “flagged.” No names, emails, or IP addresses are stored.</p></div>
 
     <section className="overflow-x-auto rounded-2xl border bg-white"><table className="w-full min-w-[560px] text-left text-sm"><thead><tr className="border-b text-xs uppercase tracking-wider text-slate-500"><th className={cell}>Step</th><th className={cell}>Last 7 days</th><th className={cell}>Flagged (7d)</th><th className={cell}>Last 30 days</th></tr></thead>

@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 
 const COOKIE = 'wkap_src';
+const NO_COUNT = 'wkap_nocount';
 const clean = (value: string | null, limit = 80) => (value || '').trim().toLowerCase().replace(/[^a-z0-9._~+-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, limit);
 
 /**
@@ -27,13 +28,33 @@ export function AttributionCapture() {
         document.cookie = `${COOKIE}=${encodeURIComponent(JSON.stringify(value))}; Max-Age=${30 * 86_400}; Path=/; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`;
       }
     } catch { /* Attribution is optional. */ }
+    countVisit();
   }, []);
   return null;
 }
 
-type ClientEvent = 'pricing_viewed' | 'claim_page_viewed' | 'claim_started';
+/**
+ * One anonymous "site_visit" per browser tab session, for /admin/stats (visits per day, by source,
+ * city, and category). Owner and admin pages, and browsers with "Don't count my visits" on, are skipped.
+ * The only thing kept on the device is a visit count, used to tell new visitors from returning ones.
+ */
+function countVisit() {
+  try {
+    const path = window.location.pathname;
+    if (/^\/(admin|dashboard|api)(\/|$)/.test(path)) return;
+    if (document.cookie.split('; ').includes(`${NO_COUNT}=1`)) return;
+    if (sessionStorage.getItem('wkap_visit')) return;
+    sessionStorage.setItem('wkap_visit', '1');
+    const before = Number(localStorage.getItem('wkap_visits') || '0') || 0;
+    localStorage.setItem('wkap_visits', String(before + 1));
+    const [region, trade] = path.split('/').filter(Boolean);
+    sendClientEvent('site_visit', { region, trade, visit: before > 0 ? 'returning' : 'new' });
+  } catch { /* Counting is optional. */ }
+}
 
-export function sendClientEvent(event: ClientEvent, extra: { region?: string; trade?: string; plan?: string; business?: string } = {}) {
+type ClientEvent = 'pricing_viewed' | 'claim_page_viewed' | 'claim_started' | 'site_visit';
+
+export function sendClientEvent(event: ClientEvent, extra: { region?: string; trade?: string; plan?: string; business?: string; visit?: 'new' | 'returning' } = {}) {
   try {
     const body = JSON.stringify({
       event,

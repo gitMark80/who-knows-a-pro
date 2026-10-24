@@ -17,12 +17,22 @@ export const serverEvents = [
   'subscription_canceled',
   'form_blocked',
 ] as const;
-export const clientEvents = ['pricing_viewed', 'claim_page_viewed', 'claim_started'] as const;
+export const clientEvents = ['pricing_viewed', 'claim_page_viewed', 'claim_started', 'site_visit'] as const;
 export type AnalyticsEvent = (typeof serverEvents)[number] | (typeof clientEvents)[number];
 
 export type Attribution = { source: string | null; medium: string | null; campaign: string | null; referrerHost: string | null };
 
 export const ATTRIBUTION_COOKIE = 'wkap_src';
+
+/**
+ * "Don't count my visits" (switched on at /admin/stats). While set, the browser sends no visit
+ * beacons and the server ignores page events, profile views, and website/phone clicks from it,
+ * so the owner's own browsing doesn't inflate the stats or businesses' results.
+ */
+export const NO_COUNT_COOKIE = 'wkap_nocount';
+export function optedOut(request: Request) {
+  return (request.headers.get('cookie') || '').split(/;\s*/).some((part) => part === `${NO_COUNT_COOKIE}=1`);
+}
 const emptyAttribution: Attribution = { source: null, medium: null, campaign: null, referrerHost: null };
 
 export function cleanToken(value: unknown, limit = 80) {

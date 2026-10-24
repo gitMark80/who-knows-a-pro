@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { config, getBusinessProfile, sha256, sqlRun } from '@/db/runtime';
+import { optedOut } from '@/lib/analytics';
 
 export async function POST(request: Request) {
   const origin = request.headers.get('origin');
@@ -8,7 +9,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false }, { status: 403 });
   }
   const agent = (request.headers.get('user-agent') || '').slice(0, 300);
-  if (!agent || /bot|crawler|spider|headless|preview|facebookexternalhit/i.test(agent)) return new Response(null, { status: 204 });
+  if (!agent || /bot|crawler|spider|headless|preview|facebookexternalhit/i.test(agent) || optedOut(request)) return new Response(null, { status: 204 });
   try {
     const body = await request.text();
     if (body.length > 1024) return NextResponse.json({ ok: false }, { status: 413 });
