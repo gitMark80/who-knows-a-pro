@@ -54,6 +54,20 @@ emails, phone numbers, or IP addresses.
 Attribution: `utm_source`/`utm_medium`/`utm_campaign` (or the external referrer host) are kept in a
 30-day first-party cookie, copied to Stripe Checkout metadata, and reported by source.
 
+## Site stats
+
+`/admin/stats` (admin sign-in required) shows visits, profile views, website/phone clicks, quote requests,
+claims, and paid activations for Today / 7 days / 30 days / All time; visits and profile views + clicks per
+day for 30 days; a source table (visits, returning visits, profile views, quotes, claims, checkouts, paid);
+and visits, profile views, and quotes by city and by category.
+
+- `site_visit` is a client event sent once per browser tab session from `AttributionCapture` (skipped on
+  `/admin`, `/dashboard`, `/api`). `detail` is `new` or `returning` (a visit count kept in localStorage),
+  and `region`/`trade` come from the URL. Automated browsers are stored with `automation = 1` and left out.
+- **Don't count me**: the switch on `/admin/stats` sets the `wkap_nocount=1` cookie. The browser then
+  sends no visit beacons, and `/api/events`, `/api/profile-views`, and `/api/business-clicks` ignore it,
+  so the owner's own browsing never reaches the stats or businesses' results.
+
 ## Indexing rules
 
 - City/category pages are indexed and in the sitemap only with at least `MIN_INDEXABLE_LISTINGS` (3) businesses.

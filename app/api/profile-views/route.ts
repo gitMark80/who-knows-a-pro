@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server';
 import { getBusinessProfile, sha256, sqlRun } from '@/db/runtime';
-import { recordEvent } from '@/lib/analytics';
+import { optedOut, recordEvent } from '@/lib/analytics';
 import { clientIp, isAutomatedUserAgent, requestCountry, sameOrigin } from '@/lib/security';
 
 export async function POST(request: Request) {
   // Owners see these numbers on their dashboard, so self-identified bots and off-site posts are not counted.
   if (!sameOrigin(request)) return NextResponse.json({ ok: false }, { status: 403 });
   const userAgent = (request.headers.get('user-agent') || '').slice(0, 300);
-  if (isAutomatedUserAgent(userAgent)) return new Response(null, { status: 204 });
+  if (isAutomatedUserAgent(userAgent) || optedOut(request)) return new Response(null, { status: 204 });
   try {
     const body = await request.text();
     if (body.length > 1_024) return NextResponse.json({ ok: false }, { status: 413 });

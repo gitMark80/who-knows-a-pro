@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { activeRegions, trades } from '@/data/catalog';
-import { clientEvents, cleanPath, cleanToken, recordEvent } from '@/lib/analytics';
+import { clientEvents, cleanPath, cleanToken, optedOut, recordEvent } from '@/lib/analytics';
 import { clientIp, HOUR, isAutomatedUserAgent, overLimit, requestCountry, sameOrigin } from '@/lib/security';
 
 const allowed = new Set<string>(clientEvents);
@@ -8,7 +8,7 @@ const allowed = new Set<string>(clientEvents);
 /** Page-level funnel beacons. Server-confirmed conversions are recorded by their own routes. */
 export async function POST(request: Request) {
   if (!sameOrigin(request)) return NextResponse.json({ ok: false }, { status: 403 });
-  if (isAutomatedUserAgent(request.headers.get('user-agent'))) return new Response(null, { status: 204 });
+  if (isAutomatedUserAgent(request.headers.get('user-agent')) || optedOut(request)) return new Response(null, { status: 204 });
   const body = await request.text();
   if (body.length > 1_024) return NextResponse.json({ ok: false }, { status: 413 });
   let input: Record<string, unknown>;
@@ -27,6 +27,8 @@ export async function POST(request: Request) {
     trade,
     plan,
     businessSlug: cleanToken(input.business, 220),
+    // site_visit only: whether this browser has visited before ('new' or 'returning').
+    detail: event === 'site_visit' && (input.visit === 'new' || input.visit === 'returning') ? input.visit : null,
     country: requestCountry(request),
     automation: input.wd === true,
   });
