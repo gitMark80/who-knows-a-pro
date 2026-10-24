@@ -12,8 +12,8 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Site stats', robots: { index: false, follow: false } };
 
 const fmt = (value: number) => value.toLocaleString('en-US');
-const regionName = new Map(regions.map((item) => [item.slug, item.name]));
-const tradeName = new Map(trades.map((item) => [item.slug, item.name]));
+const regionName = new Map<string, string>(regions.map((item) => [item.slug, item.name]));
+const tradeName = new Map<string, string>(trades.map((item) => [item.slug, item.name]));
 
 function Bars({ rows, pick, color }: { rows: DayRow[]; pick: (row: DayRow) => number; color: string }) {
   const values = rows.map(pick);
