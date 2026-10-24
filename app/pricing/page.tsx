@@ -107,7 +107,6 @@ const comparison = [
 ];
 
 const faqs = [
-  ['Why would I pay when a listing is already free?', 'You don’t have to. A free claimed listing keeps your information accurate and shows the claimed badge.\n\n**Enhanced** is for businesses that want to look more established — a logo, photos, and placement above free listings on the pages where you appear.\n\n**Featured** is for businesses that want the single most visible spot on one specific city and category page, plus any quote requests submitted there.\n\nYour dashboard shows real views and clicks so you can judge whether an upgrade is worth it. We can’t promise a number of views, calls, or customers.'],
   ['Do I need to claim my listing first?', 'Yes. Claiming is free and confirms you represent the business. With an email address on your business website’s domain it takes about a minute; other addresses are reviewed by a person, usually within one business day.'],
   ['How does billing work?', 'Plans are billed monthly through Stripe Checkout and renew until you cancel. No contract and no setup fee.'],
   ['Can I cancel anytime?', 'Yes. Cancel from your business dashboard. Your plan stays active through the end of the period you already paid for.'],
