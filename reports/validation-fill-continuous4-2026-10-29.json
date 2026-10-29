@@ -1,0 +1,51 @@
+{
+  "verifiedAt": "2026-10-29",
+  "baselineCommit": "f464acfc52f0e5378021c4d3e27084d5336c742a",
+  "priorSeedRecords": 6369,
+  "finalSeedRecords": 6451,
+  "preservedPriorRecords": 6369,
+  "unchangedPriorSourceRecords": 1445,
+  "addedPlacements": 82,
+  "distinctBusinessIdentities": 17,
+  "newBusinessIdentities": 12,
+  "existingBusinessServiceExtensions": 5,
+  "uniqueIds": true,
+  "newNormalizedDomainCityTradeDuplicates": 0,
+  "validActiveSlugs": true,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "target": 20,
+  "projectedPairsAtTarget": 8,
+  "projectedDeficit": 18804,
+  "projectedEmpty": 75,
+  "byCity": {
+    "crestview-fl": 10,
+    "destin-fl": 15,
+    "fairhope-al": 1,
+    "foley-al": 1,
+    "fort-walton-beach-fl": 12,
+    "grayton-beach-fl": 8,
+    "gulf-breeze-fl": 5,
+    "gulf-shores-al": 1,
+    "milton-fl": 4,
+    "navarre-fl": 5,
+    "orlando-fl": 1,
+    "pace-fl": 4,
+    "panama-city-beach-fl": 6,
+    "panama-city-fl": 5,
+    "pensacola-fl": 2,
+    "tallahassee-fl": 2
+  },
+  "byCategory": {
+    "garage-door-repair": 1,
+    "locksmith": 4,
+    "pest-control": 47,
+    "tree-service": 30
+  },
+  "notes": [
+    "Only append-only source data and research/checkpoint files changed.",
+    "Counts are generated coverage, not fresh independent verification of every historical website.",
+    "No five-listing cap in seed pipeline; current audit minimum already 20.",
+    "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+  ]
+}

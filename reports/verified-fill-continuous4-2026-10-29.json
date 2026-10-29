@@ -1,0 +1,664 @@
+{
+  "date": "2026-10-29",
+  "baselineCommit": "f464acfc52f0e5378021c4d3e27084d5336c742a",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Cadenhead Services",
+      "website": "https://www.dontbugme.com/pest-control/milton-fl",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.dontbugme.com/about-us",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official about page offers residential/commercial pest, termite and mosquito service across Santa Rosa, Okaloosa and Walton counties and explicitly names Crestview, Destin, FWB, Milton and Navarre. County coverage supports Pace, Gulf Breeze and Grayton Beach. Existing identity/canonical URL retained; phone 850-682-4333."
+    },
+    {
+      "name": "TruNorth Pest Control",
+      "website": "https://trunorthpest.com/areas-we-serve/",
+      "regions": [
+        "destin-fl",
+        "panama-city-beach-fl",
+        "orlando-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://trunorthpest.com/areas-we-serve/florida/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Florida service-area page lists Destin Beach, Panama City Beach, Grayton Beach, Orlando and Tallahassee for pest control. Existing identity; no Panama City inferred from PCB. Multiple service branches are not separate identities."
+    },
+    {
+      "name": "Diven Tree Services",
+      "website": "https://www.diventreeservices.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.diventreeservices.com/contact-us",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official contact page offers tree/stump removal, lists Destin Beach, Crestview and Ft Walton Beach, and gives 5517 Sam Carver Road, Crestview and 850-217-4165. No broader county service inferred merely from association membership."
+    },
+    {
+      "name": "Stump Depot",
+      "website": "https://stumpdepot.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://stumpdepot.com/tree-removal-trimming/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service page offers tree removal, trimming and stump work, explicitly naming PC, PCB and Crestview and countywide Bay, Okaloosa and Walton service. Coverage supports Destin, FWB and Grayton Beach. Phone 850-757-8867; one family company identity."
+    },
+    {
+      "name": "Shoreline Lock and Key, LLC",
+      "website": "https://www.shorelinelockandkeyllc.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.shorelinelockandkeyllc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official company website offers residential and automotive mobile locksmith service and explicitly lists Destin and FWB. FWB office at 348 Miracle Strip Pkwy SW Unit37 Suite1; phone 850-218-2231. No unlisted cities inferred."
+    },
+    {
+      "name": "I Can Do All Things Pest Control",
+      "website": "https://icdatpestcontrol.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://icdatpestcontrol.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers household/commercial pest, rodent, bed-bug and mosquito services and explicitly lists PC, PCB plus Bay, Walton and Okaloosa counties. Countywide coverage supports Destin, FWB, Crestview and Grayton Beach. Family company, phone850-814-6777."
+    },
+    {
+      "name": "Logan The Tree Man",
+      "website": "https://www.loganthetreeman.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.loganthetreeman.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers tree trimming, removal, stump grinding and storm cleanup. Explicitly lists FWB, Navarre, Crestview, Destin and Gulf Breeze. Navarre based, phone850-582-8849. No Pensacola inferred solely from surrounding unincorporated neighborhoods."
+    },
+    {
+      "name": "Coastal Protection",
+      "website": "https://www.coastalprotect.com/",
+      "regions": [
+        "destin-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.coastalprotect.com/locksmith-service/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official locksmith service page offers residential, commercial and automotive lock service along the Destin-to-PCB coastal corridor, including Grayton Beach. Santa Rosa Beach and PCB offices; one identity. No mainland Panama City inferred from PCB, and Pensacola security office alone not used to infer locksmith coverage."
+    },
+    {
+      "name": "Brock Lawn & Pest Control",
+      "website": "https://brockpest.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://brockpest.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage confirms pest/termite/mosquito/rodent services and names PC, PCB, Destin, FWB and Pensacola. Countywide Okaloosa/Walton coverage supports Crestview and Grayton Beach. Existing family company; only missing city placements."
+    },
+    {
+      "name": "Southern Garage Doors LLC",
+      "website": "https://www.southerngaragedoorsllc.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.southerngaragedoorsllc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers garage door repair, spring/opener/off-track repair and replacement. Local office 225 Pelican Place Unit F, Destin, phone850-687-1366. No unnamed city service inferred."
+    },
+    {
+      "name": "Guardian Pest Control",
+      "website": "https://www.guardianonceayear.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.guardianonceayear.com/about/company-background.php",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official company-background page identifies Buddy Infinger as owner and offers household pest/termite control throughout Santa Rosa, Okaloosa and Walton counties. City phone coverage includes Crestview, FWB and Destin. One company across the explicitly covered counties."
+    },
+    {
+      "name": "Tree Amigos of NWF",
+      "website": "https://treeamigos.biz/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://treeamigos.biz/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers tree trimming and removal throughout all Santa Rosa, Okaloosa and Walton counties. FWB based; Crestview mailing address; phone850-240-7010. Count once per city under one company identity."
+    },
+    {
+      "name": "Father and Son Pest and Lawn Solutions",
+      "website": "https://fatherandsonlandscape.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "navarre-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://fatherandsonlandscape.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers household pest and mosquito treatments, with pest-specific service links for each assigned city in Florida and Alabama. Owner Skip Orth; phone850-939-9868. Only pest-control assigned: lawn fertilization and irrigation checks do not establish general landscaping, tree removal or sprinkler-repair services."
+    },
+    {
+      "name": "Honors Turf & Pest",
+      "website": "https://www.honorsturfandpest.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.honorsturfandpest.com/service-areas",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service page offers pest control and explicitly names PC, PCB, Destin, FWB, 30A communities and Tallahassee. Phone850-868-9164. One identity across two regions. No Crestview inferred where detailed primary cities/ZIP list excludes it, despite broader county labels."
+    },
+    {
+      "name": "Arbor Outlawz",
+      "website": "https://www.arboroutlawz.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.arboroutlawz.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers tree removal, pruning and stump grinding in Panama City, with 2602 North East Avenue address and phone850-319-0618. Unnamed surrounding counties not expanded to additional catalog cities."
+    },
+    {
+      "name": "Gulf Coast Tree Specialists Inc.",
+      "website": "https://www.gulfcoasttreespecialists.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.gulfcoasttreespecialists.com/contact.html",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers tree care/removal and emergency response; official contact page gives 5650 Bay Line Dr, Panama City and 850-784-9080. Homepage identifies Randy Wright; one local company."
+    },
+    {
+      "name": "Guardian Pest Control",
+      "website": "https://www.guardianonceayear.com/",
+      "regions": [
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.guardianonceayear.com/pest-control-panama-city-beach-fl.php",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official city-specific page explicitly offers household pest, rodent, termite and bed-bug services in Panama City Beach. Same Guardian identity as other covered counties; no mainland Panama City inferred."
+    },
+    {
+      "name": "Backridge Tree Service",
+      "website": "https://backridgetreeservice.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://backridgetreeservice.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers tree pruning, removal and arborist work explicitly throughout Okaloosa, Santa Rosa and Walton counties. Rob and Alicia Calley;14 Robinwood Dr SW,FWB;850-240-2829. Alternate backridgetreeservice.net describes the same address/company and is not a separate identity."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "Cadenhead Services",
+      "region": "milton-fl",
+      "trade": "pest-control",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Cadenhead Services",
+      "region": "pace-fl",
+      "trade": "pest-control",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "TruNorth Pest Control",
+      "region": "grayton-beach-fl",
+      "trade": "pest-control",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Logan The Tree Man",
+      "region": "navarre-fl",
+      "trade": "tree-service",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Logan The Tree Man",
+      "region": "gulf-breeze-fl",
+      "trade": "tree-service",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Coastal Protection",
+      "region": "grayton-beach-fl",
+      "trade": "locksmith",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brock Lawn & Pest Control",
+      "region": "panama-city-fl",
+      "trade": "pest-control",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brock Lawn & Pest Control",
+      "region": "panama-city-beach-fl",
+      "trade": "pest-control",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "websiteChecks": [
+    {
+      "url": "https://backridgetreeservice.com/",
+      "status": 200,
+      "finalUrl": "https://backridgetreeservice.com/",
+      "bytes": 348835,
+      "checkedAt": "2026-10-29T22:36:24.088689+00:00",
+      "title": [
+        "Tree Pruning &amp; Removal Fort Walton Beach FL | Backridge Tree Service"
+      ]
+    },
+    {
+      "url": "https://brockpest.com/",
+      "status": 200,
+      "finalUrl": "https://brockpest.com/",
+      "bytes": 162711,
+      "checkedAt": "2026-10-29T22:36:25.476117+00:00",
+      "title": [
+        "Lawn &amp; Pest Control Panama City FL | Brock Lawn &amp; Pest Control"
+      ]
+    },
+    {
+      "url": "https://fatherandsonlandscape.com/",
+      "status": 200,
+      "finalUrl": "https://fatherandsonlandscape.com/",
+      "bytes": 165045,
+      "checkedAt": "2026-10-29T22:36:23.951412+00:00",
+      "title": [
+        "Father and Son Pest and Lawn Solutions | Serving the Emerald Coast Since 2003"
+      ]
+    },
+    {
+      "url": "https://icdatpestcontrol.com/",
+      "status": 200,
+      "finalUrl": "https://icdatpestcontrol.com/",
+      "bytes": 208629,
+      "checkedAt": "2026-10-29T22:36:24.981504+00:00",
+      "title": [
+        "I Can do All Things Pest Control &#8211; Work Hard, Control Harder, LET US SPRAY!"
+      ]
+    },
+    {
+      "url": "https://stumpdepot.com/",
+      "status": 200,
+      "finalUrl": "https://stumpdepot.com/",
+      "bytes": 222948,
+      "checkedAt": "2026-10-29T22:36:24.131105+00:00",
+      "title": [
+        "Land &amp; Tree Services Northwest Florida | Stump Depot"
+      ]
+    },
+    {
+      "url": "https://stumpdepot.com/tree-removal-trimming/",
+      "status": 200,
+      "finalUrl": "https://stumpdepot.com/tree-removal-trimming/",
+      "bytes": 172376,
+      "checkedAt": "2026-10-29T22:36:24.094582+00:00",
+      "title": [
+        "Tree Removal &amp; Tree Trimming | Panama City &amp; Destin | Stump Depot"
+      ]
+    },
+    {
+      "url": "https://treeamigos.biz/",
+      "status": 200,
+      "finalUrl": "https://treeamigos.biz/",
+      "bytes": 129598,
+      "checkedAt": "2026-10-29T22:36:24.295832+00:00",
+      "title": [
+        "Tree Service in Fort Walton Beach - Tree Amigos of NWF"
+      ]
+    },
+    {
+      "url": "https://trunorthpest.com/areas-we-serve/",
+      "status": 200,
+      "finalUrl": "https://trunorthpest.com/areas-we-serve/",
+      "bytes": 133454,
+      "checkedAt": "2026-10-29T22:36:24.867063+00:00",
+      "title": [
+        "Areas We Serve - TruNorth Pest Control"
+      ]
+    },
+    {
+      "url": "https://trunorthpest.com/areas-we-serve/florida/",
+      "status": 200,
+      "finalUrl": "https://trunorthpest.com/areas-we-serve/florida/",
+      "bytes": 86854,
+      "checkedAt": "2026-10-29T22:36:26.222561+00:00",
+      "title": [
+        "Florida - TruNorth Pest Control"
+      ]
+    },
+    {
+      "url": "https://www.arboroutlawz.com/",
+      "status": 200,
+      "finalUrl": "https://www.arboroutlawz.com/",
+      "bytes": 536645,
+      "checkedAt": "2026-10-29T22:36:26.847684+00:00",
+      "title": [
+        "Full Service Tree Removal, Stump Grinding, Property Mulching - Arbor Outlawz | Panamá City &amp; Surrounding Counties"
+      ]
+    },
+    {
+      "url": "https://www.coastalprotect.com/",
+      "status": 200,
+      "finalUrl": "https://www.coastalprotect.com/",
+      "bytes": 168389,
+      "checkedAt": "2026-10-29T22:36:27.646816+00:00",
+      "title": [
+        "Coastal Protection, Inc. - Security Systems in Santa Rosa Beach"
+      ]
+    },
+    {
+      "url": "https://www.coastalprotect.com/locksmith-service/",
+      "status": 200,
+      "finalUrl": "https://www.coastalprotect.com/locksmith-service/",
+      "bytes": 195578,
+      "checkedAt": "2026-10-29T22:36:27.738448+00:00",
+      "title": [
+        "Locksmith Santa Rosa Beach, Pensacola, Panama City Beach - Call Now"
+      ]
+    },
+    {
+      "url": "https://www.diventreeservices.com/",
+      "status": 200,
+      "finalUrl": "https://www.diventreeservices.com/",
+      "bytes": 173804,
+      "checkedAt": "2026-10-29T22:36:26.698804+00:00",
+      "title": [
+        "\r\n    \n    Residential Tree &amp; Stump Removal, Tree Care &amp; Trimming Service Company Crestview FL - Diven Tree Services\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.diventreeservices.com/contact-us",
+      "status": 200,
+      "finalUrl": "https://www.diventreeservices.com/contact-us",
+      "bytes": 177743,
+      "checkedAt": "2026-10-29T22:36:26.706514+00:00",
+      "title": [
+        "\r\n    \n    Contact Diven Tree Services - Tree, Stump Removal &amp; Other More Services Crestview FL\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.dontbugme.com/about-us",
+      "status": 200,
+      "finalUrl": "https://www.dontbugme.com/about-us",
+      "bytes": 47887,
+      "checkedAt": "2026-10-29T22:36:27.518937+00:00",
+      "title": [
+        "About Us | Cadenhead Services Pest Control"
+      ]
+    },
+    {
+      "url": "https://www.dontbugme.com/pest-control/milton-fl",
+      "status": 200,
+      "finalUrl": "https://www.dontbugme.com/pest-control/milton-fl",
+      "bytes": 64042,
+      "checkedAt": "2026-10-29T22:36:27.491020+00:00",
+      "title": [
+        "Pest Control Milton FL | Cadenhead Services Since 1983"
+      ]
+    },
+    {
+      "url": "https://www.guardianonceayear.com/",
+      "status": 200,
+      "finalUrl": "https://www.guardianonceayear.com/",
+      "bytes": 62684,
+      "checkedAt": "2026-10-29T22:36:28.751991+00:00",
+      "title": [
+        "Pest, Termite Control | Crestview, Panama City Beach FL | Guardian"
+      ]
+    },
+    {
+      "url": "https://www.guardianonceayear.com/about/company-background.php",
+      "status": 200,
+      "finalUrl": "https://www.guardianonceayear.com/about/company-background.php",
+      "bytes": 62508,
+      "checkedAt": "2026-10-29T22:36:28.753627+00:00",
+      "title": [
+        "Guardian Pest Control | Destin, Crestview FL | Termite Control"
+      ]
+    },
+    {
+      "url": "https://www.guardianonceayear.com/pest-control-panama-city-beach-fl.php",
+      "status": 200,
+      "finalUrl": "https://www.guardianonceayear.com/pest-control-panama-city-beach-fl.php",
+      "bytes": 60921,
+      "checkedAt": "2026-10-29T22:36:28.751506+00:00",
+      "title": [
+        "Pest &amp; Rodent Control | Panama City Beach FL | Guardian Pest Control"
+      ]
+    },
+    {
+      "url": "https://www.gulfcoasttreespecialists.com/",
+      "status": 200,
+      "finalUrl": "https://www.gulfcoasttreespecialists.com/",
+      "bytes": 12837,
+      "checkedAt": "2026-10-29T22:36:29.450549+00:00",
+      "title": [
+        "Gulf Coast Tree Specialists Inc."
+      ]
+    },
+    {
+      "url": "https://www.gulfcoasttreespecialists.com/contact.html",
+      "status": 200,
+      "finalUrl": "https://www.gulfcoasttreespecialists.com/contact.html",
+      "bytes": 3877,
+      "checkedAt": "2026-10-29T22:36:29.408333+00:00",
+      "title": [
+        "Gulf Coast Tree Specialists Inc."
+      ]
+    },
+    {
+      "url": "https://www.honorsturfandpest.com/",
+      "status": 200,
+      "finalUrl": "https://www.honorsturfandpest.com/",
+      "bytes": 83648,
+      "checkedAt": "2026-10-29T22:36:30.366454+00:00",
+      "title": [
+        "Professional Lawn Care &amp; Pest Control in Panama City &amp; Tallahassee"
+      ]
+    },
+    {
+      "url": "https://www.honorsturfandpest.com/service-areas",
+      "status": 200,
+      "finalUrl": "https://www.honorsturfandpest.com/service-areas",
+      "bytes": 76835,
+      "checkedAt": "2026-10-29T22:36:30.354589+00:00",
+      "title": [
+        "Service Areas | Honors Turf &amp; Pest"
+      ]
+    },
+    {
+      "url": "https://www.loganthetreeman.com/",
+      "status": 200,
+      "finalUrl": "https://www.loganthetreeman.com/",
+      "bytes": 172030,
+      "checkedAt": "2026-10-29T22:36:30.348592+00:00",
+      "title": [
+        "\r\n    24/7 Tree Services | Navarre, FL | Logan The Tree Man\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.shorelinelockandkeyllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.shorelinelockandkeyllc.com/",
+      "bytes": 147888,
+      "checkedAt": "2026-10-29T22:36:31.522515+00:00",
+      "title": [
+        "Home"
+      ]
+    },
+    {
+      "url": "https://www.southerngaragedoorsllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.southerngaragedoorsllc.com/",
+      "bytes": 443981,
+      "checkedAt": "2026-10-29T22:36:30.851155+00:00",
+      "title": [
+        "Southern Garage Doors LLC / Same Day Garage Door Repair / Serving NW Florida"
+      ]
+    }
+  ],
+  "allRequiredWebsitesHttp200": true,
+  "verificationMethod": "Official website content reviewed for exact category and explicit local location, city service or countywide coverage; direct HTTP checks plus page-title/content checks. No paid research or prohibited directory/map sources. Unknown fields omitted.",
+  "identityChecks": [
+    "Existing canonical names/URLs retained for Cadenhead, TruNorth, Brock, Logan and Coastal Protection. All branches of each company counted once per city/category.",
+    "Backridge .com and .net sites describe same business/address; only .com identity added.",
+    "Guardian second city-specific source for PCB is one business, not a second identity.",
+    "A to Z Lock & Safe official footer links Resorts Locksmith Services under Heritage Lock & Security family; no additional identity added where Resorts already exists.",
+    "Trees Unlimited .us and .fwb domains are alternate sites, not separate candidates.",
+    "Armor Pest armorpco.com serves Chicagoland, so it does not verify an Emerald Coast listing."
+  ],
+  "deferredCandidates": [
+    {
+      "name": "IGY6 Rooted",
+      "website": "https://igy6rooted.com/",
+      "reason": "Web retrieval did not expose readable current business content; not imported."
+    },
+    {
+      "name": "Emerald Coast Pest Control",
+      "website": "https://emeraldcoastpestcontrol.com/",
+      "reason": "Official site inaccessible through research; not imported."
+    },
+    {
+      "name": "NWF Pest and Termite",
+      "website": "https://nwfpestandtermite.com/",
+      "reason": "Official site inaccessible through research; not imported."
+    },
+    {
+      "name": "Chorus Pest Control",
+      "reason": "Official general Panhandle coverage found; precise city coverage and identity reconciliation remain unfinished."
+    },
+    {
+      "name": "Panama Pest Services / Florida First Choice",
+      "reason": "No working official site verified; not imported."
+    },
+    {
+      "name": "TJ Tree Services",
+      "reason": "PC vs PCB address/service ambiguity not resolved; not imported."
+    }
+  ],
+  "categoryCautions": [
+    "Father and Son added only to pest-control; lawn fertilization/ornamental treatments/irrigation checks do not establish general landscaping, tree removal or sprinkler repair.",
+    "No pest-control category added to tree companies based only on tree health care.",
+    "PCB remains distinct from PC; no broad nearby-city assumptions."
+  ]
+}

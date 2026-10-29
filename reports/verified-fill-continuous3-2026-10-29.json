@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published and live verified",
   "sourceRecords": [
     {
       "name": "Pros Heating & Air Conditioning",
@@ -1862,26 +1862,29 @@
       "region": "destin-fl",
       "trade": "hvac",
       "distinctBusinesses": 25,
-      "status": "official relevance/location reviewed; live publication pending"
+      "status": "published; live category links confirmed; all counted priority-city HVAC official relevance/location reviewed"
     },
     {
       "region": "fort-walton-beach-fl",
       "trade": "hvac",
       "distinctBusinesses": 25,
-      "status": "official relevance/location reviewed; live publication pending"
+      "status": "published; live category links confirmed; all counted priority-city HVAC official relevance/location reviewed"
     },
     {
       "region": "crestview-fl",
       "trade": "hvac",
       "distinctBusinesses": 23,
-      "status": "official relevance/location reviewed; live publication pending"
+      "status": "published; live category links confirmed; all counted priority-city HVAC official relevance/location reviewed"
     },
     {
       "region": "panama-city-fl",
       "trade": "hvac",
       "distinctBusinesses": 21,
-      "status": "official relevance/location reviewed; live publication pending"
+      "status": "published; live category links confirmed; all counted priority-city HVAC official relevance/location reviewed"
     }
   ],
-  "otherCountMilestonesCaution": "Gulf Breeze and Navarre HVAC project above20 by seed coverage; full historical identity/website re-verification pending, including We Care/Anderson relationship. Do not label them independently verified complete."
+  "otherCountMilestonesCaution": "Gulf Breeze and Navarre HVAC project above20 by seed coverage; full historical identity/website re-verification pending, including We Care/Anderson relationship. Do not label them independently verified complete.",
+  "publishedCommit": "f464acfc52f0e5378021c4d3e27084d5336c742a",
+  "deploymentStatus": "success",
+  "liveEvidenceReport": "reports/live-fill-continuous3-2026-10-29.json"
 }
