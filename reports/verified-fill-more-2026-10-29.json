@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "Published to main; production deployment succeeded; all 255 placements verified live on 166 category pages.",
   "sourceRecords": [
     {
       "name": "Transcendent Paintless Dent Removal",
@@ -1718,5 +1718,6 @@
         "\r\n    Our Services | WPR Inc. | Milton &amp; Pensacola, FL\r\n  "
       ]
     }
-  ]
+  ],
+  "publishedCommit": "fb37c238a44f9c5ea4661633dcf288144877146c"
 }

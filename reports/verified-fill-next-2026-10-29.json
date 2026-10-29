@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-29",
+  "baselineCommit": "fb37c238a44f9c5ea4661633dcf288144877146c",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Best Local Locksmith, LLC",
+      "website": "https://locksmithcrestviewfl.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://locksmithcrestviewfl.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies locally operated Best Local Locksmith, LLC and explicitly serves Crestview with residential, automotive and commercial locksmith services."
+    },
+    {
+      "name": "Thomas Marine & Auto",
+      "website": "https://www.thomasmarinepcb.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.thomasmarinepcb.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site explicitly serves Panama City, FL with boat/motor repairs, maintenance and improvements, including inboard and outboard systems. No additional city inferred from domain name."
+    },
+    {
+      "name": "Miracle Strip Welding and Marine Services",
+      "website": "https://www.miraclestripwelding.com/",
+      "regions": [
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.miraclestripwelding.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site lists ship repair, underwater welding/cutting and inspection with physical location 7117 McElvey Rd, Panama City Beach, FL 32408; specialty marine work, no boat-engine claim."
+    },
+    {
+      "name": "Mike's Auto Collision",
+      "website": "https://www.mikesautocollision.net/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.mikesautocollision.net/collision-repair",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official collision page confirms body panels, frame/structural and bumper repair at 2433 Jenks Ave, Panama City, FL."
+    },
+    {
+      "name": "Coastal Keys Locksmith",
+      "website": "https://coastalkeyslocksmith.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://coastalkeyslocksmith.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site explicitly serves both Panama City and Panama City Beach with mobile residential/commercial/automotive locksmith work; Lynn Haven home base."
+    },
+    {
+      "name": "Destin Tow Brothers",
+      "website": "https://destintowingwreckers.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://destintowingwreckers.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site describes local/long-distance and accident towing, explicitly naming Destin and Fort Walton Beach. Differing street numbers between home/contact pages omitted."
+    },
+    {
+      "name": "Gulf Coast Gutter",
+      "website": "https://gulfcoastgutterfl.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://gulfcoastgutterfl.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official company site identifies owner John Husbands, offers gutter installation/cleaning/repair and explicitly serves both Panama City cities and the 30A area including Grayton."
+    },
+    {
+      "name": "A+ Seamless Gutters",
+      "website": "https://www.gutterspanamacityfl.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.gutterspanamacityfl.com/about",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official about page explicitly serves Panama City with seamless gutter installation, cleaning and guards; business base Youngstown."
+    },
+    {
+      "name": "Bay Seamless Gutters",
+      "website": "https://www.bayseamlessgutters.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.bayseamlessgutters.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site explicitly serves Panama City with gutter installation, repair, cleaning and gutter guards."
+    },
+    {
+      "name": "Locksmith Chick",
+      "website": "https://locksmithchick.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://locksmithchick.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies mobile owner-operated locksmith service; coverage/service-area links explicitly name all included cities and services include lockouts, rekeying and car keys. Existing same-domain business identity retained. Perdido Key deferred because its page conflicts with a 50-mile Destin radius."
+    },
+    {
+      "name": "The Dent-ist Paintless Dent Repair",
+      "website": "https://panamacitydentrepair.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://panamacitydentrepair.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies Panama City Paintless Dent Repair by The Dent-ist, mobile dent repair at home/work in Panama City. Paintless-dent specialist, not full collision/body-paint repair."
+    },
+    {
+      "name": "Outlaw Dent Repair",
+      "website": "https://www.outlawdentrepair.com/",
+      "regions": [
+        "pensacola-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.outlawdentrepair.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site offers mobile paintless dent/hail repair and explicitly names service from Pensacola to Panama City. Only named endpoints included; no Alabama city assumed. Not full collision/paint repair."
+    },
+    {
+      "name": "Destin Auto Center",
+      "website": "https://www.autoworksofdestin.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.autoworksofdestin.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site describes complete auto repair and maintenance at 221 Main St, Destin, explicitly also serving Fort Walton Beach. AutoWorks Towing and destintowingservices.com not counted as additional towing businesses; existing canonical identity retained."
+    },
+    {
+      "name": "Oceanside Service Co.",
+      "website": "https://www.oceansideserviceco.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.oceansideserviceco.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official home page offers appliance repair; current FAQ text/FAQPage structured data explicitly names Gulf Breeze, Navarre and Fort Walton Beach. Rebranded from Oceanside Appliance Services LLC in March 2026; counted once. Pensacola Beach is not an active catalog city and was not imported."
+    }
+  ],
+  "skippedPlacements": [],
+  "httpChecks": [
+    {
+      "url": "https://coastalkeyslocksmith.com/",
+      "status": 200,
+      "finalUrl": "https://coastalkeyslocksmith.com/",
+      "bytes": 90441,
+      "checkedAt": "2026-10-29T20:10:37.064733+00:00",
+      "title": [
+        "Locksmith Panama City, FL | Coastal Keys Locksmith"
+      ]
+    },
+    {
+      "url": "https://destintowingwreckers.com/",
+      "status": 200,
+      "finalUrl": "https://destintowingwreckers.com/",
+      "bytes": 147470,
+      "checkedAt": "2026-10-29T20:10:36.038568+00:00",
+      "title": [
+        "Destin Towing Services, Destin Tow Brothers, Tow Truck"
+      ]
+    },
+    {
+      "url": "https://gulfcoastgutterfl.com/",
+      "status": 200,
+      "finalUrl": "https://gulfcoastgutterfl.com/",
+      "bytes": 255178,
+      "checkedAt": "2026-10-29T20:10:35.750717+00:00",
+      "title": [
+        "Gulf Coast Gutter - Exterior Home Improvement, Soffits and Fascia, Siding Installation and Repair"
+      ]
+    },
+    {
+      "url": "https://locksmithchick.com/",
+      "status": 200,
+      "finalUrl": "https://locksmithchick.com/",
+      "bytes": 39836,
+      "checkedAt": "2026-10-29T20:10:35.586586+00:00",
+      "title": [
+        "Locksmith Chick | 24/7 Locksmith Destin, 30A &amp; Emerald Coast"
+      ]
+    },
+    {
+      "url": "https://locksmithcrestviewfl.com/",
+      "status": 200,
+      "finalUrl": "https://locksmithcrestviewfl.com/",
+      "bytes": 129418,
+      "checkedAt": "2026-10-29T20:10:36.251014+00:00",
+      "title": [
+        "\r\n    Locksmith in Crestview, FL | Best Local Locksmith, LLC\r\n  "
+      ]
+    },
+    {
+      "url": "https://panamacitydentrepair.com/",
+      "status": 200,
+      "finalUrl": "https://panamacitydentrepair.com/",
+      "bytes": 97805,
+      "checkedAt": "2026-10-29T20:10:36.048956+00:00",
+      "title": [
+        "Panama City Paintless Dent Repair"
+      ]
+    },
+    {
+      "url": "https://www.autoworksofdestin.com/",
+      "status": 200,
+      "finalUrl": "https://www.autoworksofdestin.com/",
+      "bytes": 390153,
+      "checkedAt": "2026-10-29T20:10:35.770968+00:00",
+      "title": [
+        "\r\n    \n    Destin Auto Repair - Destin Auto Center\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.bayseamlessgutters.com/",
+      "status": 200,
+      "finalUrl": "https://www.bayseamlessgutters.com/",
+      "bytes": 114092,
+      "checkedAt": "2026-10-29T20:10:36.410511+00:00",
+      "title": [
+        "\r\n    \n    Bay Seamless Gutters | Gutter Services | Panama City, FL\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.gutterspanamacityfl.com/",
+      "status": 200,
+      "finalUrl": "https://www.gutterspanamacityfl.com/",
+      "bytes": 151221,
+      "checkedAt": "2026-10-29T20:10:38.616456+00:00",
+      "title": [
+        "\r\n    Gutter Services in Panama City, FL | A+ Seamless Gutters\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.gutterspanamacityfl.com/about",
+      "status": 200,
+      "finalUrl": "https://www.gutterspanamacityfl.com/about",
+      "bytes": 139576,
+      "checkedAt": "2026-10-29T20:10:38.658776+00:00",
+      "title": [
+        "\r\n    About Us | A+ Seamless Gutters\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.mikesautocollision.net/",
+      "status": 200,
+      "finalUrl": "https://www.mikesautocollision.net/",
+      "bytes": 219811,
+      "checkedAt": "2026-10-29T20:10:38.270727+00:00",
+      "title": [
+        "\r\n    Mike's Auto Collision | Frame Straightening | Panama City FL\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.mikesautocollision.net/collision-repair",
+      "status": 200,
+      "finalUrl": "https://www.mikesautocollision.net/collision-repair",
+      "bytes": 90330,
+      "checkedAt": "2026-10-29T20:10:38.190345+00:00",
+      "title": [
+        "\r\n    Collision Repair | Bumper Repair | Panama City, FL\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.miraclestripwelding.com/",
+      "status": 200,
+      "finalUrl": "https://www.miraclestripwelding.com/",
+      "bytes": 5001,
+      "checkedAt": "2026-10-29T20:10:39.686802+00:00",
+      "title": [
+        "Miracle Strip Welding and Marine Services - Home Page"
+      ]
+    },
+    {
+      "url": "https://www.outlawdentrepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.outlawdentrepair.com/",
+      "bytes": 1471535,
+      "checkedAt": "2026-10-29T20:10:41.185507+00:00",
+      "title": [
+        "Outlaw Dent Repair Pensacola FL | Expert Paintless Dent Repair | Call 402-221-4645"
+      ]
+    },
+    {
+      "url": "https://www.thomasmarinepcb.com/",
+      "status": 200,
+      "finalUrl": "https://www.thomasmarinepcb.com/",
+      "bytes": 546599,
+      "checkedAt": "2026-10-29T20:10:40.783419+00:00",
+      "title": [
+        "Home | Thomas Marine   Auto"
+      ]
+    },
+    {
+      "url": "https://www.oceansideserviceco.com/",
+      "status": 200,
+      "finalUrl": "https://www.oceansideserviceco.com/",
+      "bytes": 96844,
+      "checkedAt": "2026-10-29T20:12:05.888091+00:00"
+    }
+  ],
+  "deferredCandidates": [
+    {
+      "name": "Kingsbury Auto Body",
+      "website": "https://www.kingsburysautobody.com/",
+      "reason": "Official site inaccessible via research tool; directory profiles do not qualify."
+    },
+    {
+      "name": "Affordable Body Shop",
+      "reason": "Acquired by national chain Classic Collision; preserve current chain exclusion. Not imported."
+    },
+    {
+      "name": "AutoWorks Towing & Recovery / Destin Towing Services",
+      "reason": "Same operation as existing Destin Auto Center/AutoWorks domains; no additional towing identity counted."
+    },
+    {
+      "name": "Crestview Locksmith",
+      "website": "https://crestviewlocksmith.com/",
+      "reason": "Generic business identity with similar presentation to Locksmith Chick; not counted without identity reconciliation."
+    },
+    {
+      "name": "Locksmith Chick — Perdido Key placement",
+      "website": "https://locksmithchick.com/perdido-key/",
+      "reason": "Explicit Perdido page also states 50-mile Destin radius; geographic inconsistency deferred."
+    },
+    {
+      "name": "Gulfcoast Boat Repair",
+      "website": "https://gulfcoast-boatrepair-panamacity.com/",
+      "reason": "Business identity needs more verification before inclusion."
+    }
+  ]
+}

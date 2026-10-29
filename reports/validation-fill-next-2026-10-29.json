@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-10-29",
+  "baselineCommit": "fb37c238a44f9c5ea4661633dcf288144877146c",
+  "priorSeedRecords": 5816,
+  "finalSeedRecords": 5848,
+  "preservedPriorRecords": 5816,
+  "unchangedPriorSourceRecords": 1308,
+  "addedPlacements": 32,
+  "distinctBusinessIdentities": 14,
+  "newBusinessIdentities": 12,
+  "existingBusinessServiceExtensions": 2,
+  "uniqueIds": true,
+  "newNormalizedDomainCityTradeDuplicates": 0,
+  "validActiveSlugs": true,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "target": 20,
+  "projectedPairsAtTarget": 0,
+  "projectedDeficit": 19385,
+  "projectedEmpty": 77,
+  "byCity": {
+    "crestview-fl": 2,
+    "destin-fl": 3,
+    "fort-walton-beach-fl": 4,
+    "grayton-beach-fl": 2,
+    "gulf-breeze-fl": 2,
+    "milton-fl": 1,
+    "navarre-fl": 2,
+    "pace-fl": 1,
+    "panama-city-beach-fl": 4,
+    "panama-city-fl": 9,
+    "pensacola-fl": 2
+  },
+  "byCategory": {
+    "appliance-repair": 3,
+    "auto-body-collision": 4,
+    "auto-mechanics": 2,
+    "gutters": 5,
+    "locksmith": 14,
+    "marine-services": 2,
+    "towing": 2
+  },
+  "notes": [
+    "Only append-only source data and research/checkpoint files changed.",
+    "Counts are generated coverage, not fresh independent verification of every historical website.",
+    "No five-listing cap in seed pipeline; current audit minimum already 20.",
+    "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+  ]
+}
