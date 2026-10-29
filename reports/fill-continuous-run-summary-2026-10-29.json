@@ -1,0 +1,185 @@
+{
+  "verifiedAt": "2026-10-29T22:40:43.211127+00:00",
+  "runBaseline": "db00e381d411a21ebd41fba494e9909fd6889b08",
+  "lastDataCommit": "0c4214e708f6738700284e4dd2210259f122287b",
+  "goalComplete": false,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "target": 20,
+  "publishedPlacements": 584,
+  "distinctBusinesses": 103,
+  "newBusinessIdentities": 74,
+  "existingBusinessExtensions": 29,
+  "citiesReceivingAdditions": 26,
+  "byCity": {
+    "biloxi-ms": 3,
+    "clearwater-fl": 1,
+    "crestview-fl": 57,
+    "daphne-al": 7,
+    "destin-fl": 74,
+    "fairhope-al": 7,
+    "foley-al": 10,
+    "fort-walton-beach-fl": 61,
+    "grayton-beach-fl": 47,
+    "gulf-breeze-fl": 31,
+    "gulf-shores-al": 10,
+    "gulfport-ms": 2,
+    "jacksonville-fl": 1,
+    "milton-fl": 29,
+    "mobile-al": 7,
+    "navarre-fl": 32,
+    "orange-beach-al": 6,
+    "orlando-fl": 2,
+    "pace-fl": 25,
+    "panama-city-beach-fl": 58,
+    "panama-city-fl": 71,
+    "pensacola-fl": 23,
+    "perdido-key-fl": 12,
+    "st-petersburg-fl": 1,
+    "tallahassee-fl": 6,
+    "tampa-fl": 1
+  },
+  "byCategory": {
+    "appliance-repair": 5,
+    "auto-body-collision": 1,
+    "electrical": 71,
+    "fence-builders": 21,
+    "flooring": 34,
+    "garage-door-repair": 9,
+    "generator-installation": 29,
+    "gutters": 4,
+    "hurricane-shutters-impact-windows": 44,
+    "hvac": 163,
+    "insulation": 24,
+    "kitchen-bath-remodeling": 7,
+    "locksmith": 4,
+    "painting": 4,
+    "pest-control": 47,
+    "plumbing": 21,
+    "pool-installation": 42,
+    "pool-service": 2,
+    "screen-enclosures-pool-cages": 7,
+    "septic-services": 3,
+    "towing": 12,
+    "tree-service": 30
+  },
+  "waves": [
+    {
+      "commit": "98074a62e44822c5475e444303107fef32162c35",
+      "placements": 206,
+      "newIdentities": 16,
+      "existingIdentityExtensions": 10,
+      "liveEvidenceReport": "reports/live-fill-continuous-2026-10-29.json"
+    },
+    {
+      "commit": "e4b2fc66bb9d826bb41cee1bddc4549e85f9347c",
+      "placements": 84,
+      "newIdentities": 24,
+      "existingIdentityExtensions": 5,
+      "liveEvidenceReport": "reports/live-fill-continuous2-2026-10-29.json"
+    },
+    {
+      "commit": "f464acfc52f0e5378021c4d3e27084d5336c742a",
+      "placements": 212,
+      "newIdentities": 22,
+      "existingIdentityExtensions": 9,
+      "liveEvidenceReport": "reports/live-fill-continuous3-2026-10-29.json"
+    },
+    {
+      "commit": "0c4214e708f6738700284e4dd2210259f122287b",
+      "placements": 82,
+      "newIdentities": 12,
+      "existingIdentityExtensions": 5,
+      "liveEvidenceReport": "reports/live-fill-continuous4-2026-10-29.json"
+    }
+  ],
+  "priorSeedRecords": 5867,
+  "finalSeedRecords": 6451,
+  "allPriorRecordsPreserved": true,
+  "freshLiveCoverage": {
+    "cities": 40,
+    "categories": 30,
+    "combinations": 1200,
+    "atOrAbove20": 8,
+    "below20": 1192,
+    "empty": 75,
+    "missingPlacements": 18804
+  },
+  "cityCategoryMilestones": [
+    {
+      "city": "crestview-fl",
+      "category": "hvac",
+      "liveCount": 23,
+      "officialWebsiteIdentityReview": "completed in this session"
+    },
+    {
+      "city": "destin-fl",
+      "category": "hvac",
+      "liveCount": 25,
+      "officialWebsiteIdentityReview": "completed in this session"
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "hvac",
+      "liveCount": 25,
+      "officialWebsiteIdentityReview": "completed in this session"
+    },
+    {
+      "city": "gulf-breeze-fl",
+      "category": "hvac",
+      "liveCount": 24,
+      "officialWebsiteIdentityReview": "historical re-verification pending; coverage count only"
+    },
+    {
+      "city": "navarre-fl",
+      "category": "hvac",
+      "liveCount": 24,
+      "officialWebsiteIdentityReview": "historical re-verification pending; coverage count only"
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "flooring",
+      "liveCount": 20,
+      "officialWebsiteIdentityReview": "completed in this session"
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "hvac",
+      "liveCount": 21,
+      "officialWebsiteIdentityReview": "completed in this session"
+    },
+    {
+      "city": "tampa-fl",
+      "category": "locksmith",
+      "liveCount": 20,
+      "officialWebsiteIdentityReview": "completed in this session"
+    }
+  ],
+  "baselineCoverage": {
+    "atOrAbove20": 1,
+    "empty": 77,
+    "missingPlacements": 19366
+  },
+  "countDeficitReduction": 562,
+  "emptyCombinationReduction": 2,
+  "continuation": {
+    "automationId": "6ae39c307e508191a867ba636d743a6e",
+    "enabled": true,
+    "unchangedSchedule": "Daily 03:00 America/Chicago",
+    "note": "No claim of continuous execution between chat turns. Resume from newest main and fresh live coverage; avoid competing writes."
+  },
+  "blockers": [
+    "Full historical official-website/identity audit remains unfinished; coverage deficit is count-based, not proof every existing listing meets current evidence standard.",
+    "Gulf Breeze/Navarre HVAC have24 displayed businesses but need We Care/Anderson partnership and other historical identity re-verification.",
+    "Existing A to Z appliance directory-only URL needs reconciliation; no deletion or duplicate identity introduced.",
+    "Working official sites or explicit city coverage could not be verified for several researched candidates; exclusions recorded in each source report.",
+    "Current main has40 active cities and30 visible categories; ten retired categories and national-chain exclusions preserved."
+  ],
+  "resumePriorities": [
+    "Refresh latest main, active-run state and full live audit before edits.",
+    "Prioritize lowest counts in Destin, Fort Walton Beach, Crestview and Panama City, especially collision, PC insulation/locksmith, appliance repair, roofing, marine and irrigation gaps.",
+    "Then proceed nearest Pensacola outward; apply current catalogs rather than historic40-category assumptions.",
+    "Preserve all current records/claims/paid placements and append verified evidence; use expected-head lease on main.",
+    "Pause only after fresh audit verifies every active combination reaches20 distinct relevant businesses with working official sites."
+  ]
+}

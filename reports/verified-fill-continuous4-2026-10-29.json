@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published and live verified",
   "sourceRecords": [
     {
       "name": "Cadenhead Services",
@@ -660,5 +660,8 @@
     "Father and Son added only to pest-control; lawn fertilization/ornamental treatments/irrigation checks do not establish general landscaping, tree removal or sprinkler repair.",
     "No pest-control category added to tree companies based only on tree health care.",
     "PCB remains distinct from PC; no broad nearby-city assumptions."
-  ]
+  ],
+  "publishedCommit": "0c4214e708f6738700284e4dd2210259f122287b",
+  "deploymentStatus": "success",
+  "liveEvidenceReport": "reports/live-fill-continuous4-2026-10-29.json"
 }
