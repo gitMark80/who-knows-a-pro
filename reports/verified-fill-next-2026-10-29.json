@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "Published to main; production deployment succeeded; all 32 placements verified live on 25 category pages.",
   "sourceRecords": [
     {
       "name": "Best Local Locksmith, LLC",
@@ -396,5 +396,6 @@
       "website": "https://gulfcoast-boatrepair-panamacity.com/",
       "reason": "Business identity needs more verification before inclusion."
     }
-  ]
+  ],
+  "publishedCommit": "935785d8ad24f5b2b868b7749fc647806a07a7e7"
 }

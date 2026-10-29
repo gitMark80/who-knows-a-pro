@@ -1,0 +1,669 @@
+{
+  "date": "2026-10-29",
+  "goal": 20,
+  "status": "Published and all 287 placements verified live; overall goal incomplete",
+  "dataCommits": [
+    "fb37c238a44f9c5ea4661633dcf288144877146c",
+    "935785d8ad24f5b2b868b7749fc647806a07a7e7"
+  ],
+  "addedPlacements": 287,
+  "distinctBusinesses": 54,
+  "newBusinessIdentities": 40,
+  "citiesWithAdditions": 20,
+  "byCity": {
+    "crestview-fl": 21,
+    "daphne-al": 7,
+    "destin-fl": 24,
+    "dothan-al": 4,
+    "fairhope-al": 8,
+    "foley-al": 6,
+    "fort-walton-beach-fl": 26,
+    "grayton-beach-fl": 14,
+    "gulf-breeze-fl": 15,
+    "gulf-shores-al": 8,
+    "milton-fl": 13,
+    "mobile-al": 4,
+    "navarre-fl": 19,
+    "orange-beach-al": 11,
+    "pace-fl": 9,
+    "panama-city-beach-fl": 25,
+    "panama-city-fl": 43,
+    "pensacola-fl": 18,
+    "perdido-key-fl": 8,
+    "tallahassee-fl": 4
+  },
+  "activeCities": 40,
+  "activeCategories": 30,
+  "priorityResume": {
+    "destin-fl": [
+      {
+        "category": "auto-body-collision",
+        "currentCount": 3,
+        "deficit": 17
+      },
+      {
+        "category": "towing",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "appliance-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "electrical",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "fence-builders",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "flooring",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "garage-door-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "generator-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "gutters",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "hvac",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "marine-services",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pest-control",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pool-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pool-service",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "roofing",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "screen-enclosures-pool-cages",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "tree-service",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "water-damage-mold-remediation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "auto-mechanics",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "home-inspections",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "hurricane-shutters-impact-windows",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "insulation",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "irrigation-sprinkler-repair",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "locksmith",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "plumbing",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "kitchen-bath-remodeling",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "landscaping",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "concrete",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "septic-services",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "painting",
+        "currentCount": 9,
+        "deficit": 11
+      }
+    ],
+    "fort-walton-beach-fl": [
+      {
+        "category": "electrical",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "fence-builders",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "flooring",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "garage-door-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "generator-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "gutters",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "insulation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "irrigation-sprinkler-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "marine-services",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pest-control",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pool-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "roofing",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "tree-service",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "water-damage-mold-remediation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "appliance-repair",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "auto-body-collision",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "auto-mechanics",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "home-inspections",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "hurricane-shutters-impact-windows",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "hvac",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "landscaping",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "locksmith",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "plumbing",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "pool-service",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "screen-enclosures-pool-cages",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "towing",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "kitchen-bath-remodeling",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "concrete",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "septic-services",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "painting",
+        "currentCount": 9,
+        "deficit": 11
+      }
+    ],
+    "crestview-fl": [
+      {
+        "category": "towing",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "appliance-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "electrical",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "fence-builders",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "flooring",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "garage-door-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "generator-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "gutters",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "home-inspections",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "hvac",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "insulation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "irrigation-sprinkler-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "marine-services",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pest-control",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pool-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "roofing",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "tree-service",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "water-damage-mold-remediation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "auto-body-collision",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "auto-mechanics",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "hurricane-shutters-impact-windows",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "landscaping",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "plumbing",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "pool-service",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "screen-enclosures-pool-cages",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "kitchen-bath-remodeling",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "locksmith",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "painting",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "concrete",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "septic-services",
+        "currentCount": 8,
+        "deficit": 12
+      }
+    ],
+    "panama-city-fl": [
+      {
+        "category": "hurricane-shutters-impact-windows",
+        "currentCount": 3,
+        "deficit": 17
+      },
+      {
+        "category": "insulation",
+        "currentCount": 3,
+        "deficit": 17
+      },
+      {
+        "category": "pool-installation",
+        "currentCount": 3,
+        "deficit": 17
+      },
+      {
+        "category": "septic-services",
+        "currentCount": 3,
+        "deficit": 17
+      },
+      {
+        "category": "appliance-repair",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "auto-body-collision",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "flooring",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "kitchen-bath-remodeling",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "locksmith",
+        "currentCount": 4,
+        "deficit": 16
+      },
+      {
+        "category": "auto-mechanics",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "electrical",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "fence-builders",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "garage-door-repair",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "generator-installation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "gutters",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "hvac",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pest-control",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "plumbing",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "pool-service",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "roofing",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "towing",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "tree-service",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "water-damage-mold-remediation",
+        "currentCount": 5,
+        "deficit": 15
+      },
+      {
+        "category": "home-inspections",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "marine-services",
+        "currentCount": 6,
+        "deficit": 14
+      },
+      {
+        "category": "concrete",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "screen-enclosures-pool-cages",
+        "currentCount": 7,
+        "deficit": 13
+      },
+      {
+        "category": "landscaping",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "painting",
+        "currentCount": 8,
+        "deficit": 12
+      },
+      {
+        "category": "irrigation-sprinkler-repair",
+        "currentCount": 9,
+        "deficit": 11
+      }
+    ]
+  },
+  "notes": [
+    "Use latest main, catalogs and source records as source of truth.",
+    "Fresh head comparison/lease required before publishing; preserve unrelated edits, claims and paid data.",
+    "No all-directory historical website audit completed; displayed counts are only coverage indicators.",
+    "Current main retired ten categories; do not restore retired categories or excluded national chains.",
+    "Research genuine gaps; never pad, infer unsupported coverage or count aliases separately."
+  ],
+  "livePairsAt20": 0,
+  "liveEmptyPairs": 77,
+  "liveDeficit": 19385,
+  "liveBelowTarget": 1200,
+  "finalSeedRecords": 5848,
+  "preservedOriginalSeedRecords": 5561,
+  "auditSource": "reports/live-directory-coverage.csv",
+  "sourceReports": [
+    "reports/verified-fill-more-2026-10-29.json",
+    "reports/verified-fill-next-2026-10-29.json"
+  ],
+  "liveReports": [
+    "reports/live-fill-more-2026-10-29.json",
+    "reports/live-fill-next-2026-10-29.json"
+  ]
+}
