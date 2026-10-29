@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published to main; successful production deployment; all nineteen additions plus existing Pop-A-Lock verified live",
   "sourceRecords": [
     {
       "name": "Benny's Key Shop",
@@ -636,5 +636,7 @@
     "deficit": 19385,
     "tampaLocksmith": 1
   },
-  "concurrencyCheck": "Refreshed current main and fresh detached checkout; no open PRs or queued/in-progress GitHub workflow runs. Main will be updated with expected-head protection."
+  "concurrencyCheck": "Refreshed current main and fresh detached checkout; no open PRs or queued/in-progress GitHub workflow runs. Main will be updated with expected-head protection.",
+  "publishedCommit": "3f03f089912f84fb438d586f9dfeff268bc18c08",
+  "liveVerificationReport": "reports/live-fill-tampa-2026-10-29.json"
 }

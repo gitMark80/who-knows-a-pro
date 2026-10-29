@@ -311,3 +311,11 @@ Next actions:
 - Deferred: Flokey conflicting location/coverage; Unlock Me inaccessible official site; Fix A Lock/STAT branding ambiguity; Lock Man insufficient explicit Tampa coverage. Alternate domains and multiple branches are not additional businesses. No prohibited listing sources, paid requests or outreach.
 - Publication/live verification pending at this checkpoint. Projected coverage: 1/1,200 pairs at 20, 1,199 below, 77 empty, deficit 19,366. Overall task remains incomplete.
 - Resume from current main and fresh live audit. After confirming Tampa publication, continue lowest active category counts in Destin, Fort Walton Beach, Crestview and Panama City, then closest cities outward. Never report city/category completion from aggregate addition totals.
+
+### Tampa publication and full live audit
+
+- Published data commit `3f03f089912f84fb438d586f9dfeff268bc18c08` using an expected-main-head update. Vercel production deployment succeeded: https://vercel.com/gitmark80s-projects/who-knows-a-pro/AxH53DZzziiLAfw8KCcQvTUtdJyH .
+- **Tampa locksmith is live at 20 distinct businesses (19 new + 1 existing).** https://whoknowsapro.com/tampa-fl/locksmith shows 20; all 20 profile and official-website links are present. All 20 profile pages returned HTTP 200 and contain the expected official-site link. Evidence: `reports/live-fill-tampa-2026-10-29.json`. All counted official homepages passed HTTP 200 and relevant service/location content review.
+- Fresh full production audit: **1/1,200 active city/category combinations at or above 20, 1,199 below, 77 empty, deficit 19,366.** Coverage CSV updated. The single completed combination is Tampa locksmith; aggregate additions must not be represented as directory-wide completion. Historical combinations still require individual identity/website verification before final completion.
+- Run additions by city: Tampa +19; by category: locksmith +19. No other city/category count changed. Existing 5,848 seed records remain intact. Source evidence, identity aliases, deferred candidates and validation are committed.
+- Resume from the newest main, check for active runs and current live coverage, then continue priority-city low counts and nearby gaps. The overall twenty-business goal remains incomplete; do not pause continuation.
