@@ -1,0 +1,1078 @@
+{
+  "date": "2026-10-29",
+  "baselineCommit": "db00e381d411a21ebd41fba494e9909fd6889b08",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Palm Bay Pools",
+      "website": "https://www.panamacitypools.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.panamacitypools.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official website explicitly offers custom pool design, construction and renovation in Panama City; identifies Palm Bay Pools LLC, Southport office and 850-571-3090. No routine cleaning service inferred."
+    },
+    {
+      "name": "Unique Pools",
+      "website": "https://www.uniquepoolspcb.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "pool-installation",
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.uniquepoolspcb.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site lists new pools, renovations, pool service/repairs and 1411 Calhoun Avenue, Panama City. Phone 850-866-1773. Counted as one business."
+    },
+    {
+      "name": "FNF Pools",
+      "website": "https://fnfpools.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://fnfpools.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies family-owned pool/spa construction business explicitly serving Bay, Walton and Okaloosa counties; approved cities are within those named counties. No cleaning/maintenance category inferred."
+    },
+    {
+      "name": "Panama Pools & Spas",
+      "website": "https://panamapoolsandspas.com/",
+      "regions": [
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "pool-installation",
+        "pool-service"
+      ],
+      "sourceUrl": "https://panamapoolsandspas.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage explicitly describes construction, renovation, repairs, weekly cleaning and service in Walton County; Grayton Beach is within that stated coverage. Existing canonical identity retained."
+    },
+    {
+      "name": "Cox Pools",
+      "website": "https://coxpools.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://coxpools.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site describes custom residential/commercial pool construction and explicitly names Panama City, Panama City Beach and Destin in service area. Existing coxpools.com identity retained; other Cox domains/branches are not counted as extra businesses."
+    },
+    {
+      "name": "Insulation Panama City",
+      "website": "https://insulationpanamacity.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://insulationpanamacity.com/our-history/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site offers spray foam, fiberglass and blown-in insulation; named service counties include Bay, Walton, Okaloosa, Escambia and Santa Rosa, covering listed cities. History identifies owners Mike and Nichole Vickers, Vickers Group LLC and IPC Insulation of Mary Esther as the same business; count once. Phone 850-713-5744."
+    },
+    {
+      "name": "American Garage Door",
+      "website": "https://www.garagedoorus.com/fl/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.garagedoorus.com/projects/bahama-shutters-installation-panama-city-fl",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official project page documents StormSecure impact Bahama shutter installation on three Panama City homes and offers the service in Panama City. Existing American Garage Door identity and website retained."
+    },
+    {
+      "name": "Payne Pool Professionals",
+      "website": "https://paynepoolprofessionals.com/",
+      "regions": [
+        "panama-city-fl",
+        "grayton-beach-fl",
+        "foley-al",
+        "gulf-shores-al",
+        "orange-beach-al",
+        "daphne-al",
+        "fairhope-al",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://paynepoolprofessionals.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage describes custom pool construction through regional teams serving Bay/Walton counties, Baldwin County AL, Tampa Bay (Hillsborough/Pinellas), Orlando (Orange) and Jacksonville (Duval). Listed cities lie within that explicit coverage; no claim of a storefront in each city. Existing identity retained; pool types vary by market."
+    },
+    {
+      "name": "Superior Septic Sewer",
+      "website": "https://www.superiorsepticsewer.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.superiorsepticsewer.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site describes residential/commercial septic service in Panama City and lists 7315 Highway 231 North, Panama City, phone 850-784-1454. Distinct from Superior Septic Services at superiorsepticservices.com in the western Panhandle."
+    },
+    {
+      "name": "Walton Electric",
+      "website": "https://waltonelectricians.com/services/",
+      "regions": [
+        "destin-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "electrical",
+        "generator-installation"
+      ],
+      "sourceUrl": "https://waltonelectricians.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page explicitly lists Destin and Crestview; official services include residential/commercial electrical work and generator installation. Existing canonical name and website retained."
+    },
+    {
+      "name": "RL Baker Electric",
+      "website": "https://www.rlbakerelectric.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "electrical",
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.rlbakerelectric.com/near-me",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page names all listed cities and offers electrical repair/installations and generator service. Existing canonical identity retained; official generator installation page also confirms installations: https://www.rlbakerelectric.com/electrical-services/generators ."
+    },
+    {
+      "name": "RL Baker Electric",
+      "website": "https://www.rlbakerelectric.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.rlbakerelectric.com/near-me",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page names all listed cities and offers electrical repair/installations and generator service. Existing canonical identity retained; official generator installation page also confirms installations: https://www.rlbakerelectric.com/electrical-services/generators ."
+    },
+    {
+      "name": "McGee Electric LLC",
+      "website": "https://www.mcgeeelectricllc.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://www.mcgeeelectricllc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage identifies locally operated Milton electrical contractor and explicitly names all listed service cities. Residential/commercial wiring, panels, lighting and electrical repairs. Phone 850-281-8076."
+    },
+    {
+      "name": "Iknerco, Inc.",
+      "website": "https://www.iknercontractors.com/",
+      "regions": [
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "electrical",
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.iknercontractors.com/electrical-contractors/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official electrical-contractors page offers installation/repair and generator installation and explicitly serves Escambia, Santa Rosa, Okaloosa and Walton counties, listing all cities except Grayton Beach (within named Walton coverage). Existing Iknerco identity retained."
+    },
+    {
+      "name": "Destin Tow Brothers",
+      "website": "https://destintowingwreckers.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://destintowingwreckers.com/heavy-duty-towing",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official heavy-duty towing page explicitly lists Crestview, covering semi trucks, RVs and commercial vehicles. Scope is heavy-duty towing/recovery; no separate business created."
+    },
+    {
+      "name": "Meyers Electric",
+      "website": "https://meyerselectric.net/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "electrical",
+        "generator-installation"
+      ],
+      "sourceUrl": "https://meyerselectric.net/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers residential/commercial electrical work and installation/service of Generac standby generators. Explicit service areas include Panama City, PCB, Destin, Fort Walton Beach and Walton County/30A covering Grayton Beach. Phone 850-588-4341; one identity."
+    },
+    {
+      "name": "Michael Abell Electrical Contractors",
+      "website": "https://michaelabellelectricalcontractors.com/",
+      "regions": [
+        "destin-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://michaelabellelectricalcontractors.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies family-owned residential electrical contractor, service work, remodel wiring and lighting installs; Destin and Grayton Beach expressly listed. Phone 850-320-4922."
+    },
+    {
+      "name": "Dirty N Sturdy Fencing",
+      "website": "https://www.dirtynsturdyfencing.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.dirtynsturdyfencing.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies owners Jon and Brittany Younker, residential/commercial fence installation and repair, and explicitly lists Destin, Fort Walton Beach and Crestview service areas. Phone 850-407-2128."
+    },
+    {
+      "name": "K & K Solutions Inc.",
+      "website": "https://www.kksolutionsinc.com/",
+      "regions": [
+        "crestview-fl",
+        "pace-fl",
+        "milton-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.kksolutionsinc.com/service-fences-decks-baker",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official fencing page offers wood/chain-link/custom fence construction and repairs, including rural/large-property work; all listed cities explicitly named in service areas. Phone 970-210-3665."
+    },
+    {
+      "name": "Florida Window Coverings",
+      "website": "https://floridawindowcoverings.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://floridawindowcoverings.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site identifies founder Paul Rohrs and Carrabelle-based company; explicitly serves Panama City, PCB and Tallahassee for installed hurricane/storm shutters and residential/commercial window film. Window tinting is buildings, not automotive. Phone 850-528-9355."
+    },
+    {
+      "name": "A Better View Sash & Door Inc",
+      "website": "https://abetterviewsnd.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://abetterviewsnd.com/window-types/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official window-types page describes impact-window installation in Destin, identifies Panama City/PCB window installation service and Panama City 32405 business address. Phone 850-624-1347; naming variants A Better View For You require identity caution and are not separately listed."
+    },
+    {
+      "name": "A to Z Shutters & Railing",
+      "website": "https://www.atozshuttersandrailing.com/",
+      "regions": [
+        "foley-al",
+        "gulf-shores-al",
+        "daphne-al",
+        "fairhope-al",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.atozshuttermasters.com/about-a-to-z-shutter-masters/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site explicitly installs hurricane shutters throughout the coastal corridor from Slidell to Panama City, plus all Baldwin County. A to Z Shutter Masters and A to Z Shutters & Railing share phone 251-970-2869 and 2863 South Pine Street, Foley; preserved existing canonical identity and did not count alternate domain separately. Coastal coverage is not a storefront claim."
+    },
+    {
+      "name": "A to Z Shutters & Railing",
+      "website": "https://www.atozshuttersandrailing.com/",
+      "regions": [
+        "foley-al",
+        "gulf-shores-al",
+        "orange-beach-al",
+        "daphne-al",
+        "fairhope-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.atozshuttersandrailing.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site states all Baldwin County service and describes custom aluminum fence and gate installation and repair. Same phone and Foley address as A to Z Shutter Masters; one identity."
+    },
+    {
+      "name": "Brannan Aluminum",
+      "website": "https://brannanaluminum.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://brannanaluminum.com/service-area",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page offers hurricane-protection installation across Bay, Walton, Okaloosa, Santa Rosa and Escambia counties, explicitly naming all target cities except Perdido Key (covered by all Escambia County). Help center and shutter product pages confirm installation. Phone 850-234-6754. Screen-enclosure coverage evaluated separately."
+    },
+    {
+      "name": "Brannan Aluminum",
+      "website": "https://brannanaluminum.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://brannanaluminum.com/screen-enclosures",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official pool-screen page describes custom pool cages and completed work in Panama City Beach and 30A, with a Bay County construction team. Screen-enclosure coverage limited here to Bay County and the explicitly served 30A corridor; not extended to every hurricane-shutter service county."
+    },
+    {
+      "name": "Coastal Outdoor Systems",
+      "website": "https://www.coastaloutdoorsystems.com/products/seamless-gutters",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "gutters",
+        "fence-builders",
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.coastaloutdoorsystems.com/destin",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Destin page describes installed seamless gutters, fences and screened porches and names Fort Walton Beach, Crestview, South Walton and 30A communities as service areas. Preserved existing canonical website and identity; not Coastal Outdoor FL in Tampa."
+    },
+    {
+      "name": "Milton Electrical Services",
+      "website": "https://miltonelectricalservices.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "electrical",
+        "generator-installation"
+      ],
+      "sourceUrl": "https://miltonelectricalservices.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official home page offers electrical repair/installation and home generator installation, explicitly serving Destin, Fort Walton Beach, Panama City Beach and the 30A corridor. Phone 850-789-3553. The business name alone is not evidence for Milton city coverage, so Milton was not added."
+    },
+    {
+      "name": "Royal Exteriors",
+      "website": "https://www.royalexteriors.us/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://royalexteriorswindows.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official window offering includes impact-resistant replacement windows. Primary site confirms installation and Panama City office, 758 W 13th St Building 1, phone 850-276-1450. The campaign domain shares the office/brand and is not a second business. No geographic expansion inferred from reviews or generic Southeast marketing."
+    },
+    {
+      "name": "Southern Poolscapes",
+      "website": "https://southernpoolscapes.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "navarre-fl",
+        "pensacola-fl",
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "mobile-al",
+        "orange-beach-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://southernpoolscapes.com/locations/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official locations page explicitly lists each target city for custom gunite and fiberglass pool construction, with regional team contacts. Panama City page independently confirms Bay County construction. No maintenance category or office in every service city inferred."
+    },
+    {
+      "name": "American Garage Door",
+      "website": "https://www.garagedoorus.com/fl/",
+      "regions": [
+        "pensacola-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "daphne-al",
+        "orange-beach-al",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.garagedoorus.com/fl/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page explicitly lists each city for garage-door services; navigation and service text describe spring, opener, track and panel repairs. Same existing canonical domain/name; not RTS All-American Garage Doors."
+    },
+    {
+      "name": "American Garage Door",
+      "website": "https://www.garagedoorus.com/fl/",
+      "regions": [
+        "pensacola-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "perdido-key-fl",
+        "foley-al",
+        "gulf-shores-al",
+        "fairhope-al",
+        "navarre-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.garagedoorus.com/garage-doors/hurricane-protection",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page describes installed window hurricane protection, impact Bahama/colonial and rolling/accordion shutters; service-area footer names listed cities and a Navarre installation image documents hurricane fabric work. Preserved existing canonical identity."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "RL Baker Electric",
+      "region": "pace-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "RL Baker Electric",
+      "region": "milton-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "A to Z Shutters & Railing",
+      "region": "orange-beach-al",
+      "trade": "hurricane-shutters-impact-windows",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "websiteChecks": [
+    {
+      "url": "https://abetterviewsnd.com/",
+      "status": 200,
+      "finalUrl": "https://abetterviewsnd.com/",
+      "bytes": 429443,
+      "checkedAt": "2026-10-29T22:03:57.116073+00:00",
+      "title": [
+        "Window &amp; Door Installation FL Panhandle | A Better View Sash &amp; Door"
+      ],
+      "contentSha256": "8c9a21792be5490a8ed2cca7592605ba55817dd0b1bc5712b00ab79ff7d9270b"
+    },
+    {
+      "url": "https://abetterviewsnd.com/window-types/",
+      "status": 200,
+      "finalUrl": "https://abetterviewsnd.com/home",
+      "bytes": 429434,
+      "checkedAt": "2026-10-29T22:04:01.371239+00:00",
+      "title": [
+        "Window &amp; Door Installation FL Panhandle | A Better View Sash &amp; Door"
+      ],
+      "contentSha256": "bda44815b4d66cd270799241a724c4dd28e782a3504e201fcb947f671a6023f7"
+    },
+    {
+      "url": "https://brannanaluminum.com/",
+      "status": 200,
+      "finalUrl": "https://brannanaluminum.com/",
+      "bytes": 590090,
+      "checkedAt": "2026-10-29T22:03:57.627810+00:00",
+      "title": [
+        "Hurricane Shutters &amp; Outdoor Living, Panama City Beach | Brannan"
+      ],
+      "contentSha256": "bb10304cd4d8b18d6a8bd46e063148243479d2f47feca461379710d68e19d03f"
+    },
+    {
+      "url": "https://brannanaluminum.com/screen-enclosures",
+      "status": 200,
+      "finalUrl": "https://brannanaluminum.com/screen-enclosures",
+      "bytes": 632127,
+      "checkedAt": "2026-10-29T22:03:57.604245+00:00",
+      "title": [
+        "Pool Screen Enclosures in Panama City Beach &amp; 30A, FL | Brannan"
+      ],
+      "contentSha256": "9a76d3a5c5cfd523eb4f0ddcce6219655543da5038ae997f003ae9d73b4ae3fe"
+    },
+    {
+      "url": "https://brannanaluminum.com/service-area",
+      "status": 200,
+      "finalUrl": "https://brannanaluminum.com/service-area",
+      "bytes": 807567,
+      "checkedAt": "2026-10-29T22:03:57.620712+00:00",
+      "title": [
+        "Service Areas: Panama City Beach to Pensacola | Brannan Aluminum"
+      ],
+      "contentSha256": "277a67840b261f587b5ec1340209fa5b7cd3cc838daf235a23b4d6c5cfb528f1"
+    },
+    {
+      "url": "https://coxpools.com/",
+      "status": 200,
+      "finalUrl": "https://coxpools.com/",
+      "bytes": 189384,
+      "checkedAt": "2026-10-29T22:03:56.339107+00:00",
+      "title": [
+        "Custom Pool Builder in Panama City Beach, FL | Cox Pools"
+      ],
+      "contentSha256": "0ca87dd56a7d0ab58e33f457126c7b0fbc4904fcb4301d902132b2915f0b4532"
+    },
+    {
+      "url": "https://destintowingwreckers.com/",
+      "status": 200,
+      "finalUrl": "https://destintowingwreckers.com/",
+      "bytes": 146996,
+      "checkedAt": "2026-10-29T22:03:57.242573+00:00",
+      "title": [
+        "Destin Towing Services, Destin Tow Brothers, Tow Truck"
+      ],
+      "contentSha256": "9bfcf04d2f8b8f68e152dff186bfeb6db9311a91a68310ab916423d040a01da5"
+    },
+    {
+      "url": "https://destintowingwreckers.com/heavy-duty-towing",
+      "status": 200,
+      "finalUrl": "https://destintowingwreckers.com/heavy-duty-towing",
+      "bytes": 115872,
+      "checkedAt": "2026-10-29T22:03:57.184677+00:00",
+      "title": [
+        "Heavy Duty Towing"
+      ],
+      "contentSha256": "5a18e135e7600fb0ed243c5eb828a2c93e04eb900a3a29c40189b72950df2df1"
+    },
+    {
+      "url": "https://floridawindowcoverings.com/",
+      "status": 200,
+      "finalUrl": "https://floridawindowcoverings.com/",
+      "bytes": 641993,
+      "checkedAt": "2026-10-29T22:03:59.920005+00:00",
+      "title": [
+        "Window Treatments | Hurrcane &amp; Storm Shutters Carrabelle"
+      ],
+      "contentSha256": "7a369ad3d0e4a9752092240866cab5946af2829785835f2c184d15924b167fb9"
+    },
+    {
+      "url": "https://fnfpools.com/",
+      "status": 200,
+      "finalUrl": "https://fnfpools.com/",
+      "bytes": 181353,
+      "checkedAt": "2026-10-29T22:04:04.694644+00:00",
+      "title": [
+        "Home - FNF Pools"
+      ],
+      "contentSha256": "094ddda49ea20d02ed8cc0e4e9e14af21adfa6adbbeaaa92a8c50b4c35e9280c"
+    },
+    {
+      "url": "https://insulationpanamacity.com/",
+      "status": 200,
+      "finalUrl": "https://insulationpanamacity.com/",
+      "bytes": 289676,
+      "checkedAt": "2026-10-29T22:04:00.506039+00:00",
+      "title": [
+        "Spray Foam Contractor Panama City - Insulation Panama City"
+      ],
+      "contentSha256": "83380762b4f9eedf974386a077607749a3b6a4778f90d837a6f1b2d92a71ad9a"
+    },
+    {
+      "url": "https://insulationpanamacity.com/our-history/",
+      "status": 200,
+      "finalUrl": "https://insulationpanamacity.com/our-history/",
+      "bytes": 202392,
+      "checkedAt": "2026-10-29T22:04:00.494519+00:00",
+      "title": [
+        "Our History - Insulation Panama City"
+      ],
+      "contentSha256": "963214ae1936bab6c11e4d0de2586a685c4674a1afe7ad38a0c213e7e9ece398"
+    },
+    {
+      "url": "https://meyerselectric.net/",
+      "status": 200,
+      "finalUrl": "https://meyerselectric.net/",
+      "bytes": 157372,
+      "checkedAt": "2026-10-29T22:04:00.687498+00:00",
+      "title": [
+        "Meyers Electric Florida Panhandle Electricians in Panama City Beach"
+      ],
+      "contentSha256": "c10264e5a8c145b652757aacfe964e3e8c684ae244eeb4998a13d48a0bb6541d"
+    },
+    {
+      "url": "https://michaelabellelectricalcontractors.com/",
+      "status": 200,
+      "finalUrl": "https://michaelabellelectricalcontractors.com/",
+      "bytes": 379319,
+      "checkedAt": "2026-10-29T22:04:00.327501+00:00",
+      "title": [
+        "Michael Abell Electrical Contractors"
+      ],
+      "contentSha256": "2ec014a5101b13ff6f8dd2841632188a921e607cde81028cd984474ee63b1cfe"
+    },
+    {
+      "url": "https://miltonelectricalservices.com/",
+      "status": 200,
+      "finalUrl": "https://miltonelectricalservices.com/",
+      "bytes": 39294,
+      "checkedAt": "2026-10-29T22:04:00.270558+00:00",
+      "title": [
+        "Milton Electrical Services | Residential &amp; Commercial Electrician"
+      ],
+      "contentSha256": "1df03466b0c99c4db1c4b58e03ffb40c036a457f1c050a7a9025141a0bbaee4c"
+    },
+    {
+      "url": "https://panamapoolsandspas.com/",
+      "status": 200,
+      "finalUrl": "https://panamapoolsandspas.com/",
+      "bytes": 104230,
+      "checkedAt": "2026-10-29T22:04:16.018446+00:00",
+      "title": [
+        "Home - Panama Pools &amp; Spas"
+      ],
+      "contentSha256": "ae168c4b7ed6a4ea3640d26054d418c9c6520921ebe98982826ca7a5788f523f"
+    },
+    {
+      "url": "https://paynepoolprofessionals.com/",
+      "status": 200,
+      "finalUrl": "https://paynepoolprofessionals.com/",
+      "bytes": 192061,
+      "checkedAt": "2026-10-29T22:04:03.034452+00:00",
+      "title": [
+        "Florida Pool Builders | Custom Pools | Payne Pool Professionals"
+      ],
+      "contentSha256": "16af1f88fe2a790595143194cc9381f51d823c41f484bdece9c398c61e3e8c6c"
+    },
+    {
+      "url": "https://royalexteriorswindows.com/",
+      "status": 200,
+      "finalUrl": "https://royalexteriorswindows.com/",
+      "bytes": 492994,
+      "checkedAt": "2026-10-29T22:04:03.243813+00:00",
+      "title": [
+        "Royal Exteriors"
+      ],
+      "contentSha256": "ca1966b3ce3a135acd6d43d54a5c6275df0de0491a8e576cf6350bd8aa83ed75"
+    },
+    {
+      "url": "https://southernpoolscapes.com/",
+      "status": 200,
+      "finalUrl": "https://southernpoolscapes.com/",
+      "bytes": 204837,
+      "checkedAt": "2026-10-29T22:04:03.502496+00:00",
+      "title": [
+        "Southern Poolscapes | Luxury Pool Builders in the Gulf Coast"
+      ],
+      "contentSha256": "a4ea8558a669f5a8dc924c7513426736c7eab78fa93ef0ca39bfe5defc6b2957"
+    },
+    {
+      "url": "https://southernpoolscapes.com/locations/",
+      "status": 200,
+      "finalUrl": "https://southernpoolscapes.com/locations/",
+      "bytes": 169046,
+      "checkedAt": "2026-10-29T22:04:03.506104+00:00",
+      "title": [
+        "Pool Builders Near Me | AL, MS, FL, GA &amp; TN Locations"
+      ],
+      "contentSha256": "b97306b23d575dfeff1bbc381809923d20ce21a323461f058982bad88b3ba8c3"
+    },
+    {
+      "url": "https://waltonelectricians.com/areas-we-serve/",
+      "status": 200,
+      "finalUrl": "https://waltonelectricians.com/areas-we-serve/",
+      "bytes": 178827,
+      "checkedAt": "2026-10-29T22:04:03.957046+00:00",
+      "title": [
+        "Service Area &#8211; Walton Electric"
+      ],
+      "contentSha256": "0e0438337fed92a5432df7f6e4d1708f6baae1b63bf3c02e97d580595b73f8b8"
+    },
+    {
+      "url": "https://waltonelectricians.com/services/",
+      "status": 200,
+      "finalUrl": "https://waltonelectricians.com/services/",
+      "bytes": 189384,
+      "checkedAt": "2026-10-29T22:04:03.970593+00:00",
+      "title": [
+        "Services &#8211; Walton Electric"
+      ],
+      "contentSha256": "1ae64f528ca01323a3061ee6ad6282694d73413f2937b5ac033aefc24a87e6b0"
+    },
+    {
+      "url": "https://www.atozshuttermasters.com/about-a-to-z-shutter-masters/",
+      "status": 200,
+      "finalUrl": "https://www.atozshuttermasters.com/about-a-to-z-shutter-masters/",
+      "bytes": 153834,
+      "checkedAt": "2026-10-29T22:04:07.712738+00:00",
+      "title": [
+        "About A to Z Shutters Masters - Foley, AL | A to Z Shutter masters"
+      ],
+      "contentSha256": "f3f6f9e93657eeb7a74d7e8182f015a06a35cfe95a6acf9a6e2c436bef72384b"
+    },
+    {
+      "url": "https://www.atozshuttersandrailing.com/",
+      "status": 200,
+      "finalUrl": "https://www.atozshuttersandrailing.com/",
+      "bytes": 207418,
+      "checkedAt": "2026-10-29T22:04:08.018536+00:00",
+      "title": [
+        "Hurricane Shutters \u2013 Aluminum Railing | A to Z Shutters &amp; Railing"
+      ],
+      "contentSha256": "900eb70299771c4f1d8303986d282391866b0268f06332dae66300dab7473c6f"
+    },
+    {
+      "url": "https://www.coastaloutdoorsystems.com/destin",
+      "status": 200,
+      "finalUrl": "https://www.coastaloutdoorsystems.com/destin",
+      "bytes": 105325,
+      "checkedAt": "2026-10-29T22:04:06.786807+00:00",
+      "title": [
+        "Destin FL Outdoor Living Solutions | Retractable Awnings, Screens, and Gutters"
+      ],
+      "contentSha256": "a83a3528d891319cc1fe104b5c186d1dee9fc39b163f2ec49dd341679f6bb7bd"
+    },
+    {
+      "url": "https://www.coastaloutdoorsystems.com/products/seamless-gutters",
+      "status": 200,
+      "finalUrl": "https://www.coastaloutdoorsystems.com/products/seamless-gutters",
+      "bytes": 123996,
+      "checkedAt": "2026-10-29T22:04:06.561778+00:00",
+      "title": [
+        "Seamless Gutters Installation in Navarre, Gulf Breeze, Milton, Pace, Destin &amp; 30A | Coastal Outdoor Systems"
+      ],
+      "contentSha256": "9d55d3327b3f4f009457433040c16477715930db3ee19794ae5c4327541fc7b9"
+    },
+    {
+      "url": "https://www.dirtynsturdyfencing.com/",
+      "status": 200,
+      "finalUrl": "https://www.dirtynsturdyfencing.com/",
+      "bytes": 228939,
+      "checkedAt": "2026-10-29T22:04:06.494768+00:00",
+      "title": [
+        "\r\n    \n    Fencing Contractor | Niceville, Florida | Dirty N Sturdy Fencing\n  \r\n  "
+      ],
+      "contentSha256": "92dad533fad426264552a7aaade0540c0b006318d10c7b922a3e4f1be0cc69f3"
+    },
+    {
+      "url": "https://www.garagedoorus.com/fl/",
+      "status": 200,
+      "finalUrl": "https://www.garagedoorus.com/fl/",
+      "bytes": 24642,
+      "checkedAt": "2026-10-29T22:04:07.794530+00:00",
+      "title": [
+        "Our Service Area | American Garage Door"
+      ],
+      "contentSha256": "785c00a62b9ef11013c1ac72e2511b70ce4270f5fc698d6a2d142ffd4e1c1b11"
+    },
+    {
+      "url": "https://www.garagedoorus.com/garage-doors/hurricane-protection",
+      "status": 200,
+      "finalUrl": "https://www.garagedoorus.com/garage-doors/hurricane-protection",
+      "bytes": 36325,
+      "checkedAt": "2026-10-29T22:04:07.854530+00:00",
+      "title": [
+        "Hurricane Protection | American Garage Door"
+      ],
+      "contentSha256": "9fb15aa6948e80e464bca8ca70107b45e4a493a529b10044ad591529e871be63"
+    },
+    {
+      "url": "https://www.garagedoorus.com/projects/bahama-shutters-installation-panama-city-fl",
+      "status": 200,
+      "finalUrl": "https://www.garagedoorus.com/projects/bahama-shutters-installation-panama-city-fl",
+      "bytes": 23768,
+      "checkedAt": "2026-10-29T22:04:07.782809+00:00",
+      "title": [
+        "Bahama Shutters Installation in Panama City, FL"
+      ],
+      "contentSha256": "ee44b42f4b41cf4c30e68ef6b58df4f07a1c9e5ce1af04d1648b07fe97b199dc"
+    },
+    {
+      "url": "https://www.iknercontractors.com/",
+      "status": 200,
+      "finalUrl": "https://www.iknercontractors.com/",
+      "bytes": 44709,
+      "checkedAt": "2026-10-29T22:04:11.482511+00:00",
+      "title": [
+        "Ikner Contractors"
+      ],
+      "contentSha256": "cad652143e340ce560953b0c7f947d3ba3f0e80cc1d89dc9abfc2c32dcf09a35"
+    },
+    {
+      "url": "https://www.iknercontractors.com/electrical-contractors/",
+      "status": 200,
+      "finalUrl": "https://www.iknercontractors.com/electrical-contractors/",
+      "bytes": 32304,
+      "checkedAt": "2026-10-29T22:04:11.682459+00:00",
+      "title": [
+        "Ikner Contractors"
+      ],
+      "contentSha256": "f32c14721014b9d71adb2c818af086bfda67237e656a69c1ecf4cbb7e6b8363d"
+    },
+    {
+      "url": "https://www.kksolutionsinc.com/",
+      "status": 200,
+      "finalUrl": "https://www.kksolutionsinc.com/",
+      "bytes": 228647,
+      "checkedAt": "2026-10-29T22:04:10.481436+00:00",
+      "title": [
+        "\r\n    Land Clearing &amp; Site Work | Northwest FL | K &amp; K Solutions, Inc.\r\n  "
+      ],
+      "contentSha256": "485bfb149216fd0c661794058932ab02e4a7116f514d48d80b5f97d5d095667c"
+    },
+    {
+      "url": "https://www.kksolutionsinc.com/service-fences-decks-baker",
+      "status": 200,
+      "finalUrl": "https://www.kksolutionsinc.com/service-fences-decks-baker",
+      "bytes": 214745,
+      "checkedAt": "2026-10-29T22:04:10.558454+00:00",
+      "title": [
+        "\r\n    Fence &amp; Deck Construction | Northwest FL | K &amp; K Solutions Inc\r\n  "
+      ],
+      "contentSha256": "5924fdfc1f534cd041e34e70330328d8bbdf5dd7111a4bec950de71daf5b270b"
+    },
+    {
+      "url": "https://www.mcgeeelectricllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.mcgeeelectricllc.com/",
+      "bytes": 137346,
+      "checkedAt": "2026-10-29T22:04:10.638782+00:00",
+      "title": [
+        "McGee Electric LLC | Licensed Electricians \u2013 Gulf Coast Florida"
+      ],
+      "contentSha256": "d00d7c27dd740f7d956a152c6d1c2676ac2331bb39e653d3e7f1942c8aabbdba"
+    },
+    {
+      "url": "https://www.panamacitypools.com/",
+      "status": 200,
+      "finalUrl": "https://www.panamacitypools.com/",
+      "bytes": 114920,
+      "checkedAt": "2026-10-29T22:04:10.636990+00:00",
+      "title": [
+        "HOME\n"
+      ],
+      "contentSha256": "47bbdc4c3749c133c6c2bd3b2b691d95683bba614c832ad50b1ad8dac8c803b2"
+    },
+    {
+      "url": "https://www.rlbakerelectric.com/",
+      "status": 200,
+      "finalUrl": "https://www.rlbakerelectric.com/",
+      "bytes": 60965,
+      "checkedAt": "2026-10-29T22:04:11.386288+00:00",
+      "title": [
+        "Top Milton Electrician | Pace | RL Baker Electric LLC"
+      ],
+      "contentSha256": "a0719efcd934dc823f04e1297805895e5e93157210125c1b0bbfadae2b540f0c"
+    },
+    {
+      "url": "https://www.rlbakerelectric.com/near-me",
+      "status": 200,
+      "finalUrl": "https://www.rlbakerelectric.com/near-me",
+      "bytes": 24255,
+      "checkedAt": "2026-10-29T22:04:11.422451+00:00",
+      "title": [
+        "Our Service Areas | RL Baker Electric LLC"
+      ],
+      "contentSha256": "0c0840adb3b92f2ae0d2436c4d31a73a7e9cbbf9fa37139f49c550baa09cb021"
+    },
+    {
+      "url": "https://www.royalexteriors.us/",
+      "status": 200,
+      "finalUrl": "https://www.royalexteriors.us/",
+      "bytes": 206600,
+      "checkedAt": "2026-10-29T22:04:13.534493+00:00",
+      "title": [
+        "\r\n    Professional Window &amp; Doors  | Royal Exteriors - Panama City, FL\r\n  "
+      ],
+      "contentSha256": "ab3aed0f2b3f4759114434a396c4a2c716d91d4b42279c4be35917c58c18d3aa"
+    },
+    {
+      "url": "https://www.superiorsepticsewer.com/",
+      "status": 200,
+      "finalUrl": "https://www.superiorsepticsewer.com/",
+      "bytes": 84512,
+      "checkedAt": "2026-10-29T22:04:13.401152+00:00",
+      "title": [
+        "\r\n    Superior Septic Sewer | Septic Repairs | Panama City, FL\r\n  "
+      ],
+      "contentSha256": "79a092739210d9b556787847647cd63a8b44b672874af5d95741d2597432062a"
+    },
+    {
+      "url": "https://www.uniquepoolspcb.com/",
+      "status": 200,
+      "finalUrl": "https://www.uniquepoolspcb.com/",
+      "bytes": 20633,
+      "checkedAt": "2026-10-29T22:04:15.062565+00:00",
+      "title": [
+        "Custom Built Pools & Patios Panama City, Florida | Unique Pools"
+      ],
+      "contentSha256": "b422a58a34cb8741599d31d5345dda5f6ec995d8f6c47ac5d4e6980eb31af793"
+    }
+  ],
+  "allRequiredWebsitesHttp200": true,
+  "identityChecks": [
+    "A to Z Shutter Masters shares Foley address/phone with existing A to Z Shutters & Railing; one canonical identity.",
+    "Insulation Panama City and IPC Insulation are the same Vickers Group business.",
+    "Royal Exteriors campaign and corporate domains share Panama City address; one identity.",
+    "Cox Pools domains treated as one name identity per city; no extension into existing Cox cities.",
+    "Coastal Outdoor Systems is distinct from Coastal Outdoor FL.",
+    "Superior Septic Sewer Panama City is distinct from Superior Septic Services in the western Panhandle.",
+    "Existing canonical names and website URLs retained for service-area extensions."
+  ],
+  "deferredCandidates": [
+    {
+      "name": "Windows, Doors & More of Florida",
+      "reason": "Supplier coordinates outside installers; no direct installation scope established."
+    },
+    {
+      "name": "PCB Exteriors",
+      "reason": "Generic contractor lead-routing page; business identity not established."
+    },
+    {
+      "name": "Patriot Foam",
+      "reason": "Manufacturer/installer-network website; not established as a local insulation installer."
+    },
+    {
+      "name": "Comfort Insulators",
+      "reason": "No working official business website verified."
+    },
+    {
+      "name": "Spray Foam Panama City (generic domain)",
+      "reason": "Insufficient identifiable business evidence."
+    },
+    {
+      "name": "Florida Window Coverings window tinting",
+      "reason": "Relevant service exists, but category is retired from the current public catalog."
+    }
+  ],
+  "sourcePolicy": "Official business websites only for additions. No Google Maps/Places, Yelp, Angi, paid APIs, Foursquare credits or outreach.",
+  "baselineLiveAudit": {
+    "pairs": 1200,
+    "atTarget": 1,
+    "belowTarget": 1199,
+    "empty": 77,
+    "deficit": 19366
+  },
+  "verificationNote": "All added services/geographies reviewed on official pages. Live verification follows deployment. Historical rows preserved, but this is not fresh verification of all historical identities."
+}

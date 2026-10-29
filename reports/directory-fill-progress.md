@@ -319,3 +319,13 @@ Next actions:
 - Fresh full production audit: **1/1,200 active city/category combinations at or above 20, 1,199 below, 77 empty, deficit 19,366.** Coverage CSV updated. The single completed combination is Tampa locksmith; aggregate additions must not be represented as directory-wide completion. Historical combinations still require individual identity/website verification before final completion.
 - Run additions by city: Tampa +19; by category: locksmith +19. No other city/category count changed. Existing 5,848 seed records remain intact. Source evidence, identity aliases, deferred candidates and validation are committed.
 - Resume from the newest main, check for active runs and current live coverage, then continue priority-city low counts and nearby gaps. The overall twenty-business goal remains incomplete; do not pause continuation.
+
+
+## Continuous fill checkpoint — 2026-10-29
+
+- Refreshed main at `db00e381d411a21ebd41fba494e9909fd6889b08`, checked open PRs and active workflows (none before publication), and refreshed all 1,200 live counts. Baseline: one combination at 20, 77 empty, deficit 19,366. Preserved current 40-city/30-visible-category catalog and exclusions.
+- Prepared **206 new city/category placements from 26 distinct businesses** (16 newly represented identities and 10 verified extensions of existing identities) across 26 cities. Priority-city additions: Destin +26, Fort Walton Beach +21, Crestview +19, Panama City +19. Exact city/category totals in `reports/validation-fill-continuous-2026-10-29.json`.
+- All 41 required official website/evidence URLs returned HTTP 200. Services, geographic coverage, aliases and verification blockers recorded in `reports/verified-fill-continuous-2026-10-29.json`. Unknown contact fields omitted. Neither alternate domains nor additional branches counted as separate businesses in a city/category.
+- Schema/JSON, active slugs, unique IDs, normalized-domain duplicate and full historical-record comparisons passed. All 5,867 prior seed records and 1,341 source records unchanged; final seed 6,073. No data deleted; no application, paid/claimed, billing, outreach or subscription changes. No five-listing import/display cap found.
+- Publication/live confirmation pending at this checkpoint. Projected coverage: 1/1,200 at target, 1,199 below, 75 empty, deficit 19,160. Do not claim completion from aggregate totals.
+- Resume from latest main and fresh live audit. Priority low-count gaps remain collision repair and towing in Destin, insulation and septic in Panama City, plus low-count categories in Crestview/Fort Walton Beach. Genuine shortages and blocked identities should not prevent research on other gaps.
