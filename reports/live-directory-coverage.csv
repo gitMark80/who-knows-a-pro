@@ -100,7 +100,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Biloxi, MS",biloxi-ms,Generator installation,generator-installation,1,20,19,False
 "Biloxi, MS",biloxi-ms,Gutters,gutters,1,20,19,False
 "Biloxi, MS",biloxi-ms,Home inspections,home-inspections,5,20,15,False
-"Biloxi, MS",biloxi-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,0,20,20,False
+"Biloxi, MS",biloxi-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,20,19,False
 "Biloxi, MS",biloxi-ms,HVAC,hvac,2,20,18,False
 "Biloxi, MS",biloxi-ms,Insulation,insulation,1,20,19,False
 "Biloxi, MS",biloxi-ms,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
@@ -111,7 +111,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Biloxi, MS",biloxi-ms,Painting,painting,1,20,19,False
 "Biloxi, MS",biloxi-ms,Pest control,pest-control,1,20,19,False
 "Biloxi, MS",biloxi-ms,Plumbing,plumbing,2,20,18,False
-"Biloxi, MS",biloxi-ms,Pool installation,pool-installation,2,20,18,False
+"Biloxi, MS",biloxi-ms,Pool installation,pool-installation,3,20,17,False
 "Biloxi, MS",biloxi-ms,Pool service,pool-service,1,20,19,False
 "Biloxi, MS",biloxi-ms,Roofing,roofing,1,20,19,False
 "Biloxi, MS",biloxi-ms,Screen enclosures & pool cages,screen-enclosures-pool-cages,0,20,20,False
@@ -171,7 +171,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Clearwater, FL",clearwater-fl,Painting,painting,0,20,20,False
 "Clearwater, FL",clearwater-fl,Pest control,pest-control,5,20,15,False
 "Clearwater, FL",clearwater-fl,Plumbing,plumbing,2,20,18,False
-"Clearwater, FL",clearwater-fl,Pool installation,pool-installation,1,20,19,False
+"Clearwater, FL",clearwater-fl,Pool installation,pool-installation,2,20,18,False
 "Clearwater, FL",clearwater-fl,Pool service,pool-service,1,20,19,False
 "Clearwater, FL",clearwater-fl,Roofing,roofing,5,20,15,False
 "Clearwater, FL",clearwater-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,20,19,False
@@ -183,16 +183,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Crestview, FL",crestview-fl,Auto body & collision,auto-body-collision,6,20,14,False
 "Crestview, FL",crestview-fl,Auto mechanics,auto-mechanics,6,20,14,False
 "Crestview, FL",crestview-fl,Concrete & driveways,concrete,8,20,12,False
-"Crestview, FL",crestview-fl,Electrical,electrical,5,20,15,False
-"Crestview, FL",crestview-fl,Fence builders,fence-builders,5,20,15,False
+"Crestview, FL",crestview-fl,Electrical,electrical,9,20,11,False
+"Crestview, FL",crestview-fl,Fence builders,fence-builders,8,20,12,False
 "Crestview, FL",crestview-fl,Flooring,flooring,5,20,15,False
-"Crestview, FL",crestview-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Crestview, FL",crestview-fl,Generator installation,generator-installation,5,20,15,False
-"Crestview, FL",crestview-fl,Gutters,gutters,5,20,15,False
+"Crestview, FL",crestview-fl,Garage door repair,garage-door-repair,6,20,14,False
+"Crestview, FL",crestview-fl,Generator installation,generator-installation,8,20,12,False
+"Crestview, FL",crestview-fl,Gutters,gutters,6,20,14,False
 "Crestview, FL",crestview-fl,Home inspections,home-inspections,5,20,15,False
-"Crestview, FL",crestview-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,6,20,14,False
+"Crestview, FL",crestview-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,8,20,12,False
 "Crestview, FL",crestview-fl,HVAC,hvac,5,20,15,False
-"Crestview, FL",crestview-fl,Insulation,insulation,5,20,15,False
+"Crestview, FL",crestview-fl,Insulation,insulation,6,20,14,False
 "Crestview, FL",crestview-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Crestview, FL",crestview-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,7,20,13,False
 "Crestview, FL",crestview-fl,Landscaping,landscaping,6,20,14,False
@@ -201,12 +201,12 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Crestview, FL",crestview-fl,Painting,painting,7,20,13,False
 "Crestview, FL",crestview-fl,Pest control,pest-control,5,20,15,False
 "Crestview, FL",crestview-fl,Plumbing,plumbing,6,20,14,False
-"Crestview, FL",crestview-fl,Pool installation,pool-installation,5,20,15,False
+"Crestview, FL",crestview-fl,Pool installation,pool-installation,7,20,13,False
 "Crestview, FL",crestview-fl,Pool service,pool-service,6,20,14,False
 "Crestview, FL",crestview-fl,Roofing,roofing,5,20,15,False
-"Crestview, FL",crestview-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,6,20,14,False
+"Crestview, FL",crestview-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,7,20,13,False
 "Crestview, FL",crestview-fl,Septic services,septic-services,8,20,12,False
-"Crestview, FL",crestview-fl,Towing,towing,4,20,16,False
+"Crestview, FL",crestview-fl,Towing,towing,5,20,15,False
 "Crestview, FL",crestview-fl,Tree service,tree-service,5,20,15,False
 "Crestview, FL",crestview-fl,Water damage & mold remediation,water-damage-mold-remediation,5,20,15,False
 "Daphne, AL",daphne-al,Appliance repair,appliance-repair,5,20,15,False
@@ -214,13 +214,13 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Daphne, AL",daphne-al,Auto mechanics,auto-mechanics,1,20,19,False
 "Daphne, AL",daphne-al,Concrete & driveways,concrete,3,20,17,False
 "Daphne, AL",daphne-al,Electrical,electrical,2,20,18,False
-"Daphne, AL",daphne-al,Fence builders,fence-builders,1,20,19,False
+"Daphne, AL",daphne-al,Fence builders,fence-builders,2,20,18,False
 "Daphne, AL",daphne-al,Flooring,flooring,3,20,17,False
-"Daphne, AL",daphne-al,Garage door repair,garage-door-repair,5,20,15,False
+"Daphne, AL",daphne-al,Garage door repair,garage-door-repair,6,20,14,False
 "Daphne, AL",daphne-al,Generator installation,generator-installation,2,20,18,False
 "Daphne, AL",daphne-al,Gutters,gutters,3,20,17,False
 "Daphne, AL",daphne-al,Home inspections,home-inspections,2,20,18,False
-"Daphne, AL",daphne-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,20,17,False
+"Daphne, AL",daphne-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,4,20,16,False
 "Daphne, AL",daphne-al,HVAC,hvac,5,20,15,False
 "Daphne, AL",daphne-al,Insulation,insulation,2,20,18,False
 "Daphne, AL",daphne-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,20,18,False
@@ -231,7 +231,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Daphne, AL",daphne-al,Painting,painting,2,20,18,False
 "Daphne, AL",daphne-al,Pest control,pest-control,2,20,18,False
 "Daphne, AL",daphne-al,Plumbing,plumbing,5,20,15,False
-"Daphne, AL",daphne-al,Pool installation,pool-installation,2,20,18,False
+"Daphne, AL",daphne-al,Pool installation,pool-installation,4,20,16,False
 "Daphne, AL",daphne-al,Pool service,pool-service,3,20,17,False
 "Daphne, AL",daphne-al,Roofing,roofing,2,20,18,False
 "Daphne, AL",daphne-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,20,18,False
@@ -243,16 +243,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Destin, FL",destin-fl,Auto body & collision,auto-body-collision,3,20,17,False
 "Destin, FL",destin-fl,Auto mechanics,auto-mechanics,6,20,14,False
 "Destin, FL",destin-fl,Concrete & driveways,concrete,8,20,12,False
-"Destin, FL",destin-fl,Electrical,electrical,5,20,15,False
-"Destin, FL",destin-fl,Fence builders,fence-builders,5,20,15,False
+"Destin, FL",destin-fl,Electrical,electrical,12,20,8,False
+"Destin, FL",destin-fl,Fence builders,fence-builders,8,20,12,False
 "Destin, FL",destin-fl,Flooring,flooring,5,20,15,False
-"Destin, FL",destin-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Destin, FL",destin-fl,Generator installation,generator-installation,5,20,15,False
-"Destin, FL",destin-fl,Gutters,gutters,5,20,15,False
+"Destin, FL",destin-fl,Garage door repair,garage-door-repair,6,20,14,False
+"Destin, FL",destin-fl,Generator installation,generator-installation,10,20,10,False
+"Destin, FL",destin-fl,Gutters,gutters,6,20,14,False
 "Destin, FL",destin-fl,Home inspections,home-inspections,6,20,14,False
-"Destin, FL",destin-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,6,20,14,False
+"Destin, FL",destin-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,10,20,10,False
 "Destin, FL",destin-fl,HVAC,hvac,5,20,15,False
-"Destin, FL",destin-fl,Insulation,insulation,6,20,14,False
+"Destin, FL",destin-fl,Insulation,insulation,7,20,13,False
 "Destin, FL",destin-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,20,14,False
 "Destin, FL",destin-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,7,20,13,False
 "Destin, FL",destin-fl,Landscaping,landscaping,7,20,13,False
@@ -261,10 +261,10 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Destin, FL",destin-fl,Painting,painting,9,20,11,False
 "Destin, FL",destin-fl,Pest control,pest-control,5,20,15,False
 "Destin, FL",destin-fl,Plumbing,plumbing,6,20,14,False
-"Destin, FL",destin-fl,Pool installation,pool-installation,5,20,15,False
+"Destin, FL",destin-fl,Pool installation,pool-installation,8,20,12,False
 "Destin, FL",destin-fl,Pool service,pool-service,5,20,15,False
 "Destin, FL",destin-fl,Roofing,roofing,5,20,15,False
-"Destin, FL",destin-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,5,20,15,False
+"Destin, FL",destin-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,6,20,14,False
 "Destin, FL",destin-fl,Septic services,septic-services,8,20,12,False
 "Destin, FL",destin-fl,Towing,towing,4,20,16,False
 "Destin, FL",destin-fl,Tree service,tree-service,5,20,15,False
@@ -304,13 +304,13 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fairhope, AL",fairhope-al,Auto mechanics,auto-mechanics,1,20,19,False
 "Fairhope, AL",fairhope-al,Concrete & driveways,concrete,4,20,16,False
 "Fairhope, AL",fairhope-al,Electrical,electrical,2,20,18,False
-"Fairhope, AL",fairhope-al,Fence builders,fence-builders,2,20,18,False
+"Fairhope, AL",fairhope-al,Fence builders,fence-builders,3,20,17,False
 "Fairhope, AL",fairhope-al,Flooring,flooring,3,20,17,False
 "Fairhope, AL",fairhope-al,Garage door repair,garage-door-repair,5,20,15,False
 "Fairhope, AL",fairhope-al,Generator installation,generator-installation,2,20,18,False
 "Fairhope, AL",fairhope-al,Gutters,gutters,2,20,18,False
 "Fairhope, AL",fairhope-al,Home inspections,home-inspections,2,20,18,False
-"Fairhope, AL",fairhope-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,20,17,False
+"Fairhope, AL",fairhope-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,20,15,False
 "Fairhope, AL",fairhope-al,HVAC,hvac,5,20,15,False
 "Fairhope, AL",fairhope-al,Insulation,insulation,2,20,18,False
 "Fairhope, AL",fairhope-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,20,18,False
@@ -321,7 +321,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fairhope, AL",fairhope-al,Painting,painting,3,20,17,False
 "Fairhope, AL",fairhope-al,Pest control,pest-control,2,20,18,False
 "Fairhope, AL",fairhope-al,Plumbing,plumbing,5,20,15,False
-"Fairhope, AL",fairhope-al,Pool installation,pool-installation,3,20,17,False
+"Fairhope, AL",fairhope-al,Pool installation,pool-installation,5,20,15,False
 "Fairhope, AL",fairhope-al,Pool service,pool-service,3,20,17,False
 "Fairhope, AL",fairhope-al,Roofing,roofing,1,20,19,False
 "Fairhope, AL",fairhope-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,20,18,False
@@ -334,13 +334,13 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Foley, AL",foley-al,Auto mechanics,auto-mechanics,1,20,19,False
 "Foley, AL",foley-al,Concrete & driveways,concrete,5,20,15,False
 "Foley, AL",foley-al,Electrical,electrical,2,20,18,False
-"Foley, AL",foley-al,Fence builders,fence-builders,2,20,18,False
+"Foley, AL",foley-al,Fence builders,fence-builders,3,20,17,False
 "Foley, AL",foley-al,Flooring,flooring,1,20,19,False
 "Foley, AL",foley-al,Garage door repair,garage-door-repair,5,20,15,False
 "Foley, AL",foley-al,Generator installation,generator-installation,2,20,18,False
 "Foley, AL",foley-al,Gutters,gutters,2,20,18,False
 "Foley, AL",foley-al,Home inspections,home-inspections,2,20,18,False
-"Foley, AL",foley-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,20,17,False
+"Foley, AL",foley-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,20,15,False
 "Foley, AL",foley-al,HVAC,hvac,5,20,15,False
 "Foley, AL",foley-al,Insulation,insulation,4,20,16,False
 "Foley, AL",foley-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,20,18,False
@@ -351,7 +351,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Foley, AL",foley-al,Painting,painting,2,20,18,False
 "Foley, AL",foley-al,Pest control,pest-control,2,20,18,False
 "Foley, AL",foley-al,Plumbing,plumbing,5,20,15,False
-"Foley, AL",foley-al,Pool installation,pool-installation,4,20,16,False
+"Foley, AL",foley-al,Pool installation,pool-installation,6,20,14,False
 "Foley, AL",foley-al,Pool service,pool-service,4,20,16,False
 "Foley, AL",foley-al,Roofing,roofing,2,20,18,False
 "Foley, AL",foley-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,20,18,False
@@ -423,16 +423,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fort Walton Beach, FL",fort-walton-beach-fl,Auto body & collision,auto-body-collision,6,20,14,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Auto mechanics,auto-mechanics,6,20,14,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Concrete & driveways,concrete,8,20,12,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Electrical,electrical,5,20,15,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Fence builders,fence-builders,5,20,15,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Electrical,electrical,10,20,10,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Fence builders,fence-builders,8,20,12,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Flooring,flooring,5,20,15,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Generator installation,generator-installation,5,20,15,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Gutters,gutters,5,20,15,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Garage door repair,garage-door-repair,6,20,14,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Generator installation,generator-installation,9,20,11,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Gutters,gutters,6,20,14,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Home inspections,home-inspections,6,20,14,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,6,20,14,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,9,20,11,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,HVAC,hvac,6,20,14,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Insulation,insulation,5,20,15,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Insulation,insulation,6,20,14,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,7,20,13,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Landscaping,landscaping,6,20,14,False
@@ -441,10 +441,10 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Fort Walton Beach, FL",fort-walton-beach-fl,Painting,painting,9,20,11,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pest control,pest-control,5,20,15,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Plumbing,plumbing,6,20,14,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Pool installation,pool-installation,5,20,15,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Pool installation,pool-installation,7,20,13,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pool service,pool-service,6,20,14,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Roofing,roofing,5,20,15,False
-"Fort Walton Beach, FL",fort-walton-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,6,20,14,False
+"Fort Walton Beach, FL",fort-walton-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,7,20,13,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Septic services,septic-services,8,20,12,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Towing,towing,6,20,14,False
 "Fort Walton Beach, FL",fort-walton-beach-fl,Tree service,tree-service,5,20,15,False
@@ -453,16 +453,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Grayton Beach, FL",grayton-beach-fl,Auto body & collision,auto-body-collision,1,20,19,False
 "Grayton Beach, FL",grayton-beach-fl,Auto mechanics,auto-mechanics,5,20,15,False
 "Grayton Beach, FL",grayton-beach-fl,Concrete & driveways,concrete,8,20,12,False
-"Grayton Beach, FL",grayton-beach-fl,Electrical,electrical,5,20,15,False
-"Grayton Beach, FL",grayton-beach-fl,Fence builders,fence-builders,3,20,17,False
+"Grayton Beach, FL",grayton-beach-fl,Electrical,electrical,9,20,11,False
+"Grayton Beach, FL",grayton-beach-fl,Fence builders,fence-builders,4,20,16,False
 "Grayton Beach, FL",grayton-beach-fl,Flooring,flooring,5,20,15,False
 "Grayton Beach, FL",grayton-beach-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Grayton Beach, FL",grayton-beach-fl,Generator installation,generator-installation,5,20,15,False
-"Grayton Beach, FL",grayton-beach-fl,Gutters,gutters,6,20,14,False
+"Grayton Beach, FL",grayton-beach-fl,Generator installation,generator-installation,8,20,12,False
+"Grayton Beach, FL",grayton-beach-fl,Gutters,gutters,7,20,13,False
 "Grayton Beach, FL",grayton-beach-fl,Home inspections,home-inspections,5,20,15,False
-"Grayton Beach, FL",grayton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,6,20,14,False
+"Grayton Beach, FL",grayton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,8,20,12,False
 "Grayton Beach, FL",grayton-beach-fl,HVAC,hvac,6,20,14,False
-"Grayton Beach, FL",grayton-beach-fl,Insulation,insulation,5,20,15,False
+"Grayton Beach, FL",grayton-beach-fl,Insulation,insulation,6,20,14,False
 "Grayton Beach, FL",grayton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,4,20,16,False
 "Grayton Beach, FL",grayton-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,6,20,14,False
 "Grayton Beach, FL",grayton-beach-fl,Landscaping,landscaping,7,20,13,False
@@ -471,10 +471,10 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Grayton Beach, FL",grayton-beach-fl,Painting,painting,7,20,13,False
 "Grayton Beach, FL",grayton-beach-fl,Pest control,pest-control,2,20,18,False
 "Grayton Beach, FL",grayton-beach-fl,Plumbing,plumbing,6,20,14,False
-"Grayton Beach, FL",grayton-beach-fl,Pool installation,pool-installation,4,20,16,False
-"Grayton Beach, FL",grayton-beach-fl,Pool service,pool-service,5,20,15,False
+"Grayton Beach, FL",grayton-beach-fl,Pool installation,pool-installation,7,20,13,False
+"Grayton Beach, FL",grayton-beach-fl,Pool service,pool-service,6,20,14,False
 "Grayton Beach, FL",grayton-beach-fl,Roofing,roofing,4,20,16,False
-"Grayton Beach, FL",grayton-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,6,20,14,False
+"Grayton Beach, FL",grayton-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,8,20,12,False
 "Grayton Beach, FL",grayton-beach-fl,Septic services,septic-services,6,20,14,False
 "Grayton Beach, FL",grayton-beach-fl,Towing,towing,5,20,15,False
 "Grayton Beach, FL",grayton-beach-fl,Tree service,tree-service,5,20,15,False
@@ -483,16 +483,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulf Breeze, FL",gulf-breeze-fl,Auto body & collision,auto-body-collision,6,20,14,False
 "Gulf Breeze, FL",gulf-breeze-fl,Auto mechanics,auto-mechanics,12,20,8,False
 "Gulf Breeze, FL",gulf-breeze-fl,Concrete & driveways,concrete,15,20,5,False
-"Gulf Breeze, FL",gulf-breeze-fl,Electrical,electrical,12,20,8,False
+"Gulf Breeze, FL",gulf-breeze-fl,Electrical,electrical,15,20,5,False
 "Gulf Breeze, FL",gulf-breeze-fl,Fence builders,fence-builders,12,20,8,False
 "Gulf Breeze, FL",gulf-breeze-fl,Flooring,flooring,5,20,15,False
 "Gulf Breeze, FL",gulf-breeze-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Gulf Breeze, FL",gulf-breeze-fl,Generator installation,generator-installation,12,20,8,False
+"Gulf Breeze, FL",gulf-breeze-fl,Generator installation,generator-installation,14,20,6,False
 "Gulf Breeze, FL",gulf-breeze-fl,Gutters,gutters,5,20,15,False
 "Gulf Breeze, FL",gulf-breeze-fl,Home inspections,home-inspections,5,20,15,False
-"Gulf Breeze, FL",gulf-breeze-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,20,8,False
+"Gulf Breeze, FL",gulf-breeze-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,14,20,6,False
 "Gulf Breeze, FL",gulf-breeze-fl,HVAC,hvac,12,20,8,False
-"Gulf Breeze, FL",gulf-breeze-fl,Insulation,insulation,10,20,10,False
+"Gulf Breeze, FL",gulf-breeze-fl,Insulation,insulation,11,20,9,False
 "Gulf Breeze, FL",gulf-breeze-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Gulf Breeze, FL",gulf-breeze-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,20,6,False
 "Gulf Breeze, FL",gulf-breeze-fl,Landscaping,landscaping,14,20,6,False
@@ -501,7 +501,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulf Breeze, FL",gulf-breeze-fl,Painting,painting,12,20,8,False
 "Gulf Breeze, FL",gulf-breeze-fl,Pest control,pest-control,12,20,8,False
 "Gulf Breeze, FL",gulf-breeze-fl,Plumbing,plumbing,12,20,8,False
-"Gulf Breeze, FL",gulf-breeze-fl,Pool installation,pool-installation,12,20,8,False
+"Gulf Breeze, FL",gulf-breeze-fl,Pool installation,pool-installation,13,20,7,False
 "Gulf Breeze, FL",gulf-breeze-fl,Pool service,pool-service,15,20,5,False
 "Gulf Breeze, FL",gulf-breeze-fl,Roofing,roofing,12,20,8,False
 "Gulf Breeze, FL",gulf-breeze-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,20,7,False
@@ -514,13 +514,13 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulf Shores, AL",gulf-shores-al,Auto mechanics,auto-mechanics,1,20,19,False
 "Gulf Shores, AL",gulf-shores-al,Concrete & driveways,concrete,5,20,15,False
 "Gulf Shores, AL",gulf-shores-al,Electrical,electrical,2,20,18,False
-"Gulf Shores, AL",gulf-shores-al,Fence builders,fence-builders,1,20,19,False
+"Gulf Shores, AL",gulf-shores-al,Fence builders,fence-builders,2,20,18,False
 "Gulf Shores, AL",gulf-shores-al,Flooring,flooring,3,20,17,False
 "Gulf Shores, AL",gulf-shores-al,Garage door repair,garage-door-repair,5,20,15,False
 "Gulf Shores, AL",gulf-shores-al,Generator installation,generator-installation,1,20,19,False
 "Gulf Shores, AL",gulf-shores-al,Gutters,gutters,2,20,18,False
 "Gulf Shores, AL",gulf-shores-al,Home inspections,home-inspections,2,20,18,False
-"Gulf Shores, AL",gulf-shores-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,20,17,False
+"Gulf Shores, AL",gulf-shores-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,20,15,False
 "Gulf Shores, AL",gulf-shores-al,HVAC,hvac,5,20,15,False
 "Gulf Shores, AL",gulf-shores-al,Insulation,insulation,3,20,17,False
 "Gulf Shores, AL",gulf-shores-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,20,18,False
@@ -531,7 +531,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulf Shores, AL",gulf-shores-al,Painting,painting,2,20,18,False
 "Gulf Shores, AL",gulf-shores-al,Pest control,pest-control,2,20,18,False
 "Gulf Shores, AL",gulf-shores-al,Plumbing,plumbing,5,20,15,False
-"Gulf Shores, AL",gulf-shores-al,Pool installation,pool-installation,3,20,17,False
+"Gulf Shores, AL",gulf-shores-al,Pool installation,pool-installation,5,20,15,False
 "Gulf Shores, AL",gulf-shores-al,Pool service,pool-service,3,20,17,False
 "Gulf Shores, AL",gulf-shores-al,Roofing,roofing,2,20,18,False
 "Gulf Shores, AL",gulf-shores-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,20,18,False
@@ -550,7 +550,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulfport, MS",gulfport-ms,Generator installation,generator-installation,1,20,19,False
 "Gulfport, MS",gulfport-ms,Gutters,gutters,1,20,19,False
 "Gulfport, MS",gulfport-ms,Home inspections,home-inspections,5,20,15,False
-"Gulfport, MS",gulfport-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,0,20,20,False
+"Gulfport, MS",gulfport-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,1,20,19,False
 "Gulfport, MS",gulfport-ms,HVAC,hvac,2,20,18,False
 "Gulfport, MS",gulfport-ms,Insulation,insulation,1,20,19,False
 "Gulfport, MS",gulfport-ms,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,20,20,False
@@ -561,7 +561,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Gulfport, MS",gulfport-ms,Painting,painting,1,20,19,False
 "Gulfport, MS",gulfport-ms,Pest control,pest-control,1,20,19,False
 "Gulfport, MS",gulfport-ms,Plumbing,plumbing,2,20,18,False
-"Gulfport, MS",gulfport-ms,Pool installation,pool-installation,2,20,18,False
+"Gulfport, MS",gulfport-ms,Pool installation,pool-installation,3,20,17,False
 "Gulfport, MS",gulfport-ms,Pool service,pool-service,1,20,19,False
 "Gulfport, MS",gulfport-ms,Roofing,roofing,1,20,19,False
 "Gulfport, MS",gulfport-ms,Screen enclosures & pool cages,screen-enclosures-pool-cages,0,20,20,False
@@ -621,7 +621,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Jacksonville, FL",jacksonville-fl,Painting,painting,1,20,19,False
 "Jacksonville, FL",jacksonville-fl,Pest control,pest-control,1,20,19,False
 "Jacksonville, FL",jacksonville-fl,Plumbing,plumbing,2,20,18,False
-"Jacksonville, FL",jacksonville-fl,Pool installation,pool-installation,1,20,19,False
+"Jacksonville, FL",jacksonville-fl,Pool installation,pool-installation,2,20,18,False
 "Jacksonville, FL",jacksonville-fl,Pool service,pool-service,1,20,19,False
 "Jacksonville, FL",jacksonville-fl,Roofing,roofing,1,20,19,False
 "Jacksonville, FL",jacksonville-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,20,19,False
@@ -663,16 +663,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Milton, FL",milton-fl,Auto body & collision,auto-body-collision,5,20,15,False
 "Milton, FL",milton-fl,Auto mechanics,auto-mechanics,5,20,15,False
 "Milton, FL",milton-fl,Concrete & driveways,concrete,8,20,12,False
-"Milton, FL",milton-fl,Electrical,electrical,5,20,15,False
-"Milton, FL",milton-fl,Fence builders,fence-builders,5,20,15,False
+"Milton, FL",milton-fl,Electrical,electrical,7,20,13,False
+"Milton, FL",milton-fl,Fence builders,fence-builders,6,20,14,False
 "Milton, FL",milton-fl,Flooring,flooring,5,20,15,False
 "Milton, FL",milton-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Milton, FL",milton-fl,Generator installation,generator-installation,5,20,15,False
+"Milton, FL",milton-fl,Generator installation,generator-installation,7,20,13,False
 "Milton, FL",milton-fl,Gutters,gutters,5,20,15,False
 "Milton, FL",milton-fl,Home inspections,home-inspections,5,20,15,False
-"Milton, FL",milton-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,20,15,False
+"Milton, FL",milton-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,6,20,14,False
 "Milton, FL",milton-fl,HVAC,hvac,5,20,15,False
-"Milton, FL",milton-fl,Insulation,insulation,4,20,16,False
+"Milton, FL",milton-fl,Insulation,insulation,5,20,15,False
 "Milton, FL",milton-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Milton, FL",milton-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,7,20,13,False
 "Milton, FL",milton-fl,Landscaping,landscaping,5,20,15,False
@@ -681,7 +681,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Milton, FL",milton-fl,Painting,painting,4,20,16,False
 "Milton, FL",milton-fl,Pest control,pest-control,5,20,15,False
 "Milton, FL",milton-fl,Plumbing,plumbing,6,20,14,False
-"Milton, FL",milton-fl,Pool installation,pool-installation,5,20,15,False
+"Milton, FL",milton-fl,Pool installation,pool-installation,6,20,14,False
 "Milton, FL",milton-fl,Pool service,pool-service,6,20,14,False
 "Milton, FL",milton-fl,Roofing,roofing,5,20,15,False
 "Milton, FL",milton-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,6,20,14,False
@@ -711,7 +711,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Mobile, AL",mobile-al,Painting,painting,11,20,9,False
 "Mobile, AL",mobile-al,Pest control,pest-control,11,20,9,False
 "Mobile, AL",mobile-al,Plumbing,plumbing,13,20,7,False
-"Mobile, AL",mobile-al,Pool installation,pool-installation,11,20,9,False
+"Mobile, AL",mobile-al,Pool installation,pool-installation,12,20,8,False
 "Mobile, AL",mobile-al,Pool service,pool-service,12,20,8,False
 "Mobile, AL",mobile-al,Roofing,roofing,11,20,9,False
 "Mobile, AL",mobile-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,11,20,9,False
@@ -783,16 +783,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Navarre, FL",navarre-fl,Auto body & collision,auto-body-collision,6,20,14,False
 "Navarre, FL",navarre-fl,Auto mechanics,auto-mechanics,12,20,8,False
 "Navarre, FL",navarre-fl,Concrete & driveways,concrete,15,20,5,False
-"Navarre, FL",navarre-fl,Electrical,electrical,12,20,8,False
+"Navarre, FL",navarre-fl,Electrical,electrical,15,20,5,False
 "Navarre, FL",navarre-fl,Fence builders,fence-builders,12,20,8,False
 "Navarre, FL",navarre-fl,Flooring,flooring,5,20,15,False
 "Navarre, FL",navarre-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Navarre, FL",navarre-fl,Generator installation,generator-installation,12,20,8,False
+"Navarre, FL",navarre-fl,Generator installation,generator-installation,14,20,6,False
 "Navarre, FL",navarre-fl,Gutters,gutters,5,20,15,False
 "Navarre, FL",navarre-fl,Home inspections,home-inspections,5,20,15,False
-"Navarre, FL",navarre-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,20,8,False
+"Navarre, FL",navarre-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,15,20,5,False
 "Navarre, FL",navarre-fl,HVAC,hvac,12,20,8,False
-"Navarre, FL",navarre-fl,Insulation,insulation,10,20,10,False
+"Navarre, FL",navarre-fl,Insulation,insulation,11,20,9,False
 "Navarre, FL",navarre-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Navarre, FL",navarre-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,20,6,False
 "Navarre, FL",navarre-fl,Landscaping,landscaping,15,20,5,False
@@ -801,7 +801,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Navarre, FL",navarre-fl,Painting,painting,15,20,5,False
 "Navarre, FL",navarre-fl,Pest control,pest-control,12,20,8,False
 "Navarre, FL",navarre-fl,Plumbing,plumbing,12,20,8,False
-"Navarre, FL",navarre-fl,Pool installation,pool-installation,12,20,8,False
+"Navarre, FL",navarre-fl,Pool installation,pool-installation,13,20,7,False
 "Navarre, FL",navarre-fl,Pool service,pool-service,15,20,5,False
 "Navarre, FL",navarre-fl,Roofing,roofing,12,20,8,False
 "Navarre, FL",navarre-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,20,7,False
@@ -844,9 +844,9 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Orange Beach, AL",orange-beach-al,Auto mechanics,auto-mechanics,12,20,8,False
 "Orange Beach, AL",orange-beach-al,Concrete & driveways,concrete,16,20,4,False
 "Orange Beach, AL",orange-beach-al,Electrical,electrical,13,20,7,False
-"Orange Beach, AL",orange-beach-al,Fence builders,fence-builders,13,20,7,False
+"Orange Beach, AL",orange-beach-al,Fence builders,fence-builders,14,20,6,False
 "Orange Beach, AL",orange-beach-al,Flooring,flooring,4,20,16,False
-"Orange Beach, AL",orange-beach-al,Garage door repair,garage-door-repair,4,20,16,False
+"Orange Beach, AL",orange-beach-al,Garage door repair,garage-door-repair,5,20,15,False
 "Orange Beach, AL",orange-beach-al,Generator installation,generator-installation,10,20,10,False
 "Orange Beach, AL",orange-beach-al,Gutters,gutters,3,20,17,False
 "Orange Beach, AL",orange-beach-al,Home inspections,home-inspections,2,20,18,False
@@ -861,7 +861,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Orange Beach, AL",orange-beach-al,Painting,painting,13,20,7,False
 "Orange Beach, AL",orange-beach-al,Pest control,pest-control,11,20,9,False
 "Orange Beach, AL",orange-beach-al,Plumbing,plumbing,13,20,7,False
-"Orange Beach, AL",orange-beach-al,Pool installation,pool-installation,12,20,8,False
+"Orange Beach, AL",orange-beach-al,Pool installation,pool-installation,14,20,6,False
 "Orange Beach, AL",orange-beach-al,Pool service,pool-service,14,20,6,False
 "Orange Beach, AL",orange-beach-al,Roofing,roofing,10,20,10,False
 "Orange Beach, AL",orange-beach-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,11,20,9,False
@@ -891,7 +891,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Orlando, FL",orlando-fl,Painting,painting,1,20,19,False
 "Orlando, FL",orlando-fl,Pest control,pest-control,1,20,19,False
 "Orlando, FL",orlando-fl,Plumbing,plumbing,2,20,18,False
-"Orlando, FL",orlando-fl,Pool installation,pool-installation,1,20,19,False
+"Orlando, FL",orlando-fl,Pool installation,pool-installation,2,20,18,False
 "Orlando, FL",orlando-fl,Pool service,pool-service,1,20,19,False
 "Orlando, FL",orlando-fl,Roofing,roofing,1,20,19,False
 "Orlando, FL",orlando-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,20,19,False
@@ -903,16 +903,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Pace, FL",pace-fl,Auto body & collision,auto-body-collision,5,20,15,False
 "Pace, FL",pace-fl,Auto mechanics,auto-mechanics,5,20,15,False
 "Pace, FL",pace-fl,Concrete & driveways,concrete,7,20,13,False
-"Pace, FL",pace-fl,Electrical,electrical,5,20,15,False
-"Pace, FL",pace-fl,Fence builders,fence-builders,5,20,15,False
+"Pace, FL",pace-fl,Electrical,electrical,7,20,13,False
+"Pace, FL",pace-fl,Fence builders,fence-builders,6,20,14,False
 "Pace, FL",pace-fl,Flooring,flooring,5,20,15,False
 "Pace, FL",pace-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Pace, FL",pace-fl,Generator installation,generator-installation,5,20,15,False
+"Pace, FL",pace-fl,Generator installation,generator-installation,7,20,13,False
 "Pace, FL",pace-fl,Gutters,gutters,5,20,15,False
 "Pace, FL",pace-fl,Home inspections,home-inspections,5,20,15,False
-"Pace, FL",pace-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,20,15,False
+"Pace, FL",pace-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,6,20,14,False
 "Pace, FL",pace-fl,HVAC,hvac,5,20,15,False
-"Pace, FL",pace-fl,Insulation,insulation,4,20,16,False
+"Pace, FL",pace-fl,Insulation,insulation,5,20,15,False
 "Pace, FL",pace-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Pace, FL",pace-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,6,20,14,False
 "Pace, FL",pace-fl,Landscaping,landscaping,5,20,15,False
@@ -933,16 +933,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City Beach, FL",panama-city-beach-fl,Auto body & collision,auto-body-collision,0,20,20,False
 "Panama City Beach, FL",panama-city-beach-fl,Auto mechanics,auto-mechanics,2,20,18,False
 "Panama City Beach, FL",panama-city-beach-fl,Concrete & driveways,concrete,5,20,15,False
-"Panama City Beach, FL",panama-city-beach-fl,Electrical,electrical,7,20,13,False
+"Panama City Beach, FL",panama-city-beach-fl,Electrical,electrical,10,20,10,False
 "Panama City Beach, FL",panama-city-beach-fl,Fence builders,fence-builders,1,20,19,False
 "Panama City Beach, FL",panama-city-beach-fl,Flooring,flooring,5,20,15,False
-"Panama City Beach, FL",panama-city-beach-fl,Garage door repair,garage-door-repair,2,20,18,False
-"Panama City Beach, FL",panama-city-beach-fl,Generator installation,generator-installation,5,20,15,False
+"Panama City Beach, FL",panama-city-beach-fl,Garage door repair,garage-door-repair,3,20,17,False
+"Panama City Beach, FL",panama-city-beach-fl,Generator installation,generator-installation,7,20,13,False
 "Panama City Beach, FL",panama-city-beach-fl,Gutters,gutters,3,20,17,False
 "Panama City Beach, FL",panama-city-beach-fl,Home inspections,home-inspections,2,20,18,False
-"Panama City Beach, FL",panama-city-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,5,20,15,False
+"Panama City Beach, FL",panama-city-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,9,20,11,False
 "Panama City Beach, FL",panama-city-beach-fl,HVAC,hvac,3,20,17,False
-"Panama City Beach, FL",panama-city-beach-fl,Insulation,insulation,3,20,17,False
+"Panama City Beach, FL",panama-city-beach-fl,Insulation,insulation,4,20,16,False
 "Panama City Beach, FL",panama-city-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,20,18,False
 "Panama City Beach, FL",panama-city-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,6,20,14,False
 "Panama City Beach, FL",panama-city-beach-fl,Landscaping,landscaping,4,20,16,False
@@ -951,10 +951,10 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City Beach, FL",panama-city-beach-fl,Painting,painting,5,20,15,False
 "Panama City Beach, FL",panama-city-beach-fl,Pest control,pest-control,2,20,18,False
 "Panama City Beach, FL",panama-city-beach-fl,Plumbing,plumbing,4,20,16,False
-"Panama City Beach, FL",panama-city-beach-fl,Pool installation,pool-installation,5,20,15,False
+"Panama City Beach, FL",panama-city-beach-fl,Pool installation,pool-installation,8,20,12,False
 "Panama City Beach, FL",panama-city-beach-fl,Pool service,pool-service,7,20,13,False
 "Panama City Beach, FL",panama-city-beach-fl,Roofing,roofing,2,20,18,False
-"Panama City Beach, FL",panama-city-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,5,20,15,False
+"Panama City Beach, FL",panama-city-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,6,20,14,False
 "Panama City Beach, FL",panama-city-beach-fl,Septic services,septic-services,3,20,17,False
 "Panama City Beach, FL",panama-city-beach-fl,Towing,towing,3,20,17,False
 "Panama City Beach, FL",panama-city-beach-fl,Tree service,tree-service,3,20,17,False
@@ -963,16 +963,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City, FL",panama-city-fl,Auto body & collision,auto-body-collision,4,20,16,False
 "Panama City, FL",panama-city-fl,Auto mechanics,auto-mechanics,5,20,15,False
 "Panama City, FL",panama-city-fl,Concrete & driveways,concrete,7,20,13,False
-"Panama City, FL",panama-city-fl,Electrical,electrical,5,20,15,False
+"Panama City, FL",panama-city-fl,Electrical,electrical,6,20,14,False
 "Panama City, FL",panama-city-fl,Fence builders,fence-builders,5,20,15,False
 "Panama City, FL",panama-city-fl,Flooring,flooring,4,20,16,False
-"Panama City, FL",panama-city-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Panama City, FL",panama-city-fl,Generator installation,generator-installation,5,20,15,False
+"Panama City, FL",panama-city-fl,Garage door repair,garage-door-repair,6,20,14,False
+"Panama City, FL",panama-city-fl,Generator installation,generator-installation,6,20,14,False
 "Panama City, FL",panama-city-fl,Gutters,gutters,5,20,15,False
 "Panama City, FL",panama-city-fl,Home inspections,home-inspections,6,20,14,False
-"Panama City, FL",panama-city-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,20,17,False
+"Panama City, FL",panama-city-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,9,20,11,False
 "Panama City, FL",panama-city-fl,HVAC,hvac,5,20,15,False
-"Panama City, FL",panama-city-fl,Insulation,insulation,3,20,17,False
+"Panama City, FL",panama-city-fl,Insulation,insulation,4,20,16,False
 "Panama City, FL",panama-city-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,9,20,11,False
 "Panama City, FL",panama-city-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,4,20,16,False
 "Panama City, FL",panama-city-fl,Landscaping,landscaping,8,20,12,False
@@ -981,11 +981,11 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Panama City, FL",panama-city-fl,Painting,painting,8,20,12,False
 "Panama City, FL",panama-city-fl,Pest control,pest-control,5,20,15,False
 "Panama City, FL",panama-city-fl,Plumbing,plumbing,5,20,15,False
-"Panama City, FL",panama-city-fl,Pool installation,pool-installation,3,20,17,False
-"Panama City, FL",panama-city-fl,Pool service,pool-service,5,20,15,False
+"Panama City, FL",panama-city-fl,Pool installation,pool-installation,9,20,11,False
+"Panama City, FL",panama-city-fl,Pool service,pool-service,6,20,14,False
 "Panama City, FL",panama-city-fl,Roofing,roofing,5,20,15,False
-"Panama City, FL",panama-city-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,7,20,13,False
-"Panama City, FL",panama-city-fl,Septic services,septic-services,3,20,17,False
+"Panama City, FL",panama-city-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,8,20,12,False
+"Panama City, FL",panama-city-fl,Septic services,septic-services,4,20,16,False
 "Panama City, FL",panama-city-fl,Towing,towing,5,20,15,False
 "Panama City, FL",panama-city-fl,Tree service,tree-service,5,20,15,False
 "Panama City, FL",panama-city-fl,Water damage & mold remediation,water-damage-mold-remediation,5,20,15,False
@@ -993,16 +993,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Pensacola, FL",pensacola-fl,Auto body & collision,auto-body-collision,6,20,14,False
 "Pensacola, FL",pensacola-fl,Auto mechanics,auto-mechanics,12,20,8,False
 "Pensacola, FL",pensacola-fl,Concrete & driveways,concrete,16,20,4,False
-"Pensacola, FL",pensacola-fl,Electrical,electrical,12,20,8,False
-"Pensacola, FL",pensacola-fl,Fence builders,fence-builders,12,20,8,False
+"Pensacola, FL",pensacola-fl,Electrical,electrical,15,20,5,False
+"Pensacola, FL",pensacola-fl,Fence builders,fence-builders,13,20,7,False
 "Pensacola, FL",pensacola-fl,Flooring,flooring,5,20,15,False
-"Pensacola, FL",pensacola-fl,Garage door repair,garage-door-repair,5,20,15,False
-"Pensacola, FL",pensacola-fl,Generator installation,generator-installation,12,20,8,False
+"Pensacola, FL",pensacola-fl,Garage door repair,garage-door-repair,6,20,14,False
+"Pensacola, FL",pensacola-fl,Generator installation,generator-installation,14,20,6,False
 "Pensacola, FL",pensacola-fl,Gutters,gutters,5,20,15,False
 "Pensacola, FL",pensacola-fl,Home inspections,home-inspections,5,20,15,False
-"Pensacola, FL",pensacola-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,20,8,False
+"Pensacola, FL",pensacola-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,15,20,5,False
 "Pensacola, FL",pensacola-fl,HVAC,hvac,12,20,8,False
-"Pensacola, FL",pensacola-fl,Insulation,insulation,10,20,10,False
+"Pensacola, FL",pensacola-fl,Insulation,insulation,11,20,9,False
 "Pensacola, FL",pensacola-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Pensacola, FL",pensacola-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,15,20,5,False
 "Pensacola, FL",pensacola-fl,Landscaping,landscaping,14,20,6,False
@@ -1011,7 +1011,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Pensacola, FL",pensacola-fl,Painting,painting,13,20,7,False
 "Pensacola, FL",pensacola-fl,Pest control,pest-control,12,20,8,False
 "Pensacola, FL",pensacola-fl,Plumbing,plumbing,13,20,7,False
-"Pensacola, FL",pensacola-fl,Pool installation,pool-installation,11,20,9,False
+"Pensacola, FL",pensacola-fl,Pool installation,pool-installation,12,20,8,False
 "Pensacola, FL",pensacola-fl,Pool service,pool-service,14,20,6,False
 "Pensacola, FL",pensacola-fl,Roofing,roofing,14,20,6,False
 "Pensacola, FL",pensacola-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,20,7,False
@@ -1023,16 +1023,16 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Perdido Key, FL",perdido-key-fl,Auto body & collision,auto-body-collision,1,20,19,False
 "Perdido Key, FL",perdido-key-fl,Auto mechanics,auto-mechanics,12,20,8,False
 "Perdido Key, FL",perdido-key-fl,Concrete & driveways,concrete,14,20,6,False
-"Perdido Key, FL",perdido-key-fl,Electrical,electrical,12,20,8,False
+"Perdido Key, FL",perdido-key-fl,Electrical,electrical,13,20,7,False
 "Perdido Key, FL",perdido-key-fl,Fence builders,fence-builders,11,20,9,False
 "Perdido Key, FL",perdido-key-fl,Flooring,flooring,4,20,16,False
 "Perdido Key, FL",perdido-key-fl,Garage door repair,garage-door-repair,4,20,16,False
-"Perdido Key, FL",perdido-key-fl,Generator installation,generator-installation,12,20,8,False
+"Perdido Key, FL",perdido-key-fl,Generator installation,generator-installation,13,20,7,False
 "Perdido Key, FL",perdido-key-fl,Gutters,gutters,4,20,16,False
 "Perdido Key, FL",perdido-key-fl,Home inspections,home-inspections,5,20,15,False
-"Perdido Key, FL",perdido-key-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,20,8,False
+"Perdido Key, FL",perdido-key-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,15,20,5,False
 "Perdido Key, FL",perdido-key-fl,HVAC,hvac,12,20,8,False
-"Perdido Key, FL",perdido-key-fl,Insulation,insulation,10,20,10,False
+"Perdido Key, FL",perdido-key-fl,Insulation,insulation,11,20,9,False
 "Perdido Key, FL",perdido-key-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,20,15,False
 "Perdido Key, FL",perdido-key-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,13,20,7,False
 "Perdido Key, FL",perdido-key-fl,Landscaping,landscaping,13,20,7,False
@@ -1101,7 +1101,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "St. Petersburg, FL",st-petersburg-fl,Painting,painting,0,20,20,False
 "St. Petersburg, FL",st-petersburg-fl,Pest control,pest-control,2,20,18,False
 "St. Petersburg, FL",st-petersburg-fl,Plumbing,plumbing,2,20,18,False
-"St. Petersburg, FL",st-petersburg-fl,Pool installation,pool-installation,1,20,19,False
+"St. Petersburg, FL",st-petersburg-fl,Pool installation,pool-installation,2,20,18,False
 "St. Petersburg, FL",st-petersburg-fl,Pool service,pool-service,1,20,19,False
 "St. Petersburg, FL",st-petersburg-fl,Roofing,roofing,1,20,19,False
 "St. Petersburg, FL",st-petersburg-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,1,20,19,False
@@ -1120,7 +1120,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Tallahassee, FL",tallahassee-fl,Generator installation,generator-installation,1,20,19,False
 "Tallahassee, FL",tallahassee-fl,Gutters,gutters,1,20,19,False
 "Tallahassee, FL",tallahassee-fl,Home inspections,home-inspections,0,20,20,False
-"Tallahassee, FL",tallahassee-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,2,20,18,False
+"Tallahassee, FL",tallahassee-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,20,17,False
 "Tallahassee, FL",tallahassee-fl,HVAC,hvac,3,20,17,False
 "Tallahassee, FL",tallahassee-fl,Insulation,insulation,2,20,18,False
 "Tallahassee, FL",tallahassee-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,0,20,20,False
@@ -1131,7 +1131,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Tallahassee, FL",tallahassee-fl,Painting,painting,1,20,19,False
 "Tallahassee, FL",tallahassee-fl,Pest control,pest-control,1,20,19,False
 "Tallahassee, FL",tallahassee-fl,Plumbing,plumbing,2,20,18,False
-"Tallahassee, FL",tallahassee-fl,Pool installation,pool-installation,2,20,18,False
+"Tallahassee, FL",tallahassee-fl,Pool installation,pool-installation,3,20,17,False
 "Tallahassee, FL",tallahassee-fl,Pool service,pool-service,2,20,18,False
 "Tallahassee, FL",tallahassee-fl,Roofing,roofing,2,20,18,False
 "Tallahassee, FL",tallahassee-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,2,20,18,False
@@ -1161,7 +1161,7 @@ city,city_slug,category,category_slug,listing_count,minimum,missing,meets_minimu
 "Tampa, FL",tampa-fl,Painting,painting,8,20,12,False
 "Tampa, FL",tampa-fl,Pest control,pest-control,12,20,8,False
 "Tampa, FL",tampa-fl,Plumbing,plumbing,11,20,9,False
-"Tampa, FL",tampa-fl,Pool installation,pool-installation,12,20,8,False
+"Tampa, FL",tampa-fl,Pool installation,pool-installation,13,20,7,False
 "Tampa, FL",tampa-fl,Pool service,pool-service,11,20,9,False
 "Tampa, FL",tampa-fl,Roofing,roofing,10,20,10,False
 "Tampa, FL",tampa-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,10,20,10,False

@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published and live verified",
   "sourceRecords": [
     {
       "name": "Palm Bay Pools",
@@ -838,7 +838,7 @@
       "bytes": 207418,
       "checkedAt": "2026-10-29T22:04:08.018536+00:00",
       "title": [
-        "Hurricane Shutters \u2013 Aluminum Railing | A to Z Shutters &amp; Railing"
+        "Hurricane Shutters – Aluminum Railing | A to Z Shutters &amp; Railing"
       ],
       "contentSha256": "900eb70299771c4f1d8303986d282391866b0268f06332dae66300dab7473c6f"
     },
@@ -959,7 +959,7 @@
       "bytes": 137346,
       "checkedAt": "2026-10-29T22:04:10.638782+00:00",
       "title": [
-        "McGee Electric LLC | Licensed Electricians \u2013 Gulf Coast Florida"
+        "McGee Electric LLC | Licensed Electricians – Gulf Coast Florida"
       ],
       "contentSha256": "d00d7c27dd740f7d956a152c6d1c2676ac2331bb39e653d3e7f1942c8aabbdba"
     },
@@ -1074,5 +1074,8 @@
     "empty": 77,
     "deficit": 19366
   },
-  "verificationNote": "All added services/geographies reviewed on official pages. Live verification follows deployment. Historical rows preserved, but this is not fresh verification of all historical identities."
+  "verificationNote": "All added services/geographies reviewed on official pages. Live verification follows deployment. Historical rows preserved, but this is not fresh verification of all historical identities.",
+  "publishedCommit": "98074a62e44822c5475e444303107fef32162c35",
+  "deploymentStatus": "success",
+  "liveEvidenceReport": "reports/live-fill-continuous-2026-10-29.json"
 }

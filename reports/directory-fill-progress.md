@@ -329,3 +329,18 @@ Next actions:
 - Schema/JSON, active slugs, unique IDs, normalized-domain duplicate and full historical-record comparisons passed. All 5,867 prior seed records and 1,341 source records unchanged; final seed 6,073. No data deleted; no application, paid/claimed, billing, outreach or subscription changes. No five-listing import/display cap found.
 - Publication/live confirmation pending at this checkpoint. Projected coverage: 1/1,200 at target, 1,199 below, 75 empty, deficit 19,160. Do not claim completion from aggregate totals.
 - Resume from latest main and fresh live audit. Priority low-count gaps remain collision repair and towing in Destin, insulation and septic in Panama City, plus low-count categories in Crestview/Fort Walton Beach. Genuine shortages and blocked identities should not prevent research on other gaps.
+
+### Continuous fill publication confirmed
+
+- Commit `98074a62e44822c5475e444303107fef32162c35` deployed successfully through Vercel. All **206 additions** verified on 113 live category pages with official website and profile links; all 26 distinct profile pages passed on retry. Evidence: `reports/live-fill-continuous-2026-10-29.json`.
+- Fresh full production audit: **1/1,200 active combinations at 20; 1,199 below; 75 empty; deficit 19,160**. Tampa locksmith remains the sole combination at target at this checkpoint. All-city CSV refreshed.
+
+## Continuous fill second checkpoint — 2026-10-29
+
+- Refreshed current main at `98074a62e44822c5475e444303107fef32162c35`; no open PRs or queued/in-progress workflows before publication. Current catalog remains 40 cities and 30 visible categories.
+- Prepared **84 additional placements from 29 identities** (24 new, five existing service-area extensions). City totals: Panama City +29, Panama City Beach +16, Destin +8, Crestview +7, Fort Walton Beach +6, Grayton Beach +4, Milton +3, Mobile +2, Tallahassee +2, and +1 each in Daphne, Gulf Breeze, Navarre, Orange Beach, Pace, Pensacola and Perdido Key. Exact category totals: `reports/validation-fill-continuous2-2026-10-29.json`.
+- Panama City flooring projects to **20 distinct businesses: 16 additions and four reverified existing identities**. All four existing official websites/evidence pages passed HTTP 200; relevance/local coverage rechecked. Source evidence and aliases: `reports/verified-fill-continuous2-2026-10-29.json`.
+- All 6,073 prior seed records and 1,372 source rows preserved unchanged; final projected seed 6,157. Active slugs, unique IDs, new domain/city/category duplicate checks and JSON/schema passed. No application code, claims, paid placements or database records changed. No deletions, purchases, paid APIs or outreach.
+- Website checks: 46/47 new source/home URLs returned HTTP 200. Just Right direct fetch returned 403, but current complete official homepage successfully retrieved through web research and confirmed HVAC services and coverage; direct HTTP success is not claimed. Emerald Design Center HTTP 500 and ambiguous TilleUp/Merritt candidates withheld.
+- Publication/live verification pending for these 84. Projected coverage: **2/1,200 at 20; 1,198 below; 75 empty; deficit 19,076**. Counts elsewhere are coverage indicators, not a fresh verification of all historical websites.
+- Resume from latest main and fresh production audit. Continue lowest counts in Destin, FWB, Crestview and Panama City, then outward. Document/reconcile the existing A to Z appliance directory URL without creating duplicates or deleting data. Do not restore retired categories, resurrect excluded chains, or report aggregate placement totals as completed categories.
