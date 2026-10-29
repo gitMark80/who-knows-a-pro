@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-29",
+  "baselineCommit": "4bc0940da9202fb04b9e7728c42972d7c65146b9",
+  "priorSeedRecords": 5848,
+  "finalSeedRecords": 5867,
+  "preservedPriorRecords": 5848,
+  "unchangedPriorSourceRecords": 1322,
+  "addedPlacements": 19,
+  "distinctBusinessIdentities": 19,
+  "newBusinessIdentities": 19,
+  "existingBusinessServiceExtensions": 0,
+  "uniqueIds": true,
+  "newNormalizedDomainCityTradeDuplicates": 0,
+  "validActiveSlugs": true,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "target": 20,
+  "projectedPairsAtTarget": 1,
+  "projectedDeficit": 19366,
+  "projectedEmpty": 77,
+  "byCity": {
+    "tampa-fl": 19
+  },
+  "byCategory": {
+    "locksmith": 19
+  },
+  "notes": [
+    "Only append-only source data and research/checkpoint files changed.",
+    "Counts are generated coverage, not fresh independent verification of every historical website.",
+    "No five-listing cap in seed pipeline; current audit minimum already 20.",
+    "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+  ]
+}
