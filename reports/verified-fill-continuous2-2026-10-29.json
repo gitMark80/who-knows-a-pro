@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published and live verified",
   "sourceRecords": [
     {
       "name": "Middlebrooks Contractors, Inc.",
@@ -1153,5 +1153,8 @@
     "Rylis flooring placement is for stone restoration/refinishing, not installation.",
     "Corbitt Moseley septic scope is tank abandonment only.",
     "Panama City and Panama City Beach kept separate; no city inferred solely from a URL slug."
-  ]
+  ],
+  "publishedCommit": "e4b2fc66bb9d826bb41cee1bddc4549e85f9347c",
+  "deploymentStatus": "success",
+  "liveEvidenceReport": "reports/live-fill-continuous2-2026-10-29.json"
 }

@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-29",
+  "baselineCommit": "e4b2fc66bb9d826bb41cee1bddc4549e85f9347c",
+  "priorSeedRecords": 6157,
+  "finalSeedRecords": 6369,
+  "preservedPriorRecords": 6157,
+  "unchangedPriorSourceRecords": 1406,
+  "addedPlacements": 212,
+  "distinctBusinessIdentities": 31,
+  "newBusinessIdentities": 22,
+  "existingBusinessServiceExtensions": 9,
+  "uniqueIds": true,
+  "newNormalizedDomainCityTradeDuplicates": 0,
+  "validActiveSlugs": true,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "target": 20,
+  "projectedPairsAtTarget": 8,
+  "projectedDeficit": 18886,
+  "projectedEmpty": 75,
+  "byCity": {
+    "biloxi-ms": 1,
+    "crestview-fl": 21,
+    "daphne-al": 1,
+    "destin-fl": 25,
+    "fairhope-al": 1,
+    "foley-al": 4,
+    "fort-walton-beach-fl": 22,
+    "grayton-beach-fl": 17,
+    "gulf-breeze-fl": 16,
+    "gulf-shores-al": 4,
+    "milton-fl": 14,
+    "mobile-al": 4,
+    "navarre-fl": 16,
+    "orange-beach-al": 1,
+    "pace-fl": 13,
+    "panama-city-beach-fl": 21,
+    "panama-city-fl": 18,
+    "pensacola-fl": 8,
+    "perdido-key-fl": 5
+  },
+  "byCategory": {
+    "electrical": 33,
+    "hvac": 159,
+    "plumbing": 20
+  },
+  "notes": [
+    "Only append-only source data and research/checkpoint files changed.",
+    "Counts are generated coverage, not fresh independent verification of every historical website.",
+    "No five-listing cap in seed pipeline; current audit minimum already 20.",
+    "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+  ]
+}

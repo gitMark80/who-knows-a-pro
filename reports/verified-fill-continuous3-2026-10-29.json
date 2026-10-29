@@ -1,0 +1,1887 @@
+{
+  "date": "2026-10-29",
+  "baselineCommit": "e4b2fc66bb9d826bb41cee1bddc4549e85f9347c",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Pros Heating & Air Conditioning",
+      "website": "https://myproshvac.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://myproshvac.com/service-area/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page offers AC/heating installation, repair and maintenance, explicitly names Destin/FWB/Crestview and serves South Walton County, supporting Grayton Beach coverage. Valparaiso-based; phone 850-676-7767. Broad footer Pensacola-through-Panama-City claim not expanded beyond detailed coverage."
+    },
+    {
+      "name": "Mills Heating & Air",
+      "website": "https://millshvac.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://millshvac.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers residential/commercial heating and AC repair, replacement and maintenance and explicitly lists all selected cities. Four office locations are one identity; phone 850-862-4796. PCB office does not imply Panama City coverage."
+    },
+    {
+      "name": "Southern Comfort Climate Control",
+      "website": "https://southerncomfortclimatecontrol.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://southerncomfortclimatecontrol.com/contact-us/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service list explicitly includes FWB, Destin, Crestview south of I-10 and east Navarre. Geographic restrictions apply: not a citywide claim for Crestview or Navarre. HVAC repair/replacement/maintenance options listed; phone 850-863-9885."
+    },
+    {
+      "name": "Tempacure Heating & Air Conditioning",
+      "website": "https://www.tempacurehvac.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pensacola-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.tempacurehvac.com/about-us",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official About/FAQ describes heating/AC repair, installation and maintenance, names seven selected cities and confirms Walton County coverage supporting Grayton Beach. Two Niceville offices are the same identity; phone 850-678-COOL. Mold service is HVAC-system-limited, not generalized restoration."
+    },
+    {
+      "name": "Express Air Conditioning and Heating Inc.",
+      "website": "https://www.airconditioningcrestview.net/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pace-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.airconditioningcrestview.net/contact-us/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official contact page lists AC repair/new systems, Crestview base and all selected service cities. Multiple regional phone numbers are one company; Crestview phone 850-682-2700. Alternate city-specific Express sites not separate identities."
+    },
+    {
+      "name": "Save Now Cooling",
+      "website": "https://www.savenowcooling.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "milton-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pace-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.savenowcooling.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page describes HVAC diagnostics, repair and installation, explicitly lists eight selected cities and consistent service routes across Escambia/Santa Rosa/Okaloosa counties, supporting Perdido Key. Gulf Breeze based; phone 850-846-1568. Noncatalog Pensacola Beach excluded."
+    },
+    {
+      "name": "Cool Currents Air Conditioning, Heating & Electrical",
+      "website": "https://www.coolcurrents.net/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "navarre-fl",
+        "pace-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac",
+        "electrical"
+      ],
+      "sourceUrl": "https://www.coolcurrents.net/blank-1",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service page lists Okaloosa, Walton and Santa Rosa counties and selected named communities; county coverage supports Pace/Grayton. Homepage offers HVAC repair/install and electrical panel upgrades. Advanced A/C & Heating at advancedac.us redirects here after acquisition; count only one identity. FWB office phone 850-244-3757."
+    },
+    {
+      "name": "Moore Heating & Air",
+      "website": "https://mooreheatingandair.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "milton-fl",
+        "navarre-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "pace-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://mooreheatingandair.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page offers HVAC repair/service anywhere in Santa Rosa, Okaloosa and Escambia counties, explicitly naming seven selected cities; countywide coverage supports Pace/Perdido Key. Phone 850-675-3322; Milton based."
+    },
+    {
+      "name": "Armor Service Group Heating & Cooling",
+      "website": "https://www.armorservicegroup.com/",
+      "regions": [
+        "destin-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac",
+        "electrical"
+      ],
+      "sourceUrl": "https://www.armorservicegroup.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page confirms HVAC and electrical services across Escambia, Santa Rosa, Okaloosa and Walton counties, with selected named cities. Countywide coverage supports Perdido Key/Gulf Breeze/Grayton Beach. Existing identity reused; phone 850-695-3023."
+    },
+    {
+      "name": "Armor Service Group Heating & Cooling",
+      "website": "https://www.armorservicegroup.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://www.armorservicegroup.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page confirms HVAC and electrical services across Escambia, Santa Rosa, Okaloosa and Walton counties, with selected named cities. Countywide coverage supports Perdido Key/Gulf Breeze/Grayton Beach. Existing identity reused; phone 850-695-3023."
+    },
+    {
+      "name": "Gulf Coast Air Conditioning LLC",
+      "website": "https://gulfcoastairpc.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://gulfcoastairpc.com/our-service-areas/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page identifies owner Drew Pollard, HVAC repair/install/maintenance and explicit PC/PCB plus Bay/Walton county coverage, supporting Grayton Beach. Phone 850-832-0690. Different identity from Gulf Coast Heating & Air at gulfcoasthvacfl.com."
+    },
+    {
+      "name": "Clark Heating and Air Conditioning LLC",
+      "website": "https://www.clarkhvacpros.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.clarkhvacpros.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers heating/AC repair, installation and maintenance and explicitly lists PC, PCB, Crestview and FWB. Panama City office 14029 Ashton Way; phone 850-890-4065. No Destin coverage inferred."
+    },
+    {
+      "name": "850 Precision Air",
+      "website": "https://www.850precisionair.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.850precisionair.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official owner-operated business page offers heating/AC repair, replacement, installation and maintenance, explicitly naming PC/PCB and Bay/Walton county communities. Phone 850-818-8080. County coverage supports Grayton service, not a storefront."
+    },
+    {
+      "name": "A&H Heating and Air LLC",
+      "website": "https://www.ahheatingandairllc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.ahheatingandairllc.com/about-us.html",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official About page identifies locally owned Panama City HVAC contractor, owner Joe and technician Robert, repair/new-system services, and phone 850-381-9939. Other cities not inferred."
+    },
+    {
+      "name": "Bailey's Air Conditioning and Heating",
+      "website": "https://www.baileyshvac.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.baileyshvac.com/service-area",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page explicitly lists PC and PCB for heating/AC installation, replacement, repair and tuneups. Phone 850-960-8057. Distinct from existing Baileys Air at baileysair.com; no shared identity assumed based on name alone."
+    },
+    {
+      "name": "Modern Air Solutions",
+      "website": "https://www.modernairsolutionsllc.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.modernairsolutionsllc.com/service-area",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page offers HVAC repairs, maintenance and installation; explicitly lists PC, PCB, Destin and Crestview and coverage throughout Walton County supporting Grayton Beach. PCB office 19407 Panama City Beach Parkway; phone 850-249-2999."
+    },
+    {
+      "name": "Arctic Air & Refrigeration",
+      "website": "https://arcticairandrefrigeration.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://arcticairandrefrigeration.com/about/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page identifies owner Muhammad Jawad Ibrahim, PC office 2025 W 15th Street, explicit PCB service and AC/heating installation/repair. Phone 850-276-0744. Other generic Arctic company domains are not assumed related."
+    },
+    {
+      "name": "Steverson Air Conditioning",
+      "website": "https://www.steversonair.net/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.steversonair.net/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official site offers HVAC repair, installation and maintenance throughout Bay County, identifies Panama City office at 2806 E Highway 390, and phone 850-248-1109. Bay County scope supports PCB service."
+    },
+    {
+      "name": "Four Seasons Air Conditioning, Heating & Refrigeration",
+      "website": "https://www.fourseasonsairconditioning.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.fourseasonsairconditioning.com/contact-us",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page offers HVAC repair/services and lists FWB, Destin/Walton County, Gulf Breeze/Navarre and Crestview service lines. Walton County scope supports Grayton Beach. 35 Tupelo Ave SE, FWB; phone 850-243-2655. Multiple phone numbers are one business."
+    },
+    {
+      "name": "Family Heating & Air",
+      "website": "https://familyheatingandac.com/",
+      "regions": [
+        "pensacola-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "mobile-al",
+        "orange-beach-al",
+        "biloxi-ms"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://familyheatingandac.com/service-area/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official page explicitly names every selected community and offers heating/AC service, repairs and installation. Pensacola and Ocean Springs locations are one business; phone 850-604-1335. Navarre Beach-only listing not expanded to mainland Navarre; Pensacola Beach is not active catalog."
+    },
+    {
+      "name": "Gulfshore Air",
+      "website": "https://gulfshoreair.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://gulfshoreair.com/crestview-hvac/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Crestview HVAC page confirms heating/AC repair and installation; current service-area footer explicitly lists Crestview, Destin, Fort Walton Beach, Navarre, Gulf Breeze and Panama City Beach. Panama City menu label conflicts with the linked page body, which specifies PCB; no Panama City placement. Phone 850-897-6540. Direct fetch 403; full current official pages successfully read through web retrieval."
+    },
+    {
+      "name": "Paradise Home Services",
+      "website": "https://www.paradisehomeservices.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.paradisehomeservices.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page explicitly offers HVAC and plumbing in every selected community. Existing identity/domain reused, including alternate areas-we-serve URL; offices Navarre/PCB are not extra businesses. Phone 850-331-0361."
+    },
+    {
+      "name": "Paradise Home Services",
+      "website": "https://www.paradisehomeservices.com/",
+      "regions": [
+        "destin-fl",
+        "milton-fl",
+        "pace-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac",
+        "plumbing"
+      ],
+      "sourceUrl": "https://www.paradisehomeservices.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page explicitly offers HVAC and plumbing in every selected community. Existing identity/domain reused, including alternate areas-we-serve URL; offices Navarre/PCB are not extra businesses. Phone 850-331-0361."
+    },
+    {
+      "name": "Holt Phillips Heating & Cooling",
+      "website": "https://www.holtphillips.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.holtphillips.com/service-area/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official AC repair/installation service-area page explicitly names all four selected cities. Niceville company, phone 850-792-4658. Crestview is not listed on this HVAC page, so not inferred from plumbing coverage."
+    },
+    {
+      "name": "Peaden",
+      "website": "https://www.peaden.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl",
+        "foley-al",
+        "gulf-shores-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "hvac",
+        "plumbing",
+        "electrical"
+      ],
+      "sourceUrl": "https://www.peaden.com/about",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official About page explicitly describes heating/AC, plumbing and electrical services and lists all selected cities/office regions. Existing Peaden identity reused; longer Peaden Air Conditioning, Plumbing & Electrical naming variants and regional URLs are the same business, deduplicated by domain. No relation inferred to OC Peaden Septic."
+    },
+    {
+      "name": "Peaden",
+      "website": "https://www.peaden.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.peaden.com/about",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official About page explicitly describes heating/AC, plumbing and electrical services and lists all selected cities/office regions. Existing Peaden identity reused; longer Peaden Air Conditioning, Plumbing & Electrical naming variants and regional URLs are the same business, deduplicated by domain. No relation inferred to OC Peaden Septic."
+    },
+    {
+      "name": "Peaden",
+      "website": "https://www.peaden.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "hvac",
+        "plumbing",
+        "electrical"
+      ],
+      "sourceUrl": "https://www.peaden.com/service-areas/crestview-fl",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Crestview page specifically offers AC repair/installation, plumbing and electrical services throughout Crestview ZIP codes 32536 and 32539. Existing Peaden identity reused; phone 850-904-5797."
+    },
+    {
+      "name": "JefCo Air Conditioning & Plumbing",
+      "website": "https://www.jefcoac.com/areas-we-serve/grayton-beach",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.jefcoac.com/areas-we-serve/destin",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official city-specific page explicitly offers HVAC repair, installation and maintenance in destin. Existing Grayton Beach identity and canonical URL retained; phone 850-654-4822. Generic Tampa template text not used to infer Tampa coverage."
+    },
+    {
+      "name": "JefCo Air Conditioning & Plumbing",
+      "website": "https://www.jefcoac.com/areas-we-serve/grayton-beach",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.jefcoac.com/areas-we-serve/fort-walton-beach",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official city-specific page explicitly offers HVAC repair, installation and maintenance in fort walton beach. Existing Grayton Beach identity and canonical URL retained; phone 850-654-4822. Generic Tampa template text not used to infer Tampa coverage."
+    },
+    {
+      "name": "JefCo Air Conditioning & Plumbing",
+      "website": "https://www.jefcoac.com/areas-we-serve/grayton-beach",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.jefcoac.com/areas-we-serve/panama-city",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official city-specific page explicitly offers HVAC repair, installation and maintenance in panama city. Existing Grayton Beach identity and canonical URL retained; phone 850-654-4822. Generic Tampa template text not used to infer Tampa coverage."
+    },
+    {
+      "name": "Salt Air AC Heating Refrigeration",
+      "website": "https://saltairac.com/hvac_services_panama_city_florida/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://saltairac.com/hvac_services_panama_city_florida/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service page explicitly names PC, PCB, Destin, FWB and Grayton Beach, and serves Okaloosa/Santa Rosa counties supporting Crestview/Gulf Breeze/Navarre/Milton/Pace. Existing identity/canonical URL reused; HVAC all-manufacturer service, phone 850-381-6027."
+    },
+    {
+      "name": "Quincy's Heating & Air Conditioning",
+      "website": "https://quincysair.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://quincysair.com/areas/panama-city-fl/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Panama City page explicitly offers AC/heating repairs, installation and maintenance throughout PC ZIP codes 32401/32405; phone 850-235-8834. No unlisted service areas inferred."
+    },
+    {
+      "name": "Quincy's Heating & Air Conditioning",
+      "website": "https://quincysair.com/",
+      "regions": [
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://quincysair.com/areas/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official service-area page explicitly names Panama City Beach and Grayton Beach for heating and air conditioning. Frosty Comfort Inc DBA Quincy's; one identity across its service area. Phone 850-235-8834."
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "website": "https://www.mcculloughairconditioning.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "hvac",
+        "electrical"
+      ],
+      "sourceUrl": "https://www.mcculloughairconditioning.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers heating/air conditioning, plumbing and electrical services and explicitly names Destin, Fort Walton Beach and Crestview. Existing company; add only missing city/category placements."
+    },
+    {
+      "name": "Bones Heating & Cooling, LLC",
+      "website": "https://www.bonesheatingandcooling.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.bonesheatingandcooling.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official website offers HVAC repairs and installation in Panama City, with office at 2119 E 5th St, phone 850-215-2151, and owners Tony and Angie Knapp. No additional cities inferred from reviews or chamber membership."
+    },
+    {
+      "name": "Tarpon Dock Air Conditioning",
+      "website": "https://tarpondockac.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://tarpondockac.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers residential/commercial heating and cooling installation, repairs and maintenance across Bay County. Panama City office 1721 E 11th St, phone 850-785-9568. Countywide service includes PC and PCB; one identity."
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "website": "https://www.holidaybeachmechanical.com/",
+      "regions": [
+        "panama-city-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "hvac",
+        "plumbing",
+        "electrical"
+      ],
+      "sourceUrl": "https://www.holidaybeachmechanical.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage explicitly offers HVAC, electrical and plumbing throughout Bay County and names Destin, Panama City Beach and the 30A corridor (Grayton Beach). Phone 850-271-5999. Existing company; missing placements only."
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "website": "https://advantagehpe.com/",
+      "regions": [
+        "navarre-fl",
+        "panama-city-beach-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "hvac",
+        "plumbing",
+        "electrical"
+      ],
+      "sourceUrl": "https://advantagehpe.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers air conditioning/heating, plumbing and electrical with all trades in-house and explicitly lists all assigned cities in its service-area navigation. Existing company, missing placements only; no Panama City inferred from PCB."
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "website": "https://advantagehpe.com/",
+      "regions": [
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://advantagehpe.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers air conditioning/heating, plumbing and electrical with all trades in-house and explicitly lists all assigned cities in its service-area navigation. Existing company, missing placements only; no Panama City inferred from PCB."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "Armor Service Group Heating & Cooling",
+      "region": "pace-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Armor Service Group Heating & Cooling",
+      "region": "milton-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "crestview-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "fort-walton-beach-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "gulf-breeze-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "gulf-breeze-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "navarre-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "navarre-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "pensacola-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Paradise Home Services",
+      "region": "pensacola-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "gulf-breeze-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "gulf-breeze-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "pensacola-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "pensacola-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "panama-city-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "panama-city-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "panama-city-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "tallahassee-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "tallahassee-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Peaden",
+      "region": "tallahassee-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Salt Air AC Heating Refrigeration",
+      "region": "grayton-beach-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "destin-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "destin-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "destin-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "destin-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "panama-city-beach-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "panama-city-beach-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "panama-city-beach-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "destin-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "destin-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "destin-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "trade": "plumbing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "grayton-beach-fl",
+      "trade": "hvac",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "grayton-beach-fl",
+      "trade": "electrical",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "websiteChecks": [
+    {
+      "url": "https://advantagehpe.com/",
+      "status": 200,
+      "finalUrl": "https://advantagehpe.com/",
+      "bytes": 373507,
+      "checkedAt": "2026-10-29T22:28:28.145155+00:00",
+      "title": [
+        "24/7 HVAC, Plumbing &amp; Electrical | Fort Walton Beach FL | Advantage"
+      ]
+    },
+    {
+      "url": "https://arcticairandrefrigeration.com/",
+      "status": 200,
+      "finalUrl": "https://arcticairandrefrigeration.com/",
+      "bytes": 179179,
+      "checkedAt": "2026-10-29T22:28:28.735255+00:00",
+      "title": [
+        "Arctic Air And Refrigeration - Top HVAC Services"
+      ]
+    },
+    {
+      "url": "https://arcticairandrefrigeration.com/about/",
+      "status": 200,
+      "finalUrl": "https://arcticairandrefrigeration.com/about/",
+      "bytes": 135656,
+      "checkedAt": "2026-10-29T22:28:28.440257+00:00",
+      "title": [
+        "Arctic Air And Refrigeration - Top HVAC Services"
+      ]
+    },
+    {
+      "url": "https://familyheatingandac.com/",
+      "status": 200,
+      "finalUrl": "https://familyheatingandac.com/",
+      "bytes": 98834,
+      "checkedAt": "2026-10-29T22:28:28.226547+00:00",
+      "title": [
+        "HVAC Installation, AC Service, Heat Pump Installation &amp; Air Conditioner Service | Pensacola, FL, Ocean Springs, MS, Biloxi, MS, Ensley, FL, Brent, FL &amp; Ferry Pass, FL | Family Heating &amp; Air"
+      ]
+    },
+    {
+      "url": "https://familyheatingandac.com/service-area/",
+      "status": 200,
+      "finalUrl": "https://familyheatingandac.com/service-area/",
+      "bytes": 94061,
+      "checkedAt": "2026-10-29T22:28:28.266934+00:00",
+      "title": [
+        "Service Area | Family Heating &amp; Air | Serving Pensacola, FL, Ocean Springs &amp; Biloxi, MS"
+      ]
+    },
+    {
+      "url": "https://gulfcoastairpc.com/",
+      "status": 200,
+      "finalUrl": "https://gulfcoastairpc.com/",
+      "bytes": 93165,
+      "checkedAt": "2026-10-29T22:28:28.144282+00:00",
+      "title": [
+        "HVAC &amp; Air Conditioning Services in Panama City, FL"
+      ]
+    },
+    {
+      "url": "https://gulfcoastairpc.com/our-service-areas/",
+      "status": 200,
+      "finalUrl": "https://gulfcoastairpc.com/our-service-areas/",
+      "bytes": 82233,
+      "checkedAt": "2026-10-29T22:28:28.222834+00:00",
+      "title": [
+        "HVAC Services in Bay, Walton, Washington &amp; Gulf Counties"
+      ]
+    },
+    {
+      "url": "https://gulfshoreair.com/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://gulfshoreair.com/crestview-hvac/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://millshvac.com/",
+      "status": 200,
+      "finalUrl": "https://millshvac.com/",
+      "bytes": 274719,
+      "checkedAt": "2026-10-29T22:28:31.160735+00:00",
+      "title": [
+        "Heating and Cooling Services Fort Walton Beach | Mills Heating &amp; Air - (850) 862-4796"
+      ]
+    },
+    {
+      "url": "https://mooreheatingandair.com/",
+      "status": 200,
+      "finalUrl": "https://mooreheatingandair.com/",
+      "bytes": 190120,
+      "checkedAt": "2026-10-29T22:28:31.242573+00:00",
+      "title": [
+        "Heating &amp; AC in Pensacola, FL | Moore Heating and Air"
+      ]
+    },
+    {
+      "url": "https://mooreheatingandair.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://mooreheatingandair.com/service-areas/",
+      "bytes": 203132,
+      "checkedAt": "2026-10-29T22:28:31.404930+00:00",
+      "title": [
+        "Service Areas | Moore Heating and Air"
+      ]
+    },
+    {
+      "url": "https://myproshvac.com/",
+      "status": 200,
+      "finalUrl": "https://myproshvac.com/",
+      "bytes": 114855,
+      "checkedAt": "2026-10-29T22:28:31.257275+00:00",
+      "title": [
+        "Reliable HVAC Services in South Walton | Pros Heating &amp; Air"
+      ]
+    },
+    {
+      "url": "https://myproshvac.com/service-area/",
+      "status": 200,
+      "finalUrl": "https://myproshvac.com/service-area/",
+      "bytes": 77998,
+      "checkedAt": "2026-10-29T22:28:31.207052+00:00",
+      "title": [
+        "Service Area - PROS HVAC"
+      ]
+    },
+    {
+      "url": "https://quincysair.com/",
+      "status": 200,
+      "finalUrl": "https://quincysair.com/",
+      "bytes": 62671,
+      "checkedAt": "2026-10-29T22:28:30.574518+00:00",
+      "title": [
+        "HVAC Company Panama City Beach, FL | 4.8★ 184 Reviews"
+      ]
+    },
+    {
+      "url": "https://quincysair.com/areas/",
+      "status": 200,
+      "finalUrl": "https://quincysair.com/areas/",
+      "bytes": 22199,
+      "checkedAt": "2026-10-29T22:28:30.807428+00:00",
+      "title": [
+        "Areas We Serve: Bay, Walton &amp; Washington Counties | Quincy's"
+      ]
+    },
+    {
+      "url": "https://quincysair.com/areas/panama-city-fl/",
+      "status": 200,
+      "finalUrl": "https://quincysair.com/areas/panama-city-fl/",
+      "bytes": 43868,
+      "checkedAt": "2026-10-29T22:28:30.786414+00:00",
+      "title": [
+        "HVAC Services in Panama City, FL | Quincy's Air"
+      ]
+    },
+    {
+      "url": "https://saltairac.com/hvac_services_panama_city_florida/",
+      "status": 200,
+      "finalUrl": "https://saltairac.com/hvac_services_panama_city_florida/",
+      "bytes": 118779,
+      "checkedAt": "2026-10-29T22:28:33.787126+00:00",
+      "title": [
+        "Service Area &#8211; Salt Air AC Heating Refrigeration"
+      ]
+    },
+    {
+      "url": "https://southerncomfortclimatecontrol.com/",
+      "status": 200,
+      "finalUrl": "https://southerncomfortclimatecontrol.com/",
+      "bytes": 150664,
+      "checkedAt": "2026-10-29T22:28:33.014378+00:00",
+      "title": [
+        "FWB AC Repairs, Heating Repairs, HVAC Installation | Serving Fort Walton Beach, Shalimar, Mary Esther, Niceville, Wright - Southern Comfort Climate Control"
+      ]
+    },
+    {
+      "url": "https://southerncomfortclimatecontrol.com/contact-us/",
+      "status": 200,
+      "finalUrl": "https://southerncomfortclimatecontrol.com/contact-us/",
+      "bytes": 192908,
+      "checkedAt": "2026-10-29T22:28:33.882483+00:00",
+      "title": [
+        "Contact Us | FWB AC Repairs, Heating Repairs, HVAC Installation"
+      ]
+    },
+    {
+      "url": "https://tarpondockac.com/",
+      "status": 200,
+      "finalUrl": "https://tarpondockac.com/",
+      "bytes": 188231,
+      "checkedAt": "2026-10-29T22:28:36.154531+00:00",
+      "title": [
+        "HVAC &amp; Sheet Metal Fabrication | Tarpon Dock Air Conditioning"
+      ]
+    },
+    {
+      "url": "https://www.850precisionair.com/",
+      "status": 200,
+      "finalUrl": "https://www.850precisionair.com/",
+      "bytes": 1851074,
+      "checkedAt": "2026-10-29T22:28:33.923858+00:00",
+      "title": [
+        "Home | 850 Precision Air"
+      ]
+    },
+    {
+      "url": "https://www.ahheatingandairllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.ahheatingandairllc.com/",
+      "bytes": 20934,
+      "checkedAt": "2026-10-29T22:28:33.406384+00:00",
+      "title": [
+        "HVAC Contractor Panama City, FL | A&H Heating and Air LLC"
+      ]
+    },
+    {
+      "url": "https://www.ahheatingandairllc.com/about-us.html",
+      "status": 200,
+      "finalUrl": "https://www.ahheatingandairllc.com/about-us.html",
+      "bytes": 14523,
+      "checkedAt": "2026-10-29T22:28:33.386375+00:00",
+      "title": [
+        "About A&H Heating and Air LLC in Panama City, FL"
+      ]
+    },
+    {
+      "url": "https://www.airconditioningcrestview.net/",
+      "status": 200,
+      "finalUrl": "https://www.airconditioningcrestview.net/",
+      "bytes": 42462,
+      "checkedAt": "2026-10-29T22:28:33.774248+00:00",
+      "title": [
+        "Crestview AC Repair and Installation | Express Air Now"
+      ]
+    },
+    {
+      "url": "https://www.airconditioningcrestview.net/contact-us/",
+      "status": 200,
+      "finalUrl": "https://www.airconditioningcrestview.net/contact-us/",
+      "bytes": 39400,
+      "checkedAt": "2026-10-29T22:28:33.758455+00:00",
+      "title": [
+        "Contact Us | Crestview | Express AC and Heating"
+      ]
+    },
+    {
+      "url": "https://www.armorservicegroup.com/",
+      "status": 200,
+      "finalUrl": "https://www.armorservicegroup.com/",
+      "bytes": 137988,
+      "checkedAt": "2026-10-29T22:28:35.903295+00:00",
+      "title": [
+        "HVAC Professionals in Milton | Armor Service Group Heating & Cooling"
+      ]
+    },
+    {
+      "url": "https://www.armorservicegroup.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://www.armorservicegroup.com/service-areas/",
+      "bytes": 133538,
+      "checkedAt": "2026-10-29T22:28:35.786389+00:00",
+      "title": [
+        "Service Areas | Armor Service Group Heating & Cooling"
+      ]
+    },
+    {
+      "url": "https://www.baileyshvac.com/",
+      "status": 200,
+      "finalUrl": "https://www.baileyshvac.com/",
+      "bytes": 211954,
+      "checkedAt": "2026-10-29T22:28:36.042585+00:00",
+      "title": [
+        "\r\n    \n    HVAC Company | Panama City Beach, FL | Bailey's Air Conditioning &amp; Heating\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.baileyshvac.com/service-area",
+      "status": 200,
+      "finalUrl": "https://www.baileyshvac.com/service-area",
+      "bytes": 132378,
+      "checkedAt": "2026-10-29T22:28:36.082254+00:00",
+      "title": [
+        "\r\n    \n    Bailey's Air Conditioning &amp; Heating Service Area | Panama City Beach, FL\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.bonesheatingandcooling.com/",
+      "status": 200,
+      "finalUrl": "https://www.bonesheatingandcooling.com/",
+      "bytes": 196493,
+      "checkedAt": "2026-10-29T22:28:37.928000+00:00",
+      "title": [
+        "Bones Heating &amp; Cooling, LLC"
+      ]
+    },
+    {
+      "url": "https://www.clarkhvacpros.com/",
+      "status": 200,
+      "finalUrl": "https://www.clarkhvacpros.com/",
+      "bytes": 53474,
+      "checkedAt": "2026-10-29T22:28:36.650521+00:00",
+      "title": [
+        "HVAC &amp; AC Repair in Panama City, FL | Clark Heating &amp; Air"
+      ]
+    },
+    {
+      "url": "https://www.coolcurrents.net/",
+      "status": 200,
+      "finalUrl": "https://www.coolcurrents.net/",
+      "bytes": 1254647,
+      "checkedAt": "2026-10-29T22:28:36.318963+00:00",
+      "title": [
+        "Cool Currents HVAC &amp; Electrical"
+      ]
+    },
+    {
+      "url": "https://www.coolcurrents.net/blank-1",
+      "status": 200,
+      "finalUrl": "https://www.coolcurrents.net/blank-1",
+      "bytes": 1050557,
+      "checkedAt": "2026-10-29T22:28:36.460408+00:00",
+      "title": [
+        "Service Areas | Cool Currents AC"
+      ]
+    },
+    {
+      "url": "https://www.fourseasonsairconditioning.com/",
+      "status": 200,
+      "finalUrl": "https://www.fourseasonsairconditioning.com/",
+      "bytes": 433860,
+      "checkedAt": "2026-10-29T22:28:39.007696+00:00",
+      "title": [
+        "Home | Four Seasons Air Conditioning and Heating"
+      ]
+    },
+    {
+      "url": "https://www.fourseasonsairconditioning.com/contact-us",
+      "status": 200,
+      "finalUrl": "https://www.fourseasonsairconditioning.com/contact-us",
+      "bytes": 648814,
+      "checkedAt": "2026-10-29T22:28:38.335567+00:00",
+      "title": [
+        "Contact | Four Seasons Air Conditioning and Heating"
+      ]
+    },
+    {
+      "url": "https://www.holidaybeachmechanical.com/",
+      "status": 200,
+      "finalUrl": "https://www.holidaybeachmechanical.com/",
+      "bytes": 126741,
+      "checkedAt": "2026-10-29T22:28:39.728364+00:00",
+      "title": [
+        "Home | Holiday Beach Mechanical"
+      ]
+    },
+    {
+      "url": "https://www.holtphillips.com/",
+      "status": 200,
+      "finalUrl": "https://www.holtphillips.com/",
+      "bytes": 366232,
+      "checkedAt": "2026-10-29T22:28:38.666607+00:00",
+      "title": [
+        "HVAC &amp; Electrical Services | Serving Bluewater Bay, Niceville, Destin"
+      ]
+    },
+    {
+      "url": "https://www.holtphillips.com/service-area/",
+      "status": 200,
+      "finalUrl": "https://www.holtphillips.com/service-area/",
+      "bytes": 273593,
+      "checkedAt": "2026-10-29T22:28:38.642910+00:00",
+      "title": [
+        "Service Area - Holt Phillips"
+      ]
+    },
+    {
+      "url": "https://www.jefcoac.com/areas-we-serve/destin",
+      "status": 200,
+      "finalUrl": "https://www.jefcoac.com/areas-we-serve/destin",
+      "bytes": 105675,
+      "checkedAt": "2026-10-29T22:28:39.034679+00:00",
+      "title": [
+        "Destin | JefCo Air Conditioning &amp; Plumbing"
+      ]
+    },
+    {
+      "url": "https://www.jefcoac.com/areas-we-serve/fort-walton-beach",
+      "status": 200,
+      "finalUrl": "https://www.jefcoac.com/areas-we-serve/fort-walton-beach",
+      "bytes": 105607,
+      "checkedAt": "2026-10-29T22:28:39.050259+00:00",
+      "title": [
+        "Fort Walton Beach | JefCo Air Conditioning &amp; Plumbing"
+      ]
+    },
+    {
+      "url": "https://www.jefcoac.com/areas-we-serve/grayton-beach",
+      "status": 200,
+      "finalUrl": "https://www.jefcoac.com/areas-we-serve/grayton-beach",
+      "bytes": 105367,
+      "checkedAt": "2026-10-29T22:28:40.642973+00:00",
+      "title": [
+        "Grayton Beach | JefCo Air Conditioning &amp; Plumbing"
+      ]
+    },
+    {
+      "url": "https://www.jefcoac.com/areas-we-serve/panama-city",
+      "status": 200,
+      "finalUrl": "https://www.jefcoac.com/areas-we-serve/panama-city",
+      "bytes": 108562,
+      "checkedAt": "2026-10-29T22:28:40.820718+00:00",
+      "title": [
+        "HVAC Service in Panama City, FL | JefCo"
+      ]
+    },
+    {
+      "url": "https://www.mcculloughairconditioning.com/",
+      "status": 200,
+      "finalUrl": "https://www.mcculloughairconditioning.com/",
+      "bytes": 135898,
+      "checkedAt": "2026-10-29T22:28:41.642533+00:00",
+      "title": [
+        "Expert AC, Heating, Plumbing &amp; Electrical Services In Niceville, FL | McCullough Air Conditioning, Plumbing &amp; Electrical"
+      ]
+    },
+    {
+      "url": "https://www.modernairsolutionsllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.modernairsolutionsllc.com/",
+      "bytes": 204494,
+      "checkedAt": "2026-10-29T22:28:42.338732+00:00",
+      "title": [
+        "\r\n    \n    HVAC Company | Panama City, FL | Modern Air Solutions\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.modernairsolutionsllc.com/service-area",
+      "status": 200,
+      "finalUrl": "https://www.modernairsolutionsllc.com/service-area",
+      "bytes": 111268,
+      "checkedAt": "2026-10-29T22:28:42.322646+00:00",
+      "title": [
+        "\r\n    \n    Modern Air Solutions Service Area | Emerald Coast, FL\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.paradisehomeservices.com/",
+      "status": 200,
+      "finalUrl": "https://www.paradisehomeservices.com/",
+      "bytes": 196564,
+      "checkedAt": "2026-10-29T22:28:45.238605+00:00",
+      "title": [
+        "HVAC & Plumbing Services in Navarre | Paradise Home Services "
+      ]
+    },
+    {
+      "url": "https://www.paradisehomeservices.com/areas-we-serve/",
+      "status": 200,
+      "finalUrl": "https://www.paradisehomeservices.com/areas-we-serve/",
+      "bytes": 149929,
+      "checkedAt": "2026-10-29T22:28:45.139415+00:00",
+      "title": [
+        "HVAC & Plumbing Florida Panhandle | Paradise Home Services"
+      ]
+    },
+    {
+      "url": "https://www.peaden.com/",
+      "status": 200,
+      "finalUrl": "https://www.peaden.com/",
+      "bytes": 136840,
+      "checkedAt": "2026-10-29T22:28:42.274844+00:00",
+      "title": [
+        "Peaden Air Conditioning, Plumbing, Electrical, HVAC Service Contractors"
+      ]
+    },
+    {
+      "url": "https://www.peaden.com/about",
+      "status": 200,
+      "finalUrl": "https://www.peaden.com/about",
+      "bytes": 123068,
+      "checkedAt": "2026-10-29T22:28:42.226512+00:00",
+      "title": [
+        "About Us | Peaden Air Conditioning, Plumbing & Electrical"
+      ]
+    },
+    {
+      "url": "https://www.peaden.com/service-areas/crestview-fl",
+      "status": 200,
+      "finalUrl": "https://www.peaden.com/service-areas/crestview-fl",
+      "bytes": 133182,
+      "checkedAt": "2026-10-29T22:28:42.138566+00:00",
+      "title": [
+        "HVAC, Plumbing &amp; Electrical Crestview | Peaden Air Conditioning, Plumbing &amp; Electrical HVAC Experts"
+      ]
+    },
+    {
+      "url": "https://www.savenowcooling.com/",
+      "status": 200,
+      "finalUrl": "https://www.savenowcooling.com/",
+      "bytes": 146531,
+      "checkedAt": "2026-10-29T22:28:43.894278+00:00",
+      "title": [
+        "HVAC Professionals in Gulf Breeze | Save Now Cooling "
+      ]
+    },
+    {
+      "url": "https://www.savenowcooling.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://www.savenowcooling.com/service-areas/",
+      "bytes": 171390,
+      "checkedAt": "2026-10-29T22:28:43.934774+00:00",
+      "title": [
+        "Service Areas | Save Now Cooling"
+      ]
+    },
+    {
+      "url": "https://www.steversonair.net/",
+      "status": 200,
+      "finalUrl": "https://www.steversonair.net/",
+      "bytes": 498494,
+      "checkedAt": "2026-10-29T22:28:44.771306+00:00",
+      "title": [
+        "Steverson Air Panama City | Trusted HVAC Services | 2806 East Highway 390"
+      ]
+    },
+    {
+      "url": "https://www.tempacurehvac.com/",
+      "status": 200,
+      "finalUrl": "https://www.tempacurehvac.com/",
+      "bytes": 621843,
+      "checkedAt": "2026-10-29T22:28:45.123883+00:00",
+      "title": [
+        "\r\n    \n    HVAC Repair &amp; Installation | Tempacure Heating And Cooling | Niceville, FL\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.tempacurehvac.com/about-us",
+      "status": 200,
+      "finalUrl": "https://www.tempacurehvac.com/about-us",
+      "bytes": 314094,
+      "checkedAt": "2026-10-29T22:28:45.138926+00:00",
+      "title": [
+        "\r\n    \n    About Our Team | Tempacure Heating And Cooling\n  \r\n  "
+      ]
+    }
+  ],
+  "historicalPriorityHvacWebsiteChecks": [
+    {
+      "url": "https://advantagehpe.com/",
+      "status": 200,
+      "finalUrl": "https://advantagehpe.com/",
+      "bytes": 373921,
+      "checkedAt": "2026-10-29T22:29:03.819490+00:00",
+      "title": [
+        "24/7 HVAC, Plumbing &amp; Electrical | Fort Walton Beach FL | Advantage"
+      ]
+    },
+    {
+      "url": "https://asuperiormechanical.com/locations",
+      "status": 200,
+      "finalUrl": "https://asuperiormechanical.com/locations",
+      "bytes": 517377,
+      "checkedAt": "2026-10-29T22:29:04.891516+00:00",
+      "title": [
+        "Locations | A Superior Mechanical"
+      ]
+    },
+    {
+      "url": "https://dapi-fl.com/",
+      "status": 200,
+      "finalUrl": "https://dapi-fl.com/",
+      "bytes": 316328,
+      "checkedAt": "2026-10-29T22:29:05.823461+00:00",
+      "title": [
+        "Home | Distributor Appliance Parts, Inc."
+      ]
+    },
+    {
+      "url": "https://elliottsappliancellc.com/",
+      "status": 200,
+      "finalUrl": "https://elliottsappliancellc.com/",
+      "bytes": 80738,
+      "checkedAt": "2026-10-29T22:29:04.910646+00:00",
+      "title": [
+        "Elliott&#x27;s Appliance: Your Trusted Appliance Store"
+      ]
+    },
+    {
+      "url": "https://happyhiller.com/locations/panama-city/",
+      "status": 200,
+      "finalUrl": "https://happyhiller.com/locations/panama-city/",
+      "bytes": 165734,
+      "checkedAt": "2026-10-29T22:29:04.211321+00:00",
+      "title": [
+        "Available Services in Panama City, FL | Hiller"
+      ]
+    },
+    {
+      "url": "https://justrighthvacfl.com/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://panamacityac.com/",
+      "status": 200,
+      "finalUrl": "https://panamacityac.com/",
+      "bytes": 201663,
+      "checkedAt": "2026-10-29T22:29:04.458613+00:00",
+      "title": [
+        "Reputable HVAC &amp; Electrical Specialists | Parker Services"
+      ]
+    },
+    {
+      "url": "https://wecareheatandair.com/florida/",
+      "status": 200,
+      "finalUrl": "https://wecareheatandair.com/florida/",
+      "bytes": 492893,
+      "checkedAt": "2026-10-29T22:29:04.224064+00:00",
+      "title": [
+        "HVAC, Electrician, &amp; Plumber Services in Niceville, FL | We Care"
+      ]
+    },
+    {
+      "url": "https://whiteheadservices.com/air-conditioning/",
+      "status": 200,
+      "finalUrl": "https://whiteheadservices.com/air-conditioning/",
+      "bytes": 181455,
+      "checkedAt": "2026-10-29T22:29:05.878323+00:00",
+      "title": [
+        "Air Conditioning Services in Panama City | Whitehead Plumbing &amp; Air Conditioning"
+      ]
+    },
+    {
+      "url": "https://www.acbydc.com/",
+      "status": 200,
+      "finalUrl": "https://www.acbydc.com/",
+      "bytes": 397172,
+      "checkedAt": "2026-10-29T22:29:06.759689+00:00",
+      "title": [
+        "\r\n    \n    AC by DC | Local HVAC Company in Crestview, Florida\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.holidaybeachmechanical.com/",
+      "status": 200,
+      "finalUrl": "https://www.holidaybeachmechanical.com/",
+      "bytes": 126216,
+      "checkedAt": "2026-10-29T22:29:07.771014+00:00",
+      "title": [
+        "Home | Holiday Beach Mechanical"
+      ]
+    },
+    {
+      "url": "https://www.mcculloughairconditioning.com/",
+      "status": 200,
+      "finalUrl": "https://www.mcculloughairconditioning.com/",
+      "bytes": 135898,
+      "checkedAt": "2026-10-29T22:29:06.598615+00:00",
+      "title": [
+        "Expert AC, Heating, Plumbing &amp; Electrical Services In Niceville, FL | McCullough Air Conditioning, Plumbing &amp; Electrical"
+      ]
+    },
+    {
+      "url": "https://www.peaden.com/panama-city",
+      "status": 200,
+      "finalUrl": "https://www.peaden.com/panama-city",
+      "bytes": 146908,
+      "checkedAt": "2026-10-29T22:29:07.638442+00:00",
+      "title": [
+        "Peaden Air Conditioning Plumbing Electrical | Panama City, FL"
+      ]
+    }
+  ],
+  "verificationMethod": "Official website content reviewed for business identity, category and explicit city/county service coverage; direct website checks run for all new homepage/evidence URLs. Counties mapped only to contained active cities. Unknown contact fields omitted. Existing records preserved.",
+  "accessExceptions": [
+    {
+      "domain": "gulfshoreair.com",
+      "directStatus": 403,
+      "result": "Full current homepage and Crestview service page read through web retrieval; HVAC and explicit service footer confirmed. Do not claim direct HTTP success."
+    },
+    {
+      "domain": "justrighthvacfl.com",
+      "directStatus": 403,
+      "result": "Existing priority HVAC business reverified through full official homepage web retrieval in continuous2; no direct HTTP success claimed."
+    },
+    {
+      "domain": "wecareheatandair.com",
+      "webRetrievalStatus": 410,
+      "directStatus": 200,
+      "result": "Direct official Florida homepage loads full relevant business content with explicit Destin, FWB and Crestview service coverage. The web retrieval error is not reproduced by direct check; no record removed or changed."
+    }
+  ],
+  "identityChecks": [
+    "Cool Currents acquired Advanced AC & Heating (advancedac.us); one identity, not two.",
+    "Express AC and Heating uses airconditioningcrestview.net and expressairnow.com; one identity.",
+    "Bailey's Air Conditioning and Heating (baileyshvac.com, Bay County, 850-960-8057, since 2010) is distinct from Baileys Air (baileysair.com, Milton, 850-983-9277, CAC1814256).",
+    "Quincy's is Frosty Comfort Inc DBA Quincy's; one identity across areas.",
+    "Mills, Family Heating & Air and Peaden multiple offices are each one business identity per city/category.",
+    "Gulf Coast Air Conditioning LLC (gulfcoastairpc.com, Drew Pollard) is distinct from Gulf Coast Heating & Air (gulfcoasthvacfl.com).",
+    "Existing canonical website URLs/names retained for service extensions; normalized hostname/path variants deduplicated.",
+    "We Care footer links a partnership with Anderson Air. Do not count those as separate identities without resolving ownership/operating identity in future Gulf Breeze/Navarre audits; no new We Care or Anderson placements added in this wave."
+  ],
+  "geographicCautions": [
+    "Gulfshore menu label says Panama City, but the linked service page body and footer specify Panama City Beach. Only PCB added; PC withheld.",
+    "JefCo city-specific Panama City HVAC text supports PC; unrelated greater Tampa template text does not support Tampa.",
+    "Family Heating & Air lists Navarre Beach only; mainland Navarre not added.",
+    "Southern Comfort coverage limits south Crestview to south of I-10 and east Navarre; restrictions retained in evidence.",
+    "No Panama City coverage inferred merely from Panama City Beach. No Pensacola Beach catalog entry introduced."
+  ],
+  "deferredCandidates": [
+    {
+      "name": "Hobbs Heating & Air",
+      "reason": "Official search content supports PC, but fresh direct HTTP response lacks readable business content; withheld pending working content verification."
+    },
+    {
+      "name": "Complete Air Conditioning & Refrigeration",
+      "reason": "Official homepage and residential page inaccessible through web retrieval (403); withheld."
+    },
+    {
+      "name": "CoolLogic Air Solutions",
+      "reason": "Official service page rate-limited (429); withheld without bypassing."
+    },
+    {
+      "name": "Covenant Air",
+      "reason": "Verified coverage only in noncatalog Niceville; other cities not inferred."
+    },
+    {
+      "name": "Roussos/Bush",
+      "reason": "Possible Hiller acquired identities; no separate additions without ownership reconciliation."
+    }
+  ],
+  "existingPriorityHvacReverification": [
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "destin-fl",
+      "website": "https://advantagehpe.com/",
+      "sourceUrl": "https://advantagehpe.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage lists HVAC and explicit Destin, Fort Walton Beach and Crestview service areas."
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "website": "https://advantagehpe.com/",
+      "sourceUrl": "https://advantagehpe.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage lists HVAC and explicit Destin, Fort Walton Beach and Crestview service areas."
+    },
+    {
+      "name": "Advantage HVAC, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "website": "https://advantagehpe.com/",
+      "sourceUrl": "https://advantagehpe.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage lists HVAC and explicit Destin, Fort Walton Beach and Crestview service areas."
+    },
+    {
+      "name": "AC by DC",
+      "region": "destin-fl",
+      "website": "https://www.acbydc.com/",
+      "sourceUrl": "https://www.acbydc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers HVAC installation/repair throughout Okaloosa and Walton counties, with a Crestview office."
+    },
+    {
+      "name": "AC by DC",
+      "region": "fort-walton-beach-fl",
+      "website": "https://www.acbydc.com/",
+      "sourceUrl": "https://www.acbydc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers HVAC installation/repair throughout Okaloosa and Walton counties, with a Crestview office."
+    },
+    {
+      "name": "AC by DC",
+      "region": "crestview-fl",
+      "website": "https://www.acbydc.com/",
+      "sourceUrl": "https://www.acbydc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers HVAC installation/repair throughout Okaloosa and Walton counties, with a Crestview office."
+    },
+    {
+      "name": "Holiday Beach Mechanical",
+      "region": "destin-fl",
+      "website": "https://www.holidaybeachmechanical.com/",
+      "sourceUrl": "https://www.holidaybeachmechanical.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage confirms HVAC and Destin coverage, plus Bay County/PCB/30A."
+    },
+    {
+      "name": "A Superior Mechanical",
+      "region": "destin-fl",
+      "website": "https://asuperiormechanical.com/locations",
+      "sourceUrl": "https://asuperiormechanical.com/locations",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official locations page explicitly lists all four priority cities for HVAC."
+    },
+    {
+      "name": "A Superior Mechanical",
+      "region": "fort-walton-beach-fl",
+      "website": "https://asuperiormechanical.com/locations",
+      "sourceUrl": "https://asuperiormechanical.com/locations",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official locations page explicitly lists all four priority cities for HVAC."
+    },
+    {
+      "name": "A Superior Mechanical",
+      "region": "crestview-fl",
+      "website": "https://asuperiormechanical.com/locations",
+      "sourceUrl": "https://asuperiormechanical.com/locations",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official locations page explicitly lists all four priority cities for HVAC."
+    },
+    {
+      "name": "A Superior Mechanical",
+      "region": "panama-city-fl",
+      "website": "https://asuperiormechanical.com/locations",
+      "sourceUrl": "https://asuperiormechanical.com/locations",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official locations page explicitly lists all four priority cities for HVAC."
+    },
+    {
+      "name": "We Care Heating, Cooling, Plumbing & Electric",
+      "region": "destin-fl",
+      "website": "https://wecareheatandair.com/florida/",
+      "sourceUrl": "https://wecareheatandair.com/florida/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Direct official Florida homepage HTTP 200; HVAC and all three applicable priority cities explicitly named. Web tool 410 not reproduced directly."
+    },
+    {
+      "name": "We Care Heating, Cooling, Plumbing & Electric",
+      "region": "fort-walton-beach-fl",
+      "website": "https://wecareheatandair.com/florida/",
+      "sourceUrl": "https://wecareheatandair.com/florida/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Direct official Florida homepage HTTP 200; HVAC and all three applicable priority cities explicitly named. Web tool 410 not reproduced directly."
+    },
+    {
+      "name": "We Care Heating, Cooling, Plumbing & Electric",
+      "region": "crestview-fl",
+      "website": "https://wecareheatandair.com/florida/",
+      "sourceUrl": "https://wecareheatandair.com/florida/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Direct official Florida homepage HTTP 200; HVAC and all three applicable priority cities explicitly named. Web tool 410 not reproduced directly."
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "fort-walton-beach-fl",
+      "website": "https://www.mcculloughairconditioning.com/",
+      "sourceUrl": "https://www.mcculloughairconditioning.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage confirms HVAC and names Destin, FWB and Crestview."
+    },
+    {
+      "name": "McCullough Air Conditioning, Plumbing & Electrical",
+      "region": "crestview-fl",
+      "website": "https://www.mcculloughairconditioning.com/",
+      "sourceUrl": "https://www.mcculloughairconditioning.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage confirms HVAC and names Destin, FWB and Crestview."
+    },
+    {
+      "name": "Peaden Air Conditioning, Plumbing & Electrical",
+      "region": "panama-city-fl",
+      "website": "https://www.peaden.com/panama-city",
+      "sourceUrl": "https://www.peaden.com/panama-city",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official PC location and about pages confirm HVAC service and local office."
+    },
+    {
+      "name": "Hiller Plumbing, Heating, Cooling & Electrical",
+      "region": "panama-city-fl",
+      "website": "https://happyhiller.com/locations/panama-city/",
+      "sourceUrl": "https://happyhiller.com/locations/panama-city/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Panama City location page offers local plumbing and HVAC services."
+    },
+    {
+      "name": "Parker Services",
+      "region": "panama-city-fl",
+      "website": "https://panamacityac.com/",
+      "sourceUrl": "https://panamacityac.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official Parker Services homepage explicitly provides HVAC in Panama City, with West 13th Street office."
+    },
+    {
+      "name": "Whitehead Plumbing & Air Conditioning",
+      "region": "panama-city-fl",
+      "website": "https://whiteheadservices.com/air-conditioning/",
+      "sourceUrl": "https://whiteheadservices.com/air-conditioning/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official air conditioning page names PC and PCB and lists repair, installation, heating and maintenance."
+    },
+    {
+      "name": "Distributor Appliance Parts, Inc.",
+      "region": "fort-walton-beach-fl",
+      "website": "https://dapi-fl.com/",
+      "sourceUrl": "https://dapi-fl.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage offers HVAC installation and repair in Fort Walton Beach at 105 Hughes St NE."
+    },
+    {
+      "name": "Elliott's Appliance LLC",
+      "region": "panama-city-fl",
+      "website": "https://elliottsappliancellc.com/",
+      "sourceUrl": "https://elliottsappliancellc.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Official homepage reviewed in preceding wave confirms HVAC services and Bay County coverage; direct homepage HTTP 200."
+    },
+    {
+      "name": "Just Right Heating & Air Conditioning, Inc.",
+      "region": "crestview-fl",
+      "website": "https://justrighthvacfl.com/",
+      "sourceUrl": "https://justrighthvacfl.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Full official homepage reviewed in preceding wave confirms HVAC and priority-city service; direct fetch 403 documented."
+    },
+    {
+      "name": "Just Right Heating & Air Conditioning, Inc.",
+      "region": "fort-walton-beach-fl",
+      "website": "https://justrighthvacfl.com/",
+      "sourceUrl": "https://justrighthvacfl.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Full official homepage reviewed in preceding wave confirms HVAC and priority-city service; direct fetch 403 documented."
+    },
+    {
+      "name": "Just Right Heating & Air Conditioning, Inc.",
+      "region": "destin-fl",
+      "website": "https://justrighthvacfl.com/",
+      "sourceUrl": "https://justrighthvacfl.com/",
+      "sourceVerifiedAt": "2026-10-29",
+      "evidenceNote": "Full official homepage reviewed in preceding wave confirms HVAC and priority-city service; direct fetch 403 documented."
+    }
+  ],
+  "projectedPriorityHvacMilestones": [
+    {
+      "region": "destin-fl",
+      "trade": "hvac",
+      "distinctBusinesses": 25,
+      "status": "official relevance/location reviewed; live publication pending"
+    },
+    {
+      "region": "fort-walton-beach-fl",
+      "trade": "hvac",
+      "distinctBusinesses": 25,
+      "status": "official relevance/location reviewed; live publication pending"
+    },
+    {
+      "region": "crestview-fl",
+      "trade": "hvac",
+      "distinctBusinesses": 23,
+      "status": "official relevance/location reviewed; live publication pending"
+    },
+    {
+      "region": "panama-city-fl",
+      "trade": "hvac",
+      "distinctBusinesses": 21,
+      "status": "official relevance/location reviewed; live publication pending"
+    }
+  ],
+  "otherCountMilestonesCaution": "Gulf Breeze and Navarre HVAC project above20 by seed coverage; full historical identity/website re-verification pending, including We Care/Anderson relationship. Do not label them independently verified complete."
+}
