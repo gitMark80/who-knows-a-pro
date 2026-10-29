@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-29",
+  "baseline": "37aa567e2c734da7e9493d0a431e6cf1bffe6426",
+  "priorRecordsPreserved": 5513,
+  "totalRecords": 5561,
+  "addedPlacements": 48,
+  "additionsByCity": {
+    "panama-city-fl": 18,
+    "panama-city-beach-fl": 8,
+    "destin-fl": 5,
+    "tallahassee-fl": 2,
+    "dothan-al": 1,
+    "crestview-fl": 3,
+    "fort-walton-beach-fl": 2,
+    "pensacola-fl": 2,
+    "milton-fl": 2,
+    "miami-fl": 1,
+    "grayton-beach-fl": 1,
+    "gulf-breeze-fl": 1,
+    "pace-fl": 1,
+    "navarre-fl": 1
+  },
+  "activeCities": 40,
+  "activeCategories": 30,
+  "pairsAt20": 0,
+  "seedDeficit": 19672,
+  "validation": "Existing full records preserved; unique IDs; new normalized domain/city/category keys unique; valid active slugs; evidence fields present.",
+  "sourceHttpChecks": [
+    {
+      "name": "Panhandle Key & Safe",
+      "url": "https://www.panhandlekeyandsafe.com/",
+      "status": 200,
+      "finalUrl": "https://www.panhandlekeyandsafe.com/",
+      "bytes": 103711
+    },
+    {
+      "name": "Locksmith Express",
+      "url": "https://locksmithpcb.com/about/",
+      "status": 200,
+      "finalUrl": "https://locksmithpcb.com/about/",
+      "bytes": 141124
+    },
+    {
+      "name": "KNC, LLC",
+      "url": "https://www.kncflorida.com/",
+      "status": 200,
+      "finalUrl": "https://www.kncflorida.com/",
+      "bytes": 260220
+    },
+    {
+      "name": "C Michael Inc Cabinetry",
+      "url": "https://cmichaelinc.com/",
+      "status": 200,
+      "finalUrl": "https://cmichaelinc.com/",
+      "bytes": 71847
+    },
+    {
+      "name": "Red Road Remodel and Gutter",
+      "url": "https://www.redroadorion.com/gutters",
+      "status": 200,
+      "finalUrl": "https://www.redroadorion.com/gutters",
+      "bytes": 91767
+    },
+    {
+      "name": "Coastal Aluminum Seamless Gutters",
+      "url": "https://www.mycoastalaluminumseamlessgutters.com/contact-us-1",
+      "status": 200,
+      "finalUrl": "https://www.mycoastalaluminumseamlessgutters.com/contact-us-1",
+      "bytes": 1016403
+    },
+    {
+      "name": "Prater's Insulators",
+      "url": "https://pratersinsulators.com/about/",
+      "status": 200,
+      "finalUrl": "https://pratersinsulators.com/about/",
+      "bytes": 31718
+    },
+    {
+      "name": "Blue Line Insulation",
+      "url": "https://flneedsprayfoam.com/",
+      "status": 200,
+      "finalUrl": "https://flneedsprayfoam.com/",
+      "bytes": 926924
+    },
+    {
+      "name": "Appliance Doctor",
+      "url": "https://appliancedoctorfl.com/panama-city-appliance-repair",
+      "status": 200,
+      "finalUrl": "https://appliancedoctorfl.com/panama-city-appliance-repair",
+      "bytes": 32121
+    },
+    {
+      "name": "Independent Appliance",
+      "url": "https://www.independentappliance.com/service-calls.htm",
+      "status": 200,
+      "finalUrl": "https://www.independentappliance.com/service-calls.htm",
+      "bytes": 62951
+    },
+    {
+      "name": "Dobbs Appliance Repair LLC",
+      "url": "https://dobbsappliance.com/",
+      "status": 200,
+      "finalUrl": "https://dobbsappliance.com/",
+      "bytes": 135376
+    },
+    {
+      "name": "John Lee Collision & Body Repair Center",
+      "url": "https://johnleenissan.com/body-shop",
+      "status": 200,
+      "finalUrl": "https://johnleenissan.com/body-shop",
+      "bytes": 423793
+    },
+    {
+      "name": "People 1st Home Services",
+      "url": "https://people1sthomeservices.com/areas",
+      "status": 200,
+      "finalUrl": "https://people1sthomeservices.com/areas",
+      "bytes": 32872
+    },
+    {
+      "name": "Panama Pools & Spas",
+      "url": "https://panamapoolsandspas.com/",
+      "status": 200,
+      "finalUrl": "https://panamapoolsandspas.com/",
+      "bytes": 104230
+    },
+    {
+      "name": "Raven",
+      "url": "https://www.ravenenviro.com/services/kitchen-remodeling/",
+      "status": 200,
+      "finalUrl": "https://www.ravenenviro.com/services/kitchen-remodeling/",
+      "bytes": 33693
+    }
+  ]
+}

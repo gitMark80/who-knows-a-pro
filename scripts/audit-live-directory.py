@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit every active city/category page against the five-business minimum."""
+"""Audit every active city/category page against the 20-business minimum."""
 import argparse
 import concurrent.futures
 import csv
@@ -12,7 +12,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--base-url', default='https://whoknowsapro.com')
-parser.add_argument('--minimum', type=int, default=5)
+parser.add_argument('--minimum', type=int, default=20)
 parser.add_argument('--output', default='reports/live-directory-coverage.csv')
 parser.add_argument('--allow-shortfalls', action='store_true',
                     help='Report gaps without failing; fetch and parsing errors still fail')
@@ -22,6 +22,9 @@ catalog = (root / 'data/catalog.ts').read_text()
 regions = re.findall(r"slug: '([^']+)', name: '([^']+)', state: '[^']+', batch: '(?:existing|batch1)'", catalog)
 trade_section = catalog.split('export const trades =', 1)[1].split('] as const', 1)[0]
 trades = dict(re.findall(r"slug: '([^']+)', name: '([^']+)'", trade_section))
+hidden_section = catalog.split('export const hiddenTradeSlugs:', 1)[1].split(']);', 1)[0]
+hidden_trades = set(re.findall(r"'([^']+)'", hidden_section))
+trades = {slug: name for slug, name in trades.items() if slug not in hidden_trades}
 if not regions or not trades:
     raise RuntimeError('Could not read the active directory catalog')
 
@@ -63,7 +66,7 @@ if not output.is_absolute():
     output = root / output
 output.parent.mkdir(parents=True, exist_ok=True)
 with output.open('w', newline='') as file:
-    writer = csv.DictWriter(file, fieldnames=list(rows[0]))
+    writer = csv.DictWriter(file, fieldnames=list(rows[0]), lineterminator='\n')
     writer.writeheader()
     writer.writerows(rows)
 below = sum(not row['meets_minimum'] for row in rows)
