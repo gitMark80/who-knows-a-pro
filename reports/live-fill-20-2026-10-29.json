@@ -1,0 +1,535 @@
+{
+  "date": "2026-10-29",
+  "publishedCommit": "5d3fa13abed657174fc2bc96e303d34baac7d8a0",
+  "deployment": "success",
+  "verifiedPlacements": 48,
+  "pagesChecked": 40,
+  "coverage": {
+    "cities": 40,
+    "activeCategories": 30,
+    "pairs": 1200,
+    "at20": 0,
+    "below20": 1200,
+    "empty": 81,
+    "missingPlacements": 19672
+  },
+  "websiteChecks": [
+    {
+      "url": "https://appliancedoctorfl.com/",
+      "status": 200,
+      "finalUrl": "https://appliancedoctorfl.com/"
+    },
+    {
+      "url": "https://cmichaelinc.com/",
+      "status": 200,
+      "finalUrl": "https://cmichaelinc.com/"
+    },
+    {
+      "url": "https://dobbsappliance.com/",
+      "status": 200,
+      "finalUrl": "https://dobbsappliance.com/"
+    },
+    {
+      "url": "https://flneedsprayfoam.com/",
+      "status": 200,
+      "finalUrl": "https://flneedsprayfoam.com/"
+    },
+    {
+      "url": "https://johnleenissan.com/body-shop",
+      "status": 200,
+      "finalUrl": "https://johnleenissan.com/body-shop"
+    },
+    {
+      "url": "https://locksmithpcb.com/",
+      "status": 200,
+      "finalUrl": "https://locksmithpcb.com/"
+    },
+    {
+      "url": "https://panamapoolsandspas.com/",
+      "status": 200,
+      "finalUrl": "https://panamapoolsandspas.com/"
+    },
+    {
+      "url": "https://people1sthomeservices.com/",
+      "status": 200,
+      "finalUrl": "https://people1sthomeservices.com/"
+    },
+    {
+      "url": "https://pratersinsulators.com/",
+      "status": 200,
+      "finalUrl": "https://pratersinsulators.com/"
+    },
+    {
+      "url": "https://www.independentappliance.com/",
+      "status": 200,
+      "finalUrl": "https://www.independentappliance.com/"
+    },
+    {
+      "url": "https://www.kncflorida.com/",
+      "status": 200,
+      "finalUrl": "https://www.kncflorida.com/"
+    },
+    {
+      "url": "https://www.mycoastalaluminumseamlessgutters.com/",
+      "status": 200,
+      "finalUrl": "https://www.mycoastalaluminumseamlessgutters.com/"
+    },
+    {
+      "url": "https://www.panhandlekeyandsafe.com/",
+      "status": 200,
+      "finalUrl": "https://www.panhandlekeyandsafe.com/"
+    },
+    {
+      "url": "https://www.ravenenviro.com/",
+      "status": 200,
+      "finalUrl": "https://www.ravenenviro.com/"
+    },
+    {
+      "url": "https://www.redroadorion.com/gutters",
+      "status": 200,
+      "finalUrl": "https://www.redroadorion.com/gutters"
+    }
+  ],
+  "pageChecks": [
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/locksmith",
+      "checks": [
+        {
+          "name": "Panhandle Key & Safe",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Locksmith Express",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/locksmith",
+      "checks": [
+        {
+          "name": "Locksmith Express",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "KNC, LLC",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "C Michael Inc Cabinetry",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/flooring",
+      "checks": [
+        {
+          "name": "KNC, LLC",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/fence-builders",
+      "checks": [
+        {
+          "name": "KNC, LLC",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "C Michael Inc Cabinetry",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/gutters",
+      "checks": [
+        {
+          "name": "Red Road Remodel and Gutter",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Coastal Aluminum Seamless Gutters",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/gutters",
+      "checks": [
+        {
+          "name": "Coastal Aluminum Seamless Gutters",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/insulation",
+      "checks": [
+        {
+          "name": "Prater's Insulators",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Blue Line Insulation",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/insulation",
+      "checks": [
+        {
+          "name": "Prater's Insulators",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/insulation",
+      "checks": [
+        {
+          "name": "Prater's Insulators",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/tallahassee-fl/insulation",
+      "checks": [
+        {
+          "name": "Prater's Insulators",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/dothan-al/insulation",
+      "checks": [
+        {
+          "name": "Prater's Insulators",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/appliance-repair",
+      "checks": [
+        {
+          "name": "Appliance Doctor",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Independent Appliance",
+          "profileFound": true,
+          "websiteFound": true
+        },
+        {
+          "name": "Dobbs Appliance Repair LLC",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/auto-body-collision",
+      "checks": [
+        {
+          "name": "John Lee Collision & Body Repair Center",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/crestview-fl/appliance-repair",
+      "checks": [
+        {
+          "name": "People 1st Home Services",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/pool-installation",
+      "checks": [
+        {
+          "name": "Panama Pools & Spas",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/pool-service",
+      "checks": [
+        {
+          "name": "Panama Pools & Spas",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/pool-installation",
+      "checks": [
+        {
+          "name": "Panama Pools & Spas",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/pool-service",
+      "checks": [
+        {
+          "name": "Panama Pools & Spas",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/pool-installation",
+      "checks": [
+        {
+          "name": "Panama Pools & Spas",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/pool-service",
+      "checks": [
+        {
+          "name": "Panama Pools & Spas",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/crestview-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/pensacola-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/milton-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/tallahassee-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/miami-fl/kitchen-bath-remodeling",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/crestview-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/pensacola-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/milton-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/grayton-beach-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/gulf-breeze-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/pace-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    },
+    {
+      "url": "https://whoknowsapro.com/navarre-fl/water-damage-mold-remediation",
+      "checks": [
+        {
+          "name": "Raven",
+          "profileFound": true,
+          "websiteFound": true
+        }
+      ]
+    }
+  ]
+}
