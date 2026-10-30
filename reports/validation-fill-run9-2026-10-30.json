@@ -1,6 +1,6 @@
 {
   "validatedAt": "2026-10-30",
-  "status": "prepared",
+  "status": "published and live verified",
   "catalog": {
     "activeCities": 40,
     "activeCategories": 30,
@@ -25,10 +25,12 @@
     "countBasedDeficit": 17658
   },
   "publication": {
-    "commit": null,
-    "vercelDeployment": null,
-    "livePlacementChecks": 0,
-    "liveProfileChecks": 0,
-    "freshLiveAudit": null
+    "commit": "f878ef26f4f8f8187bc0605e5b8572488d1e4106",
+    "vercelDeployment": "dpl_26z1MkrneP98cgNjiawL6KRE3FqN READY on whoknowsapro.com",
+    "liveCategoryPagesChecked": 251,
+    "livePlacementChecks": 504,
+    "liveProfileChecks": 65,
+    "liveFailures": 0,
+    "freshLiveAudit": "29 at or above 20; 1171 below; 63 empty; deficit 17658"
   }
 }

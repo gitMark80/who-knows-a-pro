@@ -1,7 +1,7 @@
 {
   "verifiedAt": "2026-10-30",
   "baselineCommit": "44f8534a37ea6b75bee3187c4143d42886b6c884",
-  "status": "prepared",
+  "status": "published and live verified",
   "targetNewPlacements": 500,
   "preparedNewPlacements": 504,
   "priorGeneratedPlacements": 7186,
@@ -74,5 +74,18 @@
     "Unsupported nearby-city inference and directory-only or social-only candidates were excluded.",
     "Transient 502 responses for Down to Earth Lawn Services, A Cut Above Landscaping, and McCombs Electrical were retried directly and returned HTTP 200 before publication.",
     "Pool-service placements require official repair, equipment, remodeling, or maintenance relevance; new-pool-only pages were not counted as pool service."
-  ]
+  ],
+  "publication": {
+    "commit": "f878ef26f4f8f8187bc0605e5b8572488d1e4106",
+    "vercelDeploymentId": "dpl_26z1MkrneP98cgNjiawL6KRE3FqN",
+    "productionStatus": "READY",
+    "categoryPagesChecked": 251,
+    "placementsChecked": 504,
+    "distinctProfilesChecked": 65,
+    "failures": 0,
+    "freshCoverageAtOrAbove20": 29,
+    "freshCoverageBelow20": 1171,
+    "freshCoverageEmpty": 63,
+    "freshCoverageDeficit": 17658
+  }
 }

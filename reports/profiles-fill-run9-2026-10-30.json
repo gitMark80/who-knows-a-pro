@@ -1,0 +1,10 @@
+{
+  "verifiedAt": "2026-10-30T16:38:29Z",
+  "commit": "f878ef26f4f8f8187bc0605e5b8572488d1e4106",
+  "distinctBusinessProfilesChecked": 65,
+  "profileHttp200": 65,
+  "officialWebsiteLinksFound": 65,
+  "failures": 0,
+  "allPassed": true,
+  "verificationMethod": "Each distinct business profile represented by the 504 new placements was fetched from production and checked for HTTP 200 plus its normalized official business website domain."
+}
