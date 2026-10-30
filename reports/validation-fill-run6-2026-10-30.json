@@ -1,0 +1,56 @@
+{
+  "verifiedAt": "2026-10-30T08:15:33Z",
+  "baselineCommit": "f3b969b50a28bc25a0dd646fc6383afc5126a9ff",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "activeCombinationCount": 1200,
+  "graytonBeachActive": true,
+  "pensacolaBeachActive": false,
+  "panamaCityDistinctFromPanamaCityBeach": true,
+  "sourceRecordCountBefore": 1619,
+  "sourceRecordCountAfter": 1634,
+  "generatedSeedCountBefore": 7101,
+  "generatedSeedCountAfter": 7131,
+  "addedPlacements": 30,
+  "changedPriorRecords": 0,
+  "priorRecordsUnchanged": true,
+  "invalidCatalogSlugs": [],
+  "duplicateCityCategoryNormalizedDomains": [],
+  "missingRequiredFieldsInNewRecords": [],
+  "officialWebsiteChecks": {
+    "checkedUrls": 19,
+    "http200": 19,
+    "failed": 0
+  },
+  "preparedCoverage": {
+    "atOrAbove20": 23,
+    "below20": 1177,
+    "empty": 64,
+    "deficit": 18199
+  },
+  "affectedPriorityCounts": {
+    "destin-fl": {
+      "pool-service": 13,
+      "locksmith": 9,
+      "irrigation-sprinkler-repair": 9
+    },
+    "fort-walton-beach-fl": {
+      "pool-service": 9,
+      "locksmith": 8,
+      "irrigation-sprinkler-repair": 9
+    },
+    "crestview-fl": {
+      "irrigation-sprinkler-repair": 7
+    },
+    "panama-city-fl": {
+      "locksmith": 5,
+      "towing": 6
+    }
+  },
+  "validationStatus": "passed",
+  "notes": [
+    "No catalog, application, claimed, paid-placement, billing, subscription, database, or user-submitted data changed.",
+    "No paid API or Foursquare call was made."
+  ]
+}
