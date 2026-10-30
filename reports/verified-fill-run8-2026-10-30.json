@@ -1,0 +1,45 @@
+{
+  "verifiedAt": "2026-10-30T08:35:00Z",
+  "run": "scheduled continuation wave 4",
+  "baselineCommit": "eec90f82d5d2808164e8753889bdfe1b92e98e39",
+  "target": 20,
+  "publicationStatus": "prepared; publication and production verification pending",
+  "addedPlacements": 17,
+  "distinctBusinessIdentities": 7,
+  "newBusinessIdentities": 1,
+  "existingBusinessExtensions": 6,
+  "byCategory": {"garage-door-repair":17},
+  "byCity": {
+    "destin-fl":1,
+    "fort-walton-beach-fl":2,
+    "crestview-fl":2,
+    "panama-city-fl":3,
+    "panama-city-beach-fl":6,
+    "grayton-beach-fl":2,
+    "navarre-fl":1
+  },
+  "validation": {
+    "jsonValid":true,
+    "catalogSlugsValid":true,
+    "uniqueCityCategoryDomains":true,
+    "duplicateCityCategoryDomains":0,
+    "workingOfficialHomepageAndSourceChecks":"9/9",
+    "priorSeedRecordsUnchanged":true,
+    "dataOnlyChange":true
+  },
+  "preparedCoverage": {"atOrAbove20":23,"below20":1177,"empty":64,"countBasedRemainingDeficit":18144},
+  "businesses": [
+    {"name":"Southern Garage Doors LLC","regions":["fort-walton-beach-fl","crestview-fl","panama-city-fl","panama-city-beach-fl","grayton-beach-fl","navarre-fl"],"sourceUrl":"https://www.southerngaragedoorsllc.com/contact-us"},
+    {"name":"Pinckard Garage Doors","regions":["destin-fl","fort-walton-beach-fl","crestview-fl","grayton-beach-fl"],"sourceUrl":"https://www.pinckardgaragedoors.com/"},
+    {"name":"All About Garage Doors","regions":["panama-city-fl","panama-city-beach-fl"],"sourceUrl":"https://www.allaboutgaragedoorsinc.com/"},
+    {"name":"Overhead Door Company of the Emerald Coast","regions":["panama-city-fl","panama-city-beach-fl"],"sourceUrl":"https://destinoverheaddoor.com/garage-door-repair-in-crestview/"},
+    {"name":"Dave's Garage Door Specialists","regions":["panama-city-beach-fl"],"sourceUrl":"https://davesgaragedoors.net/"},
+    {"name":"Pinckard & Son Garage Doors","regions":["panama-city-beach-fl"],"sourceUrl":"https://www.pinckardandsongaragedoors.com/contact-us"},
+    {"name":"Emmons Gates & Garage Doors","regions":["panama-city-beach-fl"],"sourceUrl":"https://emmonsgaragedoors.com/"}
+  ],
+  "candidateBlockers": [
+    {"candidate":"Hometown Garage Doors Co.","reason":"The older and newer official domains share the same Crestview address and phone and were treated as one existing identity, not a new business."},
+    {"candidate":"Precision Garage Door Service","reason":"No extension added under the repository's current national-chain exclusion policy."},
+    {"candidate":"Unverified local garage-door names","reason":"Directory-only, social-only, or recommendation-only results were not counted without a working official business website."}
+  ]
+}

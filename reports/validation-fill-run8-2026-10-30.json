@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-10-30T08:35:00Z",
+  "baselineCommit": "eec90f82d5d2808164e8753889bdfe1b92e98e39",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "activeCombinationCount": 1200,
+  "sourceRecordCountBefore": 1654,
+  "sourceRecordCountAfter": 1661,
+  "generatedSeedCountBefore": 7169,
+  "generatedSeedCountAfter": 7186,
+  "addedPlacements": 17,
+  "distinctBusinessIdentities": 7,
+  "newBusinessIdentities": 1,
+  "existingBusinessExtensions": 6,
+  "changedPriorRecords": 0,
+  "priorRecordsUnchanged": true,
+  "invalidCatalogSlugs": [],
+  "duplicateCityCategoryNormalizedDomains": [],
+  "missingRequiredFieldsInNewRecords": [],
+  "officialWebsiteChecks": {"checkedUrls":9,"workingOfficialPages":9,"failed":0},
+  "additionsByCategory": {"garage-door-repair":17},
+  "additionsByCity": {
+    "destin-fl":1,
+    "fort-walton-beach-fl":2,
+    "crestview-fl":2,
+    "panama-city-fl":3,
+    "panama-city-beach-fl":6,
+    "grayton-beach-fl":2,
+    "navarre-fl":1
+  },
+  "preparedCoverage": {"atOrAbove20":23,"below20":1177,"empty":64,"deficit":18144},
+  "validationStatus": "passed",
+  "notes": [
+    "Pinckard Garage Doors in Milton and Pinckard & Son Garage Doors in Panama City were verified as separate operating businesses with distinct official domains, histories, offices, and service areas.",
+    "No previous listing, catalog, application, claimed, paid-placement, billing, subscription, database, or user-submitted data changed."
+  ]
+}
