@@ -404,3 +404,18 @@ Projected coverage: 19 of 1,200 combinations at or above 20, 1,181 below, 68 emp
 Additions by city: clearwater-fl: 1, crestview-fl: 15, destin-fl: 23, fort-lauderdale-fl: 1, fort-myers-fl: 3, fort-walton-beach-fl: 18, grayton-beach-fl: 5, gulf-breeze-fl: 12, gulfport-ms: 1, jacksonville-fl: 2, miami-fl: 1, milton-fl: 15, mobile-al: 1, naples-fl: 1, navarre-fl: 15, orlando-fl: 1, pace-fl: 13, panama-city-beach-fl: 12, panama-city-fl: 18, pensacola-fl: 14, perdido-key-fl: 6, sarasota-fl: 4, st-petersburg-fl: 1, tallahassee-fl: 3, tampa-fl: 1, west-palm-beach-fl: 1.
 
 Resume after checking live deployment and current main: use the fresh full audit and prioritize lowest counts in Destin, Fort Walton Beach, Crestview and Panama City. Remaining research blockers are recorded in the wave 2 evidence report. No claims of all-directory completion.
+
+
+## 2026-10-30 continuing fill — second batch live confirmation
+
+- Commit `04c1457cc55871698b66f1903c1b3d4d7967fd21` deployed successfully through Vercel. All 188 added placements verified on 44 live category pages; all 36 business profiles verified. First two batches of this run: **403 published placements**. Evidence: `live-fill-again2-2026-10-30.json`, `profiles-fill-again2-2026-10-30.json`, `coverage-fill-again2-2026-10-30.csv`.
+- Fresh full live audit: 19/1,200 active pairs at 20 by live count; 1,181 below, 68 empty, total count deficit 18,464. Current catalog remains 40 cities × 30 categories. Of those 19 count milestones, 17 have documented independent verification across recent runs; Gulf Breeze/Navarre HVAC still have the documented historical ownership reconciliation.
+
+## 2026-10-30 continuing fill — restoration batch prepared
+
+- Baseline latest main `04c1457cc55871698b66f1903c1b3d4d7967fd21`; no active GitHub Actions or open PRs observed. Append-only candidate import: **106 placements across 23 cities, 26 identities (12 new, 14 service extensions)**. All in water-damage-mold-remediation. 53 duplicate placements skipped. All 6,854 previous seed records and all 1,530 previous source records preserved unchanged. Generated seed: 6,960.
+- Additions by city: clearwater-fl: +1; crestview-fl: +10; daphne-al: +1; destin-fl: +14; dothan-al: +1; fairhope-al: +1; foley-al: +1; fort-walton-beach-fl: +12; grayton-beach-fl: +6; gulf-breeze-fl: +7; gulf-shores-al: +1; milton-fl: +3; mobile-al: +1; navarre-fl: +7; orange-beach-al: +1; pace-fl: +4; panama-city-beach-fl: +9; panama-city-fl: +9; pensacola-fl: +9; perdido-key-fl: +3; st-petersburg-fl: +1; tallahassee-fl: +3; tampa-fl: +1.
+- 39 official website/evidence URLs checked: 38 direct HTTP 200; Restore Pensacola returned 403 to the direct client but its working official content was freshly retrieved through web.open. Evidence hashes and source verification details are in `verified-fill-again3-2026-10-30.json`.
+- Projected restoration coverage: Destin 19, Fort Walton Beach 17, Crestview 15, Panama City 14. Projected overall count milestones remain 19/1,200, count deficit 18,358, 65 empty. No new target milestone or publication is claimed until post-deployment checks.
+- Verification blockers: inaccessible Preferred Environmental, Latitude 30A and PRR websites; stale Anderson water-restoration snippets; testing-only firms; incomplete official-site evidence for other local candidates. Restore Pensacola Bay/Walton expansion held because its dedicated service-area page conflicts. Preserve existing records; no deletion performed.
+- Continue from fresh main and live audit. Priority lowest counts in Destin, Fort Walton Beach, Crestview and Panama City, then Pensacola outward. Restoration shortages remain; continue other low categories rather than pad with chains, assessors, referrals or unsupported service areas.

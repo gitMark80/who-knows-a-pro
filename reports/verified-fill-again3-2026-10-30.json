@@ -1,0 +1,1779 @@
+{
+  "date": "2026-10-30",
+  "baselineCommit": "04c1457cc55871698b66f1903c1b3d4d7967fd21",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Home-Quality Restorations",
+      "website": "https://hqrestorations.com/",
+      "regions": [
+        "destin-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://hqrestorations.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers mold remediation and water damage restoration and explicitly names all selected service cities; 850-733-8833."
+    },
+    {
+      "name": "Honest Restoration Company",
+      "website": "https://www.honestrestorationcompany.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.honestrestorationcompany.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes water damage restoration and mold removal, explicitly names Panama City, Panama City Beach and Destin in company image description, and expressly serves Walton County, which includes Grayton Beach. 850-686-6675."
+    },
+    {
+      "name": "Service Restoration Pros",
+      "website": "https://servicerestorationpros.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://servicerestorationpros.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes local water damage restoration and mold remediation; service-area list explicitly names all three cities. Local company identifies MRSR3299, not a franchise."
+    },
+    {
+      "name": "Ready Restoration",
+      "website": "https://readyrestoration.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://readyrestoration.com/service-area/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area body explicitly names the first four cities and homepage explicitly names Pensacola. Florida company address, phone and licenses consistent throughout site; service-page SEO title contains unrelated legacy Thompson/Kentucky wording, not used as evidence."
+    },
+    {
+      "name": "Maranatha Construction Services, LLC",
+      "website": "https://www.maranathaconstructionservices.net/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.maranathaconstructionservices.net/mold-remediation",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official mold-remediation page explicitly offers removal, containment and restoration in Crestview. Existing Maranatha identity retained; not limited to assessment."
+    },
+    {
+      "name": "A+ Restoration & Cleaning",
+      "website": "https://www.aplusrestorationandcleaning.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "pace-fl",
+        "grayton-beach-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "dothan-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.aplusrestorationandcleaning.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water restoration and mold remediation throughout explicitly named Escambia, Santa Rosa, Okaloosa, Walton, Bay and Leon counties and Dothan. Selected Florida cities lie within those named counties; all branches one identity."
+    },
+    {
+      "name": "D'Pure",
+      "website": "https://www.dpure1.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "panama-city-beach-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.dpure1.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers professional mold remediation/removal beyond air purification and names all selected service cities. Air Excellence alone is not treated as remediation; site separately offers remediation."
+    },
+    {
+      "name": "Fusion Cleaning & Restoration",
+      "website": "https://www.emeraldcoastfusion.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.emeraldcoastfusion.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers emergency water extraction, drying and moisture monitoring and explicitly names all selected cities. Existing Fusion identity and domain retained; fusioncarpetcare.com and FusionCRS are alternate brands, not added businesses."
+    },
+    {
+      "name": "Veritas Restoration & Remediation",
+      "website": "https://veritasrestoration.com/",
+      "regions": [
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://veritasrestoration.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water damage restoration and mold remediation with explicit Pinellas and Hillsborough county coverage; selected cities within those counties. Emerald Coast and Sun Coast offices are one business; vague regional wording not expanded to other cities."
+    },
+    {
+      "name": "KG Restoration",
+      "website": "https://www.kgrestore.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.kgrestore.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly lists these cities for flood restoration and mold remediation. Existing company identity retained; new placements only after duplicate check."
+    },
+    {
+      "name": "Moldsprayers LLC",
+      "website": "https://moldsprayers.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://moldsprayers.com/contact-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area list explicitly names all selected cities for mold remediation/removal; Paul Willner. Former P.C.H.I. home-inspection identity now specializes in mold; no home-inspection category inferred."
+    },
+    {
+      "name": "HydraKlean",
+      "website": "https://hydraklean.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://hydraklean.com/water-restoration/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official water-restoration page offers extraction, drying and mold remediation; its title explicitly names Fort Walton Beach and Destin. Existing business identity retained."
+    },
+    {
+      "name": "Paradise Home Services",
+      "website": "https://www.paradisehomeservices.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.paradisehomeservices.com/plumbing-crestview/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Crestview service page explicitly lists water restoration and mold restoration among its other services. Existing business identity retained; no service area inferred beyond this city."
+    },
+    {
+      "name": "SouthernCAT",
+      "website": "https://southerncatusa.com/",
+      "regions": [
+        "panama-city-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://southerncatusa.com/contact/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page lists Panama City and Tallahassee offices; official /property-restoration/ page offers commercial dewatering, structural drying and mold remediation. One company identity; commercial restoration specialist."
+    },
+    {
+      "name": "South Walton Restoration",
+      "website": "https://www.swrestorationfl.com/",
+      "regions": [
+        "destin-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.swrestorationfl.com/contact/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page explicitly names Destin, Grayton Beach and Panama City Beach and offers water removal, water-damage restoration and mold remediation. Existing identity retained."
+    },
+    {
+      "name": "Veterans Remediation & Restoration",
+      "website": "https://veteransremediation.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://veteransremediation.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site offers water damage restoration and mold remediation and explicitly lists all selected cities in its Proudly Serving section. Freeport-based veteran-owned business; no embedded third-party reviews used."
+    },
+    {
+      "name": "Red Carpet Flood Restoration LLC",
+      "website": "https://877rcfloodpc.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://877rcfloodpc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water extraction, drying and mold remediation; explicitly serves Destin, Panama City and Panama City Beach plus all Okaloosa, Bay and Walton counties, covering the other selected cities. One company identity across coverage."
+    },
+    {
+      "name": "Daystar Cleaning & Restoration",
+      "website": "https://daystarcleaning.com/",
+      "regions": [
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://daystarcleaning.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water-damage restoration and mold removal in Panama City, Bay County and South Walton County; these cover Panama City Beach and Grayton Beach. Existing canonical identity retained."
+    },
+    {
+      "name": "Serclean",
+      "website": "https://serclean.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://serclean.com/locations/destin-fl/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Destin location page offers water removal, structural drying and mold remediation and explicitly names Destin, Panama City and Fort Walton Beach as its Florida service area; /locations/ lists Fort Walton Beach office at 850-867-5825. Regional restoration business, one identity across locations."
+    },
+    {
+      "name": "Restore Pensacola",
+      "website": "https://restorepensacola.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://restorepensacola.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage and /service-area/ offer water damage restoration and mold remediation across Escambia, Santa Rosa and Okaloosa counties, covering all selected cities. Broader Walton/Bay homepage claim held back because dedicated service-area page still restricts scope to three counties. Existing identity retained."
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "website": "https://www.procleannotsomekid.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "orange-beach-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.procleannotsomekid.com/about-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About Us page explicitly lists all selected cities; additional-city paragraph specifically offers water-damage restoration in Crestview, Destin, Fort Walton Beach, Daphne, Fairhope, Foley, Gulf Shores and Orange Beach. One existing identity, no other services inferred."
+    },
+    {
+      "name": "Escarosa Cleaning and Restoration",
+      "website": "https://escarosacleaningandrestoration.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://escarosacleaningandrestoration.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water-damage restoration and mold remediation in Pensacola; lists local 9011 N Davis Hwy address and 850-432-6060. Only own business service text used, no map or reviews."
+    },
+    {
+      "name": "DRI Gulf Coast",
+      "website": "https://www.drigulfcoast.com/",
+      "regions": [
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "perdido-key-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.drigulfcoast.com/service-area",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page explicitly names every selected city and confirms water extraction/drying and mold containment/removal in every listed town. Existing company identity retained; no geographic inference from reviews."
+    },
+    {
+      "name": "Brooks Remediation",
+      "website": "https://brooksremediation.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "milton-fl",
+        "pace-fl",
+        "panama-city-fl",
+        "tallahassee-fl",
+        "mobile-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://brooksremediation.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page explicitly lists named cities including Panama City, Tallahassee and Mobile and Escambia/Santa Rosa county coverage for Perdido Key and Pace; site lists mold remediation and water-damage restoration. Existing identity retained."
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "website": "https://www.hrgflorida.com/",
+      "regions": [
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.hrgflorida.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water extraction, structural drying and mold remediation; Service Areas explicitly lists every selected city. Existing company identity retained; no license currency claim made from website certificate expiry date."
+    },
+    {
+      "name": "Steam Vac Carpet Cleaning",
+      "website": "https://www.steamvaccarpetcleaning.com/",
+      "regions": [
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.steamvaccarpetcleaning.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers emergency water damage restoration and flood extraction across Escambia, Santa Rosa, Okaloosa and Walton counties; these cover all selected cities. Existing Steam Vac identity retained, no general carpet service substituted for restoration."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "Fusion Cleaning & Restoration",
+      "region": "milton-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Fusion Cleaning & Restoration",
+      "region": "pace-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "KG Restoration",
+      "region": "fort-walton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "KG Restoration",
+      "region": "destin-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "KG Restoration",
+      "region": "crestview-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "KG Restoration",
+      "region": "panama-city-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Moldsprayers LLC",
+      "region": "grayton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Moldsprayers LLC",
+      "region": "panama-city-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "panama-city-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "destin-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "fort-walton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "crestview-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "navarre-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "gulf-breeze-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "pace-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "milton-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Raven",
+      "region": "pensacola-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "South Walton Restoration",
+      "region": "grayton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Daystar Cleaning & Restoration",
+      "region": "panama-city-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "pensacola-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "gulf-breeze-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "navarre-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "perdido-key-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "milton-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "pace-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "destin-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Restore Pensacola",
+      "region": "fort-walton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "pensacola-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "gulf-breeze-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "navarre-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "milton-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "pace-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "perdido-key-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "daphne-al",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "fairhope-al",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "foley-al",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "region": "gulf-shores-al",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "DRI Gulf Coast",
+      "region": "orange-beach-al",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brooks Remediation",
+      "region": "navarre-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brooks Remediation",
+      "region": "pensacola-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brooks Remediation",
+      "region": "gulf-breeze-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brooks Remediation",
+      "region": "crestview-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Brooks Remediation",
+      "region": "perdido-key-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "panama-city-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "grayton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "destin-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "fort-walton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "crestview-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "milton-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "region": "pace-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Steam Vac Carpet Cleaning",
+      "region": "destin-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Steam Vac Carpet Cleaning",
+      "region": "fort-walton-beach-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Steam Vac Carpet Cleaning",
+      "region": "crestview-fl",
+      "trade": "water-damage-mold-remediation",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "websiteChecks": [
+    {
+      "url": "https://877rcfloodpc.com/",
+      "status": 200,
+      "finalUrl": "https://877rcfloodpc.com/",
+      "bytes": 156445,
+      "checkedAt": "2026-10-30T02:14:28.635437+00:00",
+      "title": [
+        "Water Damage Restoration Panama City FL | Disaster Restoration Panama City Beach FL | Red Carpet Flood Restoration LLC"
+      ],
+      "contentSha256": "1030448493a15a067090e4373482063d36fe4b8788e75470a335b8aa29eea0e7"
+    },
+    {
+      "url": "https://brooksremediation.com/",
+      "status": 200,
+      "finalUrl": "https://brooksremediation.com/",
+      "bytes": 92415,
+      "checkedAt": "2026-10-30T02:16:25.871457+00:00",
+      "title": [
+        "Biohazard, Crime Scene &amp; Unattended Death Cleanup | Navarre FL | Brooks Remediation"
+      ],
+      "contentSha256": "054f9e1c36b96949c12a59eb83dd448342d1918d19fcb8cdd44fb287137fadc4"
+    },
+    {
+      "url": "https://brooksremediation.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://brooksremediation.com/service-areas/",
+      "bytes": 56210,
+      "checkedAt": "2026-10-30T02:16:25.782949+00:00",
+      "title": [
+        "Service Areas for Biohazard &amp; Blood Cleanup, Crime Scene Cleanup &amp; More | Navarre FL"
+      ],
+      "contentSha256": "cd9a25bedd1c8559e4b036a6169214f24d3796a2c6c0c0bf61434a0c631c3185"
+    },
+    {
+      "url": "https://daystarcleaning.com/",
+      "status": 200,
+      "finalUrl": "https://daystarcleaning.com/",
+      "bytes": 94178,
+      "checkedAt": "2026-10-30T02:14:28.945737+00:00",
+      "title": [
+        "Daystar Cleaning &amp; Restoration | Family Owned Since 1986"
+      ],
+      "contentSha256": "0b590f74a35789a2cdc3dfa701f9b0b3a282123824a426e1278a957922b01cb3"
+    },
+    {
+      "url": "https://escarosacleaningandrestoration.com/",
+      "status": 200,
+      "finalUrl": "https://escarosacleaningandrestoration.com/",
+      "bytes": 85513,
+      "checkedAt": "2026-10-30T02:15:40.642934+00:00",
+      "title": [
+        "Pensacola FL Cleaning and Restoration Services by Escarosa"
+      ],
+      "contentSha256": "02a5247e6bfcd7941ff8024aea790df529ba0248973f9b9da5acd7773e32e159"
+    },
+    {
+      "url": "https://hqrestorations.com/",
+      "status": 200,
+      "finalUrl": "https://hqrestorations.com/",
+      "bytes": 86589,
+      "checkedAt": "2026-10-30T02:14:28.538546+00:00",
+      "title": [
+        "Home-Quality Restorations, LLC &#8211; &quot;Restoring the Quality of Your Home&quot;"
+      ],
+      "contentSha256": "a69b836ea0bbec218d371ab886845dbf549421a964b79181e12c4c63dbc695c5"
+    },
+    {
+      "url": "https://hydraklean.com/",
+      "status": 200,
+      "finalUrl": "https://hydraklean.com/",
+      "bytes": 50162,
+      "checkedAt": "2026-10-30T02:14:28.938375+00:00",
+      "title": [
+        "Carpet Cleaning, Tile &amp; Grout Cleaning | Fort Walton Beach, Niceville"
+      ],
+      "contentSha256": "13de997d75096b30f4e235eaadf747434af72cfaa059dad76cb54b6cacb2e09f"
+    },
+    {
+      "url": "https://hydraklean.com/water-restoration/",
+      "status": 200,
+      "finalUrl": "https://hydraklean.com/water-restoration/",
+      "bytes": 65263,
+      "checkedAt": "2026-10-30T02:14:28.923599+00:00",
+      "title": [
+        "Water Restoration | Fort Walton Beach &amp; Destin | HydraKlean"
+      ],
+      "contentSha256": "edcf4c5f551d98ddb2c923758625e05426ff8b54c5349cdb58267661585338c3"
+    },
+    {
+      "url": "https://moldsprayers.com/",
+      "status": 200,
+      "finalUrl": "https://moldsprayers.com/",
+      "bytes": 209517,
+      "checkedAt": "2026-10-30T02:14:29.002717+00:00",
+      "title": [
+        "Destin Mold Sprayers"
+      ],
+      "contentSha256": "d9f903e118354c3cc72607c7f2586837095eac44492e78133eb2613027c6667f"
+    },
+    {
+      "url": "https://moldsprayers.com/contact-us",
+      "status": 200,
+      "finalUrl": "https://moldsprayers.com/contact-us",
+      "bytes": 118499,
+      "checkedAt": "2026-10-30T02:14:28.968634+00:00",
+      "title": [
+        "Destin Mold Sprayers - Contact Us | MoldSprayers LLC"
+      ],
+      "contentSha256": "f92f1a4c697ccee25c8909671c6383cd5833a04340f4257c392e4f909faa3e5f"
+    },
+    {
+      "url": "https://readyrestoration.com/",
+      "status": 200,
+      "finalUrl": "https://readyrestoration.com/",
+      "bytes": 121724,
+      "checkedAt": "2026-10-30T02:14:27.982676+00:00",
+      "title": [
+        "Ready Restoration | Water, Fire &amp; Mold Restoration Experts in Santa Rosa Beach, FL"
+      ],
+      "contentSha256": "6ffe82cdc5817d406a43bc563c9f94cfb1230bea17e27d190edea57e82219be9"
+    },
+    {
+      "url": "https://readyrestoration.com/service-area/",
+      "status": 200,
+      "finalUrl": "https://readyrestoration.com/service-area/",
+      "bytes": 112178,
+      "checkedAt": "2026-10-30T02:14:30.394525+00:00",
+      "title": [
+        "Service Area | Water and Fire Damage Restoration in Cincinnati and Northern Kentucky | Thompson Restoration"
+      ],
+      "contentSha256": "c4257ca4dc3355bf17daa520e881fa464105614b419060fa1fe45ef532af3acc"
+    },
+    {
+      "url": "https://restorepensacola.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "alternateVerification": {
+        "method": "fresh web.open official website retrieval",
+        "verifiedAt": "2026-10-30",
+        "title": "Water Damage Restoration Pensacola FL | Mold & Fire 24/7",
+        "sourceUrl": "https://restorepensacola.com/",
+        "result": "Working official content retrieved; local HTTP client was blocked with 403. Service-area page also retrieved; only common Escambia/Santa Rosa/Okaloosa scope imported."
+      }
+    },
+    {
+      "url": "https://serclean.com/",
+      "status": 200,
+      "finalUrl": "https://serclean.com/",
+      "bytes": 208708,
+      "checkedAt": "2026-10-30T02:14:32.061607+00:00",
+      "title": [
+        "Serclean | 24/7 Water Damage Restoration Experts"
+      ],
+      "contentSha256": "9547404d252752cdd05f138a339f8ef0705047b64a124c4eb33984e375efa6b5"
+    },
+    {
+      "url": "https://serclean.com/locations/destin-fl/",
+      "status": 200,
+      "finalUrl": "https://serclean.com/locations/destin-fl/",
+      "bytes": 199999,
+      "checkedAt": "2026-10-30T02:14:32.118845+00:00",
+      "title": [
+        "Water Damage Clean Up Service | Destin &amp; Florida Gulf Coast"
+      ],
+      "contentSha256": "af148374a749cf430ab88a629e191c7c5dc9db4d7ceb75a5fa70d662ac00b82f"
+    },
+    {
+      "url": "https://servicerestorationpros.com/",
+      "status": 200,
+      "finalUrl": "https://servicerestorationpros.com/",
+      "bytes": 210590,
+      "checkedAt": "2026-10-30T02:14:31.415346+00:00",
+      "title": [
+        "Water, Fire & Mold Damage Restoration Panama City FL | Service Restoration Pros"
+      ],
+      "contentSha256": "5b2ae54debfded02d9838c028a86fe7ec2f6ae8315f7ce24b2514316dca84471"
+    },
+    {
+      "url": "https://southerncatusa.com/",
+      "status": 200,
+      "finalUrl": "https://southerncatusa.com/",
+      "bytes": 272418,
+      "checkedAt": "2026-10-30T02:14:32.143240+00:00",
+      "title": [
+        "SouthernCAT USA | Disaster Restoration &amp; Recovery Services Nationwide"
+      ],
+      "contentSha256": "a2268a7a0f67f529a045e88e871fa1f6bd3cee83b460ca781425df08cbf7209c"
+    },
+    {
+      "url": "https://southerncatusa.com/contact/",
+      "status": 200,
+      "finalUrl": "https://southerncatusa.com/contact/",
+      "bytes": 210423,
+      "checkedAt": "2026-10-30T02:14:32.122976+00:00",
+      "title": [
+        "Contact - SouthernCAT USA"
+      ],
+      "contentSha256": "ef7577fafaafaa38b05636f6f919483b5c24486d2896c4ba6376ae688cb400bf"
+    },
+    {
+      "url": "https://veritasrestoration.com/",
+      "status": 200,
+      "finalUrl": "https://veritasrestoration.com/",
+      "bytes": 210459,
+      "checkedAt": "2026-10-30T02:14:34.470348+00:00",
+      "title": [
+        "Veritas Restoration &amp; Remediation - Home"
+      ],
+      "contentSha256": "db9fe5762129c53961b49afcaed06ed7c47d2b3a7e8def8d76387c04cefbbffc"
+    },
+    {
+      "url": "https://veteransremediation.com/",
+      "status": 200,
+      "finalUrl": "https://veteransremediation.com/",
+      "bytes": 124909,
+      "checkedAt": "2026-10-30T02:14:32.114544+00:00",
+      "title": [
+        "Restoration on 30A &amp; Santa Rosa Beach, FL"
+      ],
+      "contentSha256": "f9778d1b6384ae24ecc133e5c1f206cb6b3f889753f47bf998d429eaa3710e8d"
+    },
+    {
+      "url": "https://www.aplusrestorationandcleaning.com/",
+      "status": 200,
+      "finalUrl": "https://www.aplusrestorationandcleaning.com/",
+      "bytes": 438445,
+      "checkedAt": "2026-10-30T02:14:34.819612+00:00",
+      "title": [
+        "Home - A+ Restoration &amp; Cleaning"
+      ],
+      "contentSha256": "cbb87e7edbdbd4734aec8c78101a162445a9a81c23809d785d4718d624e54399"
+    },
+    {
+      "url": "https://www.dpure1.com/",
+      "status": 200,
+      "finalUrl": "https://www.dpure1.com/",
+      "bytes": 269290,
+      "checkedAt": "2026-10-30T02:14:35.551258+00:00",
+      "title": [
+        "D&#x27;Pure — Pure Water. Clean Air. Better Life."
+      ],
+      "contentSha256": "e139bff850a606272b598c5429e795b5be4c5b03ccf5410e9d33ac3c177e8493"
+    },
+    {
+      "url": "https://www.drigulfcoast.com/",
+      "status": 200,
+      "finalUrl": "https://www.drigulfcoast.com/",
+      "bytes": 19280,
+      "checkedAt": "2026-10-30T02:15:41.038469+00:00",
+      "title": [
+        "Water, Fire &amp; Mold Restoration in Orange Beach, AL | DRI Gulf Coast"
+      ],
+      "contentSha256": "cc0ed8ae45173e07918b722cb2ea9c21138251e5bf5c76d5a321096ebd1100b0"
+    },
+    {
+      "url": "https://www.drigulfcoast.com/service-area",
+      "status": 200,
+      "finalUrl": "https://www.drigulfcoast.com/service-area",
+      "bytes": 27535,
+      "checkedAt": "2026-10-30T02:15:41.063510+00:00",
+      "title": [
+        "DRI Gulf Coast | Service Area from the Eastern Shore to Pensacola"
+      ],
+      "contentSha256": "029ca9ac918546ca72c55fa42e5d8e4140ee6e684f61a5c460580b4c2cf8f57e"
+    },
+    {
+      "url": "https://www.emeraldcoastfusion.com/",
+      "status": 200,
+      "finalUrl": "https://www.emeraldcoastfusion.com/",
+      "bytes": 165714,
+      "checkedAt": "2026-10-30T02:14:35.438605+00:00",
+      "title": [
+        "Best Carpet, Air Duct &amp; Dryer Vent Cleaning Fort Walton Beach, FL &amp; Nearby Areas"
+      ],
+      "contentSha256": "e81861038e787a68e8df1b3fedc681c32ab806be5ae98104920f7dcdc15a9088"
+    },
+    {
+      "url": "https://www.honestrestorationcompany.com/",
+      "status": 200,
+      "finalUrl": "https://www.honestrestorationcompany.com/",
+      "bytes": 543340,
+      "checkedAt": "2026-10-30T02:14:34.619450+00:00",
+      "title": [
+        "Mold Removal Service | Honest Restoration Company | Panama City, FL"
+      ],
+      "contentSha256": "df0a2f9452cea68967c3b129337d0402e7b280a6c1840828bf68844c5f231a10"
+    },
+    {
+      "url": "https://www.hrgflorida.com/",
+      "status": 200,
+      "finalUrl": "https://www.hrgflorida.com/",
+      "bytes": 29192,
+      "checkedAt": "2026-10-30T02:16:58.942463+00:00",
+      "title": [
+        "Hampton Restoration Group"
+      ],
+      "contentSha256": "37e166884fa4f56c4c2993f545c8151075608292b169f0c6b90d4c6041cb6822"
+    },
+    {
+      "url": "https://www.kgrestore.com/",
+      "status": 200,
+      "finalUrl": "https://www.kgrestore.com/",
+      "bytes": 138988,
+      "checkedAt": "2026-10-30T02:14:34.270492+00:00",
+      "title": [
+        "\r\n    \n    Restoration Services | KG Restoration | Niceville, Crestview, FL\n  \r\n  "
+      ],
+      "contentSha256": "75d6e7094bd1623b233aced95a3656efca377d7a38924b8498b28f9e0a1d36bb"
+    },
+    {
+      "url": "https://www.maranathaconstructionservices.net/",
+      "status": 200,
+      "finalUrl": "https://www.maranathaconstructionservices.net/",
+      "bytes": 218382,
+      "checkedAt": "2026-10-30T02:14:34.622188+00:00",
+      "title": [
+        "\r\n    Construction &amp; Remodeling Services | Maranatha Construction Services, LLC | Crestview, FL\r\n  "
+      ],
+      "contentSha256": "05fbfc28067c8df857718fa62f1bec274a6514e3d2cacb0c3241f9336d3fd101"
+    },
+    {
+      "url": "https://www.maranathaconstructionservices.net/mold-remediation",
+      "status": 200,
+      "finalUrl": "https://www.maranathaconstructionservices.net/mold-remediation",
+      "bytes": 158717,
+      "checkedAt": "2026-10-30T02:14:34.558605+00:00",
+      "title": [
+        "\r\n    Mold Remediation | Maranatha Construction Services, LLC | Crestview, FL\r\n  "
+      ],
+      "contentSha256": "45e7ca5e0bbd40eeee277507c6e8035053f80042245be9c2c30a0bfbfa9645de"
+    },
+    {
+      "url": "https://www.paradisehomeservices.com/",
+      "status": 200,
+      "finalUrl": "https://www.paradisehomeservices.com/",
+      "bytes": 196572,
+      "checkedAt": "2026-10-30T02:14:38.351062+00:00",
+      "title": [
+        "HVAC & Plumbing Services in Navarre | Paradise Home Services "
+      ],
+      "contentSha256": "0aec769b6a0033f77cc4cd5fc8a5f9e26c39d10eedee4e11e3157284b0ce2633"
+    },
+    {
+      "url": "https://www.paradisehomeservices.com/plumbing-crestview/",
+      "status": 200,
+      "finalUrl": "https://www.paradisehomeservices.com/plumbing-crestview/",
+      "bytes": 160148,
+      "checkedAt": "2026-10-30T02:14:38.390679+00:00",
+      "title": [
+        "Plumber in Crestview, FL | Paradise Home Services"
+      ],
+      "contentSha256": "d77fbd25a67813ab1891cad09c2a4639d9ce81308111bd76838058d0ccb154e2"
+    },
+    {
+      "url": "https://www.procleannotsomekid.com/",
+      "status": 200,
+      "finalUrl": "https://www.procleannotsomekid.com/",
+      "bytes": 206889,
+      "checkedAt": "2026-10-30T02:15:40.407464+00:00",
+      "title": [
+        "\r\n    \n    Fire &amp; Water Damage Clean-Up &amp; Restoration | Pensacola, FL | ProClean Restoration and Cleaning\n  \r\n  "
+      ],
+      "contentSha256": "f912b479442ea3149c8c0cff725dd8c7a94a5d97f2e1ff46bad9d723b8e52ea0"
+    },
+    {
+      "url": "https://www.procleannotsomekid.com/about-us",
+      "status": 200,
+      "finalUrl": "https://www.procleannotsomekid.com/about-us",
+      "bytes": 92254,
+      "checkedAt": "2026-10-30T02:15:40.282998+00:00",
+      "title": [
+        "\r\n    \n    About Us | ProClean Restoration and Cleaning | Pensacola, FL\n  \r\n  "
+      ],
+      "contentSha256": "b43d0a4470fc8c341547872f90db4371cc1215f5280984b548c807adf4d01f88"
+    },
+    {
+      "url": "https://www.ravenenviro.com/",
+      "status": 200,
+      "finalUrl": "https://www.ravenenviro.com/",
+      "bytes": 60963,
+      "checkedAt": "2026-10-30T02:14:37.002514+00:00",
+      "title": [
+        "Environmental Testing &amp; Restoration | Panama City | Raven"
+      ],
+      "contentSha256": "aa77fc138da62c0970615e476c2a9bfc60d2f335f6ccbe4a3f7f2afd15b1c28b"
+    },
+    {
+      "url": "https://www.ravenenviro.com/services/disaster-recovery/",
+      "status": 200,
+      "finalUrl": "https://www.ravenenviro.com/services/disaster-recovery/",
+      "bytes": 23750,
+      "checkedAt": "2026-10-30T02:14:36.910378+00:00",
+      "title": [
+        "Disaster Recovery &amp; Mold Cleanup | Florida Panhandle | Raven"
+      ],
+      "contentSha256": "2338976e9c5fd2bac653363c866c964a163893383eefe720859863f093379529"
+    },
+    {
+      "url": "https://www.steamvaccarpetcleaning.com/",
+      "status": 200,
+      "finalUrl": "https://www.steamvaccarpetcleaning.com/",
+      "bytes": 882579,
+      "checkedAt": "2026-10-30T02:17:00.328312+00:00",
+      "title": [
+        "Steam Vac | Fort Walton Beach Carpet Cleaning Company"
+      ],
+      "contentSha256": "3871703ac9c084ba50ccab70ac8b4dfac11ba1ac00abb864dd1aca9339a9f764"
+    },
+    {
+      "url": "https://www.swrestorationfl.com/",
+      "status": 200,
+      "finalUrl": "https://www.swrestorationfl.com/",
+      "bytes": 233519,
+      "checkedAt": "2026-10-30T02:14:37.050597+00:00",
+      "title": [
+        "Water Damage Restoration Santa Rosa Beach | South Walton Restoration"
+      ],
+      "contentSha256": "92558bc03c6d42300e8fd45ce64d95722c34a78f3af16967c1fbe59803c9f8f0"
+    },
+    {
+      "url": "https://www.swrestorationfl.com/contact/",
+      "status": 200,
+      "finalUrl": "https://www.swrestorationfl.com/contact/",
+      "bytes": 159402,
+      "checkedAt": "2026-10-30T02:14:37.098950+00:00",
+      "title": [
+        "Contact Us - South Walton Restoration"
+      ],
+      "contentSha256": "223cedbf1731bb162820ed9e6134ffd459edecb03964aec1ae0789ed503c5452"
+    }
+  ],
+  "validation": {
+    "verifiedAt": "2026-10-30",
+    "baselineCommit": "04c1457cc55871698b66f1903c1b3d4d7967fd21",
+    "priorSeedRecords": 6854,
+    "finalSeedRecords": 6960,
+    "preservedPriorRecords": 6854,
+    "unchangedPriorSourceRecords": 1530,
+    "addedPlacements": 106,
+    "distinctBusinessIdentities": 26,
+    "newBusinessIdentities": 12,
+    "existingBusinessServiceExtensions": 14,
+    "uniqueIds": true,
+    "newNormalizedDomainCityTradeDuplicates": 0,
+    "validActiveSlugs": true,
+    "activeCityCount": 40,
+    "activeCategoryCount": 30,
+    "target": 20,
+    "projectedPairsAtTarget": 19,
+    "projectedDeficit": 18358,
+    "projectedEmpty": 65,
+    "byCity": {
+      "clearwater-fl": 1,
+      "crestview-fl": 10,
+      "daphne-al": 1,
+      "destin-fl": 14,
+      "dothan-al": 1,
+      "fairhope-al": 1,
+      "foley-al": 1,
+      "fort-walton-beach-fl": 12,
+      "grayton-beach-fl": 6,
+      "gulf-breeze-fl": 7,
+      "gulf-shores-al": 1,
+      "milton-fl": 3,
+      "mobile-al": 1,
+      "navarre-fl": 7,
+      "orange-beach-al": 1,
+      "pace-fl": 4,
+      "panama-city-beach-fl": 9,
+      "panama-city-fl": 9,
+      "pensacola-fl": 9,
+      "perdido-key-fl": 3,
+      "st-petersburg-fl": 1,
+      "tallahassee-fl": 3,
+      "tampa-fl": 1
+    },
+    "byCategory": {
+      "water-damage-mold-remediation": 106
+    },
+    "notes": [
+      "Only append-only source data and research/checkpoint files changed.",
+      "Counts are generated coverage, not fresh independent verification of every historical website.",
+      "No five-listing cap in seed pipeline; current audit minimum already 20.",
+      "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+    ]
+  },
+  "freshlyReviewedCandidates": [
+    {
+      "name": "Home-Quality Restorations",
+      "website": "https://hqrestorations.com/",
+      "regions": [
+        "destin-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://hqrestorations.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers mold remediation and water damage restoration and explicitly names all selected service cities; 850-733-8833."
+    },
+    {
+      "name": "Honest Restoration Company",
+      "website": "https://www.honestrestorationcompany.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.honestrestorationcompany.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes water damage restoration and mold removal, explicitly names Panama City, Panama City Beach and Destin in company image description, and expressly serves Walton County, which includes Grayton Beach. 850-686-6675."
+    },
+    {
+      "name": "Service Restoration Pros",
+      "website": "https://servicerestorationpros.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://servicerestorationpros.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes local water damage restoration and mold remediation; service-area list explicitly names all three cities. Local company identifies MRSR3299, not a franchise."
+    },
+    {
+      "name": "Ready Restoration",
+      "website": "https://readyrestoration.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://readyrestoration.com/service-area/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area body explicitly names the first four cities and homepage explicitly names Pensacola. Florida company address, phone and licenses consistent throughout site; service-page SEO title contains unrelated legacy Thompson/Kentucky wording, not used as evidence."
+    },
+    {
+      "name": "Maranatha Construction Services, LLC",
+      "website": "https://www.maranathaconstructionservices.net/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.maranathaconstructionservices.net/mold-remediation",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official mold-remediation page explicitly offers removal, containment and restoration in Crestview. Existing Maranatha identity retained; not limited to assessment."
+    },
+    {
+      "name": "A+ Restoration & Cleaning",
+      "website": "https://www.aplusrestorationandcleaning.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "pace-fl",
+        "grayton-beach-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "dothan-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.aplusrestorationandcleaning.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water restoration and mold remediation throughout explicitly named Escambia, Santa Rosa, Okaloosa, Walton, Bay and Leon counties and Dothan. Selected Florida cities lie within those named counties; all branches one identity."
+    },
+    {
+      "name": "D'Pure",
+      "website": "https://www.dpure1.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "panama-city-beach-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.dpure1.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers professional mold remediation/removal beyond air purification and names all selected service cities. Air Excellence alone is not treated as remediation; site separately offers remediation."
+    },
+    {
+      "name": "Fusion Cleaning & Restoration",
+      "website": "https://www.emeraldcoastfusion.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.emeraldcoastfusion.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers emergency water extraction, drying and moisture monitoring and explicitly names all selected cities. Existing Fusion identity and domain retained; fusioncarpetcare.com and FusionCRS are alternate brands, not added businesses."
+    },
+    {
+      "name": "Veritas Restoration & Remediation",
+      "website": "https://veritasrestoration.com/",
+      "regions": [
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://veritasrestoration.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water damage restoration and mold remediation with explicit Pinellas and Hillsborough county coverage; selected cities within those counties. Emerald Coast and Sun Coast offices are one business; vague regional wording not expanded to other cities."
+    },
+    {
+      "name": "KG Restoration",
+      "website": "https://www.kgrestore.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.kgrestore.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly lists these cities for flood restoration and mold remediation. Existing company identity retained; new placements only after duplicate check."
+    },
+    {
+      "name": "Moldsprayers LLC",
+      "website": "https://moldsprayers.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://moldsprayers.com/contact-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area list explicitly names all selected cities for mold remediation/removal; Paul Willner. Former P.C.H.I. home-inspection identity now specializes in mold; no home-inspection category inferred."
+    },
+    {
+      "name": "Raven",
+      "website": "https://www.ravenenviro.com/",
+      "regions": [
+        "panama-city-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.ravenenviro.com/services/disaster-recovery/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official disaster recovery page explicitly lists these cities for water damage restoration, mitigation and structural drying. Existing Raven identity retained. Temporary roof tarping is not counted as permanent roofing service."
+    },
+    {
+      "name": "HydraKlean",
+      "website": "https://hydraklean.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://hydraklean.com/water-restoration/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official water-restoration page offers extraction, drying and mold remediation; its title explicitly names Fort Walton Beach and Destin. Existing business identity retained."
+    },
+    {
+      "name": "Paradise Home Services",
+      "website": "https://www.paradisehomeservices.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.paradisehomeservices.com/plumbing-crestview/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Crestview service page explicitly lists water restoration and mold restoration among its other services. Existing business identity retained; no service area inferred beyond this city."
+    },
+    {
+      "name": "SouthernCAT",
+      "website": "https://southerncatusa.com/",
+      "regions": [
+        "panama-city-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://southerncatusa.com/contact/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page lists Panama City and Tallahassee offices; official /property-restoration/ page offers commercial dewatering, structural drying and mold remediation. One company identity; commercial restoration specialist."
+    },
+    {
+      "name": "South Walton Restoration",
+      "website": "https://www.swrestorationfl.com/",
+      "regions": [
+        "destin-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.swrestorationfl.com/contact/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page explicitly names Destin, Grayton Beach and Panama City Beach and offers water removal, water-damage restoration and mold remediation. Existing identity retained."
+    },
+    {
+      "name": "Veterans Remediation & Restoration",
+      "website": "https://veteransremediation.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://veteransremediation.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site offers water damage restoration and mold remediation and explicitly lists all selected cities in its Proudly Serving section. Freeport-based veteran-owned business; no embedded third-party reviews used."
+    },
+    {
+      "name": "Red Carpet Flood Restoration LLC",
+      "website": "https://877rcfloodpc.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://877rcfloodpc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water extraction, drying and mold remediation; explicitly serves Destin, Panama City and Panama City Beach plus all Okaloosa, Bay and Walton counties, covering the other selected cities. One company identity across coverage."
+    },
+    {
+      "name": "Daystar Cleaning & Restoration",
+      "website": "https://daystarcleaning.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://daystarcleaning.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water-damage restoration and mold removal in Panama City, Bay County and South Walton County; these cover Panama City Beach and Grayton Beach. Existing canonical identity retained."
+    },
+    {
+      "name": "Serclean",
+      "website": "https://serclean.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://serclean.com/locations/destin-fl/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Destin location page offers water removal, structural drying and mold remediation and explicitly names Destin, Panama City and Fort Walton Beach as its Florida service area; /locations/ lists Fort Walton Beach office at 850-867-5825. Regional restoration business, one identity across locations."
+    },
+    {
+      "name": "Restore Pensacola",
+      "website": "https://restorepensacola.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "pace-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://restorepensacola.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage and /service-area/ offer water damage restoration and mold remediation across Escambia, Santa Rosa and Okaloosa counties, covering all selected cities. Broader Walton/Bay homepage claim held back because dedicated service-area page still restricts scope to three counties. Existing identity retained."
+    },
+    {
+      "name": "ProClean Restoration and Cleaning",
+      "website": "https://www.procleannotsomekid.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "orange-beach-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.procleannotsomekid.com/about-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About Us page explicitly lists all selected cities; additional-city paragraph specifically offers water-damage restoration in Crestview, Destin, Fort Walton Beach, Daphne, Fairhope, Foley, Gulf Shores and Orange Beach. One existing identity, no other services inferred."
+    },
+    {
+      "name": "Escarosa Cleaning and Restoration",
+      "website": "https://escarosacleaningandrestoration.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://escarosacleaningandrestoration.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water-damage restoration and mold remediation in Pensacola; lists local 9011 N Davis Hwy address and 850-432-6060. Only own business service text used, no map or reviews."
+    },
+    {
+      "name": "DRI Gulf Coast",
+      "website": "https://www.drigulfcoast.com/",
+      "regions": [
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "orange-beach-al",
+        "perdido-key-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.drigulfcoast.com/service-area",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page explicitly names every selected city and confirms water extraction/drying and mold containment/removal in every listed town. Existing company identity retained; no geographic inference from reviews."
+    },
+    {
+      "name": "Brooks Remediation",
+      "website": "https://brooksremediation.com/",
+      "regions": [
+        "navarre-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "panama-city-fl",
+        "tallahassee-fl",
+        "mobile-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://brooksremediation.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page explicitly lists named cities including Panama City, Tallahassee and Mobile and Escambia/Santa Rosa county coverage for Perdido Key and Pace; site lists mold remediation and water-damage restoration. Existing identity retained."
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "website": "https://www.hrgflorida.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.hrgflorida.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers water extraction, structural drying and mold remediation; Service Areas explicitly lists every selected city. Existing company identity retained; no license currency claim made from website certificate expiry date."
+    },
+    {
+      "name": "Steam Vac Carpet Cleaning",
+      "website": "https://www.steamvaccarpetcleaning.com/",
+      "regions": [
+        "pensacola-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.steamvaccarpetcleaning.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers emergency water damage restoration and flood extraction across Escambia, Santa Rosa, Okaloosa and Walton counties; these cover all selected cities. Existing Steam Vac identity retained, no general carpet service substituted for restoration."
+    }
+  ],
+  "blockers": [
+    {
+      "business": "Preferred Environmental Solutions",
+      "url": "https://preferredenviro.com/services/",
+      "reason": "Official site and about page returned HTTP 500; search surfaced conflicting business-status information. No addition pending working site and status verification."
+    },
+    {
+      "business": "Latitude 30A Restoration, Remodel, Repairs",
+      "url": "https://latitude30a.com/index.html",
+      "reason": "Official website returned HTTP 533 via both direct and web retrieval; no addition despite indexed relevant service area."
+    },
+    {
+      "business": "PRR Restoration / Panhandle Rapid Response",
+      "url": "https://panhandlerapidresponse.com/",
+      "reason": "Homepage returned 503 and web retrieval returned 502; services page also inaccessible. Indexed Destin candidate held, not counted."
+    },
+    {
+      "business": "Anderson's Cleaning & Restoration",
+      "url": "https://www.andersonsclean.com/",
+      "reason": "Old indexed snippet offers water restoration, but current live homepage removed that offer and former water-restoration page redirects. No addition based on stale text."
+    },
+    {
+      "business": "Coastal Mold Services / Pure Restore",
+      "reason": "Current official sites emphasize assessment/testing/consultation or refer remediation to others; no remediation listing inferred from a license alone."
+    },
+    {
+      "business": "Restore Pensacola",
+      "url": "https://restorepensacola.com/service-area/",
+      "reason": "Homepage mentions five counties while dedicated service-area page says three. Added only common three-county coverage; Walton/Bay extensions held."
+    },
+    {
+      "business": "Panhandle Mold Remediators / Waterfalls Worldwide Mold Remediation",
+      "reason": "No current working official website verified; directory/government identity alone does not meet official-website requirement."
+    },
+    {
+      "business": "Dri Pro Restoration",
+      "url": "https://destinwaterdamagerestoration.com/contact-us",
+      "reason": "Official contact page says unavailable; not added."
+    },
+    {
+      "business": "National restoration franchises",
+      "reason": "Preserved existing exclusions and local-business focus; did not add excluded brands via alternate domains."
+    }
+  ],
+  "deduplicationNotes": [
+    "26 retained business identities; 53 already-present placements skipped.",
+    "Existing names/domains reused for service-area extensions.",
+    "Fusion alternate branding, SouthernCAT locations, Red Carpet locations and Serclean branches are one business each.",
+    "No social-only listing, Google Maps/Places, Yelp or Angi listing evidence used. Embedded review/map widgets were not evidence.",
+    "Unknown phone/address/email fields omitted."
+  ],
+  "freshCoverage": {
+    "water-damage-mold-remediation": {
+      "destin-fl": 19,
+      "fort-walton-beach-fl": 17,
+      "crestview-fl": 15,
+      "panama-city-fl": 14
+    },
+    "note": "Destin/Fort Walton Beach/Crestview historical water-restoration businesses freshly reviewed in this run; Panama City includes two historical firms still requiring fresh re-verification. No new >=20 milestone claimed."
+  }
+}
