@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published; Vercel production success; all added placements and profiles verified live",
   "sourceRecords": [
     {
       "name": "Home-Quality Restorations",
@@ -1775,5 +1775,16 @@
       "panama-city-fl": 14
     },
     "note": "Destin/Fort Walton Beach/Crestview historical water-restoration businesses freshly reviewed in this run; Panama City includes two historical firms still requiring fresh re-verification. No new >=20 milestone claimed."
+  },
+  "publishedCommit": "e38e58db6e2ad39c149f60b89cc2aad687ee8891",
+  "liveVerification": {
+    "verifiedAt": "2026-10-30",
+    "addedPlacements": 106,
+    "categoryPages": 23,
+    "businessProfiles": 26,
+    "allPassed": true,
+    "categoryEvidence": "live-fill-again3-2026-10-30.json",
+    "profileEvidence": "profiles-fill-again3-2026-10-30.json",
+    "coverageEvidence": "coverage-fill-again3-2026-10-30.csv"
   }
 }

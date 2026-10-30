@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published; Vercel production success; all added placements and profiles verified live",
   "sourceRecords": [
     {
       "name": "Whitrock Associates",
@@ -1042,5 +1042,16 @@
     "Tapered Roofing deferred: Panama City postal address is outside central city; explicit city service coverage not confirmed.",
     "Crestview Roofing at crestviewroofingco.com advertises California coverage, not the target Florida city.",
     "National-chain exclusions retained, including SERVPRO."
-  ]
+  ],
+  "publishedCommit": "91ce3973a51a37afa5747d96753948af9722bf3e",
+  "liveVerification": {
+    "verifiedAt": "2026-10-30",
+    "addedPlacements": 215,
+    "categoryPages": 38,
+    "businessProfiles": 28,
+    "allPassed": true,
+    "categoryEvidence": "live-fill-again-2026-10-30.json",
+    "profileEvidence": "profiles-fill-again-2026-10-30.json",
+    "coverageEvidence": "coverage-fill-again-2026-10-30.csv"
+  }
 }

@@ -1,0 +1,1389 @@
+{
+  "verifiedAt": "2026-10-30T02:50:52.265018+00:00",
+  "run": "Go again, 2026-10-30",
+  "runBaselineCommit": "c7de7b73615b88504324726af3cafc30a28d050d",
+  "latestListingCommit": "002825a21a838ac42343bb0163a3fc40dbd8332e",
+  "publicationStatus": "All four data commits deployed and live additions verified",
+  "activeCities": 40,
+  "activeCategories": 30,
+  "totalActiveCombinations": 1200,
+  "target": 20,
+  "publishedPlacements": 623,
+  "distinctBusinessIdentities": 141,
+  "newBusinessIdentities": 107,
+  "existingBusinessExtensions": 34,
+  "citiesReceivingAdditions": 35,
+  "byCity": {
+    "birmingham-al": 1,
+    "clearwater-fl": 2,
+    "crestview-fl": 66,
+    "daphne-al": 2,
+    "destin-fl": 78,
+    "dothan-al": 2,
+    "fairhope-al": 2,
+    "foley-al": 1,
+    "fort-lauderdale-fl": 3,
+    "fort-myers-fl": 6,
+    "fort-walton-beach-fl": 81,
+    "grayton-beach-fl": 16,
+    "gulf-breeze-fl": 38,
+    "gulf-shores-al": 1,
+    "gulfport-ms": 1,
+    "huntsville-al": 1,
+    "jacksonville-fl": 4,
+    "miami-fl": 2,
+    "milton-fl": 31,
+    "mobile-al": 3,
+    "montgomery-al": 1,
+    "naples-fl": 2,
+    "navarre-fl": 47,
+    "orange-beach-al": 1,
+    "orlando-fl": 1,
+    "pace-fl": 26,
+    "panama-city-beach-fl": 48,
+    "panama-city-fl": 69,
+    "pensacola-fl": 46,
+    "perdido-key-fl": 15,
+    "sarasota-fl": 7,
+    "st-petersburg-fl": 2,
+    "tallahassee-fl": 11,
+    "tampa-fl": 3,
+    "west-palm-beach-fl": 3
+  },
+  "byCategory": {
+    "auto-body-collision": 10,
+    "auto-mechanics": 96,
+    "gutters": 36,
+    "home-inspections": 166,
+    "marine-services": 3,
+    "roofing": 201,
+    "towing": 5,
+    "water-damage-mold-remediation": 106
+  },
+  "priorSeedRecords": 6451,
+  "finalSeedRecords": 7074,
+  "allPriorRecordsUnchanged": true,
+  "liveCountAtOrAboveTarget": 23,
+  "independentlyVerifiedTargetCombinationsAcrossRecentRuns": 21,
+  "liveCountOnlyMilestonesNeedingOwnershipReconciliation": [
+    "gulf-breeze-fl/hvac",
+    "navarre-fl/hvac"
+  ],
+  "belowTarget": 1177,
+  "emptyCombinations": 64,
+  "countBasedRemainingDeficit": 18256,
+  "runBaselineAtTarget": 8,
+  "runBaselineEmpty": 75,
+  "runBaselineDeficit": 18804,
+  "atOrAbove20ByLiveCount": [
+    {
+      "city": "Crestview, FL",
+      "city_slug": "crestview-fl",
+      "category": "Auto mechanics",
+      "category_slug": "auto-mechanics",
+      "listing_count": 23,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Crestview, FL",
+      "city_slug": "crestview-fl",
+      "category": "Home inspections",
+      "category_slug": "home-inspections",
+      "listing_count": 20,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Crestview, FL",
+      "city_slug": "crestview-fl",
+      "category": "HVAC",
+      "category_slug": "hvac",
+      "listing_count": 23,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Crestview, FL",
+      "city_slug": "crestview-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 26,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Destin, FL",
+      "city_slug": "destin-fl",
+      "category": "Auto mechanics",
+      "category_slug": "auto-mechanics",
+      "listing_count": 20,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Destin, FL",
+      "city_slug": "destin-fl",
+      "category": "Home inspections",
+      "category_slug": "home-inspections",
+      "listing_count": 27,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Destin, FL",
+      "city_slug": "destin-fl",
+      "category": "HVAC",
+      "category_slug": "hvac",
+      "listing_count": 25,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Destin, FL",
+      "city_slug": "destin-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 27,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Fort Walton Beach, FL",
+      "city_slug": "fort-walton-beach-fl",
+      "category": "Auto mechanics",
+      "category_slug": "auto-mechanics",
+      "listing_count": 26,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Fort Walton Beach, FL",
+      "city_slug": "fort-walton-beach-fl",
+      "category": "Home inspections",
+      "category_slug": "home-inspections",
+      "listing_count": 23,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Fort Walton Beach, FL",
+      "city_slug": "fort-walton-beach-fl",
+      "category": "HVAC",
+      "category_slug": "hvac",
+      "listing_count": 25,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Fort Walton Beach, FL",
+      "city_slug": "fort-walton-beach-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 27,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Gulf Breeze, FL",
+      "city_slug": "gulf-breeze-fl",
+      "category": "HVAC",
+      "category_slug": "hvac",
+      "listing_count": 24,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Gulf Breeze, FL",
+      "city_slug": "gulf-breeze-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 27,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Navarre, FL",
+      "city_slug": "navarre-fl",
+      "category": "HVAC",
+      "category_slug": "hvac",
+      "listing_count": 24,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Navarre, FL",
+      "city_slug": "navarre-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 28,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Panama City, FL",
+      "city_slug": "panama-city-fl",
+      "category": "Auto mechanics",
+      "category_slug": "auto-mechanics",
+      "listing_count": 23,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Panama City, FL",
+      "city_slug": "panama-city-fl",
+      "category": "Flooring",
+      "category_slug": "flooring",
+      "listing_count": 20,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Panama City, FL",
+      "city_slug": "panama-city-fl",
+      "category": "Home inspections",
+      "category_slug": "home-inspections",
+      "listing_count": 22,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Panama City, FL",
+      "city_slug": "panama-city-fl",
+      "category": "HVAC",
+      "category_slug": "hvac",
+      "listing_count": 21,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Panama City, FL",
+      "city_slug": "panama-city-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 25,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Pensacola, FL",
+      "city_slug": "pensacola-fl",
+      "category": "Roofing",
+      "category_slug": "roofing",
+      "listing_count": 31,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    },
+    {
+      "city": "Tampa, FL",
+      "city_slug": "tampa-fl",
+      "category": "Locksmith",
+      "category_slug": "locksmith",
+      "listing_count": 20,
+      "minimum": 20,
+      "missing": 0,
+      "meets_minimum": true
+    }
+  ],
+  "priorityCityResumeQueue": {
+    "destin-fl": [
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Appliance repair",
+        "category_slug": "appliance-repair",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Pool service",
+        "category_slug": "pool-service",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Auto body & collision",
+        "category_slug": "auto-body-collision",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Irrigation & sprinkler repair",
+        "category_slug": "irrigation-sprinkler-repair",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Marine services",
+        "category_slug": "marine-services",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Screen enclosures & pool cages",
+        "category_slug": "screen-enclosures-pool-cages",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Towing",
+        "category_slug": "towing",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Flooring",
+        "category_slug": "flooring",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Garage door repair",
+        "category_slug": "garage-door-repair",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Kitchen & bath remodeling",
+        "category_slug": "kitchen-bath-remodeling",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Landscaping",
+        "category_slug": "landscaping",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Concrete & driveways",
+        "category_slug": "concrete",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Fence builders",
+        "category_slug": "fence-builders",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Locksmith",
+        "category_slug": "locksmith",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Plumbing",
+        "category_slug": "plumbing",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Pool installation",
+        "category_slug": "pool-installation",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Septic services",
+        "category_slug": "septic-services",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Gutters",
+        "category_slug": "gutters",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Painting",
+        "category_slug": "painting",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Generator installation",
+        "category_slug": "generator-installation",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Hurricane shutters & impact windows",
+        "category_slug": "hurricane-shutters-impact-windows",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Insulation",
+        "category_slug": "insulation",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Tree service",
+        "category_slug": "tree-service",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Pest control",
+        "category_slug": "pest-control",
+        "listing_count": 12,
+        "minimum": 20,
+        "missing": 8,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Electrical",
+        "category_slug": "electrical",
+        "listing_count": 16,
+        "minimum": 20,
+        "missing": 4,
+        "meets_minimum": false
+      },
+      {
+        "city": "Destin, FL",
+        "city_slug": "destin-fl",
+        "category": "Water damage & mold remediation",
+        "category_slug": "water-damage-mold-remediation",
+        "listing_count": 19,
+        "minimum": 20,
+        "missing": 1,
+        "meets_minimum": false
+      }
+    ],
+    "fort-walton-beach-fl": [
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Irrigation & sprinkler repair",
+        "category_slug": "irrigation-sprinkler-repair",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Flooring",
+        "category_slug": "flooring",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Garage door repair",
+        "category_slug": "garage-door-repair",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Landscaping",
+        "category_slug": "landscaping",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Marine services",
+        "category_slug": "marine-services",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Pool service",
+        "category_slug": "pool-service",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Appliance repair",
+        "category_slug": "appliance-repair",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Insulation",
+        "category_slug": "insulation",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Kitchen & bath remodeling",
+        "category_slug": "kitchen-bath-remodeling",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Locksmith",
+        "category_slug": "locksmith",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Plumbing",
+        "category_slug": "plumbing",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Pool installation",
+        "category_slug": "pool-installation",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Screen enclosures & pool cages",
+        "category_slug": "screen-enclosures-pool-cages",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Concrete & driveways",
+        "category_slug": "concrete",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Fence builders",
+        "category_slug": "fence-builders",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Septic services",
+        "category_slug": "septic-services",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Auto body & collision",
+        "category_slug": "auto-body-collision",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Generator installation",
+        "category_slug": "generator-installation",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Gutters",
+        "category_slug": "gutters",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Hurricane shutters & impact windows",
+        "category_slug": "hurricane-shutters-impact-windows",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Painting",
+        "category_slug": "painting",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Tree service",
+        "category_slug": "tree-service",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Pest control",
+        "category_slug": "pest-control",
+        "listing_count": 11,
+        "minimum": 20,
+        "missing": 9,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Towing",
+        "category_slug": "towing",
+        "listing_count": 11,
+        "minimum": 20,
+        "missing": 9,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Electrical",
+        "category_slug": "electrical",
+        "listing_count": 13,
+        "minimum": 20,
+        "missing": 7,
+        "meets_minimum": false
+      },
+      {
+        "city": "Fort Walton Beach, FL",
+        "city_slug": "fort-walton-beach-fl",
+        "category": "Water damage & mold remediation",
+        "category_slug": "water-damage-mold-remediation",
+        "listing_count": 17,
+        "minimum": 20,
+        "missing": 3,
+        "meets_minimum": false
+      }
+    ],
+    "crestview-fl": [
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Appliance repair",
+        "category_slug": "appliance-repair",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Irrigation & sprinkler repair",
+        "category_slug": "irrigation-sprinkler-repair",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Marine services",
+        "category_slug": "marine-services",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Auto body & collision",
+        "category_slug": "auto-body-collision",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Garage door repair",
+        "category_slug": "garage-door-repair",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Landscaping",
+        "category_slug": "landscaping",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Pool service",
+        "category_slug": "pool-service",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Flooring",
+        "category_slug": "flooring",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Kitchen & bath remodeling",
+        "category_slug": "kitchen-bath-remodeling",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Locksmith",
+        "category_slug": "locksmith",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Painting",
+        "category_slug": "painting",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Plumbing",
+        "category_slug": "plumbing",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Pool installation",
+        "category_slug": "pool-installation",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Screen enclosures & pool cages",
+        "category_slug": "screen-enclosures-pool-cages",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Towing",
+        "category_slug": "towing",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Concrete & driveways",
+        "category_slug": "concrete",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Fence builders",
+        "category_slug": "fence-builders",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Generator installation",
+        "category_slug": "generator-installation",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Gutters",
+        "category_slug": "gutters",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Hurricane shutters & impact windows",
+        "category_slug": "hurricane-shutters-impact-windows",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Septic services",
+        "category_slug": "septic-services",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Insulation",
+        "category_slug": "insulation",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Pest control",
+        "category_slug": "pest-control",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Tree service",
+        "category_slug": "tree-service",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Electrical",
+        "category_slug": "electrical",
+        "listing_count": 12,
+        "minimum": 20,
+        "missing": 8,
+        "meets_minimum": false
+      },
+      {
+        "city": "Crestview, FL",
+        "city_slug": "crestview-fl",
+        "category": "Water damage & mold remediation",
+        "category_slug": "water-damage-mold-remediation",
+        "listing_count": 15,
+        "minimum": 20,
+        "missing": 5,
+        "meets_minimum": false
+      }
+    ],
+    "panama-city-fl": [
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Insulation",
+        "category_slug": "insulation",
+        "listing_count": 4,
+        "minimum": 20,
+        "missing": 16,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Locksmith",
+        "category_slug": "locksmith",
+        "listing_count": 4,
+        "minimum": 20,
+        "missing": 16,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Appliance repair",
+        "category_slug": "appliance-repair",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Towing",
+        "category_slug": "towing",
+        "listing_count": 5,
+        "minimum": 20,
+        "missing": 15,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Auto body & collision",
+        "category_slug": "auto-body-collision",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Fence builders",
+        "category_slug": "fence-builders",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Garage door repair",
+        "category_slug": "garage-door-repair",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Generator installation",
+        "category_slug": "generator-installation",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Marine services",
+        "category_slug": "marine-services",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Pool service",
+        "category_slug": "pool-service",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Septic services",
+        "category_slug": "septic-services",
+        "listing_count": 6,
+        "minimum": 20,
+        "missing": 14,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Concrete & driveways",
+        "category_slug": "concrete",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Electrical",
+        "category_slug": "electrical",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Pest control",
+        "category_slug": "pest-control",
+        "listing_count": 7,
+        "minimum": 20,
+        "missing": 13,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Landscaping",
+        "category_slug": "landscaping",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Plumbing",
+        "category_slug": "plumbing",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Screen enclosures & pool cages",
+        "category_slug": "screen-enclosures-pool-cages",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Tree service",
+        "category_slug": "tree-service",
+        "listing_count": 8,
+        "minimum": 20,
+        "missing": 12,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Gutters",
+        "category_slug": "gutters",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Hurricane shutters & impact windows",
+        "category_slug": "hurricane-shutters-impact-windows",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Irrigation & sprinkler repair",
+        "category_slug": "irrigation-sprinkler-repair",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Kitchen & bath remodeling",
+        "category_slug": "kitchen-bath-remodeling",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Pool installation",
+        "category_slug": "pool-installation",
+        "listing_count": 9,
+        "minimum": 20,
+        "missing": 11,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Painting",
+        "category_slug": "painting",
+        "listing_count": 10,
+        "minimum": 20,
+        "missing": 10,
+        "meets_minimum": false
+      },
+      {
+        "city": "Panama City, FL",
+        "city_slug": "panama-city-fl",
+        "category": "Water damage & mold remediation",
+        "category_slug": "water-damage-mold-remediation",
+        "listing_count": 14,
+        "minimum": 20,
+        "missing": 6,
+        "meets_minimum": false
+      }
+    ]
+  },
+  "waves": [
+    {
+      "label": "again",
+      "commit": "91ce3973a51a37afa5747d96753948af9722bf3e",
+      "publishedPlacements": 215,
+      "verifiedCategoryPages": 38,
+      "verifiedBusinessProfiles": 28
+    },
+    {
+      "label": "again2",
+      "commit": "04c1457cc55871698b66f1903c1b3d4d7967fd21",
+      "publishedPlacements": 188,
+      "verifiedCategoryPages": 44,
+      "verifiedBusinessProfiles": 36
+    },
+    {
+      "label": "again3",
+      "commit": "e38e58db6e2ad39c149f60b89cc2aad687ee8891",
+      "publishedPlacements": 106,
+      "verifiedCategoryPages": 23,
+      "verifiedBusinessProfiles": 26
+    },
+    {
+      "label": "again4",
+      "commit": "002825a21a838ac42343bb0163a3fc40dbd8332e",
+      "publishedPlacements": 114,
+      "verifiedCategoryPages": 25,
+      "verifiedBusinessProfiles": 51
+    }
+  ],
+  "notes": [
+    "All 1,200 city/category counts freshly audited. Live counts alone do not freshly verify every historical website or business identity.",
+    "Actual source-of-truth catalog contains 40 cities and 30 active categories; ten historical categories remain retired. Grayton Beach active; Pensacola Beach absent. Panama City and Panama City Beach distinct.",
+    "Tampa locksmith remains 20 live listings. Earlier one-listing screenshot reflected unfinished population; no five-listing cap found in current import/display path.",
+    "Four newly completed automotive milestones have independently verified counts Destin 20, Fort Walton Beach 26, Crestview 23, Panama City 21. Panama City displays 23 including preserved parked A1 and unresolved Garrett record, both excluded from fresh verification.",
+    "No data deletions, paid/claimed records, DB mutations, application changes, Foursquare spending, paid API calls, outreach, purchases or subscription changes.",
+    "Enabled daily fill automation remains unchanged; no nonstop execution between turns claimed. Next run must refresh main and live coverage, check active run state, then prioritize lowest verified counts and preserve all newer changes.",
+    "Overall goal incomplete. Do not pause automation until fresh independent verification reaches 20 for every active city/category."
+  ]
+}

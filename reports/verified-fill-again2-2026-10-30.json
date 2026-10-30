@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published; Vercel production success; all added placements and profiles verified live",
   "sourceRecords": [
     {
       "name": "DV Home Inspections",
@@ -1167,7 +1167,7 @@
       "bytes": 68625,
       "checkedAt": "2026-10-30T02:01:51.876692+00:00",
       "title": [
-        "\n\t\t\t\t\n\t\tChristopher Battles - Woodville, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+        "\n\t\t\t\t\n\t\tChristopher Battles - Woodville, FL Certified Home Inspector - InterNACHI®\n\t\n\t"
       ],
       "contentSha256": "b127f292d57f7a05ab9de3c69cac082c8a18d05ef775d321e2b7474b50375213"
     },
@@ -1178,7 +1178,7 @@
       "bytes": 80523,
       "checkedAt": "2026-10-30T02:01:51.966372+00:00",
       "title": [
-        "\n\t\t\t\t\n\t\tDaniel Churukian, CMI\u00ae, FL Lic# HI10597 - Pensacola, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+        "\n\t\t\t\t\n\t\tDaniel Churukian, CMI®, FL Lic# HI10597 - Pensacola, FL Certified Home Inspector - InterNACHI®\n\t\n\t"
       ],
       "contentSha256": "a620fff41065facb686a025667a1fe98d5914ac15c40df05055b1c40518a1d9b"
     },
@@ -1189,7 +1189,7 @@
       "bytes": 78778,
       "checkedAt": "2026-10-30T02:01:52.374342+00:00",
       "title": [
-        "\n\t\t\t\t\n\t\tDavid Stanko - Panama City, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+        "\n\t\t\t\t\n\t\tDavid Stanko - Panama City, FL Certified Home Inspector - InterNACHI®\n\t\n\t"
       ],
       "contentSha256": "578ba5e016eb8ab2f0c6ee10c56d0efa5cccadaed53884032b47901b43c48a8f"
     },
@@ -1200,7 +1200,7 @@
       "bytes": 62015,
       "checkedAt": "2026-10-30T02:01:51.836362+00:00",
       "title": [
-        "\n\t\t\t\t\n\t\tElisha Frazier, CMI\u00ae - Jacksonville, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+        "\n\t\t\t\t\n\t\tElisha Frazier, CMI® - Jacksonville, FL Certified Home Inspector - InterNACHI®\n\t\n\t"
       ],
       "contentSha256": "cfe087c24487551779263849dd8442215ecc912c2206091b43e446f091e1d4e5"
     },
@@ -1211,7 +1211,7 @@
       "bytes": 61579,
       "checkedAt": "2026-10-30T02:01:51.750282+00:00",
       "title": [
-        "\n\t\t\t\t\n\t\tLloyd Kadlec - Mexico Beach, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+        "\n\t\t\t\t\n\t\tLloyd Kadlec - Mexico Beach, FL Certified Home Inspector - InterNACHI®\n\t\n\t"
       ],
       "contentSha256": "3310d8435d56c367779e7ef95ee4d57250b0bef3eb13215c836d959a96e468a2"
     },
@@ -2039,5 +2039,16 @@
         "whitrockassociates.com"
       ]
     }
-  ]
+  ],
+  "publishedCommit": "04c1457cc55871698b66f1903c1b3d4d7967fd21",
+  "liveVerification": {
+    "verifiedAt": "2026-10-30",
+    "addedPlacements": 188,
+    "categoryPages": 44,
+    "businessProfiles": 36,
+    "allPassed": true,
+    "categoryEvidence": "live-fill-again2-2026-10-30.json",
+    "profileEvidence": "profiles-fill-again2-2026-10-30.json",
+    "coverageEvidence": "coverage-fill-again2-2026-10-30.csv"
+  }
 }

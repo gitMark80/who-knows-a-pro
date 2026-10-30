@@ -4,7 +4,7 @@
   "target": 20,
   "activeCityCount": 40,
   "activeCategoryCount": 30,
-  "publicationStatus": "prepared; not yet published",
+  "publicationStatus": "published; Vercel production success; all added placements and profiles verified live",
   "sourceRecords": [
     {
       "name": "Miracle Strip Body Shop",
@@ -2926,7 +2926,7 @@
           "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
         }
       ],
-      "publicationStatus": "pending deployment"
+      "publicationStatus": "published and all listed members verified on live city/category page"
     },
     {
       "region": "fort-walton-beach-fl",
@@ -3169,7 +3169,7 @@
           "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
         }
       ],
-      "publicationStatus": "pending deployment"
+      "publicationStatus": "published and all listed members verified on live city/category page"
     },
     {
       "region": "crestview-fl",
@@ -3385,7 +3385,7 @@
           "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
         }
       ],
-      "publicationStatus": "pending deployment"
+      "publicationStatus": "published and all listed members verified on live city/category page"
     },
     {
       "region": "panama-city-fl",
@@ -3583,7 +3583,7 @@
           "evidenceNote": "Official homepage offers full auto repair at 20017 Panama City Beach Parkway and explicitly serves Panama City, the 30A area and Walton County (including Grayton Beach). Official /Panama-City.html confirms Panama City service; physical shop remains in Panama City Beach."
         }
       ],
-      "publicationStatus": "pending deployment"
+      "publicationStatus": "published and all listed members verified on live city/category page"
     }
   ],
   "concurrencyCheck": {
@@ -3594,5 +3594,17 @@
     "fillAutomationLastRecordedStatus": "completed",
     "checkedOn": "2026-10-30",
     "writeProtection": "Expected-head compare-and-swap; no force push."
-  }
+  },
+  "publishedCommit": "002825a21a838ac42343bb0163a3fc40dbd8332e",
+  "liveVerification": {
+    "verifiedAt": "2026-10-30",
+    "addedPlacements": 114,
+    "categoryPages": 25,
+    "businessProfiles": 51,
+    "allPassed": true,
+    "categoryEvidence": "live-fill-again4-2026-10-30.json",
+    "profileEvidence": "profiles-fill-again4-2026-10-30.json",
+    "coverageEvidence": "coverage-fill-again4-2026-10-30.csv"
+  },
+  "milestoneLiveEvidence": "milestones-fill-again4-2026-10-30.json"
 }
