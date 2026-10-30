@@ -1,0 +1,1046 @@
+{
+  "date": "2026-10-30",
+  "baselineCommit": "c7de7b73615b88504324726af3cafc30a28d050d",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Whitrock Associates",
+      "website": "https://whitrockassociates.com/locations/pace",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://whitrockassociates.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing site identifies repair/replacement services and explicitly lists all selected cities. Existing Whitrock identity and website retained."
+    },
+    {
+      "name": "Eagleview Roofing Systems",
+      "website": "https://eagleviewfl.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://eagleviewfl.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page names each selected city and roofing services; Destin contact address and license CCC1333164 identify the contractor."
+    },
+    {
+      "name": "Warren Roofing LLC",
+      "website": "https://www.warrenroofingflorida.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.warrenroofingflorida.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes new roofs and reroofing and explicitly names these five cities in its service area."
+    },
+    {
+      "name": "Elmer Cook Construction & Roofing",
+      "website": "https://www.elmercookconstruction.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "destin-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.elmercookconstruction.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Fort Walton Beach roofing contractor and lists all selected service cities."
+    },
+    {
+      "name": "Johnson Roofing Solutions",
+      "website": "https://johnsonroofingsolutions.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "roofing",
+        "gutters"
+      ],
+      "sourceUrl": "https://johnsonroofingsolutions.com/residential-roofing/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official page describes roof installation/repair and seamless gutter installation/repair; its service list explicitly includes these cities."
+    },
+    {
+      "name": "Johnson Roofing Solutions",
+      "website": "https://johnsonroofingsolutions.com/",
+      "regions": [
+        "crestview-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://johnsonroofingsolutions.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing service-area page explicitly names Crestview and Tallahassee; same contractor as other Johnson entries."
+    },
+    {
+      "name": "TK Vandy",
+      "website": "https://tkvandy.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "roofing",
+        "gutters"
+      ],
+      "sourceUrl": "https://tkvandy.com/services/residential-roofing",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official residential roofing page lists gutter installation/repair and both Panama City and Panama City Beach; Panama City office address shown."
+    },
+    {
+      "name": "Defender Roofing",
+      "website": "https://defenderroofco.com/",
+      "regions": [
+        "pensacola-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://defenderroofco.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing service-area list explicitly names each selected city. Existing Defender identity retained; generic Perdido was not treated as Perdido Key."
+    },
+    {
+      "name": "Rhino Roofing NWFL",
+      "website": "https://rhinoroofingnwfl.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl",
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://rhinoroofingnwfl.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contractor page describes residential/commercial roofing and names Pensacola-to-Panama City coverage plus the other selected cities; license CCC1337583."
+    },
+    {
+      "name": "Holloway Roofing",
+      "website": "https://hollowayroofing.com/",
+      "regions": [
+        "pensacola-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://hollowayroofing.com/about/areas-we-serve/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official areas-served page explicitly names each selected city and offers roof replacements, repairs and storm work."
+    },
+    {
+      "name": "Tallahassee Roofing Inc.",
+      "website": "https://tallahasseeroofinginc.com/",
+      "regions": [
+        "destin-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://tallahasseeroofinginc.com/service-area/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing service-area page names the selected Panhandle cities, Tallahassee and Jacksonville; roof repair and installation services described."
+    },
+    {
+      "name": "Coastal Florida Quality Roofs",
+      "website": "https://www.coastalfloridaqualityroofs.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "milton-fl",
+        "navarre-fl",
+        "pace-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.coastalfloridaqualityroofs.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roof repair/replacement site lists every selected city in its county service lists. Unfilled contact-widget placeholders omitted; contractor identifies license CCC026486."
+    },
+    {
+      "name": "Kings Roofing NWFL",
+      "website": "https://www.kingsroofingllc.com/",
+      "regions": [
+        "pensacola-fl",
+        "navarre-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "fort-myers-fl",
+        "tallahassee-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.kingsroofingllc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes roof installation/replacement/repair, names selected cities in coverage text and lists Tallahassee and Sarasota office contacts. One company across branches."
+    },
+    {
+      "name": "Florida Roof LLC",
+      "website": "https://floridaroofllc.com/",
+      "regions": [
+        "pensacola-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "pace-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "roofing",
+        "gutters"
+      ],
+      "sourceUrl": "https://floridaroofllc.com/services",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page identifies roofing and gutter installation/repair/cleaning and explicitly lists the selected coverage cities (Fort Walton refers to Fort Walton Beach). License CCC1325584."
+    },
+    {
+      "name": "Assurance Residential, Inc.",
+      "website": "https://assuranceresidentialfl.com/",
+      "regions": [
+        "destin-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://assuranceresidentialfl.com/roofing-service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing area page explicitly names Destin, Grayton Beach, Panama City and Panama City Beach; Fort Walton Beach is a linked service location."
+    },
+    {
+      "name": "LJB Construction & Roofing",
+      "website": "https://ljbconstruction.com/service-areas/30a-fl/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "panama-city-beach-fl",
+        "pensacola-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "tampa-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "sarasota-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://ljbconstruction.com/residential-roofing/roofing/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roof repair/replacement page lists these service locations, including extended Florida coverage. Existing LJB website/domain and identity retained."
+    },
+    {
+      "name": "Southeast Contractors of North Florida",
+      "website": "https://www.southeastcontractors.net/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "crestview-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.southeastcontractors.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies roofing contractor and explicitly lists all selected cities in its service area. Existing identity retained."
+    },
+    {
+      "name": "Timberman Roofing",
+      "website": "https://www.timbermanroofing.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "navarre-fl",
+        "pace-fl",
+        "panama-city-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "roofing",
+        "gutters"
+      ],
+      "sourceUrl": "https://www.timbermanroofing.com/services/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service page offers roofing and gutter installation/repair throughout its Panhandle territory and names each selected city in its city/service index."
+    },
+    {
+      "name": "Specialty Roofers, Inc.",
+      "website": "https://www.specialtyroofers.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "panama-city-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.specialtyroofers.com/service-areas",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page separately confirms roofing repair/replacement coverage in all four cities; license CCC1328607."
+    },
+    {
+      "name": "Thomas Hawes Roofing",
+      "website": "https://hawesroofing.com/home",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "pensacola-fl",
+        "destin-fl",
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://hawesroofing.com/home",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes roof repairs and replacements and explicitly names the selected service cities; license CCC1328683."
+    },
+    {
+      "name": "BMR Company",
+      "website": "https://www.bmrroofingco.com/contact",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "crestview-fl",
+        "pensacola-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.bmrroofingco.com/contact",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page names these roofing service areas. Same phone, license CCC1332576 and email identify bmrroofingco.com and thebmrcompany.com as one business; existing identity retained."
+    },
+    {
+      "name": "Taylor Roofing",
+      "website": "https://www.taylorroofing.com/",
+      "regions": [
+        "pensacola-fl",
+        "destin-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.taylorroofing.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official page identifies Taylor Roofing / Mark Taylor Construction LLC and explicitly lists these cities for roof installation and repair. Alabama cities mapped to their correct state despite generic page wording."
+    },
+    {
+      "name": "Purple Turtle Roofing",
+      "website": "https://www.roofturtle.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "navarre-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "birmingham-al",
+        "huntsville-al",
+        "montgomery-al"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.roofturtle.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site lists all selected cities for roofing and announces its Fort Walton Beach office. roofturtle.com and linked purpleturtleroofing.com are one company, not two."
+    },
+    {
+      "name": "Generations Roofing",
+      "website": "https://www.proroofinstall.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.proroofinstall.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes residential/commercial roofing from Pensacola to Panama City; its city list explicitly names the other selected locations. License CCC1333367."
+    },
+    {
+      "name": "Art Construction of NW FL",
+      "website": "https://artconstruction.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://artconstruction.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers residential/commercial roofing and gives a Panama City office address. Art Roofing and Art Construction are the same licensed contractor, CCC1329490."
+    },
+    {
+      "name": "Andrews Roofing and Construction",
+      "website": "https://www.andrewsroofingpanamacity.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.andrewsroofingpanamacity.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes residential/commercial roofing and identifies its office at 207 Aberdeen Parkway, Panama City. ARC is the same business identity."
+    },
+    {
+      "name": "A & A Roofing Company",
+      "website": "https://www.aaroofingfl.com/near-me/grayton-beach-fl-roofing-company",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.aaroofingfl.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers roof repairs/replacement in Panama City and Panama City Beach. Existing A & A identity and website retained."
+    },
+    {
+      "name": "Wade Family Homes",
+      "website": "https://www.wadefamilyhomesllc.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.wadefamilyhomesllc.com/roofing",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing page explicitly offers roof replacement in Crestview and Fort Walton Beach and identifies local owner Phillip Wade."
+    },
+    {
+      "name": "RoofPro Roofing",
+      "website": "https://roofproroofing.com/",
+      "regions": [
+        "crestview-fl",
+        "navarre-fl",
+        "pace-fl",
+        "destin-fl",
+        "gulf-breeze-fl",
+        "fort-walton-beach-fl",
+        "milton-fl",
+        "pensacola-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "sarasota-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://roofproroofing.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing homepage lists every selected city under its office service areas. Multiple branches are represented as a single RoofPro business identity."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "Whitrock Associates",
+      "region": "milton-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Whitrock Associates",
+      "region": "pace-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Defender Roofing",
+      "region": "pace-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Defender Roofing",
+      "region": "milton-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Southeast Contractors of North Florida",
+      "region": "panama-city-beach-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "BMR Company",
+      "region": "grayton-beach-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "websiteChecks": [
+    {
+      "url": "https://artconstruction.com/",
+      "status": 200,
+      "finalUrl": "https://artconstruction.com/",
+      "bytes": 105701,
+      "checkedAt": "2026-10-30T01:51:50.202858+00:00",
+      "title": [
+        "Artconstruction &#8211; We make home improvement dreams come true."
+      ]
+    },
+    {
+      "url": "https://assuranceresidentialfl.com/",
+      "status": 200,
+      "finalUrl": "https://assuranceresidentialfl.com/",
+      "bytes": 158978,
+      "checkedAt": "2026-10-30T01:51:50.918538+00:00",
+      "title": [
+        "Roofing in Destin &amp; Santa Rosa Beach | Assurance Residential"
+      ]
+    },
+    {
+      "url": "https://assuranceresidentialfl.com/roofing-service-areas/",
+      "status": 200,
+      "finalUrl": "https://assuranceresidentialfl.com/roofing-service-areas/",
+      "bytes": 105810,
+      "checkedAt": "2026-10-30T01:51:50.886452+00:00",
+      "title": [
+        "Roofing Service Areas in Northwest Florida | Assurance Residential"
+      ]
+    },
+    {
+      "url": "https://defenderroofco.com/",
+      "status": 200,
+      "finalUrl": "https://defenderroofco.com/",
+      "bytes": 46811,
+      "checkedAt": "2026-10-30T01:51:49.984272+00:00",
+      "title": [
+        "Roofing Contractor | Pace, Florida | Defender Roofing"
+      ]
+    },
+    {
+      "url": "https://defenderroofco.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://defenderroofco.com/service-areas/",
+      "bytes": 43215,
+      "checkedAt": "2026-10-30T01:51:50.230695+00:00",
+      "title": [
+        "Service Areas | Defender Roofing | Pace, FL"
+      ]
+    },
+    {
+      "url": "https://eagleviewfl.com/",
+      "status": 200,
+      "finalUrl": "https://eagleviewfl.com/",
+      "bytes": 126120,
+      "checkedAt": "2026-10-30T01:51:49.874624+00:00",
+      "title": [
+        "Home - Destin Roofing Company - Eagleview Roofing Systems"
+      ]
+    },
+    {
+      "url": "https://eagleviewfl.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://eagleviewfl.com/service-areas/",
+      "bytes": 79782,
+      "checkedAt": "2026-10-30T01:51:49.870481+00:00",
+      "title": [
+        "Service Areas - Destin Roofing Company - Eagleview Roofing Systems"
+      ]
+    },
+    {
+      "url": "https://floridaroofllc.com/",
+      "status": 200,
+      "finalUrl": "https://floridaroofllc.com/",
+      "bytes": 134258,
+      "checkedAt": "2026-10-30T01:51:50.698837+00:00",
+      "title": [
+        "Expert Roof Contractors for Your Roofing Needs"
+      ]
+    },
+    {
+      "url": "https://floridaroofllc.com/services",
+      "status": 200,
+      "finalUrl": "https://floridaroofllc.com/services",
+      "bytes": 116721,
+      "checkedAt": "2026-10-30T01:51:50.711078+00:00",
+      "title": [
+        "Services "
+      ]
+    },
+    {
+      "url": "https://hawesroofing.com/home",
+      "status": 200,
+      "finalUrl": "https://hawesroofing.com/home",
+      "bytes": 259249,
+      "checkedAt": "2026-10-30T01:51:52.587112+00:00",
+      "title": []
+    },
+    {
+      "url": "https://hollowayroofing.com/",
+      "status": 200,
+      "finalUrl": "https://hollowayroofing.com/",
+      "bytes": 249438,
+      "checkedAt": "2026-10-30T01:51:52.934745+00:00",
+      "title": [
+        "Roofing Company Niceville FL | Holloway Roofing"
+      ]
+    },
+    {
+      "url": "https://hollowayroofing.com/about/areas-we-serve/",
+      "status": 200,
+      "finalUrl": "https://hollowayroofing.com/about/areas-we-serve/",
+      "bytes": 130909,
+      "checkedAt": "2026-10-30T01:51:52.974725+00:00",
+      "title": [
+        "Local Roofing Company Niceville FL | Holloway Roofing"
+      ]
+    },
+    {
+      "url": "https://johnsonroofingsolutions.com/",
+      "status": 200,
+      "finalUrl": "https://johnsonroofingsolutions.com/",
+      "bytes": 358005,
+      "checkedAt": "2026-10-30T01:51:53.078998+00:00",
+      "title": [
+        "Northwest Florida Roofing Company | Johnson Roofing Solutions"
+      ]
+    },
+    {
+      "url": "https://johnsonroofingsolutions.com/residential-roofing/",
+      "status": 200,
+      "finalUrl": "https://johnsonroofingsolutions.com/residential-roofing/",
+      "bytes": 294488,
+      "checkedAt": "2026-10-30T01:51:53.059421+00:00",
+      "title": [
+        "Roofing Services in the Florida | Johnson Roofing Solutions"
+      ]
+    },
+    {
+      "url": "https://johnsonroofingsolutions.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://johnsonroofingsolutions.com/service-areas/",
+      "bytes": 233065,
+      "checkedAt": "2026-10-30T01:51:53.122795+00:00",
+      "title": [
+        "Service Areas | Florida Panhandle | Johnson Roofing Solutions"
+      ]
+    },
+    {
+      "url": "https://ljbconstruction.com/residential-roofing/roofing/",
+      "status": 200,
+      "finalUrl": "https://ljbconstruction.com/residential-roofing/roofing/",
+      "bytes": 194491,
+      "checkedAt": "2026-10-30T01:51:54.446714+00:00",
+      "title": [
+        "Residential Roof Repair &amp; Replacement | LJB Construction &amp; Roofing"
+      ]
+    },
+    {
+      "url": "https://ljbconstruction.com/service-areas/30a-fl/",
+      "status": 200,
+      "finalUrl": "https://ljbconstruction.com/service-areas/30a-fl/",
+      "bytes": 222818,
+      "checkedAt": "2026-10-30T01:51:54.554875+00:00",
+      "title": [
+        "Roofing &amp; Construction Services on 30A, FL | LJB Construction &amp; Roofing"
+      ]
+    },
+    {
+      "url": "https://rhinoroofingnwfl.com/",
+      "status": 200,
+      "finalUrl": "https://rhinoroofingnwfl.com/",
+      "bytes": 231982,
+      "checkedAt": "2026-10-30T01:51:55.384446+00:00",
+      "title": [
+        "Rhino Roofing Contractor Roof Repair Pensacola Gulf Breeze Pace"
+      ]
+    },
+    {
+      "url": "https://rhinoroofingnwfl.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://rhinoroofingnwfl.com/service-areas/",
+      "bytes": 154464,
+      "checkedAt": "2026-10-30T01:51:55.313602+00:00",
+      "title": [
+        "Service Areas - Rhino Roofing NWFL"
+      ]
+    },
+    {
+      "url": "https://roofproroofing.com/",
+      "status": 200,
+      "finalUrl": "https://roofproroofing.com/",
+      "bytes": 821277,
+      "checkedAt": "2026-10-30T01:51:55.787408+00:00",
+      "title": [
+        "RoofPro Roofing - Your Trusted Roofing Partner"
+      ]
+    },
+    {
+      "url": "https://tallahasseeroofinginc.com/",
+      "status": 200,
+      "finalUrl": "https://tallahasseeroofinginc.com/",
+      "bytes": 312148,
+      "checkedAt": "2026-10-30T01:51:55.580000+00:00",
+      "title": [
+        "Tallahassee Roofing Inc. - founded over 60 years ago"
+      ]
+    },
+    {
+      "url": "https://tallahasseeroofinginc.com/service-area/",
+      "status": 200,
+      "finalUrl": "https://tallahasseeroofinginc.com/service-area/",
+      "bytes": 229298,
+      "checkedAt": "2026-10-30T01:51:55.622691+00:00",
+      "title": [
+        "Areas that Tallahassee Roofing Inc. serves."
+      ]
+    },
+    {
+      "url": "https://tkvandy.com/",
+      "status": 200,
+      "finalUrl": "https://tkvandy.com/",
+      "bytes": 81013,
+      "checkedAt": "2026-10-30T01:51:55.450533+00:00",
+      "title": [
+        "TK Vandy | Commercial roofing and general contractor"
+      ]
+    },
+    {
+      "url": "https://tkvandy.com/services/residential-roofing",
+      "status": 200,
+      "finalUrl": "https://tkvandy.com/services/residential-roofing",
+      "bytes": 52392,
+      "checkedAt": "2026-10-30T01:51:55.442762+00:00",
+      "title": [
+        "Residential Roofing | TK Vandy"
+      ]
+    },
+    {
+      "url": "https://whitrockassociates.com/",
+      "status": 200,
+      "finalUrl": "https://whitrockassociates.com/",
+      "bytes": 390831,
+      "checkedAt": "2026-10-30T01:51:57.451287+00:00",
+      "title": [
+        "Northwest Florida Roofing &amp; Restoration | Whitrock Associates"
+      ]
+    },
+    {
+      "url": "https://whitrockassociates.com/locations/pace",
+      "status": 200,
+      "finalUrl": "https://whitrockassociates.com/locations/pace",
+      "bytes": 334340,
+      "checkedAt": "2026-10-30T01:51:57.515074+00:00",
+      "title": [
+        "Pace Roofing Contractor | Whitrock Associates"
+      ]
+    },
+    {
+      "url": "https://www.aaroofingfl.com/",
+      "status": 200,
+      "finalUrl": "https://www.aaroofingfl.com/",
+      "bytes": 42085,
+      "checkedAt": "2026-10-30T01:51:58.302562+00:00",
+      "title": [
+        "Roofing Company on the Emerald Coast | A & A Roofing Company, Inc"
+      ]
+    },
+    {
+      "url": "https://www.aaroofingfl.com/near-me/grayton-beach-fl-roofing-company",
+      "status": 200,
+      "finalUrl": "https://www.aaroofingfl.com/near-me/grayton-beach-fl-roofing-company",
+      "bytes": 37239,
+      "checkedAt": "2026-10-30T01:51:58.338249+00:00",
+      "title": [
+        "Prime Grayton Beach Roofer | Roof Repairs Grayton Beach, FL"
+      ]
+    },
+    {
+      "url": "https://www.andrewsroofingpanamacity.com/",
+      "status": 200,
+      "finalUrl": "https://www.andrewsroofingpanamacity.com/",
+      "bytes": 442552,
+      "checkedAt": "2026-10-30T01:51:58.214984+00:00",
+      "title": [
+        "ARC | Andrews Roofing and Construction - Panama City"
+      ]
+    },
+    {
+      "url": "https://www.bmrroofingco.com/contact",
+      "status": 200,
+      "finalUrl": "https://www.bmrroofingco.com/contact",
+      "bytes": 774975,
+      "checkedAt": "2026-10-30T01:51:58.543767+00:00",
+      "title": [
+        "BMR Company- Contact Us"
+      ]
+    },
+    {
+      "url": "https://www.coastalfloridaqualityroofs.com/",
+      "status": 200,
+      "finalUrl": "https://www.coastalfloridaqualityroofs.com/",
+      "bytes": 478392,
+      "checkedAt": "2026-10-30T01:51:58.423584+00:00",
+      "title": [
+        "\r\n    \n    Roofing Contractor Panama City FL | Coastal Florida Quality Roofs\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.elmercookconstruction.com/",
+      "status": 200,
+      "finalUrl": "https://www.elmercookconstruction.com/",
+      "bytes": 103346,
+      "checkedAt": "2026-10-30T01:51:58.794725+00:00",
+      "title": [
+        "\r\n    Honest Roofing &amp; General Contractor | Fort Walton Beach, FL | Elmer Cook Construction &amp; Roofing\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.kingsroofingllc.com/",
+      "status": 200,
+      "finalUrl": "https://kingsroofingllc.com/",
+      "bytes": 207539,
+      "checkedAt": "2026-10-30T01:52:04.007321+00:00",
+      "title": [
+        "Roofing Company in Panama City, Florida | Kings Roofing NWFL"
+      ]
+    },
+    {
+      "url": "https://www.proroofinstall.com/",
+      "status": 200,
+      "finalUrl": "https://www.proroofinstall.com/",
+      "bytes": 264777,
+      "checkedAt": "2026-10-30T01:52:00.494648+00:00",
+      "title": [
+        "\r\n    Roofers | Generations Roofing | Fort Walton Beach, FL\r\n  "
+      ]
+    },
+    {
+      "url": "https://www.roofturtle.com/",
+      "status": 200,
+      "finalUrl": "https://www.roofturtle.com/",
+      "bytes": 62184,
+      "checkedAt": "2026-10-30T01:52:01.046207+00:00",
+      "title": [
+        "Experienced Roofing Company Alabama &amp; Florida - Purple Turtle Roofing"
+      ]
+    },
+    {
+      "url": "https://www.southeastcontractors.net/",
+      "status": 200,
+      "finalUrl": "https://www.southeastcontractors.net/",
+      "bytes": 906779,
+      "checkedAt": "2026-10-30T01:52:00.849141+00:00",
+      "title": [
+        "SOUTHEAST CONTRACTORS OF NORTH FLORIDA | ROOFING | 733 Edge Street, Fort Walton Beach, FL, USA"
+      ]
+    },
+    {
+      "url": "https://www.specialtyroofers.com/",
+      "status": 200,
+      "finalUrl": "https://www.specialtyroofers.com/",
+      "bytes": 1164762,
+      "checkedAt": "2026-10-30T01:52:01.133268+00:00",
+      "title": [
+        "Roofing Company Northwest Florida | Specialty Roofers"
+      ]
+    },
+    {
+      "url": "https://www.specialtyroofers.com/service-areas",
+      "status": 200,
+      "finalUrl": "https://www.specialtyroofers.com/service-areas",
+      "bytes": 1114279,
+      "checkedAt": "2026-10-30T01:52:00.981203+00:00",
+      "title": [
+        "Northwest Florida Roofing Service Areas | Specialty Roofers"
+      ]
+    },
+    {
+      "url": "https://www.taylorroofing.com/",
+      "status": 200,
+      "finalUrl": "https://www.taylorroofing.com/",
+      "bytes": 86820,
+      "checkedAt": "2026-10-30T01:52:07.097715+00:00",
+      "title": [
+        "Taylor Roofing &#8211; By Mark Taylor Construction (FL CCC1326545).  Call 850-407-ROOF (7663)!   ***We are not affiliated with Pensacola Roofing Company. If you are trying to reach Bobby Guy&#039;s company please visit www.PensacolaRoofing.org***"
+      ]
+    },
+    {
+      "url": "https://www.taylorroofing.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://www.taylorroofing.com/service-areas/",
+      "bytes": 81106,
+      "checkedAt": "2026-10-30T01:52:07.046651+00:00",
+      "title": [
+        "Service Areas &#8211; Taylor Roofing"
+      ]
+    },
+    {
+      "url": "https://www.timbermanroofing.com/",
+      "status": 200,
+      "finalUrl": "https://www.timbermanroofing.com/",
+      "bytes": 340965,
+      "checkedAt": "2026-10-30T01:52:03.534900+00:00",
+      "title": [
+        "Roofing Contractor, Niceville, Fort Walton, Pensacola - Timberman"
+      ]
+    },
+    {
+      "url": "https://www.timbermanroofing.com/services/",
+      "status": 200,
+      "finalUrl": "https://www.timbermanroofing.com/services/",
+      "bytes": 240418,
+      "checkedAt": "2026-10-30T01:52:03.494714+00:00",
+      "title": [
+        "All Services / Services Areas | Timberman Roofing"
+      ]
+    },
+    {
+      "url": "https://www.wadefamilyhomesllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.wadefamilyhomesllc.com/",
+      "bytes": 172980,
+      "checkedAt": "2026-10-30T01:52:04.830410+00:00",
+      "title": [
+        "\r\n    \n    Custom Home Building &amp; Remodeling | Wade Family Homes\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.wadefamilyhomesllc.com/roofing",
+      "status": 200,
+      "finalUrl": "https://www.wadefamilyhomesllc.com/roofing",
+      "bytes": 168726,
+      "checkedAt": "2026-10-30T01:52:04.814480+00:00",
+      "title": [
+        "\r\n    \n    Roofing Services | Wade Family Homes\n  \r\n  "
+      ]
+    },
+    {
+      "url": "https://www.warrenroofingflorida.com/",
+      "status": 200,
+      "finalUrl": "https://www.warrenroofingflorida.com/",
+      "bytes": 472562,
+      "checkedAt": "2026-10-30T01:52:04.134986+00:00",
+      "title": [
+        "Roofing | Niceville Destin Fort Walton Beach | Warren Roofing, LLC"
+      ]
+    }
+  ],
+  "researchBlockers": [
+    "CQ Roofing uses cqconstructioninc.com and cqroofing.com; old domain had web-fetch errors. No extra CQ identity or extension added.",
+    "Elite-Pro shares eprcusa.com with historical Emerald Coast Premier Roofing; rename needs reconciliation, so no extra identity added.",
+    "Tapered Roofing deferred: Panama City postal address is outside central city; explicit city service coverage not confirmed.",
+    "Crestview Roofing at crestviewroofingco.com advertises California coverage, not the target Florida city.",
+    "National-chain exclusions retained, including SERVPRO."
+  ]
+}

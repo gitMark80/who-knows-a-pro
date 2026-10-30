@@ -379,3 +379,12 @@ Next actions:
 - Independently reviewed milestones: Tampa locksmith20, Panama City flooring20, and HVAC in Destin25, Fort Walton Beach25, Crestview23 and Panama City21. Gulf Breeze and Navarre HVAC each display24 but remain provisional pending historical identity review, including We Care/Anderson. Do not report all eight count milestones as fully independently verified.
 - All5,867 original seed records preserved unchanged; final seed6,451. Four production builds succeeded. JSON/schema, active slugs, unique IDs, new domain/city/category duplicates and historical preservation checked for each wave. No data deletions, claims/paid/database/application mutations, forbidden listing sources, paid API calls or outreach.
 - Overall goal remains incomplete. Existing daily03:00 America/Chicago fill automation remains enabled with its original task and schedule; this checkpoint does not claim nonstop execution between turns. Resume from newest main and live audit, prioritize lowest counts in four priority cities, then work outward. Keep genuine shortages and blocked candidates documented; do not pause until every active combination is independently verified at20.
+
+
+## Roofing and gutters continuation — 2026-10-30 UTC
+
+- Baseline main `c7de7b73615b88504324726af3cafc30a28d050d`; no open PR, queued/in-progress Actions or active scheduled fill was observed before writing.
+- Prepared 215 placements from 28 distinct identities (22 new, 6 existing service extensions), across 27 cities: 189 roofing and 26 gutters. Evidence: `reports/verified-fill-again-2026-10-30.json`. Publication/live checks pending.
+- All 6,451 prior generated records and 1,463 prior source records unchanged; new seed total 6,666. IDs, active slugs and normalized domain/city/category checks pass. All 45 candidate website/source URLs returned HTTP 200 and relevant official content was reviewed.
+- Fresh baseline live audit: 40 active cities × 30 active categories; 8/1,200 pairs at 20, 1,192 below, 75 empty, count deficit 18,804. Retired categories and national-chain exclusions remain unchanged. Projected count pairs at 20: 15; post-deployment audit will replace projections.
+- Next: confirm this batch live, independently verify new roofing milestones, then continue lowest counts in priority cities, especially home inspections, insulation, appliance repair and collision. Preserve all claims/paid placements and refresh main before writing.
