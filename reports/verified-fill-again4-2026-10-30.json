@@ -1,0 +1,3598 @@
+{
+  "date": "2026-10-30",
+  "baselineCommit": "e38e58db6e2ad39c149f60b89cc2aad687ee8891",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "Miracle Strip Body Shop",
+      "website": "https://www.miraclestripbodyshop.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.miraclestripbodyshop.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers collision, body, frame and structural repairs at 318 Racetrack Road NW, Fort Walton Beach. Towing and mechanical repair are referred/sublet, so not added in those categories."
+    },
+    {
+      "name": "Beal Paint and Body",
+      "website": "https://bealpaintandbody.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://bealpaintandbody.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers collision and auto body repair and identifies its 715 Bayou View Drive, Fort Walton Beach location."
+    },
+    {
+      "name": "Main Street Automotive",
+      "website": "https://mainstreetautomotivefl.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://mainstreetautomotivefl.com/services/general-auto-repair/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official general-auto-repair page offers diagnostics, cooling, air conditioning and driveline service at 605 S Main Street, Crestview. Homepage redirects to this same business service page."
+    },
+    {
+      "name": "Crestview Tire & Wheel",
+      "website": "https://www.crestviewtire.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.crestviewtire.com/Auto-Repair",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official auto-repair page explicitly serves Crestview and Fort Walton Beach and lists brake repair, engine diagnostics, cooling and other mechanical repairs. Physical shop in Crestview."
+    },
+    {
+      "name": "Justin's Diesel and Auto Repair",
+      "website": "https://www.justinsdieselandautorepair.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.justinsdieselandautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies full-service automotive and light-duty diesel repairs at 133 Cayson Avenue, Crestview. Related Holt heavy-truck operation not counted as a second identity."
+    },
+    {
+      "name": "Northwest Florida Mobile Mechanic",
+      "website": "https://mobile-mechanic.net/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://mobile-mechanic.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Northwest Florida Mobile Mechanic and explicitly offers on-site diagnostics, brake, suspension, cooling and electrical repairs in Crestview. No neighboring-city coverage inferred."
+    },
+    {
+      "name": "Rhodes Auto Repair",
+      "website": "https://www.autorepairsdestin.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.autorepairsdestin.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists full mechanical repair services and 24/7 towing/wrecker service at 327 Mountain Drive, Destin. Rhodes/KCK Ventures and alternate rhodesautorepairdestin.com are one identity."
+    },
+    {
+      "name": "Stanton Automotive",
+      "website": "https://stantonautomotive.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://stantonautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site offers auto repair in Crestview and identifies its shop at 861 W James Lee Boulevard. Alternate stantonautomotiveinc.com is not a separate business."
+    },
+    {
+      "name": "Holmes Auto Repair",
+      "website": "https://www.holmesautorepair.net/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.holmesautorepair.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers automotive repair and towing at 15 Robinwood Drive SW, Fort Walton Beach; independent local repair business with NAPA affiliation."
+    },
+    {
+      "name": "Playground Auto Service",
+      "website": "https://playgroundauto.net/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://playgroundauto.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies family-owned automotive repair and towing business at 12 Hollywood Boulevard, Fort Walton Beach. NAPA/AAA affiliations are not separate business identities."
+    },
+    {
+      "name": "Neese Automotive and Diesel Repair",
+      "website": "https://neeseautomotive.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://neeseautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists engine, brake, clutch and other repairs and explicitly serves Fort Walton Beach, Destin and Navarre. Roadside reimbursement benefit not counted as an owned towing operation."
+    },
+    {
+      "name": "Fort Walton Radiator Auto Air & Repair",
+      "website": "https://www.fwrad.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.fwrad.com/Fort-Walton-Beach-auto-repairs.html",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Our Shop page offers full-service auto repair, brakes, transmission and electrical repairs at 39 Perry Avenue SE, Fort Walton Beach."
+    },
+    {
+      "name": "Al's Auto Repair & Service",
+      "website": "https://alsautorepairfwb.com/services/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://alsautorepairfwb.com/services/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page offers complete mechanical repair for domestic/import cars and trucks at 356 Eglin Parkway NE, Fort Walton Beach. Working official services page used as website because root page timed out."
+    },
+    {
+      "name": "Motor Man Auto Repair",
+      "website": "https://motormanllc.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://motormanllc.com/services/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page lists diagnostics, engine, brake, suspension, electrical and transmission repairs at 679 Denton Boulevard NW, Fort Walton Beach."
+    },
+    {
+      "name": "Emerald Coast Auto Repair",
+      "website": "https://emeraldcoastautorepairpc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://emeraldcoastautorepairpc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, suspension and diagnostic repairs at 1115 W 15th Street, Panama City. Owner Brandon Hill also owns Bills Transmission; that related operation is not counted as an additional identity."
+    },
+    {
+      "name": "Flintstone Mobile Mechanics",
+      "website": "https://flintstonemechanics.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://flintstonemechanics.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers on-site brake, engine-diagnostic, electrical and cooling repairs; Contact & Hours explicitly lists both Panama City and Panama City Beach. Jump starts and tire changes not counted as towing."
+    },
+    {
+      "name": "19th Street Auto Center",
+      "website": "https://www.19thstreetautocenter.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.19thstreetautocenter.com/services",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page offers brakes, diagnostics and transmission repairs at 1220 W 19th Street, Panama City. Similar 19th Auto Repair site is held for identity resolution, not a second listing."
+    },
+    {
+      "name": "Hewett Tire & Auto Center",
+      "website": "https://www.hewetttire.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.hewetttire.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers automotive repairs and explicitly serves Panama City and Panama City Beach. Physical shop at 517 Airport Road, Panama City. Towing is referred to Home Town Towing, so excluded from towing category."
+    },
+    {
+      "name": "Parkway Tire & Service",
+      "website": "https://www.parkwaytire.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.parkwaytire.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies full-service mechanical repairs, a Panama City Beach shop, and explicit service to Panama City customers. Callaway and beach branches counted as one business identity."
+    },
+    {
+      "name": "McLeod's Automotive Repair",
+      "website": "https://www.mcleodsautoandmobility.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.mcleodsautoandmobility.com/about%20us.htm",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About Us page identifies family-owned auto repair business at 208 NE Racetrack Road, Fort Walton Beach; owner Chad McLeod."
+    },
+    {
+      "name": "Leavins Automotive",
+      "website": "https://www.leavinsautomotive.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.leavinsautomotive.com/Crestview-auto-repairs.html",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Our Shop page confirms full mechanical repair services at 496 South Main Street, Crestview. Official /Crestview-towing-services.html explicitly offers towing to its own shop only; this limitation applies."
+    },
+    {
+      "name": "Dellines Inc",
+      "website": "https://dellinesinc.wixsite.com/dellines-inc",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://dellinesinc.wixsite.com/dellines-inc",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Business-owned Wix website explicitly identifies Crestview in its page title and lists brake, engine, cooling, electrical and transmission repairs. No street address supplied; no neighboring-city coverage inferred."
+    },
+    {
+      "name": "Fort Walton Beach Auto & Body Repair",
+      "website": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers mechanical engine and diesel repairs and towing to its shop at 126 McGriff Street Unit 1, Fort Walton Beach. Existing body-repair business identity reused."
+    },
+    {
+      "name": "Emerald Coast Mobile Mechanic",
+      "website": "https://emeraldcoastmobilemechanic.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "dothan-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://emeraldcoastmobilemechanic.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers on-site automotive/diesel diagnostics and repair; its Service Area section explicitly names every included city. Operated by Destin Limo LLC, with Florida repair registration MV150182. No towing service inferred from roadside repairs. Website metadata also uses Freeport Mobile Auto; same operator and domain, not an additional identity."
+    },
+    {
+      "name": "Monkey with a Wrench",
+      "website": "https://monkeywithawrench.wixsite.com/smwt",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://monkeywithawrench.wixsite.com/smwt",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official business-owned Wix homepage identifies its Crestview automotive repair facility and mobile repair service, with repair registration MV107660. No additional cities inferred."
+    },
+    {
+      "name": "GerBear's Certified Mobile Repair",
+      "website": "https://www.gerbearscertifiedmobilerepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Navarre service page explicitly lists mobile mechanical repair in Navarre, Fort Walton Beach, Destin and Crestview. Service includes engine diagnostics, brake and diesel repairs; no towing inferred."
+    },
+    {
+      "name": "Callaway Automotive Repair & Services",
+      "website": "https://www.callawayautorepair.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.callawayautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly serves Bay County and offers diagnostic, brake, steering, cooling and electrical repairs. Panama City and Panama City Beach are both within its stated county service area; physical shop is in Callaway, not misrepresented as either city."
+    },
+    {
+      "name": "GerBear's Certified Mobile Repair",
+      "website": "https://www.gerbearscertifiedmobilerepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/mobile-mechanic/boat-repair-services-in-fort-walton-beach",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official boat-service page explicitly offers on-site smaller-vessel diagnostics, electrical work, maintenance and minor repairs in Fort Walton Beach, Destin and Navarre. Larger or specialized marine work is outside its stated scope."
+    },
+    {
+      "name": "Mack's Auto-Tech",
+      "website": "https://macksautotech.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://macksautotech.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists engine, transmission, brake, suspension and cooling repairs at 101 John King Road, Crestview. External towing references are not treated as its own towing service."
+    },
+    {
+      "name": "Rustic Automotive",
+      "website": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official business-owned Wix website offers diagnostics, brake work and automotive repair at 133 Aplin Road, Crestview."
+    },
+    {
+      "name": "Baier's Auto Time",
+      "website": "https://www.baiersautotime.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.baiersautotime.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, transmission, cooling and electrical repairs at 207 Hickory Street, Fort Walton Beach. Testimonial mentions of other cities are not used as geographic evidence."
+    },
+    {
+      "name": "Shapard Automotive LLC",
+      "website": "https://www.shapardauto.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.shapardauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers major service and repairs for Ferrari and other European makes at 1927 W 27th Street, Panama City. Specialty vehicle scope retained; no body-repair category inferred from mechanical restoration."
+    },
+    {
+      "name": "Brothers By Boost",
+      "website": "https://brothersbyboost.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://brothersbyboost.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies automotive service and repair at 1615 Transmitter Road, Panama City, with direct business contact details. No beach-city coverage inferred."
+    },
+    {
+      "name": "Expert Auto Repair",
+      "website": "https://expertautopc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://expertautopc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies owner Shawn Brown and offers engine, brake, transmission and other repairs at 1923 N East Avenue, Panama City. No Panama City Beach coverage inferred."
+    },
+    {
+      "name": "BCP Automotive",
+      "website": "https://bcpauto.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://bcpauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers diagnostic and mechanical repair by appointment at 966 McFarlan Avenue, Fort Walton Beach; identifies a veteran-owned family operation."
+    },
+    {
+      "name": "Allen Turner Chevrolet",
+      "website": "https://www.allenturnerchevrolet.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.allenturnerchevrolet.com/service/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-center page identifies the Crestview facility at 4150 S Ferdon Boulevard and explicitly serves Crestview, Fort Walton Beach and Milton. Offers Chevrolet diagnostics, repair and complex powertrain work; existing dealership identity reused."
+    },
+    {
+      "name": "David Scott Lee Buick GMC",
+      "website": "https://www.crestviewbuickgmc.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.crestviewbuickgmc.com/service/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-center page offers vehicle diagnostics, brake and mechanical service at 4300 S Ferdon Boulevard, Crestview. Existing dealership identity reused; Buick/GMC specialization retained."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official regional-locations page explicitly serves the included cities and offers mechanical service through major accident repair. Official /service/ confirms engine diagnostics and brake repairs at the Fort Walton Beach shop. Existing dealership identity reused."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "pensacola-fl",
+        "destin-fl",
+        "navarre-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official regional-locations page explicitly serves the included cities and offers mechanical service through major accident repair. Official /service/ confirms engine diagnostics and brake repairs at the Fort Walton Beach shop. Existing dealership identity reused."
+    },
+    {
+      "name": "Bill Cramer Chevrolet",
+      "website": "https://www.billcramergm.com/",
+      "regions": [
+        "panama-city-fl",
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.billcramergm.com/service/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service page identifies Panama City repair facility at 2251 W 23rd Street and explicitly offers vehicle service and auto body repairs for Destin and Fort Walton customers. GMC/Cadillac sister sites are one business identity, not extra listings."
+    },
+    {
+      "name": "John Lee Collision & Body Repair Center",
+      "website": "https://johnleenissan.com/body-shop",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://johnleenissan.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official John Lee homepage identifies its Panama City facility, all-Bay-County service area, ASE-trained technicians and vehicle repair department. Existing John Lee collision-center identity reused across services; no separate Nissan/Mazda/Mitsubishi identity added."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-crestview-fl/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Crestview location-service page explicitly offers mechanical vehicle repair and maintenance for this city, at its Fort Walton Beach repair facility. Existing identity reused."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-milton-fl/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Milton location-service page explicitly offers mechanical vehicle repair and maintenance for this city, at its Fort Walton Beach repair facility. Existing identity reused."
+    },
+    {
+      "name": "Executive Automotive Management",
+      "website": "https://www.eamfwb.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.eamfwb.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers independent European and Asian auto repairs serving Fort Walton Beach and Destin. Business service text supplies evidence; embedded third-party reviews are not used."
+    },
+    {
+      "name": "Seaside Auto Care",
+      "website": "https://www.seasideautocare.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.seasideautocare.com/our-services",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers mobile engine, brake, cooling and electrical repairs and explicitly identifies service in Panama City Beach. Its Our Services page and Destin contact address confirm Destin service. No Panama City coverage inferred."
+    },
+    {
+      "name": "CMT Diagnostics and Repair",
+      "website": "https://www.cmtdiag.pro/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cmtdiag.pro/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Fresh direct HTTP 200 homepage offers diesel-truck, fleet and RV powertrain mechanical repair and explicitly lists all included cities. Scope is commercial trucks and RVs; older search copy offering general passenger-car repair was not relied on. The Southport facility uses a Panama City postal address."
+    },
+    {
+      "name": "Stinehardt Imports",
+      "website": "https://stinehardtimports.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://stinehardtimports.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers European/Asian diagnostics, engine, suspension, brake and electrical repairs and explicitly serves Destin, Fort Walton Beach and Navarre. Physical shop is in Valparaiso; no location in the served cities invented."
+    },
+    {
+      "name": "Porsche of Destin",
+      "website": "https://www.porscheofdestin.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.porscheofdestin.com/service/index.htm",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-center page offers Porsche maintenance and repair at 808 Airport Road, Destin. Existing dealership identity reused; other Gregg Orr dealerships are not counted as additional identities."
+    },
+    {
+      "name": "Destin Imports",
+      "website": "https://destinimports.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://destinimports.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies its Destin operation and offers BMW/Mercedes, European and Tesla diagnostics, programming and mechanical repairs. Distinct from Destin Auto Center/Auto Works of Destin."
+    },
+    {
+      "name": "Destin Tech",
+      "website": "https://destintech.net/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://destintech.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers brake, engine-replacement, radiator and other mechanical repairs at 168 Industrial Park Road, Destin. It explicitly excludes oil changes and tires. Owner/phone matches Destin Tech; Johnny mechanic references are not another identity."
+    },
+    {
+      "name": "Panama City Toyota",
+      "website": "https://www.panamacitytoyota.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.panamacitytoyota.com/service",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service page offers vehicle maintenance, brake, battery and mechanical repair at 959 West 15th Street, Panama City. Official /aboutus.aspx states same family ownership since the early 1990s and service for virtually all makes. No additional cities inferred."
+    },
+    {
+      "name": "First Choice Auto Mechanic",
+      "website": "https://www.autorepairshoppanamacity.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.autorepairshoppanamacity.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, transmission and diagnostic repairs at 211 15th Street, Panama City. Wider 35-mile service area not expanded to unnamed cities."
+    },
+    {
+      "name": "Dynamic Automotive & 4x4",
+      "website": "https://www.dynamicautomotiveand4x4.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.dynamicautomotiveand4x4.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Working official homepage offers engine, transmission, brake and electrical repairs at 1301 East 11th Street, Panama City and explicitly serves all Bay County, including Panama City Beach. Former James Auto Center and alternate dynamicautomotive4x4.com are the same identity; not counted separately."
+    },
+    {
+      "name": "Beach Auto Care",
+      "website": "https://www.beachautocarefl.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.beachautocarefl.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full auto repair at 20017 Panama City Beach Parkway and explicitly serves Panama City, the 30A area and Walton County (including Grayton Beach). Official /Panama-City.html confirms Panama City service; physical shop remains in Panama City Beach."
+    },
+    {
+      "name": "Sweeney's Diesel Repair",
+      "website": "https://www.sweeneysdieselrepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.sweeneysdieselrepair.com/about-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "Preston Hood Chevrolet",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-body-collision",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Seaside Auto Care",
+      "region": "panama-city-beach-fl",
+      "trade": "auto-mechanics",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "websiteChecks": [
+    {
+      "url": "https://alsautorepairfwb.com/services/",
+      "status": 200,
+      "finalUrl": "https://alsautorepairfwb.com/services/",
+      "bytes": 166828,
+      "checkedAt": "2026-10-30T02:28:21.932491+00:00",
+      "title": [
+        "Services | Al's Auto Repair"
+      ],
+      "contentSha256": "694bf50c759ae3d21e88454ddfb1c6a82554626049d8304e002e38c804e38ba8"
+    },
+    {
+      "url": "https://bcpauto.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "alternateVerification": "Working official page freshly retrieved using web.open on 2026-10-30; identity, services and local coverage reviewed. Direct client returned 403; not represented as HTTP 200.",
+      "sourceVerifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://bealpaintandbody.com/",
+      "status": 200,
+      "finalUrl": "https://bealpaintandbody.com/",
+      "bytes": 116138,
+      "checkedAt": "2026-10-30T02:22:55.190643+00:00",
+      "title": [
+        "Beal Paint and Body Inc."
+      ],
+      "contentSha256": "e1a74c8be7df3bfc7223b1ac7f6c5543c42abaec4592ca07381b7b90812622aa"
+    },
+    {
+      "url": "https://brothersbyboost.com/",
+      "status": 200,
+      "finalUrl": "https://brothersbyboost.com/",
+      "bytes": 128384,
+      "checkedAt": "2026-10-30T02:30:40.677402+00:00",
+      "title": [
+        "Auto Repair Services by Brothers By Boost - Quality Care"
+      ],
+      "contentSha256": "6acffc1235a6416f859be70734f378809d35f0d30f3487d997f45bdf9bde0e1b"
+    },
+    {
+      "url": "https://dellinesinc.wixsite.com/dellines-inc",
+      "status": 200,
+      "finalUrl": "https://dellinesinc.wixsite.com/dellines-inc",
+      "bytes": 784303,
+      "checkedAt": "2026-10-30T02:28:20.844825+00:00",
+      "title": [
+        "Mobile Auto Repair: Dellines Inc mobile auto mechanic Crestview| Crestview, FL, USA"
+      ],
+      "contentSha256": "cc5d7ecd33383d98cc472242983f626cd02a36e24277beb5e3be72cd760899fc"
+    },
+    {
+      "url": "https://destinimports.com/",
+      "status": 200,
+      "finalUrl": "https://destinimports.com/",
+      "bytes": 53517,
+      "checkedAt": "2026-10-30T02:34:22.920593+00:00",
+      "title": [
+        "BMW &amp; Mercedes Repair Destin FL | Destin Imports"
+      ],
+      "contentSha256": "ee261122bae64416dbf6a1a18e9d044b6926bca41be07470f7ac71dd7a61c4df"
+    },
+    {
+      "url": "https://destintech.net/",
+      "status": 200,
+      "finalUrl": "https://destintech.net/",
+      "bytes": 155803,
+      "checkedAt": "2026-10-30T02:35:47.866754+00:00",
+      "title": [
+        "DESTIN TECH REPAIR SHOP - destintech.net"
+      ],
+      "contentSha256": "149ae9af47f08cff5b21ba695820667c22d88db2481b15a0f6f4414966011804"
+    },
+    {
+      "url": "https://emeraldcoastautorepairpc.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "alternateVerification": "Working official page freshly retrieved using web.open on 2026-10-30; identity, services and local coverage reviewed. Direct client returned 403; not represented as HTTP 200.",
+      "sourceVerifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://emeraldcoastmobilemechanic.com/",
+      "status": 200,
+      "finalUrl": "https://emeraldcoastmobilemechanic.com/",
+      "bytes": 14468,
+      "checkedAt": "2026-10-30T02:28:20.426445+00:00",
+      "title": [
+        "\n   Freeport Mobile Auto\n  "
+      ],
+      "contentSha256": "2dd101e7db80ff1a907c674f44bf88669e98aec3dfca8ac5564c2a0d4b3c642e"
+    },
+    {
+      "url": "https://expertautopc.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "alternateVerification": "Working official page freshly retrieved using web.open on 2026-10-30; identity, services and local coverage reviewed. Direct client returned 403; not represented as HTTP 200.",
+      "sourceVerifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://flintstonemechanics.com/",
+      "status": 200,
+      "finalUrl": "https://flintstonemechanics.com/",
+      "bytes": 16011,
+      "checkedAt": "2026-10-30T02:22:55.118340+00:00",
+      "title": [
+        "Flintstone Mobile Mechanics"
+      ],
+      "contentSha256": "38afeead25507a1123f3883270aa62cb88f273dc653c37f7395ccb71cc7abba0"
+    },
+    {
+      "url": "https://johnleenissan.com/",
+      "status": 200,
+      "finalUrl": "https://johnleenissan.com/",
+      "bytes": 503333,
+      "checkedAt": "2026-10-30T02:34:23.588452+00:00",
+      "title": [
+        "Top Used Car and Nissan Dealer in Panama City FL | John Lee Nissan"
+      ],
+      "contentSha256": "8424597e8d21729b2b71aac51206cd1f62c064eb36852873a33e279b98550ab3"
+    },
+    {
+      "url": "https://johnleenissan.com/body-shop",
+      "status": 200,
+      "finalUrl": "https://johnleenissan.com/body-shop",
+      "bytes": 423790,
+      "checkedAt": "2026-10-30T02:34:23.627526+00:00",
+      "title": [
+        "Collision Center in Panama City FL"
+      ],
+      "contentSha256": "1893e257bb733dc3a396faa5afd9e03dfd6182a82fc666d11312ab07327794fb"
+    },
+    {
+      "url": "https://macksautotech.com/",
+      "status": 200,
+      "finalUrl": "https://macksautotech.com/",
+      "bytes": 126935,
+      "checkedAt": "2026-10-30T02:30:40.315561+00:00",
+      "title": [
+        "Macks Auto Tech Inc"
+      ],
+      "contentSha256": "b3bbbb47d16a4eb4bfa2946210dcd26ebd199f05f2e3eede71f33839e6179033"
+    },
+    {
+      "url": "https://mainstreetautomotivefl.com/",
+      "status": 200,
+      "finalUrl": "https://mainstreetautomotivefl.com/services/general-auto-repair/",
+      "bytes": 28118,
+      "checkedAt": "2026-10-30T02:22:59.594841+00:00",
+      "title": [
+        "General Auto Repair"
+      ],
+      "contentSha256": "9e0d2271dd11163570dc9a3e72456d185e2cca7d3c9797f2dca1f959c5969cce"
+    },
+    {
+      "url": "https://mainstreetautomotivefl.com/services/general-auto-repair/",
+      "status": 200,
+      "finalUrl": "https://mainstreetautomotivefl.com/services/general-auto-repair/",
+      "bytes": 28118,
+      "checkedAt": "2026-10-30T02:22:56.406671+00:00",
+      "title": [
+        "General Auto Repair"
+      ],
+      "contentSha256": "9e0d2271dd11163570dc9a3e72456d185e2cca7d3c9797f2dca1f959c5969cce"
+    },
+    {
+      "url": "https://mobile-mechanic.net/",
+      "status": 200,
+      "finalUrl": "https://mobile-mechanic.net/",
+      "bytes": 84876,
+      "checkedAt": "2026-10-30T02:22:58.126736+00:00",
+      "title": [
+        "Mobile Mechanic"
+      ],
+      "contentSha256": "53bc17a6d05297d61005cd395265ee9dd46dc206c082f445dac75ba7aefe703c"
+    },
+    {
+      "url": "https://monkeywithawrench.wixsite.com/smwt",
+      "status": 200,
+      "finalUrl": "https://monkeywithawrench.wixsite.com/smwt",
+      "bytes": 648188,
+      "checkedAt": "2026-10-30T02:28:21.062023+00:00",
+      "title": [
+        "Automotive Repair | Monkey With A Wrench"
+      ],
+      "contentSha256": "561c5f02d79d129e0e8803b28503c8581720fc269fb3f51ca7c8e4696886b32f"
+    },
+    {
+      "url": "https://motormanllc.com/",
+      "status": 200,
+      "finalUrl": "https://motormanllc.com/",
+      "bytes": 109865,
+      "checkedAt": "2026-10-30T02:22:57.747223+00:00",
+      "title": [
+        "Auto Repair Fort Walton Beach FL - Mechanic Near Me"
+      ],
+      "contentSha256": "a157e8a7cafd153e006b8426d36a69162af87fc94fd0f09b41a39d5af67b9933"
+    },
+    {
+      "url": "https://motormanllc.com/services/",
+      "status": 200,
+      "finalUrl": "https://motormanllc.com/services/",
+      "bytes": 80938,
+      "checkedAt": "2026-10-30T02:22:57.850504+00:00",
+      "title": [
+        "Services - Motor Man Auto Repair"
+      ],
+      "contentSha256": "0fe356cc0da3bd8b6815ece2255c568302f6eeca55453047322d7db441f8b3ec"
+    },
+    {
+      "url": "https://neeseautomotive.com/",
+      "status": 200,
+      "finalUrl": "https://neeseautomotive.com/",
+      "bytes": 424657,
+      "checkedAt": "2026-10-30T02:22:59.008063+00:00",
+      "title": [
+        "Auto Repair in Fort Walton Beach - Neese Automotive and Diesel Repair"
+      ],
+      "contentSha256": "c95b05895d788697af396693de00fc158462a43b14012767f8ac8dddc59ce060"
+    },
+    {
+      "url": "https://playgroundauto.net/",
+      "status": 200,
+      "finalUrl": "https://playgroundauto.net/",
+      "bytes": 149837,
+      "checkedAt": "2026-10-30T02:23:01.642822+00:00",
+      "title": [
+        "\r\n\tAuto Repair Shop in Fort Walton Beach, FL | Playground Auto Service\r\n"
+      ],
+      "contentSha256": "2fed537eb514195ab6e5b42d648d04d9d58accf29e1c427c831011a20e62480f"
+    },
+    {
+      "url": "https://stantonautomotive.com/",
+      "status": 200,
+      "finalUrl": "https://stantonautomotive.com/",
+      "bytes": 142451,
+      "checkedAt": "2026-10-30T02:23:00.646663+00:00",
+      "title": [
+        "Auto Repair Crestview, FL - Car Service | Stanton Automotive Inc"
+      ],
+      "contentSha256": "e936a3c249ccde141a2c0e1facb83a74fa8d124e1da110eadb13eff20ef86211"
+    },
+    {
+      "url": "https://stinehardtimports.com/",
+      "status": 200,
+      "finalUrl": "https://stinehardtimports.com/",
+      "bytes": 2500000,
+      "checkedAt": "2026-10-30T02:34:25.732184+00:00",
+      "title": [
+        "European Auto Repair | Valparaiso, FL | Stinehardt Imports"
+      ],
+      "contentSha256": "7bc856eb0f316c412fb1f1e167b3b536d2aff99825a1f46d1521cc39fe46a0b7"
+    },
+    {
+      "url": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+      "status": 200,
+      "finalUrl": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+      "bytes": 538224,
+      "checkedAt": "2026-10-30T02:30:42.567793+00:00",
+      "title": [
+        "Home | Rustic Automotive"
+      ],
+      "contentSha256": "5a28cba734321bb5e4d17df29af590e36bd950d7395edad65f61f51fbb7998ca"
+    },
+    {
+      "url": "https://www.19thstreetautocenter.com/",
+      "status": 200,
+      "finalUrl": "https://www.19thstreetautocenter.com/",
+      "bytes": 547333,
+      "checkedAt": "2026-10-30T02:23:00.735710+00:00",
+      "title": [
+        "19th Street Auto Center | Drive Today &mdash; Quality Cars &amp; Service"
+      ],
+      "contentSha256": "20bf605a69eb174b408d7d53c6b71e624dbacda23d1cc57d39d1aefa050b26ec"
+    },
+    {
+      "url": "https://www.19thstreetautocenter.com/services",
+      "status": 200,
+      "finalUrl": "https://www.19thstreetautocenter.com/services",
+      "bytes": 409648,
+      "checkedAt": "2026-10-30T02:23:00.891956+00:00",
+      "title": [
+        "Services | Schedule Your Service Today &mdash; 19th Street Auto Center"
+      ],
+      "contentSha256": "8fc7c66e248bf7db861d84ad8922d053843ce1f3937aa589cca27a8d126fdd5e"
+    },
+    {
+      "url": "https://www.allenturnerchevrolet.com/",
+      "status": 200,
+      "finalUrl": "https://www.allenturnerchevrolet.com/",
+      "bytes": 407629,
+      "checkedAt": "2026-10-30T02:31:52.451691+00:00",
+      "title": [
+        "Chevrolet Dealer in Crestview FL | Allen Turner Chevrolet"
+      ],
+      "contentSha256": "799dd7ce8fd4ea05f5e88d69cda3133d9ed6b2859eb7ca83d10f7fcf4d37518c"
+    },
+    {
+      "url": "https://www.allenturnerchevrolet.com/service/",
+      "status": 200,
+      "finalUrl": "https://www.allenturnerchevrolet.com/service/",
+      "bytes": 392552,
+      "checkedAt": "2026-10-30T02:31:52.562823+00:00",
+      "title": [
+        "Chevrolet Service Center Crestview FL | Allen Turner Chevrolet of Crestview"
+      ],
+      "contentSha256": "a9f21da2b2eff2fe55659bcb7833001d66bb5e641e6b12e163a45fbcb6e2b4e4"
+    },
+    {
+      "url": "https://www.autorepairsdestin.com/",
+      "status": 200,
+      "finalUrl": "https://www.autorepairsdestin.com/",
+      "bytes": 189656,
+      "checkedAt": "2026-10-30T02:23:01.806823+00:00",
+      "title": [
+        "Rhodes Auto Repair"
+      ],
+      "contentSha256": "837168481a7902908a99ee82bf3adc17ffeca1382a499e5276576ab47860ec94"
+    },
+    {
+      "url": "https://www.autorepairshoppanamacity.com/",
+      "status": 200,
+      "finalUrl": "https://www.autorepairshoppanamacity.com/",
+      "bytes": 123573,
+      "checkedAt": "2026-10-30T02:40:51.694771+00:00",
+      "title": [
+        "FIRST CHOICE AUTO MECHANIC is an Auto Repair Shop in Panama City, FL 32401"
+      ],
+      "contentSha256": "fe0790058e71b5ff1c1efafb2289297764f32fa84f40f55644275dc0102ec288"
+    },
+    {
+      "url": "https://www.baiersautotime.com/",
+      "status": 200,
+      "finalUrl": "https://www.baiersautotime.com/",
+      "bytes": 193304,
+      "checkedAt": "2026-10-30T02:30:40.655269+00:00",
+      "title": [
+        "Baier's Auto Time in Ft Walton Beach, FL"
+      ],
+      "contentSha256": "8c52f6f33ba7e840dce873393fd990ec0eb436e25bda772cd76ee07e7b8b3add"
+    },
+    {
+      "url": "https://www.beachautocarefl.com/",
+      "status": 200,
+      "finalUrl": "https://www.beachautocarefl.com/",
+      "bytes": 171554,
+      "checkedAt": "2026-10-30T02:41:33.929475+00:00",
+      "title": [
+        "Auto Repair in Panama City Beach, FL | Beach Auto Care"
+      ],
+      "contentSha256": "8ea38d35613aa726710e4762cf9a2653fc5c3b21059bbbd7245e0530f1a9d34b"
+    },
+    {
+      "url": "https://www.billcramergm.com/",
+      "status": 200,
+      "finalUrl": "https://www.billcramergm.com/",
+      "bytes": 428058,
+      "checkedAt": "2026-10-30T02:31:52.472222+00:00",
+      "title": [
+        "Bill Cramer Chevrolet | GMC Dealer in Panama City, FL"
+      ],
+      "contentSha256": "2be5793c0a99c9ef6f5a2b777273a0671db91ec4ccce5d48c61ec2991160d9cd"
+    },
+    {
+      "url": "https://www.billcramergm.com/service/",
+      "status": 200,
+      "finalUrl": "https://www.billcramergm.com/service/",
+      "bytes": 350469,
+      "checkedAt": "2026-10-30T02:31:53.794883+00:00",
+      "title": [
+        "Chevy &amp; GMC Service Center Near Lynn Haven | FL GM Repairs"
+      ],
+      "contentSha256": "30cf86e9e237917261a0e9947bb4c917e691b2c1104c568a77bb635fcb506f33"
+    },
+    {
+      "url": "https://www.callawayautorepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.callawayautorepair.com/",
+      "bytes": 479261,
+      "checkedAt": "2026-10-30T02:28:21.120136+00:00",
+      "title": [
+        "Auto Repair | United States | Callaway Automotive Repair and Services"
+      ],
+      "contentSha256": "7e138b5905b745fc3d4579ef7f4bcafc53d5953eb9d73e7664dd3fb7de1e6557"
+    },
+    {
+      "url": "https://www.cmtdiag.pro/",
+      "status": 200,
+      "finalUrl": "https://www.cmtdiag.pro/",
+      "bytes": 117073,
+      "checkedAt": "2026-10-30T02:34:22.316377+00:00",
+      "title": [
+        "Heavy-Duty Diesel Repair Shop &amp; 24/7 Mobile in Panama City, FL | CMT"
+      ],
+      "contentSha256": "294f600ddc1d102a868f88b520ba31ca11d5278e9de88a4f77bf1066daa2c424"
+    },
+    {
+      "url": "https://www.crestviewbuickgmc.com/",
+      "status": 200,
+      "finalUrl": "https://www.crestviewbuickgmc.com/",
+      "bytes": 365677,
+      "checkedAt": "2026-10-30T02:31:57.952204+00:00",
+      "title": [
+        "Homepage | David Scott Lee Buick GMC"
+      ],
+      "contentSha256": "a98c759daaf12deeff60619d11a6e68b2912169387d19e59fc6869e729b32dfd"
+    },
+    {
+      "url": "https://www.crestviewbuickgmc.com/service/",
+      "status": 200,
+      "finalUrl": "https://www.crestviewbuickgmc.com/service/",
+      "bytes": 346743,
+      "checkedAt": "2026-10-30T02:31:54.823406+00:00",
+      "title": [
+        "Auto Service, Oil Change &amp; Car Maintenance near Milton"
+      ],
+      "contentSha256": "f485019b0044e1fc140a3974ff1d529658aa300875af0002e0171ef808973411"
+    },
+    {
+      "url": "https://www.crestviewtire.com/",
+      "status": 200,
+      "finalUrl": "https://www.crestviewtire.com/",
+      "bytes": 178743,
+      "checkedAt": "2026-10-30T02:23:03.112763+00:00",
+      "title": [
+        "\r\n\tCrestview Tire & Wheel | Tire Service & Auto Repair | Crestview, FL\r\n"
+      ],
+      "contentSha256": "61c0128d5c39de011551745d28a0fec4b14f432b9f67c42944c0dead6db38a14"
+    },
+    {
+      "url": "https://www.crestviewtire.com/Auto-Repair",
+      "status": 200,
+      "finalUrl": "https://www.crestviewtire.com/Auto-Repair",
+      "bytes": 185133,
+      "checkedAt": "2026-10-30T02:23:03.046688+00:00",
+      "title": [
+        "\r\n\tAuto Repair & Mechanic Shop Crestview, FL Mossy Head, FL Fort Walton Beach, FL | Crestview Tire & Wheel\r\n"
+      ],
+      "contentSha256": "530aeb769e6faf8c92859be1893f4df4a99d41d2240607a56d590fd008539446"
+    },
+    {
+      "url": "https://www.dynamicautomotiveand4x4.com/",
+      "status": 200,
+      "finalUrl": "https://www.dynamicautomotiveand4x4.com/",
+      "bytes": 212008,
+      "checkedAt": "2026-10-30T02:40:50.754790+00:00",
+      "title": [
+        "\r\n    Auto Repair | Panama City, FL | 850-763-0555\r\n  "
+      ],
+      "contentSha256": "960e8e4eeeff725123549c04b4530b366223bf07dd4bda8fe312abf8d06855c6"
+    },
+    {
+      "url": "https://www.eamfwb.com/",
+      "status": 200,
+      "finalUrl": "https://www.eamfwb.com/",
+      "bytes": 724781,
+      "checkedAt": "2026-10-30T02:34:25.138091+00:00",
+      "title": [
+        "Executive Automotive Management"
+      ],
+      "contentSha256": "f61d3b231eac88b7322d15098b841e4148e92a2e528ef53ad1e2745ae29c03a3"
+    },
+    {
+      "url": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+      "bytes": 2500000,
+      "checkedAt": "2026-10-30T02:28:22.753493+00:00",
+      "title": [
+        "Home | Fort Walton Beach Auto and body repair"
+      ],
+      "contentSha256": "36cac2c8a5927410fc8b8b4bbf88b6f5f3175bd6eef82d30a800ffc5bbcee3f1"
+    },
+    {
+      "url": "https://www.fwrad.com/",
+      "status": 200,
+      "finalUrl": "https://www.fwrad.com/",
+      "bytes": 184454,
+      "checkedAt": "2026-10-30T02:23:03.330772+00:00",
+      "title": [
+        "Auto Repair in Fort Walton Beach, FL | Fort Walton Radiator Auto Air & Repair"
+      ],
+      "contentSha256": "8e510f9d2592c4ff90bb6f70dd431c621d6e1c89d09e4c377de5fc0ce82641c3"
+    },
+    {
+      "url": "https://www.fwrad.com/Fort-Walton-Beach-auto-repairs.html",
+      "status": 200,
+      "finalUrl": "https://www.fwrad.com/Fort-Walton-Beach-auto-repairs.html",
+      "bytes": 77838,
+      "checkedAt": "2026-10-30T02:23:03.279343+00:00",
+      "title": [
+        "Our Shop | Fort Walton Radiator Auto Air & Repair"
+      ],
+      "contentSha256": "9679691622ec7f2c951bb8797395ecbea3573273e3f3ea0a1c38c2e3d93a6ebc"
+    },
+    {
+      "url": "https://www.gerbearscertifiedmobilerepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.gerbearscertifiedmobilerepair.com/",
+      "bytes": 1993946,
+      "checkedAt": "2026-10-30T02:28:26.474829+00:00",
+      "title": [
+        "Mobile Auto Repair, Auto Mechanic &amp; Brake Repairs Service Fort Walton Beach FL - GerBear's Certified Mobile Repair"
+      ],
+      "contentSha256": "cce14daa06bba6ca7815d0c83007a215dd63f3be68b22a20bc9d1787068de738"
+    },
+    {
+      "url": "https://www.gerbearscertifiedmobilerepair.com/mobile-mechanic/boat-repair-services-in-fort-walton-beach",
+      "status": 200,
+      "finalUrl": "https://www.gerbearscertifiedmobilerepair.com/mobile-mechanic/boat-repair-services-in-fort-walton-beach",
+      "bytes": 1543515,
+      "checkedAt": "2026-10-30T02:30:42.326939+00:00",
+      "title": [
+        "Mobile Boat Repair Services in Fort Walton Beach, FL"
+      ],
+      "contentSha256": "be9cf9faab5d78ad75f75acfab4e8cba8664e2cc87d0a2e33f1bfd26e3e1bf9c"
+    },
+    {
+      "url": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+      "status": 200,
+      "finalUrl": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+      "bytes": 1869463,
+      "checkedAt": "2026-10-30T02:30:42.535687+00:00",
+      "title": [
+        "Mobile Mechanic Navarre, FL - Convenient On-Site Car Repair at GerBear's Certified Mobile Repair"
+      ],
+      "contentSha256": "2e63eafbe428ca335d80d3cd41408ef8f36031c48c1dddd2bb9d3b767f220656"
+    },
+    {
+      "url": "https://www.hewetttire.com/",
+      "status": 200,
+      "finalUrl": "https://www.hewetttire.com/",
+      "bytes": 148030,
+      "checkedAt": "2026-10-30T02:28:23.498773+00:00",
+      "title": [
+        "\r\n\tPanama City FL Tires & Auto Repair | Hewett's Tire & Auto Center\r\n"
+      ],
+      "contentSha256": "3549d5cbb527fe41fd6f56ba23914ac059194b732e3f48227c39ce545c8080fc"
+    },
+    {
+      "url": "https://www.holmesautorepair.net/",
+      "status": 200,
+      "finalUrl": "https://www.holmesautorepair.net/",
+      "bytes": 198909,
+      "checkedAt": "2026-10-30T02:23:04.166378+00:00",
+      "title": [
+        "\r\n    \n    Holmes Auto Repair | Automotive Repair | Fort Walton Beach, FL\n  \r\n  "
+      ],
+      "contentSha256": "688a29649b9556c75d31ecb8b76ab706b7996f694cc6a1e6330669b030dfba8c"
+    },
+    {
+      "url": "https://www.justinsdieselandautorepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.justinsdieselandautorepair.com/",
+      "bytes": 162062,
+      "checkedAt": "2026-10-30T02:23:04.566373+00:00",
+      "title": [
+        "Websites |  | justins-diesel-and-auto-repair-llc2"
+      ],
+      "contentSha256": "1c8afe31a6c1bd8a2937784c649f433967e4cfb7b80c6773ff63219ba18428ab"
+    },
+    {
+      "url": "https://www.leavinsautomotive.com/",
+      "status": 200,
+      "finalUrl": "https://www.leavinsautomotive.com/",
+      "bytes": 49886,
+      "checkedAt": "2026-10-30T02:28:23.475902+00:00",
+      "title": [
+        "Auto Repair in Crestview, FL | Leavins Automotive"
+      ],
+      "contentSha256": "d0c2ff7c92d40874419d2c40b558f68aaa6ed6becfefb3f011edf38fee09f8a1"
+    },
+    {
+      "url": "https://www.leavinsautomotive.com/Crestview-auto-repairs.html",
+      "status": 200,
+      "finalUrl": "https://www.leavinsautomotive.com/Crestview-auto-repairs.html",
+      "bytes": 36555,
+      "checkedAt": "2026-10-30T02:28:23.476087+00:00",
+      "title": [
+        "Our Shop | Leavins Automotive"
+      ],
+      "contentSha256": "a6b0b4dacd51b66d6d3abe7475fc42d61dbed8fefbbb2c2428560c63f82dbf78"
+    },
+    {
+      "url": "https://www.mcleodsautoandmobility.com/",
+      "status": 200,
+      "finalUrl": "https://www.mcleodsautoandmobility.com/",
+      "bytes": 61723,
+      "checkedAt": "2026-10-30T02:28:24.786569+00:00",
+      "title": [
+        "McLeod&#39;s Automotive Repair, Inc. | Auto Repair, Mechanic, Handicap Mobility Products and Services | Fort Walton Beach, Florida"
+      ],
+      "contentSha256": "394bdcce83edbf9687daac63916e4518f88b745d54d6a57d3f671207e3d6e145"
+    },
+    {
+      "url": "https://www.mcleodsautoandmobility.com/about%20us.htm",
+      "status": 200,
+      "finalUrl": "https://www.mcleodsautoandmobility.com/about%20us.htm",
+      "bytes": 40227,
+      "checkedAt": "2026-10-30T02:28:24.843099+00:00",
+      "title": [
+        "McLeod&#39;s Automotive Repair, Inc. | Auto Repair, Mechanic, Handicap Mobility Products and Services | Fort Walton Beach, Florida"
+      ],
+      "contentSha256": "fde0f47ae738cf32086c4485fe5ab2b57d0085c8869c306fd5de2cf498831c5d"
+    },
+    {
+      "url": "https://www.miraclestripbodyshop.com/",
+      "status": 200,
+      "finalUrl": "https://www.miraclestripbodyshop.com/",
+      "bytes": 172597,
+      "checkedAt": "2026-10-30T02:23:06.922656+00:00",
+      "title": [
+        "\r\n    \n    Collision Repair | MIRACLE STRIP BODY SHOP, INC.\n  \r\n  "
+      ],
+      "contentSha256": "00de3da1893322d4f59334cee1344375297eaec497e29a838e44f067c05925c4"
+    },
+    {
+      "url": "https://www.panamacitytoyota.com/",
+      "status": 200,
+      "finalUrl": "https://www.panamacitytoyota.com/",
+      "bytes": 638792,
+      "checkedAt": "2026-10-30T02:41:33.112639+00:00",
+      "title": [
+        "Panama City Toyota | Toyota Dealer in Panama City, FL"
+      ],
+      "contentSha256": "9a3ca3342ddc3e5c1d2fd56f74516a7ba9ac102d5b2eb347e827c3940fa2774a"
+    },
+    {
+      "url": "https://www.panamacitytoyota.com/service",
+      "status": 200,
+      "finalUrl": "https://www.panamacitytoyota.com/service",
+      "bytes": 455604,
+      "checkedAt": "2026-10-30T02:40:50.645461+00:00",
+      "title": [
+        "Toyota Service Center in Panama City, FL | Certified Auto Repair"
+      ],
+      "contentSha256": "61de9224053bac29f66a9035731bb18c4c05d30ff3b0a57daac61c74ec01467d"
+    },
+    {
+      "url": "https://www.parkwaytire.com/",
+      "status": 200,
+      "finalUrl": "https://www.parkwaytire.com/",
+      "bytes": 124236,
+      "checkedAt": "2026-10-30T02:28:25.826384+00:00",
+      "title": [
+        "\r\n\tParkway Tire & Service | Locations in Florida | Tires & Auto Repair\r\n"
+      ],
+      "contentSha256": "3570dfac9991ff6729e29df30155033ce284c77182bfd1516304ab2006a5e752"
+    },
+    {
+      "url": "https://www.porscheofdestin.com/",
+      "status": 200,
+      "finalUrl": "https://www.porscheofdestin.com/",
+      "bytes": 460770,
+      "checkedAt": "2026-10-30T02:34:25.179444+00:00",
+      "title": [
+        "Porsche Dealership in Destin, FL | Porsche of Destin"
+      ],
+      "contentSha256": "6ab421379352d1237fa63a46f08d6082b882099efc4a0b9a14cbae307178aac7"
+    },
+    {
+      "url": "https://www.porscheofdestin.com/service/index.htm",
+      "status": 200,
+      "finalUrl": "https://www.porscheofdestin.com/service/index.htm",
+      "bytes": 374211,
+      "checkedAt": "2026-10-30T02:34:25.609585+00:00",
+      "title": [
+        "Porsche of Destin | Destin Porsche Car Repair"
+      ],
+      "contentSha256": "d6d38de0de1590b01f29a280cf8f630c1398d8d51afa3e30b1d6c1878ea98cae"
+    },
+    {
+      "url": "https://www.prestonhood.com/",
+      "status": 200,
+      "finalUrl": "https://www.prestonhood.com/",
+      "bytes": 388305,
+      "checkedAt": "2026-10-30T02:31:54.923299+00:00",
+      "title": [
+        "Fort Walton Beach Chevy Dealer | Preston Hood Chevrolet"
+      ],
+      "contentSha256": "e72633c960ec192f36bcf9bd316358531d851caf5e92a248da5e934b99f2a448"
+    },
+    {
+      "url": "https://www.prestonhood.com/locations/",
+      "status": 200,
+      "finalUrl": "https://www.prestonhood.com/locations/",
+      "bytes": 749308,
+      "checkedAt": "2026-10-30T02:31:54.920603+00:00",
+      "title": [
+        "Chevrolet Dealership Serving Northwestern Florida"
+      ],
+      "contentSha256": "038e204070d0c5a5abda8b79b7032122ba2ff74e12a3a5a5285fa26b7530530e"
+    },
+    {
+      "url": "https://www.prestonhood.com/locations/chevrolet-dealer-crestview-fl/",
+      "status": 200,
+      "finalUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-crestview-fl/",
+      "bytes": 751997,
+      "checkedAt": "2026-10-30T02:34:27.492384+00:00",
+      "title": [
+        "Premier Chevrolet Dealership Serving Crestview, Florida"
+      ],
+      "contentSha256": "3708569d6adbb5560784146fc1779269e00cbf571d7e8232ea56ee2db39a9297"
+    },
+    {
+      "url": "https://www.prestonhood.com/locations/chevrolet-dealer-milton-fl/",
+      "status": 200,
+      "finalUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-milton-fl/",
+      "bytes": 752198,
+      "checkedAt": "2026-10-30T02:34:27.529073+00:00",
+      "title": [
+        "Premier Chevrolet Dealership Serving Milton, Florida"
+      ],
+      "contentSha256": "14c5ff03eea7e5078dc710f7c9bf86c745ca8324a63b4b799f05da6008c1b781"
+    },
+    {
+      "url": "https://www.seasideautocare.com/",
+      "status": 200,
+      "finalUrl": "https://www.seasideautocare.com/",
+      "bytes": 1345950,
+      "checkedAt": "2026-10-30T02:34:31.037438+00:00",
+      "title": [
+        "Seaside auto care LLC | mobile mechanic | Panama City Beach, FL, USA"
+      ],
+      "contentSha256": "587b629b0aac9e098cd893da498c41650afd5ca7a01f528bb157a10ddd3c8318"
+    },
+    {
+      "url": "https://www.seasideautocare.com/our-services",
+      "status": 200,
+      "finalUrl": "https://www.seasideautocare.com/our-services",
+      "bytes": 1152000,
+      "checkedAt": "2026-10-30T02:34:30.661920+00:00",
+      "title": [
+        "Our Services | Seaside auto care LLC"
+      ],
+      "contentSha256": "c108c242ddc090450a2ab123c3475f4f83fcb0d25bf5a261c1baeb6ce46b394e"
+    },
+    {
+      "url": "https://www.shapardauto.com/",
+      "status": 200,
+      "finalUrl": "https://www.shapardauto.com/",
+      "bytes": 400492,
+      "checkedAt": "2026-10-30T02:30:43.211996+00:00",
+      "title": [
+        "Shapard Automotive LLC"
+      ],
+      "contentSha256": "f5fcc157cfaeca9d506fbf772b07181deafd8a70d1d7a6357ebe19d722092b5c"
+    },
+    {
+      "url": "https://www.sweeneysdieselrepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.sweeneysdieselrepair.com/",
+      "bytes": 537448,
+      "checkedAt": "2026-10-30T02:41:34.307825+00:00",
+      "title": [
+        "Mobile Diesel Mechanic, Sweeney`s Diesel Repair"
+      ],
+      "contentSha256": "a690ea08a6e4e04b5ddf4430f764b43f24a3d8d1959ad13e2145a5c4927f1da8"
+    },
+    {
+      "url": "https://www.sweeneysdieselrepair.com/about-us",
+      "status": 200,
+      "finalUrl": "https://www.sweeneysdieselrepair.com/about-us",
+      "bytes": 544537,
+      "checkedAt": "2026-10-30T02:41:33.552397+00:00",
+      "title": [
+        "ABOUT US | My Site 1"
+      ],
+      "contentSha256": "43601940ebad32bf7478d0c20a08c23f9e41931bf0d195e7182f778a1188a73a"
+    }
+  ],
+  "historicalWebsiteChecks": [
+    {
+      "url": "https://a1panamacity.com/",
+      "status": 200,
+      "finalUrl": "https://a1panamacity.com/",
+      "bytes": 32079,
+      "checkedAt": "2026-10-30T02:42:35.220051+00:00",
+      "title": [
+        "Parked Domain name on Hostinger DNS system"
+      ],
+      "contentSha256": "b3036a68ba717a3a1f9b27f8cadca8788c5eec85d0372330284cd7370afc6b73",
+      "contentValid": false,
+      "exclusion": "HTTP 200 is a Hostinger parked-domain page. Existing record preserved, excluded from fresh milestone."
+    },
+    {
+      "url": "https://www.a1autoanddiesel.com/",
+      "status": 200,
+      "finalUrl": "https://www.a1autoanddiesel.com/",
+      "bytes": 43275,
+      "checkedAt": "2026-10-30T02:42:34.490545+00:00",
+      "title": [
+        "Auto Repair, Fort Walton Beach FL | A-1 Auto & Diesel"
+      ],
+      "contentSha256": "680b5586dfdb607b710120221f7c13a0a1e7d52ff889de1618a7fdbe1b9488f5"
+    },
+    {
+      "url": "https://www.autoworksofdestin.com/",
+      "status": 200,
+      "finalUrl": "https://www.autoworksofdestin.com/",
+      "bytes": 390153,
+      "checkedAt": "2026-10-30T02:42:34.247912+00:00",
+      "title": [
+        "\r\n    \n    Destin Auto Repair - Destin Auto Center\n  \r\n  "
+      ],
+      "contentSha256": "0cd35556069e1a67956650d535d7f3eb06e6799c06357e184869e7420c0f41a8"
+    },
+    {
+      "url": "https://www.bens-auto.com/",
+      "status": 200,
+      "finalUrl": "https://www.bens-auto.com/",
+      "bytes": 114522,
+      "checkedAt": "2026-10-30T02:42:34.412365+00:00",
+      "title": [
+        "\r\n\tAuto Repair & Tire Shop in Panama City, FL | Ben's Automotive\r\n"
+      ],
+      "contentSha256": "a702c07fbcc63f6a5955bd1ea8d5a058b0aa60f90fc95e0e0b5b26ff16998535"
+    },
+    {
+      "url": "https://www.bucksautogarage.com/",
+      "status": 200,
+      "finalUrl": "https://www.bucksautogarage.com/",
+      "bytes": 323298,
+      "checkedAt": "2026-10-30T02:42:34.047098+00:00",
+      "title": [
+        "\r\n    \n    Auto Repair in Panama City, FL | Bucks Auto Garage &amp; Tire\n  \r\n  "
+      ],
+      "contentSha256": "42b5b9c6ff58b27ea0400719640c56690121ac0b1c403d3d53ab702a4622d2ba"
+    },
+    {
+      "url": "https://www.garrettswreckerservicepc.com/",
+      "status": 200,
+      "finalUrl": "https://www.garrettswreckerservicepc.com/",
+      "bytes": 132763,
+      "checkedAt": "2026-10-30T02:42:33.918838+00:00",
+      "title": [
+        "\r\n    Auto Service | Panama City, FL | Garrett’s Automotive Service\r\n  "
+      ],
+      "contentSha256": "5c6b04d7e6b87173da67c00975c86604d4aceb8b899a90412054bc995cd6decd"
+    },
+    {
+      "url": "https://www.greasepro.com/",
+      "status": 200,
+      "finalUrl": "https://www.greasepro.com/",
+      "bytes": 100877,
+      "checkedAt": "2026-10-30T02:42:34.090498+00:00",
+      "title": [
+        "Oil Change, Car Wash &amp; Auto Repair - Grease Pro"
+      ],
+      "contentSha256": "a64bf5401f72e02b97ac3ccd83a84e0b5409a276b9c4be88621a4bbdb8bf327d"
+    },
+    {
+      "url": "https://www.kelleysautoanddiesel.com/",
+      "error": "HTTP Error 403: Forbidden",
+      "alternateVerification": "Working official page freshly retrieved using web.open on 2026-10-30; identity, services and local coverage reviewed. Direct client returned 403; not represented as HTTP 200.",
+      "sourceVerifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://www.m1performanceautomotive.com/",
+      "status": 200,
+      "finalUrl": "https://www.m1performanceautomotive.com/",
+      "bytes": 427921,
+      "checkedAt": "2026-10-30T02:42:36.181980+00:00",
+      "title": [
+        "Mobile Mechanic in Fort Walton Beach-M1 Performance Automotive | Get Mobile Repairs Now"
+      ],
+      "contentSha256": "cffbe27f98154c98263f3f109f58435559bf44c85008d796b8b07c6524caf045"
+    },
+    {
+      "url": "https://www.santarosabeachautorepair.com/",
+      "status": 200,
+      "finalUrl": "https://www.santarosabeachautorepair.com/",
+      "bytes": 378462,
+      "checkedAt": "2026-10-30T02:42:36.526837+00:00",
+      "title": [
+        "\r\n    \n    Mohrs' Automotive in Santa Rosa Beach, FL | Auto Repair\n  \r\n  "
+      ],
+      "contentSha256": "1a1fec847dd1797221cf9a2a0230262d02f70091e691c2adcd35aed87eabd78f"
+    },
+    {
+      "url": "https://www.torquetheoryautomotive.com/",
+      "status": 200,
+      "finalUrl": "https://www.torquetheoryautomotive.com/",
+      "bytes": 329608,
+      "checkedAt": "2026-10-30T02:42:36.607661+00:00",
+      "title": [
+        "\r\n    \n    Auto Repair in Crestview, FL | Torque Theory Automotive Repair LLC\n  \r\n  "
+      ],
+      "contentSha256": "d664b5571b32ca47601cdea183099e11150a04b9ca8ee226acc41b656920ab24"
+    },
+    {
+      "url": "https://www.tribsauto.com/",
+      "status": 200,
+      "finalUrl": "https://www.tribsauto.com/",
+      "bytes": 404699,
+      "checkedAt": "2026-10-30T02:42:37.302892+00:00",
+      "title": [
+        "\r\n    \n    Auto Repair in Fort Walton Beach - Trib's Auto Repair\n  \r\n  "
+      ],
+      "contentSha256": "60179b0f77f2e7d347cf16ecbc3d07e02846e406fda0f4bf9d549f4aeeb3328f"
+    }
+  ],
+  "validation": {
+    "verifiedAt": "2026-10-30",
+    "baselineCommit": "e38e58db6e2ad39c149f60b89cc2aad687ee8891",
+    "priorSeedRecords": 6960,
+    "finalSeedRecords": 7074,
+    "preservedPriorRecords": 6960,
+    "unchangedPriorSourceRecords": 1556,
+    "addedPlacements": 114,
+    "distinctBusinessIdentities": 51,
+    "newBusinessIdentities": 44,
+    "existingBusinessServiceExtensions": 7,
+    "uniqueIds": true,
+    "newNormalizedDomainCityTradeDuplicates": 0,
+    "validActiveSlugs": true,
+    "activeCityCount": 40,
+    "activeCategoryCount": 30,
+    "target": 20,
+    "projectedPairsAtTarget": 23,
+    "projectedDeficit": 18256,
+    "projectedEmpty": 64,
+    "byCity": {
+      "crestview-fl": 18,
+      "destin-fl": 18,
+      "dothan-al": 1,
+      "fort-walton-beach-fl": 27,
+      "grayton-beach-fl": 2,
+      "gulf-breeze-fl": 1,
+      "milton-fl": 4,
+      "navarre-fl": 7,
+      "pace-fl": 1,
+      "panama-city-beach-fl": 11,
+      "panama-city-fl": 20,
+      "pensacola-fl": 3,
+      "perdido-key-fl": 1
+    },
+    "byCategory": {
+      "auto-body-collision": 10,
+      "auto-mechanics": 96,
+      "marine-services": 3,
+      "towing": 5
+    },
+    "notes": [
+      "Only append-only source data and research/checkpoint files changed.",
+      "Counts are generated coverage, not fresh independent verification of every historical website.",
+      "No five-listing cap in seed pipeline; current audit minimum already 20.",
+      "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+    ]
+  },
+  "freshlyReviewedCandidates": [
+    {
+      "name": "Miracle Strip Body Shop",
+      "website": "https://www.miraclestripbodyshop.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.miraclestripbodyshop.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers collision, body, frame and structural repairs at 318 Racetrack Road NW, Fort Walton Beach. Towing and mechanical repair are referred/sublet, so not added in those categories."
+    },
+    {
+      "name": "Beal Paint and Body",
+      "website": "https://bealpaintandbody.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://bealpaintandbody.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers collision and auto body repair and identifies its 715 Bayou View Drive, Fort Walton Beach location."
+    },
+    {
+      "name": "Main Street Automotive",
+      "website": "https://mainstreetautomotivefl.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://mainstreetautomotivefl.com/services/general-auto-repair/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official general-auto-repair page offers diagnostics, cooling, air conditioning and driveline service at 605 S Main Street, Crestview. Homepage redirects to this same business service page."
+    },
+    {
+      "name": "Crestview Tire & Wheel",
+      "website": "https://www.crestviewtire.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.crestviewtire.com/Auto-Repair",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official auto-repair page explicitly serves Crestview and Fort Walton Beach and lists brake repair, engine diagnostics, cooling and other mechanical repairs. Physical shop in Crestview."
+    },
+    {
+      "name": "Justin's Diesel and Auto Repair",
+      "website": "https://www.justinsdieselandautorepair.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.justinsdieselandautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies full-service automotive and light-duty diesel repairs at 133 Cayson Avenue, Crestview. Related Holt heavy-truck operation not counted as a second identity."
+    },
+    {
+      "name": "Northwest Florida Mobile Mechanic",
+      "website": "https://mobile-mechanic.net/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://mobile-mechanic.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Northwest Florida Mobile Mechanic and explicitly offers on-site diagnostics, brake, suspension, cooling and electrical repairs in Crestview. No neighboring-city coverage inferred."
+    },
+    {
+      "name": "Rhodes Auto Repair",
+      "website": "https://www.autorepairsdestin.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.autorepairsdestin.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists full mechanical repair services and 24/7 towing/wrecker service at 327 Mountain Drive, Destin. Rhodes/KCK Ventures and alternate rhodesautorepairdestin.com are one identity."
+    },
+    {
+      "name": "Stanton Automotive",
+      "website": "https://stantonautomotive.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://stantonautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site offers auto repair in Crestview and identifies its shop at 861 W James Lee Boulevard. Alternate stantonautomotiveinc.com is not a separate business."
+    },
+    {
+      "name": "Holmes Auto Repair",
+      "website": "https://www.holmesautorepair.net/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.holmesautorepair.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers automotive repair and towing at 15 Robinwood Drive SW, Fort Walton Beach; independent local repair business with NAPA affiliation."
+    },
+    {
+      "name": "Playground Auto Service",
+      "website": "https://playgroundauto.net/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://playgroundauto.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies family-owned automotive repair and towing business at 12 Hollywood Boulevard, Fort Walton Beach. NAPA/AAA affiliations are not separate business identities."
+    },
+    {
+      "name": "Neese Automotive and Diesel Repair",
+      "website": "https://neeseautomotive.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://neeseautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists engine, brake, clutch and other repairs and explicitly serves Fort Walton Beach, Destin and Navarre. Roadside reimbursement benefit not counted as an owned towing operation."
+    },
+    {
+      "name": "Fort Walton Radiator Auto Air & Repair",
+      "website": "https://www.fwrad.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.fwrad.com/Fort-Walton-Beach-auto-repairs.html",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Our Shop page offers full-service auto repair, brakes, transmission and electrical repairs at 39 Perry Avenue SE, Fort Walton Beach."
+    },
+    {
+      "name": "Al's Auto Repair & Service",
+      "website": "https://alsautorepairfwb.com/services/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://alsautorepairfwb.com/services/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page offers complete mechanical repair for domestic/import cars and trucks at 356 Eglin Parkway NE, Fort Walton Beach. Working official services page used as website because root page timed out."
+    },
+    {
+      "name": "Motor Man Auto Repair",
+      "website": "https://motormanllc.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://motormanllc.com/services/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page lists diagnostics, engine, brake, suspension, electrical and transmission repairs at 679 Denton Boulevard NW, Fort Walton Beach."
+    },
+    {
+      "name": "Emerald Coast Auto Repair",
+      "website": "https://emeraldcoastautorepairpc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://emeraldcoastautorepairpc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, suspension and diagnostic repairs at 1115 W 15th Street, Panama City. Owner Brandon Hill also owns Bills Transmission; that related operation is not counted as an additional identity."
+    },
+    {
+      "name": "Flintstone Mobile Mechanics",
+      "website": "https://flintstonemechanics.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://flintstonemechanics.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers on-site brake, engine-diagnostic, electrical and cooling repairs; Contact & Hours explicitly lists both Panama City and Panama City Beach. Jump starts and tire changes not counted as towing."
+    },
+    {
+      "name": "19th Street Auto Center",
+      "website": "https://www.19thstreetautocenter.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.19thstreetautocenter.com/services",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official services page offers brakes, diagnostics and transmission repairs at 1220 W 19th Street, Panama City. Similar 19th Auto Repair site is held for identity resolution, not a second listing."
+    },
+    {
+      "name": "Hewett Tire & Auto Center",
+      "website": "https://www.hewetttire.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.hewetttire.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers automotive repairs and explicitly serves Panama City and Panama City Beach. Physical shop at 517 Airport Road, Panama City. Towing is referred to Home Town Towing, so excluded from towing category."
+    },
+    {
+      "name": "Parkway Tire & Service",
+      "website": "https://www.parkwaytire.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.parkwaytire.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies full-service mechanical repairs, a Panama City Beach shop, and explicit service to Panama City customers. Callaway and beach branches counted as one business identity."
+    },
+    {
+      "name": "McLeod's Automotive Repair",
+      "website": "https://www.mcleodsautoandmobility.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.mcleodsautoandmobility.com/about%20us.htm",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About Us page identifies family-owned auto repair business at 208 NE Racetrack Road, Fort Walton Beach; owner Chad McLeod."
+    },
+    {
+      "name": "Leavins Automotive",
+      "website": "https://www.leavinsautomotive.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.leavinsautomotive.com/Crestview-auto-repairs.html",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Our Shop page confirms full mechanical repair services at 496 South Main Street, Crestview. Official /Crestview-towing-services.html explicitly offers towing to its own shop only; this limitation applies."
+    },
+    {
+      "name": "Dellines Inc",
+      "website": "https://dellinesinc.wixsite.com/dellines-inc",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://dellinesinc.wixsite.com/dellines-inc",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Business-owned Wix website explicitly identifies Crestview in its page title and lists brake, engine, cooling, electrical and transmission repairs. No street address supplied; no neighboring-city coverage inferred."
+    },
+    {
+      "name": "Fort Walton Beach Auto & Body Repair",
+      "website": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "towing"
+      ],
+      "sourceUrl": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers mechanical engine and diesel repairs and towing to its shop at 126 McGriff Street Unit 1, Fort Walton Beach. Existing body-repair business identity reused."
+    },
+    {
+      "name": "Emerald Coast Mobile Mechanic",
+      "website": "https://emeraldcoastmobilemechanic.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "dothan-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://emeraldcoastmobilemechanic.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers on-site automotive/diesel diagnostics and repair; its Service Area section explicitly names every included city. Operated by Destin Limo LLC, with Florida repair registration MV150182. No towing service inferred from roadside repairs. Website metadata also uses Freeport Mobile Auto; same operator and domain, not an additional identity."
+    },
+    {
+      "name": "Monkey with a Wrench",
+      "website": "https://monkeywithawrench.wixsite.com/smwt",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://monkeywithawrench.wixsite.com/smwt",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official business-owned Wix homepage identifies its Crestview automotive repair facility and mobile repair service, with repair registration MV107660. No additional cities inferred."
+    },
+    {
+      "name": "GerBear's Certified Mobile Repair",
+      "website": "https://www.gerbearscertifiedmobilerepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Navarre service page explicitly lists mobile mechanical repair in Navarre, Fort Walton Beach, Destin and Crestview. Service includes engine diagnostics, brake and diesel repairs; no towing inferred."
+    },
+    {
+      "name": "Callaway Automotive Repair & Services",
+      "website": "https://www.callawayautorepair.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.callawayautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly serves Bay County and offers diagnostic, brake, steering, cooling and electrical repairs. Panama City and Panama City Beach are both within its stated county service area; physical shop is in Callaway, not misrepresented as either city."
+    },
+    {
+      "name": "GerBear's Certified Mobile Repair",
+      "website": "https://www.gerbearscertifiedmobilerepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/mobile-mechanic/boat-repair-services-in-fort-walton-beach",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official boat-service page explicitly offers on-site smaller-vessel diagnostics, electrical work, maintenance and minor repairs in Fort Walton Beach, Destin and Navarre. Larger or specialized marine work is outside its stated scope."
+    },
+    {
+      "name": "Mack's Auto-Tech",
+      "website": "https://macksautotech.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://macksautotech.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists engine, transmission, brake, suspension and cooling repairs at 101 John King Road, Crestview. External towing references are not treated as its own towing service."
+    },
+    {
+      "name": "Rustic Automotive",
+      "website": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official business-owned Wix website offers diagnostics, brake work and automotive repair at 133 Aplin Road, Crestview."
+    },
+    {
+      "name": "Baier's Auto Time",
+      "website": "https://www.baiersautotime.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.baiersautotime.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, transmission, cooling and electrical repairs at 207 Hickory Street, Fort Walton Beach. Testimonial mentions of other cities are not used as geographic evidence."
+    },
+    {
+      "name": "Shapard Automotive LLC",
+      "website": "https://www.shapardauto.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.shapardauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers major service and repairs for Ferrari and other European makes at 1927 W 27th Street, Panama City. Specialty vehicle scope retained; no body-repair category inferred from mechanical restoration."
+    },
+    {
+      "name": "Brothers By Boost",
+      "website": "https://brothersbyboost.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://brothersbyboost.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies automotive service and repair at 1615 Transmitter Road, Panama City, with direct business contact details. No beach-city coverage inferred."
+    },
+    {
+      "name": "Expert Auto Repair",
+      "website": "https://expertautopc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://expertautopc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies owner Shawn Brown and offers engine, brake, transmission and other repairs at 1923 N East Avenue, Panama City. No Panama City Beach coverage inferred."
+    },
+    {
+      "name": "BCP Automotive",
+      "website": "https://bcpauto.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://bcpauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers diagnostic and mechanical repair by appointment at 966 McFarlan Avenue, Fort Walton Beach; identifies a veteran-owned family operation."
+    },
+    {
+      "name": "Allen Turner Chevrolet",
+      "website": "https://www.allenturnerchevrolet.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.allenturnerchevrolet.com/service/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-center page identifies the Crestview facility at 4150 S Ferdon Boulevard and explicitly serves Crestview, Fort Walton Beach and Milton. Offers Chevrolet diagnostics, repair and complex powertrain work; existing dealership identity reused."
+    },
+    {
+      "name": "David Scott Lee Buick GMC",
+      "website": "https://www.crestviewbuickgmc.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.crestviewbuickgmc.com/service/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-center page offers vehicle diagnostics, brake and mechanical service at 4300 S Ferdon Boulevard, Crestview. Existing dealership identity reused; Buick/GMC specialization retained."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "destin-fl",
+        "navarre-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official regional-locations page explicitly serves the included cities and offers mechanical service through major accident repair. Official /service/ confirms engine diagnostics and brake repairs at the Fort Walton Beach shop. Existing dealership identity reused."
+    },
+    {
+      "name": "Bill Cramer Chevrolet",
+      "website": "https://www.billcramergm.com/",
+      "regions": [
+        "panama-city-fl",
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.billcramergm.com/service/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service page identifies Panama City repair facility at 2251 W 23rd Street and explicitly offers vehicle service and auto body repairs for Destin and Fort Walton customers. GMC/Cadillac sister sites are one business identity, not extra listings."
+    },
+    {
+      "name": "John Lee Collision & Body Repair Center",
+      "website": "https://johnleenissan.com/body-shop",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://johnleenissan.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official John Lee homepage identifies its Panama City facility, all-Bay-County service area, ASE-trained technicians and vehicle repair department. Existing John Lee collision-center identity reused across services; no separate Nissan/Mazda/Mitsubishi identity added."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-crestview-fl/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Crestview location-service page explicitly offers mechanical vehicle repair and maintenance for this city, at its Fort Walton Beach repair facility. Existing identity reused."
+    },
+    {
+      "name": "Preston Hood Chevrolet",
+      "website": "https://www.prestonhood.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-milton-fl/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Milton location-service page explicitly offers mechanical vehicle repair and maintenance for this city, at its Fort Walton Beach repair facility. Existing identity reused."
+    },
+    {
+      "name": "Executive Automotive Management",
+      "website": "https://www.eamfwb.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.eamfwb.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers independent European and Asian auto repairs serving Fort Walton Beach and Destin. Business service text supplies evidence; embedded third-party reviews are not used."
+    },
+    {
+      "name": "Seaside Auto Care",
+      "website": "https://www.seasideautocare.com/",
+      "regions": [
+        "destin-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.seasideautocare.com/our-services",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers mobile engine, brake, cooling and electrical repairs and explicitly identifies service in Panama City Beach. Its Our Services page and Destin contact address confirm Destin service. No Panama City coverage inferred."
+    },
+    {
+      "name": "CMT Diagnostics and Repair",
+      "website": "https://www.cmtdiag.pro/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cmtdiag.pro/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Fresh direct HTTP 200 homepage offers diesel-truck, fleet and RV powertrain mechanical repair and explicitly lists all included cities. Scope is commercial trucks and RVs; older search copy offering general passenger-car repair was not relied on. The Southport facility uses a Panama City postal address."
+    },
+    {
+      "name": "Stinehardt Imports",
+      "website": "https://stinehardtimports.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://stinehardtimports.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers European/Asian diagnostics, engine, suspension, brake and electrical repairs and explicitly serves Destin, Fort Walton Beach and Navarre. Physical shop is in Valparaiso; no location in the served cities invented."
+    },
+    {
+      "name": "Porsche of Destin",
+      "website": "https://www.porscheofdestin.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.porscheofdestin.com/service/index.htm",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-center page offers Porsche maintenance and repair at 808 Airport Road, Destin. Existing dealership identity reused; other Gregg Orr dealerships are not counted as additional identities."
+    },
+    {
+      "name": "Destin Imports",
+      "website": "https://destinimports.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://destinimports.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies its Destin operation and offers BMW/Mercedes, European and Tesla diagnostics, programming and mechanical repairs. Distinct from Destin Auto Center/Auto Works of Destin."
+    },
+    {
+      "name": "Destin Tech",
+      "website": "https://destintech.net/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://destintech.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers brake, engine-replacement, radiator and other mechanical repairs at 168 Industrial Park Road, Destin. It explicitly excludes oil changes and tires. Owner/phone matches Destin Tech; Johnny mechanic references are not another identity."
+    },
+    {
+      "name": "Panama City Toyota",
+      "website": "https://www.panamacitytoyota.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.panamacitytoyota.com/service",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service page offers vehicle maintenance, brake, battery and mechanical repair at 959 West 15th Street, Panama City. Official /aboutus.aspx states same family ownership since the early 1990s and service for virtually all makes. No additional cities inferred."
+    },
+    {
+      "name": "First Choice Auto Mechanic",
+      "website": "https://www.autorepairshoppanamacity.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.autorepairshoppanamacity.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, transmission and diagnostic repairs at 211 15th Street, Panama City. Wider 35-mile service area not expanded to unnamed cities."
+    },
+    {
+      "name": "Dynamic Automotive & 4x4",
+      "website": "https://www.dynamicautomotiveand4x4.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.dynamicautomotiveand4x4.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Working official homepage offers engine, transmission, brake and electrical repairs at 1301 East 11th Street, Panama City and explicitly serves all Bay County, including Panama City Beach. Former James Auto Center and alternate dynamicautomotive4x4.com are the same identity; not counted separately."
+    },
+    {
+      "name": "Beach Auto Care",
+      "website": "https://www.beachautocarefl.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.beachautocarefl.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full auto repair at 20017 Panama City Beach Parkway and explicitly serves Panama City, the 30A area and Walton County (including Grayton Beach). Official /Panama-City.html confirms Panama City service; physical shop remains in Panama City Beach."
+    },
+    {
+      "name": "Sweeney's Diesel Repair",
+      "website": "https://www.sweeneysdieselrepair.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.sweeneysdieselrepair.com/about-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
+    }
+  ],
+  "heldCandidates": [
+    {
+      "name": "FixBay Auto Repair",
+      "website": "https://fixbayauto.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://fixbayauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers engine, brake, transmission and suspension repairs at 2626 W 23rd Street, Panama City. Panama City Beach not inferred from an abbreviated page title."
+    },
+    {
+      "name": "Top Auto Service",
+      "website": "https://www.topautoservicedestin.com/car-ac-repair/navarre-fl",
+      "regions": [
+        "destin-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "auto-mechanics",
+        "auto-body-collision",
+        "towing"
+      ],
+      "sourceUrl": "https://www.topautoservicedestin.com/car-ac-repair/navarre-fl",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Working official Navarre service page explicitly serves Navarre and identifies its Destin repair operation. Offers mechanical and transmission repairs, paint/body work, and towing to its shop. Official service page used as website because homepage fetch returned 502.",
+      "blocker": "Homepage, www/non-www and service page repeatedly return 502/503 on final verification; search index is insufficient for working-website requirement."
+    }
+  ],
+  "blockers": [
+    "Existing A1 Transmission & Auto Repair official a1panamacity.com now serves a Hostinger parked-domain page. Preserve existing record; do not count toward fresh verification. Replacement official URL unresolved.",
+    "FixBay Auto Repair and existing Garrett's Automotive both claim 2626 W 23rd Street. Different phones/apparent owners do not resolve successor/shared-location status. FixBay not imported; Garrett preserved but conservatively excluded from fresh milestone.",
+    "Top Auto Service homepage and service page return 502/503 on final checks. Earlier search/open content insufficient to override current unavailability. Candidate held; no listing imported.",
+    "Gagnon's Tire official procarcarezone subdomain returns 503. Randy's randystirespc.net returns 503; MobileFix getmobilefix.com unavailable. No imports.",
+    "Sal's Muffler domain redirects to unrelated French gambling content; excluded. Webb's official site unavailable and operating-status evidence conflicts; excluded.",
+    "D'Luxe repair site times out; related sales-only website does not verify repair. Destin Foreign Car official site unresolved. Danny's Garage, Magnuson Mobile and Certified Automotive have only social/directory evidence; not imported.",
+    "Generic Panama City Mobile Mechanic site does not establish a distinct local operator; held. Mark Adams has no working official website found. National chains remain excluded.",
+    "Miracle Strip mechanical/towing, Hewett towing and Mack's towing are referrals, not their own services. Neese roadside reimbursement is not towing. Those categories not added.",
+    "BCP Automotive, Emerald Coast Auto Repair, Expert Auto Repair and historical Kelley's block direct client with 403 but working official pages were freshly opened successfully. Alternate verification recorded."
+  ],
+  "deduplicationNotes": [
+    "Existing identities reused for Fort Walton Beach Auto & Body Repair, Allen Turner, David Scott Lee, Preston Hood, Bill Cramer, John Lee and Porsche of Destin.",
+    "Bill Cramer GMC/Cadillac sister sites, John Lee Nissan/Mazda/Mitsubishi and Gregg Orr sister dealers are not additional identities.",
+    "Emerald Coast Auto Repair owner also owns Bill's Transmission; counted once. Dynamic Automotive & 4x4/former James Auto Center and alternate dynamicautomotive4x4.com counted once; working domain includes and.",
+    "Emerald Coast Mobile Mechanic/Freeport Mobile Auto/Destin Limo LLC are one operator. Rhodes/KCK Ventures and alternate Rhodes domain, Stanton alternate domain, and Justin's related diesel operation counted once.",
+    "Main Street Automotive in Crestview is independent MainStreetAutomotiveFL, not national Main Street Auto/Day's Tire. Multiple Parkway branches count once.",
+    "CMT explicitly limited to commercial truck, bus and RV powertrain repair. Sweeney specializes in light/medium/heavy diesel vehicles. GerBear marine scope limited to smaller-vessel minor repairs. No passenger-car or full-service boat capability invented.",
+    "Unknown address, phone and email fields omitted. Category-specific evidence retained. No directory/social page used as official website."
+  ],
+  "reverifiedHistoricalPlacements": [
+    {
+      "name": "Trib's Auto Repair",
+      "website": "https://www.tribsauto.com/",
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.tribsauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full mechanical repair and explicitly serves Destin, Fort Walton Beach and Crestview; physical Fort Walton Beach shop."
+    },
+    {
+      "name": "Trib's Auto Repair",
+      "website": "https://www.tribsauto.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.tribsauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full mechanical repair and explicitly serves Destin, Fort Walton Beach and Crestview; physical Fort Walton Beach shop."
+    },
+    {
+      "name": "Trib's Auto Repair",
+      "website": "https://www.tribsauto.com/",
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.tribsauto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full mechanical repair and explicitly serves Destin, Fort Walton Beach and Crestview; physical Fort Walton Beach shop."
+    },
+    {
+      "name": "Torque Theory Automotive Repair LLC",
+      "website": "https://www.torquetheoryautomotive.com/",
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.torquetheoryautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Crestview repair facility and explicitly serves Destin and Fort Walton Beach. LLC/non-LLC name variants use one domain and identity."
+    },
+    {
+      "name": "M1 Performance Automotive",
+      "website": "https://www.m1performanceautomotive.com/",
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.m1performanceautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Bryce Moystner and mobile mechanical repairs explicitly in Destin, Fort Walton Beach and Crestview."
+    },
+    {
+      "name": "M1 Performance Automotive",
+      "website": "https://www.m1performanceautomotive.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.m1performanceautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Bryce Moystner and mobile mechanical repairs explicitly in Destin, Fort Walton Beach and Crestview."
+    },
+    {
+      "name": "M1 Performance Automotive",
+      "website": "https://www.m1performanceautomotive.com/",
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.m1performanceautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Bryce Moystner and mobile mechanical repairs explicitly in Destin, Fort Walton Beach and Crestview."
+    },
+    {
+      "name": "A-1 Auto & Diesel",
+      "website": "https://www.a1autoanddiesel.com/",
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.a1autoanddiesel.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers automotive/diesel repair and explicitly lists Destin, Fort Walton Beach and Crestview among service cities."
+    },
+    {
+      "name": "A-1 Auto & Diesel",
+      "website": "https://www.a1autoanddiesel.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.a1autoanddiesel.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers automotive/diesel repair and explicitly lists Destin, Fort Walton Beach and Crestview among service cities."
+    },
+    {
+      "name": "A-1 Auto & Diesel",
+      "website": "https://www.a1autoanddiesel.com/",
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.a1autoanddiesel.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers automotive/diesel repair and explicitly lists Destin, Fort Walton Beach and Crestview among service cities."
+    },
+    {
+      "name": "Mohrs' Automotive",
+      "website": "https://www.santarosabeachautorepair.com/",
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.santarosabeachautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full mechanical repairs and explicitly lists Destin, Fort Walton Beach and Crestview. Shop is Santa Rosa Beach; no fabricated city locations."
+    },
+    {
+      "name": "Mohrs' Automotive",
+      "website": "https://www.santarosabeachautorepair.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.santarosabeachautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full mechanical repairs and explicitly lists Destin, Fort Walton Beach and Crestview. Shop is Santa Rosa Beach; no fabricated city locations."
+    },
+    {
+      "name": "Mohrs' Automotive",
+      "website": "https://www.santarosabeachautorepair.com/",
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.santarosabeachautorepair.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full mechanical repairs and explicitly lists Destin, Fort Walton Beach and Crestview. Shop is Santa Rosa Beach; no fabricated city locations."
+    },
+    {
+      "name": "Torque Theory Automotive Repair",
+      "website": "https://www.torquetheoryautomotive.com/",
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.torquetheoryautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Crestview repair facility and explicitly serves Destin and Fort Walton Beach. LLC/non-LLC name variants use one domain and identity."
+    },
+    {
+      "name": "Torque Theory Automotive Repair",
+      "website": "https://www.torquetheoryautomotive.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.torquetheoryautomotive.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Crestview repair facility and explicitly serves Destin and Fort Walton Beach. LLC/non-LLC name variants use one domain and identity."
+    },
+    {
+      "name": "Ben's Automotive",
+      "website": "https://www.bens-auto.com/",
+      "region": "panama-city-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.bens-auto.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage confirms mechanical repair and physical Panama City shop at 2312 N East Avenue."
+    },
+    {
+      "name": "Bucks Auto Garage & Tire",
+      "website": "https://www.bucksautogarage.com/",
+      "region": "panama-city-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.bucksautogarage.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage confirms mechanical repair and physical Panama City shop at 2324 N East Avenue."
+    },
+    {
+      "name": "Grease Pro",
+      "website": "https://www.greasepro.com/",
+      "region": "panama-city-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.greasepro.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site confirms local Lovett-family operation and full mechanical repair at Panama City repair center. Multiple local locations counted once."
+    },
+    {
+      "name": "Kelley's Auto & Diesel Repair",
+      "website": "https://www.kelleysautoanddiesel.com/",
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.kelleysautoanddiesel.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies automotive/diesel repairs at 950 E Chestnut Avenue, Crestview; working content retrieved by web.open despite direct 403."
+    },
+    {
+      "name": "Destin Auto Center",
+      "website": "https://www.autoworksofdestin.com/",
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.autoworksofdestin.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Destin Auto Center/Auto Works of Destin at 221 Main Street, Destin and mechanical repair coverage in Fort Walton Beach."
+    },
+    {
+      "name": "Destin Auto Center",
+      "website": "https://www.autoworksofdestin.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "sourceUrl": "https://www.autoworksofdestin.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies Destin Auto Center/Auto Works of Destin at 221 Main Street, Destin and mechanical repair coverage in Fort Walton Beach."
+    }
+  ],
+  "freshCoverage": [
+    {
+      "region": "destin-fl",
+      "trade": "auto-mechanics",
+      "generatedCount": 20,
+      "freshlyVerifiedIndependentBusinessCount": 20,
+      "members": [
+        {
+          "name": "Trib's Auto Repair",
+          "website": "https://www.tribsauto.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.tribsauto.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full mechanical repair and explicitly serves Destin, Fort Walton Beach and Crestview; physical Fort Walton Beach shop."
+        },
+        {
+          "name": "M1 Performance Automotive",
+          "website": "https://www.m1performanceautomotive.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.m1performanceautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Bryce Moystner and mobile mechanical repairs explicitly in Destin, Fort Walton Beach and Crestview."
+        },
+        {
+          "name": "A-1 Auto & Diesel",
+          "website": "https://www.a1autoanddiesel.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.a1autoanddiesel.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers automotive/diesel repair and explicitly lists Destin, Fort Walton Beach and Crestview among service cities."
+        },
+        {
+          "name": "Mohrs' Automotive",
+          "website": "https://www.santarosabeachautorepair.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.santarosabeachautorepair.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full mechanical repairs and explicitly lists Destin, Fort Walton Beach and Crestview. Shop is Santa Rosa Beach; no fabricated city locations."
+        },
+        {
+          "name": "Torque Theory Automotive Repair",
+          "website": "https://www.torquetheoryautomotive.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.torquetheoryautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Crestview repair facility and explicitly serves Destin and Fort Walton Beach. LLC/non-LLC name variants use one domain and identity."
+        },
+        {
+          "name": "Destin Auto Center",
+          "website": "https://www.autoworksofdestin.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.autoworksofdestin.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Destin Auto Center/Auto Works of Destin at 221 Main Street, Destin and mechanical repair coverage in Fort Walton Beach."
+        },
+        {
+          "name": "Rhodes Auto Repair",
+          "website": "https://www.autorepairsdestin.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.autorepairsdestin.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage lists full mechanical repair services and 24/7 towing/wrecker service at 327 Mountain Drive, Destin. Rhodes/KCK Ventures and alternate rhodesautorepairdestin.com are one identity."
+        },
+        {
+          "name": "Neese Automotive and Diesel Repair",
+          "website": "https://neeseautomotive.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://neeseautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage lists engine, brake, clutch and other repairs and explicitly serves Fort Walton Beach, Destin and Navarre. Roadside reimbursement benefit not counted as an owned towing operation."
+        },
+        {
+          "name": "Emerald Coast Mobile Mechanic",
+          "website": "https://emeraldcoastmobilemechanic.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://emeraldcoastmobilemechanic.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers on-site automotive/diesel diagnostics and repair; its Service Area section explicitly names every included city. Operated by Destin Limo LLC, with Florida repair registration MV150182. No towing service inferred from roadside repairs. Website metadata also uses Freeport Mobile Auto; same operator and domain, not an additional identity."
+        },
+        {
+          "name": "GerBear's Certified Mobile Repair",
+          "website": "https://www.gerbearscertifiedmobilerepair.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official Navarre service page explicitly lists mobile mechanical repair in Navarre, Fort Walton Beach, Destin and Crestview. Service includes engine diagnostics, brake and diesel repairs; no towing inferred."
+        },
+        {
+          "name": "Preston Hood Chevrolet",
+          "website": "https://www.prestonhood.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.prestonhood.com/locations/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official regional-locations page explicitly serves the included cities and offers mechanical service through major accident repair. Official /service/ confirms engine diagnostics and brake repairs at the Fort Walton Beach shop. Existing dealership identity reused."
+        },
+        {
+          "name": "Bill Cramer Chevrolet",
+          "website": "https://www.billcramergm.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.billcramergm.com/service/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service page identifies Panama City repair facility at 2251 W 23rd Street and explicitly offers vehicle service and auto body repairs for Destin and Fort Walton customers. GMC/Cadillac sister sites are one business identity, not extra listings."
+        },
+        {
+          "name": "Executive Automotive Management",
+          "website": "https://www.eamfwb.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.eamfwb.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage explicitly offers independent European and Asian auto repairs serving Fort Walton Beach and Destin. Business service text supplies evidence; embedded third-party reviews are not used."
+        },
+        {
+          "name": "Seaside Auto Care",
+          "website": "https://www.seasideautocare.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.seasideautocare.com/our-services",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers mobile engine, brake, cooling and electrical repairs and explicitly identifies service in Panama City Beach. Its Our Services page and Destin contact address confirm Destin service. No Panama City coverage inferred."
+        },
+        {
+          "name": "CMT Diagnostics and Repair",
+          "website": "https://www.cmtdiag.pro/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.cmtdiag.pro/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Fresh direct HTTP 200 homepage offers diesel-truck, fleet and RV powertrain mechanical repair and explicitly lists all included cities. Scope is commercial trucks and RVs; older search copy offering general passenger-car repair was not relied on. The Southport facility uses a Panama City postal address."
+        },
+        {
+          "name": "Stinehardt Imports",
+          "website": "https://stinehardtimports.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://stinehardtimports.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers European/Asian diagnostics, engine, suspension, brake and electrical repairs and explicitly serves Destin, Fort Walton Beach and Navarre. Physical shop is in Valparaiso; no location in the served cities invented."
+        },
+        {
+          "name": "Porsche of Destin",
+          "website": "https://www.porscheofdestin.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.porscheofdestin.com/service/index.htm",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service-center page offers Porsche maintenance and repair at 808 Airport Road, Destin. Existing dealership identity reused; other Gregg Orr dealerships are not counted as additional identities."
+        },
+        {
+          "name": "Destin Imports",
+          "website": "https://destinimports.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://destinimports.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies its Destin operation and offers BMW/Mercedes, European and Tesla diagnostics, programming and mechanical repairs. Distinct from Destin Auto Center/Auto Works of Destin."
+        },
+        {
+          "name": "Destin Tech",
+          "website": "https://destintech.net/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://destintech.net/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers brake, engine-replacement, radiator and other mechanical repairs at 168 Industrial Park Road, Destin. It explicitly excludes oil changes and tires. Owner/phone matches Destin Tech; Johnny mechanic references are not another identity."
+        },
+        {
+          "name": "Sweeney's Diesel Repair",
+          "website": "https://www.sweeneysdieselrepair.com/",
+          "region": "destin-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.sweeneysdieselrepair.com/about-us",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
+        }
+      ],
+      "publicationStatus": "pending deployment"
+    },
+    {
+      "region": "fort-walton-beach-fl",
+      "trade": "auto-mechanics",
+      "generatedCount": 26,
+      "freshlyVerifiedIndependentBusinessCount": 26,
+      "members": [
+        {
+          "name": "Trib's Auto Repair",
+          "website": "https://www.tribsauto.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.tribsauto.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full mechanical repair and explicitly serves Destin, Fort Walton Beach and Crestview; physical Fort Walton Beach shop."
+        },
+        {
+          "name": "M1 Performance Automotive",
+          "website": "https://www.m1performanceautomotive.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.m1performanceautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Bryce Moystner and mobile mechanical repairs explicitly in Destin, Fort Walton Beach and Crestview."
+        },
+        {
+          "name": "A-1 Auto & Diesel",
+          "website": "https://www.a1autoanddiesel.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.a1autoanddiesel.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers automotive/diesel repair and explicitly lists Destin, Fort Walton Beach and Crestview among service cities."
+        },
+        {
+          "name": "Mohrs' Automotive",
+          "website": "https://www.santarosabeachautorepair.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.santarosabeachautorepair.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full mechanical repairs and explicitly lists Destin, Fort Walton Beach and Crestview. Shop is Santa Rosa Beach; no fabricated city locations."
+        },
+        {
+          "name": "Torque Theory Automotive Repair",
+          "website": "https://www.torquetheoryautomotive.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.torquetheoryautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Crestview repair facility and explicitly serves Destin and Fort Walton Beach. LLC/non-LLC name variants use one domain and identity."
+        },
+        {
+          "name": "Destin Auto Center",
+          "website": "https://www.autoworksofdestin.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.autoworksofdestin.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Destin Auto Center/Auto Works of Destin at 221 Main Street, Destin and mechanical repair coverage in Fort Walton Beach."
+        },
+        {
+          "name": "Crestview Tire & Wheel",
+          "website": "https://www.crestviewtire.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.crestviewtire.com/Auto-Repair",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official auto-repair page explicitly serves Crestview and Fort Walton Beach and lists brake repair, engine diagnostics, cooling and other mechanical repairs. Physical shop in Crestview."
+        },
+        {
+          "name": "Holmes Auto Repair",
+          "website": "https://www.holmesautorepair.net/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.holmesautorepair.net/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage explicitly offers automotive repair and towing at 15 Robinwood Drive SW, Fort Walton Beach; independent local repair business with NAPA affiliation."
+        },
+        {
+          "name": "Playground Auto Service",
+          "website": "https://playgroundauto.net/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://playgroundauto.net/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies family-owned automotive repair and towing business at 12 Hollywood Boulevard, Fort Walton Beach. NAPA/AAA affiliations are not separate business identities."
+        },
+        {
+          "name": "Neese Automotive and Diesel Repair",
+          "website": "https://neeseautomotive.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://neeseautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage lists engine, brake, clutch and other repairs and explicitly serves Fort Walton Beach, Destin and Navarre. Roadside reimbursement benefit not counted as an owned towing operation."
+        },
+        {
+          "name": "Fort Walton Radiator Auto Air & Repair",
+          "website": "https://www.fwrad.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.fwrad.com/Fort-Walton-Beach-auto-repairs.html",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official Our Shop page offers full-service auto repair, brakes, transmission and electrical repairs at 39 Perry Avenue SE, Fort Walton Beach."
+        },
+        {
+          "name": "Al's Auto Repair & Service",
+          "website": "https://alsautorepairfwb.com/services/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://alsautorepairfwb.com/services/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official services page offers complete mechanical repair for domestic/import cars and trucks at 356 Eglin Parkway NE, Fort Walton Beach. Working official services page used as website because root page timed out."
+        },
+        {
+          "name": "Motor Man Auto Repair",
+          "website": "https://motormanllc.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://motormanllc.com/services/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official services page lists diagnostics, engine, brake, suspension, electrical and transmission repairs at 679 Denton Boulevard NW, Fort Walton Beach."
+        },
+        {
+          "name": "McLeod's Automotive Repair",
+          "website": "https://www.mcleodsautoandmobility.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.mcleodsautoandmobility.com/about%20us.htm",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official About Us page identifies family-owned auto repair business at 208 NE Racetrack Road, Fort Walton Beach; owner Chad McLeod."
+        },
+        {
+          "name": "Fort Walton Beach Auto & Body Repair",
+          "website": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.fortwaltonbeachautoandbodyrepair.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers mechanical engine and diesel repairs and towing to its shop at 126 McGriff Street Unit 1, Fort Walton Beach. Existing body-repair business identity reused."
+        },
+        {
+          "name": "Emerald Coast Mobile Mechanic",
+          "website": "https://emeraldcoastmobilemechanic.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://emeraldcoastmobilemechanic.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers on-site automotive/diesel diagnostics and repair; its Service Area section explicitly names every included city. Operated by Destin Limo LLC, with Florida repair registration MV150182. No towing service inferred from roadside repairs. Website metadata also uses Freeport Mobile Auto; same operator and domain, not an additional identity."
+        },
+        {
+          "name": "GerBear's Certified Mobile Repair",
+          "website": "https://www.gerbearscertifiedmobilerepair.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official Navarre service page explicitly lists mobile mechanical repair in Navarre, Fort Walton Beach, Destin and Crestview. Service includes engine diagnostics, brake and diesel repairs; no towing inferred."
+        },
+        {
+          "name": "Baier's Auto Time",
+          "website": "https://www.baiersautotime.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.baiersautotime.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers engine, brake, transmission, cooling and electrical repairs at 207 Hickory Street, Fort Walton Beach. Testimonial mentions of other cities are not used as geographic evidence."
+        },
+        {
+          "name": "BCP Automotive",
+          "website": "https://bcpauto.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://bcpauto.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers diagnostic and mechanical repair by appointment at 966 McFarlan Avenue, Fort Walton Beach; identifies a veteran-owned family operation."
+        },
+        {
+          "name": "Allen Turner Chevrolet",
+          "website": "https://www.allenturnerchevrolet.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.allenturnerchevrolet.com/service/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service-center page identifies the Crestview facility at 4150 S Ferdon Boulevard and explicitly serves Crestview, Fort Walton Beach and Milton. Offers Chevrolet diagnostics, repair and complex powertrain work; existing dealership identity reused."
+        },
+        {
+          "name": "Preston Hood Chevrolet",
+          "website": "https://www.prestonhood.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.prestonhood.com/locations/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official regional-locations page explicitly serves the included cities and offers mechanical service through major accident repair. Official /service/ confirms engine diagnostics and brake repairs at the Fort Walton Beach shop. Existing dealership identity reused."
+        },
+        {
+          "name": "Bill Cramer Chevrolet",
+          "website": "https://www.billcramergm.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.billcramergm.com/service/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service page identifies Panama City repair facility at 2251 W 23rd Street and explicitly offers vehicle service and auto body repairs for Destin and Fort Walton customers. GMC/Cadillac sister sites are one business identity, not extra listings."
+        },
+        {
+          "name": "Executive Automotive Management",
+          "website": "https://www.eamfwb.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.eamfwb.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage explicitly offers independent European and Asian auto repairs serving Fort Walton Beach and Destin. Business service text supplies evidence; embedded third-party reviews are not used."
+        },
+        {
+          "name": "CMT Diagnostics and Repair",
+          "website": "https://www.cmtdiag.pro/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.cmtdiag.pro/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Fresh direct HTTP 200 homepage offers diesel-truck, fleet and RV powertrain mechanical repair and explicitly lists all included cities. Scope is commercial trucks and RVs; older search copy offering general passenger-car repair was not relied on. The Southport facility uses a Panama City postal address."
+        },
+        {
+          "name": "Stinehardt Imports",
+          "website": "https://stinehardtimports.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://stinehardtimports.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers European/Asian diagnostics, engine, suspension, brake and electrical repairs and explicitly serves Destin, Fort Walton Beach and Navarre. Physical shop is in Valparaiso; no location in the served cities invented."
+        },
+        {
+          "name": "Sweeney's Diesel Repair",
+          "website": "https://www.sweeneysdieselrepair.com/",
+          "region": "fort-walton-beach-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.sweeneysdieselrepair.com/about-us",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
+        }
+      ],
+      "publicationStatus": "pending deployment"
+    },
+    {
+      "region": "crestview-fl",
+      "trade": "auto-mechanics",
+      "generatedCount": 23,
+      "freshlyVerifiedIndependentBusinessCount": 23,
+      "members": [
+        {
+          "name": "Trib's Auto Repair",
+          "website": "https://www.tribsauto.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.tribsauto.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full mechanical repair and explicitly serves Destin, Fort Walton Beach and Crestview; physical Fort Walton Beach shop."
+        },
+        {
+          "name": "Torque Theory Automotive Repair LLC",
+          "website": "https://www.torquetheoryautomotive.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.torquetheoryautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Crestview repair facility and explicitly serves Destin and Fort Walton Beach. LLC/non-LLC name variants use one domain and identity."
+        },
+        {
+          "name": "M1 Performance Automotive",
+          "website": "https://www.m1performanceautomotive.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.m1performanceautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Bryce Moystner and mobile mechanical repairs explicitly in Destin, Fort Walton Beach and Crestview."
+        },
+        {
+          "name": "A-1 Auto & Diesel",
+          "website": "https://www.a1autoanddiesel.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.a1autoanddiesel.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers automotive/diesel repair and explicitly lists Destin, Fort Walton Beach and Crestview among service cities."
+        },
+        {
+          "name": "Mohrs' Automotive",
+          "website": "https://www.santarosabeachautorepair.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.santarosabeachautorepair.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full mechanical repairs and explicitly lists Destin, Fort Walton Beach and Crestview. Shop is Santa Rosa Beach; no fabricated city locations."
+        },
+        {
+          "name": "Kelley's Auto & Diesel Repair",
+          "website": "https://www.kelleysautoanddiesel.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.kelleysautoanddiesel.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies automotive/diesel repairs at 950 E Chestnut Avenue, Crestview; working content retrieved by web.open despite direct 403."
+        },
+        {
+          "name": "Main Street Automotive",
+          "website": "https://mainstreetautomotivefl.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://mainstreetautomotivefl.com/services/general-auto-repair/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official general-auto-repair page offers diagnostics, cooling, air conditioning and driveline service at 605 S Main Street, Crestview. Homepage redirects to this same business service page."
+        },
+        {
+          "name": "Crestview Tire & Wheel",
+          "website": "https://www.crestviewtire.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.crestviewtire.com/Auto-Repair",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official auto-repair page explicitly serves Crestview and Fort Walton Beach and lists brake repair, engine diagnostics, cooling and other mechanical repairs. Physical shop in Crestview."
+        },
+        {
+          "name": "Justin's Diesel and Auto Repair",
+          "website": "https://www.justinsdieselandautorepair.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.justinsdieselandautorepair.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies full-service automotive and light-duty diesel repairs at 133 Cayson Avenue, Crestview. Related Holt heavy-truck operation not counted as a second identity."
+        },
+        {
+          "name": "Northwest Florida Mobile Mechanic",
+          "website": "https://mobile-mechanic.net/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://mobile-mechanic.net/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies Northwest Florida Mobile Mechanic and explicitly offers on-site diagnostics, brake, suspension, cooling and electrical repairs in Crestview. No neighboring-city coverage inferred."
+        },
+        {
+          "name": "Stanton Automotive",
+          "website": "https://stantonautomotive.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://stantonautomotive.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official site offers auto repair in Crestview and identifies its shop at 861 W James Lee Boulevard. Alternate stantonautomotiveinc.com is not a separate business."
+        },
+        {
+          "name": "Leavins Automotive",
+          "website": "https://www.leavinsautomotive.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.leavinsautomotive.com/Crestview-auto-repairs.html",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official Our Shop page confirms full mechanical repair services at 496 South Main Street, Crestview. Official /Crestview-towing-services.html explicitly offers towing to its own shop only; this limitation applies."
+        },
+        {
+          "name": "Dellines Inc",
+          "website": "https://dellinesinc.wixsite.com/dellines-inc",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://dellinesinc.wixsite.com/dellines-inc",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Business-owned Wix website explicitly identifies Crestview in its page title and lists brake, engine, cooling, electrical and transmission repairs. No street address supplied; no neighboring-city coverage inferred."
+        },
+        {
+          "name": "Emerald Coast Mobile Mechanic",
+          "website": "https://emeraldcoastmobilemechanic.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://emeraldcoastmobilemechanic.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers on-site automotive/diesel diagnostics and repair; its Service Area section explicitly names every included city. Operated by Destin Limo LLC, with Florida repair registration MV150182. No towing service inferred from roadside repairs. Website metadata also uses Freeport Mobile Auto; same operator and domain, not an additional identity."
+        },
+        {
+          "name": "Monkey with a Wrench",
+          "website": "https://monkeywithawrench.wixsite.com/smwt",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://monkeywithawrench.wixsite.com/smwt",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official business-owned Wix homepage identifies its Crestview automotive repair facility and mobile repair service, with repair registration MV107660. No additional cities inferred."
+        },
+        {
+          "name": "GerBear's Certified Mobile Repair",
+          "website": "https://www.gerbearscertifiedmobilerepair.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.gerbearscertifiedmobilerepair.com/navarre-mobile-mechanic",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official Navarre service page explicitly lists mobile mechanical repair in Navarre, Fort Walton Beach, Destin and Crestview. Service includes engine diagnostics, brake and diesel repairs; no towing inferred."
+        },
+        {
+          "name": "Mack's Auto-Tech",
+          "website": "https://macksautotech.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://macksautotech.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage lists engine, transmission, brake, suspension and cooling repairs at 101 John King Road, Crestview. External towing references are not treated as its own towing service."
+        },
+        {
+          "name": "Rustic Automotive",
+          "website": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://therusticautomotiv.wixsite.com/rusticautomotive",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official business-owned Wix website offers diagnostics, brake work and automotive repair at 133 Aplin Road, Crestview."
+        },
+        {
+          "name": "Allen Turner Chevrolet",
+          "website": "https://www.allenturnerchevrolet.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.allenturnerchevrolet.com/service/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service-center page identifies the Crestview facility at 4150 S Ferdon Boulevard and explicitly serves Crestview, Fort Walton Beach and Milton. Offers Chevrolet diagnostics, repair and complex powertrain work; existing dealership identity reused."
+        },
+        {
+          "name": "David Scott Lee Buick GMC",
+          "website": "https://www.crestviewbuickgmc.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.crestviewbuickgmc.com/service/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service-center page offers vehicle diagnostics, brake and mechanical service at 4300 S Ferdon Boulevard, Crestview. Existing dealership identity reused; Buick/GMC specialization retained."
+        },
+        {
+          "name": "Preston Hood Chevrolet",
+          "website": "https://www.prestonhood.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.prestonhood.com/locations/chevrolet-dealer-crestview-fl/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official Crestview location-service page explicitly offers mechanical vehicle repair and maintenance for this city, at its Fort Walton Beach repair facility. Existing identity reused."
+        },
+        {
+          "name": "CMT Diagnostics and Repair",
+          "website": "https://www.cmtdiag.pro/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.cmtdiag.pro/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Fresh direct HTTP 200 homepage offers diesel-truck, fleet and RV powertrain mechanical repair and explicitly lists all included cities. Scope is commercial trucks and RVs; older search copy offering general passenger-car repair was not relied on. The Southport facility uses a Panama City postal address."
+        },
+        {
+          "name": "Sweeney's Diesel Repair",
+          "website": "https://www.sweeneysdieselrepair.com/",
+          "region": "crestview-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.sweeneysdieselrepair.com/about-us",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
+        }
+      ],
+      "publicationStatus": "pending deployment"
+    },
+    {
+      "region": "panama-city-fl",
+      "trade": "auto-mechanics",
+      "generatedCount": 23,
+      "freshlyVerifiedIndependentBusinessCount": 21,
+      "members": [
+        {
+          "name": "Ben's Automotive",
+          "website": "https://www.bens-auto.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.bens-auto.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage confirms mechanical repair and physical Panama City shop at 2312 N East Avenue."
+        },
+        {
+          "name": "Bucks Auto Garage & Tire",
+          "website": "https://www.bucksautogarage.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.bucksautogarage.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage confirms mechanical repair and physical Panama City shop at 2324 N East Avenue."
+        },
+        {
+          "name": "Grease Pro",
+          "website": "https://www.greasepro.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.greasepro.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official site confirms local Lovett-family operation and full mechanical repair at Panama City repair center. Multiple local locations counted once."
+        },
+        {
+          "name": "Emerald Coast Auto Repair",
+          "website": "https://emeraldcoastautorepairpc.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://emeraldcoastautorepairpc.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers engine, brake, suspension and diagnostic repairs at 1115 W 15th Street, Panama City. Owner Brandon Hill also owns Bills Transmission; that related operation is not counted as an additional identity."
+        },
+        {
+          "name": "Flintstone Mobile Mechanics",
+          "website": "https://flintstonemechanics.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://flintstonemechanics.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers on-site brake, engine-diagnostic, electrical and cooling repairs; Contact & Hours explicitly lists both Panama City and Panama City Beach. Jump starts and tire changes not counted as towing."
+        },
+        {
+          "name": "19th Street Auto Center",
+          "website": "https://www.19thstreetautocenter.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.19thstreetautocenter.com/services",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official services page offers brakes, diagnostics and transmission repairs at 1220 W 19th Street, Panama City. Similar 19th Auto Repair site is held for identity resolution, not a second listing."
+        },
+        {
+          "name": "Hewett Tire & Auto Center",
+          "website": "https://www.hewetttire.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.hewetttire.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers automotive repairs and explicitly serves Panama City and Panama City Beach. Physical shop at 517 Airport Road, Panama City. Towing is referred to Home Town Towing, so excluded from towing category."
+        },
+        {
+          "name": "Parkway Tire & Service",
+          "website": "https://www.parkwaytire.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.parkwaytire.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies full-service mechanical repairs, a Panama City Beach shop, and explicit service to Panama City customers. Callaway and beach branches counted as one business identity."
+        },
+        {
+          "name": "Emerald Coast Mobile Mechanic",
+          "website": "https://emeraldcoastmobilemechanic.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://emeraldcoastmobilemechanic.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers on-site automotive/diesel diagnostics and repair; its Service Area section explicitly names every included city. Operated by Destin Limo LLC, with Florida repair registration MV150182. No towing service inferred from roadside repairs. Website metadata also uses Freeport Mobile Auto; same operator and domain, not an additional identity."
+        },
+        {
+          "name": "Callaway Automotive Repair & Services",
+          "website": "https://www.callawayautorepair.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.callawayautorepair.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage explicitly serves Bay County and offers diagnostic, brake, steering, cooling and electrical repairs. Panama City and Panama City Beach are both within its stated county service area; physical shop is in Callaway, not misrepresented as either city."
+        },
+        {
+          "name": "Shapard Automotive LLC",
+          "website": "https://www.shapardauto.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.shapardauto.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers major service and repairs for Ferrari and other European makes at 1927 W 27th Street, Panama City. Specialty vehicle scope retained; no body-repair category inferred from mechanical restoration."
+        },
+        {
+          "name": "Brothers By Boost",
+          "website": "https://brothersbyboost.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://brothersbyboost.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies automotive service and repair at 1615 Transmitter Road, Panama City, with direct business contact details. No beach-city coverage inferred."
+        },
+        {
+          "name": "Expert Auto Repair",
+          "website": "https://expertautopc.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://expertautopc.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage identifies owner Shawn Brown and offers engine, brake, transmission and other repairs at 1923 N East Avenue, Panama City. No Panama City Beach coverage inferred."
+        },
+        {
+          "name": "Preston Hood Chevrolet",
+          "website": "https://www.prestonhood.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.prestonhood.com/locations/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official regional-locations page explicitly serves the included cities and offers mechanical service through major accident repair. Official /service/ confirms engine diagnostics and brake repairs at the Fort Walton Beach shop. Existing dealership identity reused."
+        },
+        {
+          "name": "Bill Cramer Chevrolet",
+          "website": "https://www.billcramergm.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.billcramergm.com/service/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service page identifies Panama City repair facility at 2251 W 23rd Street and explicitly offers vehicle service and auto body repairs for Destin and Fort Walton customers. GMC/Cadillac sister sites are one business identity, not extra listings."
+        },
+        {
+          "name": "John Lee Collision & Body Repair Center",
+          "website": "https://johnleenissan.com/body-shop",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://johnleenissan.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official John Lee homepage identifies its Panama City facility, all-Bay-County service area, ASE-trained technicians and vehicle repair department. Existing John Lee collision-center identity reused across services; no separate Nissan/Mazda/Mitsubishi identity added."
+        },
+        {
+          "name": "CMT Diagnostics and Repair",
+          "website": "https://www.cmtdiag.pro/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.cmtdiag.pro/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Fresh direct HTTP 200 homepage offers diesel-truck, fleet and RV powertrain mechanical repair and explicitly lists all included cities. Scope is commercial trucks and RVs; older search copy offering general passenger-car repair was not relied on. The Southport facility uses a Panama City postal address."
+        },
+        {
+          "name": "Panama City Toyota",
+          "website": "https://www.panamacitytoyota.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.panamacitytoyota.com/service",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official service page offers vehicle maintenance, brake, battery and mechanical repair at 959 West 15th Street, Panama City. Official /aboutus.aspx states same family ownership since the early 1990s and service for virtually all makes. No additional cities inferred."
+        },
+        {
+          "name": "First Choice Auto Mechanic",
+          "website": "https://www.autorepairshoppanamacity.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.autorepairshoppanamacity.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers engine, brake, transmission and diagnostic repairs at 211 15th Street, Panama City. Wider 35-mile service area not expanded to unnamed cities."
+        },
+        {
+          "name": "Dynamic Automotive & 4x4",
+          "website": "https://www.dynamicautomotiveand4x4.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.dynamicautomotiveand4x4.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Working official homepage offers engine, transmission, brake and electrical repairs at 1301 East 11th Street, Panama City and explicitly serves all Bay County, including Panama City Beach. Former James Auto Center and alternate dynamicautomotive4x4.com are the same identity; not counted separately."
+        },
+        {
+          "name": "Beach Auto Care",
+          "website": "https://www.beachautocarefl.com/",
+          "region": "panama-city-fl",
+          "trade": "auto-mechanics",
+          "sourceUrl": "https://www.beachautocarefl.com/",
+          "sourceVerifiedAt": "2026-10-30",
+          "evidenceNote": "Official homepage offers full auto repair at 20017 Panama City Beach Parkway and explicitly serves Panama City, the 30A area and Walton County (including Grayton Beach). Official /Panama-City.html confirms Panama City service; physical shop remains in Panama City Beach."
+        }
+      ],
+      "publicationStatus": "pending deployment"
+    }
+  ],
+  "concurrencyCheck": {
+    "main": "e38e58db6e2ad39c149f60b89cc2aad687ee8891",
+    "openPullRequests": 0,
+    "queuedActions": 0,
+    "inProgressActions": 0,
+    "fillAutomationLastRecordedStatus": "completed",
+    "checkedOn": "2026-10-30",
+    "writeProtection": "Expected-head compare-and-swap; no force push."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "verifiedAt": "2026-10-30",
+  "baselineCommit": "e38e58db6e2ad39c149f60b89cc2aad687ee8891",
+  "priorSeedRecords": 6960,
+  "finalSeedRecords": 7074,
+  "preservedPriorRecords": 6960,
+  "unchangedPriorSourceRecords": 1556,
+  "addedPlacements": 114,
+  "distinctBusinessIdentities": 51,
+  "newBusinessIdentities": 44,
+  "existingBusinessServiceExtensions": 7,
+  "uniqueIds": true,
+  "newNormalizedDomainCityTradeDuplicates": 0,
+  "validActiveSlugs": true,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "target": 20,
+  "projectedPairsAtTarget": 23,
+  "projectedDeficit": 18256,
+  "projectedEmpty": 64,
+  "byCity": {
+    "crestview-fl": 18,
+    "destin-fl": 18,
+    "dothan-al": 1,
+    "fort-walton-beach-fl": 27,
+    "grayton-beach-fl": 2,
+    "gulf-breeze-fl": 1,
+    "milton-fl": 4,
+    "navarre-fl": 7,
+    "pace-fl": 1,
+    "panama-city-beach-fl": 11,
+    "panama-city-fl": 20,
+    "pensacola-fl": 3,
+    "perdido-key-fl": 1
+  },
+  "byCategory": {
+    "auto-body-collision": 10,
+    "auto-mechanics": 96,
+    "marine-services": 3,
+    "towing": 5
+  },
+  "notes": [
+    "Only append-only source data and research/checkpoint files changed.",
+    "Counts are generated coverage, not fresh independent verification of every historical website.",
+    "No five-listing cap in seed pipeline; current audit minimum already 20.",
+    "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+  ]
+}

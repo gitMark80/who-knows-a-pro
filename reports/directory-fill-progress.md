@@ -419,3 +419,19 @@ Resume after checking live deployment and current main: use the fresh full audit
 - Projected restoration coverage: Destin 19, Fort Walton Beach 17, Crestview 15, Panama City 14. Projected overall count milestones remain 19/1,200, count deficit 18,358, 65 empty. No new target milestone or publication is claimed until post-deployment checks.
 - Verification blockers: inaccessible Preferred Environmental, Latitude 30A and PRR websites; stale Anderson water-restoration snippets; testing-only firms; incomplete official-site evidence for other local candidates. Restore Pensacola Bay/Walton expansion held because its dedicated service-area page conflicts. Preserve existing records; no deletion performed.
 - Continue from fresh main and live audit. Priority lowest counts in Destin, Fort Walton Beach, Crestview and Panama City, then Pensacola outward. Restoration shortages remain; continue other low categories rather than pad with chains, assessors, referrals or unsupported service areas.
+
+
+## 2026-10-30 continuing fill — restoration batch live confirmation
+
+- Commit e38e58db6e2ad39c149f60b89cc2aad687ee8891 deployed successfully. All 106 additions verified across 23 live category pages and all 26 business profiles. First three batches this run: **509 published placements**.
+- Fresh full audit: 19/1,200 active combinations at 20 by live count, 1,181 below, 65 empty, deficit 18,358. Evidence saved in live-fill-again3-2026-10-30.json, profiles-fill-again3-2026-10-30.json, coverage-fill-again3-2026-10-30.csv.
+
+## 2026-10-30 continuing fill — automotive batch prepared
+
+- Latest baseline main e38e58db6e2ad39c149f60b89cc2aad687ee8891; no open PRs, queued/in-progress Actions, or active recorded scheduled fill. Prepared **114 placements from 51 business identities (44 new, seven existing service extensions)** across 13 cities. Categories: 96 auto mechanics, ten auto body/collision, five towing and three marine services.
+- All 6,960 prior seed records and 1,556 raw source records unchanged; generated seed total 7,074. Schema/JSON, active slugs, unique IDs and normalized-domain city/category checks pass. Two duplicate candidate placements skipped. Source evidence, content hashes, category limitations, aliases and blockers saved in verified-fill-again4-2026-10-30.json.
+- 71 candidate website/evidence URLs checked: 68 direct HTTP 200, three direct 403 with successfully retrieved official content through web.open. Twelve historical mechanic websites also rechecked: ten relevant HTTP 200, Kelley's successful web.open despite direct 403, and A1 Panama City parked. Existing A1 preserved but excluded from fresh milestone. Garrett/FixBay shared-address uncertainty also excluded from fresh milestone; FixBay not imported. Top Auto held for repeated 502/503.
+- Projected mechanic counts / independently verified: Destin 20/20; Fort Walton Beach 26/26; Crestview 23/23; Panama City 23/21. Specialized diesel and RV repair scopes explicitly recorded. No additional cities inferred from reviews, proximity or postal labels.
+- Projected overall coverage: 23/1,200 active combinations at 20, 1,177 below, 64 empty, deficit 18,256. These remain projections until live checks. Current source-of-truth catalog is 40 cities × 30 active categories; ten retired categories and national-chain exclusions preserved.
+- Additions by city: crestview-fl: +18, destin-fl: +18, dothan-al: +1, fort-walton-beach-fl: +27, grayton-beach-fl: +2, gulf-breeze-fl: +1, milton-fl: +4, navarre-fl: +7, pace-fl: +1, panama-city-beach-fl: +11, panama-city-fl: +20, pensacola-fl: +3, perdido-key-fl: +1.
+- Next: confirm Vercel publication, all added live placements and profiles, then refresh entire coverage CSV. Continue lowest verified counts in Destin, Fort Walton Beach, Crestview and Panama City, then nearby gaps outward from Pensacola. Genuine shortages and blocked official sites remain; do not claim directory-wide completion or pause automation.
