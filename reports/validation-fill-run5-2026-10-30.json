@@ -1,0 +1,55 @@
+{
+  "verifiedAt": "2026-10-30T08:05:48Z",
+  "baselineCommit": "c507f9e3f7145a43cf1ddf810cc16f0367dd76be",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "activeCombinationCount": 1200,
+  "graytonBeachActive": true,
+  "pensacolaBeachActive": false,
+  "panamaCityDistinctFromPanamaCityBeach": true,
+  "sourceRecordCountBefore": 1611,
+  "sourceRecordCountAfter": 1619,
+  "generatedSeedCountBefore": 7074,
+  "generatedSeedCountAfter": 7101,
+  "addedPlacements": 27,
+  "changedPriorRecords": 0,
+  "priorRecordsUnchanged": true,
+  "invalidCatalogSlugs": [],
+  "duplicateCityCategoryNormalizedDomains": [],
+  "missingRequiredFieldsInNewRecords": [],
+  "officialWebsiteChecks": {
+    "checkedUrls": 15,
+    "http200": 15,
+    "failed": 0
+  },
+  "preparedCoverage": {
+    "atOrAbove20": 23,
+    "below20": 1177,
+    "empty": 64,
+    "deficit": 18229
+  },
+  "affectedPriorityCounts": {
+    "destin-fl": {
+      "appliance-repair": 6,
+      "insulation": 12
+    },
+    "fort-walton-beach-fl": {
+      "insulation": 10
+    },
+    "crestview-fl": {
+      "insulation": 11
+    },
+    "panama-city-fl": {
+      "appliance-repair": 7,
+      "insulation": 6,
+      "pool-service": 7
+    }
+  },
+  "validationStatus": "passed",
+  "notes": [
+    "No catalog, application, claimed, paid-placement, billing, or user-submitted data changed.",
+    "No paid API or Foursquare call was made.",
+    "Lint command could not start because eslint is absent from the recovered worktree dependencies; data generation and structural checks passed."
+  ]
+}

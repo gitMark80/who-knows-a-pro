@@ -1,0 +1,199 @@
+{
+  "verifiedAt": "2026-10-30T08:05:48Z",
+  "run": "scheduled continuation, 2026-10-30 07:56 UTC",
+  "baselineCommit": "c507f9e3f7145a43cf1ddf810cc16f0367dd76be",
+  "target": 20,
+  "activeCities": 40,
+  "activeCategories": 30,
+  "totalActiveCombinations": 1200,
+  "publicationStatus": "prepared; not yet published",
+  "addedPlacements": 27,
+  "distinctBusinessIdentities": 8,
+  "newBusinessIdentities": 2,
+  "existingBusinessExtensions": 6,
+  "byCity": {
+    "panama-city-fl": 5,
+    "panama-city-beach-fl": 1,
+    "destin-fl": 3,
+    "fort-walton-beach-fl": 3,
+    "crestview-fl": 2,
+    "milton-fl": 3,
+    "tallahassee-fl": 1,
+    "dothan-al": 1,
+    "pensacola-fl": 1,
+    "gulf-breeze-fl": 2,
+    "pace-fl": 2,
+    "navarre-fl": 2,
+    "perdido-key-fl": 1
+  },
+  "byCategory": {
+    "insulation": 18,
+    "appliance-repair": 8,
+    "pool-service": 1
+  },
+  "priorSeedRecords": 7074,
+  "preparedSeedRecords": 7101,
+  "allPriorRecordsUnchanged": true,
+  "validation": {
+    "jsonValid": true,
+    "catalogSlugsValid": true,
+    "uniqueCityCategoryDomains": true,
+    "duplicateCityCategoryDomains": 0,
+    "workingOfficialHomepageAndSourceChecks": "15/15 HTTP 200",
+    "dataOnlyChange": true,
+    "lint": "not run: dependency eslint is not installed in recovered worktree; generated seed export and structural validation passed"
+  },
+  "preparedCoverage": {
+    "atOrAbove20": 23,
+    "below20": 1177,
+    "empty": 64,
+    "countBasedRemainingDeficit": 18229
+  },
+  "candidateBlockers": [
+    {
+      "candidate": "Emerald Coast Insulation",
+      "reason": "Deferred: city pages use inconsistent call-tracking identities and the current official site does not expose a stable legal identity/address sufficient for confident deduplication."
+    },
+    {
+      "candidate": "Fort Walton Beach Insulation",
+      "reason": "Deferred: generic local-lead site language ('vetted local pros') and no named operator or license made business identity unverifiable."
+    },
+    {
+      "candidate": "Paradise Insulation LLC",
+      "reason": "Excluded: Florida entity appears inactive and no current official website/service evidence was verified."
+    },
+    {
+      "candidate": "The Appliance Center",
+      "reason": "Deferred: official retail site uses 'service the rest' but does not provide a sufficiently explicit appliance-repair service page or service process."
+    },
+    {
+      "candidate": "National/franchise insulation and appliance brands",
+      "reason": "Excluded under the repository's current national-chain/franchise policy; not used to pad counts."
+    }
+  ],
+  "sourceRecords": [
+    {
+      "name": "Polar Insulation",
+      "website": "https://polarinsulation.us/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "milton-fl",
+        "tallahassee-fl",
+        "dothan-al"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://polarinsulation.us/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area directory identifies Polar as a family-owned residential insulation contractor based at 511 S. Hwy 71 in Wewahitchka and explicitly lists Panama City, Panama City Beach, Destin, Fort Walton Beach, Crestview, Milton, Tallahassee, and Dothan."
+    },
+    {
+      "name": "Coastline Insulation",
+      "website": "https://coastlineinsulation.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://coastlineinsulation.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page offers residential and commercial insulation, explicitly lists Panama City, and gives a Panama City location at 3720 E 7th St plus the company's Santa Rosa Beach office. Other already-listed service areas were deduplicated."
+    },
+    {
+      "name": "Prater's Insulators",
+      "website": "https://pratersinsulators.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://pratersinsulators.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official service-area page identifies Brian Prater's family-operated Panama City insulation company and explicitly lists Fort Walton Beach and Crestview under Okaloosa County. Existing placements in other named cities were preserved and deduplicated."
+    },
+    {
+      "name": "Air & Energy of Northwest Florida",
+      "website": "https://www.airandenergynwfl.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "navarre-fl",
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.airandenergynwfl.com/energy-solutions/attic-insulation/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official attic-insulation page offers inspection and installation services and explicitly lists Pensacola, Gulf Breeze, Pace, Milton, Navarre, Fort Walton Beach, and Destin. The official site identifies a locally owned Northwest Florida contractor and Florida license CAC1820007."
+    },
+    {
+      "name": "Florida Man Residential",
+      "website": "https://floridamanresidential.com/",
+      "regions": [
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "navarre-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://floridamanresidential.com/faq",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official FAQ describes appliance-repair expertise and explicitly states current service in Escambia and Santa Rosa counties, naming Gulf Breeze, Pace, Milton, Navarre, and Perdido Key. The existing Pensacola placement was preserved and not duplicated."
+    },
+    {
+      "name": "Emerald Coast Appliance Service",
+      "website": "https://emeraldcoastapplianceservice.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://emeraldcoastapplianceservice.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site identifies a locally owned, Marine-veteran-operated appliance repair company, lists major household appliance repairs, and explicitly names Destin among its service areas."
+    },
+    {
+      "name": "Davis Appliance",
+      "website": "https://www.davisappliances.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.davisappliances.com/about-us/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official About page identifies a family-owned, Air Force-veteran business based in Panama City Beach that repairs and installs appliances throughout the Florida Panhandle, particularly Bay and Walton counties. Panama City is in Bay County; existing Panama City Beach and Grayton Beach placements were deduplicated."
+    },
+    {
+      "name": "Rogan's Pro Appliance Repair",
+      "website": "https://www.rogansproappliance.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "appliance-repair",
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.rogansproappliance.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site identifies a small family-owned operation, details household appliance repair and active pool cleaning/maintenance services, and explicitly lists Panama City in its service area. One identity is counted once in each relevant category, not as separate businesses."
+    }
+  ]
+}

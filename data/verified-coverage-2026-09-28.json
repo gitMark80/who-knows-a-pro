@@ -22755,5 +22755,128 @@
     "sourceUrl": "https://www.sweeneysdieselrepair.com/about-us",
     "sourceVerifiedAt": "2026-10-30",
     "evidenceNote": "Official About Us page identifies owner Aaron Sweeney and mobile diesel repairs including light-duty trucks, fleet vehicles, diagnostics, brakes and air conditioning. Explicitly names Destin, Fort Walton Beach, Crestview and Milton in service area; heavy-equipment work is not represented as general passenger-car repair."
+  },
+  {
+    "name": "Polar Insulation",
+    "website": "https://polarinsulation.us/",
+    "regions": [
+      "panama-city-fl",
+      "panama-city-beach-fl",
+      "destin-fl",
+      "fort-walton-beach-fl",
+      "crestview-fl",
+      "milton-fl",
+      "tallahassee-fl",
+      "dothan-al"
+    ],
+    "trades": [
+      "insulation"
+    ],
+    "sourceUrl": "https://polarinsulation.us/service-areas/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official service-area directory identifies Polar as a family-owned residential insulation contractor based at 511 S. Hwy 71 in Wewahitchka and explicitly lists Panama City, Panama City Beach, Destin, Fort Walton Beach, Crestview, Milton, Tallahassee, and Dothan."
+  },
+  {
+    "name": "Coastline Insulation",
+    "website": "https://coastlineinsulation.com/",
+    "regions": [
+      "panama-city-fl"
+    ],
+    "trades": [
+      "insulation"
+    ],
+    "sourceUrl": "https://coastlineinsulation.com/areas-we-serve/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official service-area page offers residential and commercial insulation, explicitly lists Panama City, and gives a Panama City location at 3720 E 7th St plus the company's Santa Rosa Beach office. Other already-listed service areas were deduplicated."
+  },
+  {
+    "name": "Prater's Insulators",
+    "website": "https://pratersinsulators.com/",
+    "regions": [
+      "fort-walton-beach-fl",
+      "crestview-fl"
+    ],
+    "trades": [
+      "insulation"
+    ],
+    "sourceUrl": "https://pratersinsulators.com/service-areas/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official service-area page identifies Brian Prater's family-operated Panama City insulation company and explicitly lists Fort Walton Beach and Crestview under Okaloosa County. Existing placements in other named cities were preserved and deduplicated."
+  },
+  {
+    "name": "Air & Energy of Northwest Florida",
+    "website": "https://www.airandenergynwfl.com/",
+    "regions": [
+      "pensacola-fl",
+      "gulf-breeze-fl",
+      "pace-fl",
+      "milton-fl",
+      "navarre-fl",
+      "fort-walton-beach-fl",
+      "destin-fl"
+    ],
+    "trades": [
+      "insulation"
+    ],
+    "sourceUrl": "https://www.airandenergynwfl.com/energy-solutions/attic-insulation/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official attic-insulation page offers inspection and installation services and explicitly lists Pensacola, Gulf Breeze, Pace, Milton, Navarre, Fort Walton Beach, and Destin. The official site identifies a locally owned Northwest Florida contractor and Florida license CAC1820007."
+  },
+  {
+    "name": "Florida Man Residential",
+    "website": "https://floridamanresidential.com/",
+    "regions": [
+      "gulf-breeze-fl",
+      "pace-fl",
+      "milton-fl",
+      "navarre-fl",
+      "perdido-key-fl"
+    ],
+    "trades": [
+      "appliance-repair"
+    ],
+    "sourceUrl": "https://floridamanresidential.com/faq",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official FAQ describes appliance-repair expertise and explicitly states current service in Escambia and Santa Rosa counties, naming Gulf Breeze, Pace, Milton, Navarre, and Perdido Key. The existing Pensacola placement was preserved and not duplicated."
+  },
+  {
+    "name": "Emerald Coast Appliance Service",
+    "website": "https://emeraldcoastapplianceservice.com/",
+    "regions": [
+      "destin-fl"
+    ],
+    "trades": [
+      "appliance-repair"
+    ],
+    "sourceUrl": "https://emeraldcoastapplianceservice.com/service-areas/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official site identifies a locally owned, Marine-veteran-operated appliance repair company, lists major household appliance repairs, and explicitly names Destin among its service areas."
+  },
+  {
+    "name": "Davis Appliance",
+    "website": "https://www.davisappliances.com/",
+    "regions": [
+      "panama-city-fl"
+    ],
+    "trades": [
+      "appliance-repair"
+    ],
+    "sourceUrl": "https://www.davisappliances.com/about-us/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official About page identifies a family-owned, Air Force-veteran business based in Panama City Beach that repairs and installs appliances throughout the Florida Panhandle, particularly Bay and Walton counties. Panama City is in Bay County; existing Panama City Beach and Grayton Beach placements were deduplicated."
+  },
+  {
+    "name": "Rogan's Pro Appliance Repair",
+    "website": "https://www.rogansproappliance.com/",
+    "regions": [
+      "panama-city-fl"
+    ],
+    "trades": [
+      "appliance-repair",
+      "pool-service"
+    ],
+    "sourceUrl": "https://www.rogansproappliance.com/",
+    "sourceVerifiedAt": "2026-10-30",
+    "evidenceNote": "Official site identifies a small family-owned operation, details household appliance repair and active pool cleaning/maintenance services, and explicitly lists Panama City in its service area. One identity is counted once in each relevant category, not as separate businesses."
   }
 ]
