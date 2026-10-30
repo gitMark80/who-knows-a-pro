@@ -488,3 +488,9 @@ Resume after checking live deployment and current main: use the fresh full audit
 - Mr. Fence of Florida's existing Panama City and Panama City Beach placements use its alternate official `mrfenceflorida.com` domain; they were detected by identity and not counted again. Only three new extensions were generated from the current `gomrfencefl.com` domain.
 - Prepared coverage: 23/1,200 at 20, 1,177 below, 64 empty, deficit 18,161. No combination reaches 20 in this wave. Publication and production verification are pending.
 - Excluded rather than padded: two broken marine sites, a generator lead-routing site, a questionable local template identity, an unresolved shared-address marine identity and generator businesses without explicit installation relevance. No data was deleted; no claimed/paid/user-submitted records, code, catalog, billing, subscriptions or outreach changed.
+
+### Marine, generator and fence continuation live confirmation
+
+- Commit `9f848ace03ea2ed1dbb9fe10e58451542891cf73` passed Vercel production. All **38 placements** passed profile-link and official-website-link checks on 14 live category pages; all 20 business profile pages returned HTTP 200 with their official website domain. Evidence: `reports/live-fill-run7-2026-10-30.json` and `reports/profiles-fill-run7-2026-10-30.json`.
+- Fresh full live audit: **23/1,200 active combinations at 20; 1,177 below; 64 empty; count-based deficit 18,161.** The deficit fell by 38; milestone and empty totals were unchanged. Coverage: `reports/coverage-fill-run7-2026-10-30.csv`.
+- This execution has now published and live-verified **95 placements** across three waves. Continue from newest main and the lowest verified priority-city counts; target remains incomplete and the automation stays enabled.
