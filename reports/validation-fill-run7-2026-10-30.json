@@ -1,0 +1,82 @@
+{
+  "verifiedAt": "2026-10-30T08:46:00Z",
+  "baselineCommit": "e72238d6a0abd3be3af854e08d987d2e70390eb7",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "activeCombinationCount": 1200,
+  "graytonBeachActive": true,
+  "pensacolaBeachActive": false,
+  "panamaCityDistinctFromPanamaCityBeach": true,
+  "sourceRecordCountBefore": 1634,
+  "sourceRecordCountAfter": 1654,
+  "generatedSeedCountBefore": 7131,
+  "generatedSeedCountAfter": 7169,
+  "addedPlacements": 38,
+  "distinctBusinessIdentities": 20,
+  "newBusinessIdentities": 17,
+  "existingBusinessExtensions": 3,
+  "changedPriorRecords": 0,
+  "priorRecordsUnchanged": true,
+  "invalidCatalogSlugs": [],
+  "duplicateCityCategoryNormalizedDomains": [],
+  "missingRequiredFieldsInNewRecords": [],
+  "officialWebsiteChecks": {
+    "checkedUrls": 21,
+    "workingOfficialPages": 21,
+    "failed": 0,
+    "method": "fresh web retrieval of every distinct official homepage/evidence URL"
+  },
+  "additionsByCategory": {
+    "marine-services": 12,
+    "generator-installation": 7,
+    "fence-builders": 19
+  },
+  "additionsByCity": {
+    "destin-fl": 8,
+    "fort-walton-beach-fl": 11,
+    "crestview-fl": 5,
+    "panama-city-fl": 8,
+    "panama-city-beach-fl": 5,
+    "navarre-fl": 1
+  },
+  "preparedCoverage": {
+    "atOrAbove20": 23,
+    "below20": 1177,
+    "empty": 64,
+    "deficit": 18161
+  },
+  "affectedCounts": {
+    "destin-fl": {
+      "marine-services": 8,
+      "generator-installation": 11,
+      "fence-builders": 13
+    },
+    "fort-walton-beach-fl": {
+      "marine-services": 10,
+      "generator-installation": 11,
+      "fence-builders": 13
+    },
+    "crestview-fl": {
+      "marine-services": 5,
+      "generator-installation": 9,
+      "fence-builders": 12
+    },
+    "panama-city-fl": {
+      "marine-services": 8,
+      "generator-installation": 9,
+      "fence-builders": 9
+    },
+    "panama-city-beach-fl": {
+      "marine-services": 5,
+      "generator-installation": 7,
+      "fence-builders": 4
+    }
+  },
+  "validationStatus": "passed",
+  "notes": [
+    "Two Mr. Fence of Florida placements already existed under the business's alternate mrfenceflorida.com domain and were not counted again; only three new city extensions were generated from the current official domain.",
+    "No catalog, application, claimed, paid-placement, billing, subscription, database, or user-submitted data changed.",
+    "No paid API, Foursquare, Google Maps, Google Places, Yelp, or Angi listing source was used."
+  ]
+}

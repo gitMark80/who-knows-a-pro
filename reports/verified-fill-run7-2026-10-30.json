@@ -1,0 +1,69 @@
+{
+  "verifiedAt": "2026-10-30T08:46:00Z",
+  "run": "scheduled continuation wave 3",
+  "baselineCommit": "e72238d6a0abd3be3af854e08d987d2e70390eb7",
+  "target": 20,
+  "publicationStatus": "prepared; publication and production verification pending",
+  "addedPlacements": 38,
+  "distinctBusinessIdentities": 20,
+  "newBusinessIdentities": 17,
+  "existingBusinessExtensions": 3,
+  "byCategory": {
+    "marine-services": 12,
+    "generator-installation": 7,
+    "fence-builders": 19
+  },
+  "byCity": {
+    "destin-fl": 8,
+    "fort-walton-beach-fl": 11,
+    "crestview-fl": 5,
+    "panama-city-fl": 8,
+    "panama-city-beach-fl": 5,
+    "navarre-fl": 1
+  },
+  "validation": {
+    "jsonValid": true,
+    "catalogSlugsValid": true,
+    "uniqueCityCategoryDomains": true,
+    "duplicateCityCategoryDomains": 0,
+    "workingOfficialHomepageAndSourceChecks": "21/21",
+    "priorSeedRecordsUnchanged": true,
+    "dataOnlyChange": true
+  },
+  "preparedCoverage": {
+    "atOrAbove20": 23,
+    "below20": 1177,
+    "empty": 64,
+    "countBasedRemainingDeficit": 18161
+  },
+  "businesses": [
+    {"name":"Pinhook Marine Services","category":"marine-services","regions":["destin-fl","fort-walton-beach-fl","navarre-fl"],"sourceUrl":"https://pinhookmarineservices.org/"},
+    {"name":"Anchor Point Marine Service","category":"marine-services","regions":["fort-walton-beach-fl"],"sourceUrl":"https://anchorpointmarine.us/"},
+    {"name":"Cramer Marine & Outdoor","category":"marine-services","regions":["panama-city-fl"],"sourceUrl":"https://www.cramermarineandoutdoor.com/"},
+    {"name":"Miller Marine","category":"marine-services","regions":["panama-city-fl","panama-city-beach-fl"],"sourceUrl":"https://millermarineinc.net/services/"},
+    {"name":"Third Coast Marine","category":"marine-services","regions":["fort-walton-beach-fl"],"sourceUrl":"https://thirdcoastmarinegroup.com/"},
+    {"name":"Tony's Marine","category":"marine-services","regions":["destin-fl"],"sourceUrl":"https://www.tonysmarine.com/index.html"},
+    {"name":"Legendary Marine","category":"marine-services","regions":["panama-city-beach-fl"],"sourceUrl":"https://www.legendarymarine.com/service-destin-fl"},
+    {"name":"Gulf Coast Boating Centers","category":"marine-services","regions":["fort-walton-beach-fl","panama-city-beach-fl"],"sourceUrl":"https://www.gulfcoastboatingcenters.com/parts-and-service"},
+    {"name":"Colson's Electrical Services","category":"generator-installation","regions":["crestview-fl"],"sourceUrl":"https://www.colsonselectric.com/"},
+    {"name":"Emergency Standby Power LLC","category":"generator-installation","regions":["fort-walton-beach-fl"],"sourceUrl":"https://emergencystandbypowerllc.kohlergeneratordealer.com/"},
+    {"name":"Parker Services","category":"generator-installation","regions":["panama-city-fl"],"sourceUrl":"https://panamacityac.com/electrical/"},
+    {"name":"Coastal Power & Gas","category":"generator-installation","regions":["destin-fl","fort-walton-beach-fl","panama-city-fl"],"sourceUrl":"https://www.coastalpwr.com/generator-services"},
+    {"name":"Keefe & Sons Electric","category":"generator-installation","regions":["panama-city-fl"],"sourceUrl":"https://keefeandsonselectric.com/"},
+    {"name":"Mr. Fence of Florida","category":"fence-builders","regions":["destin-fl","fort-walton-beach-fl","crestview-fl"],"sourceUrl":"https://gomrfencefl.com/","identityNote":"Panama City and Panama City Beach already existed under alternate official domain mrfenceflorida.com and were not recounted."},
+    {"name":"American Eagle Fence","category":"fence-builders","regions":["destin-fl","fort-walton-beach-fl","crestview-fl"],"sourceUrl":"https://www.ameaglefence.com/locations/"},
+    {"name":"Gulf Fence & Construction","category":"fence-builders","regions":["destin-fl","fort-walton-beach-fl","panama-city-fl","panama-city-beach-fl"],"sourceUrl":"https://www.gulffencecon.com/"},
+    {"name":"St. John Fence Company","category":"fence-builders","regions":["panama-city-fl","panama-city-beach-fl"],"sourceUrl":"https://stjohnfence.com/"},
+    {"name":"Panama City Fence & Sales","category":"fence-builders","regions":["panama-city-fl"],"sourceUrl":"https://www.pcfenceandsales.com/"},
+    {"name":"Ironclad Fence Co","category":"fence-builders","regions":["destin-fl","fort-walton-beach-fl","crestview-fl"],"sourceUrl":"https://ironcladfenceco.com/about"},
+    {"name":"Fort Walton Beach Fence","category":"fence-builders","regions":["destin-fl","fort-walton-beach-fl","crestview-fl"],"sourceUrl":"https://fwbfence.com/"}
+  ],
+  "candidateBlockers": [
+    {"candidate":"Solve All Services","reason":"Official homepage returned HTTP 404 during current verification."},
+    {"candidate":"The Ships Chandler","reason":"Official service page returned HTTP 502 during current verification."},
+    {"candidate":"Panhandle Generators","reason":"Excluded because the official site states it is a lead-routing resource, not the contractor performing installations."},
+    {"candidate":"Complete Crestview Fence & Deck","reason":"Withheld because the template site links unrelated out-of-area contractor properties and did not establish a sufficiently stable local business identity."},
+    {"candidate":"Adventure Marina","reason":"Withheld pending identity reconciliation with Anchor Point Marine at the same service address and linked dealer-services operation."},
+    {"candidate":"Taylor Sudden Service and Thompson Power Systems","reason":"Official pages established generator repair/sales but did not clearly establish installation relevance for the generator-installation category."}
+  ]
+}
