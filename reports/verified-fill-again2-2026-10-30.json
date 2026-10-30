@@ -1,0 +1,2043 @@
+{
+  "date": "2026-10-30",
+  "baselineCommit": "91ce3973a51a37afa5747d96753948af9722bf3e",
+  "target": 20,
+  "activeCityCount": 40,
+  "activeCategoryCount": 30,
+  "publicationStatus": "prepared; not yet published",
+  "sourceRecords": [
+    {
+      "name": "DV Home Inspections",
+      "website": "https://www.dvinspectionservices.com/",
+      "regions": [
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "destin-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.dvinspectionservices.com/residential",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official residential inspection page describes full home inspections and explicitly lists all selected service cities; HI16179. DV commercial/residential names are one company."
+    },
+    {
+      "name": "Eagle Home Inspection Service",
+      "website": "https://www.eagle1inspect.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.eagle1inspect.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage identifies owner Michael Thompson, home inspection services and explicit coverage in all three selected cities."
+    },
+    {
+      "name": "Bay to Beach Home Inspections",
+      "website": "https://baytobeachinspections.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl",
+        "navarre-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://baytobeachinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers buyer/seller home inspections and explicitly lists these service cities. Distinct from Beach To Bayou: different company, domain and phone 850-312-8854."
+    },
+    {
+      "name": "Knockout Inspections",
+      "website": "https://goforko.com/",
+      "regions": [
+        "milton-fl",
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "mobile-al",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://goforko.com/service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official page explicitly lists these Florida cities, Mobile and Gulfport for full home inspections. Louisiana offers only FORTIFIED/energy services here, so those cities are not included."
+    },
+    {
+      "name": "POMI Services",
+      "website": "https://pomiservices.com/",
+      "regions": [
+        "pensacola-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://pomiservices.com/locations/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official inspection service-area list explicitly names each selected city. Existing POMI identity retained; counties alone not expanded to additional cities."
+    },
+    {
+      "name": "Point Blank Property Inspections",
+      "website": "https://www.pointblankpropertyinspections.com/",
+      "regions": [
+        "panama-city-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.pointblankpropertyinspections.com/about-home-inspector-casy-lloyd/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official inspector/about page identifies owner Casy Lloyd and expressly lists Destin and Panama City Beach as served."
+    },
+    {
+      "name": "Ace Inspections",
+      "website": "https://www.aceinspections.pro/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.aceinspections.pro/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full home inspections and explicitly names these seven cities in its Northwest Florida service list."
+    },
+    {
+      "name": "Emerald Coast Property Inspection",
+      "website": "https://www.emeraldcoastpi.com/",
+      "regions": [
+        "navarre-fl",
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-beach-fl",
+        "panama-city-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.emeraldcoastpi.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official residential inspection site expressly lists these service cities. East Milton not treated as Milton; unnamed Fort Walton Beach not inferred."
+    },
+    {
+      "name": "Preferred Inspection Services",
+      "website": "https://preferredinspectionservices.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://preferredinspectionservices.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site identifies Thomas Woods HI11196, full home inspection services and Panama City location/service coverage."
+    },
+    {
+      "name": "Anchorpoint Inspection Services",
+      "website": "https://www.anchorpointinspection.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.anchorpointinspection.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers home inspections serving Panama City and identifies John Gramlick as owner/inspector."
+    },
+    {
+      "name": "ALT Home Inspections",
+      "website": "https://www.althomeins.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.althomeins.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official site explicitly offers residential, four-point and wind-mitigation inspections in the Panama City area; Florida inspector license HI13855."
+    },
+    {
+      "name": "Team Patriot",
+      "website": "https://teampatriotllc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://teampatriotllc.com/residential",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official residential page describes home inspections and explicitly states service in Panama City. Inspection of systems is not counted as contractor repair service."
+    },
+    {
+      "name": "Precision Property Inspections",
+      "website": "https://www.precision850inspections.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.precision850inspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official company homepage offers full home inspections and specifically serves Panama City; phone 850-832-9752 distinguishes similarly named companies."
+    },
+    {
+      "name": "New Course Inspections",
+      "website": "https://newcourseinspections.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://newcourseinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers home inspections and expressly names these five service cities; Drew, phone 850-420-2535."
+    },
+    {
+      "name": "Beach House Home Inspections",
+      "website": "https://www.beachhouseinspections.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.beachhouseinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers home inspections and explicitly lists these four service cities; Niceville-based company, phone 850-890-1714."
+    },
+    {
+      "name": "GB Home Inspections",
+      "website": "https://www.gbhomeinspections.net/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "milton-fl",
+        "pace-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.gbhomeinspections.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage lists these service cities for full home inspections; Ft. Walton denotes Fort Walton Beach. Manuel Sandino, HI16776."
+    },
+    {
+      "name": "Eagle Eye Home Inspections",
+      "website": "https://www.eagleeye-homeinspections.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.eagleeye-homeinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official website identifies Brad Jewell, HI14590, residential inspections and a Crestview address. Separate identity from Eagle Home Inspection Service/Michael Thompson."
+    },
+    {
+      "name": "My Safe Home Inspection",
+      "website": "https://mshi.com/",
+      "regions": [
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "sarasota-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "jacksonville-fl",
+        "tallahassee-fl",
+        "pensacola-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "pace-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://mshi.com/our-service-areas/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official statewide service-area page offers full home inspections and explicitly lists every selected city. mshi.com and linked mysafehomeinspection.com subdomain are one identity. East Milton not treated as Milton."
+    },
+    {
+      "name": "Jekel Inspections",
+      "website": "https://jekelinspections.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://jekelinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers Pensacola full home inspections; Certified Master Inspector, phone 850-485-9881."
+    },
+    {
+      "name": "1st Defense Home Inspections",
+      "website": "https://www.1stdefenseinspections.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.1stdefenseinspections.com/contact",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page expressly offers home inspections serving Okaloosa, Santa Rosa, Escambia, Walton and Bay counties. Selected cities lie within those explicitly served counties; Crestview office. Sister 1st Defense brands counted once, no repair categories inferred."
+    },
+    {
+      "name": "Dependable Home Inspections",
+      "website": "https://dependablehomeinspectionsfl.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "milton-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://dependablehomeinspectionsfl.com/about-us",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official about page offers home inspections serving Okaloosa, Walton, Escambia and Santa Rosa counties; selected cities are within these explicitly named counties. Unnamed surrounding counties not inferred. Phone 850-359-6886."
+    },
+    {
+      "name": "Sighthound Home Inspections",
+      "website": "https://www.sighthoundhomeinspections.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "grayton-beach-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.sighthoundhomeinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers full home inspections serving Walton, Okaloosa and Bay counties; selected cities are within these named counties. Brian Jones HI15846, Santa Rosa Beach base. Distinct from sighthoundinspections.com in Texas."
+    },
+    {
+      "name": "Southpoint Inspections",
+      "website": "https://www.southpointinspections.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.southpointinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full home inspections; explicitly names first seven cities and all of Santa Rosa, Escambia and Okaloosa counties, covering Crestview and Perdido Key. Bryan Griffie, phone 850-816-1353."
+    },
+    {
+      "name": "Five Star Inspections",
+      "website": "https://panamacityhomeinspections.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://panamacityhomeinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official company site expressly serves Bay and Walton counties with home inspections; these selected cities are within those counties. Cory Brookins, 850-819-3388. panamacitypropertyinspector.com is an alternate domain for the same company, not a second identity."
+    },
+    {
+      "name": "ReVealed Home Inspections",
+      "website": "https://revealedhomeinspections.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://revealedhomeinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers comprehensive home inspections and explicitly lists Panama City in its service area; phone 850-630-5266. Panama City Beach not inferred."
+    },
+    {
+      "name": "PRO 1 Home Inspection",
+      "website": "https://www.pro1homeinspection.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.pro1homeinspection.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes professional home inspections serving Escambia, Santa Rosa and Okaloosa counties; selected cities within these expressly served counties. Scott Burris and Dennis Mather are staff of one company. Existing company identity retained."
+    },
+    {
+      "name": "Veterans Pride Inspection Services",
+      "website": "https://www.veteransprideinspections.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.veteransprideinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly lists these service cities for residential inspections; Scott Valentine. Existing Veterans Pride identity retained despite website styling VeteransPride."
+    },
+    {
+      "name": "Clear Path Inspections",
+      "website": "https://www.clearpathpc.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.nachi.org/certified-inspectors/lloyd-kadlec-146978",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official company website confirms home inspections, Lloyd Kadlec and 850-775-5495; his InterNACHI public member profile explicitly lists each selected city and links the same official website. Website is the business site, not the association profile."
+    },
+    {
+      "name": "Emerald Coast Home Inspectors",
+      "website": "https://www.emeraldcoasthomeinspectors.com/",
+      "regions": [
+        "pensacola-fl",
+        "navarre-fl",
+        "milton-fl",
+        "fort-walton-beach-fl",
+        "perdido-key-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.nachi.org/certified-inspectors/daniel-churukian-cmi-fl-lic-hi10597-64055",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "InterNACHI public member profile explicitly lists these eight cities; official company website identifies Dan Churukian and matching 850-293-6191. echomeinspectors.com and emeraldcoasthomeinspectors.com are one identity; distinct from Emerald Coast Property Inspection."
+    },
+    {
+      "name": "Emerald Coast Home Inspectors",
+      "website": "https://www.emeraldcoasthomeinspectors.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.emeraldcoasthomeinspectors.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers home inspection services in Destin. Same Dan Churukian identity as echomeinspectors.com; no duplicate business counted."
+    },
+    {
+      "name": "Elite Property Inspectors",
+      "website": "https://elitepillc.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://elitepillc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly offers home/condo inspections in Panama City, Destin and 30A; adding only missing Destin placement for existing identity. Inspection services not counted as repairs."
+    },
+    {
+      "name": "Altum Inspection Services",
+      "website": "https://www.altuminspectionservices.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.nachi.org/certified-inspectors/david-stanko-158959",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official company website identifies David Stanko, full home inspection services and HI14664. InterNACHI member profile places the same inspector/company in Panama City; Florida Sunbiz entity L25000549297 corroborates city and owner. Distinct from ALT Home Inspections/Larry Thompson."
+    },
+    {
+      "name": "Rock Steady Inspections",
+      "website": "https://rocksteadyinspectionsfl.com/",
+      "regions": [
+        "milton-fl",
+        "jacksonville-fl",
+        "tallahassee-fl",
+        "pensacola-fl",
+        "panama-city-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.nachi.org/certified-inspectors/elisha-frazier-cmi-168708",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "InterNACHI member profile explicitly names all selected service cities and links this official company website. Official site confirms full home inspection services and Elisha Frazier; office/mobile phone variations not separate businesses."
+    },
+    {
+      "name": "Good2Go Inspections",
+      "website": "https://good2goinspections.com/",
+      "regions": [
+        "panama-city-fl",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.nachi.org/certified-inspectors/christopher-battles-193956",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official website offers full home inspections and lists Tallahassee and matching phone 850-677-5727, HI17312. Public InterNACHI profile for Christopher Battles links the official site and explicitly lists Panama City and Tallahassee service coverage."
+    },
+    {
+      "name": "PF Roofing",
+      "website": "https://www.pfroof.com/",
+      "regions": [
+        "pensacola-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.pfroof.com/roof-services/gutter-replacement",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official gutter replacement page describes installation and explicitly lists these service cities in its footer; homepage also confirms roofing and the same city list. Existing PF Roofing identity retained."
+    },
+    {
+      "name": "PF Roofing",
+      "website": "https://www.pfroof.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl",
+        "milton-fl",
+        "pace-fl",
+        "sarasota-fl",
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "roofing",
+        "gutters"
+      ],
+      "sourceUrl": "https://www.pfroof.com/roof-services/gutter-replacement",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official gutter replacement page describes installation and explicitly lists these service cities in its footer; homepage also confirms roofing and the same city list. Existing PF Roofing identity retained."
+    },
+    {
+      "name": "Fields Roofing",
+      "website": "https://www.fieldsroofing.net/",
+      "regions": [
+        "milton-fl",
+        "pace-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.fieldsroofing.net/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage explicitly names all six cities for residential and commercial roofing. Existing Fields Roofing identity retained."
+    },
+    {
+      "name": "PB Construction Group",
+      "website": "https://www.pbconstructiongroup.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.pbconstructiongroup.com/roofing",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official roofing page explicitly names these cities and describes roof installation, replacement and repairs; same existing PB Construction identity."
+    }
+  ],
+  "skippedPlacements": [
+    {
+      "name": "POMI Services",
+      "region": "navarre-fl",
+      "trade": "home-inspections",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "POMI Services",
+      "region": "crestview-fl",
+      "trade": "home-inspections",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PRO 1 Home Inspection",
+      "region": "crestview-fl",
+      "trade": "home-inspections",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Veterans Pride Inspection Services",
+      "region": "crestview-fl",
+      "trade": "home-inspections",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PF Roofing",
+      "region": "pensacola-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PF Roofing",
+      "region": "navarre-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PF Roofing",
+      "region": "gulf-breeze-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Fields Roofing",
+      "region": "pensacola-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Fields Roofing",
+      "region": "gulf-breeze-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "Fields Roofing",
+      "region": "navarre-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PB Construction Group",
+      "region": "pensacola-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PB Construction Group",
+      "region": "gulf-breeze-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    },
+    {
+      "name": "PB Construction Group",
+      "region": "navarre-fl",
+      "trade": "roofing",
+      "reason": "Existing normalized domain or identity in city/category"
+    }
+  ],
+  "prePublicationValidation": {
+    "verifiedAt": "2026-10-30",
+    "baselineCommit": "91ce3973a51a37afa5747d96753948af9722bf3e",
+    "priorSeedRecords": 6666,
+    "finalSeedRecords": 6854,
+    "preservedPriorRecords": 6666,
+    "unchangedPriorSourceRecords": 1492,
+    "addedPlacements": 188,
+    "distinctBusinessIdentities": 36,
+    "newBusinessIdentities": 29,
+    "existingBusinessServiceExtensions": 7,
+    "uniqueIds": true,
+    "newNormalizedDomainCityTradeDuplicates": 0,
+    "validActiveSlugs": true,
+    "activeCityCount": 40,
+    "activeCategoryCount": 30,
+    "target": 20,
+    "projectedPairsAtTarget": 19,
+    "projectedDeficit": 18464,
+    "projectedEmpty": 68,
+    "byCity": {
+      "clearwater-fl": 1,
+      "crestview-fl": 15,
+      "destin-fl": 23,
+      "fort-lauderdale-fl": 1,
+      "fort-myers-fl": 3,
+      "fort-walton-beach-fl": 18,
+      "grayton-beach-fl": 5,
+      "gulf-breeze-fl": 12,
+      "gulfport-ms": 1,
+      "jacksonville-fl": 2,
+      "miami-fl": 1,
+      "milton-fl": 15,
+      "mobile-al": 1,
+      "naples-fl": 1,
+      "navarre-fl": 15,
+      "orlando-fl": 1,
+      "pace-fl": 13,
+      "panama-city-beach-fl": 12,
+      "panama-city-fl": 18,
+      "pensacola-fl": 14,
+      "perdido-key-fl": 6,
+      "sarasota-fl": 4,
+      "st-petersburg-fl": 1,
+      "tallahassee-fl": 3,
+      "tampa-fl": 1,
+      "west-palm-beach-fl": 1
+    },
+    "byCategory": {
+      "gutters": 10,
+      "home-inspections": 166,
+      "roofing": 12
+    },
+    "notes": [
+      "Only append-only source data and research/checkpoint files changed.",
+      "Counts are generated coverage, not fresh independent verification of every historical website.",
+      "No five-listing cap in seed pipeline; current audit minimum already 20.",
+      "No DB, claimed, paid placement, billing, subscription or external outreach mutations."
+    ]
+  },
+  "websiteChecks": [
+    {
+      "url": "https://baytobeachinspections.com/",
+      "status": 200,
+      "finalUrl": "https://baytobeachinspections.com/",
+      "bytes": 127466,
+      "checkedAt": "2026-10-30T02:01:37.464299+00:00",
+      "title": [
+        "Reliable home inspector in Niceville and the Emerald Coast."
+      ],
+      "contentSha256": "5bcf3a3684a567aaf5dec86796ddfcfac1ffefeec3549c595dca8b6e828589a0"
+    },
+    {
+      "url": "https://dependablehomeinspectionsfl.com/",
+      "status": 200,
+      "finalUrl": "https://dependablehomeinspectionsfl.com/",
+      "bytes": 209276,
+      "checkedAt": "2026-10-30T02:01:37.721329+00:00",
+      "title": [
+        "Dependable Home Inspections FL - Home Inspections, Home Inspections"
+      ],
+      "contentSha256": "c29813f41afba52222a85b091439f49c6ed348f65f7428c0e5df0fe0dbee78d9"
+    },
+    {
+      "url": "https://dependablehomeinspectionsfl.com/about-us",
+      "status": 200,
+      "finalUrl": "https://dependablehomeinspectionsfl.com/about-us",
+      "bytes": 135747,
+      "checkedAt": "2026-10-30T02:01:37.528712+00:00",
+      "title": [
+        "About us"
+      ],
+      "contentSha256": "fbae6f21293bdc64a24cf498ccc7ef5d66b1cb2d4deba514c5cafdd3565bf3ef"
+    },
+    {
+      "url": "https://elitepillc.com/",
+      "status": 200,
+      "finalUrl": "https://elitepillc.com/",
+      "bytes": 985407,
+      "checkedAt": "2026-10-30T02:01:36.413234+00:00",
+      "title": [
+        "Home inspections &amp; mold testing in Panama City Beach, Panama City, PCB, Destin &amp; 30A FL l Elite Property Inspectors"
+      ],
+      "contentSha256": "b3a3483c67b00af6d38668eff2e2107b16de261742b783186df5e8daf3d4a003"
+    },
+    {
+      "url": "https://goforko.com/",
+      "status": 200,
+      "finalUrl": "https://goforko.com/",
+      "bytes": 280624,
+      "checkedAt": "2026-10-30T02:01:46.083460+00:00",
+      "title": [
+        "Home - KO Inspections"
+      ],
+      "contentSha256": "539a128877d2dde6eea52384af7b3eb966511f78a64a17f1f9574172c8c85f03"
+    },
+    {
+      "url": "https://goforko.com/service-areas/",
+      "status": 200,
+      "finalUrl": "https://goforko.com/service-areas/",
+      "bytes": 361031,
+      "checkedAt": "2026-10-30T02:01:46.072509+00:00",
+      "title": [
+        "Service Areas - KO Inspections"
+      ],
+      "contentSha256": "b2d87d39f478f780eb982e4d5f3cf26ca65b43b7a4176c3bea23175516777e20"
+    },
+    {
+      "url": "https://good2goinspections.com/",
+      "status": 200,
+      "finalUrl": "https://good2goinspections.com/",
+      "bytes": 667075,
+      "checkedAt": "2026-10-30T02:01:37.358213+00:00",
+      "title": [
+        "2 go"
+      ],
+      "contentSha256": "8babc001055d8bf62777ee9d49e9e5d55410087d8c30d914e4144838428603e0"
+    },
+    {
+      "url": "https://jekelinspections.com/",
+      "status": 200,
+      "finalUrl": "https://jekelinspections.com/",
+      "bytes": 19644,
+      "checkedAt": "2026-10-30T02:01:37.418644+00:00",
+      "title": [
+        "Jekel Inspections | Jekel Inspections - Pensacola FL Home Inspections"
+      ],
+      "contentSha256": "53d80f68abf44e343861cd60fceab8696a995b944586b5dac3b4e988a54f5923"
+    },
+    {
+      "url": "https://mshi.com/",
+      "status": 200,
+      "finalUrl": "https://mshi.com/",
+      "bytes": 155681,
+      "checkedAt": "2026-10-30T02:01:40.954840+00:00",
+      "title": [
+        "My Safe Home Inspection &#8211; Wind Mitigation, Four Point, Roof Inspection Company"
+      ],
+      "contentSha256": "bd699d95d3331af1436f1e0bfdb724d8528048ecfdb7f986cc13b3edf2024317"
+    },
+    {
+      "url": "https://mshi.com/our-service-areas/",
+      "status": 200,
+      "finalUrl": "https://mshi.com/our-service-areas/",
+      "bytes": 118811,
+      "checkedAt": "2026-10-30T02:01:40.422516+00:00",
+      "title": [
+        "Our Service Areas &#8211; My Safe Home Inspection"
+      ],
+      "contentSha256": "f85238f27b4d3af5f3a487251c87325ed689c2fa422d1d32b8ad5df7c74d6ca4"
+    },
+    {
+      "url": "https://newcourseinspections.com/",
+      "status": 200,
+      "finalUrl": "https://newcourseinspections.com/",
+      "bytes": 170332,
+      "checkedAt": "2026-10-30T02:01:41.010599+00:00",
+      "title": [
+        "New Course Inspections, Inc | Call (850) 420-2535"
+      ],
+      "contentSha256": "2465a8b6bdf03aafcdbbaee6a06f7974304010308e755a857b448c085cb38c59"
+    },
+    {
+      "url": "https://panamacityhomeinspections.com/",
+      "status": 200,
+      "finalUrl": "https://panamacityhomeinspections.com/",
+      "bytes": 27238,
+      "checkedAt": "2026-10-30T02:01:40.710291+00:00",
+      "title": [
+        "Welcome to Five Star Inspections"
+      ],
+      "contentSha256": "f2cb00b8e827317179a971761940dac6db40f1b60b967d010b312b89834a2892"
+    },
+    {
+      "url": "https://pomiservices.com/",
+      "status": 200,
+      "finalUrl": "https://pomiservices.com/",
+      "bytes": 281656,
+      "checkedAt": "2026-10-30T02:01:42.015481+00:00",
+      "title": [
+        "Home Inspections in Navarre, FL | 24-Hr Turnaround | POMI Services"
+      ],
+      "contentSha256": "b4689c2a9fcdae5fd3bee8101af5ca59368dd676b00144686c6945d9f20df8d8"
+    },
+    {
+      "url": "https://pomiservices.com/locations/",
+      "status": 200,
+      "finalUrl": "https://pomiservices.com/locations/",
+      "bytes": 110514,
+      "checkedAt": "2026-10-30T02:01:41.922353+00:00",
+      "title": [
+        "Locations - POMI Services"
+      ],
+      "contentSha256": "6406b12b7ca5d8387b1108dd4435afe2b2d3bd0ddcbab0aadfc96484f3f13818"
+    },
+    {
+      "url": "https://preferredinspectionservices.com/",
+      "status": 200,
+      "finalUrl": "https://preferredinspectionservices.com/",
+      "bytes": 49881,
+      "checkedAt": "2026-10-30T02:01:43.479317+00:00",
+      "title": [
+        "Home Inspector - PREFERRED INSPECTION SERVICES"
+      ],
+      "contentSha256": "a9f1daa1bd012a37f459e3857864377da6121dee5fec9d86f2b6060440579416"
+    },
+    {
+      "url": "https://revealedhomeinspections.com/",
+      "status": 200,
+      "finalUrl": "https://revealedhomeinspections.com/",
+      "bytes": 351903,
+      "checkedAt": "2026-10-30T02:01:44.367060+00:00",
+      "title": [
+        "#1 Home Inspections in Port Saint Joe - Revealed Home Inspections"
+      ],
+      "contentSha256": "f53fb841d5d81eda02b02c6b436abef3ae509ee473d7f89c82ce035b51c4467d"
+    },
+    {
+      "url": "https://rocksteadyinspectionsfl.com/",
+      "status": 200,
+      "finalUrl": "https://rocksteadyinspectionsfl.com/",
+      "bytes": 259840,
+      "checkedAt": "2026-10-30T02:01:43.766557+00:00",
+      "title": [
+        "Rock Steady Inspections - Inspections, Wind Mitigation, 4pt Inspections, Roof Certification, Full Home Inspections"
+      ],
+      "contentSha256": "76774d14b0f81cf86196682f826f6e332c32e288fe8a6515aa860f15b2358235"
+    },
+    {
+      "url": "https://teampatriotllc.com/",
+      "status": 200,
+      "finalUrl": "https://teampatriotllc.com/",
+      "bytes": 899398,
+      "checkedAt": "2026-10-30T02:01:45.472552+00:00",
+      "title": [
+        "Team Patriot Home"
+      ],
+      "contentSha256": "28df223ad2ca45ef4177abf68741d7674689bfa86cbabbae97a943b0669e5ec1"
+    },
+    {
+      "url": "https://teampatriotllc.com/residential",
+      "status": 200,
+      "finalUrl": "https://teampatriotllc.com/residential",
+      "bytes": 881358,
+      "checkedAt": "2026-10-30T02:01:45.484465+00:00",
+      "title": [
+        "Team Patriot Home"
+      ],
+      "contentSha256": "83a0d0d9a1c01a34485f441f64d387cc0d69c3a80dfe1216bb80c95011b016ef"
+    },
+    {
+      "url": "https://www.1stdefenseinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.1stdefenseinspections.com/",
+      "bytes": 1540633,
+      "checkedAt": "2026-10-30T02:01:45.094124+00:00",
+      "title": [
+        "1st Defense Home Inspections | Trusted Home Inspections in Northwest Florida"
+      ],
+      "contentSha256": "1ef9a992c7126727816d76fbfa9b2b37fb90d32deefbfd02de0c41db54bcc54b"
+    },
+    {
+      "url": "https://www.1stdefenseinspections.com/contact",
+      "status": 200,
+      "finalUrl": "https://www.1stdefenseinspections.com/contact",
+      "bytes": 1552816,
+      "checkedAt": "2026-10-30T02:01:45.078070+00:00",
+      "title": [
+        "Contact 1st Defense Home Inspections | Schedule Your Inspection Today"
+      ],
+      "contentSha256": "da85f739f60f39f08aca05fe63478115597b19b281f4cd08ccb56e56dd730bf3"
+    },
+    {
+      "url": "https://www.aceinspections.pro/",
+      "status": 200,
+      "finalUrl": "https://www.aceinspections.pro/",
+      "bytes": 99447,
+      "checkedAt": "2026-10-30T02:01:47.513458+00:00",
+      "title": [
+        "Ace Inspections - Proudly Serving Northwest Florida"
+      ],
+      "contentSha256": "cbaac92e984c2a7a1efe44966e2a4eb264e0fb1c3248b5c6783d72d3fb9b6011"
+    },
+    {
+      "url": "https://www.althomeins.com/",
+      "status": 200,
+      "finalUrl": "https://www.althomeins.com/",
+      "bytes": 66628,
+      "checkedAt": "2026-10-30T02:01:47.693125+00:00",
+      "title": [
+        "Welcome - ALT Home Inspections"
+      ],
+      "contentSha256": "6c3a60045da1828779589802a4c25c2929a86aa40324a879e24090711523be7c"
+    },
+    {
+      "url": "https://www.altuminspectionservices.com/",
+      "status": 200,
+      "finalUrl": "https://www.altuminspectionservices.com/",
+      "bytes": 1021462,
+      "checkedAt": "2026-10-30T02:01:48.020576+00:00",
+      "title": [
+        "Altum Inspection Services LLC"
+      ],
+      "contentSha256": "aac6062e7a0f798de2e510eb3879e8fac85df7c44c8e2aae93d94f6742e0949b"
+    },
+    {
+      "url": "https://www.anchorpointinspection.com/",
+      "status": 200,
+      "finalUrl": "https://www.anchorpointinspection.com/",
+      "bytes": 1493026,
+      "checkedAt": "2026-10-30T02:01:48.892506+00:00",
+      "title": [
+        "InterNACHI Certified Home Inspector in Lynn Haven, FL | Anchorpoint Inspection Services"
+      ],
+      "contentSha256": "204f503e6fdd341a1fc7cec3d473b95156c3ed6c687b2bfd945de32cb6fab29c"
+    },
+    {
+      "url": "https://www.beachhouseinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.beachhouseinspections.com/",
+      "bytes": 70981,
+      "checkedAt": "2026-10-30T02:01:48.090641+00:00",
+      "title": [
+        "Emerald Coast Home Inspectors | Beach House Home Inspections"
+      ],
+      "contentSha256": "4ca6cfdd7c9f5e083a9357c6bf1fcc1573f9b1d3a78350b35d929576802216d0"
+    },
+    {
+      "url": "https://www.clearpathpc.com/",
+      "status": 200,
+      "finalUrl": "https://www.clearpathpc.com/",
+      "bytes": 206725,
+      "checkedAt": "2026-10-30T02:01:48.418254+00:00",
+      "title": [
+        "Clear Path Inspections"
+      ],
+      "contentSha256": "a7be192dff6190ca97ab39f66553674e466677a8ba0a6545fccdf736d8efe548"
+    },
+    {
+      "url": "https://www.dvinspectionservices.com/",
+      "status": 200,
+      "finalUrl": "https://www.dvinspectionservices.com/",
+      "bytes": 982652,
+      "checkedAt": "2026-10-30T02:01:53.164132+00:00",
+      "title": [
+        "Landing Page | DV Inspection Services"
+      ],
+      "contentSha256": "a87b041ff2984c3a103f0f55bd7c8c5f756ad653f84b615a9064317655541d0f"
+    },
+    {
+      "url": "https://www.dvinspectionservices.com/residential",
+      "status": 200,
+      "finalUrl": "https://www.dvinspectionservices.com/residential",
+      "bytes": 790907,
+      "checkedAt": "2026-10-30T02:01:53.291994+00:00",
+      "title": [
+        "HOME | DV Home Inspections"
+      ],
+      "contentSha256": "7ea111e3013a52a26028c9337c230ed684f958cea152fcb84a8c835ed64302fd"
+    },
+    {
+      "url": "https://www.eagle1inspect.com/",
+      "status": 200,
+      "finalUrl": "https://www.eagle1inspect.com/",
+      "bytes": 251652,
+      "checkedAt": "2026-10-30T02:01:49.770610+00:00",
+      "title": [
+        "Home Inspection | Panama City, FL | Wind Mitigation, 4-Point"
+      ],
+      "contentSha256": "9821b11afaf26aabdc7306cac0deb133e0fa5b9e27a06a9b53ed3e4c6d85861b"
+    },
+    {
+      "url": "https://www.eagleeye-homeinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.eagleeye-homeinspections.com/",
+      "bytes": 133409,
+      "checkedAt": "2026-10-30T02:01:50.882546+00:00",
+      "title": [
+        "\r\n    Inspectors | Crestview, FL | Eagle Eye Home Inspections LLC\r\n  "
+      ],
+      "contentSha256": "42826636957f9472a7fae19a3c832f343144755b6ac053e341e48032e4c37787"
+    },
+    {
+      "url": "https://www.emeraldcoasthomeinspectors.com/",
+      "status": 200,
+      "finalUrl": "https://www.emeraldcoasthomeinspectors.com/",
+      "bytes": 321248,
+      "checkedAt": "2026-10-30T02:01:50.807109+00:00",
+      "title": [
+        "Home Inspection Pensacola, Crestview, Navarre, Pace | Emerald Coast Home Inspectors LLC"
+      ],
+      "contentSha256": "bc06303a0485bd1b9470962297ffddb62580ac1fc79429d302017d958ac75d01"
+    },
+    {
+      "url": "https://www.emeraldcoastpi.com/",
+      "status": 200,
+      "finalUrl": "https://www.emeraldcoastpi.com/",
+      "bytes": 709286,
+      "checkedAt": "2026-10-30T02:01:51.915953+00:00",
+      "title": [
+        "Emerald Coast Property Inspection"
+      ],
+      "contentSha256": "ead472330c16dec99256fbd7ea0c0b1ea0cc213e1a7767cf9e951f0425d88b97"
+    },
+    {
+      "url": "https://www.gbhomeinspections.net/",
+      "status": 200,
+      "finalUrl": "https://www.gbhomeinspections.net/",
+      "bytes": 871599,
+      "checkedAt": "2026-10-30T02:01:50.992358+00:00",
+      "title": [
+        "Home Inspection | Crestview, FL | GB Home Inspections, LLC"
+      ],
+      "contentSha256": "53182242da27675a92c5275e483122aec730ebc0a0d1ed8840fb1b38588570f4"
+    },
+    {
+      "url": "https://www.nachi.org/certified-inspectors/christopher-battles-193956",
+      "status": 200,
+      "finalUrl": "https://www.nachi.org/certified-inspectors/christopher-battles-193956",
+      "bytes": 68625,
+      "checkedAt": "2026-10-30T02:01:51.876692+00:00",
+      "title": [
+        "\n\t\t\t\t\n\t\tChristopher Battles - Woodville, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+      ],
+      "contentSha256": "b127f292d57f7a05ab9de3c69cac082c8a18d05ef775d321e2b7474b50375213"
+    },
+    {
+      "url": "https://www.nachi.org/certified-inspectors/daniel-churukian-cmi-fl-lic-hi10597-64055",
+      "status": 200,
+      "finalUrl": "https://www.nachi.org/certified-inspectors/daniel-churukian-cmi-fl-lic-hi10597-64055",
+      "bytes": 80523,
+      "checkedAt": "2026-10-30T02:01:51.966372+00:00",
+      "title": [
+        "\n\t\t\t\t\n\t\tDaniel Churukian, CMI\u00ae, FL Lic# HI10597 - Pensacola, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+      ],
+      "contentSha256": "a620fff41065facb686a025667a1fe98d5914ac15c40df05055b1c40518a1d9b"
+    },
+    {
+      "url": "https://www.nachi.org/certified-inspectors/david-stanko-158959",
+      "status": 200,
+      "finalUrl": "https://www.nachi.org/certified-inspectors/david-stanko-158959",
+      "bytes": 78778,
+      "checkedAt": "2026-10-30T02:01:52.374342+00:00",
+      "title": [
+        "\n\t\t\t\t\n\t\tDavid Stanko - Panama City, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+      ],
+      "contentSha256": "578ba5e016eb8ab2f0c6ee10c56d0efa5cccadaed53884032b47901b43c48a8f"
+    },
+    {
+      "url": "https://www.nachi.org/certified-inspectors/elisha-frazier-cmi-168708",
+      "status": 200,
+      "finalUrl": "https://www.nachi.org/certified-inspectors/elisha-frazier-cmi-168708",
+      "bytes": 62015,
+      "checkedAt": "2026-10-30T02:01:51.836362+00:00",
+      "title": [
+        "\n\t\t\t\t\n\t\tElisha Frazier, CMI\u00ae - Jacksonville, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+      ],
+      "contentSha256": "cfe087c24487551779263849dd8442215ecc912c2206091b43e446f091e1d4e5"
+    },
+    {
+      "url": "https://www.nachi.org/certified-inspectors/lloyd-kadlec-146978",
+      "status": 200,
+      "finalUrl": "https://www.nachi.org/certified-inspectors/lloyd-kadlec-146978",
+      "bytes": 61579,
+      "checkedAt": "2026-10-30T02:01:51.750282+00:00",
+      "title": [
+        "\n\t\t\t\t\n\t\tLloyd Kadlec - Mexico Beach, FL Certified Home Inspector - InterNACHI\u00ae\n\t\n\t"
+      ],
+      "contentSha256": "3310d8435d56c367779e7ef95ee4d57250b0bef3eb13215c836d959a96e468a2"
+    },
+    {
+      "url": "https://www.pointblankpropertyinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.pointblankpropertyinspections.com/",
+      "bytes": 254516,
+      "checkedAt": "2026-10-30T02:01:54.242613+00:00",
+      "title": [
+        "Point Blank Property Inspections | Call 850-517-0515"
+      ],
+      "contentSha256": "5b52a83f9bebf93bbb6c48d0323c135a910c018a841c602e16d1030df9fc716d"
+    },
+    {
+      "url": "https://www.pointblankpropertyinspections.com/about-home-inspector-casy-lloyd/",
+      "status": 200,
+      "finalUrl": "https://www.pointblankpropertyinspections.com/about-home-inspector-casy-lloyd/",
+      "bytes": 253007,
+      "checkedAt": "2026-10-30T02:01:54.254801+00:00",
+      "title": [
+        "About | Point Blank Property Inspections"
+      ],
+      "contentSha256": "d5a6bc6047910fba3a2abfa305df481c8197216281e523ae5bbae119ce94d48b"
+    },
+    {
+      "url": "https://www.precision850inspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.precision850inspections.com/",
+      "bytes": 427049,
+      "checkedAt": "2026-10-30T02:01:54.566622+00:00",
+      "title": [
+        "Precision Property Inspections"
+      ],
+      "contentSha256": "a702e04d62d8b9ab4b98381207165be396268d4c0fcefb943fad08a9b5b148ba"
+    },
+    {
+      "url": "https://www.pro1homeinspection.com/",
+      "status": 200,
+      "finalUrl": "https://www.pro1homeinspection.com/",
+      "bytes": 1517693,
+      "checkedAt": "2026-10-30T02:01:54.537149+00:00",
+      "title": [
+        "Home Inspection Services | PRO 1 Home Inspection"
+      ],
+      "contentSha256": "d35d2f127bf04609ac388e55d3f7c53d3bdba3cbaa15a72bad9852082fe76810"
+    },
+    {
+      "url": "https://www.sighthoundhomeinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.sighthoundhomeinspections.com/",
+      "bytes": 853162,
+      "checkedAt": "2026-10-30T02:01:55.888058+00:00",
+      "title": [
+        "Sighthound Home Inspections, LLC | Home Inspector | Santa Rosa Beach, Florida, USA"
+      ],
+      "contentSha256": "66b1837401f8ab4899963b21baf4629f40218ce180bcfe8827f2fc5fac03e085"
+    },
+    {
+      "url": "https://www.southpointinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.southpointinspections.com/",
+      "bytes": 191725,
+      "checkedAt": "2026-10-30T02:01:55.133468+00:00",
+      "title": [
+        "SOUTHPOINT INSPECTIONS"
+      ],
+      "contentSha256": "330a7174d1c10aaf8592f59a8c5504d2b9d1c044264c9ded337a5202a6695beb"
+    },
+    {
+      "url": "https://www.veteransprideinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.veteransprideinspections.com/",
+      "bytes": 993431,
+      "checkedAt": "2026-10-30T02:02:04.421253+00:00",
+      "title": [
+        "Home Inspection | Fort Walton Beach, FL | Veterans Pride Inspection Services, LLC"
+      ],
+      "contentSha256": "6bc92fb40e36e6cbbcc990248fff852eee20561c8651ebd8958e9e0188d7384a"
+    },
+    {
+      "url": "https://avantinspect.com/",
+      "status": 200,
+      "finalUrl": "https://avantinspect.com/",
+      "bytes": 190624,
+      "checkedAt": "2026-10-30T02:03:01.042801+00:00",
+      "title": [
+        "Home Inspections in Panama City, FL | Avant Home Inspections"
+      ],
+      "contentSha256": "0b724479f9cafc3bb24a1b9fb03bcd4b501634a6e42c43dde724c480a76d161a"
+    },
+    {
+      "url": "https://hcgifl.com/",
+      "status": 200,
+      "finalUrl": "https://hcgifl.com/",
+      "bytes": 92738,
+      "checkedAt": "2026-10-30T02:03:00.578485+00:00",
+      "title": [
+        "Commercial Renovations, Disaster Recovery Roofing | Horsley Construction Group"
+      ],
+      "contentSha256": "8f2d3433c10c68f7fd64aa1a8539e1b6edc3a6ab240bc6dac624ec657832560f"
+    },
+    {
+      "url": "https://sixinspections.com/",
+      "status": 200,
+      "finalUrl": "https://sixinspections.com/",
+      "bytes": 518924,
+      "checkedAt": "2026-10-30T02:03:00.715442+00:00",
+      "title": [
+        "Niceville Home Inspector"
+      ],
+      "contentSha256": "f8ea1039fd73106cf5adb916f25b04fe9a45032f2278df727c7d9664fb8bd7d3"
+    },
+    {
+      "url": "https://whi-fl.com/contact",
+      "status": 200,
+      "finalUrl": "https://whi-fl.com/contact",
+      "bytes": 54615,
+      "checkedAt": "2026-10-30T02:03:00.366607+00:00",
+      "title": [
+        "Your Florida Home Inspector | WHI | Contact"
+      ],
+      "contentSha256": "31899f9212d5e60d1acf1d016ff5529b0ff811abd7c228f301e468f349a500a6"
+    },
+    {
+      "url": "https://www.30apropertyinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.30apropertyinspections.com/",
+      "bytes": 63326,
+      "checkedAt": "2026-10-30T02:03:11.190345+00:00",
+      "title": [
+        "30A Property Inspections LLC &#8211; Proudly Inspecting the Emerald Coast"
+      ],
+      "contentSha256": "9aa16a3b3b7560c99de04ca40b5f3477dea4080fed2eb119940bae758e47e9b7"
+    },
+    {
+      "url": "https://www.beachtobayou.com/",
+      "status": 200,
+      "finalUrl": "https://www.beachtobayou.com/",
+      "bytes": 98154,
+      "checkedAt": "2026-10-30T02:03:00.346738+00:00",
+      "title": [
+        "Home Inspectors Destin, Santa Rosa Beach &amp; Panama City Beach"
+      ],
+      "contentSha256": "5c152d13fd87f76a3ceccedfa360f63ee1d1ac28bacdfd712406c22d5e547e64"
+    },
+    {
+      "url": "https://www.cardinalhomeinspection.us/",
+      "status": 200,
+      "finalUrl": "https://www.cardinalhomeinspection.us/",
+      "bytes": 47261,
+      "checkedAt": "2026-10-30T02:03:00.581680+00:00",
+      "title": [
+        "Panama City Beach FL Home Inspector | Cardinal Home Inspection | 850-215-4700"
+      ],
+      "contentSha256": "bc93d2dea77d6b87206681e96f8f766f62b5a0095b3aff831aa084ff6213df16"
+    },
+    {
+      "url": "https://www.fieldsroofing.net/",
+      "status": 200,
+      "finalUrl": "https://www.fieldsroofing.net/",
+      "bytes": 392993,
+      "checkedAt": "2026-10-30T02:03:00.139242+00:00",
+      "title": [
+        "\r\n    Custom Quality Roofing | Fields Roofing | Gulf Breeze\r\n  "
+      ],
+      "contentSha256": "7cb3f637ba2eb1438fef95a1a17d39d8d394d9b06a1892fd134fba785a1bafd9"
+    },
+    {
+      "url": "https://www.horizonroofllc.com/",
+      "status": 200,
+      "finalUrl": "https://www.horizonroofllc.com/",
+      "bytes": 103985,
+      "checkedAt": "2026-10-30T02:03:04.030720+00:00",
+      "title": [
+        "Roofing Contractor in Navarre | Roof Replacement"
+      ],
+      "contentSha256": "04b3dcb07a40e8238e9be6581cb1c56883acb9870e6c7539a3429f3974709a0b"
+    },
+    {
+      "url": "https://www.inspections-mhi.com/",
+      "status": 200,
+      "finalUrl": "https://www.inspections-mhi.com/",
+      "bytes": 260716,
+      "checkedAt": "2026-10-30T02:03:03.420780+00:00",
+      "title": [
+        "Property Inspections Destin, FL | Tri-State Property Inspections"
+      ],
+      "contentSha256": "7e42171024beb1fd6607c47b66228ca98db888be7b73197a24ba4caf18e7febb"
+    },
+    {
+      "url": "https://www.jgregoryinspections.com/",
+      "status": 200,
+      "finalUrl": "https://www.jgregoryinspections.com/",
+      "bytes": 1210734,
+      "checkedAt": "2026-10-30T02:03:05.431341+00:00",
+      "title": [
+        "Home Inspector Pensacola FL | Navarre, Gulf Breeze &amp; Destin | J. Gregory Inspections"
+      ],
+      "contentSha256": "589f44f6872dd713e33e76464ac4b96632238c061ed9440432f62a01c882475e"
+    },
+    {
+      "url": "https://www.jonesroofinginc.com/",
+      "status": 200,
+      "finalUrl": "https://www.jonesroofinginc.com/",
+      "bytes": 208376,
+      "checkedAt": "2026-10-30T02:03:03.906548+00:00",
+      "title": [
+        "\r\n    \n    Jones Roofing, Inc. | Destin &amp; Navarre, FL | Roofing Company\n  \r\n  "
+      ],
+      "contentSha256": "e0a6f294ac80649d7a1514681bd2d6268fb987d722355925f066a8ae4aa0d6c5"
+    },
+    {
+      "url": "https://www.pbconstructiongroup.com/",
+      "status": 200,
+      "finalUrl": "https://www.pbconstructiongroup.com/",
+      "bytes": 1195589,
+      "checkedAt": "2026-10-30T02:03:04.354690+00:00",
+      "title": [
+        "Storm Damage Roof Repair Pensacola, FL | PB Construction"
+      ],
+      "contentSha256": "14f488e6b4c0041075954ceb44691d8a2e428e58965d2fbf5b91a54e1e6aa000"
+    },
+    {
+      "url": "https://www.pbconstructiongroup.com/roofing",
+      "status": 200,
+      "finalUrl": "https://www.pbconstructiongroup.com/roofing",
+      "bytes": 1193824,
+      "checkedAt": "2026-10-30T02:03:04.553063+00:00",
+      "title": [
+        "Pensacola Best Roofing and Home Builder | PB Construction Group | Pensacola"
+      ],
+      "contentSha256": "b7f6f43c5741b3e30013d9413369266cacef2e7d444f54e20199d8d991ade9c0"
+    },
+    {
+      "url": "https://www.pfroof.com/",
+      "status": 200,
+      "finalUrl": "https://www.pfroof.com/",
+      "bytes": 78312,
+      "checkedAt": "2026-10-30T02:03:04.798274+00:00",
+      "title": [
+        "Trusted Pensacola Roofing Contractor: PF Roofing"
+      ],
+      "contentSha256": "97117d0616ff95fb76f83911e289df592081bb8e828c0619c9f390ef97383780"
+    },
+    {
+      "url": "https://www.pfroof.com/roof-services/gutter-replacement",
+      "status": 200,
+      "finalUrl": "https://www.pfroof.com/roof-services/gutter-replacement",
+      "bytes": 34415,
+      "checkedAt": "2026-10-30T02:03:04.758103+00:00",
+      "title": [
+        "Gutter Replacement | Installing New Gutters in Pensacola"
+      ],
+      "contentSha256": "75dd787bdd2e703ed59f13f67f876a6b0670bf03cfe79b4d2b642f17dfb494dd"
+    },
+    {
+      "url": "https://www.site-pro.us/",
+      "status": 200,
+      "finalUrl": "https://www.site-pro.us/",
+      "bytes": 1087545,
+      "checkedAt": "2026-10-30T02:03:09.185315+00:00",
+      "title": [
+        "Site-Pro Home Inspections | Home inspector Fort Walton Beach"
+      ],
+      "contentSha256": "14fe0bca43eeb2799275a5bddb451e4bfc30538f55b4e1bc84812205f0125358"
+    }
+  ],
+  "existingRecordReverification": [
+    {
+      "name": "30A Property Inspections",
+      "website": "https://www.30apropertyinspections.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.30apropertyinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full home inspections and explicitly lists these cities."
+    },
+    {
+      "name": "Beach To Bayou Property Inspections",
+      "website": "https://www.beachtobayou.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.beachtobayou.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers home inspections and explicitly lists these cities; Mason LaPlante, one identity."
+    },
+    {
+      "name": "Six Inspection Services",
+      "website": "https://sixinspections.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://sixinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official Areas We Serve list expressly names these cities and site offers residential inspections; Brett Six."
+    },
+    {
+      "name": "J. Gregory Home Inspections",
+      "website": "https://www.jgregoryinspections.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.jgregoryinspections.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage links these specific inspection locations and offers full home inspections; Josh Gregory HI10393."
+    },
+    {
+      "name": "Tri-State Property Inspections",
+      "website": "https://www.inspections-mhi.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.inspections-mhi.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers buyer home inspections with explicit service throughout Northwest Florida including the Panhandle; all three cities are in that stated area. Existing records reverified, no new regional inference imported."
+    },
+    {
+      "name": "SitePro Home Inspections",
+      "website": "https://www.site-pro.us/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.site-pro.us/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Current official homepage offers full home inspections in Fort Walton Beach. Old indexed broader city list no longer present; no extensions imported."
+    },
+    {
+      "name": "Avant Home Inspections",
+      "website": "https://avantinspect.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://avantinspect.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers home inspections and explicitly links both city service areas."
+    },
+    {
+      "name": "Cardinal Home Inspection",
+      "website": "https://www.cardinalhomeinspection.us/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.cardinalhomeinspection.us/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers full home inspections serving Panama City Beach and Bay County, which includes Panama City; Steve Hord HI1891."
+    },
+    {
+      "name": "Elite Property Inspectors",
+      "website": "https://elitepillc.com/",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://elitepillc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage/title explicitly identify these cities for home inspections; same existing identity."
+    },
+    {
+      "name": "WHI Home Inspection Services",
+      "website": "https://whi-fl.com/contact",
+      "regions": [
+        "destin-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "orlando-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://whi-fl.com/contact",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official contact page explicitly names these home-inspection service cities. Mark and Tim Workman offices counted as one identity."
+    },
+    {
+      "name": "Horsley Construction Group",
+      "website": "https://hcgifl.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://hcgifl.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage describes licensed roofing services in Panama City, with local 1764 Lisenby Avenue office; CCC1333195."
+    },
+    {
+      "name": "Jones Roofing",
+      "website": "https://www.jonesroofinginc.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.jonesroofinginc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage expressly names these roofing service cities. Jones Roofing, Inc. and Jones Roofing are one identity; normalized domain counted once."
+    },
+    {
+      "name": "Horizon Roofing",
+      "website": "https://www.horizonroofllc.com/",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.horizonroofllc.com/",
+      "sourceVerifiedAt": "2026-10-30",
+      "evidenceNote": "Official homepage offers roof installation and repair and explicitly lists these service cities."
+    }
+  ],
+  "blockers": [
+    {
+      "candidate": "Minuteman Home Inspections / Harry Brown",
+      "reason": "Chamber-linked minutemanhomeinspections.com now identifies Terry Roark in Kentucky. Excluded; Florida official website not established."
+    },
+    {
+      "candidate": "INSPECT Real Estate Inspections / David Morris",
+      "reason": "inspectflhomes.com inaccessible in web open; no listing added."
+    },
+    {
+      "candidate": "Transparent Inspection Services / David Broome; Dalton Inspection Services / Bryan Dalton",
+      "reason": "Relevant public association profiles found, but no working official company websites established. Not counted or imported."
+    },
+    {
+      "candidate": "SitePro broad coverage extension",
+      "reason": "Old search index listed many cities, but current official site supports Fort Walton Beach only. Existing record reverified; no broader additions."
+    },
+    {
+      "candidate": "National Property Inspections Panama City",
+      "reason": "Historical national-franchise record preserved. Not included in fresh independent/local verified milestone count."
+    }
+  ],
+  "deduplicationNotes": [
+    "Branch offices, individual staff and alternate domains are one identity.",
+    "Emerald Coast Home Inspectors / echomeinspectors.com is distinct from Emerald Coast Property Inspection / emeraldcoastpi.com.",
+    "ALT Home Inspections / Larry Thompson is distinct from Altum Inspection Services / David Stanko.",
+    "Eagle Eye / Brad Jewell is distinct from Eagle Home Inspection Service / Michael Thompson.",
+    "Five Star alternate panamacitypropertyinspector.com is not an additional business."
+  ],
+  "scopeNote": "Current main catalog is 40 cities and 30 active categories. Retired categories and excluded-chain settings preserved; target remains 20 for every active combination.",
+  "freshlyVerifiedMilestones": [
+    {
+      "city": "crestview-fl",
+      "category": "home-inspections",
+      "verifiedDistinctBusinesses": 20,
+      "generatedCount": 20,
+      "domains": [
+        "1stdefenseinspections.com",
+        "aceinspections.pro",
+        "baytobeachinspections.com",
+        "beachhouseinspections.com",
+        "dependablehomeinspectionsfl.com",
+        "dvinspectionservices.com",
+        "eagleeye-homeinspections.com",
+        "emeraldcoasthomeinspectors.com",
+        "emeraldcoastpi.com",
+        "gbhomeinspections.net",
+        "goforko.com",
+        "jgregoryinspections.com",
+        "mshi.com",
+        "newcourseinspections.com",
+        "pomiservices.com",
+        "pro1homeinspection.com",
+        "sighthoundhomeinspections.com",
+        "sixinspections.com",
+        "southpointinspections.com",
+        "veteransprideinspections.com"
+      ]
+    },
+    {
+      "city": "crestview-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 21,
+      "generatedCount": 26,
+      "domains": [
+        "bmrroofingco.com",
+        "coastalfloridaqualityroofs.com",
+        "defenderroofco.com",
+        "eagleviewfl.com",
+        "elmercookconstruction.com",
+        "floridaroofllc.com",
+        "hollowayroofing.com",
+        "johnsonroofingsolutions.com",
+        "kingsroofingllc.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "roofturtle.com",
+        "southeastcontractors.net",
+        "specialtyroofers.com",
+        "tallahasseeroofinginc.com",
+        "taylorroofing.com",
+        "timbermanroofing.com",
+        "wadefamilyhomesllc.com",
+        "warrenroofingflorida.com",
+        "whitrockassociates.com"
+      ]
+    },
+    {
+      "city": "destin-fl",
+      "category": "home-inspections",
+      "verifiedDistinctBusinesses": 27,
+      "generatedCount": 27,
+      "domains": [
+        "1stdefenseinspections.com",
+        "30apropertyinspections.com",
+        "aceinspections.pro",
+        "baytobeachinspections.com",
+        "beachhouseinspections.com",
+        "beachtobayou.com",
+        "clearpathpc.com",
+        "dependablehomeinspectionsfl.com",
+        "dvinspectionservices.com",
+        "eagle1inspect.com",
+        "elitepillc.com",
+        "emeraldcoasthomeinspectors.com",
+        "emeraldcoastpi.com",
+        "gbhomeinspections.net",
+        "goforko.com",
+        "inspections-mhi.com",
+        "jgregoryinspections.com",
+        "mshi.com",
+        "newcourseinspections.com",
+        "pointblankpropertyinspections.com",
+        "pomiservices.com",
+        "pro1homeinspection.com",
+        "sighthoundhomeinspections.com",
+        "sixinspections.com",
+        "southpointinspections.com",
+        "veteransprideinspections.com",
+        "whi-fl.com"
+      ]
+    },
+    {
+      "city": "destin-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 22,
+      "generatedCount": 27,
+      "domains": [
+        "assuranceresidentialfl.com",
+        "coastalfloridaqualityroofs.com",
+        "defenderroofco.com",
+        "eagleviewfl.com",
+        "elmercookconstruction.com",
+        "hawesroofing.com",
+        "hollowayroofing.com",
+        "johnsonroofingsolutions.com",
+        "kingsroofingllc.com",
+        "ljbconstruction.com",
+        "pfroof.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "roofturtle.com",
+        "southeastcontractors.net",
+        "specialtyroofers.com",
+        "tallahasseeroofinginc.com",
+        "taylorroofing.com",
+        "timbermanroofing.com",
+        "warrenroofingflorida.com",
+        "whitrockassociates.com"
+      ]
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "home-inspections",
+      "verifiedDistinctBusinesses": 23,
+      "generatedCount": 23,
+      "domains": [
+        "1stdefenseinspections.com",
+        "30apropertyinspections.com",
+        "aceinspections.pro",
+        "baytobeachinspections.com",
+        "beachhouseinspections.com",
+        "beachtobayou.com",
+        "clearpathpc.com",
+        "dependablehomeinspectionsfl.com",
+        "dvinspectionservices.com",
+        "emeraldcoasthomeinspectors.com",
+        "gbhomeinspections.net",
+        "goforko.com",
+        "inspections-mhi.com",
+        "jgregoryinspections.com",
+        "mshi.com",
+        "newcourseinspections.com",
+        "pomiservices.com",
+        "pro1homeinspection.com",
+        "sighthoundhomeinspections.com",
+        "site-pro.us",
+        "sixinspections.com",
+        "southpointinspections.com",
+        "veteransprideinspections.com"
+      ]
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 22,
+      "generatedCount": 27,
+      "domains": [
+        "assuranceresidentialfl.com",
+        "coastalfloridaqualityroofs.com",
+        "defenderroofco.com",
+        "eagleviewfl.com",
+        "elmercookconstruction.com",
+        "fieldsroofing.net",
+        "floridaroofllc.com",
+        "hollowayroofing.com",
+        "johnsonroofingsolutions.com",
+        "ljbconstruction.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "roofturtle.com",
+        "southeastcontractors.net",
+        "specialtyroofers.com",
+        "tallahasseeroofinginc.com",
+        "taylorroofing.com",
+        "timbermanroofing.com",
+        "wadefamilyhomesllc.com",
+        "warrenroofingflorida.com",
+        "whitrockassociates.com"
+      ]
+    },
+    {
+      "city": "gulf-breeze-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 20,
+      "generatedCount": 27,
+      "domains": [
+        "coastalfloridaqualityroofs.com",
+        "defenderroofco.com",
+        "eagleviewfl.com",
+        "fieldsroofing.net",
+        "floridaroofllc.com",
+        "hollowayroofing.com",
+        "horizonroofllc.com",
+        "johnsonroofingsolutions.com",
+        "jonesroofinginc.com",
+        "kingsroofingllc.com",
+        "pbconstructiongroup.com",
+        "pfroof.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "roofturtle.com",
+        "southeastcontractors.net",
+        "timbermanroofing.com",
+        "warrenroofingflorida.com",
+        "whitrockassociates.com"
+      ]
+    },
+    {
+      "city": "navarre-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 21,
+      "generatedCount": 28,
+      "domains": [
+        "coastalfloridaqualityroofs.com",
+        "defenderroofco.com",
+        "eagleviewfl.com",
+        "elmercookconstruction.com",
+        "fieldsroofing.net",
+        "floridaroofllc.com",
+        "hollowayroofing.com",
+        "horizonroofllc.com",
+        "jonesroofinginc.com",
+        "kingsroofingllc.com",
+        "ljbconstruction.com",
+        "pbconstructiongroup.com",
+        "pfroof.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "roofturtle.com",
+        "southeastcontractors.net",
+        "timbermanroofing.com",
+        "warrenroofingflorida.com",
+        "whitrockassociates.com"
+      ]
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "home-inspections",
+      "verifiedDistinctBusinesses": 21,
+      "generatedCount": 22,
+      "domains": [
+        "1stdefenseinspections.com",
+        "althomeins.com",
+        "altuminspectionservices.com",
+        "anchorpointinspection.com",
+        "avantinspect.com",
+        "cardinalhomeinspection.us",
+        "clearpathpc.com",
+        "eagle1inspect.com",
+        "elitepillc.com",
+        "emeraldcoastpi.com",
+        "good2goinspections.com",
+        "inspections-mhi.com",
+        "mshi.com",
+        "panamacityhomeinspections.com",
+        "precision850inspections.com",
+        "preferredinspectionservices.com",
+        "revealedhomeinspections.com",
+        "rocksteadyinspectionsfl.com",
+        "sighthoundhomeinspections.com",
+        "teampatriotllc.com",
+        "whi-fl.com"
+      ]
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 21,
+      "generatedCount": 25,
+      "domains": [
+        "aaroofingfl.com",
+        "andrewsroofingpanamacity.com",
+        "artconstruction.com",
+        "assuranceresidentialfl.com",
+        "bmrroofingco.com",
+        "coastalfloridaqualityroofs.com",
+        "eagleviewfl.com",
+        "hawesroofing.com",
+        "hcgifl.com",
+        "hollowayroofing.com",
+        "johnsonroofingsolutions.com",
+        "kingsroofingllc.com",
+        "pfroof.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "southeastcontractors.net",
+        "tallahasseeroofinginc.com",
+        "timbermanroofing.com",
+        "tkvandy.com",
+        "whitrockassociates.com"
+      ]
+    },
+    {
+      "city": "pensacola-fl",
+      "category": "roofing",
+      "verifiedDistinctBusinesses": 22,
+      "generatedCount": 31,
+      "domains": [
+        "bmrroofingco.com",
+        "coastalfloridaqualityroofs.com",
+        "defenderroofco.com",
+        "eagleviewfl.com",
+        "fieldsroofing.net",
+        "floridaroofllc.com",
+        "hawesroofing.com",
+        "hollowayroofing.com",
+        "horizonroofllc.com",
+        "johnsonroofingsolutions.com",
+        "jonesroofinginc.com",
+        "kingsroofingllc.com",
+        "ljbconstruction.com",
+        "pbconstructiongroup.com",
+        "pfroof.com",
+        "proroofinstall.com",
+        "rhinoroofingnwfl.com",
+        "roofproroofing.com",
+        "southeastcontractors.net",
+        "taylorroofing.com",
+        "timbermanroofing.com",
+        "whitrockassociates.com"
+      ]
+    }
+  ]
+}

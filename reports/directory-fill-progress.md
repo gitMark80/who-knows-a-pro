@@ -388,3 +388,19 @@ Next actions:
 - All 6,451 prior generated records and 1,463 prior source records unchanged; new seed total 6,666. IDs, active slugs and normalized domain/city/category checks pass. All 45 candidate website/source URLs returned HTTP 200 and relevant official content was reviewed.
 - Fresh baseline live audit: 40 active cities × 30 active categories; 8/1,200 pairs at 20, 1,192 below, 75 empty, count deficit 18,804. Retired categories and national-chain exclusions remain unchanged. Projected count pairs at 20: 15; post-deployment audit will replace projections.
 - Next: confirm this batch live, independently verify new roofing milestones, then continue lowest counts in priority cities, especially home inspections, insulation, appliance repair and collision. Preserve all claims/paid placements and refresh main before writing.
+
+
+### 2026-10-30 — Go again, wave 1 production verification
+
+Commit `91ce3973a51a37afa5747d96753948af9722bf3e` deployed successfully through Vercel. All 215 appended placements were verified on 38 live city/category pages, and all 28 business profile pages returned HTTP 200 with their official website links. Fresh full catalog audit: 40 cities, 30 active categories, 1,200 combinations; 15 at or above 20, 1,185 below, 75 empty, 18,637 missing placements. These are live counts; historical website/identity verification is not implied. Evidence: `live-fill-again-2026-10-30.json`, `profiles-fill-again-2026-10-30.json`, `coverage-fill-again-2026-10-30.csv`.
+
+
+### 2026-10-30 — Go again, wave 2 prepared
+
+Prepared 188 additional placements across 26 cities: 166 home inspections, 12 roofing and 10 gutters; 36 business identities (29 new, seven existing service-area extensions). All 6,666 prior generated records and 1,492 raw source rows remain unchanged. All 63 distinct website/evidence URLs returned HTTP 200; source content hashes and notes are in `verified-fill-again2-2026-10-30.json`. No code, claims, paid placements or subscriptions changed.
+
+Projected coverage: 19 of 1,200 combinations at or above 20, 1,181 below, 68 empty, deficit 18,464. Projected home-inspection counts: Destin 27, Fort Walton Beach 23, Crestview 20, Panama City 22 (21 freshly verified independent businesses; historical NPI not included in fresh milestone). Eleven combinations now have at least 20 independently researched distinct domains with relevant official websites in this run; milestone lists include source evidence and preserve all existing records. Publishing/live verification still pending for wave 2.
+
+Additions by city: clearwater-fl: 1, crestview-fl: 15, destin-fl: 23, fort-lauderdale-fl: 1, fort-myers-fl: 3, fort-walton-beach-fl: 18, grayton-beach-fl: 5, gulf-breeze-fl: 12, gulfport-ms: 1, jacksonville-fl: 2, miami-fl: 1, milton-fl: 15, mobile-al: 1, naples-fl: 1, navarre-fl: 15, orlando-fl: 1, pace-fl: 13, panama-city-beach-fl: 12, panama-city-fl: 18, pensacola-fl: 14, perdido-key-fl: 6, sarasota-fl: 4, st-petersburg-fl: 1, tallahassee-fl: 3, tampa-fl: 1, west-palm-beach-fl: 1.
+
+Resume after checking live deployment and current main: use the fresh full audit and prioritize lowest counts in Destin, Fort Walton Beach, Crestview and Panama City. Remaining research blockers are recorded in the wave 2 evidence report. No claims of all-directory completion.
