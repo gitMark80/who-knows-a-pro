@@ -1,0 +1,29 @@
+{
+  "validatedAt": "2026-10-30",
+  "status": "prepared and locally validated; publication pending",
+  "catalog": {
+    "activeCities": 40,
+    "activeCategories": 30,
+    "activeCombinations": 1200,
+    "graytonBeachActive": true,
+    "pensacolaBeachActive": false
+  },
+  "seed": {
+    "before": 7690,
+    "after": 8190,
+    "newPlacements": 500,
+    "allPriorRowsSerializedEqualAndInOriginalOrder": true,
+    "newPlacementsUseOnlyActiveCitySlugs": true,
+    "newPlacementsUseOnlyActiveCategorySlugs": true,
+    "normalizedDomainDuplicatesWithinCityCategory": 0,
+    "jsonValid": true,
+    "requiredEvidenceFieldsPresent": true
+  },
+  "preparedCoverage": {
+    "combinationsAtOrAbove20": 45,
+    "combinationsBelow20": 1155,
+    "emptyCombinations": 58,
+    "countBasedDeficit": 17196
+  },
+  "publication": null
+}
