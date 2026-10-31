@@ -1,0 +1,1106 @@
+{
+  "baselineCommit": "3261f7aed800988bd39719c40284dca3a2e09fc8",
+  "target": 1000,
+  "status": "prepared_not_published",
+  "placementCount": 507,
+  "sourceRecordCount": 42,
+  "uniqueDomains": 15,
+  "additionsByCity": {
+    "fort-walton-beach-fl": 29,
+    "crestview-fl": 26,
+    "panama-city-fl": 16,
+    "destin-fl": 29,
+    "tallahassee-fl": 16,
+    "miami-fl": 20,
+    "fort-lauderdale-fl": 20,
+    "west-palm-beach-fl": 20,
+    "mobile-al": 5,
+    "dothan-al": 2,
+    "st-petersburg-fl": 20,
+    "clearwater-fl": 20,
+    "jacksonville-fl": 18,
+    "orlando-fl": 18,
+    "sarasota-fl": 18,
+    "fort-myers-fl": 15,
+    "naples-fl": 18,
+    "tampa-fl": 23,
+    "daphne-al": 6,
+    "gulf-shores-al": 6,
+    "foley-al": 6,
+    "fairhope-al": 6,
+    "perdido-key-fl": 18,
+    "orange-beach-al": 5,
+    "panama-city-beach-fl": 22,
+    "milton-fl": 21,
+    "grayton-beach-fl": 20,
+    "gulf-breeze-fl": 16,
+    "pace-fl": 20,
+    "pensacola-fl": 16,
+    "navarre-fl": 12
+  },
+  "unverifiedCandidates": [],
+  "records": [
+    {
+      "name": "Fe3 Concrete",
+      "website": "https://www.fe3concrete.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "crestview-fl",
+        "destin-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "tallahassee-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "pace-fl",
+        "tampa-fl",
+        "milton-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://www.fe3concrete.com/",
+      "evidenceNote": "Official homepage identifies Fe3 Concrete as a division of Fe3 Construct and explicitly serves all Florida for residential driveways, patios, pool decks, slabs and commercial concrete pours. Only one identity is imported for the division and parent.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "MV Total House Remodeling",
+      "website": "https://mvtotalremodelingfl.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "panama-city-beach-fl",
+        "pensacola-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://mvtotalremodelingfl.com/",
+      "evidenceNote": "Official homepage offers kitchen/bath remodeling, flooring/tile installation and interior/exterior painting; names Destin, Fort Walton Beach, Navarre, Panama City Beach, Crestview and Pensacola and expressly extends service from Panama City to Pensacola.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Wall 2 Wall Restoration",
+      "website": "https://www.w2wrestoration.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.w2wrestoration.com/",
+      "evidenceNote": "Official homepage lists insulation and painting among services and explicitly names Panama City, Destin, Fort Walton and Crestview. Existing placements will be deduplicated.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Tidy Life Co.",
+      "website": "https://www.tidylifeco.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "milton-fl",
+        "pace-fl",
+        "panama-city-beach-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.tidylifeco.com/",
+      "evidenceNote": "Official homepage offers kitchen/bath upgrades, flooring installation and painting, explicitly serving all Okaloosa, Walton, Santa Rosa, Escambia and Bay counties and the Pensacola-to-Panama-City-Beach corridor. Included cities lie within those expressly served counties.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Resolve Home Services",
+      "website": "https://resolvepainting.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "dothan-al",
+        "tallahassee-fl",
+        "daphne-al",
+        "gulf-shores-al",
+        "fairhope-al",
+        "foley-al",
+        "milton-fl",
+        "pace-fl",
+        "panama-city-beach-fl",
+        "tampa-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "mobile-al",
+        "gulf-breeze-fl",
+        "orange-beach-al",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://resolvepainting.com/service-areas/",
+      "evidenceNote": "Official service-area page explicitly covers painting throughout the Panhandle, Tampa Bay and the named south Alabama cities; homepage specifies interior, exterior and commercial painting. Southern Florida painting is not inferred from the broader garage-door territory.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Restorit",
+      "website": "https://restoritllc.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "daphne-al",
+        "gulf-shores-al",
+        "fairhope-al",
+        "foley-al",
+        "milton-fl",
+        "mobile-al",
+        "gulf-breeze-fl",
+        "orange-beach-al",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://restoritllc.com/pensacola-fl/",
+      "evidenceNote": "Official Pensacola page documents water/mold recovery, damaged-roof repair and in-house flooring/painting reconstruction; its service-area navigation explicitly lists all included communities. Scope is post-damage repair and reconstruction.",
+      "additionalSourceUrls": [
+        "https://restoritllc.com/construction-and-reconstruction/"
+      ],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "AJ Concrete Homes",
+      "website": "https://www.ajconcretehomes.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "sarasota-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "milton-fl",
+        "pace-fl",
+        "tampa-fl",
+        "panama-city-beach-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.ajconcretehomes.com/faq",
+      "evidenceNote": "Official FAQ explicitly serves all Florida, with travel scheduled upfront outside Tampa Bay, and says its own crew paints, remodels kitchens/bathrooms and installs flooring. No structural construction or licensed subcontractor-only categories are inferred.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "jacksonville-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "tallahassee-fl",
+        "milton-fl",
+        "pace-fl",
+        "tampa-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "pensacola-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage offers roofing, impact windows, garage-door repair, kitchens/bathrooms, flooring and painting for homeowners anywhere in Florida, explicitly including every city and town. Service-area placements do not imply local branch offices; plumbing/HVAC have narrower county coverage and are separate.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "destin-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "sarasota-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "milton-fl",
+        "pace-fl",
+        "tampa-fl",
+        "panama-city-beach-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage offers roofing, impact windows, garage-door repair, kitchens/bathrooms, flooring and painting for homeowners anywhere in Florida, explicitly including every city and town. Service-area placements do not imply local branch offices; plumbing/HVAC have narrower county coverage and are separate.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Integrity Spray Foam",
+      "website": "https://integrityfoam.com/",
+      "regions": [
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "tallahassee-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "pace-fl",
+        "tampa-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://integrityfoam.com/",
+      "evidenceNote": "Official homepage expressly offers all-Florida residential and commercial insulation installation including spray foam, blown-in and batt systems. Service coverage is explicit; no local branch address is invented.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "MV Total House Remodeling",
+      "website": "https://mvtotalremodelingfl.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://mvtotalremodelingfl.com/",
+      "evidenceNote": "Official homepage offers kitchen/bath remodeling, flooring/tile installation and interior/exterior painting; names Destin, Fort Walton Beach, Navarre, Panama City Beach, Crestview and Pensacola and expressly extends service from Panama City to Pensacola.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "The Honey Do Service",
+      "website": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "evidenceNote": "Official Fort Walton Beach branch page identifies the local office and Destin service area, offering kitchen/bath remodels, flooring, painting and leaky-faucet repairs. Plumbing scope is minor fixture repair, not an assertion of full plumbing construction.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Tidy Life Co.",
+      "website": "https://www.tidylifeco.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.tidylifeco.com/",
+      "evidenceNote": "Official homepage offers kitchen/bath upgrades, flooring installation and painting, explicitly serving all Okaloosa, Walton, Santa Rosa, Escambia and Bay counties and the Pensacola-to-Panama-City-Beach corridor. Included cities lie within those expressly served counties.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "STQ Construction & Roofing",
+      "website": "https://www.stqconstruction.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "miami-fl",
+        "tallahassee-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "tampa-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.stqconstruction.com/",
+      "evidenceNote": "Official homepage expressly offers statewide Florida service for roof repair/replacement, kitchen/bath remodeling and water-damage restoration. This is a service-area placement, not a claim of a branch office in each city. Subcontractor recruitment categories are not used as service evidence.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "AJ Concrete Homes",
+      "website": "https://www.ajconcretehomes.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "miami-fl",
+        "tallahassee-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "tampa-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.ajconcretehomes.com/faq",
+      "evidenceNote": "Official FAQ explicitly serves all Florida, with travel scheduled upfront outside Tampa Bay, and says its own crew paints, remodels kitchens/bathrooms and installs flooring. No structural construction or licensed subcontractor-only categories are inferred.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "miami-fl",
+        "tallahassee-fl",
+        "panama-city-beach-fl",
+        "grayton-beach-fl",
+        "tampa-fl",
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage offers roofing, impact windows, garage-door repair, kitchens/bathrooms, flooring and painting for homeowners anywhere in Florida, explicitly including every city and town. Service-area placements do not imply local branch offices; plumbing/HVAC have narrower county coverage and are separate.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Rominger's Renovations",
+      "website": "https://www.romingersrenovations.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.romingersrenovations.com/",
+      "evidenceNote": "Official homepage offers kitchen and bathroom remodeling and explicitly accepts projects in Destin, Crestview and Navarre.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Resolve Home Services",
+      "website": "https://resolvepainting.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "tallahassee-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "mobile-al",
+        "dothan-al",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "sarasota-fl",
+        "perdido-key-fl",
+        "clearwater-fl",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "orange-beach-al",
+        "milton-fl",
+        "daphne-al",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://resolvepainting.com/service-areas/",
+      "evidenceNote": "Official site offers garage-door spring/opener/track repair and installation across Florida; detailed service-area page confirms south Alabama coverage including Mobile, Baldwin County and Dothan. Painting coverage is narrower and is handled separately.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "tallahassee-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "sarasota-fl",
+        "perdido-key-fl",
+        "clearwater-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "pensacola-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage offers roofing, impact windows, garage-door repair, kitchens/bathrooms, flooring and painting for homeowners anywhere in Florida, explicitly including every city and town. Service-area placements do not imply local branch offices; plumbing/HVAC have narrower county coverage and are separate.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "MV Total House Remodeling",
+      "website": "https://mvtotalremodelingfl.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "navarre-fl",
+        "pensacola-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://mvtotalremodelingfl.com/",
+      "evidenceNote": "Official homepage offers kitchen/bath remodeling, flooring/tile installation and interior/exterior painting; names Destin, Fort Walton Beach, Navarre, Panama City Beach, Crestview and Pensacola and expressly extends service from Panama City to Pensacola.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "The Honey Do Service",
+      "website": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "evidenceNote": "Official Fort Walton Beach branch page identifies the local office and Destin service area, offering kitchen/bath remodels, flooring, painting and leaky-faucet repairs. Plumbing scope is minor fixture repair, not an assertion of full plumbing construction.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Hampton Restoration Group",
+      "website": "https://www.hrgflorida.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "pace-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "pensacola-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://www.hrgflorida.com/",
+      "evidenceNote": "Official homepage explicitly offers flooring and drywall reconstruction and names every included city in its service-area list. Existing restoration identity retained.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Tidy Life Co.",
+      "website": "https://www.tidylifeco.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "pensacola-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://www.tidylifeco.com/",
+      "evidenceNote": "Official homepage offers kitchen/bath upgrades, flooring installation and painting, explicitly serving all Okaloosa, Walton, Santa Rosa, Escambia and Bay counties and the Pensacola-to-Panama-City-Beach corridor. Included cities lie within those expressly served counties.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Restorit",
+      "website": "https://restoritllc.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "mobile-al",
+        "foley-al",
+        "daphne-al",
+        "fairhope-al",
+        "gulf-shores-al",
+        "orange-beach-al",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://restoritllc.com/pensacola-fl/",
+      "evidenceNote": "Official Pensacola page documents water/mold recovery, damaged-roof repair and in-house flooring/painting reconstruction; its service-area navigation explicitly lists all included communities. Scope is post-damage repair and reconstruction.",
+      "additionalSourceUrls": [
+        "https://restoritllc.com/construction-and-reconstruction/"
+      ],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "AJ Concrete Homes",
+      "website": "https://www.ajconcretehomes.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "tampa-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "tallahassee-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "pensacola-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://www.ajconcretehomes.com/faq",
+      "evidenceNote": "Official FAQ explicitly serves all Florida, with travel scheduled upfront outside Tampa Bay, and says its own crew paints, remodels kitchens/bathrooms and installs flooring. No structural construction or licensed subcontractor-only categories are inferred.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "destin-fl",
+        "tampa-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "tallahassee-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "grayton-beach-fl",
+        "navarre-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage offers roofing, impact windows, garage-door repair, kitchens/bathrooms, flooring and painting for homeowners anywhere in Florida, explicitly including every city and town. Service-area placements do not imply local branch offices; plumbing/HVAC have narrower county coverage and are separate.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "The Honey Do Service",
+      "website": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "evidenceNote": "Official Fort Walton Beach branch page identifies the local office and Destin service area, offering kitchen/bath remodels, flooring, painting and leaky-faucet repairs. Plumbing scope is minor fixture repair, not an assertion of full plumbing construction.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "The Honey Do Service",
+      "website": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://honeydoservice.com/locations/fort-walton-beach-fl/",
+      "evidenceNote": "Official Fort Walton Beach branch page identifies the local office and Destin service area, offering kitchen/bath remodels, flooring, painting and leaky-faucet repairs. Plumbing scope is minor fixture repair, not an assertion of full plumbing construction.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "STQ Construction & Roofing",
+      "website": "https://www.stqconstruction.com/",
+      "regions": [
+        "panama-city-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "tallahassee-fl",
+        "tampa-fl",
+        "milton-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "gulf-breeze-fl",
+        "navarre-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.stqconstruction.com/",
+      "evidenceNote": "Official homepage expressly offers statewide Florida service for roof repair/replacement, kitchen/bath remodeling and water-damage restoration. This is a service-area placement, not a claim of a branch office in each city. Subcontractor recruitment categories are not used as service evidence.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Restorit",
+      "website": "https://restoritllc.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "gulf-shores-al",
+        "milton-fl",
+        "gulf-breeze-fl",
+        "pensacola-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://restoritllc.com/pensacola-fl/",
+      "evidenceNote": "Official Pensacola page documents water/mold recovery, damaged-roof repair and in-house flooring/painting reconstruction; its service-area navigation explicitly lists all included communities. Scope is post-damage repair and reconstruction.",
+      "additionalSourceUrls": [
+        "https://restoritllc.com/construction-and-reconstruction/"
+      ],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "STQ Construction & Roofing",
+      "website": "https://www.stqconstruction.com/",
+      "regions": [
+        "orlando-fl",
+        "st-petersburg-fl",
+        "miami-fl",
+        "jacksonville-fl",
+        "west-palm-beach-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-lauderdale-fl",
+        "tallahassee-fl",
+        "naples-fl",
+        "grayton-beach-fl",
+        "tampa-fl",
+        "fort-myers-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.stqconstruction.com/",
+      "evidenceNote": "Official homepage expressly offers statewide Florida service for roof repair/replacement, kitchen/bath remodeling and water-damage restoration. This is a service-area placement, not a claim of a branch office in each city. Subcontractor recruitment categories are not used as service evidence.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "orlando-fl",
+        "st-petersburg-fl",
+        "miami-fl",
+        "jacksonville-fl",
+        "west-palm-beach-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-lauderdale-fl",
+        "tallahassee-fl",
+        "naples-fl",
+        "grayton-beach-fl",
+        "tampa-fl",
+        "fort-myers-fl",
+        "perdido-key-fl",
+        "pace-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage offers roofing, impact windows, garage-door repair, kitchens/bathrooms, flooring and painting for homeowners anywhere in Florida, explicitly including every city and town. Service-area placements do not imply local branch offices; plumbing/HVAC have narrower county coverage and are separate.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Tilart Inc.",
+      "website": "https://tilartinc.com/",
+      "regions": [
+        "jacksonville-fl",
+        "orlando-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "naples-fl",
+        "sarasota-fl",
+        "miami-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://tilartinc.com/faq",
+      "evidenceNote": "Official FAQ specifically names these Florida service cities and offers residential painting, bathroom remodeling and roofing projects. Panhandle coverage is not inferred from a state contractor license.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Tilart Inc.",
+      "website": "https://tilartinc.com/",
+      "regions": [
+        "orlando-fl",
+        "naples-fl",
+        "jacksonville-fl",
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl",
+        "sarasota-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://tilartinc.com/faq",
+      "evidenceNote": "Official FAQ specifically names these Florida service cities and offers residential painting, bathroom remodeling and roofing projects. Panhandle coverage is not inferred from a state contractor license.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Tilart Inc.",
+      "website": "https://tilartinc.com/",
+      "regions": [
+        "orlando-fl",
+        "miami-fl",
+        "jacksonville-fl",
+        "west-palm-beach-fl",
+        "sarasota-fl",
+        "fort-lauderdale-fl",
+        "naples-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://tilartinc.com/faq",
+      "evidenceNote": "Official FAQ specifically names these Florida service cities and offers residential painting, bathroom remodeling and roofing projects. Panhandle coverage is not inferred from a state contractor license.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Erne Solutions",
+      "website": "https://ernesolutions.com/",
+      "regions": [
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://ernesolutions.com/services",
+      "evidenceNote": "Official services page details roof repair/replacement, kitchen/bath renovation, flooring and painting. Its specific service-area FAQ names Hillsborough and Pinellas counties; the broader statewide headline is not used to infer distant-city coverage.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Erne Solutions",
+      "website": "https://ernesolutions.com/",
+      "regions": [
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://ernesolutions.com/services",
+      "evidenceNote": "Official services page details roof repair/replacement, kitchen/bath renovation, flooring and painting. Its specific service-area FAQ names Hillsborough and Pinellas counties; the broader statewide headline is not used to infer distant-city coverage.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Erne Solutions",
+      "website": "https://ernesolutions.com/",
+      "regions": [
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://ernesolutions.com/services",
+      "evidenceNote": "Official services page details roof repair/replacement, kitchen/bath renovation, flooring and painting. Its specific service-area FAQ names Hillsborough and Pinellas counties; the broader statewide headline is not used to infer distant-city coverage.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Erne Solutions",
+      "website": "https://ernesolutions.com/",
+      "regions": [
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "tampa-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://ernesolutions.com/services",
+      "evidenceNote": "Official services page details roof repair/replacement, kitchen/bath renovation, flooring and painting. Its specific service-area FAQ names Hillsborough and Pinellas counties; the broader statewide headline is not used to infer distant-city coverage.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "Restorit",
+      "website": "https://restoritllc.com/",
+      "regions": [
+        "gulf-shores-al",
+        "daphne-al",
+        "fairhope-al",
+        "foley-al",
+        "orange-beach-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://restoritllc.com/pensacola-fl/",
+      "evidenceNote": "Official Pensacola page documents water/mold recovery, damaged-roof repair and in-house flooring/painting reconstruction; its service-area navigation explicitly lists all included communities. Scope is post-damage repair and reconstruction.",
+      "additionalSourceUrls": [
+        "https://restoritllc.com/construction-and-reconstruction/"
+      ],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage limits plumbing and AC/heating work to Miami-Dade, Broward and Palm Beach counties and identifies licensed subcontractor delivery coordinated by the company. Included cities are within those counties.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    },
+    {
+      "name": "360 Home Improvements",
+      "website": "https://360hi.pro/",
+      "regions": [
+        "miami-fl",
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://360hi.pro/",
+      "evidenceNote": "Official homepage limits plumbing and AC/heating work to Miami-Dade, Broward and Palm Beach counties and identifies licensed subcontractor delivery coordinated by the company. Included cities are within those counties.",
+      "additionalSourceUrls": [],
+      "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
+    }
+  ],
+  "runShortfall": 493
+}

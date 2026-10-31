@@ -1,0 +1,225 @@
+{
+  "target": 1000,
+  "checkpointPlacements": 507,
+  "remainingRunShortfall": 493,
+  "status": "checkpoint_prepared_not_yet_published",
+  "verificationBlocker": "Additional official-source requests repeatedly failed with TLS handshake or connection timeouts from this execution environment, including retries with urllib and curl. Search snippets were not substituted for successful current website verification. Failures do not establish that the businesses are offline.",
+  "failedOfficialRequests": [
+    {
+      "url": "https://www.deckersremodeling.com/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.taycoservices.com/",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://sunprise.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://lgfencesolutions.com/",
+      "status": 0,
+      "finalUrl": "https://lgfencesolutions.com/",
+      "checkedAt": "2026-10-31T04:02:58.991922+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25000 milliseconds\n"
+    },
+    {
+      "url": "https://allstylefences.com/",
+      "status": 0,
+      "finalUrl": "https://allstylefences.com/",
+      "checkedAt": "2026-10-31T04:02:58.994239+00:00",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\ncurl: (28) Connection timed out after 25002 milliseconds\n"
+    },
+    {
+      "url": "https://ydfencellc.com/locations/",
+      "status": 0,
+      "finalUrl": "https://ydfencellc.com/locations/",
+      "checkedAt": "2026-10-31T04:02:58.992651+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25000 milliseconds\n"
+    },
+    {
+      "url": "https://phoenixconcretecoatings.com/",
+      "status": 0,
+      "finalUrl": "https://phoenixconcretecoatings.com/",
+      "checkedAt": "2026-10-31T04:02:58.994682+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://ushomesolutionsllc.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://floridapolyurea.com/service-areas/",
+      "status": 0,
+      "finalUrl": "https://floridapolyurea.com/service-areas/",
+      "checkedAt": "2026-10-31T04:02:58.995769+00:00",
+      "error": "curl: (28) Connection timed out after 25003 milliseconds\ncurl: (28) Connection timed out after 25002 milliseconds\n"
+    },
+    {
+      "url": "https://www.ccsofflorida.com/",
+      "status": 0,
+      "finalUrl": "https://www.ccsofflorida.com/",
+      "checkedAt": "2026-10-31T04:03:50.002889+00:00",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://www.hooperandsonsconcrete.com/",
+      "status": 0,
+      "finalUrl": "https://www.hooperandsonsconcrete.com/",
+      "checkedAt": "2026-10-31T04:03:50.005174+00:00",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://floridacontractors.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.americanmobilehomesolutions.com/areas-serviced",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://gnbuildersgroup.com/services/fence-installation/",
+      "status": 0,
+      "finalUrl": "https://gnbuildersgroup.com/services/fence-installation/",
+      "checkedAt": "2026-10-31T04:03:50.007710+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25000 milliseconds\n"
+    },
+    {
+      "url": "https://coolpoolfl.com/contact",
+      "status": 0,
+      "finalUrl": "https://coolpoolfl.com/contact",
+      "checkedAt": "2026-10-31T04:03:50.008564+00:00",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\ncurl: (28) Connection timed out after 25000 milliseconds\n"
+    },
+    {
+      "url": "https://www.sunprise.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.lgfencesolutions.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.allstylefences.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.ydfencellc.com/locations/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.phoenixconcretecoatings.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.ushomesolutionsllc.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.floridapolyurea.com/service-areas/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://azurerestoration.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://munyanrestoration.com/about-us/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://advantageroofs.com/",
+      "status": 0,
+      "finalUrl": "https://advantageroofs.com/",
+      "checkedAt": "2026-10-31T04:04:51.748629+00:00",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://www.unifyrestoration.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://tmasorestoration.com/construction.html",
+      "status": 0,
+      "finalUrl": "https://tmasorestoration.com/construction.html",
+      "checkedAt": "2026-10-31T04:04:51.749034+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25002 milliseconds\n"
+    },
+    {
+      "url": "https://www.powercorestoration.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://responderrestoration.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.suncorsolar.com/",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "url": "https://www.pocketsolutionsgroup.com/about",
+      "status": 0,
+      "finalUrl": "https://www.pocketsolutionsgroup.com/about",
+      "checkedAt": "2026-10-31T04:04:00.737200+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25000 milliseconds\n"
+    },
+    {
+      "url": "https://www.arpinsulation.com/",
+      "status": 0,
+      "finalUrl": "https://www.arpinsulation.com/",
+      "checkedAt": "2026-10-31T04:05:09.091914+00:00",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://standard-insulation.com/",
+      "status": 0,
+      "finalUrl": "https://standard-insulation.com/",
+      "checkedAt": "2026-10-31T04:05:09.094309+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25000 milliseconds\n"
+    },
+    {
+      "url": "https://abodepestsolutions.com/contact/",
+      "status": 0,
+      "finalUrl": "https://abodepestsolutions.com/contact/",
+      "checkedAt": "2026-10-31T04:04:00.736664+00:00",
+      "error": "curl: (28) Connection timed out after 25000 milliseconds\ncurl: (28) Connection timed out after 25002 milliseconds\n"
+    },
+    {
+      "url": "https://www.avsfenceandscreen.com/screen-enclosures",
+      "status": 0,
+      "finalUrl": "https://www.avsfenceandscreen.com/screen-enclosures",
+      "checkedAt": "2026-10-31T04:04:00.735526+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://www.tmasorestoration.com/construction.html",
+      "status": 0,
+      "finalUrl": "https://www.tmasorestoration.com/construction.html",
+      "checkedAt": "2026-10-31T04:05:09.091056+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "url": "https://advantageroofs.com/windows",
+      "status": 0,
+      "finalUrl": "https://advantageroofs.com/windows",
+      "checkedAt": "2026-10-31T04:05:09.094115+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25004 milliseconds\n"
+    },
+    {
+      "url": "https://www.pocketsolutionsgroup.com/",
+      "status": 0,
+      "finalUrl": "https://www.pocketsolutionsgroup.com/",
+      "checkedAt": "2026-10-31T04:05:09.092843+00:00",
+      "error": "curl: (28) Connection timed out after 25002 milliseconds\ncurl: (28) Connection timed out after 25001 milliseconds\n"
+    }
+  ],
+  "withheldIdentityNotes": [
+    "United States Home Solutions page contains placeholder (800) 555-1234 contact details; withheld.",
+    "Sunprise homepage redirected in web retrieval to a partner portal; service evidence not established.",
+    "MR Restorations returned a client-rendered shell; service/coverage content not verified in this run.",
+    "Deckers Remodeling homepage returned 404 and Tayco returned 503; withheld."
+  ],
+  "resume": "Refresh main and live coverage; retry the failed official sources and research additional businesses toward the remaining 493. Do not reimport the checkpoint placements."
+}
