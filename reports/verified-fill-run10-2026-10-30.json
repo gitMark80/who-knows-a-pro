@@ -1,7 +1,7 @@
 {
   "verifiedAt": "2026-10-30",
   "baselineCommit": "723ba9f9a2a722d9c667fa37c6e7ef76ec456d93",
-  "status": "prepared and locally validated; publication pending",
+  "status": "published and live verified",
   "targetNewPlacements": 500,
   "preparedNewPlacements": 500,
   "priorGeneratedPlacements": 7690,
@@ -91,5 +91,17 @@
     "The importer intentionally excludes Ace Handyman and SERVPRO franchise domains; 39 initially researched placements were replaced before publication so all 500 prepared rows are actually generated.",
     "Fusion Cleaning & Restoration returned transient HTTP 502 responses on two official evidence paths during the first pass; both returned HTTP 200 on direct retry, and its canonical homepage is used as the listing website."
   ],
-  "publication": null
+  "publication": {
+    "commit": "4ef570887fb35887d2d25a566e838fad5204e273",
+    "vercelDeploymentId": "dpl_CV2aDxKe8faqswXLn15KyvR2js2z",
+    "productionStatus": "READY",
+    "categoryPagesChecked": 312,
+    "placementsChecked": 500,
+    "distinctProfilesChecked": 38,
+    "failures": 0,
+    "freshCoverageAtOrAbove20": 45,
+    "freshCoverageBelow20": 1155,
+    "freshCoverageEmpty": 58,
+    "freshCoverageDeficit": 17196
+  }
 }
