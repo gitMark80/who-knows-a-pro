@@ -1,0 +1,923 @@
+{
+  "baselineCommit": "e79926ea999d5fac08d83248d8fa390ce4ebd654",
+  "continuationOf": "reports/verified-fill1000-cont-2026-10-30.json",
+  "target": 500,
+  "status": "prepared_not_published",
+  "placementCount": 500,
+  "sourceRecordCount": 31,
+  "uniqueBusinessDomains": 21,
+  "additionsByCity": {
+    "destin-fl": 8,
+    "fort-walton-beach-fl": 11,
+    "crestview-fl": 16,
+    "panama-city-fl": 14,
+    "pensacola-fl": 4,
+    "gulf-breeze-fl": 7,
+    "pace-fl": 22,
+    "milton-fl": 21,
+    "perdido-key-fl": 18,
+    "navarre-fl": 5,
+    "grayton-beach-fl": 25,
+    "panama-city-beach-fl": 15,
+    "tallahassee-fl": 29,
+    "jacksonville-fl": 31,
+    "orlando-fl": 31,
+    "tampa-fl": 24,
+    "st-petersburg-fl": 31,
+    "clearwater-fl": 31,
+    "sarasota-fl": 30,
+    "fort-myers-fl": 25,
+    "naples-fl": 27,
+    "west-palm-beach-fl": 31,
+    "fort-lauderdale-fl": 29,
+    "miami-fl": 15
+  },
+  "additionsByCategory": {
+    "garage-door-repair": 24,
+    "gutters": 24,
+    "hurricane-shutters-impact-windows": 22,
+    "insulation": 48,
+    "kitchen-bath-remodeling": 38,
+    "fence-builders": 76,
+    "flooring": 39,
+    "painting": 54,
+    "water-damage-mold-remediation": 77,
+    "hvac": 15,
+    "roofing": 83
+  },
+  "selectionRule": "Priority cities first in requested order, then active Florida cities outward from Pensacola; lowest current category counts first within each city; no category raised above 20.",
+  "records": [
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "Southern Foam Insulation",
+      "website": "https://southernfoaminsulation.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://southernfoaminsulation.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official about page states that its veteran-owned residential and commercial insulation crews serve the entire state of Florida with block foam, spray foam, blown-in attic insulation, and removal."
+    },
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "EMBED Construction",
+      "website": "https://embedconstructionfl.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://embedconstructionfl.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states selected statewide projects from the Panhandle to the Keys and explicitly offers kitchen and bathroom renovations plus hardwood, stone, and engineered flooring installation."
+    },
+    {
+      "name": "Pro Work Flooring",
+      "website": "https://www.proworkflooring.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.proworkflooring.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states statewide service across all 67 Florida counties and offers flooring installation, full kitchen/bath remodeling, drywall, and interior/exterior painting."
+    },
+    {
+      "name": "Aabot Fence",
+      "website": "https://aabotfencing.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://aabotfencing.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states that Aabot Fence serves all of Florida as a full-service commercial and industrial fence installer with permanent fencing, gates, and access systems."
+    },
+    {
+      "name": "Good Neighbor Fence Company",
+      "website": "https://www.fence4u.biz/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.fence4u.biz/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states statewide Florida capability for permanent commercial fencing, gates, access control, and installation for industrial, government, and commercial properties."
+    },
+    {
+      "name": "EMBED Construction",
+      "website": "https://embedconstructionfl.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://embedconstructionfl.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states selected statewide projects from the Panhandle to the Keys and explicitly offers kitchen and bathroom renovations plus hardwood, stone, and engineered flooring installation."
+    },
+    {
+      "name": "Pro Work Flooring",
+      "website": "https://www.proworkflooring.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://www.proworkflooring.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states statewide service across all 67 Florida counties and offers flooring installation, full kitchen/bath remodeling, drywall, and interior/exterior painting."
+    },
+    {
+      "name": "House of Fences",
+      "website": "https://houseoffencesus.com/",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://houseoffencesus.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states new fence installation across all 67 Florida counties, including wood, vinyl, aluminum, chain-link, pool-code fences, gates, permits, and HOA paperwork."
+    },
+    {
+      "name": "Signature Privacy Walls of Florida",
+      "website": "https://signatureprivacywalls.com/",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://signatureprivacywalls.com/fence-installation-florida/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official Florida installation page states licensed statewide service in all 67 counties for privacy walls and permanent residential and commercial fence installation."
+    },
+    {
+      "name": "Florida Painting",
+      "website": "https://www.floridapainting.com/",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.floridapainting.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page identifies Duvall Painting LLC as a residential and commercial interior/exterior painting contractor serving all of Florida."
+    },
+    {
+      "name": "Pro Work Flooring",
+      "website": "https://www.proworkflooring.com/",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.proworkflooring.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states statewide service across all 67 Florida counties and offers flooring installation, full kitchen/bath remodeling, drywall, and interior/exterior painting."
+    },
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "BioResponse Restoration",
+      "website": "https://bioresponsecorp.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://bioresponsecorp.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page identifies restoration coverage from the Florida Panhandle to Key West and offers water restoration, mold remediation, fire restoration, and hurricane response."
+    },
+    {
+      "name": "Florida Remediation Pros",
+      "website": "https://flremediation.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://flremediation.com/contact-us/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states service throughout Florida and offers licensed mold remediation, water-damage restoration, fire/smoke restoration, and storm-damage restoration."
+    },
+    {
+      "name": "Joe Taylor Restoration",
+      "website": "https://www.jtrestoration.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.jtrestoration.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page explicitly lists every Florida county and provides 24/7 water-damage mitigation, mold remediation, fire/smoke restoration, and comprehensive property restoration."
+    },
+    {
+      "name": "Restoration First Services",
+      "website": "https://restorationfirstservices.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "perdido-key-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://restorationfirstservices.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states statewide Florida service for residential and commercial water, flood, fire, mold, and storm-damage restoration by an IICRC-certified team."
+    },
+    {
+      "name": "Suncor Solar & Home Improvements",
+      "website": "https://www.suncorsolar.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.suncorsolar.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states service throughout Florida from the Panhandle to the Keys and offers roof repair/replacement plus IICRC-certified storm, water, and fire damage mitigation and rebuild."
+    },
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "pace-fl",
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "Bismarck Roofing & Construction",
+      "website": "https://bismarckroofs.com/",
+      "regions": [
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://bismarckroofs.com/contact/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official contact and service-area page states all-Florida coverage for licensed roof assessment, repair, replacement, shingle, metal, and TPO roofing."
+    },
+    {
+      "name": "BM Roofing",
+      "website": "https://www.bmroofings.com/",
+      "regions": [
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.bmroofings.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page says BM Roofing provides residential and commercial roof repair, replacement, maintenance, emergency, and new-construction services throughout all of Florida."
+    },
+    {
+      "name": "Century Roofing Specialists",
+      "website": "https://www.centuryroofingspecialists.com/",
+      "regions": [
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.centuryroofingspecialists.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states residential, commercial, and government roof installation, repair, replacement, restoration, and maintenance across all 67 Florida counties."
+    },
+    {
+      "name": "Curry's Roofing",
+      "website": "https://currys-roofing.com/",
+      "regions": [
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://currys-roofing.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states Florida coverage from the Panhandle to the Keys and offers residential and commercial roof repair, replacement, shingle, metal, and storm-damage services."
+    },
+    {
+      "name": "ERS Installations",
+      "website": "https://ersinstallations.com/",
+      "regions": [
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://ersinstallations.com/service-area",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official service-area page identifies certified roofing installation crews dispatched statewide from the Panhandle to the Keys, including every major Florida market."
+    },
+    {
+      "name": "Hennes Roofing Company",
+      "website": "https://www.hrc-contracting.com/",
+      "regions": [
+        "grayton-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.hrc-contracting.com/about",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official about page states that this veteran-owned roofing and general contractor serves the entire state of Florida with roof repairs, replacements, and construction."
+    },
+    {
+      "name": "Neumann Construction and Roofing",
+      "website": "https://neumann.construction/",
+      "regions": [
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://neumann.construction/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states that Neumann serves the entire state of Florida and provides residential and commercial roof repair, replacement, and new-roof installation."
+    },
+    {
+      "name": "State Upgrades",
+      "website": "https://stateupgrades.com/",
+      "regions": [
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "sarasota-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://stateupgrades.com/about/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states installation in all 67 Florida counties and explicitly offers roofing, gutters, impact windows, hurricane shutters, garage doors, exterior painting, HVAC, and attic insulation."
+    },
+    {
+      "name": "Suncor Solar & Home Improvements",
+      "website": "https://www.suncorsolar.com/",
+      "regions": [
+        "jacksonville-fl",
+        "orlando-fl",
+        "st-petersburg-fl",
+        "clearwater-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "roofing"
+      ],
+      "sourceUrl": "https://www.suncorsolar.com/",
+      "sourceVerifiedAt": "2026-10-31T08:13:24.860Z",
+      "evidenceNote": "Official page states service throughout Florida from the Panhandle to the Keys and offers roof repair/replacement plus IICRC-certified storm, water, and fire damage mitigation and rebuild."
+    }
+  ]
+}
