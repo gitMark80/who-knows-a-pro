@@ -2,7 +2,7 @@
   "target": 1000,
   "checkpointPlacements": 507,
   "remainingRunShortfall": 493,
-  "status": "checkpoint_prepared_not_yet_published",
+  "status": "507_published_live_verified_493_unfinished",
   "verificationBlocker": "Additional official-source requests repeatedly failed with TLS handshake or connection timeouts from this execution environment, including retries with urllib and curl. Search snippets were not substituted for successful current website verification. Failures do not establish that the businesses are offline.",
   "failedOfficialRequests": [
     {
@@ -221,5 +221,10 @@
     "MR Restorations returned a client-rendered shell; service/coverage content not verified in this run.",
     "Deckers Remodeling homepage returned 404 and Tayco returned 503; withheld."
   ],
-  "resume": "Refresh main and live coverage; retry the failed official sources and research additional businesses toward the remaining 493. Do not reimport the checkpoint placements."
+  "resume": "Refresh main and live coverage; retry the failed official sources and research additional businesses toward the remaining 493. Do not reimport the checkpoint placements.",
+  "finalRetry": {
+    "url": "https://tmasorestoration.com/construction.html",
+    "result": "curl exit 28, connection timed out after 12001 milliseconds, HTTP status 000",
+    "afterSourcePublication": true
+  }
 }

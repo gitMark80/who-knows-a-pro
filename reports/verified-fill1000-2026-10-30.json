@@ -1,7 +1,7 @@
 {
   "baselineCommit": "3261f7aed800988bd39719c40284dca3a2e09fc8",
   "target": 1000,
-  "status": "prepared_not_published",
+  "status": "partially_published_live_verified",
   "placementCount": 507,
   "sourceRecordCount": 42,
   "uniqueDomains": 15,
@@ -1102,5 +1102,19 @@
       "sourceVerifiedAt": "2026-10-31T04:04:51.573135+00:00"
     }
   ],
-  "runShortfall": 493
+  "runShortfall": 493,
+  "publication": {
+    "sourceCommit": "2a58bc55c9816afe6e0a2d333ff0a430a03e8fff",
+    "checkedAt": "2026-10-31T04:08:55.372337+00:00",
+    "categoryPages": 239,
+    "placementCount": 507,
+    "placementsPassed": 507,
+    "profileCount": 15,
+    "profilesPassed": 15,
+    "deploymentId": "dpl_2LkR4sk6rWkdfPaFRqw5Q7UU4NcA",
+    "deploymentState": "READY",
+    "remainingDirectoryDeficit": 16631,
+    "pairsAt20": 55,
+    "runShortfall": 493
+  }
 }
