@@ -4,7 +4,7 @@
   "verifiedAt": "2026-10-31T15:09:11.799Z",
   "rawCandidateCount": 14,
   "target": 1000,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 1000,
   "sourceRecordCount": 34,
   "uniqueBusinessDomains": 14,
@@ -1476,5 +1476,22 @@
       "sourceVerifiedAt": "2026-10-31T15:07:26.889Z",
       "evidenceNote": "Official website explicitly offers nationwide service through its own technicians, including commercial HVAC installation/maintenance, electrical services, and plumbing. Location coverage is service coverage, not inferred from licensing."
     }
-  ]
+  ],
+  "sourceCommit": "8e4835e37c95d2015243e758ca2c6cb4f9203163",
+  "deploymentId": "dpl_6qaGevm3MR9MonmDoBMpeUwsfeMM",
+  "liveVerifiedAt": "2026-10-31T15:18:15.591557+00:00",
+  "publishedPlacements": 1000,
+  "runShortfall": 0,
+  "liveCategoryPages": 430,
+  "profilesPassed": 14,
+  "activeCombinations": 1200,
+  "combinationsAt20": 169,
+  "combinationsBelow20": 1031,
+  "emptyCombinations": 0,
+  "countBasedRemainingDeficit": 13638,
+  "newlyCompletedCombinations": 31,
+  "ciRunId": 41213789024,
+  "ciConclusion": "success",
+  "liveEvidence": "reports/live-fill1000c-2026-10-31.json",
+  "liveCoverage": "reports/coverage-fill1000c-live-2026-10-31.csv"
 }
