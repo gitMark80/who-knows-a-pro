@@ -4,7 +4,7 @@
   "verifiedAt": "2026-10-31T23:01:55.071Z",
   "rawCandidateCount": 24,
   "target": 1000,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 1000,
   "sourceRecordCount": 40,
   "uniqueBusinessDomains": 23,
@@ -1550,5 +1550,16 @@
       "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
       "evidenceNote": "Official site explicitly offers residential and commercial service throughout Florida and lists septic drainfield repair, tank installation, maintenance/pumping and plumbing repipes/new construction. Geographic coverage comes from the service statement, not merely statewide licensing."
     }
-  ]
+  ],
+  "sourceCommit": "4b0fef491e03848800a442e8322b2c0830828616",
+  "deploymentId": "dpl_UNHCc7NmyzQRP3LhgNb3Z9EKwLNj",
+  "liveVerifiedAt": "2026-10-31T23:07:26.245463+00:00",
+  "publishedPlacements": 1000,
+  "runShortfall": 0,
+  "combinationsAt20": 210,
+  "combinationsBelow20": 990,
+  "countBasedRemainingDeficit": 12138,
+  "emptyCombinations": 0,
+  "ciRunId": 41250883554,
+  "ciConclusion": "success"
 }
