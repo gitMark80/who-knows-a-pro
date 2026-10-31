@@ -1,8 +1,16 @@
 {
   "target": 1000,
-  "checkpointPlacements": 507,
-  "remainingRunShortfall": 493,
-  "status": "507_published_live_verified_493_unfinished",
+  "checkpointPlacements": 1000,
+  "remainingRunShortfall": 0,
+  "status": "completed_by_verified_continuation",
+  "resolution": {
+    "continuationReport": "reports/verified-fill1000-cont-2026-10-30.json",
+    "sourceCommit": "876bb5ef9b949e3a4c64b81b46652aac09c407ca",
+    "deploymentId": "dpl_64dgrL2QaVEDgZd1NyaNkMScVB8H",
+    "additionalPlacementsPublishedAndVerified": 493,
+    "requestedRunTotalPublishedAndVerified": 1000,
+    "note": "The prior run shortfall was resolved with freshly retrieved official business pages and verified alternatives. Historical request failures below are retained as research history and are not counted as listings."
+  },
   "verificationBlocker": "Additional official-source requests repeatedly failed with TLS handshake or connection timeouts from this execution environment, including retries with urllib and curl. Search snippets were not substituted for successful current website verification. Failures do not establish that the businesses are offline.",
   "failedOfficialRequests": [
     {
@@ -221,7 +229,7 @@
     "MR Restorations returned a client-rendered shell; service/coverage content not verified in this run.",
     "Deckers Remodeling homepage returned 404 and Tayco returned 503; withheld."
   ],
-  "resume": "Refresh main and live coverage; retry the failed official sources and research additional businesses toward the remaining 493. Do not reimport the checkpoint placements.",
+  "resume": "The 493-placement run shortfall is resolved. Refresh newest main and live coverage before the next 500-placement directory-wide continuation; do not reimport either completed checkpoint.",
   "finalRetry": {
     "url": "https://tmasorestoration.com/construction.html",
     "result": "curl exit 28, connection timed out after 12001 milliseconds, HTTP status 000",

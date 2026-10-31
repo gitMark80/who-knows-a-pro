@@ -2,7 +2,17 @@
   "baselineCommit": "58fcb14234dd721f73c7c882c74e9b3a64d5c023",
   "continuationOf": "reports/verified-fill1000-2026-10-30.json",
   "target": 493,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
+  "publication": {
+    "sourceCommit": "876bb5ef9b949e3a4c64b81b46652aac09c407ca",
+    "deploymentId": "dpl_64dgrL2QaVEDgZd1NyaNkMScVB8H",
+    "deploymentState": "READY",
+    "verifiedAt": "2026-10-31T04:59:08.512811+00:00",
+    "categoryPagesChecked": 231,
+    "placementsPassed": 493,
+    "profilesPassed": 16,
+    "coverageCountsMatched": 1200
+  },
   "placementCount": 493,
   "sourceRecordCount": 25,
   "uniqueBusinessDomains": 16,
