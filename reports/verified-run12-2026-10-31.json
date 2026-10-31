@@ -4,7 +4,7 @@
   "verifiedAt": "2026-10-31T15:57:54.050Z",
   "rawCandidateCount": 5,
   "target": 500,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 500,
   "sourceRecordCount": 19,
   "uniqueBusinessDomains": 4,
@@ -792,5 +792,16 @@
       "sourceVerifiedAt": "2026-10-31T15:57:28.935028+00:00",
       "evidenceNote": "Official site describes nationwide commercial facility repair with managed technicians and subcontractors, service guarantees, and start-to-finish responsibility. Explicit services include plumbing, electrical, HVAC repair/replacement, painting and flooring repair/replacement; no residential service claimed."
     }
-  ]
+  ],
+  "sourceCommit": "919156edaa658ad489d921205ff2e8a73323a8a0",
+  "deploymentId": "dpl_3AY4M6QZ4nekSpMi9atJZKh5hwE5",
+  "liveVerifiedAt": "2026-10-31T16:12:40.155006+00:00",
+  "publishedPlacements": 500,
+  "runShortfall": 0,
+  "combinationsAt20": 178,
+  "combinationsBelow20": 1022,
+  "countBasedRemainingDeficit": 13138,
+  "emptyCombinations": 0,
+  "ciRunId": 41217483301,
+  "ciConclusion": "success"
 }
