@@ -2,7 +2,7 @@
   "baselineCommit": "312fd4f930eceac5b26f9b09e3a5531bb9d82678",
   "verifiedAt": "2026-10-31T00:39:38.959Z",
   "scope": "Give each of the 58 empty active city/category combinations its first relevant official-website listing.",
-  "status": "prepared_not_yet_published",
+  "status": "published_live_verified",
   "placementCount": 58,
   "sourceRecordCount": 42,
   "additionsByCity": {
@@ -623,5 +623,16 @@
     "Rapid Mitigation is client-rendered; official JavaScript content explicitly names Gulfport and Biloxi and water-damage/mold services.",
     "South Florida Insulation initially returned HTTP 502, then HTTP 200 on fresh retry.",
     "Wrong-state search results, excluded franchise businesses, and an unresolved generic Auburn window-site identity were not imported."
-  ]
+  ],
+  "publication": {
+    "sourceCommit": "6c9cb7e94e85ad24112712be0fc72147a9b5a165",
+    "deploymentId": "dpl_6zedHKav8otiP57azJw3Fbfx9aXn",
+    "liveVerifiedAt": "2026-10-31T00:43:59.345174+00:00",
+    "publishedPlacements": 58,
+    "liveVerifiedPlacements": 58,
+    "liveVerifiedProfiles": 42,
+    "emptyCombinationsRemaining": 0,
+    "combinationsAt20": 45,
+    "countBasedDeficitTo20": 17138
+  }
 }
