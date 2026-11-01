@@ -4,7 +4,7 @@
   "verifiedAt": "2026-11-01T01:47:18.365Z",
   "rawCandidateCount": 20,
   "target": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
   "placementCount": 1000,
   "sourceRecordCount": 40,
   "uniqueBusinessDomains": 11,
@@ -1553,5 +1553,175 @@
       "sourceVerifiedAt": "2026-11-01T01:46:53.731Z",
       "evidenceNote": "Official gutter contractor homepage identifies multifamily gutter installation/replacement, travel to surrounding states and a New Orleans project at Columbia Parc. Limited to New Orleans; the business name is not treated as evidence of all-state coverage."
     }
-  ]
+  ],
+  "sourceCommit": "8f04db35738bdd4cb58b3c291d42954805655e0d",
+  "deploymentId": "dpl_7mRS54AaYVNXRjoaLuprP86eHLtY",
+  "deploymentState": "READY",
+  "publishedPlacements": 1000,
+  "remainingRunShortfall": 0,
+  "remainingCountBasedDeficit": 10638,
+  "pairsAt20": 237,
+  "pairsBelow20": 963,
+  "emptyPairs": 0,
+  "unselectedEligiblePlacements": 55,
+  "liveCoverageFile": "reports/coverage-fill1000e-live-2026-10-31.csv",
+  "newlyCompletedCombinations": [
+    {
+      "city": "atlanta-ga",
+      "category": "painting",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "atlanta-ga",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "clearwater-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "crestview-fl",
+      "category": "generator-installation",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "crestview-fl",
+      "category": "tree-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "daphne-al",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "destin-fl",
+      "category": "irrigation-sprinkler-repair",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "foley-al",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "foley-al",
+      "category": "hvac",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "fort-myers-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "gulf-breeze-fl",
+      "category": "gutters",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "gulf-shores-al",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "mobile-al",
+      "category": "roofing",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "naples-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "orlando-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "pensacola-fl",
+      "category": "gutters",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "pensacola-fl",
+      "category": "irrigation-sprinkler-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "perdido-key-fl",
+      "category": "tree-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "sarasota-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "st-petersburg-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "tallahassee-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "tallahassee-fl",
+      "category": "flooring",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "category": "plumbing",
+      "before": 17,
+      "after": 20
+    }
+  ],
+  "liveVerifiedPlacements": 1000,
+  "liveVerifiedAt": "2026-11-01T01:56:53.460905+00:00",
+  "liveVerificationFile": "reports/live-fill1000e-2026-10-31.json",
+  "affectedCategoryPages": 543,
+  "profilesPassed": 11,
+  "ciRunId": 41262860941,
+  "ciConclusion": "success"
 }
