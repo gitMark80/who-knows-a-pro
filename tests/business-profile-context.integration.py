@@ -72,6 +72,8 @@ for card in cards:
         dh_link = links[0]
         assert 'Nationwide commercial door, lock and key services' in text(card)
         assert 'Nationwide commercial door, lock and key services' in text(profile)
+        assert '/claim?business=dh-pace-miami-fl-locksmith' in hrefs(profile)
+        assert not any('region=tampa-fl' in href for href in hrefs(profile))
 assert dh_link
 
 # The same canonical business must render each requested, supported pair.

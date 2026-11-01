@@ -50,6 +50,7 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
   const specialties = specialtyList(business.specialties);
   const servedRegions = business.regions.map((slug) => regions.find((item) => item.slug === slug)).filter((item) => item !== undefined);
   const servedTrades = business.trades.map((slug) => trades.find((item) => item.slug === slug)).filter((item) => item !== undefined);
+  const listedRegions = context ? servedRegions.filter((item) => business.placements.some((placement) => placement.trade === context.trade && placement.region === item.slug)) : servedRegions;
   const listedTrades = context ? servedTrades.filter((item) => business.placements.some((placement) => placement.region === context.region && placement.trade === item.slug)) : servedTrades;
   const regionHref = (regionSlug: string) => {
     const placement = business.placements.find((item) => item.region === regionSlug && item.trade === context?.trade)
@@ -120,7 +121,7 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
               </section> : null}
 
               <section className="mt-8 grid gap-6 sm:grid-cols-2">
-                <div><h2 className="text-xl font-extrabold text-[#142c4c]">{business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{servedRegions.map((item) => <a key={item.slug} href={regionHref(item.slug)} aria-current={item.slug === context?.region ? 'location' : undefined} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
+                <div><h2 className="text-xl font-extrabold text-[#142c4c]">{trade ? `${trade.name} listings by city` : business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{listedRegions.map((item) => <a key={item.slug} href={regionHref(item.slug)} aria-current={item.slug === context?.region ? 'location' : undefined} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
                 <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories{region ? ` in ${region.name}` : ''}</h2><div className="mt-3 flex flex-wrap gap-2">{listedTrades.map((item) => <a key={item.slug} href={tradeHref(item.slug)} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
               </section>
 
@@ -143,7 +144,7 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
 
         {!business.owner_email ? <div className="mt-5 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white p-5">
           <div><p className="font-extrabold">Own this business?</p><p className="text-sm text-slate-500">Claim this profile to add verified details and keep its information current.</p></div>
-          <a href={`/claim?business=${encodeURIComponent(business.slug)}`} rel="nofollow" className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
+          <a href={`/claim?business=${encodeURIComponent(context?.slug || business.slug)}`} rel="nofollow" className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
         </div> : null}
       </div>
     </main>

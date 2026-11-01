@@ -22,4 +22,10 @@ DH Pace's commercial scope is now visible in its cards and profile through an op
 - Updated the recurring fill verifier to require the correct city/category parameters on profile links.
 - The previous fill automation run was recorded completed; no active fill run was recorded when this change began. Main is updated with an expected-head guard.
 
-No listings were added or deleted. Publication and live verification will be recorded after deployment.
+No listings were added or deleted.
+
+## First publication and follow-up
+
+Published source `2e920fc6b69ddd021682fc350db77a6f53f916d9`; Vercel deployment `dpl_932Poz4nUUFgVPK4DfYrJrBjhN3x` reached READY and GitHub CI run `41339663340` passed. Following the DH Pace link from the live Miami locksmith page showed “Locksmith serving Miami, FL,” Miami breadcrumbs, the correct return link and the commercial service description.
+
+That browser check also exposed a claim link still using the primary Panama City placement, plus a city chip that could switch to another category. The follow-up keeps the selected placement in the claim link and filters city chips to the selected category's actual placements. The expanded local integration suite, production build, TypeScript and targeted lint passed again. Final live checks will be recorded after this follow-up deploys.
