@@ -4,7 +4,7 @@
   "verifiedAt": "2026-11-01T02:13:10.393Z",
   "rawCandidateCount": 32,
   "target": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
   "placementCount": 1000,
   "sourceRecordCount": 52,
   "uniqueBusinessDomains": 10,
@@ -1697,5 +1697,385 @@
       "sourceVerifiedAt": "2026-11-01T01:44:09.151Z",
       "evidenceNote": "Official electrical-services page specifically lists emergency and standby generator installations for commercial facilities. Official services page explicitly confirms nationwide delivery through own technicians and managed contractors; this is commercial generator project work."
     }
-  ]
+  ],
+  "sourceCommit": "9de998a5942fcc66e31d939923838fcda767f28e",
+  "deploymentId": "dpl_EAmRk2LsW7AXJHR7RvEzCmupDsLX",
+  "deploymentState": "READY",
+  "publishedPlacements": 1000,
+  "remainingRunShortfall": 0,
+  "remainingCountBasedDeficit": 9638,
+  "pairsAt20": 297,
+  "pairsBelow20": 903,
+  "emptyPairs": 0,
+  "unselectedEligiblePlacements": 113,
+  "liveCoverageFile": "reports/coverage-fill1000f-live-2026-10-31.csv",
+  "newlyCompletedCombinations": [
+    {
+      "city": "atlanta-ga",
+      "category": "landscaping",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "atlanta-ga",
+      "category": "roofing",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "auburn-al",
+      "category": "electrical",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "auburn-al",
+      "category": "painting",
+      "before": 16,
+      "after": 20
+    },
+    {
+      "city": "auburn-al",
+      "category": "plumbing",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "birmingham-al",
+      "category": "electrical",
+      "before": 15,
+      "after": 20
+    },
+    {
+      "city": "clearwater-fl",
+      "category": "flooring",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "clearwater-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "crestview-fl",
+      "category": "garage-door-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "crestview-fl",
+      "category": "landscaping",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "daphne-al",
+      "category": "electrical",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "daphne-al",
+      "category": "hvac",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "destin-fl",
+      "category": "garage-door-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "fairhope-al",
+      "category": "electrical",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "fairhope-al",
+      "category": "hvac",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "fairhope-al",
+      "category": "painting",
+      "before": 16,
+      "after": 20
+    },
+    {
+      "city": "foley-al",
+      "category": "painting",
+      "before": 16,
+      "after": 20
+    },
+    {
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "fort-myers-fl",
+      "category": "garage-door-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "fort-myers-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "irrigation-sprinkler-repair",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "landscaping",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "pool-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "grayton-beach-fl",
+      "category": "landscaping",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "gulf-breeze-fl",
+      "category": "pest-control",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "gulf-shores-al",
+      "category": "electrical",
+      "before": 17,
+      "after": 20
+    },
+    {
+      "city": "gulf-shores-al",
+      "category": "hvac",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "huntsville-al",
+      "category": "electrical",
+      "before": 15,
+      "after": 20
+    },
+    {
+      "city": "jacksonville-fl",
+      "category": "flooring",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "jacksonville-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "milton-fl",
+      "category": "tree-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "mobile-al",
+      "category": "concrete",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "mobile-al",
+      "category": "landscaping",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "montgomery-al",
+      "category": "electrical",
+      "before": 15,
+      "after": 20
+    },
+    {
+      "city": "naples-fl",
+      "category": "flooring",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "naples-fl",
+      "category": "garage-door-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "naples-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "navarre-fl",
+      "category": "gutters",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "navarre-fl",
+      "category": "pest-control",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "orange-beach-al",
+      "category": "roofing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "orlando-fl",
+      "category": "flooring",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "orlando-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "panama-city-beach-fl",
+      "category": "garage-door-repair",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "panama-city-beach-fl",
+      "category": "pool-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "garage-door-repair",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "gutters",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "landscaping",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "sarasota-fl",
+      "category": "flooring",
+      "before": 18,
+      "after": 20
+    },
+    {
+      "city": "sarasota-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "st-petersburg-fl",
+      "category": "flooring",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "st-petersburg-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "tallahassee-fl",
+      "category": "hvac",
+      "before": 16,
+      "after": 20
+    },
+    {
+      "city": "tallahassee-fl",
+      "category": "plumbing",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "tampa-fl",
+      "category": "flooring",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "tampa-fl",
+      "category": "pool-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "tampa-fl",
+      "category": "tree-service",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "tampa-fl",
+      "category": "water-damage-mold-remediation",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "category": "flooring",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "before": 16,
+      "after": 20
+    }
+  ],
+  "liveVerifiedPlacements": 1000,
+  "liveVerifiedAt": "2026-11-01T02:18:30.179627+00:00",
+  "liveVerificationFile": "reports/live-fill1000f-2026-10-31.json",
+  "affectedCategoryPages": 501,
+  "profilesPassed": 10,
+  "ciRunId": 41264367146,
+  "ciConclusion": "success"
 }
