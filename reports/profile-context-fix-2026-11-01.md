@@ -29,3 +29,11 @@ No listings were added or deleted.
 Published source `2e920fc6b69ddd021682fc350db77a6f53f916d9`; Vercel deployment `dpl_932Poz4nUUFgVPK4DfYrJrBjhN3x` reached READY and GitHub CI run `41339663340` passed. Following the DH Pace link from the live Miami locksmith page showed “Locksmith serving Miami, FL,” Miami breadcrumbs, the correct return link and the commercial service description.
 
 That browser check also exposed a claim link still using the primary Panama City placement, plus a city chip that could switch to another category. The follow-up keeps the selected placement in the claim link and filters city chips to the selected category's actual placements. The expanded local integration suite, production build, TypeScript and targeted lint passed again. Final live checks will be recorded after this follow-up deploys.
+
+## Completed live verification
+
+Final code commit: `8e6fe5c9a6507f0d4aa0626ee1755a412c49bd24`. Production deployment: `dpl_DQABK3q3MqjaCB4AhPDKwgPjv72B` (READY). GitHub CI: `41339916705`, with type checking, lint, build and all integration suites successful.
+
+At `2026-11-01T19:06:51.114297+00:00`, live checks passed for 135 listing links across eight city/category pages and 15 followed profiles, including all nine Miami locksmith profiles. The other pages covered Destin, Fort Walton Beach, Crestview, Panama City, Panama City Beach and Tampa locksmiths, plus Miami garage door repair. The canonical overview, legacy Miami redirect, unsupported-context fallback, return links and DH Pace claim links passed. A browser click from Miami's actual listing card confirmed the corrected profile title, Miami breadcrumbs and commercial scope; a subsequent reload confirmed the claim link and category-specific city links.
+
+Detailed results: [live-profile-context-fix-2026-11-01.json](live-profile-context-fix-2026-11-01.json). Visual proof: [corrected Miami profile](profile-context-miami-1793559992007.jpg).
