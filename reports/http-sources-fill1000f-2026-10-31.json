@@ -1,0 +1,919 @@
+{
+  "method": "Direct GET request, alongside separately reviewed official content from public web retrieval",
+  "checks": [
+    {
+      "url": "https://classiccollision.com/",
+      "checkedAt": "2026-11-01T02:13:11.559847+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 125289,
+      "accessible": true
+    },
+    {
+      "url": "https://classiccollision.com/locations/classic-collision-panama-city-beach/",
+      "checkedAt": "2026-11-01T02:13:11.560566+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/locations/classic-collision-panama-city-beach/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 83202,
+      "accessible": true
+    },
+    {
+      "url": "https://classiccollision.com/locations/classic-collision-panama-city/",
+      "checkedAt": "2026-11-01T02:13:11.561158+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/locations/classic-collision-panama-city/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 83318,
+      "accessible": true
+    },
+    {
+      "url": "https://classiccollision.com/news/classic-collision-acquires-location-in-florida-panhandle/",
+      "checkedAt": "2026-11-01T02:13:11.561745+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/news/classic-collision-acquires-location-in-florida-panhandle/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 65824,
+      "accessible": true
+    },
+    {
+      "url": "https://divisionsmg.com/wp-content/uploads/2026/01/DMG-full-list-of-services-5.pdf",
+      "checkedAt": "2026-11-01T02:13:11.562588+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://divisionsmg.com/wp-content/uploads/2026/01/DMG-full-list-of-services-5.pdf",
+      "contentType": "application/pdf",
+      "bytesRead": 592472,
+      "accessible": true
+    },
+    {
+      "url": "https://dmg360.com/",
+      "checkedAt": "2026-11-01T02:13:11.563457+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://dmg360.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 382776,
+      "accessible": true
+    },
+    {
+      "url": "https://dmg360.com/services",
+      "checkedAt": "2026-11-01T02:13:14.066242+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://dmg360.com/services",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 197129,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/",
+      "checkedAt": "2026-11-01T02:13:14.175566+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 34160,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/general-maintenance",
+      "checkedAt": "2026-11-01T02:13:14.454214+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/general-maintenance",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 37821,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/landscaping",
+      "checkedAt": "2026-11-01T02:13:14.455543+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/landscaping",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 36996,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/multisite-facilities-maintenance",
+      "checkedAt": "2026-11-01T02:13:14.461814+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/multisite-facilities-maintenance",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 35205,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/water-conservation-irrigation-efficiency",
+      "checkedAt": "2026-11-01T02:13:14.462439+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/water-conservation-irrigation-efficiency",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 37038,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/",
+      "checkedAt": "2026-11-01T02:13:16.210493+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 433642,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/service/facility-maintenance/",
+      "checkedAt": "2026-11-01T02:13:17.902136+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/service/facility-maintenance/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 428098,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/service/landscaping/",
+      "checkedAt": "2026-11-01T02:13:17.942079+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/service/landscaping/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 389752,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/who-we-are/",
+      "checkedAt": "2026-11-01T02:13:17.974620+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/who-we-are/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 333655,
+      "accessible": true
+    },
+    {
+      "url": "https://maintenx.com/",
+      "checkedAt": "2026-11-01T02:13:18.144167+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://maintenx.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73395,
+      "accessible": true
+    },
+    {
+      "url": "https://maintenx.com/services/",
+      "checkedAt": "2026-11-01T02:13:18.210275+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://maintenx.com/services/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73388,
+      "accessible": true
+    },
+    {
+      "url": "https://maintenx.com/services/electrical/",
+      "checkedAt": "2026-11-01T02:13:18.544780+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://maintenx.com/services/electrical/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 62904,
+      "accessible": true
+    },
+    {
+      "url": "https://poseidonmarine.com/",
+      "checkedAt": "2026-11-01T02:13:18.642412+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://poseidonmarine.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 431324,
+      "accessible": true
+    },
+    {
+      "url": "https://poseidonmarine.com/boat-repair-destin/",
+      "checkedAt": "2026-11-01T02:13:20.309645+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://poseidonmarine.com/boat-repair-destin/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 436781,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/",
+      "checkedAt": "2026-11-01T02:13:20.354008+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 271619,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/about-us/",
+      "checkedAt": "2026-11-01T02:13:20.630097+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/about-us/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 286111,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/contact/",
+      "checkedAt": "2026-11-01T02:13:20.638059+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/contact/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 267815,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/our-solutions/",
+      "checkedAt": "2026-11-01T02:13:21.846941+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/our-solutions/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 290702,
+      "accessible": true
+    },
+    {
+      "url": "https://www.alphatecmarine.com/",
+      "checkedAt": "2026-11-01T02:13:21.893044+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.alphatecmarine.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 122651,
+      "accessible": true
+    },
+    {
+      "url": "https://www.dwminc.com/",
+      "checkedAt": "2026-11-01T02:13:21.938279+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dwminc.com/",
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 482607,
+      "accessible": true
+    },
+    {
+      "url": "https://www.dwminc.com/facilities-maintenance",
+      "checkedAt": "2026-11-01T02:13:22.498052+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dwminc.com/facilities-maintenance",
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 575873,
+      "accessible": true
+    },
+    {
+      "url": "https://www.jrcinco.com/",
+      "checkedAt": "2026-11-01T02:13:22.510074+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jrcinco.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 144409,
+      "accessible": true
+    },
+    {
+      "url": "https://www.jrcinco.com/exterior-renovations/",
+      "checkedAt": "2026-11-01T02:13:22.514127+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jrcinco.com/exterior-renovations/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 104956,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/",
+      "checkedAt": "2026-11-01T02:13:22.517941+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 301644,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/service-hub",
+      "checkedAt": "2026-11-01T02:13:24.197950+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/service-hub",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 152484,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/services/appliance-repair",
+      "checkedAt": "2026-11-01T02:13:24.332102+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/services/appliance-repair",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 150053,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/services/pest-control",
+      "checkedAt": "2026-11-01T02:13:24.549481+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/services/pest-control",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 158367,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/services/pool-services",
+      "checkedAt": "2026-11-01T02:13:24.690622+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/services/pool-services",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 151035,
+      "accessible": true
+    },
+    {
+      "url": "https://www.liftbrotowing.com/",
+      "checkedAt": "2026-11-01T02:13:24.715595+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.liftbrotowing.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 131916,
+      "accessible": true
+    },
+    {
+      "url": "https://www.maddensepticservices.com/",
+      "checkedAt": "2026-11-01T02:13:24.722691+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.maddensepticservices.com/",
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 125975,
+      "accessible": true
+    },
+    {
+      "url": "https://www.nationwidegutter.com/",
+      "checkedAt": "2026-11-01T02:13:24.878451+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nationwidegutter.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 130428,
+      "accessible": true
+    },
+    {
+      "url": "https://www.orlandoboats.com/",
+      "checkedAt": "2026-11-01T02:13:25.028775+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.orlandoboats.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 878309,
+      "accessible": true
+    },
+    {
+      "url": "https://www.orlandoboats.com/destin-fl-mobile-dockside-boat-repair-service/",
+      "checkedAt": "2026-11-01T02:13:26.570164+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.orlandoboats.com/destin-fl-mobile-dockside-boat-repair-service/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 498995,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/",
+      "checkedAt": "2026-11-01T02:13:26.570611+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 502480,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/best-roll-up-overhead-fire-door-services-in-the-united-states/",
+      "checkedAt": "2026-11-01T02:13:27.230024+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/best-roll-up-overhead-fire-door-services-in-the-united-states/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 625356,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-appliance-repair-services-in-the-united-states/",
+      "checkedAt": "2026-11-01T02:13:27.382595+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/commercial-appliance-repair-services-in-the-united-states/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 564517,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-irrigation-systems-services-in-the-united-states/",
+      "checkedAt": "2026-11-01T02:13:27.458081+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/commercial-irrigation-systems-services-in-the-united-states/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 573621,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-septic-tank-services/",
+      "checkedAt": "2026-11-01T02:13:27.498658+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/commercial-septic-tank-services/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 557762,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/services/national-locksmith/",
+      "checkedAt": "2026-11-01T02:13:31.125983+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/services/national-locksmith/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 379407,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/services/national-pest-control/",
+      "checkedAt": "2026-11-01T02:13:31.205925+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/services/national-pest-control/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 382333,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/",
+      "checkedAt": "2026-11-01T02:13:31.255508+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 196267,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/about-us/overview",
+      "checkedAt": "2026-11-01T02:13:31.266024+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/about-us/overview",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 183961,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/hubfs/Campaigns/Connex_2023/Connex_Available_Trade_Services.pdf",
+      "checkedAt": "2026-11-01T02:13:31.298271+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/hubfs/Campaigns/Connex_2023/Connex_Available_Trade_Services.pdf",
+      "contentType": "application/pdf",
+      "bytesRead": 545141,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/solutions/doors-locks-hardware",
+      "checkedAt": "2026-11-01T02:13:31.934086+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/solutions/doors-locks-hardware",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 154401,
+      "accessible": true
+    }
+  ],
+  "previousChecks": [
+    {
+      "url": "https://classiccollision.com/",
+      "checkedAt": "2026-11-01T02:11:51.351922+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 125289,
+      "accessible": true
+    },
+    {
+      "url": "https://classiccollision.com/locations/classic-collision-panama-city-beach/",
+      "checkedAt": "2026-11-01T02:11:51.352573+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/locations/classic-collision-panama-city-beach/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 83202,
+      "accessible": true
+    },
+    {
+      "url": "https://classiccollision.com/locations/classic-collision-panama-city/",
+      "checkedAt": "2026-11-01T02:11:51.353072+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/locations/classic-collision-panama-city/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 83318,
+      "accessible": true
+    },
+    {
+      "url": "https://classiccollision.com/news/classic-collision-acquires-location-in-florida-panhandle/",
+      "checkedAt": "2026-11-01T02:11:51.353464+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://classiccollision.com/news/classic-collision-acquires-location-in-florida-panhandle/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 65824,
+      "accessible": true
+    },
+    {
+      "url": "https://divisionsmg.com/",
+      "checkedAt": "2026-11-01T02:11:51.354231+00:00",
+      "accessible": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://divisionsmg.com/services/",
+      "checkedAt": "2026-11-01T02:11:51.355439+00:00",
+      "accessible": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://divisionsmg.com/wp-content/uploads/2026/01/DMG-full-list-of-services-5.pdf",
+      "checkedAt": "2026-11-01T02:11:53.830325+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://divisionsmg.com/wp-content/uploads/2026/01/DMG-full-list-of-services-5.pdf",
+      "contentType": "application/pdf",
+      "bytesRead": 592472,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/",
+      "checkedAt": "2026-11-01T02:11:53.847399+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 34160,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/general-maintenance",
+      "checkedAt": "2026-11-01T02:11:54.558413+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/general-maintenance",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 37821,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/landscaping",
+      "checkedAt": "2026-11-01T02:11:54.559035+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/landscaping",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 36996,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/multisite-facilities-maintenance",
+      "checkedAt": "2026-11-01T02:11:54.574383+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/multisite-facilities-maintenance",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 35205,
+      "accessible": true
+    },
+    {
+      "url": "https://emcorfacilities.com/services/water-conservation-irrigation-efficiency",
+      "checkedAt": "2026-11-01T02:11:54.584658+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emcorfacilities.com/services/water-conservation-irrigation-efficiency",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 37038,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/",
+      "checkedAt": "2026-11-01T02:11:55.533903+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 433642,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/service/facility-maintenance/",
+      "checkedAt": "2026-11-01T02:11:57.142377+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/service/facility-maintenance/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 428098,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/service/landscaping/",
+      "checkedAt": "2026-11-01T02:11:57.143272+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/service/landscaping/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 389752,
+      "accessible": true
+    },
+    {
+      "url": "https://ferrandinoandson.com/who-we-are/",
+      "checkedAt": "2026-11-01T02:11:57.170081+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://ferrandinoandson.com/who-we-are/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 333655,
+      "accessible": true
+    },
+    {
+      "url": "https://maintenx.com/",
+      "checkedAt": "2026-11-01T02:11:57.173875+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://maintenx.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73395,
+      "accessible": true
+    },
+    {
+      "url": "https://maintenx.com/services/",
+      "checkedAt": "2026-11-01T02:11:57.538206+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://maintenx.com/services/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73388,
+      "accessible": true
+    },
+    {
+      "url": "https://maintenx.com/services/electrical/",
+      "checkedAt": "2026-11-01T02:11:57.543963+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://maintenx.com/services/electrical/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 62904,
+      "accessible": true
+    },
+    {
+      "url": "https://poseidonmarine.com/",
+      "checkedAt": "2026-11-01T02:11:57.554829+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://poseidonmarine.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 431324,
+      "accessible": true
+    },
+    {
+      "url": "https://poseidonmarine.com/boat-repair-destin/",
+      "checkedAt": "2026-11-01T02:11:57.678274+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://poseidonmarine.com/boat-repair-destin/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 436781,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/",
+      "checkedAt": "2026-11-01T02:11:59.026167+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 271619,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/about-us/",
+      "checkedAt": "2026-11-01T02:11:59.673983+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/about-us/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 286111,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/contact/",
+      "checkedAt": "2026-11-01T02:11:59.709975+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/contact/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 267815,
+      "accessible": true
+    },
+    {
+      "url": "https://truesource.com/our-solutions/",
+      "checkedAt": "2026-11-01T02:11:59.726032+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://truesource.com/our-solutions/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 290702,
+      "accessible": true
+    },
+    {
+      "url": "https://www.alphatecmarine.com/",
+      "checkedAt": "2026-11-01T02:12:00.203819+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.alphatecmarine.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 122651,
+      "accessible": true
+    },
+    {
+      "url": "https://www.dwminc.com/",
+      "checkedAt": "2026-11-01T02:12:00.210480+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dwminc.com/",
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 482607,
+      "accessible": true
+    },
+    {
+      "url": "https://www.dwminc.com/facilities-maintenance",
+      "checkedAt": "2026-11-01T02:12:00.834009+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.dwminc.com/facilities-maintenance",
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 575873,
+      "accessible": true
+    },
+    {
+      "url": "https://www.jrcinco.com/",
+      "checkedAt": "2026-11-01T02:12:00.966100+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jrcinco.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 144409,
+      "accessible": true
+    },
+    {
+      "url": "https://www.jrcinco.com/exterior-renovations/",
+      "checkedAt": "2026-11-01T02:12:01.017973+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jrcinco.com/exterior-renovations/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 104956,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/",
+      "checkedAt": "2026-11-01T02:12:01.066234+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 301644,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/service-hub",
+      "checkedAt": "2026-11-01T02:12:02.854071+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/service-hub",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 152484,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/services/appliance-repair",
+      "checkedAt": "2026-11-01T02:12:03.046132+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/services/appliance-repair",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 150053,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/services/pest-control",
+      "checkedAt": "2026-11-01T02:12:03.074060+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/services/pest-control",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 158367,
+      "accessible": true
+    },
+    {
+      "url": "https://www.lessen.com/services/pool-services",
+      "checkedAt": "2026-11-01T02:12:03.125895+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lessen.com/services/pool-services",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 151035,
+      "accessible": true
+    },
+    {
+      "url": "https://www.liftbrotowing.com/",
+      "checkedAt": "2026-11-01T02:12:03.150016+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.liftbrotowing.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 131956,
+      "accessible": true
+    },
+    {
+      "url": "https://www.maddensepticservices.com/",
+      "checkedAt": "2026-11-01T02:12:03.343857+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.maddensepticservices.com/",
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 125975,
+      "accessible": true
+    },
+    {
+      "url": "https://www.nationwidegutter.com/",
+      "checkedAt": "2026-11-01T02:12:04.413983+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nationwidegutter.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 130428,
+      "accessible": true
+    },
+    {
+      "url": "https://www.orlandoboats.com/",
+      "checkedAt": "2026-11-01T02:12:04.497933+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.orlandoboats.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 878309,
+      "accessible": true
+    },
+    {
+      "url": "https://www.orlandoboats.com/destin-fl-mobile-dockside-boat-repair-service/",
+      "checkedAt": "2026-11-01T02:12:04.505888+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.orlandoboats.com/destin-fl-mobile-dockside-boat-repair-service/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 498995,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/",
+      "checkedAt": "2026-11-01T02:12:04.569967+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 502480,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/best-roll-up-overhead-fire-door-services-in-the-united-states/",
+      "checkedAt": "2026-11-01T02:12:05.477989+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/best-roll-up-overhead-fire-door-services-in-the-united-states/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 625356,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-appliance-repair-services-in-the-united-states/",
+      "checkedAt": "2026-11-01T02:12:05.530425+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/commercial-appliance-repair-services-in-the-united-states/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 564517,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-irrigation-systems-services-in-the-united-states/",
+      "checkedAt": "2026-11-01T02:12:06.178057+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/commercial-irrigation-systems-services-in-the-united-states/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 573621,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-septic-tank-services/",
+      "checkedAt": "2026-11-01T02:12:06.711714+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/commercial-septic-tank-services/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 557762,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/services/national-locksmith/",
+      "checkedAt": "2026-11-01T02:12:06.778374+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/services/national-locksmith/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 379407,
+      "accessible": true
+    },
+    {
+      "url": "https://www.retailfixit.com/services/national-pest-control/",
+      "checkedAt": "2026-11-01T02:12:06.824906+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.retailfixit.com/services/national-pest-control/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 382333,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/",
+      "checkedAt": "2026-11-01T02:12:07.658718+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 196267,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/about-us/overview",
+      "checkedAt": "2026-11-01T02:12:08.146177+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/about-us/overview",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 183961,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/hubfs/Campaigns/Connex_2023/Connex_Available_Trade_Services.pdf",
+      "checkedAt": "2026-11-01T02:12:08.246469+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/hubfs/Campaigns/Connex_2023/Connex_Available_Trade_Services.pdf",
+      "contentType": "application/pdf",
+      "bytesRead": 545141,
+      "accessible": true
+    },
+    {
+      "url": "https://www.vixxo.com/solutions/doors-locks-hardware",
+      "checkedAt": "2026-11-01T02:12:08.729892+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vixxo.com/solutions/doors-locks-hardware",
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 154401,
+      "accessible": true
+    }
+  ]
+}
