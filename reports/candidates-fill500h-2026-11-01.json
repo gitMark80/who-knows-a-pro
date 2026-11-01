@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NEST",
+    "website": "https://www.enternest.com/",
+    "regions": ["FL", "AL", "MS", "LA", "GA"],
+    "trades": ["hvac", "plumbing", "flooring", "electrical", "roofing", "locksmith", "landscaping"],
+    "sourceUrl": "https://www.enternest.com/service-delivery",
+    "sourceVerifiedAt": "2026-11-01T17:10:00.000Z",
+    "sourceRef": "turn463view0",
+    "evidenceNote": "Official NEST standalone-service page states reliable nationwide delivery through more than 27,000 vetted professionals across the United States and Canada and explicitly lists HVAC, plumbing, flooring, electrical, roofing, locksmith, and landscaping. Service is limited to multi-site facilities with 50 or more locations; no local office, storefront, or household retail service is asserted."
+  },
+  {
+    "name": "All In One Services",
+    "website": "https://www.allinonesvc.com/",
+    "regions": ["FL", "AL", "MS", "LA", "GA"],
+    "trades": ["hvac", "plumbing", "electrical", "appliance-repair", "roofing", "tree-service"],
+    "sourceUrl": "https://www.allinonesvc.com/",
+    "sourceVerifiedAt": "2026-11-01T17:10:00.000Z",
+    "sourceRef": "turn463view1",
+    "evidenceNote": "Official All In One Services site states nationwide facility maintenance for commercial multi-location businesses and explicitly lists HVAC/mechanical, plumbing/drainage, electrical/lighting, commercial kitchen and appliance equipment, commercial roofing, and storm-cleanup/tree services. Entries retain commercial national-account scope and do not imply local branches or residential appliance service."
+  },
+  {
+    "name": "PHFM",
+    "website": "https://www.phfmservices.com/",
+    "regions": ["FL", "AL", "MS", "LA", "GA"],
+    "trades": ["plumbing", "hvac", "electrical", "landscaping"],
+    "sourceUrl": "https://www.phfmservices.com/about",
+    "sourceVerifiedAt": "2026-11-01T17:10:00.000Z",
+    "sourceRef": "turn463view2",
+    "evidenceNote": "Official PHFM about page identifies a national facilities-maintenance provider for multi-location businesses, explicitly lists plumbing, HVAC, electrical, and landscaping, and states a nationwide operating mission. The page documents roots in Powerhouse's Interior FM division and Dentco; those names are treated as related history rather than separate directory identities. No local branch or household service is claimed."
+  },
+  {
+    "name": "VXO Services",
+    "website": "https://vxoservices.com/",
+    "regions": ["FL", "AL", "MS", "LA", "GA"],
+    "trades": ["hvac", "plumbing", "electrical", "garage-door-repair", "locksmith", "roofing", "gutters", "concrete", "painting"],
+    "sourceUrl": "https://vxoservices.com/",
+    "sourceVerifiedAt": "2026-11-01T17:10:00.000Z",
+    "sourceRef": "turn465view0",
+    "evidenceNote": "Official VXO Services site states nationwide commercial facility coverage through vetted technicians across the continental United States and Hawaii. It explicitly offers HVAC, plumbing, electrical, automatic and overhead doors, commercial locksmith work, roof repair, gutter service, concrete repair, and commercial painting. Listings retain multi-site commercial scope; no household retail service or local office outside its stated Sarasota office is inferred."
+  }
+]

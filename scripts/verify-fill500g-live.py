@@ -4,6 +4,7 @@ import collections
 import concurrent.futures
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -14,8 +15,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://whoknowsapro.com"
-RUN = "fill500g"
-DATE = "2026-11-01"
+RUN = os.environ.get("FILL_RUN", "fill500g")
+DATE = os.environ.get("FILL_DATE", "2026-11-01")
 additions = json.loads((ROOT / f"reports/validation-{RUN}-{DATE}.json").read_text())["additions"]
 
 def host(url):

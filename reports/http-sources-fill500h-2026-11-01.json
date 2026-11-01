@@ -1,0 +1,324 @@
+{
+  "checkedAt": "2026-11-01T17:17:28.166813+00:00",
+  "results": [
+    {
+      "url": "https://www.allinonesvc.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://vxoservices.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.enternest.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.enternest.com/service-delivery",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.phfmservices.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.phfmservices.com/about",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.genstonefieldservices.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.abm.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://info.abm.com/lp-abm-facility-maintenance.html",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://mcsgo.com/",
+      "status": 200,
+      "finalUrl": "https://mcsgo.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://pristinenational.com/",
+      "status": 200,
+      "finalUrl": "https://pristinenational.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://broadwaynational.com/",
+      "status": 200,
+      "finalUrl": "https://broadwaynational.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://broadwaynational.com/services/facilities-maintenance",
+      "status": 200,
+      "finalUrl": "https://broadwaynational.com/services/facilities-maintenance",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://egallant.com/",
+      "status": 200,
+      "finalUrl": "https://egallant.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://egallant.com/services/facilities-maintenance/nationwide-facility-maintenance/",
+      "status": 200,
+      "finalUrl": "https://egallant.com/services/facilities-maintenance/nationwide-facility-maintenance/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://dmg360.com/",
+      "status": 200,
+      "finalUrl": "https://dmg360.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://divisionsmg.com/wp-content/uploads/2026/01/DMG-full-list-of-services-5.pdf",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.dwminc.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.dwminc.com/facilities-maintenance",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://truesource.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://truesource.com/our-solutions/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.vixxo.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.vixxo.com/hubfs/Campaigns/Connex_2023/Connex_Available_Trade_Services.pdf",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.lessen.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.lessen.com/services/pool-services",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://dmg360.com/services",
+      "status": 200,
+      "finalUrl": "https://dmg360.com/services",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://emcorfacilities.com/",
+      "status": 200,
+      "finalUrl": "https://emcorfacilities.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://emcorfacilities.com/services/landscaping",
+      "status": 200,
+      "finalUrl": "https://emcorfacilities.com/services/landscaping",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://ferrandinoandson.com/",
+      "status": 200,
+      "finalUrl": "https://ferrandinoandson.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://ferrandinoandson.com/service/landscaping/",
+      "status": 200,
+      "finalUrl": "https://ferrandinoandson.com/service/landscaping/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://www.lessen.com/service-hub",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://clsfacilityservices.com/",
+      "status": 200,
+      "finalUrl": "https://clsfacilityservices.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://emcorfacilities.com/services/multisite-facilities-maintenance",
+      "status": 200,
+      "finalUrl": "https://emcorfacilities.com/services/multisite-facilities-maintenance",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://www.lessen.com/services/pest-control",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.retailfixit.com/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.retailfixit.com/services/national-pest-control/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    },
+    {
+      "url": "https://www.retailfixit.com/commercial-septic-tank-services/",
+      "ok": false,
+      "errors": [
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+        "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
+    }
+  ]
+}

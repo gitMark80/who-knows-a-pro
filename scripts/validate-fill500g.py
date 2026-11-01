@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 import csv
 import json
+import os
 from pathlib import Path
 from urllib.parse import urlparse
 
-run = "fill500g"
-date = "2026-11-01"
-before = json.loads(Path("/tmp/fill500g-before/seed.json").read_text())
-after = json.loads(Path("/tmp/fill500g-after/seed.json").read_text())
-catalog = json.loads(Path("/tmp/fill500g-after/catalog.json").read_text())
-source_before = json.loads(Path("/tmp/fill500g-source-before.json").read_text())
+run = os.environ.get("FILL_RUN", "fill500g")
+date = os.environ.get("FILL_DATE", "2026-11-01")
+before_directory = os.environ.get("FILL_BEFORE_DIRECTORY", "/tmp/fill500g-before")
+after_directory = os.environ.get("FILL_AFTER_DIRECTORY", "/tmp/fill500g-after")
+source_before_path = os.environ.get("FILL_SOURCE_BEFORE", "/tmp/fill500g-source-before.json")
+before = json.loads(Path(f"{before_directory}/seed.json").read_text())
+after = json.loads(Path(f"{after_directory}/seed.json").read_text())
+catalog = json.loads(Path(f"{after_directory}/catalog.json").read_text())
+source_before = json.loads(Path(source_before_path).read_text())
 source_after = json.loads(Path("data/verified-coverage-2026-09-28.json").read_text())
 report = json.loads(Path(f"reports/verified-{run}-{date}.json").read_text())
 
@@ -17,7 +21,7 @@ assert after[:len(before)] == before, "Prior generated listings changed or reord
 assert source_after[:len(source_before)] == source_before, "Prior raw evidence rows changed or reordered"
 new_listings = after[len(before):]
 new_source = source_after[len(source_before):]
-assert len(new_listings) == report["placementCount"] == 500
+assert len(new_listings) == report["placementCount"] == report["target"]
 assert len(new_source) == report["sourceRecordCount"]
 
 regions = {row["slug"] for row in catalog["activeRegions"]}
@@ -46,7 +50,7 @@ domain_keys = [(domain(row["website"]), row["region"], row["trade"]) for row in 
 identity_keys = [(row["name"].casefold(), row["region"], row["trade"]) for row in after]
 assert len(domain_keys) == len(set(domain_keys)), "Duplicate normalized-domain placement"
 assert len(identity_keys) == len(set(identity_keys)), "Duplicate business-identity placement"
-assert len({domain(row["website"]) for row in new_listings}) == report["uniqueBusinessDomains"] == 7
+assert len({domain(row["website"]) for row in new_listings}) == report["uniqueBusinessDomains"]
 
 expected = set()
 for row in new_source:
@@ -54,7 +58,7 @@ for row in new_source:
         for trade in row["trades"]:
             expected.add((domain(row["website"]), region, trade))
 actual = {(domain(row["website"]), row["region"], row["trade"]) for row in new_listings}
-assert actual == expected and len(actual) == 500, "Raw evidence expansion mismatch"
+assert actual == expected and len(actual) == report["target"], "Raw evidence expansion mismatch"
 
 counts = {}
 for row in after:
@@ -65,8 +69,8 @@ assert len(rows) == 1200
 for row in rows:
     assert counts.get((row["city_slug"], row["category_slug"]), 0) == int(row["listing_count"])
 visible_counts = [counts.get((region, trade), 0) for region in regions for trade in trades]
-assert sum(max(0, 20 - value) for value in visible_counts) == report["prepared"]["deficit"] == 9138
-assert sum(value >= 20 for value in visible_counts) == report["prepared"]["pairsAt20"] == 347
+assert sum(max(0, 20 - value) for value in visible_counts) == report["prepared"]["deficit"]
+assert sum(value >= 20 for value in visible_counts) == report["prepared"]["pairsAt20"]
 assert all(value <= 20 for key, value in counts.items() if key in {(row["region"], row["trade"]) for row in new_listings})
 
 result = {

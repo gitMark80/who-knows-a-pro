@@ -2,12 +2,12 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 
-const target = 500;
-const run = 'fill500g';
-const date = '2026-11-01';
+const target = Number(process.env.FILL_TARGET ?? 500);
+const run = process.env.FILL_RUN ?? 'fill500g';
+const date = process.env.FILL_DATE ?? '2026-11-01';
 const verifiedAt = new Date().toISOString();
 const sourcePath = 'data/verified-coverage-2026-09-28.json';
-const baselineDirectory = '/tmp/fill500g-before';
+const baselineDirectory = process.env.FILL_BASELINE_DIRECTORY ?? '/tmp/fill500g-before';
 const originalText = fs.readFileSync(sourcePath, 'utf8');
 const committedText = execFileSync('git', ['show', `HEAD:${sourcePath}`], {
   encoding: 'utf8',
@@ -18,7 +18,7 @@ assert.equal(originalText, committedText, 'Local source differs from current che
 const source = JSON.parse(originalText);
 const seed = JSON.parse(fs.readFileSync(`${baselineDirectory}/seed.json`, 'utf8'));
 const catalog = JSON.parse(fs.readFileSync(`${baselineDirectory}/catalog.json`, 'utf8'));
-const candidateFiles = [
+const candidateFiles = process.env.FILL_CANDIDATE_FILES ? JSON.parse(process.env.FILL_CANDIDATE_FILES) : [
   'reports/candidates-fill1000f-2026-10-31.json',
   `reports/candidates-${run}-${date}.json`,
 ];
@@ -155,7 +155,7 @@ for (const region of catalog.activeRegions) {
 const remainingEligiblePlacements = options.filter((option) => !selectedKeys.has(option.key) && !existingKeys.has(option.key) && (counts.get(`${option.region}|${option.trade}`) ?? 0) < 20).length;
 const report = {
   baselineCommit: execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(),
-  continuationOf: 'reports/verified-fill1000f-2026-10-31.json',
+  continuationOf: process.env.FILL_CONTINUATION_OF ?? 'reports/verified-fill1000f-2026-10-31.json',
   verifiedAt,
   target,
   status: 'prepared_not_published',
