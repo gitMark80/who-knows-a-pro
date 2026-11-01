@@ -1,0 +1,1154 @@
+{
+  "baselineCommit": "3387ee3eec3cc18742077bae488f9c42b3fbf549",
+  "continuationOf": "reports/verified-fill1000d-2026-10-31.json",
+  "verifiedAt": "2026-11-01T00:01:46.196Z",
+  "rawCandidateCount": 35,
+  "target": 500,
+  "status": "prepared_not_published",
+  "placementCount": 500,
+  "sourceRecordCount": 48,
+  "uniqueBusinessDomains": 30,
+  "additionsByCity": {
+    "crestview-fl": 11,
+    "destin-fl": 10,
+    "panama-city-fl": 11,
+    "fort-walton-beach-fl": 10,
+    "pensacola-fl": 10,
+    "gulf-breeze-fl": 10,
+    "pace-fl": 11,
+    "perdido-key-fl": 10,
+    "milton-fl": 11,
+    "navarre-fl": 10,
+    "orange-beach-al": 11,
+    "gulf-shores-al": 11,
+    "foley-al": 11,
+    "fairhope-al": 11,
+    "daphne-al": 11,
+    "grayton-beach-fl": 11,
+    "mobile-al": 11,
+    "panama-city-beach-fl": 11,
+    "biloxi-ms": 11,
+    "gulfport-ms": 11,
+    "dothan-al": 11,
+    "montgomery-al": 11,
+    "tallahassee-fl": 11,
+    "auburn-al": 11,
+    "new-orleans-la": 11,
+    "baton-rouge-la": 11,
+    "birmingham-al": 11,
+    "huntsville-al": 11,
+    "atlanta-ga": 11,
+    "jacksonville-fl": 11,
+    "tampa-fl": 10,
+    "clearwater-fl": 11,
+    "st-petersburg-fl": 11,
+    "orlando-fl": 11,
+    "sarasota-fl": 11,
+    "fort-myers-fl": 11,
+    "naples-fl": 11,
+    "west-palm-beach-fl": 23,
+    "fort-lauderdale-fl": 47,
+    "miami-fl": 30
+  },
+  "additionsByCategory": {
+    "appliance-repair": 160,
+    "towing": 120,
+    "locksmith": 41,
+    "garage-door-repair": 80,
+    "generator-installation": 33,
+    "concrete": 5,
+    "flooring": 10,
+    "hvac": 2,
+    "plumbing": 4,
+    "electrical": 2,
+    "painting": 4,
+    "septic-services": 2,
+    "pool-service": 12,
+    "screen-enclosures-pool-cages": 2,
+    "gutters": 2,
+    "pest-control": 2,
+    "pool-installation": 6,
+    "insulation": 11,
+    "landscaping": 1,
+    "irrigation-sprinkler-repair": 1
+  },
+  "selectionRule": "Four priority cities first, lowest baseline category counts first across those cities, then cities approximately outward from Pensacola and lowest category counts within each city; no category raised above 20.",
+  "records": [
+    {
+      "name": "Tech24",
+      "website": "https://www.mytech24.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.mytech24.com/locations/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official locations page describes national commercial food-equipment coverage through self-performed teams and a managed network, including repair programs for refrigeration, cooking and beverage equipment. These are commercial appliance-repair placements; no residential service or local office is asserted."
+    },
+    {
+      "name": "National Service Cooperative",
+      "website": "https://www.nationalservicecoop.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.nationalservicecoop.com/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official cooperative website describes a national independent commercial foodservice-equipment repair network with live operators, installation, maintenance and repair delivery through hundreds of branch and satellite locations. This is a managed commercial service network, not a residential appliance shop."
+    },
+    {
+      "name": "Smart Care",
+      "website": "https://smartcaresolutions.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://smartcaresolutions.com/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official website describes nationwide commercial-equipment repair with 1,500 technicians and provider locations, including ovens, fryers, dishmachines, refrigeration, beverage and ice equipment. Placements retain commercial food-retail and institutional scope; no residential appliance service is inferred."
+    },
+    {
+      "name": "Unlimited Service Group",
+      "website": "https://unlimitedservice.com/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://unlimitedservice.com/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official group website provides nationwide commercial foodservice equipment repair through more than 40 service companies and 1,700 trained technicians, covering cooking, refrigeration, ice, beverage and dishwashing equipment. General Parts is a USG subsidiary and is not counted separately."
+    },
+    {
+      "name": "Agero",
+      "website": "https://www.agero.com/",
+      "regions": [
+        "destin-fl",
+        "panama-city-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.agero.com/roadside-assistance",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official roadside-assistance page states coverage of every U.S. ZIP code through a curated national provider network and describes tow management, nationwide tow dispatch and 24/7 roadside support. This is managed roadside/towing service for client programs, not a claimed local tow yard."
+    },
+    {
+      "name": "HONK",
+      "website": "https://www.honkforhelp.com/",
+      "regions": [
+        "destin-fl",
+        "panama-city-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://campaign.honkforhelp.com/roadsideassistance",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official roadside program page describes nationwide tracked-to-arrival towing and roadside service using a large licensed and insured provider network. Placements represent HONK's managed towing service and do not assert that HONK owns a local tow yard or every dispatched truck."
+    },
+    {
+      "name": "SOS Roadside",
+      "website": "https://sosroadside.com/",
+      "regions": [
+        "destin-fl",
+        "panama-city-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://sosroadside.com/services",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official services page explicitly offers light- through heavy-duty towing in all 50 states with round-the-clock dispatch through vetted providers. The service supports passenger, fleet and commercial vehicles; no local tow yard or direct-owned truck is asserted."
+    },
+    {
+      "name": "DH Pace",
+      "website": "https://www.dhpace.com/",
+      "regions": [
+        "panama-city-fl",
+        "crestview-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.dhpace.com/brands/national-accounts/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official national-accounts page states nationwide commercial dock and door repair, replacement and maintenance plus locksmith service, available 24/7/365 for multi-location facilities. These placements retain commercial national-account scope; a local office or residential service is not inferred."
+    },
+    {
+      "name": "DH Pace",
+      "website": "https://www.dhpace.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.dhpace.com/brands/national-accounts/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official national-accounts page states nationwide commercial dock and door repair, replacement and maintenance plus locksmith service, available 24/7/365 for multi-location facilities. These placements retain commercial national-account scope; a local office or residential service is not inferred."
+    },
+    {
+      "name": "Vortex Doors",
+      "website": "https://www.vortexdoors.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.vortexdoors.com/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official company website offers nationwide commercial and industrial rolling, sectional, hangar and large-scale door repair through more than 96 service centers and self-performing trucks. Placements are for commercial door service; residential garage-door coverage and a local office are not asserted."
+    },
+    {
+      "name": "Power Plus",
+      "website": "https://powerplus.com/",
+      "regions": [
+        "panama-city-fl",
+        "crestview-fl",
+        "pace-fl",
+        "milton-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://powerplus.com/critical-power-solutions/critical-infrastructure-design-build-services/",
+      "sourceVerifiedAt": "2026-11-01T00:00:55Z",
+      "evidenceNote": "Official design-build page documents commercial and industrial generator design, procurement, installation and commissioning for customers across the country. Placements retain critical-infrastructure and commercial project scope; no residential work or local office is inferred."
+    },
+    {
+      "name": "Exposed Surfaces",
+      "website": "https://exposedsurfaces.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://exposedsurfaces.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official contractor website says its own teams serve all 50 states and offers concrete polishing, sealing, repairs/remediation, resinous flooring and floor coverings. Commercial concrete-surface and flooring work; no local office is asserted."
+    },
+    {
+      "name": "National Concrete Polishing",
+      "website": "https://nationalconcretepolishing.net/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://nationalconcretepolishing.net/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official website identifies direct in-house concrete polishing, resurfacing and epoxy-flooring crews serving Miami-Dade, Broward and Palm Beach counties. Listings are restricted to those counties; broader project-dependent nationwide availability is not expanded. Xtreme Polishing Systems is a related brand, not an additional listing."
+    },
+    {
+      "name": "E P Floors Corp.",
+      "website": "https://epfloors.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://epfloors.com/company/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official company page describes nationwide industrial floor design and installation with its own crews. Homepage confirms nationwide installation of epoxy and urethane flooring for manufacturing and food facilities. PumaCRETE is its product brand/alternate domain, not another business."
+    },
+    {
+      "name": "Exposed Surfaces",
+      "website": "https://exposedsurfaces.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://exposedsurfaces.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official contractor website says its own teams serve all 50 states and offers concrete polishing, sealing, repairs/remediation, resinous flooring and floor coverings. Commercial concrete-surface and flooring work; no local office is asserted."
+    },
+    {
+      "name": "National Concrete Polishing",
+      "website": "https://nationalconcretepolishing.net/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://nationalconcretepolishing.net/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official website identifies direct in-house concrete polishing, resurfacing and epoxy-flooring crews serving Miami-Dade, Broward and Palm Beach counties. Listings are restricted to those counties; broader project-dependent nationwide availability is not expanded. Xtreme Polishing Systems is a related brand, not an additional listing."
+    },
+    {
+      "name": "Performance Contracting",
+      "website": "https://www.performancecontracting.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://www.performancecontracting.com/commercial/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official commercial-services page describes nationwide project delivery and lists building insulation, painting/coatings and raised-access flooring among its integrated services. Commercial project scope, not a claim of residential service or a local branch. PCI is distinct from ConTeras subsidiary PIC."
+    },
+    {
+      "name": "Preferred LLC",
+      "website": "https://www.preferredllc.net/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "flooring"
+      ],
+      "sourceUrl": "https://www.preferredllc.net/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official site offers commercial/industrial roofing, painting and flooring across the continental United States and describes its employee delivery teams and regional offices. Coverage is for facility projects; no residential service or local office is inferred."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "hvac"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Invertech Solutions",
+      "website": "https://invertechsolutions.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "plumbing"
+      ],
+      "sourceUrl": "https://invertechsolutions.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official site explicitly offers residential and commercial service throughout Florida and lists septic drainfield repair, tank installation, maintenance/pumping and plumbing repipes/new construction. Geographic coverage comes from the service statement, not merely statewide licensing."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Invertech Solutions",
+      "website": "https://invertechsolutions.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://invertechsolutions.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official site explicitly offers residential and commercial service throughout Florida and lists septic drainfield repair, tank installation, maintenance/pumping and plumbing repipes/new construction. Geographic coverage comes from the service statement, not merely statewide licensing."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Aquatic Surfaces",
+      "website": "https://aquaticsurface.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://aquaticsurface.com/pool-resurfacing-services-nationwide-and-globally-aquatic-surfaces/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official Traveling Team page explicitly offers pool resurfacing, restoration and renovation throughout the United States for commercial and residential pools of any size. Based in Stuart, Florida; listings indicate traveling restoration service, not a local office or weekly pool-cleaning route."
+    },
+    {
+      "name": "Ferguson Aquatics",
+      "website": "https://www.fergusonaquatics.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.fergusonaquatics.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official aquatic-contractor site explicitly serves projects nationwide, offering pool renovation, membrane installation, tear-outs/repairs and coordinated new-pool construction. New builds use project-specific Rock Pool USA packages with responsibilities agreed per project. Commercial aquatic scope; partner brand is not separately counted."
+    },
+    {
+      "name": "Headwater Construction Group",
+      "website": "https://www.headwatercg.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.headwatercg.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official site describes nationwide commercial aquatic construction, renovation and service for pools, waterparks and aquatic facilities. Headwater is a division of Air-Tech Systems Inc., treated as one identity. Commercial project scope, with no residential-service or local-office claim."
+    },
+    {
+      "name": "Membrane Concepts",
+      "website": "https://membraneconcepts.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://membraneconcepts.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Working official homepage states nationwide installation of custom reinforced PVC pool liners and repair of challenging pool surface problems for commercial and residential projects. Pool restoration/liner replacement is the listed scope, not routine weekly cleaning."
+    },
+    {
+      "name": "Mid-America Pool Renovation",
+      "website": "https://www.poolrenovation.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.poolrenovation.com/locations/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official locations page explicitly describes nationwide pool-renovation crews and coast-to-coast service for community and commercial facilities. Services include surface restoration, crack repair, liners, tile and coping; no local storefront or routine weekly cleaning is claimed."
+    },
+    {
+      "name": "The Pool Company Inc.",
+      "website": "https://www.tpcipools.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.tpcipools.com/about-us",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official company page explicitly describes commercial pool design, construction, renovation and maintenance nationwide, delivering aquatic-facility projects across the United States. Commercial and institutional facilities only; no local branch or residential service is inferred."
+    },
+    {
+      "name": "AVS Fence & Screen",
+      "website": "https://www.avsfenceandscreen.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.avsfenceandscreen.com/screen-enclosures",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official screen-enclosure page lists pool cages, patio and lanai enclosures and states availability for large-scale or custom projects across Florida beyond its Southwest Florida base. Statewide placements retain that project-size scope; no local office is asserted."
+    },
+    {
+      "name": "Retail Fix It",
+      "website": "https://www.retailfixit.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.retailfixit.com/commercial-gutter-installation-repair-services/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official commercial-gutter page offers installation and repair nationwide through managed contractors. This is commercial facility service, with no local storefront or residential-service claim; prior Retail Fix It placements remain unchanged."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Ferguson Aquatics",
+      "website": "https://www.fergusonaquatics.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.fergusonaquatics.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official aquatic-contractor site explicitly serves projects nationwide, offering pool renovation, membrane installation, tear-outs/repairs and coordinated new-pool construction. New builds use project-specific Rock Pool USA packages with responsibilities agreed per project. Commercial aquatic scope; partner brand is not separately counted."
+    },
+    {
+      "name": "Headwater Construction Group",
+      "website": "https://www.headwatercg.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.headwatercg.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official site describes nationwide commercial aquatic construction, renovation and service for pools, waterparks and aquatic facilities. Headwater is a division of Air-Tech Systems Inc., treated as one identity. Commercial project scope, with no residential-service or local-office claim."
+    },
+    {
+      "name": "The Pool Company Inc.",
+      "website": "https://www.tpcipools.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.tpcipools.com/about-us",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official company page explicitly describes commercial pool design, construction, renovation and maintenance nationwide, delivering aquatic-facility projects across the United States. Commercial and institutional facilities only; no local branch or residential service is inferred."
+    },
+    {
+      "name": "ConTeras",
+      "website": "https://conteras.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://conteras.com/services/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official services page states that the group handles industrial insulation projects nationwide regardless of size or scope. ConTeras and its Incorp/PIC/ECRS companies are treated as one identity for these placements; no residential insulation claim."
+    },
+    {
+      "name": "FiberChem",
+      "website": "https://fiber-chem.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://fiber-chem.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official company site explicitly describes nationwide industrial insulation contracting for storage tanks, pipes and vessels, with field crews serving projects throughout the continental United States. Industrial insulation only; no residential or local-office claim."
+    },
+    {
+      "name": "ISSP Services LLC",
+      "website": "https://www.isspservices-llc.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.isspservices-llc.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official company site offers insulation and painting for residential, commercial and industrial properties across the USA, identifying founder Ruben Alvarez. Only these clearly described services are included; unrelated template text is not used as evidence."
+    },
+    {
+      "name": "McCarthy Wild Services Inc.",
+      "website": "https://www.mwitx.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.mwitx.com/insulation/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official insulation page explicitly describes nationwide commercial/industrial and building-envelope insulation services. This is project-based insulation contracting; no local storefront is claimed. Related construction company KWM is not counted as another insulation provider."
+    },
+    {
+      "name": "Performance Contracting",
+      "website": "https://www.performancecontracting.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.performancecontracting.com/commercial/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official commercial-services page describes nationwide project delivery and lists building insulation, painting/coatings and raised-access flooring among its integrated services. Commercial project scope, not a claim of residential service or a local branch. PCI is distinct from ConTeras subsidiary PIC."
+    },
+    {
+      "name": "Upland Services",
+      "website": "https://uplandservices.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://uplandservices.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official industrial and commercial insulation contractor website states operations throughout the continental United States and identifies its Louisiana headquarters and additional facilities. Insulation project service is included; residential work and local offices are not inferred."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    },
+    {
+      "name": "ISSP Services LLC",
+      "website": "https://www.isspservices-llc.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.isspservices-llc.com/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official company site offers insulation and painting for residential, commercial and industrial properties across the USA, identifying founder Ruben Alvarez. Only these clearly described services are included; unrelated template text is not used as evidence."
+    },
+    {
+      "name": "Performance Contracting",
+      "website": "https://www.performancecontracting.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "painting"
+      ],
+      "sourceUrl": "https://www.performancecontracting.com/commercial/",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official commercial-services page describes nationwide project delivery and lists building insulation, painting/coatings and raised-access flooring among its integrated services. Commercial project scope, not a claim of residential service or a local branch. PCI is distinct from ConTeras subsidiary PIC."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.command7.com/our-services",
+      "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
+      "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
+    }
+  ]
+}
