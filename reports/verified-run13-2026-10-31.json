@@ -4,7 +4,7 @@
   "verifiedAt": "2026-11-01T00:01:46.196Z",
   "rawCandidateCount": 35,
   "target": 500,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 500,
   "sourceRecordCount": 48,
   "uniqueBusinessDomains": 30,
@@ -1150,5 +1150,16 @@
       "sourceVerifiedAt": "2026-10-31T23:01:32.715791+00:00",
       "evidenceNote": "Official facility-services page explicitly states service in all 50 states. Listed programs include landscaping, irrigation, tree trimming/removal, pest treatment, HVAC, electrical/plumbing repair, concrete sidewalk repair, building painting and locksmith work. Commercial facility-management service through its managed network; existing placements excluded."
     }
-  ]
+  ],
+  "sourceCommit": "7d6f000335087b70331f3e98fe0cde1c8a5f49ae",
+  "deploymentId": "dpl_BfR38CUH5Rn2eR9VkcCHxC4LEUJt",
+  "liveVerifiedAt": "2026-11-01T00:06:22.707494+00:00",
+  "publishedPlacements": 500,
+  "runShortfall": 0,
+  "combinationsAt20": 212,
+  "combinationsBelow20": 988,
+  "countBasedRemainingDeficit": 11638,
+  "emptyCombinations": 0,
+  "ciRunId": 41255049117,
+  "ciConclusion": "success"
 }
