@@ -1,6 +1,22 @@
-import type { Business } from '@/db/runtime';
+import type { Business, BusinessProfile } from '@/db/runtime';
 
 export const SITE_URL = 'https://whoknowsapro.com';
+
+export type ProfileContext = Pick<Business, 'region' | 'trade'>;
+export type ProfileSearchParams = { region?: string | string[]; trade?: string | string[] };
+
+export function businessProfileHref(business: Pick<Business, 'main_slug' | 'slug'>, context?: ProfileContext | null) {
+  const path = `/business/${business.main_slug || business.slug}`;
+  return context ? `${path}?${new URLSearchParams({ region: context.region, trade: context.trade })}` : path;
+}
+
+// A business's separate city/category lists do not prove every possible pairing.
+// Use an actual placement, and never turn arbitrary query parameters into coverage.
+export function businessProfileContext(profile: BusinessProfile, search: ProfileSearchParams, legacySlug?: string) {
+  const requested = profile.placements.find((placement) => placement.region === search.region && placement.trade === search.trade);
+  if (requested) return requested;
+  return legacySlug ? profile.placements.find((placement) => placement.slug === legacySlug) ?? null : null;
+}
 
 export function specialtyList(value: string | null) {
   if (!value) return [];

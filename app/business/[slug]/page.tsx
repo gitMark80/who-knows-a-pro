@@ -11,24 +11,25 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { ProfileViewTracker } from '@/components/site/profile-view-tracker';
 import { regions, trades } from '@/data/catalog';
 import { getBusinessProfile } from '@/db/runtime';
-import { businessMetaDescription, businessStructuredJsonLd, isBusinessProfileIndexable, SITE_URL, specialtyList } from '@/lib/business-profile';
+import { businessMetaDescription, businessProfileContext, businessProfileHref, businessStructuredJsonLd, isBusinessProfileIndexable, SITE_URL, specialtyList, type ProfileSearchParams } from '@/lib/business-profile';
 
 export const dynamic = 'force-dynamic';
 
 const loadBusiness = cache((slug: string) => getBusinessProfile(slug));
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+type PageProps = { params: Promise<{ slug: string }>; searchParams: Promise<ProfileSearchParams> };
+
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const result = await loadBusiness(slug);
   if (!result || result.profile.is_test) return { title: 'Business profile', robots: { index: false, follow: true } };
   const business = result.profile;
-  const region = regions.find((item) => item.slug === business.region);
-  const trade = trades.find((item) => item.slug === business.trade);
-  const city = region?.name || business.location;
-  const category = trade?.name || business.trade;
+  const context = businessProfileContext(business, await searchParams, result.legacy ? slug : undefined);
+  const city = regions.find((item) => item.slug === context?.region)?.name;
+  const category = trades.find((item) => item.slug === context?.trade)?.name;
   return {
-    title: { absolute: `${business.name} – ${category} in ${city} | Who Knows a Pro?` },
-    description: businessMetaDescription(business, category, city),
+    title: { absolute: `${business.name}${city && category ? ` – ${category} serving ${city}` : ' – Business profile'} | Who Knows a Pro?` },
+    description: city && category ? businessMetaDescription(business, category, city) : business.summary || `View ${business.name}'s directory categories, listed cities and official contact information.`,
     alternates: { canonical: `/business/${business.main_slug}` },
     // Name-and-website-only profiles are thin; keep them out of the index (links still followed)
     // until the owner adds real details. City/category pages carry these listings for search.
@@ -36,20 +37,30 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-export default async function BusinessPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function BusinessPage({ params, searchParams }: PageProps) {
   const { slug } = await params;
   const result = await loadBusiness(slug);
   if (!result || result.profile.is_test) notFound();
-  if (result.legacy) permanentRedirect(`/business/${result.profile.main_slug}`);
   const business = result.profile;
+  const context = businessProfileContext(business, await searchParams, result.legacy ? slug : undefined);
+  if (result.legacy) permanentRedirect(businessProfileHref(business, context));
 
-  const region = regions.find((item) => item.slug === business.region);
-  const trade = trades.find((item) => item.slug === business.trade);
-  const regionName = region?.name || business.location;
-  const tradeName = trade?.name || business.trade;
+  const region = regions.find((item) => item.slug === context?.region);
+  const trade = trades.find((item) => item.slug === context?.trade);
   const specialties = specialtyList(business.specialties);
   const servedRegions = business.regions.map((slug) => regions.find((item) => item.slug === slug)).filter((item) => item !== undefined);
   const servedTrades = business.trades.map((slug) => trades.find((item) => item.slug === slug)).filter((item) => item !== undefined);
+  const listedTrades = context ? servedTrades.filter((item) => business.placements.some((placement) => placement.region === context.region && placement.trade === item.slug)) : servedTrades;
+  const regionHref = (regionSlug: string) => {
+    const placement = business.placements.find((item) => item.region === regionSlug && item.trade === context?.trade)
+      ?? business.placements.find((item) => item.region === regionSlug);
+    return businessProfileHref(business, placement);
+  };
+  const tradeHref = (tradeSlug: string) => {
+    const placement = business.placements.find((item) => item.trade === tradeSlug && item.region === context?.region)
+      ?? business.placements.find((item) => item.trade === tradeSlug);
+    return businessProfileHref(business, placement);
+  };
   let photos: string[] = [];
   if (business.tier !== 'free') {
     try { photos = JSON.parse(business.photo_urls || '[]') as string[]; } catch { photos = []; }
@@ -57,19 +68,19 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
 
   const breadcrumbItems = [
     { label: 'Home', href: '/' },
-    { label: regionName, href: `/${business.region}` },
-    { label: tradeName, href: `/${business.region}/${business.trade}` },
+    ...(region && trade ? [
+      { label: region.name, href: `/${region.slug}` },
+      { label: trade.name, href: `/${region.slug}/${trade.slug}` },
+    ] : []),
     { label: business.name },
   ];
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
-      { '@type': 'ListItem', position: 2, name: regionName, item: `${SITE_URL}/${business.region}` },
-      { '@type': 'ListItem', position: 3, name: tradeName, item: `${SITE_URL}/${business.region}/${business.trade}` },
-      { '@type': 'ListItem', position: 4, name: business.name, item: `${SITE_URL}/business/${business.main_slug}` },
-    ],
+    itemListElement: breadcrumbItems.map((item, index) => ({
+      '@type': 'ListItem', position: index + 1, name: item.label,
+      item: `${SITE_URL}${item.href || businessProfileHref(business, context)}`,
+    })),
   };
 
   return <>
@@ -89,7 +100,8 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
                 <div>
                   <div className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-[#27715c]"><BadgeCheck className="size-4"/>{business.owner_email ? 'Claimed business' : 'Public listing'}</div>
                   <h1 className="mt-1 text-3xl font-black tracking-tight sm:text-4xl">{business.name}</h1>
-                  <p className="mt-2 text-sm font-semibold text-slate-500">{tradeName} in {regionName}</p>
+                  <p className="mt-2 text-sm font-semibold text-slate-500">{region && trade ? `${trade.name} serving ${region.name}` : 'Business profile'}</p>
+                  {region && trade ? <a href={`/${region.slug}/${trade.slug}`} className="mt-3 inline-block text-sm font-bold text-[#d96c20] underline">Back to {trade.name.toLowerCase()} in {region.name}</a> : null}
                 </div>
               </div>
 
@@ -108,8 +120,8 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
               </section> : null}
 
               <section className="mt-8 grid gap-6 sm:grid-cols-2">
-                <div><h2 className="text-xl font-extrabold text-[#142c4c]">{business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{servedRegions.map((item) => <a key={item.slug} href={`/${item.slug}`} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
-                <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories</h2><div className="mt-3 flex flex-wrap gap-2">{servedTrades.map((item) => <a key={item.slug} href={`/${business.region}/${item.slug}`} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
+                <div><h2 className="text-xl font-extrabold text-[#142c4c]">{business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{servedRegions.map((item) => <a key={item.slug} href={regionHref(item.slug)} aria-current={item.slug === context?.region ? 'location' : undefined} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
+                <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories{region ? ` in ${region.name}` : ''}</h2><div className="mt-3 flex flex-wrap gap-2">{listedTrades.map((item) => <a key={item.slug} href={tradeHref(item.slug)} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
               </section>
 
               <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5">

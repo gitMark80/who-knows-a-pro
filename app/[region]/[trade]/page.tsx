@@ -158,7 +158,7 @@ export default async function DirectoryPage({ params }: { params: Promise<{ regi
         <div className="mt-8">
           {featured ? <div>
             <p className="mb-3 text-xs font-black uppercase tracking-[.16em] text-[#9b4917]">Exclusive featured business</p>
-            <div className="max-w-2xl"><ListingCard business={featured.business} featured/></div>
+            <div className="max-w-2xl"><ListingCard business={featured.business} featured context={{ region: region.slug, trade: trade.slug }}/></div>
           </div> : <a href={`/pricing?plan=featured&region=${encodeURIComponent(region.slug)}&trade=${encodeURIComponent(trade.slug)}`} rel="nofollow" className="group block rounded-2xl border-2 border-dashed border-[#ec7d2c]/50 bg-[#fff7f0] p-6 hover:border-[#ec7d2c]">
             <p className="text-xs font-black uppercase tracking-[.16em] text-[#9b4917]">Featured spot available</p>
             <h3 className="mt-2 text-xl font-black text-[#142c4c]">Feature your business at the top of this page</h3>

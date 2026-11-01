@@ -11,7 +11,7 @@ import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
-type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; sourceUrl?: string; sourceVerifiedAt?: string };
+type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; summary?: string; sourceUrl?: string; sourceVerifiedAt?: string };
 const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
@@ -527,7 +527,7 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
       region,
       trade,
       location: regionNames.get(region) ?? region,
-      summary: '',
+      summary: business.summary ?? '',
       website: business.website,
       sourceUrl: business.sourceUrl ?? business.website,
       sourceVerifiedAt: business.sourceVerifiedAt ?? DIRECTORY_VERIFIED_AT,

@@ -2,9 +2,9 @@ import { TrackedBusinessLink } from '@/components/site/tracked-business-link';
 import { ArrowRight, BadgeCheck, CalendarDays, Clock3, ExternalLink, Hash, MapPin, MapPinned, Phone, Star, Wrench } from 'lucide-react';
 import Image from 'next/image';
 import type { Business } from '@/db/runtime';
-import { specialtyList } from '@/lib/business-profile';
+import { businessProfileHref, specialtyList, type ProfileContext } from '@/lib/business-profile';
 
-export function ListingCard({ business, featured = false }: { business: Business; featured?: boolean }) {
+export function ListingCard({ business, featured = false, context = business }: { business: Business; featured?: boolean; context?: ProfileContext }) {
   const isFeatured = featured || business.tier === 'sponsored';
   const enhanced = !isFeatured && (business.tier === 'enhanced' || business.tier === 'featured');
   const specialties = specialtyList(business.specialties);
@@ -30,7 +30,7 @@ export function ListingCard({ business, featured = false }: { business: Business
 
     <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-3 pt-6">
       {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="listing" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="inline-flex items-center gap-1 rounded-lg bg-[#ec7d2c] px-3 py-2 text-sm font-extrabold text-white hover:bg-[#d96c20]">Visit website <ExternalLink className="size-3.5"/></TrackedBusinessLink> : null}
-      <a href={`/business/${business.main_slug || business.slug}`} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">View profile <ArrowRight className="size-4"/></a>
+      <a href={businessProfileHref(business, context)} className="inline-flex items-center gap-1 rounded-lg border border-[#142c4c]/15 px-3 py-2 text-sm font-extrabold text-[#142c4c] hover:border-[#ec7d2c] hover:bg-[#fff7f0] hover:text-[#d96c20]">View profile <ArrowRight className="size-4"/></a>
     </div>
     {!business.owner_email ? <a href={`/claim?business=${encodeURIComponent(business.slug)}`} rel="nofollow" className="mt-4 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-[#d96c20]">Claim</a> : null}
   </article>;

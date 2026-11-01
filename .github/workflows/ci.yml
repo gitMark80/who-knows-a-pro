@@ -67,4 +67,5 @@ jobs:
             stop_server
           }
           run_suite results /tmp/wkap-results.db tests/business-results.integration.py /tmp/wkap-results.db
+          run_suite profiles /tmp/wkap-profiles.db tests/business-profile-context.integration.py /tmp/wkap-profiles.db
           run_suite flows /tmp/wkap-flows.db tests/claim-billing-security.integration.py /tmp/wkap-flows.db /tmp/wkap-outbox.jsonl

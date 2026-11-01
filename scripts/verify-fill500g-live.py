@@ -38,8 +38,18 @@ def check(item, profile=False):
             cards = re.findall(r"<article\b[^>]*>.*?</article>", page, re.S)
             results = []
             for row in rows:
-                matched = [page] if profile else [card for card in cards if f'href="/business/{row["mainSlug"]}"' in card]
+                matched = [page] if profile else [card for card in cards if any(
+                    urllib.parse.urlparse(html.unescape(href)).path == f'/business/{row["mainSlug"]}'
+                    for href in re.findall(r'href="([^"]+)"', card)
+                )]
                 linked = any(host(url) == host(row["website"]) for card in matched for url in re.findall(r'href="([^"]+)"', card))
+                context_preserved = profile or any(
+                    urllib.parse.urlparse(html.unescape(href)).path == f'/business/{row["mainSlug"]}'
+                    and urllib.parse.parse_qs(urllib.parse.urlparse(html.unescape(href)).query) == {
+                        'region': [row['region']], 'trade': [row['trade']],
+                    }
+                    for card in matched for href in re.findall(r'href="([^"]+)"', card)
+                )
                 results.append({
                     "url": BASE + path,
                     "name": row["name"],
@@ -48,7 +58,8 @@ def check(item, profile=False):
                     "httpStatus": status,
                     "matchingCards": len(matched),
                     "officialLinkFound": linked,
-                    "passed": status == 200 and len(matched) == 1 and linked,
+                    "profileContextPreserved": context_preserved,
+                    "passed": status == 200 and len(matched) == 1 and linked and context_preserved,
                 })
             return results
         except Exception as error:
