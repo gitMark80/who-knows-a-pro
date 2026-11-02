@@ -94,7 +94,7 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
         <Breadcrumbs items={breadcrumbItems}/>
         <article className="mt-6 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl shadow-slate-200/50">
           {photos.length > 0 ? <div className="grid h-64 grid-cols-2 gap-1 bg-slate-100 sm:h-80">{photos.slice(0, 3).map((photo, index) => <div key={photo} className={`relative min-h-0 ${index === 0 ? 'row-span-2' : ''}`}><Image src={photo} alt={`${business.name} business photo ${index + 1}`} fill sizes={index === 0 ? '(min-width: 640px) 50vw, 100vw' : '50vw'} unoptimized className="object-cover"/></div>)}</div> : null}
-          <div className="grid gap-9 p-6 sm:p-9 md:grid-cols-[1fr_280px]">
+          <div className="grid items-start gap-x-9 gap-y-6 p-6 sm:p-9 md:grid-cols-[minmax(0,1fr)_280px]">
             <div>
               <div className="flex items-center gap-4">
                 {business.logo_url && business.tier !== 'free' ? <div className="grid size-16 shrink-0 place-items-center overflow-hidden rounded-2xl bg-[#eaf0f6]"><Image src={business.logo_url} alt={`${business.name} logo`} width={64} height={64} unoptimized className="size-full object-cover"/></div> : null}
@@ -105,8 +105,19 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
                   {region && trade ? <a href={`/${region.slug}/${trade.slug}`} className="mt-3 inline-block text-sm font-bold text-[#d96c20] underline">Back to {trade.name.toLowerCase()} in {region.name}</a> : null}
                 </div>
               </div>
+            </div>
 
-              {business.summary ? <p className="mt-7 text-base leading-8 text-slate-700">{business.summary}</p> : null}
+            <aside className="md:col-start-2 md:row-start-1 md:row-span-2 h-fit rounded-2xl bg-[#142c4c] p-5 text-white">
+              <h2 className="text-lg font-extrabold">Contact this pro</h2>
+              <div className="mt-5 space-y-3">
+                {business.phone ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="phone" source="profile" href={`tel:${business.phone}`} className="flex items-center gap-2 rounded-xl bg-white/10 p-3 font-bold hover:bg-white/15"><Phone className="size-4"/>{business.phone}</TrackedBusinessLink> : null}
+                {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="profile" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="flex items-center gap-2 rounded-xl bg-[#ec7d2c] p-3 font-bold hover:bg-[#d96c20]"><Globe2 className="size-4"/>Visit official website <ExternalLink className="ml-auto size-3.5"/></TrackedBusinessLink> : null}
+              </div>
+              <div className="mt-5 flex items-start gap-2 border-t border-white/15 pt-5 text-xs leading-5 text-white/60"><ShieldCheck className="mt-0.5 size-4 shrink-0"/>Directory profiles are informational and are not endorsements.</div>
+            </aside>
+
+            <div className="min-w-0 md:col-start-1 md:row-start-2">
+              {business.summary ? <p className="text-base leading-8 text-slate-700">{business.summary}</p> : null}
 
               {(business.address || business.service_area || business.hours || specialties.length || business.year_founded || business.license_number) ? <section className="mt-8">
                 <h2 className="text-xl font-extrabold text-[#142c4c]">Business details</h2>
@@ -120,25 +131,11 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
                 </dl>
               </section> : null}
 
-              <section className="mt-8 grid gap-6 sm:grid-cols-2">
-                <div><h2 className="text-xl font-extrabold text-[#142c4c]">{trade ? `${trade.name} listings by city` : business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{listedRegions.map((item) => <a key={item.slug} href={regionHref(item.slug)} aria-current={item.slug === context?.region ? 'location' : undefined} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
-                <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories{region ? ` in ${region.name}` : ''}</h2><div className="mt-3 flex flex-wrap gap-2">{listedTrades.map((item) => <a key={item.slug} href={tradeHref(item.slug)} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
-              </section>
-
               <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5">
                 <h2 className="font-extrabold">Before you hire</h2>
                 <p className="mt-2 text-sm leading-6 text-slate-600">Confirm price, availability, licensing, insurance, and project details directly with the business.</p>
               </div>
             </div>
-
-            <aside className="h-fit rounded-2xl bg-[#142c4c] p-5 text-white">
-              <h2 className="text-lg font-extrabold">Contact this pro</h2>
-              <div className="mt-5 space-y-3">
-                {business.phone ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="phone" source="profile" href={`tel:${business.phone}`} className="flex items-center gap-2 rounded-xl bg-white/10 p-3 font-bold hover:bg-white/15"><Phone className="size-4"/>{business.phone}</TrackedBusinessLink> : null}
-                {business.website ? <TrackedBusinessLink businessSlug={business.main_slug || business.slug} action="website" source="profile" href={business.website} target="_blank" rel="noopener" referrerPolicy="strict-origin-when-cross-origin" aria-label={`Visit ${business.name} official website`} className="flex items-center gap-2 rounded-xl bg-[#ec7d2c] p-3 font-bold hover:bg-[#d96c20]"><Globe2 className="size-4"/>Visit official website <ExternalLink className="ml-auto size-3.5"/></TrackedBusinessLink> : null}
-              </div>
-              <div className="mt-5 flex items-start gap-2 border-t border-white/15 pt-5 text-xs leading-5 text-white/60"><ShieldCheck className="mt-0.5 size-4 shrink-0"/>Directory profiles are informational and are not endorsements.</div>
-            </aside>
           </div>
         </article>
 
@@ -146,6 +143,14 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
           <div><p className="font-extrabold">Own this business?</p><p className="text-sm text-slate-500">Claim this profile to add verified details and keep its information current.</p></div>
           <a href={`/claim?business=${encodeURIComponent(context?.slug || business.slug)}`} rel="nofollow" className="rounded-xl bg-[#ec7d2c] px-5 py-3 font-extrabold text-white">Claim this business</a>
         </div> : null}
+
+        <details className="mt-5 rounded-2xl border border-slate-200 bg-white p-5">
+          <summary className="cursor-pointer rounded-lg font-extrabold text-[#142c4c] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d96c20]">Browse other cities and categories</summary>
+          <section className="mt-5 grid gap-6 sm:grid-cols-2">
+            <div><h2 className="text-xl font-extrabold text-[#142c4c]">{trade ? `${trade.name} listings by city` : business.service_area ? 'Areas served' : 'Listed in these cities'}</h2><div className="mt-3 flex flex-wrap gap-2">{listedRegions.map((item) => <a key={item.slug} href={regionHref(item.slug)} aria-current={item.slug === context?.region ? 'location' : undefined} className="rounded-full bg-[#eef3f8] px-3 py-1.5 text-sm font-bold text-[#142c4c]">{item.name}</a>)}</div></div>
+            <div><h2 className="text-xl font-extrabold text-[#142c4c]">Directory categories{region ? ` in ${region.name}` : ''}</h2><div className="mt-3 flex flex-wrap gap-2">{listedTrades.map((item) => <a key={item.slug} href={tradeHref(item.slug)} className="rounded-full bg-[#fff2e8] px-3 py-1.5 text-sm font-bold text-[#9b4917]">{item.name}</a>)}</div></div>
+          </section>
+        </details>
       </div>
     </main>
     <Footer/>
