@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-02T09:19:10Z",
+  "method": "Authorized public web retrieval of official business homepages and service pages; direct urllib checks from the execution container timed out at TLS negotiation for every external domain.",
+  "websites": [
+    {"name": "Fleet Response", "url": "https://www.fleetresponse.com/", "working": true, "sourceRef": "turn505view0"},
+    {"name": "Wheels", "url": "https://www.wheels.com/", "working": true, "sourceRef": "turn505view1"},
+    {"name": "Holman", "url": "https://www.holman.com/", "working": true, "sourceRef": "turn505view2"},
+    {"name": "Element Fleet Management", "url": "https://www.elementfleet.com/", "working": true, "sourceRef": "turn505view3"},
+    {"name": "Nextech", "url": "https://www.nextechna.com/", "working": true, "sourceRef": "turn505view4"},
+    {"name": "Door Systems", "url": "https://www.doorsystems.com/", "working": true, "sourceRef": "turn505view5"},
+    {"name": "Triton Liners", "url": "https://www.tritonliners.com/", "working": true, "sourceRef": "turn505view6"},
+    {"name": "Armor Screen", "url": "https://armorscreen.com/", "working": true, "sourceRef": "turn505view7"},
+    {"name": "Springwise Facility Management", "url": "https://www.springwisefm.com/", "working": true, "sourceRef": "turn506view0"}
+  ],
+  "serviceEvidence": [
+    {"name": "Fleet Response", "url": "https://www.fleetresponse.com/programs-services/maintenance-management/", "working": true, "sourceRef": "turn504view0"},
+    {"name": "Fleet Response", "url": "https://www.fleetresponse.com/programs-services/claims-management/", "working": true, "sourceRef": "turn504view2"},
+    {"name": "Wheels", "url": "https://www.wheels.com/public/services/fleet-maintenance/", "working": true, "sourceRef": "turn504view3"},
+    {"name": "Holman", "url": "https://www.holman.com/fleet-management/fleet-vehicle-management/", "working": true, "sourceRef": "turn504view4"},
+    {"name": "Element Fleet Management", "url": "https://www.elementfleet.com/manage/risk-management-solutions", "working": true, "sourceRef": "turn504view6"},
+    {"name": "Nextech", "url": "https://www.nextechna.com/brands-we-service-repair/", "working": true, "sourceRef": "turn503view5"},
+    {"name": "Door Systems", "url": "https://www.doorsystems.com/national-accounts", "working": true, "sourceRef": "turn503view6"},
+    {"name": "Triton Liners", "url": "https://www.tritonliners.com/marine-fuel-tank-repair-locations/", "working": true, "sourceRef": "turn504view7"},
+    {"name": "Armor Screen", "url": "https://armorscreen.com/", "working": true, "sourceRef": "turn504view8"},
+    {"name": "Springwise Facility Management", "url": "https://www.springwisefm.com/recurring", "working": true, "sourceRef": "turn506view1"}
+  ],
+  "withheld": [
+    {
+      "name": "Critical Power Solutions",
+      "url": "https://criticalpowersolutions.com/",
+      "reason": "Official pages state nationwide generator installation, but the homepage still exposes unrelated template contact details; withheld pending stronger identity and operational verification."
+    }
+  ]
+}
