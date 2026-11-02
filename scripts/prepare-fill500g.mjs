@@ -105,6 +105,7 @@ for (const option of selected) {
     grouped.set(groupKey, {
       name: candidate.displayName ?? existingNames.get(normalizeDomain(candidate.website)) ?? candidate.name,
       website: candidate.website,
+      ...(candidate.summary ? { summary: candidate.summary } : {}),
       regions: [],
       trades: [option.trade],
       sourceUrl: candidate.sourceUrl,

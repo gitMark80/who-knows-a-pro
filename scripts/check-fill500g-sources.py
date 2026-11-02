@@ -10,6 +10,9 @@ from pathlib import Path
 
 run = os.environ.get("FILL_RUN", "fill500g")
 date = os.environ.get("FILL_DATE", "2026-11-01")
+timeout = int(os.environ.get("FILL_HTTP_TIMEOUT", "45"))
+retries = int(os.environ.get("FILL_HTTP_RETRIES", "3"))
+workers = int(os.environ.get("FILL_HTTP_WORKERS", "8"))
 records_path = os.environ.get("FILL_SOURCE_RECORDS")
 if records_path:
     candidates = json.loads(Path(records_path).read_text())["records"]
@@ -21,10 +24,10 @@ for candidate in candidates:
 urls = list(dict.fromkeys(urls))
 def check(url):
     errors = []
-    for attempt in range(1, 4):
+    for attempt in range(1, retries + 1):
         try:
             request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(request, timeout=45, context=ssl.create_default_context()) as response:
+            with urllib.request.urlopen(request, timeout=timeout, context=ssl.create_default_context()) as response:
                 return {
                     "url": url,
                     "status": response.status,
@@ -35,11 +38,11 @@ def check(url):
                 }
         except Exception as error:
             errors.append(f"{type(error).__name__}: {error}")
-            if attempt < 3:
+            if attempt < retries:
                 time.sleep(2 * attempt)
     return {"url": url, "ok": False, "errors": errors}
 
-with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
     results = list(pool.map(check, urls))
 report = {"checkedAt": dt.datetime.now(dt.timezone.utc).isoformat(), "results": results}
 Path(f"reports/http-sources-{run}-{date}.json").write_text(json.dumps(report, indent=2) + "\n")
