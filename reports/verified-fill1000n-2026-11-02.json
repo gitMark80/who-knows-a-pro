@@ -1,0 +1,4440 @@
+{
+  "baselineCommit": "81a33ea422becaf327af895a3d638e1d205245c1",
+  "continuationOf": "reports/verified-fill1000m-2026-11-02.json",
+  "verifiedAt": "2026-11-02T19:17:07.908Z",
+  "target": 1000,
+  "status": "prepared_not_published",
+  "placementCount": 1000,
+  "sourceRecordCount": 241,
+  "uniqueBusinessDomains": 157,
+  "additionsByCity": {
+    "panama-city-fl": 9,
+    "crestview-fl": 11,
+    "fort-walton-beach-fl": 4,
+    "destin-fl": 4,
+    "pensacola-fl": 11,
+    "gulf-breeze-fl": 7,
+    "pace-fl": 14,
+    "perdido-key-fl": 8,
+    "milton-fl": 13,
+    "navarre-fl": 5,
+    "orange-beach-al": 34,
+    "gulf-shores-al": 76,
+    "foley-al": 75,
+    "fairhope-al": 72,
+    "daphne-al": 76,
+    "grayton-beach-fl": 11,
+    "mobile-al": 34,
+    "panama-city-beach-fl": 13,
+    "biloxi-ms": 30,
+    "gulfport-ms": 33,
+    "dothan-al": 15,
+    "montgomery-al": 20,
+    "tallahassee-fl": 17,
+    "auburn-al": 15,
+    "new-orleans-la": 39,
+    "baton-rouge-la": 34,
+    "birmingham-al": 21,
+    "huntsville-al": 19,
+    "atlanta-ga": 18,
+    "jacksonville-fl": 27,
+    "tampa-fl": 16,
+    "clearwater-fl": 19,
+    "st-petersburg-fl": 19,
+    "orlando-fl": 31,
+    "sarasota-fl": 24,
+    "fort-myers-fl": 28,
+    "naples-fl": 20,
+    "west-palm-beach-fl": 21,
+    "fort-lauderdale-fl": 25,
+    "miami-fl": 32
+  },
+  "additionsByCategory": {
+    "septic-services": 72,
+    "marine-services": 54,
+    "appliance-repair": 80,
+    "screen-enclosures-pool-cages": 135,
+    "auto-body-collision": 39,
+    "pool-installation": 27,
+    "towing": 31,
+    "auto-mechanics": 106,
+    "home-inspections": 135,
+    "gutters": 83,
+    "irrigation-sprinkler-repair": 11,
+    "fence-builders": 10,
+    "generator-installation": 64,
+    "hurricane-shutters-impact-windows": 66,
+    "tree-service": 16,
+    "kitchen-bath-remodeling": 57,
+    "pool-service": 12,
+    "concrete": 2
+  },
+  "additionsByBusiness": {
+    "Gilbert's Septic Services": 2,
+    "Land Perc": 24,
+    "Mr. Rooter Plumbing": 6,
+    "Prime Plumbing Services": 1,
+    "Express Marine Repair": 17,
+    "Fiberglass Solutions": 16,
+    "Disaster Appliance Master": 15,
+    "G.M.B Appliances LLC": 4,
+    "Laser Appliance Repair LLC": 29,
+    "S&S Appliance": 20,
+    "Backyard Paradise": 31,
+    "Precision Aluminum": 28,
+    "Maaco Collision Repair & Auto Painting": 16,
+    "Phoenix Services LLC": 2,
+    "Anytime Plumber": 8,
+    "Coker Plumbing & Septic": 6,
+    "Steven Boyett's Septic Service": 9,
+    "McAdams Auto, Collision & Towing": 8,
+    "Pitts & Sons Towing and Recovery": 7,
+    "Pep Boys": 21,
+    "Firestone Complete Auto Care": 24,
+    "Oilrun": 1,
+    "What's Up Docks": 6,
+    "Gulf Exterior Worx": 4,
+    "Sunshine State Home Inspections": 15,
+    "Taylor's Wrecker & Towing": 5,
+    "Wilson's Service Center": 5,
+    "AAA-Inspections": 10,
+    "Affordable Home Inspections": 6,
+    "Complete Home Inspections LLC": 6,
+    "FCS Home Inspection": 6,
+    "Guiding Light Inspections": 6,
+    "House Tech Home Inspections": 6,
+    "Island Inspections": 3,
+    "Jim McDonough Home Inspections": 6,
+    "Newman Home Inspections": 10,
+    "Shepherd's Call Inspections": 4,
+    "Superior Home Inspections": 4,
+    "P&C Septic Solutions": 6,
+    "4th Shift Seamless Gutters": 5,
+    "Advanced Metal Systems": 9,
+    "B&B Roof and Gutter": 6,
+    "Coastal Home Improvements": 12,
+    "Duncan Custom Gutter": 2,
+    "GulfBend Gutters": 11,
+    "Adams Aluminum": 5,
+    "Lanius Gutters LLC": 9,
+    "Coastal Ready Auto Repair": 6,
+    "Mobile Vehicle Service LLC": 5,
+    "Smith Landscaping Solutions": 10,
+    "Superior Scapes": 5,
+    "Mavis Tire Family": 22,
+    "Auto Medic Wrecker": 2,
+    "Builtright Home Inspections": 1,
+    "Gulfside Home Inspections": 1,
+    "Custom Sunrooms & Siding": 4,
+    "Premier Patio and Screen": 11,
+    "Southern Patio & Screens": 3,
+    "Dees Marine": 4,
+    "Make Wake Marine": 4,
+    "Simple Marine": 4,
+    "Crash Champions": 13,
+    "Southern Gutters LLC": 4,
+    "Affordable Home Generators": 4,
+    "Clark Gas Company": 25,
+    "Danco Services Inc.": 4,
+    "Easy Heating & Cooling": 4,
+    "Gulf Shores Electrical": 3,
+    "Islander Generator": 3,
+    "Elemental Exteriors": 4,
+    "Folkers Window Company": 8,
+    "Preferred Builder Resources": 6,
+    "Bama Pools Inc.": 8,
+    "Bluefin Contracting & Design": 4,
+    "Poolmaster Services": 7,
+    "Pools and Paradise": 5,
+    "Divine Pools": 4,
+    "Coastal Tree Services": 4,
+    "Hel-Co Tree Services": 4,
+    "Styx's Tractor & Tree Service": 4,
+    "Trees and Concrete": 4,
+    "7 Kitchen & Bath": 3,
+    "Burks Remodeling": 4,
+    "Green Coast Living": 4,
+    "All Service Painting & Construction Inc.": 3,
+    "Alabama Poolworks": 4,
+    "Jiffy Lube": 14,
+    "Southern Gutter Solutions": 1,
+    "Mako Services LLC": 2,
+    "Allen's Tow Service": 1,
+    "HouseMaster": 13,
+    "Gibby's Towing": 1,
+    "Shepard's Plumbing and Septic": 1,
+    "AmeriSpec Inspection Services": 6,
+    "Caliber Collision": 9,
+    "Direct Source Renovations": 30,
+    "LeafFilter Gutter Protection": 19,
+    "Leafguard": 7,
+    "Fortified Contractor": 11,
+    "GC Specialties": 1,
+    "Slidell Shutters and Security": 3,
+    "Southern Home Improvement Center": 9,
+    "The Shutter House": 2,
+    "WIN Home Inspection": 8,
+    "Renuity": 20,
+    "Mr. Electric": 2,
+    "Ready Power USA": 4,
+    "Rusco Electric": 2,
+    "DND Towing & Recovery": 2,
+    "Jay's Appliance Repair": 2,
+    "A Plus Patio & Screen": 2,
+    "Meineke Car Care Center": 10,
+    "All Star Screen Patio Enclosure": 3,
+    "RC Electric": 1,
+    "Christian Brothers Automotive": 3,
+    "Bath Fitter": 17,
+    "Outdoor Living Solutions": 4,
+    "Canvas Home Inspections": 1,
+    "Geaux Home Inspections": 2,
+    "All Aluminum Construction": 2,
+    "Faithful Gutters & Roofing": 4,
+    "Joe's Gutters & Patios": 2,
+    "Mike's Patio Covers & Screenrooms": 2,
+    "Northshore Gutters & Patios LLC": 4,
+    "Nu Code Shutters": 4,
+    "Custom Power Solutions LLC": 1,
+    "2Js Marine": 1,
+    "On-Point Mobile Marine Service": 2,
+    "Mean Screens LA": 2,
+    "Aluminum Specialties Manufacturing": 1,
+    "Superior Patio Sales Inc.": 1,
+    "Louisiana Septic Suckers LLC": 1,
+    "St. Amant Septic Tank Services": 1,
+    "TL Septic Tank Service": 1,
+    "MNM Electrical Solutions LLC": 1,
+    "West Shore Home": 5,
+    "GHT Group": 2,
+    "Centsable Inspections": 1,
+    "Superior Pools (North Alabama)": 1,
+    "Forensic Home Inspections": 3,
+    "LunsPro Inspection Group": 2,
+    "Noble Property Inspections": 5,
+    "Flamingo Appliance Service": 10,
+    "Sun Inspections": 7,
+    "GenerX Generators": 8,
+    "Southern Water and Soil": 4,
+    "Eclipse Service Hub": 5,
+    "Eurex Shutters": 4,
+    "HOMESHAPE Inspections": 1,
+    "Pan Alpha LLC": 1,
+    "Alufab USA": 2,
+    "Storm Solutions": 2,
+    "Wind Safe Hurricane Protection": 2,
+    "Omega Doors & Windows": 3,
+    "ASAP Statewide Septic": 2,
+    "NOS Home Inspectors": 2,
+    "Classic Collision": 1
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 596,
+    "pairsBelow20": 604,
+    "deficit": 4638
+  },
+  "prepared": {
+    "pairsAt20": 655,
+    "pairsBelow20": 545,
+    "deficit": 3638,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "pensacola-fl|appliance-repair",
+    "gulf-breeze-fl|auto-mechanics",
+    "gulf-breeze-fl|appliance-repair",
+    "navarre-fl|appliance-repair",
+    "perdido-key-fl|appliance-repair",
+    "perdido-key-fl|home-inspections",
+    "orange-beach-al|auto-mechanics",
+    "orange-beach-al|gutters",
+    "orange-beach-al|screen-enclosures-pool-cages",
+    "orange-beach-al|home-inspections",
+    "orange-beach-al|irrigation-sprinkler-repair",
+    "mobile-al|auto-mechanics",
+    "mobile-al|gutters",
+    "mobile-al|screen-enclosures-pool-cages",
+    "mobile-al|home-inspections",
+    "tampa-fl|auto-mechanics",
+    "tampa-fl|home-inspections",
+    "atlanta-ga|auto-mechanics",
+    "destin-fl|appliance-repair",
+    "fort-walton-beach-fl|appliance-repair",
+    "fort-walton-beach-fl|pool-installation",
+    "panama-city-beach-fl|auto-mechanics",
+    "panama-city-beach-fl|home-inspections",
+    "crestview-fl|appliance-repair",
+    "crestview-fl|pool-installation",
+    "crestview-fl|screen-enclosures-pool-cages",
+    "milton-fl|septic-services",
+    "milton-fl|screen-enclosures-pool-cages",
+    "pace-fl|screen-enclosures-pool-cages",
+    "gulf-shores-al|pool-service",
+    "gulf-shores-al|kitchen-bath-remodeling",
+    "gulf-shores-al|gutters",
+    "gulf-shores-al|generator-installation",
+    "gulf-shores-al|screen-enclosures-pool-cages",
+    "gulf-shores-al|home-inspections",
+    "foley-al|pool-service",
+    "foley-al|gutters",
+    "foley-al|pool-installation",
+    "foley-al|generator-installation",
+    "foley-al|home-inspections",
+    "fairhope-al|pool-service",
+    "fairhope-al|kitchen-bath-remodeling",
+    "fairhope-al|gutters",
+    "fairhope-al|generator-installation",
+    "fairhope-al|home-inspections",
+    "fairhope-al|irrigation-sprinkler-repair",
+    "daphne-al|pool-service",
+    "daphne-al|gutters",
+    "daphne-al|generator-installation",
+    "daphne-al|screen-enclosures-pool-cages",
+    "daphne-al|irrigation-sprinkler-repair",
+    "new-orleans-la|screen-enclosures-pool-cages",
+    "fort-myers-fl|hurricane-shutters-impact-windows",
+    "grayton-beach-fl|appliance-repair",
+    "grayton-beach-fl|generator-installation",
+    "grayton-beach-fl|screen-enclosures-pool-cages",
+    "panama-city-fl|appliance-repair",
+    "panama-city-fl|marine-services",
+    "panama-city-fl|screen-enclosures-pool-cages"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Gilbert's Septic Services",
+      "website": "https://gilbertssepticservices.com/",
+      "summary": "Residential septic pumping, tank cleaning, repairs and installation.",
+      "regions": [
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://gilbertssepticservices.com/septic_tanks_service_panama_city_florida/",
+      "sourceVerifiedAt": "2026-11-02T18:14:26.569Z",
+      "evidenceNote": "Official service-area page covers Bay County and expressly includes primary homeowners and vacation properties. It describes septic pumping, cleaning and repairs; Panama City and Panama City Beach are separate Bay County placements."
+    },
+    {
+      "name": "Land Perc",
+      "website": "https://landperc.com/",
+      "summary": "Residential septic-system design, soil testing and permitting throughout Florida.",
+      "regions": [
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://landperc.com/",
+      "sourceVerifiedAt": "2026-11-02T18:53:42.906Z",
+      "evidenceNote": "Official homepage offers residential septic-system design, onsite soil/percolation testing, permitting and inspection coordination for homeowners, and explicitly states service in every Florida county. Scope is design/testing/permits, not pumping or repair."
+    },
+    {
+      "name": "Mr. Rooter Plumbing",
+      "website": "https://www.mrrooter.com/",
+      "summary": "Residential septic system pumping, maintenance and repairs.",
+      "regions": [
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.mrrooter.com/northwest-florida/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official Northwest Florida office serves Panama City and explicitly lists Crestview, Destin, Fort Walton Beach and Panama City Beach. Its residential service list includes septic tank pumping, repair and drain-field service."
+    },
+    {
+      "name": "Prime Plumbing Services",
+      "website": "https://primeplumbingservicesfl.com/",
+      "summary": "Residential septic pumping, maintenance and repairs.",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://primeplumbingseptic.com/septic-tank-pumping-panama-city/",
+      "sourceVerifiedAt": "2026-11-02T18:13:10.781Z",
+      "evidenceNote": "Official Panama City page offers septic pumping, tank maintenance and drainfield repairs for residential properties. The same Florida contractor number identifies the existing Prime Plumbing Services business, so its established directory domain is retained rather than creating another identity."
+    },
+    {
+      "name": "Express Marine Repair",
+      "website": "https://expressmarinerepair.com/",
+      "summary": "Dockside fiberglass repairs, boat painting and detailing; project scope and scheduling require confirmation.",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://expressmarinerepair.com/",
+      "sourceVerifiedAt": "2026-11-02T18:13:10.781Z",
+      "evidenceNote": "Official website explicitly offers service throughout Florida, with dockside and marina fiberglass repairs, yacht painting and detailing. Recreational boat projects include Blackfin, Mako and Grady White vessels."
+    },
+    {
+      "name": "Fiberglass Solutions",
+      "website": "https://fiberglasssolutionsfl.com/",
+      "summary": "Boat damage repairs with onsite assessment and arranged transport to the Stuart repair yard; transport costs and coverage vary.",
+      "regions": [
+        "crestview-fl",
+        "pace-fl",
+        "milton-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://fiberglasssolutionsfl.com/boat-transport-florida/",
+      "sourceVerifiedAt": "2026-11-02T18:13:10.781Z",
+      "evidenceNote": "Official page explicitly serves every Florida county for damaged-boat repairs. It describes onsite inspection and coordinated transport to its Stuart repair yard, including return delivery; this is not a local repair shop in every city."
+    },
+    {
+      "name": "Disaster Appliance Master",
+      "website": "https://disasterappliancemaster.com/",
+      "summary": "Home appliance diagnosis and repair, including refrigerators, ranges, washers and dryers.",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "panama-city-fl",
+        "fort-walton-beach-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://disasterappliancemaster.com/services/",
+      "sourceVerifiedAt": "2026-11-02T19:03:53.247Z",
+      "evidenceNote": "Official services page expressly covers Escambia, Santa Rosa, Okaloosa, Walton and Bay counties in FL, plus southern Mobile and Baldwin counties AL. Only southern Baldwin catalog cities used; Mobile/Daphne/Fairhope not assumed from ambiguous southern county boundary."
+    },
+    {
+      "name": "G.M.B Appliances LLC",
+      "website": "https://gmbappliancesprotech.com/",
+      "summary": "Household appliance repair and installation, plus kitchen construction.",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pensacola-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://gmbappliancesprotech.com/",
+      "sourceVerifiedAt": "2026-11-02T18:14:26.569Z",
+      "evidenceNote": "Official website lists Crestview, Fort Walton Beach, Panama City, Navarre and Pensacola among its service areas. It offers household appliance repair and a kitchen construction service, with direct in-home work for homeowners."
+    },
+    {
+      "name": "Laser Appliance Repair LLC",
+      "website": "https://laserappliancefl.com/",
+      "summary": "In-home repair of major and high-end household appliances.",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "dothan-al",
+        "tallahassee-fl",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://laserappliancefl.com/",
+      "sourceVerifiedAt": "2026-11-02T18:15:47.570Z",
+      "evidenceNote": "Official homepage expressly offers appliance repairs to home and commercial customers and states coverage across Florida, Georgia and southern Alabama. Only the catalog's southern Alabama cities are selected there."
+    },
+    {
+      "name": "S&S Appliance",
+      "website": "https://sandsappliance.com/",
+      "summary": "Residential appliance diagnosis and repair.",
+      "regions": [
+        "crestview-fl",
+        "pensacola-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "mobile-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://sandsappliance.com/",
+      "sourceVerifiedAt": "2026-11-02T19:03:53.247Z",
+      "evidenceNote": "Official current homepage explicitly provides technician coverage throughout Alabama, Northwest Florida and Mississippi Gulf Coast. Selected FL cities are within the Panhandle; no blanket Florida or Atlanta expansion. Independent company within Whirlpool's authorized service network."
+    },
+    {
+      "name": "Backyard Paradise",
+      "website": "https://backyardparadise.biz/",
+      "summary": "Residential screen-room, pool and patio enclosures; the company states it works throughout the southeastern United States.",
+      "regions": [
+        "crestview-fl",
+        "panama-city-fl",
+        "pace-fl",
+        "milton-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://backyardparadise.biz/about-us/",
+      "sourceVerifiedAt": "2026-11-02T18:47:17.883Z",
+      "evidenceNote": "Official current About Us page explicitly states that the company works throughout the entire southeastern United States. Its screen-room page offers professionally installed pool, patio and porch enclosures for homeowners. Statewide coverage is based on that service statement, not its separate licensing list."
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "summary": "Custom residential pool enclosures and screened rooms; Foley-based company serving its stated three-state area.",
+      "regions": [
+        "crestview-fl",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "panama-city-beach-fl",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.precisionalum.com/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official homepage expressly states service in Alabama, Florida and Louisiana for fabricated and installed pool enclosures and custom screen rooms for homeowners. Its contact page repeats these three states as service areas, and the fencing page expressly describes pool enclosure installation for homeowners across them."
+    },
+    {
+      "name": "Maaco Collision Repair & Auto Painting",
+      "website": "https://www.maaco.com/",
+      "summary": "Consumer auto-body painting and light collision repair.",
+      "regions": [
+        "panama-city-fl",
+        "pensacola-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "west-palm-beach-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.maaco.com/locations/fl/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official state location directory names a local Maaco shop in every selected city. The official services page confirms consumer car painting and light collision repairs, including dents and accident damage."
+    },
+    {
+      "name": "Phoenix Services LLC",
+      "website": "https://phoenixservicellc.com/",
+      "summary": "Residential swimming pool design and construction.",
+      "regions": [
+        "fort-walton-beach-fl",
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://phoenixservicellc.com/summer-2025-pool-services/",
+      "sourceVerifiedAt": "2026-11-02T19:00:20.546Z",
+      "evidenceNote": "Official pool-services article explicitly offers custom new swimming pool design and construction, including excavation and tile work. Crestview and Fort Walton Beach are named service areas; existing pool-maintenance identity retained."
+    },
+    {
+      "name": "Anytime Plumber",
+      "website": "https://anytimeplumber247.com/",
+      "summary": "Residential septic pumping, repairs and replacement.",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://anytimeplumber247.com/",
+      "sourceVerifiedAt": "2026-11-02T18:17:01.227Z",
+      "evidenceNote": "Official homepage offers residential septic pumping, repair and replacement, and names Pensacola, Milton, Pace, Gulf Breeze, Foley, Gulf Shores, Fairhope and Orange Beach in the service-area list."
+    },
+    {
+      "name": "Coker Plumbing & Septic",
+      "website": "https://coker-plumbing-septic.com/",
+      "summary": "Residential septic pumping, repairs and drainfield replacement.",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://coker-plumbing-septic.com/",
+      "sourceVerifiedAt": "2026-11-02T18:17:01.227Z",
+      "evidenceNote": "Official site offers septic pumping, system repairs and drainfield replacement throughout Escambia and Santa Rosa counties, naming Pensacola, Gulf Breeze, Milton, Pace and Navarre. Perdido Key falls within the explicitly covered Escambia County."
+    },
+    {
+      "name": "Steven Boyett's Septic Service",
+      "website": "https://stevenbseptic.com/",
+      "summary": "Residential septic tank pumping, installation and repair.",
+      "regions": [
+        "pensacola-fl",
+        "gulf-breeze-fl",
+        "perdido-key-fl",
+        "milton-fl",
+        "navarre-fl",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://stevenbseptic.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official site provides residential septic tank installation, pumping and repairs. Its explicit service list names the five Baldwin County catalog cities plus Pensacola, Perdido Key, Gulf Breeze, Milton and Navarre. Existing business identity is retained."
+    },
+    {
+      "name": "McAdams Auto, Collision & Towing",
+      "website": "https://mcadamstowing.com/",
+      "summary": "Passenger-vehicle towing, roadside assistance and accident recovery.",
+      "regions": [
+        "pensacola-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al",
+        "biloxi-ms"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://mcadamstowing.com/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official towing site explicitly serves Mobile and Baldwin Counties and names Pensacola and Biloxi for vehicle towing and recovery. It identifies its connection to McAdams Auto & Collision; both domains represent one business, and distant drop-off-only markets are not added."
+    },
+    {
+      "name": "Pitts & Sons Towing and Recovery",
+      "website": "https://pittstowing.com/",
+      "summary": "Passenger-car towing and accident recovery.",
+      "regions": [
+        "pensacola-fl",
+        "perdido-key-fl",
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://pittstowing.com/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official website provides passenger-car towing and explicitly lists Mobile and Baldwin Counties, Alabama, plus Escambia County, Florida. Mississippi coverage is limited to Jackson County, so Biloxi and Gulfport are not inferred."
+    },
+    {
+      "name": "Pep Boys",
+      "website": "https://www.pepboys.com/",
+      "summary": "Consumer automotive repair and maintenance at local Pep Boys shops.",
+      "regions": [
+        "gulf-breeze-fl",
+        "pace-fl",
+        "milton-fl",
+        "foley-al",
+        "daphne-al",
+        "panama-city-beach-fl",
+        "biloxi-ms",
+        "montgomery-al",
+        "tallahassee-fl",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.pepboys.com/stores",
+      "sourceVerifiedAt": "2026-11-02T18:42:52.801Z",
+      "evidenceNote": "Official store directory names local Pep Boys shops in each selected city. Its consumer repair catalog offers brake repairs and mechanical maintenance for personal vehicles. Existing Auburn presence is preserved and multiple local branches count once."
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "website": "https://www.firestonecompleteautocare.com/",
+      "summary": "Consumer vehicle maintenance and mechanical repairs at local Firestone Complete Auto Care shops.",
+      "regions": [
+        "pace-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.firestonecompleteautocare.com/florida/",
+      "sourceVerifiedAt": "2026-11-02T18:40:50.399Z",
+      "evidenceNote": "Official state store locator explicitly lists the selected cities and advertises consumer engine, brake, suspension, air-conditioning and other mechanical repairs. Only listed local-shop cities are included; multiple branches count as one business per city."
+    },
+    {
+      "name": "Oilrun",
+      "website": "https://oilrunflorida.com/",
+      "summary": "Mobile car repairs at homes and workplaces in Pensacola and Pace.",
+      "regions": [
+        "pace-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://oilrunflorida.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official owner-run mobile auto repair site expressly limits its service area to Pensacola and Pace. It repairs customers' cars at home or work, including brakes, batteries, starters, alternators, air conditioning and cooling systems."
+    },
+    {
+      "name": "What's Up Docks",
+      "website": "https://www.whatsupdockspensacola.com/faqs",
+      "summary": "Residential docks, boat lifts and seawalls: construction, maintenance and repairs.",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.whatsupdockspensacola.com/faqs",
+      "sourceVerifiedAt": "2026-11-02T18:53:42.906Z",
+      "evidenceNote": "Official FAQ specifies residential dock, boat-lift and seawall construction/repairs and explicitly serves Escambia and Santa Rosa counties in Florida and Baldwin County in Alabama."
+    },
+    {
+      "name": "Gulf Exterior Worx",
+      "website": "https://gulfexteriorworx.com/",
+      "summary": "Custom residential screen enclosures.",
+      "regions": [
+        "pace-fl",
+        "milton-fl",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://gulfexteriorworx.com/screen-enclosures/",
+      "sourceVerifiedAt": "2026-11-02T18:45:40.741Z",
+      "evidenceNote": "Official screen-enclosure service page explicitly offers custom enclosures for homes and names Daphne, Fairhope, Pensacola, Gulf Breeze, Milton and Pace as service cities."
+    },
+    {
+      "name": "Sunshine State Home Inspections",
+      "website": "https://www.sunshinestatehomeinspections.com/",
+      "summary": "Residential home inspections; Central Florida-based company offering statewide service.",
+      "regions": [
+        "perdido-key-fl",
+        "grayton-beach-fl",
+        "panama-city-beach-fl",
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.sunshinestatehomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official homepage explicitly offers home inspection services throughout Florida, with a Central Florida focus. It details residential buyer inspections, new construction, four-point, wind mitigation and manufactured-home inspections, including reports on all major home systems."
+    },
+    {
+      "name": "Taylor's Wrecker & Towing",
+      "website": "https://www.taylorstowing.net/",
+      "summary": "Light and medium-duty vehicle towing and roadside recovery throughout Baldwin County.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.taylorstowing.net/towing-service",
+      "sourceVerifiedAt": "2026-11-02T18:42:52.801Z",
+      "evidenceNote": "Official towing page offers light and medium-duty vehicle towing for individual motorists and states that it hauls vehicles throughout Baldwin County. Bay Minette operator; distinct from Taylor's Towing in Panama City."
+    },
+    {
+      "name": "Wilson's Service Center",
+      "website": "https://www.wilsonsserviceandtire.com/",
+      "summary": "Light-duty vehicle towing and roadside recovery.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.wilsonsserviceandtire.com/towingrecovery",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official towing page explicitly provides light-duty towing and recovery throughout Baldwin County for vehicles of all makes and models, including breakdowns, accidents and winch-outs. The existing auto-shop identity is retained."
+    },
+    {
+      "name": "AAA-Inspections",
+      "website": "https://www.aaa-inspections.com/",
+      "summary": "Home inspections for buyers and homeowners across Central and Lower Alabama.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.aaa-inspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:41:37.826Z",
+      "evidenceNote": "Official homepage explicitly serves all of Central and Lower Alabama and offers home-buyer inspections of all major residential building components, including health and safety concerns."
+    },
+    {
+      "name": "Affordable Home Inspections",
+      "website": "https://affordable-home-inspections.com/",
+      "summary": "Existing-home, new-construction and pre-sale inspections.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://affordable-home-inspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official site explicitly serves Mobile and Baldwin Counties and identifies owner Harry Crump. Services include existing-home, new-construction and pre-sale residential inspections with detailed reports and photographs."
+    },
+    {
+      "name": "Complete Home Inspections LLC",
+      "website": "https://completehomeinspectionsllc.com/",
+      "summary": "Residential homebuyer inspections.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://completehomeinspectionsllc.com/",
+      "sourceVerifiedAt": "2026-11-02T18:18:03.037Z",
+      "evidenceNote": "Official homepage explicitly performs residential inspections in Mobile and Baldwin counties and describes buyer inspections of home structure and systems. The six selected cities lie within those counties."
+    },
+    {
+      "name": "FCS Home Inspection",
+      "website": "https://www.fcshomeinspection.com/",
+      "summary": "Residential home inspections with comprehensive property reports.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.fcshomeinspection.com/",
+      "sourceVerifiedAt": "2026-11-02T18:42:52.801Z",
+      "evidenceNote": "Official homepage offers complete inspections for buyers and sellers of homes and explicitly serves Baldwin and Mobile counties (also Escambia and Santa Rosa)."
+    },
+    {
+      "name": "Guiding Light Inspections",
+      "website": "https://guidinglightinspects.com/",
+      "summary": "Residential property inspections with detailed inspection reports.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://guidinglightinspects.com/",
+      "sourceVerifiedAt": "2026-11-02T18:41:37.826Z",
+      "evidenceNote": "Official homepage offers residential home inspections and detailed property reports, explicitly serving all of Mobile and Baldwin counties."
+    },
+    {
+      "name": "House Tech Home Inspections",
+      "website": "https://housetechhi.com/",
+      "summary": "Residential home inspections covering major building systems.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housetechhi.com/",
+      "sourceVerifiedAt": "2026-11-02T18:41:37.826Z",
+      "evidenceNote": "Official homepage offers comprehensive home inspections covering household HVAC, plumbing, electrical and roofing systems and explicitly serves Mobile and Baldwin counties."
+    },
+    {
+      "name": "Island Inspections",
+      "website": "https://www.islandspect.com/",
+      "summary": "Home and condominium inspections in southern Baldwin County.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.islandspect.com/",
+      "sourceVerifiedAt": "2026-11-02T18:42:52.801Z",
+      "evidenceNote": "Official homepage offers comprehensive home and condominium inspections and explicitly names Gulf Shores, Orange Beach and Foley as its service area."
+    },
+    {
+      "name": "Jim McDonough Home Inspections",
+      "website": "https://jimmcdonoughhomeinspections.com/",
+      "summary": "Residential home inspections.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://jimmcdonoughhomeinspections.com/contact.html",
+      "sourceVerifiedAt": "2026-11-02T18:17:01.227Z",
+      "evidenceNote": "Official contact page explicitly states coverage throughout Mobile and Baldwin counties for home inspections, including Mobile, Daphne and Fairhope. The selected coastal cities are all within those stated counties."
+    },
+    {
+      "name": "Newman Home Inspections",
+      "website": "https://www.newmanhomeinspectionsllc.com/",
+      "summary": "Residential home and new-construction inspections from a Weaver-based Alabama company.",
+      "regions": [
+        "orange-beach-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.newmanhomeinspectionsllc.com/about/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official about page explicitly says the Weaver-based company provides home inspection services throughout Alabama and western Georgia. Only Alabama catalog cities are included; Georgia licensing or nearby-city language is not treated as Atlanta coverage."
+    },
+    {
+      "name": "Shepherd's Call Inspections",
+      "website": "https://www.shepherdscallinspections.com/",
+      "summary": "Residential home inspections and pre-purchase property condition reports.",
+      "regions": [
+        "orange-beach-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.shepherdscallinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:43:24.091Z",
+      "evidenceNote": "Official homepage explicitly serves residential home buyers, sellers and owners in Mobile and Baldwin counties with complete structural and building-systems inspections. Distinct from Brandon George's Homeworx handyman company."
+    },
+    {
+      "name": "Superior Home Inspections",
+      "website": "https://www.thesuperiorhomeinspection.com/",
+      "summary": "Residential home inspections and property condition reports.",
+      "regions": [
+        "orange-beach-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.thesuperiorhomeinspection.com/contact.html",
+      "sourceVerifiedAt": "2026-11-02T18:41:37.826Z",
+      "evidenceNote": "Official contact page identifies Bubba Phillips and explicitly offers residential home inspections throughout Mobile and Baldwin counties."
+    },
+    {
+      "name": "P&C Septic Solutions",
+      "website": "https://pcsolutionllc.com/",
+      "summary": "Residential septic pumping, installation and repairs.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://pcsolutionllc.com/service-areas",
+      "sourceVerifiedAt": "2026-11-02T18:18:03.037Z",
+      "evidenceNote": "Official service-area page explicitly covers Mobile and Baldwin counties for septic pumping, installation and repair. Its services page separately confirms direct service for homeowners."
+    },
+    {
+      "name": "4th Shift Seamless Gutters",
+      "website": "https://4thshiftseamlessgutters.com/",
+      "summary": "Residential seamless gutters, repairs, guards and cleaning.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://4thshiftseamlessgutters.com/services",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official services page names Foley, Gulf Shores, Daphne, Fairhope and Orange Beach and describes residential gutter installation, repairs, cleaning and guards."
+    },
+    {
+      "name": "Advanced Metal Systems",
+      "website": "https://advancedmetalsys.com/",
+      "summary": "Residential gutters and custom pool and patio screen enclosures.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://advancedmetalsys.com/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official homepage expressly serves all Baldwin County homeowners with seamless gutters and pool and patio screen enclosures, naming Foley, Gulf Shores, Orange Beach, Fairhope and Daphne. Hurricane-rated enclosures are not treated as shutters."
+    },
+    {
+      "name": "B&B Roof and Gutter",
+      "website": "https://bbroofandgutter.com/",
+      "summary": "Residential gutter repairs, replacement and guard installation.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://bbroofandgutter.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website explicitly offers gutter repair and replacement throughout Baldwin and Mobile counties. Broader out-of-state roofing coverage is not applied to gutter placements."
+    },
+    {
+      "name": "Coastal Home Improvements",
+      "website": "https://coastalhomeimprovements.com/",
+      "summary": "Residential seamless gutters, screen rooms and concrete patios.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://coastalhomeimprovements.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website explicitly serves Mobile and Baldwin counties and offers custom residential gutters, screened rooms and concrete patios. Outdoor kitchens are not treated as interior kitchen remodeling."
+    },
+    {
+      "name": "Duncan Custom Gutter",
+      "website": "https://duncancustomgutter.com/",
+      "summary": "Residential gutter installation, repairs and guards.",
+      "regions": [
+        "orange-beach-al",
+        "foley-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://duncancustomgutter.com/service-area/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official service-area page extends gutter installation and repair into Baldwin County and explicitly names Foley and Orange Beach. Its Northwest Florida placements already have sufficient directory counts."
+    },
+    {
+      "name": "GulfBend Gutters",
+      "website": "https://www.gulfbendgutters.com/",
+      "summary": "Residential seamless gutters and custom screened porches.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.gulfbendgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website offers gutter installation and custom screened porches for homeowners, with service throughout Mobile and Baldwin County. It expressly names Mobile, Daphne, Fairhope, Orange Beach and Gulf Shores."
+    },
+    {
+      "name": "Adams Aluminum",
+      "website": "https://adamsaluminum.com/",
+      "summary": "Residential screen and glass swimming pool enclosures and enclosure repairs.",
+      "regions": [
+        "orange-beach-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "auburn-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://adamsaluminum.com/service-areas/alabama/",
+      "sourceVerifiedAt": "2026-11-02T19:01:07.506Z",
+      "evidenceNote": "Official Alabama service page explicitly states coverage encompasses the entire state of Alabama for custom swimming pool enclosures and existing enclosure repairs. Previously listed cities retained; only missing placements eligible."
+    },
+    {
+      "name": "Coastal Home Improvements",
+      "website": "https://coastalhomeimprovements.com/",
+      "summary": "Residential seamless gutters, screen rooms and concrete patios.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://coastalhomeimprovements.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website explicitly serves Mobile and Baldwin counties and offers custom residential gutters, screened rooms and concrete patios. Outdoor kitchens are not treated as interior kitchen remodeling."
+    },
+    {
+      "name": "GulfBend Gutters",
+      "website": "https://www.gulfbendgutters.com/",
+      "summary": "Residential seamless gutters and custom screened porches.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.gulfbendgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website offers gutter installation and custom screened porches for homeowners, with service throughout Mobile and Baldwin County. It expressly names Mobile, Daphne, Fairhope, Orange Beach and Gulf Shores."
+    },
+    {
+      "name": "Lanius Gutters LLC",
+      "website": "https://laniusgutters.com/",
+      "summary": "Home gutter installation and repairs, plus screened porch construction and repair.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://laniusgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official family-owned Bay Minette business describes residential seamless gutter installation, repair and cleaning, plus aluminum and wood screened porches and screen repairs. It explicitly serves Baldwin County; surrounding-area wording is not extended beyond that county."
+    },
+    {
+      "name": "Coastal Ready Auto Repair",
+      "website": "https://www.coastalreadyauto.com/",
+      "summary": "Mobile car diagnostics, brake repair, maintenance and air-conditioning service.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.coastalreadyauto.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official mobile mechanic site explicitly serves Baldwin and Mobile Counties, naming Mobile, Daphne, Foley, Gulf Shores and Orange Beach. It offers car diagnostics, brakes, batteries, air conditioning and maintenance at the customer's location."
+    },
+    {
+      "name": "Mobile Vehicle Service LLC",
+      "website": "https://mechanic.mobilevehicleservicellc.com/",
+      "summary": "Mobile car diagnostics, maintenance and repair.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://mechanic.mobilevehicleservicellc.com/our-services/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official consumer service page provides mobile car repairs across Mobile and Baldwin counties, including brakes, batteries, diagnostics and air conditioning. This is the consumer division of Mobile Vehicle Service LLC."
+    },
+    {
+      "name": "Smith Landscaping Solutions",
+      "website": "https://smithlandscapingsolutions.com/",
+      "summary": "Residential irrigation installation and repair, plus privacy fencing.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://smithlandscapingsolutions.com/",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official site explicitly serves all Mobile and Baldwin counties, offering irrigation repairs and new systems along with privacy fence installation. These services are described for residential properties."
+    },
+    {
+      "name": "Superior Scapes",
+      "website": "https://superiorscapesgulfcoast.com/",
+      "summary": "Lawn sprinkler installation and repairs for residential yards.",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://superiorscapesgulfcoast.com/irrigation-sprinkler-repair/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official irrigation page covers Mobile and Baldwin Counties and offers new Rain Bird systems, drip irrigation and repairs to existing sprinklers. The homepage documents residential front-yard and fenced-backyard projects and identifies owner James Scogin."
+    },
+    {
+      "name": "Mavis Tire Family",
+      "website": "https://www.mavis.com/",
+      "summary": "Consumer automotive repair through local Mavis and Tire Kingdom shops; this group is counted as one business per city.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "daphne-al",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.mavis.com/locations/all-stores/",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official store directory lists local Mavis or Tire Kingdom shops in each selected city. The services catalog offers consumer brake, suspension, exhaust and car air-conditioning repair. Mavis-family brands are counted once per city; areas already represented by Tuffy are excluded."
+    },
+    {
+      "name": "Auto Medic Wrecker & Towing",
+      "website": "https://automedicwrecker.com/",
+      "summary": "Light- and medium-duty towing and accident recovery.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://automedicwrecker.com/services/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official service page covers south-central Baldwin County for light- and medium-duty towing, with a Foley location. Only Foley and the two southern beach cities are included; the area is not extended to Mobile or the Eastern Shore."
+    },
+    {
+      "name": "Builtright Home Inspections",
+      "website": "https://www.builtrighthomeinspections.com/",
+      "summary": "Residential home inspections.",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.builtrighthomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:18:03.037Z",
+      "evidenceNote": "Official website identifies Gulf Shores, Alabama, and offers inspection of house systems under residential home inspection standards. No wider service area is inferred."
+    },
+    {
+      "name": "Gulfside Home Inspections",
+      "website": "https://gulfsidehomeinspections.com/",
+      "summary": "Homebuyer and pre-listing residential inspections.",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://gulfsidehomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:17:01.227Z",
+      "evidenceNote": "Official website identifies Gulf Shores as its location and describes buyer and pre-listing home inspections. Licenses in two states are not used to infer additional city coverage."
+    },
+    {
+      "name": "Advanced Metal Systems",
+      "website": "https://advancedmetalsys.com/",
+      "summary": "Residential gutters and custom pool and patio screen enclosures.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://advancedmetalsys.com/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official homepage expressly serves all Baldwin County homeowners with seamless gutters and pool and patio screen enclosures, naming Foley, Gulf Shores, Orange Beach, Fairhope and Daphne. Hurricane-rated enclosures are not treated as shutters."
+    },
+    {
+      "name": "Backyard Paradise",
+      "website": "https://backyardparadise.biz/",
+      "summary": "Residential pool enclosures and screened outdoor rooms.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://backyardparadise.biz/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official company site offers custom pool enclosures, screen rooms and screened walls for backyards and provides dedicated Mobile County and Baldwin County service contacts. Residential outdoor-living installations are the stated focus."
+    },
+    {
+      "name": "Custom Sunrooms & Siding",
+      "website": "https://customsunroomsandsiding.com/",
+      "summary": "Residential screen room and sunroom construction.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://customsunroomsandsiding.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official homepage explicitly serves both Mobile and Baldwin Counties with custom screen rooms and sunrooms. Its residential porch project descriptions and home-remodeling focus establish homeowner work."
+    },
+    {
+      "name": "Premier Patio and Screen",
+      "website": "https://premierpatioandscreen.com/",
+      "summary": "Residential screen rooms, pool enclosures and hurricane shutters.",
+      "regions": [
+        "gulf-shores-al",
+        "daphne-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://premierpatioandscreen.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official locally owned contractor page offers residential screen rooms, pool enclosures and hurricane shutters. Its explicit service list includes Gulfport, Biloxi, New Orleans, Mobile, Gulf Shores, Daphne and Pensacola; other cities are not inferred from Gulf Coast language."
+    },
+    {
+      "name": "Southern Patio & Screens",
+      "website": "https://www.southernpatioandscreen.com/",
+      "summary": "Custom screened porches and residential screen rooms.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.southernpatioandscreen.com/screen-rooms.html",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official page describes custom residential screen rooms and enclosing existing home porches, explicitly serving homeowners throughout Baldwin County from the Summerdale showroom."
+    },
+    {
+      "name": "Dees Marine",
+      "website": "https://www.dees-marine.com/",
+      "summary": "Mobile recreational-boat repairs, outboard maintenance and marine electronics installation.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.dees-marine.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website offers mobile marine maintenance, outboard repair and electronics installation throughout Baldwin County, naming Gulf Shores, Orange Beach, Fairhope, Daphne and Foley."
+    },
+    {
+      "name": "Make Wake Marine",
+      "website": "https://makewake.org/",
+      "summary": "Boat repair and maintenance at its Fairhope facility; selected mobile repairs and transport available.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://makewake.org/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official site identifies its Fairhope boat-repair facility and expressly serves boat owners in Fairhope, Daphne, Foley, Gulf Shores and Orange Beach. Pickup/delivery and selected minor mobile repairs are available."
+    },
+    {
+      "name": "Simple Marine",
+      "website": "https://www.simplemarineservices.com/outboard-service",
+      "summary": "Mobile outboard maintenance and boat service at the owner's lift.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.simplemarineservices.com/outboard-service",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official outboard service page explicitly offers mobile boat and engine maintenance throughout Baldwin County and describes work at the owner's boat lift. The working service page is used as the listing website."
+    },
+    {
+      "name": "Crash Champions",
+      "website": "https://crashchampions.com/",
+      "summary": "Collision, auto-body and paint repair for personal vehicles.",
+      "regions": [
+        "gulf-shores-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://crashchampions.com/locations/alabama",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.279Z",
+      "evidenceNote": "Official Alabama locator identifies operating collision centers in Fairhope, Daphne and Gulf Shores, offering personal vehicle body, structural and paint repairs with customer appointments."
+    },
+    {
+      "name": "Lanius Gutters LLC",
+      "website": "https://laniusgutters.com/",
+      "summary": "Home gutter installation and repairs, plus screened porch construction and repair.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://laniusgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official family-owned Bay Minette business describes residential seamless gutter installation, repair and cleaning, plus aluminum and wood screened porches and screen repairs. It explicitly serves Baldwin County; surrounding-area wording is not extended beyond that county."
+    },
+    {
+      "name": "Southern Gutters LLC",
+      "website": "https://www.southerngutterguys.com/",
+      "summary": "Residential seamless gutter installation, repair, guards and cleaning.",
+      "regions": [
+        "gulf-shores-al",
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.southerngutterguys.com/residential-seamless-gutter-installation",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official residential gutter page lists Mobile, Daphne, Foley, Gulf Shores, Biloxi, Gulfport, Pensacola and Pace. It offers installation, repairs, guards and cleaning for houses."
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "summary": "Custom residential aluminum fences and railings.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.precisionalum.com/reliable-railing-fencing/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official service page offers designed and installed custom aluminum fencing and railings for residential properties throughout its Gulf Coast region. Only the Foley-based company's Mobile and Baldwin County markets are included for this narrower service."
+    },
+    {
+      "name": "Smith Landscaping Solutions",
+      "website": "https://smithlandscapingsolutions.com/",
+      "summary": "Residential irrigation installation and repair, plus privacy fencing.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://smithlandscapingsolutions.com/",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official site explicitly serves all Mobile and Baldwin counties, offering irrigation repairs and new systems along with privacy fence installation. These services are described for residential properties."
+    },
+    {
+      "name": "Affordable Home Generators",
+      "website": "https://ahg.generacdealers.com/",
+      "summary": "Home standby generator installation, maintenance and repair.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://ahg.generacdealers.com/about-us",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official Generac dealer page identifies Ace Communications & Electrical LLC doing business as Affordable Home Generators and offers home generator installation across Mobile and Baldwin County. These names represent one business."
+    },
+    {
+      "name": "Clark Gas Company",
+      "website": "https://clarkexchange.generacdealers.com/mirror",
+      "summary": "Home standby generator installation and related fuel connections.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "grayton-beach-fl",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "tallahassee-fl",
+        "auburn-al",
+        "new-orleans-la",
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://clarkexchange.generacdealers.com/mirror",
+      "sourceVerifiedAt": "2026-11-02T18:15:47.570Z",
+      "evidenceNote": "Company's official Generac dealer page lists Alabama, Mississippi, Georgia, Florida and the New Orleans area, and describes complete home backup generator installation including site preparation, fuel line and electrical connections."
+    },
+    {
+      "name": "Danco Services Inc.",
+      "website": "https://www.dancoservicesal.com/",
+      "summary": "Home standby generator installation and maintenance.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.dancoservicesal.com/generator-install-and-repair",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official service page offers generator installation and maintenance in Mobile and Baldwin counties. The homepage specifically identifies home generators and local residential customers."
+    },
+    {
+      "name": "Easy Heating & Cooling",
+      "website": "https://easyheatingcooling.com/",
+      "summary": "Whole-home generator installation.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://easyheatingcooling.com/service/generac-whole-home-generators/",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official page offers sale and installation of whole-home generators and explicitly names Mobile, Daphne, Fairhope, Foley, Gulf Shores and Orange Beach in its service territory."
+    },
+    {
+      "name": "Gulf Shores Electrical",
+      "website": "https://gulfshoreselectrical.com/",
+      "summary": "Whole-home standby generator installation and repairs.",
+      "regions": [
+        "gulf-shores-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://gulfshoreselectrical.com/generators",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official generator page offers whole-home standby generator installation throughout Baldwin County. The Baldwin County Generators about page identifies that name as a division/DBA of Gulf Shores Electrical, so the existing parent domain is retained as one business identity."
+    },
+    {
+      "name": "Islander Generator",
+      "website": "https://www.islandergenerator.com/",
+      "summary": "Residential standby generator installation and service.",
+      "regions": [
+        "gulf-shores-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.islandergenerator.com/",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official Foley-based business explicitly provides residential generator installation, repairs and maintenance from Fort Morgan to Pensacola and the Eastern Shore, naming Foley, Gulf Shores, Orange Beach, Daphne and Fairhope."
+    },
+    {
+      "name": "Elemental Exteriors",
+      "website": "https://www.elementalexteriors.com/",
+      "summary": "Home hurricane shutters and protective fabric systems.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.elementalexteriors.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official site identifies residential hurricane roll-down shutters and hurricane fabric installation across Mobile and Baldwin Counties, with all six catalog cities named in its service list."
+    },
+    {
+      "name": "Folkers Window Company",
+      "website": "https://folkers.com/",
+      "summary": "Residential hurricane windows and shutters, and kitchen and bathroom remodeling.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://folkers.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official service page explicitly covers homeowners throughout Escambia, Santa Rosa, Okaloosa and Walton FL counties and Mobile/Baldwin AL counties. It offers hurricane windows/shutters and confirms sister kitchen/bath team serves the same area. Folkers Kitchen Bath is retained as one identity."
+    },
+    {
+      "name": "Preferred Builder Resources",
+      "website": "https://www.pbrgulfcoast.com/",
+      "summary": "Residential hurricane fabric and storm-shutter installation.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.pbrgulfcoast.com/service-category/window-protection-services/",
+      "sourceVerifiedAt": "2026-11-02T19:03:53.247Z",
+      "evidenceNote": "Official service page offers installed hurricane fabric and impact-rated Bahama/Colonial shutters, explicitly naming Mobile, Baldwin County and the Mississippi Gulf Coast as its local service region. Only documented catalog coverage selected."
+    },
+    {
+      "name": "Premier Patio and Screen",
+      "website": "https://premierpatioandscreen.com/",
+      "summary": "Residential screen rooms, pool enclosures and hurricane shutters.",
+      "regions": [
+        "gulf-shores-al",
+        "daphne-al",
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://premierpatioandscreen.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official locally owned contractor page offers residential screen rooms, pool enclosures and hurricane shutters. Its explicit service list includes Gulfport, Biloxi, New Orleans, Mobile, Gulf Shores, Daphne and Pensacola; other cities are not inferred from Gulf Coast language."
+    },
+    {
+      "name": "Bama Pools Inc.",
+      "website": "https://www.bamapoolsinc.com/",
+      "summary": "Backyard pool construction, renovations and repairs.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.bamapoolsinc.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official family-owned business site expressly serves Mobile and Baldwin Counties with new backyard pools, renovations and pool repairs, inviting homeowners to create a pool at their home."
+    },
+    {
+      "name": "Bluefin Contracting & Design",
+      "website": "https://bluefincd.com/",
+      "summary": "Custom residential fiberglass and gunite pool installation.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://mypoolsource.com/residential-pools/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Bluefin's official residential-pool page explicitly covers Mobile and Baldwin Counties. Its existing bluefincd.com site links to mypoolsource.com as the same business; retain the canonical domain to avoid a duplicate identity."
+    },
+    {
+      "name": "Poolmaster Services",
+      "website": "https://www.poolmasterservicesinc.com/",
+      "summary": "Residential pool construction, repairs and maintenance.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.poolmasterservicesinc.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official site explicitly serves Mobile and Baldwin Counties for residential pools, including new gunite and vinyl construction, renovation, repairs, routine maintenance and seasonal service."
+    },
+    {
+      "name": "Pools and Paradise",
+      "website": "https://poolsandparadise.net/",
+      "summary": "Residential pool installation, renovation, maintenance and repairs.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://poolsandparadise.net/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official homepage states pool design and installation throughout Mobile and Baldwin Counties, serving private backyards as well as commercial sites. Listed services include pool renovation, maintenance and repairs."
+    },
+    {
+      "name": "Divine Pools",
+      "website": "https://thedivinepools.com/contact/",
+      "summary": "Custom residential gunite and vinyl pool construction.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://thedivinepools.com/contact/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Working official contact page offers custom backyard gunite and vinyl pool construction for homeowners throughout Mobile and Baldwin Counties. Existing domain identity retained; the accessible contact page is used as the website."
+    },
+    {
+      "name": "Coastal Tree Services",
+      "website": "https://www.coastaltreeservicesfl.com/",
+      "summary": "Residential tree removal and stump grinding.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.coastaltreeservicesfl.com/tree-removal",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official tree-removal page covers Escambia, Santa Rosa and Baldwin counties, naming Pensacola, Gulf Breeze and Foley. It offers removal and stump grinding for residential yards."
+    },
+    {
+      "name": "Hel-Co Tree Services",
+      "website": "https://hel-co.com/",
+      "summary": "Residential tree removal, trimming and stump removal.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://hel-co.com/",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official website identifies an Orange Beach base and tree removal, trimming and stump work throughout Baldwin County, directly addressing homeowners."
+    },
+    {
+      "name": "Styx's Tractor & Tree Service",
+      "website": "https://www.styxstreeservice.net/",
+      "summary": "Residential tree removal, trimming and stump grinding.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.styxstreeservice.net/tree-removal.html",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official tree-removal page explicitly serves all Baldwin County and offers residential removal, trimming and stump work. It names Daphne, Fairhope and Foley among the core communities."
+    },
+    {
+      "name": "Trees and Concrete",
+      "website": "https://treesandconcrete.com/",
+      "summary": "Residential tree service, storm cleanup and concrete work.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://treesandconcrete.com/",
+      "sourceVerifiedAt": "2026-11-02T18:20:25.161Z",
+      "evidenceNote": "Official homepage offers tree removal, trimming, stump grinding and concrete work for homeowners throughout Mobile and Baldwin County. The residential and commercial scope is explicitly stated."
+    },
+    {
+      "name": "7 Kitchen & Bath",
+      "website": "https://7kitchenandbath.com/",
+      "summary": "Kitchen and bathroom remodeling and countertop installation.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://7kitchenandbath.com/",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official company site provides kitchen and bathroom remodels, countertop fabrication and installation, and sink installations, with named service pages for Fairhope, Foley, Orange Beach and Gulf Shores."
+    },
+    {
+      "name": "Burks Remodeling",
+      "website": "https://burksremodel.com/",
+      "summary": "Kitchen and bathroom renovations, cabinets and countertops.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://burksremodel.com/",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official website offers kitchen and bathroom remodeling to homeowners throughout Mobile and Baldwin County, including cabinet refacing, countertop installation and complete room renovations."
+    },
+    {
+      "name": "Folkers Window Company",
+      "website": "https://folkers.com/",
+      "summary": "Residential hurricane windows and shutters, and kitchen and bathroom remodeling.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://folkers.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official service page explicitly covers homeowners throughout Escambia, Santa Rosa, Okaloosa and Walton FL counties and Mobile/Baldwin AL counties. It offers hurricane windows/shutters and confirms sister kitchen/bath team serves the same area. Folkers Kitchen Bath is retained as one identity."
+    },
+    {
+      "name": "Green Coast Living",
+      "website": "https://greencoastliving.com/",
+      "summary": "Residential kitchen and bathroom remodeling.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://greencoastliving.com/",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official company homepage explicitly serves Baldwin County and offers homeowner kitchen and bathroom updates, larger renovations and additions. It names Gulf Shores, Orange Beach, Fairhope and Daphne, and identifies owner Lance Lamb."
+    },
+    {
+      "name": "All Service Painting & Construction Inc.",
+      "website": "https://www.mobilealpaintingandconstruction.com/",
+      "summary": "Residential kitchen and bathroom renovations.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.mobilealpaintingandconstruction.com/",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official family-owned contractor website offers residential kitchen and bathroom renovations and explicitly states service in Mobile and Baldwin County. Its home-builder license and two-generation remodeling business are identified."
+    },
+    {
+      "name": "Alabama Poolworks",
+      "website": "https://www.alabamapoolworks.com/",
+      "summary": "Residential pool maintenance, equipment repairs and liner replacement.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.alabamapoolworks.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official pool maintenance company names Mobile, Fairhope, Daphne, Foley, Gulf Shores and Orange Beach in its service area. It maintains homeowners' pools and repairs pumps, filters, lights, heaters and automation. Partner-built new pools are not included."
+    },
+    {
+      "name": "Bama Pools Inc.",
+      "website": "https://www.bamapoolsinc.com/",
+      "summary": "Backyard pool construction, renovations and repairs.",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bamapoolsinc.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official family-owned business site expressly serves Mobile and Baldwin Counties with new backyard pools, renovations and pool repairs, inviting homeowners to create a pool at their home."
+    },
+    {
+      "name": "Poolmaster Services",
+      "website": "https://www.poolmasterservicesinc.com/",
+      "summary": "Residential pool construction, repairs and maintenance.",
+      "regions": [
+        "gulf-shores-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.poolmasterservicesinc.com/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official site explicitly serves Mobile and Baldwin Counties for residential pools, including new gunite and vinyl construction, renovation, repairs, routine maintenance and seasonal service."
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "website": "https://www.firestonecompleteautocare.com/",
+      "summary": "Consumer vehicle maintenance and mechanical repairs at local Firestone Complete Auto Care shops.",
+      "regions": [
+        "foley-al",
+        "daphne-al",
+        "mobile-al",
+        "dothan-al",
+        "montgomery-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.firestonecompleteautocare.com/alabama/",
+      "sourceVerifiedAt": "2026-11-02T18:40:50.399Z",
+      "evidenceNote": "Official state store locator explicitly lists the selected cities and advertises consumer engine, brake, suspension, air-conditioning and other mechanical repairs. Only listed local-shop cities are included; multiple branches count as one business per city."
+    },
+    {
+      "name": "Jiffy Lube",
+      "website": "https://www.jiffylube.com/",
+      "summary": "Consumer vehicle maintenance and repair at local Multicare centers; services vary by location.",
+      "regions": [
+        "foley-al",
+        "dothan-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.jiffylube.com/locations/location-directory/al",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.279Z",
+      "evidenceNote": "Official state directory lists a local Multicare center in each selected city. Multicare locations provide consumer vehicle maintenance and repair, including brake services, rather than only retail parts sales."
+    },
+    {
+      "name": "Southern Gutter Solutions",
+      "website": "https://yoursouthernguttersolutions.com/",
+      "summary": "Residential gutter installation, repairs, cleaning and guards.",
+      "regions": [
+        "fairhope-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://yoursouthernguttersolutions.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website offers seamless gutter installation, repair, cleaning and maintenance in Daphne and throughout Baldwin County, explicitly serving residential homes."
+    },
+    {
+      "name": "Mako Services LLC",
+      "website": "https://www.makoservicesal.com/",
+      "summary": "Home kitchen and bathroom remodeling.",
+      "regions": [
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.makoservicesal.com/",
+      "sourceVerifiedAt": "2026-11-02T18:29:20.194Z",
+      "evidenceNote": "Official homepage specifically names Mobile, Daphne and Fairhope and describes homeowner kitchen and bathroom remodeling and complete home renovations. Vague surrounding-area language is not extended to additional cities."
+    },
+    {
+      "name": "Pools and Paradise",
+      "website": "https://poolsandparadise.net/",
+      "summary": "Residential pool installation, renovation, maintenance and repairs.",
+      "regions": [
+        "daphne-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://poolsandparadise.net/",
+      "sourceVerifiedAt": "2026-11-02T18:27:37.050Z",
+      "evidenceNote": "Official homepage states pool design and installation throughout Mobile and Baldwin Counties, serving private backyards as well as commercial sites. Listed services include pool renovation, maintenance and repairs."
+    },
+    {
+      "name": "Allen's Tow Service",
+      "website": "https://allenstowservice.com/",
+      "summary": "Personal-vehicle towing and roadside assistance along 30A.",
+      "regions": [
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://allenstowservice.com/",
+      "sourceVerifiedAt": "2026-11-02T18:53:42.906Z",
+      "evidenceNote": "Official operator website explicitly offers personal car/SUV towing throughout the 30A communities, alongside Destin, Fort Walton Beach and Panama City Beach; Grayton Beach is on that named 30A service corridor."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "grayton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/DESTIN-FL",
+      "sourceVerifiedAt": "2026-11-02T19:01:07.506Z",
+      "evidenceNote": "Official Destin office explicitly serves Destin, Crestview, Fort Walton Beach, Milton, Navarre, Panama City Beach and the 30A corridor including Grayton Beach. Panama City is not inferred from Panama City Beach."
+    },
+    {
+      "name": "Gibby's Towing",
+      "website": "https://gibbystowservices.com/",
+      "summary": "Vehicle towing, breakdown recovery and roadside assistance in Mobile.",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://gibbystowservices.com/",
+      "sourceVerifiedAt": "2026-11-02T18:31:34.077Z",
+      "evidenceNote": "Official towing company website gives a Mobile address and explicitly covers Mobile County for passenger-vehicle towing and roadside assistance. Distant cities listed only as transport destinations are not added as local coverage."
+    },
+    {
+      "name": "Shepard's Plumbing and Septic",
+      "website": "https://shepardsplumbing.com/",
+      "summary": "Residential septic pumping, inspections and installation.",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://shepardsplumbing.com/",
+      "sourceVerifiedAt": "2026-11-02T18:19:20.245Z",
+      "evidenceNote": "Official website offers residential septic pumping, inspection and installation. Its service imagery explicitly identifies home septic projects in Mobile County, Alabama, and Mobile plumbing work."
+    },
+    {
+      "name": "AmeriSpec Inspection Services",
+      "website": "https://www.amerispec.com/",
+      "summary": "Residential home inspections for buyers and sellers through the local AmeriSpec office.",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.amerispec.com/locations/al/mobile",
+      "sourceVerifiedAt": "2026-11-02T18:45:02.241Z",
+      "evidenceNote": "Official local AmeriSpec office page explicitly offers general home inspections for residential buyers and sellers in the selected service cities. Local office coverage is used; national presence is not treated as statewide availability."
+    },
+    {
+      "name": "Caliber Collision",
+      "website": "https://www.caliber.com/",
+      "summary": "Collision and auto body repair for consumer cars and trucks at local Caliber centers.",
+      "regions": [
+        "mobile-al",
+        "montgomery-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.caliber.com/locations/al",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official state page explicitly names these cities as locations of its consumer collision repair centers, offering repair of drivers' accident-damaged cars and trucks. Only named cities are included, not inferred statewide coverage."
+    },
+    {
+      "name": "Direct Source Renovations",
+      "website": "https://directsourceweb.com/",
+      "summary": "Residential gutter installation, repair and replacement.",
+      "regions": [
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://directsourceweb.com/gutters-direct-source-renovations/",
+      "sourceVerifiedAt": "2026-11-02T18:47:17.883Z",
+      "evidenceNote": "Official service page offers residential gutter installation, repairs and replacement and explicitly lists the selected Louisiana, Mississippi and Alabama cities in its service area."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/alabama/mobile/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: mobile-al, biloxi-ms, gulfport-ms. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Leafguard",
+      "website": "https://www.leafguard.com/",
+      "summary": "Residential seamless gutter and integrated gutter-guard installation.",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leafguard.com/locations/leafguard-mobile",
+      "sourceVerifiedAt": "2026-11-02T19:08:12.996Z",
+      "evidenceNote": "Official Mobile office provides residential gutter installation and its address at 4960 Rangeline Road, Mobile. Additional MS/LA licenses are not used as service coverage."
+    },
+    {
+      "name": "Direct Source Renovations",
+      "website": "https://directsourceweb.com/",
+      "summary": "Residential hurricane-shutter installation.",
+      "regions": [
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://directsourceweb.com/hurricane-shutter-direct-source-renovations/",
+      "sourceVerifiedAt": "2026-11-02T18:47:17.883Z",
+      "evidenceNote": "Official hurricane-shutter page offers professional residential storm-shutter installation; the company homepage explicitly lists each selected Louisiana, Mississippi and Alabama city as served."
+    },
+    {
+      "name": "Fortified Contractor",
+      "website": "https://www.fortifiedcontractor.com/",
+      "summary": "Residential kitchen remodeling, patio screen rooms and hurricane-shutter installation.",
+      "regions": [
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.fortifiedcontractor.com/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official residential contractor website lists kitchen cabinets/remodeling, patio screen rooms and professionally installed hurricane shutters. Its published Gulf Coast service-city list explicitly includes all selected cities."
+    },
+    {
+      "name": "GC Specialties",
+      "website": "https://www.gcsinc.com/",
+      "summary": "Residential hurricane-shutter supply and installation.",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.gcsinc.com/services/hurricane-protection",
+      "sourceVerifiedAt": "2026-11-02T19:16:30.265Z",
+      "evidenceNote": "Official hurricane-protection service explicitly includes residential shutters; Mobile office is listed at 2735 Mauvilla Drive. Company about page confirms its team handles product sales through installation."
+    },
+    {
+      "name": "Direct Source Renovations",
+      "website": "https://directsourceweb.com/",
+      "summary": "Residential screen-room design and installation.",
+      "regions": [
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "new-orleans-la",
+        "baton-rouge-la",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://directsourceweb.com/screen-rooms-direct-source-renovations/",
+      "sourceVerifiedAt": "2026-11-02T18:47:17.883Z",
+      "evidenceNote": "Official screen-room page offers enclosures designed for homeowners; the company homepage explicitly lists each selected Louisiana, Mississippi and Alabama city as served."
+    },
+    {
+      "name": "Fortified Contractor",
+      "website": "https://www.fortifiedcontractor.com/",
+      "summary": "Residential kitchen remodeling, patio screen rooms and hurricane-shutter installation.",
+      "regions": [
+        "mobile-al",
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.fortifiedcontractor.com/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official residential contractor website lists kitchen cabinets/remodeling, patio screen rooms and professionally installed hurricane shutters. Its published Gulf Coast service-city list explicitly includes all selected cities."
+    },
+    {
+      "name": "Slidell Shutters and Security",
+      "website": "https://www.slidellshuttersandsecurity.com/about",
+      "summary": "Residential hurricane shutters and impact-window protection.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.slidellshuttersandsecurity.com/about",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official About page explicitly offers residential hurricane shutters and impact-window protection in New Orleans and the Mississippi Gulf Coast; named service links confirm Biloxi and Gulfport."
+    },
+    {
+      "name": "Southern Home Improvement Center",
+      "website": "https://southernhomeimprovement.com/",
+      "summary": "Residential gutters, screened rooms and impact-resistant windows.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://southernhomeimprovement.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official homeowner contractor site explicitly serves New Orleans, Baton Rouge, Biloxi and Gulfport, offering gutters and screen rooms. Its linked impact-resistant-window service page confirms hurricane-rated window installation; ordinary replacement windows are not the sole basis for the category."
+    },
+    {
+      "name": "The Shutter House",
+      "website": "https://theshutterhouse.com/biloxi/",
+      "summary": "Residential hurricane-shutter measurement and installation.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://theshutterhouse.com/biloxi/service-areas/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official Biloxi franchise service-area page expressly covers Biloxi and Gulfport and supplies installed hurricane-protection shutters, in addition to interior window treatments."
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "website": "https://www.firestonecompleteautocare.com/",
+      "summary": "Consumer vehicle maintenance and mechanical repairs at local Firestone Complete Auto Care shops.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.firestonecompleteautocare.com/mississippi/",
+      "sourceVerifiedAt": "2026-11-02T18:40:50.399Z",
+      "evidenceNote": "Official state store locator explicitly lists the selected cities and advertises consumer engine, brake, suspension, air-conditioning and other mechanical repairs. Only listed local-shop cities are included; multiple branches count as one business per city."
+    },
+    {
+      "name": "WIN Home Inspection",
+      "website": "https://wini.com/",
+      "summary": "Residential home inspections through the local WIN Gulfport office.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://wini.com/gulfport/",
+      "sourceVerifiedAt": "2026-11-02T18:45:40.741Z",
+      "evidenceNote": "Official Gulfport office page explicitly offers full residential home inspections to buyers, sellers and homeowners in both Gulfport and Biloxi."
+    },
+    {
+      "name": "Fortified Contractor",
+      "website": "https://www.fortifiedcontractor.com/",
+      "summary": "Residential kitchen remodeling, patio screen rooms and hurricane-shutter installation.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.fortifiedcontractor.com/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official residential contractor website lists kitchen cabinets/remodeling, patio screen rooms and professionally installed hurricane shutters. Its published Gulf Coast service-city list explicitly includes all selected cities."
+    },
+    {
+      "name": "Renuity",
+      "website": "https://renuityhome.com/mississippi/biloxi-ms/",
+      "summary": "Residential bathroom renovation, shower and bathtub replacement.",
+      "regions": [
+        "biloxi-ms"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://renuityhome.com/mississippi/biloxi-ms/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official biloxi location page explicitly offers residential bath renovation, including replacement tubs/showers and accessibility upgrades for local homeowners."
+    },
+    {
+      "name": "Southern Home Improvement Center",
+      "website": "https://southernhomeimprovement.com/",
+      "summary": "Residential gutters, screened rooms and impact-resistant windows.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://southernhomeimprovement.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official homeowner contractor site explicitly serves New Orleans, Baton Rouge, Biloxi and Gulfport, offering gutters and screen rooms. Its linked impact-resistant-window service page confirms hurricane-rated window installation; ordinary replacement windows are not the sole basis for the category."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "summary": "Residential backup generator installation and transfer-switch wiring through the local Mr. Electric office.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/gulfport",
+      "sourceVerifiedAt": "2026-11-02T18:43:38.568Z",
+      "evidenceNote": "Official Gulfport office page explicitly offers residential generator installations and transfer-switch wiring throughout Harrison County, naming Gulfport and Biloxi as service cities."
+    },
+    {
+      "name": "Ready Power USA",
+      "website": "https://readypowerusa.com/",
+      "summary": "Residential standby generator installation, maintenance and repair.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://readypowerusa.com/",
+      "sourceVerifiedAt": "2026-11-02T19:15:31.569Z",
+      "evidenceNote": "Official service-area list explicitly names all selected cities in Louisiana, Mississippi and Alabama. Company offers in-house residential generator design, permitting, installation and maintenance; other licensed states are not treated as coverage."
+    },
+    {
+      "name": "Rusco Electric",
+      "website": "https://ruscoelectric.com/",
+      "summary": "Residential backup generator installation.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://ruscoelectric.com/",
+      "sourceVerifiedAt": "2026-11-02T18:43:24.091Z",
+      "evidenceNote": "Official homepage advertises residential electrical services and generator installations, explicitly serving Biloxi and Gulfport on the Mississippi Gulf Coast."
+    },
+    {
+      "name": "DND Towing & Recovery",
+      "website": "https://dndtowingms.com/",
+      "summary": "Personal-vehicle towing and roadside assistance.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://dndtowingms.com/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official family-operated towing website explicitly lists Gulfport and Biloxi in its service areas and offers personal car emergency towing and roadside assistance."
+    },
+    {
+      "name": "Southern Home Improvement Center",
+      "website": "https://southernhomeimprovement.com/",
+      "summary": "Residential gutters, screened rooms and impact-resistant windows.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://southernhomeimprovement.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official homeowner contractor site explicitly serves New Orleans, Baton Rouge, Biloxi and Gulfport, offering gutters and screen rooms. Its linked impact-resistant-window service page confirms hurricane-rated window installation; ordinary replacement windows are not the sole basis for the category."
+    },
+    {
+      "name": "Jay's Appliance Repair",
+      "website": "https://jaysappl.net/",
+      "summary": "In-home repair of major household appliances.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://jaysappl.net/",
+      "sourceVerifiedAt": "2026-11-02T18:43:24.091Z",
+      "evidenceNote": "Official homepage explicitly provides in-home repair of refrigerators, washers, dryers, ovens and dishwashers in Biloxi and Gulfport, with owner-operated household service."
+    },
+    {
+      "name": "A Plus Patio & Screen",
+      "website": "https://apluspatioandscreens.com/",
+      "summary": "Residential screen rooms, pool enclosures and concrete patio slab additions.",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "concrete"
+      ],
+      "sourceUrl": "https://apluspatioandscreens.com/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official homeowner-focused website offers custom screen rooms, pool enclosures and concrete slab additions, with explicit Mobile, Gulfport and Biloxi coverage on its service-area list."
+    },
+    {
+      "name": "Meineke Car Care Center",
+      "website": "https://www.meineke.com/",
+      "summary": "Consumer car and light-truck mechanical repair and maintenance at local Meineke centers.",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.meineke.com/locations/ms/",
+      "sourceVerifiedAt": "2026-11-02T18:40:30.534Z",
+      "evidenceNote": "Official state locator lists operating shops in the selected cities. The official consumer service catalog includes engine, brake, exhaust and other mechanical repair for personal cars, SUVs and trucks; locations of the same brand count once per city."
+    },
+    {
+      "name": "All Star Screen Patio Enclosure",
+      "website": "https://www.wwwallstarscreen.com/",
+      "summary": "Residential screen patio enclosures, patio covers and rescreening.",
+      "regions": [
+        "gulfport-ms",
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.wwwallstarscreen.com/service-area",
+      "sourceVerifiedAt": "2026-11-02T19:00:20.546Z",
+      "evidenceNote": "Official service-area page documents completed screen patio enclosures in Baton Rouge and New Orleans and explicitly extends the New Orleans service area to Gulfport. Phone 225-317-9030; distinct from AllStar plumbing brands."
+    },
+    {
+      "name": "RC Electric",
+      "website": "https://rcelectricms.com/",
+      "summary": "Residential backup generator selection and installation.",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://rcelectricms.com/generator-installations/",
+      "sourceVerifiedAt": "2026-11-02T18:43:24.091Z",
+      "evidenceNote": "Official generator-installation page explicitly offers residential generator installation in Gulfport, including selecting backup power for household lights, HVAC and refrigerators."
+    },
+    {
+      "name": "Caliber Collision",
+      "website": "https://www.caliber.com/",
+      "summary": "Collision and auto body repair for consumer cars and trucks at local Caliber centers.",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.caliber.com/locations/ms",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official state page explicitly names these cities as locations of its consumer collision repair centers, offering repair of drivers' accident-damaged cars and trucks. Only named cities are included, not inferred statewide coverage."
+    },
+    {
+      "name": "Maaco Collision Repair & Auto Painting",
+      "website": "https://www.maaco.com/",
+      "summary": "Consumer auto-body painting and light collision repair.",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.maaco.com/locations/ms/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official state location directory names a local Maaco shop in every selected city. The official services page confirms consumer car painting and light collision repairs, including dents and accident damage."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "dothan-al",
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/florida/tallahassee/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: tallahassee-fl, dothan-al. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Leafguard",
+      "website": "https://www.leafguard.com/",
+      "summary": "Residential seamless gutter and integrated gutter-guard installation.",
+      "regions": [
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leafguard.com/locations/birmingham",
+      "sourceVerifiedAt": "2026-11-02T19:08:12.996Z",
+      "evidenceNote": "Official Birmingham page expressly provides workmanship and customer service throughout Alabama and residential seamless gutter protection."
+    },
+    {
+      "name": "Christian Brothers Automotive",
+      "website": "https://www.cbac.com/",
+      "summary": "Automotive diagnostics, mechanical repairs and maintenance for personal cars and light trucks.",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cbac.com/montgomery/",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official Montgomery shop at 10885 Chantilly Drive offers consumer car maintenance and mechanical repairs, including brakes, air conditioning, diagnostics and engine services. The directory counts this brand only once per city."
+    },
+    {
+      "name": "Meineke Car Care Center",
+      "website": "https://www.meineke.com/",
+      "summary": "Consumer car and light-truck mechanical repair and maintenance at local Meineke centers.",
+      "regions": [
+        "montgomery-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.meineke.com/locations/al/",
+      "sourceVerifiedAt": "2026-11-02T18:40:30.534Z",
+      "evidenceNote": "Official state locator lists operating shops in the selected cities. The official consumer service catalog includes engine, brake, exhaust and other mechanical repair for personal cars, SUVs and trucks; locations of the same brand count once per city."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "montgomery-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/birmingham/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Birmingham office explicitly lists Birmingham and Montgomery among bathroom remodeling cities served. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Outdoor Living Solutions",
+      "website": "https://outdoorlivingsolutionsllc.com/",
+      "summary": "Residential swimming pool design and construction.",
+      "regions": [
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://outdoorlivingsolutionsllc.com/service-areas",
+      "sourceVerifiedAt": "2026-11-02T18:15:47.570Z",
+      "evidenceNote": "Official page names Auburn, Birmingham, Huntsville, Mobile and Montgomery for pool construction and explicitly addresses homeowners. Its Mississippi list is limited to the Jackson area, so no coastal Mississippi cities are inferred."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "montgomery-al",
+        "auburn-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/alabama/montgomery/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: montgomery-al, auburn-al. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Maaco Collision Repair & Auto Painting",
+      "website": "https://www.maaco.com/",
+      "summary": "Consumer auto-body painting and light collision repair.",
+      "regions": [
+        "montgomery-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.maaco.com/locations/al/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official state location directory names a local Maaco shop in every selected city. The official services page confirms consumer car painting and light collision repairs, including dents and accident damage."
+    },
+    {
+      "name": "Jiffy Lube",
+      "website": "https://www.jiffylube.com/",
+      "summary": "Consumer vehicle maintenance and repair at local Multicare centers; services vary by location.",
+      "regions": [
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.jiffylube.com/locations/location-directory/fl",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.278Z",
+      "evidenceNote": "Official state directory identifies a local Multicare service center in each selected city, offering consumer vehicle maintenance and repair including brakes and transmission services. Only named cities with Multicare centers are selected."
+    },
+    {
+      "name": "Renuity",
+      "website": "https://renuityhome.com/florida/",
+      "summary": "Residential bathroom upgrades, kitchen cabinet refacing and impact-window replacement.",
+      "regions": [
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://renuityhome.com/florida/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official Florida page offers residential bath upgrades, kitchen cabinet refacing and installed hurricane/impact windows. Its current location catalog explicitly names each selected city. FHIA redirects to Renuity and is treated as one identity."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/locations-list/fl/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Florida locations catalog provides physical bathroom remodeling showrooms in Jacksonville, Orlando, Tallahassee and West Palm Beach. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Renuity",
+      "website": "https://renuityhome.com/florida/",
+      "summary": "Residential bathroom upgrades, kitchen cabinet refacing and impact-window replacement.",
+      "regions": [
+        "tallahassee-fl",
+        "jacksonville-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://renuityhome.com/florida/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official Florida page offers residential bath upgrades, kitchen cabinet refacing and installed hurricane/impact windows. Its current location catalog explicitly names each selected city. FHIA redirects to Renuity and is treated as one identity."
+    },
+    {
+      "name": "Canvas Home Inspections",
+      "website": "https://canvashomeinspections.com/",
+      "summary": "Residential buyer and seller home inspections.",
+      "regions": [
+        "auburn-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://canvashomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official site names Auburn in its specific Alabama and Georgia service list and describes comprehensive residential buyer and seller inspections. Neither Atlanta nor all Alabama is inferred from the two-state heading."
+    },
+    {
+      "name": "AmeriSpec Inspection Services",
+      "website": "https://www.amerispec.com/",
+      "summary": "Residential home inspections for buyers and sellers through the local AmeriSpec office.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.amerispec.com/locations/la/new-orleans",
+      "sourceVerifiedAt": "2026-11-02T18:45:02.241Z",
+      "evidenceNote": "Official local AmeriSpec office page explicitly offers general home inspections for residential buyers and sellers in the selected service cities. Local office coverage is used; national presence is not treated as statewide availability."
+    },
+    {
+      "name": "Geaux Home Inspections",
+      "website": "https://geauxhomeinspections.com/",
+      "summary": "Residential buyer, seller and homeowner inspections.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://geauxhomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official Greenwell Springs company site explicitly provides residential home inspections to buyers, sellers and homeowners across Louisiana and states that its inspectors serve clients throughout the state."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/METAIRIE-COVINGTON",
+      "sourceVerifiedAt": "2026-11-02T19:01:07.506Z",
+      "evidenceNote": "Official Metairie-Covington office page explicitly offers residential inspections in New Orleans and surrounding named communities."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/neworleans/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official New Orleans office provides a New Orleans location and offers bathroom remodeling with its own installation process. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Renuity",
+      "website": "https://renuityhome.com/louisiana/new-orleans-la/",
+      "summary": "Residential bathroom renovation, shower and bathtub replacement.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://renuityhome.com/louisiana/new-orleans-la/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official new orleans location page explicitly offers residential bath renovation, including replacement tubs/showers and accessibility upgrades for local homeowners."
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "website": "https://www.firestonecompleteautocare.com/",
+      "summary": "Consumer vehicle maintenance and mechanical repairs at local Firestone Complete Auto Care shops.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.firestonecompleteautocare.com/louisiana/",
+      "sourceVerifiedAt": "2026-11-02T18:40:50.399Z",
+      "evidenceNote": "Official state store locator explicitly lists the selected cities and advertises consumer engine, brake, suspension, air-conditioning and other mechanical repairs. Only listed local-shop cities are included; multiple branches count as one business per city."
+    },
+    {
+      "name": "Meineke Car Care Center",
+      "website": "https://www.meineke.com/",
+      "summary": "Consumer car and light-truck mechanical repair and maintenance at local Meineke centers.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.meineke.com/locations/la/",
+      "sourceVerifiedAt": "2026-11-02T18:40:30.534Z",
+      "evidenceNote": "Official state locator lists operating shops in the selected cities. The official consumer service catalog includes engine, brake, exhaust and other mechanical repair for personal cars, SUVs and trucks; locations of the same brand count once per city."
+    },
+    {
+      "name": "All Aluminum Construction",
+      "website": "https://allaluminumconstruction.com/",
+      "summary": "Residential pool and patio screen enclosures, repairs and rescreening.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://allaluminumconstruction.com/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official site offers pool and patio screen-enclosure installation and repairs, expressly presents its New Orleans service and a Baton Rouge contact line. Physical company address is in Harvey."
+    },
+    {
+      "name": "Faithful Gutters & Roofing",
+      "website": "https://faithfulgutters.com/",
+      "summary": "Residential seamless gutters and custom screened outdoor rooms.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://faithfulgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official site describes homeowner seamless gutter installation and repair and custom screen rooms across Southeast Louisiana, explicitly naming New Orleans and Baton Rouge. Historical mention of work in Florida is not used as current city coverage."
+    },
+    {
+      "name": "Joe's Gutters & Patios",
+      "website": "https://www.joesgutters.com/",
+      "summary": "Residential gutter installation, repairs and custom screenrooms.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.joesgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official Gretna-based company explicitly serves Greater New Orleans and Orleans Parish with seamless gutters, repair, and new or converted screenrooms, using owner-supervised crews."
+    },
+    {
+      "name": "Mike's Patio Covers & Screenrooms",
+      "website": "https://www.mikespatiocovers.com/",
+      "summary": "Residential screenrooms and gutter installation.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.mikespatiocovers.com/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official company site serves the New Orleans metro with screenrooms, patio covers and gutters. Business owner and contact details distinguish it from other regional patio contractors."
+    },
+    {
+      "name": "Northshore Gutters & Patios LLC",
+      "website": "https://northshoregutters.com/",
+      "summary": "Residential gutter installation, repairs and custom screen enclosures.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://northshoregutters.com/service-area",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official service-area page explicitly lists gutter installation, repair and screen enclosures for homeowners in both Baton Rouge and New Orleans. Loranger-based company, operating since 2002."
+    },
+    {
+      "name": "Nu Code Shutters",
+      "website": "https://nucodeshutters.com/",
+      "summary": "Home hurricane shutters, retractable insect screens and aluminum fences.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://nucodeshutters.com/products",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official supplied-and-installed product page offers home hurricane shutters, motorized insect screens and custom aluminum gates and fences. It explicitly serves Greater New Orleans and Greater Baton Rouge with its own installation crews."
+    },
+    {
+      "name": "Custom Power Solutions LLC",
+      "website": "https://www.custompowersolutionsllc.com/",
+      "summary": "Residential standby generator installation and service.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.custompowersolutionsllc.com/",
+      "sourceVerifiedAt": "2026-11-02T19:15:31.569Z",
+      "evidenceNote": "Official site identifies a residential/commercial electrical contractor and full-service Generac dealer serving the New Orleans area, Northshore and River Parishes, offering generator installation and trained service technicians."
+    },
+    {
+      "name": "2Js Marine",
+      "website": "https://2jsmarine.com/",
+      "summary": "Mobile and shop-based boat and personal watercraft repairs.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://2jsmarine.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official site offers mobile or shop-based repairs in New Orleans and surrounding areas, including personal watercraft, outboards and inboards, with engine rebuild and propulsion services. No distant city coverage is inferred."
+    },
+    {
+      "name": "On-Point Mobile Marine Service",
+      "website": "https://onpointmobilemarine.com/",
+      "summary": "Mobile boat maintenance, mechanical diagnostics and marine electronics installation.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://onpointmobilemarine.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official owner-operated site explicitly provides mobile marine maintenance, diagnostics, repairs, equipment and electronics installations for boat owners across South Louisiana. Included cities are within that stated region; vague Gulf Coast language is not extended to other states."
+    },
+    {
+      "name": "Faithful Gutters & Roofing",
+      "website": "https://faithfulgutters.com/",
+      "summary": "Residential seamless gutters and custom screened outdoor rooms.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://faithfulgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official site describes homeowner seamless gutter installation and repair and custom screen rooms across Southeast Louisiana, explicitly naming New Orleans and Baton Rouge. Historical mention of work in Florida is not used as current city coverage."
+    },
+    {
+      "name": "Joe's Gutters & Patios",
+      "website": "https://www.joesgutters.com/",
+      "summary": "Residential gutter installation, repairs and custom screenrooms.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.joesgutters.com/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official Gretna-based company explicitly serves Greater New Orleans and Orleans Parish with seamless gutters, repair, and new or converted screenrooms, using owner-supervised crews."
+    },
+    {
+      "name": "Mike's Patio Covers & Screenrooms",
+      "website": "https://www.mikespatiocovers.com/",
+      "summary": "Residential screenrooms and gutter installation.",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mikespatiocovers.com/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official company site serves the New Orleans metro with screenrooms, patio covers and gutters. Business owner and contact details distinguish it from other regional patio contractors."
+    },
+    {
+      "name": "Northshore Gutters & Patios LLC",
+      "website": "https://northshoregutters.com/",
+      "summary": "Residential gutter installation, repairs and custom screen enclosures.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://northshoregutters.com/service-area",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official service-area page explicitly lists gutter installation, repair and screen enclosures for homeowners in both Baton Rouge and New Orleans. Loranger-based company, operating since 2002."
+    },
+    {
+      "name": "Nu Code Shutters",
+      "website": "https://nucodeshutters.com/",
+      "summary": "Home hurricane shutters, retractable insect screens and aluminum fences.",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://nucodeshutters.com/products",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official supplied-and-installed product page offers home hurricane shutters, motorized insect screens and custom aluminum gates and fences. It explicitly serves Greater New Orleans and Greater Baton Rouge with its own installation crews."
+    },
+    {
+      "name": "Mean Screens LA",
+      "website": "https://meanscreensla.com/",
+      "summary": "Residential motorized patio-screen enclosures and storm-shutter installation.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://meanscreensla.com/",
+      "sourceVerifiedAt": "2026-11-02T19:16:30.265Z",
+      "evidenceNote": "Official Baton Rouge company designs and installs motorized patio-screen enclosures and storm shutters for homeowners. Its own project gallery documents completed Baton Rouge installations."
+    },
+    {
+      "name": "Aluminum Specialties Manufacturing",
+      "website": "https://aluminumspecialtiesmfg.com/screen-rooms/",
+      "summary": "Custom residential screen-room and porch enclosure installation in Baton Rouge.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://aluminumspecialtiesmfg.com/screen-rooms/",
+      "sourceVerifiedAt": "2026-11-02T18:47:17.883Z",
+      "evidenceNote": "Official screen-room page offers professionally installed custom porch enclosures for homes and lists its Baton Rouge business location at 8367 Paris Avenue."
+    },
+    {
+      "name": "Mean Screens LA",
+      "website": "https://meanscreensla.com/",
+      "summary": "Residential motorized patio-screen enclosures and storm-shutter installation.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://meanscreensla.com/",
+      "sourceVerifiedAt": "2026-11-02T19:16:30.265Z",
+      "evidenceNote": "Official Baton Rouge company designs and installs motorized patio-screen enclosures and storm shutters for homeowners. Its own project gallery documents completed Baton Rouge installations."
+    },
+    {
+      "name": "Superior Patio Sales Inc.",
+      "website": "https://www.superiorpatiosales.com/",
+      "summary": "Custom residential screened-in patios and enclosures.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.superiorpatiosales.com/",
+      "sourceVerifiedAt": "2026-11-02T19:17:07.002Z",
+      "evidenceNote": "Official company site lists its Baton Rouge office and East Baton Rouge service area, offering custom screened-in patios and home enclosures built by its own team."
+    },
+    {
+      "name": "Louisiana Septic Suckers LLC",
+      "website": "https://louisianasewer.com/",
+      "summary": "Home septic tank pumping and drain services.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://louisianasewer.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official site identifies Louisiana Septic Suckers LLC, provides homeowner septic pump-outs and drain work, and names Baton Rouge, Denham Springs and Livingston Parish as its service area."
+    },
+    {
+      "name": "St. Amant Septic Tank Services",
+      "website": "https://stamantseptictankllc.com/",
+      "summary": "Septic pumping, repairs and installations for homes with private wastewater systems.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://stamantseptictankllc.com/baton-rouge/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official Baton Rouge page offers septic pumping, inspections, repairs and new systems throughout Baton Rouge and East Baton Rouge Parish, explicitly addressing homes with private septic systems. Owner Jason Lambert and the St. Amant base are identified."
+    },
+    {
+      "name": "TL Septic Tank Service",
+      "website": "https://tlsepticpumper.com/",
+      "summary": "Residential septic pumping, maintenance and repairs.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://tlsepticpumper.com/in/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Official area page explicitly covers greater Baton Rouge. The company homepage offers residential septic pumping, maintenance and repairs; only the specifically named Baton Rouge market is included, not all Louisiana."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/locations-list/la/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Louisiana locations catalog provides the Southern Louisiana bathroom remodeling office at 5811 McCann Drive, Baton Rouge. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Renuity",
+      "website": "https://renuityhome.com/louisiana/baton-rouge-la/",
+      "summary": "Residential bathroom renovation, shower and bathtub replacement.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://renuityhome.com/louisiana/baton-rouge-la/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official baton rouge location page explicitly offers residential bath renovation, including replacement tubs/showers and accessibility upgrades for local homeowners."
+    },
+    {
+      "name": "Jiffy Lube",
+      "website": "https://www.jiffylube.com/",
+      "summary": "Consumer vehicle maintenance and repair at local Multicare centers; services vary by location.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.jiffylube.com/locations/location-directory/la",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.279Z",
+      "evidenceNote": "Official state directory lists a local Multicare center in each selected city. Multicare locations provide consumer vehicle maintenance and repair, including brake services, rather than only retail parts sales."
+    },
+    {
+      "name": "MNM Electrical Solutions LLC",
+      "website": "https://mnmelectrical.com/",
+      "summary": "Residential generator electrical installation and transfer switches; gas piping and trenching require separate estimates.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mnmelectrical.com/services/generators-transfer-equipment",
+      "sourceVerifiedAt": "2026-11-02T19:15:31.569Z",
+      "evidenceNote": "Official generator page explicitly serves Greater Baton Rouge homeowners with standby-generator electrical installation, transfer switches and whole-home planning. Gas piping, plumbing and trenching need separate estimates."
+    },
+    {
+      "name": "Maaco Collision Repair & Auto Painting",
+      "website": "https://www.maaco.com/",
+      "summary": "Consumer auto-body painting and light collision repair.",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.maaco.com/locations/la/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official state location directory names a local Maaco shop in every selected city. The official services page confirms consumer car painting and light collision repairs, including dents and accident damage."
+    },
+    {
+      "name": "West Shore Home",
+      "website": "https://westshorehome.com/",
+      "summary": "Residential bathroom remodeling, showers, bathtubs and tub-to-shower conversions.",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al",
+        "atlanta-ga",
+        "jacksonville-fl",
+        "orlando-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://westshorehome.com/bathroom-remodeling/",
+      "sourceVerifiedAt": "2026-11-02T19:08:12.996Z",
+      "evidenceNote": "Official bathroom-remodeling page lists local bathroom teams in Birmingham, Huntsville, Jacksonville, Orlando, Tampa and Atlanta. No 90-minute radius extrapolation to other catalog cities."
+    },
+    {
+      "name": "GHT Group",
+      "website": "https://ghtgroup.com/",
+      "summary": "Home backup generator installation, integrated with residential electrical planning.",
+      "regions": [
+        "birmingham-al",
+        "atlanta-ga"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://ghtgroup.com/services/solutions/electrical",
+      "sourceVerifiedAt": "2026-11-02T18:15:47.570Z",
+      "evidenceNote": "Official residential electrical page describes home generator installation and identifies the Atlanta, Birmingham and Florida Panhandle/30A markets. Grayton Beach is within the expressly named 30A service corridor."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/alabama/birmingham/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: birmingham-al, huntsville-al. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Centsable Inspections",
+      "website": "https://www.centsableinspections.com/",
+      "summary": "Residential homebuyer and pre-listing inspections.",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.centsableinspections.com/",
+      "sourceVerifiedAt": "2026-11-02T18:18:03.037Z",
+      "evidenceNote": "Official homepage explicitly offers residential home inspections in Birmingham and names the surrounding counties. Only Birmingham is an active directory city within that stated territory."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/huntsville/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Huntsville office provides a Huntsville location and explicitly offers residential bath and shower remodeling. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Renuity",
+      "website": "https://renuityhome.com/alabama/huntsville-al/",
+      "summary": "Residential bathroom renovation, shower and bathtub replacement.",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://renuityhome.com/alabama/huntsville-al/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official huntsville location page explicitly offers residential bath renovation, including replacement tubs/showers and accessibility upgrades for local homeowners."
+    },
+    {
+      "name": "Superior Pools (North Alabama)",
+      "website": "https://superiorpoolsal.com/",
+      "summary": "Residential fiberglass pool construction; visits are scheduled at the property.",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://superiorpoolsal.com/contact-us",
+      "sourceVerifiedAt": "2026-11-02T18:15:47.570Z",
+      "evidenceNote": "Official contact page offers on-site fiberglass pool installation consultations for North Alabama homeowners and explicitly names Huntsville in its service-area list."
+    },
+    {
+      "name": "Forensic Home Inspections",
+      "website": "https://forensichomeinspections.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "atlanta-ga",
+        "orlando-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://forensichomeinspections.com/services/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official services page explicitly offers full residential inspections for houses, townhomes and condominiums and names Atlanta, Orlando and Miami among its current service markets."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/north-atlanta",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official North Atlanta office specifically lists Atlanta among areas served for residential home inspections, in addition to its Alpharetta office address."
+    },
+    {
+      "name": "LunsPro Inspection Group",
+      "website": "https://www.lunspro.com/",
+      "summary": "Residential home inspections.",
+      "regions": [
+        "atlanta-ga",
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.lunspro.com/service-area",
+      "sourceVerifiedAt": "2026-11-02T18:17:01.227Z",
+      "evidenceNote": "Official inspection service-area page identifies Jacksonville and Atlanta with city-specific service links and offers full home inspections. Other statewide coverage is not inferred from regional headings."
+    },
+    {
+      "name": "Noble Property Inspections",
+      "website": "https://www.noble-pi.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "atlanta-ga",
+        "jacksonville-fl",
+        "tampa-fl",
+        "orlando-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.noble-pi.com/home-inspections",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official residential inspection page names every selected city as an active market and offers comprehensive inspections for buyers, sellers and homeowners. Nearby towns without confirmation are not included."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/georgia/atlanta/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: atlanta-ga. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Leafguard",
+      "website": "https://www.leafguard.com/",
+      "summary": "Residential seamless gutter and integrated gutter-guard installation.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leafguard.com/locations/northern-georgia",
+      "sourceVerifiedAt": "2026-11-02T19:08:12.996Z",
+      "evidenceNote": "Official Northern Georgia page expressly serves Georgia homeowners and identifies the operating company as Leafguard of Atlanta."
+    },
+    {
+      "name": "Flamingo Appliance Service",
+      "website": "https://flamingoappliance.com/",
+      "summary": "Residential appliance repair by factory-trained technicians.",
+      "regions": [
+        "atlanta-ga",
+        "tampa-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://flamingoappliance.com/",
+      "sourceVerifiedAt": "2026-11-02T19:03:53.247Z",
+      "evidenceNote": "Official homepage names Miami-Dade, Broward and Palm Beach county coverage, Naples, Fort Myers, Sarasota, Tampa Bay, Orlando and metro Atlanta. Official west-region page records current St. Petersburg service. Only documented regions selected."
+    },
+    {
+      "name": "Caliber Collision",
+      "website": "https://www.caliber.com/",
+      "summary": "Collision and auto body repair for consumer cars and trucks at local Caliber centers.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.caliber.com/locations/ga",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official state page explicitly names these cities as locations of its consumer collision repair centers, offering repair of drivers' accident-damaged cars and trucks. Only named cities are included, not inferred statewide coverage."
+    },
+    {
+      "name": "Crash Champions",
+      "website": "https://crashchampions.com/",
+      "summary": "Collision, auto-body and paint repair for personal vehicles.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://crashchampions.com/locations/georgia",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.279Z",
+      "evidenceNote": "Official Georgia locator lists the Howell Mill consumer collision-repair center at 1491 Howell Mill Road in Atlanta, with customer repair services and appointment scheduling."
+    },
+    {
+      "name": "Maaco Collision Repair & Auto Painting",
+      "website": "https://www.maaco.com/",
+      "summary": "Consumer auto-body painting and light collision repair.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.maaco.com/locations/ga/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official state location directory names a local Maaco shop in every selected city. The official services page confirms consumer car painting and light collision repairs, including dents and accident damage."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/atlantaeast/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Atlanta East office explicitly lists Atlanta among cities served for bathroom remodeling. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "website": "https://www.firestonecompleteautocare.com/",
+      "summary": "Consumer vehicle maintenance and mechanical repairs at local Firestone Complete Auto Care shops.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.firestonecompleteautocare.com/georgia/",
+      "sourceVerifiedAt": "2026-11-02T18:40:50.399Z",
+      "evidenceNote": "Official state store locator explicitly lists the selected cities and advertises consumer engine, brake, suspension, air-conditioning and other mechanical repairs. Only listed local-shop cities are included; multiple branches count as one business per city."
+    },
+    {
+      "name": "Jiffy Lube",
+      "website": "https://www.jiffylube.com/",
+      "summary": "Consumer vehicle maintenance and repair at local Multicare centers; services vary by location.",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.jiffylube.com/locations/location-directory/ga",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.279Z",
+      "evidenceNote": "Official state directory lists a local Multicare center in each selected city. Multicare locations provide consumer vehicle maintenance and repair, including brake services, rather than only retail parts sales."
+    },
+    {
+      "name": "Mr. Rooter Plumbing",
+      "website": "https://www.mrrooter.com/",
+      "summary": "Residential septic system pumping, maintenance and repairs.",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.mrrooter.com/jacksonville/",
+      "sourceVerifiedAt": "2026-11-02T19:14:55.092Z",
+      "evidenceNote": "Official Jacksonville office page explicitly describes its septic pumping, cleaning, repair and installation service in its local FAQ, together with residential plumbing services."
+    },
+    {
+      "name": "Meineke Car Care Center",
+      "website": "https://www.meineke.com/",
+      "summary": "Consumer car and light-truck mechanical repair and maintenance at local Meineke centers.",
+      "regions": [
+        "jacksonville-fl",
+        "clearwater-fl",
+        "orlando-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.meineke.com/locations/fl/",
+      "sourceVerifiedAt": "2026-11-02T18:40:30.534Z",
+      "evidenceNote": "Official state locator lists operating shops in the selected cities. The official consumer service catalog includes engine, brake, exhaust and other mechanical repair for personal cars, SUVs and trucks; locations of the same brand count once per city."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/Atlantic-Beach-Jacksonville-Beach-FL",
+      "sourceVerifiedAt": "2026-11-02T19:01:07.506Z",
+      "evidenceNote": "Official office page gives Jacksonville FL 32218 location and explicitly offers residential inspection service in Jacksonville."
+    },
+    {
+      "name": "Sun Inspections",
+      "website": "https://www.suninspections.com/",
+      "summary": "Residential home inspections and insurance inspections.",
+      "regions": [
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.suninspections.com/express",
+      "sourceVerifiedAt": "2026-11-02T18:34:01.106Z",
+      "evidenceNote": "Official booking and service page offers full residential, pre-listing, maintenance, four-point and wind-mitigation inspections. Included cities fall within its expressly listed Miami-Dade, Broward, Palm Beach, Hillsborough, Pinellas and Duval counties; no statewide coverage is inferred."
+    },
+    {
+      "name": "Caliber Collision",
+      "website": "https://www.caliber.com/",
+      "summary": "Collision and auto body repair for consumer cars and trucks at local Caliber centers.",
+      "regions": [
+        "jacksonville-fl",
+        "tampa-fl",
+        "orlando-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.caliber.com/locations/fl",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official state page explicitly names these cities as locations of its consumer collision repair centers, offering repair of drivers' accident-damaged cars and trucks. Only named cities are included, not inferred statewide coverage."
+    },
+    {
+      "name": "Crash Champions",
+      "website": "https://crashchampions.com/",
+      "summary": "Collision, auto-body and paint repair for personal vehicles.",
+      "regions": [
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://crashchampions.com/locations/florida",
+      "sourceVerifiedAt": "2026-11-02T18:52:00.279Z",
+      "evidenceNote": "Official Florida center list provides actual addresses in each selected city and consumer collision/body repair services. Nearby separately named municipalities are not treated as local shops for additional cities."
+    },
+    {
+      "name": "GenerX Generators",
+      "website": "https://generxgenerators.com/",
+      "summary": "Whole-home standby generator installation, maintenance and repair.",
+      "regions": [
+        "jacksonville-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://generxgenerators.com/service-areas/florida/",
+      "sourceVerifiedAt": "2026-11-02T19:03:53.247Z",
+      "evidenceNote": "Official current Florida coverage page explicitly lists Jacksonville, Tampa, St. Petersburg, Clearwater, Sarasota, Orlando, Fort Myers, Naples and West Palm Beach for whole-home generator installation. No Miami or Tallahassee inference."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/florida/jacksonville/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: jacksonville-fl. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Southern Water and Soil",
+      "website": "https://southernsepticanddesign.com/residential-septic-florida/",
+      "summary": "Residential septic inspections, permitting and system engineering.",
+      "regions": [
+        "tampa-fl",
+        "orlando-fl",
+        "fort-myers-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://southernsepticanddesign.com/residential-septic-florida/",
+      "sourceVerifiedAt": "2026-11-02T18:53:42.906Z",
+      "evidenceNote": "Official residential page explicitly names the selected cities and directly offers homeowner septic permitting, inspections and system engineering. Installation/maintenance may use partners, so this listing describes only the company's own design and inspection scope."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/florida/tampa/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: tampa-fl. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "AmeriSpec Inspection Services",
+      "website": "https://www.amerispec.com/",
+      "summary": "Residential home inspections for buyers and sellers through the local AmeriSpec office.",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.amerispec.com/locations/fl/tampa",
+      "sourceVerifiedAt": "2026-11-02T18:45:02.241Z",
+      "evidenceNote": "Official local AmeriSpec office page explicitly offers general home inspections for residential buyers and sellers in the selected service cities. Local office coverage is used; national presence is not treated as statewide availability."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/tampa",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official Tampa office's detailed Florida service-area list names Tampa, Saint Petersburg and Clearwater; home inspection and homeowner services are explicit. Unrelated NC template sentence is not used as geography evidence."
+    },
+    {
+      "name": "WIN Home Inspection",
+      "website": "https://wini.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners through local WIN inspectors.",
+      "regions": [
+        "tampa-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://wini.com/locations/florida/",
+      "sourceVerifiedAt": "2026-11-02T18:45:02.241Z",
+      "evidenceNote": "Official Florida location page lists inspectors serving Orlando, Naples, Miami, Tampa, Sarasota and Fort Myers, and explicitly offers full home inspections for residential buyers, sellers and homeowners."
+    },
+    {
+      "name": "Christian Brothers Automotive",
+      "website": "https://www.cbac.com/",
+      "summary": "Automotive diagnostics, mechanical repairs and maintenance for personal cars and light trucks.",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cbac.com/new-tampa/",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official New Tampa shop at 20303 Trout Creek Drive offers consumer car maintenance and mechanical repairs, including brakes, air conditioning, diagnostics and engine services. The directory counts this brand only once per city."
+    },
+    {
+      "name": "Eclipse Service Hub",
+      "website": "https://eclipseservicehub.com/",
+      "summary": "Residential pool cage, lanai, patio and porch screening, repairs and rescreening.",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://eclipseservicehub.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-02T18:13:10.781Z",
+      "evidenceNote": "Official service-area page names Tampa, St. Petersburg, Clearwater, Orlando, Sarasota and Fort Myers for pool cage and lanai construction or repair. The services page separately confirms installation for homes."
+    },
+    {
+      "name": "Eurex Shutters",
+      "website": "https://eurexshutters.com/service-area/",
+      "summary": "Residential hurricane-shutter and impact-window installation.",
+      "regions": [
+        "clearwater-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://eurexshutters.com/service-area/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official service-area page explicitly names each selected city and offers homeowners installed hurricane shutters, impact windows/doors and storm screens."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/clearwater/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Clearwater office explicitly lists Clearwater, St. Petersburg and Tampa in its bathroom remodeling service area. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "Christian Brothers Automotive",
+      "website": "https://www.cbac.com/",
+      "summary": "Automotive diagnostics, mechanical repairs and maintenance for personal cars and light trucks.",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cbac.com/alafaya/",
+      "sourceVerifiedAt": "2026-11-02T18:40:02.113Z",
+      "evidenceNote": "Official Alafaya shop at 14539 East Colonial Drive in Orlando offers consumer car maintenance and mechanical repairs, including brakes, air conditioning, diagnostics and engine services. The directory counts this brand only once per city."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/florida/orlando/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: orlando-fl. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "HOMESHAPE Inspections",
+      "website": "https://www.homeshapeinspections.com/",
+      "summary": "Residential home and insurance inspections.",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.homeshapeinspections.com/insurance-inspections/",
+      "sourceVerifiedAt": "2026-11-02T18:13:10.781Z",
+      "evidenceNote": "Official service page offers four-point and wind-mitigation inspections to Orlando homeowners. The detailed geographic list is Orlando and nearby communities; broad Florida headline wording is not treated as statewide coverage."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/orlando-kissimmee-home-inspection",
+      "sourceVerifiedAt": "2026-11-02T19:01:07.506Z",
+      "evidenceNote": "Official Kissimmee office explicitly lists Orlando among its residential home inspection service areas."
+    },
+    {
+      "name": "Pan Alpha LLC",
+      "website": "https://screenenclosurefl.com/",
+      "summary": "Residential pool cages, patio and lanai screen enclosures, repairs and rescreening.",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://screenenclosurefl.com/",
+      "sourceVerifiedAt": "2026-11-02T18:13:10.781Z",
+      "evidenceNote": "Official website identifies Pan Alpha LLC and explicitly lists Sarasota among its screen-enclosure service areas. Residential pool cages, patios, porches, lanais and screen repairs are described. Statewide license language is not treated as statewide service."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/florida/fort-myers/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: fort-myers-fl, naples-fl, sarasota-fl. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "sarasota-fl",
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/fortmyerssarasota/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Fort Myers/Sarasota office explicitly offers bathroom remodeling in both named cities. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/naples-fort-myers-home-inspection",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official Naples office page provides local Radio Road address and expressly offers home inspections in Naples and Fort Myers."
+    },
+    {
+      "name": "Alufab USA",
+      "website": "https://alufabusa.com/",
+      "summary": "Residential hurricane shutters and impact windows.",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://alufabusa.com/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official website names Fort Myers and Naples as served and describes in-house supply and installation of hurricane shutters and impact windows for homes and families."
+    },
+    {
+      "name": "Storm Solutions",
+      "website": "https://www.storm-solutions.net/service-area/",
+      "summary": "Residential hurricane shutters and impact-window installation.",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.storm-solutions.net/service-area/",
+      "sourceVerifiedAt": "2026-11-02T18:55:19.103Z",
+      "evidenceNote": "Official service-area page explicitly names Fort Myers and Naples and offers homeowners impact windows, doors and hurricane shutters, installed by the company's trained employees."
+    },
+    {
+      "name": "Wind Safe Hurricane Protection",
+      "website": "https://windsafeshutters.com/service-areas/",
+      "summary": "Residential hurricane shutters and impact-window installation.",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://windsafeshutters.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-02T18:56:06.091Z",
+      "evidenceNote": "Official service list explicitly names Fort Myers and Naples. The company's Naples page confirms residential hurricane-shutter and impact-window installations by dedicated in-house crews."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "naples-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/browardcounty/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Broward office explicitly names Fort Lauderdale and coverage in Collier County, which contains Naples. One brand identity; no duplicate local franchises counted."
+    },
+    {
+      "name": "LeafFilter Gutter Protection",
+      "website": "https://www.leaffilter.com/",
+      "summary": "Residential seamless gutter and gutter-guard installation.",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.leaffilter.com/locations/florida/fort-lauderdale/",
+      "sourceVerifiedAt": "2026-11-02T19:06:46.103Z",
+      "evidenceNote": "Official local installation page explicitly lists these service communities: fort-lauderdale-fl, miami-fl, west-palm-beach-fl. Its locally trained crew installs seamless gutters and gutter protection for homeowners; no national blanket coverage assumed."
+    },
+    {
+      "name": "Omega Doors & Windows",
+      "website": "https://www.omegadoorsandwindows.com/",
+      "summary": "Residential hurricane shutter installation, repair and impact-window service.",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.omegadoorsandwindows.com/hurricane-shutter-installation",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Current official shutter-installation page states Fort Lauderdale base and service throughout Miami-Dade, Broward and Palm Beach counties. Broader cached Florida-state coverage is not used because current page limits this service to South Florida."
+    },
+    {
+      "name": "ASAP Statewide Septic",
+      "website": "https://asapstatewideseptic.com/",
+      "summary": "Residential septic pumping, system installation and drainfield repair in the Miami Gardens service area.",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://asapstatewideseptic.com/",
+      "sourceVerifiedAt": "2026-11-02T18:14:26.569Z",
+      "evidenceNote": "Official site offers residential tank pumping, installation and drainfield repair. It names Miami-Dade and Broward counties and limits its surrounding service area to about 30 miles of Miami Gardens; only Miami and Fort Lauderdale are selected."
+    },
+    {
+      "name": "AmeriSpec Inspection Services",
+      "website": "https://www.amerispec.com/",
+      "summary": "Residential home inspections for buyers and sellers through the local AmeriSpec office.",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.amerispec.com/locations/fl/fort-lauderdale",
+      "sourceVerifiedAt": "2026-11-02T18:45:02.241Z",
+      "evidenceNote": "Official local AmeriSpec office page explicitly offers general home inspections for residential buyers and sellers in the selected service cities. Local office coverage is used; national presence is not treated as statewide availability."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/fort-lauderdale-hollywood-home-inspection",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official local office explicitly offers residential inspection services in Fort Lauderdale and lists the city within its service area."
+    },
+    {
+      "name": "NOS Home Inspectors",
+      "website": "https://www.noshomeinspectors.com/",
+      "summary": "Residential home, four-point and wind-mitigation inspections.",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.noshomeinspectors.com/",
+      "sourceVerifiedAt": "2026-11-02T18:25:58.980Z",
+      "evidenceNote": "Current official homepage names Noslandy Gonzalez and residential inspections throughout Miami-Dade and Broward, including Miami and Fort Lauderdale. Older internal-page statewide wording is superseded by the homepage's explicit limited service area."
+    },
+    {
+      "name": "AmeriSpec Inspection Services",
+      "website": "https://www.amerispec.com/",
+      "summary": "Residential home inspections for buyers and sellers through the local AmeriSpec office.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.amerispec.com/locations/fl/miami",
+      "sourceVerifiedAt": "2026-11-02T18:45:02.241Z",
+      "evidenceNote": "Official local AmeriSpec office page explicitly offers general home inspections for residential buyers and sellers in the selected service cities. Local office coverage is used; national presence is not treated as statewide availability."
+    },
+    {
+      "name": "HouseMaster",
+      "website": "https://housemaster.com/",
+      "summary": "Residential home inspections for buyers, sellers and homeowners.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://housemaster.com/miami-home-inspection",
+      "sourceVerifiedAt": "2026-11-02T19:02:00.694Z",
+      "evidenceNote": "Official Miami-Dade office page locates the office in Miami 33186 and explicitly lists Miami residential home inspection service."
+    },
+    {
+      "name": "Classic Collision",
+      "website": "https://classiccollision.com/",
+      "summary": "Consumer collision and auto-body repair.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://classiccollision.com/locations/classic-collision-kendall/",
+      "sourceVerifiedAt": "2026-11-02T18:52:44.506Z",
+      "evidenceNote": "Official Kendall shop page gives a Miami business address and offers consumer collision repairs, free estimates, rental assistance and online repair appointments."
+    },
+    {
+      "name": "Bath Fitter",
+      "website": "https://www.bathfitter.com/us-en/",
+      "summary": "Residential bath and shower remodeling, tub replacements and tub-to-shower conversions.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.bathfitter.com/us-en/location/miamicentral/",
+      "sourceVerifiedAt": "2026-11-02T19:05:36.341Z",
+      "evidenceNote": "Official Central Miami office expressly lists Miami among cities served for bathroom remodeling. One brand identity; no duplicate local franchises counted."
+    }
+  ]
+}

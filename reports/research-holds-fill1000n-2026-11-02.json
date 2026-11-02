@@ -1,0 +1,98 @@
+{
+  "run": "fill1000n",
+  "checkedAt": "2026-11-02T19:19:50.831Z",
+  "holds": [
+    {
+      "website": "https://247marine.com/",
+      "reason": "Unclear operating identity and direct-dispatch credentials; broad multi-state marketing without identifiable service staff. Hold pending stronger corroboration."
+    },
+    {
+      "website": "https://precisionmarinemaintenance.com/",
+      "reason": "Repeated official-page retrieval timeouts; do not count until website can be checked."
+    },
+    {
+      "website": "https://kingstowingandrecoveryal.com/",
+      "reason": "Official website explicitly says inactive; no listing added."
+    },
+    {
+      "website": "https://everydaygaragedoorsolution.com/",
+      "reason": "Broad service-area page conflicts with Southern California positioning and lacks a clear operating presence in target markets. Held for stronger verification."
+    },
+    {
+      "website": "https://diamondenclosures.com/",
+      "reason": "Current homepage and about page describe exploring local home-improvement options without a clear operating-contractor identity. Older city pages claim wider trades. Hold expansion until direct operating identity and services are clear."
+    },
+    {
+      "website": "https://baldwincountygenerators.com/",
+      "reason": "Official about page identifies this as Gulf Shores Electrical's generator division. New placements use the parent domain as one identity; legacy duplicate rows were not deleted."
+    },
+    {
+      "website": "https://www.rynoaluminum.com/",
+      "reason": "Official site advertises statewide screen, pool renovation and concrete work, but public Florida entity search returns conflicting active/inactive statuses. Hold pending clearer operating identity/status verification."
+    },
+    {
+      "website": "https://www.screenenclosurepros.com/",
+      "reason": "Homepage retrieval failed; generic multi-city marketing and no clear legal operator identified. Hold until working official page and operator identity confirmed."
+    },
+    {
+      "website": "https://www.gulfportmspatioandscreen.com/",
+      "reason": "Same phone 228-863-4819 and company copy as existing gulfcoastpatioandscreen.com. Treat as alternate domain of existing Gulf Coast Patio & Screen, not a second business."
+    },
+    {
+      "website": "https://homecraftgutterprotection.com/",
+      "reason": "Location pages redirected to unrelated gaming content at asportzone.com; excluded because official destination was not working as a business site."
+    },
+    {
+      "website": "https://www.aaoutdoorliving.com/",
+      "reason": "Official URL redirected to a Google Sites sign-in wall; excluded."
+    },
+    {
+      "website": "https://jlgsepticllc.com/",
+      "reason": "Nationwide city claims could not be corroborated with an identifiable operating footprint beyond a Milton business; no nationwide additions."
+    },
+    {
+      "website": "https://www.rebath.com/",
+      "reason": "Official location pages could not be retrieved; not counted."
+    },
+    {
+      "website": "https://redrhinoleak.com/",
+      "reason": "Production website returned 502; development-host copy was not used as the official website."
+    },
+    {
+      "website": "https://joezscreenenclosures.com/",
+      "reason": "Repeated official-page timeouts; excluded."
+    },
+    {
+      "website": "https://windshutters.com/",
+      "reason": "Repeated official-page timeouts prevented confirming a working destination; excluded."
+    },
+    {
+      "website": "https://www.mandevillesunrooms.com/",
+      "reason": "An initial retrieval worked, but subsequent attempts repeatedly timed out; not added."
+    },
+    {
+      "website": "https://bodewell.com/",
+      "reason": "Official page provided insufficient accessible service-area evidence; similarly named third-party sites were not substituted."
+    },
+    {
+      "website": "https://www.yourmechanic.com/",
+      "reason": "Marketplace structure; not treated as a separate direct local operating repair business."
+    },
+    {
+      "website": "https://www.a1patioandscreen.com/",
+      "reason": "Same phone and operating identity as existing Gulf Coast Patio & Screen; no duplicate business added."
+    },
+    {
+      "website": "https://www.vacuumservicesinc.com/",
+      "reason": "Identified as a Scenic Environmental Services company; existing scenicgroup.com identity already present. Held to avoid a second same-identity placement."
+    },
+    {
+      "website": "https://williamarnettseptic.com/",
+      "reason": "Existing business's older domain returned 404; arnettseptic.com appears to be the same business. No duplicate under the replacement domain; existing records preserved for a separate URL repair."
+    },
+    {
+      "website": "https://relyonreliance.com/",
+      "reason": "Generator-specific page redirected to a homepage without sufficient current generator-service evidence; excluded."
+    }
+  ]
+}
