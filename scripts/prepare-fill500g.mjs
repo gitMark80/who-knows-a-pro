@@ -37,6 +37,15 @@ for (const row of seed) {
 const counts = new Map(beforeCounts);
 
 const candidates = rawCandidates.map((candidate) => {
+  // A national commercial service area alone does not qualify a home-service listing.
+  // Keep this evidence in the candidate checkpoint so later runs can review it.
+  const consumerTrades = new Set(['auto-mechanics', 'auto-body-collision', 'towing', 'marine-services']);
+  assert(['residential', 'consumer'].includes(candidate.customerScope), `Residential/consumer scope missing for ${candidate.name}`);
+  assert(typeof candidate.customerEvidence === 'string' && candidate.customerEvidence.length > 80, `Residential/consumer evidence missing for ${candidate.name}`);
+  assert(candidate.customerSourceUrl?.startsWith('https://'), `Customer evidence URL missing for ${candidate.name}`);
+  if (candidate.trades.some((trade) => !consumerTrades.has(trade))) {
+    assert.equal(candidate.customerScope, 'residential', `Home-service category needs residential evidence for ${candidate.name}`);
+  }
   const areas = Array.isArray(candidate.regions) ? candidate.regions : [candidate.regions];
   const regions = catalog.activeRegions
     .filter((region) => areas.includes(region.state) || areas.includes(region.slug))
@@ -132,6 +141,9 @@ const checks = [...new Map(selectedCandidates.map((candidate) => [candidate.sour
   sourceRef: candidate.sourceRef,
   evidence: candidate.evidenceNote,
   supplementarySourceUrls: candidate.supplementarySourceUrls ?? [],
+  customerScope: candidate.customerScope,
+  customerEvidence: candidate.customerEvidence,
+  customerSourceUrl: candidate.customerSourceUrl,
 }));
 
 const rows = [];
@@ -166,7 +178,7 @@ const report = {
   additionsByCity,
   additionsByCategory,
   additionsByBusiness,
-  selectionRule: 'Priority cities first at their lowest verified counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20.',
+  selectionRule: 'Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.',
   before: { pairsAt20: beforeAt20, pairsBelow20: rows.length - beforeAt20, deficit: beforeDeficit },
   prepared: { pairsAt20: afterAt20, pairsBelow20: rows.length - afterAt20, deficit: afterDeficit, emptyPairs: rows.filter((row) => row.listing_count === 0).length },
   newlyCompletedCombinations,
