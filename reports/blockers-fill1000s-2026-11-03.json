@@ -1,0 +1,90 @@
+{
+  "status": "prepared_not_published",
+  "requestedRunTarget": 1000,
+  "previousPublishedPlacements": 546,
+  "preparedPlacements": 145,
+  "publishedPlacements": 0,
+  "shortfallAfterCheckpointPublication": 309,
+  "blockers": [
+    {
+      "website": "https://www.expressoil.com/stores/",
+      "reason": "Nine researched city placements overlap the existing Mavis Tire Family identity and were excluded. Only Biloxi, Fairhope and Pace have new Express Oil placements; do not later count Mavis again in those pairs."
+    },
+    {
+      "website": "https://jhcc.com/",
+      "reason": "Joe Hudson\u2019s redirects to Gerber, an excluded domain; acquired/rebranded identity not added."
+    },
+    {
+      "website": "https://www.mistersparky.com/",
+      "reason": "Official local generator pages returned HTTP 403; no placements added."
+    },
+    {
+      "website": "https://jlgsepticsolutions.com/",
+      "reason": "Local operator identity not sufficiently established for broad nationwide claims; held."
+    },
+    {
+      "website": "https://elbrusconsulting.wordpress.com/",
+      "reason": "Florida Septic and Sewer identifies Rogers & Grant as its other company; held as possible identity duplication."
+    },
+    {
+      "website": "https://www.emeraldcoastwastewatersolution.com/",
+      "reason": "Working operator site but current pages do not establish exact city coverage. State entity record shares Rogers family management/agent with an existing septic operator; identity and geographic follow-up required."
+    },
+    {
+      "website": "https://www.sspermits.com/",
+      "reason": "Septic permitting consultant refers installation work to contractors; not counted as pumping, installation or repair business."
+    },
+    {
+      "website": "https://a1patioandscreen.com/",
+      "reason": "Website access/identity unresolved; alternate Gulfport sunroom and pool-enclosure domains share existing Gulf Coast Patio & Screen phone. No duplicate added."
+    },
+    {
+      "website": "https://regalremodelersllc.com/",
+      "reason": "HTTP 200 returns a JavaScript shell without substantive service/city evidence."
+    },
+    {
+      "website": "https://www.landaichecabinets.com/",
+      "reason": "Custom cabinet manufacture/showroom verified, but installation or full kitchen/bath remodeling scope not established; held."
+    },
+    {
+      "website": "https://www.rpmstrong.com/",
+      "reason": "HTTP 503; held."
+    },
+    {
+      "website": "https://atlasapplianceservices.com/",
+      "reason": "HTTP 406; held."
+    },
+    {
+      "website": "https://www.tristateappliancerepair.com/",
+      "reason": "HTTP 404; held."
+    },
+    {
+      "website": "https://aplusmaintenanceservices.co/",
+      "reason": "Page cites directory ratings and third-person generated content; official operator ownership not established. Held."
+    },
+    {
+      "website": "https://oxlandmgmt.com/",
+      "reason": "HTTP 200 but no substantive readable service/city content in direct retrieval; held."
+    },
+    {
+      "website": "https://1stchoicegaragedoor.com/services/garage-door-repair/",
+      "reason": "HTTP 200 but no substantive readable service/city content; held."
+    },
+    {
+      "website": "https://www.savatree.com/locations/",
+      "reason": "Official branch requests returned HTTP 520 in this run; no new placements counted from indexed snippets."
+    },
+    {
+      "website": "https://www.bartlett.com/locations/tampa-fl",
+      "reason": "Direct HTTP 200 but only JavaScript shell; no new placements counted from search snippets."
+    },
+    {
+      "website": "https://www.brothersgutters.com/",
+      "reason": "Auburn locator redirected to Columbus GA and West Palm Beach to Jupiter without sufficient current exact-city coverage; held."
+    },
+    {
+      "website": "https://www.ytreeservice.com/",
+      "reason": "Only Huntsville added. Distant Mobile/Montgomery/Birmingham footer names conflict with the explicit 20-mile Huntsville/Decatur service radius."
+    }
+  ]
+}
