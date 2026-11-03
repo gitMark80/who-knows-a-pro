@@ -14,7 +14,7 @@ before = json.loads(Path(f"{before_directory}/seed.json").read_text())
 after = json.loads(Path(f"{after_directory}/seed.json").read_text())
 catalog = json.loads(Path(f"{after_directory}/catalog.json").read_text())
 source_before = json.loads(Path(source_before_path).read_text())
-source_after = json.loads(Path("data/verified-coverage-2026-09-28.json").read_text())
+source_after = json.loads(Path(os.environ.get("FILL_SOURCE_AFTER", "data/verified-coverage-2026-09-28.json")).read_text())
 report = json.loads(Path(f"reports/verified-{run}-{date}.json").read_text())
 expected_count = report.get("checkpointTarget", report["target"])
 

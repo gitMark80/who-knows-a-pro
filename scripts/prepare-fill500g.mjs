@@ -11,10 +11,13 @@ const verifiedAt = new Date().toISOString();
 const sourcePath = process.env.FILL_SOURCE_PATH ?? 'data/verified-coverage-2026-09-28.json';
 const baselineDirectory = process.env.FILL_BASELINE_DIRECTORY ?? '/tmp/fill500g-before';
 const originalText = fs.readFileSync(sourcePath, 'utf8');
-const committedText = execFileSync('git', ['show', `HEAD:${sourcePath}`], {
-  encoding: 'utf8',
-  maxBuffer: 20_000_000,
-});
+let committedText;
+try {
+  committedText = execFileSync('git', ['show', `HEAD:${sourcePath}`], { encoding: 'utf8', maxBuffer: 20_000_000 });
+} catch {
+  assert.equal(originalText.trim(), '[]', `New supplemental source must begin as an empty array: ${sourcePath}`);
+  committedText = originalText;
+}
 assert.equal(originalText, committedText, 'Local source differs from current checkout');
 
 const source = JSON.parse(originalText);
@@ -229,7 +232,8 @@ const report = {
 
 if (process.argv.includes('--write')) {
   const renderedRows = records.map((row) => JSON.stringify(row, null, 2).split('\n').map((line) => `  ${line}`).join('\n')).join(',\n');
-  fs.writeFileSync(sourcePath, `${originalText.trimEnd().slice(0, -1).trimEnd()},\n${renderedRows}\n]\n`);
+  const prefix = source.length ? `${originalText.trimEnd().slice(0, -1).trimEnd()},\n` : '[\n';
+  fs.writeFileSync(sourcePath, `${prefix}${renderedRows}\n]\n`);
   const after = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
   assert.deepEqual(after.slice(0, source.length), source, 'Prior source rows changed');
   fs.writeFileSync(`reports/source-checks-${run}-${date}.json`, `${JSON.stringify(checks, null, 2)}\n`);

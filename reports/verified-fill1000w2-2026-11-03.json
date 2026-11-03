@@ -1,0 +1,85 @@
+{
+  "baselineCommit": "e7c706ef1c1277eced7792a7f55304272b57f3a7",
+  "continuationOf": "reports/run-fill1000w-2026-11-03.json",
+  "verifiedAt": "2026-11-03T23:09:45.552Z",
+  "target": 3,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 2,
+  "newBusinessShortfall": 998,
+  "placementsFromNewBusinesses": 3,
+  "placementsFromPreviouslyListedBusinesses": 0,
+  "status": "prepared_not_published",
+  "placementCount": 3,
+  "sourceRecordCount": 2,
+  "uniqueBusinessDomains": 2,
+  "additionsByCity": {
+    "destin-fl": 1,
+    "fort-walton-beach-fl": 2
+  },
+  "additionsByCategory": {
+    "septic-services": 2,
+    "auto-body-collision": 1
+  },
+  "additionsByBusiness": {
+    "Florida Septic & Sewer Service, Inc.": 2,
+    "A1 Collision Repair": 1
+  },
+  "selectionRule": "Priority cities first at their lowest freshly reviewed qualifying counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "reviewedEvidence": {
+    "files": [
+      "reports/candidates-fill1000w2-2026-11-03.json"
+    ],
+    "auditDate": "2026-11-03",
+    "beforePlacements": 0,
+    "afterPlacements": 3,
+    "beforeCounts": {},
+    "afterCounts": {
+      "destin-fl|septic-services": 1,
+      "fort-walton-beach-fl|auto-body-collision": 1,
+      "fort-walton-beach-fl|septic-services": 1
+    },
+    "note": "Conservative reviewed-evidence coverage only; unreviewed historical listings are preserved and remain unaudited. Display counts are reported separately."
+  },
+  "before": {
+    "pairsAt20": 808,
+    "pairsBelow20": 392,
+    "deficit": 1491
+  },
+  "prepared": {
+    "pairsAt20": 808,
+    "pairsBelow20": 392,
+    "deficit": 1489,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Florida Septic & Sewer Service, Inc.",
+      "website": "https://elbrusconsulting.wordpress.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://elbrusconsulting.wordpress.com/",
+      "sourceVerifiedAt": "2026-11-03T23:08:00Z",
+      "evidenceNote": "The official Florida Septic & Sewer business page identifies its Destin office, explicitly says it serves Destin and Fort Walton Beach within Okaloosa and Walton Counties, and offers residential septic installation, maintenance, pumping, certification, and drain-field repair directly to homeowners."
+    },
+    {
+      "name": "A1 Collision Repair",
+      "website": "https://a1collisionshop.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://a1collisionshop.com/",
+      "sourceVerifiedAt": "2026-11-03T23:08:00Z",
+      "evidenceNote": "The official A1 Collision Repair website identifies its Fort Walton Beach shop at 535 Bob Sikes Boulevard and directly offers consumer collision-damage assessment, body-panel repair, dent repair, paint refinishing, color matching, and insurance-claim assistance."
+    }
+  ]
+}
