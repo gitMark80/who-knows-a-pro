@@ -3,7 +3,7 @@
   "continuationOf": "reports/verified-fill1000s-2026-11-03.json",
   "verifiedAt": "2026-11-03T08:20:21.382Z",
   "target": 309,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 309,
   "sourceRecordCount": 155,
   "uniqueBusinessDomains": 129,
@@ -2401,10 +2401,42 @@
   ],
   "requestedRunTarget": 1000,
   "previousPublishedPlacements": 691,
-  "publishedPlacements": 0,
+  "publishedPlacements": 309,
   "cumulativePreparedPlacements": 1000,
-  "runShortfall": 309,
+  "runShortfall": 0,
   "shortfallAfterCheckpointPublication": 0,
-  "runComplete": false,
-  "targetMeaning": "target is this publication checkpoint size; requested cumulative target is 1000"
+  "runComplete": true,
+  "targetMeaning": "target is this publication checkpoint size; requested cumulative target is 1000",
+  "cumulativePublishedPlacements": 1000,
+  "cumulativeLiveVerifiedPlacements": 1000,
+  "overallQualificationGoalComplete": false,
+  "sourceCommit": "b56bbbfab93830898ffa13e54de178a29f82ab7b",
+  "deploymentId": "dpl_3WKnKkpwXVT4iNC9cjFFv8FnAFvR",
+  "liveVerifiedAt": "2026-11-03T08:26:53.709480+00:00",
+  "liveCoverage": {
+    "pairs": 1200,
+    "pairsAt20": 744,
+    "pairsBelow20": 456,
+    "emptyPairs": 0,
+    "deficit": 2138
+  },
+  "liveVerification": {
+    "sourceCommit": "b56bbbfab93830898ffa13e54de178a29f82ab7b",
+    "deploymentId": "dpl_3WKnKkpwXVT4iNC9cjFFv8FnAFvR",
+    "checkedAt": "2026-11-03T08:26:53.709480+00:00",
+    "categoryPages": 148,
+    "placementCount": 309,
+    "placementsPassed": 309,
+    "profileCount": 131,
+    "profilesPassed": 131
+  },
+  "validationChecks": {
+    "schema": true,
+    "priorRecordsAndProfileLinksPreserved": true,
+    "slugs": true,
+    "duplicates": true,
+    "types": true,
+    "lint": true,
+    "productionBuild": true
+  }
 }

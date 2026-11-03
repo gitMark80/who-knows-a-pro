@@ -1,6 +1,6 @@
 # Directory fill continuation — 2026-11-03
 
-Status: **145 new placements published and live-verified**, bringing this 1,000-placement request to **691 published**, with **309 remaining**. All 145 new cards across 84 category pages and all 50 profiles passed live checks. The 1,200-page production audit matches prepared coverage. Source commit: `e59728376482bf75a36d35d72466f7ba38ce9177`; production deployment `dpl_G2Rkpueyu6By6wL1PawwLjUwHNnA` is READY.
+Status: **145 new placements published and live-verified**, bringing this 1,000-placement request to **691 published**, with **309 remaining**. All 145 new cards across 84 category pages and all 50 profiles passed live checks. The production audit of 1,200 category counts across 40 city pages matches prepared coverage. Source commit: `e59728376482bf75a36d35d72466f7ba38ce9177`; production deployment `dpl_G2Rkpueyu6By6wL1PawwLjUwHNnA` is READY.
 
 Baseline main: `7612c382bfc148d3c478b1eddab40a0975d8ec1e`. The enabled automation has no newer recorded active run; its last run completed at 2026-11-03T01:20:05Z. Recheck main and automation immediately before publishing. Schedule unchanged.
 
@@ -92,4 +92,4 @@ Continue on latest main with fresh live coverage. Priority-city deficits remain 
 
 Continue remaining low-count appliance, septic, marine, screen enclosure, collision and hurricane-protection pairs. Source blockers are in blockers-fill1000s-2026-11-03.json. This request has not reached 1,000; completion is not claimed. Overall qualification completion is not established and automation remains enabled.
 
-No Google Maps/Places, Yelp, Angi, paid API calls, Foursquare credits, outreach or purchases used. Prior R checkpoint final live evidence and all-1,200-page audit are included in this commit.
+No Google Maps/Places, Yelp, Angi, paid API calls, Foursquare credits, outreach or purchases used. Prior R checkpoint final live evidence and audit of all 1,200 category counts are included in this commit.

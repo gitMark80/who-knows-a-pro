@@ -1,9 +1,9 @@
 {
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "requestedRunTarget": 1000,
   "previousPublishedPlacements": 691,
   "preparedPlacements": 309,
-  "publishedPlacements": 0,
+  "publishedPlacements": 309,
   "shortfallAfterCheckpointPublication": 0,
   "blockers": [
     {
@@ -46,5 +46,8 @@
       "website": "https://callstegall.com/generators/",
       "reason": "Generator candidate could not be verified from accessible official content; held."
     }
-  ]
+  ],
+  "cumulativePublishedPlacements": 1000,
+  "runShortfall": 0,
+  "overallQualificationGoalComplete": false
 }

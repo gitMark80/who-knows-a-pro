@@ -1,12 +1,12 @@
 # Directory fill continuation — 2026-11-03
 
-Status: **309 prepared placements**, not yet published. Earlier checkpoints P (241), Q (189), R (116) and S (145) have **691 published and live-verified placements**. Publication and live verification of this checkpoint would complete this request for 1,000 additional placements.
+Status: **309 new placements published and live-verified**, completing this request for **1,000 additional city/category placements** across checkpoints P (241), Q (189), R (116), S (145) and T (309). **Run shortfall: 0.** All 309 new cards across 148 category pages and all 131 profiles passed live checks. Source commit `b56bbbfab93830898ffa13e54de178a29f82ab7b`; production deployment `dpl_3WKnKkpwXVT4iNC9cjFFv8FnAFvR` is READY.
 
 Baseline main: `e59728376482bf75a36d35d72466f7ba38ce9177`. Automation last recorded run completed 2026-11-03T01:20:05Z; no active recorded run at the pre-publication check. Recheck head before compare-and-swap publication. Schedule unchanged.
 
 Catalog: **40 active cities × 30 visible categories = 1,200 pairs**. Ten hidden categories remain hidden and unchanged. Grayton Beach is active; Panama City and Panama City Beach are separate. The existing import target is 20; no application-code changes were needed.
 
-Prepared coverage: **744 pairs at 20+, 456 below 20, 0 empty, deficit 2138**. This is directory count coverage, not a fresh qualification audit of all historical listings. Older national/commercial entries remain preserved; the overall qualifying-coverage goal is not complete.
+Live count coverage: **744 pairs at 20+, 456 below 20, 0 empty, deficit 2138**. This is directory count coverage, not a fresh qualification audit of all historical listings. Older national/commercial entries remain preserved; the overall qualifying-coverage goal is not complete.
 
 Selected evidence: **155 appended source rows**, **129 normalized website hosts**, **141 source pages**, **136 linked official website URLs**. Every selected source, supplementary evidence page, customer evidence page and official website returned HTTP 200. Timestamps, final URLs, concise notes and response-text hashes are stored in the source and website check reports. Unselected candidates are not counted.
 
@@ -23,7 +23,7 @@ Validation preserves all **22,939** existing generated listings, their order and
 
 ## Additions by city
 
-| City slug | Prepared placements |
+| City slug | Published placements |
 |---|---:|
 | gulf-shores-al | 2 |
 | foley-al | 2 |
@@ -54,7 +54,7 @@ Validation preserves all **22,939** existing generated listings, their order and
 
 ## Additions by category
 
-| Category slug | Prepared placements |
+| Category slug | Published placements |
 |---|---:|
 | water-damage-mold-remediation | 11 |
 | pool-installation | 23 |
@@ -107,6 +107,8 @@ Validation preserves all **22,939** existing generated listings, their order and
 
 Start from latest main, check recorded active runs and live coverage, then resume the lowest qualified counts. Priority-city count deficits remain Destin 5, Fort Walton Beach 4, Crestview 7 and Panama City 5, mainly septic, collision and marine gaps. Current official searches reconfirmed existing regional providers; no inferred cross-city coverage or duplicate identities were added to force those pairs to 20.
 
-Continue remaining gaps outward from Pensacola. The final live audit CSV will list every deficit. Blocker candidates are research leads only. Do not reactivate excluded national/commercial brands or duplicate alternate domains. Overall qualifying coverage remains unfinished; leave automation enabled.
+Continue remaining gaps outward from Pensacola. The final live audit CSV lists every deficit and exactly matches prepared counts. Blocker candidates are research leads only. Do not reactivate excluded national/commercial brands or duplicate alternate domains. Overall qualifying coverage remains unfinished; leave automation enabled.
 
-No Google Maps/Places, Yelp, Angi, paid APIs, Foursquare credits, outreach, purchases or subscription changes used. This checkpoint also includes S final live evidence and its complete 1,200-page audit.
+No Google Maps/Places, Yelp, Angi, paid APIs, Foursquare credits, outreach, purchases or subscription changes used. This checkpoint also includes S final live evidence and its complete audit of 1,200 category counts across 40 production city pages.
+
+The complete request summary is in `progress-fill1000-request-2026-11-03.md` and `fill1000-request-summary-2026-11-03.json`. Each new placement was live-verified at its publication checkpoint; no candidate-only records count toward 1,000.
