@@ -2,7 +2,7 @@
   "baselineCommit": "5a8d0d9a088dd8357d01dcd9cdae6c5d2643d50c",
   "continuationOf": "reports/verified-fill1000v-2026-11-03.json",
   "verifiedAt": "2026-11-03T15:04:05.720Z",
-  "target": 71,
+  "target": 1000,
   "status": "published_live_verified",
   "placementCount": 71,
   "sourceRecordCount": 50,
@@ -793,5 +793,11 @@
   "publishedCommit": "eebc34ef726e9551e97fef1294e04f57ff3c16e0",
   "deploymentId": "dpl_DC55t5GKct1GUbF2JcdDaH2JJ8Qb",
   "publishedPlacements": 71,
-  "cumulativePublishedPlacements": 189
+  "cumulativePublishedPlacements": 189,
+  "sourceCommit": "eebc34ef726e9551e97fef1294e04f57ff3c16e0",
+  "publishedPlacementCount": 71,
+  "cumulativePublishedThisManualRun": 189,
+  "remainingManualRunShortfall": 811,
+  "liveEvidence": "reports/live-fill1000v2-2026-11-03.json",
+  "liveCoverageAudit": "reports/coverage-fill1000v2-live-2026-11-03.csv"
 }

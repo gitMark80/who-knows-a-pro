@@ -2,8 +2,8 @@
   "baselineCommit": "2018bd9d211464e41457b91726c05fc1f0aa0a41",
   "continuationOf": "reports/progress-fill500u-2026-11-03.md",
   "verifiedAt": "2026-11-03T14:43:51.120Z",
-  "target": 118,
-  "status": "prepared_not_published",
+  "target": 1000,
+  "status": "published_live_verified",
   "placementCount": 118,
   "sourceRecordCount": 53,
   "uniqueBusinessDomains": 46,
@@ -876,5 +876,12 @@
   ],
   "requestedRunTarget": 1000,
   "checkpointTarget": 118,
-  "remainingToRequestedTarget": 882
+  "remainingToRequestedTarget": 882,
+  "sourceCommit": "5a8d0d9a088dd8357d01dcd9cdae6c5d2643d50c",
+  "deploymentId": "dpl_F1puxYWebDkJpkFJHmeZSVmVnSP8",
+  "publishedPlacementCount": 118,
+  "cumulativePublishedThisManualRun": 118,
+  "remainingManualRunShortfall": 882,
+  "liveEvidence": "reports/live-fill1000v-2026-11-03.json",
+  "liveCoverageAudit": "reports/coverage-fill1000v-live-2026-11-03.csv"
 }

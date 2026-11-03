@@ -1,0 +1,80 @@
+{
+  "sourceCommit": "1c8c7894f0fa0b92b65153286e06db1eb6d7549c",
+  "checkedAt": "2026-11-03T16:45:31.634285+00:00",
+  "checked": 12,
+  "passed": 12,
+  "results": [
+    {
+      "url": "https://whoknowsapro.com/business/apex-design-and-remodel?region=destin-fl&trade=flooring",
+      "expectedContext": "Flooring serving Destin, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/apex-design-and-remodel?region=fort-walton-beach-fl&trade=flooring",
+      "expectedContext": "Flooring serving Fort Walton Beach, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/apex-design-and-remodel?region=crestview-fl&trade=flooring",
+      "expectedContext": "Flooring serving Crestview, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/hero-home-improvements?region=panama-city-fl&trade=flooring",
+      "expectedContext": "Flooring serving Panama City, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/hero-home-improvements?region=panama-city-beach-fl&trade=flooring",
+      "expectedContext": "Flooring serving Panama City Beach, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/destin-renovations-dj-land-and-associates?region=grayton-beach-fl&trade=flooring",
+      "expectedContext": "Flooring serving Grayton Beach, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/affordable-home-improvement-of-the-emerald-coast?region=pensacola-fl&trade=gutters",
+      "expectedContext": "Gutters serving Pensacola, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/majors-home-improvement?region=mobile-al&trade=kitchen-bath-remodeling",
+      "expectedContext": "Kitchen & bath remodeling serving Mobile, AL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/stoneage-home-remodeling?region=atlanta-ga&trade=flooring",
+      "expectedContext": "Flooring serving Atlanta, GA",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/fast-septic-1-llc?region=miami-fl&trade=septic-services",
+      "expectedContext": "Septic services serving Miami, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/fast-septic-1-llc?region=fort-lauderdale-fl&trade=septic-services",
+      "expectedContext": "Septic services serving Fort Lauderdale, FL",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/fireservice-emergency-disaster-response?region=naples-fl&trade=water-damage-mold-remediation",
+      "expectedContext": "Water damage & mold remediation serving Naples, FL",
+      "status": 200,
+      "passed": true
+    }
+  ]
+}

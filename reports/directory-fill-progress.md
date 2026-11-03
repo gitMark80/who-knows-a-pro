@@ -1,3 +1,62 @@
+# Manual 1,000-placement run completed — 2026-11-03
+
+**Published and live-verified: 1,000 new city/category/business placements across all 40 active cities and 27 categories. Run shortfall: 0.** Seven checkpoints are recorded in `reports/manual-run-fill1000v-2026-11-03.json`. Evidence, response checks, candidates, validation and each checkpoint's live results are committed. These are placements; one company can serve multiple verified cities or categories.
+
+Latest data commit: `1c8c7894f0fa0b92b65153286e06db1eb6d7549c`. All 23,288 baseline generated records were preserved exactly; new generated total 24,288. No deletion, claims/submission edits or paid-placement changes.
+
+The active catalog is 40 cities × 30 visible categories, with ten hidden categories preserved. Live displayed coverage: **808/1,200 at 20+, 392 below 20, zero empty, displayed deficit 1,491**. The displayed deficit fell from 2,098 at run start. **This is not a certified qualifying-business deficit:** the historical corpus still needs a full relevance, identity and working-website audit. Global completion is not claimed; automation should remain eligible to continue.
+
+The final checkpoint replaces the optional importer quota's reliance on old display totals with freshly reviewed evidence. Prior displayed rows stay intact; they cannot block genuinely verified local additions just because a page already displays 20. Default import behavior stays unchanged unless reviewed-evidence files are supplied. The current reviewed subset covers 1,060 placements in 446 combinations and does not establish any combination as freshly verified complete.
+
+Next: start from latest main and check active runs/live coverage. Reverify remaining evidence and prioritize Destin, Fort Walton Beach, Crestview and Panama City by verified counts, then work outward. Resumable detail and blockers: `reports/progress-fill1000v7-2026-11-03.md`. Research-only remaining candidate: 24-7 Pump Out / Miami septic. No paid APIs, Foursquare spending, outreach, purchases, subscription changes or deletes were used.
+
+## Additions by city for this manual run
+
+| City | New published placements |
+|---|---:|
+| panama-city-fl | 21 |
+| tallahassee-fl | 25 |
+| orange-beach-al | 33 |
+| gulf-shores-al | 33 |
+| foley-al | 39 |
+| fairhope-al | 35 |
+| daphne-al | 40 |
+| mobile-al | 26 |
+| biloxi-ms | 35 |
+| gulfport-ms | 45 |
+| dothan-al | 19 |
+| montgomery-al | 35 |
+| auburn-al | 12 |
+| fort-walton-beach-fl | 28 |
+| destin-fl | 23 |
+| crestview-fl | 19 |
+| gulf-breeze-fl | 29 |
+| pace-fl | 24 |
+| perdido-key-fl | 6 |
+| navarre-fl | 23 |
+| jacksonville-fl | 4 |
+| tampa-fl | 7 |
+| clearwater-fl | 15 |
+| st-petersburg-fl | 14 |
+| orlando-fl | 17 |
+| sarasota-fl | 19 |
+| fort-myers-fl | 11 |
+| naples-fl | 14 |
+| fort-lauderdale-fl | 20 |
+| new-orleans-la | 34 |
+| baton-rouge-la | 29 |
+| birmingham-al | 50 |
+| huntsville-al | 41 |
+| atlanta-ga | 32 |
+| west-palm-beach-fl | 25 |
+| miami-fl | 22 |
+| panama-city-beach-fl | 14 |
+| grayton-beach-fl | 11 |
+| pensacola-fl | 44 |
+| milton-fl | 27 |
+
+---
+
 # Directory fill checkpoint — 2026-09-29
 
 ## This batch

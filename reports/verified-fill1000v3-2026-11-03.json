@@ -884,5 +884,11 @@
   "liveVerification": "reports/live-fill1000v3-2026-11-03.json",
   "liveCoverage": "reports/coverage-fill1000v3-live-2026-11-03.csv",
   "publishedThisRun": 276,
-  "remainingRunShortfall": 724
+  "remainingRunShortfall": 724,
+  "sourceCommit": "78855e7989a90adc949233c73804035d7038cc3e",
+  "publishedPlacementCount": 87,
+  "cumulativePublishedThisManualRun": 276,
+  "remainingManualRunShortfall": 724,
+  "liveEvidence": "reports/live-fill1000v3-2026-11-03.json",
+  "liveCoverageAudit": "reports/coverage-fill1000v3-live-2026-11-03.csv"
 }
