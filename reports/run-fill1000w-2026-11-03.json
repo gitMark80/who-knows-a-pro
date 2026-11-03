@@ -1,24 +1,27 @@
 {
   "status": "published_and_live_verified",
   "baselineCommit": "e1b31884693adacbcc982b6c93c9dfae075cd096",
-  "publishedCommit": "a5b9b0220f502c74049b7734bcb4d6fa7f7db43c",
-  "deploymentId": "dpl_Cm3FRwuGDXVhdtqcwN5BzC64N6bk",
+  "publishedCommit": "73affa86be3c443407c0f9fc619ec6d68e1739b1",
+  "deploymentId": "dpl_6Ce9y9DFi4fPz5zcQdbStbFGm5Nt",
   "deploymentState": "READY",
   "runNewBusinessTarget": 1000,
-  "distinctNewBusinessesPublishedAndLiveVerified": 12,
-  "newBusinessShortfall": 988,
+  "distinctNewBusinessesPublishedAndLiveVerified": 14,
+  "newBusinessShortfall": 986,
   "placements": {
-    "fromNewBusinesses": 16,
+    "fromNewBusinesses": 19,
     "fromPreviouslyListedBusinesses": 0,
-    "published": 16,
-    "liveVerified": 16
+    "published": 19,
+    "liveVerified": 19
   },
   "liveVerification": {
-    "categoryPages": 12,
-    "placementsPassed": 16,
-    "profilesPassed": 12,
-    "officialWebsiteLinksPassed": 16,
-    "report": "reports/live-fill1000w-2026-11-03.json"
+    "categoryPages": 15,
+    "placementsPassed": 19,
+    "profilesPassed": 14,
+    "officialWebsiteLinksPassed": 19,
+    "reports": [
+      "reports/live-fill1000w-2026-11-03.json",
+      "reports/live-fill1000w2-2026-11-03.json"
+    ]
   },
   "catalog": {
     "activeCities": 40,
@@ -32,7 +35,7 @@
     "pagesAt20OrMore": 808,
     "pagesBelow20": 392,
     "emptyPages": 0,
-    "displayedDeficit": 1491
+    "displayedDeficit": 1489
   },
   "qualifyingCoverage": {
     "completeAudit": false,
@@ -44,16 +47,20 @@
   },
   "additionsByCity": {
     "baton-rouge-la": 2,
+    "destin-fl": 1,
+    "fort-walton-beach-fl": 2,
     "tampa-fl": 3,
     "sarasota-fl": 3,
     "fort-myers-fl": 4,
     "naples-fl": 4
   },
   "additionsByCategory": {
+    "auto-body-collision": 1,
     "auto-mechanics": 3,
     "locksmith": 1,
     "screen-enclosures-pool-cages": 4,
     "marine-services": 6,
+    "septic-services": 2,
     "hurricane-shutters-impact-windows": 2
   },
   "historicalFlags": {
@@ -64,8 +71,8 @@
     "report": "reports/historical-qualification-flags-2026-11-03.json"
   },
   "candidateStatus": {
-    "distinctNewBusinessDomainsResearched": 14,
-    "publishedAndLiveVerified": 12,
+    "distinctNewBusinessDomainsResearched": 16,
+    "publishedAndLiveVerified": 14,
     "withheldByExistingNationalBrandExclusion": 2,
     "pending": 0,
     "awaitingDeployment": 0,
@@ -74,7 +81,7 @@
   "validation": {
     "priorGeneratedListingsPreserved": 24288,
     "priorRawEvidenceRowsPreserved": 4153,
-    "generatedListingsAfter": 24304,
+    "generatedListingsAfter": 24307,
     "jsonAndSchema": "passed",
     "activeSlugs": "passed",
     "duplicateHandling": "passed",

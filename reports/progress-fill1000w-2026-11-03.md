@@ -9,15 +9,15 @@
 
 ## Prepared additions
 
-- 12 distinct new business domains absent from the fixed baseline.
-- 16 qualifying city/category placements, all from those new businesses; zero placements from baseline businesses.
-- Cities: Baton Rouge 2, Tampa 3, Sarasota 3, Fort Myers 4, Naples 4.
-- Categories: auto mechanics 3, locksmith 1, screen enclosures/pool cages 4, marine services 6, hurricane shutters/impact windows 2.
-- All 17 unique official website/source URLs returned successfully. The only cross-domain redirect was the documented Germain Yachts to SI Yachts transition; the qualifying Naples service page belongs to the final SI Yachts identity.
+- 14 distinct new business domains absent from the fixed baseline.
+- 19 qualifying city/category placements, all from those new businesses; zero placements from baseline businesses.
+- Cities: Baton Rouge 2, Destin 1, Fort Walton Beach 2, Tampa 3, Sarasota 3, Fort Myers 4, Naples 4.
+- Categories: auto body/collision 1, auto mechanics 3, locksmith 1, screen enclosures/pool cages 4, marine services 6, septic services 2, hurricane shutters/impact windows 2.
+- All 19 unique official website/source URLs returned successfully. The only cross-domain redirect was the documented Germain Yachts to SI Yachts transition; the qualifying Naples service page belongs to the final SI Yachts identity.
 - Two additional national-brand candidate domains (Gerber Collision and ASP) were withheld because the repository intentionally excludes those domains. Shared brand URLs were not counted as separate franchise businesses.
-- Published commit: `a5b9b0220f502c74049b7734bcb4d6fa7f7db43c`; production deployment: `dpl_Cm3FRwuGDXVhdtqcwN5BzC64N6bk` (`READY`).
-- All 16 placements passed on 12 live category pages; all 12 profiles and intended official-site links passed. Live evidence: `reports/live-fill1000w-2026-11-03.json`.
-- Run target shortfall: 988 distinct new businesses.
+- Published checkpoints: `a5b9b0220f502c74049b7734bcb4d6fa7f7db43c` and `73affa86be3c443407c0f9fc619ec6d68e1739b1`; both production deployments reached `READY`.
+- All 19 placements passed on 15 live category pages; all 14 profiles and intended official-site links passed. Live evidence: `reports/live-fill1000w-2026-11-03.json` and `reports/live-fill1000w2-2026-11-03.json`.
+- Run target shortfall: 986 distinct new businesses.
 
 ## Qualification controls
 
@@ -35,7 +35,7 @@
 
 - A fresh complete qualification audit of all 24,288 displayed placements is not complete. Therefore the exact qualifying page count and qualifying deficit remain unknown.
 - The 808/392/1,491 figures above are display counts only. No page is certified complete merely because it renders 20 records.
-- Current-run reviewed evidence adds 16 qualifying placements across 12 pages; none of those pages is independently certified at 20 by this run alone.
+- Current-run reviewed evidence adds 19 qualifying placements across 15 pages; none of those pages is independently certified at 20 by this run alone.
 
 ## Validation
 
