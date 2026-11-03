@@ -15,7 +15,8 @@ retries = int(os.environ.get("FILL_HTTP_RETRIES", "3"))
 workers = int(os.environ.get("FILL_HTTP_WORKERS", "8"))
 records_path = os.environ.get("FILL_SOURCE_RECORDS")
 if records_path:
-    candidates = json.loads(Path(records_path).read_text())["records"]
+    payload = json.loads(Path(records_path).read_text())
+    candidates = payload if isinstance(payload, list) else payload["records"]
 else:
     candidates = json.loads(Path(f"reports/candidates-{run}-{date}.json").read_text())
 urls = []

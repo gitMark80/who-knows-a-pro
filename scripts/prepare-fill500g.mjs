@@ -1,12 +1,14 @@
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
+import { normalizeDomain, validateQualifyingCandidate } from './qualification-policy.mjs';
 
 const target = Number(process.env.FILL_TARGET ?? 500);
+const runNewBusinessTarget = Number(process.env.FILL_NEW_BUSINESS_TARGET ?? 1000);
 const run = process.env.FILL_RUN ?? 'fill500g';
 const date = process.env.FILL_DATE ?? '2026-11-01';
 const verifiedAt = new Date().toISOString();
-const sourcePath = 'data/verified-coverage-2026-09-28.json';
+const sourcePath = process.env.FILL_SOURCE_PATH ?? 'data/verified-coverage-2026-09-28.json';
 const baselineDirectory = process.env.FILL_BASELINE_DIRECTORY ?? '/tmp/fill500g-before';
 const originalText = fs.readFileSync(sourcePath, 'utf8');
 const committedText = execFileSync('git', ['show', `HEAD:${sourcePath}`], {
@@ -28,9 +30,9 @@ const rawCandidates = candidateFiles.flatMap((path) => JSON.parse(fs.readFileSyn
 const reviewedEvidenceFiles = JSON.parse(process.env.FILL_REVIEWED_EVIDENCE_FILES ?? '[]');
 const regionSet = new Set(catalog.activeRegions.map((row) => row.slug));
 const tradeSet = new Set(catalog.visibleTrades.map((row) => row.slug));
-const normalizeDomain = (value) => new URL(value).hostname.toLowerCase().replace(/^www\./, '');
 const placementKey = (website, region, trade) => `${normalizeDomain(website)}|${region}|${trade}`;
 const existingKeys = new Set(seed.map((row) => placementKey(row.website, row.region, row.trade)));
+const baselineDomains = new Set(seed.map((row) => normalizeDomain(row.website)));
 const existingNames = new Map(seed.map((row) => [normalizeDomain(row.website), row.name]));
 const beforeCounts = new Map();
 for (const row of seed) {
@@ -43,6 +45,7 @@ const validateCandidates = (input) => input.map((candidate) => {
   // A national commercial service area alone does not qualify a home-service listing.
   // Keep this evidence in the candidate checkpoint so later runs can review it.
   const consumerTrades = new Set(['auto-mechanics', 'auto-body-collision', 'towing', 'marine-services']);
+  validateQualifyingCandidate(candidate);
   assert(['residential', 'consumer'].includes(candidate.customerScope), `Residential/consumer scope missing for ${candidate.name}`);
   assert(typeof candidate.customerEvidence === 'string' && candidate.customerEvidence.length > 80, `Residential/consumer evidence missing for ${candidate.name}`);
   assert(candidate.customerSourceUrl?.startsWith('https://'), `Customer evidence URL missing for ${candidate.name}`);
@@ -55,7 +58,7 @@ const validateCandidates = (input) => input.map((candidate) => {
     .map((region) => region.slug);
   assert(regions.length > 0, `No active regions for ${candidate.name}`);
   assert(candidate.evidenceNote.length > 80, `Short evidence note for ${candidate.name}`);
-  return { ...candidate, regions };
+  return validateQualifyingCandidate({ ...candidate, regions }, { catalog });
 });
 const candidates = validateCandidates(rawCandidates);
 const reviewedKeys = new Set();
@@ -154,6 +157,8 @@ const additionsByBusiness = Object.fromEntries([...selected.reduce((m, r) => {
   return m.set(key, (m.get(key) ?? 0) + 1);
 }, new Map())]);
 const selectedCandidates = candidates.filter((candidate) => selected.some((row) => row.candidate === candidate));
+const selectedNewBusinessDomains = new Set(selected.map((row) => normalizeDomain(row.candidate.website)).filter((domain) => !baselineDomains.has(domain)));
+const placementsFromNewBusinesses = selected.filter((row) => selectedNewBusinessDomains.has(normalizeDomain(row.candidate.website))).length;
 const checks = [...new Map(selectedCandidates.map((candidate) => [candidate.sourceUrl, candidate])).values()].map((candidate) => ({
   url: candidate.sourceUrl,
   officialDomain: normalizeDomain(candidate.website),
@@ -193,6 +198,11 @@ const report = {
   continuationOf: process.env.FILL_CONTINUATION_OF ?? 'reports/verified-fill1000f-2026-10-31.json',
   verifiedAt,
   target,
+  runNewBusinessTarget,
+  newBusinessCount: selectedNewBusinessDomains.size,
+  newBusinessShortfall: Math.max(0, runNewBusinessTarget - selectedNewBusinessDomains.size),
+  placementsFromNewBusinesses,
+  placementsFromPreviouslyListedBusinesses: selected.length - placementsFromNewBusinesses,
   status: 'prepared_not_published',
   placementCount: selected.length,
   sourceRecordCount: records.length,

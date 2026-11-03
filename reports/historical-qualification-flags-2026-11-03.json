@@ -1,0 +1,2401 @@
+{
+  "checkedAt": "2026-11-03T23:01:01.475Z",
+  "sourcePath": "data/verified-coverage-2026-09-28.json",
+  "status": "review_required_public_visibility_unchanged",
+  "methodology": "Conservative text scan of saved evidence. A flag excludes a placement from qualifying coverage until residential service, direct-provider status, category match, specific local coverage, and official identity are jointly reverified. Flags do not delete or hide records.",
+  "flaggedSourceRows": 584,
+  "flaggedPlacements": 8816,
+  "flaggedBusinessIdentities": 158,
+  "retailFixIt": {
+    "name": "Retail Fix It",
+    "website": "https://www.retailfixit.com/",
+    "reasons": [
+      "unsupported_residential_service",
+      "unsupported_specific_geography",
+      "intermediary_or_managed_network"
+    ],
+    "sourceRows": 22,
+    "placements": 396,
+    "sourceIndexes": [
+      2024,
+      2027,
+      2030,
+      2033,
+      2035,
+      2057,
+      2108,
+      2125,
+      2127,
+      2129,
+      2132,
+      2138,
+      2141,
+      2209,
+      2211,
+      2213,
+      2322,
+      2324,
+      2348,
+      2354,
+      2360,
+      2445
+    ]
+  },
+  "businesses": [
+    {
+      "name": "Vixxo",
+      "website": "https://www.vixxo.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 32,
+      "placements": 460,
+      "sourceIndexes": [
+        2126,
+        2130,
+        2133,
+        2139,
+        2140,
+        2142,
+        2144,
+        2146,
+        2148,
+        2149,
+        2150,
+        2155,
+        2156,
+        2158,
+        2162,
+        2210,
+        2212,
+        2214,
+        2286,
+        2293,
+        2303,
+        2323,
+        2344,
+        2350,
+        2355,
+        2358,
+        2362,
+        2376,
+        2403,
+        2409,
+        2440,
+        2447
+      ]
+    },
+    {
+      "name": "Divisions Maintenance Group",
+      "website": "https://dmg360.com/",
+      "reasons": [
+        "unsupported_specific_geography",
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 38,
+      "placements": 426,
+      "sourceIndexes": [
+        2165,
+        2169,
+        2172,
+        2175,
+        2176,
+        2178,
+        2179,
+        2182,
+        2185,
+        2186,
+        2189,
+        2191,
+        2195,
+        2198,
+        2202,
+        2282,
+        2285,
+        2288,
+        2292,
+        2297,
+        2308,
+        2314,
+        2316,
+        2317,
+        2320,
+        2342,
+        2351,
+        2356,
+        2359,
+        2367,
+        2381,
+        2392,
+        2402,
+        2404,
+        2414,
+        2426,
+        2435,
+        2451
+      ]
+    },
+    {
+      "name": "Retail Fix It",
+      "website": "https://www.retailfixit.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "sourceRows": 22,
+      "placements": 396,
+      "sourceIndexes": [
+        2024,
+        2027,
+        2030,
+        2033,
+        2035,
+        2057,
+        2108,
+        2125,
+        2127,
+        2129,
+        2132,
+        2138,
+        2141,
+        2209,
+        2211,
+        2213,
+        2322,
+        2324,
+        2348,
+        2354,
+        2360,
+        2445
+      ]
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "reasons": [
+        "unsupported_specific_geography",
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 19,
+      "placements": 309,
+      "sourceIndexes": [
+        2018,
+        2022,
+        2039,
+        2040,
+        2058,
+        2059,
+        2067,
+        2071,
+        2072,
+        2073,
+        2094,
+        2095,
+        2097,
+        2098,
+        2100,
+        2109,
+        2119,
+        2120,
+        2123
+      ]
+    },
+    {
+      "name": "All In One Services",
+      "website": "https://www.allinonesvc.com/",
+      "reasons": [
+        "unsupported_specific_geography",
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 19,
+      "placements": 238,
+      "sourceIndexes": [
+        2250,
+        2251,
+        2258,
+        2294,
+        2305,
+        2311,
+        2327,
+        2329,
+        2332,
+        2334,
+        2336,
+        2340,
+        2346,
+        2378,
+        2391,
+        2401,
+        2411,
+        2423,
+        2450
+      ]
+    },
+    {
+      "name": "PR Services",
+      "website": "https://prsretailsolutions.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 8,
+      "placements": 233,
+      "sourceIndexes": [
+        1985,
+        1994,
+        1997,
+        2000,
+        2005,
+        2008,
+        2012,
+        2015
+      ]
+    },
+    {
+      "name": "Local Buckets",
+      "website": "https://localbuckets.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 7,
+      "placements": 216,
+      "sourceIndexes": [
+        1983,
+        1984,
+        1993,
+        1999,
+        2003,
+        2007,
+        2010
+      ]
+    },
+    {
+      "name": "Lessen",
+      "website": "https://www.lessen.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 18,
+      "placements": 190,
+      "sourceIndexes": [
+        2166,
+        2167,
+        2174,
+        2188,
+        2190,
+        2201,
+        2205,
+        2206,
+        2287,
+        2291,
+        2321,
+        2347,
+        2373,
+        2388,
+        2398,
+        2421,
+        2432,
+        2434
+      ]
+    },
+    {
+      "name": "CARE Facility Maintenance",
+      "website": "https://carefms.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 7,
+      "placements": 184,
+      "sourceIndexes": [
+        2017,
+        2019,
+        2021,
+        2026,
+        2029,
+        2032,
+        2034
+      ]
+    },
+    {
+      "name": "Gallant",
+      "website": "https://egallant.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 24,
+      "placements": 174,
+      "sourceIndexes": [
+        2221,
+        2225,
+        2226,
+        2227,
+        2229,
+        2233,
+        2236,
+        2240,
+        2246,
+        2271,
+        2275,
+        2278,
+        2281,
+        2299,
+        2319,
+        2357,
+        2368,
+        2383,
+        2393,
+        2405,
+        2416,
+        2428,
+        2437,
+        2453
+      ]
+    },
+    {
+      "name": "TrueSource",
+      "website": "https://truesource.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 12,
+      "placements": 167,
+      "sourceIndexes": [
+        2168,
+        2171,
+        2177,
+        2181,
+        2194,
+        2207,
+        2284,
+        2302,
+        2349,
+        2361,
+        2408,
+        2446
+      ]
+    },
+    {
+      "name": "Ferrandino & Son",
+      "website": "https://ferrandinoandson.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 12,
+      "placements": 153,
+      "sourceIndexes": [
+        2131,
+        2137,
+        2145,
+        2153,
+        2159,
+        2208,
+        2290,
+        2353,
+        2371,
+        2386,
+        2419,
+        2441
+      ]
+    },
+    {
+      "name": "Genstone Field Services",
+      "website": "https://www.genstonefieldservices.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 19,
+      "placements": 151,
+      "sourceIndexes": [
+        2216,
+        2222,
+        2228,
+        2230,
+        2234,
+        2241,
+        2249,
+        2264,
+        2266,
+        2272,
+        2279,
+        2372,
+        2387,
+        2396,
+        2406,
+        2420,
+        2431,
+        2442,
+        2455
+      ]
+    },
+    {
+      "name": "EMCOR Facilities Services",
+      "website": "https://emcorfacilities.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 18,
+      "placements": 148,
+      "sourceIndexes": [
+        2173,
+        2180,
+        2184,
+        2187,
+        2193,
+        2197,
+        2200,
+        2204,
+        2289,
+        2300,
+        2352,
+        2369,
+        2384,
+        2394,
+        2417,
+        2429,
+        2438,
+        2454
+      ]
+    },
+    {
+      "name": "VXO Services",
+      "website": "https://vxoservices.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 11,
+      "placements": 142,
+      "sourceIndexes": [
+        2252,
+        2253,
+        2255,
+        2257,
+        2260,
+        2263,
+        2345,
+        2363,
+        2400,
+        2407,
+        2448
+      ]
+    },
+    {
+      "name": "NEST",
+      "website": "https://www.enternest.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 13,
+      "placements": 139,
+      "sourceIndexes": [
+        2254,
+        2256,
+        2259,
+        2261,
+        2301,
+        2325,
+        2330,
+        2370,
+        2385,
+        2395,
+        2418,
+        2430,
+        2439
+      ]
+    },
+    {
+      "name": "MCS",
+      "website": "https://mcsgo.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 11,
+      "placements": 138,
+      "sourceIndexes": [
+        2217,
+        2223,
+        2235,
+        2267,
+        2273,
+        2280,
+        2328,
+        2337,
+        2374,
+        2390,
+        2443
+      ]
+    },
+    {
+      "name": "ABM",
+      "website": "https://www.abm.com/",
+      "reasons": [
+        "unsupported_specific_geography",
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 17,
+      "placements": 136,
+      "sourceIndexes": [
+        2219,
+        2231,
+        2237,
+        2243,
+        2247,
+        2265,
+        2269,
+        2276,
+        2304,
+        2310,
+        2335,
+        2339,
+        2365,
+        2377,
+        2410,
+        2422,
+        2449
+      ]
+    },
+    {
+      "name": "Barron Facility Services",
+      "website": "https://www.barronfacilityservices.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 5,
+      "placements": 124,
+      "sourceIndexes": [
+        2020,
+        2023,
+        2025,
+        2028,
+        2031
+      ]
+    },
+    {
+      "name": "Superior Facility Service Group",
+      "website": "https://superiorfsg.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 5,
+      "placements": 116,
+      "sourceIndexes": [
+        2534,
+        2538,
+        2551,
+        2553,
+        2559
+      ]
+    },
+    {
+      "name": "MaintenX",
+      "website": "https://maintenx.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "sourceRows": 10,
+      "placements": 115,
+      "sourceIndexes": [
+        2147,
+        2152,
+        2154,
+        2157,
+        2161,
+        2215,
+        2364,
+        2389,
+        2399,
+        2433
+      ]
+    },
+    {
+      "name": "PHFM",
+      "website": "https://www.phfmservices.com/",
+      "reasons": [
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network",
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 8,
+      "placements": 110,
+      "sourceIndexes": [
+        2262,
+        2326,
+        2331,
+        2333,
+        2338,
+        2341,
+        2375,
+        2456
+      ]
+    },
+    {
+      "name": "SLM Facility Solutions Nationwide",
+      "website": "https://www.slmfacilities.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 108,
+      "sourceIndexes": [
+        2461,
+        2475,
+        2483,
+        2492
+      ]
+    },
+    {
+      "name": "Fleet Response",
+      "website": "https://www.fleetresponse.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 3,
+      "placements": 106,
+      "sourceIndexes": [
+        2504,
+        2507,
+        2512
+      ]
+    },
+    {
+      "name": "FrontStreet Facility Solutions",
+      "website": "https://frontstreetfs.com/",
+      "reasons": [
+        "unsupported_specific_geography",
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 7,
+      "placements": 93,
+      "sourceIndexes": [
+        2467,
+        2479,
+        2488,
+        2493,
+        2496,
+        2497,
+        2499
+      ]
+    },
+    {
+      "name": "Sovereign Commercial Services",
+      "website": "https://www.sovereignfacilities.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 3,
+      "placements": 91,
+      "sourceIndexes": [
+        2473,
+        2478,
+        2485
+      ]
+    },
+    {
+      "name": "Broadway National",
+      "website": "https://broadwaynational.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 14,
+      "placements": 88,
+      "sourceIndexes": [
+        2220,
+        2232,
+        2238,
+        2244,
+        2248,
+        2270,
+        2277,
+        2295,
+        2306,
+        2312,
+        2366,
+        2379,
+        2412,
+        2424
+      ]
+    },
+    {
+      "name": "Total Comfort Group",
+      "website": "https://total-cg.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 3,
+      "placements": 82,
+      "sourceIndexes": [
+        1995,
+        1998,
+        2016
+      ]
+    },
+    {
+      "name": "DH Pace",
+      "website": "https://www.dhpace.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 79,
+      "sourceIndexes": [
+        2083,
+        2084
+      ]
+    },
+    {
+      "name": "Ferguson Aquatics",
+      "website": "https://www.fergusonaquatics.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 77,
+      "sourceIndexes": [
+        2041,
+        2045,
+        2102,
+        2110
+      ]
+    },
+    {
+      "name": "Cox Fleet",
+      "website": "https://coxfleet.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 76,
+      "sourceIndexes": [
+        2462,
+        2472
+      ]
+    },
+    {
+      "name": "Iron Wolf Facilities",
+      "website": "https://ironwolffacilityservices.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 5,
+      "placements": 76,
+      "sourceIndexes": [
+        2476,
+        2482,
+        2490,
+        2495,
+        2500
+      ]
+    },
+    {
+      "name": "Headwater Construction Group",
+      "website": "https://www.headwatercg.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 75,
+      "sourceIndexes": [
+        2042,
+        2046,
+        2103,
+        2111
+      ]
+    },
+    {
+      "name": "The Pool Company Inc.",
+      "website": "https://www.tpcipools.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 74,
+      "sourceIndexes": [
+        2043,
+        2049,
+        2106,
+        2112
+      ]
+    },
+    {
+      "name": "Performance Contracting",
+      "website": "https://www.performancecontracting.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 6,
+      "placements": 72,
+      "sourceIndexes": [
+        2055,
+        2063,
+        2069,
+        2092,
+        2117,
+        2122
+      ]
+    },
+    {
+      "name": "Local One FM",
+      "website": "https://localonefm.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 69,
+      "sourceIndexes": [
+        2469,
+        2480,
+        2491,
+        2501
+      ]
+    },
+    {
+      "name": "Wheels",
+      "website": "https://www.wheels.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 69,
+      "sourceIndexes": [
+        2509,
+        2514
+      ]
+    },
+    {
+      "name": "Hero Facility Services",
+      "website": "https://www.herofacilityservices.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "intermediary_or_managed_network",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 5,
+      "placements": 66,
+      "sourceIndexes": [
+        2460,
+        2489,
+        2494,
+        2498,
+        2502
+      ]
+    },
+    {
+      "name": "Gilliana Pools",
+      "website": "https://www.gilliana.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 64,
+      "sourceIndexes": [
+        2523,
+        2530
+      ]
+    },
+    {
+      "name": "Facility Solutions Group",
+      "website": "https://fsg.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 63,
+      "sourceIndexes": [
+        1990,
+        1991
+      ]
+    },
+    {
+      "name": "Williams Diversified LLC",
+      "website": "https://williamsdiversified.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 3,
+      "placements": 61,
+      "sourceIndexes": [
+        2539,
+        2552,
+        2560
+      ]
+    },
+    {
+      "name": "Preferred LLC",
+      "website": "https://www.preferredllc.net/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 4,
+      "placements": 59,
+      "sourceIndexes": [
+        2064,
+        2065,
+        2070,
+        2093
+      ]
+    },
+    {
+      "name": "Mega Service Solutions",
+      "website": "https://megasvs.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 58,
+      "sourceIndexes": [
+        2468,
+        2470
+      ]
+    },
+    {
+      "name": "Inside Edge Commercial Interior Services",
+      "website": "https://www.iecis.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 57,
+      "sourceIndexes": [
+        2002,
+        2009
+      ]
+    },
+    {
+      "name": "JRC",
+      "website": "https://www.jrcinco.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 57,
+      "sourceIndexes": [
+        2143,
+        2151,
+        2343,
+        2397
+      ]
+    },
+    {
+      "name": "MSC Floors",
+      "website": "https://mscfloors.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 56,
+      "sourceIndexes": [
+        2004,
+        2011
+      ]
+    },
+    {
+      "name": "Exposed Surfaces",
+      "website": "https://exposedsurfaces.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 53,
+      "sourceIndexes": [
+        2062,
+        2066,
+        2087,
+        2090
+      ]
+    },
+    {
+      "name": "Springwise Facility Management",
+      "website": "https://www.springwisefm.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 47,
+      "sourceIndexes": [
+        2516,
+        2517
+      ]
+    },
+    {
+      "name": "Agero",
+      "website": "https://www.agero.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2080
+      ]
+    },
+    {
+      "name": "AJ's Dent",
+      "website": "https://ajsdent.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2566
+      ]
+    },
+    {
+      "name": "ASAP Site Services",
+      "website": "https://www.asapsiteservices.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2459
+      ]
+    },
+    {
+      "name": "California Pools Commercial",
+      "website": "https://californiapools.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2464
+      ]
+    },
+    {
+      "name": "Dent Wizard",
+      "website": "https://www.dentwizard.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2458
+      ]
+    },
+    {
+      "name": "Detail Masters",
+      "website": "https://detailmasters.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2568
+      ]
+    },
+    {
+      "name": "Hobart Service",
+      "website": "https://www.hobartcorp.com/service",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2527
+      ]
+    },
+    {
+      "name": "HONK",
+      "website": "https://www.honkforhelp.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2081
+      ]
+    },
+    {
+      "name": "National Hail & Dent Removal",
+      "website": "https://nationalhailanddent.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2569
+      ]
+    },
+    {
+      "name": "PDR BR",
+      "website": "https://pdr-br.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2570
+      ]
+    },
+    {
+      "name": "Smart Care",
+      "website": "https://smartcaresolutions.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2078
+      ]
+    },
+    {
+      "name": "SOS Roadside",
+      "website": "https://sosroadside.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2082
+      ]
+    },
+    {
+      "name": "Tech24",
+      "website": "https://www.mytech24.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2076
+      ]
+    },
+    {
+      "name": "The PDR Company",
+      "website": "https://thepdrcompany.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2571
+      ]
+    },
+    {
+      "name": "Unlimited Service Group",
+      "website": "https://unlimitedservice.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2079
+      ]
+    },
+    {
+      "name": "Vortex Doors",
+      "website": "https://www.vortexdoors.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 40,
+      "sourceIndexes": [
+        2085
+      ]
+    },
+    {
+      "name": "Allstate Roadside",
+      "website": "https://www.allstate.com/roadside-assistance",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 39,
+      "sourceIndexes": [
+        2922
+      ]
+    },
+    {
+      "name": "AMS Roofing",
+      "website": "https://amsroofing.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 39,
+      "sourceIndexes": [
+        2574,
+        2583
+      ]
+    },
+    {
+      "name": "Vanguard Hail Solutions",
+      "website": "https://www.vanguardhailsolutions.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 39,
+      "sourceIndexes": [
+        2572
+      ]
+    },
+    {
+      "name": "Arctic Industrial Insulation, LLC",
+      "website": "https://arcticindustrialinsulation.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 38,
+      "sourceIndexes": [
+        1988
+      ]
+    },
+    {
+      "name": "Aquatic Surfaces",
+      "website": "https://aquaticsurface.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 37,
+      "sourceIndexes": [
+        2044,
+        2101
+      ]
+    },
+    {
+      "name": "ATC Hilyer Services",
+      "website": "https://www.atcservices.us/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 37,
+      "sourceIndexes": [
+        1950
+      ]
+    },
+    {
+      "name": "Central Shades",
+      "website": "https://www.centralshades.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 37,
+      "sourceIndexes": [
+        2575,
+        2585
+      ]
+    },
+    {
+      "name": "CTC Disaster Response",
+      "website": "https://ctcdisaster.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 37,
+      "sourceIndexes": [
+        1986
+      ]
+    },
+    {
+      "name": "EC Ruff Marine",
+      "website": "https://ecruffmarine.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 37,
+      "sourceIndexes": [
+        2562
+      ]
+    },
+    {
+      "name": "EOLA Power",
+      "website": "https://eolapower.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 37,
+      "sourceIndexes": [
+        1989
+      ]
+    },
+    {
+      "name": "NPS Tree Experts",
+      "website": "https://npstree.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 37,
+      "sourceIndexes": [
+        1987
+      ]
+    },
+    {
+      "name": "Triton Liners",
+      "website": "https://www.tritonliners.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 37,
+      "sourceIndexes": [
+        2506
+      ]
+    },
+    {
+      "name": "ConTeras",
+      "website": "https://conteras.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 36,
+      "sourceIndexes": [
+        2051,
+        2113
+      ]
+    },
+    {
+      "name": "Nextech",
+      "website": "https://www.nextechna.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 36,
+      "sourceIndexes": [
+        2510
+      ]
+    },
+    {
+      "name": "Membrane Concepts",
+      "website": "https://membraneconcepts.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 35,
+      "sourceIndexes": [
+        2047,
+        2104
+      ]
+    },
+    {
+      "name": "FiberChem",
+      "website": "https://fiber-chem.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 34,
+      "sourceIndexes": [
+        2052,
+        2114
+      ]
+    },
+    {
+      "name": "Invertech Solutions",
+      "website": "https://invertechsolutions.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 34,
+      "sourceIndexes": [
+        2037,
+        2075,
+        2096,
+        2099
+      ]
+    },
+    {
+      "name": "JM Swimming Pools Installation",
+      "website": "https://www.jmswimmingpools.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 34,
+      "sourceIndexes": [
+        2524
+      ]
+    },
+    {
+      "name": "Mid-America Pool Renovation",
+      "website": "https://www.poolrenovation.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 34,
+      "sourceIndexes": [
+        2048,
+        2105
+      ]
+    },
+    {
+      "name": "Pioneer Critical Power",
+      "website": "https://www.pioneercriticalpower.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 33,
+      "sourceIndexes": [
+        2531
+      ]
+    },
+    {
+      "name": "Power Plus",
+      "website": "https://powerplus.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 33,
+      "sourceIndexes": [
+        2086
+      ]
+    },
+    {
+      "name": "PowerSecure",
+      "website": "https://powersecure.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 33,
+      "sourceIndexes": [
+        2532
+      ]
+    },
+    {
+      "name": "Progressive Roadside Assistance",
+      "website": "https://www.progressive.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 33,
+      "sourceIndexes": [
+        2926
+      ]
+    },
+    {
+      "name": "Armor Screen",
+      "website": "https://armorscreen.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 32,
+      "sourceIndexes": [
+        2511
+      ]
+    },
+    {
+      "name": "Axis Hospitality Construction",
+      "website": "https://axishc.net/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 32,
+      "sourceIndexes": [
+        2533
+      ]
+    },
+    {
+      "name": "Aqua Pools Construction",
+      "website": "https://aquapoolsconstruction.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 30,
+      "sourceIndexes": [
+        2529
+      ]
+    },
+    {
+      "name": "Door Systems",
+      "website": "https://www.doorsystems.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 30,
+      "sourceIndexes": [
+        2515
+      ]
+    },
+    {
+      "name": "McCarthy Wild Services Inc.",
+      "website": "https://www.mwitx.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 30,
+      "sourceIndexes": [
+        2054,
+        2116
+      ]
+    },
+    {
+      "name": "Venergy Group",
+      "website": "https://venergygroup.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 30,
+      "sourceIndexes": [
+        2548
+      ]
+    },
+    {
+      "name": "BoatUS Towing Service",
+      "website": "https://www.boatus.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 29,
+      "sourceIndexes": [
+        2927
+      ]
+    },
+    {
+      "name": "CBF, LLC",
+      "website": "https://www.cbfllcusa.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 29,
+      "sourceIndexes": [
+        2542
+      ]
+    },
+    {
+      "name": "Fence Labor Corp",
+      "website": "https://fencelabor.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 29,
+      "sourceIndexes": [
+        2001
+      ]
+    },
+    {
+      "name": "First Finish LLC",
+      "website": "https://www.firstfinish.net/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 29,
+      "sourceIndexes": [
+        2543
+      ]
+    },
+    {
+      "name": "Briggs Service, Inc.",
+      "website": "https://www.briggsserviceinc.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 28,
+      "sourceIndexes": [
+        2013
+      ]
+    },
+    {
+      "name": "Heritage Fence Company",
+      "website": "https://heritage-fence.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 28,
+      "sourceIndexes": [
+        2481
+      ]
+    },
+    {
+      "name": "PWI Construction",
+      "website": "https://pwiconstruction.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 28,
+      "sourceIndexes": [
+        2544
+      ]
+    },
+    {
+      "name": "Sea Tow",
+      "website": "https://seatow.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 28,
+      "sourceIndexes": [
+        2929
+      ]
+    },
+    {
+      "name": "E P Floors Corp.",
+      "website": "https://epfloors.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 27,
+      "sourceIndexes": [
+        2061,
+        2089
+      ]
+    },
+    {
+      "name": "M&D Marine Services",
+      "website": "https://mdmarineservices.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 27,
+      "sourceIndexes": [
+        2520
+      ]
+    },
+    {
+      "name": "OILKLEEN",
+      "website": "https://oilkleen.com/mobile-ship-repair/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 27,
+      "sourceIndexes": [
+        2521
+      ]
+    },
+    {
+      "name": "U.S. Maritime Solutions",
+      "website": "https://www.usmaritimesolutions.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 27,
+      "sourceIndexes": [
+        2522
+      ]
+    },
+    {
+      "name": "Smart Build",
+      "website": "https://smartbuildne.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 26,
+      "sourceIndexes": [
+        2549
+      ]
+    },
+    {
+      "name": "APi Construction Company",
+      "website": "https://www.apiconst.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 25,
+      "sourceIndexes": [
+        2486
+      ]
+    },
+    {
+      "name": "Caldwell Insulation",
+      "website": "https://caldwellinsulation.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 24,
+      "sourceIndexes": [
+        2487
+      ]
+    },
+    {
+      "name": "Cook Brothers Insulation",
+      "website": "https://www.cook-bros.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 24,
+      "sourceIndexes": [
+        2554
+      ]
+    },
+    {
+      "name": "CQ Insulation",
+      "website": "https://www.cqinsulation.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 23,
+      "sourceIndexes": [
+        2555
+      ]
+    },
+    {
+      "name": "Good Neighbor Fence Company",
+      "website": "https://www.fence4u.biz/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 20,
+      "sourceIndexes": [
+        1906
+      ]
+    },
+    {
+      "name": "Old Dominion Insulation",
+      "website": "https://odins.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 20,
+      "sourceIndexes": [
+        2557
+      ]
+    },
+    {
+      "name": "Powerco Restoration",
+      "website": "https://www.powercorestoration.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 20,
+      "sourceIndexes": [
+        1891
+      ]
+    },
+    {
+      "name": "Custom Construction Solutions",
+      "website": "https://www.ccsofflorida.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 19,
+      "sourceIndexes": [
+        1875
+      ]
+    },
+    {
+      "name": "Suncor Solar & Home Improvements",
+      "website": "https://www.suncorsolar.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 19,
+      "sourceIndexes": [
+        1918,
+        1928
+      ]
+    },
+    {
+      "name": "CLS Facility Services",
+      "website": "https://clsfacilityservices.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "intermediary_or_managed_network"
+      ],
+      "sourceRows": 8,
+      "placements": 18,
+      "sourceIndexes": [
+        2239,
+        2245,
+        2296,
+        2307,
+        2313,
+        2380,
+        2413,
+        2425
+      ]
+    },
+    {
+      "name": "Home Inspection Services",
+      "website": "https://www.hisfl.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 18,
+      "sourceIndexes": [
+        2587
+      ]
+    },
+    {
+      "name": "ATI Restoration",
+      "website": "https://atirestoration.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 17,
+      "sourceIndexes": [
+        2545
+      ]
+    },
+    {
+      "name": "BMS CAT",
+      "website": "https://www.bmscat.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 17,
+      "sourceIndexes": [
+        2546
+      ]
+    },
+    {
+      "name": "Express Marine Repair",
+      "website": "https://expressmarinerepair.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 17,
+      "sourceIndexes": [
+        2684
+      ]
+    },
+    {
+      "name": "Jon Diesel Marine",
+      "website": "https://www.jondieselmarine.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 17,
+      "sourceIndexes": [
+        2563
+      ]
+    },
+    {
+      "name": "Florida Remediation Pros",
+      "website": "https://flremediation.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 16,
+      "sourceIndexes": [
+        1915
+      ]
+    },
+    {
+      "name": "Home Inspections by Neal Development Group",
+      "website": "https://homeinspectionsndg.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 16,
+      "sourceIndexes": [
+        2591
+      ]
+    },
+    {
+      "name": "Kustom US",
+      "website": "https://kustom.us/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 16,
+      "sourceIndexes": [
+        2547
+      ]
+    },
+    {
+      "name": "Progressive Specialty Contractors",
+      "website": "https://www.progressive-sc.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 15,
+      "sourceIndexes": [
+        2558
+      ]
+    },
+    {
+      "name": "Sunshine State Home Inspections",
+      "website": "https://www.sunshinestatehomeinspections.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 15,
+      "sourceIndexes": [
+        2704
+      ]
+    },
+    {
+      "name": "SGC Florida, LLC",
+      "website": "https://sgc-florida.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 12,
+      "sourceIndexes": [
+        1972
+      ]
+    },
+    {
+      "name": "AREM Professional Aluminum Services Inc.",
+      "website": "https://aremprofessional.com/en",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 7,
+      "sourceIndexes": [
+        3528
+      ]
+    },
+    {
+      "name": "ServiceMaster Restore",
+      "website": "https://servicemasterrestore.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 6,
+      "placements": 7,
+      "sourceIndexes": [
+        3788,
+        3795,
+        3797,
+        3803,
+        3806,
+        3837
+      ]
+    },
+    {
+      "name": "Suncoast Inspections",
+      "website": "https://suncoastinspections.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 6,
+      "sourceIndexes": [
+        3311
+      ]
+    },
+    {
+      "name": "House Doctors of Southwest Atlanta",
+      "website": "https://www.housedoctors.com/south-birmingham-shelby-co/services/fence-repair-and-installation/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 5,
+      "placements": 5,
+      "sourceIndexes": [
+        3801,
+        4127,
+        4134,
+        4137,
+        4144
+      ]
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 4,
+      "placements": 4,
+      "sourceIndexes": [
+        3205,
+        3212,
+        3226,
+        3234
+      ]
+    },
+    {
+      "name": "National Concrete Polishing",
+      "website": "https://nationalconcretepolishing.net/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 4,
+      "sourceIndexes": [
+        2088,
+        2091
+      ]
+    },
+    {
+      "name": "The Paint Guy",
+      "website": "https://thepaintguydestin.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 4,
+      "sourceIndexes": [
+        1727
+      ]
+    },
+    {
+      "name": "All Dry Services",
+      "website": "https://myalldry.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 3,
+      "placements": 3,
+      "sourceIndexes": [
+        3752,
+        3753,
+        3763
+      ]
+    },
+    {
+      "name": "JB Solutions",
+      "website": "https://jbsolutions4.com/screen-enclosure/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 3,
+      "sourceIndexes": [
+        3569
+      ]
+    },
+    {
+      "name": "Rainbow Restoration",
+      "website": "https://rainbowrestores.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 3,
+      "placements": 3,
+      "sourceIndexes": [
+        3155,
+        3165,
+        3259
+      ]
+    },
+    {
+      "name": "SavATree Tampa",
+      "website": "https://www.savatree.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 3,
+      "placements": 3,
+      "sourceIndexes": [
+        3786,
+        3820,
+        3825
+      ]
+    },
+    {
+      "name": "Aptive Environmental",
+      "website": "https://aptivepestcontrol.com/locations/florida-fl/jacksonville-pest-control/local-branch/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 2,
+      "placements": 2,
+      "sourceIndexes": [
+        3026,
+        3062
+      ]
+    },
+    {
+      "name": "Brookstone Restoration",
+      "website": "https://brookstonerestoration.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 2,
+      "sourceIndexes": [
+        3154
+      ]
+    },
+    {
+      "name": "Crews Septic Solutions",
+      "website": "https://crewssepticsolutions.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 2,
+      "sourceIndexes": [
+        3220
+      ]
+    },
+    {
+      "name": "GroundWorks",
+      "website": "https://www.groundworksla.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 2,
+      "sourceIndexes": [
+        3381
+      ]
+    },
+    {
+      "name": "Magic City Door",
+      "website": "https://magiccitydoor.com/services/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 2,
+      "sourceIndexes": [
+        3982
+      ]
+    },
+    {
+      "name": "On My Way Septic",
+      "website": "https://www.onmywayseptic.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 2,
+      "sourceIndexes": [
+        3243
+      ]
+    },
+    {
+      "name": "Canebrake Construction",
+      "website": "https://canebrake.co/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3869
+      ]
+    },
+    {
+      "name": "Conserva Irrigation",
+      "website": "https://www.conservairrigation.com/tampa/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3036
+      ]
+    },
+    {
+      "name": "Cornerstone Custom Builders LLC",
+      "website": "https://ccbdothan.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3846
+      ]
+    },
+    {
+      "name": "Hail Free Solutions",
+      "website": "https://888511hail.com/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        2667
+      ]
+    },
+    {
+      "name": "Highland Homes Construction LLC",
+      "website": "https://highlandhomela.com/remodeling/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3866
+      ]
+    },
+    {
+      "name": "Middlebrooks Contractors, Inc.",
+      "website": "https://www.middlebrookscontractors.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3681
+      ]
+    },
+    {
+      "name": "Mr. Rooter Plumbing",
+      "website": "https://www.mrrooter.com/locations/alabama/birmingham/septic-system-repair/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3755
+      ]
+    },
+    {
+      "name": "RooterMan",
+      "website": "https://www.rooterman.com/baton-rouge/",
+      "reasons": [
+        "unsupported_specific_geography"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3714
+      ]
+    },
+    {
+      "name": "Serve One Construction",
+      "website": "https://www.serveoneconstruction.com/remodeling-services",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3870
+      ]
+    },
+    {
+      "name": "Sexton Lawn & Landscape",
+      "website": "https://www.sextonlandscapes.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        1791
+      ]
+    },
+    {
+      "name": "Shepherd Electric Company",
+      "website": "https://www.shepherd-electric.net/residential-electrical/generators/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        4120
+      ]
+    },
+    {
+      "name": "Toulmin Kitchen & Bath",
+      "website": "https://www.toulmincabinetry.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3871
+      ]
+    },
+    {
+      "name": "Walker Construction Company Inc.",
+      "website": "https://www.walkerconstructiondothan.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3847
+      ]
+    },
+    {
+      "name": "YellowHammer Design & Construction",
+      "website": "https://yellowhammerconstruction.com/",
+      "reasons": [
+        "unsupported_residential_service"
+      ],
+      "sourceRows": 1,
+      "placements": 1,
+      "sourceIndexes": [
+        3872
+      ]
+    }
+  ]
+}
