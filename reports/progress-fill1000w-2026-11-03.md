@@ -15,7 +15,9 @@
 - Categories: auto mechanics 3, locksmith 1, screen enclosures/pool cages 4, marine services 6, hurricane shutters/impact windows 2.
 - All 17 unique official website/source URLs returned successfully. The only cross-domain redirect was the documented Germain Yachts to SI Yachts transition; the qualifying Naples service page belongs to the final SI Yachts identity.
 - Two additional national-brand candidate domains (Gerber Collision and ASP) were withheld because the repository intentionally excludes those domains. Shared brand URLs were not counted as separate franchise businesses.
-- Run target shortfall before publication: 988 distinct new businesses. Publication and live verification remain pending at this checkpoint.
+- Published commit: `a5b9b0220f502c74049b7734bcb4d6fa7f7db43c`; production deployment: `dpl_Cm3FRwuGDXVhdtqcwN5BzC64N6bk` (`READY`).
+- All 16 placements passed on 12 live category pages; all 12 profiles and intended official-site links passed. Live evidence: `reports/live-fill1000w-2026-11-03.json`.
+- Run target shortfall: 988 distinct new businesses.
 
 ## Qualification controls
 
@@ -40,4 +42,4 @@
 - Prior 24,288 generated listings and 4,153 raw evidence rows are preserved byte-for-byte and in order.
 - JSON expansion, active city/category slugs, unique IDs/slugs, normalized-domain placement deduplication, and business-identity placement deduplication passed.
 - TypeScript and the production build passed.
-- Recheck main before committing and keep committed, deployed, and live-verified states separate.
+- Main was rechecked immediately before the commit. Committed, deployed, and live-verified states are recorded separately in `reports/run-fill1000w-2026-11-03.json`.

@@ -1,0 +1,84 @@
+{
+  "status": "published_and_live_verified",
+  "baselineCommit": "e1b31884693adacbcc982b6c93c9dfae075cd096",
+  "publishedCommit": "a5b9b0220f502c74049b7734bcb4d6fa7f7db43c",
+  "deploymentId": "dpl_Cm3FRwuGDXVhdtqcwN5BzC64N6bk",
+  "deploymentState": "READY",
+  "runNewBusinessTarget": 1000,
+  "distinctNewBusinessesPublishedAndLiveVerified": 12,
+  "newBusinessShortfall": 988,
+  "placements": {
+    "fromNewBusinesses": 16,
+    "fromPreviouslyListedBusinesses": 0,
+    "published": 16,
+    "liveVerified": 16
+  },
+  "liveVerification": {
+    "categoryPages": 12,
+    "placementsPassed": 16,
+    "profilesPassed": 12,
+    "officialWebsiteLinksPassed": 16,
+    "report": "reports/live-fill1000w-2026-11-03.json"
+  },
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "publicPages": 1200,
+    "graytonBeachActive": true,
+    "pensacolaBeachActive": false,
+    "catalogChanged": false
+  },
+  "displayedCoverageNotQualifyingAudit": {
+    "pagesAt20OrMore": 808,
+    "pagesBelow20": 392,
+    "emptyPages": 0,
+    "displayedDeficit": 1491
+  },
+  "qualifyingCoverage": {
+    "completeAudit": false,
+    "pagesAt20OrMore": null,
+    "pagesBelow20": null,
+    "emptyPages": null,
+    "remainingDeficit": null,
+    "note": "Historical displayed records have not all passed the stricter residential-service, direct-provider, specific-geography, category, and official-identity audit. Unaudited coverage remains unknown."
+  },
+  "additionsByCity": {
+    "baton-rouge-la": 2,
+    "tampa-fl": 3,
+    "sarasota-fl": 3,
+    "fort-myers-fl": 4,
+    "naples-fl": 4
+  },
+  "additionsByCategory": {
+    "auto-mechanics": 3,
+    "locksmith": 1,
+    "screen-enclosures-pool-cages": 4,
+    "marine-services": 6,
+    "hurricane-shutters-impact-windows": 2
+  },
+  "historicalFlags": {
+    "businessIdentities": 158,
+    "displayedPlacements": 8816,
+    "retailFixItPlacements": 396,
+    "publicVisibilityChanged": false,
+    "report": "reports/historical-qualification-flags-2026-11-03.json"
+  },
+  "candidateStatus": {
+    "distinctNewBusinessDomainsResearched": 14,
+    "publishedAndLiveVerified": 12,
+    "withheldByExistingNationalBrandExclusion": 2,
+    "pending": 0,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0
+  },
+  "validation": {
+    "priorGeneratedListingsPreserved": 24288,
+    "priorRawEvidenceRowsPreserved": 4153,
+    "generatedListingsAfter": 24304,
+    "jsonAndSchema": "passed",
+    "activeSlugs": "passed",
+    "duplicateHandling": "passed",
+    "typescript": "passed",
+    "productionBuild": "passed"
+  }
+}
