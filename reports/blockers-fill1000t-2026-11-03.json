@@ -1,0 +1,50 @@
+{
+  "status": "prepared_not_published",
+  "requestedRunTarget": 1000,
+  "previousPublishedPlacements": 691,
+  "preparedPlacements": 309,
+  "publishedPlacements": 0,
+  "shortfallAfterCheckpointPublication": 0,
+  "blockers": [
+    {
+      "website": "https://www.bloomingslandscape.com/irrigation",
+      "reason": "Explicit Sarasota, Fort Myers and Naples irrigation coverage; current official pages emphasize community contracts and did not establish direct residential-customer scope. Held pending stronger evidence."
+    },
+    {
+      "website": "https://www.russfloridaoutdoorcustompools.com/",
+      "reason": "Operator identity and link to the separately found Florida Outdoor Custom Pools contractor remain unresolved; broad city claims and distant portfolio cannot establish a qualified business. No placements added."
+    },
+    {
+      "website": "https://duvalenclosuresjax.com/",
+      "reason": "HTTP 200 but direct retrieval provides an application shell without substantive service and geographic evidence. Held."
+    },
+    {
+      "website": "https://www.rpmstrong.com/",
+      "reason": "HTTP 503 during verification; held."
+    },
+    {
+      "website": "https://www.mrrooter.com/baton-rouge/",
+      "reason": "A septic search route redirected to a statewide generic page. A global services menu is not enough to establish local septic work; held."
+    },
+    {
+      "website": "https://jlgsepticllc.com/",
+      "reason": "Broad local landing pages lacked sufficiently established operator identity for this run. Held."
+    },
+    {
+      "website": "https://www.hullandhitch.com/gulfport-ms/boat-repair-services-near-me",
+      "reason": "Incomplete template/product content; recreational repair operator identity and service evidence not established. Held."
+    },
+    {
+      "website": "https://sunshinegaragedoors.com/",
+      "reason": "HTTP 403; held."
+    },
+    {
+      "website": "https://bsapowersolutions.com/pages/installation.php",
+      "reason": "HTTP 406; held."
+    },
+    {
+      "website": "https://callstegall.com/generators/",
+      "reason": "Generator candidate could not be verified from accessible official content; held."
+    }
+  ]
+}

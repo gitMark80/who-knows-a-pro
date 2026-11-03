@@ -1,6 +1,6 @@
 # Directory fill continuation — 2026-11-03
 
-Status: prepared and validated; publication and live checks pending. This checkpoint contains **145** new placements. **546** placements from this 1,000-placement request are published and live-verified. Successful publication would reach **691**, leaving **309**.
+Status: **145 new placements published and live-verified**, bringing this 1,000-placement request to **691 published**, with **309 remaining**. All 145 new cards across 84 category pages and all 50 profiles passed live checks. The 1,200-page production audit matches prepared coverage. Source commit: `e59728376482bf75a36d35d72466f7ba38ce9177`; production deployment `dpl_G2Rkpueyu6By6wL1PawwLjUwHNnA` is READY.
 
 Baseline main: `7612c382bfc148d3c478b1eddab40a0975d8ec1e`. The enabled automation has no newer recorded active run; its last run completed at 2026-11-03T01:20:05Z. Recheck main and automation immediately before publishing. Schedule unchanged.
 
@@ -16,7 +16,7 @@ Identity review excluded Express Oil/Mavis overlap and Joe Hudson/Gerber rebrand
 
 ## Additions by city
 
-| City slug | Prepared placements |
+| City slug | Published placements |
 |---|---:|
 | pensacola-fl | 1 |
 | pace-fl | 1 |
@@ -49,7 +49,7 @@ Identity review excluded Express Oil/Mavis overlap and Joe Hudson/Gerber rebrand
 
 ## Additions by category
 
-| Category slug | Prepared placements |
+| Category slug | Published placements |
 |---|---:|
 | auto-body-collision | 8 |
 | auto-mechanics | 3 |
