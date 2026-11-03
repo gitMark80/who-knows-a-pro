@@ -1,0 +1,57 @@
+{
+  "requestedRunTarget": 1000,
+  "preparedPlacements": 241,
+  "remainingRunShortfall": 759,
+  "publishedPlacements": 0,
+  "status": "prepared_not_published",
+  "blockers": [
+    {
+      "website": "https://jhcc.com/locations/",
+      "reason": "Redirects to Gerber; renamed/acquired identity and an existing excluded brand, not an independent new business."
+    },
+    {
+      "website": "https://www.emeraldcoastsepticservice.com/",
+      "reason": "HTTP 200 served unrelated content; not a verified business website."
+    },
+    {
+      "website": "https://cruddsseptic.com/",
+      "reason": "Same published phone as a known Parker Septic candidate; independent identity unresolved, not counted."
+    },
+    {
+      "website": "https://empireautowerx.store/",
+      "reason": "Redirects to unrelated sports/gambling content; rejected."
+    },
+    {
+      "website": "https://www.sarasotaauto.com",
+      "reason": "Domain for sale; rejected."
+    },
+    {
+      "website": "https://bobs-transmission.com/",
+      "reason": "Official page says temporarily closed; rejected."
+    },
+    {
+      "website": "https://1kmotorsports.com",
+      "reason": "Opening-soon password page, no current service/location verification."
+    },
+    {
+      "website": "https://hccscreens.com/about/",
+      "reason": "HTTP 406 blocked direct page verification; not counted."
+    },
+    {
+      "website": "https://tierceplumbingandseptic.com/",
+      "reason": "HTTP 503 prevented working-site verification; not counted."
+    },
+    {
+      "website": "https://pinchapenny.com/50-North-Miami-Beach-Pool-Construction",
+      "reason": "Body unexpectedly names Bonita Springs; not used to infer Miami construction coverage."
+    },
+    {
+      "website": "https://www.stormsmart.com/service-areas/tampa/",
+      "reason": "Resolved content is a television segment, not verified local service-area evidence; Tampa expansion not added."
+    },
+    {
+      "website": "https://locations.thetirechoice.com/la/baton-rouge/7695-airline-highway",
+      "reason": "Redirects to Lafayette; not counted as a Baton Rouge business."
+    }
+  ]
+}

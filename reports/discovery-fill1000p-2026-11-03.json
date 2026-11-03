@@ -1,0 +1,1585 @@
+{
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "license": "Open Database License (ODbL) 1.0",
+  "attributionUrl": "https://www.openstreetmap.org/copyright",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "retrievedAt": "2026-11-03T06:04:57.303189+00:00",
+  "method": "Public Overpass queries for car_repair, boat, swimming_pool and glaziery websites in FL, AL, MS, LA and GA. These are discovery leads, not verified directory listings. Selected additions were independently checked against official business websites; no OSM addresses or coordinates were imported into directory records.",
+  "candidates": [
+    {
+      "discoveryName": "Lokey Nissan Service",
+      "candidateWebsite": "https://www.lokeynissan.com/",
+      "candidateRegion": "clearwater-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/2127980704",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lokeynissan.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Universal Collision Center",
+      "candidateWebsite": "https://universalcollision.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/2228880183",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Goodyear Auto Service Center",
+      "candidateWebsite": "https://www.goodyearautoservice.com/",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/2409174250",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Eric's Foreign and American Car Repair Service",
+      "candidateWebsite": "http://www.sarasotaauto.com",
+      "candidateRegion": "sarasota-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/2667998197",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.sarasotaauto.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Luxury Auto Precision",
+      "candidateWebsite": "https://luxuryautoprecision.com/",
+      "candidateRegion": "fort-lauderdale-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/3256909993",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Autocare of Naples",
+      "candidateWebsite": "http://autocareofnaples.com",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4312153437",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Eddie Hobbs Automotive, Inc.",
+      "candidateWebsite": "https://www.eddiehobbsautomotive.com/",
+      "candidateRegion": "pace-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4323029013",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.eddiehobbsautomotive.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Debroux Automotive",
+      "candidateWebsite": "http://www.autoservicepensacolafl.com",
+      "candidateRegion": "pensacola-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4456325527",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Viking Auto Electric & Air",
+      "candidateWebsite": "https://www.vikingautoelectric.com/",
+      "candidateRegion": "jacksonville-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4540634195",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.vikingautoelectric.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Affordable Auto & AC Repair of Tampa",
+      "candidateWebsite": "http://affordableautoandac.com",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4572617501",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Beach Auto Care",
+      "candidateWebsite": "https://beachautocare.com/",
+      "candidateRegion": "panama-city-beach-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4620473655",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "K&M Mobile Detailing",
+      "candidateWebsite": "http://kmtampadetailing.com",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5512958037",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jesses Garage European Auto Repair",
+      "candidateWebsite": "https://www.jessesgarage.com/",
+      "candidateRegion": "sarasota-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5550938563",
+      "httpStatus": 200,
+      "resolvedUrl": "https://jessesgarage.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Max Express Lube",
+      "candidateWebsite": "http://maxexpresslube.com",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5639635214",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Latino's Automobile Repair",
+      "candidateWebsite": "http://latinosautomobilerepair.com",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5690493308",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Tim's Custom Tinting",
+      "candidateWebsite": "http://www.timscustomtint.com",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5795842566",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Express Oil Change & Service Center",
+      "candidateWebsite": "https://www.expressoil.com/stores/pace/fl/0850/",
+      "candidateRegion": "pace-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5918673843",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Express Oil Change & Service Center",
+      "candidateWebsite": "https://www.expressoil.com/stores/pensacola/fl/0113/",
+      "candidateRegion": "pensacola-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/5918673865",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "JSB Autoworks",
+      "candidateWebsite": "https://www.jsbauto.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6018252768",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.jsbautoworks.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "South Motors Collision Center",
+      "candidateWebsite": "https://southmotorscollision.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6020449932",
+      "httpStatus": 200,
+      "resolvedUrl": "https://southmotorscollision.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "DeColores Collision Center",
+      "candidateWebsite": "https://decolorescollisioncenter.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6082677037",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Xpress Auto Care",
+      "candidateWebsite": "http://xpressautocarefl.com",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6261679334",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Cornerstone Auto Glass New Tampa",
+      "candidateWebsite": "https://cornerstoneglassrepair.com",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6390284293",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Easy Credit of Tampa",
+      "candidateWebsite": "https://www.easycreditoftampa.com/",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6609781748",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Tampa Mobile RV Repair",
+      "candidateWebsite": "https://mobilervrepairtampa.com/",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6621930456",
+      "httpStatus": 200,
+      "resolvedUrl": "https://mobilervrepairtampa.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Sunbelt Transmissions",
+      "candidateWebsite": "https://www.sunbelttransmissions.net/",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6649105384",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Safelite AutoGlass",
+      "candidateWebsite": "https://www.safelite.com/stores/Dade",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/7535969306",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "COR-AUTO REPAIR INC",
+      "candidateWebsite": "https://www.cor-auto-repair.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/9259374872",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "1K Motorsports",
+      "candidateWebsite": "https://1kmotorsports.com",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10007962786",
+      "httpStatus": 200,
+      "resolvedUrl": "https://1kmotorsports.com/password",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "The Car Port Specialist of Belle Isle ll",
+      "candidateWebsite": "https://thecarportspecialistllc.com",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10097090287",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Stadium Toyota",
+      "candidateWebsite": "https://www.stadiumtoyota.com/toyota-service-center-in-tampa-fl.htm",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10731500529",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.stadiumtoyota.com/service-center-homepage.htm",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Mr. Transmission",
+      "candidateWebsite": "https://www.mrtransmissionpensacola.com/",
+      "candidateRegion": "pensacola-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10752136346",
+      "httpStatus": 200,
+      "resolvedUrl": "https://mrtransmission.com/pensacola-auto/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Flash Garage LLC",
+      "candidateWebsite": "https://flashgarageauto.com/",
+      "candidateRegion": "fort-lauderdale-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11060328766",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Parkway Car Care",
+      "candidateWebsite": "http://www.parkwaycarcare.info/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11183858660",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Military Brake & Alignment",
+      "candidateWebsite": "https://www.militarybrake.com/",
+      "candidateRegion": "west-palm-beach-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11208866505",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.militarybrake.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Mahoney Auto Repair Inc.",
+      "candidateWebsite": "https://mahoneyautorepairinc.com",
+      "candidateRegion": "st-petersburg-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11850287285",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "The Spot Paint & Body Shop",
+      "candidateWebsite": "https://thespotpaintandbodyshop.com",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11921501981",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.thespotpaintandbodyshop.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Devonaire Service and Tire",
+      "candidateWebsite": "http://www.devonaireserviceandtire.com",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/12003980169",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Mike's Auto Glass Express",
+      "candidateWebsite": "https://www.nationsautoglass.com",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/12313719390",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Sherman\u2019s Auto Repair",
+      "candidateWebsite": "https://www.shermansautorepair.com",
+      "candidateRegion": "sarasota-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13062983463",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Legacy Automotive Customs & Refinishing",
+      "candidateWebsite": "https://legacyautomotivecustomsrefinishing.com",
+      "candidateRegion": "jacksonville-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13322178877",
+      "httpStatus": 200,
+      "resolvedUrl": "https://legacyautomotivecustomsrefinishing.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pho3nix Auto",
+      "candidateWebsite": "https://www.publicsquare.com/featured/marketplace/15e065e0-c014-11ed-bc1b-7737b09cb694",
+      "candidateRegion": "fort-walton-beach-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13322913910",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Classic Mazda Service",
+      "candidateWebsite": "https://www.classicmazda.com/",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13362851269",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.classicmazda.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Empire Autowerx",
+      "candidateWebsite": "https://empireautowerx.store/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13389475114",
+      "httpStatus": 200,
+      "resolvedUrl": "https://totosuperman.com/sport-broadcast",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Apple\u2019s Automotive Service",
+      "candidateWebsite": "https://applesautomotiveservices.com/",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13431008172",
+      "httpStatus": 200,
+      "resolvedUrl": "https://applesautomotiveservices.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jiffy Lube",
+      "candidateWebsite": "https://jiffylubespecials.com/locations/florida/444-e-sunrise-blvd-ft-lauderdale-33304/",
+      "candidateRegion": "fort-lauderdale-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13431624847",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Xclusive Window Tinting",
+      "candidateWebsite": "https://xclusivewindowtinting.com/",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13438464252",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Ace Collision Experts",
+      "candidateWebsite": "https://acecollision.net/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13461531440",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Euro Tech Tallahassee",
+      "candidateWebsite": "https://www.eurotechtlh.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13462330398",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.eurotechtlh.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Lexus of West Kendall Service",
+      "candidateWebsite": "https://www.lexusofwestkendall.com/service/serviceapptform/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13463308079",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lexusofwestkendall.com/service/serviceapptform/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "101 Auto Care",
+      "candidateWebsite": "https://101auto.care",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13468251708",
+      "httpStatus": 200,
+      "resolvedUrl": "https://101auto.care",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Tint Tally",
+      "candidateWebsite": "https://www.tinttally.com",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13479678611",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "ECU Team Corp",
+      "candidateWebsite": "https://ecuteam.com/",
+      "candidateRegion": "west-palm-beach-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13482183089",
+      "httpStatus": 200,
+      "resolvedUrl": "https://ecuteam.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Off-Road Performance Shop of Miami",
+      "candidateWebsite": "https://orpshop.square.site/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13524324904",
+      "httpStatus": 200,
+      "resolvedUrl": "https://orpshop.square.site/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Faded - A Window Tinting Company",
+      "candidateWebsite": "https://fadedawtc.com",
+      "candidateRegion": "fort-lauderdale-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13545079549",
+      "httpStatus": 200,
+      "resolvedUrl": "https://fadedawtc.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Dynasty Automotive",
+      "candidateWebsite": "https://dynastyautoservice.com",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13754055498",
+      "httpStatus": 200,
+      "resolvedUrl": "https://dynastyautoservice.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Precision Collision of Naples",
+      "candidateWebsite": "https://precisioncollisionofnaples.co",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13892080861",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.precisioncollisionofnaples.co/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jiffy Lube",
+      "candidateWebsite": "https://jiffylubespecials.com/locations/florida/8295-biscayne-blvd-miami-33138",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13903188074",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Prestigious Euro Cars",
+      "candidateWebsite": "https://www.prestigiouseurocars.com/",
+      "candidateRegion": "fort-lauderdale-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14060580345",
+      "httpStatus": 200,
+      "resolvedUrl": "https://prestigiouseurocars.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Smalleys Tire and Auto Repair",
+      "candidateWebsite": "https://smalleystirenauto.com/",
+      "candidateRegion": "fort-lauderdale-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14060580346",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Speedeezz Auto Finish",
+      "candidateWebsite": "https://speedeezz.com/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14089836079",
+      "httpStatus": 200,
+      "resolvedUrl": "https://speedeezz.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Stepp's Towing & Heavy Transport",
+      "candidateWebsite": "http://www.steppstowing.com",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14130360164",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Gene Perez Body Repair",
+      "candidateWebsite": "https://www.perezbody.com/",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14219766502",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.perezbody.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jiffy Lube",
+      "candidateWebsite": "https://jiffylubespecials.com/locations/florida/8787-biscayne-blvd-miami-shores-33138",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/290631077",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Tallahassee Auto Clinic",
+      "candidateWebsite": "http://www.tallahasseeautoclinic.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/295319274",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Fisher Tire & Service",
+      "candidateWebsite": "https://www.fishertireandservice.com/",
+      "candidateRegion": "pensacola-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/354327654",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "ORi Off road Innovations",
+      "candidateWebsite": "https://tallahasseeori.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/370719898",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Tuffy",
+      "candidateWebsite": "https://www.tuffyautotallahassee.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/387419694",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Sun Tire",
+      "candidateWebsite": "http://www.suntire.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/387555949",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mavis.com/suntire/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Express Oil Change & Service Center",
+      "candidateWebsite": "https://www.expressoil.com/stores/panama-city-beach/fl/1865/",
+      "candidateRegion": "panama-city-beach-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/401780610",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "The Tire Choice",
+      "candidateWebsite": "https://thetirechoice.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/406432572",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Gerber Collision & Glass",
+      "candidateWebsite": "https://www.gerbercollision.com/locations/tallahassee-apalachee-pkwy-fl",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/418850291",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "P3 Automotive Service and Repair",
+      "candidateWebsite": "https://www.tallahasseemechanic.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/419701392",
+      "httpStatus": 200,
+      "resolvedUrl": "https://tallahasseemechanic.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Firestone",
+      "candidateWebsite": "https://local.firestonecompleteautocare.com/florida/fort-myers/15155-mcgregor-blvd/?",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/422594100",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Gerber Collision & Glass",
+      "candidateWebsite": "https://www.gerbercollision.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/426252634",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Porter's Automotive, Inc.",
+      "candidateWebsite": "https://www.openstreetmap.org/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/430132370",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Valvoline Instant Oil Change",
+      "candidateWebsite": "https://store.vioc.com/fl/miami/oil-change-gq0030.html",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/435579007",
+      "httpStatus": 200,
+      "resolvedUrl": "https://store.vioc.com/fl/miami/15203-sw-104th-street",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Brahman Service & Parts",
+      "candidateWebsite": "https://www.bramanmotorsbmw.com/braman-miami-bmw-service-center-miami-fl.htm",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/435737620",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.bramanmotorsbmw.com/service/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Bob's Transmission",
+      "candidateWebsite": "http://bobs-transmission.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/466545072",
+      "httpStatus": 200,
+      "resolvedUrl": "https://bobs-transmission.com/index.html",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Mighty Muffler",
+      "candidateWebsite": "https://mightymufflertallahassee.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/466545105",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Busy Beaver's Auto and Transmission",
+      "candidateWebsite": "http://www.tallahasseetransmissionrepairs.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/495561842",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Walter's Automotive Service Center",
+      "candidateWebsite": "https://www.waltersautoservice.com/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/502889393",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.waltersautoservice.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "University Collision Center",
+      "candidateWebsite": "http://universitycollisioncenter.net",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/512933057",
+      "httpStatus": 200,
+      "resolvedUrl": "https://universitycollisioncenter.net",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Scotty's Automotive",
+      "candidateWebsite": "https://www.scottyautomotive.com/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/512992980",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.scottyautomotive.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Newmans Truck Body and Equipment",
+      "candidateWebsite": "https://newmanstruckbody.com/",
+      "candidateRegion": "jacksonville-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/519129933",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Honka Auto Repair",
+      "candidateWebsite": "https://honkaautorepairs.com/",
+      "candidateRegion": "clearwater-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/524442734",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.honkaautorepairs.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "John's Automotive Complete Auto Repairs",
+      "candidateWebsite": "http://autoacrepairjax.com",
+      "candidateRegion": "jacksonville-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/583483873",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Strick's Auto and Truck Repair",
+      "candidateWebsite": "https://stricksautorepair.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/635049370",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jiffy Lube",
+      "candidateWebsite": "https://orlando.jiffylube.com/locations/store/1830/4531-conroy-rd-orlando-fl-32811-7442",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/734702713",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "AAA Car Care Plus",
+      "candidateWebsite": "https://locator.acg.aaa.com/fl/clearwater/aaa-clearwater-car-care-plus",
+      "candidateRegion": "clearwater-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/919260214",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Firestone Complete Auto Care",
+      "candidateWebsite": "https://local.firestonecompleteautocare.com/florida/miami/20701-s-dixie-hwy/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1002430257",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Capital Hitch",
+      "candidateWebsite": "https://capitalhitch.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1008300447",
+      "httpStatus": 200,
+      "resolvedUrl": "https://capitalhitch.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Patton's Alignment and Brake Service",
+      "candidateWebsite": "https://pattonsalignmenttally.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1152717749",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pattonsalignment.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Hyde Park Auto Collision Center",
+      "candidateWebsite": "https://hyde-park-auto-collision-and-repairs.business.site/",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1188520049",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "The Tuning Point",
+      "candidateWebsite": "https://thetuningpoint.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1296062182",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.thetuningpoint.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Take 5 Car Wash",
+      "candidateWebsite": "https://www.take5carwashes.com/locations/louisiana/baton-rouge/659/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/472314488",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.take5carwashes.com/locations/louisiana/baton-rouge/659/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Kendrick Radiator & Automotive",
+      "candidateWebsite": "https://kendrickradiator.com/",
+      "candidateRegion": "atlanta-ga",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4561332738",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jim Woodham & Son Tire & Auto",
+      "candidateWebsite": "https://jimwoodhamandsontire.com",
+      "candidateRegion": "montgomery-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4566317474",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Chips Auto Glass",
+      "candidateWebsite": "https://chipsautoglass.com/",
+      "candidateRegion": "mobile-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4690404725",
+      "httpStatus": 200,
+      "resolvedUrl": "https://chipsautoglass.com/home",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Durrell Tire & Auto Inc.",
+      "candidateWebsite": "https://durrelltireandauto.com/",
+      "candidateRegion": "birmingham-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6271307128",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.durrelltireandauto.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Trep's Auto",
+      "candidateWebsite": "https://trepsauto.com/",
+      "candidateRegion": "new-orleans-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6828710006",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Take 5 Oil Change",
+      "candidateWebsite": "https://www.mcdonalds.com/us/en-us/location/39471.html",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6982111124",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mcdonalds.com/us/en-us/location/39471.html",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Hanvey Tire & Auto Repair",
+      "candidateWebsite": "https://hanveytireautorepair.com/",
+      "candidateRegion": "birmingham-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/7087052317",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "National Tire and Battery",
+      "candidateWebsite": "https://www.ntb.com/store/8624/birmingham-al-35209-6303",
+      "candidateRegion": "birmingham-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/7157598271",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mavis.com/locations/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Lee's Complete Car Care & Muffler 2 LLC",
+      "candidateWebsite": "https://leescompletecar.com",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/9726773720",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.leescompletecar.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Mobile 1 Lube Express",
+      "candidateWebsite": "https://www.mobil.com/en/lubricants/where-to-buy/mobil-1-lube-express-advantages",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10115687485",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mobil.com/en/lubricants/where-to-buy/mobil-1-lube-express-advantages",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "PK Complete Auto Care LLC",
+      "candidateWebsite": "https://pkcompleteautocarellc.com",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10277669332",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Darker Shades",
+      "candidateWebsite": "https://darkershadesal.com",
+      "candidateRegion": "mobile-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11648473816",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": null,
+      "candidateWebsite": "https://bradfordstruckrepair.com/",
+      "candidateRegion": "huntsville-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/12246620464",
+      "httpStatus": 200,
+      "resolvedUrl": "https://bradfordstruckrepair.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Atlanta Luxury Window Tinting",
+      "candidateWebsite": "https://www.atlantaluxurywindowtinting.com/",
+      "candidateRegion": "atlanta-ga",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/12401065991",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.atlantaluxurywindowtinting.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Midtown Graphics & Tinting LLC",
+      "candidateWebsite": "https://midtowngraphics251.com/",
+      "candidateRegion": "mobile-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13299715588",
+      "httpStatus": 200,
+      "resolvedUrl": "https://midtowngraphics251.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Gulf Coast Custom Wheels",
+      "candidateWebsite": "https://gulfcoastcustomwheelsal.com/",
+      "candidateRegion": "mobile-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13314805162",
+      "httpStatus": 200,
+      "resolvedUrl": "http://www.importantlocalbusinesses.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "ProTint Window Tinting",
+      "candidateWebsite": "https://pro-tintwindowtinting.com/",
+      "candidateRegion": "mobile-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13382377569",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pro-tintwindowtinting.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Rocketcity Wraps",
+      "candidateWebsite": "https://www.rocketcitywrapshvs.com/",
+      "candidateRegion": "huntsville-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13603945205",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.rocketcitywrapshvs.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "228SmithDetailing",
+      "candidateWebsite": "https://www.kasperdetailing.com/",
+      "candidateRegion": "biloxi-ms",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13622783452",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Windshield Repair",
+      "candidateWebsite": "https://crackattackbr.com",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13666545066",
+      "httpStatus": 200,
+      "resolvedUrl": "https://crackattackbr.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "All-Star Accessories",
+      "candidateWebsite": "https://bizsite.link/all-star-accessories-825815-us",
+      "candidateRegion": "birmingham-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13706023642",
+      "httpStatus": 200,
+      "resolvedUrl": "https://bizsite.link/all-star-accessories-825815-us",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Brian's Tire & Service",
+      "candidateWebsite": "https://brianstireandservice.com",
+      "candidateRegion": "huntsville-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13798413688",
+      "httpStatus": 200,
+      "resolvedUrl": "https://brianstireandservice.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Hiley Audi",
+      "candidateWebsite": "https://www.audihuntsville.com/en/",
+      "candidateRegion": "huntsville-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13838184040",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.audihuntsville.com/en/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Audi Montgomery",
+      "candidateWebsite": "https://www.audimontgomery.com/en/",
+      "candidateRegion": "montgomery-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13838207377",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.audimontgomery.com/en/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Audi Mobile",
+      "candidateWebsite": "https://www.audimobileal.com/en/",
+      "candidateRegion": "mobile-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13838219621",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.audimobileal.com/en/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Quality Tint & Accessories",
+      "candidateWebsite": "https://www.qualitytintfilms.com",
+      "candidateRegion": "gulfport-ms",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14078840016",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.qualitytintfilms.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Rocco's European Garage",
+      "candidateWebsite": "https://roccoseuropeangarage.com/midtown/",
+      "candidateRegion": "atlanta-ga",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/269845677",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Metro Muscle Cars",
+      "candidateWebsite": "https://www.metromusclecars.com/",
+      "candidateRegion": "atlanta-ga",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/281367464",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Anthem Automotive",
+      "candidateWebsite": "www.ANTHEMAUTO.com",
+      "candidateRegion": "atlanta-ga",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/292390582",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "McCullough NAPA Auto Care",
+      "candidateWebsite": "https://www.napacarcare.com/",
+      "candidateRegion": "atlanta-ga",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/335026888",
+      "httpStatus": 200,
+      "resolvedUrl": "https://napacarcare.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Gerry Lane Chevrolet",
+      "candidateWebsite": "https://www.gerrylanechevrolet.com/service",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/957890668",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.gerrylanechevrolet.com/service.htm",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "AGCO Automotive",
+      "candidateWebsite": "https://www.agcoauto.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1116880968",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.agcoauto.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Mobile Tint and Audio",
+      "candidateWebsite": "https://www.mobiletintandaudio.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1116880970",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mobiletintandaudio.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Collision Works of Baton Rouge",
+      "candidateWebsite": "https://collisionworksla.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1174483084",
+      "httpStatus": 200,
+      "resolvedUrl": "https://collisionworksla.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Precision Tune Auto Care",
+      "candidateWebsite": "https://www.precisiontune.com/locations/baton-rouge-la/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1208534170",
+      "httpStatus": 200,
+      "resolvedUrl": "https://precisiontune.com/locations/baton-rouge-la/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Quality Car Care",
+      "candidateWebsite": "https://www.qualitycarcares.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1208652829",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.qualitycarcares.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Grease Monkey",
+      "candidateWebsite": "https://www.greasemonkeyauto.com/locations/us/la/baton-rouge/5744-south-sherwood-forest-blvd",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1210473355",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.greasemonkey.com/locations/la/baton-rouge/3311-drusilla-ln/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Ultimate Tire & Brakes",
+      "candidateWebsite": "https://ultimatetirellc.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1210473377",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.ultimatetirellc.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Express Care Automotive",
+      "candidateWebsite": "https://oilchangebatonrouge.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1210473378",
+      "httpStatus": 200,
+      "resolvedUrl": "https://oilchangebatonrouge.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Budget Transmission",
+      "candidateWebsite": "https://budgettrans.com",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1212654871",
+      "httpStatus": 200,
+      "resolvedUrl": "https://budgettrans.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Benny's",
+      "candidateWebsite": "https://www.bennyscarwash.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1212654883",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.bennyscarwash.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Tire Choice",
+      "candidateWebsite": "https://locations.thetirechoice.com/la/baton-rouge/7695-airline-highway",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1213753335",
+      "httpStatus": 200,
+      "resolvedUrl": "https://locations.thetirechoice.com/la/lafayette/4605-w-congress-st",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "M&M Window Tinting",
+      "candidateWebsite": "https://www.mmwindowtinting.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214454554",
+      "httpStatus": 200,
+      "resolvedUrl": "https://mmwindowtinting.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Ultimate Tire & Brakes",
+      "candidateWebsite": "https://ultimatetirellc.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214454562",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.ultimatetirellc.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Wabash",
+      "candidateWebsite": "https://onewabash.com/location-search/location-detail/?wabash---baton-rouge-operations-baton-rouge-la",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214454575",
+      "httpStatus": 200,
+      "resolvedUrl": "https://onewabash.com/location-search/location-detail/?wabash---baton-rouge-operations-baton-rouge-la",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Baton Rouge OnSite Fleet Service",
+      "candidateWebsite": "https://batonrougeonsite.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214454576",
+      "httpStatus": 200,
+      "resolvedUrl": "https://batonrougeonsite.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "LA South Battery",
+      "candidateWebsite": "https://lasouthbattery.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214454585",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lasouthbattery.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Lee's Complete Car Care",
+      "candidateWebsite": "https://www.leemyles.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214920926",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.leemyles.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Velasquez Complete Auto Care",
+      "candidateWebsite": "https://www.velasquezauto.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1254525945",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.velasquezauto.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Express Glass & Board Up Service",
+      "candidateWebsite": "https://expressglassfl.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4475094583",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.expressglassfl.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "All Pro Watercraft & ATV Services Inc",
+      "candidateWebsite": "https://allprowatercraftandatv.com",
+      "candidateRegion": "panama-city-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4597438419",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "ServCo Pools",
+      "candidateWebsite": "https://servcopools.com/",
+      "candidateRegion": "tallahassee-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/4985268496",
+      "httpStatus": 200,
+      "resolvedUrl": "https://servcopools.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Xtremepowerboats",
+      "candidateWebsite": "https://www.xtremepowerboats.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6027454658",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Signature glass & mirror",
+      "candidateWebsite": "https://www.signatureglassandmirror.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/6035494337",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.signatureglassandmirror.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Classic Marcite",
+      "candidateWebsite": "https://classicmarcite.com",
+      "candidateRegion": "jacksonville-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/7649032961",
+      "httpStatus": 200,
+      "resolvedUrl": "https://classicmarcite.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Classic Marcite",
+      "candidateWebsite": "https://classicmarcite.com/",
+      "candidateRegion": "orlando-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/7770085608",
+      "httpStatus": 200,
+      "resolvedUrl": "https://classicmarcite.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Sebastian Pool Service",
+      "candidateWebsite": "https://sebastianhomepool.com/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/8325449516",
+      "httpStatus": 200,
+      "resolvedUrl": "https://sebastianhomepool.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Hinckley Yachts",
+      "candidateWebsite": "https://www.hinckleyyachts.com/contact/sales/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/9407924119",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.hinckleyyachts.com/sales-consultants/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Clear Swim Pool Care",
+      "candidateWebsite": "https://www.clearswim.net/",
+      "candidateRegion": "birmingham-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/9442958070",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.clearswim.net/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pinch A Penny",
+      "candidateWebsite": "https://pinchapenny.com/stores/clearwater-fl-1",
+      "candidateRegion": "clearwater-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/9610007132",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pinchapenny.com/stores/clearwater-fl-1",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "ASP",
+      "candidateWebsite": "https://www.aspwindows.com/contact/south-west/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/10956656415",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pinch-A-Penny",
+      "candidateWebsite": "https://pinchapenny.com/stores/tampa-fl-117",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11146508449",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pinchapenny.com/stores/tampa-fl-117",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pinch A Penny",
+      "candidateWebsite": "https://pinchapenny.com/stores/baton-rouge-la-221",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11195201143",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pinchapenny.com/stores/baton-rouge-la-221",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Boat & Yacht Rental Brickell",
+      "candidateWebsite": "https://yourchartersolution.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11394296034",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pier 41 Marine",
+      "candidateWebsite": "https://www.pier41marine.com/",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/11743403700",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.pier41marine.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Your Pool Specialist",
+      "candidateWebsite": "https://www.yourpoolspecialist.com/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/12047961452",
+      "httpStatus": 200,
+      "resolvedUrl": "https://yourpoolspecialist.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Miley's Diesel Service, Inc.",
+      "candidateWebsite": "https://www.mileysdiesel.com",
+      "candidateRegion": "fort-myers-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/12641867668",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mileysdiesel.com",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Blue Paradise Watersports",
+      "candidateWebsite": "https://www.blueparadisewatersports.com/",
+      "candidateRegion": "jacksonville-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13424112085",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.blueparadisewatersports.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "VIP Marine - Boat Canvas & Yacht Upholstery",
+      "candidateWebsite": "https://vip-marine.com/",
+      "candidateRegion": "miami-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13617787244",
+      "httpStatus": 200,
+      "resolvedUrl": "https://vip-marine.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Allied Marine",
+      "candidateWebsite": "https://www.alliedmarine.com/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13931285591",
+      "httpStatus": 200,
+      "resolvedUrl": "https://alliedmarine.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Formula Boats",
+      "candidateWebsite": "https://www.formulaboatssouth.com/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13931285592",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Germain Yachts Center",
+      "candidateWebsite": "https://www.germainyachts.com/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/13931285593",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.siyachts.com/naples-fl-boat-repair-and-service",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Jefferson Beach Yacht Sales",
+      "candidateWebsite": "https://jbys.com/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14183863287",
+      "httpStatus": 200,
+      "resolvedUrl": "https://jbys.com/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Galati Yacht Sales",
+      "candidateWebsite": "https://www.galatiyachts.com/yacht-brokerage-locations/florida/naples/",
+      "candidateRegion": "naples-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/node/14183863288",
+      "httpStatus": null,
+      "resolvedUrl": null,
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pinch A Penny",
+      "candidateWebsite": "https://pinchapenny.com/stores/pensacola-fl-79",
+      "candidateRegion": "pensacola-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/353748761",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pinchapenny.com/stores/pensacola-fl-79",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pinch A Penny",
+      "candidateWebsite": "https://pinchapenny.com/stores/tampa-fl-6",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/523082361",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pinchapenny.com/stores/tampa-fl-6",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Pinch A Penny Pool Patio Spa",
+      "candidateWebsite": "https://pinchapenny.com/stores/tampa-fl-65",
+      "candidateRegion": "tampa-fl",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/523371608",
+      "httpStatus": 200,
+      "resolvedUrl": "https://pinchapenny.com/stores/tampa-fl-65",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Family Leisure",
+      "candidateWebsite": "https://www.familyleisure.com/Birmingham",
+      "candidateRegion": "birmingham-al",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/761892890",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.familyleisure.com/Birmingham/",
+      "discoveryOnly": true
+    },
+    {
+      "discoveryName": "Boats Unlimited",
+      "candidateWebsite": "https://www.boatsunlimitedla.com/",
+      "candidateRegion": "baton-rouge-la",
+      "discoverySourceUrl": "https://www.openstreetmap.org/way/1214454563",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.boatsunlimitedla.com/",
+      "discoveryOnly": true
+    }
+  ]
+}
