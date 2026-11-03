@@ -23,6 +23,9 @@ const candidateFiles = process.env.FILL_CANDIDATE_FILES ? JSON.parse(process.env
   `reports/candidates-${run}-${date}.json`,
 ];
 const rawCandidates = candidateFiles.flatMap((path) => JSON.parse(fs.readFileSync(path, 'utf8')));
+// Optional fresh-evidence mode: old displayed rows are preserved, but they do
+// not block additions until twenty distinct businesses have reviewed evidence.
+const reviewedEvidenceFiles = JSON.parse(process.env.FILL_REVIEWED_EVIDENCE_FILES ?? '[]');
 const regionSet = new Set(catalog.activeRegions.map((row) => row.slug));
 const tradeSet = new Set(catalog.visibleTrades.map((row) => row.slug));
 const normalizeDomain = (value) => new URL(value).hostname.toLowerCase().replace(/^www\./, '');
@@ -36,7 +39,7 @@ for (const row of seed) {
 }
 const counts = new Map(beforeCounts);
 
-const candidates = rawCandidates.map((candidate) => {
+const validateCandidates = (input) => input.map((candidate) => {
   // A national commercial service area alone does not qualify a home-service listing.
   // Keep this evidence in the candidate checkpoint so later runs can review it.
   const consumerTrades = new Set(['auto-mechanics', 'auto-body-collision', 'towing', 'marine-services']);
@@ -54,6 +57,24 @@ const candidates = rawCandidates.map((candidate) => {
   assert(candidate.evidenceNote.length > 80, `Short evidence note for ${candidate.name}`);
   return { ...candidate, regions };
 });
+const candidates = validateCandidates(rawCandidates);
+const reviewedKeys = new Set();
+for (const candidate of validateCandidates(reviewedEvidenceFiles.flatMap((path) => JSON.parse(fs.readFileSync(path, 'utf8'))))) {
+  assert(candidate.sourceVerifiedAt?.startsWith(date), `Evidence is not from this audit date: ${candidate.name}`);
+  for (const region of candidate.regions) for (const trade of candidate.trades) {
+    assert(regionSet.has(region) && tradeSet.has(trade), `Inactive reviewed placement for ${candidate.name}`);
+    const key = placementKey(candidate.website, region, trade);
+    if (existingKeys.has(key)) reviewedKeys.add(key);
+  }
+}
+const reviewedBeforeCounts = new Map();
+for (const key of reviewedKeys) {
+  const [, region, trade] = key.split('|');
+  const pair = `${region}|${trade}`;
+  reviewedBeforeCounts.set(pair, (reviewedBeforeCounts.get(pair) ?? 0) + 1);
+}
+const selectionBeforeCounts = reviewedEvidenceFiles.length ? reviewedBeforeCounts : beforeCounts;
+const quotaCounts = new Map(selectionBeforeCounts);
 
 const priorityOrder = ['destin-fl', 'fort-walton-beach-fl', 'crestview-fl', 'panama-city-fl'];
 const priority = new Map(priorityOrder.map((slug, index) => [slug, index]));
@@ -76,7 +97,7 @@ for (const candidate of candidates) {
       assert(tradeSet.has(trade), `Inactive trade ${trade}`);
       const key = placementKey(candidate.website, region, trade);
       if (existingKeys.has(key)) continue;
-      const count = beforeCounts.get(`${region}|${trade}`) ?? 0;
+      const count = selectionBeforeCounts.get(`${region}|${trade}`) ?? 0;
       if (count >= 20) continue;
       options.push({ candidate, region, trade, count, key });
     }
@@ -99,10 +120,11 @@ const selectedKeys = new Set();
 for (const option of options) {
   if (selected.length === target) break;
   const countKey = `${option.region}|${option.trade}`;
-  if ((counts.get(countKey) ?? 0) >= 20 || selectedKeys.has(option.key)) continue;
+  if ((quotaCounts.get(countKey) ?? 0) >= 20 || selectedKeys.has(option.key)) continue;
   selected.push(option);
   selectedKeys.add(option.key);
   counts.set(countKey, (counts.get(countKey) ?? 0) + 1);
+  quotaCounts.set(countKey, (quotaCounts.get(countKey) ?? 0) + 1);
 }
 assert.equal(selected.length, target, `Verified pool supplied ${selected.length}/${target}`);
 
@@ -165,7 +187,7 @@ for (const region of catalog.activeRegions) {
     rows.push({ city: region.name, city_slug: region.slug, category: trade.name, category_slug: trade.slug, listing_count: after, minimum: 20, missing: Math.max(0, 20 - after), meets_minimum: after >= 20 });
   }
 }
-const remainingEligiblePlacements = options.filter((option) => !selectedKeys.has(option.key) && !existingKeys.has(option.key) && (counts.get(`${option.region}|${option.trade}`) ?? 0) < 20).length;
+const remainingEligiblePlacements = options.filter((option) => !selectedKeys.has(option.key) && !existingKeys.has(option.key) && (quotaCounts.get(`${option.region}|${option.trade}`) ?? 0) < 20).length;
 const report = {
   baselineCommit: execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(),
   continuationOf: process.env.FILL_CONTINUATION_OF ?? 'reports/verified-fill1000f-2026-10-31.json',
@@ -178,7 +200,16 @@ const report = {
   additionsByCity,
   additionsByCategory,
   additionsByBusiness,
-  selectionRule: 'Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.',
+  selectionRule: `Priority cities first at their lowest ${reviewedEvidenceFiles.length ? 'freshly reviewed qualifying' : 'displayed'} counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.`,
+  ...(reviewedEvidenceFiles.length ? { reviewedEvidence: {
+    files: reviewedEvidenceFiles,
+    auditDate: date,
+    beforePlacements: reviewedKeys.size,
+    afterPlacements: reviewedKeys.size + selected.length,
+    beforeCounts: Object.fromEntries(reviewedBeforeCounts),
+    afterCounts: Object.fromEntries(quotaCounts),
+    note: 'Conservative reviewed-evidence coverage only; unreviewed historical listings are preserved and remain unaudited. Display counts are reported separately.',
+  } } : {}),
   before: { pairsAt20: beforeAt20, pairsBelow20: rows.length - beforeAt20, deficit: beforeDeficit },
   prepared: { pairsAt20: afterAt20, pairsBelow20: rows.length - afterAt20, deficit: afterDeficit, emptyPairs: rows.filter((row) => row.listing_count === 0).length },
   newlyCompletedCombinations,

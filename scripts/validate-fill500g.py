@@ -16,12 +16,13 @@ catalog = json.loads(Path(f"{after_directory}/catalog.json").read_text())
 source_before = json.loads(Path(source_before_path).read_text())
 source_after = json.loads(Path("data/verified-coverage-2026-09-28.json").read_text())
 report = json.loads(Path(f"reports/verified-{run}-{date}.json").read_text())
+expected_count = report.get("checkpointTarget", report["target"])
 
 assert after[:len(before)] == before, "Prior generated listings changed or reordered"
 assert source_after[:len(source_before)] == source_before, "Prior raw evidence rows changed or reordered"
 new_listings = after[len(before):]
 new_source = source_after[len(source_before):]
-assert len(new_listings) == report["placementCount"] == report["target"]
+assert len(new_listings) == report["placementCount"] == expected_count
 assert len(new_source) == report["sourceRecordCount"]
 
 regions = {row["slug"] for row in catalog["activeRegions"]}
@@ -58,7 +59,7 @@ for row in new_source:
         for trade in row["trades"]:
             expected.add((domain(row["website"]), region, trade))
 actual = {(domain(row["website"]), row["region"], row["trade"]) for row in new_listings}
-assert actual == expected and len(actual) == report["target"], "Raw evidence expansion mismatch"
+assert actual == expected and len(actual) == expected_count, "Raw evidence expansion mismatch"
 
 counts = {}
 for row in after:
@@ -71,7 +72,38 @@ for row in rows:
 visible_counts = [counts.get((region, trade), 0) for region in regions for trade in trades]
 assert sum(max(0, 20 - value) for value in visible_counts) == report["prepared"]["deficit"]
 assert sum(value >= 20 for value in visible_counts) == report["prepared"]["pairsAt20"]
-assert all(value <= 20 for key, value in counts.items() if key in {(row["region"], row["trade"]) for row in new_listings})
+affected = {(row["region"], row["trade"]) for row in new_listings}
+if report.get("reviewedEvidence"):
+    review = report["reviewedEvidence"]
+    existing = {(domain(row["website"]), row["region"], row["trade"]) for row in before}
+    evidence_keys = set()
+    for evidence_file in review["files"]:
+        for candidate in json.loads(Path(evidence_file).read_text()):
+            assert candidate["sourceVerifiedAt"].startswith(date)
+            assert candidate["customerScope"] in {"residential", "consumer"}
+            assert len(candidate["customerEvidence"]) > 80
+            assert candidate["customerSourceUrl"].startswith("https://")
+            for region in catalog["activeRegions"]:
+                if region["slug"] not in candidate["regions"] and region["state"] not in candidate["regions"]:
+                    continue
+                for trade in candidate["trades"]:
+                    key = (domain(candidate["website"]), region["slug"], trade)
+                    if key in existing:
+                        evidence_keys.add(key)
+    reviewed_counts = {}
+    for _, region, trade in evidence_keys:
+        pair = f"{region}|{trade}"
+        reviewed_counts[pair] = reviewed_counts.get(pair, 0) + 1
+    assert reviewed_counts == review["beforeCounts"]
+    assert len(evidence_keys) == review["beforePlacements"]
+    for _, region, trade in actual:
+        pair = f"{region}|{trade}"
+        reviewed_counts[pair] = reviewed_counts.get(pair, 0) + 1
+    assert reviewed_counts == review["afterCounts"]
+    assert len(evidence_keys | actual) == review["afterPlacements"]
+    assert all(reviewed_counts.get(f"{r}|{t}", 0) <= 20 for r, t in affected)
+else:
+    assert all(value <= 20 for key, value in counts.items() if key in affected)
 
 result = {
     "priorListingsPreserved": len(before),
