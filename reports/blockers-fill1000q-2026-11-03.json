@@ -1,9 +1,9 @@
 {
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "requestedRunTarget": 1000,
   "previousPublishedPlacements": 241,
   "preparedPlacements": 189,
-  "publishedPlacements": 0,
+  "publishedPlacements": 189,
   "shortfallAfterCheckpointPublication": 570,
   "blockers": [
     {
@@ -116,5 +116,13 @@
       "customerEvidence": "Official NPI Pensacola office page identifies Mike Cagle and explicitly lists Pensacola, Pace, Milton, Navarre and Gulf Breeze as home inspection service communities.",
       "displayName": "National Property Inspections"
     }
-  ]
+  ],
+  "cumulativePublishedPlacements": 430,
+  "runShortfall": 570,
+  "publishedCommit": "466084a2710eed90831b844858ebcebc543aed2f",
+  "deploymentId": "dpl_24ECtcd7zTrWyxT7vW1iXFn1dzs3",
+  "liveVerifiedPlacements": 189,
+  "liveVerifiedProfiles": 61,
+  "githubWorkflowRun": 41591339622,
+  "githubWorkflowConclusion": "success"
 }

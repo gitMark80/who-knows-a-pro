@@ -1,0 +1,70 @@
+{
+  "status": "prepared_not_published",
+  "requestedRunTarget": 1000,
+  "previousPublishedPlacements": 430,
+  "preparedPlacements": 116,
+  "publishedPlacements": 0,
+  "shortfallAfterCheckpointPublication": 454,
+  "blockers": [
+    {
+      "website": "https://www.caliber.com/find-a-location/foley",
+      "reason": "Official structured location address is Foley, Alabama, but page about/meta copy refers to Corpus Christi, Texas; inconsistent evidence held."
+    },
+    {
+      "website": "https://www.caliber.com/find-a-location/pensacola",
+      "reason": "This URL returned Navarre location content. Pensacola, Biloxi and Baton Rouge candidate URLs were held where location metadata resolved elsewhere."
+    },
+    {
+      "website": "https://www.caliber.com/find-a-location/royal-palm-beach",
+      "reason": "Royal Palm Beach is not West Palm Beach; no placement inferred."
+    },
+    {
+      "website": "https://countrywideappliance.com/service-areas/",
+      "reason": "Official page expressly describes an independent referral service that does not employ technicians; not a qualifying local business listing."
+    },
+    {
+      "website": "https://alabamapoolcompany.com/",
+      "reason": "HTTP 200 but body says site temporarily unavailable; not counted as working evidence."
+    },
+    {
+      "website": "https://www.novumindustries.com/",
+      "reason": "Quote-comparison language; independent installing contractor identity unresolved. Not imported."
+    },
+    {
+      "website": "https://climateguardpros.net/",
+      "reason": "Direct retrieval is a JavaScript shell without service/city content; not imported."
+    },
+    {
+      "website": "https://lashome.com/",
+      "reason": "Direct HTTP access failed; no new listing imported."
+    },
+    {
+      "website": "https://qcscapes.com/services/",
+      "reason": "HTTP 403; no new listing imported."
+    },
+    {
+      "website": "https://www.servicemasterrestore.com/locations/",
+      "reason": "HTTP 403 on national and AL/LA/MS/location pages; no new listing imported."
+    },
+    {
+      "website": "https://www.lahomeinspect.com/pricing.html",
+      "reason": "HTTP 503; no new listing imported."
+    },
+    {
+      "website": "https://legendstreeservice.com/",
+      "reason": "HTTP 503; no new listing imported."
+    },
+    {
+      "website": "https://generxgenerators.com/service-areas/mississippi/",
+      "reason": "Official page limits Mississippi service to northern areas; Biloxi/Gulfport not inferred."
+    },
+    {
+      "website": "https://unitedwaterrestoration.com/us/louisiana/ascension-parish",
+      "reason": "Exact Baton Rouge or New Orleans coverage not established; no placements inferred from nearby parish."
+    },
+    {
+      "website": "https://crewssepticsolutions.com/",
+      "reason": "Preserved earlier published record. A newly discovered Sunbiz result for Crews Septic Solutions LLC indicates administrative dissolution on 2026-09-25. Official site still actively offers services; legal/entity status needs follow-up. No deletion made. Crews Environmental has separately identified Himschoot ownership and distinct office/phone."
+    }
+  ]
+}

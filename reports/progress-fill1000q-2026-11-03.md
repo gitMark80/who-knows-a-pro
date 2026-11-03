@@ -1,12 +1,12 @@
 # Directory fill continuation — 2026-11-03
 
-Status: prepared and validated; publication and live checks pending. This checkpoint contains **189** new placements. **241** earlier placements from this same 1,000-placement request are already published and live-verified. If this checkpoint publishes successfully, the cumulative count will be **430**, leaving **570** in the request.
+Status: published and live-verified. Commit `466084a2710eed90831b844858ebcebc543aed2f`, production deployment `dpl_24ECtcd7zTrWyxT7vW1iXFn1dzs3`. All **189** new placements on 120 category pages and **61** profiles passed live checks. GitHub CI run 41591339622 passed. Cumulative progress for this request is **430 published and live-verified**, with **570 still required** to reach 1,000.
 
 Baseline main: `8c965e12626d103b124eb7480c8b9a4e246f547c`. Refreshed main before writing; no newer main changes were present. The enabled fill automation last recorded a run at 2026-11-03T01:20:15.559776Z, unchanged during this continuation; no overlapping run was recorded. The schedule remains unchanged.
 
 The catalog remains 40 active cities × 30 visible categories (1,200 combinations). Ten hidden categories are preserved. Grayton Beach is active; Panama City and Panama City Beach are separate. The existing importer already supports 20 listings per combination. No application-code or cap changes were needed.
 
-Prepared count coverage: **702 at 20+**, **498 below 20**, **0 empty**, **2708 total missing placements**. These counts include legacy listings and are not a fresh qualification audit of every legacy record.
+Fresh full live audit: **702 at 20+**, **498 below 20**, **0 empty**, **2708 total missing placements**. These counts include legacy listings and are not a fresh qualification audit of every legacy record.
 
 The 189 new placements expand 131 evidence rows from 61 website hosts. Host counts do not imply independent companies. All selected source pages and linked official websites returned HTTP 200, with retrieval timestamps, final URLs and content hashes recorded. Unknown contact/address fields are omitted.
 
@@ -16,7 +16,7 @@ Identity review includes Gator/Flamingo, Brownie’s/Wind River, Shelley’s Sep
 
 ## Additions by city
 
-| City slug | Prepared placements |
+| City slug | Published placements |
 |---|---:|
 | pensacola-fl | 1 |
 | biloxi-ms | 2 |
@@ -60,3 +60,5 @@ Continue from current main and a fresh live audit. This checkpoint has no unsele
 Priority-city deficits remain Destin 5, Fort Walton Beach 4, Crestview 7 and Panama City 5. Searches reconfirmed existing septic, collision and marine providers rather than uncovering additional qualified identities. This is not proof that those markets have no more providers. Continue other cities while retaining these shortages.
 
 See blockers-fill1000q-2026-11-03.json for exact access, identity and coverage blockers. No Google Maps/Places, Yelp, Angi, paid API calls, Foursquare credits, outreach or purchases were used. The automation remains enabled because the overall goal has not been verified complete.
+
+TypeScript, lint and the final production build passed. Full live audit of all 1,200 active city/category pages confirmed 702 at 20+, 498 below, zero empty and a count deficit of 2,708.
