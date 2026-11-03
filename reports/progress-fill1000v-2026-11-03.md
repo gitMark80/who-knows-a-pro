@@ -1,6 +1,6 @@
 # Directory fill1000v — 2026-11-03
 
-Status: checkpoint prepared; publication and live checks pending.
+Status: published and live-verified. Data commit `5a8d0d9a088dd8357d01dcd9cdae6c5d2643d50c`; production deployment `dpl_F1puxYWebDkJpkFJHmeZSVmVnSP8` reached READY. All 118 placement cards and 46 distinct profile pages passed, including official links and city/category context. The full production coverage audit matched the prepared counts. See `live-fill1000v-2026-11-03.json` and `coverage-fill1000v-live-2026-11-03.csv`.
 
 Requested manual-run target: **1,000 newly published placements**. This checkpoint contains **118** validated placements from **46** normalized business domains; **882** remain toward the request. The importer's `target: 118` is the checkpoint size, not a reduced run target.
 

@@ -1,0 +1,793 @@
+{
+  "baselineCommit": "5a8d0d9a088dd8357d01dcd9cdae6c5d2643d50c",
+  "continuationOf": "reports/verified-fill1000v-2026-11-03.json",
+  "verifiedAt": "2026-11-03T15:04:05.720Z",
+  "target": 71,
+  "status": "prepared_not_published",
+  "placementCount": 71,
+  "sourceRecordCount": 50,
+  "uniqueBusinessDomains": 39,
+  "additionsByCity": {
+    "fort-walton-beach-fl": 1,
+    "destin-fl": 2,
+    "crestview-fl": 2,
+    "gulf-breeze-fl": 1,
+    "pace-fl": 1,
+    "perdido-key-fl": 1,
+    "navarre-fl": 1,
+    "orange-beach-al": 1,
+    "gulf-shores-al": 1,
+    "foley-al": 1,
+    "fairhope-al": 1,
+    "daphne-al": 1,
+    "dothan-al": 1,
+    "montgomery-al": 4,
+    "tallahassee-fl": 15,
+    "auburn-al": 1,
+    "new-orleans-la": 10,
+    "baton-rouge-la": 6,
+    "birmingham-al": 2,
+    "huntsville-al": 6,
+    "atlanta-ga": 1,
+    "jacksonville-fl": 1,
+    "tampa-fl": 1,
+    "clearwater-fl": 2,
+    "st-petersburg-fl": 1,
+    "orlando-fl": 1,
+    "sarasota-fl": 2,
+    "fort-myers-fl": 1,
+    "naples-fl": 1,
+    "fort-lauderdale-fl": 1
+  },
+  "additionsByCategory": {
+    "septic-services": 20,
+    "auto-body-collision": 14,
+    "screen-enclosures-pool-cages": 3,
+    "fence-builders": 1,
+    "appliance-repair": 7,
+    "gutters": 1,
+    "marine-services": 8,
+    "pool-installation": 4,
+    "pool-service": 1,
+    "home-inspections": 4,
+    "hurricane-shutters-impact-windows": 5,
+    "water-damage-mold-remediation": 2,
+    "garage-door-repair": 1
+  },
+  "additionsByBusiness": {
+    "Boyett's": 7,
+    "CarMedic": 14,
+    "Sewer-Man": 7,
+    "Middlebrook Contractors Inc": 1,
+    "Aluminum Fabricators": 3,
+    "Chandler Appliance Repair": 1,
+    "Appliance Heroes": 1,
+    "Jason's Appliance Repair of Tallahassee": 1,
+    "Mercer Appliance Repair": 1,
+    "Quick Appliance Inc": 1,
+    "Mike's Marine Supply": 1,
+    "North Florida Diving Services": 1,
+    "Sunshine Boats and Motors": 1,
+    "Tallahassee Boat Canvas and Repair": 1,
+    "TM Repair Center": 1,
+    "Leon Screening and Repair": 1,
+    "NRG Industries Inc.": 1,
+    "Peddie Pools of Tallahassee Inc": 1,
+    "Salvo Pools": 1,
+    "Pool Professor of Tallahassee": 2,
+    "Smith Landscape and Pool": 1,
+    "Emergency Rooter LLC": 1,
+    "I Spy Home Inspections LLC": 1,
+    "Red Line Home Inspections LLC": 1,
+    "Overhead Door Company of New Orleans": 2,
+    "EcoView Windows and Doors": 2,
+    "Southern Hurricane Shutters": 1,
+    "AdvantaClean": 1,
+    "Bent Marine": 1,
+    "Jefferson Appliance Inc.": 1,
+    "Louisiana Shutters Blinds & Shades": 1,
+    "Baton Rouge Plumbing": 1,
+    "RooterMan": 2,
+    "David Wade Marine": 1,
+    "Southern Marine Specialists LLC": 1,
+    "Riddick Appliance Repair LLC": 1,
+    "Birmingham Home Inspections": 1,
+    "A To Z Home Inspector Services LLC": 3
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 761,
+    "pairsBelow20": 439,
+    "deficit": 1980
+  },
+  "prepared": {
+    "pairsAt20": 764,
+    "pairsBelow20": 436,
+    "deficit": 1909,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "gulf-breeze-fl|septic-services",
+    "tallahassee-fl|pool-installation",
+    "fort-myers-fl|auto-body-collision"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Boyett's",
+      "website": "https://www.boyetts.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl",
+        "crestview-fl",
+        "gulf-breeze-fl",
+        "pace-fl",
+        "perdido-key-fl",
+        "navarre-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.boyetts.com/",
+      "sourceVerifiedAt": "2026-11-03T14:48:40.848052+00:00",
+      "evidenceNote": "Official homepage expressly offers residential septic pumping, cleaning and repair in Escambia, Santa Rosa and Okaloosa counties in Florida. Each included city is within those stated counties. These are service-area placements; no extra offices or coverage in Walton or Bay County is inferred."
+    },
+    {
+      "name": "CarMedic",
+      "website": "https://www.carmedic.biz/find-a-carmedic/florida/",
+      "regions": [
+        "crestview-fl",
+        "destin-fl",
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.carmedic.biz/find-a-carmedic/florida/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official technician locator explicitly lists mobile dent and hail repair coverage for these cities; Fort Lauderdale is within the stated Broward County territory. Each technician works on consumer vehicles. CarMedic is counted once per city, not separately for each technician. No Miami or Panama City coverage is inferred."
+    },
+    {
+      "name": "Sewer-Man",
+      "website": "https://sewerman.com/joey-crews/services/sewer-pumps/",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://sewerman.com/joey-crews/services/sewer-pumps/",
+      "sourceVerifiedAt": "2026-11-03T14:49:20.528852+00:00",
+      "evidenceNote": "Official Baldwin County franchise page identifies the Crews family operator and expressly offers residential septic tank pumping and maintenance throughout Baldwin County. Sewer-Man and RooterMan are treated as related brands and must not be counted twice in the same city/category."
+    },
+    {
+      "name": "Middlebrooks Contractors, Inc.",
+      "website": "https://www.middlebrookscontractors.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.middlebrookscontractors.com/",
+      "sourceVerifiedAt": "2026-11-03T14:49:19.985562+00:00",
+      "evidenceNote": "Official homepage expressly names Dothan in its contractor service area and offers septic-system repairs on residential and commercial properties. The existing business identity is extended to documented Dothan service coverage; no Dothan office is inferred."
+    },
+    {
+      "name": "Aluminum Fabricators",
+      "website": "https://alumfab.com/screen-rooms/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://alumfab.com/screen-rooms/",
+      "sourceVerifiedAt": "2026-11-03T15:00:21.469702+00:00",
+      "evidenceNote": "Official Montgomery-area page offers custom residential screen rooms and pool enclosures and explicitly lists gutter and fencing installation among its construction services. The page identifies Montgomery coverage and its local contact line; no other Alabama towns are inferred."
+    },
+    {
+      "name": "Aluminum Fabricators",
+      "website": "https://alumfab.com/screen-rooms/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://alumfab.com/screen-rooms/",
+      "sourceVerifiedAt": "2026-11-03T15:00:21.469702+00:00",
+      "evidenceNote": "Official Montgomery-area page offers custom residential screen rooms and pool enclosures and explicitly lists gutter and fencing installation among its construction services. The page identifies Montgomery coverage and its local contact line; no other Alabama towns are inferred."
+    },
+    {
+      "name": "Chandler Appliance Repair",
+      "website": "https://chandlerappliancerepairs.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://chandlerappliancerepairs.com/",
+      "sourceVerifiedAt": "2026-11-03T14:59:50.907571+00:00",
+      "evidenceNote": "Official homepage identifies Chandler Appliance Repair at its Montgomery address and offers repairs of household refrigerators, washers, dryers, ranges and dishwashers. Only Montgomery is included; installation-only providers and referral websites are not substituted."
+    },
+    {
+      "name": "Aluminum Fabricators",
+      "website": "https://alumfab.com/screen-rooms/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://alumfab.com/screen-rooms/",
+      "sourceVerifiedAt": "2026-11-03T15:00:21.469702+00:00",
+      "evidenceNote": "Official Montgomery-area page offers custom residential screen rooms and pool enclosures and explicitly lists gutter and fencing installation among its construction services. The page identifies Montgomery coverage and its local contact line; no other Alabama towns are inferred."
+    },
+    {
+      "name": "Appliance Heroes",
+      "website": "https://appliance-heroes.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://appliance-heroes.com/",
+      "sourceVerifiedAt": "2026-11-03T15:02:11.484438+00:00",
+      "evidenceNote": "Official homepage expressly provides repairs for Tallahassee homeowners, including refrigerators, washers, dryers, ovens and dishwashers. The page identifies its own service operation and local territory; no directory or customer-review evidence is used."
+    },
+    {
+      "name": "Jason's Appliance Repair of Tallahassee",
+      "website": "https://jasonrepairs.com/service-areas",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://jasonrepairs.com/service-areas",
+      "sourceVerifiedAt": "2026-11-03T15:03:32.698712+00:00",
+      "evidenceNote": "Official service-area page says the family-owned business is based in Tallahassee and serves homes throughout the city. Its official appliance-types page expressly repairs household refrigerators, washers, dryers, dishwashers, stoves and ovens. Only Tallahassee is included."
+    },
+    {
+      "name": "Mercer Appliance Repair",
+      "website": "https://mercerappliancerepair.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://mercerappliancerepair.com/",
+      "sourceVerifiedAt": "2026-11-03T15:02:10.815549+00:00",
+      "evidenceNote": "Official website identifies owner Thomas Mercer and explicitly serves Tallahassee with in-home repairs to refrigerators, ovens, washers, dryers and other household appliances. Its own terms describe residential service delivery; broad surrounding-area wording is not expanded."
+    },
+    {
+      "name": "Quick Appliance Inc",
+      "website": "https://quickapplianceinc.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://quickapplianceinc.com/",
+      "sourceVerifiedAt": "2026-11-03T15:02:11.012411+00:00",
+      "evidenceNote": "Official homepage explicitly serves Tallahassee with repairs to major home appliances, including dishwashers, electric dryers and ice makers. It identifies Quick Appliance Inc as the local business; no extra territory is inferred from surrounding-area wording."
+    },
+    {
+      "name": "Mike's Marine Supply",
+      "website": "https://www.mikesflorida.com/other-services",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.mikesflorida.com/other-services",
+      "sourceVerifiedAt": "2026-11-03T14:57:38.113542+00:00",
+      "evidenceNote": "Official service page expressly provides fishing-boat repairs for Tallahassee boat owners from its Panacea facility. Its alternate mikesmarinepanacea.com website represents the same business and is not counted separately. No Tallahassee office is claimed."
+    },
+    {
+      "name": "North Florida Diving Services",
+      "website": "https://www.northfloridadiving.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.northfloridadiving.com/",
+      "sourceVerifiedAt": "2026-11-03T14:57:39.431339+00:00",
+      "evidenceNote": "Official homepage identifies its Tallahassee headquarters and offers boat hull cleaning, vessel maintenance, dock repairs and underwater inspections. Only the documented home city is included; the broad Florida-and-surrounding-states statement is not expanded to distant cities."
+    },
+    {
+      "name": "Sunshine Boats and Motors",
+      "website": "https://www.sunshineboatsandmotors.net/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.sunshineboatsandmotors.net/",
+      "sourceVerifiedAt": "2026-11-03T14:57:37.598582+00:00",
+      "evidenceNote": "Official homepage identifies the Tallahassee Yamaha service and repair center at Garber Drive and names its owners and technicians. It offers consumer outboard motor service locally; no other city is inferred."
+    },
+    {
+      "name": "Tallahassee Boat Canvas and Repair",
+      "website": "https://tallahasseeboatcanvas.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://tallahasseeboatcanvas.com/",
+      "sourceVerifiedAt": "2026-11-03T14:57:38.425703+00:00",
+      "evidenceNote": "Official homepage gives its Tallahassee address and offers boat-canvas fabrication and repair, outboard-engine repairs and marine wiring/electronics installation. These are consumer boat services at the documented local business; no wider coverage is inferred."
+    },
+    {
+      "name": "TM Repair Center",
+      "website": "https://www.tmservicefl.com/repair/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.tmservicefl.com/repair/",
+      "sourceVerifiedAt": "2026-11-03T14:57:38.448073+00:00",
+      "evidenceNote": "Official repair page provides the Tallahassee workshop address and explicitly repairs Minn Kota and MotorGuide trolling motors for boat owners. The listing is for this documented marine repair specialty, not an unsupported full-service boatyard."
+    },
+    {
+      "name": "Leon Screening and Repair",
+      "website": "https://leonscreening.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://leonscreening.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:58.739873+00:00",
+      "evidenceNote": "Official homepage identifies the Herring family business and Tallahassee address and offers new screen porches, rescreening, and screen repairs on pool enclosures. Residential scope is explicit; ordinary storm doors are not counted as hurricane protection."
+    },
+    {
+      "name": "NRG Industries Inc.",
+      "website": "https://www.nrgindustries.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.nrgindustries.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:58.290412+00:00",
+      "evidenceNote": "Official homepage identifies its Tallahassee showroom and residential contracting business, with custom screen rooms and patio enclosures expressly listed. Only the documented Tallahassee territory is included; ordinary replacement windows are not labeled hurricane products."
+    },
+    {
+      "name": "Peddie Pools of Tallahassee Inc",
+      "website": "https://peddiepoolsinc.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://peddiepoolsinc.com/",
+      "sourceVerifiedAt": "2026-11-03T14:50:24.793703+00:00",
+      "evidenceNote": "Official homepage identifies owner Blaine Peddie and its Tallahassee address, and offers design and installation of custom backyard swimming pools. Only Tallahassee is included; no pool-cleaning or unrelated repair service is inferred."
+    },
+    {
+      "name": "Salvo Pools",
+      "website": "https://salvopools.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://salvopools.com/",
+      "sourceVerifiedAt": "2026-11-03T14:50:24.085745+00:00",
+      "evidenceNote": "Official homepage identifies its Tallahassee business address and offers custom residential pool construction, including home consultations and backyard designs. Tallahassee is explicitly included in its service territory; general Florida Panhandle wording is not expanded to other cities."
+    },
+    {
+      "name": "Pool Professor of Tallahassee",
+      "website": "https://tallypoolprofessor.com/custom-pool-construction",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://tallypoolprofessor.com/custom-pool-construction",
+      "sourceVerifiedAt": "2026-11-03T14:50:26.218659+00:00",
+      "evidenceNote": "Official Pool Professor page identifies its Tallahassee home-pool business and offers custom pool construction, weekly pool service, equipment repair and green-pool cleanup. Tallahassee is explicitly served. Panama City is named only for construction, so no Panama City maintenance placement is inferred."
+    },
+    {
+      "name": "Pool Professor of Tallahassee",
+      "website": "https://tallypoolprofessor.com/custom-pool-construction",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://tallypoolprofessor.com/custom-pool-construction",
+      "sourceVerifiedAt": "2026-11-03T14:50:26.218659+00:00",
+      "evidenceNote": "Official Pool Professor page identifies its Tallahassee home-pool business and offers custom pool construction, weekly pool service, equipment repair and green-pool cleanup. Tallahassee is explicitly served. Panama City is named only for construction, so no Panama City maintenance placement is inferred."
+    },
+    {
+      "name": "Smith Landscape and Pool",
+      "website": "https://smithlandscapeandpool.com/",
+      "regions": [
+        "auburn-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://smithlandscapeandpool.com/",
+      "sourceVerifiedAt": "2026-11-03T14:50:24.841550+00:00",
+      "evidenceNote": "Official homepage calls the business Auburns custom landscape and pool builder and offers full backyard pool installation for families. It explains that Smith Landscape changed its name in 2022 when adding pool building, so those names represent one identity."
+    },
+    {
+      "name": "Emergency Rooter LLC",
+      "website": "https://emergencyrooterllc.com/septic-tank",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://emergencyrooterllc.com/septic-tank",
+      "sourceVerifiedAt": "2026-11-03T14:50:25.626035+00:00",
+      "evidenceNote": "Official septic-service page identifies the New Orleans company and explicitly offers septic backup diagnosis and repairs across New Orleans, including tanks backing up into houses or yards. Scope is residential septic and lift-station troubleshooting; pumping is not invented."
+    },
+    {
+      "name": "I Spy Home Inspections LLC",
+      "website": "https://ispyhomeinspectionsusa.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://ispyhomeinspectionsusa.com/",
+      "sourceVerifiedAt": "2026-11-03T14:59:48.193583+00:00",
+      "evidenceNote": "Official homepage identifies Joe Althage and expressly includes New Orleans in its residential home-inspection service area. The company also tests for mold but does not claim remediation, so no water-damage or remediation category is added."
+    },
+    {
+      "name": "Red Line Home Inspections LLC",
+      "website": "https://www.redlineinspectors.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.redlineinspectors.com/",
+      "sourceVerifiedAt": "2026-11-03T14:59:46.968657+00:00",
+      "evidenceNote": "Official homepage identifies inspector Greg Lonero Jr. and explicitly offers residential home inspections in New Orleans. It explains whole-home inspection scope and reports. Mold testing or property repairs are not inferred from the inspection service."
+    },
+    {
+      "name": "Overhead Door Company of New Orleans",
+      "website": "https://duraservcorp.com/ohdno/products/residential/hurricane-shutters/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://duraservcorp.com/ohdno/products/residential/hurricane-shutters/",
+      "sourceVerifiedAt": "2026-11-03T15:00:22.971823+00:00",
+      "evidenceNote": "Official local division page explicitly installs residential hurricane shutters in New Orleans, including roll, accordion, Bahama and colonial shutters and storm panels. DuraServ and the Overhead Door local division are treated as one identity; no parent-brand coverage is inferred."
+    },
+    {
+      "name": "EcoView Windows and Doors",
+      "website": "https://www.ecoview.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.ecoview.com/dealers/new-orleans-la/impact-windows/",
+      "sourceVerifiedAt": "2026-11-03T14:55:17.455272+00:00",
+      "evidenceNote": "Official New Orleans dealer page explicitly offers installation of hurricane-impact windows for New Orleans homeowners from the Slidell office. This is stated service coverage, not an inferred local branch. Parent and dealer domains count as one business identity."
+    },
+    {
+      "name": "Southern Hurricane Shutters",
+      "website": "https://www.southernhurricaneshutters.com/index.html",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.southernhurricaneshutters.com/index.html",
+      "sourceVerifiedAt": "2026-11-03T14:50:24.496601+00:00",
+      "evidenceNote": "Official homepage identifies Southern Hurricane Shutters in New Orleans and states that it manufactures and installs hurricane-rated shutters, panels and protective screens for residents and businesses. Only its stated New Orleans area is used; vague Gulf Coast wording is not expanded."
+    },
+    {
+      "name": "AdvantaClean",
+      "website": "https://www.advantaclean.com/new-orleans-la/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.advantaclean.com/new-orleans-la/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official Metro New Orleans location page identifies its local owners and explicitly includes New Orleans in the service area. Its own service text offers home water-damage cleanup and mold removal/remediation. Embedded reviews are not used for verification."
+    },
+    {
+      "name": "Overhead Door Company of New Orleans",
+      "website": "https://duraservcorp.com/ohdno/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://duraservcorp.com/ohdno/",
+      "sourceVerifiedAt": "2026-11-03T15:01:18.476696+00:00",
+      "evidenceNote": "Official New Orleans division homepage explicitly designs, installs and services residential garage doors and provides its New Orleans business address. The same DuraServ/Overhead Door local identity is used for its garage-door and hurricane-shutter services."
+    },
+    {
+      "name": "Bent Marine",
+      "website": "https://www.bentmarine.com/new-orleans-boat-maintenance",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.bentmarine.com/new-orleans-boat-maintenance",
+      "sourceVerifiedAt": "2026-11-03T14:53:29.258714+00:00",
+      "evidenceNote": "Official service page explicitly offers boat maintenance and repairs for New Orleans owners from its Metairie and Madisonville facilities, including engine service, electronics and refitting. This is a New Orleans service-area placement, not a claim of a city-center branch."
+    },
+    {
+      "name": "Jefferson Appliance Inc.",
+      "website": "https://www.jeffersonappliance.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.jeffersonappliance.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:21.154671+00:00",
+      "evidenceNote": "Official homepage identifies the Harahan business and expressly serves New Orleans with household refrigerator, washer, dryer, dishwasher, range and oven repairs. The placement represents stated New Orleans coverage and does not invent a local branch."
+    },
+    {
+      "name": "Louisiana Shutters Blinds & Shades",
+      "website": "https://louisianashuttersblindsandshades.com/hurricane-shutters/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://louisianashuttersblindsandshades.com/hurricane-shutters/",
+      "sourceVerifiedAt": "2026-11-03T15:00:21.101363+00:00",
+      "evidenceNote": "Official hurricane-shutter page names its Baton Rouge office and offers Alutech storm shutters for local properties. The company provides custom window treatments and installation, with hurricane-rated products explicitly distinguished from decorative plantation shutters."
+    },
+    {
+      "name": "Baton Rouge Plumbing",
+      "website": "https://www.batonrougeplumbing.org/residential-plumbing",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.batonrougeplumbing.org/residential-plumbing",
+      "sourceVerifiedAt": "2026-11-03T14:58:27.763187+00:00",
+      "evidenceNote": "Official residential service page identifies owner Cory Mautner and expressly offers home septic-system installation, repair and maintenance throughout the Baton Rouge metro. This supports septic work, without claiming pumping or an office in central Baton Rouge."
+    },
+    {
+      "name": "RooterMan",
+      "website": "https://www.rooterman.com/baton-rouge/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.rooterman.com/baton-rouge/",
+      "sourceVerifiedAt": "2026-11-03T14:56:17.898281+00:00",
+      "evidenceNote": "Official Baton Rouge franchise homepage explicitly includes septic pumping among services offered to local homes, and describes its local technicians and residential work. Coverage is limited to Baton Rouge; parent-brand nationwide scope is not used."
+    },
+    {
+      "name": "David Wade Marine",
+      "website": "https://www.davidwademarine.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.davidwademarine.com/",
+      "sourceVerifiedAt": "2026-11-03T14:53:29.729599+00:00",
+      "evidenceNote": "Official homepage identifies the Baton Rouge service facility and offers recreational marine-engine servicing and repairs for Mercury, Yamaha, OMC, Volvo and other brands. Only its actual Baton Rouge location is included; testimonials are not used as evidence."
+    },
+    {
+      "name": "Southern Marine Specialists LLC",
+      "website": "https://southernmarinebr.wixsite.com/southernmarine",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://southernmarinebr.wixsite.com/southernmarine",
+      "sourceVerifiedAt": "2026-11-03T14:53:31.643622+00:00",
+      "evidenceNote": "Official business-operated Wix site gives its Baton Rouge address and offers fiberglass and gelcoat repairs, restoration and refinishing for customers boats. Consumer boat repairs are documented; no passenger-car collision service is inferred from boat collision work."
+    },
+    {
+      "name": "Riddick Appliance Repair LLC",
+      "website": "https://riddickappliancerepair.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://riddickappliancerepair.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:22.279629+00:00",
+      "evidenceNote": "Official homepage identifies a locally owned, family-operated Baton Rouge repair company and offers service for home refrigerators, washers, dryers, dishwashers, stoves and microwaves. Only the expressly named Baton Rouge service territory is included."
+    },
+    {
+      "name": "CarMedic",
+      "website": "https://www.carmedic.biz/find-a-carmedic/alabama/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.carmedic.biz/find-a-carmedic/alabama/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official Alabama technician page explicitly names Huntsville and Birmingham and offers mobile paintless dent and hail repair for consumer vehicles. Multiple technicians are treated as one CarMedic identity per city; no statewide coverage is inferred."
+    },
+    {
+      "name": "Birmingham Home Inspections",
+      "website": "https://www.bhaminspectionpro.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.bhaminspectionpro.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:55.239439+00:00",
+      "evidenceNote": "Official Birmingham Home Inspections site describes its local home-inspection business, residential buyer reports and inspection process. It provides direct scheduling and contact details. Only Birmingham is included; no wider Alabama coverage is inferred."
+    },
+    {
+      "name": "EcoView Windows and Doors",
+      "website": "https://www.ecoview.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.ecoview.com/dealers/huntsville-al/replacement-windows/",
+      "sourceVerifiedAt": "2026-11-03T14:53:29.716116+00:00",
+      "evidenceNote": "Official Huntsville dealer page offers impact and hurricane-resistant replacement windows with professional installation for local homeowners and provides its Huntsville address. EcoView is counted once per city/category across its parent and dealer domains."
+    },
+    {
+      "name": "A To Z Home Inspector Services LLC",
+      "website": "https://www.atozhomeinspector.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.atozhomeinspector.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:55.956298+00:00",
+      "evidenceNote": "Official homepage identifies Spero Zervos and explicitly serves Huntsville homes. It offers buyer/seller home inspections, septic-system inspections, and mold inspection and remediation. Septic scope is inspection only, not pumping or installation; unrelated engineering and brokerage services are not counted."
+    },
+    {
+      "name": "RooterMan",
+      "website": "https://rootermanhuntsville.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://rootermanhuntsville.com/",
+      "sourceVerifiedAt": "2026-11-03T14:56:17.536501+00:00",
+      "evidenceNote": "Official Huntsville website explicitly offers residential septic tank pumping and correction of system backups in Huntsville. The local franchise appears on the parent RooterMan locator. Sewer-Man, RooterMan and Elite Sanitation are treated as related identities, without duplicate local counting."
+    },
+    {
+      "name": "A To Z Home Inspector Services LLC",
+      "website": "https://www.atozhomeinspector.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.atozhomeinspector.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:55.956298+00:00",
+      "evidenceNote": "Official homepage identifies Spero Zervos and explicitly serves Huntsville homes. It offers buyer/seller home inspections, septic-system inspections, and mold inspection and remediation. Septic scope is inspection only, not pumping or installation; unrelated engineering and brokerage services are not counted."
+    },
+    {
+      "name": "A To Z Home Inspector Services LLC",
+      "website": "https://www.atozhomeinspector.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.atozhomeinspector.com/",
+      "sourceVerifiedAt": "2026-11-03T15:00:55.956298+00:00",
+      "evidenceNote": "Official homepage identifies Spero Zervos and explicitly serves Huntsville homes. It offers buyer/seller home inspections, septic-system inspections, and mold inspection and remediation. Septic scope is inspection only, not pumping or installation; unrelated engineering and brokerage services are not counted."
+    },
+    {
+      "name": "CarMedic",
+      "website": "https://www.carmedic.biz/find-a-carmedic/georgia/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.carmedic.biz/find-a-carmedic/georgia/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official Georgia technician page names South Atlanta as a service territory for mobile consumer-vehicle dent and hail repair. Only Atlanta is included; distant Georgia cities and statewide coverage are not inferred."
+    },
+    {
+      "name": "Sewer-Man",
+      "website": "https://sewerman.com/clearwater/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://sewerman.com/clearwater/",
+      "sourceVerifiedAt": "2026-11-03T14:55:14.264031+00:00",
+      "evidenceNote": "Official Clearwater franchise page identifies the Allard family as operator and expressly offers residential septic pumping, repairs and inspection in Clearwater. Only the named city is included; general Tampa Bay coverage is not inferred."
+    },
+    {
+      "name": "Sewer-Man",
+      "website": "https://sewerman.com/sarasota-fl/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://sewerman.com/sarasota-fl/",
+      "sourceVerifiedAt": "2026-11-03T14:55:14.417893+00:00",
+      "evidenceNote": "Official Sarasota page explicitly offers residential septic pumping, inspections and repairs and identifies RooterMan as its local operator. Sewer-Man and RooterMan are treated as one related business identity for this placement, with no duplicate franchise listing."
+    }
+  ],
+  "requestedRunTarget": 1000,
+  "checkpointTarget": 71,
+  "previousPublishedThisRun": 118,
+  "cumulativePrepared": 189,
+  "remainingToRequestedTarget": 811
+}
