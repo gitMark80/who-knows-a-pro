@@ -1,0 +1,33 @@
+{
+  "run": "fill500u",
+  "date": "2026-11-03",
+  "status": "research_checkpoint",
+  "candidateRecords": 103,
+  "selectedValidatedPlacements": 40,
+  "countingRule": "Research candidates are not listings; only importer-generated, validated and later live-verified placements count.",
+  "openStreetMap": {
+    "attribution": "\u00a9 OpenStreetMap contributors",
+    "license": "Open Database License (ODbL)",
+    "attributionUrl": "https://www.openstreetmap.org/copyright",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/",
+    "use": "Current OSM elements were used only as attributed corroboration for local location/category where the element linked the same official business website. The official website also had to load successfully."
+  },
+  "heldGroups": [
+    {
+      "group": "Gerber Collision & Glass",
+      "reason": "Official city pages loaded, but the domain is in the repository exclusion list and does not render; not counted."
+    },
+    {
+      "group": "Prime Plumbing alternate domain",
+      "reason": "Same Florida license as an existing directory identity; held as an alternate-domain duplicate."
+    },
+    {
+      "group": "National roadside and generic facility networks",
+      "reason": "No qualifying local operator/business identity for the target city; not counted."
+    },
+    {
+      "group": "Dead, parked, redirected, directory or social-only URLs",
+      "reason": "No working official business website; not counted."
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "baselineCommit": "ef292f13ac7c5110a1fe927f07d9d3053feac425",
+  "continuationOf": "reports/fill1000-request-summary-2026-11-03.json",
+  "verifiedAt": "2026-11-03T09:35:32.255Z",
+  "target": 40,
+  "status": "prepared_not_published",
+  "placementCount": 40,
+  "sourceRecordCount": 40,
+  "uniqueBusinessDomains": 26,
+  "additionsByCity": {
+    "biloxi-ms": 1,
+    "dothan-al": 1,
+    "montgomery-al": 1,
+    "tallahassee-fl": 5,
+    "new-orleans-la": 1,
+    "baton-rouge-la": 1,
+    "huntsville-al": 2,
+    "jacksonville-fl": 2,
+    "tampa-fl": 1,
+    "st-petersburg-fl": 1,
+    "sarasota-fl": 4,
+    "fort-myers-fl": 3,
+    "naples-fl": 2,
+    "west-palm-beach-fl": 3,
+    "fort-lauderdale-fl": 1,
+    "miami-fl": 11
+  },
+  "additionsByCategory": {
+    "auto-mechanics": 23,
+    "auto-body-collision": 7,
+    "pool-service": 3,
+    "home-inspections": 1,
+    "garage-door-repair": 2,
+    "pest-control": 1,
+    "fence-builders": 1,
+    "insulation": 1,
+    "locksmith": 1
+  },
+  "additionsByBusiness": {
+    "Valvoline Instant Oil Change": 10,
+    "University Collision Center": 1,
+    "Bob's Transmission": 1,
+    "Euro Tech Tallahassee": 1,
+    "Tires Plus Total Car Care": 6,
+    "ServCo Pools": 1,
+    "Collision Works of Baton Rouge": 1,
+    "A Buyer's Choice Home Inspections": 1,
+    "John's Automotive Complete Auto Repairs": 1,
+    "Classic Marcite": 1,
+    "Gene Perez Body Repair": 1,
+    "Eric's Foreign and American Car Repair Service": 1,
+    "Sherman\u2019s Auto Repair": 1,
+    "Poolwerx Sarasota Central": 1,
+    "Ace Collision Experts": 1,
+    "Fix Auto Fort Myers": 1,
+    "ECU Team Corp": 1,
+    "Overhead Door": 1,
+    "Precision Garage Door Service": 1,
+    "DeColores Collision Center": 1,
+    "South Motors Collision Center": 1,
+    "Midas": 1,
+    "Massey Services": 1,
+    "AVS Fence & Screen": 1,
+    "Bluenergy": 1,
+    "Alvarez Locksmith": 1
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 744,
+    "pairsBelow20": 456,
+    "deficit": 2138
+  },
+  "prepared": {
+    "pairsAt20": 746,
+    "pairsBelow20": 454,
+    "deficit": 2098,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "jacksonville-fl|pool-service",
+    "miami-fl|locksmith"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "biloxi-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/ms/biloxi/2625-pass-road",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.282019+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Biloxi shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/al/dothan/3477-ross-clark-circle",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.281483+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Dothan shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/al/montgomery/4131-atlanta-hwy",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.293329+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Montgomery shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "University Collision Center",
+      "website": "https://universitycollisioncenter.net/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://universitycollisioncenter.net/",
+      "sourceVerifiedAt": "2026-11-03T09:17:07.075513+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies University Collision Center in Tallahassee at 1881 Apalachee Parkway, tags it for consumer collision and auto-body repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Bob's Transmission",
+      "website": "https://bobs-transmission.com/index.html",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://bobs-transmission.com/index.html",
+      "sourceVerifiedAt": "2026-11-03T09:17:26.456414+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Bob's Transmission in Tallahassee at 1603 South Monroe Street, tags it for consumer automotive repair or maintenance, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Euro Tech Tallahassee",
+      "website": "https://www.eurotechtlh.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.eurotechtlh.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:20.356402+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Euro Tech Tallahassee in Tallahassee at 2975 Amber Fern Way, tags it for consumer automotive repair or maintenance, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "website": "https://www.tiresplus.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.tiresplus.com/florida/tallahassee/",
+      "sourceVerifiedAt": "2026-11-03T09:25:48.014884+00:00",
+      "evidenceNote": "The official Tires Plus city page lists one or more Tallahassee, FL store addresses and offers consumer tire, vehicle-repair and scheduled auto-maintenance service at those local stores."
+    },
+    {
+      "name": "ServCo Pools",
+      "website": "https://servcopools.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://servcopools.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:36.420534+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies ServCo Pools in Tallahassee at 2374 Capital Circle Northeast, tags it for residential swimming-pool maintenance or repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/la/new-orleans/1735-st-charles-ave",
+      "sourceVerifiedAt": "2026-11-03T09:16:52.525586+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its New Orleans shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Collision Works of Baton Rouge",
+      "website": "https://collisionworksla.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://collisionworksla.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:07.082623+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Collision Works of Baton Rouge in Baton Rouge at 5959 Siegen Lane, tags it for consumer collision and auto-body repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "A Buyer's Choice Home Inspections",
+      "website": "https://abuyerschoice.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://abuyerschoice.com/inspector/jack-smith/",
+      "sourceVerifiedAt": "2026-11-03T09:17:03.005517+00:00",
+      "evidenceNote": "The official inspector profile identifies a Huntsville-area licensed home inspector and explicitly offers residential home inspection services to local buyers and homeowners."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/al/huntsville/2155-winchester-rd-ne",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.294964+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Huntsville shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "John's Automotive Complete Auto Repairs",
+      "website": "https://johnsautomotivejax.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://johnsautomotivejax.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:36.415802+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies John's Automotive Complete Auto Repairs in Jacksonville at 5748 Arlington Road, tags it for consumer automotive repair or maintenance, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Classic Marcite",
+      "website": "https://classicmarcite.com",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://classicmarcite.com",
+      "sourceVerifiedAt": "2026-11-03T09:17:36.422195+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Classic Marcite in Jacksonville at 4960 Stepp Avenue, tags it for residential swimming-pool maintenance or repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Gene Perez Body Repair",
+      "website": "https://www.perezbody.com/",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.perezbody.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:07.074827+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Gene Perez Body Repair in Tampa at 4710 North Florida Avenue, tags it for consumer collision and auto-body repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "website": "https://www.tiresplus.com/",
+      "regions": [
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.tiresplus.com/florida/st-petersburg/",
+      "sourceVerifiedAt": "2026-11-03T09:25:58.824447+00:00",
+      "evidenceNote": "The official Tires Plus city page lists one or more St. Petersburg, FL store addresses and offers consumer tire, vehicle-repair and scheduled auto-maintenance service at those local stores."
+    },
+    {
+      "name": "Eric's Foreign and American Car Repair Service",
+      "website": "https://www.sarasotaauto.com",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.sarasotaauto.com",
+      "sourceVerifiedAt": "2026-11-03T09:17:11.803944+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Eric's Foreign and American Car Repair Service in Sarasota at 2650 Stickney Point Road, tags it for consumer automotive repair or maintenance, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Sherman\u2019s Auto Repair",
+      "website": "https://www.shermansautorepair.com",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.shermansautorepair.com",
+      "sourceVerifiedAt": "2026-11-03T09:17:20.037450+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Sherman\u2019s Auto Repair in Sarasota at 757 Gantt Avenue, tags it for consumer automotive repair or maintenance, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/fl/sarasota/3902-south-tamiami-trail",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.289494+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Sarasota shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Poolwerx Sarasota Central",
+      "website": "https://www.poolwerx.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.poolwerx.com/locations/florida/poolwerx-sarasota-central/",
+      "sourceVerifiedAt": "2026-11-03T09:28:56.760668+00:00",
+      "evidenceNote": "The official Poolwerx location page identifies the Sarasota Central service area and offers residential pool cleaning, maintenance, equipment repair and related homeowner services."
+    },
+    {
+      "name": "Ace Collision Experts",
+      "website": "https://acecollision.net/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://acecollision.net/",
+      "sourceVerifiedAt": "2026-11-03T09:17:06.957506+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies Ace Collision Experts in Fort Myers at 2238 Hemingway Drive, tags it for consumer collision and auto-body repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Fix Auto Fort Myers",
+      "website": "https://fixautousa.com/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://fixautousa.com/locations/fl/fort-myers/fix-auto-fort-myers-24236/",
+      "sourceVerifiedAt": "2026-11-03T09:16:56.142908+00:00",
+      "evidenceNote": "The official Fix Auto location page identifies the Fort Myers collision center and describes consumer collision, body and paint repair services at its local facility."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/fl/ft-myers/13730-south-tamiami-trail",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.282676+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Fort Myers shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/fl/naples/2257-pine-ridge-rd",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.286813+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Naples shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "website": "https://www.tiresplus.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.tiresplus.com/florida/naples/",
+      "sourceVerifiedAt": "2026-11-03T09:26:28.442284+00:00",
+      "evidenceNote": "The official Tires Plus city page lists one or more Naples, FL store addresses and offers consumer tire, vehicle-repair and scheduled auto-maintenance service at those local stores."
+    },
+    {
+      "name": "ECU Team Corp",
+      "website": "https://ecuteam.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://ecuteam.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:22.794210+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies ECU Team Corp in West Palm Beach at 5606 Greenwood Avenue, tags it for consumer automotive repair or maintenance, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/fl/west-palm-beach/1763-s-congress-ave",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.290525+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its West Palm Beach shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "website": "https://www.tiresplus.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.tiresplus.com/florida/west-palm-beach/",
+      "sourceVerifiedAt": "2026-11-03T09:26:28.446353+00:00",
+      "evidenceNote": "The official Tires Plus city page lists one or more West Palm Beach, FL store addresses and offers consumer tire, vehicle-repair and scheduled auto-maintenance service at those local stores."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "website": "https://www.tiresplus.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.tiresplus.com/florida/fort-lauderdale/",
+      "sourceVerifiedAt": "2026-11-03T09:26:28.444048+00:00",
+      "evidenceNote": "The official Tires Plus city page lists one or more Fort Lauderdale, FL store addresses and offers consumer tire, vehicle-repair and scheduled auto-maintenance service at those local stores."
+    },
+    {
+      "name": "Overhead Door",
+      "website": "https://www.overheaddoor.com/",
+      "summary": "Residential garage-door sales, repair, maintenance and replacement in Miami-Dade.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.overheaddoor.com/find-a-distributor/overhead-door-company-of-gold-coast",
+      "sourceVerifiedAt": "2026-11-03T01:05:27Z",
+      "evidenceNote": "The official distributor page identifies Miami-Dade as the Gold Coast office's service region and explicitly offers garage-door repair, maintenance and replacement there."
+    },
+    {
+      "name": "Precision Garage Door Service",
+      "website": "https://www.precisiondoor.net/",
+      "summary": "Locally operated residential garage-door repair and installation franchises.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.precisiondoor.net/locations",
+      "sourceVerifiedAt": "2026-11-03T01:05:27Z",
+      "evidenceNote": "The official national location directory lists branches or explicit areas served for every selected city, including the Pensacola and Panama City branches' detailed Panhandle coverage and separately identified regional franchises elsewhere."
+    },
+    {
+      "name": "DeColores Collision Center",
+      "website": "https://decolorescollisioncenter.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://decolorescollisioncenter.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:06.940785+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies DeColores Collision Center in Miami at 280 Southwest 22nd Avenue, tags it for consumer collision and auto-body repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "South Motors Collision Center",
+      "website": "https://southmotorscollision.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://southmotorscollision.com/",
+      "sourceVerifiedAt": "2026-11-03T09:17:03.780139+00:00",
+      "evidenceNote": "The current OpenStreetMap element identifies South Motors Collision Center in Miami at 9720 Southwest 170th Street, tags it for consumer collision and auto-body repair, and links the same official business website; that official website returned HTTP 200 during this verification run."
+    },
+    {
+      "name": "Midas",
+      "website": "https://www.midas.com/",
+      "summary": "Consumer auto repair, tires, brakes and routine vehicle maintenance at local shops.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.midas.com/store/fl",
+      "sourceVerifiedAt": "2026-11-03T01:05:27Z",
+      "evidenceNote": "Midas's official state store directories list shops in every selected city and describe oil changes, brake repair, tires, alignments, tune-ups, batteries, electrical, air-conditioning and routine maintenance."
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "website": "https://store.vioc.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://store.vioc.com/fl/miami/15203-sw-104th-street",
+      "sourceVerifiedAt": "2026-11-03T09:16:47.283545+00:00",
+      "evidenceNote": "The official Valvoline Instant Oil Change location page identifies its Miami shop and offers consumer oil-change and preventive vehicle-maintenance services at that local address."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "website": "https://www.tiresplus.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.tiresplus.com/florida/miami/",
+      "sourceVerifiedAt": "2026-11-03T09:26:28.443152+00:00",
+      "evidenceNote": "The official Tires Plus city page lists one or more Miami, FL store addresses and offers consumer tire, vehicle-repair and scheduled auto-maintenance service at those local stores."
+    },
+    {
+      "name": "Massey Services",
+      "website": "https://www.masseyservices.com/",
+      "summary": "Residential pest and termite control in named Florida service communities.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.masseyservices.com/locations/",
+      "sourceVerifiedAt": "2026-11-03T01:05:27Z",
+      "evidenceNote": "Massey's official location directory names every selected community and labels each one with Pest Control and Termite Treatment rather than relying on a generic statewide presence claim."
+    },
+    {
+      "name": "AVS Fence & Screen",
+      "website": "https://www.avsfenceandscreen.com/",
+      "summary": "Residential fence installation; statewide availability is for large-scale and custom projects.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.avsfenceandscreen.com/fence-installation",
+      "sourceVerifiedAt": "2026-11-03T09:34:18.569347+00:00",
+      "evidenceNote": "Official fence page offers residential aluminum, chain-link, vinyl, pool safety and custom fence installation. Based in Southwest Florida, it explicitly accepts large-scale and custom projects statewide. Outside Southwest Florida, the listing is limited to that stated project scope."
+    },
+    {
+      "name": "Bluenergy",
+      "website": "https://bluenergysolar.com/",
+      "summary": "Home impact-window installation and whole-home insulation across Florida.",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://bluenergysolar.com/en",
+      "sourceVerifiedAt": "2026-11-03T09:34:18.570059+00:00",
+      "evidenceNote": "Official site explicitly offers residential installations in every Florida county, including installed impact-rated hurricane windows and whole-home attic/wall/floor insulation. Its about page confirms an in-house Jacksonville-based operation. Generac partner branding alone was not used to add generator installation."
+    },
+    {
+      "name": "Alvarez Locksmith",
+      "website": "https://alvarezlocksmith.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://alvarezlocksmith.com/",
+      "sourceVerifiedAt": "2026-11-03T09:36:10.496023+00:00",
+      "evidenceNote": "The official business website identifies its Little Havana storefront at 407 SW 12th Ave in Miami and offers residential, automotive and commercial locksmith services to local consumers."
+    }
+  ]
+}
