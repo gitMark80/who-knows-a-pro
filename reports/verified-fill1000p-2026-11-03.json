@@ -3,7 +3,7 @@
   "continuationOf": "reports/progress-fill500o-2026-11-02.md",
   "verifiedAt": "2026-11-03T06:02:56.750Z",
   "target": 241,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 241,
   "sourceRecordCount": 181,
   "uniqueBusinessDomains": 68,
@@ -2573,5 +2573,12 @@
   "runShortfall": 759,
   "targetMeaning": "Prepared checkpoint size; requested run target remains 1000, not achieved.",
   "runComplete": false,
-  "remainingVerification": "All selected placements have fresh official website evidence; legacy directory counts are not a fresh qualification audit."
+  "remainingVerification": "All selected placements have fresh official website evidence; legacy directory counts are not a fresh qualification audit.",
+  "publishedPlacements": 241,
+  "publishedCommit": "8c965e12626d103b124eb7480c8b9a4e246f547c",
+  "deploymentId": "dpl_2oCSxJ7EqnT4LpaNTyJ6jvVbguXk",
+  "liveVerifiedPlacements": 241,
+  "liveVerifiedProfiles": 68,
+  "githubWorkflowRun": 41587924072,
+  "githubWorkflowConclusion": "success"
 }

@@ -2,8 +2,8 @@
   "requestedRunTarget": 1000,
   "preparedPlacements": 241,
   "remainingRunShortfall": 759,
-  "publishedPlacements": 0,
-  "status": "prepared_not_published",
+  "publishedPlacements": 241,
+  "status": "published_live_verified",
   "blockers": [
     {
       "website": "https://jhcc.com/locations/",
@@ -53,5 +53,11 @@
       "website": "https://locations.thetirechoice.com/la/baton-rouge/7695-airline-highway",
       "reason": "Redirects to Lafayette; not counted as a Baton Rouge business."
     }
-  ]
+  ],
+  "publishedCommit": "8c965e12626d103b124eb7480c8b9a4e246f547c",
+  "deploymentId": "dpl_2oCSxJ7EqnT4LpaNTyJ6jvVbguXk",
+  "liveVerifiedPlacements": 241,
+  "liveVerifiedProfiles": 68,
+  "githubWorkflowRun": 41587924072,
+  "githubWorkflowConclusion": "success"
 }

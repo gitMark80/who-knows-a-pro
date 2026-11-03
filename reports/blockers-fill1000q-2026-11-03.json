@@ -1,0 +1,120 @@
+{
+  "status": "prepared_not_published",
+  "requestedRunTarget": 1000,
+  "previousPublishedPlacements": 241,
+  "preparedPlacements": 189,
+  "publishedPlacements": 0,
+  "shortfallAfterCheckpointPublication": 570,
+  "blockers": [
+    {
+      "website": "https://npiweb.com/",
+      "reason": "Root and local branch URLs returned HTTP 403. Working official locations subdomain pages verify service, but changing domains renamed seven existing generated profile slugs. The one otherwise eligible new placement is held; existing data and profiles are preserved."
+    },
+    {
+      "website": "https://www.callflamingo.com/",
+      "reason": "Former Flamingo Septic and Gator branding overlap; only Gator is counted once. The official Gator installation page and Flamingo former-name statement support treating the identity conservatively."
+    },
+    {
+      "website": "https://www.floridaimpactshield.com/",
+      "reason": "Broad statewide claim but independent contractor identity not sufficiently resolved; not imported."
+    },
+    {
+      "website": "https://www.riverpoolsandspas.com/locations",
+      "reason": "Manufacturer explicitly does not install pools. No qualifying local installer in the catalog cities was verified from this page; not added as a nationwide installer."
+    },
+    {
+      "website": "https://www.bpginspections.com/",
+      "reason": "JavaScript-only shell in direct retrieval; local service evidence not verified."
+    },
+    {
+      "website": "https://floydsmarine.com/",
+      "reason": "JavaScript-only shell in direct retrieval; local service evidence not verified."
+    },
+    {
+      "website": "https://boat-tales.com/",
+      "reason": "HTTP 406 prevented direct working-site verification."
+    },
+    {
+      "website": "https://www.swfloutboards.com/",
+      "reason": "HTTP 404 prevented working-site verification."
+    },
+    {
+      "website": "https://www.coit.com/locations",
+      "reason": "HTTP 403 prevented direct location verification."
+    },
+    {
+      "website": "https://www.mobilepatiocovers.com/",
+      "reason": "HTTP 406; possible alternate identity with Premier Patio and Screen unresolved; no expansion imported."
+    },
+    {
+      "website": "https://southernsepticsolutions.com/",
+      "reason": "HTTP 406."
+    },
+    {
+      "website": "https://mathisandsonsseptic.com/residential-septic-services-orlando-fl/",
+      "reason": "HTTP 406."
+    },
+    {
+      "website": "https://greensontheweb.com/",
+      "reason": "HTTP 406."
+    },
+    {
+      "website": "https://aesseptic.com/services/",
+      "reason": "Retrieved page did not explicitly establish Orlando coverage; held."
+    },
+    {
+      "website": "https://rainbowrestores.com/central-florida",
+      "reason": "No explicit Orlando service evidence in retrieved local page; held. Wellington was not inferred to cover West Palm Beach, nor Riverview to cover Tampa."
+    },
+    {
+      "website": "https://www.windowgenie.com/jacksonville-beaches/",
+      "reason": "Jacksonville Beach and Jacksonville are distinct; this branch was not used to infer Jacksonville coverage. A separate South Jacksonville page explicitly supports that city."
+    },
+    {
+      "website": "https://www.mightydogroofing.com/central-florida-fl/",
+      "reason": "Local service area did not explicitly include an active catalog city, so no placement was inferred."
+    }
+  ],
+  "heldCandidates": [
+    {
+      "name": "National Property Inspections",
+      "website": "https://locations.npiweb.com/fl/miami/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://locations.npiweb.com/fl/miami/",
+      "sourceVerifiedAt": "2026-11-03T06:33:47.468717+00:00",
+      "sourceRef": "Official website direct HTTP retrieval",
+      "evidenceNote": "Official NPI Miami office page identifies local inspector Agustin Restrepo serving Miami and nearby communities and offers residential home inspections as well as commercial inspections.",
+      "customerScope": "residential",
+      "customerSourceUrl": "https://locations.npiweb.com/fl/miami/",
+      "customerEvidence": "Official NPI Miami office page identifies local inspector Agustin Restrepo serving Miami and nearby communities and offers residential home inspections as well as commercial inspections.",
+      "displayName": "National Property Inspections"
+    },
+    {
+      "name": "National Property Inspections",
+      "website": "https://locations.npiweb.com/fl/pensacola/",
+      "regions": [
+        "pensacola-fl",
+        "pace-fl",
+        "milton-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://locations.npiweb.com/fl/pensacola/",
+      "sourceVerifiedAt": "2026-11-03T06:33:47.801026+00:00",
+      "sourceRef": "Official website direct HTTP retrieval",
+      "evidenceNote": "Official NPI Pensacola office page identifies Mike Cagle and explicitly lists Pensacola, Pace, Milton, Navarre and Gulf Breeze as home inspection service communities.",
+      "customerScope": "residential",
+      "customerSourceUrl": "https://locations.npiweb.com/fl/pensacola/",
+      "customerEvidence": "Official NPI Pensacola office page identifies Mike Cagle and explicitly lists Pensacola, Pace, Milton, Navarre and Gulf Breeze as home inspection service communities.",
+      "displayName": "National Property Inspections"
+    }
+  ]
+}

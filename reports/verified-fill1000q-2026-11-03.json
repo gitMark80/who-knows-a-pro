@@ -1,0 +1,1907 @@
+{
+  "baselineCommit": "8c965e12626d103b124eb7480c8b9a4e246f547c",
+  "continuationOf": "reports/verified-fill1000p-2026-11-03.json",
+  "verifiedAt": "2026-11-03T06:37:58.398Z",
+  "target": 189,
+  "status": "prepared_not_published",
+  "placementCount": 189,
+  "sourceRecordCount": 131,
+  "uniqueBusinessDomains": 61,
+  "additionsByCity": {
+    "pensacola-fl": 1,
+    "biloxi-ms": 2,
+    "gulfport-ms": 2,
+    "dothan-al": 2,
+    "montgomery-al": 4,
+    "tallahassee-fl": 5,
+    "auburn-al": 1,
+    "new-orleans-la": 2,
+    "baton-rouge-la": 3,
+    "birmingham-al": 12,
+    "huntsville-al": 16,
+    "atlanta-ga": 3,
+    "jacksonville-fl": 14,
+    "tampa-fl": 7,
+    "clearwater-fl": 7,
+    "st-petersburg-fl": 7,
+    "orlando-fl": 14,
+    "sarasota-fl": 13,
+    "fort-myers-fl": 12,
+    "naples-fl": 11,
+    "west-palm-beach-fl": 11,
+    "fort-lauderdale-fl": 18,
+    "miami-fl": 22
+  },
+  "additionsByCategory": {
+    "septic-services": 53,
+    "pest-control": 16,
+    "insulation": 5,
+    "screen-enclosures-pool-cages": 14,
+    "generator-installation": 18,
+    "auto-body-collision": 14,
+    "gutters": 27,
+    "fence-builders": 3,
+    "water-damage-mold-remediation": 5,
+    "auto-mechanics": 6,
+    "pool-service": 10,
+    "appliance-repair": 8,
+    "marine-services": 10
+  },
+  "additionsByBusiness": {
+    "Southern Water and Soil": 2,
+    "Terminix": 34,
+    "Regional Septic Services": 1,
+    "Chris's Services": 1,
+    "Mr. Electric": 8,
+    "Apalachee Backhoe & Septic Tank": 1,
+    "Good Soil Septic Services": 1,
+    "Capital City Glass": 1,
+    "Colors On Parade": 14,
+    "Peterson Plumbing & Sand Pumping": 1,
+    "Alabama Porch & Patio": 1,
+    "Invicta Exteriors": 1,
+    "Durante Home Exteriors": 2,
+    "Alabama Pumper": 2,
+    "McMichael Waste Services": 2,
+    "Superior Fence & Rail": 3,
+    "Brookstone Restoration": 2,
+    "Rainbow Restoration": 3,
+    "Mighty Dog Roofing": 9,
+    "BLT Inc": 1,
+    "Covered Spaces": 1,
+    "Outly Outdoor": 1,
+    "Bailey's Septic Service": 1,
+    "AAMCO Transmissions & Total Car Care": 6,
+    "Window Genie": 5,
+    "BVD Septic": 1,
+    "Gator Well & Septic": 1,
+    "JL Smith Septic Tank Services": 1,
+    "RiverCity Plumbing": 1,
+    "Tampa Bay Septic": 7,
+    "Mister Sparky": 1,
+    "Blue Science": 10,
+    "Torque Plumbing and Septic": 4,
+    "Air & Appliance Services": 8,
+    "All Captains Mobile Marine": 2,
+    "Anytime Septic": 1,
+    "Rapid Response Septic Services": 1,
+    "Shelley's Environmental": 1,
+    "Brownie's / Wind River Environmental": 1,
+    "Generator Maintenance of Florida": 1,
+    "Genstar Generator Service": 1,
+    "Commercial Residential Aluminum": 4,
+    "Ultra Screening Solutions": 1,
+    "Reliable Power Systems": 5,
+    "First Time Marine": 1,
+    "Master Tech Marine": 1,
+    "Crews Septic Solutions": 2,
+    "Gen-Power": 2,
+    "All City Septic": 3,
+    "Septic Masters": 2,
+    "Bluewater Ops Marine": 3,
+    "The Boat & Motor Repair Shop": 3,
+    "A Better Aim Septic": 2,
+    "Alligator Septic": 2,
+    "Caraballo Express": 2,
+    "Grand Plumbing": 2,
+    "On My Way Septic": 2,
+    "First Call Septic Services": 2,
+    "American Septic & Plumbing": 2,
+    "Chapman Septic Service": 1,
+    "Septic Tech": 1
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 694,
+    "pairsBelow20": 506,
+    "deficit": 2897
+  },
+  "prepared": {
+    "pairsAt20": 702,
+    "pairsBelow20": 498,
+    "deficit": 2708,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "baton-rouge-la|pest-control",
+    "orlando-fl|auto-mechanics",
+    "sarasota-fl|gutters",
+    "sarasota-fl|marine-services",
+    "fort-myers-fl|gutters",
+    "miami-fl|septic-services",
+    "fort-lauderdale-fl|marine-services",
+    "birmingham-al|pest-control"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Southern Water and Soil",
+      "website": "https://southernsepticanddesign.com/",
+      "regions": [
+        "pensacola-fl",
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://southernsepticanddesign.com/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.552365+00:00",
+      "evidenceNote": "Official website lists Fort Myers, Jacksonville, Miami, Orlando, Pensacola and Tampa among Florida service areas, and explicitly describes residential septic system engineering, permitting, replacement, installation, repairs and pumping through its supervised vetted partners."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/ms/biloxi-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:14:00.982040+00:00",
+      "evidenceNote": "Official Terminix local page names biloxi ms and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/ms/biloxi-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:14:00.982040+00:00",
+      "evidenceNote": "Official Terminix local page names biloxi ms and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Regional Septic Services",
+      "website": "https://www.regionalportables.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.regionalportables.com/",
+      "sourceVerifiedAt": "2026-11-03T06:27:26.228785+00:00",
+      "evidenceNote": "Official Regional Septic Service DBA Regional Portables site offers residential septic pumping, names Dothan in its service area and lists its Dothan office address. Portable-toilet branding is not counted separately."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/dothan-2614/",
+      "sourceVerifiedAt": "2026-11-03T06:13:58.051851+00:00",
+      "evidenceNote": "Official Terminix local page names dothan al and offers interior/exterior household pest treatment. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Chris's Services",
+      "website": "https://www.chrissservices.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.chrissservices.com/projects/screen-imports-project-montgomery-al",
+      "sourceVerifiedAt": "2026-11-03T06:29:23.970562+00:00",
+      "evidenceNote": "Official project page documents a screened-in porch project in Montgomery and says Chris's Services serves homeowners and property managers throughout Montgomery, Alabama."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/montgomery-al",
+      "sourceVerifiedAt": "2026-11-03T06:13:31.591761+00:00",
+      "evidenceNote": "Official local Mr. Electric page explicitly offers installation of whole-home standby generators and automatic transfer switches for homeowners in montgomery al. The local service page and service-area list establish the listed city coverage; this is not inferred from a national franchise presence."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "montgomery-al",
+        "auburn-al"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/montgomery-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.898101+00:00",
+      "evidenceNote": "Official Terminix local page names montgomery al and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/montgomery-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.898101+00:00",
+      "evidenceNote": "Official Terminix local page names montgomery al and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Apalachee Backhoe & Septic Tank",
+      "website": "https://www.apalacheeseptic.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.apalacheeseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:16.917883+00:00",
+      "evidenceNote": "Official site lists septic tank, drainfield and inspection services, a Tallahassee street location, and Tallahassee as an explicit service area."
+    },
+    {
+      "name": "Good Soil Septic Services",
+      "website": "https://www.goodsoilseptic.com/home",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.goodsoilseptic.com/home",
+      "sourceVerifiedAt": "2026-11-03T06:22:16.919430+00:00",
+      "evidenceNote": "Official site offers drainfield diagnosis, repairs, site evaluation and soil testing for Tallahassee residents and homeowners, with Tallahassee explicitly named."
+    },
+    {
+      "name": "Capital City Glass",
+      "website": "https://www.capitalcityglass1.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.capitalcityglass1.com/tallahassee-screens.html",
+      "sourceVerifiedAt": "2026-11-03T06:28:48.727776+00:00",
+      "evidenceNote": "Official Tallahassee screen service page offers residential and commercial repair and replacement, explicitly covering screened-in porches and screen enclosures as well as window screens."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/tallahassee/",
+      "sourceVerifiedAt": "2026-11-03T06:18:29.176416+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies tallahassee fl in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/tallahassee-2207/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.830094+00:00",
+      "evidenceNote": "Official Terminix local page names tallahassee fl and offers interior/exterior household pest treatment. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Peterson Plumbing & Sand Pumping",
+      "website": "https://www.petersonplumbingnola.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.petersonplumbingnola.com/septic-service",
+      "sourceVerifiedAt": "2026-11-03T06:27:26.232605+00:00",
+      "evidenceNote": "Official septic service page offers septic tank installation and repair and explicitly lists New Orleans among the communities served by Peterson Plumbing & Sand Pumping."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/new-orleans/",
+      "sourceVerifiedAt": "2026-11-03T06:18:32.184078+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies new orleans la in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/la/baton-rouge-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:14:00.855737+00:00",
+      "evidenceNote": "Official Terminix local page names baton rouge la and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/la/baton-rouge-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:14:00.855737+00:00",
+      "evidenceNote": "Official Terminix local page names baton rouge la and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/la/baton-rouge-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:14:00.855737+00:00",
+      "evidenceNote": "Official Terminix local page names baton rouge la and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Alabama Porch & Patio",
+      "website": "https://alabamaporchandpatio.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://alabamaporchandpatio.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:21.517878+00:00",
+      "evidenceNote": "Official site provides residential screen rooms, porch enclosures and retractable screens in Greater Birmingham and explicitly names Birmingham in its service area."
+    },
+    {
+      "name": "Invicta Exteriors",
+      "website": "https://callinvicta.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://callinvicta.com/services/screen-rooms-porches/",
+      "sourceVerifiedAt": "2026-11-03T06:29:21.519926+00:00",
+      "evidenceNote": "Official service page designs and builds custom screen rooms and screened-in porches for Birmingham homeowners and explicitly names Birmingham and its nearby communities."
+    },
+    {
+      "name": "Durante Home Exteriors",
+      "website": "https://www.godurante.com/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.godurante.com/screen-rooms",
+      "sourceVerifiedAt": "2026-11-03T06:29:21.514071+00:00",
+      "evidenceNote": "Official screen room service page explicitly designs and installs custom residential screen rooms for homeowners in Birmingham and Huntsville."
+    },
+    {
+      "name": "Alabama Pumper",
+      "website": "https://www.alabamapumper.com/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.alabamapumper.com/service-areas",
+      "sourceVerifiedAt": "2026-11-03T06:17:38.994242+00:00",
+      "evidenceNote": "Official service-area page names Birmingham and Huntsville, publishes offices in both cities, and explicitly provides residential septic tank pumping, inspections, repairs and new installations to homeowners."
+    },
+    {
+      "name": "McMichael Waste Services",
+      "website": "https://mwswaste.com/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://mwswaste.com/service/septic-tank-pumping/",
+      "sourceVerifiedAt": "2026-11-03T06:27:26.230828+00:00",
+      "evidenceNote": "Official septic pumping page explicitly provides residential and commercial septic tank pumping throughout Northeast Alabama including Huntsville and Birmingham, and describes homeowner service."
+    },
+    {
+      "name": "Superior Fence & Rail",
+      "website": "https://www.superiorfenceandrail.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.superiorfenceandrail.com/birmingham/",
+      "sourceVerifiedAt": "2026-11-03T06:14:01.000512+00:00",
+      "evidenceNote": "Official local Superior Fence & Rail page advertises professional fence installation for residential yards, privacy and home security and explicitly identifies birmingham al in its local office heading or service-area list. Wood, vinyl and aluminum installation are offered; this is not a product-only supplier listing."
+    },
+    {
+      "name": "Brookstone Restoration",
+      "website": "https://brookstonerestoration.com/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://brookstonerestoration.com/contact-us/",
+      "sourceVerifiedAt": "2026-11-03T06:19:36.798564+00:00",
+      "evidenceNote": "Official contact page names Birmingham and Huntsville service offices, explicitly states residential jobs are served within 60 miles of those offices, and lists water damage and mold/environmental restoration services. Nationwide commercial-only coverage is not used for residential placements."
+    },
+    {
+      "name": "Rainbow Restoration",
+      "website": "https://rainbowrestores.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://rainbowrestores.com/birmingham",
+      "sourceVerifiedAt": "2026-11-03T06:34:06.499232+00:00",
+      "evidenceNote": "Official local Rainbow Restoration page explicitly serves the named city and offers water damage restoration and mold removal/remediation for homes as well as commercial properties. Other Rainbow locations and its former Rainbow International name are one brand identity."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/birmingham/",
+      "sourceVerifiedAt": "2026-11-03T06:18:27.697100+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies birmingham al in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/birmingham-al/",
+      "sourceVerifiedAt": "2026-11-03T06:33:37.831373+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/birmingham-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.835489+00:00",
+      "evidenceNote": "Official Terminix local page names birmingham al and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/birmingham-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.835489+00:00",
+      "evidenceNote": "Official Terminix local page names birmingham al and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "BLT Inc",
+      "website": "https://www.blt-home-improvements.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.blt-home-improvements.com/screen-rooms",
+      "sourceVerifiedAt": "2026-11-03T06:29:21.514842+00:00",
+      "evidenceNote": "Official screen rooms page explicitly offers residential screen room installation, patio enclosures and screened porches in Huntsville, Alabama and surrounding areas."
+    },
+    {
+      "name": "Covered Spaces",
+      "website": "https://www.covermyspace.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.covermyspace.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:21.521288+00:00",
+      "evidenceNote": "Official Covered Spaces LLC site offers aluminum screen rooms and screening existing covered porches, expressly describing installation in the Huntsville, Alabama area."
+    },
+    {
+      "name": "Outly Outdoor",
+      "website": "https://www.outlyoutdoor.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.outlyoutdoor.com/huntsville-al",
+      "sourceVerifiedAt": "2026-11-03T06:19:36.797166+00:00",
+      "evidenceNote": "Official Huntsville page offers custom residential motorized patio screen installation, including in-home assessment and professional installation throughout Huntsville and the surrounding North Alabama area; a Huntsville office address is published."
+    },
+    {
+      "name": "Bailey's Septic Service",
+      "website": "https://www.baileyssepticservice.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.baileyssepticservice.com/",
+      "sourceVerifiedAt": "2026-11-03T06:27:26.231994+00:00",
+      "evidenceNote": "Official site explicitly serves Athens and Huntsville with septic tank pumping, system installation, field line services and repairs for homeowners."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/huntsville/home-generators",
+      "sourceVerifiedAt": "2026-11-03T06:13:31.591099+00:00",
+      "evidenceNote": "Official local Mr. Electric page explicitly offers installation of whole-home standby generators and automatic transfer switches for homeowners in huntsville al. The local service page and service-area list establish the listed city coverage; this is not inferred from a national franchise presence."
+    },
+    {
+      "name": "Rainbow Restoration",
+      "website": "https://rainbowrestores.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://rainbowrestores.com/huntsville-al",
+      "sourceVerifiedAt": "2026-11-03T06:34:06.500827+00:00",
+      "evidenceNote": "Official local Rainbow Restoration page explicitly serves the named city and offers water damage restoration and mold removal/remediation for homes as well as commercial properties. Other Rainbow locations and its former Rainbow International name are one brand identity."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/huntsville/",
+      "sourceVerifiedAt": "2026-11-03T06:18:27.718772+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies huntsville al in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Superior Fence & Rail",
+      "website": "https://www.superiorfenceandrail.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.superiorfenceandrail.com/huntsville/",
+      "sourceVerifiedAt": "2026-11-03T06:14:03.453390+00:00",
+      "evidenceNote": "Official local Superior Fence & Rail page advertises professional fence installation for residential yards, privacy and home security and explicitly identifies huntsville al in its local office heading or service-area list. Wood, vinyl and aluminum installation are offered; this is not a product-only supplier listing."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/huntsville-al/",
+      "sourceVerifiedAt": "2026-11-03T06:33:37.832098+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/huntsville-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.852681+00:00",
+      "evidenceNote": "Official Terminix local page names huntsville al and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/al/huntsville-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:57.852681+00:00",
+      "evidenceNote": "Official Terminix local page names huntsville al and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "AAMCO Transmissions & Total Car Care",
+      "website": "https://www.aamco.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.aamco.com/Auto-Repair-Center/AL/Huntsville/Putman-Drive",
+      "sourceVerifiedAt": "2026-11-03T06:16:34.829180+00:00",
+      "evidenceNote": "Official AAMCO shop or regional location page identifies an operating automotive repair location in huntsville al, with diagnostic, transmission or general car-care services for consumer cars and trucks. AAMCO franchise domains are treated as one brand identity, not additional businesses in the same city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/ga/atlanta-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:14:00.926698+00:00",
+      "evidenceNote": "Official Terminix local page names atlanta ga and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Window Genie",
+      "website": "https://www.windowgenie.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://windowgenie.com/atlanta-metro/",
+      "sourceVerifiedAt": "2026-11-03T06:33:40.547382+00:00",
+      "evidenceNote": "Official local Window Genie website explicitly provides residential gutter cleaning and names the listed city as a homeowner service area. Gutter cleaning is the verified service; no installation or repair is inferred."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/atlanta/",
+      "sourceVerifiedAt": "2026-11-03T06:18:32.147567+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies atlanta ga in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "BVD Septic",
+      "website": "https://bvdsepticjax.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://bvdsepticjax.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:23.713285+00:00",
+      "evidenceNote": "Official site describes locally operated Jacksonville septic pumping, installation and repair for homeowners and commercial projects; it provides its Jacksonville business address."
+    },
+    {
+      "name": "Gator Well & Septic",
+      "website": "https://www.gatorwellandseptic.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.gatorwellandseptic.com/septic-pump-repair",
+      "sourceVerifiedAt": "2026-11-03T06:22:16.921612+00:00",
+      "evidenceNote": "Official Jacksonville septic pump repair page describes wastewater pump diagnosis and repair, tank alarms, and local service areas; Gator/Flamingo alternate branding is counted once, not as two businesses."
+    },
+    {
+      "name": "JL Smith Septic Tank Services",
+      "website": "https://www.jlsmithseptic.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.jlsmithseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:16.920962+00:00",
+      "evidenceNote": "Official site identifies its Jacksonville office and Duval service area including Jacksonville; it provides septic tank maintenance, drainfield installation and repair."
+    },
+    {
+      "name": "RiverCity Plumbing",
+      "website": "https://rivercityplumbingjax.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://rivercityplumbingjax.com/services/septic-tank-services/",
+      "sourceVerifiedAt": "2026-11-03T06:22:20.186040+00:00",
+      "evidenceNote": "Official Jacksonville septic service page describes septic system repair and drainfield services and gives Jacksonville office locations for its local plumbing service."
+    },
+    {
+      "name": "Tampa Bay Septic",
+      "website": "https://tampabayseptic.com/",
+      "regions": [
+        "jacksonville-fl",
+        "tampa-fl",
+        "clearwater-fl",
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://tampabayseptic.com/service-area/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.551408+00:00",
+      "evidenceNote": "Official service-area page explicitly lists Tampa, Clearwater, Fort Myers, Jacksonville, Miami, Orlando and Sarasota under residential septic installation and septic services, including pumping, repairs and installations."
+    },
+    {
+      "name": "Mister Sparky",
+      "website": "https://jacksonvillemistersparky.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://jacksonvillemistersparky.com/generator-installation/",
+      "sourceVerifiedAt": "2026-11-03T06:14:56.467014+00:00",
+      "evidenceNote": "Official Service Minds Mister Sparky Jacksonville service page offers professional installation of generators for residential homes and businesses in Jacksonville, Florida, including selecting and installing a reliable backup power solution."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/northeast-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:33:37.835345+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/jacksonville-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:49.970567+00:00",
+      "evidenceNote": "Official Terminix local page names jacksonville fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Window Genie",
+      "website": "https://www.windowgenie.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.windowgenie.com/south-jacksonville/",
+      "sourceVerifiedAt": "2026-11-03T06:33:43.138851+00:00",
+      "evidenceNote": "Official local Window Genie website explicitly provides residential gutter cleaning and names the listed city as a homeowner service area. Gutter cleaning is the verified service; no installation or repair is inferred."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/jacksonville/",
+      "sourceVerifiedAt": "2026-11-03T06:18:29.140432+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies jacksonville fl in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/jacksonville-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:49.970567+00:00",
+      "evidenceNote": "Official Terminix local page names jacksonville fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bluescience.com/jacksonville/",
+      "sourceVerifiedAt": "2026-11-03T06:33:45.760792+00:00",
+      "evidenceNote": "Official local Blue Science service page explicitly offers weekly residential pool cleaning and equipment repair, lists the named cities on its service routes, and supplies a local contact. Pool installation is not inferred from a general corporate link."
+    },
+    {
+      "name": "AAMCO Transmissions & Total Car Care",
+      "website": "https://www.aamco.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://aamco-jacksonvillefl.com/",
+      "sourceVerifiedAt": "2026-11-03T06:16:37.698048+00:00",
+      "evidenceNote": "Official AAMCO shop or regional location page identifies an operating automotive repair location in jacksonville fl, with diagnostic, transmission or general car-care services for consumer cars and trucks. AAMCO franchise domains are treated as one brand identity, not additional businesses in the same city/category."
+    },
+    {
+      "name": "Torque Plumbing and Septic",
+      "website": "https://www.torqueseptic.com/",
+      "regions": [
+        "tampa-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.torqueseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:27.074742+00:00",
+      "evidenceNote": "Official site lists Fort Myers, Naples, Sarasota and Tampa within its fourteen-city service area and describes septic tank and drainfield installation, replacement and maintenance for local properties; Torque Land Grading DBA is one identity."
+    },
+    {
+      "name": "Air & Appliance Services",
+      "website": "https://airandappliance.com/",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://airandappliance.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.553807+00:00",
+      "evidenceNote": "Official service-area page explicitly names Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Tampa, St. Petersburg and Clearwater for residential appliance service. Its appliance services include washers, dryers, dishwashers, ovens, refrigerators and freezers; availability varies by equipment and scheduling."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/tampa/",
+      "sourceVerifiedAt": "2026-11-03T06:18:29.195918+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies tampa fl st petersburg fl clearwater fl in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/west-tampa-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:33:40.530553+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/tampa-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.451589+00:00",
+      "evidenceNote": "Official Terminix local page names tampa fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Window Genie",
+      "website": "https://www.windowgenie.com/",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.windowgenie.com/tampa-fl-nw/",
+      "sourceVerifiedAt": "2026-11-03T06:33:42.992513+00:00",
+      "evidenceNote": "Official local Window Genie website explicitly provides residential gutter cleaning and names the listed city as a homeowner service area. Gutter cleaning is the verified service; no installation or repair is inferred."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/tampa-bay/electrical-services",
+      "sourceVerifiedAt": "2026-11-03T06:13:31.590287+00:00",
+      "evidenceNote": "Official local Mr. Electric page explicitly offers installation of whole-home standby generators and automatic transfer switches for homeowners in tampa fl clearwater fl st petersburg fl. The local service page and service-area list establish the listed city coverage; this is not inferred from a national franchise presence."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/clearwater-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:33:40.441388+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bluescience.com/tampa-st-pete/",
+      "sourceVerifiedAt": "2026-11-03T06:33:43.195550+00:00",
+      "evidenceNote": "Official local Blue Science service page explicitly offers weekly residential pool cleaning and equipment repair, lists the named cities on its service routes, and supplies a local contact. Pool installation is not inferred from a general corporate link."
+    },
+    {
+      "name": "All Captains Mobile Marine",
+      "website": "https://allcaptainsmobilemarine.com/",
+      "regions": [
+        "st-petersburg-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://allcaptainsmobilemarine.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:52.474930+00:00",
+      "evidenceNote": "Official site offers dock-side and marina-side boat repair and explicitly lists Sarasota, St. Petersburg and South Tampa as service areas."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/saint-petersburg-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.408614+00:00",
+      "evidenceNote": "Official Terminix local page names st petersburg fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Anytime Septic",
+      "website": "https://anytimeseptic.net/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://anytimeseptic.net/",
+      "sourceVerifiedAt": "2026-11-03T06:22:20.105114+00:00",
+      "evidenceNote": "Official site identifies a licensed septic contractor serving Orlando and Central Florida; it shows Orlando drainfield installation and septic pump-out projects and home septic maintenance guidance."
+    },
+    {
+      "name": "Rapid Response Septic Services",
+      "website": "https://rapidresponsesepticservices.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://rapidresponsesepticservices.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.553282+00:00",
+      "evidenceNote": "Official service-area page specifically offers emergency and routine septic pumping across metro Orlando and lists home-sale inspections, residential septic maintenance, repairs and new system installations."
+    },
+    {
+      "name": "Shelley's Environmental",
+      "website": "https://www.shelleysseptictanks.com/contact/septic-tank-cleaning-services-service-area/orlando-fl",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.shelleysseptictanks.com/contact/septic-tank-cleaning-services-service-area/orlando-fl",
+      "sourceVerifiedAt": "2026-11-03T06:22:20.132974+00:00",
+      "evidenceNote": "Official Orlando service page offers septic tank cleaning, pumping, emergency service and residential lift station work. Shelley's Septic Tanks is explicitly the same DBA identity as Shelley's Environmental."
+    },
+    {
+      "name": "Brownie's / Wind River Environmental",
+      "website": "https://www.wrenvironmental.com/north-orlando-fl/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.wrenvironmental.com/north-orlando-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:22:21.182504+00:00",
+      "evidenceNote": "Official North Orlando branch page identifies Brownie's as a Wind River company and offers home septic pumping, maintenance, repair, inspections and system installation in Central Florida. One shared corporate-domain identity is counted."
+    },
+    {
+      "name": "Generator Maintenance of Florida",
+      "website": "https://genmaintoffl.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://genmaintoffl.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:52.471281+00:00",
+      "evidenceNote": "Official site explicitly offers home standby generator installation, permits, electrical and fuel connections and lists Orlando and Tampa in its Central Florida service areas."
+    },
+    {
+      "name": "Genstar Generator Service",
+      "website": "https://genstarservice.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://genstarservice.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:52.470422+00:00",
+      "evidenceNote": "Official site offers residential standby generator installation and support and explicitly lists Orlando in its Central Florida service area. Broad statewide wording is not used to infer other cities."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/orlando/",
+      "sourceVerifiedAt": "2026-11-03T06:14:53.582192+00:00",
+      "evidenceNote": "Official local Mr. Electric service page explicitly describes installing home generators and transfer switches in orlando fl. The local page discusses residential backup power installation and identifies the service city, so no nationwide coverage assumption is used."
+    },
+    {
+      "name": "Commercial Residential Aluminum",
+      "website": "https://craluminum.com/",
+      "regions": [
+        "orlando-fl",
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://craluminum.com/residential/screen-replacement-repair/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.555866+00:00",
+      "evidenceNote": "Official residential screen replacement and repair page explicitly lists Tampa, Sarasota, Fort Myers, Naples and Orlando among communities served for pool cage screen repair and full rescreening. Licensed crews provide the service to homeowners."
+    },
+    {
+      "name": "Ultra Screening Solutions",
+      "website": "https://ultrascreeningsolutions.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://ultrascreeningsolutions.com/service-area/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.554733+00:00",
+      "evidenceNote": "Official service-area page names Orlando and Tampa for mobile residential screen repair, re-vinyl work and pool cage restoration by the company\u2019s in-house crew."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/orlando-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.365012+00:00",
+      "evidenceNote": "Official Terminix local page names orlando fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bluescience.com/orlando/",
+      "sourceVerifiedAt": "2026-11-03T06:33:44.156319+00:00",
+      "evidenceNote": "Official local Blue Science service page explicitly offers weekly residential pool cleaning and equipment repair, lists the named cities on its service routes, and supplies a local contact. Pool installation is not inferred from a general corporate link."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/orlando-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.365012+00:00",
+      "evidenceNote": "Official Terminix local page names orlando fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "AAMCO Transmissions & Total Car Care",
+      "website": "https://www.aamco.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://aamcocentralflorida.com/locations/",
+      "sourceVerifiedAt": "2026-11-03T06:16:30.560074+00:00",
+      "evidenceNote": "Official AAMCO shop or regional location page identifies an operating automotive repair location in orlando fl, with diagnostic, transmission or general car-care services for consumer cars and trucks. AAMCO franchise domains are treated as one brand identity, not additional businesses in the same city/category."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/sarasota/",
+      "sourceVerifiedAt": "2026-11-03T06:14:53.582792+00:00",
+      "evidenceNote": "Official local Mr. Electric service page explicitly describes installing home generators and transfer switches in sarasota fl. The local page discusses residential backup power installation and identifies the service city, so no nationwide coverage assumption is used."
+    },
+    {
+      "name": "Reliable Power Systems",
+      "website": "https://myreliablepower.com/",
+      "regions": [
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://myreliablepower.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T06:29:52.471971+00:00",
+      "evidenceNote": "Official generator installation and maintenance service-area page explicitly lists Fort Lauderdale, Naples and Sarasota and provides its Fort Myers office; it offers whole-home generators installed by its own technicians."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "sarasota-fl",
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/sarasota-fort-meyers/",
+      "sourceVerifiedAt": "2026-11-03T06:18:29.158253+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies sarasota fl fort myers fl naples fl in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/sarasota-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.437274+00:00",
+      "evidenceNote": "Official Terminix local page names sarasota fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "First Time Marine",
+      "website": "https://www.firsttimemarine.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.firsttimemarine.com/",
+      "sourceVerifiedAt": "2026-11-03T06:19:36.796592+00:00",
+      "evidenceNote": "Official website describes mobile outboard-engine repair, diagnostics, marine electrical work and systems installation for boat owners. The contact service-area list explicitly includes St. Petersburg, Clearwater, Tampa and Sarasota."
+    },
+    {
+      "name": "Master Tech Marine",
+      "website": "https://www.mastertechmarinesrq.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.mastertechmarinesrq.com/contact",
+      "sourceVerifiedAt": "2026-11-03T06:29:56.620447+00:00",
+      "evidenceNote": "Official contact page identifies Sarasota as its mobile-service base and explicitly offers local boat repair, outboard diagnostics and electrical repair at the vessel."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/southwest-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:33:37.839368+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/sarasota-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.437274+00:00",
+      "evidenceNote": "Official Terminix local page names sarasota fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Crews Septic Solutions",
+      "website": "https://crewssepticsolutions.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://crewssepticsolutions.com/faq/",
+      "sourceVerifiedAt": "2026-11-03T06:22:27.043252+00:00",
+      "evidenceNote": "Official FAQ explicitly lists Fort Myers and Naples among its septic service areas and says its team works with homeowners as well as commercial properties."
+    },
+    {
+      "name": "Gen-Power",
+      "website": "https://www.genpowerco.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.genpowerco.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:52.472397+00:00",
+      "evidenceNote": "Official site identifies a Fort Myers-based family-owned generator company serving Lee, Collier and Charlotte counties; it explicitly offers whole-house generator installation and names Naples."
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bluescience.com/fort-myers/",
+      "sourceVerifiedAt": "2026-11-03T06:33:44.459008+00:00",
+      "evidenceNote": "Official local Blue Science service page explicitly offers weekly residential pool cleaning and equipment repair, lists the named cities on its service routes, and supplies a local contact. Pool installation is not inferred from a general corporate link."
+    },
+    {
+      "name": "AAMCO Transmissions & Total Car Care",
+      "website": "https://www.aamco.com/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.aamco.com/Auto-Repair-Center/FL/Ft-Myers/Kenwood-Lane",
+      "sourceVerifiedAt": "2026-11-03T06:16:35.678619+00:00",
+      "evidenceNote": "Official AAMCO shop or regional location page identifies an operating automotive repair location in fort myers fl, with diagnostic, transmission or general car-care services for consumer cars and trucks. AAMCO franchise domains are treated as one brand identity, not additional businesses in the same city/category."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/fort-myers-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:33:37.833178+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/fort-myers-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:49.965479+00:00",
+      "evidenceNote": "Official Terminix local page names fort myers fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/naples",
+      "sourceVerifiedAt": "2026-11-03T06:14:53.581488+00:00",
+      "evidenceNote": "Official local Mr. Electric service page explicitly describes installing home generators and transfer switches in naples fl. The local page discusses residential backup power installation and identifies the service city, so no nationwide coverage assumption is used."
+    },
+    {
+      "name": "Mighty Dog Roofing",
+      "website": "https://www.mightydogroofing.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.mightydogroofing.com/naples-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:33:37.833743+00:00",
+      "evidenceNote": "Official local Mighty Dog Roofing website offers gutter repair and installation alongside residential exterior services, and expressly identifies the listed city or cities in its local coverage. Each corporate-domain identity is counted once per city/category."
+    },
+    {
+      "name": "Window Genie",
+      "website": "https://www.windowgenie.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.windowgenie.com/naples/",
+      "sourceVerifiedAt": "2026-11-03T06:33:40.846638+00:00",
+      "evidenceNote": "Official local Window Genie website explicitly provides residential gutter cleaning and names the listed city as a homeowner service area. Gutter cleaning is the verified service; no installation or repair is inferred."
+    },
+    {
+      "name": "All City Septic",
+      "website": "https://www.allcityseptic.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.allcityseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:24.643507+00:00",
+      "evidenceNote": "Official site lists Miami-Dade, Broward and Palm Beach counties as its service area and offers septic pumping and system services, with prices explicitly described for standard residential tanks."
+    },
+    {
+      "name": "Septic Masters",
+      "website": "https://yoursepticmasters.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://yoursepticmasters.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:26.711918+00:00",
+      "evidenceNote": "Official site explicitly offers septic pumping, repair and installation for homes and businesses in Miami-Dade County, Broward County and West Palm Beach."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/palm-beach-fl-mobile-auto-body-repair-service/",
+      "sourceVerifiedAt": "2026-11-03T06:18:29.145172+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies west palm beach fl in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/west-palm-beach-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.488618+00:00",
+      "evidenceNote": "Official Terminix local page names west palm beach fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bluescience.com/palm-beach/",
+      "sourceVerifiedAt": "2026-11-03T06:33:46.003589+00:00",
+      "evidenceNote": "Official local Blue Science service page explicitly offers weekly residential pool cleaning and equipment repair, lists the named cities on its service routes, and supplies a local contact. Pool installation is not inferred from a general corporate link."
+    },
+    {
+      "name": "Mr. Electric",
+      "website": "https://mrelectric.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://mrelectric.com/west-palm",
+      "sourceVerifiedAt": "2026-11-03T06:14:53.583623+00:00",
+      "evidenceNote": "Official local Mr. Electric service page explicitly describes installing home generators and transfer switches in west palm beach fl. The local page discusses residential backup power installation and identifies the service city, so no nationwide coverage assumption is used."
+    },
+    {
+      "name": "Reliable Power Systems",
+      "website": "https://myreliablepower.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://myreliablepower.com/service-areas/east-coast-fl/",
+      "sourceVerifiedAt": "2026-11-03T06:31:08.724545+00:00",
+      "evidenceNote": "Official East Coast Florida page expressly offers residential generator installation throughout Palm Beach County and includes West Palm Beach in its service community list."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/west-palm-beach-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.488618+00:00",
+      "evidenceNote": "Official Terminix local page names west palm beach fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Bluewater Ops Marine",
+      "website": "https://bluewateropsmarine.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://bluewateropsmarine.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T06:29:52.477930+00:00",
+      "evidenceNote": "Official service-area page provides onboard appliance, refrigeration, electrical and mechanical marine services to boat and yacht owners throughout Miami-Dade, Broward and Palm Beach counties and names these cities."
+    },
+    {
+      "name": "The Boat & Motor Repair Shop",
+      "website": "https://bmrepairshop.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://bmrepairshop.com/",
+      "sourceVerifiedAt": "2026-11-03T06:29:55.248025+00:00",
+      "evidenceNote": "Official site provides mobile boat engine, electrical and fiberglass repair for boat owners and states its mechanics cover every municipality in Miami-Dade, Broward and Palm Beach counties; Pompano Beach shop address is listed."
+    },
+    {
+      "name": "A Better Aim Septic",
+      "website": "https://abetteraimseptic.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://abetteraimseptic.com/contact.php",
+      "sourceVerifiedAt": "2026-11-03T06:22:23.800663+00:00",
+      "evidenceNote": "Official contact page identifies A Better Aim Septic in Miami and explicitly lists Miami-Dade and Broward service areas, septic tank cleaning, repair, drainfields and installation services."
+    },
+    {
+      "name": "Alligator Septic",
+      "website": "https://www.alligatorseptic.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.alligatorseptic.com/septic-tank-cleaning",
+      "sourceVerifiedAt": "2026-11-03T06:27:26.234504+00:00",
+      "evidenceNote": "Official septic cleaning page addresses homeowners and offers septic pumping and cleaning throughout Broward and Miami-Dade counties; offices are listed in Fort Lauderdale and Coral Gables."
+    },
+    {
+      "name": "Caraballo Express",
+      "website": "https://caraballoexpress.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://caraballoexpress.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:23.615080+00:00",
+      "evidenceNote": "Official site explicitly offers residential septic pumping, cleaning, drainfield installation and repair throughout Miami-Dade and Broward counties and identifies its Hialeah business address."
+    },
+    {
+      "name": "Grand Plumbing",
+      "website": "https://www.grandplumbing.net/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.grandplumbing.net/septic-tanks",
+      "sourceVerifiedAt": "2026-11-03T06:22:26.997981+00:00",
+      "evidenceNote": "Official septic tank page expressly provides residential and commercial septic tank service in Miami-Dade and Broward counties, including locating tanks and pumping."
+    },
+    {
+      "name": "On My Way Septic",
+      "website": "https://www.onmywayseptic.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.onmywayseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:20.272446+00:00",
+      "evidenceNote": "Official site explicitly serves residential and commercial properties throughout Miami-Dade and Broward counties with septic tank cleaning, maintenance, drainfield and new installation services."
+    },
+    {
+      "name": "First Call Septic Services",
+      "website": "https://www.septictankservicemiamifl.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.septictankservicemiamifl.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:23.946210+00:00",
+      "evidenceNote": "Official First Call site lists septic tank services and Miami-Dade/Broward coverage, explicitly including Miami and Fort Lauderdale. First Call Pros and First Call Septic Services are treated as one identity."
+    },
+    {
+      "name": "American Septic & Plumbing",
+      "website": "https://theamericanseptic.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://theamericanseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:25.533563+00:00",
+      "evidenceNote": "Official site explicitly serves all of Dade and Broward counties with septic pumping and repair and states these services are provided to residential clients; North Miami Beach office is listed."
+    },
+    {
+      "name": "Colors On Parade",
+      "website": "https://colorsonparade.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://colorsonparade.com/locations/broward-county/",
+      "sourceVerifiedAt": "2026-11-03T06:18:27.911245+00:00",
+      "evidenceNote": "Official local Colors On Parade page advertises mobile cosmetic auto-body repair, paint/scratch repair and dent repair for individual vehicle owners, and explicitly identifies fort lauderdale fl in its coverage description. CarLove is the same brand identity and is not counted separately."
+    },
+    {
+      "name": "AAMCO Transmissions & Total Car Care",
+      "website": "https://www.aamco.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.aamco.com/Auto-Repair-Center/FL/Fort-Lauderdale/N-Dixie-Highway",
+      "sourceVerifiedAt": "2026-11-03T06:16:35.787794+00:00",
+      "evidenceNote": "Official AAMCO shop or regional location page identifies an operating automotive repair location in fort lauderdale fl, with diagnostic, transmission or general car-care services for consumer cars and trucks. AAMCO franchise domains are treated as one brand identity, not additional businesses in the same city/category."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/fort-lauderdale-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:49.963116+00:00",
+      "evidenceNote": "Official Terminix local page names fort lauderdale fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.bluescience.com/miami/",
+      "sourceVerifiedAt": "2026-11-03T06:33:45.667257+00:00",
+      "evidenceNote": "Official local Blue Science service page explicitly offers weekly residential pool cleaning and equipment repair, lists the named cities on its service routes, and supplies a local contact. Pool installation is not inferred from a general corporate link."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/fort-lauderdale-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:49.963116+00:00",
+      "evidenceNote": "Official Terminix local page names fort lauderdale fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Chapman Septic Service",
+      "website": "https://chapmansepticservice.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://chapmansepticservice.com/",
+      "sourceVerifiedAt": "2026-11-03T06:22:16.924064+00:00",
+      "evidenceNote": "Official site offers residential septic pump outs, describes full-service septic work in South Dade and identifies its business location as Miami, Florida."
+    },
+    {
+      "name": "Septic Tech",
+      "website": "https://www.septictechusa.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.septictechusa.com/septic-tank-repair/",
+      "sourceVerifiedAt": "2026-11-03T06:22:24.564559+00:00",
+      "evidenceNote": "Official septic tank repair page explicitly serves Miami and surrounding areas, describes local septic system repair and maintenance, and provides its Miami office location."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/miami-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.346810+00:00",
+      "evidenceNote": "Official Terminix local page names miami fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/miami-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.346810+00:00",
+      "evidenceNote": "Official Terminix local page names miami fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Window Genie",
+      "website": "https://www.windowgenie.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.windowgenie.com/miami/",
+      "sourceVerifiedAt": "2026-11-03T06:33:40.846288+00:00",
+      "evidenceNote": "Official local Window Genie website explicitly provides residential gutter cleaning and names the listed city as a homeowner service area. Gutter cleaning is the verified service; no installation or repair is inferred."
+    },
+    {
+      "name": "AAMCO Transmissions & Total Car Care",
+      "website": "https://www.aamco.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.aamco.com/Auto-Repair-Center/FL/Miami/SW-40Th-Street-%28Bird-Road%29",
+      "sourceVerifiedAt": "2026-11-03T06:16:36.090094+00:00",
+      "evidenceNote": "Official AAMCO shop or regional location page identifies an operating automotive repair location in miami fl, with diagnostic, transmission or general car-care services for consumer cars and trucks. AAMCO franchise domains are treated as one brand identity, not additional businesses in the same city/category."
+    },
+    {
+      "name": "Superior Fence & Rail",
+      "website": "https://www.superiorfenceandrail.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.superiorfenceandrail.com/miami/",
+      "sourceVerifiedAt": "2026-11-03T06:14:03.848185+00:00",
+      "evidenceNote": "Official local Superior Fence & Rail page advertises professional fence installation for residential yards, privacy and home security and explicitly identifies miami fl in its local office heading or service-area list. Wood, vinyl and aluminum installation are offered; this is not a product-only supplier listing."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/miami-pest-control/",
+      "sourceVerifiedAt": "2026-11-03T06:13:54.346810+00:00",
+      "evidenceNote": "Official Terminix local page names miami fl and offers interior/exterior household pest treatment. Its local service FAQ also explicitly offers attic insulation installation. Its local service FAQ explicitly offers gutter cover installation; the gutter placement is limited to that service. Residential customer scope is stated in the local home protection plans; only one Terminix identity per city/category is counted."
+    },
+    {
+      "name": "Rainbow Restoration",
+      "website": "https://rainbowrestores.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://rainbowrestores.com/miami",
+      "sourceVerifiedAt": "2026-11-03T06:34:06.506012+00:00",
+      "evidenceNote": "Official local Rainbow Restoration page explicitly serves the named city and offers water damage restoration and mold removal/remediation for homes as well as commercial properties. Other Rainbow locations and its former Rainbow International name are one brand identity."
+    }
+  ],
+  "requestedRunTarget": 1000,
+  "previousPublishedPlacements": 241,
+  "publishedPlacements": 0,
+  "cumulativePreparedPlacements": 430,
+  "runShortfall": 759,
+  "shortfallAfterCheckpointPublication": 570,
+  "runComplete": false,
+  "targetMeaning": "target is the size of this validated publication checkpoint; the requested total remains 1000"
+}

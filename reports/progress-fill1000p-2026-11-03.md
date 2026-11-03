@@ -1,20 +1,20 @@
 # Directory fill checkpoint — 2026-11-03
 
-Status: prepared and validated; publication and live verification pending. JSON expansion, identity/domain uniqueness, active slugs, coverage reconciliation, TypeScript, lint and the production build passed. All selected official source URLs returned HTTP 200; two Bartlett pages required the recorded public web retrieval for their JavaScript-rendered service evidence.
+Status: published and live-verified. Commit `8c965e12626d103b124eb7480c8b9a4e246f547c`; production deployment `dpl_2oCSxJ7EqnT4LpaNTyJ6jvVbguXk`; GitHub CI run 41587924072 passed. All 241 new cards on 167 category pages and 68 profiles passed live checks. A fresh full 1,200-page audit matched the prepared counts. JSON expansion, identity/domain uniqueness, active slugs, coverage reconciliation, TypeScript, lint and the production build passed. All selected official source URLs returned HTTP 200; two Bartlett pages required the recorded public web retrieval for their JavaScript-rendered service evidence.
 
-Baseline main: `56778f708ed378590c917925c3683a5311a40f13`. The requested run target remains **1,000**. This checkpoint prepares **241** new placements, with **759** still unfilled in this request. It is not a completion report.
+Baseline main: `56778f708ed378590c917925c3683a5311a40f13`. The requested run target remains **1,000**. This checkpoint published **241** new placements, with **759** still unfilled in this request. It is not a completion report.
 
 Latest main and all 1,200 live city/category pages were audited before editing. Both showed a count deficit of 3,138, 682 combinations at 20+, 518 below and zero empty. The connected automation last recorded a completed run at 2026-11-03T01:20:05Z; it was checked twice and no overlapping active run was recorded.
 
 Catalog: 40 active cities × 30 visible categories. Ten hidden categories are preserved. Grayton Beach is active; Panama City and Panama City Beach remain separate. The current import cap already allows 20, so no cap or application-code change was necessary.
 
-Prepared result: 22,489 generated records, 694 combinations at 20+, 506 below, count deficit 2,897, zero empty. All 22,248 prior generated listings and 2,948 source-evidence rows are preserved exactly and in order. No existing data, claims, submissions, paid placements or unrelated code were removed or edited.
+Published result: 22,489 generated records, 694 combinations at 20+, 506 below, count deficit 2,897, zero empty. All 22,248 prior generated listings and 2,948 source-evidence rows are preserved exactly and in order. No existing data, claims, submissions, paid placements or unrelated code were removed or edited.
 
 The 241 placements expand 181 source-evidence rows from 68 website hosts. Host count is not a count of independent companies. Identity/domain normalization includes subdomains and reviewed former names (JSBENZ/JSB, RepairSmith/AutoNation, YourMechanic/Wrench, Germain/SI Yachts). New HomeTeam, Conserva and NewSouth records use neutral brand names to avoid carrying an unrelated city name into a profile.
 
 ## Additions by city
 
-| City slug | Prepared additions |
+| City slug | Published additions |
 |---|---:|
 | crestview-fl | 1 |
 | pace-fl | 1 |
