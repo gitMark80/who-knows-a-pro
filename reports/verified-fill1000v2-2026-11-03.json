@@ -3,7 +3,7 @@
   "continuationOf": "reports/verified-fill1000v-2026-11-03.json",
   "verifiedAt": "2026-11-03T15:04:05.720Z",
   "target": 71,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "placementCount": 71,
   "sourceRecordCount": 50,
   "uniqueBusinessDomains": 39,
@@ -789,5 +789,9 @@
   "checkpointTarget": 71,
   "previousPublishedThisRun": 118,
   "cumulativePrepared": 189,
-  "remainingToRequestedTarget": 811
+  "remainingToRequestedTarget": 811,
+  "publishedCommit": "eebc34ef726e9551e97fef1294e04f57ff3c16e0",
+  "deploymentId": "dpl_DC55t5GKct1GUbF2JcdDaH2JJ8Qb",
+  "publishedPlacements": 71,
+  "cumulativePublishedPlacements": 189
 }

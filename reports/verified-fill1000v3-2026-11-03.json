@@ -1,0 +1,882 @@
+{
+  "baselineCommit": "eebc34ef726e9551e97fef1294e04f57ff3c16e0",
+  "continuationOf": "reports/verified-fill1000v2-2026-11-03.json",
+  "verifiedAt": "2026-11-03T15:24:37.395Z",
+  "target": 1000,
+  "status": "prepared_not_published",
+  "placementCount": 87,
+  "sourceRecordCount": 56,
+  "uniqueBusinessDomains": 42,
+  "additionsByCity": {
+    "panama-city-fl": 1,
+    "gulf-shores-al": 3,
+    "foley-al": 5,
+    "fairhope-al": 6,
+    "daphne-al": 6,
+    "biloxi-ms": 4,
+    "gulfport-ms": 4,
+    "dothan-al": 7,
+    "montgomery-al": 3,
+    "tallahassee-fl": 4,
+    "auburn-al": 1,
+    "new-orleans-la": 1,
+    "baton-rouge-la": 1,
+    "birmingham-al": 10,
+    "huntsville-al": 3,
+    "tampa-fl": 3,
+    "clearwater-fl": 4,
+    "st-petersburg-fl": 5,
+    "sarasota-fl": 2,
+    "west-palm-beach-fl": 5,
+    "fort-lauderdale-fl": 5,
+    "miami-fl": 4
+  },
+  "additionsByCategory": {
+    "auto-body-collision": 6,
+    "fence-builders": 7,
+    "water-damage-mold-remediation": 16,
+    "auto-mechanics": 5,
+    "septic-services": 20,
+    "home-inspections": 2,
+    "towing": 10,
+    "screen-enclosures-pool-cages": 5,
+    "kitchen-bath-remodeling": 1,
+    "gutters": 2,
+    "generator-installation": 4,
+    "pool-installation": 6,
+    "pool-service": 2,
+    "appliance-repair": 1
+  },
+  "additionsByBusiness": {
+    "AutoNation": 6,
+    "Laughing Gull Home Services": 8,
+    "Best Option Restoration": 4,
+    "Hutchins Auto Repair LLC": 3,
+    "Lightspeed Restoration of Baldwin County": 3,
+    "Pelc Tire & Auto Service Center": 2,
+    "Elite Sanitation Services": 2,
+    "Hub City Home Inspections LLC": 2,
+    "HomeLyft Restoration": 2,
+    "All American Towing Inc": 2,
+    "Alabama Patio Covers": 3,
+    "Hathcock Home Services": 2,
+    "GraniteLand USA Kitchen & Bath": 1,
+    "Southern Style Fence & Lawncare": 1,
+    "The GOAT Property Services": 1,
+    "Turner Boundary Solutions": 1,
+    "Gutter Worx Seamless Gutters": 2,
+    "Generator Supercenter": 1,
+    "Lawson & Lawson Electrical Services Inc": 1,
+    "Mathers Electric Co. Inc.": 1,
+    "Power On Generators": 1,
+    "All Dry Services": 3,
+    "Birmingham Sewer-Septic Co.": 1,
+    "Mr. Rooter Plumbing": 1,
+    "All About Pools | JBChampion LLC": 1,
+    "Burleson Pool Company": 2,
+    "Hollywood Outdoor Living": 2,
+    "Shoemaker Pool Service Inc.": 2,
+    "Atlas Appliance Repair": 1,
+    "Keith's Tank Service": 1,
+    "New Wave Custom Pools": 1,
+    "ACE Septic & Waste": 3,
+    "Gulf Coast Septic": 4,
+    "Xpress Quality Services": 3,
+    "Sewer-Man": 1,
+    "Pulles Plumbing & Septic": 2,
+    "Southern Septic": 2,
+    "American Towing Service": 3,
+    "Familia Towing and Junk Cars": 1,
+    "Preferred Auto Transport And Recovery": 2,
+    "AC Towing & Recovery Corp": 1,
+    "VMC Towing Recovery Inc": 1
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 764,
+    "pairsBelow20": 436,
+    "deficit": 1909
+  },
+  "prepared": {
+    "pairsAt20": 772,
+    "pairsBelow20": 428,
+    "deficit": 1822,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "gulf-shores-al|water-damage-mold-remediation",
+    "foley-al|fence-builders",
+    "foley-al|water-damage-mold-remediation",
+    "fairhope-al|fence-builders",
+    "fairhope-al|water-damage-mold-remediation",
+    "daphne-al|water-damage-mold-remediation",
+    "biloxi-ms|towing",
+    "panama-city-fl|auto-body-collision"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "AutoNation",
+      "website": "https://www.autonationcollisioncenters.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.autonationcollisioncenters.com/viewlocation/autonation-ford-panama-city",
+      "sourceVerifiedAt": "2026-11-03T15:09:14.350552+00:00",
+      "evidenceNote": "Official local page confirms the Panama City Ford location at West 15th Street is a collision-repair concierge pickup/drop-off location. It offers consumer vehicle collision and dent repairs. All AutoNation dealer and collision domains are treated as one business identity per city/category."
+    },
+    {
+      "name": "Laughing Gull Home Services",
+      "website": "https://gullhs.com/",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://gullhs.com/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official homepage identifies the Gulf Shores company and expressly serves homeowners throughout Baldwin County. Its own service descriptions offer full fence installation, repair and replacement, plus mold remediation. Embedded Google and Yelp reviews are not used as evidence."
+    },
+    {
+      "name": "Best Option Restoration",
+      "website": "https://bestoptionrestoration.com/locations/baldwin-county/",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://bestoptionrestoration.com/locations/baldwin-county/",
+      "sourceVerifiedAt": "2026-11-03T15:14:17.294896+00:00",
+      "evidenceNote": "Official Baldwin County franchise page identifies owner Zac Smith and explicitly lists all five included cities. It offers water-damage restoration and mold remediation for homes, with a local Bay Minette office. Only named service areas are used; no extra branches are claimed."
+    },
+    {
+      "name": "Laughing Gull Home Services",
+      "website": "https://gullhs.com/",
+      "regions": [
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://gullhs.com/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official homepage identifies the Gulf Shores company and expressly serves homeowners throughout Baldwin County. Its own service descriptions offer full fence installation, repair and replacement, plus mold remediation. Embedded Google and Yelp reviews are not used as evidence."
+    },
+    {
+      "name": "Hutchins Auto Repair LLC",
+      "website": "https://www.hutchinsautomotive.com/Fairhope.html",
+      "regions": [
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.hutchinsautomotive.com/Fairhope.html",
+      "sourceVerifiedAt": "2026-11-03T15:10:42.044094+00:00",
+      "evidenceNote": "Official service page identifies its Saraland workshop and explicitly lists Mobile, Fairhope, Daphne and Foley among communities served. It offers repairs and maintenance for everyday consumer cars and trucks. These are service-area placements, not claims of extra local branches."
+    },
+    {
+      "name": "Lightspeed Restoration of Baldwin County",
+      "website": "https://www.lightspeedrestoration.com/baldwin-county-al/",
+      "regions": [
+        "foley-al",
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.lightspeedrestoration.com/baldwin-county-al/",
+      "sourceVerifiedAt": "2026-11-03T15:14:16.883577+00:00",
+      "evidenceNote": "Official local page expressly offers residential water-damage restoration and mold removal and lists Orange Beach, Gulf Shores, Foley, Fairhope and Daphne as its service cities. Existing Lightspeed placements are preserved and deduplicated by the same business identity."
+    },
+    {
+      "name": "Pelc Tire & Auto Service Center",
+      "website": "https://www.pelctire.com/",
+      "regions": [
+        "fairhope-al",
+        "daphne-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.pelctire.com/",
+      "sourceVerifiedAt": "2026-11-03T15:10:38.934331+00:00",
+      "evidenceNote": "Official homepage lists its actual Fairhope, Daphne and Mobile shop addresses and offers consumer vehicle brake repair, engine diagnostics, suspension work and maintenance. Only the documented local cities are included; multiple Fairhope shops are one business identity."
+    },
+    {
+      "name": "Elite Sanitation Services",
+      "website": "https://elitesanitationservices.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://eventrestrooms.com/",
+      "sourceVerifiedAt": "2026-11-03T15:10:45.912388+00:00",
+      "evidenceNote": "Official old eventrestrooms domain redirects to Elite Sanitation Services, whose homepage offers septic pumping to families and explicitly lists Harrison County, Mississippi, containing Biloxi and Gulfport. Its septic service page confirms residential pumping. The old Petro/eventrestrooms and current Elite name are one identity."
+    },
+    {
+      "name": "Hub City Home Inspections LLC",
+      "website": "https://www.hubcityhomeinspectionshattiesburg.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.hubcityhomeinspectionshattiesburg.com/",
+      "sourceVerifiedAt": "2026-11-03T15:13:34.217506+00:00",
+      "evidenceNote": "Official homepage identifies owner Greg Porcello and explicitly offers comprehensive residential home inspections for buyers and sellers in Biloxi and Gulfport. It explains the inspection and report process. These are documented service areas, not additional office locations."
+    },
+    {
+      "name": "HomeLyft Restoration",
+      "website": "https://www.homelyft.net/about/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://www.homelyft.net/about/",
+      "sourceVerifiedAt": "2026-11-03T15:14:16.102522+00:00",
+      "evidenceNote": "Official company page identifies its Gulfport home base, president Terry Robinson, and residential water-damage drying and mold-remediation work. It explicitly includes Biloxi and Gulfport in its service territory. No unsupported founding date or certification assertion is copied into listing fields."
+    },
+    {
+      "name": "All American Towing Inc",
+      "website": "https://allamericantowinginc.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://allamericantowinginc.com/",
+      "sourceVerifiedAt": "2026-11-03T15:20:00.658128+00:00",
+      "evidenceNote": "Official homepage expressly provides towing in Biloxi and Gulfport and states that it tows passenger cars as well as heavy trucks. This Mississippi company is distinct from similarly named Alabama and Florida businesses; multiple local trucks or locations are counted once."
+    },
+    {
+      "name": "Alabama Patio Covers",
+      "website": "https://alpatiocovers.com/",
+      "regions": [
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://alpatiocovers.com/",
+      "sourceVerifiedAt": "2026-11-03T15:18:07.380875+00:00",
+      "evidenceNote": "Official homepage explicitly serves homeowners in Auburn-Opelika, Montgomery and Dothan with custom screen-room construction and retractable screens. Only named cities are included. Hurricane-rated patio structures are not mislabeled as impact windows or hurricane shutters."
+    },
+    {
+      "name": "Hathcock Home Services",
+      "website": "https://www.hathcockonline.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.hathcockonline.com/",
+      "sourceVerifiedAt": "2026-11-03T15:18:07.337612+00:00",
+      "evidenceNote": "Official homepage identifies the Dothan business and explicitly lists residential screen rooms, pool cages and seamless gutters installed by its crews. This extends the existing Hathcock identity to documented services, without counting its older Roofing & Remodeling name separately."
+    },
+    {
+      "name": "GraniteLand USA Kitchen & Bath",
+      "website": "https://www.granitelandusa.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.granitelandusa.com/",
+      "sourceVerifiedAt": "2026-11-03T15:15:20.406941+00:00",
+      "evidenceNote": "Official homepage identifies its Dothan address and family-operated kitchen and bathroom remodeling business. It offers residential remodeling and countertop installation with its own installers, supporting actual home renovation work rather than materials-only retail."
+    },
+    {
+      "name": "Southern Style Fence & Lawncare",
+      "website": "https://www.ssfencedothan.com/fence-installation-dothan-al",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.ssfencedothan.com/fence-installation-dothan-al",
+      "sourceVerifiedAt": "2026-11-03T15:17:50.608358+00:00",
+      "evidenceNote": "Official Dothan fence-installation page explicitly offers residential wood, vinyl, chain-link and ornamental fence construction and repairs. It identifies the local family business and its own crew. Broad Wiregrass wording is not expanded to additional cities."
+    },
+    {
+      "name": "The GOAT Property Services",
+      "website": "https://thegoatpropertyservices.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://thegoatpropertyservices.com/",
+      "sourceVerifiedAt": "2026-11-03T15:17:50.732932+00:00",
+      "evidenceNote": "Official homepage identifies the Dothan fence and deck business and offers privacy, wood, vinyl and chain-link fence installation and repairs for local properties. Home privacy and backyard work are explicitly described; customer reviews are not used as evidence."
+    },
+    {
+      "name": "Turner Boundary Solutions",
+      "website": "https://turnerboundarysolutions.com/contact-us",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://turnerboundarysolutions.com/contact-us",
+      "sourceVerifiedAt": "2026-11-03T15:17:52.126854+00:00",
+      "evidenceNote": "Official site identifies Turner Boundary Solutions as a division of Jerry D. Turner Construction Company and names Dothan in its service area. It explicitly installs and repairs residential fences; the division and parent count as one identity."
+    },
+    {
+      "name": "Hathcock Home Services",
+      "website": "https://www.hathcockonline.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.hathcockonline.com/",
+      "sourceVerifiedAt": "2026-11-03T15:18:07.337612+00:00",
+      "evidenceNote": "Official homepage identifies the Dothan business and explicitly lists residential screen rooms, pool cages and seamless gutters installed by its crews. This extends the existing Hathcock identity to documented services, without counting its older Roofing & Remodeling name separately."
+    },
+    {
+      "name": "Gutter Worx Seamless Gutters",
+      "website": "https://www.gutterworxseamlessgutters.com/patio-covers-and-screen-rooms",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.gutterworxseamlessgutters.com/patio-covers-and-screen-rooms",
+      "sourceVerifiedAt": "2026-11-03T15:18:07.276097+00:00",
+      "evidenceNote": "Official Montgomery page explicitly installs custom residential screen rooms and lists gutter installation, cleaning, repair and replacement as its services. It identifies the family-owned local business; no broader Alabama territory is inferred."
+    },
+    {
+      "name": "Gutter Worx Seamless Gutters",
+      "website": "https://www.gutterworxseamlessgutters.com/patio-covers-and-screen-rooms",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.gutterworxseamlessgutters.com/patio-covers-and-screen-rooms",
+      "sourceVerifiedAt": "2026-11-03T15:18:07.276097+00:00",
+      "evidenceNote": "Official Montgomery page explicitly installs custom residential screen rooms and lists gutter installation, cleaning, repair and replacement as its services. It identifies the family-owned local business; no broader Alabama territory is inferred."
+    },
+    {
+      "name": "Generator Supercenter",
+      "website": "https://generatorsupercenteroftallahassee.com/install/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://generatorsupercenteroftallahassee.com/install/",
+      "sourceVerifiedAt": "2026-11-03T15:14:44.162388+00:00",
+      "evidenceNote": "Official Tallahassee location page gives its Capital Circle address and describes turnkey home standby-generator installation, including sizing, permits, gas and electrical work. This local franchise and the Generator Supercenter parent are one identity for deduplication."
+    },
+    {
+      "name": "Lawson & Lawson Electrical Services Inc",
+      "website": "https://www.llelectrical.com/service/generators/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.llelectrical.com/service/generators/",
+      "sourceVerifiedAt": "2026-11-03T15:14:44.630409+00:00",
+      "evidenceNote": "Official generator-division page explicitly serves Tallahassee homes with standby generator sizing, installation, transfer switches, maintenance and repairs. General North Florida wording and a Panama City navigation link are not used to infer additional generator-service coverage."
+    },
+    {
+      "name": "Mathers Electric Co. Inc.",
+      "website": "https://matherselectric.com/services/stand-by-generators/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://matherselectric.com/services/stand-by-generators/",
+      "sourceVerifiedAt": "2026-11-03T15:16:31.769267+00:00",
+      "evidenceNote": "Official standby-generator service page explicitly provides installation, maintenance and repairs to residential customers in Tallahassee. The Mathers Electric and Mathers Generators websites represent one business identity and are not separate competing listings."
+    },
+    {
+      "name": "Power On Generators",
+      "website": "https://poweronusa.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://poweronusa.com/",
+      "sourceVerifiedAt": "2026-11-03T15:14:43.281599+00:00",
+      "evidenceNote": "Official homepage expressly serves Tallahassee homeowners with turnkey standby generator installation, service and repair from its Midway headquarters. Only Tallahassee is included; a broad approximate service radius is not used to add unlisted distant cities."
+    },
+    {
+      "name": "All Dry Services",
+      "website": "https://myalldry.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://myalldry.com/new-orleans-louisiana",
+      "sourceVerifiedAt": "2026-11-03T15:14:20.189088+00:00",
+      "evidenceNote": "Official local All Dry franchise page expressly offers water-damage restoration and mold remediation for homes in its named new orleans la market. The local page is linked from the corporate location directory; no nationwide or neighboring-city coverage is inferred."
+    },
+    {
+      "name": "All Dry Services",
+      "website": "https://myalldry.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://myalldry.com/baton-rouge-louisiana",
+      "sourceVerifiedAt": "2026-11-03T15:14:20.207486+00:00",
+      "evidenceNote": "Official local All Dry franchise page expressly offers water-damage restoration and mold remediation for homes in its named baton rouge la market. The local page is linked from the corporate location directory; no nationwide or neighboring-city coverage is inferred."
+    },
+    {
+      "name": "Birmingham Sewer-Septic Co.",
+      "website": "https://birminghamsewerseptic.com/services/septic/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://birminghamsewerseptic.com/services/septic/",
+      "sourceVerifiedAt": "2026-11-03T15:15:21.105809+00:00",
+      "evidenceNote": "Official local septic-service page expressly installs, maintains, repairs and pumps residential septic tanks in Birmingham. The page identifies the Advance Sewer & Septic / Liquid Environmental Solutions affiliation; these related names count as one local business identity."
+    },
+    {
+      "name": "Mr. Rooter Plumbing",
+      "website": "https://www.mrrooter.com/locations/alabama/birmingham/septic-system-repair/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.mrrooter.com/locations/alabama/birmingham/septic-system-repair/",
+      "sourceVerifiedAt": "2026-11-03T15:19:57.903032+00:00",
+      "evidenceNote": "Official Birmingham service page identifies the South Birmingham franchise and explicitly offers septic system repair to local homeowners, including tank damage and backups. Only this named local septic service is counted; parent-brand nationwide coverage is not generalized."
+    },
+    {
+      "name": "All About Pools | JBChampion LLC",
+      "website": "https://allaboutpoolsal.com/about-us/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://allaboutpoolsal.com/about-us/",
+      "sourceVerifiedAt": "2026-11-03T15:15:16.877525+00:00",
+      "evidenceNote": "Official company page identifies its Bessemer headquarters and expressly serves Birmingham homeowners with custom pool construction, renovations and liner replacements. All About Pools and JBChampion LLC are the same identified company, not two businesses."
+    },
+    {
+      "name": "Burleson Pool Company",
+      "website": "https://www.burlesonmasterpools.com/areas-covered/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.burlesonmasterpools.com/areas-covered/",
+      "sourceVerifiedAt": "2026-11-03T15:16:58.021422+00:00",
+      "evidenceNote": "Official service-area page explicitly offers luxury residential pool construction to Birmingham homeowners. This supplements the separately verified Huntsville construction page. Only named residential markets are included; statewide commercial construction is not generalized to homes."
+    },
+    {
+      "name": "Hollywood Outdoor Living",
+      "website": "https://hollywoodoutdoorliving.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://hollywoodoutdoorliving.com/",
+      "sourceVerifiedAt": "2026-11-03T15:15:16.530625+00:00",
+      "evidenceNote": "Official homepage identifies its Birmingham address and family-owned residential pool business. It explicitly offers custom pool construction, maintenance, renovations and structural/equipment repairs, and names Birmingham in its service territory. No wider state coverage is inferred."
+    },
+    {
+      "name": "Shoemaker Pool Service Inc.",
+      "website": "https://www.shoemakerpools.com/new-construction/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.shoemakerpools.com/new-construction/",
+      "sourceVerifiedAt": "2026-11-03T15:15:19.098296+00:00",
+      "evidenceNote": "Official construction page gives its Birmingham address and expressly designs and builds custom residential backyard pools across Birmingham. Only pool construction is counted from this page; unrelated outdoor work is not inferred."
+    },
+    {
+      "name": "Hollywood Outdoor Living",
+      "website": "https://hollywoodoutdoorliving.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://hollywoodoutdoorliving.com/",
+      "sourceVerifiedAt": "2026-11-03T15:15:16.530625+00:00",
+      "evidenceNote": "Official homepage identifies its Birmingham address and family-owned residential pool business. It explicitly offers custom pool construction, maintenance, renovations and structural/equipment repairs, and names Birmingham in its service territory. No wider state coverage is inferred."
+    },
+    {
+      "name": "Shoemaker Pool Service Inc.",
+      "website": "https://www.shoemakerpools.com/service/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.shoemakerpools.com/service/",
+      "sourceVerifiedAt": "2026-11-03T15:16:57.297855+00:00",
+      "evidenceNote": "Official service page explicitly provides pool cleaning and maintenance to families in the Birmingham metro area and supplies its Birmingham business address. This is the same Shoemaker identity as the pool-construction listing, with a separately documented maintenance service."
+    },
+    {
+      "name": "Atlas Appliance Repair",
+      "website": "https://atlasapplianceservices.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://atlasapplianceservices.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Current official service-area page expressly provides in-home appliance repair throughout Birmingham and lists refrigerator, oven, washer, dryer and dishwasher repairs. Older search metadata mentions Huntsville, but the current territory does not; Huntsville is therefore not added."
+    },
+    {
+      "name": "All Dry Services",
+      "website": "https://myalldry.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://myalldry.com/birmingham-alabama",
+      "sourceVerifiedAt": "2026-11-03T15:14:22.123391+00:00",
+      "evidenceNote": "Official local All Dry franchise page expressly offers water-damage restoration and mold remediation for homes in its named birmingham al market. The local page is linked from the corporate location directory; no nationwide or neighboring-city coverage is inferred."
+    },
+    {
+      "name": "Keith's Tank Service",
+      "website": "https://keithssepticpumping.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://keithssepticpumping.com/",
+      "sourceVerifiedAt": "2026-11-03T15:16:57.573686+00:00",
+      "evidenceNote": "Official homepage and service-area navigation explicitly include Huntsville, Alabama, and offer residential septic pumping, inspections and repairs from the Fayetteville, Tennessee operation. Only its stated Huntsville service area is included; no local Alabama office is claimed."
+    },
+    {
+      "name": "Burleson Pool Company",
+      "website": "https://www.burlesonmasterpools.com/swimming-pools/freeform-pools/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.burlesonmasterpools.com/swimming-pools/freeform-pools/",
+      "sourceVerifiedAt": "2026-11-03T15:15:21.966164+00:00",
+      "evidenceNote": "Official residential pool-design page explicitly builds custom backyard pools in Huntsville and identifies its local company team and contact location. Burleson Master Pools and Burleson Pool Company are the same identity; a service-location form alone is not used to infer wider coverage."
+    },
+    {
+      "name": "New Wave Custom Pools",
+      "website": "https://newwavecustompools.com/about-us",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://newwavecustompools.com/about-us",
+      "sourceVerifiedAt": "2026-11-03T15:15:16.748467+00:00",
+      "evidenceNote": "Official company page identifies owner Greg Dolzonek and explicitly builds custom concrete, fiberglass and vinyl backyard pools in Huntsville and Madison from its Toney location. This is documented Huntsville service coverage, not a claimed Huntsville branch."
+    },
+    {
+      "name": "ACE Septic & Waste",
+      "website": "https://www.acesepticandwaste.com/service-areas/",
+      "regions": [
+        "tampa-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.acesepticandwaste.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T15:11:32.816945+00:00",
+      "evidenceNote": "Official service-area page provides Tampa offices and states that ACE serves homeowners with septic maintenance, repairs and installations throughout Hillsborough County. Tampa is documented locally; broad Central Florida wording is not expanded to other cities."
+    },
+    {
+      "name": "Gulf Coast Septic",
+      "website": "https://www.gulfcoastseptic.com/areas-we-serve",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl",
+        "sarasota-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.gulfcoastseptic.com/areas-we-serve",
+      "sourceVerifiedAt": "2026-11-03T15:11:33.490680+00:00",
+      "evidenceNote": "Official service-area page explicitly names Tampa, Clearwater, St. Petersburg and Sarasota. Its homepage describes family-operated residential pumping, repairs, installation and inspections from Gibsonton. This Florida company is distinct from similarly named Mississippi providers."
+    },
+    {
+      "name": "Xpress Quality Services",
+      "website": "https://xpressqualityservices.com/service-areas/",
+      "regions": [
+        "tampa-fl",
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://xpressqualityservices.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T15:11:32.455850+00:00",
+      "evidenceNote": "Official service-area page explicitly makes septic inspections, installation and repair available to homes in Tampa, Clearwater and St. Petersburg. It identifies the Tampa shop and actual work examples. No customer reviews or unrelated HVAC services are used to establish septic coverage."
+    },
+    {
+      "name": "ACE Septic & Waste",
+      "website": "https://www.acesepticandwaste.com/service-areas/pinellas-county-septic-tank-pumping/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.acesepticandwaste.com/service-areas/pinellas-county-septic-tank-pumping/",
+      "sourceVerifiedAt": "2026-11-03T15:10:39.882281+00:00",
+      "evidenceNote": "Official Pinellas County service page explicitly names St. Petersburg and Clearwater and offers residential septic pumping, maintenance, installations and repairs. The business is ACE Septic & Waste, distinct from Pace Septic in Northwest Florida; no new office is inferred."
+    },
+    {
+      "name": "AutoNation",
+      "website": "https://www.autonationcollisioncenters.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.autonationcollisioncenters.com/viewlocation/autonation-collision-center-clearwater",
+      "sourceVerifiedAt": "2026-11-03T15:11:17.524982+00:00",
+      "evidenceNote": "Official local page confirms the Clearwater location is a full-service collision center at US Highway 19 North. It offers consumer vehicle collision and dent repairs. All AutoNation dealer and collision domains are treated as one business identity per city/category."
+    },
+    {
+      "name": "Sewer-Man",
+      "website": "https://sewerman.com/st-petersburg/services/",
+      "regions": [
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://sewerman.com/st-petersburg/services/",
+      "sourceVerifiedAt": "2026-11-03T15:10:39.993249+00:00",
+      "evidenceNote": "Official Saint Petersburg franchise service page explicitly offers residential septic pumping, inspections, repairs and installation and identifies its local service territory. Sewer-Man and RooterMan are one related identity for deduplication; no separate second franchise is counted."
+    },
+    {
+      "name": "AutoNation",
+      "website": "https://www.autonationcollisioncenters.com/",
+      "regions": [
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.autonationcollisioncenters.com/viewlocation/autonation-ford-st.-petersburg",
+      "sourceVerifiedAt": "2026-11-03T15:10:40.237013+00:00",
+      "evidenceNote": "Official local page confirms the St. Petersburg Ford location offers full collision service at 34th Street North. It offers consumer vehicle collision and dent repairs. All AutoNation dealer and collision domains are treated as one business identity per city/category."
+    },
+    {
+      "name": "AutoNation",
+      "website": "https://www.autonationcollisioncenters.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.autonationcollisioncenters.com/viewlocation/autonation-collision-center-sarasota",
+      "sourceVerifiedAt": "2026-11-03T15:11:17.548482+00:00",
+      "evidenceNote": "Official local page confirms the Sarasota location is a full-service collision center at South Tamiami Trail. It offers consumer vehicle collision and dent repairs. All AutoNation dealer and collision domains are treated as one business identity per city/category."
+    },
+    {
+      "name": "Pulles Plumbing & Septic",
+      "website": "https://pullesplumbingseptic.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://pullesplumbingseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T15:10:39.484256+00:00",
+      "evidenceNote": "Official homepage offers home septic pump-outs and repairs, gives its West Palm Beach address and explicitly lists Palm Beach, Broward and Miami-Dade counties as service areas. Fort Lauderdale and Miami placements are within those named counties; no extra offices are claimed."
+    },
+    {
+      "name": "Southern Septic",
+      "website": "https://www.septiccleaningwestpalmbeach.com/septic-pumping",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.septiccleaningwestpalmbeach.com/septic-pumping",
+      "sourceVerifiedAt": "2026-11-03T15:11:18.431098+00:00",
+      "evidenceNote": "Official septic-pumping page expressly serves homeowners in West Palm Beach and Palm Beach, Martin and Broward counties. Fort Lauderdale is included within the stated Broward County territory. Only documented residential pumping and maintenance are included; no Miami coverage is inferred."
+    },
+    {
+      "name": "AutoNation",
+      "website": "https://www.autonationcollisioncenters.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.autonationcollisioncenters.com/viewlocation/autonation-cadillac-west-palm-beach",
+      "sourceVerifiedAt": "2026-11-03T15:10:40.112648+00:00",
+      "evidenceNote": "Official local page confirms the West Palm Beach Cadillac location at 45th Street is a collision-repair concierge pickup/drop-off location. It offers consumer vehicle collision and dent repairs. All AutoNation dealer and collision domains are treated as one business identity per city/category."
+    },
+    {
+      "name": "American Towing Service",
+      "website": "https://www.americantowingflorida.com/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.americantowingflorida.com/",
+      "sourceVerifiedAt": "2026-11-03T15:19:21.292337+00:00",
+      "evidenceNote": "Official homepage identifies the Miami-headquartered company and explicitly serves private motorists throughout Miami-Dade, Broward and Palm Beach counties. Light-duty passenger-car and motorcycle towing is explicitly offered alongside heavy recovery. No extra local branches are invented."
+    },
+    {
+      "name": "Familia Towing and Junk Cars",
+      "website": "https://www.familiatowing.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.familiatowing.com/",
+      "sourceVerifiedAt": "2026-11-03T15:19:24.521755+00:00",
+      "evidenceNote": "Official homepage expressly serves West Palm Beach drivers with local passenger-car towing and roadside assistance. It names Palm Beach County and describes consumer vehicle handling; no towing coverage outside the stated local area is inferred."
+    },
+    {
+      "name": "Preferred Auto Transport And Recovery",
+      "website": "https://preferredautotransport.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://preferredautotransport.com/",
+      "sourceVerifiedAt": "2026-11-03T15:19:22.635122+00:00",
+      "evidenceNote": "Official homepage gives its Miami address and expressly offers light-duty towing and roadside assistance to private drivers throughout Miami-Dade and Broward counties. Fort Lauderdale is within that named Broward territory; no separate branch or Palm Beach coverage is claimed."
+    },
+    {
+      "name": "AutoNation",
+      "website": "https://www.autonationcollisioncenters.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.autonationcollisioncenters.com/viewlocation/autonation-collision-center-fort-lauderdale-south",
+      "sourceVerifiedAt": "2026-11-03T15:10:40.097047+00:00",
+      "evidenceNote": "Official local page confirms the Fort Lauderdale South location is a full-service collision center at SW 22nd Street. It offers consumer vehicle collision and dent repairs. All AutoNation dealer and collision domains are treated as one business identity per city/category."
+    },
+    {
+      "name": "AC Towing & Recovery Corp",
+      "website": "https://towingservicesmiamibeach.com/about",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://towingservicesmiamibeach.com/about",
+      "sourceVerifiedAt": "2026-11-03T15:19:25.104579+00:00",
+      "evidenceNote": "Official company page identifies its family-owned Miami towing operation and explicitly provides towing and roadside assistance to consumer drivers throughout Miami-Dade, naming Miami in its service list. Only this documented territory is included."
+    },
+    {
+      "name": "VMC Towing Recovery Inc",
+      "website": "https://www.vmctowingrecovery.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.vmctowingrecovery.com/",
+      "sourceVerifiedAt": "2026-11-03T15:19:24.942763+00:00",
+      "evidenceNote": "Official Miami website identifies VMC Towing Recovery Inc and offers light-duty vehicle and motorcycle towing plus roadside assistance to consumers. Only its identified Miami market is counted; the generic all-Florida-counties footer is not expanded into statewide placements."
+    }
+  ],
+  "checkpointTarget": 87,
+  "previousPublishedPlacements": 189,
+  "cumulativePreparedPlacements": 276,
+  "remainingRunShortfallIfPublished": 724
+}
