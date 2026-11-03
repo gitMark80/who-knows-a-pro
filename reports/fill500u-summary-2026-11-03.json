@@ -1,0 +1,70 @@
+{
+  "run": "fill500u",
+  "date": "2026-11-03",
+  "status": "published_and_live_verified",
+  "sourceCommit": "61bfec4d4b2b87db141458ce7c13d5e959f8bd91",
+  "deploymentId": "dpl_ArDMCptQZym7Q2Ghx9c4Jpbcnt6o",
+  "deploymentState": "READY",
+  "runTarget": 500,
+  "publishedPlacements": 40,
+  "runShortfall": 460,
+  "livePlacementsPassed": 40,
+  "liveProfilesPassed": 26,
+  "distinctLiveProfiles": 26,
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "activeCombinations": 1200
+  },
+  "before": {
+    "pairsAt20": 744,
+    "pairsBelow20": 456,
+    "deficit": 2138
+  },
+  "live": {
+    "pairsAt20": 746,
+    "pairsBelow20": 454,
+    "emptyPairs": 0,
+    "deficit": 2098
+  },
+  "newlyCompletedCombinations": [
+    "jacksonville-fl|pool-service",
+    "miami-fl|locksmith"
+  ],
+  "additionsByCity": {
+    "biloxi-ms": 1,
+    "dothan-al": 1,
+    "montgomery-al": 1,
+    "tallahassee-fl": 5,
+    "new-orleans-la": 1,
+    "baton-rouge-la": 1,
+    "huntsville-al": 2,
+    "jacksonville-fl": 2,
+    "tampa-fl": 1,
+    "st-petersburg-fl": 1,
+    "sarasota-fl": 4,
+    "fort-myers-fl": 3,
+    "naples-fl": 2,
+    "west-palm-beach-fl": 3,
+    "fort-lauderdale-fl": 1,
+    "miami-fl": 11
+  },
+  "additionsByCategory": {
+    "auto-mechanics": 23,
+    "auto-body-collision": 7,
+    "pool-service": 3,
+    "home-inspections": 1,
+    "garage-door-repair": 2,
+    "pest-control": 1,
+    "fence-builders": 1,
+    "insulation": 1,
+    "locksmith": 1
+  },
+  "researchCandidateRecords": 103,
+  "countingNote": "Only newly published placements verified on the production category and profile pages count. Research candidates and non-rendering excluded-domain records do not count.",
+  "blockers": [
+    "460 placements short of the run target because the remaining reviewed pool did not pass local/category/official-site and importer rendering rules.",
+    "gerbercollision.com is intentionally excluded by repository policy; official Gerber city pages were not counted.",
+    "Priority-city septic and Crestview marine shortages require additional distinct qualifying local businesses."
+  ]
+}

@@ -1,6 +1,6 @@
 # Directory fill500u progress — 2026-11-03
 
-Status: **validated locally; publication pending**
+Status: **published to `main` and live-verified**
 
 ## Outcome
 
@@ -13,6 +13,10 @@ Status: **validated locally; publication pending**
 - Current catalog used as source of truth: **40 active cities × 30 visible categories = 1,200 combinations**
 - Before: **744** combinations at 20+, **2138** total deficit
 - Prepared: **746** combinations at 20+, **2098** total deficit, **0** empty combinations
+- Published source commit: `61bfec4d4b2b87db141458ce7c13d5e959f8bd91`
+- Production deployment: `dpl_ArDMCptQZym7Q2Ghx9c4Jpbcnt6o` (`READY`)
+- Fresh production audit: **746/1,200** combinations at 20+, **454** below, **0** empty, deficit **2,098**
+- Live page checks: **40/40 placements** and **26/26 distinct profiles** passed with official website links and preserved city/category context
 
 ## Additions by city
 
@@ -60,6 +64,7 @@ Status: **validated locally; publication pending**
 ## Verification and blockers
 
 - Fresh live audit before work matched the durable checkpoint: 744/1,200 combinations at 20+, deficit 2,138, no empty combinations.
+- Fresh live audit after deployment matched the prepared result exactly: 746/1,200 combinations at 20+, deficit 2,098, no empty combinations.
 - Candidate checkpoint contains 103 researched records. Only the 40 records that produced distinct validated listings through the existing importer are in the publish set; researched candidates are not counted as listings.
 - Miami locksmith reaches 20 with Alvarez Locksmith, whose official site lists its Little Havana storefront and residential, automotive and commercial locksmith services.
 - Official Gerber location pages were researched, but `gerbercollision.com` is intentionally excluded by `data/excluded-businesses.ts` and older Gerber raw records already exist. Those pages did not render, so none were counted or published and the exclusion was not altered.
