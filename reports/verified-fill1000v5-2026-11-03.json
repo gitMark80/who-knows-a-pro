@@ -1,0 +1,1379 @@
+{
+  "baselineCommit": "88c38258b98d0db740e85d115056f6fc4c2cab0b",
+  "continuationOf": "reports/verified-fill1000v4-2026-11-03.json",
+  "verifiedAt": "2026-11-03T16:06:52.919Z",
+  "target": 1000,
+  "status": "prepared_not_published",
+  "placementCount": 110,
+  "sourceRecordCount": 92,
+  "uniqueBusinessDomains": 81,
+  "additionsByCity": {
+    "orange-beach-al": 1,
+    "foley-al": 2,
+    "mobile-al": 1,
+    "biloxi-ms": 4,
+    "gulfport-ms": 4,
+    "dothan-al": 3,
+    "montgomery-al": 6,
+    "tallahassee-fl": 1,
+    "auburn-al": 1,
+    "new-orleans-la": 7,
+    "baton-rouge-la": 8,
+    "birmingham-al": 8,
+    "huntsville-al": 18,
+    "atlanta-ga": 21,
+    "clearwater-fl": 2,
+    "st-petersburg-fl": 1,
+    "orlando-fl": 4,
+    "sarasota-fl": 3,
+    "fort-myers-fl": 3,
+    "naples-fl": 3,
+    "west-palm-beach-fl": 1,
+    "fort-lauderdale-fl": 3,
+    "miami-fl": 5
+  },
+  "additionsByCategory": {
+    "auto-body-collision": 1,
+    "marine-services": 7,
+    "appliance-repair": 8,
+    "home-inspections": 27,
+    "gutters": 11,
+    "screen-enclosures-pool-cages": 2,
+    "kitchen-bath-remodeling": 32,
+    "septic-services": 9,
+    "water-damage-mold-remediation": 1,
+    "garage-door-repair": 7,
+    "generator-installation": 5
+  },
+  "additionsByBusiness": {
+    "Cockrell's Body Shop": 1,
+    "3-Marine Service LLC": 1,
+    "Momentum Marine Group": 1,
+    "Bodewell (GE Appliances Factory Service)": 8,
+    "Ensminger Home Inspections LLC": 2,
+    "Rainbow Rain Gutters": 4,
+    "All Needz Construction": 2,
+    "Cornerstone Custom Builders LLC": 1,
+    "Walker Construction Company Inc.": 1,
+    "Dothan Gutter Pros": 1,
+    "River Region Environmental Septic Services": 1,
+    "Tierce Industrial Service Inc.": 1,
+    "Lisenby Construction Inc.": 1,
+    "IRoof": 2,
+    "NANOROOF Alabama": 3,
+    "Bass Pro Shops & Cabela\u2019s Boating Centers": 4,
+    "Audubon Home Inspections": 1,
+    "HDMK Inspection Services": 2,
+    "House Call NOLA": 1,
+    "New Orleans Home Inspections": 1,
+    "Oberlin Home Inspection": 1,
+    "Total Home Inspections": 1,
+    "Zayn Home Inspection": 1,
+    "Accurate Inspections of Baton Rouge": 1,
+    "CW-Inspections LLC": 1,
+    "Haven Home Inspections": 1,
+    "S&B Property Inspections LLC": 1,
+    "Highland Homes Construction LLC": 1,
+    "ZITRO Construction Services LLC": 1,
+    "Canebrake Construction": 1,
+    "Serve One Construction": 1,
+    "Toulmin Kitchen & Bath": 1,
+    "YellowHammer Design & Construction": 1,
+    "Drain Right Guttering": 2,
+    "Erwin Marine Sales": 1,
+    "Chobey\u2019s Builders": 1,
+    "Mosley Contract Services": 1,
+    "Renovations of Huntsville": 1,
+    "Bobby Schrimsher & Sons": 2,
+    "Scott Kitchen & Bath Renovation": 1,
+    "Precision Site and Septic Inc.": 1,
+    "Sep-Tek Services": 1,
+    "20/20 Home Inspections": 1,
+    "Best Home Inspection & Radon Testing LLC": 1,
+    "Cowley Home Inspections LLC": 1,
+    "Haines Home Inspections": 1,
+    "Home Appeal Inspections LLC": 1,
+    "Blue River Gutters": 1,
+    "Bowen\u2019s Septic & Environmental Services": 1,
+    "Delta Plumbing": 1,
+    "RooterPLUS!": 1,
+    "Septic Tank Guru": 1,
+    "TK & Sons": 1,
+    "Atlanta Garage Doors": 1,
+    "Dino Garage Doors": 1,
+    "Gray Wolf Garage Door": 1,
+    "Georgia Garage LLC": 1,
+    "Hawk Garage Doors": 1,
+    "National Garage Door of Atlanta": 1,
+    "Village Park Doors LLC": 1,
+    "Residential Inspector of America": 1,
+    "Superior Home Inspections of Georgia": 1,
+    "Independent Inspectors Inc.": 1,
+    "Inspect It ATL": 1,
+    "J&A Home Inspections": 1,
+    "Jiles Inspections LLC": 1,
+    "Sharp Eye Inspections": 1,
+    "West Georgia Home Inspection & Renovation LLC": 1,
+    "Cre-8 Inc.": 1,
+    "New Bay Remodeling": 2,
+    "Assurance Power Systems": 2,
+    "TrueBright Electric": 1,
+    "301 Kitchen & Bath": 1,
+    "3B Construction Services": 1,
+    "Rack Electric": 2,
+    "Collaborative Construction": 2,
+    "Complete Construction Group": 2,
+    "Cornerstone Builders of Southwest Florida": 1,
+    "Dreamery": 3,
+    "Allied Kitchen & Bath": 2,
+    "Star Group Construction": 1
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 779,
+    "pairsBelow20": 421,
+    "deficit": 1737
+  },
+  "prepared": {
+    "pairsAt20": 792,
+    "pairsBelow20": 408,
+    "deficit": 1627,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "mobile-al|appliance-repair",
+    "atlanta-ga|home-inspections",
+    "new-orleans-la|home-inspections",
+    "sarasota-fl|kitchen-bath-remodeling",
+    "fort-myers-fl|kitchen-bath-remodeling",
+    "naples-fl|kitchen-bath-remodeling",
+    "miami-fl|kitchen-bath-remodeling",
+    "fort-lauderdale-fl|kitchen-bath-remodeling",
+    "birmingham-al|gutters",
+    "montgomery-al|gutters",
+    "huntsville-al|gutters",
+    "huntsville-al|home-inspections",
+    "auburn-al|gutters"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Cockrell's Body Shop",
+      "website": "https://cockrellsbodyshop.com/",
+      "regions": [
+        "orange-beach-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://cockrellsbodyshop.com/",
+      "sourceVerifiedAt": "2026-11-03T16:06:21.638587+00:00",
+      "evidenceNote": "Official body-shop homepage explicitly includes Orange Beach among customers served from its Daphne and Spanish Fort shops and offers collision repairs, bodywork and vehicle painting. This extends the existing identity only to a documented service market and does not invent a local branch."
+    },
+    {
+      "name": "3-Marine Service LLC",
+      "website": "https://3-marineservicellc.com/",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://3-marineservicellc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:06:21.587441+00:00",
+      "evidenceNote": "Official homepage provides its actual Foley, Alabama address and offers mobile outboard motor service, inspections and repairs for Yamaha, Mercury and Suzuki recreational boats. Some repairs require shop delivery; no additional city or unrestricted mobile territory is inferred."
+    },
+    {
+      "name": "Momentum Marine Group",
+      "website": "https://www.momentummarinegroup.com/service-repair-boats-dealership--service",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.momentummarinegroup.com/service-repair-boats-dealership--service",
+      "sourceVerifiedAt": "2026-11-03T16:06:21.945994+00:00",
+      "evidenceNote": "Official service-department page gives the Foley address and explicitly maintains and repairs customers\u2019 recreational boats and outboard motors. The Foley service operation is documented directly; distant dealership locations are not projected onto neighboring active cities."
+    },
+    {
+      "name": "Bodewell (GE Appliances Factory Service)",
+      "website": "https://www.bodewell.com/",
+      "regions": [
+        "mobile-al",
+        "montgomery-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://repair.geappliances.com/service-area/a5O4P0000049oRDUAY/alabama",
+      "sourceVerifiedAt": "2026-11-03T15:47:59.964009+00:00",
+      "evidenceNote": "Official Bodewell / GE Appliances Factory Service evidence: The official Alabama service-area page expressly lists Birmingham, Huntsville, Mobile and Montgomery among its eleven supported cities. GE Appliances confirms Factory Service was renamed Bodewell; these names and domains are one business identity. Services are limited to the documented household appliance brands, not all manufacturers."
+    },
+    {
+      "name": "Ensminger Home Inspections LLC",
+      "website": "https://ensmingerhomeinspections.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://ensmingerhomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:47:58.935512+00:00",
+      "evidenceNote": "Official website and its publicly linked frontend asset identify Brian Ensminger and explicitly name Biloxi and Gulfport in the home-inspection service territory. The current page describes inspections for South Mississippi homebuyers; published frontend copy was inspected directly despite the JavaScript-only HTML shell."
+    },
+    {
+      "name": "Rainbow Rain Gutters",
+      "website": "https://www.rainbowraingutters.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.rainbowraingutters.com/",
+      "sourceVerifiedAt": "2026-11-03T16:02:42.709698+00:00",
+      "evidenceNote": "Official homepage names Biloxi and Gulfport in its Mississippi service area and offers seamless residential gutter installation, gutter protection, aluminum screen rooms and patio covers. Screen-room work is explicitly described; no pool construction or hurricane rating is inferred."
+    },
+    {
+      "name": "Rainbow Rain Gutters",
+      "website": "https://www.rainbowraingutters.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.rainbowraingutters.com/",
+      "sourceVerifiedAt": "2026-11-03T16:02:42.709698+00:00",
+      "evidenceNote": "Official homepage names Biloxi and Gulfport in its Mississippi service area and offers seamless residential gutter installation, gutter protection, aluminum screen rooms and patio covers. Screen-room work is explicitly described; no pool construction or hurricane rating is inferred."
+    },
+    {
+      "name": "All Needz Construction",
+      "website": "https://www.allneedzconstruction.com/gallery",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.allneedzconstruction.com/gallery",
+      "sourceVerifiedAt": "2026-11-03T16:03:38.128968+00:00",
+      "evidenceNote": "Official project gallery explicitly identifies completed work from Gulfport to Biloxi and documents residential kitchen and bathroom remodels. This is a local construction company portfolio, not third-party directory or review evidence; no additional city is inferred."
+    },
+    {
+      "name": "Cornerstone Custom Builders LLC",
+      "website": "https://ccbdothan.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://ccbdothan.com/",
+      "sourceVerifiedAt": "2026-11-03T16:03:30.558286+00:00",
+      "evidenceNote": "Official business page explicitly offers residential kitchen or bathroom remodeling in dothan al, describing renovation/design-build work for homeowners. Only the named market is included; supplier-only sales and commercial-only renovation work are not used as qualifying evidence."
+    },
+    {
+      "name": "Walker Construction Company Inc.",
+      "website": "https://www.walkerconstructiondothan.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.walkerconstructiondothan.com/",
+      "sourceVerifiedAt": "2026-11-03T16:03:30.589823+00:00",
+      "evidenceNote": "Official business page explicitly offers residential kitchen or bathroom remodeling in dothan al, describing renovation/design-build work for homeowners. Only the named market is included; supplier-only sales and commercial-only renovation work are not used as qualifying evidence."
+    },
+    {
+      "name": "Dothan Gutter Pros",
+      "website": "https://dothangutterpros.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://dothangutterpros.com/",
+      "sourceVerifiedAt": "2026-11-03T16:02:09.083976+00:00",
+      "evidenceNote": "Official homepage identifies Dothan as its home base and describes weekly local routes for residential gutter cleaning, guard installation and repairs. Only its specifically named Dothan service area is counted, with unknown contact fields left blank."
+    },
+    {
+      "name": "River Region Environmental Septic Services",
+      "website": "https://www.river-region-environmental.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.river-region-environmental.com/",
+      "sourceVerifiedAt": "2026-11-03T16:00:01.603405+00:00",
+      "evidenceNote": "Official company homepage explicitly includes Montgomery, Alabama in its service territory and describes property septic tank installation, repairs and pumping. The business identifies a Wetumpka operating address and local owner; this is a documented service market, not an invented Montgomery office."
+    },
+    {
+      "name": "Tierce Industrial Service Inc.",
+      "website": "https://www.tierceindustrialservices.com/service-page/septic-tank-pumping",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.tierceindustrialservices.com/service-page/septic-tank-pumping",
+      "sourceVerifiedAt": "2026-11-03T16:00:48.628615+00:00",
+      "evidenceNote": "Official septic pumping page offers routine tank pumping to prevent household-style backups and provides its actual Montgomery address. The official homepage describes local septic service for individual property owners. The former Tierce Plumbing and Septic name is the same identity, not an extra business."
+    },
+    {
+      "name": "Lisenby Construction Inc.",
+      "website": "https://lisenbyconstruction.com/kitchen-bathroom-remodeling/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://lisenbyconstruction.com/kitchen-bathroom-remodeling/",
+      "sourceVerifiedAt": "2026-11-03T16:04:17.780064+00:00",
+      "evidenceNote": "Official business page explicitly identifies montgomery al as its location or service market and offers kitchen or bathroom renovations for homeowners. The service is documented remodeling work, not solely supply sales; unknown contact fields and extra branches are not invented."
+    },
+    {
+      "name": "IRoof",
+      "website": "https://iroofpros.com/service-areas/",
+      "regions": [
+        "montgomery-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://iroofpros.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T16:02:13.221172+00:00",
+      "evidenceNote": "Official service-area page explicitly identifies Birmingham and Montgomery and offers residential roof, gutter and insulation projects. Only its documented gutter service is added here; no extra branch address or unlisted city is claimed."
+    },
+    {
+      "name": "NANOROOF Alabama",
+      "website": "https://www.nanoroofal.com/gutters",
+      "regions": [
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.nanoroofal.com/gutters",
+      "sourceVerifiedAt": "2026-11-03T16:02:09.800392+00:00",
+      "evidenceNote": "Official gutter page explicitly names Birmingham, Montgomery, Huntsville and Auburn in its Alabama service territory. It offers gutter installation to protect homes and describes homeowner project planning. No city is inferred from a vague statewide claim."
+    },
+    {
+      "name": "Bass Pro Shops & Cabela\u2019s Boating Centers",
+      "website": "https://www.bassproboatingcenters.com/",
+      "regions": [
+        "tallahassee-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.bassproboatingcenters.com/locations/tallahassee.html",
+      "sourceVerifiedAt": "2026-11-03T15:53:45.921769+00:00",
+      "evidenceNote": "Official local boating-center page gives its actual tallahassee fl address, separate service-department hours and boat-service inquiry access. The linked official service page documents boat and outboard-motor maintenance and repairs for recreational owners. Bass Pro, Cabela\u2019s and Tracker retail identities are counted once per city/category."
+    },
+    {
+      "name": "Audubon Home Inspections",
+      "website": "https://auduboninspections.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://auduboninspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:54:10.181999+00:00",
+      "evidenceNote": "Official homepage explicitly inspects historic and existing New Orleans homes and provides detailed condition reports for buyers. Drone photography is not counted as a separate directory trade. Only the documented local market is counted; unknown contact fields remain blank."
+    },
+    {
+      "name": "HDMK Inspection Services",
+      "website": "https://hdmk.net/",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://hdmk.net/nola/",
+      "sourceVerifiedAt": "2026-11-03",
+      "evidenceNote": "Official HDMK New Orleans branch page explicitly provides residential buyer, seller and new-home inspections in Greater New Orleans. The official locations page identifies the operating headquarters at 15171 S. Harrells Ferry Road in Baton Rouge, supporting that actual local location. Only these documented markets are included."
+    },
+    {
+      "name": "House Call NOLA",
+      "website": "https://www.housecallnola.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.housecallnola.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:57.690284+00:00",
+      "evidenceNote": "Official homepage explicitly serves New Orleans with buyer and pre-listing inspections of single-family homes, condos and small multifamily properties. It identifies local owner Bill Harris and the continuing House Call franchise identity. Only the documented local market is counted; unknown contact fields remain blank."
+    },
+    {
+      "name": "New Orleans Home Inspections",
+      "website": "https://www.neworleanshomeinspections.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.neworleanshomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:57.291131+00:00",
+      "evidenceNote": "Official homepage identifies the New Orleans business and explicitly offers residential home inspections covering structure, roof, HVAC, electrical and plumbing systems for homebuyers. Only the documented local market is counted; unknown contact fields remain blank."
+    },
+    {
+      "name": "Oberlin Home Inspection",
+      "website": "https://www.oberlinhomeinspection.com/home-inspections",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.oberlinhomeinspection.com/home-inspections",
+      "sourceVerifiedAt": "2026-11-03T15:50:58.501968+00:00",
+      "evidenceNote": "Official service page explicitly names Greater New Orleans as an operating region for comprehensive home inspections for buyers and sellers. The separate Dallas/Fort Worth market is not confused with Louisiana. Only the documented local market is counted; unknown contact fields remain blank."
+    },
+    {
+      "name": "Total Home Inspections",
+      "website": "https://www.totalhomenola.com/cost-services/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.totalhomenola.com/cost-services/",
+      "sourceVerifiedAt": "2026-11-03T15:50:58.627474+00:00",
+      "evidenceNote": "Official service page explicitly names New Orleans in its service territory and offers residential home, roof and structural inspections with a written property-condition report. Only the documented local market is counted; unknown contact fields remain blank."
+    },
+    {
+      "name": "Zayn Home Inspection",
+      "website": "https://www.zaynhomeinspection.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.zaynhomeinspection.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:59.772770+00:00",
+      "evidenceNote": "Official homepage identifies the New Orleans, Louisiana operation and inspector Haytham Hamed, and describes residential buyer and seller home inspections and homeowner education. Only the documented local market is counted; unknown contact fields remain blank."
+    },
+    {
+      "name": "Accurate Inspections of Baton Rouge",
+      "website": "https://accurateinspectionsofbatonrouge.com/about/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://accurateinspectionsofbatonrouge.com/about/",
+      "sourceVerifiedAt": "2026-11-03T15:47:59.080821+00:00",
+      "evidenceNote": "Official company page identifies owner Eric Burns and the Baton Rouge home-inspection business, and describes impartial condition inspections of a buyer\u2019s future or current home with a written report. Only this named local city is included."
+    },
+    {
+      "name": "CW-Inspections LLC",
+      "website": "https://www.batonrougehomeinspector.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.batonrougehomeinspector.com/",
+      "sourceVerifiedAt": "2026-11-03T15:47:59.554637+00:00",
+      "evidenceNote": "Official website and its publicly linked frontend asset explicitly describe pre-purchase home inspections and name Baton Rouge in the service area. The displayed contact section identifies Baton Rouge, Louisiana. Current JavaScript-rendered page copy was read from the published asset, not inferred from an empty HTML shell."
+    },
+    {
+      "name": "Haven Home Inspections",
+      "website": "https://havenhomeinspect.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://havenhomeinspect.com/",
+      "sourceVerifiedAt": "2026-11-03T15:51:45.756976+00:00",
+      "evidenceNote": "Official homepage explicitly names Baton Rouge in its service area and describes residential buyer and seller inspections by Jade LaFleur. The service page separately documents residential structure and systems inspections. New Orleans is not listed and is not inferred."
+    },
+    {
+      "name": "S&B Property Inspections LLC",
+      "website": "https://www.sbpropertyinspections.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.sbpropertyinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:47:59.920644+00:00",
+      "evidenceNote": "Official homepage identifies Brandon Fontenot and explicitly offers residential home inspections in Baton Rouge and surrounding areas for homebuyers. It describes its inspection and reporting service; no other city is inferred and no testimonials are used as coverage evidence."
+    },
+    {
+      "name": "Highland Homes Construction LLC",
+      "website": "https://highlandhomela.com/remodeling/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://highlandhomela.com/remodeling/",
+      "sourceVerifiedAt": "2026-11-03T16:04:40.271269+00:00",
+      "evidenceNote": "Official remodeling page identifies its Baton Rouge base and explicitly offers home kitchen and bathroom reconstruction and renovations. Broad Louisiana/Mississippi wording is not expanded into unlisted cities, and commercial-only work is not used as evidence."
+    },
+    {
+      "name": "ZITRO Construction Services LLC",
+      "website": "https://www.zitrocs.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.zitrocs.com/",
+      "sourceVerifiedAt": "2026-11-03T16:04:17.772947+00:00",
+      "evidenceNote": "Official business page explicitly identifies baton rouge la as its location or service market and offers kitchen or bathroom renovations for homeowners. The service is documented remodeling work, not solely supply sales; unknown contact fields and extra branches are not invented."
+    },
+    {
+      "name": "Bodewell (GE Appliances Factory Service)",
+      "website": "https://www.bodewell.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://repair.geappliances.com/service-area/a5O4P0000049oVSUAY/baton-rouge",
+      "sourceVerifiedAt": "2026-11-03T15:50:05.243378+00:00",
+      "evidenceNote": "Official Bodewell / GE Appliances Factory Service evidence: The official Baton Rouge page explicitly identifies local repair technicians serving household GE-brand appliances in Baton Rouge, Louisiana. GE Appliances confirms Factory Service was renamed Bodewell; these names and domains are one business identity. Services are limited to the documented household appliance brands, not all manufacturers."
+    },
+    {
+      "name": "Canebrake Construction",
+      "website": "https://canebrake.co/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://canebrake.co/",
+      "sourceVerifiedAt": "2026-11-03T16:03:33.962717+00:00",
+      "evidenceNote": "Official business page explicitly offers residential kitchen or bathroom remodeling in birmingham al, describing renovation/design-build work for homeowners. Only the named market is included; supplier-only sales and commercial-only renovation work are not used as qualifying evidence."
+    },
+    {
+      "name": "Serve One Construction",
+      "website": "https://www.serveoneconstruction.com/remodeling-services",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.serveoneconstruction.com/remodeling-services",
+      "sourceVerifiedAt": "2026-11-03T16:03:34.870421+00:00",
+      "evidenceNote": "Official business page explicitly offers residential kitchen or bathroom remodeling in birmingham al, describing renovation/design-build work for homeowners. Only the named market is included; supplier-only sales and commercial-only renovation work are not used as qualifying evidence."
+    },
+    {
+      "name": "Toulmin Kitchen & Bath",
+      "website": "https://www.toulmincabinetry.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.toulmincabinetry.com/",
+      "sourceVerifiedAt": "2026-11-03T16:03:36.224455+00:00",
+      "evidenceNote": "Official business page explicitly offers residential kitchen or bathroom remodeling in birmingham al, describing renovation/design-build work for homeowners. Only the named market is included; supplier-only sales and commercial-only renovation work are not used as qualifying evidence."
+    },
+    {
+      "name": "YellowHammer Design & Construction",
+      "website": "https://yellowhammerconstruction.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://yellowhammerconstruction.com/",
+      "sourceVerifiedAt": "2026-11-03T16:03:33.632701+00:00",
+      "evidenceNote": "Official business page explicitly offers residential kitchen or bathroom remodeling in birmingham al, describing renovation/design-build work for homeowners. Only the named market is included; supplier-only sales and commercial-only renovation work are not used as qualifying evidence."
+    },
+    {
+      "name": "Drain Right Guttering",
+      "website": "https://drainrightguttering.com/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://drainrightguttering.com/",
+      "sourceVerifiedAt": "2026-11-03T16:02:13.525031+00:00",
+      "evidenceNote": "Official homepage explicitly lists Birmingham and Huntsville among Alabama communities served and offers seamless gutters, guards, repairs and cleaning to protect homes. The Tennessee operation is not mistaken for an Alabama branch, and no other city is inferred."
+    },
+    {
+      "name": "Bass Pro Shops & Cabela\u2019s Boating Centers",
+      "website": "https://www.bassproboatingcenters.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.bassproboatingcenters.com/locations/huntsville.html",
+      "sourceVerifiedAt": "2026-11-03T15:53:04.985460+00:00",
+      "evidenceNote": "Official local boating-center page gives its actual huntsville al address, separate service-department hours and boat-service inquiry access. The linked official service page documents boat and outboard-motor maintenance and repairs for recreational owners. Bass Pro, Cabela\u2019s and Tracker retail identities are counted once per city/category."
+    },
+    {
+      "name": "Erwin Marine Sales",
+      "website": "https://www.erwinmarinesales.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.erwinmarinesales.com/",
+      "sourceVerifiedAt": "2026-11-03T15:53:05.055553+00:00",
+      "evidenceNote": "Official homepage explicitly serves Huntsville, Alabama boaters and offers certified boat repairs, service and parts, storage and recreational boat sales. The Alabama operation is distinguished from its Chattanooga operation. Only documented Huntsville coverage is counted."
+    },
+    {
+      "name": "Chobey\u2019s Builders",
+      "website": "https://www.chobeys.com/kitchen",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.chobeys.com/kitchen",
+      "sourceVerifiedAt": "2026-11-03T16:04:41.977182+00:00",
+      "evidenceNote": "Official business page explicitly identifies huntsville al as its location or service market and offers kitchen or bathroom renovations for homeowners. The service is documented remodeling work, not solely supply sales; unknown contact fields and extra branches are not invented."
+    },
+    {
+      "name": "Mosley Contract Services",
+      "website": "https://www.mosleycs.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.mosleycs.com/",
+      "sourceVerifiedAt": "2026-11-03T16:04:40.210365+00:00",
+      "evidenceNote": "Official business page explicitly identifies huntsville al as its location or service market and offers kitchen or bathroom renovations for homeowners. The service is documented remodeling work, not solely supply sales; unknown contact fields and extra branches are not invented."
+    },
+    {
+      "name": "Renovations",
+      "website": "https://renovationsofhuntsville.com/service/kitchen-and-bathroom-renovations",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://renovationsofhuntsville.com/service/kitchen-and-bathroom-renovations",
+      "sourceVerifiedAt": "2026-11-03T16:04:40.881214+00:00",
+      "evidenceNote": "Official business page explicitly identifies huntsville al as its location or service market and offers kitchen or bathroom renovations for homeowners. The service is documented remodeling work, not solely supply sales; unknown contact fields and extra branches are not invented."
+    },
+    {
+      "name": "Bobby Schrimsher & Sons",
+      "website": "https://schrimshersons.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://schrimshersons.com/",
+      "sourceVerifiedAt": "2026-11-03T16:04:39.905556+00:00",
+      "evidenceNote": "Official Huntsville homepage explicitly offers residential kitchen/bath remodeling and water-damage restoration. It describes handling damaged homes and renovations with its local construction team; both categories are independently named, with no extra service territory inferred."
+    },
+    {
+      "name": "Scott Kitchen & Bath Renovation",
+      "website": "https://www.scottkitchenandbathrenovation.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.scottkitchenandbathrenovation.com/",
+      "sourceVerifiedAt": "2026-11-03T16:04:19.643619+00:00",
+      "evidenceNote": "Official business page explicitly identifies huntsville al as its location or service market and offers kitchen or bathroom renovations for homeowners. The service is documented remodeling work, not solely supply sales; unknown contact fields and extra branches are not invented."
+    },
+    {
+      "name": "Precision Site and Septic Inc.",
+      "website": "https://precisionsiteandseptic.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://precisionsiteandseptic.com/",
+      "sourceVerifiedAt": "2026-11-03T15:56:58.772741+00:00",
+      "evidenceNote": "Official homepage explicitly serves Huntsville with septic installation, repair, pumping and inspections. It describes systems for new homes and residential renovations, and names Huntsville, Madison and Athens; only the active documented Huntsville city is counted."
+    },
+    {
+      "name": "Sep-Tek Services",
+      "website": "https://septeksepticpumping.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://septeksepticpumping.com/",
+      "sourceVerifiedAt": "2026-11-03T15:57:00.602663+00:00",
+      "evidenceNote": "Official website publicly linked frontend copy explicitly offers septic installation and repairs for homes and businesses across Huntsville and North Alabama. Its current page content was inspected in the public asset. The alternative Sep-Tek domain is treated as one identity; no extra city is inferred."
+    },
+    {
+      "name": "20/20 Home Inspections",
+      "website": "https://www.2020-hi.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.2020-hi.com/",
+      "sourceVerifiedAt": "2026-11-03T16:00:47.473761+00:00",
+      "evidenceNote": "Official homepage identifies owner Jimmie Letson and explicitly serves Huntsville with residential home inspections and written condition reports. Its service page separately lists residential and pre-market home inspections. Unknown contact and licensing fields are not invented."
+    },
+    {
+      "name": "Best Home Inspection & Radon Testing LLC",
+      "website": "https://www.besthomeinspectionandradontesting.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.besthomeinspectionandradontesting.com/",
+      "sourceVerifiedAt": "2026-11-03T15:54:14.484358+00:00",
+      "evidenceNote": "Official homepage explicitly identifies Huntsville, Alabama as a residential home-inspection location or service area and describes inspections for buyers and homeowners. Only Huntsville is included; broad North Alabama wording is not expanded into unlisted cities."
+    },
+    {
+      "name": "Cowley Home Inspections LLC",
+      "website": "https://cowleyhomeinspections.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://cowleyhomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:54:10.156001+00:00",
+      "evidenceNote": "Official homepage explicitly identifies Huntsville, Alabama as a residential home-inspection location or service area and describes inspections for buyers and homeowners. Only Huntsville is included; broad North Alabama wording is not expanded into unlisted cities."
+    },
+    {
+      "name": "Haines Home Inspections",
+      "website": "https://www.haineshomeinspections.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.haineshomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:51:02.863254+00:00",
+      "evidenceNote": "Official homepage explicitly identifies Huntsville, Alabama as a residential home-inspection location or service area and describes inspections for buyers and homeowners. Only Huntsville is included; broad North Alabama wording is not expanded into unlisted cities."
+    },
+    {
+      "name": "Home Appeal Inspections LLC",
+      "website": "https://www.homeappealal.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.homeappealal.com/",
+      "sourceVerifiedAt": "2026-11-03T16:00:03.356981+00:00",
+      "evidenceNote": "Official homepage explicitly names Huntsville in the service area and describes inspections of homes for buyers, including structure, roof, electrical, plumbing and HVAC condition. Its actual Moulton base is not relabeled as a Huntsville office; only documented service coverage is counted."
+    },
+    {
+      "name": "Bobby Schrimsher & Sons",
+      "website": "https://schrimshersons.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://schrimshersons.com/",
+      "sourceVerifiedAt": "2026-11-03T16:04:39.905556+00:00",
+      "evidenceNote": "Official Huntsville homepage explicitly offers residential kitchen/bath remodeling and water-damage restoration. It describes handling damaged homes and renovations with its local construction team; both categories are independently named, with no extra service territory inferred."
+    },
+    {
+      "name": "Blue River Gutters",
+      "website": "https://bluerivergutters.com/locations/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://bluerivergutters.com/locations/",
+      "sourceVerifiedAt": "2026-11-03T16:02:08.829557+00:00",
+      "evidenceNote": "Official service-area page explicitly provides gutter installation, repairs, guards and cleaning for homeowners in Huntsville, Alabama. It identifies Hartselle as the actual headquarters, so this entry reflects service coverage and does not invent a Huntsville office."
+    },
+    {
+      "name": "Bowen\u2019s Septic & Environmental Services",
+      "website": "https://www.bowensseptictank.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.bowensseptictank.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:33.383869+00:00",
+      "evidenceNote": "Official company service page explicitly offers residential septic pumping, installation, maintenance or repairs in the Atlanta metropolitan area. Only that documented market is included, not all Georgia cities. RooterPLUS is not Roto-Rooter; distinct businesses and alternate domains are checked against existing records."
+    },
+    {
+      "name": "Delta Plumbing",
+      "website": "https://deltaplumbingatlanta.com/services/septic-services/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://deltaplumbingatlanta.com/services/septic-services/",
+      "sourceVerifiedAt": "2026-11-03T16:01:35.371709+00:00",
+      "evidenceNote": "Official company service page explicitly offers residential septic pumping, installation, maintenance or repairs in the Atlanta metropolitan area. Only that documented market is included, not all Georgia cities. RooterPLUS is not Roto-Rooter; distinct businesses and alternate domains are checked against existing records."
+    },
+    {
+      "name": "RooterPLUS!",
+      "website": "https://www.rooterplus.com/septic-services/septic-inspection-and-maintenance",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://www.rooterplus.com/septic-services/septic-inspection-and-maintenance",
+      "sourceVerifiedAt": "2026-11-03T16:01:34.704959+00:00",
+      "evidenceNote": "Official company service page explicitly offers residential septic pumping, installation, maintenance or repairs in the Atlanta metropolitan area. Only that documented market is included, not all Georgia cities. RooterPLUS is not Roto-Rooter; distinct businesses and alternate domains are checked against existing records."
+    },
+    {
+      "name": "Septic Tank Guru",
+      "website": "https://septictankguru.com/our-services/septic-tank-pumping/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://septictankguru.com/our-services/septic-tank-pumping/",
+      "sourceVerifiedAt": "2026-11-03T16:01:34.756264+00:00",
+      "evidenceNote": "Official company service page explicitly offers residential septic pumping, installation, maintenance or repairs in the Atlanta metropolitan area. Only that documented market is included, not all Georgia cities. RooterPLUS is not Roto-Rooter; distinct businesses and alternate domains are checked against existing records."
+    },
+    {
+      "name": "TK & Sons",
+      "website": "https://tksons.com/residential/septic/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://tksons.com/residential/septic/",
+      "sourceVerifiedAt": "2026-11-03T16:01:35.920433+00:00",
+      "evidenceNote": "Official company service page explicitly offers residential septic pumping, installation, maintenance or repairs in the Atlanta metropolitan area. Only that documented market is included, not all Georgia cities. RooterPLUS is not Roto-Rooter; distinct businesses and alternate domains are checked against existing records."
+    },
+    {
+      "name": "Atlanta Garage Doors",
+      "website": "https://www.atlantagaragedoorsinc.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.atlantagaragedoorsinc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:29.106828+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "Dino Garage Doors",
+      "website": "https://dinodoors.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://dinodoors.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:28.317979+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "Gray Wolf Garage Door",
+      "website": "https://garagedooratl.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://garagedooratl.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:29.734472+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "Georgia Garage LLC",
+      "website": "https://georgiagaragellc.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://georgiagaragellc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:31.178532+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "Hawk Garage Doors",
+      "website": "https://www.hawkgaragedoors.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.hawkgaragedoors.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:28.297711+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "National Garage Door of Atlanta",
+      "website": "https://nationalgaragedooratlanta.com/residential-garage-door-repair/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://nationalgaragedooratlanta.com/residential-garage-door-repair/",
+      "sourceVerifiedAt": "2026-11-03T16:01:29.577253+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "Village Park Doors LLC",
+      "website": "https://villageparkdoors.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://villageparkdoors.com/",
+      "sourceVerifiedAt": "2026-11-03T16:01:29.447422+00:00",
+      "evidenceNote": "Official business page expressly serves Atlanta or the Atlanta metropolitan area with residential garage door repairs, including door mechanisms or openers. The current page identifies its own operating business and consumer service; no additional metro cities or branch offices are inferred."
+    },
+    {
+      "name": "Residential Inspector of America",
+      "website": "https://www.atlanta.residentialinspector.com/home-inspections/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.atlanta.residentialinspector.com/home-inspections/",
+      "sourceVerifiedAt": "2026-11-03T15:50:52.869448+00:00",
+      "evidenceNote": "The official Atlanta branch page explicitly provides residential pre-purchase, pre-listing and new-construction home inspections in Atlanta. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "Superior Home Inspections of Georgia",
+      "website": "https://www.choosesuperiorinspection.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.choosesuperiorinspection.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:56.507131+00:00",
+      "evidenceNote": "The official homepage explicitly identifies its Atlanta and North Georgia home-inspection territory and offers buyer, pre-listing and new-home inspections. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "Independent Inspectors Inc.",
+      "website": "https://ineedaninspection.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://ineedaninspection.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:53.115146+00:00",
+      "evidenceNote": "The official homepage explicitly advertises home inspections for the North Atlanta metro area and describes buyer and seller inspection reports. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "Inspect It ATL",
+      "website": "https://inspectitatl.com/services/all",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://inspectitatl.com/services/all",
+      "sourceVerifiedAt": "2026-11-03T15:50:53.431134+00:00",
+      "evidenceNote": "The official service page explicitly names Atlanta in its service area and describes residential buyer, seller and new-construction inspections. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "J&A Home Inspections",
+      "website": "https://www.jandahomeinspections.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.jandahomeinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:53.228584+00:00",
+      "evidenceNote": "The official homepage identifies Atlanta, Georgia and explicitly offers pre-purchase residential and new-construction inspections for homeowners. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "Jiles Inspections LLC",
+      "website": "https://www.jilesinspections.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.jilesinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:54.146774+00:00",
+      "evidenceNote": "The official homepage explicitly offers residential buyer and seller inspections throughout metro Atlanta, with a named Atlanta market and Marietta base. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "Sharp Eye Inspections",
+      "website": "https://www.mygainspector.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.mygainspector.com/",
+      "sourceVerifiedAt": "2026-11-03T15:50:56.143869+00:00",
+      "evidenceNote": "The official homepage explicitly serves metro Atlanta, Downtown and Midtown with residential pre-purchase inspections and reports. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "West Georgia Home Inspection & Renovation LLC",
+      "website": "https://www.westgeorgiahomeinspection.com/pre-sale-inspections",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.westgeorgiahomeinspection.com/pre-sale-inspections",
+      "sourceVerifiedAt": "2026-11-03T15:50:53.976834+00:00",
+      "evidenceNote": "The official pre-sale inspection page explicitly offers home inspections for Atlanta, Georgia and surrounding areas, with residential buyer and seller services. Only the documented Atlanta market is included; no other metropolitan-area cities or unlisted offices are invented."
+    },
+    {
+      "name": "Bodewell (GE Appliances Factory Service)",
+      "website": "https://www.bodewell.com/",
+      "regions": [
+        "atlanta-ga"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://geapp.my.site.com/regea/service-area/a5O4P0000049oQkUAI/georgia",
+      "sourceVerifiedAt": "2026-11-03T15:50:05.167550+00:00",
+      "evidenceNote": "Official Bodewell / GE Appliances Factory Service evidence: The official Georgia service-area page explicitly lists Atlanta among its local service cities. GE Appliances confirms Factory Service was renamed Bodewell; these names and domains are one business identity. Services are limited to the documented household appliance brands, not all manufacturers."
+    },
+    {
+      "name": "Cre-8 Inc.",
+      "website": "https://www.cre8kb.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.cre8kb.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:03.301795+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in clearwater fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "New Bay Remodeling",
+      "website": "https://www.newbayremodeling.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.newbayremodeling.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:03.862008+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in clearwater fl, st petersburg fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Bass Pro Shops & Cabela\u2019s Boating Centers",
+      "website": "https://www.bassproboatingcenters.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.bassproboatingcenters.com/locations/orlando.html",
+      "sourceVerifiedAt": "2026-11-03T15:53:46.204805+00:00",
+      "evidenceNote": "Official local boating-center page gives its actual orlando fl address, separate service-department hours and boat-service inquiry access. The linked official service page documents boat and outboard-motor maintenance and repairs for recreational owners. Bass Pro, Cabela\u2019s and Tracker retail identities are counted once per city/category."
+    },
+    {
+      "name": "Bodewell (GE Appliances Factory Service)",
+      "website": "https://www.bodewell.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.bodewell.com/service-area/a5O4P0000049oSnUAI/orlando",
+      "sourceVerifiedAt": "2026-11-03T15:50:04.514547+00:00",
+      "evidenceNote": "Official Bodewell / GE Appliances Factory Service evidence: The official Orlando page explicitly identifies local in-home technicians repairing household appliances in Orlando, Florida. GE Appliances confirms Factory Service was renamed Bodewell; these names and domains are one business identity. Services are limited to the documented household appliance brands, not all manufacturers."
+    },
+    {
+      "name": "Assurance Power Systems",
+      "website": "https://assurancepower.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://assurancepower.com/areas-served/orlando/",
+      "sourceVerifiedAt": "2026-11-03T16:04:39.123427+00:00",
+      "evidenceNote": "Official local service page explicitly offers home standby generator installation in orlando fl, describing backup-power systems for residential customers. Only this documented local market is counted; general South Florida branding is not used to infer other cities."
+    },
+    {
+      "name": "TrueBright Electric",
+      "website": "https://www.truebrightfl.com/services/residential-generator-installation",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.truebrightfl.com/services/residential-generator-installation",
+      "sourceVerifiedAt": "2026-11-03T16:02:39.558836+00:00",
+      "evidenceNote": "Official service page explicitly offers turnkey home standby generator installation in Orlando, including sizing, permitting and installation of Generac and Kohler systems. It gives an actual Orlando address; only this documented city is included."
+    },
+    {
+      "name": "Bodewell (GE Appliances Factory Service)",
+      "website": "https://www.bodewell.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://repair.geappliances.com/service-area/a5O4P0000049oSWUAY/sarasota",
+      "sourceVerifiedAt": "2026-11-03T15:50:05.131278+00:00",
+      "evidenceNote": "Official Bodewell / GE Appliances Factory Service evidence: The official Sarasota page names the local appliance service market and refrigerator, range, dishwasher and laundry repairs. GE Appliances confirms Factory Service was renamed Bodewell; these names and domains are one business identity. Services are limited to the documented household appliance brands, not all manufacturers."
+    },
+    {
+      "name": "301 Kitchen & Bath",
+      "website": "https://www.301kitchenandbath.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.301kitchenandbath.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:04.588037+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in sarasota fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "3B Construction Services",
+      "website": "https://3bconstructionsvc.com/",
+      "regions": [
+        "sarasota-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://3bconstructionsvc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:06.625382+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in sarasota fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Rack Electric",
+      "website": "https://rackelectric.com/",
+      "regions": [
+        "fort-myers-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://rackelectric.com/service-areas/lee-county/",
+      "sourceVerifiedAt": "2026-11-03T16:04:45.528747+00:00",
+      "evidenceNote": "Official Lee County generator page explicitly includes Fort Myers among served communities and offers residential standby generator installation and repair. The page explains home power assessment and installation work; no local Fort Myers branch address is invented."
+    },
+    {
+      "name": "Collaborative Construction",
+      "website": "https://buildwithcollab.com/condo-remodeling",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://buildwithcollab.com/condo-remodeling",
+      "sourceVerifiedAt": "2026-11-03T16:05:04.494797+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in naples fl, fort myers fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Complete Construction Group",
+      "website": "https://completeconstructiongroup.net/",
+      "regions": [
+        "fort-myers-fl",
+        "naples-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://completeconstructiongroup.net/",
+      "sourceVerifiedAt": "2026-11-03T16:05:05.511221+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in naples fl, fort myers fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Cornerstone Builders of Southwest Florida",
+      "website": "https://cornerstonebuildersswfl.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://cornerstonebuildersswfl.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:06.285735+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in naples fl, fort myers fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Dreamery",
+      "website": "https://dreameryhome.com/condo-remodeling/",
+      "regions": [
+        "west-palm-beach-fl",
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://dreameryhome.com/condo-remodeling/",
+      "sourceVerifiedAt": "2026-11-03T16:05:07.700485+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in miami fl, fort lauderdale fl, west palm beach fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Assurance Power Systems",
+      "website": "https://assurancepower.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://assurancepower.com/areas-served/fort-lauderdale/",
+      "sourceVerifiedAt": "2026-11-03T16:04:39.155605+00:00",
+      "evidenceNote": "Official local service page explicitly offers home standby generator installation in fort lauderdale fl, describing backup-power systems for residential customers. Only this documented local market is counted; general South Florida branding is not used to infer other cities."
+    },
+    {
+      "name": "Allied Kitchen & Bath",
+      "website": "https://alliedkitchenandbath.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "miami-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://alliedkitchenandbath.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:07.143164+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in miami fl, fort lauderdale fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Rack Electric",
+      "website": "https://rackelectric.com/service-areas/miami-generator-installation/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://rackelectric.com/service-areas/miami-generator-installation/",
+      "sourceVerifiedAt": "2026-11-03T16:02:39.536574+00:00",
+      "evidenceNote": "Official Miami service page explicitly offers residential standby generator installation and home power assessment in Miami, Florida. It describes installation work rather than generator sales alone; no local street address is invented."
+    },
+    {
+      "name": "Star Group Construction",
+      "website": "https://www.stargroup-construction.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "kitchen-bath-remodeling"
+      ],
+      "sourceUrl": "https://www.stargroup-construction.com/",
+      "sourceVerifiedAt": "2026-11-03T16:05:03.135268+00:00",
+      "evidenceNote": "Official business page explicitly documents residential kitchen or bathroom remodeling in miami fl, fort lauderdale fl, through named service areas, a local operating address or its own completed project portfolio. Installation/renovation work is stated; unknown fields remain blank and no neighboring city is inferred."
+    },
+    {
+      "name": "Bass Pro Shops & Cabela\u2019s Boating Centers",
+      "website": "https://www.bassproboatingcenters.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.bassproboatingcenters.com/locations/miami.html",
+      "sourceVerifiedAt": "2026-11-03T15:53:46.000730+00:00",
+      "evidenceNote": "Official local boating-center page gives its actual miami fl address, separate service-department hours and boat-service inquiry access. The linked official service page documents boat and outboard-motor maintenance and repairs for recreational owners. Bass Pro, Cabela\u2019s and Tracker retail identities are counted once per city/category."
+    }
+  ],
+  "checkpointTarget": 110,
+  "priorPublishedThisManualRun": 361,
+  "cumulativeIfPublished": 471,
+  "remainingManualRunShortfallIfPublished": 529
+}
