@@ -1,0 +1,1149 @@
+{
+  "baselineCommit": "62f7c2e98fc39d52bf19d355d65a3814cadbeada",
+  "continuationOf": "reports/verified-fill1000v5-2026-11-03.json",
+  "verifiedAt": "2026-11-03T16:21:03.757Z",
+  "target": 1000,
+  "status": "prepared_not_published",
+  "placementCount": 97,
+  "sourceRecordCount": 76,
+  "uniqueBusinessDomains": 73,
+  "additionsByCity": {
+    "orange-beach-al": 1,
+    "gulf-shores-al": 2,
+    "foley-al": 2,
+    "fairhope-al": 1,
+    "daphne-al": 1,
+    "mobile-al": 1,
+    "biloxi-ms": 8,
+    "gulfport-ms": 11,
+    "dothan-al": 3,
+    "montgomery-al": 8,
+    "auburn-al": 2,
+    "new-orleans-la": 11,
+    "baton-rouge-la": 11,
+    "birmingham-al": 13,
+    "huntsville-al": 7,
+    "jacksonville-fl": 1,
+    "naples-fl": 5,
+    "west-palm-beach-fl": 9
+  },
+  "additionsByCategory": {
+    "septic-services": 13,
+    "auto-mechanics": 36,
+    "auto-body-collision": 28,
+    "towing": 1,
+    "garage-door-repair": 16,
+    "water-damage-mold-remediation": 2,
+    "home-inspections": 1
+  },
+  "additionsByBusiness": {
+    "Batson Enterprises Inc.": 11,
+    "Riviera Tire & Automotive": 1,
+    "Angel's Automotor": 1,
+    "Dependable Auto Repair": 2,
+    "J&D's Automotive": 1,
+    "Jamison Auto Group": 3,
+    "Performance Tire & Wheel": 2,
+    "VJ's Auto Parts": 1,
+    "Cannon Nissan Collision Center": 2,
+    "Turan Foley Collision Center": 2,
+    "Williams Collision Services": 2,
+    "228 Customs and Machine": 1,
+    "Eddie's Tire and Automotive": 1,
+    "Graystone Automotive Group MS Inc.": 2,
+    "Import Performance LLC": 1,
+    "Dothan Overhead Door": 1,
+    "Wiregrass Door Company": 1,
+    "Central Alabama Septic Service": 2,
+    "Bell's Collision Center": 1,
+    "Collision Clinic LLC": 1,
+    "Hands On Autobody & Paint": 1,
+    "Jack Ingram Body Shop": 1,
+    "Advance Overhead Door Company": 1,
+    "Affordable Garage Door Repair Specialists": 1,
+    "Franklin Tire and Auto": 1,
+    "Chambliss Auto Body Repair": 1,
+    "Paternostro Collision Works LLC": 1,
+    "Advanced Garage Doors": 1,
+    "Crescent City Garage Door LLC": 1,
+    "Joey's Garage Doors & Renovations Services": 2,
+    "Boudreaux's Automotive Care": 1,
+    "Cottman Transmission & Total Auto Care": 1,
+    "Crescent City Automotive": 1,
+    "German Auto NOLA": 1,
+    "Air Environmental Services": 2,
+    "Collision Solutions": 1,
+    "Custom Automotive Colors": 1,
+    "Medines Collision Center": 1,
+    "Paretti Motors Collision Center": 1,
+    "TEAM Collision Center": 1,
+    "Toussaint Customs & Collisions": 1,
+    "A1 Overhead Door Co of Baton Rouge": 1,
+    "DOORTECH Inc.": 1,
+    "Taylored Inspections LLC": 1,
+    "A+ Tire & Auto Repair": 1,
+    "Auto Repair 74": 1,
+    "Christian Brothers Automotive": 2,
+    "Greystone Tire and Auto": 1,
+    "Mota Autohaus": 1,
+    "S+S Automotive Specialists": 1,
+    "Dove Overhead Door Company": 1,
+    "Magic City Door": 2,
+    "Posten's Overhead Door Company": 1,
+    "FenderFix Paint & Body": 1,
+    "Sherrill Paint & Body Co.": 1,
+    "Corlett Collision": 1,
+    "Peach Auto Painting & Collision": 1,
+    "Rod's Collision Co.": 1,
+    "American Overhead Door": 1,
+    "Wilson Garage Door Company of Huntsville Inc.": 1,
+    "Anchor Rode Auto Care": 1,
+    "Dealers Choice Complete Car Care Center": 1,
+    "Mannix Automotive Repair Inc.": 1,
+    "Quima's Auto & Repair": 1,
+    "Stricker Automotive": 1,
+    "Andy's Auto Body & Paint": 1,
+    "A&G Auto Body": 1,
+    "Braman Motor Cars": 1,
+    "Griffin Auto Care Inc.": 2,
+    "Schumacher Collision Centers": 1,
+    "A&J Autocare Pro": 1,
+    "P & J's Automotive": 1,
+    "Westgate Auto": 1
+  },
+  "selectionRule": "Priority cities first at their lowest current directory counts, then cities approximately outward from Pensacola and lowest counts within each city; no pair raised above 20. Historical counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 792,
+    "pairsBelow20": 408,
+    "deficit": 1627
+  },
+  "prepared": {
+    "pairsAt20": 797,
+    "pairsBelow20": 403,
+    "deficit": 1530,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "gulfport-ms|towing",
+    "new-orleans-la|auto-mechanics",
+    "baton-rouge-la|auto-body-collision",
+    "baton-rouge-la|home-inspections",
+    "jacksonville-fl|auto-mechanics"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Batson Enterprises Inc.",
+      "website": "https://alabamasepticinstallations.com/alabama-septic-services/",
+      "regions": [
+        "orange-beach-al",
+        "gulf-shores-al",
+        "foley-al",
+        "fairhope-al",
+        "daphne-al",
+        "mobile-al",
+        "dothan-al",
+        "montgomery-al",
+        "auburn-al",
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://alabamasepticinstallations.com/alabama-septic-services/",
+      "sourceVerifiedAt": "2026-11-03T16:17:42.998702+00:00",
+      "evidenceNote": "Official business service page explicitly offers residential septic installation, repair and maintenance anywhere in Alabama, naming Birmingham, Montgomery, Huntsville and Mobile. It describes its own technicians, owner David Batson, drain fields, tanks, pumps and replacement systems. Statewide placements reflect that express service commitment, not invented local offices."
+    },
+    {
+      "name": "Riviera Tire & Automotive",
+      "website": "https://www.rivieratire.com/",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.rivieratire.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:12.373572+00:00",
+      "evidenceNote": "Official shop website gives 3791 Gulf Shores Parkway, Gulf Shores and explicitly offers full automotive repairs, tires and maintenance for local vehicle owners."
+    },
+    {
+      "name": "Angel's Automotor",
+      "website": "https://www.angelsautomotorllc.com/",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.angelsautomotorllc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:12.213390+00:00",
+      "evidenceNote": "Official auto-repair website gives 18620 County Road 26, Foley and describes consumer mechanical repairs, oil changes and brakes for residents. Baldwin County language is not used to invent separate city branches."
+    },
+    {
+      "name": "Dependable Auto Repair",
+      "website": "https://dependableautorepairms.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://dependableautorepairms.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:15.593832+00:00",
+      "evidenceNote": "Official shop website gives 13081 Canal Road, Gulfport and explicitly serves Biloxi with consumer air-conditioning, brake, diagnostic, electrical, engine, transmission, steering and suspension repairs."
+    },
+    {
+      "name": "J&D's Automotive",
+      "website": "https://www.jadautomotive.com/",
+      "regions": [
+        "biloxi-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.jadautomotive.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:05.000236+00:00",
+      "evidenceNote": "Official operating shop page gives 2381 Pass Road, Biloxi and describes consumer automotive repairs including water pumps, radiators, starters, alternators, brakes, oil changes and engines."
+    },
+    {
+      "name": "Jamison Auto Group",
+      "website": "https://jamisonautogroup.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms",
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://jamisonautogroup.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:10.764323+00:00",
+      "evidenceNote": "Official European-auto repair shop operates at 3204 B Avenue in Gulfport and explicitly lists Biloxi, New Orleans and Mobile among communities served. The listed cities reflect customer service coverage, not fabricated branch addresses."
+    },
+    {
+      "name": "Performance Tire & Wheel",
+      "website": "https://www.ptwhwy49.com/auto-servicing",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.ptwhwy49.com/auto-servicing",
+      "sourceVerifiedAt": "2026-11-03T16:16:14.436963+00:00",
+      "evidenceNote": "Official service page identifies its actual Gulfport shop and explicitly serves Biloxi, with automotive air-conditioning repair, brakes, suspension, engine repairs and diagnostics for drivers."
+    },
+    {
+      "name": "VJ's Auto Parts",
+      "website": "https://vjsautoparts.com/",
+      "regions": [
+        "biloxi-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://vjsautoparts.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:10.767270+00:00",
+      "evidenceNote": "Official business site identifies its actual Biloxi shop at 1703 Pass Road and explicitly offers full-service consumer auto repairs, transmissions, brakes, axles and scheduled maintenance. Boat-trailer repairs at its separate D Iberville location are not assigned to Biloxi."
+    },
+    {
+      "name": "Cannon Nissan Collision Center",
+      "website": "https://www.cannonnissanmosspoint.com/collision-center.htm",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.cannonnissanmosspoint.com/collision-center.htm",
+      "sourceVerifiedAt": "2026-11-03T16:18:57.708406+00:00",
+      "evidenceNote": "Official company source verifies Moss Point collision center explicitly serves Gulfport and Biloxi drivers with consumer auto-body repairs; coverage is not represented as a local branch. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Turan Foley Collision Center",
+      "website": "https://www.turanfoleycadillac.com/bodyshop/index.htm",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.turanfoleycadillac.com/bodyshop/index.htm",
+      "sourceVerifiedAt": "2026-11-03T16:18:56.826901+00:00",
+      "evidenceNote": "Official company source verifies Gulfport collision center explicitly accepts Biloxi drivers for consumer auto-body and collision repairs; one dealer-group identity is counted. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Williams Collision Services",
+      "website": "https://williamscollisionservices.com/services/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://williamscollisionservices.com/services/",
+      "sourceVerifiedAt": "2026-11-03T16:18:56.976605+00:00",
+      "evidenceNote": "Official company source verifies Saucier body shop explicitly serves Gulfport and Biloxi motorists with consumer collision/body repair, frame straightening, refinishing and restoration. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "228 Customs and Machine",
+      "website": "https://www.228customs.com/",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.228customs.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:18.461132+00:00",
+      "evidenceNote": "Official Gulfport automotive workshop gives 15131 Creosote Road Building 2 and describes custom engine builds, mechanical maintenance and suspension work for consumer cars, trucks and SUVs. Cosmetic detailing alone is not the qualifying service."
+    },
+    {
+      "name": "Eddie's Tire and Automotive",
+      "website": "https://www.eddiestireandautomotive.com/",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.eddiestireandautomotive.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:07.217259+00:00",
+      "evidenceNote": "Official Gulfport auto-repair business page documents automotive repairs, brakes, air conditioning, diagnostics and auto electrical repairs for local drivers. Unresolved template placeholders are not used as contact information."
+    },
+    {
+      "name": "Graystone Automotive Group MS Inc.",
+      "website": "https://www.graystoneautomotivegroup.com/",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.graystoneautomotivegroup.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:11.592772+00:00",
+      "evidenceNote": "Official local shop gives 3370 C Avenue in Gulfport and explicitly offers consumer automotive repair, maintenance, brakes, shocks and round-the-clock towing. Only the actual Gulfport operation is counted."
+    },
+    {
+      "name": "Import Performance LLC",
+      "website": "https://importperformancellc.com/",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://importperformancellc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:05.108892+00:00",
+      "evidenceNote": "Official Gulfport shop site lists automotive repairs and maintenance including brakes, air conditioning, clutch repairs, electrical work, transmissions and diagnostics. importperformancellcms.com is the same business with the same contact; counted once. Street address withheld because newer site also mentions a move to Creosote Road."
+    },
+    {
+      "name": "Graystone Automotive Group MS Inc.",
+      "website": "https://www.graystoneautomotivegroup.com/",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "towing"
+      ],
+      "sourceUrl": "https://www.graystoneautomotivegroup.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:11.592772+00:00",
+      "evidenceNote": "Official local shop gives 3370 C Avenue in Gulfport and explicitly offers consumer automotive repair, maintenance, brakes, shocks and round-the-clock towing. Only the actual Gulfport operation is counted."
+    },
+    {
+      "name": "Dothan Overhead Door",
+      "website": "https://www.dothanoverheaddoor.com/residential-garage-doors",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.dothanoverheaddoor.com/residential-garage-doors",
+      "sourceVerifiedAt": "2026-11-03T16:10:37.710704+00:00",
+      "evidenceNote": "Official residential garage-door page documents local installation, repair and opener services from 877 Murray Road, Dothan. Only this actual Dothan operation is counted."
+    },
+    {
+      "name": "Wiregrass Door Company",
+      "website": "https://wiregrassdoor.com/garage-door-repair/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://wiregrassdoor.com/garage-door-repair/",
+      "sourceVerifiedAt": "2026-11-03T16:10:39.722063+00:00",
+      "evidenceNote": "Official garage-door repair page names Dothan among its service cities and documents residential door repairs, openers and replacement doors. Only named local coverage is included."
+    },
+    {
+      "name": "Central Alabama Septic Service",
+      "website": "https://centralalabamasepticservice.com/",
+      "regions": [
+        "montgomery-al",
+        "birmingham-al"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://centralalabamasepticservice.com/",
+      "sourceVerifiedAt": "2026-11-03T16:17:43.952785+00:00",
+      "evidenceNote": "Official operator homepage explicitly serves homeowners in Birmingham and Montgomery with septic pumping, installation, repair and maintenance, and documents recent local field work. No unnamed cities are inferred from central-Alabama wording."
+    },
+    {
+      "name": "Bell's Collision Center",
+      "website": "https://aacollisionshop.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://aacollisionshop.com/",
+      "sourceVerifiedAt": "2026-11-03T16:18:53.573672+00:00",
+      "evidenceNote": "Official company source verifies 4213 Norman Bridge Road, Montgomery; consumer auto-body and collision repairs for passenger vehicles. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Collision Clinic LLC",
+      "website": "https://collisionclinic.net/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://collisionclinic.net/",
+      "sourceVerifiedAt": "2026-11-03T16:18:53.144999+00:00",
+      "evidenceNote": "Official company source verifies 4245 Atlanta Highway, Montgomery; consumer collision repair, paint and bodywork, dents and structural repairs. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Hands On Autobody & Paint",
+      "website": "https://www.handsoncpr.net/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.handsoncpr.net/",
+      "sourceVerifiedAt": "2026-11-03T16:18:56.329377+00:00",
+      "evidenceNote": "Official company source verifies 300 May Street, Montgomery; consumer vehicle collision repair, dent and metalwork, and automotive painting. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Jack Ingram Body Shop",
+      "website": "https://www.jackingrambodyshop.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.jackingrambodyshop.com/",
+      "sourceVerifiedAt": "2026-11-03T16:18:53.867504+00:00",
+      "evidenceNote": "Official company source verifies 5648 Eddins Road, Montgomery; consumer auto-body repairs, frame repairs, refinishing and paint work. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Advance Overhead Door Company",
+      "website": "https://advanceoverheaddoorcompany.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://advanceoverheaddoorcompany.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:01.604463+00:00",
+      "evidenceNote": "Official site explicitly identifies Prattville and Montgomery service and offers residential garage-door repair, replacement and new construction installation. A Prattville base is not fabricated as a Montgomery street address."
+    },
+    {
+      "name": "Affordable Garage Door Repair Specialists",
+      "website": "https://www.agdrspecialists.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.agdrspecialists.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:59.468831+00:00",
+      "evidenceNote": "Official company homepage identifies its Montgomery garage-door repair and installation operation and documents residential repairs, spring and opener work, and same-day consumer service."
+    },
+    {
+      "name": "Franklin Tire and Auto",
+      "website": "https://www.franklinautoinc.com/",
+      "regions": [
+        "auburn-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.franklinautoinc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:19.975701+00:00",
+      "evidenceNote": "Official operating workshop gives 1975 East University Drive, Auburn and explicitly offers complete consumer auto repair, axle repairs, oil changes, brakes and other mechanical services."
+    },
+    {
+      "name": "Chambliss Auto Body Repair",
+      "website": "https://www.chamblissbodyshop.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.chamblissbodyshop.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:28.899362+00:00",
+      "evidenceNote": "Official business source verifies official New Orleans operation provides consumer collision repairs, body and bumper repair, paint/refinishing and frame straightening. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Paternostro Collision Works LLC",
+      "website": "https://paternostrocollision.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://paternostrocollision.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:31.623049+00:00",
+      "evidenceNote": "Official business source verifies official New Orleans-area consumer collision repair operator; body and frame repairs, refinishing and dents; multiple locations and Complete Auto Collision branding count once. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Advanced Garage Doors",
+      "website": "https://www.advancedgaragedoors.net/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.advancedgaragedoors.net/",
+      "sourceVerifiedAt": "2026-11-03T16:10:37.259779+00:00",
+      "evidenceNote": "Official local company homepage explicitly serves Metro New Orleans and documents garage-door repair, installation and spring replacement for local customers; no distant territory is inferred."
+    },
+    {
+      "name": "Crescent City Garage Door LLC",
+      "website": "https://crescentcitygaragedoorllc.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://crescentcitygaragedoorllc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:10:40.722170+00:00",
+      "evidenceNote": "Official company homepage names Greater New Orleans and explicitly serves homeowners with residential garage-door repairs, springs, openers and replacement doors. Covington headquarters is not misrepresented as a New Orleans street location."
+    },
+    {
+      "name": "Joey's Garage Doors & Renovations Services",
+      "website": "https://joeysdoors.com/",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://joeysdoors.com/",
+      "sourceVerifiedAt": "2026-11-03T16:10:06.334366+00:00",
+      "evidenceNote": "Official homepage lists New Orleans and Baton Rouge within its service area and describes consumer garage-door repair, spring and cable replacement, openers and new doors. Broad South Mississippi wording is not extended to unnamed cities."
+    },
+    {
+      "name": "Boudreaux's Automotive Care",
+      "website": "https://www.boudreauxsautomotivecare.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.boudreauxsautomotivecare.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:15.004656+00:00",
+      "evidenceNote": "Official operating consumer automotive shop gives 1617 Gentilly Boulevard, New Orleans and describes full-service car repair, preventive maintenance and diagnostics. It is not treated as a second identity under alternate spelling or domain."
+    },
+    {
+      "name": "Cottman Transmission & Total Auto Care",
+      "website": "https://www.cottman.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cottman.com/locations/",
+      "sourceVerifiedAt": "2026-11-03T16:10:14.404803+00:00",
+      "evidenceNote": "Official operating shop locator lists a New Orleans location and the same business site documents transmission repair, brake service, diagnostics and total car care. Other Louisiana locations are not treated as additional identities."
+    },
+    {
+      "name": "Crescent City Automotive",
+      "website": "https://crescentcityautomotive.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://crescentcityautomotive.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:12.378144+00:00",
+      "evidenceNote": "Official company site gives 4619 Magazine Street, New Orleans and documents general repairs, brake service, oil changes, air conditioning, engine diagnostics and transmission work for local motorists."
+    },
+    {
+      "name": "German Auto NOLA",
+      "website": "https://germanautonola.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://germanautonola.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:19.990559+00:00",
+      "evidenceNote": "Official business website explicitly serves New Orleans with German vehicle repairs, including alternators, car air conditioning, diagnostics, brakes, suspension and engine-related mechanical service."
+    },
+    {
+      "name": "Air Environmental Services",
+      "website": "https://airenvironmental.net/service-areas/",
+      "regions": [
+        "new-orleans-la",
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "water-damage-mold-remediation"
+      ],
+      "sourceUrl": "https://airenvironmental.net/service-areas/",
+      "sourceVerifiedAt": "2026-11-03T16:17:43.901527+00:00",
+      "evidenceNote": "Official company service-area page names Baton Rouge and New Orleans operations and explicitly provides residential water-damage restoration and mold removal/remediation. Only named Louisiana markets are included."
+    },
+    {
+      "name": "Collision Solutions",
+      "website": "https://www.collision-solutions.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.collision-solutions.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:31.243284+00:00",
+      "evidenceNote": "Official business source verifies 1334 Florida Boulevard, Baton Rouge; consumer collision repair, unibody and frame repair. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Custom Automotive Colors",
+      "website": "https://www.customautocolors.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.customautocolors.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:30.486748+00:00",
+      "evidenceNote": "Official business source verifies 11550 Cloverland Avenue, Baton Rouge; consumer collision repair, automotive paint and body repairs. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Medines Collision Center",
+      "website": "https://www.medinecollision.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.medinecollision.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:30.000227+00:00",
+      "evidenceNote": "Official business source verifies 5275 Kincaid Avenue, Baton Rouge; consumer collision repair, body work, painting and collision-related mechanical repairs. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Paretti Motors Collision Center",
+      "website": "https://www.paretti.com/collision-center/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.paretti.com/collision-center/",
+      "sourceVerifiedAt": "2026-11-03T16:18:58.698015+00:00",
+      "evidenceNote": "Official company source verifies official collision-center locator identifies the Baton Rouge collision operation at 13934 Airline Highway; only that actual local collision center is included. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "TEAM Collision Center",
+      "website": "https://www.team-collision.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.team-collision.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:28.067344+00:00",
+      "evidenceNote": "Official business source verifies 5466 Telesmar Avenue, Baton Rouge; consumer body, frame and collision repair plus refinishing; its dealer branches count as one body-shop identity. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Toussaint Customs & Collisions",
+      "website": "https://toussaintcustoms.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://toussaintcustoms.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:29.815404+00:00",
+      "evidenceNote": "Official business source verifies 4530 Florida Boulevard, Baton Rouge; consumer auto collision repair, paint and body work. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "A1 Overhead Door Co of Baton Rouge",
+      "website": "https://a1ohdbatonrouge.com/services/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://a1ohdbatonrouge.com/services/",
+      "sourceVerifiedAt": "2026-11-03T16:10:37.513434+00:00",
+      "evidenceNote": "Official locally branded site documents home garage-door installation, spring repairs, opener service, maintenance and carport conversions throughout Greater Baton Rouge; this local business uses its own domain and 225-650-1148 contact."
+    },
+    {
+      "name": "DOORTECH Inc.",
+      "website": "https://www.doortechbr.com/service-and-parts/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.doortechbr.com/service-and-parts/",
+      "sourceVerifiedAt": "2026-11-03T16:10:06.752508+00:00",
+      "evidenceNote": "Official service page documents residential garage-door and opener repairs, broken springs, cables and off-track doors; it explicitly serves Baton Rouge from its 10256 S. Choctaw Drive showroom."
+    },
+    {
+      "name": "Taylored Inspections LLC",
+      "website": "https://www.tayloredinspections.com/",
+      "regions": [
+        "baton-rouge-la"
+      ],
+      "trades": [
+        "home-inspections"
+      ],
+      "sourceUrl": "https://www.tayloredinspections.com/",
+      "sourceVerifiedAt": "2026-11-03T16:16:55.155630+00:00",
+      "evidenceNote": "Official residential home-inspection site identifies Baton Rouge inspector David Taylor and documents homebuyer inspections, reporting, plumbing and built-in appliance inspection. Only the named Baton Rouge market is included."
+    },
+    {
+      "name": "A+ Tire & Auto Repair",
+      "website": "https://www.aplustireandautorepair.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.aplustireandautorepair.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:05.965874+00:00",
+      "evidenceNote": "Official operating business site directly verifies 3620 Vann Road, Birmingham; domestic and foreign vehicle repairs, diagnostics and scheduled maintenance. Only the named local consumer auto-repair market is included, without assigning neighboring cities."
+    },
+    {
+      "name": "Auto Repair 74",
+      "website": "https://autorepair74.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://autorepair74.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:07.551762+00:00",
+      "evidenceNote": "Official operating business site directly verifies 2100 3rd Avenue South, Birmingham; vehicle diagnostics, maintenance, brakes and mechanical repairs. Only the named local consumer auto-repair market is included, without assigning neighboring cities."
+    },
+    {
+      "name": "Christian Brothers Automotive",
+      "website": "https://www.cbac.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cbac.com/locations/alabama/",
+      "sourceVerifiedAt": "2026-11-03T16:10:07.463978+00:00",
+      "evidenceNote": "Official Alabama shop locator lists operating auto-repair shops at actual Birmingham street addresses and documents consumer mechanical repairs, brakes, diagnostics and maintenance. Multiple local branches count as one business identity, with no neighboring city inferred."
+    },
+    {
+      "name": "Greystone Tire and Auto",
+      "website": "https://www.greystonetireandauto.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.greystonetireandauto.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:09.109569+00:00",
+      "evidenceNote": "Official tire and automotive repair business gives its Birmingham address on Highway 280 and expressly serves Birmingham motorists with diagnostics, maintenance, steering and suspension repair."
+    },
+    {
+      "name": "Mota Autohaus",
+      "website": "https://motaautohaus.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://motaautohaus.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:04.387942+00:00",
+      "evidenceNote": "Official BMW specialist site gives 4814 5th Avenue South, Birmingham and documents consumer mechanical repairs, brakes, diagnostics, tune-ups and engine repair. Specialty makes are not broadened to unsupported services."
+    },
+    {
+      "name": "S+S Automotive Specialists",
+      "website": "https://ssautospecs.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://ssautospecs.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:09.786369+00:00",
+      "evidenceNote": "Official company homepage identifies its Birmingham-area automotive workshop near The Summit and explicitly describes service for local motorists from oil changes and factory maintenance through complete engine replacements."
+    },
+    {
+      "name": "Dove Overhead Door Company",
+      "website": "https://www.dovedoor.com/residential-garage-doors",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.dovedoor.com/residential-garage-doors",
+      "sourceVerifiedAt": "2026-11-03T16:14:59.043223+00:00",
+      "evidenceNote": "Official Birmingham residential page documents home garage-door installations and repairs within Jefferson and surrounding counties. County territory includes Birmingham, which is also named in the official page title."
+    },
+    {
+      "name": "Magic City Door",
+      "website": "https://magiccitydoor.com/services/",
+      "regions": [
+        "birmingham-al",
+        "huntsville-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://magiccitydoor.com/services/",
+      "sourceVerifiedAt": "2026-11-03T16:14:59.570889+00:00",
+      "evidenceNote": "Official company services page explicitly repairs residential garage doors and operators and lists Birmingham and Huntsville among named service cities. Commercial-only offerings do not supply the home-service evidence."
+    },
+    {
+      "name": "Posten's Overhead Door Company",
+      "website": "https://www.postensohd.com/residential",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.postensohd.com/residential",
+      "sourceVerifiedAt": "2026-11-03T16:15:01.127872+00:00",
+      "evidenceNote": "Official Birmingham residential service page offers home garage-door repair and replacement, broken springs, cables, hinges, rollers, tracks and openers; only the named Birmingham market is included."
+    },
+    {
+      "name": "FenderFix Paint & Body",
+      "website": "https://fenderfix.com/collision-repair-services/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://fenderfix.com/collision-repair-services/",
+      "sourceVerifiedAt": "2026-11-03T16:18:57.031199+00:00",
+      "evidenceNote": "Official company source verifies 705 Graymont Avenue North, Birmingham; consumer collision repairs, dents, bumpers, frame and structural repair, refinishing and aluminum repairs. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Sherrill Paint & Body Co.",
+      "website": "https://sherrillpaintandbody.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://sherrillpaintandbody.com/",
+      "sourceVerifiedAt": "2026-11-03T16:18:53.489314+00:00",
+      "evidenceNote": "Official company source verifies Birmingham Southside and Roebuck collision operations; body repairs, aluminum and paintless dent repairs, and paint matching; branches count once. Only verified service coverage or an actual operating location is counted."
+    },
+    {
+      "name": "Corlett Collision",
+      "website": "https://www.corlettauto.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.corlettauto.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:24.915672+00:00",
+      "evidenceNote": "Official business source verifies 2007 14th Street SW, Huntsville; consumer auto-body repairs, collision repairs and painting. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Peach Auto Painting & Collision",
+      "website": "https://www.peachautopaint.com/services/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.peachautopaint.com/services/",
+      "sourceVerifiedAt": "2026-11-03T16:19:26.862899+00:00",
+      "evidenceNote": "Official business source verifies 2480 Washington Street NW, Huntsville; consumer collision/body repair and automotive painting. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Rod's Collision Co.",
+      "website": "https://www.rodscustom.com/collision-repair",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.rodscustom.com/collision-repair",
+      "sourceVerifiedAt": "2026-11-03T16:19:25.911726+00:00",
+      "evidenceNote": "Official business source verifies 11521 Memorial Parkway SW and University Drive in Huntsville; consumer collision repair; rodscustom.com, rodscollision.com and rodscollisionco.com describe the same identity, counted once. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "American Overhead Door",
+      "website": "https://americanoverheaddoorinc.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://americanoverheaddoorinc.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:59.763157+00:00",
+      "evidenceNote": "Official residential garage-door company site explicitly serves Huntsville with door and opener installation, spring repair and consumer replacement estimates. This business uses its own local brand and operating contact; no remote branch is inferred."
+    },
+    {
+      "name": "Wilson Garage Door Company of Huntsville Inc.",
+      "website": "https://www.wilsongaragedoor.com/residential",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.wilsongaragedoor.com/residential",
+      "sourceVerifiedAt": "2026-11-03T16:14:58.651318+00:00",
+      "evidenceNote": "Official residential service page documents home garage-door installations and repairs in Huntsville, with an operating address at 727 Dan Tibbs Road. Commercial loading-dock services are not used as residential evidence."
+    },
+    {
+      "name": "Christian Brothers Automotive",
+      "website": "https://www.cbac.com/",
+      "regions": [
+        "jacksonville-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.cbac.com/locations/florida/",
+      "sourceVerifiedAt": "2026-11-03T16:10:07.487326+00:00",
+      "evidenceNote": "Official Florida shop locator lists the operating Bartram Park auto-repair shop at 13918 Village Lake Circle, Jacksonville and documents consumer mechanical repairs and maintenance. Only the actual Jacksonville shop is counted, with no invented branch or broader city coverage."
+    },
+    {
+      "name": "Anchor Rode Auto Care",
+      "website": "https://www.anchorautocare.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.anchorautocare.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:07.122850+00:00",
+      "evidenceNote": "Official operating business site directly verifies 5875 Washington Street, Naples; consumer vehicle maintenance, engine repairs, electrical, air conditioning and exhaust services. Only the named local consumer auto-repair market is included, without assigning neighboring cities."
+    },
+    {
+      "name": "Dealers Choice Complete Car Care Center",
+      "website": "https://www.dealerschoiceautorepair.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.dealerschoiceautorepair.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:07.328099+00:00",
+      "evidenceNote": "Official consumer automotive service site gives 5939 Shirley Street, Naples, and describes mechanical repairs, tires, engine diagnostics and vehicle maintenance at its operating local shop."
+    },
+    {
+      "name": "Mannix Automotive Repair Inc.",
+      "website": "https://www.mannixauto.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.mannixauto.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:04.504334+00:00",
+      "evidenceNote": "Official Naples business website identifies its local auto-repair shop and offers automotive service, brakes, tires, performance work and restorations for consumer vehicles. Missing structured contact fields are not copied from placeholder text."
+    },
+    {
+      "name": "Quima's Auto & Repair",
+      "website": "https://www.quimasauto.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.quimasauto.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:04.642221+00:00",
+      "evidenceNote": "Official operating business site directly verifies Naples vehicle repairs and maintenance; air conditioning, alternators, axles, batteries and brakes. Only the named local consumer auto-repair market is included, without assigning neighboring cities."
+    },
+    {
+      "name": "Stricker Automotive",
+      "website": "https://www.strickerauto.com/",
+      "regions": [
+        "naples-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.strickerauto.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:02.060493+00:00",
+      "evidenceNote": "Official site identifies its operating shop at 3963 Exchange Avenue, Naples and lists consumer oil changes, brake service, transmission service, diagnostics and vehicle maintenance."
+    },
+    {
+      "name": "Andy's Auto Body & Paint",
+      "website": "https://andysautobodywpb.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://andysautobodywpb.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:24.569817+00:00",
+      "evidenceNote": "Official business source verifies 6120 Georgia Avenue, West Palm Beach; consumer collision/body repair, painting, rust repairs and restorations. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "A&G Auto Body",
+      "website": "https://autobodyag.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://autobodyag.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:29.842608+00:00",
+      "evidenceNote": "Official business source verifies 845 North Military Trail Suite 3, West Palm Beach; consumer collision repairs, automotive painting and body work; referral towing is not counted as its own towing service. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Braman Motor Cars",
+      "website": "https://www.bramanmotorcars.com/body-shop/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.bramanmotorcars.com/body-shop/",
+      "sourceVerifiedAt": "2026-11-03T16:19:28.444678+00:00",
+      "evidenceNote": "Official business source verifies official body-shop page accepts consumer accident, dent and scratch repair appointments at named West Palm Beach dealerships; all Braman branches and brands count once. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Griffin Auto Care Inc.",
+      "website": "https://griffinautocare.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://griffinautocare.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:25.863261+00:00",
+      "evidenceNote": "Official business source verifies 1241 Roebuck Court, West Palm Beach; full consumer automotive and collision/body shop including major mechanical repairs and maintenance. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "Schumacher Collision Centers",
+      "website": "https://www.schumacherauto.com/service-center-west-palm-beach-fl/collision-center.htm",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.schumacherauto.com/service-center-west-palm-beach-fl/collision-center.htm",
+      "sourceVerifiedAt": "2026-11-03T16:19:25.523638+00:00",
+      "evidenceNote": "Official business source verifies official page identifies West Palm Beach collision operation and consumer dent, body and structural accident repairs for all makes; branches count once. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "A&J Autocare Pro",
+      "website": "https://www.ajautocarepro.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.ajautocarepro.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:02.682635+00:00",
+      "evidenceNote": "Official operating business site directly verifies 4401 Annette Street, West Palm Beach; air conditioning, electrical, brakes, front-end repairs, clutch replacement and engines. Only the named local consumer auto-repair market is included, without assigning neighboring cities."
+    },
+    {
+      "name": "Griffin Auto Care Inc.",
+      "website": "https://griffinautocare.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://griffinautocare.com/",
+      "sourceVerifiedAt": "2026-11-03T16:19:25.863261+00:00",
+      "evidenceNote": "Official business source verifies 1241 Roebuck Court, West Palm Beach; full consumer automotive and collision/body shop including major mechanical repairs and maintenance. Only its documented local consumer operation is included."
+    },
+    {
+      "name": "P & J's Automotive",
+      "website": "https://www.pandjautorepair.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.pandjautorepair.com/",
+      "sourceVerifiedAt": "2026-11-03T16:15:02.698435+00:00",
+      "evidenceNote": "Official operating business site directly verifies 1781 Latham Road, West Palm Beach; brakes, air conditioning, transmissions, alignment and electrical repairs. Only the named local consumer auto-repair market is included, without assigning neighboring cities."
+    },
+    {
+      "name": "Westgate Auto",
+      "website": "https://www.westgateautoshop.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.westgateautoshop.com/",
+      "sourceVerifiedAt": "2026-11-03T16:14:04.770049+00:00",
+      "evidenceNote": "Official company site gives 2746 Westgate Avenue, West Palm Beach and describes general car and diesel repairs, diagnostics, engine work and routine maintenance for consumer vehicles."
+    }
+  ],
+  "checkpointPlacementTarget": 97,
+  "previouslyPublishedThisRun": 471,
+  "preparedCumulativeRunPlacements": 568,
+  "remainingRunShortfallIfPublished": 432
+}
