@@ -1,0 +1,36 @@
+{
+  "run": "fill1000y",
+  "baselineCommit": "b0f91cb2f4fff982ccd5e39551e9b21e175c7bde",
+  "dataCommit": "03e4af4d1f1ec08200fb45743400ee2afc0b8443",
+  "deploymentId": "dpl_6CjGziyGMwqNFTWrtFCjyP8NsNjH",
+  "deploymentState": "READY",
+  "status": "published_live_verified",
+  "checkedAt": "2026-11-04T11:16:17.352492+00:00",
+  "catalog": {"activeCities":40,"visibleCategories":30,"publicPages":1200,"hiddenCategoriesPreserved":10},
+  "newBusinessTarget": 1000,
+  "newBusinessesPublishedLiveVerified": 7,
+  "newBusinessShortfall": 993,
+  "placements": {"total":8,"fromNewBusinesses":8,"fromPreviouslyListedBusinesses":0,"liveVerified":8},
+  "renderedCoverage": {"pagesAt20OrMore":809,"pagesBelow20":391,"emptyPages":0,"remainingDeficit":1472},
+  "qualifyingCoverage": {"pagesAt20OrMore":null,"pagesBelow20":null,"emptyPages":null,"remainingDeficit":null,"reason":"Historical records are not fully audited against residential scope, direct-provider status, category match, city-specific coverage and official identity. Rendered counts are not certified qualifying counts."},
+  "additionsByPage": [
+    {"city":"Gulf Shores, AL","citySlug":"gulf-shores-al","category":"Auto Mechanics","categorySlug":"auto-mechanics","added":1,"renderedAfter":12,"renderedDeficitAfter":8},
+    {"city":"Fairhope, AL","citySlug":"fairhope-al","category":"Auto Mechanics","categorySlug":"auto-mechanics","added":1,"renderedAfter":14,"renderedDeficitAfter":6},
+    {"city":"Grayton Beach, FL","citySlug":"grayton-beach-fl","category":"Auto Mechanics","categorySlug":"auto-mechanics","added":1,"renderedAfter":14,"renderedDeficitAfter":6},
+    {"city":"Dothan, AL","citySlug":"dothan-al","category":"Screen Enclosures & Pool Cages","categorySlug":"screen-enclosures-pool-cages","added":1,"renderedAfter":12,"renderedDeficitAfter":8},
+    {"city":"Birmingham, AL","citySlug":"birmingham-al","category":"Marine Services","categorySlug":"marine-services","added":1,"renderedAfter":11,"renderedDeficitAfter":9},
+    {"city":"Birmingham, AL","citySlug":"birmingham-al","category":"Pool Installation","categorySlug":"pool-installation","added":2,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Birmingham, AL","citySlug":"birmingham-al","category":"Pool Service","categorySlug":"pool-service","added":1,"renderedAfter":18,"renderedDeficitAfter":2}
+  ],
+  "verification": {"categoryPagesChecked":7,"placementsPassed":8,"profilesChecked":7,"profilesPassed":7,"officialLinksPresent":8,"typecheckPassed":true,"productionBuildPassed":true,"schemaAndCoverageValidationPassed":true},
+  "research": {"candidateIdentitiesTracked":21,"published":7,"withheldOrPending":14,"awaitingDeployment":0,"awaitingLiveVerification":0},
+  "historicalFlags": {"displayedPlacements":8816,"businessIdentities":158,"retailFixItPlacements":396,"retailFixItSourceRows":22,"publicVisibilityChanged":false},
+  "blockers": [
+    "The complete historical qualification audit is unfinished, so qualifying page totals and the qualifying deficit remain unknown.",
+    "Eleven researched businesses mapped only to hidden categories and were not published.",
+    "Two official national-brand candidates were withheld because their domains are intentionally excluded by repository policy.",
+    "Paul Camp Pool Builders was withheld after the official site returned 503 or timed out during current verification.",
+    "Alabama Trolling Motors blocks the simple scripted HTTP checker with 403, but its official pages were independently retrieved through the authorized browser and the live directory card/profile link passed."
+  ],
+  "deletions": 0
+}
