@@ -1,0 +1,87 @@
+{
+  "run": "fill1000aa",
+  "baselineCommit": "84d0979f0a4e9f96661448f8294920dcf5e0838d",
+  "dataCommit": "be206deacd91cc049ecd07a74506f7ab68e7c0c2",
+  "deploymentId": "dpl_DLwiF9YBd8WNgnK9oDvoE3p4Uxv5",
+  "deploymentState": "READY",
+  "status": "published_live_verified",
+  "checkedAt": "2026-11-04T23:13:52.804341+00:00",
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "publicPages": 1200,
+    "hiddenCategoriesPreserved": 10
+  },
+  "newBusinessTarget": 1000,
+  "newBusinessesPublishedLiveVerified": 9,
+  "newBusinessShortfall": 991,
+  "placements": {
+    "total": 20,
+    "fromNewBusinesses": 16,
+    "fromPreviouslyListedBusinesses": 4,
+    "liveVerified": 20
+  },
+  "renderedCoverage": {
+    "pagesAt20OrMore": 819,
+    "pagesBelow20": 381,
+    "emptyPages": 0,
+    "remainingDeficit": 1440
+  },
+  "qualifyingCoverage": {
+    "pagesAt20OrMore": null,
+    "pagesBelow20": null,
+    "emptyPages": null,
+    "remainingDeficit": null,
+    "reason": "Historical records are not fully audited against residential scope, direct-provider status, category match, city-specific coverage and official identity. Rendered counts are not certified qualifying counts."
+  },
+  "additionsByPage": [
+    {"city":"Fort Walton Beach, FL","citySlug":"fort-walton-beach-fl","category":"Septic services","categorySlug":"septic-services","added":1,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Pensacola, FL","citySlug":"pensacola-fl","category":"Septic services","categorySlug":"septic-services","added":2,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Pace, FL","citySlug":"pace-fl","category":"Septic services","categorySlug":"septic-services","added":2,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Pace, FL","citySlug":"pace-fl","category":"Auto body & collision","categorySlug":"auto-body-collision","added":1,"renderedAfter":17,"renderedDeficitAfter":3},
+    {"city":"Pace, FL","citySlug":"pace-fl","category":"Pool installation","categorySlug":"pool-installation","added":2,"renderedAfter":19,"renderedDeficitAfter":1},
+    {"city":"Perdido Key, FL","citySlug":"perdido-key-fl","category":"Septic services","categorySlug":"septic-services","added":1,"renderedAfter":14,"renderedDeficitAfter":6},
+    {"city":"Milton, FL","citySlug":"milton-fl","category":"Pool installation","categorySlug":"pool-installation","added":2,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Navarre, FL","citySlug":"navarre-fl","category":"Septic services","categorySlug":"septic-services","added":1,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Grayton Beach, FL","citySlug":"grayton-beach-fl","category":"Marine services","categorySlug":"marine-services","added":1,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Grayton Beach, FL","citySlug":"grayton-beach-fl","category":"Pool installation","categorySlug":"pool-installation","added":1,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Dothan, AL","citySlug":"dothan-al","category":"Fence builders","categorySlug":"fence-builders","added":1,"renderedAfter":15,"renderedDeficitAfter":5},
+    {"city":"Montgomery, AL","citySlug":"montgomery-al","category":"Home inspections","categorySlug":"home-inspections","added":1,"renderedAfter":14,"renderedDeficitAfter":6},
+    {"city":"Montgomery, AL","citySlug":"montgomery-al","category":"Hurricane shutters & impact windows","categorySlug":"hurricane-shutters-impact-windows","added":1,"renderedAfter":5,"renderedDeficitAfter":15},
+    {"city":"Auburn, AL","citySlug":"auburn-al","category":"Hurricane shutters & impact windows","categorySlug":"hurricane-shutters-impact-windows","added":1,"renderedAfter":4,"renderedDeficitAfter":16},
+    {"city":"Birmingham, AL","citySlug":"birmingham-al","category":"Screen enclosures & pool cages","categorySlug":"screen-enclosures-pool-cages","added":1,"renderedAfter":13,"renderedDeficitAfter":7},
+    {"city":"Huntsville, AL","citySlug":"huntsville-al","category":"Screen enclosures & pool cages","categorySlug":"screen-enclosures-pool-cages","added":1,"renderedAfter":13,"renderedDeficitAfter":7}
+  ],
+  "verification": {
+    "categoryPagesChecked": 16,
+    "placementsPassed": 20,
+    "profilesChecked": 12,
+    "profilesPassed": 12,
+    "officialLinksPresent": 20,
+    "uniqueOfficialOrSourceUrlsPassed": 18,
+    "typecheckPassed": true,
+    "productionBuildPassed": true,
+    "schemaAndCoverageValidationPassed": true
+  },
+  "research": {
+    "candidateIdentitiesTracked": 20,
+    "publishedIdentities": 12,
+    "publishedNewBusinesses": 9,
+    "withheldOrPending": 8,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0
+  },
+  "historicalFlags": {
+    "displayedPlacements": 8816,
+    "businessIdentities": 158,
+    "retailFixItPlacements": 396,
+    "retailFixItSourceRows": 22,
+    "publicVisibilityChanged": false
+  },
+  "blockers": [
+    "The complete historical qualification audit is unfinished, so qualifying page totals and the qualifying deficit remain unknown.",
+    "Five researched identities were withheld because their official websites returned HTTP 404, 403, 406 or 503 during direct verification.",
+    "Three researched identities were withheld because their normalized domains are on the repository exclusion list; the exclusions were not bypassed."
+  ],
+  "deletions": 0
+}
