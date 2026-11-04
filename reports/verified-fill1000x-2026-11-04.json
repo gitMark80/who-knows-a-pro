@@ -1,0 +1,212 @@
+{
+  "baselineCommit": "6e2d5f1cc17ba057850b5867705e3f718586e0b5",
+  "continuationOf": "reports/verified-fill1000f-2026-10-31.json",
+  "verifiedAt": "2026-11-04T05:01:40.396Z",
+  "target": 11,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 9,
+  "newBusinessShortfall": 991,
+  "placementsFromNewBusinesses": 10,
+  "placementsFromPreviouslyListedBusinesses": 1,
+  "status": "prepared_not_published",
+  "placementCount": 11,
+  "sourceRecordCount": 10,
+  "uniqueBusinessDomains": 10,
+  "additionsByCity": {
+    "foley-al": 1,
+    "daphne-al": 1,
+    "mobile-al": 3,
+    "dothan-al": 2,
+    "montgomery-al": 1,
+    "auburn-al": 1,
+    "birmingham-al": 1,
+    "huntsville-al": 1
+  },
+  "additionsByCategory": {
+    "auto-body-collision": 3,
+    "generator-installation": 2,
+    "hurricane-shutters-impact-windows": 3,
+    "marine-services": 3
+  },
+  "additionsByBusiness": {
+    "BCR Collision Center": 1,
+    "Rettig Auto Body": 2,
+    "Meadows Electrical Contracting, Inc.": 1,
+    "Walley Electric": 1,
+    "Hathcock Home Services": 1,
+    "Holland Motorsports": 1,
+    "Montgomery Marine": 1,
+    "Auburn Sports & Marine": 1,
+    "C&D Home Solutions": 1,
+    "Southern Industries Home Improvements": 1
+  },
+  "selectionRule": "Priority cities first at their lowest freshly reviewed qualifying counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "reviewedEvidence": {
+    "files": [
+      "reports/candidates-fill1000x-2026-11-04.json"
+    ],
+    "auditDate": "2026-11-04",
+    "beforePlacements": 0,
+    "afterPlacements": 11,
+    "beforeCounts": {},
+    "afterCounts": {
+      "foley-al|auto-body-collision": 1,
+      "daphne-al|auto-body-collision": 1,
+      "mobile-al|auto-body-collision": 1,
+      "mobile-al|generator-installation": 2,
+      "dothan-al|hurricane-shutters-impact-windows": 1,
+      "dothan-al|marine-services": 1,
+      "montgomery-al|marine-services": 1,
+      "auburn-al|marine-services": 1,
+      "birmingham-al|hurricane-shutters-impact-windows": 1,
+      "huntsville-al|hurricane-shutters-impact-windows": 1
+    },
+    "note": "Conservative reviewed-evidence coverage only; unreviewed historical listings are preserved and remain unaudited. Display counts are reported separately."
+  },
+  "before": {
+    "pairsAt20": 808,
+    "pairsBelow20": 392,
+    "deficit": 1489
+  },
+  "prepared": {
+    "pairsAt20": 808,
+    "pairsBelow20": 392,
+    "deficit": 1480,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "BCR Collision Center",
+      "website": "https://www.bcrcollisioncenter.com/",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.bcrcollisioncenter.com/",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "BCR Collision Center's official website identifies its Foley shop at 7997 Alabama 59 and directly offers vehicle owners collision estimates, body repairs and paint work, with insurance claims accepted and more than 30 years of repair experience."
+    },
+    {
+      "name": "Rettig Auto Body",
+      "website": "https://www.rettigautobody.com/",
+      "regions": [
+        "daphne-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.rettigautobody.com/",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Rettig Auto Body's official site documents collision-repair shops in both Mobile and Daphne and directly offers vehicle owners auto-body, dent, paint and collision repairs with insurance coordination and a repair-quality commitment."
+    },
+    {
+      "name": "Meadows Electrical Contracting, Inc.",
+      "website": "https://www.meadows-electrical.com/",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.meadows-electrical.com/generators",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "The official Meadows generator page identifies its Mobile office and says the company designs, installs, starts, tests, services, and warrants automatic standby generator systems for residential applications; its residential page names whole-house generators for Mobile-area homes."
+    },
+    {
+      "name": "Walley Electric",
+      "website": "https://www.walleyelectric.com/",
+      "regions": [
+        "mobile-al"
+      ],
+      "trades": [
+        "generator-installation"
+      ],
+      "sourceUrl": "https://www.walleyelectric.com/services/generators-and-transfer-switch-installation-and-maintenance",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Walley Electric's official generator page explicitly offers installation and maintenance of residential generators and transfer switches for homes in Mobile, Alabama, while its services page classifies that work under residential services."
+    },
+    {
+      "name": "Hathcock Home Services",
+      "website": "https://www.hathcockonline.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.hathcockonline.com/replacement-windows",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Hathcock's official replacement-window page offers professionally installed residential windows with impact-resistant glass packages, while its official home page identifies a family-run Dothan contractor serving homeowners throughout Dothan and southeast Alabama."
+    },
+    {
+      "name": "Holland Motorsports",
+      "website": "https://www.hollandmotorsports.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.hollandmotorsports.com/Service/Service-Department",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Holland Motorsports' official Dothan service page offers maintenance and repairs at its own shop for customer vehicles and equipment and identifies the company as a Sea-Doo personal-watercraft dealer with technicians available for service and parts installation."
+    },
+    {
+      "name": "Montgomery Marine",
+      "website": "https://montgomerymarine.com/",
+      "regions": [
+        "montgomery-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://montgomerymarine.com/parts-service/",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Montgomery Marine's official site identifies its Wetumpka/Montgomery-area marine business and directly invites boat owners to schedule boat repairs with its trained professionals, in addition to supplying the required parts."
+    },
+    {
+      "name": "Auburn Sports & Marine",
+      "website": "https://www.auburnsportsmarineinc.com/",
+      "regions": [
+        "auburn-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.auburnsportsmarineinc.com/marine-shop-services",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Auburn Sports & Marine's official service page identifies its Auburn-area marine shop and directly offers boat diagnostics, repair and maintenance for outboards, sterndrives, inboards, jet systems and trailers, with labor warranty coverage."
+    },
+    {
+      "name": "C&D Home Solutions",
+      "website": "https://cdhomesolutions.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://cdhomesolutions.com/window-replacement-and-installation-services/",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "C&D's official site identifies a locally operated Birmingham home-exterior contractor that installs replacement windows for homeowners; Viwinco's preferred-installer profile specifically documents C&D's impact-window and impact-patio-door installations from its Birmingham office."
+    },
+    {
+      "name": "Southern Industries Home Improvements",
+      "website": "https://southernindustries.com/",
+      "regions": [
+        "huntsville-al"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://southernindustries.com/windows-huntsville-al/",
+      "sourceVerifiedAt": "2026-11-04T00:20:00Z",
+      "evidenceNote": "Southern Industries' official Huntsville window page says it installs custom-made high-impact windows for homes, its high-impact page describes hurricane-force protection, and its Huntsville page explicitly says the company serves homeowners throughout Huntsville."
+    }
+  ]
+}
