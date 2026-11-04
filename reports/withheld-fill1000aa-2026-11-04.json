@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Paul Camp Pool Builders",
+    "website": "https://dothanpools.com/",
+    "proposedPlacement": "dothan-al|pool-installation",
+    "status": "pending",
+    "reason": "Official pages contain strong residential Dothan pool-construction evidence, but direct verification returned HTTP 503, so the website was not counted as working."
+  },
+  {
+    "name": "Blue Haven Pools Dothan",
+    "website": "https://www.bluehaven.com/dothan-swimming-pool-builder/",
+    "proposedPlacement": "dothan-al|pool-installation",
+    "status": "pending",
+    "reason": "Official page content supports residential Dothan construction, but direct verification returned HTTP 403 and the candidate was withheld under the working-site requirement."
+  },
+  {
+    "name": "Bear Creek Pools",
+    "website": "https://bearcreekpoolsandmore.com/",
+    "proposedPlacement": "dothan-al|pool-installation",
+    "status": "pending",
+    "reason": "Official content supports residential fiberglass installation around Dothan, but direct verification returned HTTP 406 and the candidate was withheld."
+  },
+  {
+    "name": "RPM Strong",
+    "website": "https://www.rpmstrong.com/",
+    "proposedPlacement": "biloxi-ms|home-inspections; gulfport-ms|home-inspections",
+    "status": "pending",
+    "reason": "Official content supports Gulf Coast residential home inspections, but direct verification returned HTTP 503, so it was excluded from publication."
+  },
+  {
+    "name": "Sunbelt Deck & Patio",
+    "website": "https://www.sunbeltdeckandpatio.com/",
+    "proposedPlacement": "auburn-al|screen-enclosures-pool-cages",
+    "status": "pending",
+    "reason": "Search retrieval found an Auburn residential screen-room provider, but the official homepage returned HTTP 404 during direct verification."
+  },
+  {
+    "name": "Gerber Collision & Glass",
+    "website": "https://www.gerbercollision.com/",
+    "proposedPlacement": "multiple underfilled auto-body-collision pages",
+    "status": "pending_repository_exclusion",
+    "reason": "Fresh official evidence supported several local collision centers, but the normalized domain is on the repository exclusion list. It was not published or counted pending a separate review of that historical exclusion."
+  },
+  {
+    "name": "ASP - America's Swimming Pool Company of Birmingham",
+    "website": "https://www.asppoolco.com/birmingham/",
+    "proposedPlacement": "birmingham-al|pool-service",
+    "status": "pending_repository_exclusion",
+    "reason": "Fresh official evidence supported a locally operated residential pool-service franchise, but the normalized domain is on the repository exclusion list. It was not published or counted pending separate review."
+  },
+  {
+    "name": "Window World of River Region",
+    "website": "https://windowworldriverregion.com/",
+    "proposedPlacement": "montgomery-al|hurricane-shutters-impact-windows",
+    "status": "pending_repository_exclusion",
+    "reason": "Fresh official evidence supported residential impact-window installation in Montgomery, but the normalized domain is on the repository exclusion list. It was not published or counted pending separate review."
+  }
+]
