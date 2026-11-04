@@ -1,0 +1,58 @@
+{
+  "sourceCommit": "cf955ad40c742283f2e856f7cc0198e47db22306",
+  "deploymentId": "dpl_BJftRpnWfBXNHSPBXgmVnzdczeSE",
+  "checkedAt": "2026-11-04T11:26:15.764839+00:00",
+  "categoryPages": 2,
+  "placementCount": 2,
+  "placementsPassed": 2,
+  "profileCount": 2,
+  "profilesPassed": 2,
+  "placements": [
+    {
+      "url": "https://whoknowsapro.com/gulf-shores-al/marine-services",
+      "name": "GSPS Marine",
+      "mainSlug": "gsps-marine",
+      "domain": "gspsmarine.com",
+      "httpStatus": 200,
+      "matchingCards": 1,
+      "officialLinkFound": true,
+      "profileContextPreserved": true,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/dothan-al/auto-mechanics",
+      "name": "Kennedy's Automotive",
+      "mainSlug": "kennedy-s-automotive",
+      "domain": "kennedysautomotiveal.com",
+      "httpStatus": 200,
+      "matchingCards": 1,
+      "officialLinkFound": true,
+      "profileContextPreserved": true,
+      "passed": true
+    }
+  ],
+  "profiles": [
+    {
+      "url": "https://whoknowsapro.com/business/gsps-marine",
+      "name": "GSPS Marine",
+      "mainSlug": "gsps-marine",
+      "domain": "gspsmarine.com",
+      "httpStatus": 200,
+      "matchingCards": 1,
+      "officialLinkFound": true,
+      "profileContextPreserved": true,
+      "passed": true
+    },
+    {
+      "url": "https://whoknowsapro.com/business/kennedy-s-automotive",
+      "name": "Kennedy's Automotive",
+      "mainSlug": "kennedy-s-automotive",
+      "domain": "kennedysautomotiveal.com",
+      "httpStatus": 200,
+      "matchingCards": 1,
+      "officialLinkFound": true,
+      "profileContextPreserved": true,
+      "passed": true
+    }
+  ]
+}
