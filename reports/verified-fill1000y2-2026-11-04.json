@@ -1,0 +1,86 @@
+{
+  "baselineCommit": "0c0dfca94f07ebc5a7c423691cbf42cfbad192ba",
+  "continuationOf": "reports/verified-fill1000f-2026-10-31.json",
+  "verifiedAt": "2026-11-04T11:22:45.085Z",
+  "target": 2,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 2,
+  "newBusinessShortfall": 998,
+  "placementsFromNewBusinesses": 2,
+  "placementsFromPreviouslyListedBusinesses": 0,
+  "status": "prepared_not_published",
+  "placementCount": 2,
+  "sourceRecordCount": 2,
+  "uniqueBusinessDomains": 2,
+  "additionsByCity": {
+    "gulf-shores-al": 1,
+    "dothan-al": 1
+  },
+  "additionsByCategory": {
+    "marine-services": 1,
+    "auto-mechanics": 1
+  },
+  "additionsByBusiness": {
+    "GSPS Marine": 1,
+    "Kennedy's Automotive": 1
+  },
+  "selectionRule": "Priority cities first at their lowest freshly reviewed qualifying counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "reviewedEvidence": {
+    "files": [
+      "reports/candidates-fill1000y2-2026-11-04.json"
+    ],
+    "auditDate": "2026-11-04",
+    "beforePlacements": 0,
+    "afterPlacements": 2,
+    "beforeCounts": {},
+    "afterCounts": {
+      "gulf-shores-al|marine-services": 1,
+      "dothan-al|auto-mechanics": 1
+    },
+    "note": "Conservative reviewed-evidence coverage only; unreviewed historical listings are preserved and remain unaudited. Display counts are reported separately."
+  },
+  "before": {
+    "pairsAt20": 809,
+    "pairsBelow20": 391,
+    "deficit": 1472
+  },
+  "prepared": {
+    "pairsAt20": 811,
+    "pairsBelow20": 389,
+    "deficit": 1470,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "gulf-shores-al|marine-services",
+    "dothan-al|auto-mechanics"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "GSPS Marine",
+      "website": "https://www.gspsmarine.com/",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.gspsmarine.com/service-repair-boats-dealership--service",
+      "sourceVerifiedAt": "2026-11-04T17:30:00Z",
+      "evidenceNote": "GSPS Marine's official service page identifies its Gulf Shores shop and directly offers recreational boat owners maintenance, engine troubleshooting and repairs through its trained local marine technicians."
+    },
+    {
+      "name": "Kennedy's Automotive",
+      "website": "https://kennedysautomotiveal.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://kennedysautomotiveal.com/",
+      "sourceVerifiedAt": "2026-11-04T17:30:00Z",
+      "evidenceNote": "Kennedy's Automotive's official website identifies a direct consumer repair shop in Dothan offering gas and diesel repair, diagnostics, engine, transmission, brake and electrical work for domestic and foreign vehicles."
+    }
+  ]
+}

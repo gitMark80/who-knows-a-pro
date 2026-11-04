@@ -1,0 +1,46 @@
+{
+  "priorListingsPreserved": 24326,
+  "priorEvidenceRowsPreserved": 0,
+  "newListings": 2,
+  "newEvidenceRows": 2,
+  "newBusinessDomains": 2,
+  "pairsAt20": 811,
+  "pairsBelow20": 389,
+  "deficit": 1470,
+  "additions": [
+    {
+      "id": "verified-v1-gulf-shores-al-marine-services-gspsmarine-com",
+      "name": "GSPS Marine",
+      "slug": "gsps-marine-gulf-shores-al-marine-services",
+      "mainSlug": "gsps-marine",
+      "region": "gulf-shores-al",
+      "trade": "marine-services",
+      "location": "Gulf Shores, AL",
+      "summary": "",
+      "website": "https://www.gspsmarine.com/",
+      "sourceUrl": "https://www.gspsmarine.com/service-repair-boats-dealership--service",
+      "sourceVerifiedAt": "2026-11-04T17:30:00Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    },
+    {
+      "id": "verified-v1-dothan-al-auto-mechanics-kennedysautomotiveal-com",
+      "name": "Kennedy's Automotive",
+      "slug": "kennedy-s-automotive-dothan-al-auto-mechanics",
+      "mainSlug": "kennedy-s-automotive",
+      "region": "dothan-al",
+      "trade": "auto-mechanics",
+      "location": "Dothan, AL",
+      "summary": "",
+      "website": "https://kennedysautomotiveal.com/",
+      "sourceUrl": "https://kennedysautomotiveal.com/",
+      "sourceVerifiedAt": "2026-11-04T17:30:00Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    }
+  ]
+}
