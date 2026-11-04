@@ -1,0 +1,179 @@
+{
+  "baselineCommit": "b0f91cb2f4fff982ccd5e39551e9b21e175c7bde",
+  "continuationOf": "reports/verified-fill1000f-2026-10-31.json",
+  "verifiedAt": "2026-11-04T11:11:22.810Z",
+  "target": 8,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 7,
+  "newBusinessShortfall": 993,
+  "placementsFromNewBusinesses": 8,
+  "placementsFromPreviouslyListedBusinesses": 0,
+  "status": "prepared_not_published",
+  "placementCount": 8,
+  "sourceRecordCount": 8,
+  "uniqueBusinessDomains": 7,
+  "additionsByCity": {
+    "gulf-shores-al": 1,
+    "fairhope-al": 1,
+    "grayton-beach-fl": 1,
+    "dothan-al": 1,
+    "birmingham-al": 4
+  },
+  "additionsByCategory": {
+    "auto-mechanics": 3,
+    "screen-enclosures-pool-cages": 1,
+    "marine-services": 1,
+    "pool-installation": 2,
+    "pool-service": 1
+  },
+  "additionsByBusiness": {
+    "Gulf Shores Automotive": 1,
+    "M&S Tire & Service Center": 1,
+    "Dream Coast Auto": 1,
+    "All Season Screenrooms": 1,
+    "Alabama Trolling Motors": 1,
+    "Distinctive Pools": 1,
+    "Elite Pool Services": 2
+  },
+  "selectionRule": "Priority cities first at their lowest freshly reviewed qualifying counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "reviewedEvidence": {
+    "files": [
+      "reports/candidates-fill1000y-visible-2026-11-04.json"
+    ],
+    "auditDate": "2026-11-04",
+    "beforePlacements": 0,
+    "afterPlacements": 8,
+    "beforeCounts": {},
+    "afterCounts": {
+      "gulf-shores-al|auto-mechanics": 1,
+      "fairhope-al|auto-mechanics": 1,
+      "grayton-beach-fl|auto-mechanics": 1,
+      "dothan-al|screen-enclosures-pool-cages": 1,
+      "birmingham-al|marine-services": 1,
+      "birmingham-al|pool-installation": 2,
+      "birmingham-al|pool-service": 1
+    },
+    "note": "Conservative reviewed-evidence coverage only; unreviewed historical listings are preserved and remain unaudited. Display counts are reported separately."
+  },
+  "before": {
+    "pairsAt20": 808,
+    "pairsBelow20": 392,
+    "deficit": 1480
+  },
+  "prepared": {
+    "pairsAt20": 809,
+    "pairsBelow20": 391,
+    "deficit": 1472,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "birmingham-al|pool-installation"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Gulf Shores Automotive",
+      "website": "https://dwayneakins46.wixsite.com/gulfshoresautomotive",
+      "regions": [
+        "gulf-shores-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://dwayneakins46.wixsite.com/gulfshoresautomotive",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "Gulf Shores Automotive's official site offers consumer vehicle diagnostics, maintenance and repairs directly from its Gulf Shores shop, including brakes, steering, suspension, tune-ups, oil changes and air-conditioning service."
+    },
+    {
+      "name": "M&S Tire & Service Center",
+      "website": "https://www.mstireandservice.com/",
+      "regions": [
+        "fairhope-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.mstireandservice.com/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "M&S Tire & Service Center's official website offers direct consumer auto repair and maintenance from its Fairhope shop, including oil changes, brake service, alignments, air-conditioning service and general repairs."
+    },
+    {
+      "name": "Dream Coast Auto",
+      "website": "https://dreamcoastauto.com/",
+      "regions": [
+        "grayton-beach-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://dreamcoastauto.com/grayton-beach-fl/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "Dream Coast Auto's official Grayton Beach page directly offers vehicle maintenance, diagnostics and repair to Grayton Beach drivers from its nearby customer repair facility, with appointment contact on the company domain."
+    },
+    {
+      "name": "All Season Screenrooms",
+      "website": "https://www.allseasonscreenrooms.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "screen-enclosures-pool-cages"
+      ],
+      "sourceUrl": "https://www.allseasonscreenrooms.com/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "All Season Screenrooms' official site offers custom aluminum screen enclosures and screen-room additions for residential customers and explicitly names Dothan among the Wiregrass communities it serves."
+    },
+    {
+      "name": "Alabama Trolling Motors",
+      "website": "https://www.alabamatrollingmotors.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.alabamatrollingmotors.com/all-services/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "Alabama Trolling Motors' official site offers complete boat repair, restoration, trolling-motor installation and other marine work directly to boat owners in the Birmingham area from its Moody, Alabama shop."
+    },
+    {
+      "name": "Distinctive Pools",
+      "website": "https://www.distinctivepools.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://www.distinctivepools.com/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "Distinctive Pools' official website identifies a Birmingham pool builder that directly designs and constructs custom gunite pools and hardscapes for homeowners' yards, with homeowner-focused value and warranty language."
+    },
+    {
+      "name": "Elite Pool Services",
+      "website": "https://elitepoolservices.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://elitepoolservices.com/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "Elite Pool Services' official site identifies a family-owned Birmingham company that directly designs and builds inground pools and also performs renovations and weekly pool care for residential customers across the Birmingham metro."
+    },
+    {
+      "name": "Elite Pool Services",
+      "website": "https://elitepoolservices.com/",
+      "regions": [
+        "birmingham-al"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://elitepoolservices.com/",
+      "sourceVerifiedAt": "2026-11-04T16:30:00Z",
+      "evidenceNote": "Elite Pool Services' official site identifies a family-owned Birmingham company that directly designs and builds inground pools and also performs renovations and weekly pool care for residential customers across the Birmingham metro."
+    }
+  ]
+}

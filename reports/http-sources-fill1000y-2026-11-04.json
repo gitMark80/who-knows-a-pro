@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-11-04T11:12:40.175273+00:00",
+  "results": [
+    {
+      "url": "https://www.alabamatrollingmotors.com/",
+      "ok": false,
+      "errors": [
+        "HTTPError: HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "url": "https://www.alabamatrollingmotors.com/all-services/",
+      "ok": false,
+      "errors": [
+        "HTTPError: HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "url": "https://dwayneakins46.wixsite.com/gulfshoresautomotive",
+      "status": 200,
+      "finalUrl": "https://dwayneakins46.wixsite.com/gulfshoresautomotive",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://www.mstireandservice.com/",
+      "status": 200,
+      "finalUrl": "https://www.mstireandservice.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://dreamcoastauto.com/",
+      "status": 200,
+      "finalUrl": "https://dreamcoastauto.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://dreamcoastauto.com/grayton-beach-fl/",
+      "status": 200,
+      "finalUrl": "https://dreamcoastauto.com/grayton-beach-fl/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://www.allseasonscreenrooms.com/",
+      "status": 200,
+      "finalUrl": "https://www.allseasonscreenrooms.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://www.distinctivepools.com/",
+      "status": 200,
+      "finalUrl": "https://www.distinctivepools.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://elitepoolservices.com/",
+      "status": 200,
+      "finalUrl": "https://elitepoolservices.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    }
+  ]
+}
