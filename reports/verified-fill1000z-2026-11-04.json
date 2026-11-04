@@ -1,0 +1,146 @@
+{
+  "baselineCommit": "b89fbca04d486769e67467087399dad8e16e9c69",
+  "continuationOf": "reports/run-fill1000y-2026-11-04.json",
+  "verifiedAt": "2026-11-04T17:01:54.474Z",
+  "target": 10,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 4,
+  "newBusinessShortfall": 996,
+  "placementsFromNewBusinesses": 9,
+  "placementsFromPreviouslyListedBusinesses": 1,
+  "status": "prepared_not_published",
+  "placementCount": 10,
+  "sourceRecordCount": 5,
+  "uniqueBusinessDomains": 5,
+  "additionsByCity": {
+    "destin-fl": 1,
+    "fort-walton-beach-fl": 1,
+    "panama-city-fl": 1,
+    "foley-al": 1,
+    "fairhope-al": 3,
+    "panama-city-beach-fl": 1,
+    "biloxi-ms": 1,
+    "gulfport-ms": 1
+  },
+  "additionsByCategory": {
+    "septic-services": 6,
+    "auto-mechanics": 3,
+    "auto-body-collision": 1
+  },
+  "additionsByBusiness": {
+    "Prime Plumbing & Septic": 4,
+    "Sweat Tire & Automotive": 2,
+    "Lucassen Paint & Body": 1,
+    "DC Mechanics Auto Repair": 1,
+    "Sun Coast Septic Service": 2
+  },
+  "selectionRule": "Priority cities first at their lowest freshly reviewed qualifying counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "reviewedEvidence": {
+    "files": [
+      "reports/candidates-fill1000z-2026-11-04.json"
+    ],
+    "auditDate": "2026-11-04",
+    "beforePlacements": 0,
+    "afterPlacements": 10,
+    "beforeCounts": {},
+    "afterCounts": {
+      "destin-fl|septic-services": 1,
+      "fort-walton-beach-fl|septic-services": 1,
+      "panama-city-fl|septic-services": 1,
+      "foley-al|auto-mechanics": 1,
+      "fairhope-al|auto-body-collision": 1,
+      "fairhope-al|auto-mechanics": 2,
+      "panama-city-beach-fl|septic-services": 1,
+      "biloxi-ms|septic-services": 1,
+      "gulfport-ms|septic-services": 1
+    },
+    "note": "Conservative reviewed-evidence coverage only; unreviewed historical listings are preserved and remain unaudited. Display counts are reported separately."
+  },
+  "before": {
+    "pairsAt20": 811,
+    "pairsBelow20": 389,
+    "deficit": 1470
+  },
+  "prepared": {
+    "pairsAt20": 812,
+    "pairsBelow20": 388,
+    "deficit": 1460,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "destin-fl|septic-services"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Prime Plumbing & Septic",
+      "website": "https://primeplumbingseptic.com/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://primeplumbingseptic.com/service-areas/",
+      "sourceVerifiedAt": "2026-11-04T20:00:00Z",
+      "evidenceNote": "Prime Plumbing & Septic's official site offers septic tank pumping and maintenance for homes and explicitly lists Destin, Fort Walton Beach, Panama City and Panama City Beach in its septic service area."
+    },
+    {
+      "name": "Sweat Tire & Automotive",
+      "website": "https://sweattire.com/",
+      "regions": [
+        "foley-al",
+        "fairhope-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://sweattire.com/mechanic-near-me/",
+      "sourceVerifiedAt": "2026-11-04T20:00:00Z",
+      "evidenceNote": "Sweat Tire & Automotive's official site offers direct consumer auto repair, diagnostics, brakes, suspension and maintenance and identifies operating service shops in Fairhope and Foley."
+    },
+    {
+      "name": "Lucassen Paint & Body",
+      "website": "https://www.lucassenpaintandbody.com/",
+      "regions": [
+        "fairhope-al"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.lucassenpaintandbody.com/services",
+      "sourceVerifiedAt": "2026-11-04T20:00:00Z",
+      "evidenceNote": "Lucassen Paint & Body's official site offers direct collision repair, frame alignment, body repair, glass replacement and paint work from its Fairhope customer repair shop."
+    },
+    {
+      "name": "DC Mechanics Auto Repair",
+      "website": "https://dcmechanicsal.com/",
+      "regions": [
+        "fairhope-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://dcmechanicsal.com/service/",
+      "sourceVerifiedAt": "2026-11-04T20:00:00Z",
+      "evidenceNote": "DC Mechanics Auto Repair's official site offers direct consumer car and SUV diagnostics, brake, engine and maintenance services from its Fairhope shop; this is a new placement for an existing directory identity."
+    },
+    {
+      "name": "Sun Coast Septic Service",
+      "website": "https://suncoastsepticservice.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://suncoastsepticservice.com/septic-tank-installation",
+      "sourceVerifiedAt": "2026-11-04T20:00:00Z",
+      "evidenceNote": "Sun Coast Septic Service's official installation page offers compliant residential septic installation and replacement and expressly identifies Biloxi and Gulfport as service locations."
+    }
+  ]
+}
