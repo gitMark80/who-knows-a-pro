@@ -1,0 +1,109 @@
+{
+  "status": "published_and_live_verified",
+  "baselineCommit": "6e2d5f1cc17ba057850b5867705e3f718586e0b5",
+  "publishedCommit": "10660780610cb1acca1de0dde3cd5c153e24d63f",
+  "deploymentId": "dpl_3sn5FiWfKQfduGptxxhvxivCEi5a",
+  "deploymentState": "READY",
+  "runNewBusinessTarget": 1000,
+  "distinctNewBusinessesPublishedAndLiveVerified": 9,
+  "newBusinessShortfall": 991,
+  "placements": {
+    "fromNewBusinesses": 10,
+    "fromPreviouslyListedBusinesses": 1,
+    "published": 11,
+    "liveVerified": 11
+  },
+  "liveVerification": {
+    "categoryPages": 10,
+    "placementsPassed": 11,
+    "profilesPassed": 10,
+    "officialWebsiteLinksPassed": 11,
+    "report": "reports/live-fill1000x-2026-11-04.json"
+  },
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "publicPages": 1200,
+    "graytonBeachActive": true,
+    "pensacolaBeachActive": false,
+    "catalogChanged": false
+  },
+  "displayedCoverageNotQualifyingAudit": {
+    "pagesAt20OrMore": 808,
+    "pagesBelow20": 392,
+    "emptyPages": 0,
+    "displayedDeficit": 1480
+  },
+  "qualifyingCoverage": {
+    "completeAudit": false,
+    "pagesAt20OrMore": null,
+    "pagesBelow20": null,
+    "emptyPages": null,
+    "remainingDeficit": null,
+    "note": "Historical displayed records have not all passed the stricter residential-service, direct-provider, specific-geography, category, and official-identity audit. Unaudited qualifying coverage remains unknown."
+  },
+  "additionsByCity": {
+    "foley-al": 1,
+    "daphne-al": 1,
+    "mobile-al": 3,
+    "dothan-al": 2,
+    "montgomery-al": 1,
+    "auburn-al": 1,
+    "birmingham-al": 1,
+    "huntsville-al": 1
+  },
+  "additionsByCategory": {
+    "auto-body-collision": 3,
+    "generator-installation": 2,
+    "hurricane-shutters-impact-windows": 3,
+    "marine-services": 3
+  },
+  "affectedDisplayedCounts": [
+    {"city": "foley-al", "category": "auto-body-collision", "added": 1, "displayedAfter": 13, "displayedDeficitAfter": 7},
+    {"city": "daphne-al", "category": "auto-body-collision", "added": 1, "displayedAfter": 15, "displayedDeficitAfter": 5},
+    {"city": "mobile-al", "category": "auto-body-collision", "added": 1, "displayedAfter": 16, "displayedDeficitAfter": 4},
+    {"city": "mobile-al", "category": "generator-installation", "added": 2, "displayedAfter": 22, "displayedDeficitAfter": 0},
+    {"city": "dothan-al", "category": "hurricane-shutters-impact-windows", "added": 1, "displayedAfter": 4, "displayedDeficitAfter": 16},
+    {"city": "dothan-al", "category": "marine-services", "added": 1, "displayedAfter": 7, "displayedDeficitAfter": 13},
+    {"city": "montgomery-al", "category": "marine-services", "added": 1, "displayedAfter": 9, "displayedDeficitAfter": 11},
+    {"city": "auburn-al", "category": "marine-services", "added": 1, "displayedAfter": 9, "displayedDeficitAfter": 11},
+    {"city": "birmingham-al", "category": "hurricane-shutters-impact-windows", "added": 1, "displayedAfter": 4, "displayedDeficitAfter": 16},
+    {"city": "huntsville-al", "category": "hurricane-shutters-impact-windows", "added": 1, "displayedAfter": 5, "displayedDeficitAfter": 15}
+  ],
+  "historicalFlags": {
+    "businessIdentities": 158,
+    "displayedPlacements": 8816,
+    "retailFixItPlacements": 396,
+    "retailFixItSourceRows": 22,
+    "publicVisibilityChanged": false,
+    "report": "reports/historical-qualification-flags-2026-11-03.json"
+  },
+  "candidateStatus": {
+    "approvedEvidenceIdentities": 10,
+    "distinctNewBaselineBusinesses": 9,
+    "previouslyListedIdentitiesWithNewPlacement": 1,
+    "publishedAndLiveVerifiedIdentities": 10,
+    "pending": 0,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0,
+    "withheldOrRejected": {
+      "commercialOnlyOrIntermediary": 2,
+      "existingNationalBrandExclusionOrInsufficientIndependentOwnership": 3,
+      "duplicateIdentityOrAlternateDomain": 1,
+      "permitOnlyNotDirectProvider": 1,
+      "noQualifyingOfficialWebsite": 2
+    }
+  },
+  "validation": {
+    "priorGeneratedListingsPreserved": 24307,
+    "generatedListingsAfter": 24318,
+    "officialAndSourceUrlsChecked": 18,
+    "officialAndSourceUrlsPassed": 18,
+    "jsonAndSchema": "passed",
+    "activeSlugs": "passed",
+    "duplicateHandling": "passed",
+    "qualificationEvidence": "passed",
+    "typescript": "passed",
+    "productionBuild": "passed"
+  }
+}
