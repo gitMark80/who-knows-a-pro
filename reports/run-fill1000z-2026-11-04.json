@@ -1,0 +1,80 @@
+{
+  "run": "fill1000z",
+  "baselineCommit": "b89fbca04d486769e67467087399dad8e16e9c69",
+  "dataCommit": "766f089f566a31bf0fa4922365bddac7a1bf7f4f",
+  "deploymentId": "dpl_HtK4ZWQbgcbBsfFRUvZpP9tFZ9o6",
+  "deploymentState": "READY",
+  "status": "published_live_verified",
+  "checkedAt": "2026-11-04T17:07:45.667604+00:00",
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "publicPages": 1200,
+    "hiddenCategoriesPreserved": 10
+  },
+  "newBusinessTarget": 1000,
+  "newBusinessesPublishedLiveVerified": 4,
+  "newBusinessShortfall": 996,
+  "placements": {
+    "total": 10,
+    "fromNewBusinesses": 9,
+    "fromPreviouslyListedBusinesses": 1,
+    "liveVerified": 10
+  },
+  "renderedCoverage": {
+    "pagesAt20OrMore": 812,
+    "pagesBelow20": 388,
+    "emptyPages": 0,
+    "remainingDeficit": 1460
+  },
+  "qualifyingCoverage": {
+    "pagesAt20OrMore": null,
+    "pagesBelow20": null,
+    "emptyPages": null,
+    "remainingDeficit": null,
+    "reason": "Historical records are not fully audited against residential scope, direct-provider status, category match, city-specific coverage and official identity. Rendered counts are not certified qualifying counts."
+  },
+  "additionsByPage": [
+    {"city":"Destin, FL","citySlug":"destin-fl","category":"Septic Services","categorySlug":"septic-services","added":1,"renderedAfter":20,"renderedDeficitAfter":0},
+    {"city":"Fort Walton Beach, FL","citySlug":"fort-walton-beach-fl","category":"Septic Services","categorySlug":"septic-services","added":1,"renderedAfter":19,"renderedDeficitAfter":1},
+    {"city":"Panama City, FL","citySlug":"panama-city-fl","category":"Septic Services","categorySlug":"septic-services","added":1,"renderedAfter":18,"renderedDeficitAfter":2},
+    {"city":"Panama City Beach, FL","citySlug":"panama-city-beach-fl","category":"Septic Services","categorySlug":"septic-services","added":1,"renderedAfter":13,"renderedDeficitAfter":7},
+    {"city":"Foley, AL","citySlug":"foley-al","category":"Auto Mechanics","categorySlug":"auto-mechanics","added":1,"renderedAfter":18,"renderedDeficitAfter":2},
+    {"city":"Fairhope, AL","citySlug":"fairhope-al","category":"Auto Mechanics","categorySlug":"auto-mechanics","added":2,"renderedAfter":16,"renderedDeficitAfter":4},
+    {"city":"Fairhope, AL","citySlug":"fairhope-al","category":"Auto Body & Collision","categorySlug":"auto-body-collision","added":1,"renderedAfter":15,"renderedDeficitAfter":5},
+    {"city":"Biloxi, MS","citySlug":"biloxi-ms","category":"Septic Services","categorySlug":"septic-services","added":1,"renderedAfter":9,"renderedDeficitAfter":11},
+    {"city":"Gulfport, MS","citySlug":"gulfport-ms","category":"Septic Services","categorySlug":"septic-services","added":1,"renderedAfter":10,"renderedDeficitAfter":10}
+  ],
+  "verification": {
+    "categoryPagesChecked": 9,
+    "placementsPassed": 10,
+    "profilesChecked": 5,
+    "profilesPassed": 5,
+    "officialLinksPresent": 10,
+    "sourceUrlsPassed": 10,
+    "typecheckPassed": true,
+    "productionBuildPassed": true,
+    "schemaAndCoverageValidationPassed": true
+  },
+  "research": {
+    "candidateIdentitiesTracked": 12,
+    "publishedIdentities": 5,
+    "publishedNewBusinesses": 4,
+    "withheldOrPending": 7,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0
+  },
+  "historicalFlags": {
+    "displayedPlacements": 8816,
+    "businessIdentities": 158,
+    "retailFixItPlacements": 396,
+    "retailFixItSourceRows": 22,
+    "publicVisibilityChanged": false
+  },
+  "blockers": [
+    "The complete historical qualification audit is unfinished, so qualifying page totals and the qualifying deficit remain unknown.",
+    "Six researched identities were withheld or left pending because direct-provider, local-operation, category-match or working-official-site requirements were not all satisfied.",
+    "A seventh pending identity, A+ Dent Medic, has verified PDR service but evidence remains narrower than the public auto-body/collision category."
+  ],
+  "deletions": 0
+}
