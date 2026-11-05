@@ -1,0 +1,244 @@
+{
+  "baselineCommit": "ab450b6c6588d8444579b99194b5cbfb879d4526",
+  "continuationOf": "reports/verified-fill1000f-2026-10-31.json",
+  "verifiedAt": "2026-11-05T11:08:11.603Z",
+  "target": 17,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 11,
+  "newBusinessShortfall": 989,
+  "placementsFromNewBusinesses": 16,
+  "placementsFromPreviouslyListedBusinesses": 1,
+  "status": "prepared_not_published",
+  "placementCount": 17,
+  "sourceRecordCount": 13,
+  "uniqueBusinessDomains": 12,
+  "additionsByCity": {
+    "pace-fl": 3,
+    "perdido-key-fl": 1,
+    "milton-fl": 8,
+    "foley-al": 1,
+    "panama-city-beach-fl": 1,
+    "biloxi-ms": 1,
+    "gulfport-ms": 2
+  },
+  "additionsByCategory": {
+    "auto-mechanics": 8,
+    "marine-services": 4,
+    "hurricane-shutters-impact-windows": 1,
+    "appliance-repair": 1,
+    "pest-control": 3
+  },
+  "additionsByBusiness": {
+    "Auto Air and Repair of Milton": 2,
+    "G&L Auto Repair": 4,
+    "Evans Automotive - Pensacola": 1,
+    "All Pro Tune Up": 1,
+    "Florida Stores Automotive": 1,
+    "2 Gauge Marine & Trailer": 1,
+    "Livingston Mobile Marine": 1,
+    "Shelby Sash & Door": 1,
+    "Goodyear Auto Service - Foley": 1,
+    "Bodewell (GE Appliances Factory Service)": 1,
+    "Insecteco Pest Company": 2,
+    "Southern Pest Control": 1
+  },
+  "selectionRule": "Priority cities first at their lowest displayed counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 831,
+    "pairsBelow20": 369,
+    "deficit": 1426
+  },
+  "prepared": {
+    "pairsAt20": 840,
+    "pairsBelow20": 360,
+    "deficit": 1409,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "perdido-key-fl|auto-mechanics",
+    "panama-city-beach-fl|appliance-repair",
+    "milton-fl|auto-mechanics",
+    "milton-fl|marine-services",
+    "milton-fl|hurricane-shutters-impact-windows",
+    "pace-fl|auto-mechanics",
+    "foley-al|auto-mechanics",
+    "biloxi-ms|pest-control",
+    "gulfport-ms|pest-control"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Auto Air and Repair of Milton",
+      "website": "https://www.autoairandrepair.net/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.autoairandrepair.net/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Auto Air and Repair's official site offers comprehensive repair for customer vehicles throughout Santa Rosa County from its licensed Milton shop, supporting Milton and Pace."
+    },
+    {
+      "name": "G&L Auto Repair",
+      "website": "https://www.gldetail.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.gldetail.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "G&L's official site offers major and minor vehicle repair plus boat repair and maintenance, and its published service area explicitly includes Milton and Pace."
+    },
+    {
+      "name": "G&L Auto Repair",
+      "website": "https://www.gldetail.com/",
+      "regions": [
+        "pace-fl",
+        "milton-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://www.gldetail.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "G&L's official site offers major and minor vehicle repair plus boat repair and maintenance, and its published service area explicitly includes Milton and Pace."
+    },
+    {
+      "name": "Evans Automotive - Pensacola",
+      "website": "https://www.evansautopensacola.com/",
+      "regions": [
+        "perdido-key-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.evansautopensacola.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Evans Automotive's official site offers full-service mechanical repair for customer cars and expressly names Perdido Key among the communities served by its Pensacola shop."
+    },
+    {
+      "name": "All Pro Tune Up",
+      "website": "https://www.allprotuneup.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.allprotuneup.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "All Pro Tune Up's official site identifies its Milton repair shop and offers comprehensive engine, transmission, brake, electrical and maintenance service for customer vehicles."
+    },
+    {
+      "name": "Florida Stores Automotive",
+      "website": "https://www.floridastoresfirestone.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.floridastoresfirestone.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Florida Stores Automotive's official site identifies its family-owned Milton shop and offers comprehensive mechanical diagnosis, repair, maintenance and tire service to drivers."
+    },
+    {
+      "name": "2 Gauge Marine & Trailer",
+      "website": "https://2gaugemt.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://2gaugemt.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "2 Gauge Marine & Trailer's official site identifies its Milton shop and offers boat-engine service, marine electronics installation and trolling-motor repair to boat owners."
+    },
+    {
+      "name": "Livingston Mobile Marine",
+      "website": "https://livingstonmarine.net/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://livingstonmarine.net/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Livingston Mobile Marine's official site offers outboard repair, rebuilding, maintenance, fiberglass and electrical work and identifies its Milton shop and mobile service."
+    },
+    {
+      "name": "Shelby Sash & Door",
+      "website": "https://www.shelbydoor.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "hurricane-shutters-impact-windows"
+      ],
+      "sourceUrl": "https://www.shelbydoor.com/service/window-installation/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Shelby Sash & Door's official installation page offers impact-resistant windows for houses and hurricanes and identifies the company's Milton location and installers."
+    },
+    {
+      "name": "Goodyear Auto Service - Foley",
+      "website": "https://www.goodyear.com/en-us/shops/AL/Foley/Goodyear-Auto-Service-Foley__000902293",
+      "regions": [
+        "foley-al"
+      ],
+      "trades": [
+        "auto-mechanics"
+      ],
+      "sourceUrl": "https://www.goodyear.com/en-us/shops/AL/Foley/Goodyear-Auto-Service-Foley__000902293",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Goodyear's official shop page identifies its Foley service center and offers engine, brake, electrical, cooling, steering and other repair services directly to drivers."
+    },
+    {
+      "name": "Bodewell (GE Appliances Factory Service)",
+      "website": "https://www.bodewell.com/",
+      "regions": [
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://repair.geappliances.com/service-area/a5O4P000001rw9rUAA/panama-city-beach",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Bodewell's official GE Appliances Factory Service page offers household appliance repair by local technicians and specifically identifies Panama City Beach as the service market."
+    },
+    {
+      "name": "Insecteco Pest Company",
+      "website": "https://www.insectecopestcompany.com/",
+      "regions": [
+        "biloxi-ms",
+        "gulfport-ms"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.insectecopestcompany.com/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Insecteco's official site offers residential pest treatment for homes and explicitly serves Biloxi, Gulfport and Mississippi Gulf Coast neighborhoods with its own technicians."
+    },
+    {
+      "name": "Southern Pest Control",
+      "website": "https://southernpestcontrol.biz/",
+      "regions": [
+        "gulfport-ms"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://southernpestcontrol.biz/",
+      "sourceVerifiedAt": "2026-11-05T03:15:00Z",
+      "evidenceNote": "Southern Pest Control's official site offers year-round protection for homes and explicitly names Biloxi and Gulfport among its Mississippi Gulf Coast service communities."
+    }
+  ]
+}
