@@ -8,7 +8,15 @@
   "newBusinessShortfall": 995,
   "placementsFromNewBusinesses": 7,
   "placementsFromPreviouslyListedBusinesses": 4,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
+  "publication": {
+    "commit": "9589bad0262a9d615d12074cd454c4428bcb5071",
+    "deploymentId": "dpl_FF3fSrr65VAfSzQgP3sDKFWKWb4d",
+    "deploymentState": "READY",
+    "liveVerifiedAt": "2026-11-05T17:01:31.868111+00:00",
+    "placementsPassed": 11,
+    "profilesPassed": 9
+  },
   "placementCount": 11,
   "sourceRecordCount": 9,
   "uniqueBusinessDomains": 9,

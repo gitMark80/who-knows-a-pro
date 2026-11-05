@@ -1,0 +1,49 @@
+{
+  "run": "fill1000ad",
+  "verifiedAt": "2026-11-05T17:01:31.868111+00:00",
+  "withheld": [
+    {
+      "name": "RPM Construction Technologies",
+      "website": "https://www.rpmstrong.com/",
+      "proposedPlacements": [
+        "biloxi-ms|home-inspections",
+        "gulfport-ms|home-inspections"
+      ],
+      "reason": "invalid_official_website_at_verification",
+      "detail": "The official site repeatedly returned HTTP 503 during the publication source check, so the business was removed from the prepared additions and is not counted or published."
+    }
+  ],
+  "priorityBlockers": [
+    {
+      "placement": "crestview-fl|auto-body-collision",
+      "displayedCount": 18,
+      "missing": 2,
+      "detail": "No additional distinct candidate passed repository exclusions, working-official-site, consumer collision-service and Crestview coverage checks. Gerber has a local branch but remains withheld by the repository's existing national-chain exclusion."
+    },
+    {
+      "placement": "crestview-fl|marine-services",
+      "displayedCount": 19,
+      "missing": 1,
+      "detail": "Searches found already-listed providers or businesses without a working official site and explicit Crestview consumer marine-service evidence."
+    },
+    {
+      "placement": "panama-city-fl|septic-services",
+      "displayedCount": 19,
+      "missing": 1,
+      "detail": "Searches found already-listed septic providers, plumbing pages without septic evidence, or candidates without a working official business website and explicit residential Panama City coverage."
+    },
+    {
+      "placement": "pace-fl|marine-services",
+      "displayedCount": 19,
+      "missing": 1,
+      "detail": "Searches found already-listed providers or local businesses lacking a working official business website with explicit Pace consumer marine-service evidence."
+    }
+  ],
+  "historicalFlags": {
+    "status": "unchanged",
+    "flaggedPlacements": 8816,
+    "flaggedIdentities": 158,
+    "retailFixItPlacements": 396,
+    "detail": "Historical questionable records remain visible but excluded from qualifying-completion claims; none were deleted or hidden in this run."
+  }
+}
