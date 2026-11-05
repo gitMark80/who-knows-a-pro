@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-11-05T22:59:29.762Z",
+  "status": "prepared_not_published",
+  "baselineCommit": "236137a17f1e7943c8e131e47128256478ffcbb1",
+  "baselinePreserved": 14160,
+  "newBusinessesPrepared": 2,
+  "placementsPrepared": 3,
+  "concurrentPlacementsPreserved": 30,
+  "target": 1000,
+  "shortfallPendingLiveVerification": 998,
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "pages": 1200
+  },
+  "displayedCoverage": {
+    "pagesAt20": 160,
+    "pagesBelow20": 1040,
+    "emptyPages": 0,
+    "remainingDeficit": 11319,
+    "qualificationStatus": "displayed counts only; historical qualification remains unaudited"
+  },
+  "additions": [
+    {
+      "id": "verified-v1-crestview-fl-pool-installation-gulfbreezepoolsandspas-com",
+      "name": "Gulf Breeze Pools and Spas",
+      "slug": "gulf-breeze-pools-and-spas-crestview-fl-pool-installation",
+      "mainSlug": "gulf-breeze-pools-and-spas",
+      "region": "crestview-fl",
+      "trade": "pool-installation",
+      "location": "Crestview, FL",
+      "summary": "",
+      "website": "https://gulfbreezepoolsandspas.com/",
+      "sourceUrl": "https://gulfbreezepoolsandspas.com/about/",
+      "sourceVerifiedAt": "2026-11-05T23:05:00.000Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    },
+    {
+      "id": "verified-v1-fort-walton-beach-fl-pool-installation-gulfbreezepoolsandspas-com",
+      "name": "Gulf Breeze Pools and Spas",
+      "slug": "gulf-breeze-pools-and-spas-fort-walton-beach-fl-pool-installation",
+      "mainSlug": "gulf-breeze-pools-and-spas",
+      "region": "fort-walton-beach-fl",
+      "trade": "pool-installation",
+      "location": "Fort Walton Beach, FL",
+      "summary": "",
+      "website": "https://gulfbreezepoolsandspas.com/",
+      "sourceUrl": "https://gulfbreezepoolsandspas.com/about/",
+      "sourceVerifiedAt": "2026-11-05T23:05:00.000Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    },
+    {
+      "id": "verified-v1-panama-city-fl-generator-installation-mdcelectric-com",
+      "name": "MDC Electric, Inc.",
+      "slug": "mdc-electric-inc-panama-city-fl-generator-installation",
+      "mainSlug": "mdc-electric-inc",
+      "region": "panama-city-fl",
+      "trade": "generator-installation",
+      "location": "Panama City, FL",
+      "summary": "",
+      "website": "https://mdcelectric.com/",
+      "sourceUrl": "https://mdcelectric.com/services/",
+      "sourceVerifiedAt": "2026-11-05T23:05:00.000Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    }
+  ]
+}
