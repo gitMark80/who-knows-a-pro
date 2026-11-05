@@ -4,7 +4,7 @@
   "baselineCommit": "b99bbdac114dbe96ec342f554e4d580c428b551f",
   "targetDistinctNewBusinesses": 500,
   "priorQualifiedNewBusinesses": 62,
-  "status": "checkpoint_one_live_second_prepared",
+  "status": "published_live_verified_target_unfinished",
   "records": [
     {
       "name": "Hy-Tech Landscape & Irrigation",
@@ -1054,7 +1054,14 @@
     "firstDeployment": "dpl_GiFD3qP2SZPtoe5SRebD9m4zA5H3",
     "firstNewBusinessesLiveVerified": 18,
     "firstPlacementsLiveVerified": 26,
-    "additionalNewBusinessesPrepared": 18,
-    "additionalPlacementsPrepared": 30
+    "additionalNewBusinessesPrepared": 0,
+    "additionalPlacementsPrepared": 0,
+    "finalDataCommit": "b8a298876c280587755cffc25bd086f1f525504f",
+    "finalDeployment": "dpl_4cwe4zTj2grCYZke443dr3cBzpaL",
+    "newBusinessesPublishedLiveVerified": 36,
+    "placementsPublishedLiveVerified": 56,
+    "cumulativeQualifiedNewBusinesses": 98,
+    "shortfallAgainst500": 402,
+    "liveVerifiedAt": "2026-11-05T22:59:16.479624+00:00"
   }
 }

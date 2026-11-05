@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-11-05T22:40:25.455Z",
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
   "baselineCommit": "b99bbdac114dbe96ec342f554e4d580c428b551f",
   "baselinePreserved": 14134,
   "newBusinessesPrepared": 36,
@@ -962,5 +962,10 @@
       "emailSourceUrl": null,
       "emailVerifiedAt": null
     }
-  ]
+  ],
+  "newBusinessesPublishedLiveVerified": 36,
+  "placementsPublishedLiveVerified": 56,
+  "cumulativeQualifiedNewBusinesses": 98,
+  "shortfallAgainst500": 402,
+  "sourceCommit": "b8a298876c280587755cffc25bd086f1f525504f"
 }
