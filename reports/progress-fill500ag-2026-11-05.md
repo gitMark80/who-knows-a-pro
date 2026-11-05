@@ -1,6 +1,6 @@
 # Fill 500 continuation checkpoint: fill500ag
 
-Baseline e661e9dbced797f2852a020eefd43c8ae9d61714 contains 14,190 placements, all preserved unchanged. Prior verified qualified count: 98/500, with 402 remaining.
+Baseline da3f65f74a1a09eedeb45a27722db8bb2a99fc27 contains 14,193 placements, all preserved unchanged. Prior verified qualified count: 98/500, with 402 remaining.
 
 ## Prepared, not yet live
 
@@ -10,6 +10,8 @@ Data validation passed: new normalized names/domains, official identity, direct 
 
 Type check and lint passed locally; full production build and integration suite status will be confirmed on the exact commit before merge. Published totals remain 98 until production and all six new placements are verified. If verified, cumulative count becomes 103/500, with 397 remaining.
 
-Displayed coverage after this prepared increment: 1200 pages, 161 at 20+, 1039 below 20, 0 empty, displayed deficit 11,316. Historical qualifying totals remain unaudited.
+Displayed coverage after this prepared increment: 1200 pages, 161 at 20+, 1039 below 20, 0 empty, displayed deficit 11,313. Historical qualifying totals remain unaudited.
 
 No prohibited listing sources, paid API calls, outreach, deletions or subscription changes. The 500-business request remains unfinished. Resume from latest main and preserve concurrent edits.
+
+Concurrent fill1000ag added two businesses and three placements. They are preserved in the updated baseline and excluded from this separate 500-run counter.

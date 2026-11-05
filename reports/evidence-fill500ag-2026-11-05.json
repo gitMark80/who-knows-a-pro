@@ -1,7 +1,7 @@
 {
   "run": "fill500ag",
   "continuesRun": "fill500af",
-  "baselineCommit": "e661e9dbced797f2852a020eefd43c8ae9d61714",
+  "baselineCommit": "da3f65f74a1a09eedeb45a27722db8bb2a99fc27",
   "targetDistinctNewBusinesses": 500,
   "priorQualifiedNewBusinesses": 98,
   "status": "prepared_not_published",
@@ -307,5 +307,6 @@
     "Hometown Garage Doors NF withheld because existing Hometown Garage Doors NWFL may be same normalized identity.",
     "A-1 Enterprises and PC Fence and Decks also have official local provider evidence but omitted because Panama City fence category has only two free slots.",
     "Deese Elite Concrete Coatings withheld: coating specialist does not establish concrete construction category fit."
-  ]
+  ],
+  "concurrentRunPreserved": "fill1000ag: 2 new businesses, 3 placements; not included in this 500-run counter"
 }

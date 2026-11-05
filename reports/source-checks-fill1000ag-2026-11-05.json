@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-05T23:06:00.000Z",
+  "method": "Official-site content review plus final-destination HTTP check",
+  "results": [
+    {"domain":"gulfbreezepoolsandspas.com","status":200,"finalUrl":"https://gulfbreezepoolsandspas.com/","identityMatched":true},
+    {"domain":"mdcelectric.com","status":200,"finalUrl":"https://mdcelectric.com/","identityMatched":true},
+    {"domain":"colsonselectric.com","status":200,"finalUrl":"https://www.colsonselectric.com/","identityMatched":true},
+    {"domain":"telfordreynoldselectric.com","status":200,"finalUrl":"https://telfordreynoldselectric.com/","identityMatched":true},
+    {"domain":"peaden.com","status":200,"finalUrl":"https://www.peaden.com/panama-city/electrical/whole-house-generators","identityMatched":true},
+    {"domain":"crestviewgenerators.com","status":200,"finalUrl":"https://crestviewgenerators.com/","identityMatched":true},
+    {"domain":"lgmlandscapeandirrigation.com","status":200,"finalUrl":"https://lgmlandscapeandirrigation.com/irrigation-installation","identityMatched":true},
+    {"domain":"terryslandscapinginc.com","status":200,"finalUrl":"https://www.terryslandscapinginc.com/irrigation-systems","identityMatched":true},
+    {"domain":"ccoutdoorservice.com","status":403,"finalUrl":"https://www.ccoutdoorservice.com/","identityMatched":true,"note":"Bot HTTP request was blocked; the official page rendered in indexed browser retrieval and its identity/content were manually reviewed."}
+  ]
+}

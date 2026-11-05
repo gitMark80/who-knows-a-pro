@@ -1,0 +1,95 @@
+{
+  "run": "fill1000ag",
+  "baselineCommit": "236137a17f1e7943c8e131e47128256478ffcbb1",
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Gulf Breeze Pools and Spas", "website": "https://gulfbreezepoolsandspas.com/", "regions": ["crestview-fl", "fort-walton-beach-fl"], "trades": ["pool-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site describes the company's own design and construction process for custom in-ground gunite, vinyl-liner and fiberglass swimming pools.",
+      "customerScope": "residential", "customerEvidence": "The official about and service pages describe backyard pools, custom pools for families, and completed pool projects at private homes and family residences.", "customerSourceUrl": "https://gulfbreezepoolsandspas.com/about/",
+      "geographicEvidence": "The official homepage names Crestview and Fort Walton Beach in its service area, and a dedicated Crestview page documents completed residential pool projects there.", "geographicSourceUrl": "https://gulfbreezepoolsandspas.com/pool-contractor-near-crestview-fl/",
+      "identityEvidence": "The official company website identifies Gulf Breeze Pools and Spas, founder and owner Mike Esmond, and the company's Northwest Florida pool-building history.", "officialWebsiteFinalUrl": "https://gulfbreezepoolsandspas.com/",
+      "evidenceNote": "Founder-owned regional pool builder whose official site describes custom residential in-ground pool construction and explicitly names Crestview and Fort Walton Beach in its service area.",
+      "sourceUrl": "https://gulfbreezepoolsandspas.com/about/", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://gulfbreezepoolsandspas.com/", "https://gulfbreezepoolsandspas.com/about/", "https://gulfbreezepoolsandspas.com/pool-contractor-near-crestview-fl/"], "baselineIdentity": "new"
+    },
+    {
+      "name": "MDC Electric, Inc.", "website": "https://mdcelectric.com/", "regions": ["panama-city-fl"], "trades": ["generator-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "The company states that its electricians provide standby-generator purchasing guidance and high-quality installation, and its services page lists whole-home generator installation.",
+      "customerScope": "residential", "customerEvidence": "The official site expressly offers standby and whole-home generator installation for customers preparing their homes for outages, alongside residential electrical work.", "customerSourceUrl": "https://mdcelectric.com/services/",
+      "geographicEvidence": "The official contact page identifies MDC Electric's operating address at 1100 Oak Avenue in Panama City, Florida 32401.", "geographicSourceUrl": "https://mdcelectric.com/contact/",
+      "identityEvidence": "The official website identifies MDC Electric, Inc., owner Mike Caughlin, its family-owned operation, Panama City address and local telephone number.", "officialWebsiteFinalUrl": "https://mdcelectric.com/",
+      "evidenceNote": "Owner-led, family-operated Panama City electrical contractor whose official services page lists whole-home generator installation for homes preparing for outages.",
+      "sourceUrl": "https://mdcelectric.com/services/", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://mdcelectric.com/", "https://mdcelectric.com/services/", "https://mdcelectric.com/contact/"], "baselineIdentity": "new"
+    },
+    {
+      "name": "Colson's Electrical Services", "website": "https://www.colsonselectric.com/", "regions": ["crestview-fl"], "trades": ["generator-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official generator page says the company's in-house team sizes, permits, installs, starts and maintains standby generators rather than referring customers to other vendors.",
+      "customerScope": "residential", "customerEvidence": "The generator page has a residential-generator section, explains whole-home backup systems, and says most residential installations are completed in one or two days.", "customerSourceUrl": "https://www.colsonselectric.com/generators",
+      "geographicEvidence": "The official Crestview service page says the company has performed electrical and standby-generator work in Crestview since 2018 and lists its Crestview street address.", "geographicSourceUrl": "https://www.colsonselectric.com/electrician-crestview",
+      "identityEvidence": "The official site identifies Colson's Electrical Services, LLC, its local Crestview operation, Florida license, team members and company contact information.", "officialWebsiteFinalUrl": "https://www.colsonselectric.com/",
+      "evidenceNote": "Locally owned Crestview electrical contractor whose official generator page says its in-house team sizes, permits, installs and maintains residential standby-generator systems.",
+      "sourceUrl": "https://www.colsonselectric.com/generators", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://www.colsonselectric.com/", "https://www.colsonselectric.com/generators", "https://www.colsonselectric.com/electrician-crestview"], "baselineIdentity": "new"
+    },
+    {
+      "name": "Telford Reynolds Electric", "website": "https://telfordreynoldselectric.com/", "regions": ["panama-city-fl"], "trades": ["generator-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site says its factory-trained technicians prepare the site, place the generator, run fuel lines, install the transfer switch and make electrical connections.",
+      "customerScope": "residential", "customerEvidence": "The official page repeatedly describes automatic home-backup generators, protecting a home during outages, installation outside the home and residential warranty service.", "customerSourceUrl": "https://telfordreynoldselectric.com/",
+      "geographicEvidence": "The official website displays Telford Reynolds Electric's location at 2814 County Road 390, Suite C, Panama City, Florida 32405.", "geographicSourceUrl": "https://telfordreynoldselectric.com/",
+      "identityEvidence": "The official branded site identifies Telford Reynolds Electric, its Panama City street address, local telephone number and company email address.", "officialWebsiteFinalUrl": "https://telfordreynoldselectric.com/",
+      "evidenceNote": "Panama City electrical business whose official site identifies its local office and explains its technicians' complete installation of automatic home-backup generators.",
+      "sourceUrl": "https://telfordreynoldselectric.com/", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://telfordreynoldselectric.com/"], "baselineIdentity": "new"
+    },
+    {
+      "name": "Peaden Air Conditioning, Plumbing & Electrical", "website": "https://www.peaden.com/", "regions": ["pensacola-fl", "fort-walton-beach-fl", "panama-city-fl"], "trades": ["generator-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "Dedicated official city pages say Peaden's own licensed professionals install, replace, repair and maintain whole-house generators and integrate transfer equipment.",
+      "customerScope": "residential", "customerEvidence": "Each cited official city page is directed to homeowners and describes permanent whole-house systems that power home HVAC, refrigeration, lighting and safety equipment.", "customerSourceUrl": "https://www.peaden.com/panama-city/electrical/whole-house-generators",
+      "geographicEvidence": "Separate official generator pages explicitly offer the same residential generator installation in Pensacola, Fort Walton Beach and Panama City, with local offices listed for the latter two.", "geographicSourceUrl": "https://www.peaden.com/fort-walton-beach/electrical/whole-house-generators",
+      "identityEvidence": "The official site says Robert Peaden founded the Panama City business in 1969 and identifies current family leadership and its locally owned Gulf Coast operation.", "officialWebsiteFinalUrl": "https://www.peaden.com/",
+      "evidenceNote": "Family-owned Gulf Coast company with dedicated official pages offering professional whole-house generator installation to homeowners in Pensacola, Fort Walton Beach and Panama City.",
+      "sourceUrl": "https://www.peaden.com/panama-city/electrical/whole-house-generators", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://www.peaden.com/about", "https://www.peaden.com/pensacola/electrical/whole-house-generators", "https://www.peaden.com/fort-walton-beach/electrical/whole-house-generators", "https://www.peaden.com/panama-city/electrical/whole-house-generators"], "baselineIdentity": "new"
+    },
+    {
+      "name": "Casey Electric Inc", "website": "https://crestviewgenerators.com/", "regions": ["crestview-fl"], "trades": ["generator-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official dealer site says Casey Electric's factory-trained technicians place generators, run fuel lines, install transfer switches and complete electrical connections.",
+      "customerScope": "residential", "customerEvidence": "The site specifically describes home-backup generators, protecting the home during outages, installation outside a home and ongoing residential system maintenance.", "customerSourceUrl": "https://crestviewgenerators.com/",
+      "geographicEvidence": "The official site lists Casey Electric Inc at 225 North Ferdon Boulevard in Crestview, Florida 32536, with its local phone and company email.", "geographicSourceUrl": "https://crestviewgenerators.com/",
+      "identityEvidence": "The official branded dealer website identifies Casey Electric Inc, its Crestview street address, its company-domain email and local business telephone number.", "officialWebsiteFinalUrl": "https://crestviewgenerators.com/",
+      "evidenceNote": "Crestview electrical contractor whose official dealer site lists its local street address and describes factory-trained technicians installing complete home-backup generator systems.",
+      "sourceUrl": "https://crestviewgenerators.com/", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://crestviewgenerators.com/"], "baselineIdentity": "new"
+    },
+    {
+      "name": "LGM Landscape and Irrigation, LLC", "website": "https://lgmlandscapeandirrigation.com/", "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl", "panama-city-fl"], "trades": ["irrigation-sprinkler-repair"],
+      "providerRole": "direct-provider", "providerEvidence": "The official page says LGM's designers produce irrigation plans and its company installs new systems, upgrades existing systems and performs the associated work.",
+      "customerScope": "residential", "customerEvidence": "The official irrigation-installation page expressly states that LGM installs irrigation systems at residential properties and discusses watering customer yards and gardens.", "customerSourceUrl": "https://lgmlandscapeandirrigation.com/irrigation-installation",
+      "geographicEvidence": "The same official page lists Destin, Fort Walton Beach, Panama City and Crestview among the Northwest Florida cities the company services.", "geographicSourceUrl": "https://lgmlandscapeandirrigation.com/irrigation-installation",
+      "identityEvidence": "The official website identifies LGM Landscape and Irrigation, LLC and presents its own irrigation design and installation services under the company brand.", "officialWebsiteFinalUrl": "https://lgmlandscapeandirrigation.com/",
+      "evidenceNote": "Direct-service irrigation contractor whose official installation page expressly offers residential system design and installation and names Crestview, Destin, Fort Walton Beach and Panama City.",
+      "sourceUrl": "https://lgmlandscapeandirrigation.com/irrigation-installation", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://lgmlandscapeandirrigation.com/", "https://lgmlandscapeandirrigation.com/irrigation-installation"], "baselineIdentity": "new"
+    },
+    {
+      "name": "Terry's Landscape, Inc.", "website": "https://www.terryslandscapinginc.com/", "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl"], "trades": ["irrigation-sprinkler-repair"],
+      "providerRole": "direct-provider", "providerEvidence": "The official irrigation page says the licensed and insured Terry's team directly installs new water-sprinkler systems and repairs existing systems.",
+      "customerScope": "residential", "customerEvidence": "The official page expressly says the family-owned company installs residential irrigation systems and frames the service around watering lawns and home landscapes.", "customerSourceUrl": "https://www.terryslandscapinginc.com/irrigation-systems",
+      "geographicEvidence": "The official irrigation page specifically says the company installs and repairs systems throughout Crestview, Fort Walton Beach, Niceville and Destin.", "geographicSourceUrl": "https://www.terryslandscapinginc.com/irrigation-systems",
+      "identityEvidence": "The official company website identifies Terry's Landscape, Inc., its family-owned operation, more than 35 years of experience and local contact number.", "officialWebsiteFinalUrl": "https://www.terryslandscapinginc.com/",
+      "evidenceNote": "Family-owned irrigation installer whose official page says its team installs residential sprinkler systems throughout Crestview, Fort Walton Beach and Destin.",
+      "sourceUrl": "https://www.terryslandscapinginc.com/irrigation-systems", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://www.terryslandscapinginc.com/", "https://www.terryslandscapinginc.com/irrigation-systems"], "baselineIdentity": "new"
+    },
+    {
+      "name": "C&C Outdoor Service", "website": "https://www.ccoutdoorservice.com/", "regions": ["destin-fl", "fort-walton-beach-fl"], "trades": ["irrigation-sprinkler-repair"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site says the company installs new irrigation systems and identifies owner Cole Hackney as responsible for landscape and irrigation installation.",
+      "customerScope": "residential", "customerEvidence": "The official site states that it serves homeowners, installs irrigation systems, provides outdoor lighting for homes and maintains residential properties.", "customerSourceUrl": "https://www.ccoutdoorservice.com/",
+      "geographicEvidence": "The official projects section says the company's outdoor and irrigation projects are found in Destin and Fort Walton Beach along the Emerald Coast.", "geographicSourceUrl": "https://www.ccoutdoorservice.com/",
+      "identityEvidence": "The official C&C Outdoor Service site identifies owners Cole Hackney and Cale Pierce, their respective installation and service roles, and local telephone numbers.", "officialWebsiteFinalUrl": "https://www.ccoutdoorservice.com/",
+      "evidenceNote": "Owner-identified regional outdoor contractor whose official site offers new irrigation-system installation for residential properties and documents projects in Destin and Fort Walton Beach.",
+      "sourceUrl": "https://www.ccoutdoorservice.com/", "sourceVerifiedAt": "2026-11-05T23:05:00.000Z", "supportingUrls": ["https://www.ccoutdoorservice.com/"], "baselineIdentity": "new"
+    }
+  ],
+  "pending": [
+    {"name": "Fort Walton Locksmith", "reason": "Generic near-duplicate site and telephone pattern; independent identity and ownership not established."},
+    {"name": "Crestview Locksmith", "reason": "Generic near-duplicate site and telephone pattern; independent identity and ownership not established."},
+    {"name": "AutoWorks Towing & Recovery", "reason": "Direct-service claims found, but independent ownership and business identity require corroboration."},
+    {"name": "Helmer Pools", "reason": "Residential pool work found, but explicit target-city service text was not established."}
+  ]
+}
