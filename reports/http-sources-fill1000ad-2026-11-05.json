@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-11-05T16:57:20.234889+00:00",
+  "results": [
+    {
+      "url": "https://www.maecollision.com/navarre",
+      "status": 200,
+      "finalUrl": "https://www.maecollision.com/navarre",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://mobilebayohd.com/",
+      "ok": false,
+      "errors": [
+        "HTTPError: HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "url": "https://mobilebayohd.com/garage-door-service-area/",
+      "ok": false,
+      "errors": [
+        "HTTPError: HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "url": "https://jlgsepticllc.com/",
+      "status": 200,
+      "finalUrl": "https://jlgsepticllc.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://jlgsepticllc.com/service-areas/mississippi/biloxi/",
+      "status": 200,
+      "finalUrl": "https://jlgsepticllc.com/service-areas/mississippi/biloxi/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://nathansseptic.com/",
+      "status": 200,
+      "finalUrl": "https://nathansseptic.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://dothanpowersports.com/",
+      "status": 200,
+      "finalUrl": "https://dothanpowersports.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://dothanpowersports.com/service",
+      "status": 200,
+      "finalUrl": "https://dothanpowersports.com/service",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://www.pinckardgaragedoors.com/",
+      "status": 200,
+      "finalUrl": "https://www.pinckardgaragedoors.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://gopest.net/",
+      "status": 200,
+      "finalUrl": "https://gopest.net/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://gopest.net/services/residential-pest-control/",
+      "status": 200,
+      "finalUrl": "https://gopest.net/services/residential-pest-control/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://happyhomeinsulation.com/",
+      "status": 200,
+      "finalUrl": "https://happyhomeinsulation.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://newaypools.com/",
+      "status": 200,
+      "finalUrl": "https://newaypools.com/",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    },
+    {
+      "url": "https://newaypools.com/pace-fl/",
+      "status": 200,
+      "finalUrl": "https://newaypools.com/pace-fl",
+      "ok": true,
+      "attempt": 1,
+      "priorErrors": []
+    }
+  ]
+}

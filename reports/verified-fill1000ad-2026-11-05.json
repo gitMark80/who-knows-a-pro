@@ -1,0 +1,191 @@
+{
+  "baselineCommit": "af0e2480e716dc5be3364712c853b1234d8ff88c",
+  "continuationOf": "reports/progress-fill1000ac-2026-11-05.md",
+  "verifiedAt": "2026-11-05T16:56:45.337Z",
+  "target": 11,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 5,
+  "newBusinessShortfall": 995,
+  "placementsFromNewBusinesses": 7,
+  "placementsFromPreviouslyListedBusinesses": 4,
+  "status": "prepared_not_published",
+  "placementCount": 11,
+  "sourceRecordCount": 9,
+  "uniqueBusinessDomains": 9,
+  "additionsByCity": {
+    "pace-fl": 1,
+    "milton-fl": 1,
+    "navarre-fl": 1,
+    "orange-beach-al": 1,
+    "fairhope-al": 1,
+    "daphne-al": 2,
+    "mobile-al": 1,
+    "biloxi-ms": 1,
+    "dothan-al": 1,
+    "new-orleans-la": 1
+  },
+  "additionsByCategory": {
+    "pool-installation": 1,
+    "garage-door-repair": 4,
+    "auto-body-collision": 1,
+    "insulation": 1,
+    "pest-control": 1,
+    "septic-services": 2,
+    "marine-services": 1
+  },
+  "additionsByBusiness": {
+    "Neway Pools": 1,
+    "Pinckard Garage Doors": 1,
+    "MAE Collision - Navarre": 1,
+    "Overhead Door Company of Mobile Bay": 3,
+    "Happy Home Insulation": 1,
+    "GoPest": 1,
+    "JLG Septic Services": 1,
+    "Dothan Powersports": 1,
+    "Nathan's Septic Service": 1
+  },
+  "selectionRule": "Priority cities first at their lowest displayed counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 840,
+    "pairsBelow20": 360,
+    "deficit": 1408
+  },
+  "prepared": {
+    "pairsAt20": 848,
+    "pairsBelow20": 352,
+    "deficit": 1397,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [
+    "navarre-fl|auto-body-collision",
+    "orange-beach-al|garage-door-repair",
+    "mobile-al|garage-door-repair",
+    "milton-fl|garage-door-repair",
+    "pace-fl|pool-installation",
+    "fairhope-al|garage-door-repair",
+    "daphne-al|pest-control",
+    "daphne-al|insulation"
+  ],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Neway Pools",
+      "website": "https://newaypools.com/",
+      "regions": [
+        "pace-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "sourceUrl": "https://newaypools.com/pace-fl/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "Neway Pools' official Pace page offers custom pool construction and renovation for residential backyards and specifically markets the company's pool-building service in Pace."
+    },
+    {
+      "name": "Pinckard Garage Doors",
+      "website": "https://www.pinckardgaragedoors.com/",
+      "regions": [
+        "milton-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://www.pinckardgaragedoors.com/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "Pinckard Garage Doors' official site offers garage-door installation and repair to homeowners and identifies its family-run operating location on Woodbine Road in Milton."
+    },
+    {
+      "name": "MAE Collision - Navarre",
+      "website": "https://www.maecollision.com/navarre",
+      "regions": [
+        "navarre-fl"
+      ],
+      "trades": [
+        "auto-body-collision"
+      ],
+      "sourceUrl": "https://www.maecollision.com/navarre",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "MAE Collision's official Navarre page offers full vehicle body repair, frame straightening, scratch and dent removal, glass work and paintless dent repair directly to drivers in Navarre."
+    },
+    {
+      "name": "Overhead Door Company of Mobile Bay",
+      "website": "https://mobilebayohd.com/",
+      "regions": [
+        "orange-beach-al",
+        "fairhope-al",
+        "mobile-al"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://mobilebayohd.com/garage-door-service-area/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "Overhead Door Company of Mobile Bay's official service-area page offers residential garage-door sales, installation and repair and explicitly names Orange Beach, Fairhope and Mobile."
+    },
+    {
+      "name": "Happy Home Insulation",
+      "website": "https://happyhomeinsulation.com/",
+      "regions": [
+        "daphne-al"
+      ],
+      "trades": [
+        "insulation"
+      ],
+      "sourceUrl": "https://happyhomeinsulation.com/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "Happy Home Insulation's official site offers attic, roofline and crawlspace insulation for homes and explicitly identifies Daphne among the Eastern Shore communities served."
+    },
+    {
+      "name": "GoPest",
+      "website": "https://gopest.net/",
+      "regions": [
+        "daphne-al"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://gopest.net/services/residential-pest-control/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "GoPest's official residential page offers direct home pest treatments and prevention and explicitly names Daphne among the Alabama Gulf Coast communities served."
+    },
+    {
+      "name": "JLG Septic Services",
+      "website": "https://jlgsepticllc.com/",
+      "regions": [
+        "biloxi-ms"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://jlgsepticllc.com/service-areas/mississippi/biloxi/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "JLG Septic Services' official Biloxi page prices residential septic pumping and describes service for Biloxi homes, septic tanks and drain fields by its local septic technicians."
+    },
+    {
+      "name": "Dothan Powersports",
+      "website": "https://dothanpowersports.com/",
+      "regions": [
+        "dothan-al"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://dothanpowersports.com/service",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "Dothan Powersports' official service page offers diagnostics, repair and maintenance for customers' personal watercraft and trailers at its staffed Dothan repair shop."
+    },
+    {
+      "name": "Nathan's Septic Service",
+      "website": "https://nathansseptic.com/",
+      "regions": [
+        "new-orleans-la"
+      ],
+      "trades": [
+        "septic-services"
+      ],
+      "sourceUrl": "https://nathansseptic.com/",
+      "sourceVerifiedAt": "2026-11-05T16:52:12Z",
+      "evidenceNote": "Nathan's Septic Service's official site offers septic tank cleaning and septic solutions to homeowners and states that the licensed company serves the entire New Orleans area."
+    }
+  ]
+}
