@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-05T18:52:03.737Z",
-  "excludedDomainRules": 208,
-  "generatedPlacements": 15427,
-  "generatedProfiles": 3721,
+  "checkedAt": "2026-11-05T19:04:38.485Z",
+  "excludedDomainRules": 304,
+  "generatedPlacements": 14051,
+  "generatedProfiles": 3609,
   "assertions": [
     {
       "name": "excluded domain rules are unique",
       "pass": true,
-      "detail": "208 rules"
+      "detail": "304 rules"
     },
     {
       "name": "generated directory has no excluded websites",
