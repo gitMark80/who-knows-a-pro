@@ -2,7 +2,7 @@
   "run": "fill500ae",
   "baselineCommit": "86c1066f06546c1e8e7dc7ff5d913c73317cff38",
   "targetDistinctNewBusinesses": 500,
-  "status": "third_checkpoint_live_fourth_prepared",
+  "status": "checkpoint_saved_incomplete_500_target",
   "historicalCoverage": "unknown_until_full_qualification_audit",
   "records": [
     {
@@ -33,7 +33,11 @@
         "al-lenlock.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Armstrong Lock & Security Products",
@@ -63,7 +67,11 @@
         "armstronglock.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Arrow Locksmith and Door Co.",
@@ -93,7 +101,11 @@
         "arrowlocksmith.net|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Integrity Locksmith Services",
@@ -123,7 +135,11 @@
         "integritylocksmithservices.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Reference Locksmith",
@@ -153,7 +169,11 @@
         "referencelocksmith.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Veteran Lock & Safe Inc.",
@@ -183,7 +203,11 @@
         "veteranlockandsafe.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Pro Locksmiths",
@@ -213,7 +237,11 @@
         "prolocksmithsorlando.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "All American Locksmith",
@@ -243,7 +271,11 @@
         "allamericanlocksmithfl.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Wilson Rowan Locksmith",
@@ -273,7 +305,11 @@
         "wilsonrowanlocksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": "Dynamic address placeholders omitted."
+      "limitations": "Dynamic address placeholders omitted.",
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Y.D.G. Locksmith",
@@ -303,7 +339,11 @@
         "ydglocksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Royal Locksmith",
@@ -333,7 +373,11 @@
         "royallocksmithfl.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Door N Key Locksmith",
@@ -363,7 +407,11 @@
         "doornkey.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "A American Locksmith",
@@ -393,7 +441,11 @@
         "aamericanlocksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Payless Locksmith Inc.",
@@ -424,7 +476,11 @@
         "paylesslocksmith.net|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": "Fort Lauderdale is served by the Lake Park mobile operation, not a claimed local shop."
+      "limitations": "Fort Lauderdale is served by the Lake Park mobile operation, not a claimed local shop.",
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Kwikey Locksmith Services Inc",
@@ -454,7 +510,11 @@
         "kwikeylocksmithservices.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "IBS Locksmith",
@@ -484,7 +544,11 @@
         "ibslocksmith.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Handyman All Around",
@@ -517,7 +581,11 @@
         "bestinwpb.com|west-palm-beach-fl|appliance-repair"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Land's Lawn and Pest",
@@ -548,7 +616,11 @@
         "landslawn.com|panama-city-fl|pest-control"
       ],
       "baselineIdentity": "previously_listed",
-      "limitations": "Outdoor yard pest treatment only."
+      "limitations": "Outdoor yard pest treatment only.",
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": false
     },
     {
       "name": "Ameripro Garage Doors",
@@ -580,7 +652,11 @@
         "ameriprogaragedoors.com|panama-city-fl|garage-door-repair"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Access Locksmith & Security",
@@ -616,7 +692,11 @@
         "access-locksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "US1 Locksmith",
@@ -646,7 +726,11 @@
         "us1locksmithfl.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "All Safe Security & Lock",
@@ -678,7 +762,11 @@
         "yoursecurityexperts.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "pending_official_destination_recheck",
+      "countedAsCompletedNewBusiness": false
     },
     {
       "name": "D Locksmith",
@@ -709,7 +797,11 @@
         "d-locksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Royal Palm Beach Locksmith",
@@ -740,7 +832,11 @@
         "royalpalmbeachlocksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "About Town Lock & Safe Co.",
@@ -772,7 +868,11 @@
         "abouttownlock.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Levi Universal Locksmith",
@@ -803,7 +903,11 @@
         "levilocksmith.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "A Plus Locksmith & Keys",
@@ -833,7 +937,11 @@
         "locksmithall.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Pro Locksmith LLC",
@@ -865,7 +973,11 @@
         "prolocksmithllc.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Alpha Lock & Key",
@@ -898,7 +1010,11 @@
         "thealphalockandkey.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Superior Spray Service Inc.",
@@ -932,7 +1048,11 @@
         "superiorspray.com|fort-walton-beach-fl|pest-control"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "CN USA Locksmith",
@@ -963,7 +1083,11 @@
         "cnusalocksmith.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "305 Lock & Key",
@@ -993,7 +1117,11 @@
         "305lockandkey.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "The Lock Doc",
@@ -1023,7 +1151,11 @@
         "thelockdocfl.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Lockman Security Inc.",
@@ -1058,7 +1190,11 @@
         "lockmansec.com|west-palm-beach-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Lock N Smith LLC",
@@ -1088,7 +1224,11 @@
         "locknsmith.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Miami Vice Keys Locksmith",
@@ -1118,7 +1258,11 @@
         "vicekeys.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "East Orlando Locksmith",
@@ -1148,7 +1292,11 @@
         "eastorlandolocksmith.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Smiley Locksmith",
@@ -1179,7 +1327,11 @@
         "smileylocksmith.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "US Locksmith",
@@ -1211,7 +1363,11 @@
         "us-locksmith.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Y & J Locksmith",
@@ -1241,7 +1397,11 @@
         "locksmithservicemiami.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Miami Doors & Locks Security",
@@ -1271,7 +1431,11 @@
         "miamidoorsandlocks.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Quickly Locksmith Miami",
@@ -1301,7 +1465,11 @@
         "quicklymiamilocksmith.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Advance Auto Locksmith",
@@ -1331,7 +1499,11 @@
         "advanceautolocksmith.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "AT Home Keys",
@@ -1362,7 +1534,11 @@
         "athomekeys.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Sonic Locksmith",
@@ -1392,7 +1568,11 @@
         "soniclocksmith.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Michael Lock & Key",
@@ -1422,7 +1602,11 @@
         "michaellockandkey.com|orlando-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "A&O Premium Locksmith",
@@ -1453,7 +1637,11 @@
         "aopremiumlocksmith.com|miami-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Ben's Locksmith",
@@ -1484,7 +1672,11 @@
         "emergencylocksmithfl.com|fort-lauderdale-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Whitton Works",
@@ -1517,7 +1709,11 @@
         "whittonworks.com|crestview-fl|pool-service"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "FLOKEY Lock & Security",
@@ -1551,7 +1747,11 @@
         "flokeylock.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Anchor Pest Control",
@@ -1583,7 +1783,11 @@
         "anchorpestcontrol.com|pensacola-fl|pest-control"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Southern Tide Pools",
@@ -1614,7 +1818,11 @@
         "southerntidepools.com|crestview-fl|pool-service"
       ],
       "baselineIdentity": "previously_listed",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": false
     },
     {
       "name": "Pinellas Lock & Key LLC",
@@ -1647,7 +1855,11 @@
         "pinellaslockandkey.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Florida Keys Locksmith",
@@ -1677,7 +1889,11 @@
         "floridakeyslocksmith.com|clearwater-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Act Now Locksmith",
@@ -1709,7 +1925,11 @@
         "actnowlocksmith.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Countryside Locksmith",
@@ -1742,7 +1962,11 @@
         "cslock.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Wizard Safe & Lock Inc.",
@@ -1772,7 +1996,11 @@
         "wizardsafeandlock.com|clearwater-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Sunshine Locksmith Team LLC",
@@ -1804,7 +2032,11 @@
         "sunshinelocksmith.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Mr. McPick Locksmith",
@@ -1837,7 +2069,11 @@
         "mrmcpick.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "E2 Anderson Pool Care & Repair",
@@ -1869,7 +2105,11 @@
         "e2pools.com|fort-walton-beach-fl|pool-service"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Kap Home Solutions LLC",
@@ -1901,7 +2141,11 @@
         "kaphomesolutions.com|panama-city-fl|electrical"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Forever Blue Pool and Spa",
@@ -1932,7 +2176,11 @@
         "foreverbluepoolandspa.com|destin-fl|pool-service"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "iMLocksmith Inc.",
@@ -1966,7 +2214,11 @@
         "imlocksmith.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Locksmith and Doors",
@@ -2001,7 +2253,11 @@
         "locksmithanddoor.com|st-petersburg-fl|locksmith"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Phillips Pool Service",
@@ -2035,7 +2291,11 @@
         "phillipspoolservice.com|panama-city-beach-fl|pool-service"
       ],
       "baselineIdentity": "new",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": true
     },
     {
       "name": "Splash Pools of NWFL",
@@ -2065,7 +2325,11 @@
         "splashpoolsnwfl.com|panama-city-fl|pool-service"
       ],
       "baselineIdentity": "previously_listed",
-      "limitations": null
+      "limitations": null,
+      "publicationStatus": "published_live",
+      "publicVisibilityVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+      "completionStatus": "qualified_published_live_verified",
+      "countedAsCompletedNewBusiness": false
     }
   ],
   "pending": [
@@ -2367,16 +2631,48 @@
   "publication": {
     "firstCommit": "222c6a08eebe23a1e04f74511de15e27683c4140",
     "firstDeployment": "dpl_AoqEX54cvnTtqjZvdrHdP4fEuBsP",
-    "businessesPublished": 62,
-    "placementsPublished": 79,
-    "currentlyAllChecksCompleteNewBusinesses": 61,
+    "businessesPublished": 63,
+    "placementsPublished": 83,
+    "currentlyAllChecksCompleteNewBusinesses": 62,
     "publishedOfficialRecheckPending": 1,
-    "additionalNewBusinessesPrepared": 1,
-    "additionalPlacementsPrepared": 4,
-    "shortfallAgainst500": 439,
+    "additionalNewBusinessesPrepared": 0,
+    "additionalPlacementsPrepared": 0,
+    "shortfallAgainst500": 438,
     "secondCommit": "1754a72826158cc6f473a787086ec297c3bd699b",
     "secondDeployment": "dpl_AdMhCVz7obpGCv9LRrUdpU9X7VgL",
     "thirdCommit": "946a9e479fa48630f402edba416bacc8fcd77472",
-    "thirdDeployment": "dpl_6TRdATUES4KCnQEbJxG3xzGfy7n1"
+    "thirdDeployment": "dpl_6TRdATUES4KCnQEbJxG3xzGfy7n1",
+    "fourthCommit": "15a6bed72d7565a14cce516dd7f958160ae38fce",
+    "fourthDeployment": "dpl_G1Jm7RjoL2pJbkFRJGh5bo9gqWZU",
+    "placementsFromNewBusinesses": 80,
+    "placementsFromExistingBusinesses": 3,
+    "currentlyAllChecksCompletePlacements": 82,
+    "publicPlacementsVerified": 83,
+    "publicProfilesVerified": 66,
+    "liveVerifiedAt": "2026-11-05T20:17:36.799510+00:00"
+  },
+  "runLimitation": "500 distinct new businesses were not completed within this execution session. Research and qualification throughput, identity checks, and official-site access blockers limited completed additions. No permission or publishing access blocker; no claim of a genuine market-wide shortage. Resume remaining gaps from current main.",
+  "coverageSummary": {
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "hiddenCategoriesPreserved": 10,
+    "publicPages": 1200,
+    "displayedPagesAt20": 157,
+    "displayedPagesBelow20": 1043,
+    "displayedEmptyPages": 0,
+    "displayedDeficit": 11378,
+    "verifiedPagesAt20": null,
+    "verifiedPagesBelow20": null,
+    "verifiedEmptyPages": null,
+    "qualifyingDeficit": null,
+    "historicalQualification": "unknown_pending_full_audit"
+  },
+  "researchDispositionCounts": {
+    "publishedBusinessIdentitiesIncludingExisting": 66,
+    "unpublishedPendingCandidatesOrPlacements": 21,
+    "rejectedCandidates": 6,
+    "qualifiedWithoutUnderfilledVisiblePage": 1,
+    "existingCandidateNamesReviewedNotCountedAsNew": 51,
+    "note": "Existing-candidate names can overlap published existing-business placements; do not sum these fields as a distinct-business total."
   }
 }

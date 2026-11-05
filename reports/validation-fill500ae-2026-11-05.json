@@ -1,6 +1,6 @@
 {
   "baselineCommit": "86c1066f06546c1e8e7dc7ff5d913c73317cff38",
-  "status": "prepared_not_published",
+  "status": "published_live_verified_with_one_official_recheck_pending",
   "checkedAt": "2026-11-05T20:14:39.989Z",
   "baselinePreserved": 14051,
   "newBusinessesPrepared": 63,
@@ -8,7 +8,7 @@
   "placementsFromNewBusinesses": 80,
   "placementsFromExistingBusinesses": 3,
   "target": 500,
-  "shortfallPendingLiveVerification": 500,
+  "shortfallPendingLiveVerification": 438,
   "totalPages": 1200,
   "displayedPagesAt20": 157,
   "displayedPagesBelow20": 1043,
@@ -1429,5 +1429,21 @@
       "emailVerifiedAt": null
     }
   ],
-  "coverageFile": "reports/coverage-fill500ae-2026-11-05.csv"
+  "coverageFile": "reports/coverage-fill500ae-2026-11-05.csv",
+  "newBusinessesCommitted": 63,
+  "newBusinessesDeployed": 63,
+  "newBusinessesLiveVerified": 62,
+  "placementsCommitted": 83,
+  "placementsDeployed": 83,
+  "publicPlacementsLiveVerified": 83,
+  "qualifiedPlacementsLiveVerified": 82,
+  "qualifiedPlacementsFromNewBusinesses": 79,
+  "qualifiedPlacementsFromExistingBusinesses": 3,
+  "shortfallAgainst500": 438,
+  "sourceCommit": "15a6bed72d7565a14cce516dd7f958160ae38fce",
+  "deploymentId": "dpl_G1Jm7RjoL2pJbkFRJGh5bo9gqWZU",
+  "liveVerifiedAt": "2026-11-05T20:17:36.799510+00:00",
+  "publishedOfficialRecheckPending": 1,
+  "verifiedPagesBelow20": null,
+  "verifiedEmptyPages": null
 }
