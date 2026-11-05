@@ -2,7 +2,7 @@
   "run": "fill500ae",
   "baselineCommit": "86c1066f06546c1e8e7dc7ff5d913c73317cff38",
   "targetDistinctNewBusinesses": 500,
-  "status": "first_checkpoint_live_second_prepared",
+  "status": "second_checkpoint_live_third_prepared",
   "historicalCoverage": "unknown_until_full_qualification_audit",
   "records": [
     {
@@ -1518,6 +1518,490 @@
       ],
       "baselineIdentity": "new",
       "limitations": null
+    },
+    {
+      "name": "FLOKEY Lock & Security",
+      "website": "https://flokeylock.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://flokeylock.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The independent family-owned Dunedin locksmith sends its own technicians for home lock installation, repair and rekeying. Official city pages explicitly describe residential work in Clearwater and St. Petersburg; this is service coverage, not a claimed office in either city.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The independent family-owned Dunedin locksmith sends its own technicians for home lock installation, repair and rekeying. Official city pages explicitly describe residential work in Clearwater and St. Petersburg; this is service coverage, not a claimed office in either city.",
+      "customerScope": "residential",
+      "customerEvidence": "The independent family-owned Dunedin locksmith sends its own technicians for home lock installation, repair and rekeying. Official city pages explicitly describe residential work in Clearwater and St. Petersburg; this is service coverage, not a claimed office in either city.",
+      "customerSourceUrl": "https://flokeylock.com/",
+      "geographicEvidence": "The independent family-owned Dunedin locksmith sends its own technicians for home lock installation, repair and rekeying. Official city pages explicitly describe residential work in Clearwater and St. Petersburg; this is service coverage, not a claimed office in either city.",
+      "geographicSourceUrl": "https://flokeylock.com/locksmith-st-petersburg-fl/",
+      "identityEvidence": "The independent family-owned Dunedin locksmith sends its own technicians for home lock installation, repair and rekeying. Official city pages explicitly describe residential work in Clearwater and St. Petersburg; this is service coverage, not a claimed office in either city.",
+      "officialWebsiteFinalUrl": "https://flokeylock.com/",
+      "supportingUrls": [
+        "https://flokeylock.com/",
+        "https://flokeylock.com/locksmith-clearwater-fl/",
+        "https://flokeylock.com/locksmith-st-petersburg-fl/"
+      ],
+      "placementKeys": [
+        "flokeylock.com|clearwater-fl|locksmith",
+        "flokeylock.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Anchor Pest Control",
+      "website": "https://www.anchorpestcontrol.com/",
+      "regions": [
+        "pensacola-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.anchorpestcontrol.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The second-generation Pensacola pest-control company identifies owner Lance Davis and its own trained technicians. Its official residential page describes inside/outside home treatments and quarterly pest control, and explicitly states Pensacola service. No coverage is inferred from the broad Panhandle claim.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The second-generation Pensacola pest-control company identifies owner Lance Davis and its own trained technicians. Its official residential page describes inside/outside home treatments and quarterly pest control, and explicitly states Pensacola service. No coverage is inferred from the broad Panhandle claim.",
+      "customerScope": "residential",
+      "customerEvidence": "The second-generation Pensacola pest-control company identifies owner Lance Davis and its own trained technicians. Its official residential page describes inside/outside home treatments and quarterly pest control, and explicitly states Pensacola service. No coverage is inferred from the broad Panhandle claim.",
+      "customerSourceUrl": "https://www.anchorpestcontrol.com/",
+      "geographicEvidence": "The second-generation Pensacola pest-control company identifies owner Lance Davis and its own trained technicians. Its official residential page describes inside/outside home treatments and quarterly pest control, and explicitly states Pensacola service. No coverage is inferred from the broad Panhandle claim.",
+      "geographicSourceUrl": "https://www.anchorpestcontrol.com/contact.php",
+      "identityEvidence": "The second-generation Pensacola pest-control company identifies owner Lance Davis and its own trained technicians. Its official residential page describes inside/outside home treatments and quarterly pest control, and explicitly states Pensacola service. No coverage is inferred from the broad Panhandle claim.",
+      "officialWebsiteFinalUrl": "https://www.anchorpestcontrol.com/",
+      "supportingUrls": [
+        "https://www.anchorpestcontrol.com/",
+        "https://www.anchorpestcontrol.com/pest-control/residential.php",
+        "https://www.anchorpestcontrol.com/contact.php"
+      ],
+      "placementKeys": [
+        "anchorpestcontrol.com|pensacola-fl|pest-control"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Southern Tide Pools",
+      "website": "https://www.southerntidepools.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.southerntidepools.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The existing regional pool-service business employs its own technicians for residential pool cleaning, maintenance and repair. Its official Crestview page describes weekly vacuuming, netting and maintenance in Crestview, supported by the homepage's explicit residential service. This adds one placement, not a new business.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The existing regional pool-service business employs its own technicians for residential pool cleaning, maintenance and repair. Its official Crestview page describes weekly vacuuming, netting and maintenance in Crestview, supported by the homepage's explicit residential service. This adds one placement, not a new business.",
+      "customerScope": "residential",
+      "customerEvidence": "The existing regional pool-service business employs its own technicians for residential pool cleaning, maintenance and repair. Its official Crestview page describes weekly vacuuming, netting and maintenance in Crestview, supported by the homepage's explicit residential service. This adds one placement, not a new business.",
+      "customerSourceUrl": "https://www.southerntidepools.com/",
+      "geographicEvidence": "The existing regional pool-service business employs its own technicians for residential pool cleaning, maintenance and repair. Its official Crestview page describes weekly vacuuming, netting and maintenance in Crestview, supported by the homepage's explicit residential service. This adds one placement, not a new business.",
+      "geographicSourceUrl": "https://www.southerntidepools.com/general-1-5",
+      "identityEvidence": "The existing regional pool-service business employs its own technicians for residential pool cleaning, maintenance and repair. Its official Crestview page describes weekly vacuuming, netting and maintenance in Crestview, supported by the homepage's explicit residential service. This adds one placement, not a new business.",
+      "officialWebsiteFinalUrl": "https://www.southerntidepools.com/",
+      "supportingUrls": [
+        "https://www.southerntidepools.com/",
+        "https://www.southerntidepools.com/general-1-5"
+      ],
+      "placementKeys": [
+        "southerntidepools.com|crestview-fl|pool-service"
+      ],
+      "baselineIdentity": "previously_listed",
+      "limitations": null
+    },
+    {
+      "name": "Pinellas Lock & Key LLC",
+      "website": "https://pinellaslockandkey.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://pinellaslockandkey.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "Owner Karl personally delivers mobile locksmith work rather than referring calls. The official residential page offers home lock installation, and the homepage describes rekeying/deadbolts and explicitly lists Clearwater and St. Petersburg in its service area.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Owner Karl personally delivers mobile locksmith work rather than referring calls. The official residential page offers home lock installation, and the homepage describes rekeying/deadbolts and explicitly lists Clearwater and St. Petersburg in its service area.",
+      "customerScope": "residential",
+      "customerEvidence": "Owner Karl personally delivers mobile locksmith work rather than referring calls. The official residential page offers home lock installation, and the homepage describes rekeying/deadbolts and explicitly lists Clearwater and St. Petersburg in its service area.",
+      "customerSourceUrl": "https://pinellaslockandkey.com/",
+      "geographicEvidence": "Owner Karl personally delivers mobile locksmith work rather than referring calls. The official residential page offers home lock installation, and the homepage describes rekeying/deadbolts and explicitly lists Clearwater and St. Petersburg in its service area.",
+      "geographicSourceUrl": "https://pinellaslockandkey.com/residential",
+      "identityEvidence": "Owner Karl personally delivers mobile locksmith work rather than referring calls. The official residential page offers home lock installation, and the homepage describes rekeying/deadbolts and explicitly lists Clearwater and St. Petersburg in its service area.",
+      "officialWebsiteFinalUrl": "https://pinellaslockandkey.com/",
+      "supportingUrls": [
+        "https://pinellaslockandkey.com/",
+        "https://pinellaslockandkey.com/residential"
+      ],
+      "placementKeys": [
+        "pinellaslockandkey.com|clearwater-fl|locksmith",
+        "pinellaslockandkey.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Florida Keys Locksmith",
+      "website": "https://www.floridakeyslocksmith.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.floridakeyslocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The family-owned regional locksmith operates a fully equipped mobile service for homeowners, including rekeying, home lockouts, deadbolts and lock repair. Its official site specifically names Clearwater among served cities. The brand name does not mean a Florida Keys location.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The family-owned regional locksmith operates a fully equipped mobile service for homeowners, including rekeying, home lockouts, deadbolts and lock repair. Its official site specifically names Clearwater among served cities. The brand name does not mean a Florida Keys location.",
+      "customerScope": "residential",
+      "customerEvidence": "The family-owned regional locksmith operates a fully equipped mobile service for homeowners, including rekeying, home lockouts, deadbolts and lock repair. Its official site specifically names Clearwater among served cities. The brand name does not mean a Florida Keys location.",
+      "customerSourceUrl": "https://www.floridakeyslocksmith.com/",
+      "geographicEvidence": "The family-owned regional locksmith operates a fully equipped mobile service for homeowners, including rekeying, home lockouts, deadbolts and lock repair. Its official site specifically names Clearwater among served cities. The brand name does not mean a Florida Keys location.",
+      "geographicSourceUrl": "https://www.floridakeyslocksmith.com/",
+      "identityEvidence": "The family-owned regional locksmith operates a fully equipped mobile service for homeowners, including rekeying, home lockouts, deadbolts and lock repair. Its official site specifically names Clearwater among served cities. The brand name does not mean a Florida Keys location.",
+      "officialWebsiteFinalUrl": "https://www.floridakeyslocksmith.com/",
+      "supportingUrls": [
+        "https://www.floridakeyslocksmith.com/"
+      ],
+      "placementKeys": [
+        "floridakeyslocksmith.com|clearwater-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Act Now Locksmith",
+      "website": "https://actnowlocksmith.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://actnowlocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The locally owned mobile locksmith uses its own trained technicians for home lockouts, rekeying and residential locks. Its official site explicitly describes residential work in St. Petersburg and Clearwater and names both service areas.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned mobile locksmith uses its own trained technicians for home lockouts, rekeying and residential locks. Its official site explicitly describes residential work in St. Petersburg and Clearwater and names both service areas.",
+      "customerScope": "residential",
+      "customerEvidence": "The locally owned mobile locksmith uses its own trained technicians for home lockouts, rekeying and residential locks. Its official site explicitly describes residential work in St. Petersburg and Clearwater and names both service areas.",
+      "customerSourceUrl": "https://actnowlocksmith.com/",
+      "geographicEvidence": "The locally owned mobile locksmith uses its own trained technicians for home lockouts, rekeying and residential locks. Its official site explicitly describes residential work in St. Petersburg and Clearwater and names both service areas.",
+      "geographicSourceUrl": "https://actnowlocksmith.com/",
+      "identityEvidence": "The locally owned mobile locksmith uses its own trained technicians for home lockouts, rekeying and residential locks. Its official site explicitly describes residential work in St. Petersburg and Clearwater and names both service areas.",
+      "officialWebsiteFinalUrl": "https://actnowlocksmith.com/",
+      "supportingUrls": [
+        "https://actnowlocksmith.com/"
+      ],
+      "placementKeys": [
+        "actnowlocksmith.com|clearwater-fl|locksmith",
+        "actnowlocksmith.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Countryside Locksmith",
+      "website": "https://www.cslock.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.cslock.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The locally owned Clearwater locksmith's residential page explicitly offers homeowners rekeying, deadbolt installation, lock repair and house lockouts through its technicians. That page specifically names Clearwater and St. Petersburg as residential service areas.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned Clearwater locksmith's residential page explicitly offers homeowners rekeying, deadbolt installation, lock repair and house lockouts through its technicians. That page specifically names Clearwater and St. Petersburg as residential service areas.",
+      "customerScope": "residential",
+      "customerEvidence": "The locally owned Clearwater locksmith's residential page explicitly offers homeowners rekeying, deadbolt installation, lock repair and house lockouts through its technicians. That page specifically names Clearwater and St. Petersburg as residential service areas.",
+      "customerSourceUrl": "https://www.cslock.com/",
+      "geographicEvidence": "The locally owned Clearwater locksmith's residential page explicitly offers homeowners rekeying, deadbolt installation, lock repair and house lockouts through its technicians. That page specifically names Clearwater and St. Petersburg as residential service areas.",
+      "geographicSourceUrl": "https://www.cslock.com/residential-services",
+      "identityEvidence": "The locally owned Clearwater locksmith's residential page explicitly offers homeowners rekeying, deadbolt installation, lock repair and house lockouts through its technicians. That page specifically names Clearwater and St. Petersburg as residential service areas.",
+      "officialWebsiteFinalUrl": "https://www.cslock.com/",
+      "supportingUrls": [
+        "https://www.cslock.com/",
+        "https://www.cslock.com/residential-services"
+      ],
+      "placementKeys": [
+        "cslock.com|clearwater-fl|locksmith",
+        "cslock.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Wizard Safe & Lock Inc.",
+      "website": "https://www.wizardsafeandlock.com/",
+      "regions": [
+        "clearwater-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.wizardsafeandlock.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The longstanding Clearwater locksmith identifies its local shop and its own locksmith team. Its official site offers residential home/apartment lockout assistance, rekeying and lock changes; this is an actual local service operation, not just a safe retailer.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The longstanding Clearwater locksmith identifies its local shop and its own locksmith team. Its official site offers residential home/apartment lockout assistance, rekeying and lock changes; this is an actual local service operation, not just a safe retailer.",
+      "customerScope": "residential",
+      "customerEvidence": "The longstanding Clearwater locksmith identifies its local shop and its own locksmith team. Its official site offers residential home/apartment lockout assistance, rekeying and lock changes; this is an actual local service operation, not just a safe retailer.",
+      "customerSourceUrl": "https://www.wizardsafeandlock.com/",
+      "geographicEvidence": "The longstanding Clearwater locksmith identifies its local shop and its own locksmith team. Its official site offers residential home/apartment lockout assistance, rekeying and lock changes; this is an actual local service operation, not just a safe retailer.",
+      "geographicSourceUrl": "https://www.wizardsafeandlock.com/",
+      "identityEvidence": "The longstanding Clearwater locksmith identifies its local shop and its own locksmith team. Its official site offers residential home/apartment lockout assistance, rekeying and lock changes; this is an actual local service operation, not just a safe retailer.",
+      "officialWebsiteFinalUrl": "https://www.wizardsafeandlock.com/",
+      "supportingUrls": [
+        "https://www.wizardsafeandlock.com/"
+      ],
+      "placementKeys": [
+        "wizardsafeandlock.com|clearwater-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Sunshine Locksmith Team LLC",
+      "website": "https://sunshinelocksmith.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://sunshinelocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "The regional locksmith identifies its Clearwater shop and its own mobile technicians, with a parts/labor service warranty. Its official site describes home lock installation, rekeying and lockouts and explicitly lists Clearwater and Saint Petersburg as service areas.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The regional locksmith identifies its Clearwater shop and its own mobile technicians, with a parts/labor service warranty. Its official site describes home lock installation, rekeying and lockouts and explicitly lists Clearwater and Saint Petersburg as service areas.",
+      "customerScope": "residential",
+      "customerEvidence": "The regional locksmith identifies its Clearwater shop and its own mobile technicians, with a parts/labor service warranty. Its official site describes home lock installation, rekeying and lockouts and explicitly lists Clearwater and Saint Petersburg as service areas.",
+      "customerSourceUrl": "https://sunshinelocksmith.com/",
+      "geographicEvidence": "The regional locksmith identifies its Clearwater shop and its own mobile technicians, with a parts/labor service warranty. Its official site describes home lock installation, rekeying and lockouts and explicitly lists Clearwater and Saint Petersburg as service areas.",
+      "geographicSourceUrl": "https://sunshinelocksmith.com/",
+      "identityEvidence": "The regional locksmith identifies its Clearwater shop and its own mobile technicians, with a parts/labor service warranty. Its official site describes home lock installation, rekeying and lockouts and explicitly lists Clearwater and Saint Petersburg as service areas.",
+      "officialWebsiteFinalUrl": "https://sunshinelocksmith.com/",
+      "supportingUrls": [
+        "https://sunshinelocksmith.com/"
+      ],
+      "placementKeys": [
+        "sunshinelocksmith.com|clearwater-fl|locksmith",
+        "sunshinelocksmith.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Mr. McPick Locksmith",
+      "website": "https://www.mrmcpick.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.mrmcpick.com/",
+      "sourceVerifiedAt": "2026-11-05T20:04:29.139608+00:00",
+      "evidenceNote": "Owner Stephen Walters operates this local mobile locksmith. Its official About page explicitly offers home deadbolt installation, lock rebuilding and rekeying in Clearwater and St. Petersburg, and identifies the founder responsible for delivering its services.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Owner Stephen Walters operates this local mobile locksmith. Its official About page explicitly offers home deadbolt installation, lock rebuilding and rekeying in Clearwater and St. Petersburg, and identifies the founder responsible for delivering its services.",
+      "customerScope": "residential",
+      "customerEvidence": "Owner Stephen Walters operates this local mobile locksmith. Its official About page explicitly offers home deadbolt installation, lock rebuilding and rekeying in Clearwater and St. Petersburg, and identifies the founder responsible for delivering its services.",
+      "customerSourceUrl": "https://www.mrmcpick.com/",
+      "geographicEvidence": "Owner Stephen Walters operates this local mobile locksmith. Its official About page explicitly offers home deadbolt installation, lock rebuilding and rekeying in Clearwater and St. Petersburg, and identifies the founder responsible for delivering its services.",
+      "geographicSourceUrl": "https://www.mrmcpick.com/about-us/",
+      "identityEvidence": "Owner Stephen Walters operates this local mobile locksmith. Its official About page explicitly offers home deadbolt installation, lock rebuilding and rekeying in Clearwater and St. Petersburg, and identifies the founder responsible for delivering its services.",
+      "officialWebsiteFinalUrl": "https://www.mrmcpick.com/",
+      "supportingUrls": [
+        "https://www.mrmcpick.com/",
+        "https://www.mrmcpick.com/about-us/"
+      ],
+      "placementKeys": [
+        "mrmcpick.com|clearwater-fl|locksmith",
+        "mrmcpick.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "E2 Anderson Pool Care & Repair",
+      "website": "https://e2pools.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://e2pools.com/",
+      "sourceVerifiedAt": "2026-11-05T20:05:52.381321+00:00",
+      "evidenceNote": "The veteran-owned Crestview provider explicitly welcomes residential pools and performs pump/filter repairs, plumbing, leak work, green-pool restoration and preventative care. Its rendered official website names Crestview and Fort Walton Beach as service areas and describes its own hands-on work.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The veteran-owned Crestview provider explicitly welcomes residential pools and performs pump/filter repairs, plumbing, leak work, green-pool restoration and preventative care. Its rendered official website names Crestview and Fort Walton Beach as service areas and describes its own hands-on work.",
+      "customerScope": "residential",
+      "customerEvidence": "The veteran-owned Crestview provider explicitly welcomes residential pools and performs pump/filter repairs, plumbing, leak work, green-pool restoration and preventative care. Its rendered official website names Crestview and Fort Walton Beach as service areas and describes its own hands-on work.",
+      "customerSourceUrl": "https://e2pools.com/",
+      "geographicEvidence": "The veteran-owned Crestview provider explicitly welcomes residential pools and performs pump/filter repairs, plumbing, leak work, green-pool restoration and preventative care. Its rendered official website names Crestview and Fort Walton Beach as service areas and describes its own hands-on work.",
+      "geographicSourceUrl": "https://e2pools.com/",
+      "identityEvidence": "The veteran-owned Crestview provider explicitly welcomes residential pools and performs pump/filter repairs, plumbing, leak work, green-pool restoration and preventative care. Its rendered official website names Crestview and Fort Walton Beach as service areas and describes its own hands-on work.",
+      "officialWebsiteFinalUrl": "https://e2pools.com/",
+      "supportingUrls": [
+        "https://e2pools.com/"
+      ],
+      "placementKeys": [
+        "e2pools.com|crestview-fl|pool-service",
+        "e2pools.com|fort-walton-beach-fl|pool-service"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Kap Home Solutions LLC",
+      "website": "https://kaphomesolutions.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "electrical"
+      ],
+      "sourceUrl": "https://kaphomesolutions.com/",
+      "sourceVerifiedAt": "2026-11-05T20:05:52.381321+00:00",
+      "evidenceNote": "Local owner Kevin describes personally delivering residential electrical work with a workmanship warranty. The official service page lists home lighting, ceiling fans, troubleshooting and repairs; its About page explicitly covers Panama City. The Panama City Beach mailing address is not presented as a Panama City office. Appliance installation is not treated as appliance repair.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Local owner Kevin describes personally delivering residential electrical work with a workmanship warranty. The official service page lists home lighting, ceiling fans, troubleshooting and repairs; its About page explicitly covers Panama City. The Panama City Beach mailing address is not presented as a Panama City office. Appliance installation is not treated as appliance repair.",
+      "customerScope": "residential",
+      "customerEvidence": "Local owner Kevin describes personally delivering residential electrical work with a workmanship warranty. The official service page lists home lighting, ceiling fans, troubleshooting and repairs; its About page explicitly covers Panama City. The Panama City Beach mailing address is not presented as a Panama City office. Appliance installation is not treated as appliance repair.",
+      "customerSourceUrl": "https://kaphomesolutions.com/",
+      "geographicEvidence": "Local owner Kevin describes personally delivering residential electrical work with a workmanship warranty. The official service page lists home lighting, ceiling fans, troubleshooting and repairs; its About page explicitly covers Panama City. The Panama City Beach mailing address is not presented as a Panama City office. Appliance installation is not treated as appliance repair.",
+      "geographicSourceUrl": "https://kaphomesolutions.com/services/",
+      "identityEvidence": "Local owner Kevin describes personally delivering residential electrical work with a workmanship warranty. The official service page lists home lighting, ceiling fans, troubleshooting and repairs; its About page explicitly covers Panama City. The Panama City Beach mailing address is not presented as a Panama City office. Appliance installation is not treated as appliance repair.",
+      "officialWebsiteFinalUrl": "https://kaphomesolutions.com/",
+      "supportingUrls": [
+        "https://kaphomesolutions.com/",
+        "https://kaphomesolutions.com/about/",
+        "https://kaphomesolutions.com/services/"
+      ],
+      "placementKeys": [
+        "kaphomesolutions.com|panama-city-fl|electrical"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Forever Blue Pool and Spa",
+      "website": "https://foreverbluepoolandspa.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://foreverbluepoolandspa.com/",
+      "sourceVerifiedAt": "2026-11-05T20:07:57.956567+00:00",
+      "evidenceNote": "Owners Andrew and Jessica Coffelt operate this regional pool business with named pool technicians. The official homepage describes regular backyard/home pool maintenance and explicitly serves Destin; its About page confirms the owners and direct service team. Only the documented Destin placement is added.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Owners Andrew and Jessica Coffelt operate this regional pool business with named pool technicians. The official homepage describes regular backyard/home pool maintenance and explicitly serves Destin; its About page confirms the owners and direct service team. Only the documented Destin placement is added.",
+      "customerScope": "residential",
+      "customerEvidence": "Owners Andrew and Jessica Coffelt operate this regional pool business with named pool technicians. The official homepage describes regular backyard/home pool maintenance and explicitly serves Destin; its About page confirms the owners and direct service team. Only the documented Destin placement is added.",
+      "customerSourceUrl": "https://foreverbluepoolandspa.com/",
+      "geographicEvidence": "Owners Andrew and Jessica Coffelt operate this regional pool business with named pool technicians. The official homepage describes regular backyard/home pool maintenance and explicitly serves Destin; its About page confirms the owners and direct service team. Only the documented Destin placement is added.",
+      "geographicSourceUrl": "https://foreverbluepoolandspa.com/about/",
+      "identityEvidence": "Owners Andrew and Jessica Coffelt operate this regional pool business with named pool technicians. The official homepage describes regular backyard/home pool maintenance and explicitly serves Destin; its About page confirms the owners and direct service team. Only the documented Destin placement is added.",
+      "officialWebsiteFinalUrl": "https://foreverbluepoolandspa.com/",
+      "supportingUrls": [
+        "https://foreverbluepoolandspa.com/",
+        "https://foreverbluepoolandspa.com/about/"
+      ],
+      "placementKeys": [
+        "foreverbluepoolandspa.com|destin-fl|pool-service"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "iMLocksmith Inc.",
+      "website": "https://www.imlocksmith.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.imlocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T20:07:57.956567+00:00",
+      "evidenceNote": "The local St. Petersburg storefront and mobile locksmith operates clearly marked vans and provides home lockouts, rekeying, replacement and installation. Its official homepage explicitly serves homes in St. Petersburg and Clearwater; the Clearwater rekey page independently describes work on houses there.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The local St. Petersburg storefront and mobile locksmith operates clearly marked vans and provides home lockouts, rekeying, replacement and installation. Its official homepage explicitly serves homes in St. Petersburg and Clearwater; the Clearwater rekey page independently describes work on houses there.",
+      "customerScope": "residential",
+      "customerEvidence": "The local St. Petersburg storefront and mobile locksmith operates clearly marked vans and provides home lockouts, rekeying, replacement and installation. Its official homepage explicitly serves homes in St. Petersburg and Clearwater; the Clearwater rekey page independently describes work on houses there.",
+      "customerSourceUrl": "https://www.imlocksmith.com/",
+      "geographicEvidence": "The local St. Petersburg storefront and mobile locksmith operates clearly marked vans and provides home lockouts, rekeying, replacement and installation. Its official homepage explicitly serves homes in St. Petersburg and Clearwater; the Clearwater rekey page independently describes work on houses there.",
+      "geographicSourceUrl": "https://www.imlocksmith.com/rekeying-locks-clearwater",
+      "identityEvidence": "The local St. Petersburg storefront and mobile locksmith operates clearly marked vans and provides home lockouts, rekeying, replacement and installation. Its official homepage explicitly serves homes in St. Petersburg and Clearwater; the Clearwater rekey page independently describes work on houses there.",
+      "officialWebsiteFinalUrl": "https://www.imlocksmith.com/",
+      "supportingUrls": [
+        "https://www.imlocksmith.com/",
+        "https://www.imlocksmith.com/residential-locksmith",
+        "https://www.imlocksmith.com/rekeying-locks-clearwater"
+      ],
+      "placementKeys": [
+        "imlocksmith.com|clearwater-fl|locksmith",
+        "imlocksmith.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Locksmith and Doors",
+      "website": "https://locksmithanddoor.com/",
+      "regions": [
+        "clearwater-fl",
+        "st-petersburg-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://locksmithanddoor.com/",
+      "sourceVerifiedAt": "2026-11-05T20:07:57.956567+00:00",
+      "evidenceNote": "This family-owned Tampa Bay locksmith states that its work is performed by its employees and describes local retail/mobile operations. Its separate Clearwater and St. Petersburg pages each explicitly offer residential rekeying, deadbolt and smart-lock installation, lock repairs and home lockouts.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This family-owned Tampa Bay locksmith states that its work is performed by its employees and describes local retail/mobile operations. Its separate Clearwater and St. Petersburg pages each explicitly offer residential rekeying, deadbolt and smart-lock installation, lock repairs and home lockouts.",
+      "customerScope": "residential",
+      "customerEvidence": "This family-owned Tampa Bay locksmith states that its work is performed by its employees and describes local retail/mobile operations. Its separate Clearwater and St. Petersburg pages each explicitly offer residential rekeying, deadbolt and smart-lock installation, lock repairs and home lockouts.",
+      "customerSourceUrl": "https://locksmithanddoor.com/",
+      "geographicEvidence": "This family-owned Tampa Bay locksmith states that its work is performed by its employees and describes local retail/mobile operations. Its separate Clearwater and St. Petersburg pages each explicitly offer residential rekeying, deadbolt and smart-lock installation, lock repairs and home lockouts.",
+      "geographicSourceUrl": "https://locksmithanddoor.com/locksmith-st-petersburg-fl/",
+      "identityEvidence": "This family-owned Tampa Bay locksmith states that its work is performed by its employees and describes local retail/mobile operations. Its separate Clearwater and St. Petersburg pages each explicitly offer residential rekeying, deadbolt and smart-lock installation, lock repairs and home lockouts.",
+      "officialWebsiteFinalUrl": "https://locksmithanddoor.com/",
+      "supportingUrls": [
+        "https://locksmithanddoor.com/",
+        "https://locksmithanddoor.com/about-locksmith-and-door-fl/",
+        "https://locksmithanddoor.com/locksmith-clearwater-fl/",
+        "https://locksmithanddoor.com/locksmith-st-petersburg-fl/"
+      ],
+      "placementKeys": [
+        "locksmithanddoor.com|clearwater-fl|locksmith",
+        "locksmithanddoor.com|st-petersburg-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
     }
   ],
   "pending": [
@@ -1595,6 +2079,26 @@
       "name": "Master of Locks LLC",
       "website": "https://masteroflocks.com/",
       "reason": "Residential Plantation services documented, but Fort Lauderdale address alone not sufficient to establish specific target-city residential service; geographic review incomplete."
+    },
+    {
+      "name": "A-1 Key & Safe Inc.",
+      "website": "https://a1keyandsafeinc.com/",
+      "reason": "Search-discovered candidate; official URL was not accessible through research tool. Residential and current local identity require underlying official verification."
+    },
+    {
+      "name": "Pro Locksmith Clearwater",
+      "website": "https://prolocksmithclearwater.com/",
+      "reason": "Homepage contains placeholder John Doe/Jane Smith testimonials and unfinished percentage content; independent identity/ownership also requires review against similarly named locksmiths. Do not publish based on template claims."
+    },
+    {
+      "name": "Screw and Key LLC",
+      "website": "https://screwandkeyllc.com/residential-locksmith",
+      "reason": "Residential and city claims found; direct-provider/local-operation identity needs further corroboration beyond generic dispatch page."
+    },
+    {
+      "name": "Super Lock and Key",
+      "website": "https://www.superlockandkey.com/locksmith/clearwater/fl/residential-locksmith/",
+      "reason": "Search-discovered residential candidate; underlying official page inaccessible through research tool; identity and final destination need verification."
     }
   ],
   "existingCandidatesNotCounted": [
@@ -1603,8 +2107,10 @@
     "All Brand Appliance",
     "Alvarez Locksmith",
     "American Lock & Safe",
+    "Anderson Safe & Lock",
     "Appliance Doctor",
     "Arrow Pest Service",
+    "Beebe\u2019s Pest & Termite Control",
     "Benny Key Shop",
     "BlueWater Garage Doors",
     "Bluegill",
@@ -1616,6 +2122,7 @@
     "Derl's Lock & Safe",
     "Destin Handyman",
     "Distributor Appliance Parts, Inc.",
+    "Dobbs Appliance Repair LLC",
     "Emerald Coast Appliance Service",
     "Father and Son Pest and Lawn",
     "G.M.B Appliances LLC",
@@ -1636,6 +2143,7 @@
     "Rogers Grant",
     "SWAT Pest Control",
     "Spears Environmental",
+    "Spears Pest Control",
     "Superior Septic Sewer",
     "TruNorth Pest Control",
     "We Do Locksmith",
@@ -1755,6 +2263,16 @@
       "name": "Davis Exterminators",
       "website": "https://www.arrowexterminators.com/why-arrow/news/arrow-exterminators-acquires-davis-exterminators-in-panama-city-fl",
       "reason": "Acquired by Arrow Exterminators in 2025; do not add as a new independent local business."
+    },
+    {
+      "name": "Strongbox Lock & Safe Co. of Florida",
+      "website": "https://strongboxlocksafeflorida.com/residential-locksmith-clearwater/",
+      "reason": "Official page links Strongbox Nationwide and Keystone parent; national brand outside local/regional-only scope."
+    },
+    {
+      "name": "Lou\u2019s Lock & Key",
+      "website": "https://louslockandkey.com/residential-locksmith-clearwater-fl/",
+      "reason": "Official page advertises 2821 cities, parent brand and franchise recruitment; national-chain footprint outside scope. Clearwater CA/FL inconsistency also noted."
     }
   ],
   "publishedOfficialRecheckPending": [
@@ -1767,12 +2285,14 @@
   "publication": {
     "firstCommit": "222c6a08eebe23a1e04f74511de15e27683c4140",
     "firstDeployment": "dpl_AoqEX54cvnTtqjZvdrHdP4fEuBsP",
-    "businessesPublished": 23,
-    "placementsPublished": 27,
-    "currentlyAllChecksCompleteNewBusinesses": 22,
+    "businessesPublished": 48,
+    "placementsPublished": 55,
+    "currentlyAllChecksCompleteNewBusinesses": 47,
     "publishedOfficialRecheckPending": 1,
-    "additionalNewBusinessesPrepared": 25,
-    "additionalPlacementsPrepared": 28,
-    "shortfallAgainst500": 478
+    "additionalNewBusinessesPrepared": 14,
+    "additionalPlacementsPrepared": 24,
+    "shortfallAgainst500": 453,
+    "secondCommit": "1754a72826158cc6f473a787086ec297c3bd699b",
+    "secondDeployment": "dpl_AdMhCVz7obpGCv9LRrUdpU9X7VgL"
   }
 }

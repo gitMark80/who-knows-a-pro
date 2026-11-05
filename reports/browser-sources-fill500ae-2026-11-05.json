@@ -55,6 +55,20 @@
       "finalUrl": null,
       "passed": false,
       "observed": "Later recheck blocked by robot challenge after one normal reload. Retain first-checkpoint publication, exclude from current completion total pending official destination recheck."
+    },
+    {
+      "name": "Sunshine Locksmith Team LLC",
+      "finalUrl": "https://sunshinelocksmith.com/",
+      "passed": true,
+      "checkedAt": "2026-11-05T20:05:52.381321+00:00",
+      "observed": "Rendered official site confirms own mobile technicians, residential lock installation/rekeying/lockouts, Clearwater shop and explicit Clearwater/St. Petersburg service list. Plain fetch406 resolved by ordinary browser navigation."
+    },
+    {
+      "name": "E2 Anderson Pool Care & Repair",
+      "finalUrl": "https://e2pools.com/",
+      "passed": true,
+      "checkedAt": "2026-11-05T20:05:52.381321+00:00",
+      "observed": "Rendered official site explicitly welcomes residential pools, describes own repair/maintenance work and names Crestview and Fort Walton Beach. Static fetch has JS shell; browser rendered the qualification content."
     }
   ]
 }
