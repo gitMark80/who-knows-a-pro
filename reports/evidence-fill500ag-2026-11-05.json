@@ -4,7 +4,7 @@
   "baselineCommit": "da3f65f74a1a09eedeb45a27722db8bb2a99fc27",
   "targetDistinctNewBusinesses": 500,
   "priorQualifiedNewBusinesses": 98,
-  "status": "prepared_not_published",
+  "status": "published_live_verified_target_unfinished",
   "records": [
     {
       "name": "Goodflow Gutter Systems LLC",
@@ -308,5 +308,12 @@
     "A-1 Enterprises and PC Fence and Decks also have official local provider evidence but omitted because Panama City fence category has only two free slots.",
     "Deese Elite Concrete Coatings withheld: coating specialist does not establish concrete construction category fit."
   ],
-  "concurrentRunPreserved": "fill1000ag: 2 new businesses, 3 placements; not included in this 500-run counter"
+  "concurrentRunPreserved": "fill1000ag: 2 new businesses, 3 placements; not included in this 500-run counter",
+  "newBusinessesPublishedLiveVerified": 5,
+  "placementsPublishedLiveVerified": 6,
+  "cumulativeQualifiedNewBusinesses": 103,
+  "shortfallAgainst500": 397,
+  "sourceCommit": "09ae8d61ea7a612ec34ef770fe619442285db44e",
+  "productionDeployment": "dpl_CXHyDLSvW2uEXtqmYbk2ZDvCrHfN",
+  "liveVerifiedAt": "2026-11-05T23:18:12.066928+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-11-05T23:04:26.320Z",
-  "status": "prepared_not_published",
+  "status": "published_live_verified_target_unfinished",
   "baselineCommit": "da3f65f74a1a09eedeb45a27722db8bb2a99fc27",
   "baselinePreserved": 14193,
   "newBusinessesPrepared": 5,
@@ -112,5 +112,12 @@
       "emailSourceUrl": null,
       "emailVerifiedAt": null
     }
-  ]
+  ],
+  "newBusinessesPublishedLiveVerified": 5,
+  "placementsPublishedLiveVerified": 6,
+  "cumulativeQualifiedNewBusinesses": 103,
+  "shortfallAgainst500": 397,
+  "sourceCommit": "09ae8d61ea7a612ec34ef770fe619442285db44e",
+  "productionDeployment": "dpl_CXHyDLSvW2uEXtqmYbk2ZDvCrHfN",
+  "liveVerifiedAt": "2026-11-05T23:18:12.066928+00:00"
 }
