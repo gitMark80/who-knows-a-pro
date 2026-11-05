@@ -1,0 +1,53 @@
+{
+  "baselineCommit": "be156ed88b47b39678835e3e83f68eb65cabdd8f",
+  "continuationOf": "reports/progress-fill1000ac-2026-11-05.md",
+  "verifiedAt": "2026-11-05T11:27:40.971Z",
+  "target": 1,
+  "runNewBusinessTarget": 1000,
+  "newBusinessCount": 1,
+  "newBusinessShortfall": 999,
+  "placementsFromNewBusinesses": 1,
+  "placementsFromPreviouslyListedBusinesses": 0,
+  "status": "prepared_not_published",
+  "placementCount": 1,
+  "sourceRecordCount": 1,
+  "uniqueBusinessDomains": 1,
+  "additionsByCity": {
+    "crestview-fl": 1
+  },
+  "additionsByCategory": {
+    "marine-services": 1
+  },
+  "additionsByBusiness": {
+    "Seffens Mobile Mechanic LLC": 1
+  },
+  "selectionRule": "Priority cities first at their lowest displayed counts, then cities approximately outward from Pensacola and lowest counts within each city; no selected quota raised above 20. Historical display counts are not a fresh relevance audit.",
+  "before": {
+    "pairsAt20": 840,
+    "pairsBelow20": 360,
+    "deficit": 1409
+  },
+  "prepared": {
+    "pairsAt20": 840,
+    "pairsBelow20": 360,
+    "deficit": 1408,
+    "emptyPairs": 0
+  },
+  "newlyCompletedCombinations": [],
+  "unselectedEligiblePlacements": 0,
+  "records": [
+    {
+      "name": "Seffens Mobile Mechanic LLC",
+      "website": "https://seffensmobilemechanic.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "marine-services"
+      ],
+      "sourceUrl": "https://seffensmobilemechanic.com/",
+      "sourceVerifiedAt": "2026-11-05T11:25:00Z",
+      "evidenceNote": "Seffens' official site offers boat and jet-ski engine repair and maintenance at the customer's dock or home and explicitly lists Crestview and Okaloosa County in its service area."
+    }
+  ]
+}

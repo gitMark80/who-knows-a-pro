@@ -13,5 +13,10 @@
     "name": "ACE Garage Door Company",
     "website": "https://acegaragedoorllc.com/",
     "reason": "Official pages describe residential service in Biloxi and Gulfport, but automated source validation received repeated HTTP 406 responses from both the official homepage and city page; the listing remains withheld until the official destination passes the publication check."
+  },
+  {
+    "name": "Gerber Collision & Glass — Crestview",
+    "website": "https://www.gerbercollision.com/locations/crestview-fl",
+    "reason": "The official branch page verifies consumer collision repair and a staffed Crestview location, but gerbercollision.com is intentionally excluded by the repository's existing national-chain policy. The candidate was researched and withheld rather than changing that product policy in this fill task."
   }
 ]
