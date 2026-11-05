@@ -55,10 +55,23 @@ def hrefs(page):
     return [html.unescape(value) for value in re.findall(r'href="([^"]+)"', page)]
 
 
+# Initialize only the isolated test database, then use a deterministic local fixture.
+# National brands such as DH Pace must remain excluded from public listings.
+page, _ = get('/miami-fl/locksmith')
+assert 'DH Pace' not in text(page)
+db = sqlite3.connect(sys.argv[1])
+now = int(time.time() * 1000)
+for region, trade in [('miami-fl', 'locksmith'), ('panama-city-fl', 'locksmith'), ('destin-fl', 'garage-door-repair'), ('miami-fl', 'garage-door-repair')]:
+    fixture_slug = f'profile-context-provider-{region}-{trade}'
+    db.execute('INSERT INTO businesses (id,name,slug,main_slug,region,trade,location,summary,website,approved,is_test,updated_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', (
+        fixture_slug, 'Profile Context Provider', fixture_slug, 'profile-context-provider', region, trade, region,
+        'Residential door, lock and key services', 'https://profile-context.example.test/', 1, 0, now,
+    ))
+db.commit()
 page, _ = get('/miami-fl/locksmith')
 cards = re.findall(r'<article\b[^>]*>.*?</article>', page, re.S)
 assert cards
-dh_link = None
+fixture_link = None
 for card in cards:
     links = [link for link in hrefs(card) if link.startswith('/business/')]
     assert len(links) == 1
@@ -68,13 +81,13 @@ for card in cards:
     assert 'Locksmith serving Miami, FL' in text(profile)
     assert 'Locksmith in Panama City, FL' not in title(profile)
     assert '/miami-fl/locksmith' in hrefs(profile)
-    if 'DH Pace' in card:
-        dh_link = links[0]
-        assert 'Nationwide commercial door, lock and key services' in text(card)
-        assert 'Nationwide commercial door, lock and key services' in text(profile)
-        assert '/claim?business=dh-pace-miami-fl-locksmith' in hrefs(profile)
+    if 'Profile Context Provider' in card:
+        fixture_link = links[0]
+        assert 'Residential door, lock and key services' in text(card)
+        assert 'Residential door, lock and key services' in text(profile)
+        assert '/claim?business=profile-context-provider-miami-fl-locksmith' in hrefs(profile)
         assert not any('region=tampa-fl' in href for href in hrefs(profile))
-assert dh_link
+assert fixture_link
 
 # The same canonical business must render each requested, supported pair.
 for region, trade, expected in [
@@ -82,25 +95,25 @@ for region, trade, expected in [
     ('destin-fl', 'garage-door-repair', 'Garage door repair serving Destin, FL'),
     ('miami-fl', 'garage-door-repair', 'Garage door repair serving Miami, FL'),
 ]:
-    page, _ = get(f'/business/dh-pace?region={region}&trade={trade}')
+    page, _ = get(f'/business/profile-context-provider?region={region}&trade={trade}')
     assert expected in text(page), (expected, title(page))
     assert f'/{region}/{trade}' in hrefs(page)
-    assert '<link rel="canonical" href="https://whoknowsapro.com/business/dh-pace"' in page
+    assert '<link rel="canonical" href="https://whoknowsapro.com/business/profile-context-provider"' in page
 
 # A bare canonical profile must not invent a home city from insertion order.
-page, _ = get('/business/dh-pace')
-assert title(page) == 'DH Pace – Business profile | Who Knows a Pro?'
+page, _ = get('/business/profile-context-provider')
+assert title(page) == 'Profile Context Provider – Business profile | Who Knows a Pro?'
 assert 'Locksmith in Panama City, FL' not in text(page)
 
 # Existing placement URLs still redirect, retaining their original context.
-page, url = get('/business/dh-pace-miami-fl-locksmith')
-assert urllib.parse.urlparse(url).path == '/business/dh-pace'
+page, url = get('/business/profile-context-provider-miami-fl-locksmith')
+assert urllib.parse.urlparse(url).path == '/business/profile-context-provider'
 assert urllib.parse.parse_qs(urllib.parse.urlparse(url).query) == {'region': ['miami-fl'], 'trade': ['locksmith']}
 assert 'Locksmith serving Miami, FL' in text(page)
 
 for query in ['region=miami-fl&trade=plumbing', 'region=unknown&trade=locksmith', 'region=miami-fl&region=destin-fl&trade=locksmith']:
-    page, _ = get('/business/dh-pace?' + query)
-    assert title(page) == 'DH Pace – Business profile | Who Knows a Pro?'
+    page, _ = get('/business/profile-context-provider?' + query)
+    assert title(page) == 'Profile Context Provider – Business profile | Who Knows a Pro?'
 
 # Two valid cities and two valid categories do not imply four valid pairs.
 # Keep claimed owner content/tier intact while selecting a different placement.
@@ -119,4 +132,4 @@ assert 'Owner supplied summary' in text(page) and 'Claimed business' in text(pag
 page, _ = get('/business/context-fixture?region=miami-fl&trade=plumbing')
 assert title(page) == 'Context fixture – Business profile | Who Knows a Pro?'
 assert db.execute("SELECT DISTINCT tier,owner_email FROM businesses WHERE main_slug='context-fixture'").fetchall() == [('enhanced', 'owner@example.test')]
-print(json.dumps({'passed': True, 'miamiProfileLinksChecked': len(cards), 'checks': ['city and category context', 'canonical SEO URL', 'legacy redirect', 'neutral overview', 'invalid and duplicate parameters', 'no invented city/category pairs', 'claimed content preserved', 'commercial scope visible']}))
+print(json.dumps({'passed': True, 'miamiProfileLinksChecked': len(cards), 'checks': ['city and category context', 'canonical SEO URL', 'legacy redirect', 'neutral overview', 'invalid and duplicate parameters', 'no invented city/category pairs', 'claimed content preserved', 'residential scope visible', 'national brand excluded']}))
