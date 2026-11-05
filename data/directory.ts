@@ -17,6 +17,7 @@ import verifiedFill1000acData from './verified-coverage-2026-11-05-fill1000ac.js
 import verifiedFill1000ac2Data from './verified-coverage-2026-11-05-fill1000ac2.json';
 import verifiedFill1000adData from './verified-coverage-2026-11-05-fill1000ad.json';
 import verifiedFill500aeData from './verified-coverage-2026-11-05-fill500ae.json';
+import verifiedFill500afData from './verified-coverage-2026-11-05-fill500af.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -24,7 +25,7 @@ type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
 type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; summary?: string; sourceUrl?: string; sourceVerifiedAt?: string };
-const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData];
+const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(

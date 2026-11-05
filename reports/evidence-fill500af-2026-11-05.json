@@ -1,0 +1,562 @@
+{
+  "run": "fill500af",
+  "continuesRun": "fill500ae",
+  "baselineCommit": "b99bbdac114dbe96ec342f554e4d580c428b551f",
+  "targetDistinctNewBusinesses": 500,
+  "priorQualifiedNewBusinesses": 62,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Hy-Tech Landscape & Irrigation",
+      "website": "https://www.hytechlandscape.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "sourceUrl": "https://www.hytechlandscape.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:18.763142+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company describes its own landscaping team, with founder Tom Rooney working on projects alongside employees rather than referring the work elsewhere.",
+      "customerScope": "residential",
+      "customerEvidence": "The official company introduction explicitly identifies residential landscaping clients and describes landscape design, installation and ongoing maintenance.",
+      "customerSourceUrl": "https://www.hytechlandscape.com/",
+      "geographicEvidence": "The company describes owner Tom Rooney as established in Destin, with projects and residential landscaping service in the community and nearby communities.",
+      "geographicSourceUrl": "https://www.hytechlandscape.com/",
+      "identityEvidence": "The official site names Hy-Tech Landscape & Irrigation Inc., identifies founder Tom Rooney and lists its Miramar Beach office and local phone number.",
+      "officialWebsiteFinalUrl": "https://www.hytechlandscape.com/",
+      "evidenceNote": "Family-owned landscape contractor with an identified local owner and crew; its official introduction supports residential landscaping work serving Destin.",
+      "supportingUrls": [
+        "https://www.hytechlandscape.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "RCP Landscape & Maintenance",
+      "website": "https://rcplandscapefl.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "landscaping",
+        "tree-service"
+      ],
+      "sourceUrl": "https://rcplandscapefl.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:18.763162+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The business describes its own experienced landscape team and specialty equipment for planting, trimming and removing trees and maintaining landscapes.",
+      "customerScope": "residential",
+      "customerEvidence": "The official site expressly says the locally operated business works with homeowners, and describes yard maintenance and residential landscape improvements.",
+      "customerSourceUrl": "https://rcplandscapefl.com/",
+      "geographicEvidence": "The official homepage explicitly markets its landscaping and tree-care services to Destin as well as its home base in DeFuniak Springs and surrounding areas.",
+      "geographicSourceUrl": "https://rcplandscapefl.com/",
+      "identityEvidence": "The official site consistently identifies RCP Landscape & Maintenance, its DeFuniak Springs base and local telephone contact for its own services.",
+      "officialWebsiteFinalUrl": "https://rcplandscapefl.com/",
+      "evidenceNote": "Local direct-service landscape company supporting Destin homeowners with landscape design and maintenance plus tree planting, trimming and removal.",
+      "supportingUrls": [
+        "https://rcplandscapefl.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Barefoot Lawn Care & Landscape",
+      "website": "https://barefootlawncarefl.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "sourceUrl": "https://barefootlawncarefl.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:18.763182+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company describes its experienced landscape gardeners, work with clients during design and construction, and direct delivery of landscaping services.",
+      "customerScope": "residential",
+      "customerEvidence": "The homepage specifically offers residential landscape management, lawn maintenance, planting and improvements to home yards and curb appeal.",
+      "customerSourceUrl": "https://barefootlawncarefl.com/",
+      "geographicEvidence": "The official homepage defines its service area as South Walton from scenic CR 30A to Destin, rather than relying only on a broad Florida service claim.",
+      "geographicSourceUrl": "https://barefootlawncarefl.com/",
+      "identityEvidence": "The official site identifies local owner Pamela Johnson, the Barefoot business name, its Santa Rosa Beach street address and local telephone number.",
+      "officialWebsiteFinalUrl": "https://barefootlawncarefl.com/",
+      "evidenceNote": "Locally owned residential landscape company with named ownership and explicit Destin coverage. Only landscaping is added; sprinkler repair is not assumed.",
+      "supportingUrls": [
+        "https://barefootlawncarefl.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "LazorScape LLC",
+      "website": "https://lazorscape.com/",
+      "regions": [
+        "destin-fl"
+      ],
+      "trades": [
+        "landscaping",
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://lazorscape.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:18.763186+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official company page presents landscaping installation and maintenance, plus irrigation repair and installation, as services performed by its team.",
+      "customerScope": "residential",
+      "customerEvidence": "The official homepage explicitly lists residential customers including owners of residences, beach homes and vacation rentals among its clients.",
+      "customerSourceUrl": "https://lazorscape.com/",
+      "geographicEvidence": "The official service-location section specifically states that the company serves Destin, Florida, establishing a local connection for the listed services.",
+      "geographicSourceUrl": "https://lazorscape.com/",
+      "identityEvidence": "The official website consistently names LazorScape LLC and supplies its local telephone number and company-domain contact for its Destin services.",
+      "officialWebsiteFinalUrl": "https://lazorscape.com/",
+      "evidenceNote": "Destin landscape contractor whose own site explicitly supports residential landscaping and irrigation repairs for local homes and vacation properties.",
+      "supportingUrls": [
+        "https://lazorscape.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Gro Pro",
+      "website": "https://www.gropropc.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "landscaping",
+        "irrigation-sprinkler-repair"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company's own team performs landscape design, construction and maintenance; its irrigation page lists system installation, repairs and water management.",
+      "customerScope": "residential",
+      "customerEvidence": "Residential service navigation explicitly includes landscape design, maintenance and irrigation, with a dedicated residential sprinkler-system service page.",
+      "customerSourceUrl": "https://www.gropropc.com/copy-of-irrigation",
+      "geographicEvidence": "The official contact details place Gro Pro at 1515 Grave Ave in Panama City, Florida 32405, alongside its landscaping and irrigation services.",
+      "geographicSourceUrl": "https://www.gropropc.com/copy-of-irrigation",
+      "identityEvidence": "The branded official site identifies owner Richard Maddox and named construction and maintenance managers, with its Panama City address and 850-890-5526.",
+      "officialWebsiteFinalUrl": "https://www.gropropc.com/",
+      "evidenceNote": "The company's own team performs landscape design, construction and maintenance; its irrigation page lists system installation, repairs and water management. Residential service navigation explicitly includes landscape design, maintenance and irrigation, with a dedicated residential sprinkler-system service page.",
+      "sourceUrl": "https://www.gropropc.com/copy-of-irrigation",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://www.gropropc.com/",
+        "https://www.gropropc.com/copy-of-irrigation",
+        "https://www.gropropc.com/team-3"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "850 Curb Appeal, LLC",
+      "website": "https://www.850curbappeal.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site describes separate design, installation and management divisions; its installation team performs projects and its management division maintains them.",
+      "customerScope": "residential",
+      "customerEvidence": "The company explicitly offers commercial and residential landscape management, plus landscape installation and weekly, biweekly or monthly servicing.",
+      "customerSourceUrl": "https://www.850curbappeal.com/",
+      "geographicEvidence": "The official homepage identifies Panama City lawn care and states that the company has served Bay County and surrounding counties since 2018.",
+      "geographicSourceUrl": "https://www.850curbappeal.com/",
+      "identityEvidence": "The branded website names 850 Curb Appeal, LLC, explains its Bay County roots and rebuilding mission, and supplies the business number 850-814-6866.",
+      "officialWebsiteFinalUrl": "https://www.850curbappeal.com/",
+      "evidenceNote": "The official site describes separate design, installation and management divisions; its installation team performs projects and its management division maintains them. The company explicitly offers commercial and residential landscape management, plus landscape installation and weekly, biweekly or monthly servicing.",
+      "sourceUrl": "https://www.850curbappeal.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://www.850curbappeal.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "H.I. Pool Service LLC",
+      "website": "https://www.hipoolservice.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The father-and-son business directly provides weekly pool cleaning, vacuuming, brushing, filter cleaning, chemical balancing and equipment checks.",
+      "customerScope": "residential",
+      "customerEvidence": "The official about section states that the father-and-son team helps families keep their swimming pools clean, clear and safe throughout the year.",
+      "customerSourceUrl": "https://www.hipoolservice.com/",
+      "geographicEvidence": "The homepage explicitly lists Panama City, Panama City Beach, Lynn Haven, Callaway, Springfield, Parker and Mexico Beach within its Bay County service area.",
+      "geographicSourceUrl": "https://www.hipoolservice.com/",
+      "identityEvidence": "The website identifies H.I. Pool Service LLC, its father-and-son ownership, Callaway mailing address, business email and telephone 850-630-1450.",
+      "officialWebsiteFinalUrl": "https://www.hipoolservice.com/",
+      "evidenceNote": "The father-and-son business directly provides weekly pool cleaning, vacuuming, brushing, filter cleaning, chemical balancing and equipment checks. The official about section states that the father-and-son team helps families keep their swimming pools clean, clear and safe throughout the year.",
+      "sourceUrl": "https://www.hipoolservice.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://www.hipoolservice.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Hendrix Land Management",
+      "website": "https://www.hendrixlandmanagement.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Its tree-removal page describes the company's own team assessing trees, planning removal, removing them with equipment and clearing resulting debris.",
+      "customerScope": "residential",
+      "customerEvidence": "The official land-clearing page explicitly serves residential and estate properties; the tree-removal page explains protecting property and families from dangerous trees.",
+      "customerSourceUrl": "https://www.hendrixlandmanagement.com/land-clearing-panama-city-fl",
+      "geographicEvidence": "The tree-removal service page names Panama City and surrounding areas, while the about page identifies the company's head office in Panama City.",
+      "geographicSourceUrl": "https://www.hendrixlandmanagement.com/tree-removal-panama-city-fl",
+      "identityEvidence": "The official about page names Matthew Hendrix as the leader of this locally owned, veteran-owned business and lists its Panama City office and phone.",
+      "officialWebsiteFinalUrl": "https://www.hendrixlandmanagement.com/",
+      "evidenceNote": "Its tree-removal page describes the company's own team assessing trees, planning removal, removing them with equipment and clearing resulting debris. The official land-clearing page explicitly serves residential and estate properties; the tree-removal page explains protecting property and families from dangerous trees.",
+      "sourceUrl": "https://www.hendrixlandmanagement.com/tree-removal-panama-city-fl",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://www.hendrixlandmanagement.com/",
+        "https://www.hendrixlandmanagement.com/tree-removal-panama-city-fl",
+        "https://www.hendrixlandmanagement.com/about-hendrix-land-management-panama-city-fl",
+        "https://www.hendrixlandmanagement.com/land-clearing-panama-city-fl"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Palm Brothers Landscaping & Nursery",
+      "website": "https://thepalmbrothers.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site describes its own landscape design team, tree and palm installation work, and landscaping materials applied to transform customer yards.",
+      "customerScope": "residential",
+      "customerEvidence": "The homepage expressly includes residential properties, offers yard transformations, and displays customer accounts of design and installation at rebuilt homes.",
+      "customerSourceUrl": "https://thepalmbrothers.com/",
+      "geographicEvidence": "Palm Brothers gives its address as 3705 US-98, Panama City, Florida 32401, and says it has served Bay County and surrounding communities for over 35 years.",
+      "geographicSourceUrl": "https://thepalmbrothers.com/",
+      "identityEvidence": "The official site identifies Palm Brothers as family owned and operated, names Daniel as a second-generation nursery owner and publishes local contact details.",
+      "officialWebsiteFinalUrl": "https://thepalmbrothers.com/",
+      "evidenceNote": "The official site describes its own landscape design team, tree and palm installation work, and landscaping materials applied to transform customer yards. The homepage expressly includes residential properties, offers yard transformations, and displays customer accounts of design and installation at rebuilt homes.",
+      "sourceUrl": "https://thepalmbrothers.com/",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://thepalmbrothers.com/",
+        "https://thepalmbrothers.com/landscape-design-services/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Coastal Creations Landscaping and Palm Services",
+      "website": "https://coastalcreationslps.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "landscaping",
+        "irrigation-sprinkler-repair"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The irrigation service page says its team designs and installs systems and performs maintenance and repairs for leaks, clogged nozzles and broken sprinkler heads.",
+      "customerScope": "residential",
+      "customerEvidence": "The irrigation page specifically includes residential gardens, while the Cove Panama City page directly offers landscaping for homeowners and waterfront homes.",
+      "customerSourceUrl": "https://coastalcreationslps.com/irrigation-installation",
+      "geographicEvidence": "The official irrigation page explicitly lists Panama City and Panama City Beach; its dedicated Cove page details landscaping for this Panama City neighborhood.",
+      "geographicSourceUrl": "https://coastalcreationslps.com/irrigation-installation",
+      "identityEvidence": "The official about page identifies Joe Calo as the founder and owner of this local landscaping business, with a family nursery background and local telephone.",
+      "officialWebsiteFinalUrl": "https://coastalcreationslps.com/",
+      "evidenceNote": "The irrigation service page says its team designs and installs systems and performs maintenance and repairs for leaks, clogged nozzles and broken sprinkler heads. The irrigation page specifically includes residential gardens, while the Cove Panama City page directly offers landscaping for homeowners and waterfront homes.",
+      "sourceUrl": "https://coastalcreationslps.com/irrigation-installation",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://coastalcreationslps.com/",
+        "https://coastalcreationslps.com/irrigation-installation",
+        "https://coastalcreationslps.com/the-cove-panama-city",
+        "https://coastalcreationslps.com/about-us"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Gatorbait Landscape LLC",
+      "website": "https://gatorbaitlandscape.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company's residential service page offers mowing, trimming, mulching, fertilization and seasonal yard cleanup directly to customers.",
+      "customerScope": "residential",
+      "customerEvidence": "Its dedicated Residential Services page lists lawn maintenance, mulching, fertilization and yard cleanup services explicitly offered to homeowners.",
+      "customerSourceUrl": "https://gatorbaitlandscape.com/residential",
+      "geographicEvidence": "The official home page explicitly says it serves Crestview and surrounding areas, supporting the Crestview city assignment.",
+      "geographicSourceUrl": "https://gatorbaitlandscape.com/",
+      "identityEvidence": "The branded Gatorbait Landscape LLC site supplies its own contact form, landscape gallery, business email and telephone number.",
+      "officialWebsiteFinalUrl": "https://gatorbaitlandscape.com/",
+      "evidenceNote": "Gatorbait Landscape LLC directly offers landscaping for residential customers in crestview-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://gatorbaitlandscape.com/residential",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://gatorbaitlandscape.com/",
+        "https://gatorbaitlandscape.com/residential"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Always Blooming LLC",
+      "website": "https://alwaysbloomingllc.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company describes its own team installing sod, pavers and mulch and performing lawn maintenance, garden design and drainage work.",
+      "customerScope": "residential",
+      "customerEvidence": "Its home page explicitly offers tailored maintenance for residential properties and describes services for small residential lawns.",
+      "customerSourceUrl": "https://alwaysbloomingllc.com/",
+      "geographicEvidence": "The official website identifies a Crestview mailing address and provides local landscaping services through its own contact details.",
+      "geographicSourceUrl": "https://alwaysbloomingllc.com/",
+      "identityEvidence": "Always Blooming LLC is identified by name throughout its branded website, with a Crestview mailing address and telephone 850-682-2919.",
+      "officialWebsiteFinalUrl": "https://alwaysbloomingllc.com/",
+      "evidenceNote": "Always Blooming LLC directly offers landscaping for residential customers in crestview-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://alwaysbloomingllc.com/",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://alwaysbloomingllc.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Big Mowski LLC Lawn Care",
+      "website": "https://bigmowskilawncare.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site offers lawn cutting, trimming, edging, mulching and hedge care with weekly, biweekly and emergency scheduling.",
+      "customerScope": "residential",
+      "customerEvidence": "The company explicitly describes lawn maintenance and outdoor space services for residential as well as commercial clients.",
+      "customerSourceUrl": "https://bigmowskilawncare.com/",
+      "geographicEvidence": "The website repeatedly identifies its lawn services as Crestview lawn care and lists Crestview, Florida 32539 as its location.",
+      "geographicSourceUrl": "https://bigmowskilawncare.com/",
+      "identityEvidence": "The site names Big Mowski LLC Lawn Care, displays its equipment and supplies a direct local phone number for quotes and service.",
+      "officialWebsiteFinalUrl": "https://bigmowskilawncare.com/",
+      "evidenceNote": "Big Mowski LLC Lawn Care directly offers landscaping for residential customers in crestview-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://bigmowskilawncare.com/",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://bigmowskilawncare.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Cuda Pool and Spa",
+      "website": "https://cudabeenblue.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Its own pool professionals provide weekly cleaning, vacuuming, skimming, water testing and deep cleaning for in-ground pools.",
+      "customerScope": "residential",
+      "customerEvidence": "The official website expressly offers customizable pool cleaning for both commercial and residential properties, including routine maintenance.",
+      "customerSourceUrl": "https://cudabeenblue.com/",
+      "geographicEvidence": "The home page explicitly advertises professional pool service from Fort Walton Beach to 30A, supporting Fort Walton Beach coverage.",
+      "geographicSourceUrl": "https://cudabeenblue.com/",
+      "identityEvidence": "Cuda Pool and Spa describes itself as family operated and veteran owned, with a licensed and insured team serving its local community.",
+      "officialWebsiteFinalUrl": "https://cudabeenblue.com/",
+      "evidenceNote": "Cuda Pool and Spa directly offers pool-service for residential customers in fort-walton-beach-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://cudabeenblue.com/",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://cudabeenblue.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Panhandle Pools Inc.",
+      "website": "https://panhandlepoolsfl.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "pool-installation"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company's about page describes its own team building custom in-ground vinyl and Gunite pools after years of resurfacing work.",
+      "customerScope": "residential",
+      "customerEvidence": "The home page describes designing and installing custom pools to enhance customers' outdoor living spaces and bring enjoyment to families.",
+      "customerSourceUrl": "https://panhandlepoolsfl.com/",
+      "geographicEvidence": "Its about page serves southern Okaloosa County, while its contact page identifies its office on Racetrack Road in Fort Walton Beach.",
+      "geographicSourceUrl": "https://panhandlepoolsfl.com/contact",
+      "identityEvidence": "The official branded website identifies Panhandle Pools Inc. as family owned and operated and publishes a Fort Walton Beach office.",
+      "officialWebsiteFinalUrl": "https://panhandlepoolsfl.com/",
+      "evidenceNote": "Panhandle Pools Inc. directly offers pool-installation for residential customers in fort-walton-beach-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://panhandlepoolsfl.com/about-us",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://panhandlepoolsfl.com/",
+        "https://panhandlepoolsfl.com/about-us",
+        "https://panhandlepoolsfl.com/contact"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Big C Exterior Services",
+      "website": "https://www.bigcexteriorservices.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The business offers recurring lawn mowing, edging, trimming and blowing through its own exterior property care service and equipment.",
+      "customerScope": "residential",
+      "customerEvidence": "Its website expressly serves homes and homeowners and describes its lawn care as suitable for single-family homes and their outdoor spaces.",
+      "customerSourceUrl": "https://www.bigcexteriorservices.com/",
+      "geographicEvidence": "The website names Crestview as its home service area and includes a Fort Walton Beach lawn restoration and recurring maintenance project.",
+      "geographicSourceUrl": "https://www.bigcexteriorservices.com/",
+      "identityEvidence": "The branded Big C Exterior Services website says it is locally and veteran owned, lives and works in Crestview, and supplies a direct phone.",
+      "officialWebsiteFinalUrl": "https://www.bigcexteriorservices.com/",
+      "evidenceNote": "Big C Exterior Services directly offers landscaping for residential customers in crestview-fl, fort-walton-beach-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://www.bigcexteriorservices.com/",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://www.bigcexteriorservices.com/"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Salted Sands Landscaping",
+      "website": "https://www.saltedsandslandscaping.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "landscaping"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Its city service pages describe the company's team installing sod, grading yards, building landscape designs and maintaining residential lawns.",
+      "customerScope": "residential",
+      "customerEvidence": "Both city pages specifically offer residential lawn care, shrub trimming, garden bed work and landscape improvements for local homeowners.",
+      "customerSourceUrl": "https://www.saltedsandslandscaping.com/fortwaltonbeach",
+      "geographicEvidence": "Dedicated official service pages explicitly cover Crestview and Fort Walton Beach, and both appear in the website's service-area list.",
+      "geographicSourceUrl": "https://www.saltedsandslandscaping.com/fortwaltonbeach",
+      "identityEvidence": "The official about page identifies veteran-owned Salted Sands Landscaping and names Chris Searcy and Zack Frick with operating backgrounds.",
+      "officialWebsiteFinalUrl": "https://www.saltedsandslandscaping.com/",
+      "evidenceNote": "Salted Sands Landscaping directly offers landscaping for residential customers in crestview-fl, fort-walton-beach-fl. Official service descriptions and local coverage were read and checked against the repository for duplicates.",
+      "sourceUrl": "https://www.saltedsandslandscaping.com/fortwaltonbeach",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://www.saltedsandslandscaping.com/",
+        "https://www.saltedsandslandscaping.com/fortwaltonbeach",
+        "https://www.saltedsandslandscaping.com/crestview",
+        "https://www.saltedsandslandscaping.com/about"
+      ],
+      "baselineIdentity": "new"
+    },
+    {
+      "name": "Landscaping Plus of Crestview",
+      "website": "https://landscapingpluscrestview.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "landscaping",
+        "irrigation-sprinkler-repair",
+        "tree-service"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official services page lists year-round landscape maintenance, irrigation repair, sod installation, and tree trimming and removal.",
+      "customerScope": "residential",
+      "customerEvidence": "The services page explicitly describes comprehensive commercial and residential landscaping, supporting homeowner maintenance and repair services.",
+      "customerSourceUrl": "https://landscapingpluscrestview.com/landscaping-services/",
+      "geographicEvidence": "The service-area text explicitly includes Crestview, and the page gives its mailing address at 4405 Goldfinch Way in Crestview.",
+      "geographicSourceUrl": "https://landscapingpluscrestview.com/landscaping-services/",
+      "identityEvidence": "The about page names local owner Jay Merrifield and says he participates on site; the services page carries company contact information.",
+      "officialWebsiteFinalUrl": "https://landscapingpluscrestview.com/landscaping-services/",
+      "evidenceNote": "Direct services include residential landscaping, irrigation repair and tree trimming/removal in Crestview. Irrigation installation and hardscape work are arranged with partners and deliberately excluded. Official services page fetched HTTP 200 by curl after search reader returned 502.",
+      "sourceUrl": "https://landscapingpluscrestview.com/landscaping-services/",
+      "sourceVerifiedAt": "2026-11-05T22:27:17.512Z",
+      "supportingUrls": [
+        "https://landscapingpluscrestview.com/",
+        "https://landscapingpluscrestview.com/landscaping-services/",
+        "https://landscapingpluscrestview.com/about-us/"
+      ],
+      "baselineIdentity": "new"
+    }
+  ],
+  "pending": [
+    {
+      "name": "Chorus Pest",
+      "website": "https://callchorus.com/locations/panama-city-pest-control/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The Panama City page describes its own field professionals inspecting homes and applying foundation, perimeter and interior pest treatments with recurring visits.",
+      "customerScope": "residential",
+      "customerEvidence": "The official Panama City page explicitly offers pest-protection packages for homeowners, including inspections inside homes and treatments around foundations.",
+      "customerSourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "geographicEvidence": "The service page specifically offers pest, termite and mosquito protection in Panama City, Florida and surrounding areas, with telephone 850-304-7084.",
+      "geographicSourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "identityEvidence": "The official locations page identifies Chorus Services headquarters in Hoover, Alabama and a regional footprint in Alabama, Tennessee, the Gulf Coast and Texas.",
+      "officialWebsiteFinalUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "evidenceNote": "The Panama City page describes its own field professionals inspecting homes and applying foundation, perimeter and interior pest treatments with recurring visits. The official Panama City page explicitly offers pest-protection packages for homeowners, including inspections inside homes and treatments around foundations.",
+      "sourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://callchorus.com/locations/panama-city-pest-control/",
+        "https://callchorus.com/locations/panama-city-pest-control/",
+        "https://callchorus.com/locations/"
+      ],
+      "verificationCaveat": "Regional multistate operator, not a single-city independent. Official footprint spans Alabama, Tennessee, Gulf Coast and Texas; assess against the parent's preferred local/regional boundary."
+    },
+    {
+      "name": "Seaside Appliance World",
+      "website": "https://seasideapplianceworld.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official appointment page offers appliance repair drop-off with diagnosis at its own showroom; its warranty policy says it sends technicians to repair appliances.",
+      "customerScope": "residential",
+      "customerEvidence": "The showroom appointment page helps customers find appliances for their homes and offers repair drop-off; the store handles household refrigerators, washers and ranges.",
+      "customerSourceUrl": "https://seasideapplianceworld.com/book-appointment/",
+      "geographicEvidence": "The official repair appointment page directs customers to 1833 N East Ave Unit A, Panama City, Florida, matching the warehouse location on its homepage.",
+      "geographicSourceUrl": "https://seasideapplianceworld.com/book-appointment/",
+      "identityEvidence": "The official branded site identifies Seaside Appliance World, its Panama City warehouse, telephone 850-407-2140 and locally available appliance services.",
+      "officialWebsiteFinalUrl": "https://seasideapplianceworld.com/",
+      "evidenceNote": "The official appointment page offers appliance repair drop-off with diagnosis at its own showroom; its warranty policy says it sends technicians to repair appliances. The showroom appointment page helps customers find appliances for their homes and offers repair drop-off; the store handles household refrigerators, washers and ranges.",
+      "sourceUrl": "https://seasideapplianceworld.com/book-appointment/",
+      "sourceVerifiedAt": "2026-11-05T22:26:39.911Z",
+      "supportingUrls": [
+        "https://seasideapplianceworld.com/",
+        "https://seasideapplianceworld.com/book-appointment/",
+        "https://seasideapplianceworld.com/warranty-and-return-policy/"
+      ],
+      "verificationCaveat": "Official homepage opened successfully. Repair appointment page was readable in the search index, but direct open timed out. Official indexed warranty policy independently confirms technician repairs."
+    }
+  ],
+  "historicalQualification": "Unknown; prior displayed counts are not certified qualifying counts."
+}
