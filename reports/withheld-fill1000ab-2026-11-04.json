@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hall Septic",
+    "website": "https://hallseptic.com/",
+    "proposedPlacement": "panama-city-fl|septic-services",
+    "status": "pending_invalid_official_website",
+    "reason": "The domain returned HTTP 200 but resolved to an unrelated generic plumbing page and attempted another redirect, so it failed official-business identity verification."
+  },
+  {
+    "name": "Thompson Marine",
+    "website": "https://thompsonmarine.com/",
+    "proposedPlacement": "crestview-fl|marine-services",
+    "status": "pending_nonresidential_scope",
+    "reason": "The official Crestview location evidence describes support for commercial vessel operators and does not establish a qualifying homeowner or residential marine service."
+  },
+  {
+    "name": "Professional Collision / former Navarre location domain",
+    "website": "https://professional-collision.com/",
+    "proposedPlacement": "navarre-fl|auto-body-collision",
+    "status": "pending_invalid_official_website",
+    "reason": "The historical domain returned HTTP 503 and current evidence indicates the Navarre facility is now a Caliber Collision center; the obsolete domain was not counted as a separate identity."
+  },
+  {
+    "name": "Foley Auto & RV Repair",
+    "website": "https://foleyautorvrepair.net/",
+    "proposedPlacement": "foley-al|auto-mechanics",
+    "status": "pending_invalid_official_website",
+    "reason": "Third-party records supported a Foley repair shop, but the claimed official domain returned HTTP 503 during direct verification and was not published."
+  },
+  {
+    "name": "Gerber Collision & Glass",
+    "website": "https://www.gerbercollision.com/",
+    "proposedPlacement": "navarre-fl|auto-body-collision",
+    "status": "pending_repository_exclusion",
+    "reason": "Official evidence supports a Navarre collision center, but the domain remains on the repository exclusion list and was not bypassed."
+  },
+  {
+    "name": "Overhead Door Company of Mobile Bay",
+    "website": "https://mobilebayohd.com/",
+    "proposedPlacement": "mobile-al|garage-door-repair; orange-beach-al|garage-door-repair; fairhope-al|garage-door-repair",
+    "status": "pending_working_website_check",
+    "reason": "Search retrieval exposed strong official residential and named-city evidence, but both the homepage and service-area URL returned HTTP 403 during repeated direct checks, so the business was withheld."
+  }
+]
