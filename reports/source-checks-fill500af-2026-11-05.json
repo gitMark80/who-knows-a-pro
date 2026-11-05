@@ -1,22 +1,34 @@
 {
-  "checkedAt": "2026-11-05T22:27:53.381349+00:00",
+  "checkedAt": "2026-11-05T22:41:18.438285+00:00",
   "manualContentEvidence": "reports/evidence-fill500af-2026-11-05.json",
   "urls": [
     {
       "url": "https://alwaysbloomingllc.com/",
-      "checkedAt": "2026-11-05T22:27:36.413195+00:00",
+      "checkedAt": "2026-11-05T22:40:41.356868+00:00",
       "error": "HTTP Error 406: Not Acceptable",
       "alternateVerification": {
         "method": "web_search_open",
-        "checkedAt": "2026-11-05T22:28:49.530254+00:00",
+        "checkedAt": "2026-11-05T22:41:51.825782+00:00",
         "finalUrl": "https://alwaysbloomingllc.com/",
         "contentVerified": true,
-        "note": "Official page opened and rendered full business content using the web reader, crawl marked today. Direct urllib request returned 406; no challenge bypass attempted."
+        "note": "Official page opened and displayed matching service and identity content through the web reader, crawl marked today. No challenge bypass attempted."
+      }
+    },
+    {
+      "url": "https://anythingconcrete2.wixsite.com/pownersconcreteandco",
+      "checkedAt": "2026-11-05T22:40:41.359348+00:00",
+      "error": "<urlopen error timed out>",
+      "alternateVerification": {
+        "method": "web_search_open",
+        "checkedAt": "2026-11-05T22:41:51.825794+00:00",
+        "finalUrl": "https://anythingconcrete2.wixsite.com/pownersconcreteandco",
+        "contentVerified": true,
+        "note": "Official page opened and displayed matching service and identity content through the web reader, crawl marked today. No challenge bypass attempted."
       }
     },
     {
       "url": "https://barefootlawncarefl.com/",
-      "checkedAt": "2026-11-05T22:27:36.414692+00:00",
+      "checkedAt": "2026-11-05T22:40:41.361382+00:00",
       "httpStatus": 200,
       "finalUrl": "https://barefootlawncarefl.com/",
       "bytes": 65907,
@@ -25,7 +37,7 @@
     },
     {
       "url": "https://bigmowskilawncare.com/",
-      "checkedAt": "2026-11-05T22:27:36.415693+00:00",
+      "checkedAt": "2026-11-05T22:40:41.362133+00:00",
       "httpStatus": 200,
       "finalUrl": "https://bigmowskilawncare.com/",
       "bytes": 131551,
@@ -34,7 +46,7 @@
     },
     {
       "url": "https://coastalcreationslps.com/",
-      "checkedAt": "2026-11-05T22:27:36.416420+00:00",
+      "checkedAt": "2026-11-05T22:40:41.363244+00:00",
       "httpStatus": 200,
       "finalUrl": "https://coastalcreationslps.com/",
       "bytes": 252884,
@@ -43,7 +55,7 @@
     },
     {
       "url": "https://coastalcreationslps.com/about-us",
-      "checkedAt": "2026-11-05T22:27:36.417473+00:00",
+      "checkedAt": "2026-11-05T22:40:41.366207+00:00",
       "httpStatus": 200,
       "finalUrl": "https://coastalcreationslps.com/about-us",
       "bytes": 156314,
@@ -52,7 +64,7 @@
     },
     {
       "url": "https://coastalcreationslps.com/irrigation-installation",
-      "checkedAt": "2026-11-05T22:27:36.418420+00:00",
+      "checkedAt": "2026-11-05T22:40:41.368565+00:00",
       "httpStatus": 200,
       "finalUrl": "https://coastalcreationslps.com/irrigation-installation",
       "bytes": 175066,
@@ -61,7 +73,7 @@
     },
     {
       "url": "https://coastalcreationslps.com/the-cove-panama-city",
-      "checkedAt": "2026-11-05T22:27:36.421933+00:00",
+      "checkedAt": "2026-11-05T22:40:41.374399+00:00",
       "httpStatus": 200,
       "finalUrl": "https://coastalcreationslps.com/the-cove-panama-city",
       "bytes": 219675,
@@ -70,19 +82,37 @@
     },
     {
       "url": "https://cudabeenblue.com/",
-      "checkedAt": "2026-11-05T22:27:36.425284+00:00",
+      "checkedAt": "2026-11-05T22:40:45.528419+00:00",
       "error": "HTTP Error 406: Not Acceptable",
       "alternateVerification": {
         "method": "web_search_open",
-        "checkedAt": "2026-11-05T22:28:49.530290+00:00",
+        "checkedAt": "2026-11-05T22:41:51.825798+00:00",
         "finalUrl": "https://cudabeenblue.com/",
         "contentVerified": true,
-        "note": "Official page opened and rendered full business content using the web reader, crawl marked today. Direct urllib request returned 406; no challenge bypass attempted."
+        "note": "Official page opened and displayed matching service and identity content through the web reader, crawl marked today. No challenge bypass attempted."
       }
     },
     {
+      "url": "https://gandlaluminum.com/",
+      "checkedAt": "2026-11-05T22:40:46.487732+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://gandlaluminum.com/",
+      "bytes": 147995,
+      "sha256": "86af5adac01deab1f97e6a9c1b2f6e79c95deddb123690b848563eff14dd7b7d",
+      "title": "Rain Gutter Services: Quality Installation Guaranteed - Your local rain gutter contractor and installation experts in Panama City, FL."
+    },
+    {
+      "url": "https://gandlaluminum.com/about/",
+      "checkedAt": "2026-11-05T22:40:46.533794+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://gandlaluminum.com/about/",
+      "bytes": 132993,
+      "sha256": "543a863b3ddda988587e2dbf21d79b8f0e91b08c43a769953d67d79a4f7cdd90",
+      "title": "Panama City Rain Gutter Contractor with 33 Years Experience"
+    },
+    {
       "url": "https://gatorbaitlandscape.com/",
-      "checkedAt": "2026-11-05T22:27:39.111290+00:00",
+      "checkedAt": "2026-11-05T22:40:46.738416+00:00",
       "httpStatus": 200,
       "finalUrl": "https://gatorbaitlandscape.com/",
       "bytes": 211274,
@@ -91,7 +121,7 @@
     },
     {
       "url": "https://gatorbaitlandscape.com/residential",
-      "checkedAt": "2026-11-05T22:27:39.161116+00:00",
+      "checkedAt": "2026-11-05T22:40:46.793619+00:00",
       "httpStatus": 200,
       "finalUrl": "https://gatorbaitlandscape.com/residential",
       "bytes": 194094,
@@ -99,8 +129,44 @@
       "title": "Residential"
     },
     {
+      "url": "https://goodiespoolcare.com/about/",
+      "checkedAt": "2026-11-05T22:40:46.890293+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://goodiespoolcare.com/about/",
+      "bytes": 36360,
+      "sha256": "84904ed61b0be36548d9f61efe955a9caf160685405e31287a8eecfb29e5234f",
+      "title": "About Goodies Pool Care | Panama City, FL"
+    },
+    {
+      "url": "https://goodiespoolcare.com/services/",
+      "checkedAt": "2026-11-05T22:40:48.387875+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://goodiespoolcare.com/services/",
+      "bytes": 52340,
+      "sha256": "2c5dd72daf119216373e9100bc250a82488ce3751e3011abb34012c0593bfb63",
+      "title": "Pool Services in Panama City, FL | Goodies Pool Care"
+    },
+    {
+      "url": "https://gulfcoastpoolconstruction.com/",
+      "checkedAt": "2026-11-05T22:40:50.903075+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://gulfcoastpoolconstruction.com/",
+      "bytes": 186557,
+      "sha256": "d4b4330c95fc7862a33b63555e399d77c0ecb7b4fbf4b1e21174f1d84068e03d",
+      "title": "Custom Swimming Pools | Gulf Coast Pool"
+    },
+    {
+      "url": "https://gulfcoastpoolconstruction.com/about/",
+      "checkedAt": "2026-11-05T22:40:51.228663+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://gulfcoastpoolconstruction.com/about/",
+      "bytes": 93204,
+      "sha256": "48acefef9883e9317b3301f52d7b91eea507811ee3f7b49a3246c6fa5c9c0ee3",
+      "title": "Swimming Pool Building Company Panama City | Gulf Coast Pool Consulting & Construction"
+    },
+    {
       "url": "https://landscapingpluscrestview.com/",
-      "checkedAt": "2026-11-05T22:27:39.173158+00:00",
+      "checkedAt": "2026-11-05T22:40:51.304888+00:00",
       "httpStatus": 200,
       "finalUrl": "https://landscapingpluscrestview.com/",
       "bytes": 121831,
@@ -109,7 +175,7 @@
     },
     {
       "url": "https://landscapingpluscrestview.com/about-us/",
-      "checkedAt": "2026-11-05T22:27:39.373671+00:00",
+      "checkedAt": "2026-11-05T22:40:53.573780+00:00",
       "httpStatus": 200,
       "finalUrl": "https://landscapingpluscrestview.com/about-us/",
       "bytes": 117626,
@@ -118,7 +184,7 @@
     },
     {
       "url": "https://landscapingpluscrestview.com/landscaping-services/",
-      "checkedAt": "2026-11-05T22:27:39.997712+00:00",
+      "checkedAt": "2026-11-05T22:40:53.601623+00:00",
       "httpStatus": 200,
       "finalUrl": "https://landscapingpluscrestview.com/landscaping-services/",
       "bytes": 118914,
@@ -126,8 +192,17 @@
       "title": "Landscaping Services | Landscaping Plus of Crestview | Serving Okaloosa County"
     },
     {
+      "url": "https://lawndogpc.com/",
+      "checkedAt": "2026-11-05T22:40:53.803171+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://lawndogpc.com/",
+      "bytes": 24614,
+      "sha256": "218174d58be15df569793e1e17ccafb119f1036c8006b404515942a0d200ae79",
+      "title": "Lawn Dog Landscaping | Panama City, FL Lawn Care & Mowing"
+    },
+    {
       "url": "https://lazorscape.com/",
-      "checkedAt": "2026-11-05T22:27:40.393894+00:00",
+      "checkedAt": "2026-11-05T22:40:53.851298+00:00",
       "httpStatus": 200,
       "finalUrl": "https://lazorscape.com/",
       "bytes": 262750,
@@ -135,8 +210,26 @@
       "title": "Commercial Lawn Maintenance | Lazorscape, LLC."
     },
     {
+      "url": "https://panamacitybeachlawnservicesirrigation.com/",
+      "checkedAt": "2026-11-05T22:40:55.067026+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://panamacitybeachlawnservicesirrigation.com/",
+      "bytes": 139884,
+      "sha256": "e076afc6698b1b7b54f45b5fb1aa53281f4142a149803a64b7ac32393da23c32",
+      "title": "Panama City Beach Lawn Services & Irrigation \u2014 Reliable Lawn Care and Irrigation in PCB"
+    },
+    {
+      "url": "https://panamacitybeachlawnservicesirrigation.com/locations/panama-city",
+      "checkedAt": "2026-11-05T22:40:55.107736+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://panamacitybeachlawnservicesirrigation.com/locations/panama-city",
+      "bytes": 83050,
+      "sha256": "351bc98316cc758ac315ff851338bd39f671a686b66da915c6f763c1f25b6008",
+      "title": "Panama City Lawn Care & Irrigation \u2014 Panama City Beach Lawn Services & Irrigation"
+    },
+    {
       "url": "https://panhandlepoolsfl.com/",
-      "checkedAt": "2026-11-05T22:27:41.187126+00:00",
+      "checkedAt": "2026-11-05T22:40:55.178286+00:00",
       "httpStatus": 200,
       "finalUrl": "https://panhandlepoolsfl.com/",
       "bytes": 140373,
@@ -145,7 +238,7 @@
     },
     {
       "url": "https://panhandlepoolsfl.com/about-us",
-      "checkedAt": "2026-11-05T22:27:42.556105+00:00",
+      "checkedAt": "2026-11-05T22:40:55.366988+00:00",
       "httpStatus": 200,
       "finalUrl": "https://panhandlepoolsfl.com/about-us",
       "bytes": 74201,
@@ -154,7 +247,7 @@
     },
     {
       "url": "https://panhandlepoolsfl.com/contact",
-      "checkedAt": "2026-11-05T22:27:42.560474+00:00",
+      "checkedAt": "2026-11-05T22:40:55.385193+00:00",
       "httpStatus": 200,
       "finalUrl": "https://panhandlepoolsfl.com/contact",
       "bytes": 82794,
@@ -163,34 +256,61 @@
     },
     {
       "url": "https://rcplandscapefl.com/",
-      "checkedAt": "2026-11-05T22:27:42.645528+00:00",
+      "checkedAt": "2026-11-05T22:40:57.078388+00:00",
       "httpStatus": 200,
       "finalUrl": "https://rcplandscapefl.com/",
       "bytes": 167849,
-      "sha256": "a38b1c34295eef59e91c30af4f08074d8a5810c46b868fb028ccd7a1872253eb",
+      "sha256": "44af553ac9683ac4cc82aa0bd7fda57c2895f10b09ca28874ccd8b1ec45fd707",
       "title": "Home - RCP Landscape and Maintenance, LLC - Destin Lawn Care"
     },
     {
+      "url": "https://scsgllc3.dudaone.com/",
+      "checkedAt": "2026-11-05T22:40:57.145809+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://scsgllc3.dudaone.com/",
+      "bytes": 70567,
+      "sha256": "b0d9a2175b53e32f1e2b69e01721e6bf0c96745f36a8c2b8ed4265a329220ff2",
+      "title": "Rain Gutter  Installation Lifetime Warranty Panama City Fl."
+    },
+    {
+      "url": "https://scsgllc3.dudaone.com/new-gutter-installation",
+      "checkedAt": "2026-11-05T22:40:59.399720+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://scsgllc3.dudaone.com/new-gutter-installation",
+      "bytes": 40558,
+      "sha256": "8dbeb6351260b10f092c6de2ad4120e4d7d9a4be26b96ed5527ac9d3d88f523e",
+      "title": "Quality Seamless Gutters Panama City Fl.  At A Price You Can Afford"
+    },
+    {
+      "url": "https://thatguttercompany.com/",
+      "checkedAt": "2026-11-05T22:40:59.650435+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://thatguttercompany.com/",
+      "bytes": 48928,
+      "sha256": "a4e38f4bdac5acf1e881928982e4e6dc199f7eb5583b6653f9435fbd94c260c0",
+      "title": "That Gutter Company | Seamless Gutters Panama City, Bay County FL"
+    },
+    {
       "url": "https://thepalmbrothers.com/",
-      "checkedAt": "2026-11-05T22:27:42.648782+00:00",
+      "checkedAt": "2026-11-05T22:41:00.113565+00:00",
       "httpStatus": 200,
       "finalUrl": "https://thepalmbrothers.com/",
       "bytes": 321968,
-      "sha256": "8db61959943292da92cd72666e7cb0a570b6cfe7f5e56e7464fece732bd6b2f1",
+      "sha256": "0b94110dd055b7f2990af8f0818b0fb0611dd91c143c489ab35e3c446fcd8743",
       "title": "Palm Tree and Plant Nursery - Panama City | Palm Brothers (850) 630-5585"
     },
     {
       "url": "https://thepalmbrothers.com/landscape-design-services/",
-      "checkedAt": "2026-11-05T22:27:42.753553+00:00",
+      "checkedAt": "2026-11-05T22:41:00.125555+00:00",
       "httpStatus": 200,
       "finalUrl": "https://thepalmbrothers.com/landscape-design-services/",
       "bytes": 302110,
-      "sha256": "1faa78f0e91107901c877e28452c61f6508fbb799936eae7ea88bfd499279022",
+      "sha256": "e20b823ab77b63fb8f8d0fbe66ce41b9f6b719915d963542394ddc6725bd15a7",
       "title": "Panama City Landscape Design Services | Palm Brothers (850) 215-0321"
     },
     {
       "url": "https://www.850curbappeal.com/",
-      "checkedAt": "2026-11-05T22:27:43.702444+00:00",
+      "checkedAt": "2026-11-05T22:41:00.254366+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.850curbappeal.com/",
       "bytes": 588391,
@@ -198,8 +318,26 @@
       "title": "850 Curb Appeal, LLC | Lawncare | Landscaping | Panama City, Florida"
     },
     {
+      "url": "https://www.advancedlawncontrol.net/",
+      "checkedAt": "2026-11-05T22:41:00.359661+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.advancedlawncontrol.net/",
+      "bytes": 105482,
+      "sha256": "91827209a518683c9076564092c45d3e90fe29c9c2d8aed11374bd0eb7c108bd",
+      "title": "Advanced Lawn Control | Fort Walton Beach, FL | Lawn Maintenance and Pest Control"
+    },
+    {
+      "url": "https://www.beachsideexcavation.com/about",
+      "checkedAt": "2026-11-05T22:41:01.374851+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.beachsideexcavation.com/about",
+      "bytes": 513940,
+      "sha256": "8a3b7ce5f2eecc7e0af645e3d08fb8362ad47837637644c508c249efaa216249",
+      "title": "About | beachsideexcavation.com"
+    },
+    {
       "url": "https://www.bigcexteriorservices.com/",
-      "checkedAt": "2026-11-05T22:27:44.840491+00:00",
+      "checkedAt": "2026-11-05T22:41:01.399632+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.bigcexteriorservices.com/",
       "bytes": 89940,
@@ -207,8 +345,62 @@
       "title": "Big C Exterior Services - Quality Lawn Care and Pressure Washing in [SERVICE AREA]"
     },
     {
+      "url": "https://www.campbellsconstructionfl.com/",
+      "checkedAt": "2026-11-05T22:41:02.538198+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.campbellsconstructionfl.com/",
+      "bytes": 206160,
+      "sha256": "0f719538a4512817164e8b888112348efcaaae3ac2ccd09f09cc383b479ee54e",
+      "title": "Campbell's Construction, Concrete & Tractor Service | Panama City"
+    },
+    {
+      "url": "https://www.campbellsconstructionfl.com/driveways",
+      "checkedAt": "2026-11-05T22:41:04.794997+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.campbellsconstructionfl.com/driveways",
+      "bytes": 65679,
+      "sha256": "2ed041d2841c83adae84910142924c0f913e2b902c9883f5668e3220e26661d9",
+      "title": "Driveways | Walkways | Panama City, FL"
+    },
+    {
+      "url": "https://www.copperheadcuts.com/",
+      "checkedAt": "2026-11-05T22:41:05.123156+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.copperheadcuts.com/",
+      "bytes": 716072,
+      "sha256": "a8541763a7c28f53fac836cd6c4b4cbdffac21ccfc61137cf0a23566de3f098e",
+      "title": "Copperhead Cuts & Landscaping | Lawn Mowing | Fort Walton Beach, FL, USA"
+    },
+    {
+      "url": "https://www.costaverde-landscaping.com/",
+      "checkedAt": "2026-11-05T22:41:05.296644+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.costaverde-landscaping.com/",
+      "bytes": 102835,
+      "sha256": "50a0259bf078fe104c958492fed21a5a7fdbd6aacdde8a9249c7078a23aba72d",
+      "title": "Costa Verde Landscaping"
+    },
+    {
+      "url": "https://www.cpmlawncare.com/service-area/fort-walton-beach-lawn-care-landscaping-service/",
+      "checkedAt": "2026-11-05T22:41:05.363203+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cpmlawncare.com/service-area/fort-walton-beach-lawn-care-landscaping-service/",
+      "bytes": 166326,
+      "sha256": "b194401cb32043a34cbe65d571ee12a7ebf3ff0d29673e9838e73c93fd2816cf",
+      "title": "Fort Walton Beach Lawn Care & Landscaping Service - Coastal Property Maintenance"
+    },
+    {
+      "url": "https://www.cpmlawncare.com/service-area/lawn-care-landscaping-service-in-destin-fl/",
+      "checkedAt": "2026-11-05T22:41:05.938490+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cpmlawncare.com/service-area/lawn-care-landscaping-service-in-destin-fl/",
+      "bytes": 166745,
+      "sha256": "af6e0bac69160872def01e1a8403c6042fdfea852bcc0eb70c6b74edd2f926fe",
+      "title": "Lawn Care & Landscaping Service in Destin, FL - Coastal Property Maintenance"
+    },
+    {
       "url": "https://www.gropropc.com/",
-      "checkedAt": "2026-11-05T22:27:45.248356+00:00",
+      "checkedAt": "2026-11-05T22:41:06.053207+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.gropropc.com/",
       "bytes": 939323,
@@ -217,7 +409,7 @@
     },
     {
       "url": "https://www.gropropc.com/copy-of-irrigation",
-      "checkedAt": "2026-11-05T22:27:45.721631+00:00",
+      "checkedAt": "2026-11-05T22:41:06.407892+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.gropropc.com/copy-of-irrigation",
       "bytes": 662457,
@@ -226,7 +418,7 @@
     },
     {
       "url": "https://www.gropropc.com/team-3",
-      "checkedAt": "2026-11-05T22:27:45.737620+00:00",
+      "checkedAt": "2026-11-05T22:41:08.230799+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.gropropc.com/team-3",
       "bytes": 664176,
@@ -235,7 +427,7 @@
     },
     {
       "url": "https://www.hendrixlandmanagement.com/",
-      "checkedAt": "2026-11-05T22:27:45.846490+00:00",
+      "checkedAt": "2026-11-05T22:41:08.237978+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hendrixlandmanagement.com/",
       "bytes": 1996623,
@@ -244,7 +436,7 @@
     },
     {
       "url": "https://www.hendrixlandmanagement.com/about-hendrix-land-management-panama-city-fl",
-      "checkedAt": "2026-11-05T22:27:46.404566+00:00",
+      "checkedAt": "2026-11-05T22:41:08.452648+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hendrixlandmanagement.com/about-hendrix-land-management-panama-city-fl",
       "bytes": 794960,
@@ -253,7 +445,7 @@
     },
     {
       "url": "https://www.hendrixlandmanagement.com/land-clearing-panama-city-fl",
-      "checkedAt": "2026-11-05T22:27:46.422109+00:00",
+      "checkedAt": "2026-11-05T22:41:08.904286+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hendrixlandmanagement.com/land-clearing-panama-city-fl",
       "bytes": 1617522,
@@ -262,7 +454,7 @@
     },
     {
       "url": "https://www.hendrixlandmanagement.com/tree-removal-panama-city-fl",
-      "checkedAt": "2026-11-05T22:27:47.215523+00:00",
+      "checkedAt": "2026-11-05T22:41:09.978162+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hendrixlandmanagement.com/tree-removal-panama-city-fl",
       "bytes": 1563063,
@@ -271,7 +463,7 @@
     },
     {
       "url": "https://www.hipoolservice.com/",
-      "checkedAt": "2026-11-05T22:27:48.278114+00:00",
+      "checkedAt": "2026-11-05T22:41:10.089542+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hipoolservice.com/",
       "bytes": 1350459,
@@ -280,7 +472,7 @@
     },
     {
       "url": "https://www.hytechlandscape.com/",
-      "checkedAt": "2026-11-05T22:27:48.316523+00:00",
+      "checkedAt": "2026-11-05T22:41:10.090094+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hytechlandscape.com/",
       "bytes": 484471,
@@ -288,8 +480,62 @@
       "title": "About Us | hytechlandscape"
     },
     {
+      "url": "https://www.jdubspoolservice.com/",
+      "checkedAt": "2026-11-05T22:41:10.090921+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jdubspoolservice.com/",
+      "bytes": 273981,
+      "sha256": "7f73547126c58314fc2013989f5c10b53249acc9d97f481fd875c4f17267bf93",
+      "title": "JDubs Pool Service | Schedule Your Service Today"
+    },
+    {
+      "url": "https://www.jdubspoolservice.com/service-area",
+      "checkedAt": "2026-11-05T22:41:10.091350+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jdubspoolservice.com/service-area",
+      "bytes": 282153,
+      "sha256": "d2ebf748e47ec7fac6a8cb22e488573d178e7a8cf9955333c5096fbbcfdf2e18",
+      "title": "Service Area | Experience Reliable Pool Care Today \u2014 JDubs Pool Service"
+    },
+    {
+      "url": "https://www.lisenbypalmspanamacityfl.com/",
+      "checkedAt": "2026-11-05T22:41:10.740360+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lisenbypalmspanamacityfl.com/",
+      "bytes": 93483,
+      "sha256": "d70dc414f3ff9da94f2fb531885c4476020f859d380375b2020c26a4ed882076",
+      "title": "Palm Trees | Panama City Beach, FL | Lisenby Palms Inc."
+    },
+    {
+      "url": "https://www.lisenbypalmspanamacityfl.com/tree-services",
+      "checkedAt": "2026-11-05T22:41:10.974872+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.lisenbypalmspanamacityfl.com/tree-services",
+      "bytes": 73313,
+      "sha256": "895458a0386caefb806d7d19471cb99c4255466090c95925a8381cf9207d362d",
+      "title": "Plant Nursery | Panama City Beach, FL | Lisenby Palms Inc."
+    },
+    {
+      "url": "https://www.premierpoolpros.com/",
+      "checkedAt": "2026-11-05T22:41:10.975964+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.premierpoolpros.com/",
+      "bytes": 3045205,
+      "sha256": "6f259a59abbd2177ea0d759c88a1981b8d77c50f87db9501df570bf5d4bf1902",
+      "title": "Professional Pool Cleaning Company For Airbnb - Weekly, Vacation Rental Pool And Spa Cleaning Services Navarre FL - Premier Pool Pros"
+    },
+    {
+      "url": "https://www.premierpoolpros.com/about-navarre-pool-cleaners",
+      "checkedAt": "2026-11-05T22:41:10.989430+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.premierpoolpros.com/about-navarre-pool-cleaners",
+      "bytes": 1674667,
+      "sha256": "65232a45d538031c8ea8e931720f75b9aec3b3d8c38d01a819dd9dc1ca0413c1",
+      "title": "Meet Premier Pool Pros \u2013 Your Trusted Navarre Pool Cleaners"
+    },
+    {
       "url": "https://www.saltedsandslandscaping.com/",
-      "checkedAt": "2026-11-05T22:27:48.317173+00:00",
+      "checkedAt": "2026-11-05T22:41:13.899977+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.saltedsandslandscaping.com/",
       "bytes": 1845102,
@@ -298,7 +544,7 @@
     },
     {
       "url": "https://www.saltedsandslandscaping.com/about",
-      "checkedAt": "2026-11-05T22:27:49.370387+00:00",
+      "checkedAt": "2026-11-05T22:41:14.135244+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.saltedsandslandscaping.com/about",
       "bytes": 855200,
@@ -307,7 +553,7 @@
     },
     {
       "url": "https://www.saltedsandslandscaping.com/crestview",
-      "checkedAt": "2026-11-05T22:27:50.979689+00:00",
+      "checkedAt": "2026-11-05T22:41:14.316310+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.saltedsandslandscaping.com/crestview",
       "bytes": 1765993,
@@ -316,12 +562,21 @@
     },
     {
       "url": "https://www.saltedsandslandscaping.com/fortwaltonbeach",
-      "checkedAt": "2026-11-05T22:27:51.062326+00:00",
+      "checkedAt": "2026-11-05T22:41:14.366029+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.saltedsandslandscaping.com/fortwaltonbeach",
       "bytes": 1764746,
       "sha256": "2db7dbf2993ddc519c5f7eb2e659e49f0894b691821c59fd6cc5cf160dfa0af7",
       "title": "Fort Walton Beach | Salted Sands"
+    },
+    {
+      "url": "https://www.shorelinepoolservice.com/about",
+      "checkedAt": "2026-11-05T22:41:15.102684+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.shorelinepoolservice.com/about",
+      "bytes": 173517,
+      "sha256": "6da0f9abe467047195236b2de8a596bf663996baf9dfe9e44851e10eafa15402",
+      "title": "About \u2014 Shoreline Pool Service"
     }
   ]
 }
