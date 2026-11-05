@@ -1,0 +1,36 @@
+{
+  "sourceCommit": "e9031eb9d8928c3358e169e18a2b66282d2cebe4",
+  "deploymentId": "dpl_14WXqvpM1vdZBndHJGe8cMumZUcX",
+  "checkedAt": "2026-11-05T11:31:23.880414+00:00",
+  "categoryPages": 1,
+  "placementCount": 1,
+  "placementsPassed": 1,
+  "profileCount": 1,
+  "profilesPassed": 1,
+  "placements": [
+    {
+      "url": "https://whoknowsapro.com/crestview-fl/marine-services",
+      "name": "Seffens Mobile Mechanic LLC",
+      "mainSlug": "seffens-mobile-mechanic-llc",
+      "domain": "seffensmobilemechanic.com",
+      "httpStatus": 200,
+      "matchingCards": 1,
+      "officialLinkFound": true,
+      "profileContextPreserved": true,
+      "passed": true
+    }
+  ],
+  "profiles": [
+    {
+      "url": "https://whoknowsapro.com/business/seffens-mobile-mechanic-llc",
+      "name": "Seffens Mobile Mechanic LLC",
+      "mainSlug": "seffens-mobile-mechanic-llc",
+      "domain": "seffensmobilemechanic.com",
+      "httpStatus": 200,
+      "matchingCards": 1,
+      "officialLinkFound": true,
+      "profileContextPreserved": true,
+      "passed": true
+    }
+  ]
+}

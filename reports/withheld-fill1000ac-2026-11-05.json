@@ -18,5 +18,24 @@
     "name": "Gerber Collision & Glass — Crestview",
     "website": "https://www.gerbercollision.com/locations/crestview-fl",
     "reason": "The official branch page verifies consumer collision repair and a staffed Crestview location, but gerbercollision.com is intentionally excluded by the repository's existing national-chain policy. The candidate was researched and withheld rather than changing that product policy in this fill task."
+  },
+  {
+    "name": "Vettes Unlimited",
+    "website": "https://www.vettesunlimited.biz/index.html",
+    "reason": "Authorized sources corroborate a Crestview auto-restoration operation, but the purported official website returned HTTP 503 during direct verification and therefore does not satisfy the working-official-website requirement."
+  },
+  {
+    "name": "Hall Septic Tank Service / Disposal Services",
+    "website": "https://disposalservices.com/",
+    "reason": "The official site describes the company's history as Hall Septic Tank Service but its current advertised services are roll-off containers, portable sanitation, holding tanks and fill sand; it does not establish current residential septic service."
+  },
+  {
+    "name": "A1 Septic Worx LLC",
+    "website": "https://www.a1septicworxllc.com/",
+    "reason": "Licensing sources corroborate the septic contractor, but the published business domain returned HTTP 404 during official-site verification and cannot support a qualifying listing."
+  },
+  {
+    "name": "Dr Pumper Septic LLC",
+    "reason": "Authorized records corroborate a Bay County septic contractor, but research did not find a working official business website that establishes residential service and specific Panama City coverage."
   }
 ]

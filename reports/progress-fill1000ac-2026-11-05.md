@@ -59,3 +59,13 @@ Nine displayed page targets reach 20 in the published snapshot. These page total
 - GitHub data commit: `c8f0555a46c04426ae69014d9eca98232ce9a632` on `main`.
 - Vercel production deployment: `dpl_7f6BAEDAjR9pWv4v1HUkEV5omjpB`, `READY`.
 - Live verification: passed at `2026-11-05T11:15:50.295816+00:00`; 17/17 placements and 12/12 profiles passed. The eleven new businesses are counted as published and live-verified. Detailed results are in `reports/live-fill1000ac-2026-11-05.json`.
+
+## Supplemental priority checkpoint
+
+- A continuation from the same fixed run-start baseline added Seffens Mobile Mechanic LLC to Crestview marine services. Its official site offers boat and jet-ski engine repair at the customer's dock or home, explicitly names Crestview and Okaloosa County, identifies the operating mechanic and direct quote process, and passed the working-site check.
+- Supplemental data commit: `e9031eb9d8928c3358e169e18a2b66282d2cebe4`; production deployment `dpl_14WXqvpM1vdZBndHJGe8cMumZUcX` reached `READY`.
+- Supplemental live verification passed at `2026-11-05T11:31:23.880414+00:00`: 1/1 placement and 1/1 profile passed, including the intended official-site link.
+- Combined run total: twelve distinct new businesses published and live-verified; eighteen placements, comprising seventeen from newly added businesses and one from a business already present at the fixed baseline. The exact new-business shortfall against 1,000 is 988.
+- Combined rendered coverage: 840 pages display 20+, 360 display below 20, zero are empty, and the displayed deficit is 1,408. Crestview marine services is now 19; Crestview auto body remains 18; Panama City septic remains 19.
+- The supplemental research also reviewed Gerber Collision & Glass — Crestview, Vettes Unlimited, Hall Septic Tank Service/Disposal Services, A1 Septic Worx, Dr Pumper Septic and the already-listed Mr. Rooter Panama City operation. Gerber met the branch evidence rules but remains withheld under the repository's national-chain exclusion; Vettes returned HTTP 503; Hall's current official site does not offer septic work; A1's published official domain returned 404; Dr Pumper lacked a working official business site; and Mr. Rooter was already counted in the baseline.
+- The qualifying total and qualifying deficit remain unknown because historical records have not been completely re-audited. The combined displayed deficit of 1,408 is not a certification that the historical listings qualify.
