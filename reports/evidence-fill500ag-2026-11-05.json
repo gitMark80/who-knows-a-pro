@@ -1,0 +1,311 @@
+{
+  "run": "fill500ag",
+  "continuesRun": "fill500af",
+  "baselineCommit": "e661e9dbced797f2852a020eefd43c8ae9d61714",
+  "targetDistinctNewBusinesses": 500,
+  "priorQualifiedNewBusinesses": 98,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Goodflow Gutter Systems LLC",
+      "website": "https://www.goodflowguttersystems.com/",
+      "regions": [
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "gutters"
+      ],
+      "sourceUrl": "https://www.goodflowguttersystems.com/",
+      "sourceVerifiedAt": "2026-11-05T23:01:27.610171+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Family-owned gutter company describes its own experienced team performing cleaning, repairs, guards and installation.",
+      "customerScope": "residential",
+      "customerEvidence": "Official introduction explicitly offers gutter services protecting the customer home.",
+      "customerSourceUrl": "https://www.goodflowguttersystems.com/",
+      "geographicEvidence": "The official contact section places the family-owned gutter company at 313 Echo Circle, Fort Walton Beach, Florida 32548, with a local 850 telephone number.",
+      "geographicSourceUrl": "https://www.goodflowguttersystems.com/",
+      "identityEvidence": "The official website uses the Goodflow Gutter Systems name in its company introduction and Goodflow Gutter Systems LLC in its footer, with phone 850-240-8653 and gfguttersystems@gmail.com.",
+      "officialWebsiteFinalUrl": "https://www.goodflowguttersystems.com/",
+      "evidenceNote": "Family-owned Fort Walton Beach gutter contractor whose own team installs, repairs and cleans gutter systems and installs gutter guards for protection of customer homes.",
+      "exactEvidence": {
+        "service": "gutter cleaning, repair, installation",
+        "location": "Fort Walton Beach , FL 32548",
+        "scope": "keep your home protected"
+      },
+      "supportingUrls": [
+        "https://www.goodflowguttersystems.com/"
+      ],
+      "normalizedIdentity": "goodflowguttersystemsllc",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against 14,190 placements in fill500ag-baseline.json; 0 matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "keySections": [
+          "Company introduction and services",
+          "Local contact information"
+        ],
+        "status": "read-success"
+      },
+      "officialPageChecks": [
+        {
+          "url": "https://www.goodflowguttersystems.com/",
+          "status": 200,
+          "finalUrl": "https://www.goodflowguttersystems.com/",
+          "bytes": 941682,
+          "contentType": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "Creamer's Tree Service",
+      "website": "https://www.creamerstreeservice.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "tree-service"
+      ],
+      "sourceUrl": "https://www.creamerstreeservice.com/",
+      "sourceVerifiedAt": "2026-11-05T23:01:27.610197+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Official family company describes its team performing emergency removals, complex trimming and scheduled maintenance.",
+      "customerScope": "residential",
+      "customerEvidence": "The official company introduction explicitly describes the family maintaining residential properties across Panama City for three generations; its offered work includes tree removal, trimming and scheduled maintenance.",
+      "customerSourceUrl": "https://www.creamerstreeservice.com/",
+      "geographicEvidence": "Homepage identifies service in Panama City and describes residential and commercial projects across Panama City.",
+      "geographicSourceUrl": "https://www.creamerstreeservice.com/",
+      "identityEvidence": "Family company with three generations and 25+ years claimed; main service phone 850-832-9343.",
+      "officialWebsiteFinalUrl": "https://www.creamerstreeservice.com/",
+      "evidenceNote": "Panama City family tree-service business explicitly serving residential properties with its own emergency removal team, complex trimming work and ongoing tree care.",
+      "exactEvidence": {
+        "scope_and_city": "residential and commercial properties across Panama City",
+        "service": "Professional Tree Removal and Care Services in Panama City"
+      },
+      "supportingUrls": [
+        "https://www.creamerstreeservice.com/"
+      ],
+      "normalizedIdentity": "creamerstreeservice",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against 14,190 placements in fill500ag-baseline.json; 0 matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "reviewCaveat": "The homepage contains unfinished template placeholders outside its substantive company introduction and service sections. Licensing and experience claims remain self-reported.",
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "keySections": [
+          "Company introduction and services",
+          "Local contact information"
+        ],
+        "status": "read-success",
+        "httpCaveat": "Direct urllib request returned HTTP 403; web tool retrieved official homepage text successfully. No retry made after 403."
+      },
+      "officialPageChecks": [
+        {
+          "url": "https://www.creamerstreeservice.com/",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "name": "Trees R Us",
+      "website": "https://www.treesruspanamacity.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "tree-service",
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://www.treesruspanamacity.com/",
+      "sourceVerifiedAt": "2026-11-05T23:01:27.610202+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Official site describes its own crew doing tree removal, palm trimming and irrigation installation, maintenance, repairs and upgrades.",
+      "customerScope": "residential",
+      "customerEvidence": "Services target customer yards, lawns and home outdoor spaces; artificial turf description explicitly includes homes.",
+      "customerSourceUrl": "https://www.treesruspanamacity.com/services.htm",
+      "geographicEvidence": "Official services page gives 1903 St Andrews Blvd, Panama City FL 32405; homepage states Bay County service since 1997.",
+      "geographicSourceUrl": "https://www.treesruspanamacity.com/services.htm",
+      "identityEvidence": "Trees R Us; local telephone 850-769-4911; same identity on official homepage and services page.",
+      "officialWebsiteFinalUrl": "https://www.treesruspanamacity.com/",
+      "evidenceNote": "Panama City tree and landscape business with its own crew providing tree removal, trimming and irrigation installation or repairs for customer yards and lawns; official services also explicitly include home outdoor spaces.",
+      "exactEvidence": {
+        "location": "1903 St Andrews Blvd Panama City, FL 32405",
+        "scope": "Perfect for homes, businesses, or any outdoor space",
+        "service": "irrigation system installation and maintenance"
+      },
+      "supportingUrls": [
+        "https://www.treesruspanamacity.com/",
+        "https://www.treesruspanamacity.com/services.htm"
+      ],
+      "normalizedIdentity": "treesrus",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against 14,190 placements in fill500ag-baseline.json; 0 matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "keySections": [
+          "Company introduction and services",
+          "Local contact information"
+        ],
+        "status": "read-success"
+      },
+      "officialPageChecks": [
+        {
+          "url": "https://www.treesruspanamacity.com/",
+          "status": 200,
+          "finalUrl": "https://www.treesruspanamacity.com/",
+          "bytes": 68061,
+          "contentType": "text/html; charset=utf-8"
+        },
+        {
+          "url": "https://www.treesruspanamacity.com/services.htm",
+          "status": 200,
+          "finalUrl": "https://www.treesruspanamacity.com/services.htm",
+          "bytes": 34298,
+          "contentType": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "name": "Price And Son's Fencing LLC",
+      "website": "https://priceandsonsfencin.wixsite.com/website",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://priceandsonsfencin.wixsite.com/website",
+      "sourceVerifiedAt": "2026-11-05T23:01:27.610206+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Locally owned contractor offers its own custom gate fabrication, wood fencing installation, chain link and vinyl/aluminum repairs.",
+      "customerScope": "residential",
+      "customerEvidence": "The official Industries page explicitly lists Residential as a customer sector and says it handles projects of all sizes; its main services page details wood privacy fencing and fence maintenance and repair.",
+      "customerSourceUrl": "https://priceandsonsfencin.wixsite.com/website/industries",
+      "geographicEvidence": "Official About introduction identifies company as locally owned and operated and Panama City born and raised.",
+      "geographicSourceUrl": "https://priceandsonsfencin.wixsite.com/website",
+      "identityEvidence": "The site identifies Price And Son's Fencing LLC in its heading and footer, calls the contractor locally owned and operated, and gives phone 850-276-0141 and priceandsonsfencing@gmail.com.",
+      "officialWebsiteFinalUrl": "https://priceandsonsfencin.wixsite.com/website",
+      "evidenceNote": "Locally owned Panama City fencing contractor with an explicit residential sector and direct installation or repair of wood privacy, chain-link, decorative aluminum and vinyl fences plus custom gates.",
+      "exactEvidence": {
+        "location": "Panama City born and raised",
+        "scope": "Residential",
+        "service": "Wood Fence Installation"
+      },
+      "supportingUrls": [
+        "https://priceandsonsfencin.wixsite.com/website",
+        "https://priceandsonsfencin.wixsite.com/website/industries"
+      ],
+      "normalizedIdentity": "priceandsonsfencingllc",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against 14,190 placements in fill500ag-baseline.json; 0 matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "keySections": [
+          "Company introduction and services",
+          "Local contact information"
+        ],
+        "status": "read-success"
+      },
+      "officialPageChecks": [
+        {
+          "url": "https://priceandsonsfencin.wixsite.com/website",
+          "status": 200,
+          "finalUrl": "https://priceandsonsfencin.wixsite.com/website",
+          "bytes": 501787,
+          "contentType": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://priceandsonsfencin.wixsite.com/website/industries",
+          "status": 200,
+          "finalUrl": "https://priceandsonsfencin.wixsite.com/website/industries",
+          "bytes": 403220,
+          "contentType": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "Breed Fence Company",
+      "website": "https://www.breedfencing.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://www.breedfencing.com/",
+      "sourceVerifiedAt": "2026-11-05T23:01:27.610210+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Small family-owned fence installer describes its own three-generation installation team.",
+      "customerScope": "residential",
+      "customerEvidence": "The official testimonial page features a fence-and-gate installation customer describing work at a newly built home. The official wood-products page also offers standard privacy fencing and picket designs for domestic yards.",
+      "customerSourceUrl": "https://www.breedfencing.com/testimonials",
+      "geographicEvidence": "Homepage explicitly says company is located in Panama City Florida; wood page calls it Bay County custom wood specialist.",
+      "geographicSourceUrl": "https://www.breedfencing.com/",
+      "identityEvidence": "Breed Fence Company is named on the official site as a small family-owned Panama City installer, with contact telephone 850-252-0998 and the company email breedfence@gmail.com.",
+      "officialWebsiteFinalUrl": "https://www.breedfencing.com/",
+      "evidenceNote": "Panama City family-owned fence installation business offering custom wood and privacy fencing; its official website documents a fence-and-gate project for a customer at a newly built home.",
+      "exactEvidence": {
+        "city": "located in Panama City Florida",
+        "scope": "Standard Privacy Fencing",
+        "provider": "small, family-owned fence installation business",
+        "residentialProject": "We recently moved into a home we built"
+      },
+      "supportingUrls": [
+        "https://www.breedfencing.com/",
+        "https://www.breedfencing.com/copy-of-home",
+        "https://www.breedfencing.com/brands",
+        "https://www.breedfencing.com/testimonials",
+        "https://www.breedfencing.com/contact"
+      ],
+      "normalizedIdentity": "breedfencecompany",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against 14,190 placements in fill500ag-baseline.json; 0 matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "reviewCaveat": "Residential project evidence is a testimonial published by the business, supported by its own domestic privacy and picket fence offerings. Official vinyl and aluminum pages currently say unavailable; do not advertise those material options.",
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "keySections": [
+          "Company introduction and services",
+          "Local contact information"
+        ],
+        "status": "read-success"
+      },
+      "officialPageChecks": [
+        {
+          "url": "https://www.breedfencing.com/",
+          "status": 200,
+          "finalUrl": "https://www.breedfencing.com/",
+          "bytes": 742612,
+          "contentType": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://www.breedfencing.com/brands",
+          "status": 200,
+          "finalUrl": "https://www.breedfencing.com/brands",
+          "bytes": 713751,
+          "contentType": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://www.breedfencing.com/testimonials",
+          "status": 200,
+          "finalUrl": "https://www.breedfencing.com/testimonials",
+          "bytes": 715792,
+          "contentType": "text/html; charset=UTF-8"
+        }
+      ]
+    }
+  ],
+  "excludedNotes": [
+    "Tj\u2019s Tree Services withheld because official homepage says it connects customers to local professionals, making direct-provider role uncertain.",
+    "Hometown Garage Doors NF withheld because existing Hometown Garage Doors NWFL may be same normalized identity.",
+    "A-1 Enterprises and PC Fence and Decks also have official local provider evidence but omitted because Panama City fence category has only two free slots.",
+    "Deese Elite Concrete Coatings withheld: coating specialist does not establish concrete construction category fit."
+  ]
+}
