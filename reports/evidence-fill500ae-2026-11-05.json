@@ -2,7 +2,7 @@
   "run": "fill500ae",
   "baselineCommit": "86c1066f06546c1e8e7dc7ff5d913c73317cff38",
   "targetDistinctNewBusinesses": 500,
-  "status": "second_checkpoint_live_third_prepared",
+  "status": "third_checkpoint_live_fourth_prepared",
   "historicalCoverage": "unknown_until_full_qualification_audit",
   "records": [
     {
@@ -2002,6 +2002,70 @@
       ],
       "baselineIdentity": "new",
       "limitations": null
+    },
+    {
+      "name": "Phillips Pool Service",
+      "website": "https://phillipspoolservice.com/about-us",
+      "regions": [
+        "destin-fl",
+        "panama-city-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://phillipspoolservice.com/about-us",
+      "sourceVerifiedAt": "2026-11-05T20:14:38.547764+00:00",
+      "evidenceNote": "Family-owned Phillips Pool Service identifies owner Phillip M. Hicks and its own trained technicians. Its official about page explicitly offers residential pool cleaning and maintenance and names Destin, Panama City and Panama City Beach as service areas.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Family-owned Phillips Pool Service identifies owner Phillip M. Hicks and its own trained technicians. Its official about page explicitly offers residential pool cleaning and maintenance and names Destin, Panama City and Panama City Beach as service areas.",
+      "customerScope": "residential",
+      "customerEvidence": "Family-owned Phillips Pool Service identifies owner Phillip M. Hicks and its own trained technicians. Its official about page explicitly offers residential pool cleaning and maintenance and names Destin, Panama City and Panama City Beach as service areas.",
+      "customerSourceUrl": "https://phillipspoolservice.com/about-us",
+      "geographicEvidence": "Family-owned Phillips Pool Service identifies owner Phillip M. Hicks and its own trained technicians. Its official about page explicitly offers residential pool cleaning and maintenance and names Destin, Panama City and Panama City Beach as service areas.",
+      "geographicSourceUrl": "https://phillipspoolservice.com/about-us",
+      "identityEvidence": "Family-owned Phillips Pool Service identifies owner Phillip M. Hicks and its own trained technicians. Its official about page explicitly offers residential pool cleaning and maintenance and names Destin, Panama City and Panama City Beach as service areas.",
+      "officialWebsiteFinalUrl": "https://phillipspoolservice.com/about-us",
+      "supportingUrls": [
+        "https://phillipspoolservice.com/about-us"
+      ],
+      "placementKeys": [
+        "phillipspoolservice.com|destin-fl|pool-service",
+        "phillipspoolservice.com|panama-city-fl|pool-service",
+        "phillipspoolservice.com|panama-city-beach-fl|pool-service"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Splash Pools of NWFL",
+      "website": "https://splashpoolsnwfl.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://splashpoolsnwfl.com/",
+      "sourceVerifiedAt": "2026-11-05T20:14:38.547764+00:00",
+      "evidenceNote": "This second-generation family-owned company identifies owners Ramey and Kayla and its own pool-service team. Its official website explicitly offers homeowners pool maintenance, repair and renovation in Panama City. Its Panama City Beach placement already exists and is not counted again.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This second-generation family-owned company identifies owners Ramey and Kayla and its own pool-service team. Its official website explicitly offers homeowners pool maintenance, repair and renovation in Panama City. Its Panama City Beach placement already exists and is not counted again.",
+      "customerScope": "residential",
+      "customerEvidence": "This second-generation family-owned company identifies owners Ramey and Kayla and its own pool-service team. Its official website explicitly offers homeowners pool maintenance, repair and renovation in Panama City. Its Panama City Beach placement already exists and is not counted again.",
+      "customerSourceUrl": "https://splashpoolsnwfl.com/",
+      "geographicEvidence": "This second-generation family-owned company identifies owners Ramey and Kayla and its own pool-service team. Its official website explicitly offers homeowners pool maintenance, repair and renovation in Panama City. Its Panama City Beach placement already exists and is not counted again.",
+      "geographicSourceUrl": "https://splashpoolsnwfl.com/",
+      "identityEvidence": "This second-generation family-owned company identifies owners Ramey and Kayla and its own pool-service team. Its official website explicitly offers homeowners pool maintenance, repair and renovation in Panama City. Its Panama City Beach placement already exists and is not counted again.",
+      "officialWebsiteFinalUrl": "https://splashpoolsnwfl.com/",
+      "supportingUrls": [
+        "https://splashpoolsnwfl.com/"
+      ],
+      "placementKeys": [
+        "splashpoolsnwfl.com|panama-city-fl|pool-service"
+      ],
+      "baselineIdentity": "previously_listed",
+      "limitations": null
     }
   ],
   "pending": [
@@ -2099,6 +2163,11 @@
       "name": "Super Lock and Key",
       "website": "https://www.superlockandkey.com/locksmith/clearwater/fl/residential-locksmith/",
       "reason": "Search-discovered residential candidate; underlying official page inaccessible through research tool; identity and final destination need verification."
+    },
+    {
+      "name": "AE Locksmith Tampa \u2014 North Clearwater placement",
+      "website": "https://aelocksmithtampa.com/",
+      "reason": "Existing company, not new. Official residential direct-provider evidence and explicit North Clearwater coverage found; city-wide coverage is not claimed. Hold extra placement pending a way to communicate this geographic limitation publicly."
     }
   ],
   "existingCandidatesNotCounted": [
@@ -2149,7 +2218,10 @@
     "We Do Locksmith",
     "WittCo Pools",
     "Zeb Watts",
-    "Zoom Locksmith"
+    "Zoom Locksmith",
+    "J&J Swimming Pool Services",
+    "Splash Pools of NWFL",
+    "AE Locksmith Tampa"
   ],
   "historicalReview": {
     "retailFixIt": "Previously flagged for unsupported residential service/geography and network status. Already excluded by the separately authorized national-brand cleanup; unchanged in this run.",
@@ -2172,6 +2244,16 @@
         "possible_duplicate_identity"
       ],
       "note": "Multiple baseline Pinckard profiles require ownership/identity review; not counted as new and unchanged."
+    },
+    "retailFixItCurrentReview": {
+      "checkedAt": "2026-11-05T20:14:38.547764+00:00",
+      "sourceUrl": "https://www.retailfixit.com/markets-served/commercial-retail-maintenance/",
+      "evidenceNote": "Official commercial-retail maintenance page describes serving retail/commercial clients by sourcing local providers through a nationwide specialist network. It does not establish direct residential locksmith service in any target city. Previously excluded by authorized cleanup; no additional visibility change.",
+      "flags": [
+        "unsupported_residential_service",
+        "unsupported_local_geography",
+        "intermediary_network"
+      ]
     }
   },
   "pendingOfficialWebsiteChecks": [
@@ -2285,14 +2367,16 @@
   "publication": {
     "firstCommit": "222c6a08eebe23a1e04f74511de15e27683c4140",
     "firstDeployment": "dpl_AoqEX54cvnTtqjZvdrHdP4fEuBsP",
-    "businessesPublished": 48,
-    "placementsPublished": 55,
-    "currentlyAllChecksCompleteNewBusinesses": 47,
+    "businessesPublished": 62,
+    "placementsPublished": 79,
+    "currentlyAllChecksCompleteNewBusinesses": 61,
     "publishedOfficialRecheckPending": 1,
-    "additionalNewBusinessesPrepared": 14,
-    "additionalPlacementsPrepared": 24,
-    "shortfallAgainst500": 453,
+    "additionalNewBusinessesPrepared": 1,
+    "additionalPlacementsPrepared": 4,
+    "shortfallAgainst500": 439,
     "secondCommit": "1754a72826158cc6f473a787086ec297c3bd699b",
-    "secondDeployment": "dpl_AdMhCVz7obpGCv9LRrUdpU9X7VgL"
+    "secondDeployment": "dpl_AdMhCVz7obpGCv9LRrUdpU9X7VgL",
+    "thirdCommit": "946a9e479fa48630f402edba416bacc8fcd77472",
+    "thirdDeployment": "dpl_6TRdATUES4KCnQEbJxG3xzGfy7n1"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T19:51:56.011559+00:00",
+  "checkedAt": "2026-11-05T20:14:38.547764+00:00",
   "manualContentEvidence": "reports/evidence-fill500ae-2026-11-05.json",
   "urls": [
     {
@@ -932,6 +932,33 @@
       "title": "Expert Locksmith in St. Petersburg, FL | Locksmith and Doors",
       "sha256": "2d232093073692e9dada217308c6405a6df58510bec9f83d65bbd66bfa6a214f",
       "bytes": 294528
+    },
+    {
+      "url": "https://phillipspoolservice.com/about-us",
+      "checkedAt": "2026-11-05T20:14:02.282470+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://phillipspoolservice.com/about-us",
+      "bytes": 107051,
+      "sha256": "22012a11f2a1f13dda42b0c7ab9fbff5343837281ad96284d34b17e5eca2c330",
+      "title": "About Us | Phillips Pool Service"
+    },
+    {
+      "url": "https://splashpoolsnwfl.com/",
+      "checkedAt": "2026-11-05T20:14:02.283361+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://splashpoolsnwfl.com/",
+      "bytes": 477141,
+      "sha256": "35898080104c1b796120a648fd3b98d1f8f8739bd7029d6d93cea6c4b963d0ca",
+      "title": "Pool Service Company Panama City Beach, FL"
+    },
+    {
+      "url": "https://aelocksmithtampa.com/",
+      "checkedAt": "2026-11-05T20:14:02.284016+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://aelocksmithtampa.com/",
+      "bytes": 728288,
+      "sha256": "0b5f5d96dec9a0c0f317ec34929b377e7f0d46501339f31e2db1c284366eaf40",
+      "title": "AE Locksmith Tampa | 24/7 Mobile Locksmith - Lockouts, Rekeys & Lock Change"
     }
   ]
 }
