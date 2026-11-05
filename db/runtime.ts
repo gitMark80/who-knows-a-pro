@@ -1,7 +1,7 @@
 import { createClient, type Client, type InValue } from '@libsql/client';
 import { directorySeed } from '@/data/directory';
 import { additiveColumns, schemaStatements } from '@/db/setup';
-import { excludedWebsiteDomains } from '@/data/excluded-businesses';
+import { excludedWebsiteDomains, isExcludedWebsite } from '@/data/excluded-businesses';
 
 const STATIC_UPDATED_AT = Date.UTC(2026, 8, 25);
 
@@ -44,6 +44,11 @@ export type BusinessProfile = Business & {
   trades: string[];
   placements: Business[];
 };
+
+/** Public directory surfaces exclude national brands even when a legacy row is claimed. */
+export function isPublicDirectoryBusiness(business: Pick<Business, 'approved' | 'is_test' | 'website'>) {
+  return business.approved === 1 && !business.is_test && !isExcludedWebsite(business.website);
+}
 
 function publicBusiness(seed: (typeof directorySeed)[number]): Business {
   return {
@@ -281,7 +286,7 @@ export async function listBusinesses(region?: string, trade?: string, limit = 20
 
   const seen = new Set<string>();
   return combined
-    .filter((business) => business.approved === 1 && !business.is_test)
+    .filter(isPublicDirectoryBusiness)
     .filter((business) => {
       let website = business.website.trim().toLowerCase().replace(/\/+$/, '');
       try {
@@ -305,11 +310,13 @@ export async function listBusinessSlugs(): Promise<{ slug: string; updated_at: n
   for (const business of publicDirectory) slugs.set(canonicalSlug(business), STATIC_UPDATED_AT);
   if (databaseConfigured()) {
     try {
-      const rows = await sqlAll<{ slug: string; updated_at: number }>(
-        `SELECT COALESCE(main_slug, slug) AS slug, MAX(updated_at) AS updated_at
-         FROM businesses WHERE approved = 1 AND is_test = 0 GROUP BY COALESCE(main_slug, slug)`,
+      const rows = await sqlAll<{ slug: string; website: string; updated_at: number }>(
+        `SELECT COALESCE(main_slug, slug) AS slug, website, MAX(updated_at) AS updated_at
+         FROM businesses WHERE approved = 1 AND is_test = 0 GROUP BY COALESCE(main_slug, slug), website`,
       );
-      for (const row of rows) slugs.set(row.slug, Math.max(slugs.get(row.slug) ?? 0, row.updated_at));
+      for (const row of rows) {
+        if (!isExcludedWebsite(row.website)) slugs.set(row.slug, Math.max(slugs.get(row.slug) ?? 0, row.updated_at));
+      }
     } catch (error) {
       console.error('Could not load business sitemap overrides', error);
     }
@@ -328,8 +335,8 @@ export async function listIndexableBusinessSlugs(): Promise<{ slug: string; upda
     if (business.summary.trim()) slugs.set(canonicalSlug(business), STATIC_UPDATED_AT);
   }
   if (!databaseConfigured()) return [...slugs].map(([slug, updated_at]) => ({ slug, updated_at }));
-  const rows = await sqlAll<{ slug: string; updated_at: number }>(
-    `SELECT COALESCE(main_slug, slug) AS slug, MAX(updated_at) AS updated_at
+  const rows = await sqlAll<{ slug: string; website: string; updated_at: number }>(
+    `SELECT COALESCE(main_slug, slug) AS slug, website, MAX(updated_at) AS updated_at
      FROM businesses
      WHERE approved = 1 AND is_test = 0 AND (
        TRIM(COALESCE(summary,'')) <> '' OR TRIM(COALESCE(phone,'')) <> '' OR TRIM(COALESCE(address,'')) <> ''
@@ -337,10 +344,12 @@ export async function listIndexableBusinessSlugs(): Promise<{ slug: string; upda
        OR year_founded IS NOT NULL OR TRIM(COALESCE(license_number,'')) <> '' OR TRIM(COALESCE(logo_url,'')) <> ''
        OR COALESCE(photo_urls,'[]') NOT IN ('','[]')
      )
-     GROUP BY COALESCE(main_slug, slug)
+     GROUP BY COALESCE(main_slug, slug), website
      ORDER BY slug`,
   );
-  for (const row of rows) slugs.set(row.slug, Math.max(slugs.get(row.slug) ?? 0, row.updated_at));
+  for (const row of rows) {
+    if (!isExcludedWebsite(row.website)) slugs.set(row.slug, Math.max(slugs.get(row.slug) ?? 0, row.updated_at));
+  }
   return [...slugs].map(([slug, updated_at]) => ({ slug, updated_at })).sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
@@ -354,10 +363,11 @@ export async function listDirectoryPairCounts(): Promise<{ region: string; trade
   }
   if (databaseConfigured()) {
     try {
-      const rows = await sqlAll<Pick<Business, 'region' | 'trade' | 'slug' | 'main_slug'>>(
-        'SELECT region,trade,slug,main_slug FROM businesses WHERE approved = 1 AND is_test = 0',
+      const rows = await sqlAll<Pick<Business, 'region' | 'trade' | 'slug' | 'main_slug' | 'website'>>(
+        'SELECT region,trade,slug,main_slug,website FROM businesses WHERE approved = 1 AND is_test = 0',
       );
       for (const business of rows) {
+        if (isExcludedWebsite(business.website)) continue;
         const key = `${business.region}|${business.trade}`;
         const profiles = groups.get(key) ?? new Set<string>();
         profiles.add(canonicalSlug(business));
@@ -448,6 +458,7 @@ export async function searchDirectory(query: string, limit = 8): Promise<Directo
   if (!terms.length) return [];
   const groups = new Map<string, DirectorySearchResult & { score: number; id: string }>();
   const consider = (business: Business) => {
+    if (isExcludedWebsite(business.website)) return;
     const name = business.name.toLowerCase();
     if (!terms.every((term) => name.includes(term))) return;
     const key = canonicalSlug(business);
@@ -486,7 +497,7 @@ export async function searchDirectory(query: string, limit = 8): Promise<Directo
     .map((item) => ({ slug: item.slug, name: item.name, regions: item.regions, trades: item.trades, claimed: item.claimed }));
 }
 
-export async function getBusinessProfile(slug: string): Promise<{ profile: BusinessProfile; legacy: boolean } | null> {
+export async function getBusinessProfile(slug: string, options: { includeExcluded?: boolean } = {}): Promise<{ profile: BusinessProfile; legacy: boolean } | null> {
   const staticDirect = publicDirectory.find((business) => business.slug === slug || canonicalSlug(business) === slug) ?? null;
   let databaseDirect: Business | null = null;
   if (databaseConfigured()) {
@@ -494,12 +505,14 @@ export async function getBusinessProfile(slug: string): Promise<{ profile: Busin
   }
   const direct = staticDirect || databaseDirect;
   if (!direct) return null;
+  if (!options.includeExcluded && isExcludedWebsite(direct.website)) return null;
   const mainSlug = canonicalSlug(direct);
-  const staticPlacements = publicDirectory.filter((business) => canonicalSlug(business) === mainSlug);
+  const staticPlacements = publicDirectory.filter((business) => canonicalSlug(business) === mainSlug && (options.includeExcluded || !isExcludedWebsite(business.website)));
   let databaseRows: Business[] = [];
   if (databaseConfigured()) {
     try { databaseRows = await sqlAll<Business>('SELECT * FROM businesses WHERE COALESCE(main_slug,slug) = ? ORDER BY owner_email IS NOT NULL DESC, updated_at DESC', [mainSlug]); } catch {}
   }
+  if (!options.includeExcluded) databaseRows = databaseRows.filter((business) => !isExcludedWebsite(business.website));
   const override = bestOverride(databaseRows);
   const placements = staticPlacements.map((business) => mergeBusiness(business, override));
   for (const row of databaseRows) {

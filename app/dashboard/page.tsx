@@ -6,6 +6,7 @@ import { ArrowLeft, BadgeCheck } from 'lucide-react';
 import { Footer } from '@/components/site/footer';
 import { Header } from '@/components/site/header';
 import { regions, trades } from '@/data/catalog';
+import { isExcludedWebsite } from '@/data/excluded-businesses';
 import { currentBusiness } from '@/db/auth';
 import { getBusinessProfile, type Business } from '@/db/runtime';
 import { getBusinessPerformance, getLatestSubscriptionForBusiness } from '@/db/revenue';
@@ -19,7 +20,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
   let business = null;
   try { business = await currentBusiness(); } catch {}
   if (!business) redirect('/claim');
-  const profileResult = await getBusinessProfile(business.main_slug || business.slug);
+  const profileResult = await getBusinessProfile(business.main_slug || business.slug, { includeExcluded: true });
   const profile = profileResult?.profile || business;
   const placements: Business[] = profileResult?.profile.placements || [business];
   const pageOptions = [...new Map<string, { region: string; trade: string; label: string }>(placements.map((placement) => {
@@ -41,7 +42,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
   const requestedPage = pageOptions.find((option) => option.region === query.region && option.trade === query.trade);
 
   return <><Header/><main className="bg-[#f5f7fa]"><div className="mx-auto max-w-5xl px-5 py-10 sm:px-8">
-    {!business.is_test ? <a href={`/business/${profile.main_slug || profile.slug}`} className="flex items-center gap-1 text-sm font-bold text-slate-600"><ArrowLeft className="size-4"/>View public profile</a> : <p className="rounded-xl border border-amber-300 bg-amber-50 p-4 font-semibold">Private billing test — excluded from public listings, search, counts, and the sitemap. No public profile is available. Live Checkout charges real money. After refunding and canceling, ask the site administrator to remove this test profile.</p>}
+    {!business.is_test && !isExcludedWebsite(profile.website) ? <a href={`/business/${profile.main_slug || profile.slug}`} className="flex items-center gap-1 text-sm font-bold text-slate-600"><ArrowLeft className="size-4"/>View public profile</a> : <p className="rounded-xl border border-amber-300 bg-amber-50 p-4 font-semibold">This business is excluded from public directory listings. Its owner and billing records remain available here.</p>}
     <div className="my-7 flex items-start gap-3"><span className="grid size-12 place-items-center rounded-2xl bg-[#142c4c] text-white"><BadgeCheck/></span><div><p className="eyebrow">Business dashboard</p><h1 className="mt-1 text-3xl font-black tracking-tight">{profile.name}</h1></div></div>
     <BusinessResultsPanel results={result}/>
     <DashboardForm

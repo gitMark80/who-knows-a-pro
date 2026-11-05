@@ -114,7 +114,7 @@ export async function POST(request: Request) {
         const existingSlug = await getBusiness(requestedSlug);
         const businessSlug = existingSlug ? `${requestedSlug}-${businessId.slice(0, 6)}` : requestedSlug;
         const requestedMainSlug = slug(businessName);
-        const existingProfile = await getBusinessProfile(requestedMainSlug);
+        const existingProfile = await getBusinessProfile(requestedMainSlug, { includeExcluded: true });
         const existingDomain = existingProfile ? websiteDomain(existingProfile.profile.website) : '';
         const mainSlug = existingProfile && existingDomain !== requestedDomain
           ? `${requestedMainSlug}-${slug(requestedDomain)}`

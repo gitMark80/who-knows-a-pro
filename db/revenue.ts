@@ -1,4 +1,5 @@
 import { getBusiness, sqlAll, sqlBatch, sqlOne, sqlRun, type Business } from '@/db/runtime';
+import { isExcludedWebsite } from '@/data/excluded-businesses';
 
 export type FeaturedSlot = {
   id: string;
@@ -65,7 +66,7 @@ export async function getFeaturedBusiness(region: string, trade: string): Promis
   const slot = await getActiveFeaturedSlot(region, trade);
   if (!slot) return null;
   const business = await getBusiness(slot.business_id);
-  if (!business || business.is_test) return null;
+  if (!business || business.is_test || isExcludedWebsite(business.website)) return null;
   return { slot, business: { ...business, tier: 'featured' } };
 }
 

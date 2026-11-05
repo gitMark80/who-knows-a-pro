@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { activeRegions, trades } from '@/data/catalog';
-import { config, getBusiness, sqlOne, sqlRun } from '@/db/runtime';
+import { config, getBusiness, isPublicDirectoryBusiness, sqlOne, sqlRun } from '@/db/runtime';
 import { getActiveFeaturedSlot } from '@/db/revenue';
 import { emailConfigured, escapeHtml, sendEmail } from '@/lib/email';
 import { PUBLIC_SITE_URL } from '@/lib/site-url';
@@ -60,7 +60,7 @@ export async function POST(request: Request) {
 
     const slot = await getActiveFeaturedSlot(region, trade);
     const featuredBusiness = slot ? await getBusiness(slot.business_id) : null;
-    const routed = Boolean(slot && featuredBusiness?.owner_email && !featuredBusiness.is_test);
+    const routed = Boolean(slot && featuredBusiness?.owner_email && isPublicDirectoryBusiness(featuredBusiness));
     const createdAt = Date.now();
     const leadId = crypto.randomUUID();
     const siteUrl = (config('SITE_URL') || PUBLIC_SITE_URL).replace(/\/$/, '');

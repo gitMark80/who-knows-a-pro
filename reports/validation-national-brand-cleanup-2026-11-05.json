@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-05T18:52:03.737Z",
+  "excludedDomainRules": 208,
+  "generatedPlacements": 15427,
+  "generatedProfiles": 3721,
+  "assertions": [
+    {
+      "name": "excluded domain rules are unique",
+      "pass": true,
+      "detail": "208 rules"
+    },
+    {
+      "name": "generated directory has no excluded websites",
+      "pass": true,
+      "detail": "0 leaked placements"
+    },
+    {
+      "name": "required national exclusion: retailfixit.com",
+      "pass": true,
+      "detail": "retailfixit.com"
+    },
+    {
+      "name": "required national exclusion: servpro.com",
+      "pass": true,
+      "detail": "servpro.com"
+    },
+    {
+      "name": "required national exclusion: progressive.com",
+      "pass": true,
+      "detail": "progressive.com"
+    },
+    {
+      "name": "required national exclusion: mobilebayohd.com",
+      "pass": true,
+      "detail": "mobilebayohd.com"
+    },
+    {
+      "name": "required national exclusion: terminix.com",
+      "pass": true,
+      "detail": "terminix.com"
+    },
+    {
+      "name": "claimed national row remains excluded from public surfaces",
+      "pass": true,
+      "detail": "approved/claimed status does not bypass the website policy"
+    },
+    {
+      "name": "regional row remains eligible",
+      "pass": true,
+      "detail": "non-excluded approved regional website passes"
+    }
+  ],
+  "status": "pass"
+}
