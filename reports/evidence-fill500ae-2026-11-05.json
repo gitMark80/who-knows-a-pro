@@ -2,7 +2,7 @@
   "run": "fill500ae",
   "baselineCommit": "86c1066f06546c1e8e7dc7ff5d913c73317cff38",
   "targetDistinctNewBusinesses": 500,
-  "status": "prepared_not_published",
+  "status": "first_checkpoint_live_second_prepared",
   "historicalCoverage": "unknown_until_full_qualification_audit",
   "records": [
     {
@@ -741,6 +741,783 @@
       ],
       "baselineIdentity": "new",
       "limitations": null
+    },
+    {
+      "name": "About Town Lock & Safe Co.",
+      "website": "https://www.abouttownlock.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.abouttownlock.com/residential",
+      "sourceVerifiedAt": "2026-11-05T19:43:03.392Z",
+      "evidenceNote": "Family-owned since 1978, the Wilton Manors locksmith sends its technicians to homes for lock repair, installation and rekeying. The official homepage explicitly covers greater Broward County, which includes Fort Lauderdale.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Family-owned since 1978, the Wilton Manors locksmith sends its technicians to homes for lock repair, installation and rekeying. The official homepage explicitly covers greater Broward County, which includes Fort Lauderdale.",
+      "customerScope": "residential",
+      "customerEvidence": "Family-owned since 1978, the Wilton Manors locksmith sends its technicians to homes for lock repair, installation and rekeying. The official homepage explicitly covers greater Broward County, which includes Fort Lauderdale.",
+      "customerSourceUrl": "https://www.abouttownlock.com/residential",
+      "geographicEvidence": "Family-owned since 1978, the Wilton Manors locksmith sends its technicians to homes for lock repair, installation and rekeying. The official homepage explicitly covers greater Broward County, which includes Fort Lauderdale.",
+      "geographicSourceUrl": "https://lauderdalebythesea-fl.gov/QuickLinks.aspx?CID=34",
+      "identityEvidence": "The official website at https://www.abouttownlock.com/ identifies About Town Lock & Safe Co. and describes the local operation, own technicians and residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.abouttownlock.com/",
+      "supportingUrls": [
+        "https://www.abouttownlock.com/",
+        "https://www.abouttownlock.com/residential",
+        "https://lauderdalebythesea-fl.gov/QuickLinks.aspx?CID=34"
+      ],
+      "placementKeys": [
+        "abouttownlock.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Levi Universal Locksmith",
+      "website": "https://levilocksmith.com/",
+      "regions": [
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://levilocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T19:43:03.392Z",
+      "evidenceNote": "This Palm Beach County locksmith describes its own technicians installing and replacing residential locks for homeowners. Its official service list explicitly includes West Palm Beach, and its About page identifies its established local operation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This Palm Beach County locksmith describes its own technicians installing and replacing residential locks for homeowners. Its official service list explicitly includes West Palm Beach, and its About page identifies its established local operation.",
+      "customerScope": "residential",
+      "customerEvidence": "This Palm Beach County locksmith describes its own technicians installing and replacing residential locks for homeowners. Its official service list explicitly includes West Palm Beach, and its About page identifies its established local operation.",
+      "customerSourceUrl": "https://levilocksmith.com/",
+      "geographicEvidence": "This Palm Beach County locksmith describes its own technicians installing and replacing residential locks for homeowners. Its official service list explicitly includes West Palm Beach, and its About page identifies its established local operation.",
+      "geographicSourceUrl": "https://levilocksmith.com/about-us/",
+      "identityEvidence": "The official website at https://levilocksmith.com/ identifies Levi Universal Locksmith and describes the local operation, own technicians and residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://levilocksmith.com/",
+      "supportingUrls": [
+        "https://levilocksmith.com/",
+        "https://levilocksmith.com/about-us/"
+      ],
+      "placementKeys": [
+        "levilocksmith.com|west-palm-beach-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "A Plus Locksmith & Keys",
+      "website": "https://locksmithall.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://locksmithall.com/",
+      "sourceVerifiedAt": "2026-11-05T19:43:03.392Z",
+      "evidenceNote": "The Orlando mobile locksmith sends its technician directly to customers and offers home lockouts, rekeying, deadbolts and smart-lock installation. The official site explicitly covers Orlando and describes its local mobile operation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The Orlando mobile locksmith sends its technician directly to customers and offers home lockouts, rekeying, deadbolts and smart-lock installation. The official site explicitly covers Orlando and describes its local mobile operation.",
+      "customerScope": "residential",
+      "customerEvidence": "The Orlando mobile locksmith sends its technician directly to customers and offers home lockouts, rekeying, deadbolts and smart-lock installation. The official site explicitly covers Orlando and describes its local mobile operation.",
+      "customerSourceUrl": "https://locksmithall.com/",
+      "geographicEvidence": "The Orlando mobile locksmith sends its technician directly to customers and offers home lockouts, rekeying, deadbolts and smart-lock installation. The official site explicitly covers Orlando and describes its local mobile operation.",
+      "geographicSourceUrl": "https://locksmithall.com/",
+      "identityEvidence": "The official website at https://locksmithall.com/ identifies A Plus Locksmith & Keys and describes the local operation, own technicians and residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://locksmithall.com/",
+      "supportingUrls": [
+        "https://locksmithall.com/"
+      ],
+      "placementKeys": [
+        "locksmithall.com|orlando-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Pro Locksmith LLC",
+      "website": "https://prolocksmithllc.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://prolocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "sourceVerifiedAt": "2026-11-05T19:43:03.392Z",
+      "evidenceNote": "This South Florida family-owned locksmith uses its own employees rather than an outside dispatch network. Its residential page explicitly offers home rekeying, lock installation and key extraction throughout Fort Lauderdale.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This South Florida family-owned locksmith uses its own employees rather than an outside dispatch network. Its residential page explicitly offers home rekeying, lock installation and key extraction throughout Fort Lauderdale.",
+      "customerScope": "residential",
+      "customerEvidence": "This South Florida family-owned locksmith uses its own employees rather than an outside dispatch network. Its residential page explicitly offers home rekeying, lock installation and key extraction throughout Fort Lauderdale.",
+      "customerSourceUrl": "https://prolocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "geographicEvidence": "This South Florida family-owned locksmith uses its own employees rather than an outside dispatch network. Its residential page explicitly offers home rekeying, lock installation and key extraction throughout Fort Lauderdale.",
+      "geographicSourceUrl": "https://prolocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "identityEvidence": "The official website at https://prolocksmithllc.com/ identifies Pro Locksmith LLC and describes the local operation, own technicians and residential work documented here; no national-brand affiliation was found. Separate website, regional operation and phone 954-406-8266 distinguish this company from Pro Locksmiths Orlando (407-908-5927); no common brand affiliation is shown.",
+      "officialWebsiteFinalUrl": "https://prolocksmithllc.com/",
+      "supportingUrls": [
+        "https://prolocksmithllc.com/",
+        "https://prolocksmithllc.com/pricing/",
+        "https://prolocksmithllc.com/residential-locksmith-fort-lauderdale/"
+      ],
+      "placementKeys": [
+        "prolocksmithllc.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Alpha Lock & Key",
+      "website": "https://thealphalockandkey.com/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://thealphalockandkey.com/",
+      "sourceVerifiedAt": "2026-11-05T19:43:03.392Z",
+      "evidenceNote": "The Oakland Park locksmith operates its own trained technicians and provides residential door-lock and safe services across Broward and Palm Beach counties. Its official service-area list names both Fort Lauderdale and West Palm Beach.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The Oakland Park locksmith operates its own trained technicians and provides residential door-lock and safe services across Broward and Palm Beach counties. Its official service-area list names both Fort Lauderdale and West Palm Beach.",
+      "customerScope": "residential",
+      "customerEvidence": "The Oakland Park locksmith operates its own trained technicians and provides residential door-lock and safe services across Broward and Palm Beach counties. Its official service-area list names both Fort Lauderdale and West Palm Beach.",
+      "customerSourceUrl": "https://thealphalockandkey.com/",
+      "geographicEvidence": "The Oakland Park locksmith operates its own trained technicians and provides residential door-lock and safe services across Broward and Palm Beach counties. Its official service-area list names both Fort Lauderdale and West Palm Beach.",
+      "geographicSourceUrl": "https://thealphalockandkey.com/locksmith-service-areas/",
+      "identityEvidence": "The official website at https://thealphalockandkey.com/ identifies Alpha Lock & Key and describes the local operation, own technicians and residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://thealphalockandkey.com/",
+      "supportingUrls": [
+        "https://thealphalockandkey.com/",
+        "https://thealphalockandkey.com/locksmith-service-areas/"
+      ],
+      "placementKeys": [
+        "thealphalockandkey.com|fort-lauderdale-fl|locksmith",
+        "thealphalockandkey.com|west-palm-beach-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Superior Spray Service Inc.",
+      "website": "https://www.superiorspray.com/",
+      "regions": [
+        "crestview-fl",
+        "fort-walton-beach-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.superiorspray.com/locations/okaloosa-county/crestview",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "This regional pest-control company operates its own technicians from Florida offices and treats household insects and rodents. Its Crestview page supports residential service there, and its North Florida page explicitly names Fort Walton Beach.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This regional pest-control company operates its own technicians from Florida offices and treats household insects and rodents. Its Crestview page supports residential service there, and its North Florida page explicitly names Fort Walton Beach.",
+      "customerScope": "residential",
+      "customerEvidence": "This regional pest-control company operates its own technicians from Florida offices and treats household insects and rodents. Its Crestview page supports residential service there, and its North Florida page explicitly names Fort Walton Beach.",
+      "customerSourceUrl": "https://www.superiorspray.com/locations/okaloosa-county/crestview",
+      "geographicEvidence": "This regional pest-control company operates its own technicians from Florida offices and treats household insects and rodents. Its Crestview page supports residential service there, and its North Florida page explicitly names Fort Walton Beach.",
+      "geographicSourceUrl": "https://www.superiorspray.com/locations/okaloosa-county/crestview",
+      "identityEvidence": "The official website at https://www.superiorspray.com/ identifies Superior Spray Service Inc. and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.superiorspray.com/",
+      "supportingUrls": [
+        "https://www.superiorspray.com/",
+        "https://www.superiorspray.com/locations/okaloosa-county/crestview",
+        "https://www.superiorspray.com/north-florida"
+      ],
+      "placementKeys": [
+        "superiorspray.com|crestview-fl|pest-control",
+        "superiorspray.com|fort-walton-beach-fl|pest-control"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "CN USA Locksmith",
+      "website": "https://www.cnusalocksmith.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.cnusalocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "The family-owned Fort Lauderdale mobile locksmith offers home lockout help, key services and residential locking solutions. Its official homepage ties the home services to Fort Lauderdale and the About page confirms the local mobile operation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The family-owned Fort Lauderdale mobile locksmith offers home lockout help, key services and residential locking solutions. Its official homepage ties the home services to Fort Lauderdale and the About page confirms the local mobile operation.",
+      "customerScope": "residential",
+      "customerEvidence": "The family-owned Fort Lauderdale mobile locksmith offers home lockout help, key services and residential locking solutions. Its official homepage ties the home services to Fort Lauderdale and the About page confirms the local mobile operation.",
+      "customerSourceUrl": "https://www.cnusalocksmith.com/",
+      "geographicEvidence": "The family-owned Fort Lauderdale mobile locksmith offers home lockout help, key services and residential locking solutions. Its official homepage ties the home services to Fort Lauderdale and the About page confirms the local mobile operation.",
+      "geographicSourceUrl": "https://www.cnusalocksmith.com/",
+      "identityEvidence": "The official website at https://www.cnusalocksmith.com/ identifies CN USA Locksmith and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.cnusalocksmith.com/",
+      "supportingUrls": [
+        "https://www.cnusalocksmith.com/",
+        "https://www.cnusalocksmith.com/about-us/"
+      ],
+      "placementKeys": [
+        "cnusalocksmith.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "305 Lock & Key",
+      "website": "https://305lockandkey.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://305lockandkey.com/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "The locally owned Miami locksmith describes its own technicians and mobile operation. Its official site explicitly serves Miami homeowners with house lockouts, rekeying, deadbolt installation, smart locks and broken-key extraction.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned Miami locksmith describes its own technicians and mobile operation. Its official site explicitly serves Miami homeowners with house lockouts, rekeying, deadbolt installation, smart locks and broken-key extraction.",
+      "customerScope": "residential",
+      "customerEvidence": "The locally owned Miami locksmith describes its own technicians and mobile operation. Its official site explicitly serves Miami homeowners with house lockouts, rekeying, deadbolt installation, smart locks and broken-key extraction.",
+      "customerSourceUrl": "https://305lockandkey.com/",
+      "geographicEvidence": "The locally owned Miami locksmith describes its own technicians and mobile operation. Its official site explicitly serves Miami homeowners with house lockouts, rekeying, deadbolt installation, smart locks and broken-key extraction.",
+      "geographicSourceUrl": "https://305lockandkey.com/",
+      "identityEvidence": "The official website at https://305lockandkey.com/ identifies 305 Lock & Key and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://305lockandkey.com/",
+      "supportingUrls": [
+        "https://305lockandkey.com/"
+      ],
+      "placementKeys": [
+        "305lockandkey.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "The Lock Doc",
+      "website": "https://www.thelockdocfl.com/about-us/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.thelockdocfl.com/about-us/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "The locally owned Miami locksmith describes its trained mobile technicians and residential emergency lock services. Its official About page explicitly identifies Miami service and residential lockouts, door locks and rekeying work.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned Miami locksmith describes its trained mobile technicians and residential emergency lock services. Its official About page explicitly identifies Miami service and residential lockouts, door locks and rekeying work.",
+      "customerScope": "residential",
+      "customerEvidence": "The locally owned Miami locksmith describes its trained mobile technicians and residential emergency lock services. Its official About page explicitly identifies Miami service and residential lockouts, door locks and rekeying work.",
+      "customerSourceUrl": "https://www.thelockdocfl.com/about-us/",
+      "geographicEvidence": "The locally owned Miami locksmith describes its trained mobile technicians and residential emergency lock services. Its official About page explicitly identifies Miami service and residential lockouts, door locks and rekeying work.",
+      "geographicSourceUrl": "https://www.thelockdocfl.com/about-us/",
+      "identityEvidence": "The official website at https://www.thelockdocfl.com/about-us/ identifies The Lock Doc and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.thelockdocfl.com/about-us/",
+      "supportingUrls": [
+        "https://www.thelockdocfl.com/about-us/"
+      ],
+      "placementKeys": [
+        "thelockdocfl.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Lockman Security Inc.",
+      "website": "https://lockmansec.com/about/",
+      "regions": [
+        "fort-lauderdale-fl",
+        "west-palm-beach-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://lockmansec.com/about/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "The family-owned locksmith operates South Florida shops and four service trucks. It explicitly offers home lockouts and lock replacement throughout Broward and Palm Beach counties, which include Fort Lauderdale and West Palm Beach respectively.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The family-owned locksmith operates South Florida shops and four service trucks. It explicitly offers home lockouts and lock replacement throughout Broward and Palm Beach counties, which include Fort Lauderdale and West Palm Beach respectively.",
+      "customerScope": "residential",
+      "customerEvidence": "The family-owned locksmith operates South Florida shops and four service trucks. It explicitly offers home lockouts and lock replacement throughout Broward and Palm Beach counties, which include Fort Lauderdale and West Palm Beach respectively.",
+      "customerSourceUrl": "https://lockmansec.com/about/",
+      "geographicEvidence": "The family-owned locksmith operates South Florida shops and four service trucks. It explicitly offers home lockouts and lock replacement throughout Broward and Palm Beach counties, which include Fort Lauderdale and West Palm Beach respectively.",
+      "geographicSourceUrl": "https://lockmansec.com/about/",
+      "identityEvidence": "The official website at https://lockmansec.com/about/ identifies Lockman Security Inc. and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://lockmansec.com/about/",
+      "supportingUrls": [
+        "https://lockmansec.com/about/",
+        "https://lockmansec.com/residential-locksmith/",
+        "https://lauderdalebythesea-fl.gov/QuickLinks.aspx?CID=34",
+        "https://discover.pbc.gov/pages/municipalities.aspx"
+      ],
+      "placementKeys": [
+        "lockmansec.com|fort-lauderdale-fl|locksmith",
+        "lockmansec.com|west-palm-beach-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Lock N Smith LLC",
+      "website": "https://locknsmith.com/residential-locksmith/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://locknsmith.com/residential-locksmith/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "The locally owned locksmith states that customers deal directly with its locksmith rather than a call center. Its official residential page specifically covers Miami home lockouts, rekeying, lock repairs and smart-lock installation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned locksmith states that customers deal directly with its locksmith rather than a call center. Its official residential page specifically covers Miami home lockouts, rekeying, lock repairs and smart-lock installation.",
+      "customerScope": "residential",
+      "customerEvidence": "The locally owned locksmith states that customers deal directly with its locksmith rather than a call center. Its official residential page specifically covers Miami home lockouts, rekeying, lock repairs and smart-lock installation.",
+      "customerSourceUrl": "https://locknsmith.com/residential-locksmith/",
+      "geographicEvidence": "The locally owned locksmith states that customers deal directly with its locksmith rather than a call center. Its official residential page specifically covers Miami home lockouts, rekeying, lock repairs and smart-lock installation.",
+      "geographicSourceUrl": "https://locknsmith.com/residential-locksmith/",
+      "identityEvidence": "The official website at https://locknsmith.com/residential-locksmith/ identifies Lock N Smith LLC and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://locknsmith.com/residential-locksmith/",
+      "supportingUrls": [
+        "https://locknsmith.com/residential-locksmith/"
+      ],
+      "placementKeys": [
+        "locknsmith.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Miami Vice Keys Locksmith",
+      "website": "https://www.vicekeys.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.vicekeys.com/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "This locally owned Miami mobile locksmith advertises its technicians and Miami service area. Beyond vehicle work, its official Home & Business section explicitly offers residential lockouts, lock installation, rekeying and smart-lock installation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This locally owned Miami mobile locksmith advertises its technicians and Miami service area. Beyond vehicle work, its official Home & Business section explicitly offers residential lockouts, lock installation, rekeying and smart-lock installation.",
+      "customerScope": "residential",
+      "customerEvidence": "This locally owned Miami mobile locksmith advertises its technicians and Miami service area. Beyond vehicle work, its official Home & Business section explicitly offers residential lockouts, lock installation, rekeying and smart-lock installation.",
+      "customerSourceUrl": "https://www.vicekeys.com/",
+      "geographicEvidence": "This locally owned Miami mobile locksmith advertises its technicians and Miami service area. Beyond vehicle work, its official Home & Business section explicitly offers residential lockouts, lock installation, rekeying and smart-lock installation.",
+      "geographicSourceUrl": "https://www.vicekeys.com/",
+      "identityEvidence": "The official website at https://www.vicekeys.com/ identifies Miami Vice Keys Locksmith and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.vicekeys.com/",
+      "supportingUrls": [
+        "https://www.vicekeys.com/"
+      ],
+      "placementKeys": [
+        "vicekeys.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "East Orlando Locksmith",
+      "website": "https://www.eastorlandolocksmith.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.eastorlandolocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T19:45:33.120Z",
+      "evidenceNote": "The locally owned mobile locksmith explicitly says customers speak directly with the technician doing the job. Its residential section offers home lock installation, repairs and rekeying, and its service-area list explicitly includes Orlando.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned mobile locksmith explicitly says customers speak directly with the technician doing the job. Its residential section offers home lock installation, repairs and rekeying, and its service-area list explicitly includes Orlando.",
+      "customerScope": "residential",
+      "customerEvidence": "The locally owned mobile locksmith explicitly says customers speak directly with the technician doing the job. Its residential section offers home lock installation, repairs and rekeying, and its service-area list explicitly includes Orlando.",
+      "customerSourceUrl": "https://www.eastorlandolocksmith.com/",
+      "geographicEvidence": "The locally owned mobile locksmith explicitly says customers speak directly with the technician doing the job. Its residential section offers home lock installation, repairs and rekeying, and its service-area list explicitly includes Orlando.",
+      "geographicSourceUrl": "https://www.eastorlandolocksmith.com/",
+      "identityEvidence": "The official website at https://www.eastorlandolocksmith.com/ identifies East Orlando Locksmith and describes its local or regional operation and technicians performing the residential work documented here; no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.eastorlandolocksmith.com/",
+      "supportingUrls": [
+        "https://www.eastorlandolocksmith.com/"
+      ],
+      "placementKeys": [
+        "eastorlandolocksmith.com|orlando-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Smiley Locksmith",
+      "website": "https://www.smileylocksmith.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.smileylocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "Its Fort Lauderdale shop and own mobile locksmith fleet serve local homeowners. The official residential page offers home lockouts, rekeying and lock changes and identifies the local Commercial Boulevard shop.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Its Fort Lauderdale shop and own mobile locksmith fleet serve local homeowners. The official residential page offers home lockouts, rekeying and lock changes and identifies the local Commercial Boulevard shop.",
+      "customerScope": "residential",
+      "customerEvidence": "Its Fort Lauderdale shop and own mobile locksmith fleet serve local homeowners. The official residential page offers home lockouts, rekeying and lock changes and identifies the local Commercial Boulevard shop.",
+      "customerSourceUrl": "https://www.smileylocksmith.com/",
+      "geographicEvidence": "Its Fort Lauderdale shop and own mobile locksmith fleet serve local homeowners. The official residential page offers home lockouts, rekeying and lock changes and identifies the local Commercial Boulevard shop.",
+      "geographicSourceUrl": "https://www.smileylocksmith.com/",
+      "identityEvidence": "The official website identifies Smiley Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.smileylocksmith.com/",
+      "supportingUrls": [
+        "https://www.smileylocksmith.com/",
+        "https://www.smileylocksmith.com/services/residential-locksmith"
+      ],
+      "placementKeys": [
+        "smileylocksmith.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "US Locksmith",
+      "website": "https://www.us-locksmith.com/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.us-locksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "This South Florida regional company describes its own mobile fleet and technicians serving Broward homeowners. Its county page provides residential lock repair, rekeying and house lockouts, and its About page explicitly names Fort Lauderdale.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This South Florida regional company describes its own mobile fleet and technicians serving Broward homeowners. Its county page provides residential lock repair, rekeying and house lockouts, and its About page explicitly names Fort Lauderdale.",
+      "customerScope": "residential",
+      "customerEvidence": "This South Florida regional company describes its own mobile fleet and technicians serving Broward homeowners. Its county page provides residential lock repair, rekeying and house lockouts, and its About page explicitly names Fort Lauderdale.",
+      "customerSourceUrl": "https://www.us-locksmith.com/",
+      "geographicEvidence": "This South Florida regional company describes its own mobile fleet and technicians serving Broward homeowners. Its county page provides residential lock repair, rekeying and house lockouts, and its About page explicitly names Fort Lauderdale.",
+      "geographicSourceUrl": "https://www.us-locksmith.com/",
+      "identityEvidence": "The official website identifies US Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.us-locksmith.com/",
+      "supportingUrls": [
+        "https://www.us-locksmith.com/",
+        "https://www.us-locksmith.com/about",
+        "https://www.us-locksmith.com/locksmith-broward-county"
+      ],
+      "placementKeys": [
+        "us-locksmith.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Y & J Locksmith",
+      "website": "https://locksmithservicemiami.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://locksmithservicemiami.com/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "The local Miami locksmith identifies its shop and experienced service technicians. Its official site explicitly serves all Miami-Dade with home lockouts, rekeying and residential door-lock installation and repair.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The local Miami locksmith identifies its shop and experienced service technicians. Its official site explicitly serves all Miami-Dade with home lockouts, rekeying and residential door-lock installation and repair.",
+      "customerScope": "residential",
+      "customerEvidence": "The local Miami locksmith identifies its shop and experienced service technicians. Its official site explicitly serves all Miami-Dade with home lockouts, rekeying and residential door-lock installation and repair.",
+      "customerSourceUrl": "https://locksmithservicemiami.com/",
+      "geographicEvidence": "The local Miami locksmith identifies its shop and experienced service technicians. Its official site explicitly serves all Miami-Dade with home lockouts, rekeying and residential door-lock installation and repair.",
+      "geographicSourceUrl": "https://locksmithservicemiami.com/",
+      "identityEvidence": "The official website identifies Y & J Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://locksmithservicemiami.com/",
+      "supportingUrls": [
+        "https://locksmithservicemiami.com/"
+      ],
+      "placementKeys": [
+        "locksmithservicemiami.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Miami Doors & Locks Security",
+      "website": "https://www.miamidoorsandlocks.com/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.miamidoorsandlocks.com/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "The Miami shop explicitly includes residential homes among its customers and offers home rekeying, sliding-door locks and lockout service. Its own locksmith team performs the work from its identified Miami operation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The Miami shop explicitly includes residential homes among its customers and offers home rekeying, sliding-door locks and lockout service. Its own locksmith team performs the work from its identified Miami operation.",
+      "customerScope": "residential",
+      "customerEvidence": "The Miami shop explicitly includes residential homes among its customers and offers home rekeying, sliding-door locks and lockout service. Its own locksmith team performs the work from its identified Miami operation.",
+      "customerSourceUrl": "https://www.miamidoorsandlocks.com/",
+      "geographicEvidence": "The Miami shop explicitly includes residential homes among its customers and offers home rekeying, sliding-door locks and lockout service. Its own locksmith team performs the work from its identified Miami operation.",
+      "geographicSourceUrl": "https://www.miamidoorsandlocks.com/",
+      "identityEvidence": "The official website identifies Miami Doors & Locks Security as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.miamidoorsandlocks.com/",
+      "supportingUrls": [
+        "https://www.miamidoorsandlocks.com/"
+      ],
+      "placementKeys": [
+        "miamidoorsandlocks.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Quickly Locksmith Miami",
+      "website": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "This family-owned Miami locksmith operates its own Downtown shop and experienced team. The official location page explicitly provides residential lock repair, installation, rekeying and emergency entry for Miami homes and condos. Its multiple shops count as one business.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This family-owned Miami locksmith operates its own Downtown shop and experienced team. The official location page explicitly provides residential lock repair, installation, rekeying and emergency entry for Miami homes and condos. Its multiple shops count as one business.",
+      "customerScope": "residential",
+      "customerEvidence": "This family-owned Miami locksmith operates its own Downtown shop and experienced team. The official location page explicitly provides residential lock repair, installation, rekeying and emergency entry for Miami homes and condos. Its multiple shops count as one business.",
+      "customerSourceUrl": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "geographicEvidence": "This family-owned Miami locksmith operates its own Downtown shop and experienced team. The official location page explicitly provides residential lock repair, installation, rekeying and emergency entry for Miami homes and condos. Its multiple shops count as one business.",
+      "geographicSourceUrl": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "identityEvidence": "The official website identifies Quickly Locksmith Miami as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "supportingUrls": [
+        "https://www.quicklymiamilocksmith.com/locations/downtown-location/"
+      ],
+      "placementKeys": [
+        "quicklymiamilocksmith.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Advance Auto Locksmith",
+      "website": "https://advanceautolocksmith.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://advanceautolocksmith.com/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "Despite its automotive name, this Orlando locksmith explicitly offers home lock installation, repair, rekeying and home lockout work. Its official site identifies its local Alden Road shop and mobile technicians serving Orlando.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Despite its automotive name, this Orlando locksmith explicitly offers home lock installation, repair, rekeying and home lockout work. Its official site identifies its local Alden Road shop and mobile technicians serving Orlando.",
+      "customerScope": "residential",
+      "customerEvidence": "Despite its automotive name, this Orlando locksmith explicitly offers home lock installation, repair, rekeying and home lockout work. Its official site identifies its local Alden Road shop and mobile technicians serving Orlando.",
+      "customerSourceUrl": "https://advanceautolocksmith.com/",
+      "geographicEvidence": "Despite its automotive name, this Orlando locksmith explicitly offers home lock installation, repair, rekeying and home lockout work. Its official site identifies its local Alden Road shop and mobile technicians serving Orlando.",
+      "geographicSourceUrl": "https://advanceautolocksmith.com/",
+      "identityEvidence": "The official website identifies Advance Auto Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://advanceautolocksmith.com/",
+      "supportingUrls": [
+        "https://advanceautolocksmith.com/"
+      ],
+      "placementKeys": [
+        "advanceautolocksmith.com|orlando-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "AT Home Keys",
+      "website": "https://www.athomekeys.com/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://www.athomekeys.com/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "This local mobile locksmith explicitly serves the greater Orlando area with residential rekeying and home lock services. Its About page identifies its own installation team and guarantees that team's labor.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This local mobile locksmith explicitly serves the greater Orlando area with residential rekeying and home lock services. Its About page identifies its own installation team and guarantees that team's labor.",
+      "customerScope": "residential",
+      "customerEvidence": "This local mobile locksmith explicitly serves the greater Orlando area with residential rekeying and home lock services. Its About page identifies its own installation team and guarantees that team's labor.",
+      "customerSourceUrl": "https://www.athomekeys.com/",
+      "geographicEvidence": "This local mobile locksmith explicitly serves the greater Orlando area with residential rekeying and home lock services. Its About page identifies its own installation team and guarantees that team's labor.",
+      "geographicSourceUrl": "https://www.athomekeys.com/",
+      "identityEvidence": "The official website identifies AT Home Keys as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.athomekeys.com/",
+      "supportingUrls": [
+        "https://www.athomekeys.com/",
+        "https://www.athomekeys.com/about-us"
+      ],
+      "placementKeys": [
+        "athomekeys.com|orlando-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Sonic Locksmith",
+      "website": "https://soniclocksmith.com/residential/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://soniclocksmith.com/residential/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "The official residential page explicitly serves Fort Lauderdale homeowners with home lockouts, rekeying, lock repair and new-lock installation. Its own trained mobile locksmith technicians provide the work in Fort Lauderdale and Broward County.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official residential page explicitly serves Fort Lauderdale homeowners with home lockouts, rekeying, lock repair and new-lock installation. Its own trained mobile locksmith technicians provide the work in Fort Lauderdale and Broward County.",
+      "customerScope": "residential",
+      "customerEvidence": "The official residential page explicitly serves Fort Lauderdale homeowners with home lockouts, rekeying, lock repair and new-lock installation. Its own trained mobile locksmith technicians provide the work in Fort Lauderdale and Broward County.",
+      "customerSourceUrl": "https://soniclocksmith.com/residential/",
+      "geographicEvidence": "The official residential page explicitly serves Fort Lauderdale homeowners with home lockouts, rekeying, lock repair and new-lock installation. Its own trained mobile locksmith technicians provide the work in Fort Lauderdale and Broward County.",
+      "geographicSourceUrl": "https://soniclocksmith.com/residential/",
+      "identityEvidence": "The official website identifies Sonic Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://soniclocksmith.com/residential/",
+      "supportingUrls": [
+        "https://soniclocksmith.com/residential/"
+      ],
+      "placementKeys": [
+        "soniclocksmith.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Michael Lock & Key",
+      "website": "https://michaellockandkey.com/residential-locksmith/",
+      "regions": [
+        "orlando-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://michaellockandkey.com/residential-locksmith/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "This local Orlando locksmith explicitly serves homeowners with house lockouts, rekeying, deadbolt installation and smart-lock setup. Its own technicians perform the work, and the same official page identifies its Orlando operation.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This local Orlando locksmith explicitly serves homeowners with house lockouts, rekeying, deadbolt installation and smart-lock setup. Its own technicians perform the work, and the same official page identifies its Orlando operation.",
+      "customerScope": "residential",
+      "customerEvidence": "This local Orlando locksmith explicitly serves homeowners with house lockouts, rekeying, deadbolt installation and smart-lock setup. Its own technicians perform the work, and the same official page identifies its Orlando operation.",
+      "customerSourceUrl": "https://michaellockandkey.com/residential-locksmith/",
+      "geographicEvidence": "This local Orlando locksmith explicitly serves homeowners with house lockouts, rekeying, deadbolt installation and smart-lock setup. Its own technicians perform the work, and the same official page identifies its Orlando operation.",
+      "geographicSourceUrl": "https://michaellockandkey.com/residential-locksmith/",
+      "identityEvidence": "The official website identifies Michael Lock & Key as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://michaellockandkey.com/residential-locksmith/",
+      "supportingUrls": [
+        "https://michaellockandkey.com/residential-locksmith/"
+      ],
+      "placementKeys": [
+        "michaellockandkey.com|orlando-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "A&O Premium Locksmith",
+      "website": "https://aopremiumlocksmith.com/residential",
+      "regions": [
+        "miami-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://aopremiumlocksmith.com/residential",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "Owner Oscar Fiallo's Miami-area mobile locksmith provides home lockouts, rekeying, smart-lock installation and residential door-lock repairs. The official site explicitly includes Miami and describes its own stocked service vans and technicians.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Owner Oscar Fiallo's Miami-area mobile locksmith provides home lockouts, rekeying, smart-lock installation and residential door-lock repairs. The official site explicitly includes Miami and describes its own stocked service vans and technicians.",
+      "customerScope": "residential",
+      "customerEvidence": "Owner Oscar Fiallo's Miami-area mobile locksmith provides home lockouts, rekeying, smart-lock installation and residential door-lock repairs. The official site explicitly includes Miami and describes its own stocked service vans and technicians.",
+      "customerSourceUrl": "https://aopremiumlocksmith.com/residential",
+      "geographicEvidence": "Owner Oscar Fiallo's Miami-area mobile locksmith provides home lockouts, rekeying, smart-lock installation and residential door-lock repairs. The official site explicitly includes Miami and describes its own stocked service vans and technicians.",
+      "geographicSourceUrl": "https://aopremiumlocksmith.com/residential",
+      "identityEvidence": "The official website identifies A&O Premium Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://aopremiumlocksmith.com/residential",
+      "supportingUrls": [
+        "https://aopremiumlocksmith.com/residential",
+        "https://aopremiumlocksmith.com/"
+      ],
+      "placementKeys": [
+        "aopremiumlocksmith.com|miami-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Ben's Locksmith",
+      "website": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "This local Fort Lauderdale locksmith explicitly repairs and installs locks at homeowners' properties using its own trained technicians. Its About page identifies the Fort Lauderdale operation and direct residential service since 2007.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This local Fort Lauderdale locksmith explicitly repairs and installs locks at homeowners' properties using its own trained technicians. Its About page identifies the Fort Lauderdale operation and direct residential service since 2007.",
+      "customerScope": "residential",
+      "customerEvidence": "This local Fort Lauderdale locksmith explicitly repairs and installs locks at homeowners' properties using its own trained technicians. Its About page identifies the Fort Lauderdale operation and direct residential service since 2007.",
+      "customerSourceUrl": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "geographicEvidence": "This local Fort Lauderdale locksmith explicitly repairs and installs locks at homeowners' properties using its own trained technicians. Its About page identifies the Fort Lauderdale operation and direct residential service since 2007.",
+      "geographicSourceUrl": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "identityEvidence": "The official website identifies Ben's Locksmith as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "supportingUrls": [
+        "https://emergencylocksmithfl.com/residential-locksmith-services/",
+        "https://emergencylocksmithfl.com/about-us/"
+      ],
+      "placementKeys": [
+        "emergencylocksmithfl.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
+    },
+    {
+      "name": "Whitton Works",
+      "website": "https://www.whittonworks.com/",
+      "regions": [
+        "crestview-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://www.whittonworks.com/repair-photos",
+      "sourceVerifiedAt": "2026-11-05T19:54:36.679Z",
+      "evidenceNote": "The family-operated Crestview pool company explicitly serves Crestview with cleaning, pump and filter repair. Its official project gallery documents moving pool equipment for a customer's house extension, establishing residential work; the family page identifies the operators performing the service.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The family-operated Crestview pool company explicitly serves Crestview with cleaning, pump and filter repair. Its official project gallery documents moving pool equipment for a customer's house extension, establishing residential work; the family page identifies the operators performing the service.",
+      "customerScope": "residential",
+      "customerEvidence": "The family-operated Crestview pool company explicitly serves Crestview with cleaning, pump and filter repair. Its official project gallery documents moving pool equipment for a customer's house extension, establishing residential work; the family page identifies the operators performing the service.",
+      "customerSourceUrl": "https://www.whittonworks.com/repair-photos",
+      "geographicEvidence": "The family-operated Crestview pool company explicitly serves Crestview with cleaning, pump and filter repair. Its official project gallery documents moving pool equipment for a customer's house extension, establishing residential work; the family page identifies the operators performing the service.",
+      "geographicSourceUrl": "https://www.whittonworks.com/",
+      "identityEvidence": "The official business website identifies Whitton Works as the local owner-operated service business documented in this placement evidence. The pages were manually reviewed and no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://www.whittonworks.com/",
+      "supportingUrls": [
+        "https://www.whittonworks.com/",
+        "https://www.whittonworks.com/about-us",
+        "https://www.whittonworks.com/cleaning-page",
+        "https://www.whittonworks.com/repair-photos"
+      ],
+      "placementKeys": [
+        "whittonworks.com|crestview-fl|pool-service"
+      ],
+      "baselineIdentity": "new",
+      "limitations": null
     }
   ],
   "pending": [
@@ -758,28 +1535,244 @@
       "name": "Advanced Garage Door Repair",
       "website": "https://advancedgaragedoorepair.com/",
       "reason": "Crestview page returned406; about page links to Unique Garage Door Services and Regev Construction. Resolve shared identity and residential local operation before adding."
+    },
+    {
+      "name": "Murphy's Home Services",
+      "website": "https://murphyshomeservices.com/",
+      "reason": "Official browser remains at Cloudflare verification after one normal reload. Residential and local content cannot be live-confirmed; no CAPTCHA attempted."
+    },
+    {
+      "name": "A To Z Appliance Repair",
+      "website": "https://www.atoznwfl.com/",
+      "reason": "Same name as baseline A to Z Appliance Repair using appliance-repairs-destin.fl-biz.com, but different telephone. Resolve identity before treating as new or changing historical website."
+    },
+    {
+      "name": "Crestview Locksmith",
+      "website": "https://crestviewlocksmith.com/",
+      "reason": "Residential Crestview content found, but generic Emergency Lockout identity and possible affiliation with other local locksmith identities remains unresolved."
+    },
+    {
+      "name": "Garage Door Guru LLC",
+      "website": "https://garagedoorgurullc.com/",
+      "reason": "Local operator and residential service candidate; official retrieval timed out and indexed content mixes Northdale Garage Door Repair Service/Door48 branding. Resolve identity and destination."
+    },
+    {
+      "name": "Zaps Pest Control",
+      "website": "https://zapspest.com/",
+      "reason": "Official domain has a different telephone from Panama City candidate and only broad FL/TX geography. Explicit local residential operation unresolved."
+    },
+    {
+      "name": "Southern Pest Solutions",
+      "website": null,
+      "reason": "No working official business website identified for Panama City candidate."
+    },
+    {
+      "name": "Master Locksmith Inc.",
+      "website": "https://masterslocksmith.com/",
+      "reason": "Residential Miami content found but footer links point to masterlocksmith.com. Resolve alternate-domain identity before publication."
+    },
+    {
+      "name": "Key Copy Orlando",
+      "website": "https://www.keycopyorlando.com/about/",
+      "reason": "Official site claims own local crew, but identity review is unfinished; generic crew labels and simulated dispatch board warrant corroboration before publication."
+    },
+    {
+      "name": "Broward Century Locksmiths",
+      "website": "https://www.browardcentury.com/",
+      "reason": "Residential hardware and local technicians documented; confirm explicit residential installation/repair rather than hardware sales before publication."
+    },
+    {
+      "name": "Southern Home Appliance Services",
+      "website": null,
+      "reason": "Crestview candidate discovery currently leads to social-only presence, not a verified official business website."
+    },
+    {
+      "name": "Ron's Appliance Service & Parts",
+      "website": null,
+      "reason": "Crestview candidate discovered but official website and current residential service not verified."
+    },
+    {
+      "name": "Master of Locks LLC",
+      "website": "https://masteroflocks.com/",
+      "reason": "Residential Plantation services documented, but Fort Lauderdale address alone not sufficient to establish specific target-city residential service; geographic review incomplete."
     }
   ],
   "existingCandidatesNotCounted": [
-    "Parrish Land Management",
+    "ASAP Locksmith",
+    "All About Garage Doors",
+    "All Brand Appliance",
+    "Alvarez Locksmith",
+    "American Lock & Safe",
+    "Appliance Doctor",
+    "Arrow Pest Service",
+    "Benny Key Shop",
+    "BlueWater Garage Doors",
+    "Bluegill",
+    "Bryan Pest Control",
+    "CMD",
+    "Cadenhead Services",
+    "Caraballo Express",
+    "Crestview Paint & Body",
+    "Derl's Lock & Safe",
+    "Destin Handyman",
+    "Distributor Appliance Parts, Inc.",
+    "Emerald Coast Appliance Service",
+    "Father and Son Pest and Lawn",
+    "G.M.B Appliances LLC",
+    "Guardian Pest Control",
+    "Home Appliance Service of Destin",
+    "Hometown Garage Doors",
+    "Independent Appliance",
     "Locksmith Chick",
+    "Locksmith Express",
+    "Panhandle Key & Safe",
+    "Paradise Appliance",
+    "Parrish Land Management",
+    "People 1st Home Services",
+    "Pinckard Garage Doors",
     "Prestige Insulation Solutions",
     "Purvis Appliance Repair",
-    "People 1st Home Services",
-    "Arrow Pest Service",
-    "Panhandle Key & Safe",
-    "Locksmith Express",
-    "Crestview Paint & Body",
-    "Distributor Appliance Parts, Inc.",
-    "Derl's Lock & Safe",
-    "ASAP Locksmith",
-    "Home Appliance Service of Destin",
-    "Emerald Coast Appliance Service",
+    "RD Service Pros",
+    "Rogers Grant",
+    "SWAT Pest Control",
+    "Spears Environmental",
+    "Superior Septic Sewer",
     "TruNorth Pest Control",
-    "Superior Septic Sewer"
+    "We Do Locksmith",
+    "WittCo Pools",
+    "Zeb Watts",
+    "Zoom Locksmith"
   ],
   "historicalReview": {
     "retailFixIt": "Previously flagged for unsupported residential service/geography and network status. Already excluded by the separately authorized national-brand cleanup; unchanged in this run.",
-    "priorFlags": "reports/historical-qualification-flags-2026-11-03.json"
+    "priorFlags": "reports/historical-qualification-flags-2026-11-03.json",
+    "aToZAppliance": {
+      "website": "https://appliance-repairs-destin.fl-biz.com/",
+      "flags": [
+        "official_website_identity_requires_review",
+        "possible_duplicate_name"
+      ],
+      "candidateOfficialWebsite": "https://www.atoznwfl.com/",
+      "note": "Different telephone numbers; no historical visibility or website changed."
+    },
+    "pinckard": {
+      "websites": [
+        "https://www.pinckardandsongaragedoors.com/",
+        "https://www.pinckardgaragedoors.com/"
+      ],
+      "flags": [
+        "possible_duplicate_identity"
+      ],
+      "note": "Multiple baseline Pinckard profiles require ownership/identity review; not counted as new and unchanged."
+    }
+  },
+  "pendingOfficialWebsiteChecks": [
+    {
+      "name": "SunState Locksmith LLC",
+      "website": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "regions": [
+        "fort-lauderdale-fl"
+      ],
+      "trades": [
+        "locksmith"
+      ],
+      "sourceUrl": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "sourceVerifiedAt": "2026-11-05T19:50:53.455Z",
+      "evidenceNote": "This local mobile locksmith explicitly serves Fort Lauderdale homes, condos and apartments. Its residential page describes its own team performing house lockouts, lock changes, rekeying and lock installation for residents in the city.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This local mobile locksmith explicitly serves Fort Lauderdale homes, condos and apartments. Its residential page describes its own team performing house lockouts, lock changes, rekeying and lock installation for residents in the city.",
+      "customerScope": "residential",
+      "customerEvidence": "This local mobile locksmith explicitly serves Fort Lauderdale homes, condos and apartments. Its residential page describes its own team performing house lockouts, lock changes, rekeying and lock installation for residents in the city.",
+      "customerSourceUrl": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "geographicEvidence": "This local mobile locksmith explicitly serves Fort Lauderdale homes, condos and apartments. Its residential page describes its own team performing house lockouts, lock changes, rekeying and lock installation for residents in the city.",
+      "geographicSourceUrl": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "identityEvidence": "The official website identifies SunState Locksmith LLC as the local or regional operation described in the placement evidence. Its service content was manually reviewed and no national brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "supportingUrls": [
+        "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+        "https://sunstatelocksmithllc.com/"
+      ],
+      "placementKeys": [
+        "sunstatelocksmithllc.com|fort-lauderdale-fl|locksmith"
+      ],
+      "baselineIdentity": "new",
+      "limitations": "Official website serves a robot challenge in the browser after one normal reload. No CAPTCHA was attempted; do not publish until official destination content can be verified.",
+      "status": "pending_unpublished"
+    }
+  ],
+  "qualifiedWithoutUnderfilledVisiblePage": [
+    {
+      "name": "Crabby's Gulf Coast Handyman Solutions LLC",
+      "website": "https://crabbyshandyman.com/",
+      "regions": [
+        "fort-walton-beach-fl",
+        "destin-fl"
+      ],
+      "trades": [
+        "handyman"
+      ],
+      "sourceUrl": "https://crabbyshandyman.com/",
+      "sourceVerifiedAt": "2026-11-05T19:54:36.679Z",
+      "evidenceNote": "This owner-operated Fort Walton Beach business explicitly provides home repairs, maintenance, mounting, caulking and interior finish repairs in Fort Walton Beach and Destin. The owner directly evaluates, quotes and performs the work; both cities are named on its official service-area list.",
+      "providerRole": "direct-provider",
+      "providerEvidence": "This owner-operated Fort Walton Beach business explicitly provides home repairs, maintenance, mounting, caulking and interior finish repairs in Fort Walton Beach and Destin. The owner directly evaluates, quotes and performs the work; both cities are named on its official service-area list.",
+      "customerScope": "residential",
+      "customerEvidence": "This owner-operated Fort Walton Beach business explicitly provides home repairs, maintenance, mounting, caulking and interior finish repairs in Fort Walton Beach and Destin. The owner directly evaluates, quotes and performs the work; both cities are named on its official service-area list.",
+      "customerSourceUrl": "https://crabbyshandyman.com/",
+      "geographicEvidence": "This owner-operated Fort Walton Beach business explicitly provides home repairs, maintenance, mounting, caulking and interior finish repairs in Fort Walton Beach and Destin. The owner directly evaluates, quotes and performs the work; both cities are named on its official service-area list.",
+      "geographicSourceUrl": "https://crabbyshandyman.com/",
+      "identityEvidence": "The official business website identifies Crabby's Gulf Coast Handyman Solutions LLC as the local owner-operated service business documented in this placement evidence. The pages were manually reviewed and no national-brand affiliation was found.",
+      "officialWebsiteFinalUrl": "https://crabbyshandyman.com/",
+      "supportingUrls": [
+        "https://crabbyshandyman.com/"
+      ],
+      "placementKeys": [
+        "crabbyshandyman.com|fort-walton-beach-fl|handyman",
+        "crabbyshandyman.com|destin-fl|handyman"
+      ],
+      "baselineIdentity": "new",
+      "limitations": "Handyman category is hidden. Supported flooring/painting cities are already at or above 20 displayed businesses. Preserve catalogs and do not add to full pages; revisit only after a qualifying historical audit identifies a gap.",
+      "status": "not_published"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "name": "Locks-R-Us",
+      "website": "https://locks-r-us.net/",
+      "reason": "Official services are automotive; residential locksmith qualification not established."
+    },
+    {
+      "name": "Fort Walton Beach Insulation",
+      "website": "https://www.fortwaltonbeachinsulation.com/terms-and-conditions",
+      "reason": "Official terms describe a referral/matching service, not the contractor delivering residential work."
+    },
+    {
+      "name": "AM Garage Doors",
+      "website": "https://www.amdoorsllc.com/",
+      "reason": "Official business serves SD/IA/NE; not the Fort Walton Beach operation sought."
+    },
+    {
+      "name": "Davis Exterminators",
+      "website": "https://www.arrowexterminators.com/why-arrow/news/arrow-exterminators-acquires-davis-exterminators-in-panama-city-fl",
+      "reason": "Acquired by Arrow Exterminators in 2025; do not add as a new independent local business."
+    }
+  ],
+  "publishedOfficialRecheckPending": [
+    {
+      "name": "All Safe Security & Lock",
+      "website": "https://www.yoursecurityexperts.com/about/",
+      "note": "Initially passed source HTTP/content and live listing checks at first checkpoint. Later browser recheck reached a robot screen after one normal reload; retain published listing, exclude from current all-checks-complete count until destination can be reconfirmed."
+    }
+  ],
+  "publication": {
+    "firstCommit": "222c6a08eebe23a1e04f74511de15e27683c4140",
+    "firstDeployment": "dpl_AoqEX54cvnTtqjZvdrHdP4fEuBsP",
+    "businessesPublished": 23,
+    "placementsPublished": 27,
+    "currentlyAllChecksCompleteNewBusinesses": 22,
+    "publishedOfficialRecheckPending": 1,
+    "additionalNewBusinessesPrepared": 25,
+    "additionalPlacementsPrepared": 28,
+    "shortfallAgainst500": 478
   }
 }

@@ -1,10 +1,60 @@
 {
-  "checkedAt": "2026-11-05T19:35:00Z",
+  "checkedAt": "2026-11-05T19:55:53.544671+00:00",
   "method": "Full browser navigation and visible accessibility content; no embedded map or review data used",
   "records": [
-    {"name":"Access Locksmith & Security","finalUrl":"https://access-locksmith.com/","passed":true,"observed":"Official Access branding; residential locksmith links and explicit Broward/Palm Beach coverage."},
-    {"name":"IBS Locksmith","finalUrl":"https://ibslocksmith.com/","passed":true,"observed":"Company technicians offer home lock installation and lockouts, explicitly based in and serving Orlando."},
-    {"name":"Kwikey Locksmith Services Inc","finalUrl":"https://kwikeylocksmithservices.com/","passed":true,"observed":"Local mobile team offers home rekeying, lockouts and installation, explicitly serving West Palm Beach from Greenacres."},
-    {"name":"Arrow Locksmith and Door Co.","finalUrl":"https://www.arrowlocksmith.net/","passed":true,"observed":"Official company page shows Orlando shop, residential service and homeowner lock work."}
+    {
+      "name": "Access Locksmith & Security",
+      "finalUrl": "https://access-locksmith.com/",
+      "passed": true,
+      "observed": "Official Access branding; residential locksmith links and explicit Broward/Palm Beach coverage."
+    },
+    {
+      "name": "IBS Locksmith",
+      "finalUrl": "https://ibslocksmith.com/",
+      "passed": true,
+      "observed": "Company technicians offer home lock installation and lockouts, explicitly based in and serving Orlando."
+    },
+    {
+      "name": "Kwikey Locksmith Services Inc",
+      "finalUrl": "https://kwikeylocksmithservices.com/",
+      "passed": true,
+      "observed": "Local mobile team offers home rekeying, lockouts and installation, explicitly serving West Palm Beach from Greenacres."
+    },
+    {
+      "name": "Arrow Locksmith and Door Co.",
+      "finalUrl": "https://www.arrowlocksmith.net/",
+      "passed": true,
+      "observed": "Official company page shows Orlando shop, residential service and homeowner lock work."
+    },
+    {
+      "name": "CN USA Locksmith",
+      "finalUrl": "https://www.cnusalocksmith.com/",
+      "passed": true,
+      "observed": "Official family-owned mobile locksmith page shows Fort Lauderdale residential locks and home security service. Contact-form challenge does not block reading the business content."
+    },
+    {
+      "name": "The Lock Doc",
+      "finalUrl": "https://www.thelockdocfl.com/about-us/",
+      "passed": true,
+      "observed": "Locally owned Miami mobile locksmith, own trained technicians and explicit residential lock/rekey services visible."
+    },
+    {
+      "name": "Pro Locksmith LLC",
+      "finalUrl": "https://prolocksmithllc.com/",
+      "passed": true,
+      "observed": "One normal reload resolved initial connection screen. Official Fort Lauderdale residential lock installation, rekeying and own mobile work visible. West Palm Beach coverage is commercial-only and is NOT added."
+    },
+    {
+      "name": "SunState Locksmith LLC",
+      "finalUrl": null,
+      "passed": false,
+      "observed": "Robot challenge remains after one normal reload; unpublished candidate remains pending."
+    },
+    {
+      "name": "All Safe Security & Lock",
+      "finalUrl": null,
+      "passed": false,
+      "observed": "Later recheck blocked by robot challenge after one normal reload. Retain first-checkpoint publication, exclude from current completion total pending official destination recheck."
+    }
   ]
 }

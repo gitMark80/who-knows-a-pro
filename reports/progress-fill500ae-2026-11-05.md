@@ -1,34 +1,41 @@
 # Fill 500ae — local and regional businesses
 
-Fixed run baseline: `86c1066f06546c1e8e7dc7ff5d913c73317cff38`. Target: **500 distinct new businesses**, each counted once across the website after publication and live verification.
+Fixed run-start baseline: `86c1066f06546c1e8e7dc7ff5d913c73317cff38`. Target: 500 distinct NEW businesses, counted once across the website only after publication and live qualification checks.
 
-## Checkpoint: prepared, awaiting publication
+## Second checkpoint prepared
 
-23 new businesses and 27 new placements are prepared. Of those placements, 26 belong to new businesses and one belongs to the previously listed Land's Lawn and Pest. Completed live-verified additions are zero at this preparation checkpoint; the run shortfall is 500 until publication is confirmed.
+The first checkpoint, `222c6a08eebe23a1e04f74511de15e27683c4140`, published 23 new businesses and 27 placements. All listing/profile checks passed. A later official-site recheck of All Safe Security & Lock hit a robot challenge, so the conservative current all-checks-complete total is 22, with one published business pending website reconfirmation. Current completed-business shortfall: 478.
 
-| City/category | Added placements | Displayed after | Displayed deficit |
+This checkpoint prepares another 25 new businesses and 28 placements. Cumulative prepared/published source: 48 new businesses, 55 placements (54 from new businesses; one from the previously listed Land's Lawn and Pest). Do not count the second checkpoint until deployed and live verified.
+
+| City/category | Added placements vs fixed baseline | Displayed after | Displayed deficit |
 |---|---:|---:|---:|
-| Orlando / locksmith | 9 | 9 | 11 |
-| West Palm Beach / locksmith | 11 | 11 | 9 |
-| Fort Lauderdale / locksmith | 3 | 4 | 16 |
-| West Palm Beach / appliance repair | 1 | 11 | 9 |
-| Crestview / garage door repair | 1 | 14 | 6 |
-| Panama City / garage door repair | 1 | 15 | 5 |
-| Panama City / pest control | 1 | 8 | 12 |
+| fort-walton-beach-fl / pest-control | 1 | 12 | 8 |
+| crestview-fl / pest-control | 1 | 11 | 9 |
+| crestview-fl / garage-door-repair | 1 | 14 | 6 |
+| crestview-fl / pool-service | 1 | 11 | 9 |
+| orlando-fl / locksmith | 14 | 14 | 6 |
+| miami-fl / locksmith | 8 | 10 | 10 |
+| fort-lauderdale-fl / locksmith | 12 | 13 | 7 |
+| west-palm-beach-fl / locksmith | 14 | 14 | 6 |
+| west-palm-beach-fl / appliance-repair | 1 | 11 | 9 |
+| panama-city-fl / pest-control | 1 | 8 | 12 |
+| panama-city-fl / garage-door-repair | 1 | 15 | 5 |
 
-Catalog: 40 active cities, 30 visible categories, 1,200 public pages; ten hidden categories preserved. Grayton Beach remains active. No catalog changes were made. Displayed baseline: 156 pages at 20+, 1,044 below 20, two empty, deficit 11,461. Prepared: 156 at 20+, 1,044 below 20, no empty pages, deficit 11,434. The exact qualifying historical coverage and deficit remain **unknown**; displayed rows are not certification of residential/local eligibility.
+## Coverage and validation
 
-## Evidence, checks and blockers
+Current catalog: 40 active cities × 30 visible categories = 1,200 public pages. Ten hidden categories, including handyman, remain hidden. Grayton Beach remains active. No catalog changes. Prepared counts: 156 pages display 20+, 1,044 display fewer than 20, zero empty pages, displayed deficit 11,406 (baseline 11,461). These are displayed distinct-profile counts, not certified qualifying counts. Historical qualifying counts, verified-at-20 pages, qualifying-empty pages and the exact qualifying deficit remain unknown pending a full residential/category/local/identity audit.
 
-- The ledger records residential services, direct-provider status, city or county coverage, official identity, URLs and timestamps. County evidence for Access and All Safe is tied to government municipality lists. No nearby-city or statewide inference was used.
-- New identity checks cover baseline names/domains and alternate domains. YDG variants and Handyman All Around variants count once. No national brands were added.
-- All 14,051 baseline placements are preserved unchanged. JSON, active/visible slugs, existing/new identity handling, placement deduplication, evidence gate and page caps passed. The production build passed.
-- The source checker returned 200 for 28/34 source URLs. The other six URLs belong to four sites. A full browser independently opened Access, IBS, Kwikey and Arrow at their intended official URLs and visibly confirmed their identity and residential/local content. No safety interstitial was bypassed.
-- The existing import qualification gate was inspected. Candidates lacking residential, direct-provider, identity or specific-geography evidence are rejected. No old five-listing cap affects this supplemental import.
-- Three pending identities remain: Fort Walton Locksmith (possible Locksmith Chick identity overlap); Discount Lock (explicit residential scope not established); Advanced Garage Door Repair (shared-brand/domain clues and inaccessible Crestview source). They are not published or counted.
-- Sixteen researched existing businesses are listed in the ledger and do not count as new. Priority-city searches repeatedly found these duplicates; no unsupported coverage was added to compensate.
-- Retail Fix It remains excluded by the earlier, separately authorized national-brand cleanup. Its historical unsupported-residential/geography/network flags remain in the prior audit. This run changes no historical visibility, claims, submissions or billing data.
+All 14,051 baseline placements are preserved byte-for-value in the generated directory. JSON/schema, active and visible slugs, normalized domains/names, identity aliases, per-placement evidence, exclusion rules and underfilled-page checks pass. The production build passed. No import logic change was needed: the existing qualification gate requires residential, direct-provider, official-identity and specific local evidence; no five-listing cap affects this supplemental import.
 
-## Resumption
+## Evidence and blockers
 
-Use current main, not this workspace snapshot. The evidence ledger and supplemental data are keyed by business and placement; validation includes exact generated additions; the CSV lists all 1,200 page counts and deficits. Recheck active automation/workflows and main before any further write. Current main was checked at preparation and still matches the fixed baseline. Continue researching underfilled priority pages and then other lowest-count pages. Do not count this checkpoint's 23 businesses until their production listings and official destinations pass live verification.
+Official source pages were manually reviewed and destination/status checks saved separately. HTTP success alone was never treated as qualification. Browser checks resolve plain-fetch failures for Access, IBS, Kwikey, Arrow, CN USA, The Lock Doc and Pro Locksmith. Pro Locksmith's initial robot screen resolved after one normal reload; its West Palm Beach coverage is explicitly commercial-only and was not added. SunState's challenge remains, so that unpublished candidate stays pending. All Safe's later challenge leaves one published business pending recheck; its public visibility is unchanged. No challenge was solved or bypassed.
+
+The evidence ledger preserves pending identities, rejected candidates, existing-business duplicates and qualified candidates without an underfilled visible page. Crabby's has a valid local residential website, but handyman is hidden and its supported flooring/painting pages already display 20+; it is not published. Fort Walton Beach Insulation's terms disclose a referral service, so it is rejected. Davis Exterminators was acquired by Arrow and is not added as a new independent brand. No new national brands, paid research, Foursquare usage or outreach.
+
+Historical review flags added for the A to Z Appliance directory-style URL/identity mismatch and possible Pinckard duplicate identities. Existing historical visibility is unchanged. Retail Fix It remains excluded by the prior authorized national-brand cleanup; its earlier unsupported residential/geographic/network flags remain in `reports/historical-qualification-flags-2026-11-03.json`.
+
+## Resume safely
+
+Read current main, active runs and catalogs first. Never restore this baseline over newer work. The source JSON and evidence ledger contain business/placement keys; validation JSON contains exact added generated rows; the CSV contains all 1,200 page deficits. Main was rechecked before this checkpoint and still points to the first data commit. Publish with compare-and-swap, then verify every new public placement/profile and intended official destination. Continue underfilled priority pages first. The 500-new-business target and full qualifying page completion remain unfinished.

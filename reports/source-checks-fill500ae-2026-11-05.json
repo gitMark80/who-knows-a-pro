@@ -1,10 +1,19 @@
 {
-  "checkedAt": "2026-11-05T19:34:34.009478+00:00",
+  "checkedAt": "2026-11-05T19:51:56.011559+00:00",
   "manualContentEvidence": "reports/evidence-fill500ae-2026-11-05.json",
   "urls": [
     {
+      "url": "https://305lockandkey.com/",
+      "checkedAt": "2026-11-05T19:51:16.218669+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://305lockandkey.com/",
+      "bytes": 21891,
+      "sha256": "35381d5a3e7872f3b6872ab74748eab36c9edd85fa6bcaa855f0bfe7a2b59943",
+      "title": "305 Lock & Key | 24/7 Professional Locksmith in Miami, FL & Surrounding Areas"
+    },
+    {
       "url": "https://aamericanlocksmith.com/",
-      "checkedAt": "2026-11-05T19:34:14.356014+00:00",
+      "checkedAt": "2026-11-05T19:51:16.219903+00:00",
       "httpStatus": 200,
       "finalUrl": "https://aamericanlocksmith.com/",
       "bytes": 121112,
@@ -13,22 +22,31 @@
     },
     {
       "url": "https://access-locksmith.com/",
-      "checkedAt": "2026-11-05T19:34:14.356993+00:00",
+      "checkedAt": "2026-11-05T19:51:16.221200+00:00",
       "error": "HTTP Error 406: Not Acceptable"
     },
     {
       "url": "https://access-locksmith.com/contact-us/",
-      "checkedAt": "2026-11-05T19:34:14.357625+00:00",
+      "checkedAt": "2026-11-05T19:51:16.222390+00:00",
       "error": "HTTP Error 406: Not Acceptable"
     },
     {
       "url": "https://access-locksmith.com/residential-locksmith/",
-      "checkedAt": "2026-11-05T19:34:14.358139+00:00",
+      "checkedAt": "2026-11-05T19:51:16.223845+00:00",
       "error": "HTTP Error 406: Not Acceptable"
     },
     {
+      "url": "https://advanceautolocksmith.com/",
+      "checkedAt": "2026-11-05T19:51:16.229541+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://advanceautolocksmith.com/",
+      "bytes": 237825,
+      "sha256": "600d448483b3504b51ad3504aa5c61c852faa4f68ee1b69eca2b44c4069cdb40",
+      "title": "Locksmith Orlando FL | Advance Auto Locksmiths"
+    },
+    {
       "url": "https://allamericanlocksmithfl.com/",
-      "checkedAt": "2026-11-05T19:34:14.359035+00:00",
+      "checkedAt": "2026-11-05T19:51:16.232333+00:00",
       "httpStatus": 200,
       "finalUrl": "https://allamericanlocksmithfl.com/",
       "bytes": 698143,
@@ -36,8 +54,26 @@
       "title": "24/7 Mobile Locksmith Orlando & Central Florida | 20-25 Mins"
     },
     {
+      "url": "https://aopremiumlocksmith.com/",
+      "checkedAt": "2026-11-05T19:51:16.233442+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://aopremiumlocksmith.com/",
+      "bytes": 67622,
+      "sha256": "e54ce64db56aa85e529bd8dba8b25a97fd0de0fd75143bbd93bc08de2aab28fc",
+      "title": "Multi-Point & French Door Lock Repair Miami | A&O Premium Locksmith"
+    },
+    {
+      "url": "https://aopremiumlocksmith.com/residential",
+      "checkedAt": "2026-11-05T19:51:20.604835+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://aopremiumlocksmith.com/residential",
+      "bytes": 32734,
+      "sha256": "ba8a66d4fd8ed7101942c7c477e62d12bf75f766a93a22171a5cbe586cc7908c",
+      "title": "Residential Locksmith Miami | Rekey, Lockout, Smart Lock Install | A&O Premium"
+    },
+    {
       "url": "https://armstronglock.com/",
-      "checkedAt": "2026-11-05T19:34:14.360898+00:00",
+      "checkedAt": "2026-11-05T19:51:20.605408+00:00",
       "httpStatus": 200,
       "finalUrl": "https://armstronglock.com/",
       "bytes": 41794,
@@ -46,7 +82,7 @@
     },
     {
       "url": "https://d-locksmith.com/about/",
-      "checkedAt": "2026-11-05T19:34:14.362805+00:00",
+      "checkedAt": "2026-11-05T19:51:20.652839+00:00",
       "httpStatus": 200,
       "finalUrl": "https://d-locksmith.com/about/",
       "bytes": 22249,
@@ -55,7 +91,7 @@
     },
     {
       "url": "https://d-locksmith.com/residential-locksmith/",
-      "checkedAt": "2026-11-05T19:34:14.363597+00:00",
+      "checkedAt": "2026-11-05T19:51:20.735606+00:00",
       "httpStatus": 200,
       "finalUrl": "https://d-locksmith.com/residential-locksmith/",
       "bytes": 33717,
@@ -64,44 +100,134 @@
     },
     {
       "url": "https://discover.pbc.gov/pages/municipalities.aspx",
-      "checkedAt": "2026-11-05T19:34:18.028445+00:00",
+      "checkedAt": "2026-11-05T19:51:20.924848+00:00",
       "httpStatus": 200,
       "finalUrl": "https://discover.pbc.gov/pages/municipalities.aspx",
       "bytes": 86694,
-      "sha256": "d38fe54fc5c7e5b48321f59984a1b7c3d20b52bfe244de1bb0d88182bac687ef",
+      "sha256": "0f9316cf4c867e6af7ac0fd529fd473e91f7e4dcd94b331816c2ddb26c38f0bf",
       "title": "Palm Beach County\r\n            \r\n            \r\n            Municipalities"
     },
     {
       "url": "https://doornkey.com/",
-      "checkedAt": "2026-11-05T19:34:18.296026+00:00",
+      "checkedAt": "2026-11-05T19:51:21.003630+00:00",
       "httpStatus": 200,
       "finalUrl": "https://doornkey.com/",
       "bytes": 673199,
-      "sha256": "139f2dcc4661d2f31f8cf86d6e4a9841ca403004a032b7feb8848545d9d4a37f",
+      "sha256": "326afae6ace40db9c73f757b6bf553fc418fc33b7f8a7dc940a28cc5bfa0a5b8",
       "title": "Door N Key Locksmith West Palm Beach, FL - 24/7 Emergency Locksmith"
     },
     {
+      "url": "https://emergencylocksmithfl.com/about-us/",
+      "checkedAt": "2026-11-05T19:51:21.304063+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emergencylocksmithfl.com/about-us/",
+      "bytes": 118828,
+      "sha256": "504da46a91d69bfd810e8064d52ada555ee96b9d7dd0a2d4114abaad1372a28a",
+      "title": "About Us - Bens Locksmith Fort Lauderdale - Locksmith 33312"
+    },
+    {
+      "url": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "checkedAt": "2026-11-05T19:51:22.592478+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://emergencylocksmithfl.com/residential-locksmith-services/",
+      "bytes": 118211,
+      "sha256": "34bfd7c5373a4722b2acdbfab5a0d61e3a17e51d97edc241c087c7b98b1d3b98",
+      "title": "Residential Locksmith Service | Bens Locksmith Ft Lauderdale FL"
+    },
+    {
       "url": "https://ibslocksmith.com/",
-      "checkedAt": "2026-11-05T19:34:18.299506+00:00",
+      "checkedAt": "2026-11-05T19:51:25.107071+00:00",
       "error": "HTTP Error 406: Not Acceptable"
     },
     {
       "url": "https://kwikeylocksmithservices.com/",
-      "checkedAt": "2026-11-05T19:34:18.613573+00:00",
+      "checkedAt": "2026-11-05T19:51:25.159618+00:00",
       "error": "HTTP Error 406: Not Acceptable"
     },
     {
       "url": "https://lauderdalebythesea-fl.gov/QuickLinks.aspx?CID=34",
-      "checkedAt": "2026-11-05T19:34:18.614132+00:00",
+      "checkedAt": "2026-11-05T19:51:25.195624+00:00",
       "httpStatus": 200,
       "finalUrl": "https://lauderdalebythesea-fl.gov/QuickLinks.aspx?CID=34",
       "bytes": 101302,
-      "sha256": "14080140a4945821a144f20d5442f3ac3b0109b64941c8685631c2a14988d609",
+      "sha256": "b3b82fa61a6ffd75ee66bcfdf19539908956aa43924f41f923d16123a1e043d0",
       "title": "Quick Links \u2022 Broward County Municipalities"
     },
     {
+      "url": "https://levilocksmith.com/",
+      "checkedAt": "2026-11-05T19:51:25.963644+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://levilocksmith.com/",
+      "bytes": 70466,
+      "sha256": "6e14569d339d27786b2dc3df9bf1733077c6d0812af9b01b037e3377433d6809",
+      "title": "Levi Universal Locksmith - Palm Beach County - Open 24/7"
+    },
+    {
+      "url": "https://levilocksmith.com/about-us/",
+      "checkedAt": "2026-11-05T19:51:26.034467+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://levilocksmith.com/about-us/",
+      "bytes": 63574,
+      "sha256": "f0dfc80018ea59e45110a2e676b52073fcde5f8958978a5f44b15e6e5ecd4afc",
+      "title": "About Us - Levi Universal Locksmith"
+    },
+    {
+      "url": "https://lockmansec.com/about/",
+      "checkedAt": "2026-11-05T19:51:26.492009+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://lockmansec.com/about/",
+      "bytes": 76719,
+      "sha256": "9ed83e4780f08d3c2978782cab13d16ea8623f1bfd282bec850093072ada892b",
+      "title": "About \u2013 Lockman Security Inc"
+    },
+    {
+      "url": "https://lockmansec.com/residential-locksmith/",
+      "checkedAt": "2026-11-05T19:51:26.752803+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://lockmansec.com/residential-locksmith/",
+      "bytes": 77328,
+      "sha256": "b42820b56cb7324875b56d742dd57bd37787a5bcbe4a1b9635b9ea5ec4328930",
+      "title": "Residential Locksmith \u2013 Lockman Security Inc"
+    },
+    {
+      "url": "https://locknsmith.com/residential-locksmith/",
+      "checkedAt": "2026-11-05T19:51:27.502236+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://locknsmith.com/residential-locksmith/",
+      "bytes": 184182,
+      "sha256": "2dbae17033198fb56aebd78c0c92242313be820bca724481a0690a786d9dd7c5",
+      "title": "Locksmith in Miami & South Florida | 24/7 Emergency | Lock N Smith"
+    },
+    {
+      "url": "https://locksmithall.com/",
+      "checkedAt": "2026-11-05T19:51:28.612707+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://locksmithall.com/",
+      "bytes": 327463,
+      "sha256": "2540ea10e99ca99995abea15bc6efcb48d3b908c8f72808b19b26accb7706c52",
+      "title": "Locksmith Orlando FL 24/7 | A Plus Locksmith & Keys"
+    },
+    {
+      "url": "https://locksmithservicemiami.com/",
+      "checkedAt": "2026-11-05T19:51:28.632284+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://locksmithservicemiami.com/",
+      "bytes": 54719,
+      "sha256": "3b6505275e64dbd8a6c232c2625d108668191ee93710455d58bd0f4f436b4a6e",
+      "title": "Y & J Locksmith"
+    },
+    {
+      "url": "https://michaellockandkey.com/residential-locksmith/",
+      "checkedAt": "2026-11-05T19:51:29.125268+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://michaellockandkey.com/residential-locksmith/",
+      "bytes": 92352,
+      "sha256": "f7dc42ad6d4ffeb320fc3091648fbf76612d131ee851d42a3369e2d605293f63",
+      "title": "Residential Locksmith \u2013 Michael Lock & Key"
+    },
+    {
       "url": "https://paylesslocksmith.net/",
-      "checkedAt": "2026-11-05T19:34:18.671399+00:00",
+      "checkedAt": "2026-11-05T19:51:29.931742+00:00",
       "httpStatus": 200,
       "finalUrl": "https://paylesslocksmith.net/",
       "bytes": 204054,
@@ -110,7 +236,7 @@
     },
     {
       "url": "https://paylesslocksmith.net/locations/",
-      "checkedAt": "2026-11-05T19:34:19.429914+00:00",
+      "checkedAt": "2026-11-05T19:51:29.936936+00:00",
       "httpStatus": 200,
       "finalUrl": "https://paylesslocksmith.net/locations/",
       "bytes": 61658,
@@ -118,8 +244,35 @@
       "title": "Areas we serve \u2013 Payless Locksmith Inc."
     },
     {
+      "url": "https://prolocksmithllc.com/",
+      "checkedAt": "2026-11-05T19:51:30.511618+00:00",
+      "httpStatus": 202,
+      "finalUrl": "https://prolocksmithllc.com/",
+      "bytes": 167,
+      "sha256": "e9277bcdaf8db461cd2b5d98ad266a27409f2e37ba4ab399fe67f4079f360e62",
+      "title": null
+    },
+    {
+      "url": "https://prolocksmithllc.com/pricing/",
+      "checkedAt": "2026-11-05T19:51:30.712434+00:00",
+      "httpStatus": 202,
+      "finalUrl": "https://prolocksmithllc.com/pricing/",
+      "bytes": 177,
+      "sha256": "59248483868a8fa588ceefb87fe8e47955210c351b5b16fb41493ea2da6c6cc6",
+      "title": null
+    },
+    {
+      "url": "https://prolocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "checkedAt": "2026-11-05T19:51:30.951941+00:00",
+      "httpStatus": 202,
+      "finalUrl": "https://prolocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "bytes": 207,
+      "sha256": "cb9c11b23f57152d1840b6b2ef8e10312a9f6ef0f62f1e137c23c1949c60602d",
+      "title": null
+    },
+    {
       "url": "https://referencelocksmith.com/about",
-      "checkedAt": "2026-11-05T19:34:19.807744+00:00",
+      "checkedAt": "2026-11-05T19:51:32.655765+00:00",
       "httpStatus": 200,
       "finalUrl": "https://referencelocksmith.com/about",
       "bytes": 38652,
@@ -128,7 +281,7 @@
     },
     {
       "url": "https://royallocksmithfl.com/",
-      "checkedAt": "2026-11-05T19:34:22.569454+00:00",
+      "checkedAt": "2026-11-05T19:51:32.898328+00:00",
       "httpStatus": 200,
       "finalUrl": "https://royallocksmithfl.com/",
       "bytes": 160895,
@@ -136,17 +289,80 @@
       "title": "Official Site - Royal Locksmith FL \u00ae"
     },
     {
+      "url": "https://soniclocksmith.com/residential/",
+      "checkedAt": "2026-11-05T19:51:32.946987+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://soniclocksmith.com/residential/",
+      "bytes": 69666,
+      "sha256": "db2b8bdcfcbc7f20d851412a64c8c41cc725f33996fd23e89189d89e3933a1ff",
+      "title": "Residential & Home Locksmith | Sonic Locksmith | Fort Lauderdale, FL"
+    },
+    {
+      "url": "https://sunstatelocksmithllc.com/",
+      "checkedAt": "2026-11-05T19:51:32.964136+00:00",
+      "httpStatus": 202,
+      "finalUrl": "https://sunstatelocksmithllc.com/",
+      "bytes": 167,
+      "sha256": "004850f9a3e89fcffecab34b84dfeffb3943bd7a0bdd2e44d592e534e928714f",
+      "title": null
+    },
+    {
+      "url": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "checkedAt": "2026-11-05T19:51:32.967555+00:00",
+      "httpStatus": 202,
+      "finalUrl": "https://sunstatelocksmithllc.com/residential-locksmith-fort-lauderdale/",
+      "bytes": 207,
+      "sha256": "762e9a1c6ed14b28c65a46a62d9365e6e241eb38866081ebc1ab383d3dc3dccf",
+      "title": null
+    },
+    {
+      "url": "https://thealphalockandkey.com/",
+      "checkedAt": "2026-11-05T19:51:33.829151+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://thealphalockandkey.com/",
+      "bytes": 216436,
+      "sha256": "eb9af7c4741d67fa01f983ccabc8fa1ecd2c2364c78350b8739ff939ebe2f234",
+      "title": "Locksmith - Residential, Commercial and Marine I Broward & Palm Beach I"
+    },
+    {
+      "url": "https://thealphalockandkey.com/locksmith-service-areas/",
+      "checkedAt": "2026-11-05T19:51:33.846588+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://thealphalockandkey.com/locksmith-service-areas/",
+      "bytes": 126505,
+      "sha256": "0576b685e838fa0e700ea6c41534e5fd9376e0a9b785dff4d20e58fed11647e5",
+      "title": "Alpha Lock & Key Service Areas | South Florida Locksmith"
+    },
+    {
       "url": "https://veteranlockandsafe.com/",
-      "checkedAt": "2026-11-05T19:34:22.592256+00:00",
+      "checkedAt": "2026-11-05T19:51:33.847468+00:00",
       "httpStatus": 200,
       "finalUrl": "https://veteranlockandsafe.com/",
       "bytes": 138800,
-      "sha256": "cb3a1c24df43511313e43f86185230c54c2309639984c54585e1eef083e78101",
+      "sha256": "b3ce98480e9b03943498a81642c380be6a466e7a6f537223778073a1b2b17b3e",
       "title": "24/7 Orlando Locksmith Services | House & Car Lockouts | Veteran Lock & Safe"
     },
     {
+      "url": "https://www.abouttownlock.com/",
+      "checkedAt": "2026-11-05T19:51:37.277558+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.abouttownlock.com/",
+      "bytes": 138239,
+      "sha256": "1dfbf02a132e0c755a87f73dfde23dcf80a02ac8a6481f193a67dc58df658571",
+      "title": "Home | Wilton Manors, FL | About Town Lock & Safe Co"
+    },
+    {
+      "url": "https://www.abouttownlock.com/residential",
+      "checkedAt": "2026-11-05T19:51:37.294186+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.abouttownlock.com/residential",
+      "bytes": 67936,
+      "sha256": "94c9810b883bc6b62a6dde4bf2907ce725fdf5b7f23fe2c068fab418e8354772",
+      "title": "Residential | Wilton Manors, FL | About Town Lock & Safe Co"
+    },
+    {
       "url": "https://www.al-lenlock.com/residential-locksmith-services",
-      "checkedAt": "2026-11-05T19:34:22.606199+00:00",
+      "checkedAt": "2026-11-05T19:51:37.599227+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.al-lenlock.com/residential-locksmith-services",
       "bytes": 248850,
@@ -155,7 +371,7 @@
     },
     {
       "url": "https://www.ameriprogaragedoors.com/",
-      "checkedAt": "2026-11-05T19:34:22.676364+00:00",
+      "checkedAt": "2026-11-05T19:51:37.612399+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ameriprogaragedoors.com/",
       "bytes": 261245,
@@ -164,30 +380,75 @@
     },
     {
       "url": "https://www.arrowlocksmith.net/",
-      "checkedAt": "2026-11-05T19:34:22.848000+00:00",
-      "error": "HTTP Error 503: Service Unavailable"
+      "checkedAt": "2026-11-05T19:51:37.666707+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.arrowlocksmith.net/",
+      "bytes": 416176,
+      "sha256": "be9c41aa7e79fddd13e8da70a11046b8f8167d661f3e8e35d844207545592907",
+      "title": "Commercial & Residential Locksmith Services & 24/7 Emergency Door Lock Repair & Installation Sanford, Maitland & Orlando, FL - Arrow Locksmith Co"
+    },
+    {
+      "url": "https://www.athomekeys.com/",
+      "checkedAt": "2026-11-05T19:51:37.817268+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.athomekeys.com/",
+      "bytes": 751496,
+      "sha256": "ca24f549b5f9f767cd6e86cfe5becf791b1e56d7cea0f8192c6b0b669b538fe7",
+      "title": "At Home Keys Locksmith, Orlando,Rekey, locked out of house or car"
+    },
+    {
+      "url": "https://www.athomekeys.com/about-us",
+      "checkedAt": "2026-11-05T19:51:39.464144+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.athomekeys.com/about-us",
+      "bytes": 685992,
+      "sha256": "1f8e055a7d5595394ec69e99e4f74fa8382c01577bd6a85e9b6b8c6e7f570a18",
+      "title": "About At Home Keys Locksmith, 5 star service, house locks, locked out"
     },
     {
       "url": "https://www.bestinwpb.com/",
-      "checkedAt": "2026-11-05T19:34:22.958313+00:00",
+      "checkedAt": "2026-11-05T19:51:39.467655+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.bestinwpb.com/",
       "bytes": 83472,
-      "sha256": "fd814ed14a8c7f2fa6debe34ee0c0dd92a517d7c0375abd6995ea47ee0ef0112",
+      "sha256": "c6b3f2514a2b2de443de016b08145068dfdb378c1ff49bb2e4ca6f845e9849c1",
       "title": "Handyman All Around | Same day  Affordable Appliance Repair"
     },
     {
       "url": "https://www.bestinwpb.com/service-area",
-      "checkedAt": "2026-11-05T19:34:24.472211+00:00",
+      "checkedAt": "2026-11-05T19:51:41.029150+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.bestinwpb.com/service-area",
       "bytes": 45841,
-      "sha256": "dc3b2f4fb52c98ebbdce680b9af7ac78100b3317429a766b18ec1d4fd6a4e510",
+      "sha256": "3cd224906d7d899b8a8d2135201624259147048d95725edd5db6455bdfc0e3cf",
       "title": "Where are We Serving in Palm Beach County"
     },
     {
+      "url": "https://www.cnusalocksmith.com/",
+      "checkedAt": "2026-11-05T19:51:41.171922+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.cnusalocksmith.com/about-us/",
+      "checkedAt": "2026-11-05T19:51:41.172975+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cnusalocksmith.com/about-us/",
+      "bytes": 270786,
+      "sha256": "ba18bc554495be4e695d6e7b2b7c5136f72a3a13423109308143892b1f6f3ecc",
+      "title": "About CN USA Locksmith | Your Trusted Locksmith"
+    },
+    {
+      "url": "https://www.eastorlandolocksmith.com/",
+      "checkedAt": "2026-11-05T19:51:41.712296+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.eastorlandolocksmith.com/",
+      "bytes": 63547,
+      "sha256": "eeb5d93d36901c774f25f4ea7930cf3664dfbf4a6a7edd2f977d1a6e26ec9fe0",
+      "title": "East Orlando Locksmith \u2014 24/7 Emergency Locksmith in Orlando, FL"
+    },
+    {
       "url": "https://www.integritylocksmithservices.com/",
-      "checkedAt": "2026-11-05T19:34:25.222545+00:00",
+      "checkedAt": "2026-11-05T19:51:41.780962+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.integritylocksmithservices.com/",
       "bytes": 74664,
@@ -196,7 +457,7 @@
     },
     {
       "url": "https://www.landslawn.com/",
-      "checkedAt": "2026-11-05T19:34:26.145969+00:00",
+      "checkedAt": "2026-11-05T19:51:41.876374+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.landslawn.com/",
       "bytes": 988237,
@@ -205,16 +466,25 @@
     },
     {
       "url": "https://www.landslawn.com/service-page/weed-and-outdoor-pest-control",
-      "checkedAt": "2026-11-05T19:34:26.392039+00:00",
+      "checkedAt": "2026-11-05T19:51:43.141614+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.landslawn.com/service-page/weed-and-outdoor-pest-control",
-      "bytes": 824390,
-      "sha256": "63eed1d5a94f4ac249bae0e0089614b4e7868261bfb7b1dd293da194dc70bd1f",
+      "bytes": 824480,
+      "sha256": "3c77ad676a0e8f11d8cc3de7a5394a089b44b1a1ebb6753ad7bf1110229b7414",
       "title": "Weed and Outdoor Pest Control | Land's Lawn and Pest"
     },
     {
+      "url": "https://www.miamidoorsandlocks.com/",
+      "checkedAt": "2026-11-05T19:51:43.745882+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.miamidoorsandlocks.com/",
+      "bytes": 352790,
+      "sha256": "17e6a3f95a2fc7cb34b5ed66327aed7b2827724af5894310c72789096b8f1e0a",
+      "title": "Miami Locksmith & Commercial Doors | Miami Doors & Locks"
+    },
+    {
       "url": "https://www.prolocksmithsorlando.com/residential-locksmith",
-      "checkedAt": "2026-11-05T19:34:26.563843+00:00",
+      "checkedAt": "2026-11-05T19:51:43.845202+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.prolocksmithsorlando.com/residential-locksmith",
       "bytes": 278279,
@@ -222,8 +492,17 @@
       "title": "Residential Locksmith Orlando | Home Lockouts & Rekeys"
     },
     {
+      "url": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "checkedAt": "2026-11-05T19:51:44.925087+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.quicklymiamilocksmith.com/locations/downtown-location/",
+      "bytes": 156648,
+      "sha256": "ab0914b42818a5ef9b51e84bae2ff321ce28ca2af38b15792a9ca785720b634e",
+      "title": "Trusted Locksmith Shop Downtown Miami | Quickly"
+    },
+    {
       "url": "https://www.royalpalmbeachlocksmith.com/about-us/",
-      "checkedAt": "2026-11-05T19:34:27.068584+00:00",
+      "checkedAt": "2026-11-05T19:51:45.280077+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.royalpalmbeachlocksmith.com/about-us/",
       "bytes": 65620,
@@ -232,7 +511,7 @@
     },
     {
       "url": "https://www.royalpalmbeachlocksmith.com/residential-locksmith/",
-      "checkedAt": "2026-11-05T19:34:27.417947+00:00",
+      "checkedAt": "2026-11-05T19:51:45.513826+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.royalpalmbeachlocksmith.com/residential-locksmith/",
       "bytes": 81384,
@@ -240,8 +519,85 @@
       "title": "Residential Locksmith in West Palm Beach | (561) 728-0736"
     },
     {
+      "url": "https://www.smileylocksmith.com/",
+      "checkedAt": "2026-11-05T19:51:45.633271+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.smileylocksmith.com/",
+      "bytes": 51051,
+      "sha256": "7df591c22e0f1aee0646b285e85ba63b972a0d05cc244ee1be8518a3f8a271b8",
+      "title": "Fort Lauderdale Locksmith & Car Key Center | Smiley Locksmith"
+    },
+    {
+      "url": "https://www.smileylocksmith.com/services/residential-locksmith",
+      "checkedAt": "2026-11-05T19:51:45.664041+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.smileylocksmith.com/services/residential-locksmith",
+      "bytes": 26466,
+      "sha256": "fecbff9d8a0756b00193128edc4ea97cf21e9072641065bdd76ac2a504cebb8e",
+      "title": "Residential Locksmith"
+    },
+    {
+      "url": "https://www.superiorspray.com/",
+      "checkedAt": "2026-11-05T19:51:45.709905+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.superiorspray.com/",
+      "bytes": 271915,
+      "sha256": "a8d61be43e64325a21485b68b4aa832bf0acc58eb8e03a2eacaf85aed5eb2ecf",
+      "title": "Central Florida Pest Control | Superior Spray"
+    },
+    {
+      "url": "https://www.superiorspray.com/locations/okaloosa-county/crestview",
+      "checkedAt": "2026-11-05T19:51:46.976501+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.superiorspray.com/locations/okaloosa-county/crestview",
+      "bytes": 291477,
+      "sha256": "70d58106ce587534f5ccbd5e2be9bca85865e61f176c26e0944a1d6410834144",
+      "title": "Pest Control in Crestview, FL | Superior Spray"
+    },
+    {
+      "url": "https://www.superiorspray.com/north-florida",
+      "checkedAt": "2026-11-05T19:51:47.301995+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.superiorspray.com/north-florida",
+      "bytes": 187439,
+      "sha256": "82a53c81e904b68415463a5d2d2b86a6bb43ba3c331bd9961769b8fae5fa1c6c",
+      "title": "Pest Control in North Florida | Superior Spray"
+    },
+    {
+      "url": "https://www.thelockdocfl.com/about-us/",
+      "checkedAt": "2026-11-05T19:51:48.552848+00:00",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.us-locksmith.com/",
+      "checkedAt": "2026-11-05T19:51:48.568261+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.us-locksmith.com/",
+      "bytes": 73804,
+      "sha256": "10b38d04eae46d7a8a29d1c4dbab8f3491bf5c878fa6f6a6b068af87a5fc32ff",
+      "title": "US Locksmith South Florida \u2014 24/7 Service, Since 2004"
+    },
+    {
+      "url": "https://www.us-locksmith.com/about",
+      "checkedAt": "2026-11-05T19:51:48.664593+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.us-locksmith.com/about",
+      "bytes": 37901,
+      "sha256": "6d074faedd09a6f173ff603925d51150fd84c9ec5f2431ab394af4e84020e078",
+      "title": "About US Locksmith \u2014 Serving South Florida Since 2004"
+    },
+    {
+      "url": "https://www.us-locksmith.com/locksmith-broward-county",
+      "checkedAt": "2026-11-05T19:51:48.736470+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.us-locksmith.com/locksmith-broward-county",
+      "bytes": 64479,
+      "sha256": "a7b45e5e609174da3500b35273c8919ee48760ce8fef10903157c6fe9c6ef5a7",
+      "title": "Locksmith Broward County FL \u2014 24/7 Emergency"
+    },
+    {
       "url": "https://www.us1locksmithfl.com/",
-      "checkedAt": "2026-11-05T19:34:27.548935+00:00",
+      "checkedAt": "2026-11-05T19:51:48.775987+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.us1locksmithfl.com/",
       "bytes": 132375,
@@ -249,8 +605,17 @@
       "title": "US1 Locksmith - Locksmith Services in The Broward County"
     },
     {
+      "url": "https://www.vicekeys.com/",
+      "checkedAt": "2026-11-05T19:51:48.869343+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.vicekeys.com/",
+      "bytes": 194517,
+      "sha256": "02f18fbf63d3d61def420dcdbb448356b246a9efb52300d4205d99c42a957740",
+      "title": "Miami Vice Keys Locksmith | 24/7 Emergency Locksmith Services Miami"
+    },
+    {
       "url": "https://www.wilsonrowanlocksmith.com/",
-      "checkedAt": "2026-11-05T19:34:28.121596+00:00",
+      "checkedAt": "2026-11-05T19:51:48.888377+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.wilsonrowanlocksmith.com/",
       "bytes": 240839,
@@ -259,30 +624,39 @@
     },
     {
       "url": "https://www.ydglocksmith.com/",
-      "checkedAt": "2026-11-05T19:34:28.845820+00:00",
+      "checkedAt": "2026-11-05T19:51:48.915785+00:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ydglocksmith.com/",
       "bytes": 737692,
-      "sha256": "2b00f4af4366fa28c71759c3ce7fbe3539044a54700ce0b70219d1a630381452",
+      "sha256": "658e808d60428ba1cbfffd3ee0e57f39652a67751f2cca85897de4c86a7d6a34",
       "title": "Y.D.G. Locksmith"
     },
     {
       "url": "https://www.yoursecurityexperts.com/about/",
-      "checkedAt": "2026-11-05T19:34:30.016514+00:00",
-      "httpStatus": 200,
+      "checkedAt": "2026-11-05T19:51:52.264171+00:00",
+      "httpStatus": 202,
       "finalUrl": "https://www.yoursecurityexperts.com/about/",
-      "bytes": 194246,
-      "sha256": "36deab0f83e37f4704b9b23fcbe35b08c9c18563cc140cf0952890f44231b79f",
-      "title": "About | All Safe Security & Lock"
+      "bytes": 175,
+      "sha256": "4626385efdefc5798a8fd61fd28a1afc25ed44731a8be1d62a85595d04245523",
+      "title": null
     },
     {
       "url": "https://www.yoursecurityexperts.com/our-services/",
-      "checkedAt": "2026-11-05T19:34:30.409949+00:00",
-      "httpStatus": 200,
+      "checkedAt": "2026-11-05T19:51:52.307999+00:00",
+      "httpStatus": 202,
       "finalUrl": "https://www.yoursecurityexperts.com/our-services/",
-      "bytes": 159946,
-      "sha256": "714bd436fc299892ca39a31cc0580e11e1ea9f70c7ff780f6f2917d594db164f",
-      "title": "Locksmith Services | All Safe Security & Lock"
+      "bytes": 182,
+      "sha256": "9712c46914ecbc5a2e17fc6fc91f61f98bb5932329710acc06744a724edf4748",
+      "title": null
+    },
+    {
+      "url": "https://www.whittonworks.com/",
+      "checkedAt": "2026-11-05T19:57:23.810571+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://whittonworks.com/",
+      "bytes": 85350,
+      "sha256": "f9189ec22b7d4a4d6ce12093da80cb57c5b6133beac7e1fdb3e8027b7ba67876",
+      "title": "Whitton Works | Pool Cleaning &amp; Repair in Crestview, FL"
     }
   ]
 }
