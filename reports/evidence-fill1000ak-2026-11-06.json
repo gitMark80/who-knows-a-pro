@@ -1,0 +1,116 @@
+{
+  "run": "fill1000ak",
+  "baselineCommit": "4547b35804e9b275d45ed1a334e1a69578a6d859",
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Rusty's Pest Control",
+      "website": "https://www.rustyspest.com/",
+      "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site identifies Rusty Johnston's operating pest-control company and invites residents and business owners to call the company directly for professional pest service.",
+      "customerScope": "residential",
+      "customerEvidence": "The official site describes pests invading homes, says the company protects household well-being and property, and directly addresses Destin residents about keeping pests away from their homes.",
+      "customerSourceUrl": "https://www.rustyspest.com/",
+      "geographicEvidence": "The official site expressly says the company's reputation and service extend from Fort Walton Beach to Destin and Crestview and displays its Fort Walton Beach office address and city telephone lines.",
+      "geographicSourceUrl": "https://www.rustyspest.com/",
+      "identityEvidence": "The official site identifies Rusty's Pest Control, Rusty Johnston, 105 Beach Drive Unit A-1 in Fort Walton Beach and telephone 850-864-2847; Florida Division of Corporations lists the active corporation at the same address.",
+      "officialWebsiteFinalUrl": "https://www.rustyspest.com/",
+      "evidenceNote": "Active Fort Walton Beach family business whose official site offers direct household pest control and explicitly names Fort Walton Beach, Destin and Crestview as its Northwest Florida service communities.",
+      "sourceUrl": "https://www.rustyspest.com/",
+      "sourceVerifiedAt": "2026-11-06T03:56:00.000Z",
+      "supportingUrls": [
+        "https://www.rustyspest.com/",
+        "https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=domp-p00000054097-ca4f5fa6-69ec-4df9-89d1-266ff5ba4bcc&directionType=ForwardList&inquirytype=EntityName&listNameOrder=RUSTYSONS+P050000341150&searchNameOrder=RUSTYSPESTCONTROL+P000000540970&searchTerm=RUSTY%27S+APPLIANCE+INC."
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and rustyspest.com were absent from all 14,254 run-start baseline placements."
+    },
+    {
+      "name": "Beebe's Pest & Termite Control",
+      "website": "https://www.beebespest.com/",
+      "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official Florida and city pages describe Beebe's own professional exterminators performing inspections, pest removal, termite treatment, rodent control and recurring prevention service.",
+      "customerScope": "residential",
+      "customerEvidence": "The official Florida page and each city page explicitly offer residential pest control that protects homes and families, including inspections, tailored treatment plans and re-treatment guarantees.",
+      "customerSourceUrl": "https://www.beebespest.com/locations/pest-control-florida",
+      "geographicEvidence": "The official Florida service page names Crestview, Destin and Fort Walton Beach, and dedicated official pages provide residential service details for each of those cities.",
+      "geographicSourceUrl": "https://www.beebespest.com/locations/pest-control-florida",
+      "identityEvidence": "The official branded site identifies Beebe's Pest & Termite Control as a family-owned Gulf Coast provider and displays its Florida office and direct telephone numbers.",
+      "officialWebsiteFinalUrl": "https://www.beebespest.com/",
+      "evidenceNote": "Existing regional family-owned provider whose official Florida and city pages offer residential pest control and explicitly name Crestview, Destin and Fort Walton Beach; only those underfilled pages are added.",
+      "sourceUrl": "https://www.beebespest.com/locations/pest-control-florida",
+      "sourceVerifiedAt": "2026-11-06T03:56:00.000Z",
+      "supportingUrls": [
+        "https://www.beebespest.com/locations/pest-control-florida",
+        "https://www.beebespest.com/locations/pest-control-crestview-fl",
+        "https://www.beebespest.com/locations/pest-control-destin-fl",
+        "https://www.beebespest.com/locations/pest-control-fort-walton-beach-fl"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "The identity and domain already occur on Alabama pest-control pages; these three Florida city placements are absent and do not count as a new business."
+    },
+    {
+      "name": "EnSec Pest & Lawn",
+      "website": "https://www.ensec.net/",
+      "regions": ["crestview-fl", "panama-city-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site identifies trained in-house pest professionals and describes the company's own inspections, treatments, prevention plans and recurring residential pest service.",
+      "customerScope": "residential",
+      "customerEvidence": "The official Panama City page directly offers home pest control to Panama City homeowners, while the official company site states that EnSec provides residential services to Florida Panhandle homes.",
+      "customerSourceUrl": "https://www.ensec.net/panama-city-fl-pest-control/",
+      "geographicEvidence": "The official service-area page explicitly lists both Crestview and Panama City, and a dedicated official Panama City page describes residential service in that city.",
+      "geographicSourceUrl": "https://www.ensec.net/where-we-service/",
+      "identityEvidence": "The official branded site identifies EnSec Pest & Lawn as a family-owned regional company founded in 1997 and lists its Florida Panhandle offices and direct services.",
+      "officialWebsiteFinalUrl": "https://www.ensec.net/",
+      "evidenceNote": "Existing family-owned regional provider whose official service-area page names Crestview and Panama City and whose Panama City page explicitly offers home pest control to local homeowners.",
+      "sourceUrl": "https://www.ensec.net/where-we-service/",
+      "sourceVerifiedAt": "2026-11-06T03:56:00.000Z",
+      "supportingUrls": [
+        "https://www.ensec.net/",
+        "https://www.ensec.net/where-we-service/",
+        "https://www.ensec.net/panama-city-fl-pest-control/"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "The baseline contains EnSec on Destin, Fort Walton Beach and Panama City Beach pest-control pages; the Crestview and Panama City placements are absent and do not count as a new business."
+    },
+    {
+      "name": "Advanced Lawn Control & Pest Services",
+      "website": "https://www.advancedlawncontrol.net/",
+      "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl", "panama-city-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official service pages say Advanced Lawn Control's professionals directly perform household and indoor pest control, insect control and rodent control rather than referring customers elsewhere.",
+      "customerScope": "residential",
+      "customerEvidence": "The official indoor-pest page explicitly offers safe household pest control for residents and families, while the general service page lists commercial, residential and industrial properties separately.",
+      "customerSourceUrl": "https://www.advancedlawncontrol.net/indoor-pest-control",
+      "geographicEvidence": "The official site names Okaloosa and Bay counties, gives its Fort Walton Beach office and Panama City telephone; official county municipality pages show Crestview, Destin and Fort Walton Beach in Okaloosa County and Panama City in Bay County.",
+      "geographicSourceUrl": "https://www.advancedlawncontrol.net/indoor-pest-control",
+      "identityEvidence": "The official site identifies Advanced Lawn Control & Pest Services as locally owned and operated, gives its 3 Jackson Street Fort Walton Beach office and direct local telephone numbers.",
+      "officialWebsiteFinalUrl": "https://www.advancedlawncontrol.net/",
+      "evidenceNote": "Existing locally owned Fort Walton Beach company whose official site offers household pest control to residential customers in Okaloosa and Bay counties; official county municipality sources connect the four assigned cities to those named counties.",
+      "sourceUrl": "https://www.advancedlawncontrol.net/indoor-pest-control",
+      "sourceVerifiedAt": "2026-11-06T03:56:00.000Z",
+      "supportingUrls": [
+        "https://www.advancedlawncontrol.net/",
+        "https://www.advancedlawncontrol.net/services",
+        "https://www.advancedlawncontrol.net/indoor-pest-control",
+        "https://www.myokaloosa.com/index.php/towns-municipalities",
+        "https://www.baycountyfl.gov/498/Bay-County-Municipality-Contacts"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "The baseline contains this domain on Fort Walton Beach and Panama City landscaping pages; these four pest-control placements are absent and do not count as a new business."
+    }
+  ],
+  "pending": [
+    {
+      "name": "Armor Pest Control",
+      "reason": "The current official site supports Jacksonville residential service but does not establish the older Fort Walton Beach or Panama City operations shown by directory sources, so no local placement was added."
+    }
+  ]
+}

@@ -5,9 +5,10 @@ import * as catalog from '../data/catalog.ts';
 import { isExcludedWebsite } from '../data/excluded-businesses.ts';
 import { normalizeDomain, validateQualifyingCandidate } from './qualification-policy.mjs';
 
-const baseline = JSON.parse(fs.readFileSync(process.env.FILL_BASELINE_SEED ?? '/tmp/fill1000aj-baseline.json'));
-const ledger = JSON.parse(fs.readFileSync('reports/evidence-fill1000aj-2026-11-06.json'));
-const source = JSON.parse(fs.readFileSync('data/verified-coverage-2026-11-06-fill1000aj.json'));
+const run = process.env.FILL_RUN ?? 'fill1000aj';
+const baseline = JSON.parse(fs.readFileSync(process.env.FILL_BASELINE_SEED ?? `/tmp/${run}-baseline.json`));
+const ledger = JSON.parse(fs.readFileSync(`reports/evidence-${run}-2026-11-06.json`));
+const source = JSON.parse(fs.readFileSync(`data/verified-coverage-2026-11-06-${run}.json`));
 const ids = new Map(directorySeed.map((row) => [row.id, row]));
 for (const row of baseline) assert.deepEqual(ids.get(row.id), row, `Baseline changed ${row.id}`);
 
@@ -32,9 +33,13 @@ for (const row of source) {
   assert(!isExcludedWebsite(row.website), `Excluded website ${row.website}`);
   const domain = normalizeDomain(row.website);
   const name = row.name.toLowerCase().replace(/[^a-z0-9]/g, '');
-  assert.equal(evidence.baselineIdentity, 'new', `Only new identities expected: ${row.name}`);
-  assert(!baselineDomains.has(domain), `Existing domain marked new: ${row.name}`);
-  assert(!baselineNames.has(name), `Existing name marked new: ${row.name}`);
+  if (evidence.baselineIdentity === 'new') {
+    assert(!baselineDomains.has(domain), `Existing domain marked new: ${row.name}`);
+    assert(!baselineNames.has(name), `Existing name marked new: ${row.name}`);
+  } else {
+    assert.equal(evidence.baselineIdentity, 'existing', `Unknown baseline identity: ${row.name}`);
+    assert(baselineDomains.has(domain) || baselineNames.has(name), `Existing identity missing from baseline: ${row.name}`);
+  }
   for (const region of row.regions) for (const trade of row.trades) {
     const page = `${region}|${trade}`;
     if (!counts.has(page)) counts.set(page, new Set());
@@ -49,8 +54,10 @@ for (const row of source) {
 
 assert.deepEqual(new Set(additions.map(placementKey)), expected);
 assert.equal(additions.length, expected.size);
-const newBusinesses = new Set(additions.map((row) => normalizeDomain(row.website))).size;
-assert.equal(newBusinesses, ledger.records.length);
+const newBusinessAdditions = additions.filter((row) => !baselineDomains.has(normalizeDomain(row.website)));
+const existingBusinessAdditions = additions.filter((row) => baselineDomains.has(normalizeDomain(row.website)));
+const newBusinesses = new Set(newBusinessAdditions.map((row) => normalizeDomain(row.website))).size;
+assert.equal(newBusinesses, ledger.records.filter((row) => row.baselineIdentity === 'new').length);
 
 const publicPages = [];
 for (const region of catalog.activeRegions) for (const trade of catalog.visibleTrades) {
@@ -65,7 +72,7 @@ const coverage = {
   displayedDeficit: publicPages.reduce((sum, page) => sum + page.deficit, 0),
 };
 const csv = ['region,trade,distinctBusinesses,deficit', ...publicPages.map((page) => `${page.region},${page.trade},${page.distinctBusinesses},${page.deficit}`)].join('\n') + '\n';
-fs.writeFileSync('reports/coverage-fill1000aj-2026-11-06.csv', csv);
+fs.writeFileSync(`reports/coverage-${run}-2026-11-06.csv`, csv);
 
 const report = {
   checkedAt: new Date().toISOString(),
@@ -73,13 +80,13 @@ const report = {
   baselineCommit: ledger.baselineCommit,
   baselinePreserved: baseline.length,
   distinctNewBusinessesPrepared: newBusinesses,
-  newBusinessPlacementsPrepared: additions.length,
-  existingBusinessPlacementsPrepared: 0,
+  newBusinessPlacementsPrepared: newBusinessAdditions.length,
+  existingBusinessPlacementsPrepared: existingBusinessAdditions.length,
   placementsPrepared: additions.length,
   targetDistinctNewBusinesses: 1000,
   shortfallPendingLiveVerification: 1000 - newBusinesses,
   coverage,
   additions,
 };
-fs.writeFileSync('reports/validation-fill1000aj-2026-11-06.json', JSON.stringify(report, null, 2) + '\n');
+fs.writeFileSync(`reports/validation-${run}-2026-11-06.json`, JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify({ ...report, additions: additions.length }));

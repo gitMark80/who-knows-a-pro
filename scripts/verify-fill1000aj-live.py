@@ -1,10 +1,11 @@
 """Verify every fill1000aj card, contextual profile and official destination."""
-import concurrent.futures, html, json, re, urllib.parse, urllib.request, sys
+import concurrent.futures, html, json, os, re, urllib.parse, urllib.request, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-rows = json.loads((root / 'reports/validation-fill1000aj-2026-11-06.json').read_text())['additions']
+run = os.environ.get('FILL_RUN', 'fill1000aj')
+rows = json.loads((root / f'reports/validation-{run}-2026-11-06.json').read_text())['additions']
 base = 'https://whoknowsapro.com'
 
 def host(url):
@@ -56,6 +57,6 @@ report = {
     'passed': sum(item['passed'] for item in results),
     'allPassed': len(results) == len(rows) and all(item['passed'] for item in results),
 }
-(root / 'reports/live-fill1000aj-2026-11-06.json').write_text(json.dumps(report, indent=2) + '\n')
+(root / f'reports/live-{run}-2026-11-06.json').write_text(json.dumps(report, indent=2) + '\n')
 print(json.dumps({key: value for key, value in report.items() if key != 'placements'}))
 print(json.dumps([item for item in results if not item['passed']]))
