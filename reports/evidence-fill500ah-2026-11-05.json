@@ -1,0 +1,457 @@
+{
+  "run": "fill500ah",
+  "continuesRun": "fill500ag",
+  "baselineCommit": "a90891227bf250ba63830425596298bcd679001a",
+  "targetDistinctNewBusinesses": 500,
+  "priorQualifiedNewBusinesses": 103,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "TNT Pest Control Inc.",
+      "website": "https://www.tntpestcontrolinc.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.tntpestcontrolinc.com/",
+      "sourceVerifiedAt": "2026-11-05T23:23:59.965072+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The locally owned company describes its own specialist team performing general pest control, termite inspections, treatment and ongoing protection.",
+      "customerScope": "residential",
+      "customerEvidence": "Official service descriptions explicitly include residential properties and eliminating common household pests to protect customers homes.",
+      "customerSourceUrl": "https://www.tntpestcontrolinc.com/",
+      "geographicEvidence": "The company explicitly names Milton and Pace in its service area, and gives its office at 6932 Trailride N., Milton, Florida 32570.",
+      "geographicSourceUrl": "https://www.tntpestcontrolinc.com/",
+      "identityEvidence": "Official site repeatedly identifies TNT Pest Control Inc., provides its Milton address, phone 850-637-3333 and same-domain contact email.",
+      "officialWebsiteFinalUrl": "https://www.tntpestcontrolinc.com/",
+      "evidenceNote": "The locally owned company describes its own specialist team performing general pest control, termite inspections, treatment and ongoing protection. Official service descriptions explicitly include residential properties and eliminating common household pests to protect customers homes. The company explicitly names Milton and Pace in its service area, and gives its office at 6932 Trailride N., Milton, Florida 32570.",
+      "supportingUrls": [
+        "https://www.tntpestcontrolinc.com/"
+      ],
+      "normalizedIdentity": "tntpestcontrolinc",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against all 14,199 placements in fill500ah-baseline.json; zero exact matches. Also reviewed near-name matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "status": "read-success"
+      },
+      "caveats": ""
+    },
+    {
+      "name": "The BugMeisters of Household Termite & Pest Control",
+      "website": "https://www.yourbugguy.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.yourbugguy.com/",
+      "sourceVerifiedAt": "2026-11-05T23:24:00.042691+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company identifies its named staff and owners and says its team performs pest and termite treatments and prevention for customer properties.",
+      "customerScope": "residential",
+      "customerEvidence": "Official homepage explicitly says the team is equipped to service residential homes as well as business properties and protect homes from pests.",
+      "customerSourceUrl": "https://www.yourbugguy.com/",
+      "geographicEvidence": "The official Servicing list explicitly includes Milton, Pace, Navarre and Gulf Breeze, with Santa Rosa phone 850-983-9908.",
+      "geographicSourceUrl": "https://www.yourbugguy.com/",
+      "identityEvidence": "The official homepage explains the Household Termite & Pest Control origin, addition of BugMeisters name, current owners and named service team.",
+      "officialWebsiteFinalUrl": "https://www.yourbugguy.com/",
+      "evidenceNote": "The company identifies its named staff and owners and says its team performs pest and termite treatments and prevention for customer properties. Official homepage explicitly says the team is equipped to service residential homes as well as business properties and protect homes from pests. The official Servicing list explicitly includes Milton, Pace, Navarre and Gulf Breeze, with Santa Rosa phone 850-983-9908.",
+      "supportingUrls": [
+        "https://www.yourbugguy.com/"
+      ],
+      "normalizedIdentity": "thebugmeistersofhouseholdtermitepestcontrol",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against all 14,199 placements in fill500ah-baseline.json; zero exact matches. Also reviewed near-name matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "status": "read-success"
+      },
+      "caveats": "Historical brand Household Termite & Pest Control also checked against baseline; no match. Location quotation lists consecutive items from the official service-area list."
+    },
+    {
+      "name": "Patriot Pest Management",
+      "website": "https://www.patriotpest.net/",
+      "regions": [
+        "milton-fl",
+        "pace-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.patriotpest.net/",
+      "sourceVerifiedAt": "2026-11-05T23:24:00.106778+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Official About page identifies local owners Sarah and Carlos Augusto and an in-house service team performing year-round pest management.",
+      "customerScope": "residential",
+      "customerEvidence": "Official About page explicitly states residential pest management and says its team provides year-round pest control for homes in the region.",
+      "customerSourceUrl": "https://www.patriotpest.net/about",
+      "geographicEvidence": "Official service-area page specifically lists Milton, Pace, Navarre and Gulf Breeze; the company address is 3701 Hwy 90, Pace, FL 32571.",
+      "geographicSourceUrl": "https://www.patriotpest.net/where-we-service",
+      "identityEvidence": "The official site identifies Patriot Pest Management, Sarah and Carlos Augusto as owners, local Pace address and phone 850-994-3990.",
+      "officialWebsiteFinalUrl": "https://www.patriotpest.net/",
+      "evidenceNote": "Official About page identifies local owners Sarah and Carlos Augusto and an in-house service team performing year-round pest management. Official About page explicitly states residential pest management and says its team provides year-round pest control for homes in the region. Official service-area page specifically lists Milton, Pace, Navarre and Gulf Breeze; the company address is 3701 Hwy 90, Pace, FL 32571.",
+      "supportingUrls": [
+        "https://www.patriotpest.net/",
+        "https://www.patriotpest.net/about",
+        "https://www.patriotpest.net/where-we-service"
+      ],
+      "normalizedIdentity": "patriotpestmanagement",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against all 14,199 placements in fill500ah-baseline.json; zero exact matches. Also reviewed near-name matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "status": "read-success"
+      },
+      "caveats": ""
+    },
+    {
+      "name": "Kimberly's Pools",
+      "website": "https://kimberlyspools.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://kimberlyspools.com/",
+      "sourceVerifiedAt": "2026-11-05T23:24:00.175213+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company describes its own weekly water testing, chemical balancing, skimming, equipment checks, liner cleanouts and pool repair services.",
+      "customerScope": "residential",
+      "customerEvidence": "Official pool-cleaning page labels before-and-after projects as residential and backyard pools, and offers both in-ground and above-ground pool cleaning.",
+      "customerSourceUrl": "https://kimberlyspools.com/pool-cleaning",
+      "geographicEvidence": "Official contact page explicitly says it serves Pensacola, Pace, Milton, Ensley and Cantonment with pool care and provides a Pensacola address.",
+      "geographicSourceUrl": "https://kimberlyspools.com/get-in-touch",
+      "identityEvidence": "The official website consistently uses Kimberly\u2019s Pools branding and provides phone 850-490-6585, a Pensacola Florida location and service-specific pages.",
+      "officialWebsiteFinalUrl": "https://kimberlyspools.com/",
+      "evidenceNote": "The company describes its own weekly water testing, chemical balancing, skimming, equipment checks, liner cleanouts and pool repair services. Official pool-cleaning page labels before-and-after projects as residential and backyard pools, and offers both in-ground and above-ground pool cleaning. Official contact page explicitly says it serves Pensacola, Pace, Milton, Ensley and Cantonment with pool care and provides a Pensacola address.",
+      "supportingUrls": [
+        "https://kimberlyspools.com/",
+        "https://kimberlyspools.com/pool-cleaning",
+        "https://kimberlyspools.com/get-in-touch"
+      ],
+      "normalizedIdentity": "kimberlyspools",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against all 14,199 placements in fill500ah-baseline.json; zero exact matches. Also reviewed near-name matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "status": "read-success"
+      },
+      "caveats": "Pool cleaning covers in-ground and above-ground pools; repair and liner specialties focus on above-ground pools. No pool-installation placement."
+    },
+    {
+      "name": "Door Responders",
+      "website": "https://doorresponders.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "garage-door-repair"
+      ],
+      "sourceUrl": "https://doorresponders.com/",
+      "sourceVerifiedAt": "2026-11-05T23:24:00.240015+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "Official service page says Door Responders repairs doors and openers and replaces springs, cables, rollers, hinges, panels and tracks itself.",
+      "customerScope": "residential",
+      "customerEvidence": "Official homepage lists residential springs and residential openers; About page says Door Responders comes to customers homes and completes the work order.",
+      "customerSourceUrl": "https://doorresponders.com/about-us",
+      "geographicEvidence": "Official contact Areas Served explicitly names Milton, Pace and Gulf Breeze, plus Pensacola and Gulf Shores; no broader areas inferred.",
+      "geographicSourceUrl": "https://doorresponders.com/contact-us",
+      "identityEvidence": "Official site carries the Door Responders identity, phone 850-816-8814 and askapro@doorresponders.com; its About page describes its own repair professional.",
+      "officialWebsiteFinalUrl": "https://doorresponders.com/",
+      "evidenceNote": "Official service page says Door Responders repairs doors and openers and replaces springs, cables, rollers, hinges, panels and tracks itself. Official homepage lists residential springs and residential openers; About page says Door Responders comes to customers homes and completes the work order. Official contact Areas Served explicitly names Milton, Pace and Gulf Breeze, plus Pensacola and Gulf Shores; no broader areas inferred.",
+      "supportingUrls": [
+        "https://doorresponders.com/",
+        "https://doorresponders.com/about-us",
+        "https://doorresponders.com/contact-us"
+      ],
+      "normalizedIdentity": "doorresponders",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against all 14,199 placements in fill500ah-baseline.json; zero exact matches. Also reviewed near-name matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "status": "read-success"
+      },
+      "caveats": ""
+    },
+    {
+      "name": "Complete Pool Care & Pool Inspections LLC",
+      "website": "https://completepoolcareandpoolinspections.com/",
+      "regions": [
+        "milton-fl",
+        "pace-fl",
+        "navarre-fl",
+        "gulf-breeze-fl"
+      ],
+      "trades": [
+        "pool-service"
+      ],
+      "sourceUrl": "https://completepoolcareandpoolinspections.com/",
+      "sourceVerifiedAt": "2026-11-05T23:24:00.344320+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site identifies owner Jason Webb and its own certified pool technicians providing recurring cleaning, equipment maintenance and repairs.",
+      "customerScope": "residential",
+      "customerEvidence": "Official homepage offers service to residents and says the service comes to their backyard; the cleaning page frames maintenance around family swimming pools.",
+      "customerSourceUrl": "https://completepoolcareandpoolinspections.com/index.php/50-off-pool-cleaning/",
+      "geographicEvidence": "Official homepage lists Pace 32571, Milton 32570/32572/32583, Gulf Breeze 32561/32563 and Navarre 32566 as towns served for pool service and repairs.",
+      "geographicSourceUrl": "https://completepoolcareandpoolinspections.com/",
+      "identityEvidence": "Official homepage names Complete Pool Care & Pool Inspections LLC, owner Jason Webb, 850-691-6764 and completepoolcareandinspections@gmail.com.",
+      "officialWebsiteFinalUrl": "https://completepoolcareandpoolinspections.com/",
+      "evidenceNote": "The official site identifies owner Jason Webb and its own certified pool technicians providing recurring cleaning, equipment maintenance and repairs. Official homepage offers service to residents and says the service comes to their backyard; the cleaning page frames maintenance around family swimming pools. Official homepage lists Pace 32571, Milton 32570/32572/32583, Gulf Breeze 32561/32563 and Navarre 32566 as towns served for pool service and repairs.",
+      "supportingUrls": [
+        "https://completepoolcareandpoolinspections.com/",
+        "https://completepoolcareandpoolinspections.com/index.php/50-off-pool-cleaning/",
+        "https://completepoolcareandpoolinspections.com/"
+      ],
+      "normalizedIdentity": "completepoolcarepoolinspectionsllc",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Checked normalized name and website domain against all 14,199 placements in fill500ah-baseline.json; zero exact matches. Also reviewed near-name matches.",
+      "expandedBaselineDuplicateMatches": 0,
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open/click",
+        "date": "2026-11-05",
+        "status": "read-success"
+      },
+      "caveats": "Distinct from existing Complete Pool Care / ourpoolsource.com: that official site has Alabama/Mississippi service area, Mobile address, phone 251-649-7199; this Florida provider names Jason Webb and different phone/domain. Some template links/images point to poolrepairsblairstownnj.com; all placement evidence is from the identified official Florida domain. Location quotation combines consecutive official list items."
+    },
+    {
+      "name": "The Appliance Spot",
+      "website": "https://www.appliancespot.com/services",
+      "regions": [
+        "destin-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "sourceUrl": "https://www.appliancespot.com/services",
+      "sourceVerifiedAt": "2026-11-05T23:23:58.318811+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The repair section describes the company\u2019s own factory-trained service technicians diagnosing and repairing the appliances it sells.",
+      "customerScope": "residential",
+      "customerEvidence": "The services introduction offers repairs of common household kitchen and laundry equipment for homeowners and vacation-rental owners.",
+      "customerSourceUrl": "https://www.appliancespot.com/services",
+      "geographicEvidence": "The official services introduction and FAQ explicitly name Destin and Panama City Beach among its supported cities, alongside Santa Rosa Beach, Freeport and Miramar Beach.",
+      "geographicSourceUrl": "https://www.appliancespot.com/services",
+      "identityEvidence": "The branded services page identifies The Appliance Spot, phone 850-598-6558 and store at 141 John Galt Road, Santa Rosa Beach, FL 32459.",
+      "officialWebsiteFinalUrl": "https://www.appliancespot.com/services",
+      "evidenceNote": "Local Santa Rosa Beach appliance retailer also operates its own repair team for household appliances, with explicit Destin and Panama City Beach coverage.",
+      "supportingUrls": [
+        "https://www.appliancespot.com/services"
+      ],
+      "reviewCaveat": "Retailer with its own repair team; repair of previously owned appliances requires discussing the issue. Service email also uses the Coastal Appliance Outlet name; both names were checked against baseline.",
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open",
+        "date": "2026-11-05",
+        "status": "read-success",
+        "keySections": [
+          "Own service team",
+          "Residential scope",
+          "Explicit city service area",
+          "Company identity"
+        ]
+      },
+      "normalizedIdentity": "theappliancespot",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and website domain checked against all 14,199 fill500ah baseline placements; zero matches.",
+      "expandedBaselineDuplicateMatches": 0
+    },
+    {
+      "name": "Elite Landscaping Professionals LLC",
+      "website": "https://elitelandscapeprofessionalsllc.com/",
+      "regions": [
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "landscaping",
+        "irrigation-sprinkler-repair"
+      ],
+      "sourceUrl": "https://elitelandscapeprofessionalsllc.com/",
+      "sourceVerifiedAt": "2026-11-05T23:23:58.318830+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company describes its experienced landscaping team, and its irrigation page says its family-owned team designs, installs and repairs sprinkler systems.",
+      "customerScope": "residential",
+      "customerEvidence": "The homepage explicitly offers lawn care, mowing, maintenance and landscaping for residential customers as well as business clients.",
+      "customerSourceUrl": "https://elitelandscapeprofessionalsllc.com/",
+      "geographicEvidence": "The homepage identifies Panama City Beach as a served city. The irrigation page separately names Panama City Beach and Bay County for installation and repairs.",
+      "geographicSourceUrl": "https://elitelandscapeprofessionalsllc.com/irrigation",
+      "identityEvidence": "The official homepage names Elite Landscaping Professionals LLC, calls the business family-owned since 2020, and lists phone 850-704-0412.",
+      "officialWebsiteFinalUrl": "https://elitelandscapeprofessionalsllc.com/",
+      "evidenceNote": "Family-owned local company directly performing residential landscaping and sprinkler repairs, with the homepage and irrigation page both explicitly supporting Panama City Beach.",
+      "supportingUrls": [
+        "https://elitelandscapeprofessionalsllc.com/",
+        "https://elitelandscapeprofessionalsllc.com/irrigation"
+      ],
+      "reviewCaveat": "Licensing, insurance, training and experience claims are self-reported; no independent credential verification was performed.",
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open",
+        "date": "2026-11-05",
+        "status": "read-success",
+        "keySections": [
+          "Own service team",
+          "Residential scope",
+          "Explicit city service area",
+          "Company identity"
+        ]
+      },
+      "normalizedIdentity": "elitelandscapingprofessionalsllc",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and website domain checked against all 14,199 fill500ah baseline placements; zero matches.",
+      "expandedBaselineDuplicateMatches": 0
+    },
+    {
+      "name": "EnSec Pest & Lawn",
+      "website": "https://www.ensec.net/about-us/",
+      "regions": [
+        "destin-fl",
+        "fort-walton-beach-fl",
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "pest-control"
+      ],
+      "sourceUrl": "https://www.ensec.net/about-us/",
+      "sourceVerifiedAt": "2026-11-05T23:23:58.318835+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The company describes its own trained pest-control technicians carrying treatment products and performing interior and exterior home treatments.",
+      "customerScope": "residential",
+      "customerEvidence": "The about page expressly offers residential pest-control solutions, and the Destin service page separately offers pest management for residential properties.",
+      "customerSourceUrl": "https://www.ensec.net/about-us/",
+      "geographicEvidence": "The official service-area list explicitly includes Destin, Fort Walton Beach and Panama City Beach; the footer identifies a Panama City Beach office at 7513-B Holley Circle.",
+      "geographicSourceUrl": "https://www.ensec.net/where-we-service/",
+      "identityEvidence": "The about page identifies EnSec Pest & Lawn as a family-owned Florida/Alabama company founded in 1997, with Florida phone 850-821-2215 and four regional offices.",
+      "officialWebsiteFinalUrl": "https://www.ensec.net/about-us/",
+      "evidenceNote": "Family-owned regional Gulf Coast pest-control operator with its own service team, residential treatments and an explicit official service list supporting all three proposed cities.",
+      "supportingUrls": [
+        "https://www.ensec.net/about-us/",
+        "https://www.ensec.net/destin-fl-pest-control/",
+        "https://www.ensec.net/where-we-service/"
+      ],
+      "reviewCaveat": "Licensing, insurance, training and experience claims are self-reported; no independent credential verification was performed.",
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open",
+        "date": "2026-11-05",
+        "status": "read-success",
+        "keySections": [
+          "Own service team",
+          "Residential scope",
+          "Explicit city service area",
+          "Company identity"
+        ]
+      },
+      "normalizedIdentity": "ensecpestlawn",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and website domain checked against all 14,199 fill500ah baseline placements; zero matches.",
+      "expandedBaselineDuplicateMatches": 0
+    },
+    {
+      "name": "Baileyz Fencing",
+      "website": "https://baileyzfencing.com/panama-city-fence-company",
+      "regions": [
+        "panama-city-beach-fl"
+      ],
+      "trades": [
+        "fence-builders"
+      ],
+      "sourceUrl": "https://baileyzfencing.com/panama-city-fence-company",
+      "sourceVerifiedAt": "2026-11-05T23:23:58.318857+00:00",
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official page identifies Chris Bailey as its fence builder and describes its own installation and repair work on wood, vinyl, chain-link and aluminum fences.",
+      "customerScope": "residential",
+      "customerEvidence": "The official service page expressly describes custom fencing for homeowners and fence installations for residential properties, including privacy fencing and gates.",
+      "customerSourceUrl": "https://baileyzfencing.com/panama-city-fence-company",
+      "geographicEvidence": "The official Areas we serve list explicitly includes Panama City Beach, along with Panama City, Lynn Haven, Freeport and other nearby communities.",
+      "geographicSourceUrl": "https://baileyzfencing.com/panama-city-fence-company",
+      "identityEvidence": "The company page identifies Baileyz Fencing and local fence builder Chris Bailey, phone 850-760-3923 and contact email chris@baileyzfencing.com.",
+      "officialWebsiteFinalUrl": "https://baileyzfencing.com/panama-city-fence-company",
+      "evidenceNote": "Locally owned fence installer led by Chris Bailey performs residential fence installations and repairs, and its official service area explicitly includes Panama City Beach.",
+      "supportingUrls": [
+        "https://baileyzfencing.com/panama-city-fence-company"
+      ],
+      "reviewCaveat": "Licensing, insurance, training and experience claims are self-reported; no independent credential verification was performed.",
+      "sourceReadEvidence": {
+        "method": "Official webpage text successfully retrieved with web open",
+        "date": "2026-11-05",
+        "status": "read-success",
+        "keySections": [
+          "Own service team",
+          "Residential scope",
+          "Explicit city service area",
+          "Company identity"
+        ]
+      },
+      "normalizedIdentity": "baileyzfencing",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and website domain checked against all 14,199 fill500ah baseline placements; zero matches.",
+      "expandedBaselineDuplicateMatches": 0
+    },
+    {
+      "name": "Seaside Appliance World",
+      "website": "https://seasideapplianceworld.com/",
+      "regions": [
+        "panama-city-fl"
+      ],
+      "trades": [
+        "appliance-repair"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official appointment page offers appliance repair drop-off with diagnosis at its own showroom; its warranty policy says it sends technicians to repair appliances.",
+      "customerScope": "residential",
+      "customerEvidence": "The showroom appointment page helps customers find appliances for their homes and offers repair drop-off; the store handles household refrigerators, washers and ranges.",
+      "customerSourceUrl": "https://seasideapplianceworld.com/book-appointment/",
+      "geographicEvidence": "The official repair appointment page directs customers to 1833 N East Ave Unit A, Panama City, Florida, matching the warehouse location on its homepage.",
+      "geographicSourceUrl": "https://seasideapplianceworld.com/book-appointment/",
+      "identityEvidence": "The official branded site identifies Seaside Appliance World, its Panama City warehouse, telephone 850-407-2140 and locally available appliance services.",
+      "officialWebsiteFinalUrl": "https://seasideapplianceworld.com/",
+      "evidenceNote": "Panama City household-appliance business with its own showroom repair drop-off and diagnostic service. Official appointment page confirms the local drop-off address; warranty policy independently describes technician repairs. No general in-home repair coverage is claimed.",
+      "sourceUrl": "https://seasideapplianceworld.com/book-appointment/",
+      "sourceVerifiedAt": "2026-11-05T23:22:37.654829+00:00",
+      "supportingUrls": [
+        "https://seasideapplianceworld.com/",
+        "https://seasideapplianceworld.com/book-appointment/",
+        "https://seasideapplianceworld.com/warranty-and-return-policy/"
+      ],
+      "baselineIdentity": "new",
+      "summary": "Household appliance repair drop-off and diagnosis at its Panama City showroom.",
+      "sourceRecheck": "All three official pages returned HTTP 200 with current repair and identity content on 2026-11-05; prior timeout resolved. Embedded Google ratings/reviews were not used."
+    }
+  ],
+  "excludedNotes": [
+    {
+      "name": "A To Z Appliance Repair",
+      "reason": "Normalized-name duplicate already present, despite updated domain."
+    },
+    {
+      "name": "Avalon Glass Inc.",
+      "reason": "Direct residential glass evidence strong but hurricane/impact-window category fit not sufficiently specific."
+    },
+    {
+      "name": "Coastal Lawn Sprinkler",
+      "reason": "Official open returned zero readable lines; search text alone not enough for completed qualification."
+    }
+  ],
+  "concurrentRunPreserved": "Separate fill1000ag records are in baseline and not included in this run counter."
+}
