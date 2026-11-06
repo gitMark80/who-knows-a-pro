@@ -2,7 +2,9 @@
   "run": "fill1000ak",
   "baselineCommit": "4547b35804e9b275d45ed1a334e1a69578a6d859",
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "6e08eb315d21b4b4a3963bf99b621ad120028e34",
+  "deploymentId": "dpl_WRZb2Cqyt2uwtJdhwVfXg8xB7TrT",
   "records": [
     {
       "name": "Rusty's Pest Control",
