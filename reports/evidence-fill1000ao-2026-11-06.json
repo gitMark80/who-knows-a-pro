@@ -1,0 +1,85 @@
+{
+  "run": "fill1000ao",
+  "baselineCommit": "728c7e85bd8979e20fce263f64ce03ed31b7ff30",
+  "baselinePlacements": 14304,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "researched_not_yet_published",
+  "records": [
+    {
+      "name": "New Visions Outdoor Services Inc.",
+      "website": "https://www.newvisionslawnandlandscape.com/",
+      "regions": ["destin-fl", "fort-walton-beach-fl", "crestview-fl", "panama-city-fl", "panama-city-beach-fl"],
+      "trades": ["pool-installation"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site identifies New Visions Outdoor Services Inc. and directly offers custom pool design, construction and complete outdoor-space work.",
+      "customerScope": "residential",
+      "customerEvidence": "The official pool pages describe homeowner backyards, homes, family use and custom pools designed around residential properties.",
+      "customerSourceUrl": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-construction",
+      "geographicEvidence": "The official pool-builder service-area list explicitly names Destin, Fort Walton Beach, Crestview, Panama City and Panama City Beach.",
+      "geographicSourceUrl": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-builder",
+      "identityEvidence": "The branded official site publishes New Visions Outdoor Services Inc., telephone 850-691-9370 and Northwest Florida pool-contractor licensing information.",
+      "officialWebsiteFinalUrl": "https://www.newvisionslawnandlandscape.com/",
+      "evidenceNote": "Regional direct contractor offering custom residential backyard pool design and construction, with every included priority city explicitly listed on its official service-area navigation.",
+      "sourceUrl": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-builder",
+      "sourceVerifiedAt": "2026-11-06T16:53:41.000Z",
+      "supportingUrls": [
+        "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-builder",
+        "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-construction"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name, telephone and newvisionslawnandlandscape.com were absent from all 14,304 fixed-baseline placements."
+    },
+    {
+      "name": "Watermark Pools",
+      "website": "https://www.watermarkpools.co/",
+      "regions": ["destin-fl", "panama-city-beach-fl", "grayton-beach-fl"],
+      "trades": ["pool-installation", "pool-service"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site identifies Watermark and its local owners and directly offers custom pool construction plus renovation, resurfacing and equipment upgrades.",
+      "customerScope": "residential",
+      "customerEvidence": "The services and about pages describe custom backyard destinations and residential custom-home pool work, with direct consultations for property-specific designs.",
+      "customerSourceUrl": "https://www.watermarkpools.co/services",
+      "geographicEvidence": "The official services page explicitly names Destin, Panama City Beach and 30A. Grayton Beach lies on the named 30A corridor; Watermark's office is in Santa Rosa Beach.",
+      "geographicSourceUrl": "https://www.watermarkpools.co/services",
+      "identityEvidence": "The official contact page names CEO Kraig Crossley, COO David Crossley, CFO Vanessa Nissley, the Santa Rosa Beach office, license CPC1459542 and direct telephone numbers.",
+      "officialWebsiteFinalUrl": "https://www.watermarkpools.co/",
+      "evidenceNote": "Locally owned Santa Rosa Beach contractor offering custom residential pool construction and renovation in the included Destin/30A/Panama City Beach markets.",
+      "sourceUrl": "https://www.watermarkpools.co/services",
+      "sourceVerifiedAt": "2026-11-06T16:53:41.000Z",
+      "supportingUrls": [
+        "https://www.watermarkpools.co/",
+        "https://www.watermarkpools.co/services",
+        "https://www.watermarkpools.co/about",
+        "https://www.watermarkpools.co/contact"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name, license, telephone numbers and watermarkpools.co were absent from all 14,304 fixed-baseline placements."
+    },
+    {
+      "name": "Emerald Coast Pools",
+      "website": "https://emeraldcoastpoolcompany.com/",
+      "regions": ["destin-fl", "panama-city-fl", "panama-city-beach-fl", "grayton-beach-fl"],
+      "trades": ["pool-installation", "pool-service"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site directly offers custom pool design/construction and residential pool renovations, resurfacing, repairs and equipment upgrades.",
+      "customerScope": "residential",
+      "customerEvidence": "Official pages repeatedly address homeowners and describe custom backyard pools and homeowner renovation needs.",
+      "customerSourceUrl": "https://emeraldcoastpoolcompany.com/custom-pools/",
+      "geographicEvidence": "The current official custom-pools and renovation pages explicitly name Destin, Panama City, Panama City Beach and Grayton Beach among served homeowner markets.",
+      "geographicSourceUrl": "https://emeraldcoastpoolcompany.com/pool-renovations/",
+      "identityEvidence": "The official site publishes Emerald Coast Pools, Freeport office, telephone 850-880-6657 and Florida license CPC1461258.",
+      "officialWebsiteFinalUrl": "https://emeraldcoastpoolcompany.com/",
+      "evidenceNote": "Existing canonical local business; only newly supported placements on underfilled pages are added, with no new-business credit.",
+      "sourceUrl": "https://emeraldcoastpoolcompany.com/pool-renovations/",
+      "sourceVerifiedAt": "2026-11-06T16:53:41.000Z",
+      "supportingUrls": [
+        "https://emeraldcoastpoolcompany.com/",
+        "https://emeraldcoastpoolcompany.com/custom-pools/",
+        "https://emeraldcoastpoolcompany.com/pool-renovations/"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "Existing emeraldcoastpoolcompany.com identity retained; this checkpoint does not count it as a new business."
+    }
+  ],
+  "pending": []
+}

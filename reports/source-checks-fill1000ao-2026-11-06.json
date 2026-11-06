@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-11-06T16:55:48.000Z",
+  "manualContentEvidence": "reports/evidence-fill1000ao-2026-11-06.json",
+  "verificationMethod": "authorized_web_retrieval",
+  "workspaceDirectHttpCheck": {
+    "status": "blocked",
+    "detail": "The workspace urllib checker stalled at its outbound-network boundary and produced no result; no URL was treated as passed from that attempt."
+  },
+  "urls": [
+    {
+      "url": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-builder",
+      "finalUrl": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-builder",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official New Visions page identifies direct pool construction, homeowner/backyard scope and the five included priority service cities."
+    },
+    {
+      "url": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-construction",
+      "finalUrl": "https://www.newvisionslawnandlandscape.com/services/swimming-pools/pool-construction",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official construction page identifies the company, direct construction process and homeowner property work."
+    },
+    {
+      "url": "https://www.watermarkpools.co/",
+      "finalUrl": "https://www.watermarkpools.co/",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official Watermark site identifies custom pools, renovations, Santa Rosa Beach office, license and local ownership."
+    },
+    {
+      "url": "https://www.watermarkpools.co/services",
+      "finalUrl": "https://www.watermarkpools.co/services",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official services page offers custom pool construction and residential backyard renovation work and lists the included Destin, Panama City Beach and 30A coverage."
+    },
+    {
+      "url": "https://www.watermarkpools.co/about",
+      "finalUrl": "https://www.watermarkpools.co/about",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official about page documents residential origins, current local owners and renovation services."
+    },
+    {
+      "url": "https://www.watermarkpools.co/contact",
+      "finalUrl": "https://www.watermarkpools.co/contact",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official contact page identifies local executives, direct telephone numbers, Santa Rosa Beach office and license CPC1459542."
+    },
+    {
+      "url": "https://emeraldcoastpoolcompany.com/",
+      "finalUrl": "https://emeraldcoastpoolcompany.com/",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official site identifies Emerald Coast Pools, homeowner pool construction and renovation, Freeport office, license and named service areas."
+    },
+    {
+      "url": "https://emeraldcoastpoolcompany.com/custom-pools/",
+      "finalUrl": "https://emeraldcoastpoolcompany.com/custom-pools/",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official custom-pools page explicitly offers homeowner design and construction in Destin and other included markets."
+    },
+    {
+      "url": "https://emeraldcoastpoolcompany.com/pool-renovations/",
+      "finalUrl": "https://emeraldcoastpoolcompany.com/pool-renovations/",
+      "contentType": "text/html",
+      "passed": true,
+      "contentCheck": "Official renovation page offers homeowner resurfacing, structural repairs and equipment upgrades and explicitly names Panama City, Panama City Beach and Grayton Beach."
+    }
+  ],
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  }
+}
