@@ -1,0 +1,70 @@
+{
+  "run": "fill1000aj",
+  "baselineCommit": "fdafbea20ac099b905a897771b75a4460c8f4b14",
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Garage Door Doctor",
+      "website": "https://garagedoordoctorfl.com/",
+      "regions": ["panama-city-fl", "panama-city-beach-fl"],
+      "trades": ["garage-door-repair"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official About page says owner Phillip Trammell's locally operated company services, repairs and replaces garage doors and operators and identifies the company's own shop.",
+      "customerScope": "residential",
+      "customerEvidence": "The official About page says the company works with homeowners, works on all residential garage doors, repairs residential operators and replaces damaged panels or entire doors.",
+      "customerSourceUrl": "https://garagedoordoctorfl.com/about-us.php",
+      "geographicEvidence": "The official About page identifies the current Panama City Beach shop at 17618 Ashley Drive Unit C-103 and says the company serves Bay County; Panama City is a municipality within Bay County.",
+      "geographicSourceUrl": "https://garagedoordoctorfl.com/about-us.php",
+      "identityEvidence": "The official branded About page identifies Garage Door Doctor, owner Phillip Trammell, the Panama City Beach shop and local telephone number 850-242-1555.",
+      "officialWebsiteFinalUrl": "https://garagedoordoctorfl.com/",
+      "evidenceNote": "Locally owned Panama City Beach garage-door company whose official About page identifies its owner and shop, residential repair and replacement work, and service throughout Bay County; that county coverage supports Panama City and the Panama City Beach shop supports its home city.",
+      "sourceUrl": "https://garagedoordoctorfl.com/about-us.php",
+      "sourceVerifiedAt": "2026-11-06T03:42:27.000Z",
+      "supportingUrls": [
+        "https://garagedoordoctorfl.com/",
+        "https://garagedoordoctorfl.com/about-us.php",
+        "https://www.baycountyfl.gov/498/Bay-County-Municipality-Contacts"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and garagedoordoctorfl.com were absent from all 14,250 run-start baseline placements.",
+      "limitations": "Other pages on the official domain contain unrelated template residue. Those pages were excluded; qualification relies only on the internally consistent branded About page and official Bay County municipality source."
+    },
+    {
+      "name": "Local Locksmith PCB",
+      "website": "https://locallocksmithpcb.com/",
+      "regions": ["panama-city-fl", "panama-city-beach-fl"],
+      "trades": ["locksmith"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site says Local Locksmith PCB dispatches its own mobile technicians to perform lockouts, rekeying, lock repair, key service and lock replacement at the customer's property.",
+      "customerScope": "residential",
+      "customerEvidence": "The dedicated official residential page offers home and condominium lockouts, residential rekeying, lock repair, deadbolt replacement and supported keypad and smart-lock service.",
+      "customerSourceUrl": "https://locallocksmithpcb.com/residential/",
+      "geographicEvidence": "The official residential and service-area pages explicitly name both Panama City Beach and Panama City, while the Florida Division of Corporations confirms the active company at 7328 Thomas Drive Suite J in Panama City Beach.",
+      "geographicSourceUrl": "https://locallocksmithpcb.com/areas-we-serve-across-panama-city-beach-the-florida-panhandle/",
+      "identityEvidence": "The official site identifies Local Locksmith PCB, telephone 850-238-2230 and 7328 Thomas Drive Suite J; Florida Division of Corporations lists active LOCAL LOCKSMITH PCB INC at the same address.",
+      "officialWebsiteFinalUrl": "https://locallocksmithpcb.com/",
+      "evidenceNote": "Active local Florida corporation and direct mobile locksmith whose official residential page offers home lockouts, rekeying, repair and replacement and explicitly names Panama City and Panama City Beach in its residential service area.",
+      "sourceUrl": "https://locallocksmithpcb.com/residential/",
+      "sourceVerifiedAt": "2026-11-06T03:42:27.000Z",
+      "supportingUrls": [
+        "https://locallocksmithpcb.com/",
+        "https://locallocksmithpcb.com/residential/",
+        "https://locallocksmithpcb.com/areas-we-serve-across-panama-city-beach-the-florida-panhandle/",
+        "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=domp-p23000069597-2fc04296-3953-499e-b03d-9fb08212a749&directionType=Initial&inquirytype=EntityName&listNameOrder=LOCALLOCKSMITHPCB+P230000695970&searchNameOrder=LOCALLOCKSMITHPCB+P230000695970&searchTerm=local+locksmith+Pcb"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and locallocksmithpcb.com were absent from all 14,250 run-start baseline placements. The active Florida corporation and exact official-site address distinguish it from other generic locksmith identities."
+    }
+  ],
+  "pending": [
+    {
+      "name": "Overhead Door Professional Services",
+      "reason": "Indexed content supports local residential garage-door work, but the official website returned HTTP 404 during final verification, so it remains unpublished."
+    },
+    {
+      "name": "Garage Door Guru LLC",
+      "reason": "Indexed official content supports local residential garage-door work in Fort Walton Beach, but the official website continues to return HTTP 503, so it remains unpublished."
+    }
+  ]
+}
