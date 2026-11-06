@@ -12,7 +12,11 @@ def check(url):
     last = None
     for attempt in range(3):
         try:
-            request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            request = urllib.request.Request(url, headers={
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+            })
             with urllib.request.urlopen(request, timeout=35) as response:
                 return {'url': url, 'status': response.status, 'finalUrl': response.url, 'passed': response.status == 200}
         except Exception as error:
