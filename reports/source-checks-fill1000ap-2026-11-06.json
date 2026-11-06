@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-06T23:02:00.000Z",
+  "method": "authorized official-site retrieval with final-page identity, service and geography review",
+  "directWorkspaceHttp": "not_used_as_pass_evidence",
+  "checks": [
+    {"url":"https://www.cordovalockandsafe.com/residential","status":"passed","supports":["identity","residential locksmith","Pensacola","Escambia County","Santa Rosa County"]},
+    {"url":"https://surelocksmith.com/","status":"passed","supports":["identity","residential locksmith","Pace mobile office"]},
+    {"url":"https://lordsappliancerepair.com/","status":"passed","supports":["identity","direct household-appliance provider","local ownership"]},
+    {"url":"https://lordsappliancerepair.com/about-us/","status":"passed","supports":["homeowners","primarily residential appliances"]},
+    {"url":"https://lordsappliancerepair.com/dish-washer-repair/","status":"passed","supports":["home service","Pensacola","Gulf Breeze","Navarre","Milton","Pace","Perdido Key"]},
+    {"url":"https://www.actionlock850.com/","status":"passed","supports":["existing identity","residential locksmith","Pensacola","Gulf Breeze","Navarre"]},
+    {"url":"https://rdservicepros.com/","status":"passed","supports":["existing identity","home-appliance repair","homeowners","Gulf Breeze","Navarre"]},
+    {"url":"https://allbrandrepairs.com/appliance-repair-services/","status":"passed","supports":["existing identity","household appliance repair","Escambia County","Santa Rosa County"]},
+    {"url":"https://allbrandrepairs.com/contact/","status":"passed","supports":["identity","local ownership","Milton address","Pensacola and Navarre customer evidence"]},
+    {"url":"https://gulfsideappliancerepair.com/gulf-breeze-appliance-repair","status":"passed","supports":["existing identity","home-appliance repair","Gulf Breeze"]},
+    {"url":"https://850appliancecare.com/about-850-appliancecare/","status":"passed","supports":["existing identity","in-home appliance repair","homeowners","Pensacola","Gulf Breeze","Pace","Milton"]},
+    {"url":"https://850appliancecare.com/service-areas-850-appliancecare/","status":"passed","supports":["Pensacola service area","Gulf Breeze","Pace","Milton"]},
+    {"url":"https://jemairgulfbreeze.com/","status":"passed","supports":["existing identity","residential-only appliance repair","Pensacola"]}
+  ],
+  "total": 13,
+  "passed": 13,
+  "failed": 0,
+  "allPassed": true,
+  "withheld": [
+    {"name":"J&K Better Pools","reason":"Residential/homeowner scope not explicit on the official site."},
+    {"name":"Deep Blue Key","reason":"Residential locksmith category not explicit on the official site."},
+    {"name":"Budget Appliance Repair","reason":"Specific city/county service coverage not published on the official site."},
+    {"name":"Oceanside Service Co.","reason":"Renamed-domain identity was already present in the fixed baseline; excluded as a duplicate."}
+  ]
+}
