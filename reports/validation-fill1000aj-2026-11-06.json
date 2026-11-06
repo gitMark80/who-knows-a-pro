@@ -1,6 +1,8 @@
 {
   "checkedAt": "2026-11-06T03:44:53.429Z",
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "605eaf68c0e6661da0d763872093a4afc649694d",
+  "deploymentId": "dpl_85iDyLk8NsgBvWBSwVJAjtEzKZvE",
   "baselineCommit": "fdafbea20ac099b905a897771b75a4460c8f4b14",
   "baselinePreserved": 14250,
   "distinctNewBusinessesPrepared": 2,

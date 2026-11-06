@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-11-06T03:47:42.652450+00:00",
+  "sourceCommit": "605eaf68c0e6661da0d763872093a4afc649694d",
+  "deploymentId": "dpl_85iDyLk8NsgBvWBSwVJAjtEzKZvE",
+  "placements": [
+    {
+      "name": "Garage Door Doctor",
+      "region": "panama-city-beach-fl",
+      "trade": "garage-door-repair",
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/garage-door-repair",
+      "cards": 1,
+      "httpStatus": 200,
+      "officialLinkFound": true,
+      "contextCorrect": true,
+      "profileStatus": 200,
+      "profileOfficialLinkFound": true,
+      "profileUrl": "https://whoknowsapro.com/business/garage-door-doctor?region=panama-city-beach-fl&trade=garage-door-repair",
+      "passed": true
+    },
+    {
+      "name": "Local Locksmith PCB",
+      "region": "panama-city-beach-fl",
+      "trade": "locksmith",
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/locksmith",
+      "cards": 1,
+      "httpStatus": 200,
+      "officialLinkFound": true,
+      "contextCorrect": true,
+      "profileStatus": 200,
+      "profileOfficialLinkFound": true,
+      "profileUrl": "https://whoknowsapro.com/business/local-locksmith-pcb?region=panama-city-beach-fl&trade=locksmith",
+      "passed": true
+    },
+    {
+      "name": "Garage Door Doctor",
+      "region": "panama-city-fl",
+      "trade": "garage-door-repair",
+      "url": "https://whoknowsapro.com/panama-city-fl/garage-door-repair",
+      "cards": 1,
+      "httpStatus": 200,
+      "officialLinkFound": true,
+      "contextCorrect": true,
+      "profileStatus": 200,
+      "profileOfficialLinkFound": true,
+      "profileUrl": "https://whoknowsapro.com/business/garage-door-doctor?region=panama-city-fl&trade=garage-door-repair",
+      "passed": true
+    },
+    {
+      "name": "Local Locksmith PCB",
+      "region": "panama-city-fl",
+      "trade": "locksmith",
+      "url": "https://whoknowsapro.com/panama-city-fl/locksmith",
+      "cards": 1,
+      "httpStatus": 200,
+      "officialLinkFound": true,
+      "contextCorrect": true,
+      "profileStatus": 200,
+      "profileOfficialLinkFound": true,
+      "profileUrl": "https://whoknowsapro.com/business/local-locksmith-pcb?region=panama-city-fl&trade=locksmith",
+      "passed": true
+    }
+  ],
+  "total": 4,
+  "passed": 4,
+  "allPassed": true
+}
