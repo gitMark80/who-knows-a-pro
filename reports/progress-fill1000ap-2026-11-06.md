@@ -1,4 +1,4 @@
-# fill1000ap prepared checkpoint — 2026-11-06
+# fill1000ap published checkpoint — 2026-11-06
 
 ## Baseline and validation
 
@@ -13,13 +13,13 @@
 - ESLint, TypeScript and the production build passed.
 - Official-source review passed **13/13** retrieved official pages.
 
-## Prepared additions
+## Published and live-verified additions
 
 - Distinct new local businesses: **3**
 - Placements from new businesses: **13**
 - Placements from businesses already in the fixed baseline: **15**
 - Total new city/category placements: **28**
-- Shortfall pending publication and live verification against the 1,000-new-business run target: **997**
+- Exact shortfall against the 1,000-new-business run target: **997**
 
 ### New local businesses
 
@@ -48,7 +48,7 @@ No national brand, commercial maintenance network, directory, lead seller or con
 
 No page crosses 20 in this batch. The priority Destin/Fort Walton Beach/Crestview/Panama City searches returned only already-covered identities, unsupported candidates or national brands, so the run continued outward from Pensacola as instructed.
 
-## Coverage after the prepared additions
+## Coverage after the published additions
 
 These are displayed distinct-business counts, not a certification that every historical record has passed the current residential/category/geography standard.
 
@@ -70,9 +70,11 @@ The complete post-batch displayed coverage and every remaining city/category def
 
 ## Publication status
 
-- Data and evidence: prepared locally and validated.
-- GitHub main: awaiting publication.
-- Vercel deployment: awaiting publication.
-- Live directory cards, profiles and outbound official links: awaiting deployment.
+- Data commit on GitHub main: `53c2232eb86394a1761db9175a2d9221ca1f5918`.
+- Production deployment: `dpl_CCaPcqJXrWLTiakQpPiJi13uWhAM` reached READY.
+- Production browser verification: **28 / 28 placements passed** card, profile, city/category-context and intended official-domain checks.
+- Distinct new businesses published and live-verified: **3**.
+- New placements published and live-verified: **28** — **13** from new businesses and **15** from fixed-baseline businesses.
+- The exact remaining run shortfall is **997 distinct new businesses**.
 
-After deployment, record the commit, deployment, public card/profile checks and final exact run shortfall before treating these additions as completed.
+The live-verification ledger is `reports/live-fill1000ap-2026-11-06.json`. The overall directory target is not complete; the fully qualification-audited historical coverage remains unknown.
