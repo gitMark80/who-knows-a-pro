@@ -1,0 +1,86 @@
+{
+  "run": "fill1000an",
+  "baselineCommit": "9d13b0c9e2ff0926a05f6194071a8dcc57bc5b31",
+  "baselinePlacements": 14295,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Wittenburg Handyman Service",
+      "website": "https://www.wittenburghandyman.com/",
+      "regions": ["panama-city-beach-fl"],
+      "trades": ["kitchen-bath-remodeling", "screen-enclosures-pool-cages"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official branded site identifies owner-operator Dulyn Wittenburg and directly offers kitchens, tile, carpentry and screen-room construction among its completed home projects.",
+      "customerScope": "residential",
+      "customerEvidence": "The official site repeatedly addresses homeowners and documents completed residential kitchen, bathroom, sliding-door and screen-room projects.",
+      "customerSourceUrl": "https://www.wittenburghandyman.com/",
+      "geographicEvidence": "The official service-area section explicitly names Panama City Beach, and its project gallery identifies completed residential work in Panama City Beach.",
+      "geographicSourceUrl": "https://www.wittenburghandyman.com/",
+      "identityEvidence": "The official site identifies Dulyn Wittenburg as owner and operator since 2001 and publishes telephone 850-260-4578 and a company email address.",
+      "officialWebsiteFinalUrl": "https://www.wittenburghandyman.com/",
+      "evidenceNote": "Locally owned, owner-operated Bay County contractor whose official site documents residential kitchen, bathroom and screen-room work and explicitly names Panama City Beach.",
+      "sourceUrl": "https://www.wittenburghandyman.com/",
+      "sourceVerifiedAt": "2026-11-06T10:55:36.000Z",
+      "supportingUrls": ["https://www.wittenburghandyman.com/"],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name, telephone and wittenburghandyman.com were absent from all 14,295 run-start baseline placements."
+    },
+    {
+      "name": "NAILED IT! Handyman Services of Panama City",
+      "website": "https://www.naileditpc.com/",
+      "regions": ["panama-city-beach-fl"],
+      "trades": ["landscaping", "fence-builders"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official branded site directly offers landscaping, tree and mulching work plus fence installation and repair as part of its outdoor services.",
+      "customerScope": "residential",
+      "customerEvidence": "The site describes household to-do lists, home repairs and vacation-home services and offers the listed outdoor work directly to residential property owners.",
+      "customerSourceUrl": "https://www.naileditpc.com/",
+      "geographicEvidence": "The official site identifies Panama City as the business location and expressly says its vacation-home and maintenance services cover the Panama City and Panama City Beach area.",
+      "geographicSourceUrl": "https://www.naileditpc.com/",
+      "identityEvidence": "The official site identifies NAILED IT! Handyman Services of Panama City and publishes telephone 850-890-8940 and naileditpc@gmail.com.",
+      "officialWebsiteFinalUrl": "https://www.naileditpc.com/",
+      "evidenceNote": "Local Panama City provider whose official site directly offers homeowner landscaping and fence installation or repair and expressly covers the Panama City Beach area.",
+      "sourceUrl": "https://www.naileditpc.com/",
+      "sourceVerifiedAt": "2026-11-06T10:55:36.000Z",
+      "supportingUrls": ["https://www.naileditpc.com/"],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name, telephone and naileditpc.com were absent from all 14,295 run-start baseline placements."
+    },
+    {
+      "name": "My Bay Services",
+      "website": "https://mybayservices.com/",
+      "regions": ["panama-city-fl", "panama-city-beach-fl"],
+      "trades": ["irrigation-sprinkler-repair", "landscaping", "kitchen-bath-remodeling", "fence-builders"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site identifies My Bay Services and directly offers irrigation repair, landscaping, residential remodeling and fencing through its own service departments.",
+      "customerScope": "residential",
+      "customerEvidence": "The official pages describe broken sprinkler heads, homeowner landscapes, kitchens, bathrooms and family fencing projects and offer those services directly to homes.",
+      "customerSourceUrl": "https://mybayservices.com/outdoor-services",
+      "geographicEvidence": "The official home page says the company provides the listed services throughout Bay County; Panama City and Panama City Beach are both municipalities within Bay County.",
+      "geographicSourceUrl": "https://mybayservices.com/",
+      "identityEvidence": "The official contact page identifies My Bay Services at 11813 Camelia Street in Fountain, Florida and publishes telephone 850-753-5014 and Office@MyBayServices.com.",
+      "officialWebsiteFinalUrl": "https://mybayservices.com/",
+      "evidenceNote": "Fountain-based direct provider whose official site offers residential irrigation repair, landscaping, kitchen and bath remodeling and fencing throughout Bay County, covering both target cities.",
+      "sourceUrl": "https://mybayservices.com/outdoor-services",
+      "sourceVerifiedAt": "2026-11-06T10:55:36.000Z",
+      "supportingUrls": ["https://mybayservices.com/", "https://mybayservices.com/outdoor-services", "https://mybayservices.com/renovation-services", "https://mybayservices.com/contact-us"],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name, telephone and mybayservices.com were absent from all 14,295 run-start baseline placements."
+    }
+  ],
+  "pending": [
+    {
+      "name": "Home Fix-It Crew",
+      "reason": "The official website renders, but current Florida entity search results show the matching company as inactive or administratively dissolved; it was not published."
+    },
+    {
+      "name": "The Honey Do Service of Panama City",
+      "reason": "The local branch has strong service evidence, but the shared multi-state brand requires a clearer regional-versus-national brand policy determination before publication."
+    },
+    {
+      "name": "Hidden-category candidates",
+      "reason": "Eight otherwise supported businesses were withheld because handyman, movers, lawn care, junk removal and pressure washing are currently hidden categories and must remain untouched."
+    }
+  ]
+}

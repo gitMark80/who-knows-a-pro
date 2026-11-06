@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-11-06T11:02:56.929589+00:00",
+  "manualContentEvidence": "reports/evidence-fill1000an-2026-11-06.json",
+  "urls": [
+    {
+      "url": "https://mybayservices.com/",
+      "status": 200,
+      "finalUrl": "https://mybayservices.com/",
+      "passed": true
+    },
+    {
+      "url": "https://mybayservices.com/contact-us",
+      "status": 200,
+      "finalUrl": "https://mybayservices.com/contact-us",
+      "passed": true
+    },
+    {
+      "url": "https://mybayservices.com/outdoor-services",
+      "status": 200,
+      "finalUrl": "https://mybayservices.com/outdoor-services",
+      "passed": true
+    },
+    {
+      "url": "https://mybayservices.com/renovation-services",
+      "status": 200,
+      "finalUrl": "https://mybayservices.com/renovation-services",
+      "passed": true
+    },
+    {
+      "url": "https://www.naileditpc.com/",
+      "status": 200,
+      "finalUrl": "https://www.naileditpc.com/",
+      "passed": true
+    },
+    {
+      "url": "https://www.wittenburghandyman.com/",
+      "status": 200,
+      "finalUrl": "https://www.wittenburghandyman.com/",
+      "passed": true
+    }
+  ]
+}
