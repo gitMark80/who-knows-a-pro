@@ -3,7 +3,9 @@
   "baselineCommit": "246af6d42007ad94b5e9a15296301f2c4cd01dae",
   "baselinePlacements": 14279,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "a45459cdf32d52e388c50fa0fab1edede04cc89e",
+  "deploymentId": "dpl_2yF79eofJFQwXpibydLfeCqyqseV",
   "records": [
     {
       "name": "Keep It Wet Concrete LLC",
@@ -123,6 +125,18 @@
     {
       "name": "Cambria / Okaloosa Concrete Contractors",
       "reason": "The site used inconsistent business identities and generic county-wide service language, so it remains pending as a possible lead-generation site."
+    },
+    {
+      "name": "Coastal Decorative Concrete, Inc. — Fort Walton Beach placement",
+      "reason": "The business already exists in the directory and search retrieval showed relevant residential Fort Walton Beach content, but automated official-site checks returned 403, so the additional placement was withheld."
+    },
+    {
+      "name": "Daher Contracting — concrete placement",
+      "reason": "The official concrete page described commercial standards but did not jointly establish a residential concrete offering for the target city."
+    },
+    {
+      "name": "GCF Concrete",
+      "reason": "The official identity focused on large government and commercial work, and a current third-party business profile reported the company as out of business; it was excluded."
     }
   ]
 }
