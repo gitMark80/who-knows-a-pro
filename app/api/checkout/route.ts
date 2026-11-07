@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { currentBusiness } from '@/db/auth';
 import { getBusinessProfile } from '@/db/runtime';
 import {

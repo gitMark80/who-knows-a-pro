@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { config, getBusiness, isPublicDirectoryBusiness, sqlOne, sqlRun } from '@/db/runtime';
 import { getActiveFeaturedSlot } from '@/db/revenue';
 import { emailConfigured, escapeHtml, sendEmail } from '@/lib/email';

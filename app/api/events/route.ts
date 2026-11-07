@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { clientEvents, cleanPath, cleanToken, optedOut, recordEvent } from '@/lib/analytics';
 import { clientIp, HOUR, isAutomatedUserAgent, overLimit, requestCountry, sameOrigin } from '@/lib/security';
 

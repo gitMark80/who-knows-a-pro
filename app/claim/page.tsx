@@ -4,7 +4,7 @@ import { BadgeCheck, CreditCard, Image, PencilLine } from 'lucide-react';
 import { PageEvent } from '@/components/site/analytics-client';
 import { Footer } from '@/components/site/footer';
 import { Header } from '@/components/site/header';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { getBusiness } from '@/db/runtime';
 import { BusinessFinder } from './business-finder';
 import { ClaimForm } from './claim-form';

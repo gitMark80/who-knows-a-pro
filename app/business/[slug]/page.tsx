@@ -9,7 +9,7 @@ import { Footer } from '@/components/site/footer';
 import { Breadcrumbs } from '@/components/seo/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
 import { ProfileViewTracker } from '@/components/site/profile-view-tracker';
-import { regions, trades } from '@/data/catalog';
+import { hiddenTradeSlugs, regions, trades, visibleTrades } from '@/data/catalog';
 import { getBusinessProfile } from '@/db/runtime';
 import { businessMetaDescription, businessProfileContext, businessProfileHref, businessStructuredJsonLd, isBusinessProfileIndexable, SITE_URL, specialtyList, type ProfileSearchParams } from '@/lib/business-profile';
 
@@ -24,7 +24,8 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
   const result = await loadBusiness(slug);
   if (!result || result.profile.is_test) return { title: 'Business profile', robots: { index: false, follow: true } };
   const business = result.profile;
-  const context = businessProfileContext(business, await searchParams, result.legacy ? slug : undefined);
+  const requestedContext = businessProfileContext(business, await searchParams, result.legacy ? slug : undefined);
+  const context = requestedContext && !hiddenTradeSlugs.has(requestedContext.trade) ? requestedContext : null;
   const city = regions.find((item) => item.slug === context?.region)?.name;
   const category = trades.find((item) => item.slug === context?.trade)?.name;
   return {
@@ -42,14 +43,15 @@ export default async function BusinessPage({ params, searchParams }: PageProps) 
   const result = await loadBusiness(slug);
   if (!result || result.profile.is_test) notFound();
   const business = result.profile;
-  const context = businessProfileContext(business, await searchParams, result.legacy ? slug : undefined);
+  const requestedContext = businessProfileContext(business, await searchParams, result.legacy ? slug : undefined);
+  const context = requestedContext && !hiddenTradeSlugs.has(requestedContext.trade) ? requestedContext : null;
   if (result.legacy) permanentRedirect(businessProfileHref(business, context));
 
   const region = regions.find((item) => item.slug === context?.region);
   const trade = trades.find((item) => item.slug === context?.trade);
   const specialties = specialtyList(business.specialties);
   const servedRegions = business.regions.map((slug) => regions.find((item) => item.slug === slug)).filter((item) => item !== undefined);
-  const servedTrades = business.trades.map((slug) => trades.find((item) => item.slug === slug)).filter((item) => item !== undefined);
+  const servedTrades = business.trades.map((slug) => visibleTrades.find((item) => item.slug === slug)).filter((item) => item !== undefined);
   const listedRegions = context ? servedRegions.filter((item) => business.placements.some((placement) => placement.trade === context.trade && placement.region === item.slug)) : servedRegions;
   const listedTrades = context ? servedTrades.filter((item) => business.placements.some((placement) => placement.region === context.region && placement.trade === item.slug)) : servedTrades;
   const regionHref = (regionSlug: string) => {

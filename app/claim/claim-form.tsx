@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { activeRegionGroups, activeRegions, trades } from '@/data/catalog';
+import { activeRegionGroups, activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { sendClientEvent } from '@/components/site/analytics-client';
 import { TURNSTILE_RESET_EVENT, TurnstileField } from '@/components/site/turnstile-field';
 
@@ -19,6 +19,9 @@ export function ClaimForm({ initialBusiness, initialRegion, initialTrade, reques
   const startedAt = useRef(0);
   useEffect(() => { startedAt.current = Date.now(); }, []);
   const started = useRef(false);
+  const selectedTrade = initialBusiness && trades.some((trade) => trade.slug === initialBusiness.trade)
+    ? initialBusiness.trade
+    : initialTrade || trades[0].slug;
   function markStarted() {
     if (started.current) return;
     started.current = true;
@@ -52,7 +55,7 @@ export function ClaimForm({ initialBusiness, initialRegion, initialTrade, reques
     <div className="grid gap-5 sm:grid-cols-2"><div><Label htmlFor="contactName">Your name</Label><Input id="contactName" name="contactName" required className="mt-2 h-12"/></div><div><Label htmlFor="email">Business email</Label><Input id="email" name="email" type="email" required placeholder="you@yourbusiness.com" className="mt-2 h-12"/></div></div>
     <div><Label htmlFor="website">Business website</Label><Input id="website" name="website" type="url" defaultValue={initialBusiness?.website} placeholder="https://..." className="mt-2 h-12"/></div>
     <div><Label htmlFor="location">City or service area</Label><Input id="location" name="location" required defaultValue={initialBusiness?.location} placeholder="Pensacola, FL" className="mt-2 h-12"/></div>
-    <div className="grid gap-5 sm:grid-cols-2"><div><Label htmlFor="region">Directory region</Label><select id="region" name="region" defaultValue={initialBusiness?.region || initialRegion || activeRegions[0].slug} className="mt-2 h-12 w-full rounded-md border border-input bg-transparent px-3 text-sm">{activeRegionGroups.map(group => <optgroup key={group.state} label={group.state}>{group.regions.map(r => <option key={r.slug} value={r.slug}>{r.name}</option>)}</optgroup>)}</select></div><div><Label htmlFor="trade">Primary category</Label><select id="trade" name="trade" defaultValue={initialBusiness?.trade || initialTrade || trades[0].slug} className="mt-2 h-12 w-full rounded-md border border-input bg-transparent px-3 text-sm">{trades.map(t => <option key={t.slug} value={t.slug}>{t.name}</option>)}</select></div></div>
+    <div className="grid gap-5 sm:grid-cols-2"><div><Label htmlFor="region">Directory region</Label><select id="region" name="region" defaultValue={initialBusiness?.region || initialRegion || activeRegions[0].slug} className="mt-2 h-12 w-full rounded-md border border-input bg-transparent px-3 text-sm">{activeRegionGroups.map(group => <optgroup key={group.state} label={group.state}>{group.regions.map(r => <option key={r.slug} value={r.slug}>{r.name}</option>)}</optgroup>)}</select></div><div><Label htmlFor="trade">Primary category</Label><select id="trade" name="trade" defaultValue={selectedTrade} className="mt-2 h-12 w-full rounded-md border border-input bg-transparent px-3 text-sm">{trades.map(t => <option key={t.slug} value={t.slug}>{t.name}</option>)}</select></div></div>
     <div><Label htmlFor="note">Anything we should know?</Label><Textarea id="note" name="note" className="mt-2 min-h-28" placeholder="Your role, service area, or a correction to the current listing"/></div>
     <TurnstileField action="claim"/>
     {error ? <p role="alert" className="rounded-xl bg-red-50 p-3 text-sm text-red-700">{error}</p> : null}

@@ -3,7 +3,7 @@ import { BadgeCheck, Check, Crown, ShieldCheck, Sparkles } from 'lucide-react';
 import { PageEvent } from '@/components/site/analytics-client';
 import { Footer } from '@/components/site/footer';
 import { Header } from '@/components/site/header';
-import { activeRegions, trades } from '@/data/catalog';
+import { activeRegions, visibleTrades as trades } from '@/data/catalog';
 import { currentBusiness } from '@/db/auth';
 import { countPageLeadsLast30Days, pageHasUnavailableFeaturedSlot } from '@/db/revenue';
 

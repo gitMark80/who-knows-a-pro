@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { activeRegions, slug, trades } from '@/data/catalog';
+import { activeRegions, slug, visibleTrades as trades } from '@/data/catalog';
 import {
   config,
   findBusinessByWebsiteDomain,

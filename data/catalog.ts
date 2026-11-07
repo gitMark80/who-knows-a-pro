@@ -164,6 +164,8 @@ export type TradeSlug = (typeof trades)[number]['slug'];
  * are hidden from grids, search, and the sitemap, and their pages 301 to the city page.
  */
 export const hiddenTradeSlugs: ReadonlySet<string> = new Set([
+  'locksmith',
+  'towing',
   'trading-card-stores',
   'house-cleaning',
   'carpet-cleaning',

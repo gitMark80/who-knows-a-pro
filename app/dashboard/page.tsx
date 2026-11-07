@@ -5,7 +5,7 @@ import { redirect } from 'next/navigation';
 import { ArrowLeft, BadgeCheck } from 'lucide-react';
 import { Footer } from '@/components/site/footer';
 import { Header } from '@/components/site/header';
-import { regions, trades } from '@/data/catalog';
+import { regions, trades, visibleTrades } from '@/data/catalog';
 import { isExcludedWebsite } from '@/data/excluded-businesses';
 import { currentBusiness } from '@/db/auth';
 import { getBusinessProfile, type Business } from '@/db/runtime';
@@ -23,7 +23,8 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
   const profileResult = await getBusinessProfile(business.main_slug || business.slug, { includeExcluded: true });
   const profile = profileResult?.profile || business;
   const placements: Business[] = profileResult?.profile.placements || [business];
-  const pageOptions = [...new Map<string, { region: string; trade: string; label: string }>(placements.map((placement) => {
+  const visibleTradeSlugs = new Set<string>(visibleTrades.map((trade) => trade.slug));
+  const pageOptions = [...new Map<string, { region: string; trade: string; label: string }>(placements.filter((placement) => visibleTradeSlugs.has(placement.trade)).map((placement) => {
     const region = regions.find((item) => item.slug === placement.region);
     const trade = trades.find((item) => item.slug === placement.trade);
     return [`${placement.region}|${placement.trade}`, {
