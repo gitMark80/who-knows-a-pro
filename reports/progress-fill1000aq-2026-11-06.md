@@ -1,4 +1,4 @@
-# fill1000aq prepared checkpoint — 2026-11-06
+# fill1000aq published checkpoint — 2026-11-06
 
 ## Baseline and validation
 
@@ -13,13 +13,13 @@
 - ESLint, TypeScript and the production build passed.
 - Official-source review passed **23 / 23** retrieved official pages.
 
-## Prepared additions
+## Published and live-verified additions
 
 - Distinct new local or regional businesses: **7**
 - Placements from new businesses: **34**
 - Placements from businesses already in the fixed baseline: **3**
 - Total new city/category placements: **37**
-- Shortfall pending publication and live verification against the 1,000-new-business target: **993**
+- Exact shortfall against the 1,000-new-business target: **993**
 
 ### New local or regional businesses
 
@@ -75,7 +75,7 @@ No national brand, commercial maintenance network, directory, lead seller or con
 | Pensacola / Pool service | 18 | 1 | 19 | 1 |
 | Tallahassee / Tree service | 6 | 1 | 7 | 13 |
 
-## Coverage after the prepared additions
+## Coverage after the published additions
 
 These are displayed distinct-business counts, not a certification that every historical record has passed the current residential/category/geography standard.
 
@@ -97,9 +97,13 @@ The complete post-batch displayed coverage and every remaining city/category def
 
 ## Publication status
 
-- Prepared locally and validated; not yet committed, deployed or live-verified.
-- Distinct new businesses completed for the run: **0** until production verification passes.
-- Placements completed for the run: **0** until production verification passes.
-- Changes awaiting deployment and live verification: **37 placements across 9 provider identities**.
+- Data commit on GitHub `main`: `59dcb0fc2d3992ea8fe703457e10697d53cf1448`.
+- Production deployment: `dpl_7m5GB6zYuCMkz19nCS83G9KrVcR4` reached READY with no alias error.
+- Production browser verification: **37 / 37 placements passed** card, profile, city/category-context and intended official-domain checks.
+- Official website destination verification: **9 / 9 provider identities passed** final-domain and business-identity checks.
+- Distinct new businesses published and live-verified: **7**.
+- New placements published and live-verified: **37** — **34** from new businesses and **3** from fixed-baseline businesses.
+- Changes awaiting deployment or live verification: **0**.
+- Exact remaining run shortfall: **993 distinct new businesses**.
 
-The next safe step is to recheck GitHub `main`, publish with compare-and-swap semantics, wait for the Vercel deployment, then verify every production card, profile context and outbound official-domain destination.
+The live-verification ledger is `reports/live-fill1000aq-2026-11-06.json`. The overall directory target is not complete; the fully qualification-audited historical coverage remains unknown.
