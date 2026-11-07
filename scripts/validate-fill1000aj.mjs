@@ -6,9 +6,10 @@ import { isExcludedWebsite } from '../data/excluded-businesses.ts';
 import { normalizeDomain, validateQualifyingCandidate } from './qualification-policy.mjs';
 
 const run = process.env.FILL_RUN ?? 'fill1000aj';
+const runDate = process.env.FILL_RUN_DATE ?? '2026-11-06';
 const baseline = JSON.parse(fs.readFileSync(process.env.FILL_BASELINE_SEED ?? `/tmp/${run}-baseline.json`));
-const ledger = JSON.parse(fs.readFileSync(`reports/evidence-${run}-2026-11-06.json`));
-const source = JSON.parse(fs.readFileSync(`data/verified-coverage-2026-11-06-${run}.json`));
+const ledger = JSON.parse(fs.readFileSync(`reports/evidence-${run}-${runDate}.json`));
+const source = JSON.parse(fs.readFileSync(`data/verified-coverage-${runDate}-${run}.json`));
 const ids = new Map(directorySeed.map((row) => [row.id, row]));
 for (const row of baseline) assert.deepEqual(ids.get(row.id), row, `Baseline changed ${row.id}`);
 
@@ -72,7 +73,7 @@ const coverage = {
   displayedDeficit: publicPages.reduce((sum, page) => sum + page.deficit, 0),
 };
 const csv = ['region,trade,distinctBusinesses,deficit', ...publicPages.map((page) => `${page.region},${page.trade},${page.distinctBusinesses},${page.deficit}`)].join('\n') + '\n';
-fs.writeFileSync(`reports/coverage-${run}-2026-11-06.csv`, csv);
+fs.writeFileSync(`reports/coverage-${run}-${runDate}.csv`, csv);
 
 const report = {
   checkedAt: new Date().toISOString(),
@@ -88,5 +89,5 @@ const report = {
   coverage,
   additions,
 };
-fs.writeFileSync(`reports/validation-${run}-2026-11-06.json`, JSON.stringify(report, null, 2) + '\n');
+fs.writeFileSync(`reports/validation-${run}-${runDate}.json`, JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify({ ...report, additions: additions.length }));

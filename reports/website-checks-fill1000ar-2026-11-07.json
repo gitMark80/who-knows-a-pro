@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-07T11:01:01.000Z",
+  "method": "Official pages opened after candidate discovery; final domain, business identity, residential service language and city evidence reviewed as page content rather than HTTP status alone.",
+  "checks": [
+    {"name":"Coast Safe & Lock","url":"https://coastsafelock.com/keys/door-hardware/","finalUrl":"https://coastsafelock.com/keys/door-hardware/","passed":true,"evidence":"Official page names Coast Safe & Lock, the Mobile street address, and installation and rekeying for homes."},
+    {"name":"Locks By The Bay","url":"https://locksbythebay.com/","finalUrl":"https://locksbythebay.com/","passed":true,"evidence":"Official family-business page lists residential work plus Daphne, Fairhope, Foley and Gulf Shores."},
+    {"name":"Locks By The Bay — Orange Beach","url":"https://locksbythebay.com/orange-beach-locksmith/","finalUrl":"https://locksbythebay.com/orange-beach-locksmith/","passed":true,"evidence":"Dedicated official page documents direct residential lockout, rekeying, repair and installation across Orange Beach."},
+    {"name":"R.B.B. Lock & Key","url":"https://www.rbblockandkey.com/","finalUrl":"https://www.rbblockandkey.com/","passed":true,"evidence":"Official page identifies the Mobile business and direct residential lockout, rekeying, deadbolt and repair work."},
+    {"name":"Lighthouse Lock & Key","url":"https://lighthouselock.com/","finalUrl":"https://lighthouselock.com/","passed":true,"evidence":"Official page states home locksmith services and publishes its Mobile street address and telephone."},
+    {"name":"Discount Locksmith","url":"https://discountlocksmithal.com/residential-locksmith-mobile-al/","finalUrl":"https://discountlocksmithal.com/residential-locksmith-mobile-al/","passed":true,"evidence":"Dedicated official residential Mobile page publishes its Mobile shop and Alabama license."},
+    {"name":"Squinchy's Locksmith","url":"https://squinchyslocks.com/services","finalUrl":"https://squinchyslocks.com/services","passed":true,"evidence":"Official service page lists residential home lockouts, installation, repair and rekeying; official about page identifies Tallahassee."}
+  ],
+  "summary": {"passed":7,"failed":0,"providerIdentities":6,"placementEvidenceSets":7}
+}

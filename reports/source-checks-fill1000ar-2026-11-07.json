@@ -1,0 +1,25 @@
+{
+  "run": "fill1000ar",
+  "checkedAt": "2026-11-07T11:03:00.000Z",
+  "baselineCommit": "20dbbf6c4215bfad3bba56b3c0a05ab79cc0493f",
+  "checks": {
+    "fixedBaselinePreserved": true,
+    "baselinePlacements": 14383,
+    "activeCities": 40,
+    "visibleCategories": 30,
+    "hiddenCategoriesPreserved": 10,
+    "publicPages": 1200,
+    "catalogSlugsValid": true,
+    "allTargetPagesUnder20AtBaseline": true,
+    "normalizedDomainAndNameDeduplication": true,
+    "qualificationEvidencePassed": true,
+    "officialPagesOpened": 7,
+    "officialPagesPassed": 7,
+    "lintPassed": true,
+    "typeScriptPassed": true,
+    "productionBuildPassed": true,
+    "deletions": 0,
+    "nationalBrandsAdded": 0,
+    "intermediariesAdded": 0
+  }
+}
