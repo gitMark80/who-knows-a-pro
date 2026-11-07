@@ -1,0 +1,80 @@
+{
+  "run": "fill1000at",
+  "baselineCommit": "35faa2dad3f2004f795c5987d7c161d3af60dbf3",
+  "publishedCommit": "fa824c932fa0a31f7092cfbcaecf818becd0cdf0",
+  "productionDeployment": "dpl_FZsSGKh5fWQoxsC5X9V1m3nBSFDM",
+  "deploymentState": "READY",
+  "liveVerifiedAt": "2026-11-07T22:58:13Z",
+  "directoryChecks": [
+    {
+      "city": "Fort Walton Beach",
+      "category": "Garage Door Repair",
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/garage-door-repair",
+      "business": "Garage Door Guru LLC",
+      "visible": true,
+      "displayedCount": 15
+    },
+    {
+      "city": "Fort Walton Beach",
+      "category": "Concrete",
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/concrete",
+      "business": "Advanced Concrete Supply",
+      "visible": true,
+      "displayedCount": 19
+    },
+    {
+      "city": "Destin",
+      "category": "Hurricane Shutters & Impact Windows",
+      "url": "https://whoknowsapro.com/destin-fl/hurricane-shutters-impact-windows",
+      "business": "Keith Window Company",
+      "visible": true,
+      "displayedCount": 19
+    },
+    {
+      "city": "Fort Walton Beach",
+      "category": "Hurricane Shutters & Impact Windows",
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/hurricane-shutters-impact-windows",
+      "business": "Keith Window Company",
+      "visible": true,
+      "displayedCount": 19
+    },
+    {
+      "city": "Fort Walton Beach",
+      "category": "Marine Services",
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/marine-services",
+      "business": "Southern Boat Works",
+      "visible": true,
+      "displayedCount": 18
+    }
+  ],
+  "officialWebsiteChecks": [
+    {
+      "business": "Garage Door Guru LLC",
+      "requestedUrl": "https://garagedoorgurullc.com/",
+      "finalUrl": "https://garagedoorgurullc.com/",
+      "title": "garagedoorgurullc.com",
+      "identityMatched": true
+    },
+    {
+      "business": "Advanced Concrete Supply",
+      "requestedUrl": "https://advancedconcretesupply.com/",
+      "finalUrl": "https://advancedconcretesupply.com/",
+      "title": "Decorative Concrete Coatings, Staining, Repair, and Installation",
+      "identityMatched": true
+    },
+    {
+      "business": "Keith Window Company",
+      "requestedUrl": "https://www.keithwindow.com/",
+      "finalUrl": "https://www.keithwindow.com/",
+      "title": "Window Replacement, Custom Doors, & More | Keith Window Co.",
+      "identityMatched": true
+    },
+    {
+      "business": "Southern Boat Works",
+      "requestedUrl": "https://southernboatworks.net/",
+      "finalUrl": "https://southernboatworks.net/",
+      "title": "Fiberglass Repair - Southern Boat Works",
+      "identityMatched": true
+    }
+  ]
+}
