@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000as checkpoint — 2026-11-07
+# Who Knows a Pro fill1000as published checkpoint — 2026-11-07
 
 ## Run baseline and scope
 
@@ -10,14 +10,14 @@
 - No cities or categories were created, activated, renamed, or unhidden.
 - No user-submitted, claimed, paid, or unrelated records were removed or rewritten.
 
-## Prepared additions
+## Published and live-verified additions
 
-- Distinct new businesses absent from the fixed baseline: **5**
-- Placements from those new businesses: **8**
-- New placements from 2 businesses already present at baseline: **15**
-- Total prepared city/category placements: **23**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **5**
+- Published and live-verified placements from those new businesses: **8**
+- Published and live-verified placements from 2 businesses already present at baseline: **15**
+- Total published and live-verified city/category placements: **23**
 - New-business target: 1,000
-- Exact shortfall pending publication and live verification: **995**
+- Exact new-business shortfall: **995**
 
 | City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
@@ -38,7 +38,7 @@
 | Pensacola | Pest Control | 15 | 1 | 16 | 4 |
 | Pensacola | Pool Service | 19 | 1 | 20 | 0 |
 
-## Prepared displayed coverage
+## Post-publication displayed coverage
 
 - Pages at 20 or more: **191**
 - Pages below 20: **1,009**
@@ -54,7 +54,10 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 - JSON parsing, catalog slugs, placement IDs/slugs, normalized-domain duplicate checks, and fixed-baseline preservation passed.
 - `pnpm lint` passed.
 - `pnpm build` passed.
-- Publication and live verification are still pending at this checkpoint; prepared records are not yet counted as published additions.
+- GitHub `main` publication commit: `eb72221b82b2316cd6aea476db848bccc8fea3ec`.
+- Vercel production deployment `dpl_E8jbBePuECAUVxiDzQQ8JQ9xJu8N` reached `READY` for that exact commit.
+- All 23 placements were visibly present on their 16 intended live city/category pages.
+- The five new businesses' live directory links matched their recorded official URLs, and every destination loaded to the intended business identity after redirects.
 
 ## Pending and historical-review notes
 
@@ -67,4 +70,4 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Resume point
 
-Publish only after re-fetching `main` and confirming it still matches the fixed baseline or safely reconciling any concurrent change. After deployment, verify all 23 directory placements and the five new businesses' official website destinations, then update the evidence ledger and this report with committed, deployed, and live-verified status separately.
+Resume from published commit `eb72221b82b2316cd6aea476db848bccc8fea3ec`. Re-read current `main`, preserve later changes, and prioritize the lowest strictly verified deficits in Destin, Fort Walton Beach, Crestview, and Panama City. The site remains incomplete: 1,009 displayed pages are still below 20 and the remaining displayed deficit is 11,096; unaudited historical coverage remains unknown until placement-specific evidence is checked.

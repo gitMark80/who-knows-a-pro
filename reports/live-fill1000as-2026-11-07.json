@@ -1,0 +1,42 @@
+{
+  "run": "fill1000as",
+  "verifiedAt": "2026-11-07T17:10:13Z",
+  "publishedCommit": "eb72221b82b2316cd6aea476db848bccc8fea3ec",
+  "productionDeployment": {
+    "id": "dpl_E8jbBePuECAUVxiDzQQ8JQ9xJu8N",
+    "state": "READY",
+    "target": "production",
+    "commit": "eb72221b82b2316cd6aea476db848bccc8fea3ec"
+  },
+  "placementVerification": {
+    "pagesChecked": 16,
+    "placementsExpected": 23,
+    "placementsVisible": 23,
+    "failed": 0,
+    "pages": [
+      {"path": "/panama-city-fl/auto-body-collision", "businesses": ["LuxLine Automotive Refinishing"]},
+      {"path": "/panama-city-beach-fl/auto-body-collision", "businesses": ["LuxLine Automotive Refinishing"]},
+      {"path": "/fort-walton-beach-fl/auto-body-collision", "businesses": ["Mazda of Fort Walton Beach", "Tim Smith Acura"]},
+      {"path": "/destin-fl/pool-installation", "businesses": ["Tamtech Pool & Spa", "Pensacola Poolscapes"]},
+      {"path": "/fort-walton-beach-fl/pest-control", "businesses": ["AllTrust Pest Control"]},
+      {"path": "/gulf-breeze-fl/pest-control", "businesses": ["AllTrust Pest Control"]},
+      {"path": "/pensacola-fl/pest-control", "businesses": ["AllTrust Pest Control"]},
+      {"path": "/fort-walton-beach-fl/pool-installation", "businesses": ["Pensacola Poolscapes", "Emerald Coast Fiberglass Pools"]},
+      {"path": "/crestview-fl/pool-installation", "businesses": ["Pensacola Poolscapes", "Emerald Coast Fiberglass Pools"]},
+      {"path": "/milton-fl/pool-installation", "businesses": ["Pensacola Poolscapes", "Emerald Coast Fiberglass Pools"]},
+      {"path": "/pace-fl/pool-installation", "businesses": ["Pensacola Poolscapes"]},
+      {"path": "/fort-walton-beach-fl/pool-service", "businesses": ["Pensacola Poolscapes"]},
+      {"path": "/crestview-fl/pool-service", "businesses": ["Pensacola Poolscapes", "Emerald Coast Fiberglass Pools"]},
+      {"path": "/milton-fl/pool-service", "businesses": ["Pensacola Poolscapes", "Emerald Coast Fiberglass Pools"]},
+      {"path": "/pace-fl/pool-service", "businesses": ["Pensacola Poolscapes"]},
+      {"path": "/pensacola-fl/pool-service", "businesses": ["Pensacola Poolscapes"]}
+    ]
+  },
+  "newBusinessWebsiteVerification": [
+    {"business": "LuxLine Automotive Refinishing", "directoryHref": "https://luxlinerefinishing.com/", "finalUrl": "https://luxlinerefinishing.com/", "identityMatched": true},
+    {"business": "Mazda of Fort Walton Beach", "directoryHref": "https://www.mazdafwb.com/", "finalUrl": "https://www.mazdafwb.com/", "identityMatched": true},
+    {"business": "Tim Smith Acura", "directoryHref": "https://www.timsmithacura.com/", "finalUrl": "https://www.timsmithacura.com/", "identityMatched": true},
+    {"business": "Tamtech Pool & Spa", "directoryHref": "https://www.tamtechpools.net/", "finalUrl": "https://www.tamtechpools.net/", "identityMatched": true},
+    {"business": "AllTrust Pest Control", "directoryHref": "https://www.alltrustpestcontrol.com/", "finalUrl": "https://www.alltrustpestcontrol.com/", "identityMatched": true}
+  ]
+}
