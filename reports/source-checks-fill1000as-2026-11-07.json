@@ -1,0 +1,56 @@
+{
+  "run": "fill1000as",
+  "checkedAt": "2026-11-07T17:03:01.140Z",
+  "policy": "Official business pages were reviewed for provider identity, consumer or residential category fit, and explicit city, county, or local-operation evidence. Search-result snippets were used only to discover official pages; directory, social-only, Google Maps, Yelp, Angi, and paid sources were not used as listing evidence.",
+  "checks": [
+    {
+      "business": "LuxLine Automotive Refinishing",
+      "urls": ["https://luxlinerefinishing.com/"],
+      "result": "qualified",
+      "observed": "Official branded site identifies the direct auto refinishing shop, consumer vehicle services, Panama City Beach address, and explicit Bay County service area."
+    },
+    {
+      "business": "Mazda of Fort Walton Beach",
+      "urls": ["https://www.mazdafwb.com/body-shop/", "https://www.mazdafwb.com/about-us/"],
+      "result": "qualified",
+      "observed": "Official dealership pages identify the Fort Walton Beach body shop and collision, dent, scratch, paint, bumper, and windshield services; the about page identifies the small regional ZT Motors group."
+    },
+    {
+      "business": "Tim Smith Acura",
+      "urls": ["https://www.timsmithacura.com/body-shop/", "https://www.timsmithacura.com/about-us/"],
+      "result": "qualified",
+      "observed": "Official dealership pages identify its Fort Walton Beach collision center and direct consumer body-repair services, and document the locally established operation."
+    },
+    {
+      "business": "Tamtech Pool & Spa",
+      "urls": ["https://www.tamtechpools.net/", "https://www.tamtechpools.net/Equipment-Repair", "https://www.tamtechpools.net/Contact-us"],
+      "result": "qualified",
+      "observed": "Official site describes residential pool construction and home-pool equipment work, publishes the Miramar Beach operation, and explicitly names Destin among served communities."
+    },
+    {
+      "business": "AllTrust Pest Control",
+      "urls": ["https://www.alltrustpestcontrol.com/", "https://www.alltrustpestcontrol.com/about/"],
+      "result": "qualified",
+      "observed": "Official site identifies an owner-operated Gulf Breeze provider, residential pest-control services, and an explicit service corridor from Fort Walton Beach to Pensacola."
+    },
+    {
+      "business": "Pensacola Poolscapes",
+      "urls": ["https://www.pensacolapoolscapes.com/", "https://www.pensacolapoolscapes.com/services/"],
+      "result": "qualified_existing_business_placements",
+      "observed": "Official pages describe residential pool construction, renovation, maintenance, and repair and explicitly name Destin, Fort Walton Beach, Crestview, Milton, Pace, and Pensacola in the service area."
+    },
+    {
+      "business": "Emerald Coast Fiberglass Pools",
+      "urls": ["https://www.emeraldcoastfiberglasspools.com/", "https://www.emeraldcoastfiberglasspools.com/services", "https://www.emeraldcoastfiberglasspools.com/contact-us"],
+      "result": "qualified_existing_business_placements",
+      "observed": "Official pages address homeowners, document direct pool construction and maintenance, and explicitly name Fort Walton Beach, Crestview, and Milton in the served area."
+    }
+  ],
+  "blockedOrRejected": [
+    {"business": "Murphy's Home Services", "reason": "Official pages remained behind Cloudflare verification; required service and geography evidence could not be confirmed."},
+    {"business": "Gary Smith Honda Collision Center", "reason": "The indexed official collision page returned 404 and failed the working-site requirement."},
+    {"business": "J&K Better Pools", "reason": "Official pages did not expressly establish residential or homeowner scope."},
+    {"business": "Precision Auto Body of Crestview", "reason": "No working official business website distinct from directory pages was found."},
+    {"business": "Retail Fix It", "reason": "No fixed-baseline active placement was found; the commercial maintenance-network model remains excluded from residential completion claims."}
+  ]
+}
