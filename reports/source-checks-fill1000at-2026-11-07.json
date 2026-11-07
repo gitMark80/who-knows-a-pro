@@ -1,0 +1,19 @@
+{
+  "run": "fill1000at",
+  "checkedAt": "2026-11-07T22:51:27.000Z",
+  "policy": "Official business pages were reviewed for provider identity, residential or consumer category fit, specific city or documented service-area evidence, and local or regional scale. Search snippets only discovered official pages; Google Maps, Yelp, Angi and paid sources were not used.",
+  "checks": [
+    {"business": "Garage Door Guru LLC", "urls": ["https://garagedoorgurullc.com/"], "result": "qualified", "observed": "Official company content identifies a family-owned Fort Walton Beach provider, residential garage-door repair and the 68 Bayou Drive operating address."},
+    {"business": "Advanced Concrete Supply", "urls": ["https://advancedconcretesupply.com/"], "result": "qualified", "observed": "Official site identifies its owners, Fort Walton Beach operation, direct residential concrete coating, repair and staining services, and consumer estimate flow."},
+    {"business": "Keith Window Company", "urls": ["https://www.keithwindow.com/", "https://www.keithwindow.com/windows-and-doors-destin-fl/", "https://www.keithwindow.com/blog/"], "result": "qualified", "observed": "Official pages document the licensed Destin branch, homeowner window work, hurricane-rated Florida content and explicit Destin and Fort Walton Beach coverage."},
+    {"business": "Southern Boat Works", "urls": ["https://southernboatworks.net/"], "result": "qualified", "observed": "Official page identifies a Fort Walton Beach boat-repair shop directly performing fiberglass, structural, paint and personal-watercraft repair."}
+  ],
+  "blockedOrRejected": [
+    {"business": "Fort Walton Beach Insulation", "reason": "Withheld because the site includes a cross-market contractor-finder statement and did not provide enough independent ownership or license evidence to rule out a lead-generation network."},
+    {"business": "Tj's Tree Services", "reason": "Rejected because the official site says inquiries are passed to a local professional, creating an unresolved intermediary risk."},
+    {"business": "J&K Better Pools", "reason": "Withheld because the official page did not expressly establish residential or homeowner scope."},
+    {"business": "Precision Auto Body of Crestview", "reason": "Withheld because no working official business website distinct from directory pages was found."},
+    {"business": "Paradise Insulation", "reason": "Rejected because current BBB evidence says the Fort Walton Beach business appears to be out of business."},
+    {"business": "Retail Fix It", "reason": "No active baseline placement was found; its commercial maintenance-network model remains excluded from residential completion claims."}
+  ]
+}
