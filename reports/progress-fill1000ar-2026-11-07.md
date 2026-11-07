@@ -1,4 +1,4 @@
-# fill1000ar prepared checkpoint — 2026-11-07
+# fill1000ar published checkpoint — 2026-11-07
 
 ## Baseline and validation
 
@@ -13,12 +13,12 @@
 - ESLint, TypeScript and the production build passed.
 - Official-source review passed **7 / 7** opened official pages.
 
-## Prepared additions
+## Published and live-verified additions
 
 - Distinct new local or regional businesses: **6**
 - Placements from new businesses: **10**
 - Placements from businesses already in the fixed baseline: **0**
-- Exact pending shortfall against the 1,000-new-business target: **994**
+- Exact shortfall against the 1,000-new-business target: **994**
 
 New local businesses: Coast Safe & Lock; Locks By The Bay; R.B.B. Lock & Key; Lighthouse Lock & Key; Discount Locksmith; Squinchy's Locksmith.
 
@@ -36,7 +36,7 @@ No national brand, national franchise, commercial maintenance network, directory
 | Orange Beach / Locksmith | 1 | 1 | 2 | 18 |
 | Tallahassee / Locksmith | 1 | 1 | 2 | 18 |
 
-## Coverage after the prepared additions
+## Coverage after the published additions
 
 These are displayed distinct-business counts, not a certification that every historical record has passed the current residential/category/geography standard.
 
@@ -59,9 +59,14 @@ The complete post-batch displayed coverage and every remaining city/category def
 
 ## Publication status
 
-- Prepared locally and fully validated; not yet counted as published or live-verified in this checkpoint.
-- Distinct new businesses published and live-verified: **0 pending deployment**.
-- New placements published and live-verified: **0 pending deployment**.
-- Changes awaiting deployment/live verification: **6 businesses / 10 placements**.
+- Data commit on GitHub `main`: `ba0206c1080a4967d820887843733d128426da9e`.
+- Production deployment: `dpl_Cx54gKQsLKNGS8oknTWgb1b2begS` reached READY with no alias error.
+- Production browser verification: **10 / 10 placements passed** card, profile, city/category-context and intended official-domain checks.
+- Business profile verification: **6 / 6 provider identities passed** profile-heading and official-domain checks.
+- Official website destination verification: **6 / 6 provider identities passed** final-domain and business-identity checks.
+- Distinct new businesses published and live-verified: **6**.
+- New placements published and live-verified: **10**, all from new businesses.
+- Changes awaiting deployment or live verification: **0**.
+- Exact remaining run shortfall: **994 distinct new businesses**.
 
-After the data commit reaches production, update `reports/evidence-fill1000ar-2026-11-07.json`, this report and a dedicated live ledger with the deployment and browser-verification result. The overall directory target is not complete.
+The live-verification ledger is `reports/live-fill1000ar-2026-11-07.json`. The overall directory target is not complete; fully qualification-audited historical coverage remains unknown.

@@ -1,0 +1,44 @@
+{
+  "run": "fill1000ar",
+  "verifiedAt": "2026-11-07T11:07:15.000Z",
+  "dataCommit": "ba0206c1080a4967d820887843733d128426da9e",
+  "deploymentId": "dpl_Cx54gKQsLKNGS8oknTWgb1b2begS",
+  "deploymentState": "READY",
+  "aliasError": null,
+  "summary": {
+    "distinctNewBusinesses": 6,
+    "placements": 10,
+    "placementCardsPassed": 10,
+    "profilesPassed": 6,
+    "officialDestinationsPassed": 6,
+    "awaitingVerification": 0
+  },
+  "placements": [
+    {"region":"mobile-al","trade":"locksmith","name":"Coast Safe & Lock","page":"https://whoknowsapro.com/mobile-al/locksmith","profile":"https://whoknowsapro.com/business/coast-safe-lock?region=mobile-al&trade=locksmith","official":"https://coastsafelock.com/","passed":true},
+    {"region":"mobile-al","trade":"locksmith","name":"R.B.B. Lock & Key","page":"https://whoknowsapro.com/mobile-al/locksmith","profile":"https://whoknowsapro.com/business/r-b-b-lock-key?region=mobile-al&trade=locksmith","official":"https://www.rbblockandkey.com/","passed":true},
+    {"region":"mobile-al","trade":"locksmith","name":"Lighthouse Lock & Key","page":"https://whoknowsapro.com/mobile-al/locksmith","profile":"https://whoknowsapro.com/business/lighthouse-lock-key?region=mobile-al&trade=locksmith","official":"https://lighthouselock.com/","passed":true},
+    {"region":"mobile-al","trade":"locksmith","name":"Discount Locksmith","page":"https://whoknowsapro.com/mobile-al/locksmith","profile":"https://whoknowsapro.com/business/discount-locksmith?region=mobile-al&trade=locksmith","official":"https://discountlocksmithal.com/","passed":true},
+    {"region":"daphne-al","trade":"locksmith","name":"Locks By The Bay","page":"https://whoknowsapro.com/daphne-al/locksmith","profile":"https://whoknowsapro.com/business/locks-by-the-bay?region=daphne-al&trade=locksmith","official":"https://locksbythebay.com/","passed":true},
+    {"region":"fairhope-al","trade":"locksmith","name":"Locks By The Bay","page":"https://whoknowsapro.com/fairhope-al/locksmith","profile":"https://whoknowsapro.com/business/locks-by-the-bay?region=fairhope-al&trade=locksmith","official":"https://locksbythebay.com/","passed":true},
+    {"region":"foley-al","trade":"locksmith","name":"Locks By The Bay","page":"https://whoknowsapro.com/foley-al/locksmith","profile":"https://whoknowsapro.com/business/locks-by-the-bay?region=foley-al&trade=locksmith","official":"https://locksbythebay.com/","passed":true},
+    {"region":"gulf-shores-al","trade":"locksmith","name":"Locks By The Bay","page":"https://whoknowsapro.com/gulf-shores-al/locksmith","profile":"https://whoknowsapro.com/business/locks-by-the-bay?region=gulf-shores-al&trade=locksmith","official":"https://locksbythebay.com/","passed":true},
+    {"region":"orange-beach-al","trade":"locksmith","name":"Locks By The Bay","page":"https://whoknowsapro.com/orange-beach-al/locksmith","profile":"https://whoknowsapro.com/business/locks-by-the-bay?region=orange-beach-al&trade=locksmith","official":"https://locksbythebay.com/","passed":true},
+    {"region":"tallahassee-fl","trade":"locksmith","name":"Squinchy's Locksmith","page":"https://whoknowsapro.com/tallahassee-fl/locksmith","profile":"https://whoknowsapro.com/business/squinchy-s-locksmith?region=tallahassee-fl&trade=locksmith","official":"https://squinchyslocks.com/","passed":true}
+  ],
+  "profiles": [
+    {"name":"Coast Safe & Lock","headingMatched":true,"officialDomainMatched":true},
+    {"name":"Locks By The Bay","headingMatched":true,"officialDomainMatched":true},
+    {"name":"R.B.B. Lock & Key","headingMatched":true,"officialDomainMatched":true},
+    {"name":"Lighthouse Lock & Key","headingMatched":true,"officialDomainMatched":true},
+    {"name":"Discount Locksmith","headingMatched":true,"officialDomainMatched":true},
+    {"name":"Squinchy's Locksmith","headingMatched":true,"officialDomainMatched":true}
+  ],
+  "officialDestinations": [
+    {"name":"Coast Safe & Lock","finalUrl":"https://coastsafelock.com/","identityMatched":true},
+    {"name":"Locks By The Bay","finalUrl":"https://locksbythebay.com/","identityMatched":true},
+    {"name":"R.B.B. Lock & Key","finalUrl":"https://www.rbblockandkey.com/","identityMatched":true},
+    {"name":"Lighthouse Lock & Key","finalUrl":"https://lighthouselock.com/","identityMatched":true},
+    {"name":"Discount Locksmith","finalUrl":"https://discountlocksmithal.com/","identityMatched":true},
+    {"name":"Squinchy's Locksmith","finalUrl":"https://squinchyslocks.com/","identityMatched":true}
+  ]
+}
