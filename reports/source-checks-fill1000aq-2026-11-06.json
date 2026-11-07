@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-07T05:00:49.000Z",
+  "method": "authorized official-site retrieval with final-page identity, residential-service and city/branch coverage review",
+  "checks": [
+    {"url":"https://tristatetree.com/","status":"passed","supports":["identity","local family ownership","direct tree provider"]},
+    {"url":"https://tristatetree.com/services/tree-removal/","status":"passed","supports":["residential tree removal","homeowner scope"]},
+    {"url":"https://tristatetree.com/service-areas/","status":"passed","supports":["all included Florida and Alabama cities"]},
+    {"url":"https://plumbingbees.com/","status":"passed","supports":["identity","family ownership","licensed direct provider"]},
+    {"url":"https://plumbingbees.com/service-areas/okaloosa-county","status":"passed","supports":["homeowners","residential plumbing","Destin","Fort Walton Beach","Crestview"]},
+    {"url":"https://spnwfl.com/","status":"passed","supports":["identity","residential plumbing","Fort Walton Beach","license"]},
+    {"url":"https://whittakerelectric.com/","status":"passed","supports":["identity","local family ownership","Panama City office","license"]},
+    {"url":"https://whittakerelectric.com/residential-electrical.htm","status":"passed","supports":["residential electrical","Panama City area"]},
+    {"url":"https://thegeneratorguys.co/service-areas/fort-walton-beach/","status":"passed","supports":["identity","home generator installation","Fort Walton Beach"]},
+    {"url":"https://thegeneratorguys.co/service-areas/panama-city-beach/","status":"passed","supports":["home generator installation","Panama City Beach"]},
+    {"url":"https://thegeneratorguys.co/service-areas/pensacola/","status":"passed","supports":["home generator installation","Pensacola"]},
+    {"url":"https://thegeneratorguys.co/service-areas/gulf-breeze/","status":"passed","supports":["home generator installation","Gulf Breeze branch"]},
+    {"url":"https://thegeneratorguys.co/service-areas/daphne/","status":"passed","supports":["home generator installation","Daphne"]},
+    {"url":"https://thegeneratorguys.co/service-areas/fairhope/","status":"passed","supports":["home generator installation","Fairhope"]},
+    {"url":"https://thegeneratorguys.co/service-areas/foley/","status":"passed","supports":["home generator installation","Foley","Mobile branch coverage"]},
+    {"url":"https://thegeneratorguys.co/service-areas/mobile/","status":"passed","supports":["home generator installation","Mobile branch","Mobile","Daphne","Foley"]},
+    {"url":"https://deluxefencingoutdoors.com/","status":"passed","supports":["identity","family ownership","residential fence installation","four included cities"]},
+    {"url":"https://deluxefencingoutdoors.com/about-us/","status":"passed","supports":["small local business","direct installer"]},
+    {"url":"https://www.aquapoolandpatio.com/about-us","status":"passed","supports":["local owners","700 residential pools","Pensacola office","Fort Walton Beach office"]},
+    {"url":"https://www.aquapoolandpatio.com/services","status":"passed","supports":["residential pool service","weekly maintenance","custom pool construction","both offices"]},
+    {"url":"https://innovativeelectric.com/30a-destin/backup-generators/","status":"passed","supports":["existing identity","whole-home generator installation","Destin"]},
+    {"url":"https://rcplandscapefl.com/","status":"passed","supports":["existing identity","local ownership","homeowner landscaping","Fort Walton Beach","Crestview"]},
+    {"url":"https://rcplandscapefl.com/tree-services/","status":"passed","supports":["residential tree care","tree planting","trimming","removal"]}
+  ],
+  "total": 23,
+  "passed": 23,
+  "failed": 0,
+  "allPassed": true,
+  "withheld": [
+    {"name":"Northwest Florida Gutters","reason":"Stable operator identity and direct-contact evidence remain insufficient to rule out a lead-generation front."},
+    {"name":"Emerald Bay Plumbing","reason":"Division-of-Leap ownership statement requires local/regional-only policy review."},
+    {"name":"GoldStar Insulation","reason":"Broad statewide coverage did not establish qualifying city-level local operations."},
+    {"name":"Wisco Pen Electric","reason":"Inactive corporate status and revoked credential."},
+    {"name":"ESP Generators","reason":"Current detailed pages returned 404 and the live homepage lacked sufficient evidence."},
+    {"name":"Panhandle Generators","reason":"Contractor-referral intermediary rather than the responsible residential service provider."}
+  ]
+}
