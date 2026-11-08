@@ -1,0 +1,56 @@
+{
+  "run": "fill1000aw",
+  "checkedAt": "2026-11-08T16:57:35.000Z",
+  "policy": "Official business websites were reviewed for direct-provider identity, residential category fit and exact city-level operation or service coverage. Search results were discovery only. Google Maps, Google Places, Yelp, Angi, paid APIs and Foursquare were not used.",
+  "candidatesDocumented": 31,
+  "qualifiedBusinesses": 7,
+  "qualifiedNewBusinesses": 6,
+  "qualifiedExistingBusinesses": 1,
+  "duplicateCandidatesWithNoNewPlacement": [
+    "Beebe's Pest & Termite Control",
+    "Cockrell's Body Shop",
+    "GoPest",
+    "Growing Designs Landscaping",
+    "Sexton Lawn & Landscape",
+    "Sun Flooring",
+    "Bama Flooring",
+    "Appliance Doctor",
+    "Independent Appliance",
+    "Purvis Appliance Repair",
+    "Crestview Paint & Body",
+    "Mike's Auto Collision",
+    "Hometown Garage Doors",
+    "Rogers & Grant Septic Services",
+    "Madden Septic Service",
+    "Florida Septic & Sewer Service",
+    "Prater's Insulators",
+    "Blue Line Insulation",
+    "Distributor Appliance Parts",
+    "Cal's Appliance Repair",
+    "Zeb Watts Septic",
+    "Insulation Panama City"
+  ],
+  "rejectedOrExcluded": [
+    {
+      "business": "Destin Collision Inc.",
+      "reason": "Withheld because discovery produced only third-party directory pages and an obsolete directory-hosted URL, not a working independent official business website."
+    },
+    {
+      "business": "Expressway Carpet",
+      "reason": "Withheld because the official page establishes a Mobile flooring showroom but does not expressly establish residential installation by the company rather than product sales."
+    }
+  ],
+  "pending": [],
+  "historicalFlags": [
+    {
+      "business": "WittCo Pools",
+      "city": "crestview-fl",
+      "category": "pool-service",
+      "reason": "Unsupported geography remains unresolved: the current official service-area list does not name Crestview. The historical listing remains visible and is excluded from verified completion counts pending review."
+    },
+    {
+      "business": "Retail Fix It",
+      "reason": "No active public baseline placement was found. Its commercial maintenance-network model remains excluded from residential completion claims."
+    }
+  ]
+}
