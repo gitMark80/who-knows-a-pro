@@ -1,0 +1,38 @@
+{
+  "run": "fill1000au",
+  "publishedCommit": "5f028964380db46b5bf957620791cd7fa52534c3",
+  "productionDeployment": "dpl_3b9HbUxJ8SS7Upw6gyDyEME9cm1p",
+  "liveVerifiedAt": "2026-11-08T04:59:06Z",
+  "status": "published_and_live_verified",
+  "pageChecks": [
+    {"url": "https://whoknowsapro.com/destin-fl/auto-body-collision", "businesses": ["Gross & Son Paint & Body Shop"], "visible": true},
+    {"url": "https://whoknowsapro.com/fort-walton-beach-fl/auto-body-collision", "businesses": ["Gross & Son Paint & Body Shop"], "visible": true},
+    {"url": "https://whoknowsapro.com/pensacola-fl/appliance-repair", "businesses": ["Gulfside Appliance Repair"], "visible": true},
+    {"url": "https://whoknowsapro.com/milton-fl/appliance-repair", "businesses": ["Gulfside Appliance Repair"], "visible": true},
+    {"url": "https://whoknowsapro.com/pace-fl/appliance-repair", "businesses": ["Gulfside Appliance Repair"], "visible": true},
+    {"url": "https://whoknowsapro.com/pensacola-fl/pest-control", "businesses": ["Ham's Pest Control", "Patriot Pest Management", "Pine Grove Pest"], "visible": true},
+    {"url": "https://whoknowsapro.com/crestview-fl/pest-control", "businesses": ["Patriot Pest Management"], "visible": true},
+    {"url": "https://whoknowsapro.com/fort-walton-beach-fl/pest-control", "businesses": ["Patriot Pest Management", "Anchor Pest Control"], "visible": true},
+    {"url": "https://whoknowsapro.com/perdido-key-fl/pest-control", "businesses": ["Patriot Pest Management"], "visible": true},
+    {"url": "https://whoknowsapro.com/mobile-al/pest-control", "businesses": ["Anchor Pest Control"], "visible": true},
+    {"url": "https://whoknowsapro.com/pensacola-fl/auto-body-collision", "businesses": ["Cook's Paint & Body Shop", "Autobody Angels Paint and Salon"], "visible": true},
+    {"url": "https://whoknowsapro.com/perdido-key-fl/auto-body-collision", "businesses": ["Escambia Collision Center"], "visible": true},
+    {"url": "https://whoknowsapro.com/destin-fl/pest-control", "businesses": ["Ham's Pest Control"], "visible": true}
+  ],
+  "officialWebsiteChecks": [
+    {"business": "Gross & Son Paint & Body Shop", "url": "https://grossandson.net/", "identityConfirmed": true},
+    {"business": "Gulfside Appliance Repair", "url": "https://gulfsideappliancerepair.com/", "identityConfirmed": true},
+    {"business": "Patriot Pest Management", "url": "https://www.patriotpest.net/", "identityConfirmed": true},
+    {"business": "Anchor Pest Control", "url": "https://www.anchorpestcontrol.com/", "identityConfirmed": true},
+    {"business": "Cook's Paint & Body Shop", "url": "https://cookspaintandbody.com/collision-repair-services/", "identityConfirmed": true},
+    {"business": "Escambia Collision Center", "url": "https://www.escambiacollision.com/", "identityConfirmed": true},
+    {"business": "Autobody Angels Paint and Salon", "url": "https://autobodyangels.com/", "identityConfirmed": true},
+    {"business": "Ham's Pest Control", "url": "https://www.hampestcontrol.com/", "identityConfirmed": true},
+    {"business": "Pine Grove Pest", "url": "https://pinegrovepest.net/", "identityConfirmed": true}
+  ],
+  "placementsChecked": 17,
+  "affectedPagesChecked": 13,
+  "officialWebsitesChecked": 9,
+  "awaitingDeployment": 0,
+  "awaitingLiveVerification": 0
+}
