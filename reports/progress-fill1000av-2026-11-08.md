@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000av prepared checkpoint — 2026-11-08
+# Who Knows a Pro fill1000av published checkpoint — 2026-11-08
 
 ## Baseline and catalog
 
@@ -9,16 +9,17 @@
 - Grayton Beach is active; Pensacola Beach is not an active-city substitute.
 - Towing and Locksmith remain hidden and their stored data is preserved.
 
-## Prepared additions
+## Published and live-verified additions
 
 - Distinct new businesses absent from the fixed baseline: **1**
 - Placements from new businesses: **3**
 - Placements from previously listed businesses: **2**
-- Exact shortfall against the 1,000-new-business run target pending publication and live verification: **999**
+- Total published and live-verified placements: **5**
+- Exact shortfall against the 1,000-new-business run target: **999**
 
-All proposed records target pages below 20. No city or category is created, activated, renamed or unhidden, and no existing record is deleted or rewritten.
+All published records target pages that were below 20 at the fixed baseline. No city or category was created, activated, renamed or unhidden, and no existing record was deleted or rewritten.
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Crestview | Irrigation & Sprinkler Repair | 12 | 1 | 13 | 7 |
 | Destin | Insulation | 19 | 1 | 20 | 0 |
@@ -26,7 +27,7 @@ All proposed records target pages below 20. No city or category is created, acti
 | Fort Walton Beach | Irrigation & Sprinkler Repair | 15 | 1 | 16 | 4 |
 | Panama City Beach | Insulation | 13 | 1 | 14 | 6 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **191**
 - Pages below 20: **929**
@@ -38,7 +39,7 @@ These are deduplicated rendered-record counts, not a fresh evidence audit of eve
 ## Candidate disposition
 
 - Candidates documented: **29**
-- Qualified businesses prepared: **2** (1 new, 1 previously listed)
+- Qualified businesses published: **2** (1 new, 1 previously listed)
 - Duplicate candidates with no new placement: **17**
 - Rejected or excluded: **7**
 - Pending: **3**
@@ -49,4 +50,4 @@ A To Z Appliance Repair remains pending because an identically named historical 
 
 WittCo Pools' historical Crestview pool-service placement is flagged for unsupported geography because the current official service-area list does not name Crestview. It has not been deleted or hidden and is excluded from verified completion counts pending review.
 
-This batch is prepared but not yet published. Committed, deployed and live-verified statuses remain distinct; no prepared addition counts as completed until production visibility and official destination checks pass.
+Publication commit: `d66d5628dd3b6671ad023b2843db16a914267332`. Production deployment `dpl_HmNP8jN4rR3aK9EoU9WdbXQ7CnTf` reached READY. All five placements were visible on their five affected public pages, and both official business-site destinations resolved to the intended businesses at `2026-11-08T11:01:13Z`. Nothing remains awaiting deployment or live verification from this batch. Displayed counts are not certification of every historical listing; unaudited historical coverage remains unknown.
