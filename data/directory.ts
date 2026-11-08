@@ -34,6 +34,7 @@ import verifiedFill1000aqData from './verified-coverage-2026-11-06-fill1000aq.js
 import verifiedFill1000arData from './verified-coverage-2026-11-07-fill1000ar.json';
 import verifiedFill1000asData from './verified-coverage-2026-11-07-fill1000as.json';
 import verifiedFill1000atData from './verified-coverage-2026-11-07-fill1000at.json';
+import verifiedFill1000auData from './verified-coverage-2026-11-07-fill1000au.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -41,7 +42,7 @@ type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
 type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; summary?: string; sourceUrl?: string; sourceVerifiedAt?: string };
-const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData];
+const verifiedActiveProvidersData = [...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData, ...verifiedFill1000auData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(

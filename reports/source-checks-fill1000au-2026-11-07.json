@@ -1,0 +1,31 @@
+{
+  "run": "fill1000au",
+  "checkedAt": "2026-11-08T04:51:23.000Z",
+  "policy": "Official business websites were reviewed for direct-provider identity, residential or consumer category fit and city-level or documented county coverage. Search results were discovery only. Google Maps, Google Places, Yelp, Angi, paid APIs and Foursquare were not used.",
+  "qualifiedBusinesses": 9,
+  "qualifiedNewBusinesses": 2,
+  "qualifiedExistingBusinesses": 7,
+  "duplicateCandidatesWithNoNewPlacement": [
+    "Crestview Paint & Body",
+    "Mike's Auto Collision",
+    "Purvis Appliance Repair LLC",
+    "Home Appliance Service of Destin",
+    "Cal's Appliance Repair",
+    "Dobbs Appliance Repair LLC",
+    "Appliance Doctor",
+    "Independent Appliance",
+    "SWAT Pest Control",
+    "Hometown Garage Doors LLC",
+    "Southern Garage Doors LLC",
+    "Marker 21 Boatyard & Marina",
+    "Pinhook Marine Services",
+    "Keep It Wet Concrete LLC"
+  ],
+  "rejectedOrExcluded": [
+    {"business": "Gerber Collision & Glass", "reason": "Excluded as a large national collision brand under the local/regional-only policy."},
+    {"business": "Classic Collision", "reason": "Excluded as a multi-state collision chain rather than a local or small regional brand."},
+    {"business": "The Paint Booth Body Shop", "reason": "Withheld because no working independent official business site was found; available results were directory or hosted listing pages."},
+    {"business": "Retail Fix It", "reason": "No active public baseline placement was found, and its commercial maintenance-network model remains excluded from residential completion claims."}
+  ],
+  "pending": []
+}
