@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-11-08T23:00:13.501Z",
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
   "baselineCommit": "9e98fce697d07c37f67b0a5c3f691b1de0c39462",
   "baselinePreserved": 14462,
   "distinctNewBusinessesPrepared": 5,
@@ -8,7 +8,10 @@
   "existingBusinessPlacementsPrepared": 0,
   "placementsPrepared": 11,
   "targetDistinctNewBusinesses": 1000,
-  "shortfallPendingLiveVerification": 995,
+  "shortfallAgainstTarget": 995,
+  "publishedCommit": "a4a24025d0bdb599c596c40a1e115b2a07be5721",
+  "productionDeployment": "dpl_6t8qTW9yF8jhPJyUyaNhXPVfCkaP",
+  "liveVerifiedAt": "2026-11-08T23:04:47Z",
   "coverage": {
     "totalPages": 1120,
     "pagesAt20": 194,

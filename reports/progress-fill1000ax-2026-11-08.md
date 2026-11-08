@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000ax prepared checkpoint — 2026-11-08
+# Who Knows a Pro fill1000ax published checkpoint — 2026-11-08
 
 ## Baseline and catalog
 
@@ -9,16 +9,16 @@
 - Grayton Beach is active; Pensacola Beach is not active.
 - Towing and Locksmith remain hidden and their stored data is preserved.
 
-## Prepared additions
+## Published and live-verified additions
 
 - Distinct new businesses absent from the fixed baseline: **5**
 - Placements from new businesses: **11**
 - Placements from previously listed businesses: **0**
-- Exact shortfall against the 1,000-new-business run target before publication and live verification: **995**
+- Exact shortfall against the 1,000-new-business run target: **995**
 
-All prepared records target pages that were below 20 at the fixed baseline. No city or category was created, activated, renamed or unhidden, and no existing listing was deleted. A legacy exclusion for `precisiondoormobile.com` was removed only after the current official site established local owners, residential service, direct operations and exact-city coverage; the other Precision and national-brand exclusions remain unchanged.
+All published records target pages that were below 20 at the fixed baseline. No city or category was created, activated, renamed or unhidden, and no existing listing was deleted. A legacy exclusion for `precisiondoormobile.com` was removed only after the current official site established local owners, residential service, direct operations and exact-city coverage; the other Precision and national-brand exclusions remain unchanged.
 
-| City | Category | Baseline displayed | Prepared | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Daphne | Garage Door Repair | 10 | 1 | 11 | 9 |
 | Fairhope | Garage Door Repair | 9 | 1 | 10 | 10 |
@@ -30,7 +30,7 @@ All prepared records target pages that were below 20 at the fixed baseline. No c
 | Mobile | Septic Services | 9 | 2 | 11 | 9 |
 | Orange Beach | Garage Door Repair | 9 | 1 | 10 | 10 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **194**
 - Pages below 20: **926**
@@ -42,11 +42,11 @@ These are deduplicated rendered-record counts, not a fresh evidence audit of eve
 ## Candidate disposition
 
 - Candidates documented: **43**
-- Qualified businesses prepared: **5** (all new to the fixed baseline directory)
+- Qualified businesses published: **5** (all new to the fixed baseline directory)
 - Duplicate candidates with no new placement: **34**
 - Rejected or excluded: **5**
 - Pending: **1**
 
 Northwest Florida Gutters remains pending because its official pages provide service and city claims but no verifiable owner, phone or operating address. Generic appliance-routing pages, an uncorroborated newly generated garage-door site, and a national garage-door branch without separate ownership evidence were withheld. Retail Fix It remains excluded as a commercial maintenance network. WittCo Pools' historical Crestview pool-service placement remains flagged for unsupported geography and has not been deleted or hidden.
 
-Publication and live verification remain pending for this checkpoint. Prepared changes must not be counted as completed additions until the main-branch deployment is ready, all 11 placements render on the nine affected public pages, and all five official business links resolve to the intended providers.
+Publication commit: `a4a24025d0bdb599c596c40a1e115b2a07be5721`. Production deployment `dpl_6t8qTW9yF8jhPJyUyaNhXPVfCkaP` reached READY. All 11 placements were visible on their nine affected public pages, and all five official business destinations resolved to the intended businesses at `2026-11-08T23:04:47Z`. Nothing remains awaiting deployment or live verification from this batch. Displayed counts are not certification of every historical listing; unaudited historical coverage remains unknown.

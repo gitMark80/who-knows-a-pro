@@ -1,0 +1,25 @@
+{
+  "run": "fill1000ax",
+  "verifiedAt": "2026-11-08T23:04:47Z",
+  "publishedCommit": "a4a24025d0bdb599c596c40a1e115b2a07be5721",
+  "productionDeployment": "dpl_6t8qTW9yF8jhPJyUyaNhXPVfCkaP",
+  "deploymentState": "READY",
+  "pages": [
+    {"url": "https://whoknowsapro.com/mobile-al/auto-body-collision", "displayedCount": 6, "verifiedBusinesses": ["Onsite Auto Solutions", "Spectrum Collision Centers"]},
+    {"url": "https://whoknowsapro.com/mobile-al/plumbing", "displayedCount": 20, "verifiedBusinesses": ["DrainBusters Plumbing & Septic"]},
+    {"url": "https://whoknowsapro.com/mobile-al/septic-services", "displayedCount": 11, "verifiedBusinesses": ["DrainBusters Plumbing & Septic", "Quality Septic LLC"]},
+    {"url": "https://whoknowsapro.com/mobile-al/garage-door-repair", "displayedCount": 9, "verifiedBusinesses": ["Precision Garage Door Service of Mobile"]},
+    {"url": "https://whoknowsapro.com/daphne-al/garage-door-repair", "displayedCount": 11, "verifiedBusinesses": ["Precision Garage Door Service of Mobile"]},
+    {"url": "https://whoknowsapro.com/fairhope-al/garage-door-repair", "displayedCount": 10, "verifiedBusinesses": ["Precision Garage Door Service of Mobile"]},
+    {"url": "https://whoknowsapro.com/foley-al/garage-door-repair", "displayedCount": 11, "verifiedBusinesses": ["Precision Garage Door Service of Mobile"]},
+    {"url": "https://whoknowsapro.com/gulf-shores-al/garage-door-repair", "displayedCount": 12, "verifiedBusinesses": ["Precision Garage Door Service of Mobile"]},
+    {"url": "https://whoknowsapro.com/orange-beach-al/garage-door-repair", "displayedCount": 10, "verifiedBusinesses": ["Precision Garage Door Service of Mobile"]}
+  ],
+  "officialWebsites": [
+    {"business": "Precision Garage Door Service of Mobile", "requestedUrl": "https://precisiondoormobile.com/", "finalUrl": "https://precisiondoormobile.com/", "identityVerified": true},
+    {"business": "Onsite Auto Solutions", "requestedUrl": "https://www.onsiteautosolutions.com/", "finalUrl": "https://www.onsiteautosolutions.com/", "identityVerified": true},
+    {"business": "Spectrum Collision Centers", "requestedUrl": "https://speccol.com/", "finalUrl": "https://speccol.com/", "identityVerified": true},
+    {"business": "DrainBusters Plumbing & Septic", "requestedUrl": "https://calldrainbusters.com/", "finalUrl": "https://calldrainbusters.com/", "identityVerified": true},
+    {"business": "Quality Septic LLC", "requestedUrl": "https://qualitysepticanddrain.com/", "finalUrl": "https://qualitysepticanddrain.com/", "identityVerified": true}
+  ]
+}
