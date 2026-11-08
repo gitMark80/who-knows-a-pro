@@ -1,0 +1,59 @@
+{
+  "run": "fill1000ax",
+  "checkedAt": "2026-11-08T22:58:00.000Z",
+  "policy": "Official business websites were reviewed for direct-provider identity, residential or consumer category fit and exact city-level operation or service coverage. Search results were discovery only. Google Maps, Google Places, Yelp, Angi, paid APIs and Foursquare were not used.",
+  "candidatesDocumented": 43,
+  "qualifiedBusinesses": 5,
+  "qualifiedNewBusinesses": 5,
+  "qualifiedExistingBusinesses": 0,
+  "duplicateCandidatesWithNoNewPlacement": [
+    "Affordable Auto Painting & Collision",
+    "Rettig Auto Body",
+    "Superior Scapes",
+    "SAR Services LLC",
+    "Alabama Tank Service",
+    "Plumbco",
+    "P&C Septic Solutions",
+    "Baldwin County Sewer Service",
+    "Steven Boyett's Septic Service",
+    "A1 Collision Repair",
+    "All Pro Paint and Body",
+    "Emerald Coast Collision Repair",
+    "Home Appliance Service",
+    "Purvis Appliance Repair",
+    "Distributor Appliance Parts",
+    "Dobbs Appliance Repair",
+    "Appliance Center of Panama City",
+    "Appliance Doctor",
+    "Independent Appliance",
+    "Sun State Gutters",
+    "Architectural Gutters",
+    "Keep It Wet Concrete",
+    "Absolute Installation",
+    "Payne Pool Professionals",
+    "Aqua Pool & Patio",
+    "House2House Irrigation",
+    "Sunshine Irrigation",
+    "Terry's Irrigation",
+    "Casey Electric",
+    "Colson Electric",
+    "Brandow's Services",
+    "Lawnmasters",
+    "Parker Septic",
+    "Parrish Land Management"
+  ],
+  "rejectedOrExcluded": [
+    {"business": "Ware Appliance Repair", "reason": "Withheld because the templated city page did not establish a separately verifiable local business identity beyond a generic appliance-repair landing page."},
+    {"business": "Mobile Appliance Repair", "reason": "Withheld because the site presents broad appointment routing across many cities without verifiable local ownership or an identified operating business."},
+    {"business": "Aamas Overhead Door", "reason": "Withheld because the newly generated site lacked corroborated ownership and operating-identity evidence sufficient for publication."},
+    {"business": "OGD Mobile", "reason": "Withheld because the local page did not establish separate local ownership for this brand location, as required for franchise or branch counting."},
+    {"business": "Destin Collision Inc.", "reason": "Withheld because only third-party directory pages and an obsolete directory-hosted URL were found, not a working independent official business website."}
+  ],
+  "pending": [
+    {"business": "Northwest Florida Gutters", "reason": "Official pages assert residential gutter installation and exact cities, but the site exposes no owner, phone or operating address and remains pending identity review because it may be a lead-generation page."}
+  ],
+  "historicalFlags": [
+    {"business": "WittCo Pools", "city": "crestview-fl", "category": "pool-service", "reason": "Unsupported geography remains unresolved: the current official service-area list does not name Crestview. The historical listing remains visible and is excluded from verified completion counts pending review."},
+    {"business": "Retail Fix It", "reason": "No active public baseline placement was found. Its commercial maintenance-network model remains excluded from residential completion claims."}
+  ]
+}

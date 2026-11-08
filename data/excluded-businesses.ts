@@ -232,7 +232,6 @@ export const excludedWebsiteDomains = [
   'precisiondoor.net',
   'precisiondoor-swfl.com',
   'precisiondoorgulfport.com',
-  'precisiondoormobile.com',
   'precisiondoorpensacola.com',
   'premierpoolsandspas.com',
   'progressive.com',
