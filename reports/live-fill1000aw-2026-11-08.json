@@ -1,0 +1,35 @@
+{
+  "run": "fill1000aw",
+  "publishedCommit": "a658497d0f18faebc82bb197bf4655720195d636",
+  "productionDeployment": "dpl_8jwZk5DSYhGUfVyrnQqBeYRkM1ya",
+  "liveVerifiedAt": "2026-11-08T17:04:15Z",
+  "status": "published_and_live_verified",
+  "pageChecks": [
+    {"url": "https://whoknowsapro.com/crestview-fl/pest-control", "businesses": ["Waynes Pest Control"], "visible": true},
+    {"url": "https://whoknowsapro.com/destin-fl/pest-control", "businesses": ["Waynes Pest Control"], "visible": true},
+    {"url": "https://whoknowsapro.com/foley-al/flooring", "businesses": ["Wade Distributors Inc.", "W & W Flooring and Design", "American Flooring, Cabinets & Granite"], "visible": true},
+    {"url": "https://whoknowsapro.com/foley-al/kitchen-bath-remodeling", "businesses": ["American Flooring, Cabinets & Granite"], "visible": true},
+    {"url": "https://whoknowsapro.com/fort-walton-beach-fl/pest-control", "businesses": ["Waynes Pest Control"], "visible": true, "displayedCount": 20},
+    {"url": "https://whoknowsapro.com/mobile-al/flooring", "businesses": ["Wade Distributors Inc.", "TS Wall & Sons, Inc.", "American Flooring, Cabinets & Granite", "T&H Construction"], "visible": true},
+    {"url": "https://whoknowsapro.com/mobile-al/kitchen-bath-remodeling", "businesses": ["TS Wall & Sons, Inc.", "American Flooring, Cabinets & Granite", "T&H Construction"], "visible": true, "displayedCount": 20},
+    {"url": "https://whoknowsapro.com/mobile-al/pool-installation", "businesses": ["T&H Construction"], "visible": true},
+    {"url": "https://whoknowsapro.com/mobile-al/pool-service", "businesses": ["T&H Construction"], "visible": true},
+    {"url": "https://whoknowsapro.com/panama-city-beach-fl/pest-control", "businesses": ["Waynes Pest Control"], "visible": true},
+    {"url": "https://whoknowsapro.com/panama-city-fl/generator-installation", "businesses": ["Sundew Solar LLC"], "visible": true},
+    {"url": "https://whoknowsapro.com/panama-city-fl/pest-control", "businesses": ["Waynes Pest Control"], "visible": true}
+  ],
+  "officialWebsiteChecks": [
+    {"business": "Sundew Solar LLC", "url": "https://www.sundewsolar.com/generator-installation-services/", "identityConfirmed": true},
+    {"business": "Wade Distributors Inc.", "url": "https://www.wadedistributorsinc.com/", "identityConfirmed": true},
+    {"business": "TS Wall & Sons, Inc.", "url": "https://www.tswall.com/about-us", "identityConfirmed": true},
+    {"business": "W & W Flooring and Design", "url": "https://www.wandwflooring.com/", "identityConfirmed": true},
+    {"business": "American Flooring, Cabinets & Granite", "url": "https://americanfcg.com/", "identityConfirmed": true},
+    {"business": "T&H Construction", "url": "https://www.tnhconstructionllc.co/", "identityConfirmed": true},
+    {"business": "Waynes Pest Control", "url": "https://callwaynes.com/florida/", "identityConfirmed": true}
+  ],
+  "placementsChecked": 19,
+  "affectedPagesChecked": 12,
+  "officialWebsitesChecked": 7,
+  "awaitingDeployment": 0,
+  "awaitingLiveVerification": 0
+}
