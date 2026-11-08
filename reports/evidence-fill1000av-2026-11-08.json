@@ -1,0 +1,51 @@
+{
+  "run": "fill1000av",
+  "baselineCommit": "50371e1d3e1d031992c763178768d2fb1bf09bb9",
+  "baselinePlacements": 14438,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Curtis Williams Services",
+      "website": "https://www.cwsbuilds.com/sprinkler-irrigation-services-fort-walton-beach-destin",
+      "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl"],
+      "trades": ["irrigation-sprinkler-repair"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official Curtis Williams Services page identifies the locally owned company as the provider directly performing sprinkler troubleshooting, leak repair, pump work, head replacement and timer service.",
+      "customerScope": "residential",
+      "customerEvidence": "The official service page expressly offers residential sprinkler and irrigation repair for homeowners, including yard-system leaks, pumps, valves, heads, timers and seasonal adjustments.",
+      "customerSourceUrl": "https://www.cwsbuilds.com/sprinkler-irrigation-services-fort-walton-beach-destin",
+      "geographicEvidence": "The official sprinkler and irrigation service page explicitly names Fort Walton Beach, Destin and Crestview as communities served by the locally owned Fort Walton Beach operation.",
+      "geographicSourceUrl": "https://www.cwsbuilds.com/sprinkler-irrigation-services-fort-walton-beach-destin",
+      "identityEvidence": "The branded cwsbuilds.com page identifies Curtis Williams Services as the locally owned Fort Walton Beach provider and supplies direct contact information for scheduling its work.",
+      "officialWebsiteFinalUrl": "https://www.cwsbuilds.com/sprinkler-irrigation-services-fort-walton-beach-destin",
+      "evidenceNote": "Locally owned Fort Walton Beach direct provider whose official service page supports residential sprinkler repair, leak and pump work and explicitly names Crestview, Destin and Fort Walton Beach.",
+      "sourceUrl": "https://www.cwsbuilds.com/sprinkler-irrigation-services-fort-walton-beach-destin",
+      "sourceVerifiedAt": "2026-11-08T10:52:28.000Z",
+      "supportingUrls": ["https://www.cwsbuilds.com/sprinkler-irrigation-services-fort-walton-beach-destin"],
+      "baselineIdentity": "new",
+      "duplicateCheck": "Normalized name and cwsbuilds.com were absent from all 14,438 fixed-baseline placements; no alternate-domain or renamed-brand match was found."
+    },
+    {
+      "name": "Blue Line Insulation",
+      "website": "https://flneedsprayfoam.com/",
+      "regions": ["destin-fl", "panama-city-beach-fl"],
+      "trades": ["insulation"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official Blue Line site identifies the family-owned, licensed and insured company as the contractor directly installing spray foam, fiberglass and blown-in insulation and removing old insulation.",
+      "customerScope": "residential",
+      "customerEvidence": "The official site expressly offers residential attic, wall and crawl-space insulation for homes, including new construction, existing-home upgrades and insulation removal.",
+      "customerSourceUrl": "https://flneedsprayfoam.com/",
+      "geographicEvidence": "The official company FAQ explicitly names Panama City, Panama City Beach and Destin among the Emerald Coast communities where Blue Line performs insulation work.",
+      "geographicSourceUrl": "https://flneedsprayfoam.com/",
+      "identityEvidence": "The branded official domain identifies Blue Line Insulation of ECB, names its family owners, and presents the company's direct licensed and insured insulation services and customer contact.",
+      "officialWebsiteFinalUrl": "https://flneedsprayfoam.com/",
+      "evidenceNote": "Family-owned direct insulation contractor whose official site supports residential spray-foam, fiberglass and attic insulation and explicitly names Destin, Panama City Beach and Panama City service.",
+      "sourceUrl": "https://flneedsprayfoam.com/",
+      "sourceVerifiedAt": "2026-11-08T10:52:28.000Z",
+      "supportingUrls": ["https://flneedsprayfoam.com/"],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "flneedsprayfoam.com already existed on the fixed baseline for Panama City insulation; Destin and Panama City Beach were absent and are the only proposed placements."
+    }
+  ]
+}

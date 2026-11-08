@@ -1,0 +1,46 @@
+{
+  "run": "fill1000av",
+  "checkedAt": "2026-11-08T10:52:28.000Z",
+  "policy": "Official business websites were reviewed for direct-provider identity, residential category fit and exact city-level service coverage. Search results were discovery only. Google Maps, Google Places, Yelp, Angi, paid APIs and Foursquare were not used.",
+  "candidatesDocumented": 29,
+  "qualifiedBusinesses": 2,
+  "qualifiedNewBusinesses": 1,
+  "qualifiedExistingBusinesses": 1,
+  "duplicateCandidatesWithNoNewPlacement": [
+    "Crestview Paint & Body",
+    "Mike's Auto Collision",
+    "Home Appliance Service of Destin",
+    "Emerald Coast Appliance Service",
+    "Purvis Appliance Repair LLC",
+    "Independent Appliance",
+    "Dobbs Appliance Repair LLC",
+    "Appliance Doctor",
+    "Cal's Appliance Repair",
+    "DAPI Appliance Repair",
+    "Davis Appliance Repair",
+    "Patriot Pest Management",
+    "SWAT Pest Control",
+    "Hometown Garage Doors LLC",
+    "Southern Garage Doors LLC",
+    "Marker 21 Boatyard & Marina",
+    "Pinhook Marine Services"
+  ],
+  "rejectedOrExcluded": [
+    {"business": "Solve All Appliance Repair", "reason": "Rejected because the previously identified official solveall.biz page now returns 404."},
+    {"business": "Legends Body Shop", "reason": "Withheld because the purported official website was not accessible and available results did not provide a working independent official business site."},
+    {"business": "Professional Auto Body of Panama City", "reason": "Withheld because its official website returned a server error and could not be verified as a working destination."},
+    {"business": "Precision Auto Body of Crestview", "reason": "Withheld because no working independent official business website was found."},
+    {"business": "Gerber Collision & Glass", "reason": "Excluded as a large national collision brand under the local or small-regional provider policy."},
+    {"business": "Classic Collision", "reason": "Excluded as a multi-state collision chain rather than a local or small regional brand."},
+    {"business": "Overhead Door Company", "reason": "Excluded as a national brand rather than an independently verified local or small regional business identity."}
+  ],
+  "pending": [
+    {"business": "A To Z Appliance Repair", "reason": "Pending identity resolution: the fixed baseline already contains A to Z Appliance Repair under appliance-repairs-destin.fl-biz.com, so atoznwfl.com cannot be counted as a distinct new business or placed without resolving the possible alternate-domain identity."},
+    {"business": "Fort Walton Beach Insulation", "reason": "Pending because the generic site lacks a named operator, license or other evidence sufficient to establish a real direct-provider identity rather than a lead-generation site."},
+    {"business": "Precision Marine Maintenance", "reason": "Pending because the official site displays a placeholder telephone number and operating-history claims inconsistent with the May 2026 Florida company filing."}
+  ],
+  "historicalFlags": [
+    {"business": "WittCo Pools", "city": "crestview-fl", "category": "pool-service", "reason": "Unsupported geography: the current official service-area list names Destin, Fort Walton Beach, Miramar Beach, Santa Rosa Beach, Sandestin, Shalimar, Freeport, Niceville and Bluewater Bay, but not Crestview. The historical listing remains visible and is excluded from verified completion counts pending review."},
+    {"business": "Retail Fix It", "reason": "No active public baseline placement was found. Its commercial maintenance-network model remains excluded from residential completion claims."}
+  ]
+}
