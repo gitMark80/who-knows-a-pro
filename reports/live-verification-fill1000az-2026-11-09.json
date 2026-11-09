@@ -1,0 +1,71 @@
+{
+  "run": "fill1000az",
+  "verifiedAt": "2026-11-09T11:03:21Z",
+  "publishedCommit": "0430c135ba0b54cce89332ce47a51bad8477fe7a",
+  "productionDeployment": "dpl_5QVhkt8kSrm35DefY8ZmQxnNTazT",
+  "deploymentState": "READY",
+  "summary": {
+    "distinctNewBusinessesPublishedAndLiveVerified": 4,
+    "newBusinessPlacementsPublishedAndLiveVerified": 6,
+    "existingBusinessPlacementsPublishedAndLiveVerified": 0,
+    "placementsPublishedAndLiveVerified": 6,
+    "affectedPagesVerified": 5,
+    "officialDestinationsVerified": 4,
+    "targetDistinctNewBusinesses": 1000,
+    "newBusinessShortfall": 996
+  },
+  "pages": [
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/auto-body-collision",
+      "displayedCount": 9,
+      "verifiedBusinesses": ["Legends Body Shop & Classic Car Restoration"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/auto-body-collision",
+      "displayedCount": 4,
+      "verifiedBusinesses": ["Legends Body Shop & Classic Car Restoration"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/appliance-repair",
+      "displayedCount": 11,
+      "verifiedBusinesses": ["ML Florida Services LLC"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/tree-service",
+      "displayedCount": 17,
+      "verifiedBusinesses": ["Bayside Tree Service"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/tree-service",
+      "displayedCount": 11,
+      "verifiedBusinesses": ["Bayside Tree Service", "Panhandle Bucket Work LLC"]
+    }
+  ],
+  "officialWebsites": [
+    {
+      "business": "Legends Body Shop & Classic Car Restoration",
+      "requestedUrl": "https://legendsautobody.com/",
+      "finalUrl": "https://legendsautobody.com/",
+      "identityConfirmed": true
+    },
+    {
+      "business": "ML Florida Services LLC",
+      "requestedUrl": "https://mlfloridaservices.com/",
+      "finalUrl": "https://mlfloridaservices.com/",
+      "identityConfirmed": true
+    },
+    {
+      "business": "Bayside Tree Service",
+      "requestedUrl": "https://baysidetreeservicefl.com/",
+      "finalUrl": "https://baysidetreeservicefl.com/",
+      "identityConfirmed": true
+    },
+    {
+      "business": "Panhandle Bucket Work LLC",
+      "requestedUrl": "https://panhandlebucketworkllc.com/",
+      "finalUrl": "https://panhandlebucketworkllc.com/",
+      "identityConfirmed": true
+    }
+  ],
+  "awaitingDeploymentOrLiveVerification": []
+}

@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000az prepared checkpoint — 2026-11-09
+# Who Knows a Pro fill1000az published checkpoint — 2026-11-09
 
 ## Run baseline and scope
 
@@ -10,15 +10,15 @@
 - Towing and Locksmith remain hidden with the other hidden categories; no category or city was created, activated, renamed, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published and live-verified additions
 
 - Distinct new businesses absent from the fixed baseline: **4**
 - Placements from those new businesses: **6**
 - Placements from businesses already present at baseline: **0**
 - New-business target: 1,000
-- Exact new-business shortfall before publication and live verification: **996**
+- Exact new-business shortfall: **996**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Panama City | Appliance Repair | 10 | 1 | 11 | 9 |
 | Panama City | Auto Body & Collision | 8 | 1 | 9 | 11 |
@@ -26,7 +26,7 @@
 | Panama City Beach | Auto Body & Collision | 3 | 1 | 4 | 16 |
 | Panama City Beach | Tree Service | 9 | 2 | 11 | 9 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **197**
 - Pages below 20: **923**
@@ -39,7 +39,11 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 - Each prepared placement has official-site evidence for direct-provider identity, residential or consumer category fit, and specific city, county or local-operation coverage.
 - JSON parsing, catalog slugs, placement IDs/slugs, normalized-domain duplicate checks, fixed-baseline preservation and coverage calculation passed.
-- Publication, deployment and live verification are still pending at this checkpoint.
+- GitHub `main` publication commit: `0430c135ba0b54cce89332ce47a51bad8477fe7a`.
+- Vercel production deployment `dpl_5QVhkt8kSrm35DefY8ZmQxnNTazT` reached `READY` for that exact commit.
+- All six placements were visibly present with the expected counts on the five intended live city/category pages.
+- All four live directory website links resolved to the intended official business identities at `2026-11-09T11:03:21Z`.
+- Nothing from this batch remains awaiting deployment or live verification.
 
 ## Pending and historical-review notes
 
