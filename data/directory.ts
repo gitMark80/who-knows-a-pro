@@ -38,6 +38,7 @@ import verifiedFill1000auData from './verified-coverage-2026-11-07-fill1000au.js
 import verifiedFill1000avData from './verified-coverage-2026-11-08-fill1000av.json';
 import verifiedFill1000awData from './verified-coverage-2026-11-08-fill1000aw.json';
 import verifiedFill1000axData from './verified-coverage-2026-11-08-fill1000ax.json';
+import verifiedFill1000ayData from './verified-coverage-2026-11-08-fill1000ay.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -45,7 +46,7 @@ type TradeSlug = (typeof trades)[number]['slug'];
 type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
 type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; summary?: string; sourceUrl?: string; sourceVerifiedAt?: string };
-const verifiedActiveProvidersData = [...verifiedFill1000axData, ...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData, ...verifiedFill1000auData, ...verifiedFill1000avData, ...verifiedFill1000awData];
+const verifiedActiveProvidersData = [...verifiedFill1000ayData, ...verifiedFill1000axData, ...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData, ...verifiedFill1000auData, ...verifiedFill1000avData, ...verifiedFill1000awData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(
@@ -579,7 +580,31 @@ const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedP
     return true;
   });
 
-export const directorySeed = [...clusterDirectorySeed, ...verifiedDirectorySeed].filter((business) => !isExcludedWebsite(business.website));
+// Global brand exclusions remain in force. These placement-scoped exceptions are
+// limited to branches whose current official pages independently establish a
+// direct residential provider, the exact category and the exact target city.
+const auditedExcludedDomainPlacements = new Set([
+  ...['crestview-fl', 'destin-fl', 'fort-walton-beach-fl', 'panama-city-fl', 'panama-city-beach-fl']
+    .flatMap((region) => [
+      `${region}|garage-door-repair|${normalizedWebsite('https://destinoverheaddoor.com/')}`,
+      `${region}|garage-door-repair|${normalizedWebsite('https://precisiondoorpensacola.com/')}`,
+    ]),
+  ...['panama-city-fl', 'panama-city-beach-fl'].flatMap((region) => [
+    `${region}|pest-control|${normalizedWebsite('https://www.terminix.com/exterminators/fl/panama-city-2622/')}`,
+    `${region}|pest-control|${normalizedWebsite('https://www.orkin.com/locations/branch-230')}`,
+    `${region}|pool-installation|${normalizedWebsite('https://www.asppoolco.com/panama-city/')}`,
+    `${region}|pool-service|${normalizedWebsite('https://www.asppoolco.com/panama-city/')}`,
+  ]),
+]);
+
+export function isAuditedExcludedDomainPlacement(business: { region: string; trade: string; website: string }) {
+  return auditedExcludedDomainPlacements.has(`${business.region}|${business.trade}|${normalizedWebsite(business.website)}`);
+}
+
+export const directorySeed = [...clusterDirectorySeed, ...verifiedDirectorySeed].filter((business) =>
+  !isExcludedWebsite(business.website)
+  || isAuditedExcludedDomainPlacement(business),
+);
 
 export const directoryStats = {
   cities: activeRegions.length,

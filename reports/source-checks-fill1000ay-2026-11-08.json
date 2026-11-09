@@ -1,0 +1,25 @@
+{
+  "run": "fill1000ay",
+  "checkedAt": "2026-11-09T04:53:10.000Z",
+  "policy": "Official business websites were reviewed for direct-provider identity, residential or consumer category fit and exact city-level operation or service coverage. Search results were discovery only. Google Maps, Google Places, Yelp, Angi, paid APIs and Foursquare were not used.",
+  "candidatesDocumented": 54,
+  "qualifiedBusinesses": 7,
+  "qualifiedNewBusinesses": 5,
+  "qualifiedExistingBusinesses": 2,
+  "duplicateCandidatesWithNoNewPlacement": [
+    "Independent Appliance", "Appliance Doctor", "Dobbs Appliance Repair", "Mike's Auto Collision", "Crestview Paint & Body", "Fort Walton Beach Auto & Body Repair", "All Pro Paint and Body", "Beal Parkway Auto and Body", "Miracle Strip Body Shop", "Emerald Coast Collision Repair", "A1 Collision Repair", "Gulf Coast Shutter", "Destin Glass", "Storm Force Hurricane Shutters", "Brannan Aluminum", "The Chill Penguin", "Prime Tyme Insulation", "Carter Insulation", "Rite Way Insulation Company", "Sun State Services", "Keep It Wet Concrete", "Abraham's Concrete Service and More", "Architectural Gutter Systems", "Cook's Pest Control", "SWAT Pest Control", "I Can Do All Things Pest Control", "Waynes Pest Control", "Hometown Garage Doors", "Southern Garage Doors", "Pinckard Garage Doors", "Garage Door Guru", "Affordable Garage Door Repair", "Blue Water Garage Door Services", "American Garage Door", "Ameripro Garage Doors", "Patriot Pool & Spa", "Aqua Pool & Patio", "Panama Pools & Spas", "Cox Pools", "Payne Pool Professionals", "Johnson Pools", "Waterclear Pools"
+  ],
+  "rejectedOrExcluded": [
+    {"business": "The Appliance Center", "reason": "Withheld because current official content establishes appliance sales and parts but not sufficiently clear direct residential repair or installation for the target page."},
+    {"business": "Precision Auto Body", "reason": "Withheld because no working independent official business website was found; a third-party collision-network profile is insufficient."},
+    {"business": "Fort Walton Beach Insulation", "reason": "Withheld pending operating-identity corroboration because the newly published site uses generic local-pro language and does not yet establish accountable ownership beyond the landing page."}
+  ],
+  "pending": [
+    {"business": "Coastal Insulation", "reason": "Pending because the current branch identity and residential service can be corroborated, but exact eligible city placements need a current official service-area source rather than third-party records."},
+    {"business": "Arrow/Stark Exterminators – Panama City", "reason": "Pending because acquisition and branch evidence exist but the current official service-center page and exact residential coverage were not both established during this run."}
+  ],
+  "historicalFlags": [
+    {"business": "WittCo Pools", "city": "crestview-fl", "category": "pool-service", "reason": "Unsupported geography remains unresolved: the current official service-area list does not name Crestview. The historical listing remains visible and is excluded from verified completion counts pending review."},
+    {"business": "Retail Fix It", "reason": "No active public baseline placement was found. Its commercial maintenance-network model remains excluded from residential completion claims."}
+  ]
+}

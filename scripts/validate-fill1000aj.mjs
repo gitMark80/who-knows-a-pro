@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import { directorySeed } from '../data/directory.ts';
+import { directorySeed, isAuditedExcludedDomainPlacement } from '../data/directory.ts';
 import * as catalog from '../data/catalog.ts';
 import { isExcludedWebsite } from '../data/excluded-businesses.ts';
 import { normalizeDomain, validateQualifyingCandidate } from './qualification-policy.mjs';
@@ -31,7 +31,14 @@ for (const row of source) {
   const evidence = ledger.records.find((record) => record.name === row.name);
   assert(evidence, `Missing evidence ${row.name}`);
   validateQualifyingCandidate(evidence, { catalog });
-  assert(!isExcludedWebsite(row.website), `Excluded website ${row.website}`);
+  if (isExcludedWebsite(row.website)) {
+    for (const region of row.regions) for (const trade of row.trades) {
+      assert(
+        isAuditedExcludedDomainPlacement({ region, trade, website: row.website }),
+        `Excluded website without audited placement exception ${row.website}|${region}|${trade}`,
+      );
+    }
+  }
   const domain = normalizeDomain(row.website);
   const name = row.name.toLowerCase().replace(/[^a-z0-9]/g, '');
   if (evidence.baselineIdentity === 'new') {
