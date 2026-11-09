@@ -1,14 +1,19 @@
 {
   "run": "fill1000bb",
-  "verifiedAt": "2026-11-09T22:58:51Z",
-  "publishedCommit": "925007bcdc6313e21a85c01456eb5a6e00d076a8",
-  "productionDeployment": "dpl_GDydrBho32kcdRsAQP9hV7i4VvUx",
+  "verifiedAt": "2026-11-09T23:08:36Z",
+  "publishedCommit": "134860e44bbcc4b2f615698ab25e56e465180da4",
+  "productionDeployment": "dpl_8zdJvfJCZxKMFRxxHXDHm9BnvG92",
   "deploymentState": "READY",
   "pageChecks": [
     {"url":"https://whoknowsapro.com/dothan-al/tree-service","displayedCount":3,"expectedBusinesses":["B&D Tree Services"],"status":"pass"},
     {"url":"https://whoknowsapro.com/dothan-al/painting","displayedCount":8,"expectedBusinesses":["Still Painting Company","Matthew Smith Painting","Premier Painting","Redline Home Service & Painting","Fantastic Finishing Painting","Dothan House Painters"],"status":"pass"},
     {"url":"https://whoknowsapro.com/dothan-al/concrete","displayedCount":4,"expectedBusinesses":["Poole Asphalt & Concrete LLC","Dothan AllStar Concrete"],"status":"pass"},
-    {"url":"https://whoknowsapro.com/dothan-al/flooring","displayedCount":5,"expectedBusinesses":["Fantastic Finishing Painting"],"status":"pass"}
+    {"url":"https://whoknowsapro.com/dothan-al/flooring","displayedCount":5,"expectedBusinesses":["Fantastic Finishing Painting"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/painting","displayedCount":5,"expectedBusinesses":["Davis Painting","Firmes Painting LLC","Legacy Finishes","BSL Construction"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/painting","displayedCount":5,"expectedBusinesses":["Davis Painting","Legacy Finishes","Remza Contractors","BSL Construction"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/flooring","displayedCount":3,"expectedBusinesses":["Firmes Painting LLC","Rhodes Flooring America"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/roofing","displayedCount":3,"expectedBusinesses":["Gulf South Roofing","BSL Construction"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/roofing","displayedCount":3,"expectedBusinesses":["Gulf South Roofing","BSL Construction"],"status":"pass"}
   ],
   "profileAndWebsiteChecks": [
     {"name":"B&D Tree Services","profile":"https://whoknowsapro.com/business/b-d-tree-services","website":"https://bndtreeservice.com/","finalUrl":"https://bndtreeservice.com/","status":"pass"},
@@ -19,9 +24,16 @@
     {"name":"Premier Painting","profile":"https://whoknowsapro.com/business/premier-painting","website":"https://www.wiregrasspremierpainting.com/","finalUrl":"https://www.wiregrasspremierpainting.com/","status":"pass"},
     {"name":"Redline Home Service & Painting","profile":"https://whoknowsapro.com/business/redline-home-service-painting","website":"https://redlinehomeserviceco.com/","finalUrl":"https://redlinehomeserviceco.com/","status":"pass"},
     {"name":"Fantastic Finishing Painting","profile":"https://whoknowsapro.com/business/fantastic-finishing-painting","website":"https://www.fantasticfinishingpainting.com/","finalUrl":"https://www.fantasticfinishingpainting.com/","status":"pass"},
-    {"name":"Dothan House Painters","profile":"https://whoknowsapro.com/business/dothan-house-painters","website":"https://www.dothanhousepainters.com/","finalUrl":"https://www.dothanhousepainters.com/","status":"pass"}
+    {"name":"Dothan House Painters","profile":"https://whoknowsapro.com/business/dothan-house-painters","website":"https://www.dothanhousepainters.com/","finalUrl":"https://www.dothanhousepainters.com/","status":"pass"},
+    {"name":"Davis Painting","profile":"https://whoknowsapro.com/business/davis-painting","website":"https://www.davispaintinggulfcoast.com/","finalUrl":"https://www.davispaintinggulfcoast.com/","status":"pass"},
+    {"name":"Firmes Painting LLC","profile":"https://whoknowsapro.com/business/firmes-painting-llc","website":"https://firmespaintingllc.com/","finalUrl":"https://firmespaintingllc.com/","status":"pass"},
+    {"name":"Legacy Finishes","profile":"https://whoknowsapro.com/business/legacy-finishes","website":"https://paintersgulfportms.com/","finalUrl":"https://paintersgulfportms.com/","status":"pass"},
+    {"name":"Remza Contractors","profile":"https://whoknowsapro.com/business/remza-contractors","website":"https://remzacontractors.com/","finalUrl":"https://remzacontractors.com/","status":"pass"},
+    {"name":"Gulf South Roofing","profile":"https://whoknowsapro.com/business/gulf-south-roofing","website":"https://www.gulfsouthroofing.net/","finalUrl":"https://www.gulfsouthroofing.net/","status":"pass"},
+    {"name":"Rhodes Flooring America","profile":"https://whoknowsapro.com/business/rhodes-flooring-america","website":"https://www.rhodes-flooringamerica.com/","finalUrl":"https://www.rhodes-flooringamerica.com/","status":"pass"},
+    {"name":"BSL Construction","profile":"https://whoknowsapro.com/business/bsl-construction","website":"https://www.bslconstructionllc.com/","finalUrl":"https://www.bslconstructionllc.com/","status":"pass"}
   ],
-  "completed": {"distinctNewBusinesses":9,"newBusinessPlacements":10,"existingBusinessPlacements":0},
+  "completed": {"distinctNewBusinesses":16,"newBusinessPlacements":24,"existingBusinessPlacements":0},
   "awaitingDeployment": 0,
   "awaitingLiveVerification": 0
 }
