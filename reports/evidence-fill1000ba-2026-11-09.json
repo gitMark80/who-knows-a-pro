@@ -3,7 +3,10 @@
   "baselineCommit": "0321fe5c75ca37fecae7e1d267d701e56e6d265e",
   "baselinePlacements": 14501,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "bdf4d29d7c486f0d25145e738ae72384c261f11a",
+  "productionDeployment": "dpl_FLVWj6K3GG7SXzZESxpfbs1P8P5s",
+  "liveVerifiedAt": "2026-11-09T17:12:53Z",
   "records": [
     {
       "name": "The Appliance Solution",

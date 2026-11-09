@@ -1,0 +1,30 @@
+{
+  "run": "fill1000ba",
+  "verifiedAt": "2026-11-09T17:12:53Z",
+  "status": "published_and_live_verified",
+  "fixedBaselineCommit": "0321fe5c75ca37fecae7e1d267d701e56e6d265e",
+  "publicationCommit": "bdf4d29d7c486f0d25145e738ae72384c261f11a",
+  "productionDeployment": "dpl_FLVWj6K3GG7SXzZESxpfbs1P8P5s",
+  "deploymentState": "READY",
+  "distinctNewBusinessesLiveVerified": 3,
+  "newBusinessPlacementsLiveVerified": 7,
+  "existingBusinessPlacementsLiveVerified": 0,
+  "pageChecks": [
+    {"region": "destin-fl", "trade": "appliance-repair", "displayedCount": 11, "businesses": ["The Appliance Solution"], "pass": true},
+    {"region": "fort-walton-beach-fl", "trade": "appliance-repair", "displayedCount": 11, "businesses": ["The Appliance Solution"], "pass": true},
+    {"region": "panama-city-fl", "trade": "appliance-repair", "displayedCount": 12, "businesses": ["The Appliance Solution"], "pass": true},
+    {"region": "panama-city-beach-fl", "trade": "appliance-repair", "displayedCount": 10, "businesses": ["The Appliance Solution"], "pass": true},
+    {"region": "dothan-al", "trade": "irrigation-sprinkler-repair", "displayedCount": 2, "businesses": ["Elite Lawn Management"], "pass": true},
+    {"region": "dothan-al", "trade": "landscaping", "displayedCount": 3, "businesses": ["Lakewood Landscape", "Elite Lawn Management"], "pass": true}
+  ],
+  "officialWebsiteChecks": [
+    {"name": "The Appliance Solution", "requestedUrl": "https://www.theappliancesolution.com/", "finalUrl": "https://www.theappliancesolution.com/", "identityConfirmed": true, "working": true},
+    {"name": "Lakewood Landscape", "requestedUrl": "https://lakewoodlandscape.net/", "finalUrl": "https://lakewoodlandscape.net/", "identityConfirmed": true, "working": true},
+    {"name": "Elite Lawn Management", "requestedUrl": "https://elitelawnmanagement.com/", "finalUrl": "https://elitelawnmanagement.com/", "identityConfirmed": true, "working": true}
+  ],
+  "withheldAfterLiveCheck": [
+    {"name": "Prospect Well Drilling", "website": "https://www.wellservicesdestin.com/", "reason": "Official destination returned an upstream connection failure; removed by corrective commit before final counting."},
+    {"name": "S & J Irrigation", "website": "https://www.sandjirrigation.com/", "reason": "Official destination rendered SITE NOT FOUND; removed by corrective commit before final counting."}
+  ],
+  "awaitingDeploymentOrLiveVerification": 0
+}
