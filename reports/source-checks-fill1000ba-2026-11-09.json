@@ -4,12 +4,12 @@
   "allowedSourcesOnly": true,
   "accepted": [
     {"name": "The Appliance Solution", "domain": "theappliancesolution.com", "placements": 4, "result": "qualified_new"},
-    {"name": "Prospect Well Drilling", "domain": "wellservicesdestin.com", "placements": 2, "result": "qualified_new"},
-    {"name": "S & J Irrigation", "domain": "sandjirrigation.com", "placements": 1, "result": "qualified_new"},
     {"name": "Lakewood Landscape", "domain": "lakewoodlandscape.net", "placements": 1, "result": "qualified_new"},
     {"name": "Elite Lawn Management", "domain": "elitelawnmanagement.com", "placements": 2, "result": "qualified_new"}
   ],
   "pending": [
+    {"name": "Prospect Well Drilling", "domain": "wellservicesdestin.com", "reason": "Official destination returned an upstream connection failure during production live verification; removed from the prepared batch and not counted."},
+    {"name": "S & J Irrigation", "domain": "sandjirrigation.com", "reason": "Official destination rendered SITE NOT FOUND during production live verification; removed from the prepared batch and not counted."},
     {"name": "Tree Huggers Tree Service", "domain": "treehuggerstreeservice.org", "reason": "Working official local site and Panama City Beach address were found, but the accessible official text did not explicitly establish residential scope; held pending stronger official evidence."}
   ],
   "rejectedOrNotNew": [
