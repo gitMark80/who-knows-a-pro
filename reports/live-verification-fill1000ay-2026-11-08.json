@@ -1,0 +1,42 @@
+{
+  "run": "fill1000ay",
+  "verifiedAt": "2026-11-09T05:03:16Z",
+  "publishedCommit": "d6b365c59823108ee4413dcb1969bec7974285e3",
+  "productionDeployment": "dpl_H8qHkjUk6UNsCtkDwyD93tocV9kF",
+  "deploymentState": "READY",
+  "summary": {
+    "distinctNewBusinessesPublishedAndLiveVerified": 5,
+    "newBusinessPlacementsPublishedAndLiveVerified": 18,
+    "existingBusinessPlacementsPublishedAndLiveVerified": 4,
+    "placementsPublishedAndLiveVerified": 22,
+    "affectedPagesVerified": 13,
+    "officialDestinationsVerified": 7,
+    "targetDistinctNewBusinesses": 1000,
+    "newBusinessShortfall": 995
+  },
+  "pages": [
+    {"url": "https://whoknowsapro.com/destin-fl/hurricane-shutters-impact-windows", "displayedCount": 20, "verifiedBusinesses": ["Folkers Window Company"]},
+    {"url": "https://whoknowsapro.com/fort-walton-beach-fl/hurricane-shutters-impact-windows", "displayedCount": 20, "verifiedBusinesses": ["Folkers Window Company"]},
+    {"url": "https://whoknowsapro.com/panama-city-fl/pest-control", "displayedCount": 14, "verifiedBusinesses": ["Florida Pest Control", "Terminix – Panama City", "Orkin – Panama City Branch 230"]},
+    {"url": "https://whoknowsapro.com/panama-city-beach-fl/pest-control", "displayedCount": 11, "verifiedBusinesses": ["Florida Pest Control", "Terminix – Panama City", "Orkin – Panama City Branch 230"]},
+    {"url": "https://whoknowsapro.com/crestview-fl/garage-door-repair", "displayedCount": 16, "verifiedBusinesses": ["Overhead Door Company of Northwest Florida", "Precision Garage Door Service of Pensacola"]},
+    {"url": "https://whoknowsapro.com/destin-fl/garage-door-repair", "displayedCount": 16, "verifiedBusinesses": ["Overhead Door Company of Northwest Florida", "Precision Garage Door Service of Pensacola"]},
+    {"url": "https://whoknowsapro.com/fort-walton-beach-fl/garage-door-repair", "displayedCount": 17, "verifiedBusinesses": ["Overhead Door Company of Northwest Florida", "Precision Garage Door Service of Pensacola"]},
+    {"url": "https://whoknowsapro.com/panama-city-fl/garage-door-repair", "displayedCount": 18, "verifiedBusinesses": ["Overhead Door Company of Northwest Florida", "Precision Garage Door Service of Pensacola"]},
+    {"url": "https://whoknowsapro.com/panama-city-beach-fl/garage-door-repair", "displayedCount": 17, "verifiedBusinesses": ["Overhead Door Company of Northwest Florida", "Precision Garage Door Service of Pensacola"]},
+    {"url": "https://whoknowsapro.com/panama-city-fl/pool-installation", "displayedCount": 15, "verifiedBusinesses": ["ASP – America's Swimming Pool Company of Panama City"]},
+    {"url": "https://whoknowsapro.com/panama-city-fl/pool-service", "displayedCount": 17, "verifiedBusinesses": ["ASP – America's Swimming Pool Company of Panama City"]},
+    {"url": "https://whoknowsapro.com/panama-city-beach-fl/pool-installation", "displayedCount": 16, "verifiedBusinesses": ["ASP – America's Swimming Pool Company of Panama City"]},
+    {"url": "https://whoknowsapro.com/panama-city-beach-fl/pool-service", "displayedCount": 20, "verifiedBusinesses": ["ASP – America's Swimming Pool Company of Panama City"]}
+  ],
+  "officialWebsites": [
+    {"business": "Folkers Window Company", "requestedUrl": "https://folkers.com/", "finalUrl": "https://folkers.com/", "identityConfirmed": true},
+    {"business": "Florida Pest Control", "requestedUrl": "https://www.flapest.com/locations/panama-city/", "finalUrl": "https://www.flapest.com/locations/panama-city/", "identityConfirmed": true},
+    {"business": "Terminix – Panama City", "requestedUrl": "https://www.terminix.com/exterminators/fl/panama-city-2622/", "finalUrl": "https://www.terminix.com/exterminators/fl/panama-city-2622/", "identityConfirmed": true},
+    {"business": "Orkin – Panama City Branch 230", "requestedUrl": "https://www.orkin.com/locations/branch-230", "finalUrl": "https://www.orkin.com/locations/branch-230", "identityConfirmed": true},
+    {"business": "Overhead Door Company of Northwest Florida", "requestedUrl": "https://destinoverheaddoor.com/residential-service/", "finalUrl": "https://destinoverheaddoor.com/residential-service/", "identityConfirmed": true},
+    {"business": "Precision Garage Door Service of Pensacola", "requestedUrl": "https://precisiondoorpensacola.com/", "finalUrl": "https://precisiondoorpensacola.com/", "identityConfirmed": true},
+    {"business": "ASP – America's Swimming Pool Company of Panama City", "requestedUrl": "https://www.asppoolco.com/panama-city/", "finalUrl": "https://www.asppoolco.com/panama-city/", "identityConfirmed": true}
+  ],
+  "awaitingDeploymentOrLiveVerification": []
+}
