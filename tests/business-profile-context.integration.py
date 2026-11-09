@@ -57,18 +57,18 @@ def hrefs(page):
 
 # Initialize only the isolated test database, then use a deterministic local fixture.
 # National brands such as DH Pace must remain excluded from public listings.
-page, _ = get('/miami-fl/locksmith')
+page, _ = get('/miami-fl/electrical')
 assert 'DH Pace' not in text(page)
 db = sqlite3.connect(sys.argv[1])
 now = int(time.time() * 1000)
-for region, trade in [('miami-fl', 'locksmith'), ('panama-city-fl', 'locksmith'), ('destin-fl', 'garage-door-repair'), ('miami-fl', 'garage-door-repair')]:
+for region, trade in [('miami-fl', 'electrical'), ('panama-city-fl', 'electrical'), ('destin-fl', 'garage-door-repair'), ('miami-fl', 'garage-door-repair')]:
     fixture_slug = f'profile-context-provider-{region}-{trade}'
     db.execute('INSERT INTO businesses (id,name,slug,main_slug,region,trade,location,summary,website,approved,is_test,updated_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', (
         fixture_slug, 'Profile Context Provider', fixture_slug, 'profile-context-provider', region, trade, region,
-        'Residential door, lock and key services', 'https://profile-context.example.test/', 1, 0, now,
+        'Residential door and electrical services', 'https://profile-context.example.test/', 1, 0, now,
     ))
 db.commit()
-page, _ = get('/miami-fl/locksmith')
+page, _ = get('/miami-fl/electrical')
 cards = re.findall(r'<article\b[^>]*>.*?</article>', page, re.S)
 assert cards
 fixture_link = None
@@ -76,22 +76,22 @@ for card in cards:
     links = [link for link in hrefs(card) if link.startswith('/business/')]
     assert len(links) == 1
     query = urllib.parse.parse_qs(urllib.parse.urlparse(links[0]).query)
-    assert query == {'region': ['miami-fl'], 'trade': ['locksmith']}, links
+    assert query == {'region': ['miami-fl'], 'trade': ['electrical']}, links
     profile, _ = get(links[0])
-    assert 'Locksmith serving Miami, FL' in text(profile)
-    assert 'Locksmith in Panama City, FL' not in title(profile)
-    assert '/miami-fl/locksmith' in hrefs(profile)
+    assert 'Electrical serving Miami, FL' in text(profile)
+    assert 'Electrical in Panama City, FL' not in title(profile)
+    assert '/miami-fl/electrical' in hrefs(profile)
     if 'Profile Context Provider' in card:
         fixture_link = links[0]
-        assert 'Residential door, lock and key services' in text(card)
-        assert 'Residential door, lock and key services' in text(profile)
-        assert '/claim?business=profile-context-provider-miami-fl-locksmith' in hrefs(profile)
+        assert 'Residential door and electrical services' in text(card)
+        assert 'Residential door and electrical services' in text(profile)
+        assert '/claim?business=profile-context-provider-miami-fl-electrical' in hrefs(profile)
         assert not any('region=tampa-fl' in href for href in hrefs(profile))
 assert fixture_link
 
 # The same canonical business must render each requested, supported pair.
 for region, trade, expected in [
-    ('panama-city-fl', 'locksmith', 'Locksmith serving Panama City, FL'),
+    ('panama-city-fl', 'electrical', 'Electrical serving Panama City, FL'),
     ('destin-fl', 'garage-door-repair', 'Garage door repair serving Destin, FL'),
     ('miami-fl', 'garage-door-repair', 'Garage door repair serving Miami, FL'),
 ]:
@@ -103,15 +103,15 @@ for region, trade, expected in [
 # A bare canonical profile must not invent a home city from insertion order.
 page, _ = get('/business/profile-context-provider')
 assert title(page) == 'Profile Context Provider – Business profile | Who Knows a Pro?'
-assert 'Locksmith in Panama City, FL' not in text(page)
+assert 'Electrical in Panama City, FL' not in text(page)
 
 # Existing placement URLs still redirect, retaining their original context.
-page, url = get('/business/profile-context-provider-miami-fl-locksmith')
+page, url = get('/business/profile-context-provider-miami-fl-electrical')
 assert urllib.parse.urlparse(url).path == '/business/profile-context-provider'
-assert urllib.parse.parse_qs(urllib.parse.urlparse(url).query) == {'region': ['miami-fl'], 'trade': ['locksmith']}
-assert 'Locksmith serving Miami, FL' in text(page)
+assert urllib.parse.parse_qs(urllib.parse.urlparse(url).query) == {'region': ['miami-fl'], 'trade': ['electrical']}
+assert 'Electrical serving Miami, FL' in text(page)
 
-for query in ['region=miami-fl&trade=plumbing', 'region=unknown&trade=locksmith', 'region=miami-fl&region=destin-fl&trade=locksmith']:
+for query in ['region=miami-fl&trade=plumbing', 'region=unknown&trade=electrical', 'region=miami-fl&region=destin-fl&trade=electrical']:
     page, _ = get('/business/profile-context-provider?' + query)
     assert title(page) == 'Profile Context Provider – Business profile | Who Knows a Pro?'
 
@@ -119,15 +119,15 @@ for query in ['region=miami-fl&trade=plumbing', 'region=unknown&trade=locksmith'
 # Keep claimed owner content/tier intact while selecting a different placement.
 db = sqlite3.connect(sys.argv[1])
 now = int(time.time() * 1000)
-for region, trade in [('miami-fl', 'locksmith'), ('destin-fl', 'plumbing')]:
+for region, trade in [('miami-fl', 'electrical'), ('destin-fl', 'plumbing')]:
     slug = f'context-fixture-{region}-{trade}'
     db.execute('INSERT INTO businesses (id,name,slug,main_slug,region,trade,location,summary,website,owner_email,tier,approved,is_test,updated_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)', (
         slug, 'Context fixture', slug, 'context-fixture', region, trade, region,
         'Owner supplied summary', 'https://example.test/', 'owner@example.test', 'enhanced', 1, 0, now,
     ))
 db.commit()
-page, _ = get('/business/context-fixture?region=miami-fl&trade=locksmith')
-assert 'Locksmith serving Miami, FL' in text(page)
+page, _ = get('/business/context-fixture?region=miami-fl&trade=electrical')
+assert 'Electrical serving Miami, FL' in text(page)
 assert 'Owner supplied summary' in text(page) and 'Claimed business' in text(page)
 page, _ = get('/business/context-fixture?region=miami-fl&trade=plumbing')
 assert title(page) == 'Context fixture – Business profile | Who Knows a Pro?'
