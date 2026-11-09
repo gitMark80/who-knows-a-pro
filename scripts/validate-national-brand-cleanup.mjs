@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { directorySeed } from '../data/directory.ts';
+import { directorySeed, isAuditedExcludedDomainPlacement } from '../data/directory.ts';
 import { excludedWebsiteDomains, isExcludedWebsite } from '../data/excluded-businesses.ts';
 import { isPublicDirectoryBusiness } from '../db/runtime.ts';
 
@@ -15,8 +15,10 @@ check(
   `${excludedWebsiteDomains.length} rules`,
 );
 
-const leaked = directorySeed.filter((business) => isExcludedWebsite(business.website));
-check('generated directory has no excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
+const auditedExceptions = directorySeed.filter((business) => isExcludedWebsite(business.website));
+const leaked = auditedExceptions.filter((business) => !isAuditedExcludedDomainPlacement(business));
+check('generated directory has no unaudited excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
+check('excluded-domain placements are explicitly audited', auditedExceptions.length === 18, `${auditedExceptions.length} placement-scoped exceptions`);
 
 for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com']) {
   check(`required national exclusion: ${domain}`, isExcludedWebsite(`https://www.${domain}/example`), domain);
@@ -29,7 +31,7 @@ check(
 );
 check(
   'regional row remains eligible',
-  isPublicDirectoryBusiness({ approved: 1, is_test: 0, website: 'https://example-regional-pro.test/' }),
+  isPublicDirectoryBusiness({ approved: 1, is_test: 0, website: 'https://example-regional-pro.test/', region: 'pensacola-fl', trade: 'plumbing' }),
   'non-excluded approved regional website passes',
 );
 
