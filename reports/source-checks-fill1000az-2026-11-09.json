@@ -1,0 +1,69 @@
+{
+  "run": "fill1000az",
+  "checkedAt": "2026-11-09T10:55:29.000Z",
+  "policy": "Official business pages were reviewed for direct-provider identity, residential or consumer category fit, a working official domain, and explicit city, county, or local-operation evidence. Search results were discovery only. Google Maps, Google Places, Yelp, Angi, directories, social-only profiles and paid APIs were not used as listing evidence.",
+  "checks": [
+    {
+      "business": "Legends Body Shop & Classic Car Restoration",
+      "urls": ["https://legendsautobody.com/", "https://legendsautobody.com/services/", "https://legendsautobody.com/contact/"],
+      "result": "qualified",
+      "observed": "The working official site identifies the accountable body shop, consumer auto-body and restoration services, its Panama City operation, and an express service area naming both Panama City and Panama City Beach."
+    },
+    {
+      "business": "ML Florida Services LLC",
+      "urls": ["https://mlfloridaservices.com/"],
+      "result": "qualified",
+      "observed": "The working official site identifies a direct local provider, in-home repair of household appliances, and an express Panama City service statement."
+    },
+    {
+      "business": "Bayside Tree Service",
+      "urls": ["https://baysidetreeservicefl.com/"],
+      "result": "qualified",
+      "observed": "The working official site identifies a veteran-owned direct provider, expressly residential tree care, and Bay County coverage supporting Panama City and Panama City Beach placements."
+    },
+    {
+      "business": "Panhandle Bucket Work LLC",
+      "urls": ["https://panhandlebucketworkllc.com/", "https://panhandlebucketworkllc.com/Accessibility?domain=panhandlebucketworkllc"],
+      "result": "qualified",
+      "observed": "The working official domain identifies a locally owned Panama City Beach operator, direct residential tree trimming, removal and stump grinding, and the equipment used by its own crew."
+    }
+  ],
+  "blockedOrRejected": [
+    {
+      "business": "Emerald Coast Pools",
+      "reason": "Rejected as a new identity after duplicate review: emeraldcoastpool.com resolves to the same business already present at baseline under emeraldcoastpoolcompany.com. No duplicate profile or placement was added."
+    },
+    {
+      "business": "Beach 2 Bay Appliance",
+      "reason": "Withheld because the apparent official homepage contains unrelated casino-injection text. A successful HTTP response is not sufficient for a valid working official business website."
+    },
+    {
+      "business": "A To Z Appliance Repair",
+      "reason": "Pending identity resolution because a baseline profile with the same business name uses another domain; atoznwfl.com cannot safely be counted as a distinct new business."
+    },
+    {
+      "business": "Tree Huggers Tree Service",
+      "reason": "Pending because the reviewed official content did not expressly establish residential scope strongly enough for publication."
+    },
+    {
+      "business": "Pace Lawncare",
+      "reason": "Rejected for this checkpoint because the official domain returned a Cloudflare DNS Error 1000 and did not satisfy the working-site requirement."
+    },
+    {
+      "business": "Professional Auto Body",
+      "reason": "Pending because the apparent official site timed out and the working official-site requirement could not be verified."
+    },
+    {
+      "business": "A Glowing Auto",
+      "reason": "Pending because the apparent official site failed to load and the working official-site requirement could not be verified."
+    },
+    {
+      "business": "Classic Collision, Gerber Collision & Glass, Mr. Appliance and Maaco",
+      "reason": "Not counted as new businesses: the brands already occur in repository historical source rows and are globally excluded pending branch, ownership and historical-identity review."
+    },
+    {
+      "business": "Retail Fix It",
+      "reason": "Historical rows remain flagged as a commercial facility-maintenance/intermediary network. The domain remains excluded from active verified coverage; this run did not delete or hide historical data."
+    }
+  ]
+}
