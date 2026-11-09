@@ -47,9 +47,8 @@ export type BusinessProfile = Business & {
 
 /** Public directory surfaces exclude national brands even when a legacy row is claimed. */
 export function isPublicDirectoryBusiness(business: Pick<Business, 'approved' | 'is_test' | 'website' | 'region' | 'trade'>) {
-  if (business.is_test) return false;
-  if (isAuditedExcludedDomainPlacement(business)) return true;
-  return business.approved === 1 && !isExcludedWebsite(business.website);
+  if (business.approved !== 1 || business.is_test) return false;
+  return isAuditedExcludedDomainPlacement(business) || !isExcludedWebsite(business.website);
 }
 
 function publicBusiness(seed: (typeof directorySeed)[number]): Business {
