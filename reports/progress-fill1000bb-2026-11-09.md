@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bb prepared checkpoint — 2026-11-09
+# Who Knows a Pro fill1000bb published checkpoint — 2026-11-09
 
 ## Run baseline and scope
 
@@ -10,22 +10,22 @@
 - Towing and Locksmith remain hidden with every other hidden category; no category or city was created, activated, renamed, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published and live-verified additions
 
-- Distinct new businesses absent from the fixed baseline: **9**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **9**
 - Placements from those new businesses: **10**
 - Placements from businesses already present at baseline: **0**
 - New-business target: 1,000
-- Exact new-business shortfall pending publication and live verification: **991**
+- Exact new-business shortfall: **991**
 
-| City | Category | Baseline displayed | Prepared | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Dothan | Tree service | 2 | 1 | 3 | 17 |
 | Dothan | Painting | 2 | 6 | 8 | 12 |
 | Dothan | Concrete & driveways | 2 | 2 | 4 | 16 |
 | Dothan | Flooring | 4 | 1 | 5 | 15 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **197**
 - Pages below 20: **923**
@@ -46,4 +46,12 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Publication state
 
-This checkpoint is prepared and validated but not yet counted as completed. The publication commit, production deployment and final live directory/link verification must be recorded before the additions count toward the run target.
+- Publication commit: `925007bcdc6313e21a85c01456eb5a6e00d076a8` on `main`.
+- Vercel production deployment `dpl_GDydrBho32kcdRsAQP9hV7i4VvUx` reached `READY` for that exact commit.
+- The four affected public pages visibly showed the expected post-publication counts: tree service 3, painting 8, concrete 4 and flooring 5.
+- All nine new business profiles were publicly visible and every directory website link reached the intended working official business identity at `2026-11-09T22:58:51Z`.
+- Nothing from this batch remains awaiting deployment or live verification.
+
+## Resume point
+
+Resume from the current publication state recorded here, re-read `main` before any write, preserve later changes, and continue with the lowest strictly verified deficits in Destin, Fort Walton Beach, Crestview and Panama City, then the other gaps closest to Pensacola and outward. The site remains incomplete: 923 displayed pages are below 20 and the displayed deficit is 9,786; unaudited historical coverage remains unknown until placement-specific evidence is checked.

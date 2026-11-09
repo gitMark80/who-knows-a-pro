@@ -1,0 +1,27 @@
+{
+  "run": "fill1000bb",
+  "verifiedAt": "2026-11-09T22:58:51Z",
+  "publishedCommit": "925007bcdc6313e21a85c01456eb5a6e00d076a8",
+  "productionDeployment": "dpl_GDydrBho32kcdRsAQP9hV7i4VvUx",
+  "deploymentState": "READY",
+  "pageChecks": [
+    {"url":"https://whoknowsapro.com/dothan-al/tree-service","displayedCount":3,"expectedBusinesses":["B&D Tree Services"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/dothan-al/painting","displayedCount":8,"expectedBusinesses":["Still Painting Company","Matthew Smith Painting","Premier Painting","Redline Home Service & Painting","Fantastic Finishing Painting","Dothan House Painters"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/dothan-al/concrete","displayedCount":4,"expectedBusinesses":["Poole Asphalt & Concrete LLC","Dothan AllStar Concrete"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/dothan-al/flooring","displayedCount":5,"expectedBusinesses":["Fantastic Finishing Painting"],"status":"pass"}
+  ],
+  "profileAndWebsiteChecks": [
+    {"name":"B&D Tree Services","profile":"https://whoknowsapro.com/business/b-d-tree-services","website":"https://bndtreeservice.com/","finalUrl":"https://bndtreeservice.com/","status":"pass"},
+    {"name":"Still Painting Company","profile":"https://whoknowsapro.com/business/still-painting-company","website":"https://still-painting.com/","finalUrl":"https://still-painting.com/","status":"pass"},
+    {"name":"Matthew Smith Painting","profile":"https://whoknowsapro.com/business/matthew-smith-painting","website":"https://www.matthewsmithpainting.com/","finalUrl":"https://www.matthewsmithpainting.com/","status":"pass"},
+    {"name":"Poole Asphalt & Concrete LLC","profile":"https://whoknowsapro.com/business/poole-asphalt-concrete-llc","website":"https://www.pooleasphaltandconcretellc.com/","finalUrl":"https://www.pooleasphaltandconcretellc.com/","status":"pass"},
+    {"name":"Dothan AllStar Concrete","profile":"https://whoknowsapro.com/business/dothan-allstar-concrete","website":"https://www.dothanallstarconcrete.com/","finalUrl":"https://www.dothanallstarconcrete.com/","status":"pass"},
+    {"name":"Premier Painting","profile":"https://whoknowsapro.com/business/premier-painting","website":"https://www.wiregrasspremierpainting.com/","finalUrl":"https://www.wiregrasspremierpainting.com/","status":"pass"},
+    {"name":"Redline Home Service & Painting","profile":"https://whoknowsapro.com/business/redline-home-service-painting","website":"https://redlinehomeserviceco.com/","finalUrl":"https://redlinehomeserviceco.com/","status":"pass"},
+    {"name":"Fantastic Finishing Painting","profile":"https://whoknowsapro.com/business/fantastic-finishing-painting","website":"https://www.fantasticfinishingpainting.com/","finalUrl":"https://www.fantasticfinishingpainting.com/","status":"pass"},
+    {"name":"Dothan House Painters","profile":"https://whoknowsapro.com/business/dothan-house-painters","website":"https://www.dothanhousepainters.com/","finalUrl":"https://www.dothanhousepainters.com/","status":"pass"}
+  ],
+  "completed": {"distinctNewBusinesses":9,"newBusinessPlacements":10,"existingBusinessPlacements":0},
+  "awaitingDeployment": 0,
+  "awaitingLiveVerification": 0
+}
