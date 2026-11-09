@@ -1,0 +1,35 @@
+{
+  "run": "fill1000ba",
+  "checkedAt": "2026-11-09T17:01:11Z",
+  "allowedSourcesOnly": true,
+  "accepted": [
+    {"name": "The Appliance Solution", "domain": "theappliancesolution.com", "placements": 4, "result": "qualified_new"},
+    {"name": "Prospect Well Drilling", "domain": "wellservicesdestin.com", "placements": 2, "result": "qualified_new"},
+    {"name": "S & J Irrigation", "domain": "sandjirrigation.com", "placements": 1, "result": "qualified_new"},
+    {"name": "Lakewood Landscape", "domain": "lakewoodlandscape.net", "placements": 1, "result": "qualified_new"},
+    {"name": "Elite Lawn Management", "domain": "elitelawnmanagement.com", "placements": 2, "result": "qualified_new"}
+  ],
+  "pending": [
+    {"name": "Tree Huggers Tree Service", "domain": "treehuggerstreeservice.org", "reason": "Working official local site and Panama City Beach address were found, but the accessible official text did not explicitly establish residential scope; held pending stronger official evidence."}
+  ],
+  "rejectedOrNotNew": [
+    {"name": "People 1st Home Services", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Oceanside Service Co", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Key Irrigation", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Mr Mister Irrigation", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "I Can Do All Things Pest Control", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Cornerstone Property Services", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Prater's Insulators", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "SWAT Pest Control", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Rogers & Grant Septic Services", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Phoenix Services LLC", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Five Star Irrigation", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "Prime Plumbing & Septic", "reason": "Domain and identity already occur in the fixed baseline."},
+    {"name": "GE Appliances Factory Service / Bodewell", "reason": "Repository history marks the national identity for exclusion/hold; no separately identified qualifying local branch was established."},
+    {"name": "Appliance Service Auburn", "reason": "Official-looking site published a reserved 555 telephone number; identity was not reliable enough to qualify."},
+    {"name": "Mr. Appliance of Auburn", "reason": "National franchise identity appears in the repository exclusion/history records and was not counted as a new independently owned branch."}
+  ],
+  "historicalFlags": [
+    {"name": "Retail Fix It", "domain": "retailfixit.com", "reason": "Commercial facility-maintenance/intermediary network; remains excluded and no historical record was deleted."}
+  ]
+}
