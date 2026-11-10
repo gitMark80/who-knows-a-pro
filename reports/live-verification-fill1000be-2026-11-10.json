@@ -1,0 +1,24 @@
+{
+  "run": "fill1000be",
+  "verifiedAt": "2026-11-10T17:00:49Z",
+  "publishedCommit": "f0ce65049e5d66d704f54910d02a964ef8d7a8e4",
+  "productionDeployment": "dpl_4GKmr5v2NLhMaqkGpmbVFh6dw8Lo",
+  "deploymentState": "READY",
+  "pageChecks": [
+    {"url":"https://whoknowsapro.com/biloxi-ms/concrete","expectedBusiness":"Professional Concrete Solutions","expectedDisplayedCount":4,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/concrete","expectedBusiness":"Professional Concrete Solutions","expectedDisplayedCount":4,"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/landscaping","expectedBusiness":"Sweetwater Property Maintenance","expectedDisplayedCount":4,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/landscaping","expectedBusiness":"Sweetwater Property Maintenance","expectedDisplayedCount":4,"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/plumbing","expectedBusiness":"Aquaman Plumbing","expectedDisplayedCount":4,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/plumbing","expectedBusiness":"Aquaman Plumbing","expectedDisplayedCount":4,"status":"pass"}
+  ],
+  "profileChecks": [
+    {"name":"Professional Concrete Solutions","url":"https://whoknowsapro.com/business/professional-concrete-solutions?region=biloxi-ms&trade=concrete","officialWebsiteFinalUrl":"https://professionalsconcretesolutions.com/","status":"pass"},
+    {"name":"Sweetwater Property Maintenance","url":"https://whoknowsapro.com/business/sweetwater-property-maintenance?region=biloxi-ms&trade=landscaping","officialWebsiteFinalUrl":"https://sweetwater228.com/","status":"pass"},
+    {"name":"Aquaman Plumbing","url":"https://whoknowsapro.com/business/aquaman-plumbing?region=gulfport-ms&trade=plumbing","officialWebsiteFinalUrl":"https://callaquaman.com/","status":"pass"}
+  ],
+  "publishedLiveVerifiedDistinctNewBusinesses": 3,
+  "publishedLiveVerifiedNewBusinessPlacements": 6,
+  "publishedLiveVerifiedExistingBusinessPlacements": 0,
+  "changesAwaitingDeploymentOrLiveVerification": 0
+}
