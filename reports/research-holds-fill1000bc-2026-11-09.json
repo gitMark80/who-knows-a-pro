@@ -1,0 +1,21 @@
+{
+  "run": "fill1000bc",
+  "researchedCandidates": 22,
+  "publishedCandidates": 0,
+  "preparedCandidates": 4,
+  "pendingCandidates": 4,
+  "rejectedOrBaselineCandidates": 14,
+  "holds": [
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during fresh browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and licensing corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"GE Appliances Factory Service / Bodewell","status":"pending_branch_identity","reason":"Carried forward: a separately identifiable qualifying local branch has not been established."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"The strongest official-site candidates found for the lowest displayed gaps were already fixed-baseline identities, excluded national brands or remained unsupported; none was padded into a priority page."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}

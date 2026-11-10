@@ -1,0 +1,29 @@
+{
+  "run": "fill1000bc",
+  "checkedAt": "2026-11-10T01:35:00Z",
+  "method": "fresh official-site browser verification after fixed-baseline and priority-gap research",
+  "checks": [
+    {"name":"Lamey Electric Inc.","url":"https://lameyelectric.com/","finalUrl":"https://lameyelectric.com/","status":"pass","observed":"Working official Biloxi company site showed direct provider identity, private-residence electrical services and Biloxi office."},
+    {"name":"AG Electric, LLC","url":"https://www.agelectricllc.com/","finalUrl":"https://www.agelectricllc.com/","status":"pass","observed":"Working official site expressly named Biloxi and Gulfport and detailed residential electrical services."},
+    {"name":"Horton Heating, Air & Electrical, LLC","url":"https://www.callhortonthatswho.com/services","finalUrl":"https://www.callhortonthatswho.com/services","status":"pass","observed":"Working official site detailed residential HVAC and home electrical work from the Gulfport provider."},
+    {"name":"Horton city coverage","url":"https://www.callhortonthatswho.com/services/electrical-wiring","finalUrl":"https://www.callhortonthatswho.com/services/electrical-wiring","status":"pass","observed":"Official page expressly served Gulfport homeowners and nearby Biloxi; official HVAC pages independently name both cities."},
+    {"name":"Baudier's Flooring","url":"https://baudiersflooring.com/","finalUrl":"https://baudiersflooring.com/","status":"pass","observed":"Working official Gulfport site showed family-owned direct provider, full-service residential installation and Mississippi Gulf Coast coverage."},
+    {"name":"Crestview Paint & Body","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Gerber Collision & Glass","status":"excluded_domain","observed":"National brand already listed in the repository exclusion policy; not published."},
+    {"name":"Caliber Collision","status":"excluded_domain","observed":"National brand already listed in the repository exclusion policy; not published."},
+    {"name":"Mike's Auto Collision","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Home Appliance Service of Destin","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"DAPI","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Purvis Appliances","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Cal's Appliance Repair","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Sun State Services","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Keep It Wet Concrete","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Prater's Insulators","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Cook's Pest Control","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"SWAT Pest Control","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"ASP Panama City","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"E2 Anderson Pools","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Creamer's Tree Service","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Custom Pools by Rob Abel","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."}
+  ]
+}
