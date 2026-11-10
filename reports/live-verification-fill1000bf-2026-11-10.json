@@ -1,0 +1,27 @@
+{
+  "run": "fill1000bf",
+  "verifiedAt": "2026-11-10T23:03:28Z",
+  "publishedCommit": "6142891fa14fb8a9168cd03f1dc0730701d4e728",
+  "productionDeployment": "dpl_FvA7xG1Ndb49VzxoR5jAxJ9Gz8QV",
+  "deploymentState": "READY",
+  "pageChecks": [
+    {"url":"https://whoknowsapro.com/biloxi-ms/painting","expectedBusiness":"Reliable Coatings","expectedDisplayedCount":6,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/painting","expectedBusiness":"Reliable Coatings","expectedDisplayedCount":6,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/landscaping","expectedBusiness":"BetterView Lawn & Turf","expectedDisplayedCount":5,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/irrigation-sprinkler-repair","expectedBusiness":"BetterView Lawn & Turf","expectedDisplayedCount":3,"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/fence-builders","expectedBusiness":"Can't Be Beat Fence & Construction","expectedDisplayedCount":9,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/fence-builders","expectedBusiness":"Can't Be Beat Fence & Construction","expectedDisplayedCount":9,"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/electrical","expectedBusiness":"KNP Power","expectedDisplayedCount":6,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/electrical","expectedBusiness":"KNP Power","expectedDisplayedCount":5,"status":"pass"}
+  ],
+  "profileChecks": [
+    {"name":"Reliable Coatings","url":"https://whoknowsapro.com/business/reliable-coatings?region=biloxi-ms&trade=painting","officialWebsiteFinalUrl":"https://reliablecoatingsnh.com/","status":"pass"},
+    {"name":"BetterView Lawn & Turf","url":"https://whoknowsapro.com/business/betterview-lawn-turf?region=gulfport-ms&trade=irrigation-sprinkler-repair","officialWebsiteFinalUrl":"https://www.betterviewlawn.com/","status":"pass"},
+    {"name":"Can't Be Beat Fence & Construction","url":"https://whoknowsapro.com/business/can-t-be-beat-fence-construction?region=biloxi-ms&trade=fence-builders","officialWebsiteFinalUrl":"https://cantbebeatfence.com/","status":"pass"},
+    {"name":"KNP Power","url":"https://whoknowsapro.com/business/knp-power?region=biloxi-ms&trade=electrical","officialWebsiteFinalUrl":"https://knppower.com/","status":"pass"}
+  ],
+  "publishedLiveVerifiedDistinctNewBusinesses": 3,
+  "publishedLiveVerifiedNewBusinessPlacements": 6,
+  "publishedLiveVerifiedExistingBusinessPlacements": 2,
+  "changesAwaitingDeploymentOrLiveVerification": 0
+}
