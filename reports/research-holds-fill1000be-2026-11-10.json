@@ -1,0 +1,28 @@
+{
+  "run": "fill1000be",
+  "researchedCandidates": 26,
+  "publishedLiveVerifiedCandidates": 0,
+  "preparedCandidates": 3,
+  "pendingCandidates": 6,
+  "rejectedOrBaselineCandidates": 17,
+  "holds": [
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during fresh browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and licensing corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"GE Appliances Factory Service / Bodewell","status":"pending_branch_identity","reason":"Carried forward: a separately identifiable qualifying local branch has not been established."},
+    {"name":"All Day Construction LLC","website":"https://www.alldayconstructionllc.com/","status":"pending_residential_scope","reason":"Official Gulfport/Biloxi signals require clearer homeowner-specific concrete evidence before publication."},
+    {"name":"Kemp's Construction","website":"https://concretecontractorgulfport.com/","status":"pending_identity_review","reason":"Gulfport concrete content requires additional official-identity corroboration before publication."}
+  ],
+  "rejections": [
+    {"name":"Genesse Lawn & Landscape","website":"https://genesselandscape.com/","status":"rejected_invalid_official_website","reason":"Fresh browser verification reached a Squarespace Website Expired page."},
+    {"name":"Premier Biloxi Concrete","website":"https://biloxiconcretecompany.com/","status":"rejected_intermediary_or_identity_uncertainty","reason":"Generic SEO-style administrative-office site did not establish a sufficiently reliable direct local provider identity."},
+    {"name":"Gulfport Concrete","website":"https://gulfportconcretecontractor.com/","status":"rejected_intermediary_or_identity_uncertainty","reason":"Generic SEO-style site did not establish a sufficiently reliable direct local provider identity."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"The strongest official-site candidates found for the lowest displayed gaps were already fixed-baseline identities, excluded national brands or lacked exact supported coverage; none was padded into a priority page."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}

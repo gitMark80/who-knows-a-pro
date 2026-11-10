@@ -1,0 +1,25 @@
+{
+  "run": "fill1000be",
+  "checkedAt": "2026-11-10T16:55:34Z",
+  "method": "fresh official-site browser verification after fixed-baseline and priority-gap research",
+  "checks": [
+    {"name":"Professional Concrete Solutions","url":"https://professionalsconcretesolutions.com/","finalUrl":"https://professionalsconcretesolutions.com/","status":"pass","observed":"Working official site showed a direct concrete provider, explicit homeowner and residential work, and both Biloxi and Gulfport in its service area."},
+    {"name":"Sweetwater Property Maintenance","url":"https://sweetwater228.com/","finalUrl":"https://sweetwater228.com/","status":"pass","observed":"Working official owner-operated site showed residential landscaping, Biloxi project evidence and Gulfport customer evidence within its Mississippi Gulf Coast service area."},
+    {"name":"Aquaman Plumbing","url":"https://callaquaman.com/","finalUrl":"https://callaquaman.com/","status":"pass","observed":"Working official licensed provider site showed residential plumbing, a Gulfport base and both Gulfport and Biloxi in its service area."},
+    {"name":"Genesse Lawn & Landscape","url":"https://genesselandscape.com/","finalUrl":"https://genesselandscape.com/","status":"rejected_invalid_official_website","observed":"Fresh browser verification reached a Squarespace Website Expired page; the stale search result was not published or counted."},
+    {"name":"Crestview Paint & Body","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Gerber Collision & Glass","status":"excluded_domain","observed":"National brand remains excluded by repository policy; not published."},
+    {"name":"David Scott Lee Buick GMC Collision Center","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Madden Septic","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Zeb Watts Septic & Underground","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Rogers & Grant Septic Service","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Parker Septic & Drain","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Home Appliance Service of Destin","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"DAPI","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Economy Appliance","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Mike's Auto Collision","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Purvis Appliances","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Cal's Appliance Repair","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Emerald Coast Appliance Repair","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."}
+  ]
+}
