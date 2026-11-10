@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bd prepared checkpoint — 2026-11-10
+# Who Knows a Pro fill1000bd published checkpoint — 2026-11-10
 
 ## Run baseline and scope
 
@@ -10,22 +10,22 @@
 - Towing, Locksmith and every other hidden category remain hidden. No city or category was created, activated, renamed, expanded, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
-- Distinct new businesses absent from the fixed baseline, prepared: **4**
-- Placements from those new businesses, prepared: **8**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **4**
+- Placements from those new businesses, published and live-verified: **8**
 - Placements from businesses already present at baseline: **0**
 - New-business target: 1,000
-- Exact new-business shortfall pending publication and live verification: **996**
+- Exact new-business shortfall against this run's target: **996**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Biloxi | Landscaping | 2 | 1 | 3 | 17 |
 | Gulfport | Landscaping | 2 | 1 | 3 | 17 |
 | Biloxi | Roofing | 3 | 3 | 6 | 14 |
 | Gulfport | Roofing | 3 | 3 | 6 | 14 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **197**
 - Pages below 20: **923**
@@ -43,9 +43,12 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Publication state
 
-- Source changes are prepared locally and have not yet been committed, deployed or counted as complete.
-- Changes awaiting deployment or live verification: **8 placements across 4 new businesses**
+- Publication commit: `7fd57c18944704d69107d9001f78b4922731f60c` on `main`.
+- Vercel production deployment `dpl_EVR9q1bXLdNmLZiPQf2brVoK5ntX` reached `READY` for that exact commit.
+- All four affected public pages visibly showed the expected post-publication counts listed above.
+- All four business profiles were publicly visible and every directory website link reached the intended working official business identity at `2026-11-10T10:56:54Z`.
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Re-read remote `main` before publication, preserve later changes, validate the fixed baseline and current catalog slugs, publish through the established GitHub/Vercel workflow, then live-check all four affected pages, four profiles and official outbound destinations. The site remains incomplete; unaudited historical coverage remains unknown until placement-specific evidence is checked.
+Resume from this published checkpoint, re-read remote `main` before any write, preserve later changes, and continue with the lowest strictly verified deficits in Destin, Fort Walton Beach, Crestview and Panama City, then the other gaps closest to Pensacola and outward. The site remains incomplete: 923 displayed pages are below 20 and the displayed deficit is 9,755; unaudited historical coverage remains unknown until placement-specific evidence is checked.

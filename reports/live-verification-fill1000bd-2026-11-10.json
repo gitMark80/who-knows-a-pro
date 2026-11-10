@@ -1,0 +1,23 @@
+{
+  "run": "fill1000bd",
+  "verifiedAt": "2026-11-10T10:56:54Z",
+  "publishedCommit": "7fd57c18944704d69107d9001f78b4922731f60c",
+  "productionDeployment": "dpl_EVR9q1bXLdNmLZiPQf2brVoK5ntX",
+  "deploymentState": "READY",
+  "pages": [
+    {"url":"https://whoknowsapro.com/biloxi-ms/landscaping","expectedDisplayedCount":3,"observedDisplayedCount":3,"newBusinessesObserved":["Edrington Greenscapes"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/landscaping","expectedDisplayedCount":3,"observedDisplayedCount":3,"newBusinessesObserved":["Edrington Greenscapes"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/roofing","expectedDisplayedCount":6,"observedDisplayedCount":6,"newBusinessesObserved":["Frontline Roofing","Gulf Coast Heights Roofing LLC","Integrity Roofing"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/roofing","expectedDisplayedCount":6,"observedDisplayedCount":6,"newBusinessesObserved":["Frontline Roofing","Gulf Coast Heights Roofing LLC","Integrity Roofing"],"status":"pass"}
+  ],
+  "profiles": [
+    {"name":"Edrington Greenscapes","url":"https://whoknowsapro.com/business/edrington-greenscapes?region=biloxi-ms&trade=landscaping","officialWebsiteFinalUrl":"https://edringtongreenscapes.com/","status":"pass"},
+    {"name":"Frontline Roofing","url":"https://whoknowsapro.com/business/frontline-roofing?region=biloxi-ms&trade=roofing","officialWebsiteFinalUrl":"https://www.gcfroofs.com/","status":"pass"},
+    {"name":"Integrity Roofing","url":"https://whoknowsapro.com/business/integrity-roofing?region=biloxi-ms&trade=roofing","officialWebsiteFinalUrl":"https://roofsbyintegrity.com/","status":"pass"},
+    {"name":"Gulf Coast Heights Roofing LLC","url":"https://whoknowsapro.com/business/gulf-coast-heights-roofing-llc?region=biloxi-ms&trade=roofing","officialWebsiteFinalUrl":"https://gulfcoastheightsroofing.com/","status":"pass"}
+  ],
+  "distinctNewBusinessesPublishedLiveVerified": 4,
+  "newBusinessPlacementsPublishedLiveVerified": 8,
+  "existingBusinessPlacementsPublishedLiveVerified": 0,
+  "awaitingDeploymentOrLiveVerification": 0
+}
