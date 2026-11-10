@@ -1,0 +1,31 @@
+{
+  "run": "fill1000bf",
+  "checkedAt": "2026-11-10T22:58:00Z",
+  "method": "fresh official-site browser verification after a fixed-baseline and priority-gap research pass",
+  "checks": [
+    {"name":"Reliable Coatings","url":"https://reliablecoatingsnh.com/residential-painting/","finalUrl":"https://reliablecoatingsnh.com/residential-painting/","status":"pass","observed":"Working official site showed a direct residential painting provider, current Vancleave address, homeowner language and express Biloxi and Gulfport coverage."},
+    {"name":"BetterView Lawn & Turf","url":"https://www.betterviewlawn.com/landscape/","finalUrl":"https://www.betterviewlawn.com/landscape/","status":"pass","observed":"Working official site showed landscaping for residential property owners, detailed sprinkler installation and repair, and a Gulfport operating address."},
+    {"name":"Can't Be Beat Fence & Construction","url":"https://cantbebeatfence.com/contact-us/","finalUrl":"https://cantbebeatfence.com/contact-us/","status":"pass","observed":"Working official LLC site showed direct residential fencing and expressly listed Biloxi and Gulfport in its residential service area."},
+    {"name":"KNP Power","url":"https://knppower.com/","finalUrl":"https://knppower.com/","status":"pass_existing_identity","observed":"Working official family-owned electrician site showed residential electrical services for homeowners and express Biloxi and Gulfport coverage; identity already existed at baseline."},
+    {"name":"Greenscape Brothers","url":"https://www.greenscapebrothers.com/about-us","status":"pending_duplicate_identity","observed":"Official site identifies owner Kirk Edrington, overlapping the recently listed Edrington Greenscapes identity; withheld pending proof of a distinct business identity."},
+    {"name":"Crestview Paint & Body","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Gerber Collision & Glass","status":"excluded_domain","observed":"National brand remains excluded by repository policy; not published."},
+    {"name":"Purvis Appliances","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Home Appliance Service of Destin","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"DAPI","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Emerald Coast Appliance Repair","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Appliance Doctor","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Mike's Auto Collision","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Parker Septic & Drain","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Superior Septic","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Cook's Pest Control","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Orkin","status":"excluded_or_baseline_identity","observed":"National brand was not used as a new local identity."},
+    {"name":"Terminix","status":"excluded_or_baseline_identity","observed":"National brand was not used as a new local identity."},
+    {"name":"Insulation Panama City","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Coastline Insulation","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"FC Design Center","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Coastal Custom Fencing","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"McClain Tree Experts","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Sun Coast Septic","status":"alternate_identity_or_domain","observed":"Shared phone and existing historical domain tied the candidate to baseline Gulf Coast Septic; not counted as a distinct business."}
+  ]
+}

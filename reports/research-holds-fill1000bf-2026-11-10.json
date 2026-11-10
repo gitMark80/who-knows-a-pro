@@ -1,0 +1,25 @@
+{
+  "run": "fill1000bf",
+  "researchedCandidates": 31,
+  "publishedLiveVerifiedCandidates": 0,
+  "preparedCandidates": 4,
+  "preparedDistinctNewBusinesses": 3,
+  "pendingCandidates": 7,
+  "rejectedOrBaselineCandidates": 20,
+  "holds": [
+    {"name":"Greenscape Brothers","website":"https://www.greenscapebrothers.com/","status":"pending_duplicate_identity","reason":"Owner Kirk Edrington overlaps the recently listed Edrington Greenscapes identity; requires proof of a distinct company before publication."},
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during fresh browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and licensing corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"GE Appliances Factory Service / Bodewell","status":"pending_branch_identity","reason":"Carried forward: a separately identifiable qualifying local branch has not been established."},
+    {"name":"All Day Construction LLC","website":"https://www.alldayconstructionllc.com/","status":"pending_residential_scope","reason":"Official Gulfport/Biloxi signals require clearer homeowner-specific concrete evidence before publication."},
+    {"name":"Kemp's Construction","website":"https://concretecontractorgulfport.com/","status":"pending_identity_review","reason":"Gulfport concrete content requires additional official-identity corroboration before publication."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"The strongest official-site results for the lowest priority gaps were fixed-baseline identities, excluded national brands or lacked exact supported coverage; none was padded into a page."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}
