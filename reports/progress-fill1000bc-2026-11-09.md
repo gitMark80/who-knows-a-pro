@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bc prepared checkpoint — 2026-11-09
+# Who Knows a Pro fill1000bc published checkpoint — 2026-11-09
 
 ## Run baseline and scope
 
@@ -10,15 +10,15 @@
 - Towing, Locksmith and every other hidden category remain hidden. No city or category was created, activated, renamed, expanded, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
-- Distinct new businesses absent from the fixed baseline: **4**
-- Placements from those new businesses: **9**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **4**
+- Placements from those new businesses, published and live-verified: **9**
 - Placements from businesses already present at baseline: **0**
 - New-business target: 1,000
-- Exact shortfall pending publication and live verification: **996**
+- Exact new-business shortfall against this run's target: **996**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Biloxi | HVAC | 3 | 1 | 4 | 16 |
 | Biloxi | Electrical | 2 | 3 | 5 | 15 |
@@ -27,7 +27,7 @@
 | Gulfport | Electrical | 2 | 2 | 4 | 16 |
 | Gulfport | Flooring | 1 | 1 | 2 | 18 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **197**
 - Pages below 20: **923**
@@ -39,18 +39,19 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 ## Validation and research state
 
 - All four identities and nine placements have official-site evidence for direct-provider identity, residential category fit and exact local or documented Mississippi Gulf Coast coverage.
-- Fixed-baseline preservation, active/visible catalog slugs, normalized-domain duplicate handling, hidden-category preservation and excluded-domain safeguards passed.
+- Fixed-baseline preservation, active/visible catalog slugs, normalized-domain duplicate handling, hidden-category preservation, excluded-domain safeguards, lint and the production build passed.
 - The priority Destin, Fort Walton Beach, Crestview and Panama City gaps were searched first. The strongest candidates found were fixed-baseline identities, excluded national brands or insufficiently supported; none was padded into a page.
 - Four carried candidates remain pending and are excluded from publication and counts.
 - Retail Fix It remains flagged as a commercial facility-maintenance/intermediary network, and the historical WittCo Crestview pool placement remains flagged for unsupported city coverage. Neither record was deleted or hidden.
 
 ## Publication state
 
-- Source and evidence are prepared locally but **not yet committed, deployed or live-verified**.
-- Distinct new businesses published and live-verified: **0**
-- Published/live-verified placements: **0**
-- Changes awaiting deployment and live verification: **4 businesses / 9 placements**
+- Publication commit: `0c8b6298a39eea534298679d8b85cb4033b3d7b5` on `main`.
+- Vercel production deployment `dpl_GQGMhBQRUPz4QcW474dkeAa1kubC` reached `READY` for that exact commit.
+- All six affected public pages visibly showed the expected post-publication counts listed above.
+- All four business profiles were publicly visible and every directory website link reached the intended working official business identity at `2026-11-10T05:05:54Z`.
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Re-read remote `main` before publication, reconcile any concurrent change, publish the validated batch through the established GitHub/Vercel flow, wait for the exact production deployment, verify every affected public page and official website link, then update this checkpoint with committed, deployed and live-verified status.
+Resume from this published checkpoint, re-read remote `main` before any write, preserve later changes, and continue with the lowest strictly verified deficits in Destin, Fort Walton Beach, Crestview and Panama City, then the other gaps closest to Pensacola and outward. The site remains incomplete: 923 displayed pages are below 20 and the displayed deficit is 9,763; unaudited historical coverage remains unknown until placement-specific evidence is checked.

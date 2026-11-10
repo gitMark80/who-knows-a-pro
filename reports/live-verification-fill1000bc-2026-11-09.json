@@ -1,0 +1,24 @@
+{
+  "run": "fill1000bc",
+  "verifiedAt": "2026-11-10T05:05:54Z",
+  "publishedCommit": "0c8b6298a39eea534298679d8b85cb4033b3d7b5",
+  "productionDeployment": "dpl_GQGMhBQRUPz4QcW474dkeAa1kubC",
+  "deploymentState": "READY",
+  "pageChecks": [
+    {"url":"https://whoknowsapro.com/biloxi-ms/hvac","displayedCount":4,"expectedBusinesses":["Horton Heating, Air & Electrical, LLC"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/electrical","displayedCount":5,"expectedBusinesses":["Lamey Electric Inc.","AG Electric, LLC","Horton Heating, Air & Electrical, LLC"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/biloxi-ms/flooring","displayedCount":4,"expectedBusinesses":["Baudier's Flooring"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/hvac","displayedCount":3,"expectedBusinesses":["Horton Heating, Air & Electrical, LLC"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/electrical","displayedCount":4,"expectedBusinesses":["AG Electric, LLC","Horton Heating, Air & Electrical, LLC"],"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/flooring","displayedCount":2,"expectedBusinesses":["Baudier's Flooring"],"status":"pass"}
+  ],
+  "profileAndWebsiteChecks": [
+    {"name":"Lamey Electric Inc.","profile":"https://whoknowsapro.com/business/lamey-electric-inc","website":"https://lameyelectric.com/","finalUrl":"https://lameyelectric.com/","status":"pass"},
+    {"name":"AG Electric, LLC","profile":"https://whoknowsapro.com/business/ag-electric-llc","website":"https://www.agelectricllc.com/","finalUrl":"https://www.agelectricllc.com/","status":"pass"},
+    {"name":"Horton Heating, Air & Electrical, LLC","profile":"https://whoknowsapro.com/business/horton-heating-air-electrical-llc","website":"https://www.callhortonthatswho.com/","finalUrl":"https://www.callhortonthatswho.com/","status":"pass"},
+    {"name":"Baudier's Flooring","profile":"https://whoknowsapro.com/business/baudier-s-flooring","website":"https://baudiersflooring.com/","finalUrl":"https://www.baudiersflooring.com/","status":"pass"}
+  ],
+  "completed": {"distinctNewBusinesses":4,"newBusinessPlacements":9,"existingBusinessPlacements":0},
+  "awaitingDeployment": 0,
+  "awaitingLiveVerification": 0
+}

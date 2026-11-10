@@ -3,7 +3,10 @@
   "baselineCommit": "4145ddaba2156927c7d342ae2db959064c269325",
   "baselinePlacements": 14532,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "0c8b6298a39eea534298679d8b85cb4033b3d7b5",
+  "productionDeployment": "dpl_GQGMhBQRUPz4QcW474dkeAa1kubC",
+  "liveVerifiedAt": "2026-11-10T05:05:54Z",
   "records": [
     {
       "name": "Lamey Electric Inc.",
@@ -81,7 +84,7 @@
       "geographicEvidence": "The official site identifies its Gulfport operation and says its residential sales and installation service covers the Mississippi Gulf Coast; that named coastal metro includes both Gulfport and Biloxi.",
       "geographicSourceUrl": "https://baudiersflooring.com/",
       "identityEvidence": "The working branded destination identifies Baudier's Flooring, Gulfport location, direct phone, family ownership and over 35 years of installation experience.",
-      "officialWebsiteFinalUrl": "https://baudiersflooring.com/",
+      "officialWebsiteFinalUrl": "https://www.baudiersflooring.com/",
       "evidenceNote": "Official Gulfport family-owned flooring contractor site offers full-service residential installation throughout the Mississippi Gulf Coast, the coastal metro that includes Gulfport and Biloxi.",
       "sourceUrl": "https://baudiersflooring.com/",
       "sourceVerifiedAt": "2026-11-10T01:35:00Z",
