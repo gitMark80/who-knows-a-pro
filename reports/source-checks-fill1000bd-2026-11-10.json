@@ -1,0 +1,26 @@
+{
+  "run": "fill1000bd",
+  "checkedAt": "2026-11-10T10:50:15Z",
+  "method": "fresh official-site browser verification after fixed-baseline and priority-gap research",
+  "checks": [
+    {"name":"Edrington Greenscapes","url":"https://edringtongreenscapes.com/","finalUrl":"https://edringtongreenscapes.com/","status":"pass","observed":"Working official site showed a direct landscaping provider, explicit residential work and both Gulfport and Biloxi in its coverage area."},
+    {"name":"Frontline Roofing","url":"https://www.gcfroofs.com/","finalUrl":"https://www.gcfroofs.com/","status":"pass","observed":"Working official contractor site showed residential roof repair and replacement and expressly listed Gulfport and Biloxi."},
+    {"name":"Integrity Roofing","url":"https://roofsbyintegrity.com/","finalUrl":"https://roofsbyintegrity.com/","status":"pass","observed":"Working official locally owned site showed residential roofing, a Biloxi office and explicit Gulfport coverage."},
+    {"name":"Gulf Coast Heights Roofing LLC","url":"https://gulfcoastheightsroofing.com/","finalUrl":"https://gulfcoastheightsroofing.com/","status":"pass","observed":"Working official licensed contractor site showed residential roofing and explicitly served Gulfport and Biloxi."},
+    {"name":"Crown Plumbing","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Zeb Watts Septic & Underground","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Rogers & Grant Septic Service","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Superior Septic Service","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Parker Septic & Drain","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Home Appliance Service of Destin","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Cal's Appliance Repair","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Purvis Appliances","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Crestview Paint & Body","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Mike's Auto Collision","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Gerber Collision & Glass","status":"excluded_domain","observed":"National brand already listed in the repository exclusion policy; not published."},
+    {"name":"Classic Collision","status":"excluded_domain","observed":"National brand was not used to pad the priority auto-body gaps."},
+    {"name":"People 1st Real Estate & Property Management","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Laser Appliance Repair","status":"baseline_identity","observed":"Already present in historical directory data; not republished or counted as new."},
+    {"name":"Emerald Coast Wastewater Solutions","status":"baseline_identity","observed":"Already present for Crestview septic; no unsupported extra-city placement was added."}
+  ]
+}

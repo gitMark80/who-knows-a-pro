@@ -1,0 +1,25 @@
+{
+  "run": "fill1000bd",
+  "researchedCandidates": 26,
+  "publishedLiveVerifiedCandidates": 0,
+  "preparedCandidates": 4,
+  "pendingCandidates": 8,
+  "rejectedOrBaselineCandidates": 14,
+  "holds": [
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during fresh browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and licensing corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"GE Appliances Factory Service / Bodewell","status":"pending_branch_identity","reason":"Carried forward: a separately identifiable qualifying local branch has not been established."},
+    {"name":"Professional Concrete Solutions","website":"https://professionalsconcretesolutions.com/","status":"pending_exact_geography","reason":"Official content supports residential concrete in Biloxi and surrounding Gulf Coast areas, but exact Gulfport coverage has not been established."},
+    {"name":"All Day Construction LLC","website":"https://www.alldayconstructionllc.com/","status":"pending_residential_scope","reason":"Official Gulfport/Biloxi signals require clearer homeowner-specific concrete evidence before publication."},
+    {"name":"Kemp's Construction","website":"https://concretecontractorgulfport.com/","status":"pending_identity_review","reason":"Gulfport concrete content requires additional official-identity corroboration before publication."},
+    {"name":"Genesse Landscape","website":"https://genesselandscape.com/","status":"pending_full_review","reason":"Official Gulfport/Biloxi landscaping signals were found but the provider still needs a complete identity and residential-scope review."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"The strongest official-site candidates found for the lowest displayed gaps were already fixed-baseline identities, excluded national brands or lacked exact supported coverage; none was padded into a priority page."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}
