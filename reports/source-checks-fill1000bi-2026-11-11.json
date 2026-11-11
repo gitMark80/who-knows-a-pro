@@ -1,0 +1,17 @@
+{
+  "run": "fill1000bi",
+  "checkedAt": "2026-11-11T22:57:18Z",
+  "method": "fresh fixed-baseline review, official-site research and direct browser verification",
+  "checks": [
+    {"name":"Oceanside Service Co.","url":"https://www.oceansideappliance.com/","finalUrl":"https://www.oceansideappliance.com/","status":"pending_duplicate_identity","observed":"Working official Gulf Breeze site offered household appliance repair and local coverage, but the same business name is already in the fixed baseline under oceansideserviceco.com; withheld until the alternate-domain relationship and safe existing-business placements are reconciled."},
+    {"name":"J&K Better Pools","url":"https://jandkbetterpools.com/","finalUrl":"https://jandkbetterpools.com/","status":"pass","observed":"Working official direct-provider site offered weekly pool service and repairs and expressly stated that it serves Crestview."},
+    {"name":"Lee Swimming Pools","url":"https://leeswimmingpools.com/","finalUrl":"https://leeswimmingpools.com/","status":"pass","observed":"Working official family-owned site offered homeowner pool building, renovation, cleaning and maintenance and expressly listed Biloxi and Gulfport service links."},
+    {"name":"Coast Pool Company","url":"https://www.coastpoolco.com/","finalUrl":"https://www.coastpoolco.com/","status":"pass","observed":"Working official family-owned Gulfport site offered above-ground and in-ground residential pool installation for families and backyards."},
+    {"name":"Gulf Coast Pool & Spa (Ocean Springs)","url":"https://www.mygulfcoastpool.com/","finalUrl":"https://www.mygulfcoastpool.com/","status":"pass","observed":"Working official Ocean Springs family-provider site offered backyard pool repair and weekly maintenance; its maintenance page expressly listed Biloxi."},
+    {"name":"Morlans Flooring Repair","url":"https://flooringgulfport.com/","finalUrl":"https://flooringgulfport.com/","status":"pass","observed":"Working official Gulfport contractor site offered flooring installation and repairs for homes and expressly listed Gulfport under Proudly Serving."},
+    {"name":"Panhandle Generators","url":"https://panhandlegenerators.com/","status":"rejected_intermediary","observed":"The official site states that it connects homeowners with vetted installers and is not itself a contractor or work-performing provider; excluded from publication and counts."},
+    {"name":"A To Z Appliance Repair","url":"https://atoznwfl.com/","status":"pending_duplicate_identity","observed":"The official domain appears to represent a fixed-baseline A to Z Appliance identity currently stored under another domain; held for redirect and identity reconciliation rather than counted as new."},
+    {"name":"Retail Fix It","url":"https://retailfixit.com/","status":"historical_hold_intermediary_commercial","observed":"The historical commercial facility-maintenance network remains unsupported for residential locksmith placement and is excluded from verified-completion counts without deletion."},
+    {"name":"WittCo Custom Pool and Spa","status":"historical_hold_unsupported_geography","observed":"The historical Crestview pool placement remains flagged for unsupported city coverage and is excluded from verified-completion claims without deletion."}
+  ]
+}

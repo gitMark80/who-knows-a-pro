@@ -1,0 +1,31 @@
+{
+  "run": "fill1000bi",
+  "researchedCandidates": 20,
+  "publishedLiveVerifiedCandidates": 0,
+  "publishedLiveVerifiedDistinctNewBusinesses": 0,
+  "preparedCandidates": 5,
+  "pendingCandidates": 10,
+  "rejectedOrBaselineCandidates": 5,
+  "holds": [
+    {"name":"Oceanside Service Co.","website":"https://www.oceansideappliance.com/","status":"pending_duplicate_identity","reason":"The same business name already appears in the fixed baseline under oceansideserviceco.com. Despite strong service evidence, the alternate-domain relationship must be reconciled before any new or existing-business placement is counted."},
+    {"name":"A To Z Appliance Repair","website":"https://atoznwfl.com/","status":"pending_duplicate_identity","reason":"Official-site evidence is promising, but the identity appears to match a fixed-baseline A to Z Appliance row stored under fl-biz.com. Withheld until the alternate domain and redirect relationship are reconciled."},
+    {"name":"Jaybird's Restoration","website":"https://www.jaybirdsrestoration.com/","status":"pending_working_official_website","reason":"Carried forward: residential water/mold and Biloxi/Gulfport evidence was found on official-site search content, but fresh browser attempts returned an upstream connection failure."},
+    {"name":"Tillman's Services","website":"https://tillmansheatingandair.com/","status":"pending_deeper_review","reason":"Carried forward: official search evidence names Biloxi and Gulfport and indicates residential HVAC, but the candidate still needs full fresh identity and duplicate review."},
+    {"name":"Greenscape Brothers","website":"https://www.greenscapebrothers.com/","status":"pending_duplicate_identity","reason":"Carried forward: owner Kirk Edrington overlaps the listed Edrington Greenscapes identity; requires proof of a distinct company."},
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and licensing corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"All Day Construction LLC","website":"https://www.alldayconstructionllc.com/","status":"pending_residential_scope","reason":"Carried forward: Gulfport/Biloxi signals require clearer homeowner-specific concrete evidence."},
+    {"name":"Kemp's Construction","website":"https://concretecontractorgulfport.com/","status":"pending_identity_review","reason":"Carried forward: Gulfport concrete content requires additional official-identity corroboration."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Fresh lowest-gap appliance, auto-body and pool searches produced one qualifying priority business, while several other results were baseline identities, broad excluded brands, unresolved alternate domains or referral intermediaries; none was padded."}
+  ],
+  "rejections": [
+    {"name":"Panhandle Generators","website":"https://panhandlegenerators.com/","status":"rejected_intermediary","reason":"Official site expressly says it connects homeowners to installers and is not a contractor that performs the work."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}
