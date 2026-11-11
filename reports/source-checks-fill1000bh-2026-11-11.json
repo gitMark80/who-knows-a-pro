@@ -1,0 +1,17 @@
+{
+  "run": "fill1000bh",
+  "checkedAt": "2026-11-11T10:55:56Z",
+  "method": "fresh fixed-baseline review, official-site research and browser verification",
+  "checks": [
+    {"name":"911 Restoration of Mississippi Gulf Coast","url":"https://www.911restorationmississippigulfcoast.com/service-areas","finalUrl":"https://www.911restorationmississippigulfcoast.com/service-areas","status":"pass","observed":"Working official local-franchise site identified the Mississippi Gulf Coast business, residential water and mold work, and express Biloxi and Gulfport coverage."},
+    {"name":"Green Home Solutions of Mississippi Gulf Coast","url":"https://www.greenhomesolutions.com/gulf-coast-ms/","finalUrl":"https://www.greenhomesolutions.com/gulf-coast-ms/","status":"pass","observed":"Working official location page named owner Mike Barnes, residential/homeowner mold-remediation work, and both Gulfport and Biloxi."},
+    {"name":"Restoration 1 of The Gulf Coast","url":"https://www.restoration1ofgulfcoast.com/","finalUrl":"https://www.restoration1ofgulfcoast.com/","status":"pass","observed":"Working custom official site identified a locally owned direct provider offering home water and mold restoration across the Gulf Coast, with official city-specific evidence for Biloxi and Gulfport."},
+    {"name":"Ryals Emergency Restoration","url":"https://www.tryalsrestoration.com/","finalUrl":"https://www.tryalsrestoration.com/","status":"pass","observed":"Working official independent-provider site offered residential water removal and mold remediation and linked dedicated Biloxi and Gulfport service pages."},
+    {"name":"Jaybird's Restoration","url":"https://www.jaybirdsrestoration.com/","status":"pending_working_official_website","observed":"Official-site search evidence indicated residential restoration and explicit Biloxi/Gulfport coverage, but two fresh browser attempts returned an upstream connection failure; withheld from publication and counts."},
+    {"name":"PuroClean of Ocean Springs","status":"rejected_excluded_shared_brand_domain","observed":"Local evidence was strong, but puroclean.com is excluded by the current broad-domain policy; the candidate was not used and the exclusion was not relaxed."},
+    {"name":"SERVPRO Team Mayhall","status":"rejected_excluded_shared_brand_domain","observed":"Local evidence was strong, but servpro.com is excluded by the current broad-domain policy; the candidate was not used and the exclusion was not relaxed."},
+    {"name":"Floor Coverings International Gulf Coast","status":"rejected_excluded_shared_brand_domain","observed":"Local evidence was strong, but floorcoveringsinternational.com is excluded by the current broad-domain policy; the candidate was not used and the exclusion was not relaxed."},
+    {"name":"Retail Fix It","url":"https://retailfixit.com/","status":"historical_hold_intermediary_commercial","observed":"The historical commercial facility-maintenance network remains unsupported for residential locksmith placement and is excluded from verified-completion counts without deletion."},
+    {"name":"WittCo Custom Pool and Spa","status":"historical_hold_unsupported_geography","observed":"The historical Crestview pool placement remains flagged for unsupported city coverage and is excluded from verified-completion claims without deletion."}
+  ]
+}

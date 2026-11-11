@@ -47,6 +47,7 @@ import verifiedFill1000bdData from './verified-coverage-2026-11-10-fill1000bd.js
 import verifiedFill1000beData from './verified-coverage-2026-11-10-fill1000be.json';
 import verifiedFill1000bfData from './verified-coverage-2026-11-10-fill1000bf.json';
 import verifiedFill1000bgData from './verified-coverage-2026-11-11-fill1000bg.json';
+import verifiedFill1000bhData from './verified-coverage-2026-11-11-fill1000bh.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -55,6 +56,7 @@ type Cluster = 'pensacola' | 'alabama' | 'tampa' | 'atlanta';
 type Provider = { name: string; website: string; seedKey?: string };
 type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: readonly TradeSlug[]; summary?: string; sourceUrl?: string; sourceVerifiedAt?: string };
 const verifiedActiveProvidersData = [...verifiedFill1000bgData, ...verifiedFill1000bfData, ...verifiedFill1000beData, ...verifiedFill1000bdData, ...verifiedFill1000bcData, ...verifiedFill1000bbData, ...verifiedFill1000baData, ...verifiedFill1000azData, ...verifiedFill1000ayData, ...verifiedFill1000axData, ...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData, ...verifiedFill1000auData, ...verifiedFill1000avData, ...verifiedFill1000awData];
+const allVerifiedActiveProvidersData = [...verifiedFill1000bhData, ...verifiedActiveProvidersData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(
@@ -489,7 +491,7 @@ for (const groups of Object.values(providers)) for (const businesses of Object.v
   domains.add(websiteDomain(business.website));
   identityDomains.set(name, domains);
 }
-for (const business of verifiedActiveProvidersData as readonly VerifiedProvider[]) {
+for (const business of allVerifiedActiveProvidersData as readonly VerifiedProvider[]) {
   const name = slug(business.name);
   const domains = identityDomains.get(name) ?? new Set<string>();
   domains.add(websiteDomain(business.website));
@@ -555,7 +557,7 @@ const tradeSlugs = new Set<string>(trades.map((trade) => trade.slug));
 const seenPairWebsites = new Set(clusterDirectorySeed.map((business) => `${business.region}|${business.trade}|${normalizedWebsite(business.website)}`));
 const seenBusinessSlugs = new Set(clusterDirectorySeed.map((business) => business.slug));
 
-const verifiedDirectorySeed = (verifiedActiveProvidersData as readonly VerifiedProvider[])
+const verifiedDirectorySeed = (allVerifiedActiveProvidersData as readonly VerifiedProvider[])
   .flatMap((business) => business.regions.flatMap((region) => business.trades.map((trade) => {
     if (!activeRegionSlugs.has(region) || !tradeSlugs.has(trade)) return null;
     const businessSlug = `${slug(business.name)}-${region}-${trade}`;
