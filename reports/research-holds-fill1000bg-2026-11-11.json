@@ -1,0 +1,27 @@
+{
+  "run": "fill1000bg",
+  "researchedCandidates": 22,
+  "publishedLiveVerifiedCandidates": 4,
+  "publishedLiveVerifiedDistinctNewBusinesses": 4,
+  "preparedCandidates": 0,
+  "pendingCandidates": 9,
+  "rejectedOrBaselineCandidates": 9,
+  "holds": [
+    {"name":"Tillman's Services","website":"https://tillmansheatingandair.com/","status":"pending_deeper_review","reason":"Official search evidence names Biloxi and Gulfport and indicates residential HVAC, but the candidate was not taken through the full fresh identity and duplicate review in this batch."},
+    {"name":"Jaybirds Restoration","website":"https://www.jaybirdsrestoration.com/","status":"pending_deeper_review","reason":"Official search evidence indicates residential restoration and names Biloxi and Gulfport, but the candidate was not taken through the full fresh placement review in this batch."},
+    {"name":"Greenscape Brothers","website":"https://www.greenscapebrothers.com/","status":"pending_duplicate_identity","reason":"Carried forward: owner Kirk Edrington overlaps the listed Edrington Greenscapes identity; requires proof of a distinct company."},
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during fresh browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and licensing corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"GE Appliances Factory Service / Bodewell","status":"pending_branch_identity","reason":"Carried forward: a separately identifiable qualifying local branch has not been established."},
+    {"name":"All Day Construction LLC","website":"https://www.alldayconstructionllc.com/","status":"pending_residential_scope","reason":"Carried forward: Gulfport/Biloxi signals require clearer homeowner-specific concrete evidence."},
+    {"name":"Kemp's Construction","website":"https://concretecontractorgulfport.com/","status":"pending_identity_review","reason":"Carried forward: Gulfport concrete content requires additional official-identity corroboration."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"The returned appliance and auto-body candidates were fixed-baseline identities or lacked an independent working official site; none was padded into a page."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}

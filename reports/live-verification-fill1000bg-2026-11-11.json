@@ -1,0 +1,21 @@
+{
+  "run": "fill1000bg",
+  "verifiedAt": "2026-11-11T04:59:29Z",
+  "publishedCommit": "1d658dcf112e164c58cb4cd8a699adcd4c32db1e",
+  "productionDeployment": "dpl_DqYR4L3Z2rTxuoR299wzakEuXaJ4",
+  "deploymentState": "READY",
+  "pageChecks": [
+    {"url":"https://whoknowsapro.com/biloxi-ms/hvac","expectedBusinesses":["Comforts on the Coast","Air Conditioning Sales & Service, Inc.","TUCK AIR, LLC","Dependable AC & Heat"],"expectedDisplayedCount":8,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/hvac","expectedBusinesses":["Comforts on the Coast","Air Conditioning Sales & Service, Inc.","TUCK AIR, LLC","Dependable AC & Heat"],"expectedDisplayedCount":7,"status":"pass"}
+  ],
+  "profileChecks": [
+    {"name":"Comforts on the Coast","url":"https://whoknowsapro.com/business/comforts-on-the-coast?region=biloxi-ms&trade=hvac","officialWebsiteFinalUrl":"https://www.comfortsonthecoast.com/","officialWebsiteTitle":"HVAC Services | Comforts on the Coast","status":"pass"},
+    {"name":"Air Conditioning Sales & Service, Inc.","url":"https://whoknowsapro.com/business/air-conditioning-sales-service-inc?region=biloxi-ms&trade=hvac","officialWebsiteFinalUrl":"https://coldair4gc.com/","officialWebsiteTitle":"Air Conditioning Sales and Service | MS Gulf Coast AC Services","status":"pass"},
+    {"name":"TUCK AIR, LLC","url":"https://whoknowsapro.com/business/tuck-air-llc?region=biloxi-ms&trade=hvac","officialWebsiteFinalUrl":"https://www.tuckair.com/","officialWebsiteTitle":"TUCK AIR, LLC | HVAC Services | Gautier, MS","status":"pass"},
+    {"name":"Dependable AC & Heat","url":"https://whoknowsapro.com/business/dependable-ac-heat?region=biloxi-ms&trade=hvac","officialWebsiteFinalUrl":"https://dependableacgulfport.com/","officialWebsiteTitle":"Dependable AC & Heat – Our name says it all.","status":"pass"}
+  ],
+  "publishedLiveVerifiedDistinctNewBusinesses": 4,
+  "publishedLiveVerifiedNewBusinessPlacements": 8,
+  "publishedLiveVerifiedExistingBusinessPlacements": 0,
+  "changesAwaitingDeploymentOrLiveVerification": 0
+}
