@@ -1,0 +1,24 @@
+{
+  "run": "fill1000bg",
+  "checkedAt": "2026-11-11T04:52:31Z",
+  "method": "fresh official-site browser verification after a fixed-baseline and priority-gap research pass",
+  "checks": [
+    {"name":"Comforts on the Coast","url":"https://www.comfortsonthecoast.com/faq","finalUrl":"https://www.comfortsonthecoast.com/faq","status":"pass","observed":"Working official site showed a direct residential HVAC provider, a Gulfport operating address and express Biloxi and Gulfport coverage."},
+    {"name":"Air Conditioning Sales & Service, Inc.","url":"https://coldair4gc.com/","finalUrl":"https://coldair4gc.com/","status":"pass","observed":"Working official veteran-owned company site expressly offered residential HVAC service and listed both Biloxi and Gulfport in its service area."},
+    {"name":"TUCK AIR, LLC","url":"https://www.tuckair.com/","finalUrl":"https://www.tuckair.com/","status":"pass","observed":"Working official locally owned company site offered residential HVAC repair and installation and expressly listed Biloxi and Gulfport."},
+    {"name":"Dependable AC & Heat","url":"https://dependableacgulfport.com/","finalUrl":"https://dependableacgulfport.com/","status":"pass","observed":"Working official provider site stated that its work is mainly residential, detailed HVAC repair and installation and expressly served Gulfport and Biloxi."},
+    {"name":"Crestview Paint & Body","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Precision Auto Body","status":"pending_invalid_official_site","observed":"No independent working official business website was verified; withheld from publication."},
+    {"name":"Mike's Auto Collision","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Independent Appliance","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Emerald Coast Appliance Service","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Home Appliance Services of Destin","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Cal's Appliance Repair","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Appliance Doctor","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"People 1st Home Services","status":"baseline_identity","observed":"Already present at the fixed baseline; not republished or counted as new."},
+    {"name":"Tillman's Services","url":"https://tillmansheatingandair.com/locations/","status":"pending_deeper_review","observed":"Official-site search evidence indicated residential HVAC and named Gulfport and Biloxi, but this candidate was not taken through the full fresh identity and duplicate review in this batch."},
+    {"name":"Jaybirds Restoration","url":"https://www.jaybirdsrestoration.com/","status":"pending_deeper_review","observed":"Official-site search evidence indicated residential restoration and named Biloxi and Gulfport, but this candidate was not taken through the full fresh placement review in this batch."},
+    {"name":"Retail Fix It","url":"https://retailfixit.com/","status":"historical_hold_intermediary_commercial","observed":"The historical commercial facility-maintenance network remains unsupported for residential locksmith placement and is excluded from verified-completion counts without deletion."},
+    {"name":"WittCo Custom Pool and Spa","status":"historical_hold_unsupported_geography","observed":"The historical Crestview pool placement remains flagged for unsupported city coverage and is excluded from verified-completion counts without deletion."}
+  ]
+}
