@@ -1,0 +1,21 @@
+{
+  "run": "fill1000bh",
+  "verifiedAt": "2026-11-11T11:02:55Z",
+  "publishedCommit": "82c5c782b1bab80a1ff53605e3031eae6a39f5cb",
+  "productionDeployment": "dpl_3yaxgDQkVAkrP198br7QcmEuE413",
+  "deploymentState": "READY",
+  "pageChecks": [
+    {"url":"https://whoknowsapro.com/biloxi-ms/water-damage-mold-remediation","expectedBusinesses":["911 Restoration of Mississippi Gulf Coast","Green Home Solutions of Mississippi Gulf Coast","Restoration 1 of The Gulf Coast","Ryals Emergency Restoration"],"expectedDisplayedCount":7,"status":"pass"},
+    {"url":"https://whoknowsapro.com/gulfport-ms/water-damage-mold-remediation","expectedBusinesses":["911 Restoration of Mississippi Gulf Coast","Green Home Solutions of Mississippi Gulf Coast","Restoration 1 of The Gulf Coast","Ryals Emergency Restoration"],"expectedDisplayedCount":7,"status":"pass"}
+  ],
+  "profileChecks": [
+    {"name":"911 Restoration of Mississippi Gulf Coast","url":"https://whoknowsapro.com/business/911-restoration-of-mississippi-gulf-coast?region=biloxi-ms&trade=water-damage-mold-remediation","officialWebsiteFinalUrl":"https://www.911restorationmississippigulfcoast.com/","officialWebsiteTitle":"Mississippi Gulf Coast","status":"pass"},
+    {"name":"Green Home Solutions of Mississippi Gulf Coast","url":"https://whoknowsapro.com/business/green-home-solutions-of-mississippi-gulf-coast?region=biloxi-ms&trade=water-damage-mold-remediation","officialWebsiteFinalUrl":"https://www.greenhomesolutions.com/gulf-coast-ms/","officialWebsiteTitle":"Mold Remediation in Gulfport | Green Home Solutions","status":"pass"},
+    {"name":"Restoration 1 of The Gulf Coast","url":"https://whoknowsapro.com/business/restoration-1-of-the-gulf-coast?region=biloxi-ms&trade=water-damage-mold-remediation","officialWebsiteFinalUrl":"https://www.restoration1ofgulfcoast.com/","officialWebsiteTitle":"Emergency Property Restoration | Restoration 1 of The Gulf Coast","status":"pass"},
+    {"name":"Ryals Emergency Restoration","url":"https://whoknowsapro.com/business/ryals-emergency-restoration?region=biloxi-ms&trade=water-damage-mold-remediation","officialWebsiteFinalUrl":"https://www.tryalsrestoration.com/","officialWebsiteTitle":"Ryals Emergency Restoration","status":"pass"}
+  ],
+  "publishedLiveVerifiedDistinctNewBusinesses": 4,
+  "publishedLiveVerifiedNewBusinessPlacements": 8,
+  "publishedLiveVerifiedExistingBusinessPlacements": 0,
+  "changesAwaitingDeploymentOrLiveVerification": 0
+}
