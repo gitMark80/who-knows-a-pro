@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bk prepared checkpoint — 2026-11-12
+# Who Knows a Pro fill1000bk published checkpoint — 2026-11-12
 
 ## Run baseline and scope
 
@@ -10,15 +10,15 @@
 - Hidden categories remain hidden. No city or category was created, activated, renamed, expanded, unhidden, or deleted.
 - No user-submitted, claimed, paid, or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
-- Distinct new businesses absent from the fixed baseline, prepared: **7**
-- Placements from those new businesses, prepared: **11**
-- Placements from businesses already present at baseline: **0**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **7**
+- Placements from those new businesses, published and live-verified: **11**
+- Placements from businesses already present at baseline, published and live-verified: **0**
 - New-business target: 1,000
-- Exact new-business shortfall pending publication and live verification: **993**
+- Exact new-business shortfall against this run's target: **993**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Dothan | Pest Control | 4 | 2 | 6 | 14 |
 | Dothan | HVAC | 6 | 2 | 8 | 12 |
@@ -29,7 +29,7 @@
 | Dothan | Roofing | 6 | 2 | 8 | 12 |
 | Dothan | Flooring | 5 | 1 | 6 | 14 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **197**
 - Pages below 20: **923**
@@ -40,7 +40,7 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Validation and research state
 
-- Seven distinct new Dothan providers support eleven prepared placements with official-site evidence for direct-provider identity, residential category fit, and explicit local coverage.
+- Seven distinct new Dothan providers support eleven published placements with official-site evidence for direct-provider identity, residential category fit, and explicit local coverage.
 - The priority Destin, Fort Walton Beach, Crestview, and Panama City gaps were searched first. Appliance and auto-body results were baseline identities, excluded national brands, unresolved alternate domains, or lacked working official sites; no unsupported priority result was published.
 - Hardwick's Flooring qualified but was excluded because the exact business and Dothan flooring placement already existed at baseline under an alternate domain.
 - Tri-State Appliance Repair was rejected because its official destination currently renders `SITE NOT FOUND`. Marty Robbins Roofing was rejected because its working official site establishes commercial roofing only. Paul Camp Pool Builders remains pending because two browser checks could not reach its official site.
@@ -49,11 +49,14 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 ## Publication state
 
 - Prepared and locally validated: **11 placements**
-- Publication commit: **not yet published**
-- Vercel production deployment: **not yet deployed**
-- Published and live-verified: **0 placements in this run**
-- Changes awaiting deployment or live verification: **11**
+- Publication commit: `06b4e674b25762392feeb86e5bb5d2e9f4b6ddbd` on `main`
+- Vercel production deployment `dpl_FXa5cYZx1wqhJiuXVecuBJBVh7B4` reached `READY` for that exact commit.
+- Published and live-verified: **11 placements from 7 new businesses**
+- All eight affected Dothan city/category pages showed their expected post-publication displayed counts and all eleven placements.
+- All seven business profiles were visible, and each profile linked to the intended working official website at `2026-11-12T11:04:57Z`.
+- No production runtime errors were reported in the one-hour verification window.
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Publish only after re-reading remote `main` and reconciling concurrent changes. After deployment, live-check all eight affected Dothan category pages, all seven business profiles, and every official outbound website before converting prepared counts to completed counts.
+Resume from this published checkpoint, re-read remote `main` before any write, preserve later changes, and continue the lowest strictly verified gaps in Destin, Fort Walton Beach, Crestview, and Panama City, then other gaps closest to Pensacola and outward. The site remains incomplete: 923 displayed pages are below 20 and the displayed deficit is 9,690; unaudited historical coverage remains unknown until placement-specific evidence is checked.

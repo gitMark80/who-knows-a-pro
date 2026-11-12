@@ -3,7 +3,10 @@
   "baselineCommit": "4e40fd1f983de70126f36e8f1f9d013152207382",
   "baselinePlacements": 14603,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "06b4e674b25762392feeb86e5bb5d2e9f4b6ddbd",
+  "productionDeployment": "dpl_FXa5cYZx1wqhJiuXVecuBJBVh7B4",
+  "liveVerifiedAt": "2026-11-12T11:04:57Z",
   "records": [
     {
       "name": "Pest-Ex Pest Control", "website": "https://pest-ex.net/", "regions": ["dothan-al"], "trades": ["pest-control"],
