@@ -35,6 +35,7 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Validation and research state
 
+- Candidates researched: **24**; published and live-verified: **8**; pending: **10**; rejected, excluded, or already present at baseline: **6**.
 - Eight distinct new Dothan providers support eight published placements with official-site evidence for direct-provider identity, consumer service, and explicit Dothan coverage.
 - Destin, Fort Walton Beach, Crestview and Panama City were searched first across their weakest appliance, auto-body, septic, irrigation, garage-door and insulation gaps. Results were baseline identities, excluded national brands, compromised domains, or lacked exact-city and working-site evidence; no unsupported priority result was prepared.
 - Top Gutter's Dothan site qualified on service and geography, but its public name collides with an existing Atlanta business on another domain. It was withheld to preserve baseline identity slugs pending ownership review.
