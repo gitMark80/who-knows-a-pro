@@ -3,10 +3,10 @@
   "baselineCommit": "6fec6d0264450ed4aedae20fedba474aaa598d1b",
   "baselinePlacements": 14614,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
-  "publishedCommit": null,
-  "productionDeployment": null,
-  "liveVerifiedAt": null,
+  "status": "published_and_live_verified",
+  "publishedCommit": "acd7adcf44633d783dfb34a02184858bffae7062",
+  "productionDeployment": "dpl_CdgjbfZeZ2KBb1P8D5dirLMGvSMc",
+  "liveVerifiedAt": "2026-11-12T17:01:15Z",
   "records": [
     {
       "name": "Tri-State Collision Center", "website": "https://www.tri-statecollisioncenter.com/", "regions": ["dothan-al"], "trades": ["auto-body-collision"],
