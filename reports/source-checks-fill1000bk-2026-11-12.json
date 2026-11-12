@@ -1,0 +1,20 @@
+{
+  "run": "fill1000bk",
+  "checkedAt": "2026-11-12T10:50:00Z",
+  "method": "fixed-baseline review, official-site research, identity/domain deduplication, and direct browser verification",
+  "checks": [
+    {"name":"Pest-Ex Pest Control","url":"https://pest-ex.net/","finalUrl":"https://pest-ex.net/","status":"pass","observed":"Working official locally owned Dothan site explicitly offered customized residential pest treatment plans for homes and families."},
+    {"name":"Circle Pest Control","url":"https://circlepest.com/","finalUrl":"https://circlepest.com/","status":"pass","observed":"Working official locally owned provider site explicitly served residential properties, homes, and houses in the Dothan and Wiregrass market."},
+    {"name":"Southeastern Cooling, Heating & Plumbing","url":"https://southeasterncooling.com/","finalUrl":"https://southeasterncooling.com/","status":"pass","observed":"Working official family-owned Dothan site linked residential HVAC, plumbing, electrical, and whole-house generator services and explicitly listed Dothan."},
+    {"name":"A+ Maintenance Services Co. Inc","url":"https://aplusmaintenanceservices.co/","finalUrl":"https://aplusmaintenanceservices.co/","status":"pass","observed":"Working official Dothan-based family-run provider site explicitly offered residential HVAC and major household-appliance service."},
+    {"name":"Custom Roofing & Construction","url":"https://customroofingandconstruction.com/","finalUrl":"https://customroofingandconstruction.com/","status":"pass","observed":"Working official licensed, bonded, and insured provider site offered residential roofing for Dothan and Wiregrass homeowners."},
+    {"name":"Hardwick's Flooring","url":"https://www.hardwickflooring.com/","finalUrl":"https://www.hardwickflooring.com/","status":"baseline_duplicate_alternate_domain","observed":"The working site qualified, but the exact business and Dothan flooring placement already existed at baseline under hardwicksflooring.com; excluded from new-business and placement counts."},
+    {"name":"Snell Flooring","url":"https://snellflooring.com/","finalUrl":"https://snellflooring.com/","status":"pass","observed":"Working official Dothan provider site offered home flooring repair, installation, estimates, and shop-at-home service."},
+    {"name":"All About Roofs","url":"https://allaboutroofs.com/","finalUrl":"https://allaboutroofs.com/","status":"pass","observed":"Working official Dothan roofing site offered residential inspection, maintenance, repair, shingle and metal roofing, and replacement."},
+    {"name":"Tri-State Appliance Repair","url":"https://www.tristateappliancerepair.com/","finalUrl":"https://www.tristateappliancerepair.com/","status":"rejected_invalid_official_website","observed":"Direct browser verification returned SITE NOT FOUND and stated the site was not published or assigned to a domain."},
+    {"name":"Marty Robbins Roofing","url":"https://choosemartyrobbins.com/","finalUrl":"https://choosemartyrobbins.com/","status":"rejected_commercial_only","observed":"The working official site describes Dothan commercial roofing and facilities but does not establish residential roofing service."},
+    {"name":"Paul Camp Pool Builders","url":"https://dothanpools.com/","finalUrl":"https://dothanpools.com/","status":"pending_working_official_website","observed":"Official search evidence described Dothan residential pool construction, but two browser checks returned an upstream connection failure; excluded from publication and counts."},
+    {"name":"Retail Fix It","url":"https://retailfixit.com/","status":"historical_hold_intermediary_commercial","observed":"Historical commercial facility-maintenance network remains unsupported for residential locksmith placement and excluded from verified-completion counts without deletion."},
+    {"name":"WittCo Custom Pool and Spa","status":"historical_hold_unsupported_geography","observed":"Historical Crestview pool placement remains flagged for unsupported city coverage and excluded from verified-completion claims without deletion."}
+  ]
+}

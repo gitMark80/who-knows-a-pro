@@ -1,0 +1,28 @@
+{
+  "run": "fill1000bk",
+  "researchedCandidates": 20,
+  "preparedCandidates": 7,
+  "preparedDistinctNewBusinesses": 7,
+  "pendingCandidates": 9,
+  "rejectedOrBaselineCandidates": 4,
+  "holds": [
+    {"name":"Tri-State Appliance Repair","website":"https://www.tristateappliancerepair.com/","status":"rejected_invalid_official_website","reason":"The official destination renders SITE NOT FOUND and says it is unpublished or has no assigned domain."},
+    {"name":"Marty Robbins Roofing","website":"https://choosemartyrobbins.com/","status":"rejected_commercial_only","reason":"The official site supplies commercial facility-roofing evidence but no qualifying residential homeowner service."},
+    {"name":"Paul Camp Pool Builders","website":"https://dothanpools.com/","status":"pending_working_official_website","reason":"Residential Dothan pool evidence appeared in official search results, but two browser checks returned an upstream connection failure."},
+    {"name":"Hardwick's Flooring","website":"https://www.hardwickflooring.com/","status":"baseline_duplicate_alternate_domain","reason":"The exact business and Dothan flooring placement already existed in the fixed baseline under hardwicksflooring.com, so the alternate domain is not a new business or placement."},
+    {"name":"Oceanside Service Co.","website":"https://www.oceansideappliance.com/","status":"pending_duplicate_identity","reason":"Carried forward: the same business name already appears under oceansideserviceco.com, and the alternate-domain relationship requires reconciliation."},
+    {"name":"A To Z Appliance Repair","website":"https://atoznwfl.com/","status":"pending_duplicate_identity","reason":"The apparent official identity overlaps a fixed-baseline A to Z Appliance row stored under another domain."},
+    {"name":"Jaybird's Restoration","website":"https://www.jaybirdsrestoration.com/","status":"pending_working_official_website","reason":"Carried forward: residential water and mold evidence was found, but the official destination previously returned an upstream connection failure."},
+    {"name":"Tillman's Services","website":"https://tillmansheatingandair.com/","status":"pending_deeper_review","reason":"Carried forward: Biloxi and Gulfport residential HVAC signals need fresh identity and placement review."},
+    {"name":"Greenscape Brothers","website":"https://www.greenscapebrothers.com/","status":"pending_duplicate_identity","reason":"Carried forward: ownership overlaps the listed Edrington Greenscapes identity and requires proof of a distinct business."},
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during browser verification."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Priority appliance and auto-body searches were dominated by fixed-baseline identities, excluded national brands, invalid websites, or an unresolved A To Z alternate-domain identity, so no unsupported priority placement was published."},
+    {"cities":["dothan-al"],"status":"next_nearest_gap_batch","result":"Seven distinct new Dothan direct providers qualified for eleven underfilled placements across pest control, HVAC, electrical, plumbing, generators, appliance repair, roofing, and flooring."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}
