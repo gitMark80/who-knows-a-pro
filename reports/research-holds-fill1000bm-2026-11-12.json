@@ -1,0 +1,36 @@
+{
+  "run": "fill1000bm",
+  "researchedCandidates": 68,
+  "publishedLiveVerifiedCandidates": 0,
+  "preparedCandidates": 8,
+  "preparedDistinctNewBusinesses": 7,
+  "pendingCandidates": 8,
+  "rejectedBaselineOrNotNeededCandidates": 52,
+  "holds": [
+    {"name":"Pace Lawncare & Land Services","website":"https://pacelandservice.com/","status":"rejected_invalid_official_website","reason":"The live destination rendered Cloudflare Error 1000, DNS points to prohibited IP, so it did not provide a working official website."},
+    {"name":"TJ's Tree Services","website":"https://www.tjs-tree-services.com/","status":"pending_intermediary_review","reason":"Official copy ambiguously says the quote form connects customers to a local professional or partners; direct-provider responsibility is not yet clear."},
+    {"name":"Miller Clearing and Grading LLC","website":"https://www.millerclearingandgradingfl.com/","status":"rejected_conflicting_category_evidence","reason":"Its concrete page claims pouring and finishing, but its grading page says the company does not install concrete."},
+    {"name":"East Milton Concrete","website":"https://eastmiltonconcrete.com/","status":"pending_identity_review","reason":"Detailed Pace residential concrete copy exists, but the generic identity, 888 number and lack of a named operator or precise operating address require stronger direct-provider corroboration."},
+    {"name":"Okaloosa Concrete Contractors / Cambria Concrete","website":"https://www.okaloosaconcretecontractors.com/","status":"pending_identity_review","reason":"Homeowner and Fort Walton Beach copy exists, but the public identity is inconsistent and requires operating-company corroboration before lead-generation risk is cleared."},
+    {"name":"A to Z Shutter Masters","website":"https://www.atozshuttermasters.com/","status":"pending_duplicate_identity","reason":"The address and services overlap the fixed-baseline A to Z Shutters & Railing business on another domain; alternate-domain ownership must be reconciled."},
+    {"name":"Santa Rosa Beach Pool & Patio Screen Enclosures","website":"https://www.santarosabeachpatioscreenenclosurebuilders.com/","status":"pending_identity_review","reason":"The generic local-service identity needs stronger operating-contractor corroboration before publication."},
+    {"name":"Coastal Current Electrical Services","website":"https://coastalcurrent30a.com/","status":"pending_geography_review","reason":"The site supports residential electrical work around Santa Rosa Beach but does not explicitly name Grayton Beach or define a sufficiently precise service boundary for that placement."},
+    {"name":"Cabinet King","website":"https://cabinetking.biz/","status":"qualified_not_needed","reason":"The Orange Beach remodeling page reached 20 with the first selected qualifying provider, so this additional candidate was not published above target."},
+    {"name":"Beach Bay and 30A Plumbing","website":"https://www.beachbayand30aplumbing.com/","status":"qualified_not_needed","reason":"The Panama City Beach plumbing page reached 20 with the first selected qualifying provider, so this additional candidate was not published above target."},
+    {"name":"Tri-State Appliance Repair","website":"https://www.tristateappliancerepair.com/","status":"rejected_invalid_official_website","reason":"Carried forward: the destination renders SITE NOT FOUND and cannot establish a working official website."},
+    {"name":"Top Gutter","website":"https://www.topgutterusa.com/","status":"pending_duplicate_name_review","reason":"Carried forward: its public name collides with a fixed-baseline Atlanta business on another domain and needs ownership review."},
+    {"name":"Beach2Bay Appliance Repair","status":"rejected_compromised_official_website","reason":"Carried forward: the apparent official site contains unrelated casino-spam content and cannot qualify as a working official website."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Two qualifying new Crestview providers were prepared for gutters and pest control. Panama City tree candidates failed working-site or direct-provider tests; Fort Walton Beach and Destin near-complete searches primarily returned fixed-baseline identities."},
+    {"cities":["orange-beach-al","foley-al","pace-fl","panama-city-beach-fl","grayton-beach-fl"],"status":"next_nearest_gap_batch","result":"Five distinct new providers and one existing-business placement were prepared for six additional underfilled pages; each selected page was below 20 at baseline."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."},
+    {"name":"Hardwick's Flooring","reason":"Alternate-domain duplicate identity; only one business identity may count."},
+    {"name":"Top Gutter","reason":"Duplicate-name collision between unrelated domains remains unresolved."},
+    {"name":"Tri-State Appliance Repair","reason":"Invalid official website; SITE NOT FOUND."},
+    {"name":"Beach2Bay Appliance Repair","reason":"Compromised apparent official website with unrelated spam content."}
+  ]
+}
