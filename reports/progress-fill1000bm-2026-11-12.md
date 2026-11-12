@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bm prepared checkpoint — 2026-11-12
+# Who Knows a Pro fill1000bm published checkpoint — 2026-11-12
 
 ## Run baseline and scope
 
@@ -10,15 +10,15 @@
 - Hidden categories remain hidden. No city or category was created, activated, renamed, expanded, unhidden, or deleted.
 - No user-submitted, claimed, paid, or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
-- Distinct new businesses absent from the fixed baseline, prepared: **7**
-- Placements from those new businesses, prepared: **7**
-- Placements from businesses already present at baseline, prepared: **1**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **7**
+- Placements from those new businesses, published and live-verified: **7**
+- Placements from businesses already present at baseline, published and live-verified: **1**
 - New-business target: 1,000
-- Exact new-business shortfall pending publication and live verification: **993**
+- Exact new-business shortfall: **993**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Crestview | Gutters | 19 | 1 new | 20 | 0 |
 | Crestview | Pest Control | 17 | 1 new | 18 | 2 |
@@ -29,7 +29,7 @@
 | Grayton Beach | Plumbing | 19 | 1 new | 20 | 0 |
 | Grayton Beach | Electrical | 19 | 1 existing business | 20 | 0 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **204**
 - Pages below 20: **916**
@@ -40,20 +40,22 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Validation and research state
 
-- Candidates researched: **68**; prepared: **8**; pending: **8**; rejected, fixed-baseline, or not needed after a page reached 20: **52**.
-- Seven distinct new businesses support seven prepared placements, and fixed-baseline Innovative Electric supports one additional Grayton Beach electrical placement.
+- Candidates researched: **68**; published and live-verified: **8**; pending: **8**; rejected, fixed-baseline, or not needed after a page reached 20: **52**.
+- Seven distinct new businesses support seven published placements, and fixed-baseline Innovative Electric supports one additional Grayton Beach electrical placement.
 - Direct live verification rejected Pace Lawncare because its official site currently renders Cloudflare DNS Error 1000. TJ's Tree Services remains pending because its own copy ambiguously says it may connect customers to partners or local professionals.
 - Miller Clearing was rejected for concrete because its own pages conflict: one claims concrete installation while another says the company does not install concrete.
 - Retail Fix It remains flagged as a commercial facility-maintenance/intermediary network, and the historical WittCo Crestview pool placement remains flagged for unsupported city coverage. Neither record was deleted or hidden.
 
 ## Publication state
 
-- Prepared and locally validated: **8 placements**
-- Committed: **0**
-- Deployed: **0**
-- Published and live-verified: **0**
-- Changes awaiting deployment or live verification: **8**
+- Locally validated: **8 placements**
+- Data/evidence publication commit: `ad0be15dd6e599c292431e8dfa64826f3e4fe3b3`
+- Production deployment: `dpl_9CF2ALd7uHvyeHL48aHord8dABct` (**READY**)
+- Published and live-verified: **8 placements** (7 from new businesses; 1 from a fixed-baseline business)
+- Live verification completed at `2026-11-12T23:02:11Z`: every target page displayed the expected business, every business profile loaded with the intended official link, and every official link resolved to the intended business site.
+- Production runtime errors in the preceding hour: **0**
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Re-read remote `main`, reconcile any concurrent change, publish only after the lease check succeeds, then verify the exact deployment, page visibility, profile links and official-site destinations. The site remains incomplete; unaudited historical coverage remains unknown until placement-specific evidence is checked.
+Resume from remote `main` after this checkpoint, establish a new fixed baseline, and continue with the lowest verified page counts in the priority-city order. The site remains incomplete; unaudited historical coverage remains unknown until placement-specific evidence is checked.

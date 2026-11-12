@@ -3,7 +3,10 @@
   "baselineCommit": "dbb1f0c5fdf1c0d82a382918abe8d7303d2159bd",
   "baselinePlacements": 14622,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "ad0be15dd6e599c292431e8dfa64826f3e4fe3b3",
+  "productionDeployment": "dpl_9CF2ALd7uHvyeHL48aHord8dABct",
+  "liveVerifiedAt": "2026-11-12T23:02:11Z",
   "records": [
     {
       "name": "Northwest Florida Gutters", "website": "https://northwestfloridagutters.com/", "regions": ["crestview-fl"], "trades": ["gutters"],
