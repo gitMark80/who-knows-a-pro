@@ -1,0 +1,34 @@
+{
+  "run": "fill1000bl",
+  "researchedCandidates": 24,
+  "publishedLiveVerifiedCandidates": 0,
+  "publishedLiveVerifiedDistinctNewBusinesses": 0,
+  "preparedCandidates": 8,
+  "publishedLiveVerifiedDistinctNewBusinessesThisRun": 0,
+  "pendingCandidates": 10,
+  "rejectedOrBaselineCandidates": 5,
+  "holds": [
+    {"name":"Tri-State Appliance Repair","website":"https://www.tristateappliancerepair.com/","status":"rejected_invalid_official_website","reason":"The official destination again rendered SITE NOT FOUND; search-result text alone was not accepted as a working website."},
+    {"name":"Dothan Premium Roofing","website":"https://www.dothanpremiumroofing.com/","status":"pending_identity_review","reason":"The site contains detailed residential Dothan roofing copy but needs independent operating-identity corroboration before lead-generation risk is cleared."},
+    {"name":"Top Gutter","website":"https://www.topgutterusa.com/","status":"pending_duplicate_name_review","reason":"The Dothan site qualifies on service and geography, but the public name collides with a fixed-baseline Atlanta business on another domain and requires ownership review before a distinct identity is assigned."},
+    {"name":"Dothan Gutter Service","website":"https://dothangutterservice.com/","status":"pending_identity_review","reason":"Generic local-service identity and copy require stronger proof of a distinct operating contractor."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Generic new company identity and templated copy require independent operating and licensing corroboration."},
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during prior browser verification."},
+    {"name":"S&J Irrigation","website":"https://www.sandjirrigation.com/","status":"rejected_invalid_official_website","reason":"Carried forward: the destination rendered SITE NOT FOUND and cannot establish a working official website."},
+    {"name":"Oceanside Service Co.","website":"https://www.oceansideappliance.com/","status":"pending_duplicate_identity","reason":"Carried forward: the same business name already appears under oceansideserviceco.com; alternate-domain reconciliation remains unresolved."},
+    {"name":"A To Z Appliance Repair","website":"https://atoznwfl.com/","status":"pending_duplicate_identity","reason":"The apparent official identity overlaps a fixed-baseline A to Z Appliance record stored under another domain."},
+    {"name":"Jaybird's Restoration","website":"https://www.jaybirdsrestoration.com/","status":"pending_working_official_website","reason":"Carried forward: residential water and mold evidence exists, but the official destination previously returned an upstream connection failure."},
+    {"name":"Tillman's Services","website":"https://tillmansheatingandair.com/","status":"pending_deeper_review","reason":"Carried forward: Biloxi and Gulfport residential HVAC signals need fresh identity and placement review."},
+    {"name":"Greenscape Brothers","website":"https://www.greenscapebrothers.com/","status":"pending_duplicate_identity","reason":"Carried forward: ownership overlaps the listed Edrington Greenscapes identity and requires proof of a distinct business."},
+    {"name":"Beach2Bay Appliance Repair","status":"rejected_compromised_official_website","reason":"The apparent official site currently contains unrelated casino-spam content and cannot qualify as a working official business website."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Priority appliance, auto-body, septic, irrigation, garage-door and insulation searches yielded fixed-baseline identities, excluded national brands, compromised or unresolved domains, or insufficient exact-city evidence; no unsupported priority result was published."},
+    {"cities":["dothan-al"],"status":"next_nearest_gap_batch","result":"Eight distinct new direct providers qualified for eight underfilled placements across auto body, gutters and auto mechanics; one additional gutter candidate was withheld for a duplicate-name identity collision."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."},
+    {"name":"Hardwick's Flooring","reason":"Alternate-domain duplicate identity; only one business identity may count."}
+  ]
+}
