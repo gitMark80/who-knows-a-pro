@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bj prepared checkpoint — 2026-11-11
+# Who Knows a Pro fill1000bj published checkpoint — 2026-11-11
 
 ## Run baseline and scope
 
@@ -12,13 +12,13 @@
 
 ## Prepared additions
 
-- Distinct new businesses absent from the fixed baseline: **9 prepared; 0 published/live-verified yet**
-- Placements from those new businesses: **15 prepared**
-- Placements from businesses already present at baseline: **1 prepared**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **9**
+- Placements from those new businesses, published and live-verified: **15**
+- Placements from businesses already present at baseline, published and live-verified: **1**
 - New-business target: 1,000
-- Exact new-business shortfall pending production live verification: **991**
+- Exact new-business shortfall against this run's target: **991**
 
-| City | Category | Baseline displayed | Prepared | Expected displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Panama City | Pool Installation | 15 | 1 | 16 | 4 |
 | Panama City | Pool Service | 17 | 1 | 18 | 2 |
@@ -31,7 +31,7 @@
 | Dothan | Tree Service | 3 | 2 | 5 | 15 |
 | Dothan | Irrigation & Sprinkler Repair | 2 | 1 | 3 | 17 |
 
-## Expected displayed coverage after publication
+## Published displayed coverage
 
 - Pages at 20 or more: **197**
 - Pages below 20: **923**
@@ -42,7 +42,7 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 
 ## Validation and research state
 
-- Ten business identities support sixteen prepared placements with official-site evidence for direct-provider identity, residential category fit, and explicit local coverage; nine identities are new and Tropical Sun Pools is an existing baseline business.
+- Ten business identities support sixteen published placements with official-site evidence for direct-provider identity, residential category fit, and explicit local coverage; nine identities are new and Tropical Sun Pools is an existing baseline business.
 - The priority Destin, Fort Walton Beach, Crestview, and Panama City gaps were searched first. One new Panama City pool provider and one existing-business Crestview pool placement qualified; appliance and auto-body results were baseline identities, excluded national brands, unresolved alternate domains, or lacked working official sites.
 - Eight additional distinct new businesses qualified in Dothan's low-count categories.
 - S & J Irrigation was rejected because its official destination currently renders `SITE NOT FOUND` and states that the site is unpublished.
@@ -51,11 +51,14 @@ These are rendered-record counts after identity/domain deduplication, not a cert
 ## Publication state
 
 - Prepared and locally validated: **16 placements**
-- Committed to `main`: **0**
-- Deployed to production: **0**
-- Published and live-verified: **0**
-- Changes awaiting deployment or live verification: **16**
+- Publication commit: `046a44dbdffd09f045f192fa3233d5a40be086a1` on `main`
+- Vercel production deployment `dpl_66KopjpxmxgHddnmPyUCPCo365fy` reached `READY` for that exact commit.
+- Published and live-verified: **16 placements** (15 from 9 new businesses; 1 from an existing business)
+- All ten affected city/category pages showed their expected post-publication displayed counts and all sixteen placements.
+- All ten business profiles were visible, and each profile linked to the intended working official website at `2026-11-12T05:03:00Z`.
+- No production runtime errors were reported in the one-hour verification window.
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Re-read remote `main`, reconcile any concurrent work, publish only if the fixed baseline is still current, then verify the exact production commit, affected public pages, profiles, and official website destinations. Continue the remaining priority gaps after publication; site-wide evidence-backed completion remains unknown.
+Resume from this published checkpoint, re-read remote `main` before any write, preserve later changes, and continue the lowest strictly verified gaps in Destin, Fort Walton Beach, Crestview, and Panama City, then other gaps closest to Pensacola and outward. The site remains incomplete: 923 displayed pages are below 20 and the displayed deficit is 9,701; unaudited historical coverage remains unknown until placement-specific evidence is checked.
