@@ -1,0 +1,30 @@
+{
+  "run": "fill1000bj",
+  "researchedCandidates": 23,
+  "publishedLiveVerifiedCandidates": 0,
+  "publishedLiveVerifiedDistinctNewBusinesses": 0,
+  "preparedCandidates": 10,
+  "preparedDistinctNewBusinesses": 9,
+  "pendingCandidates": 10,
+  "rejectedOrBaselineCandidates": 3,
+  "holds": [
+    {"name":"S & J Irrigation","website":"https://www.sandjirrigation.com/","status":"rejected_invalid_official_website","reason":"The official destination renders SITE NOT FOUND and says the site is unpublished or lacks a domain assignment, so it cannot satisfy the working-official-website requirement."},
+    {"name":"Oceanside Service Co.","website":"https://www.oceansideappliance.com/","status":"pending_duplicate_identity","reason":"Carried forward: the same business name already appears under oceansideserviceco.com, and the alternate-domain relationship must be reconciled before another placement is counted."},
+    {"name":"A To Z Appliance Repair","website":"https://atoznwfl.com/","status":"pending_duplicate_identity","reason":"Carried forward: the apparent official identity overlaps a fixed-baseline A to Z Appliance row stored under another domain."},
+    {"name":"Jaybird's Restoration","website":"https://www.jaybirdsrestoration.com/","status":"pending_working_official_website","reason":"Carried forward: residential water and mold evidence was found, but the official destination previously returned an upstream connection failure."},
+    {"name":"Tillman's Services","website":"https://tillmansheatingandair.com/","status":"pending_deeper_review","reason":"Carried forward: official search evidence names Biloxi and Gulfport and indicates residential HVAC, but the identity and placement evidence still need fresh review."},
+    {"name":"Greenscape Brothers","website":"https://www.greenscapebrothers.com/","status":"pending_duplicate_identity","reason":"Carried forward: ownership overlaps the listed Edrington Greenscapes identity and requires proof of a distinct business."},
+    {"name":"Dothan Premier Concrete Co.","website":"https://dothanpremierconcreteco.com/","status":"pending_working_official_website","reason":"Carried forward: the official destination did not render a working company site during browser verification."},
+    {"name":"Dothan Concrete Company","website":"https://www.dothanconcretecontractor.com/","status":"pending_identity_review","reason":"Carried forward: the generic site requires independent local-operation and official-identity corroboration."},
+    {"name":"Tree Huggers Tree Service","status":"pending_residential_scope","reason":"Carried forward: accessible official content remains insufficiently explicit about residential scope."},
+    {"name":"All Day Construction LLC","website":"https://www.alldayconstructionllc.com/","status":"pending_residential_scope","reason":"Carried forward: Gulfport and Biloxi signals still require clearer homeowner-specific concrete evidence."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Priority auto-body and appliance searches were dominated by baseline identities, excluded national brands, missing official websites, or unresolved alternate domains. One new Panama City pool provider and one supported existing-business Crestview placement qualified."},
+    {"cities":["dothan-al"],"status":"next_nearest_gap_batch","result":"Eight additional distinct new Dothan providers qualified across electrical, plumbing, water and mold, fencing, landscaping, tree service, and irrigation after direct official-site verification."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance/intermediary network without qualifying residential locksmith evidence; excluded from verified counts without deletion or visibility changes."},
+    {"name":"WittCo Custom Pools","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage; excluded from verified-completion claims without deletion."}
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "run": "fill1000bj",
+  "baselineCommit": "7713bcff698396116b6983b6996aa41803949920",
+  "baselinePlacements": 14587,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Gilbertson Pools", "website": "https://www.gilbertsonpools.com/", "regions": ["panama-city-fl"], "trades": ["pool-installation", "pool-service"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies Gilbertson Pools LLC, a licensed Panama City pool contractor, and directly offers construction, liner replacement, and repair services.",
+      "customerScope": "residential", "customerEvidence": "The official site describes family enjoyment, outdoor living spaces, new in-ground liner pools, liner replacements, and pool and pump repairs for local pool owners.", "customerSourceUrl": "https://www.gilbertsonpools.com/",
+      "geographicEvidence": "The official footer identifies Gilbertson Pools LLC at 3805 East 5th Court, Panama City, Florida 32401, with its direct local phone and license number.", "geographicSourceUrl": "https://www.gilbertsonpools.com/",
+      "identityEvidence": "The working official domain consistently identifies Gilbertson Pools LLC, trade license CPC1458706, direct email, phone, and Panama City business address.", "officialWebsiteFinalUrl": "https://www.gilbertsonpools.com/",
+      "evidenceNote": "Official Panama City direct-provider site offers residential in-ground liner pool construction, liner replacement, and pool and pump repairs for family outdoor living spaces.", "sourceUrl": "https://www.gilbertsonpools.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://www.gilbertsonpools.com/", "https://www.gilbertsonpools.com/in-ground-liner-pool-construction", "https://www.gilbertsonpools.com/pump-and-pool-repair"], "baselineIdentity": "new", "duplicateCheck": "The normalized Gilbertson Pools name and gilbertsonpools.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "Tropical Sun Pools", "website": "https://www.tropicalsunpools.com/", "regions": ["crestview-fl"], "trades": ["pool-installation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies a veteran-owned and operated pool builder that performs its own fiberglass pool installations without unrelated vendor referrals.",
+      "customerScope": "residential", "customerEvidence": "The official site repeatedly addresses homeowners, backyards, families, and residential in-ground fiberglass pool design and installation.", "customerSourceUrl": "https://www.tropicalsunpools.com/",
+      "geographicEvidence": "The official site expressly links Crestview as a served community and states that Tropical Sun Pools serves Crestview with premium fiberglass in-ground pools.", "geographicSourceUrl": "https://www.tropicalsunpools.com/crestview-fl-pools",
+      "identityEvidence": "The working official site identifies Tropical Sun Pools, its veteran-owned operation, Florida pool contractor license CPC1460806, direct phone, and Pace office.", "officialWebsiteFinalUrl": "https://www.tropicalsunpools.com/",
+      "evidenceNote": "Official veteran-owned provider site offers residential fiberglass in-ground pool installation for homeowners and expressly lists Crestview among the communities served.", "sourceUrl": "https://www.tropicalsunpools.com/crestview-fl-pools", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://www.tropicalsunpools.com/", "https://www.tropicalsunpools.com/crestview-fl-pools"], "baselineIdentity": "existing", "duplicateCheck": "The exact name and tropicalsunpools.com domain already occur in the fixed baseline for Pace and Milton pool installation; this is one additional supported Crestview placement for that same business."
+    },
+    {
+      "name": "Odom's Plumbing and Electric", "website": "https://callodoms.com/", "regions": ["dothan-al"], "trades": ["plumbing", "electrical"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies a licensed, bonded, and insured Dothan contractor with experienced technicians delivering its own plumbing and electrical repairs and installations.",
+      "customerScope": "residential", "customerEvidence": "The official site expressly offers residential and commercial service, describes electrical services for a brighter home, and covers household drains, pipes, wiring, outlets, lighting, and panels.", "customerSourceUrl": "https://callodoms.com/",
+      "geographicEvidence": "The official site says the company provides plumbing and electrical services to residents and businesses of Dothan and publishes its Dothan office address and direct phone.", "geographicSourceUrl": "https://callodoms.com/",
+      "identityEvidence": "The working official domain identifies Odom's Plumbing and Electric LLC, its Dothan office at 857 N Beverlye Road, direct phone, licensing statements, and service team.", "officialWebsiteFinalUrl": "https://callodoms.com/",
+      "evidenceNote": "Official licensed, bonded, and insured Dothan direct-provider site offers residential plumbing and electrical repairs, installations, rewiring, panels, drains, and household service.", "sourceUrl": "https://callodoms.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://callodoms.com/", "https://callodoms.com/contact-us/"], "baselineIdentity": "new", "duplicateCheck": "The normalized Odom's Plumbing and Electric name and callodoms.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "Ard's Plumbing & Electric", "website": "https://ardsdothan.com/", "regions": ["dothan-al"], "trades": ["plumbing", "electrical"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies a licensed and insured operating contractor with direct scheduling, its own plumbing and electrical service pages, and 65 years of experience.",
+      "customerScope": "residential", "customerEvidence": "The official site explicitly offers residential service to homes, including leaks, drains, water heaters, fixtures, panels, wiring, lighting, outlets, switches, and safety checks.", "customerSourceUrl": "https://ardsdothan.com/services/residential",
+      "geographicEvidence": "The official site states that it provides plumbing and electrical service in Dothan and the Wiregrass and maintains a dedicated Dothan service-area page.", "geographicSourceUrl": "https://ardsdothan.com/service-areas/dothan-al",
+      "identityEvidence": "The working official domain identifies Ard's Plumbing & Electric, direct phone and email, licensed and insured status, local Newton office, and Dothan service coverage.", "officialWebsiteFinalUrl": "https://ardsdothan.com/",
+      "evidenceNote": "Official licensed and insured direct-provider site offers residential plumbing and electrical work for homes and explicitly serves Dothan and the surrounding Wiregrass.", "sourceUrl": "https://ardsdothan.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://ardsdothan.com/", "https://ardsdothan.com/services/plumbing", "https://ardsdothan.com/services/electrical", "https://ardsdothan.com/service-areas/dothan-al"], "baselineIdentity": "new", "duplicateCheck": "The normalized Ard's Plumbing & Electric name and ardsdothan.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "ServiceMaster by Reed", "website": "https://servicemasteralabama.com/", "regions": ["dothan-al"], "trades": ["water-damage-mold-remediation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official Dothan operation identifies a locally owned and operated restoration company with its own certified estimator, technicians, emergency team, direct phone, and local address.",
+      "customerScope": "residential", "customerEvidence": "The official Dothan page expressly assists residential property owners after water, fire, or mold damage and lists small and large homes among serviced property types.", "customerSourceUrl": "https://servicemasteralabama.com/dothan/",
+      "geographicEvidence": "The official page is dedicated to ServiceMaster by Reed of Dothan, states that it serves customers in Dothan, and publishes a Dothan direct phone and office address.", "geographicSourceUrl": "https://servicemasteralabama.com/dothan/",
+      "identityEvidence": "The working official local domain identifies ServiceMaster by Reed rather than a national dispatch page, provides its own Dothan phone and local team, and describes local ownership.", "officialWebsiteFinalUrl": "https://servicemasteralabama.com/",
+      "evidenceNote": "Official locally owned Dothan operation offers residential water, fire, and mold damage restoration and explicitly serves Dothan homeowners and small and large homes.", "sourceUrl": "https://servicemasteralabama.com/dothan/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://servicemasteralabama.com/dothan/", "https://servicemasteralabama.com/mold-remediation/", "https://servicemasteralabama.com/water-removal/"], "baselineIdentity": "new", "duplicateCheck": "The normalized ServiceMaster by Reed name and servicemasteralabama.com domain were absent from all 14,587 fixed-baseline placements; this record represents the evidenced local Dothan operation."
+    },
+    {
+      "name": "BioShield Dothan", "website": "https://bioshielddothan.com/", "regions": ["dothan-al"], "trades": ["water-damage-mold-remediation"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies BioShield Dothan and its local team, direct phone and email, IICRC certification, water extraction, drying, reconstruction, and mold remediation work.",
+      "customerScope": "residential", "customerEvidence": "The official site explicitly offers mold help for residential spaces, water-restoration services, fire restoration for homes, and drainage solutions that prevent water intrusion in homes.", "customerSourceUrl": "https://bioshielddothan.com/",
+      "geographicEvidence": "The official domain and page title identify Dothan, Alabama, while its direct 334 phone, bioshielddothan.com email, and Dothan-branded operating identity establish the local connection.", "geographicSourceUrl": "https://bioshielddothan.com/",
+      "identityEvidence": "The working official branded domain supplies the BioShield Dothan name, direct local contact, IICRC certification statement, quote workflow, and services performed by its team.", "officialWebsiteFinalUrl": "https://bioshielddothan.com/",
+      "evidenceNote": "Official Dothan direct-provider site offers water extraction, drying, reconstruction, and mold remediation for residential spaces and homes through its own local team.", "sourceUrl": "https://bioshielddothan.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://bioshielddothan.com/", "https://bioshielddothan.com/water-damage-restoration/", "https://bioshielddothan.com/mold-remediation/"], "baselineIdentity": "new", "duplicateCheck": "The normalized BioShield Dothan name and bioshielddothan.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "Quality Privacy Fence LLC", "website": "https://www.qualityprivacyfence.com/", "regions": ["dothan-al"], "trades": ["fence-builders"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site names owners Mike Strickland and Russell Jones, describes their craftsmanship, and offers the company's own new fence construction and fence and gate repair.",
+      "customerScope": "residential", "customerEvidence": "The official site has a dedicated Residential section offering new wood privacy fences designed to improve privacy, security, durability, and the homeowner's property.", "customerSourceUrl": "https://www.qualityprivacyfence.com/",
+      "geographicEvidence": "The official site publishes Quality Privacy Fence LLC's home office at 304 Berlin Road, Dothan, Alabama 36301, plus direct owner phone numbers.", "geographicSourceUrl": "https://www.qualityprivacyfence.com/",
+      "identityEvidence": "The working official domain identifies Quality Privacy Fence LLC, its two owners, veteran ownership, Dothan home office, direct phones, email, and project portfolio.", "officialWebsiteFinalUrl": "https://www.qualityprivacyfence.com/",
+      "evidenceNote": "Official veteran-owned Dothan direct-provider site names its local owners and offers new residential wood privacy fence construction plus fence and gate repair.", "sourceUrl": "https://www.qualityprivacyfence.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://www.qualityprivacyfence.com/", "https://www.qualityprivacyfence.com/services", "https://www.qualityprivacyfence.com/contact"], "baselineIdentity": "new", "duplicateCheck": "The normalized Quality Privacy Fence LLC name and qualityprivacyfence.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "L & L Lawn Care Services, LLC", "website": "https://lllawns.com/", "regions": ["dothan-al"], "trades": ["landscaping", "tree-service"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies L & L Lawn Care Services LLC, its direct local phone and team, and offers its own landscaping, lawn care, tree removal, and tree-trimming work.",
+      "customerScope": "residential", "customerEvidence": "The official site explicitly offers residential lawn care and landscaping, and its tree-removal page addresses hazardous trees threatening a home or property and outdoor living areas.", "customerSourceUrl": "https://lllawns.com/tree-removal/",
+      "geographicEvidence": "The official site repeatedly identifies Dothan, Alabama as its service location and expressly offers both landscaping and tree removal services in the Dothan area.", "geographicSourceUrl": "https://lllawns.com/",
+      "identityEvidence": "The working official domain identifies L & L Lawn Care Services LLC, direct Dothan phone and hours, branded service pages, and a local operating team rather than a referral service.", "officialWebsiteFinalUrl": "https://lllawns.com/",
+      "evidenceNote": "Official Dothan direct-provider site offers residential landscaping and lawn work, and its tree-removal page explicitly covers homes and residential property in Dothan.", "sourceUrl": "https://lllawns.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://lllawns.com/", "https://lllawns.com/landscaping/", "https://lllawns.com/tree-removal/"], "baselineIdentity": "new", "duplicateCheck": "The normalized L & L Lawn Care Services LLC name and lllawns.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "Southeast Yard Specialists", "website": "https://www.seyardspecialists.com/", "regions": ["dothan-al"], "trades": ["irrigation-sprinkler-repair", "landscaping", "tree-service"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies Southeast Yard Specialists, its direct quote and payment functions, local phone and email, and its own lawn, landscaping, tree, and irrigation crews.",
+      "customerScope": "residential", "customerEvidence": "The official site expressly says homeowners near Dothan can hire the team for lawn maintenance, landscape installation, tree removal, irrigation installation, and ongoing maintenance.", "customerSourceUrl": "https://www.seyardspecialists.com/",
+      "geographicEvidence": "The official site states that it serves homeowners near Dothan and all of Houston, Henry, and Dale Counties; Dothan is within Houston County and is repeatedly named as the local market.", "geographicSourceUrl": "https://www.seyardspecialists.com/",
+      "identityEvidence": "The working official branded domain supplies direct Southeast Yard Specialists contact, quote, payment, service, portfolio, and operating information for the Dothan-area business.", "officialWebsiteFinalUrl": "https://www.seyardspecialists.com/",
+      "evidenceNote": "Official direct-provider site serves homeowners near Dothan and throughout Houston County with landscaping, tree removal, and irrigation installation and maintenance.", "sourceUrl": "https://www.seyardspecialists.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://www.seyardspecialists.com/"], "baselineIdentity": "new", "duplicateCheck": "The normalized Southeast Yard Specialists name and seyardspecialists.com domain were absent from all 14,587 fixed-baseline placements."
+    },
+    {
+      "name": "Earthwyrm Lawn & Garden Services", "website": "https://earthwyrmco.com/", "regions": ["dothan-al"], "trades": ["landscaping"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies Earthwyrm LLC, direct phone and email, and offers the company's own lawn mowing, edging, trimming, garden design, installation, and sustainable landscaping.",
+      "customerScope": "residential", "customerEvidence": "The official site repeatedly says Earthwyrm was created for homeowners and provides garden design, sustainable landscaping, lawn care, and yard maintenance for Dothan homes.", "customerSourceUrl": "https://earthwyrmco.com/",
+      "geographicEvidence": "The official site expressly says it serves homeowners in Dothan, Alabama, repeats Dothan as the service area, and provides a direct local 334 phone for quotes.", "geographicSourceUrl": "https://earthwyrmco.com/",
+      "identityEvidence": "The working official site identifies Earthwyrm Lawn & Garden Services and Earthwyrm LLC, direct phone and email, its own service descriptions, and a Dothan service area.", "officialWebsiteFinalUrl": "https://earthwyrmco.com/",
+      "evidenceNote": "Official Earthwyrm site offers Dothan homeowners lawn care, garden design and installation, and sustainable residential landscaping through the direct local provider.", "sourceUrl": "https://earthwyrmco.com/", "sourceVerifiedAt": "2026-11-12T04:55:00Z",
+      "supportingUrls": ["https://earthwyrmco.com/"], "baselineIdentity": "new", "duplicateCheck": "The normalized Earthwyrm Lawn & Garden Services name and earthwyrmco.com domain were absent from all 14,587 fixed-baseline placements."
+    }
+  ]
+}
