@@ -18,7 +18,12 @@
     "dataCommit": "af229c3eaedd066999aa0c8a49c4d2559f134e7d",
     "deploymentId": "dpl_2Rqki8sgkk1jUK6XcdDujpMFKtGv",
     "deploymentState": "READY",
-    "productionDomainVerifiedAt": "2026-11-13T17:14:36Z"
+    "productionDomainVerifiedAt": "2026-11-13T17:14:36Z",
+    "checkpointCommit": "7f1abece0303100737fc5e90ab29581b1639e3dc",
+    "checkpointDeploymentId": "dpl_9R1cvVkPQWiuz2aZ6CDKbtsvAmQn",
+    "checkpointDeploymentState": "READY",
+    "checkpointVerifiedAt": "2026-11-13T17:17:22Z",
+    "checkpointRuntimeErrors": 0
   },
   "coverage": {
     "totalPages": 1120,

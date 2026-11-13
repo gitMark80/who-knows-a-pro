@@ -56,6 +56,8 @@ These are rendered-record counts after identity and normalized-domain deduplicat
 - Production build: passed
 - Data commit: `af229c3eaedd066999aa0c8a49c4d2559f134e7d`
 - Production deployment: `dpl_2Rqki8sgkk1jUK6XcdDujpMFKtGv` (`READY`)
+- Runtime-preservation/checkpoint commit: `7f1abece0303100737fc5e90ab29581b1639e3dc`
+- Checkpoint deployment: `dpl_9R1cvVkPQWiuz2aZ6CDKbtsvAmQn` (`READY`); post-fix production requests produced **0** error/fatal runtime log entries.
 - Published and live-verified: **10 placements** (**3** distinct new businesses)
 - New-business placements: **9**; previously listed-business placements: **1**
 - Changes awaiting deployment or live verification: **0**

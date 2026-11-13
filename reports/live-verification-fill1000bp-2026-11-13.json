@@ -4,6 +4,11 @@
   "dataCommit": "af229c3eaedd066999aa0c8a49c4d2559f134e7d",
   "deploymentId": "dpl_2Rqki8sgkk1jUK6XcdDujpMFKtGv",
   "deploymentState": "READY",
+  "checkpointCommit": "7f1abece0303100737fc5e90ab29581b1639e3dc",
+  "checkpointDeploymentId": "dpl_9R1cvVkPQWiuz2aZ6CDKbtsvAmQn",
+  "checkpointDeploymentState": "READY",
+  "checkpointVerifiedAt": "2026-11-13T17:17:22Z",
+  "checkpointRuntimeErrors": 0,
   "productionDomain": "https://whoknowsapro.com",
   "pages": [
     {"region":"crestview-fl","trade":"auto-body-collision","business":"Caliber Collision","displayedCount":10,"visible":true},
