@@ -1,0 +1,28 @@
+{
+  "run": "fill1000bn",
+  "researchedCandidates": 26,
+  "preparedCandidates": 9,
+  "preparedDistinctNewBusinesses": 5,
+  "pendingCandidates": 8,
+  "rejectedBaselineOrNotNeededCandidates": 9,
+  "holds": [
+    {"name":"Lesher Contracting","website":"https://leshercontracting.com/","status":"pending_working_official_website","reason":"Official search content provides strong Grayton remodeling and impact-window evidence, but two direct browser attempts returned an upstream connection failure."},
+    {"name":"Good Windows & Doors","website":"https://shopdoors.co/","status":"pending_direct_provider_responsibility","reason":"The official store offers impact-rated windows but describes installation by licensed partners; direct operating responsibility for local residential work remains unclear."},
+    {"name":"New View Windows","website":"https://www.newviewwindows.com/","status":"pending_category_and_geography","reason":"The Santa Rosa Beach showroom and storm-ready products are real, but the site did not jointly establish an exact Grayton placement and impact-installation scope strongly enough."},
+    {"name":"Crestview Window & Door Solutions","website":"https://crestviewwindows.energy/","status":"pending_identity_review","reason":"Detailed Crestview homeowner copy exists, but the generic identity needs independent operating-company and license corroboration."},
+    {"name":"Citywide Windows & Doors Crestview","website":"https://www.windowsdoorscrestview.com/","status":"pending_identity_review","reason":"Detailed impact-window copy exists, but the generic local identity needs stronger proof of a distinct operating contractor."},
+    {"name":"Oceanside Service Co.","website":"https://www.oceansideappliance.com/","status":"pending_duplicate_identity","reason":"Official copy says the company rebranded, and the same business already appears in the fixed baseline under oceansideserviceco.com."},
+    {"name":"Maison Vue Home Remodelers","website":"https://www.maisonvuellc.com/","status":"qualified_not_needed","reason":"The Grayton Beach kitchen-and-bath page reached 20 with the first three selected qualifying providers, so this additional 30A candidate was not published above target."},
+    {"name":"GCSBSI / Gulf Coast Shutters","website":"https://gcsbsi.weebly.com/","status":"resolved_duplicate_identity","reason":"The retired site uses the same Gulf Coast Shutter name and 850-269-1066 phone as gulfcoastshutter.com; it is an alternate site, not a new business."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Existing Arnett Septic placements qualified for Crestview, Destin and Fort Walton Beach; Paradise Shutters qualified for Crestview. Appliance and auto-body results were baseline identities, invalid sites or unresolved generic identities and were not padded."},
+    {"cities":["grayton-beach-fl","milton-fl","pace-fl","panama-city-beach-fl"],"status":"next_nearest_gap_batch","result":"Five distinct new businesses and additional existing-business placements supported the remaining prepared pages, including closure of Grayton kitchen and bath, Milton hurricane protection and Panama City Beach home inspections at 20."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance and vendor-network model lacks qualifying residential service evidence; zero current public baseline placements render and no record was restored or counted."},
+    {"name":"WittCo Custom Pool and Spa","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage and excluded from verified completion claims."},
+    {"name":"A to Z Appliance Repair","reason":"Historical rows use a third-party fl-biz.com website; the confirmed official atoznwfl.com domain is now identity-aliased to prevent duplicate profiles."},
+    {"name":"Arnett Septic","reason":"Historical rows use williamarnettseptic.com; the current arnettseptic.com domain is identity-aliased to the same business."}
+  ]
+}

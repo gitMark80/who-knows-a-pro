@@ -1,0 +1,90 @@
+{
+  "run": "fill1000bn",
+  "baselineCommit": "ad9c618a490cf7daa8149fce439c926a56a07839",
+  "baselinePlacements": 14630,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Paradise Shutters Inc.", "website": "https://paradiseshuttersinc.com/", "regions": ["crestview-fl", "grayton-beach-fl", "milton-fl", "pace-fl"], "trades": ["hurricane-shutters-impact-windows"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site says Paradise Shutters sells, installs and repairs exterior shutters and carries Florida Specialty Contractors license SCC131150228.",
+      "customerScope": "residential", "customerEvidence": "The family-owned official site offers rated panels, rolling screens, Bahama, roll-down and Colonial shutters as Florida Building Code-approved storm protection for properties and homes.", "customerSourceUrl": "https://paradiseshuttersinc.com/",
+      "geographicEvidence": "The official site explicitly serves Okaloosa, Walton and Santa Rosa counties; Crestview is in Okaloosa, Grayton Beach is in Walton, and Milton and Pace are in Santa Rosa County.", "geographicSourceUrl": "https://paradiseshuttersinc.com/",
+      "identityEvidence": "The working branded domain identifies Paradise Shutters Inc., its contractor license, direct phone, family ownership, service menu and four-county territory.", "officialWebsiteFinalUrl": "https://paradiseshuttersinc.com/",
+      "evidenceNote": "Official licensed family-owned site directly sells, installs and repairs FBC-approved storm shutters for homes and explicitly serves the counties containing Crestview, Grayton Beach, Milton and Pace.", "sourceUrl": "https://paradiseshuttersinc.com/", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://paradiseshuttersinc.com/", "https://myokaloosa.com/gm/towns", "https://www.visitsouthwalton.com/neighborhoods/grayton-beach/", "https://www.santarosa.fl.gov/DocumentCenter/View/7446/2025-County-Community-Map"], "baselineIdentity": "new", "duplicateCheck": "The normalized business name and paradiseshuttersinc.com domain were absent from all 14,630 fixed-baseline placements."
+    },
+    {
+      "name": "Coleman Renovation + Remodeling", "website": "https://colemanrenovation.com/", "regions": ["grayton-beach-fl"], "trades": ["kitchen-bath-remodeling"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies owner JD Coleman and his skilled team as the direct provider of complete renovations, whole-home remodeling, additions and kitchen work.",
+      "customerScope": "residential", "customerEvidence": "The official services page offers home, vacation-property and income-property renovations, upgraded kitchens and baths, master suites and expanded living areas.", "customerSourceUrl": "https://colemanrenovation.com/services/",
+      "geographicEvidence": "The official site says Coleman works along South Walton's Highway 30A; Walton County's official tourism site identifies Grayton Beach as a South Walton and 30A neighborhood.", "geographicSourceUrl": "https://colemanrenovation.com/",
+      "identityEvidence": "The working branded site identifies Coleman Renovation + Remodeling, owner JD Coleman, Florida license CG-C062380, Santa Rosa Beach address, phone and direct services.", "officialWebsiteFinalUrl": "https://colemanrenovation.com/",
+      "evidenceNote": "Official owner-operated licensed general-contractor site offers complete residential kitchen and bathroom renovations along South Walton's Highway 30A; Grayton Beach is an official South Walton/30A community.", "sourceUrl": "https://colemanrenovation.com/services/", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://colemanrenovation.com/", "https://colemanrenovation.com/services/", "https://www.visitsouthwalton.com/neighborhoods/grayton-beach/"], "baselineIdentity": "new", "duplicateCheck": "The normalized business name and colemanrenovation.com domain were absent from all 14,630 fixed-baseline placements; the site identifies the owner-operated Coleman Coastal Construction division."
+    },
+    {
+      "name": "Hansen Home Builders", "website": "https://www.hansenhomebuilders.com/", "regions": ["grayton-beach-fl"], "trades": ["kitchen-bath-remodeling"],
+      "providerRole": "direct-provider", "providerEvidence": "The official remodeling page says clients work directly with owner-builder James Hansen and offers kitchen transformations, bathroom remodels, whole-home renovations and additions.",
+      "customerScope": "residential", "customerEvidence": "The official page repeatedly addresses homeowners, transforming existing homes through custom cabinetry, upgraded kitchens, custom showers, baths and whole-home renovations.", "customerSourceUrl": "https://www.hansenhomebuilders.com/remodeling",
+      "geographicEvidence": "The official remodeling page explicitly lists Grayton Beach in its Walton County and 30A service-area section for homeowner remodeling projects.", "geographicSourceUrl": "https://www.hansenhomebuilders.com/remodeling",
+      "identityEvidence": "The working branded domain identifies Hansen Home Builders LLC, owner-builder James Hansen, Florida contractor license CGC1539928, phone and direct remodeling workflow.", "officialWebsiteFinalUrl": "https://www.hansenhomebuilders.com/remodeling",
+      "evidenceNote": "Official licensed builder page offers homeowner kitchen and bathroom renovations with direct builder involvement and explicitly lists Grayton Beach in its remodeling territory.", "sourceUrl": "https://www.hansenhomebuilders.com/remodeling", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://www.hansenhomebuilders.com/", "https://www.hansenhomebuilders.com/remodeling"], "baselineIdentity": "new", "duplicateCheck": "The normalized business name and hansenhomebuilders.com domain were absent from all 14,630 fixed-baseline placements."
+    },
+    {
+      "name": "Massey Construction LLC", "website": "https://www.contractor30a.com/", "regions": ["grayton-beach-fl"], "trades": ["kitchen-bath-remodeling"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies owner Rick Massey as the licensed residential contractor whose team directly performs whole-house, kitchen, bathroom, condo and deck renovations.",
+      "customerScope": "residential", "customerEvidence": "The official site offers custom residential construction and complete interior transformations, expressly including kitchen and bathroom remodels for Gulf Coast homes.", "customerSourceUrl": "https://www.contractor30a.com/",
+      "geographicEvidence": "The official site says Massey serves Walton County and beachfront properties along 30A; Walton County's official tourism site identifies Grayton Beach as a South Walton/30A neighborhood.", "geographicSourceUrl": "https://www.contractor30a.com/",
+      "identityEvidence": "The working branded site identifies Massey Construction LLC, owner Rick Massey, Florida residential-contractor license CRC1333111, direct phone, email and service menu.", "officialWebsiteFinalUrl": "https://www.contractor30a.com/",
+      "evidenceNote": "Official owner-operated licensed residential-contractor site offers kitchen and bathroom remodeling for Walton County and 30A homes; Grayton Beach is an official Walton/30A community.", "sourceUrl": "https://www.contractor30a.com/", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://www.contractor30a.com/", "https://www.visitsouthwalton.com/neighborhoods/grayton-beach/"], "baselineIdentity": "new", "duplicateCheck": "The normalized business name and contractor30a.com domain were absent from all 14,630 fixed-baseline placements."
+    },
+    {
+      "name": "Dovetail Exteriors", "website": "https://www.dovetailexteriors.com/", "regions": ["grayton-beach-fl", "milton-fl", "pace-fl"], "trades": ["hurricane-shutters-impact-windows"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site describes Dovetail's own consult, design, build and finish process and says its crews directly install energy-efficient and impact-rated windows and doors.",
+      "customerScope": "residential", "customerEvidence": "The official windows page addresses homeowners replacing windows and doors, offers impact-rated protection against high winds and debris, and describes residential renovation installation.", "customerSourceUrl": "https://www.dovetailexteriors.com/windows-doors",
+      "geographicEvidence": "The official service-area list explicitly includes Grayton Beach, Milton and Pace, and the Grayton page separately offers impact-rated windows and doors for Grayton Beach homes.", "geographicSourceUrl": "https://www.dovetailexteriors.com/grayton-beach",
+      "identityEvidence": "The working branded domain identifies Dovetail Exteriors, its local project lead, licensed and insured status, direct phone, service process and installation work.", "officialWebsiteFinalUrl": "https://www.dovetailexteriors.com/grayton-beach",
+      "evidenceNote": "Official licensed direct-installer site offers impact-rated replacement windows and doors for homeowners and explicitly includes Grayton Beach, Milton and Pace in its service area.", "sourceUrl": "https://www.dovetailexteriors.com/windows-doors", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://www.dovetailexteriors.com/", "https://www.dovetailexteriors.com/windows-doors", "https://www.dovetailexteriors.com/grayton-beach"], "baselineIdentity": "new", "duplicateCheck": "The normalized business name and dovetailexteriors.com domain were absent from all 14,630 fixed-baseline placements; the site identifies a new exterior division, not a duplicate baseline profile."
+    },
+    {
+      "name": "A to Z Appliance Repair", "website": "https://www.atoznwfl.com/", "regions": ["gulf-breeze-fl", "navarre-fl"], "trades": ["appliance-repair"],
+      "providerRole": "direct-provider", "providerEvidence": "The official veteran-owned site describes its own technicians repairing refrigerators, ovens, washers, dryers and other household appliances and provides a direct service phone.",
+      "customerScope": "residential", "customerEvidence": "The official site documents in-home washer and appliance repairs, household brands, customer homes and rental-property service throughout its listed local territory.", "customerSourceUrl": "https://www.atoznwfl.com/",
+      "geographicEvidence": "The official contact page explicitly lists Gulf Breeze and Navarre among A to Z Appliance Repair's service areas.", "geographicSourceUrl": "https://www.atoznwfl.com/milton-appliance-repair-pros",
+      "identityEvidence": "The working branded domain identifies A to Z Appliance Repair, owner-operated veteran status, direct phone and email, repair services and local territory.", "officialWebsiteFinalUrl": "https://www.atoznwfl.com/",
+      "evidenceNote": "Official veteran-owned repair site directly services household refrigerators, ovens, washers and dryers and explicitly lists Gulf Breeze and Navarre as service areas.", "sourceUrl": "https://www.atoznwfl.com/milton-appliance-repair-pros", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://www.atoznwfl.com/", "https://www.atoznwfl.com/milton-appliance-repair-pros"], "baselineIdentity": "existing", "duplicateCheck": "The exact normalized A to Z Appliance Repair name already existed in the fixed baseline under a third-party fl-biz.com URL; the official atoznwfl.com domain resolves the same identity and adds only supported placements."
+    },
+    {
+      "name": "Arnett Septic", "website": "https://arnettseptic.com/", "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl", "milton-fl", "pace-fl"], "trades": ["septic-services"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site says veteran-owned Arnett Septic directly provides 24-hour septic tank pumping, septic-system repairs and inspections and holds a Florida state license.",
+      "customerScope": "residential", "customerEvidence": "The septic pumping, system repair and inspection services are offered directly to property owners through a free-estimate workflow from the published Holt operating address.", "customerSourceUrl": "https://arnettseptic.com/",
+      "geographicEvidence": "The official site expressly serves Okaloosa and Santa Rosa counties; Crestview, Destin and Fort Walton Beach are in Okaloosa, while Milton and Pace are in Santa Rosa County.", "geographicSourceUrl": "https://arnettseptic.com/",
+      "identityEvidence": "The working branded site identifies Arnett Septic, its Holt operating address, veteran ownership, Florida licensing, direct phone and septic service menu.", "officialWebsiteFinalUrl": "https://arnettseptic.com/",
+      "evidenceNote": "Official state-licensed veteran-owned site directly provides septic pumping, system repairs and inspections and explicitly serves the counties containing Crestview, Destin, Fort Walton Beach, Milton and Pace.", "sourceUrl": "https://arnettseptic.com/", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://arnettseptic.com/", "https://myokaloosa.com/gm/towns", "https://www.santarosa.fl.gov/DocumentCenter/View/7446/2025-County-Community-Map"], "baselineIdentity": "existing", "duplicateCheck": "The exact normalized Arnett Septic name already existed in the fixed baseline under williamarnettseptic.com; arnettseptic.com is the current official domain for the same Holt business."
+    },
+    {
+      "name": "Gulf Coast Shutter", "website": "https://gulfcoastshutter.com/", "regions": ["milton-fl"], "trades": ["hurricane-shutters-impact-windows"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site describes Gulf Coast Shutter's own stocked service operation and direct installation and service of shutters, storm panels, rolldowns and protective screens.",
+      "customerScope": "residential", "customerEvidence": "The official site says it beautifies and protects homes in Northwest Florida and offers storm protection, decorative shutters and security products for residential properties.", "customerSourceUrl": "https://gulfcoastshutter.com/",
+      "geographicEvidence": "The official site publishes Santa Rosa County contractor license WDS011068 and identifies service throughout Santa Rosa County; Milton is the county seat and lies within that county.", "geographicSourceUrl": "https://gulfcoastshutter.com/",
+      "identityEvidence": "The working branded domain identifies Gulf Coast Shutter, its local ownership, direct service department, county licenses, addresses and official phone numbers.", "officialWebsiteFinalUrl": "https://gulfcoastshutter.com/",
+      "evidenceNote": "Official locally operated site directly installs residential storm shutters, panels, rolldowns and screens and documents Santa Rosa County licensing and coverage supporting Milton service.", "sourceUrl": "https://gulfcoastshutter.com/", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://gulfcoastshutter.com/", "https://www.santarosa.fl.gov/DocumentCenter/View/7446/2025-County-Community-Map"], "baselineIdentity": "existing", "duplicateCheck": "Gulf Coast Shutter and gulfcoastshutter.com already existed in the fixed baseline; the Milton hurricane placement was absent. The retired gcsbsi.weebly.com site uses the same phone and is an alternate site, not a new business."
+    },
+    {
+      "name": "Cardinal Home Inspection", "website": "https://www.cardinalhomeinspection.us/", "regions": ["panama-city-beach-fl"], "trades": ["home-inspections"],
+      "providerRole": "direct-provider", "providerEvidence": "The official site identifies owner and lead inspector Steve Hord and documents his direct whole-home, wind-mitigation, four-point and specialty inspection services.",
+      "customerScope": "residential", "customerEvidence": "The official site explicitly serves home buyers, sellers and homeowners with top-to-bottom residential inspections and detailed reports.", "customerSourceUrl": "https://www.cardinalhomeinspection.us/",
+      "geographicEvidence": "The official site says Serving Panama City Beach and Bay County, publishes a Panama City Beach address and identifies Panama City Beach as its operating base.", "geographicSourceUrl": "https://www.cardinalhomeinspection.us/contact.html",
+      "identityEvidence": "The working branded domain identifies Cardinal Home Inspection, owner Steve Hord, Florida license HI1891, direct phone, Panama City Beach address and inspection credentials.", "officialWebsiteFinalUrl": "https://www.cardinalhomeinspection.us/",
+      "evidenceNote": "Official owner-operated site documents licensed whole-home inspections for buyers, sellers and homeowners and explicitly serves Panama City Beach and Bay County.", "sourceUrl": "https://www.cardinalhomeinspection.us/", "sourceVerifiedAt": "2026-11-13T04:59:59Z",
+      "supportingUrls": ["https://www.cardinalhomeinspection.us/", "https://www.cardinalhomeinspection.us/about.html", "https://www.cardinalhomeinspection.us/contact.html"], "baselineIdentity": "existing", "duplicateCheck": "Cardinal Home Inspection and cardinalhomeinspection.us already existed in the fixed baseline for Grayton Beach and Panama City; the Panama City Beach placement was absent."
+    }
+  ]
+}

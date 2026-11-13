@@ -53,6 +53,7 @@ import verifiedFill1000bjData from './verified-coverage-2026-11-11-fill1000bj.js
 import verifiedFill1000bkData from './verified-coverage-2026-11-12-fill1000bk.json';
 import verifiedFill1000blData from './verified-coverage-2026-11-12-fill1000bl.json';
 import verifiedFill1000bmData from './verified-coverage-2026-11-12-fill1000bm.json';
+import verifiedFill1000bnData from './verified-coverage-2026-11-13-fill1000bn.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -63,7 +64,7 @@ type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: rea
 const verifiedActiveProvidersData = [...verifiedFill1000bgData, ...verifiedFill1000bfData, ...verifiedFill1000beData, ...verifiedFill1000bdData, ...verifiedFill1000bcData, ...verifiedFill1000bbData, ...verifiedFill1000baData, ...verifiedFill1000azData, ...verifiedFill1000ayData, ...verifiedFill1000axData, ...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData, ...verifiedFill1000auData, ...verifiedFill1000avData, ...verifiedFill1000awData];
 const allVerifiedActiveProvidersData = [...verifiedFill1000bhData, ...verifiedActiveProvidersData];
 const latestVerifiedActiveProvidersData = [...verifiedFill1000biData, ...allVerifiedActiveProvidersData];
-const currentVerifiedActiveProvidersData = [...verifiedFill1000bmData, ...verifiedFill1000blData, ...verifiedFill1000bkData, ...verifiedFill1000bjData, ...latestVerifiedActiveProvidersData];
+const currentVerifiedActiveProvidersData = [...verifiedFill1000bnData, ...verifiedFill1000bmData, ...verifiedFill1000blData, ...verifiedFill1000bkData, ...verifiedFill1000bjData, ...latestVerifiedActiveProvidersData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(
@@ -491,17 +492,29 @@ function websiteDomain(value: string) {
   catch { return normalizedWebsite(value).split('/')[0]; }
 }
 
+// Confirmed alternate domains for the same operating business. Keep one
+// identity when a current official domain replaces an older imported URL.
+const duplicateDomainAliases: Readonly<Record<string, string>> = {
+  'atoznwfl.com': 'appliance-repairs-destin.fl-biz.com',
+  'arnettseptic.com': 'williamarnettseptic.com',
+};
+
+function canonicalWebsiteDomain(value: string) {
+  const domain = websiteDomain(value);
+  return duplicateDomainAliases[domain] ?? domain;
+}
+
 const identityDomains = new Map<string, Set<string>>();
 for (const groups of Object.values(providers)) for (const businesses of Object.values(groups)) for (const business of businesses) {
   const name = slug(business.name);
   const domains = identityDomains.get(name) ?? new Set<string>();
-  domains.add(websiteDomain(business.website));
+  domains.add(canonicalWebsiteDomain(business.website));
   identityDomains.set(name, domains);
 }
 for (const business of currentVerifiedActiveProvidersData as readonly VerifiedProvider[]) {
   const name = slug(business.name);
   const domains = identityDomains.get(name) ?? new Set<string>();
-  domains.add(websiteDomain(business.website));
+  domains.add(canonicalWebsiteDomain(business.website));
   identityDomains.set(name, domains);
 }
 
@@ -528,7 +541,7 @@ function canonicalBusinessSlug(name: string, website: string) {
   const aliased = duplicateSlugAliases[nameSlug];
   if (aliased) return aliased;
   return (identityDomains.get(nameSlug)?.size ?? 0) > 1
-    ? `${nameSlug}-${slug(websiteDomain(website))}`
+    ? `${nameSlug}-${slug(canonicalWebsiteDomain(website))}`
     : nameSlug;
 }
 
