@@ -56,6 +56,7 @@ import verifiedFill1000bmData from './verified-coverage-2026-11-12-fill1000bm.js
 import verifiedFill1000bnData from './verified-coverage-2026-11-13-fill1000bn.json';
 import verifiedFill1000boData from './verified-coverage-2026-11-13-fill1000bo.json';
 import verifiedFill1000bpData from './verified-coverage-2026-11-13-fill1000bp.json';
+import verifiedFill1000bqData from './verified-coverage-2026-11-13-fill1000bq.json';
 import businessEmailEvidenceData from './business-email-evidence.json';
 import { DIRECTORY_SOURCE, DIRECTORY_VERIFIED_AT } from './directory-config';
 
@@ -66,7 +67,7 @@ type VerifiedProvider = Provider & { regions: readonly RegionSlug[]; trades: rea
 const verifiedActiveProvidersData = [...verifiedFill1000bgData, ...verifiedFill1000bfData, ...verifiedFill1000beData, ...verifiedFill1000bdData, ...verifiedFill1000bcData, ...verifiedFill1000bbData, ...verifiedFill1000baData, ...verifiedFill1000azData, ...verifiedFill1000ayData, ...verifiedFill1000axData, ...originalVerifiedProvidersData, ...verifiedExpansionData, ...verifiedCoverageData, ...verifiedFill1000wData, ...verifiedFill1000w2Data, ...verifiedFill1000xData, ...verifiedFill1000yData, ...verifiedFill1000y2Data, ...verifiedFill1000zData, ...verifiedFill1000aaData, ...verifiedFill1000abData, ...verifiedFill1000acData, ...verifiedFill1000ac2Data, ...verifiedFill1000adData, ...verifiedFill500aeData, ...verifiedFill500afData, ...verifiedFill1000agData, ...verifiedFill500agData, ...verifiedFill500ahData, ...verifiedFill1000ahData, ...verifiedFill1000aiData, ...verifiedFill1000ajData, ...verifiedFill1000akData, ...verifiedFill1000alData, ...verifiedFill1000amData, ...verifiedFill1000anData, ...verifiedFill1000aoData, ...verifiedFill1000apData, ...verifiedFill1000aqData, ...verifiedFill1000arData, ...verifiedFill1000asData, ...verifiedFill1000atData, ...verifiedFill1000auData, ...verifiedFill1000avData, ...verifiedFill1000awData];
 const allVerifiedActiveProvidersData = [...verifiedFill1000bhData, ...verifiedActiveProvidersData];
 const latestVerifiedActiveProvidersData = [...verifiedFill1000biData, ...allVerifiedActiveProvidersData];
-const currentVerifiedActiveProvidersData = [...verifiedFill1000bpData, ...verifiedFill1000boData, ...verifiedFill1000bnData, ...verifiedFill1000bmData, ...verifiedFill1000blData, ...verifiedFill1000bkData, ...verifiedFill1000bjData, ...latestVerifiedActiveProvidersData];
+const currentVerifiedActiveProvidersData = [...verifiedFill1000bqData, ...verifiedFill1000bpData, ...verifiedFill1000boData, ...verifiedFill1000bnData, ...verifiedFill1000bmData, ...verifiedFill1000blData, ...verifiedFill1000bkData, ...verifiedFill1000bjData, ...latestVerifiedActiveProvidersData];
 type EmailEvidence = { mainSlug: string; email: string; sourceUrl: string; verifiedAt: string };
 
 const businessEmailEvidence = new Map(
