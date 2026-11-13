@@ -63,8 +63,8 @@ try {
   const newBusinessAdditions = additions.filter((row) => !existedAtBaseline(row));
   const existingBusinessAdditions = additions.filter((row) => existedAtBaseline(row));
   const distinctNewBusinesses = new Set(newBusinessAdditions.map((row) => normalizeName(row.name))).size;
-  assert.equal(distinctNewBusinesses, 3);
-  assert.equal(newBusinessAdditions.length, 5);
+  assert.equal(distinctNewBusinesses, 2);
+  assert.equal(newBusinessAdditions.length, 3);
   assert.equal(existingBusinessAdditions.length, 4);
 
   const publicPages = [];

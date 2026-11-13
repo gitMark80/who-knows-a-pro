@@ -10,29 +10,29 @@
 
 ## Prepared changes
 
-- Distinct new businesses: 3 — Paradise Outdoors, Prospect Well Drilling and P & D Enterprises.
-- New-business placements: 5.
+- Distinct new businesses: 2 — Paradise Outdoors and P & D Enterprises.
+- New-business placements: 3.
 - Existing-business placements: 4 — Southland Pool & Lawn LLC (3) and Key Irrigation (1).
-- Total placements: 9, all on public pages below 20 at the baseline.
+- Total placements: 7, all on public pages below 20 at the baseline.
 - Status: prepared and validated locally; not yet published, deployed or live-verified.
-- Exact shortfall against the run target pending live verification: 997 distinct new businesses.
+- Exact shortfall against the run target pending live verification: 998 distinct new businesses.
 
 ## Page-level change
 
 | City/category | Baseline | Prepared | Remaining displayed deficit |
 |---|---:|---:|---:|
 | Crestview / irrigation-sprinkler-repair | 13 | 14 | 6 |
-| Destin / irrigation-sprinkler-repair | 17 | 20 | 0 |
-| Fort Walton Beach / irrigation-sprinkler-repair | 16 | 20 | 0 |
+| Destin / irrigation-sprinkler-repair | 17 | 19 | 1 |
+| Fort Walton Beach / irrigation-sprinkler-repair | 16 | 19 | 1 |
 | Panama City / irrigation-sprinkler-repair | 17 | 18 | 2 |
 
 ## Displayed coverage after prepared changes
 
 - Public pages: 1,120.
-- Pages displaying at least 20 distinct business identities: 211.
-- Pages displaying fewer than 20: 909.
+- Pages displaying at least 20 distinct business identities: 209.
+- Pages displaying fewer than 20: 911.
 - Empty pages: 0.
-- Remaining displayed deficit: 9,622 placements.
+- Remaining displayed deficit: 9,624 placements.
 - Sitewide evidence-backed completion is **unknown**. These displayed counts are not represented as a fresh qualification audit of historical records.
 
 ## Qualification and validation
@@ -44,8 +44,9 @@
 
 ## Research and holds
 
-- 33 candidates researched: 5 prepared, 3 pending and 25 rejected or resolved to baseline identities.
+- 33 candidates researched: 4 prepared, 3 pending and 26 rejected or resolved to baseline identities.
 - Pending: Wreck-A-Mended Collision Center and Beach View Irrigation lack verified working official company websites; Lawnworks does not yet have explicit repair-category evidence.
+- Prospect Well Drilling was removed after its official destination failed production browser verification with `net::ERR_HTTP2_PROTOCOL_ERROR`; its two temporary placements are excluded from completed counts.
 - Retail Fix It remains unsupported for residential locksmith or homeowner work; it has zero current public baseline placements and was neither restored nor counted.
 - The historical WittCo Custom Pool and Spa Crestview placement remains flagged for unsupported geography. No historical record was deleted or hidden.
 

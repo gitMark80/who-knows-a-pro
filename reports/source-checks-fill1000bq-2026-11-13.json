@@ -4,7 +4,7 @@
   "checks": [
     {"domain":"southlandpoolandlawn.com","status":"passed","finalUrl":"https://southlandpoolandlawn.com/","identityMatched":true,"supports":["direct provider","residential irrigation repair","Crestview","Destin","Fort Walton Beach"]},
     {"domain":"paradiseoutdoors.net","status":"passed","finalUrl":"https://www.paradiseoutdoors.net/","identityMatched":true,"supports":["direct provider","residential irrigation repair","Destin","Fort Walton Beach"]},
-    {"domain":"wellservicesdestin.com","status":"passed","finalUrl":"https://www.wellservicesdestin.com/","identityMatched":true,"supports":["direct provider","residential sprinkler repair","Destin","Fort Walton Beach"]},
+    {"domain":"wellservicesdestin.com","status":"failed_live_official_site","finalUrl":"https://www.wellservicesdestin.com/","identityMatched":false,"error":"net::ERR_HTTP2_PROTOCOL_ERROR in the production verification browser; placements removed and excluded from completed counts"},
     {"domain":"panddenterprises.com","status":"passed","finalUrl":"https://www.panddenterprises.com/","identityMatched":true,"supports":["direct provider","residential sprinkler repair","Fort Walton Beach"]},
     {"domain":"keyirrigation.com","status":"passed","finalUrl":"https://keyirrigation.com/","identityMatched":true,"supports":["direct provider","residential sprinkler repair","Panama City"]}
   ]
