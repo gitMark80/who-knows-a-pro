@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bp prepared checkpoint — 2026-11-13
+# Who Knows a Pro fill1000bp published checkpoint — 2026-11-13
 
 ## Run baseline and scope
 
@@ -10,15 +10,15 @@
 - Hidden categories remain hidden. No city or category was created, activated, renamed, expanded, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
 - Distinct new businesses absent from the fixed baseline: **3**
-- Prepared placements from those new businesses: **9**
-- Prepared placements from businesses already present at baseline: **1**
+- Published and live-verified placements from those new businesses: **9**
+- Published and live-verified placements from businesses already present at baseline: **1**
 - New-business target: 1,000
-- Current shortfall pending publication and live verification: **997**
+- Exact new-business shortfall against the 1,000 target: **997**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Live displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Crestview | Auto Body & Collision | 9 | 1 new | 10 | 10 |
 | Crestview | Generator Installation | 16 | 1 new | 17 | 3 |
@@ -31,7 +31,7 @@
 | Panama City | Pest Control | 14 | 1 new | 15 | 5 |
 | Pensacola | Pest Control | 19 | 1 new | 20 | 0 |
 
-## Prepared displayed coverage
+## Live displayed coverage
 
 - Pages at 20 or more: **209**
 - Pages below 20: **911**
@@ -42,7 +42,7 @@ These are rendered-record counts after identity and normalized-domain deduplicat
 
 ## Validation and research state
 
-- Candidates researched: **22**; prepared candidates: **4**; prepared distinct new businesses: **3**; unresolved pending: **2**; rejected or resolved duplicates: **18**.
+- Candidates researched: **22**; published candidates: **4**; published distinct new businesses: **3**; unresolved pending: **2**; rejected or resolved duplicates: **18**.
 - RIDD Pest Control, Carnley Services and Caliber Collision were absent from the fixed baseline. Their nine placements are on pages that were below 20 at run start.
 - Neway Pools existed at baseline. Its official Crestview page supports one additional Crestview pool-installation placement; it is not counted as a new business.
 - Caliber remains globally excluded by default. Only the exact three city/category placements supported in this run's evidence ledger receive placement-scoped audited exceptions; no domain-wide exclusion was removed.
@@ -54,11 +54,19 @@ These are rendered-record counts after identity and normalized-domain deduplicat
 - Locally validated: **10 placements**
 - Lint: passed
 - Production build: passed
-- Committed: pending
-- Deployed: pending
-- Published and live-verified: **0 placements** (**0** distinct new businesses)
-- Changes awaiting deployment or live verification: **10**
+- Data commit: `af229c3eaedd066999aa0c8a49c4d2559f134e7d`
+- Production deployment: `dpl_2Rqki8sgkk1jUK6XcdDujpMFKtGv` (`READY`)
+- Published and live-verified: **10 placements** (**3** distinct new businesses)
+- New-business placements: **9**; previously listed-business placements: **1**
+- Changes awaiting deployment or live verification: **0**
+- All ten affected public pages displayed the intended business; all four profiles resolved; all ten placement-specific official evidence destinations remained working and identified the intended provider.
+
+## Runtime preservation fix
+
+- Production log review found that cold-start initialization built an exclusion-domain `UPDATE` expression beyond SQLite's depth limit. That stopped dynamic claim/override and count reads before they ran, although the static pages still rendered.
+- The follow-up change removes the cold-start approval-state mutation. Existing submitted and historical rows are not rewritten or hidden; public exclusion rules continue to be applied at read time.
+- Lint and the production build pass with the fix. Publication and post-deployment runtime verification are recorded separately in the final checkpoint commit.
 
 ## Resume point
 
-Recheck remote `main`, publish only after reconciling any concurrent change, wait for the matching production deployment, then verify all affected public pages, profiles and official website destinations before promoting prepared counts to completed counts.
+Resume from the fixed baseline and this published checkpoint. Continue with the lowest verified gaps in Destin, Fort Walton Beach, Crestview and Panama City, then work outward. Re-audit the current catalogs and remote `main` before the next publication. Displayed counts remain distinct from verified qualifying coverage; unaudited historical coverage remains unknown.

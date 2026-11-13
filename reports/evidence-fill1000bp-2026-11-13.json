@@ -3,7 +3,16 @@
   "baselineCommit": "f9545c3927d3f194792a722ad9aab9d10881ae50",
   "baselinePlacements": 14663,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_live_verified",
+  "publication": {
+    "dataCommit": "af229c3eaedd066999aa0c8a49c4d2559f134e7d",
+    "deploymentId": "dpl_2Rqki8sgkk1jUK6XcdDujpMFKtGv",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-13T17:14:36Z",
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 9,
+    "existingBusinessPlacements": 1
+  },
   "records": [
     {
       "name": "RIDD Pest Control",
