@@ -1,0 +1,34 @@
+{
+  "run": "fill1000bo",
+  "verifiedAt": "2026-11-13T11:13:02Z",
+  "publishedCommit": "94d773582ff6eef18c493e2490b588481b68b2a4",
+  "productionDeployment": "dpl_4MmYR6pCUpDWYNcueUA1bDcA7Lir",
+  "deploymentState": "READY",
+  "distinctNewBusinessesPublishedAndLiveVerified": 4,
+  "newBusinessPlacementsPublishedAndLiveVerified": 14,
+  "existingBusinessPlacementsPublishedAndLiveVerified": 0,
+  "pages": [
+    {"url":"https://whoknowsapro.com/crestview-fl/auto-body-collision","displayedCount":9,"verifiedNames":["Gerber Collision & Glass","Classic Collision"]},
+    {"url":"https://whoknowsapro.com/destin-fl/auto-body-collision","displayedCount":12,"verifiedNames":["Gerber Collision & Glass"]},
+    {"url":"https://whoknowsapro.com/fort-walton-beach-fl/auto-body-collision","displayedCount":19,"verifiedNames":["Gerber Collision & Glass","Classic Collision","Maaco Auto Body Shop & Painting"]},
+    {"url":"https://whoknowsapro.com/panama-city-fl/auto-body-collision","displayedCount":12,"verifiedNames":["Gerber Collision & Glass","Classic Collision","Maaco Auto Body Shop & Painting"]},
+    {"url":"https://whoknowsapro.com/panama-city-beach-fl/auto-body-collision","displayedCount":6,"verifiedNames":["Gerber Collision & Glass","Classic Collision"]},
+    {"url":"https://whoknowsapro.com/destin-fl/appliance-repair","displayedCount":12,"verifiedNames":["Mr. Appliance of Bay & Walton Counties"]},
+    {"url":"https://whoknowsapro.com/panama-city-fl/appliance-repair","displayedCount":13,"verifiedNames":["Mr. Appliance of Bay & Walton Counties"]},
+    {"url":"https://whoknowsapro.com/panama-city-beach-fl/appliance-repair","displayedCount":11,"verifiedNames":["Mr. Appliance of Bay & Walton Counties"]}
+  ],
+  "profiles": [
+    {"url":"https://whoknowsapro.com/business/gerber-collision-glass?region=crestview-fl&trade=auto-body-collision","officialWebsite":"https://www.gerbercollision.com/","status":"pass"},
+    {"url":"https://whoknowsapro.com/business/classic-collision?region=crestview-fl&trade=auto-body-collision","officialWebsite":"https://classiccollision.com/","status":"pass"},
+    {"url":"https://whoknowsapro.com/business/maaco-auto-body-shop-painting?region=fort-walton-beach-fl&trade=auto-body-collision","officialWebsite":"https://www.maaco.com/","status":"pass"},
+    {"url":"https://whoknowsapro.com/business/mr-appliance-of-bay-walton-counties?region=destin-fl&trade=appliance-repair","officialWebsite":"https://www.mrappliance.com/panama-city/","status":"pass"}
+  ],
+  "officialWebsiteDestinations": [
+    {"requested":"https://www.gerbercollision.com/","final":"https://www.gerbercollision.com/","identity":"Gerber Collision & Glass","status":"pass"},
+    {"requested":"https://classiccollision.com/","final":"https://classiccollision.com/","identity":"Classic Collision","status":"pass"},
+    {"requested":"https://www.maaco.com/","final":"https://www.maaco.com/","identity":"Maaco","status":"pass"},
+    {"requested":"https://www.mrappliance.com/panama-city/","final":"https://www.mrappliance.com/panama-city/","identity":"Mr. Appliance of Bay & Walton Counties","status":"pass"}
+  ],
+  "runtimeErrors": 0,
+  "changesAwaitingDeploymentOrLiveVerification": 0
+}

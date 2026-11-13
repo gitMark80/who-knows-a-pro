@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bo prepared checkpoint — 2026-11-13
+# Who Knows a Pro fill1000bo published checkpoint — 2026-11-13
 
 ## Run baseline and scope
 
@@ -10,15 +10,15 @@
 - Hidden categories remain hidden. No city or category was created, activated, renamed, expanded, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
-- Distinct new businesses absent from the fixed baseline: **4**
-- Prepared placements from those new businesses: **14**
-- Prepared placements from businesses already present at baseline: **0**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **4**
+- Published and live-verified placements from those new businesses: **14**
+- Published and live-verified placements from businesses already present at baseline: **0**
 - New-business target: 1,000
-- Exact new-business shortfall pending publication and live verification: **996**
+- Exact new-business shortfall against the 1,000 target: **996**
 
-| City | Category | Baseline displayed | Prepared | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Crestview | Auto Body & Collision | 7 | 2 new | 9 | 11 |
 | Destin | Appliance Repair | 11 | 1 new | 12 | 8 |
@@ -29,7 +29,7 @@
 | Panama City Beach | Appliance Repair | 10 | 1 new | 11 | 9 |
 | Panama City Beach | Auto Body & Collision | 4 | 2 new | 6 | 14 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **207**
 - Pages below 20: **913**
@@ -40,8 +40,8 @@ These are rendered-record counts after identity and normalized-domain deduplicat
 
 ## Validation and research state
 
-- Candidates researched: **8**; prepared: **4**; unresolved pending: **2**; rejected or resolved duplicates: **4**.
-- All four prepared identities were absent from the fixed baseline; their 14 placements are on pages that were below 20 at run start.
+- Candidates researched: **8**; published and live-verified: **4**; unresolved pending: **2**; rejected or resolved duplicates: **4**.
+- All four published identities were absent from the fixed baseline; their 14 placements are on pages that were below 20 at run start.
 - Gerber, Classic Collision, Maaco and Mr. Appliance remain globally excluded by default. Only the 14 exact city/category placements supported by official local branch or service-area pages receive placement-scoped audited exceptions; no domain-wide exclusion was removed.
 - Gerber's five branches, Classic Collision's four branches and Maaco's two branches each remain one business identity for the run's distinct-new-business total.
 - Mr. Appliance's official local page expressly identifies the Bay & Walton Counties operation as independently owned and operated and explicitly names all three selected cities.
@@ -51,11 +51,14 @@ These are rendered-record counts after identity and normalized-domain deduplicat
 ## Publication state
 
 - Locally validated: **14 placements**
-- Data and evidence publication commit: **pending**
-- Production deployment: **pending**
-- Published and live-verified: **0 placements**
-- Changes awaiting deployment or live verification: **14 placements**
+- Data publication commit: `32941b4db994c90440b010d8cc966528c4a96d66`
+- Profile-eligibility fix and final published code commit: `94d773582ff6eef18c493e2490b588481b68b2a4`
+- Production deployment: `dpl_4MmYR6pCUpDWYNcueUA1bDcA7Lir` — **READY**
+- Published and live-verified: **14 placements** (**4** distinct new businesses)
+- Live verification completed at `2026-11-13T11:13:02Z`: all eight affected city/category pages, all four business profiles and all four official website destinations were checked.
+- Vercel reported no production runtime errors or fatal logs for the deployed release in the checked 30-minute window.
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Publish only after rechecking remote `main` and reconciling any concurrent change. Then verify the eight affected city/category pages, all four profiles and all official website destinations in production. If publication or live verification fails, preserve the prepared state without counting additions as completed.
+Resume from remote `main` after this published checkpoint. The site remains incomplete: prioritize the lowest evidence-verified gaps in Destin, Fort Walton Beach, Crestview and Panama City, then continue outward from Pensacola. Preserve this run's fixed-baseline accounting and establish a new baseline for the next run.
