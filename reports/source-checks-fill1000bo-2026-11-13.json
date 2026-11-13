@@ -1,0 +1,16 @@
+{
+  "run": "fill1000bo",
+  "checkedAt": "2026-11-13T14:12:00Z",
+  "method": "fixed-baseline review, official-site research, normalized identity and redirect deduplication, and direct official-page inspection",
+  "checks": [
+    {"name":"Gerber Collision & Glass","url":"https://www.gerbercollision.com/locations/crestview-fl","finalUrl":"https://www.gerbercollision.com/locations/crestview-fl","status":"pass","observed":"Official branded pages identified direct consumer collision-repair branches with exact addresses in all five selected cities."},
+    {"name":"Classic Collision","url":"https://classiccollision.com/locations/classic-collision-crestview/","finalUrl":"https://classiccollision.com/locations/classic-collision-crestview/","status":"pass","observed":"Official branded pages identified direct collision-repair shops with exact addresses in Crestview, Fort Walton Beach, Panama City and Panama City Beach."},
+    {"name":"Maaco Auto Body Shop & Painting","url":"https://www.maaco.com/locations/fl/panama%20city-12920/","finalUrl":"https://www.maaco.com/locations/fl/panama%20city-12920/","status":"pass","observed":"Official branch pages identified locally operated Fort Walton Beach and Panama City shops and direct consumer collision and body repairs."},
+    {"name":"Mr. Appliance of Bay & Walton Counties","url":"https://www.mrappliance.com/panama-city/","finalUrl":"https://www.mrappliance.com/panama-city/","status":"pass","observed":"Official independently owned local page offered residential appliance repair and explicitly listed Destin, Panama City and Panama City Beach."},
+    {"name":"Precision Auto Body","status":"pending_working_official_website","observed":"Crestview third-party profiles were found, but no working official business website satisfying the task was verified; excluded from publication and completed counts."},
+    {"name":"Kingsbury Auto Body","url":"https://kingsburysautobody.com/","status":"pending_working_official_website","observed":"Candidate official domain could not be directly verified as a working official website; excluded from publication and completed counts."},
+    {"name":"Destin Collision","status":"rejected_duplicate_identity","observed":"The historical Destin identity has been acquired by or redirected into Gerber and was not counted as a separate new business."},
+    {"name":"Retail Fix It","url":"https://retailfixit.com/","status":"historical_hold_intermediary_commercial","observed":"No current public baseline placement renders. Historical source remains a commercial maintenance and vendor-network business unsupported for residential categories and is excluded from verified counts."},
+    {"name":"WittCo Custom Pool and Spa","status":"historical_hold_unsupported_geography","observed":"Historical Crestview pool placement remains flagged for unsupported exact city coverage and excluded from verified-completion claims without deletion."}
+  ]
+}

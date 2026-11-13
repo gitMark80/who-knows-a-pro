@@ -18,7 +18,7 @@ check(
 const auditedExceptions = directorySeed.filter((business) => isExcludedWebsite(business.website));
 const leaked = auditedExceptions.filter((business) => !isAuditedExcludedDomainPlacement(business));
 check('generated directory has no unaudited excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
-check('excluded-domain placements are explicitly audited', auditedExceptions.length === 18, `${auditedExceptions.length} placement-scoped exceptions`);
+check('excluded-domain placements are explicitly audited', auditedExceptions.length === 32, `${auditedExceptions.length} placement-scoped exceptions`);
 
 for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com']) {
   check(`required national exclusion: ${domain}`, isExcludedWebsite(`https://www.${domain}/example`), domain);

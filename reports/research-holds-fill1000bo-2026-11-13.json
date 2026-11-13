@@ -1,0 +1,22 @@
+{
+  "run": "fill1000bo",
+  "researchedCandidates": 8,
+  "preparedCandidates": 4,
+  "preparedDistinctNewBusinesses": 4,
+  "pendingCandidates": 2,
+  "rejectedOrHistoricalCandidates": 4,
+  "holds": [
+    {"name":"Precision Auto Body","status":"pending_working_official_website","reason":"Only third-party Crestview profiles were found; no working official business website was verified."},
+    {"name":"Kingsbury Auto Body","website":"https://kingsburysautobody.com/","status":"pending_working_official_website","reason":"The candidate domain could not be directly confirmed as a working official business website."},
+    {"name":"Destin Collision","status":"resolved_duplicate_identity","reason":"The local identity has been acquired by or redirected into Gerber and is not a separate new business."},
+    {"name":"Joe Hudson's Collision Center","status":"resolved_duplicate_identity","reason":"Relevant local pages now resolve within Gerber's acquired network; the former brand was not counted separately."}
+  ],
+  "priorityGapFindings": [
+    {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Four absent fixed-baseline identities qualified for 14 priority placements, concentrated in auto-body collision and appliance repair."},
+    {"cities":["panama-city-beach-fl"],"status":"supported_same_verified_batch","result":"The exact official branch and service-area pages supported one additional qualifying auto-body placement for each of Gerber and Classic Collision and one appliance-repair placement for Mr. Appliance."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance and vendor-network model lacks qualifying residential-service evidence; zero current public baseline placements render and no record was restored or counted."},
+    {"name":"WittCo Custom Pool and Spa","reason":"Historical Crestview pool placement remains flagged for unsupported city coverage and excluded from verified completion claims."}
+  ]
+}
