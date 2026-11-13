@@ -46,7 +46,7 @@ These are rendered-record counts after identity and alternate-domain deduplicati
 
 ## Validation and research state
 
-- Candidates researched: **26**; published and live-verified: **9**; pending: **8**; rejected, fixed-baseline or not needed after a page reached 20: **9**.
+- Candidates researched: **26**; published and live-verified: **9**; unresolved pending: **6**; rejected, fixed-baseline, resolved duplicate or not needed after a page reached 20: **11**.
 - Five distinct new businesses support ten placements; four fixed-baseline identities support nine additional placements.
 - Confirmed alternate domains for A to Z Appliance Repair and Arnett Septic are identity-aliased so current official sites do not create duplicate profiles or inflate the new-business count.
 - Lesher Contracting remains pending because two direct browser checks returned an upstream connection failure despite strong official search evidence; it is not published or counted.
