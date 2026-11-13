@@ -1,0 +1,38 @@
+[
+  {
+    "name": "RIDD Pest Control",
+    "website": "https://www.ridd.com/",
+    "regions": ["destin-fl", "panama-city-fl", "pensacola-fl"],
+    "trades": ["pest-control"],
+    "sourceUrl": "https://www.ridd.com/locations/florida/panama-city-fl",
+    "sourceVerifiedAt": "2026-11-13T17:02:00Z",
+    "evidenceNote": "Official RIDD city pages offer direct residential pest treatment and explicitly identify service in Destin, Panama City and Pensacola, including a physical Panama City office and a Fort Walton Beach office serving Destin."
+  },
+  {
+    "name": "Carnley Services",
+    "website": "https://www.carnleyserv.com/",
+    "regions": ["crestview-fl", "milton-fl", "pace-fl"],
+    "trades": ["generator-installation"],
+    "sourceUrl": "https://www.carnleyserv.com/backup-generators-crestview-fl/",
+    "sourceVerifiedAt": "2026-11-13T17:02:00Z",
+    "evidenceNote": "Official Carnley pages offer licensed whole-home standby generator installation directly to homeowners and explicitly identify Crestview, Milton and Pace as served communities from the company's Northwest Florida operation."
+  },
+  {
+    "name": "Caliber Collision",
+    "website": "https://www.caliber.com/",
+    "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl"],
+    "trades": ["auto-body-collision"],
+    "sourceUrl": "https://www.caliber.com/locations/fl/crestview",
+    "sourceVerifiedAt": "2026-11-13T17:02:00Z",
+    "evidenceNote": "Official Caliber city pages offer direct consumer collision and auto-body repair in Crestview, Destin and Fort Walton Beach; Caliber's official careers site additionally identifies its operating Fort Walton Beach collision service center."
+  },
+  {
+    "name": "Neway Pools",
+    "website": "https://newaypools.com/",
+    "regions": ["crestview-fl"],
+    "trades": ["pool-installation"],
+    "sourceUrl": "https://newaypools.com/crestview-fl",
+    "sourceVerifiedAt": "2026-11-13T17:02:00Z",
+    "evidenceNote": "Official Neway Pools Crestview page offers custom residential backyard pool design and in-ground pool installation directly to Crestview homeowners; this is an additional placement for a business already in the baseline."
+  }
+]

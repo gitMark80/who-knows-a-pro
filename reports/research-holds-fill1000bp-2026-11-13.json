@@ -1,0 +1,33 @@
+{
+  "run": "fill1000bp",
+  "researchedCandidates": 22,
+  "preparedCandidates": 4,
+  "preparedDistinctNewBusinesses": 3,
+  "preparedExistingBusinessPlacements": 1,
+  "pendingCandidates": 2,
+  "rejectedOrResolvedCandidates": 18,
+  "holds": [
+    {"name":"Hale Appliance Services","website":"https://haleapplianceservices.com/fl/crestview","status":"rejected_intermediary_or_leadgen_risk","reason":"Generic city page and toll-free dispatch language did not identify a qualifying local Crestview residential appliance operation."},
+    {"name":"Laser Appliance Repair","website":"https://laserappliancefl.com/","status":"rejected_commercial_and_broad_geography","reason":"Official content described a high-end commercial servicing company and broad multi-state coverage without specific qualifying city evidence."},
+    {"name":"Wright Generator Pros","website":"https://emeraldcoastgenerators.com/","status":"rejected_invalid_identity_signal","reason":"The site used the placeholder telephone number 850-555-0100 and did not establish a trustworthy operating business identity."},
+    {"name":"AJ Electrical Corp","website":"https://ajpelectricalcorp.com/","status":"pending_identity_and_license","reason":"City-targeted pages and a toll-free number did not establish a verifiable local business address or match a disclosed license to the operating identity."},
+    {"name":"Florida Waterscapes NWF","status":"pending_working_official_website","reason":"State and license records corroborated an active Crestview pool contractor, but no working official company website was verified."},
+    {"name":"Distributor Appliance Parts","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline; no new independently supported underfilled placement was found."},
+    {"name":"Purvis Appliance Repair","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Terry's Landscape","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline for supported irrigation placements."},
+    {"name":"House 2 House Lawn Care","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline for supported irrigation placements."},
+    {"name":"LGM Landscape & Irrigation","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline for supported irrigation placements."},
+    {"name":"Five Star Irrigation Services","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Summit Outdoors","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Sunshine Irrigation","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Parker Septic","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Superior Septic Sewer","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Panama Pools & Spas","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Cox Pools","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."},
+    {"name":"Unique Pools","status":"resolved_baseline_identity","reason":"Already present in the fixed baseline."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance and vendor-network model lacks qualifying residential-service evidence; zero current public baseline placements render and no record was restored or counted."},
+    {"name":"WittCo Custom Pool and Spa","reason":"Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."}
+  ]
+}
