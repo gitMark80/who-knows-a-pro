@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bq prepared checkpoint — 2026-11-13
+# Who Knows a Pro fill1000bq published checkpoint — 2026-11-13
 
 ## Run identity and baseline
 
@@ -14,12 +14,16 @@
 - New-business placements: 3.
 - Existing-business placements: 4 — Southland Pool & Lawn LLC (3) and Key Irrigation (1).
 - Total placements: 7, all on public pages below 20 at the baseline.
-- Status: prepared and validated locally; not yet published, deployed or live-verified.
-- Exact shortfall against the run target pending live verification: 998 distinct new businesses.
+- Status: published, deployed and live-verified.
+- Published `main` data commit: `360840c7cc7bf9e4c37d2078f854006d15c0b659`.
+- Production deployment: `dpl_AZXPiNRy7tfVy2Pua2dQxb33GKR7` (`READY`).
+- Published and live-verified: 2 distinct new businesses, 3 new-business placements and 4 existing-business placements.
+- Exact shortfall against the run target: 998 distinct new businesses.
+- Changes awaiting deployment or live verification: 0.
 
 ## Page-level change
 
-| City/category | Baseline | Prepared | Remaining displayed deficit |
+| City/category | Baseline | Live | Remaining displayed deficit |
 |---|---:|---:|---:|
 | Crestview / irrigation-sprinkler-repair | 13 | 14 | 6 |
 | Destin / irrigation-sprinkler-repair | 17 | 19 | 1 |
@@ -37,10 +41,10 @@
 
 ## Qualification and validation
 
-- Each prepared placement has official-site evidence for provider identity, direct service, residential customer scope, category match and explicit city coverage.
+- Each published placement has official-site evidence for provider identity, direct service, residential customer scope, category match and explicit city coverage.
 - Normalized name/domain checks separate the three new businesses from the two fixed-baseline identities.
 - JSON parsing, active city slugs, visible category slugs, duplicate placement checks, fixed-baseline preservation, underfilled-page checks, qualification-policy validation, ESLint and the production build all pass.
-- The live production domain and official-site destinations still require post-deployment verification before any prepared business is counted as completed.
+- Production browser verification confirmed all seven retained placements and their page counts. The four official destinations resolved to the intended businesses and displayed the supporting residential irrigation and geographic content.
 
 ## Research and holds
 

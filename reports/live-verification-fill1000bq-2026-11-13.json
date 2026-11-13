@@ -1,0 +1,30 @@
+{
+  "run": "fill1000bq",
+  "verifiedAt": "2026-11-13T23:12:48Z",
+  "dataCommit": "360840c7cc7bf9e4c37d2078f854006d15c0b659",
+  "deploymentId": "dpl_AZXPiNRy7tfVy2Pua2dQxb33GKR7",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "pages": [
+    {"region":"destin-fl","trade":"irrigation-sprinkler-repair","displayedCount":19,"businesses":["Paradise Outdoors","Southland Pool & Lawn LLC"],"visible":true,"prospectRemoved":true},
+    {"region":"fort-walton-beach-fl","trade":"irrigation-sprinkler-repair","displayedCount":19,"businesses":["Paradise Outdoors","P & D Enterprises","Southland Pool & Lawn LLC"],"visible":true,"prospectRemoved":true},
+    {"region":"crestview-fl","trade":"irrigation-sprinkler-repair","displayedCount":14,"businesses":["Southland Pool & Lawn LLC"],"visible":true},
+    {"region":"panama-city-fl","trade":"irrigation-sprinkler-repair","displayedCount":18,"businesses":["Key Irrigation"],"visible":true}
+  ],
+  "officialWebsites": [
+    {"name":"Southland Pool & Lawn LLC","finalUrl":"https://southlandpoolandlawn.com/","identityMatched":true,"residentialServiceMatched":true,"geographyMatched":true},
+    {"name":"Paradise Outdoors","finalUrl":"https://www.paradiseoutdoors.net/","identityMatched":true,"residentialServiceMatched":true,"geographyMatched":true},
+    {"name":"P & D Enterprises","finalUrl":"https://www.panddenterprises.com/productsservices","identityMatched":true,"residentialServiceMatched":true,"geographyMatched":true},
+    {"name":"Key Irrigation","finalUrl":"https://keyirrigation.com/","identityMatched":true,"residentialServiceMatched":true,"geographyMatched":true}
+  ],
+  "failedAndRemoved": [
+    {"name":"Prospect Well Drilling","website":"https://www.wellservicesdestin.com/","error":"net::ERR_HTTP2_PROTOCOL_ERROR","placementsRemoved":2,"counted":false}
+  ],
+  "publishedCounts": {
+    "distinctNewBusinesses": 2,
+    "newBusinessPlacements": 3,
+    "existingBusinessPlacements": 4,
+    "totalPlacements": 7,
+    "awaitingDeploymentOrLiveVerification": 0
+  }
+}
