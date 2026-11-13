@@ -368,7 +368,7 @@ export async function listDirectoryPairCounts(): Promise<{ region: string; trade
         'SELECT region,trade,slug,main_slug,website FROM businesses WHERE approved = 1 AND is_test = 0',
       );
       for (const business of rows) {
-        if (isExcludedWebsite(business.website)) continue;
+        if (!isPublicDirectoryBusiness({ ...business, approved: 1, is_test: 0 })) continue;
         const key = `${business.region}|${business.trade}`;
         const profiles = groups.get(key) ?? new Set<string>();
         profiles.add(canonicalSlug(business));
@@ -459,7 +459,7 @@ export async function searchDirectory(query: string, limit = 8): Promise<Directo
   if (!terms.length) return [];
   const groups = new Map<string, DirectorySearchResult & { score: number; id: string }>();
   const consider = (business: Business) => {
-    if (isExcludedWebsite(business.website)) return;
+    if (!isPublicDirectoryBusiness(business)) return;
     const name = business.name.toLowerCase();
     if (!terms.every((term) => name.includes(term))) return;
     const key = canonicalSlug(business);
@@ -506,14 +506,14 @@ export async function getBusinessProfile(slug: string, options: { includeExclude
   }
   const direct = staticDirect || databaseDirect;
   if (!direct) return null;
-  if (!options.includeExcluded && isExcludedWebsite(direct.website)) return null;
+  if (!options.includeExcluded && !isPublicDirectoryBusiness(direct)) return null;
   const mainSlug = canonicalSlug(direct);
-  const staticPlacements = publicDirectory.filter((business) => canonicalSlug(business) === mainSlug && (options.includeExcluded || !isExcludedWebsite(business.website)));
+  const staticPlacements = publicDirectory.filter((business) => canonicalSlug(business) === mainSlug && (options.includeExcluded || isPublicDirectoryBusiness(business)));
   let databaseRows: Business[] = [];
   if (databaseConfigured()) {
     try { databaseRows = await sqlAll<Business>('SELECT * FROM businesses WHERE COALESCE(main_slug,slug) = ? ORDER BY owner_email IS NOT NULL DESC, updated_at DESC', [mainSlug]); } catch {}
   }
-  if (!options.includeExcluded) databaseRows = databaseRows.filter((business) => !isExcludedWebsite(business.website));
+  if (!options.includeExcluded) databaseRows = databaseRows.filter(isPublicDirectoryBusiness);
   const override = bestOverride(databaseRows);
   const placements = staticPlacements.map((business) => mergeBusiness(business, override));
   for (const row of databaseRows) {
