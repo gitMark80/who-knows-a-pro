@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bn prepared checkpoint — 2026-11-13
+# Who Knows a Pro fill1000bn published checkpoint — 2026-11-13
 
 ## Run baseline and scope
 
@@ -10,16 +10,16 @@
 - Hidden categories remain hidden. No city or category was created, activated, renamed, expanded, unhidden or deleted.
 - No user-submitted, claimed, paid or unrelated record was removed or rewritten.
 
-## Prepared additions
+## Published additions
 
-- Distinct new businesses absent from the fixed baseline: **5**
-- Placements from those new businesses: **10**
-- Placements from businesses already present at baseline: **9**
-- Total prepared placements: **19**
+- Distinct new businesses absent from the fixed baseline, published and live-verified: **5**
+- Published and live-verified placements from those new businesses: **10**
+- Published and live-verified placements from businesses already present at baseline: **9**
+- Total published and live-verified placements: **19**
 - New-business target: 1,000
-- Shortfall pending publication and live verification: **995**
+- Exact new-business shortfall against the 1,000 target: **995**
 
-| City | Category | Baseline displayed | Added | Prepared displayed | Remaining displayed deficit |
+| City | Category | Baseline displayed | Added | Published displayed | Remaining displayed deficit |
 |---|---|---:|---:|---:|---:|
 | Crestview | Hurricane Shutters & Impact Windows | 18 | 1 new | 19 | 1 |
 | Crestview | Septic Services | 15 | 1 existing business | 16 | 4 |
@@ -35,7 +35,7 @@
 | Pace | Septic Services | 16 | 1 existing business | 17 | 3 |
 | Panama City Beach | Home Inspections | 19 | 1 existing business | 20 | 0 |
 
-## Prepared displayed coverage
+## Published displayed coverage
 
 - Pages at 20 or more: **207**
 - Pages below 20: **913**
@@ -46,7 +46,7 @@ These are rendered-record counts after identity and alternate-domain deduplicati
 
 ## Validation and research state
 
-- Candidates researched: **26**; prepared: **9**; pending: **8**; rejected, fixed-baseline or not needed after a page reached 20: **9**.
+- Candidates researched: **26**; published and live-verified: **9**; pending: **8**; rejected, fixed-baseline or not needed after a page reached 20: **9**.
 - Five distinct new businesses support ten placements; four fixed-baseline identities support nine additional placements.
 - Confirmed alternate domains for A to Z Appliance Repair and Arnett Septic are identity-aliased so current official sites do not create duplicate profiles or inflate the new-business count.
 - Lesher Contracting remains pending because two direct browser checks returned an upstream connection failure despite strong official search evidence; it is not published or counted.
@@ -56,11 +56,13 @@ These are rendered-record counts after identity and alternate-domain deduplicati
 ## Publication state
 
 - Locally validated: **19 placements**
-- Committed: **0**
-- Deployed: **0**
-- Published and live-verified: **0**
-- Changes awaiting deployment or live verification: **19**
+- Data and evidence publication commit: `3d1cbc5202dee7021d308c4df6b201ba07248263`
+- Production deployment: `dpl_Hs7JwkqAiLqwbcDNeTvMG8GtbF9t` — **READY**
+- Published and live-verified: **19 placements** (**10** from new businesses; **9** from baseline businesses)
+- Live verification completed at `2026-11-13T05:12:02Z`: all 13 affected city/category pages, all nine business profiles and all nine official website destinations were checked.
+- Vercel reported no production runtime errors in the one-hour window checked after deployment.
+- Changes awaiting deployment or live verification: **0**
 
 ## Resume point
 
-Publish only after rechecking remote `main`, validating the build and reconciling any concurrent changes. After deployment, verify every target page, business profile and official destination before converting prepared counts to completed counts.
+Resume from remote `main` after this published checkpoint. The site remains incomplete: prioritize the lowest evidence-verified gaps in Destin, Fort Walton Beach, Crestview and Panama City, then continue outward from Pensacola. Preserve the fixed-baseline accounting for this completed run and establish a new baseline for the next run.

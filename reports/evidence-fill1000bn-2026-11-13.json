@@ -3,7 +3,10 @@
   "baselineCommit": "ad9c618a490cf7daa8149fce439c926a56a07839",
   "baselinePlacements": 14630,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_and_live_verified",
+  "publishedCommit": "3d1cbc5202dee7021d308c4df6b201ba07248263",
+  "productionDeployment": "dpl_Hs7JwkqAiLqwbcDNeTvMG8GtbF9t",
+  "liveVerifiedAt": "2026-11-13T05:12:02Z",
   "records": [
     {
       "name": "Paradise Shutters Inc.", "website": "https://paradiseshuttersinc.com/", "regions": ["crestview-fl", "grayton-beach-fl", "milton-fl", "pace-fl"], "trades": ["hurricane-shutters-impact-windows"],

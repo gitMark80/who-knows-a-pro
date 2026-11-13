@@ -1,8 +1,8 @@
 {
   "run": "fill1000bn",
   "researchedCandidates": 26,
-  "preparedCandidates": 9,
-  "preparedDistinctNewBusinesses": 5,
+  "publishedLiveVerifiedCandidates": 9,
+  "publishedLiveVerifiedDistinctNewBusinesses": 5,
   "pendingCandidates": 8,
   "rejectedBaselineOrNotNeededCandidates": 9,
   "holds": [
@@ -17,7 +17,7 @@
   ],
   "priorityGapFindings": [
     {"cities":["destin-fl","fort-walton-beach-fl","crestview-fl","panama-city-fl"],"status":"searched_first","result":"Existing Arnett Septic placements qualified for Crestview, Destin and Fort Walton Beach; Paradise Shutters qualified for Crestview. Appliance and auto-body results were baseline identities, invalid sites or unresolved generic identities and were not padded."},
-    {"cities":["grayton-beach-fl","milton-fl","pace-fl","panama-city-beach-fl"],"status":"next_nearest_gap_batch","result":"Five distinct new businesses and additional existing-business placements supported the remaining prepared pages, including closure of Grayton kitchen and bath, Milton hurricane protection and Panama City Beach home inspections at 20."}
+    {"cities":["grayton-beach-fl","milton-fl","pace-fl","panama-city-beach-fl"],"status":"next_nearest_gap_batch","result":"Five distinct new businesses and additional existing-business placements supported the published pages, including closure of Grayton kitchen and bath, Milton hurricane protection and Panama City Beach home inspections at 20."}
   ],
   "historicalFlags": [
     {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance and vendor-network model lacks qualifying residential service evidence; zero current public baseline placements render and no record was restored or counted."},
