@@ -1,0 +1,68 @@
+{
+  "run": "fill1000br",
+  "baselineCommit": "76325b998ed86a0fd9e694b76c832da69809ad2f",
+  "baselinePlacements": 14680,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": "not_started",
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 0,
+    "newBusinessPlacements": 0,
+    "existingBusinessPlacements": 0
+  },
+  "records": [
+    {
+      "name": "Greenview Services, LLC",
+      "website": "https://greenviewlawnservices.com/",
+      "regions": ["crestview-fl"],
+      "trades": ["landscaping"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Greenview's official site identifies the family-owned, owner-operated company as the provider performing lawn care, landscape maintenance and landscape installation, with direct consultation and service-plan enrollment.",
+      "customerScope": "residential",
+      "customerEvidence": "The official FAQ expressly includes residential service, while its maintenance page offers plans for homeowners, landscaped flower beds, shrubs and estate properties.",
+      "customerSourceUrl": "https://greenviewlawnservices.com/lawn-service-and-maintenance-plans-florida.html",
+      "geographicEvidence": "Greenview's official homepage explicitly names Crestview among the communities it serves and displays a Crestview, Florida business address.",
+      "geographicSourceUrl": "https://greenviewlawnservices.com/",
+      "identityEvidence": "The working greenviewlawnservices.com official domain identifies Greenview Services, LLC, its Crestview contact details, owner-operated status and direct service offerings.",
+      "officialWebsiteFinalUrl": "https://greenviewlawnservices.com/",
+      "evidenceNote": "Greenview's official site jointly proves a direct residential landscaping service and explicit Crestview coverage; no other city placement is made because only underfilled pages are in scope.",
+      "sourceUrl": "https://greenviewlawnservices.com/lawn-service-and-maintenance-plans-florida.html",
+      "sourceVerifiedAt": "2026-11-14T04:51:56Z",
+      "supportingUrls": [
+        "https://greenviewlawnservices.com/",
+        "https://greenviewlawnservices.com/faqs.html",
+        "https://greenviewlawnservices.com/lawn-service-and-maintenance-plans-florida.html"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "The normalized Greenview Services, LLC identity and greenviewlawnservices.com domain were absent from all 14,680 fixed-baseline placements."
+    },
+    {
+      "name": "Goforth Lawn Care",
+      "website": "https://www.goforthlawncare.com/",
+      "regions": ["crestview-fl"],
+      "trades": ["landscaping"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Goforth's official site presents its own team as the landscaper performing lawn mowing, property cleanup, flower-bed maintenance, mulching, landscape-rock installation and hedge trimming, with direct quote scheduling.",
+      "customerScope": "residential",
+      "customerEvidence": "The official site expressly serves homeowners and businesses, describes service for single-family homes, and offers residential lawn care and landscaping tailored to Crestview property owners.",
+      "customerSourceUrl": "https://www.goforthlawncare.com/lawn-care-services",
+      "geographicEvidence": "Goforth's official homepage and service page explicitly identify the company as a Crestview landscaping company serving Crestview clients.",
+      "geographicSourceUrl": "https://www.goforthlawncare.com/",
+      "identityEvidence": "The working goforthlawncare.com official domain identifies Goforth Lawn Care, its direct services, telephone number and quote workflow.",
+      "officialWebsiteFinalUrl": "https://www.goforthlawncare.com/",
+      "evidenceNote": "Goforth's official site jointly proves direct residential landscaping and explicit Crestview service; only the underfilled Crestview landscaping page is placed.",
+      "sourceUrl": "https://www.goforthlawncare.com/lawn-care-services",
+      "sourceVerifiedAt": "2026-11-14T04:51:56Z",
+      "supportingUrls": [
+        "https://www.goforthlawncare.com/",
+        "https://www.goforthlawncare.com/about-us",
+        "https://www.goforthlawncare.com/lawn-care-services"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "The normalized Goforth Lawn Care identity and goforthlawncare.com domain were absent from all 14,680 fixed-baseline placements."
+    }
+  ]
+}

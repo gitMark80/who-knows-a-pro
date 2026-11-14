@@ -1,0 +1,20 @@
+{
+  "run": "fill1000br",
+  "checkedAt": "2026-11-14T04:51:56Z",
+  "checks": [
+    {
+      "domain": "greenviewlawnservices.com",
+      "status": "passed_research_pending_production_browser",
+      "finalUrl": "https://greenviewlawnservices.com/",
+      "identityMatched": true,
+      "supports": ["direct provider", "residential landscaping", "homeowners", "Crestview"]
+    },
+    {
+      "domain": "goforthlawncare.com",
+      "status": "passed_research_pending_production_browser",
+      "finalUrl": "https://www.goforthlawncare.com/",
+      "identityMatched": true,
+      "supports": ["direct provider", "residential landscaping", "homeowners and single-family homes", "Crestview"]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "run": "fill1000br",
+  "researchedCandidates": 32,
+  "preparedCandidates": 2,
+  "preparedDistinctNewBusinesses": 2,
+  "preparedNewBusinessPlacements": 2,
+  "preparedExistingBusinessPlacements": 0,
+  "pendingCandidates": 3,
+  "rejectedOrResolvedCandidates": 27,
+  "holds": [
+    {
+      "name": "Lee's Lawn Care",
+      "website": "https://leeslawncare.com/",
+      "status": "qualified_not_placed_full_page",
+      "reason": "Official content supports direct residential landscaping and explicit Crestview service, but Greenview and Goforth fill the Crestview landscaping page to 20. It is preserved as an unresolved candidate rather than overfilling the page."
+    },
+    {
+      "name": "Williams Landscaping & Outdoor",
+      "status": "pending_official_site_verification",
+      "reason": "Third-party references identify a possible official domain and Crestview operation, but the underlying official website was not independently verified, so no placement was made."
+    },
+    {
+      "name": "Perfectionists Lawn & Landscape",
+      "website": "https://destinlawnservice.com/",
+      "status": "pending_working_official_website",
+      "reason": "A purported official destination was found, but it was not reliably retrievable for identity, residential service and geographic verification."
+    },
+    {
+      "name": "Prospect Well Drilling",
+      "website": "https://www.wellservicesdestin.com/",
+      "status": "rejected_working_official_website",
+      "reason": "Relevant official content remains indexed, but the production browser in the preceding run failed with net::ERR_HTTP2_PROTOCOL_ERROR; it was not restored or counted."
+    },
+    {
+      "name": "Wreck-A-Mended Collision Center",
+      "status": "rejected_working_official_website",
+      "reason": "No working official company website was verified for this Panama City provider."
+    },
+    {
+      "name": "Beach View Irrigation",
+      "status": "rejected_working_official_website",
+      "reason": "Business and license references corroborate an identity, but no qualifying official company website was verified."
+    },
+    {
+      "name": "Joe Hudson's Collision Center Panama City",
+      "status": "rejected_inactive_local_operation",
+      "reason": "Current evidence did not establish an active Panama City branch."
+    },
+    {
+      "name": "Retail Fix It",
+      "status": "rejected_intermediary_and_commercial_scope",
+      "reason": "Commercial facility-maintenance and vendor-network content does not support residential locksmith or homeowner placements."
+    },
+    {
+      "name": "Classic Collision Panama City",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Panama City auto-body page."
+    },
+    {
+      "name": "Maaco Panama City",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Panama City auto-body page."
+    },
+    {
+      "name": "Gerber Collision & Glass Panama City",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Panama City auto-body page."
+    },
+    {
+      "name": "Mike's Auto Collision Center",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Panama City auto-body page."
+    },
+    {
+      "name": "Cadenhead Services Pest Control",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Crestview pest-control page."
+    },
+    {
+      "name": "Spears Environmental Pest Control",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Crestview pest-control page."
+    },
+    {
+      "name": "Guardian Pest Control",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Crestview pest-control page."
+    },
+    {
+      "name": "Bryan Pest Control",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Crestview pest-control page."
+    },
+    {
+      "name": "Massey Services Crestview",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on the fixed-baseline Crestview pest-control page."
+    },
+    {
+      "name": "Parker Septic & Drain",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority septic pages."
+    },
+    {
+      "name": "Superior Septic",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority septic pages."
+    },
+    {
+      "name": "Yoder Septic Services",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority septic pages."
+    },
+    {
+      "name": "Prater's Insulation",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority insulation pages."
+    },
+    {
+      "name": "Blue Line Insulation",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority insulation pages."
+    },
+    {
+      "name": "Mid-Coast Lawn Management",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority irrigation pages."
+    },
+    {
+      "name": "Summit Outdoors",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority irrigation pages."
+    },
+    {
+      "name": "Five Star Irrigation",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority irrigation pages."
+    },
+    {
+      "name": "Curtis Williams Services",
+      "status": "resolved_baseline_identity",
+      "reason": "Already present on supported priority irrigation pages."
+    },
+    {
+      "name": "Paradise Outdoors",
+      "status": "resolved_baseline_identity",
+      "reason": "Added in the immediately preceding run and present at this run's fixed baseline."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "domain": "retailfixit.com",
+      "reason": "Commercial facility-maintenance and vendor-network content lacks qualifying residential-service evidence; zero current public baseline placements render and no record was restored or counted."
+    },
+    {
+      "name": "WittCo Custom Pool and Spa",
+      "reason": "Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."
+    }
+  ]
+}
