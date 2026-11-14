@@ -10,7 +10,7 @@
 
 ## Prepared changes
 
-- Distinct new businesses: 2 — Greenview Services, LLC and Goforth Lawn Care.
+- Distinct new businesses: 2 — Lee's Lawn Care Inc. and Goforth Lawn Care.
 - New-business placements: 2.
 - Existing-business placements: 0.
 - All placements target the underfilled Crestview landscaping page.
@@ -34,14 +34,14 @@
 
 ## Qualification and validation
 
-- Both prepared providers have official-site evidence for direct provider identity, residential homeowner scope, landscaping category match and explicit Crestview service.
+- Both prepared providers have official-site evidence for direct provider identity, residential yard or homeowner scope, landscaping category match and explicit Crestview service.
 - Both normalized identities and domains are absent from the fixed baseline.
 - Production publication, deployment and live browser verification remain pending.
 
 ## Research and holds
 
-- 32 candidates researched: 2 prepared, 3 pending and 27 rejected or resolved to fixed-baseline identities.
-- Lee's Lawn Care is preserved as a supported candidate but not placed because the two prepared businesses fill the page to 20.
+- 32 candidates researched: 2 prepared, 2 pending and 28 rejected or resolved to fixed-baseline identities.
+- Greenview Services was removed after its purported official domain redirected to a registrar and hosting sales page during production verification.
 - Williams Landscaping & Outdoor and Perfectionists Lawn & Landscape remain pending official-site verification.
 - Prospect Well Drilling remains disqualified after the preceding production browser failure.
 - Retail Fix It remains unsupported for residential locksmith or homeowner work and was neither restored nor counted.

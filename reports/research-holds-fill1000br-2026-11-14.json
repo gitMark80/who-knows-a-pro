@@ -5,14 +5,14 @@
   "preparedDistinctNewBusinesses": 2,
   "preparedNewBusinessPlacements": 2,
   "preparedExistingBusinessPlacements": 0,
-  "pendingCandidates": 3,
-  "rejectedOrResolvedCandidates": 27,
+  "pendingCandidates": 2,
+  "rejectedOrResolvedCandidates": 28,
   "holds": [
     {
-      "name": "Lee's Lawn Care",
-      "website": "https://leeslawncare.com/",
-      "status": "qualified_not_placed_full_page",
-      "reason": "Official content supports direct residential landscaping and explicit Crestview service, but Greenview and Goforth fill the Crestview landscaping page to 20. It is preserved as an unresolved candidate rather than overfilling the page."
+      "name": "Greenview Services, LLC",
+      "website": "https://greenviewlawnservices.com/",
+      "status": "rejected_invalid_official_website",
+      "reason": "Fresh production-browser verification redirected the purported official domain to a registrar and hosting sales page. Its temporary placement was removed and excluded from completed counts."
     },
     {
       "name": "Williams Landscaping & Outdoor",

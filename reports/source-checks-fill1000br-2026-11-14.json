@@ -4,14 +4,21 @@
   "checks": [
     {
       "domain": "greenviewlawnservices.com",
-      "status": "passed_research_pending_production_browser",
-      "finalUrl": "https://greenviewlawnservices.com/",
+      "status": "failed_live_official_site",
+      "finalUrl": "https://www.secureserver.net/?pl_id=264044&isc=PLPPT02003&isRedirect=1",
+      "identityMatched": false,
+      "error": "The production verification browser reached a registrar and hosting sales page instead of Greenview Services. The temporary placement was removed and excluded from completed counts."
+    },
+    {
+      "domain": "leeslawncare.com",
+      "status": "passed_live_official_site",
+      "finalUrl": "https://www.leeslawncare.com/",
       "identityMatched": true,
-      "supports": ["direct provider", "residential landscaping", "homeowners", "Crestview"]
+      "supports": ["direct provider", "residential yard and garden landscaping", "Crestview"]
     },
     {
       "domain": "goforthlawncare.com",
-      "status": "passed_research_pending_production_browser",
+      "status": "passed_live_official_site",
       "finalUrl": "https://www.goforthlawncare.com/",
       "identityMatched": true,
       "supports": ["direct provider", "residential landscaping", "homeowners and single-family homes", "Crestview"]
