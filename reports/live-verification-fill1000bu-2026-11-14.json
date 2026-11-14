@@ -1,0 +1,57 @@
+{
+  "run": "fill1000bu",
+  "verifiedAt": "2026-11-14T22:59:43Z",
+  "dataCommit": "7e9f9e342182e786f248cfddac9225b714314676",
+  "deploymentId": "dpl_4zS7QDhc7M1fpigZgroo4FnEuPrW",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "checks": [
+    {
+      "page": "https://whoknowsapro.com/destin-fl/irrigation-sprinkler-repair",
+      "business": "Final Approach Irrigation",
+      "pageStatus": 200,
+      "listingVisible": true,
+      "officialWebsite": "https://www.finalapproachirrigation.com/",
+      "officialWebsiteStatus": 200,
+      "officialWebsiteIdentityConfirmed": true
+    },
+    {
+      "page": "https://whoknowsapro.com/fort-walton-beach-fl/irrigation-sprinkler-repair",
+      "business": "Final Approach Irrigation",
+      "pageStatus": 200,
+      "listingVisible": true,
+      "officialWebsite": "https://www.finalapproachirrigation.com/",
+      "officialWebsiteStatus": 200,
+      "officialWebsiteIdentityConfirmed": true
+    },
+    {
+      "page": "https://whoknowsapro.com/crestview-fl/hurricane-shutters-impact-windows",
+      "business": "Folkers Window Company",
+      "pageStatus": 200,
+      "listingVisible": true,
+      "officialWebsite": "https://folkers.com/",
+      "officialWebsiteStatus": 200,
+      "officialWebsiteIdentityConfirmed": true
+    },
+    {
+      "page": "https://whoknowsapro.com/fort-walton-beach-fl/pool-installation",
+      "business": "Neway Pools",
+      "pageStatus": 200,
+      "listingVisible": true,
+      "officialWebsite": "https://newaypools.com/",
+      "officialWebsiteStatus": 200,
+      "officialWebsiteIdentityConfirmed": true
+    }
+  ],
+  "coverage": {
+    "totalPages": 1120,
+    "pagesAt20": 216,
+    "pagesBelow20": 904,
+    "emptyPages": 0,
+    "displayedDeficit": 9608
+  },
+  "distinctNewBusinessesPublishedLiveVerified": 1,
+  "newBusinessPlacementsPublishedLiveVerified": 2,
+  "existingBusinessPlacementsPublishedLiveVerified": 2,
+  "awaitingDeploymentOrLiveVerification": 0
+}

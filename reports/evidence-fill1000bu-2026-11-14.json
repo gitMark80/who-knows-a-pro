@@ -3,8 +3,16 @@
   "baselineCommit": "638b5fcced1bbadf93870460b97547865db32636",
   "baselinePlacements": 14692,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
-  "publication": null,
+  "status": "published_deployed_live_verified",
+  "publication": {
+    "dataCommit": "7e9f9e342182e786f248cfddac9225b714314676",
+    "deploymentId": "dpl_4zS7QDhc7M1fpigZgroo4FnEuPrW",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-14T22:59:43Z",
+    "distinctNewBusinesses": 1,
+    "newBusinessPlacements": 2,
+    "existingBusinessPlacements": 2
+  },
   "records": [
     {
       "name": "Final Approach Irrigation",
