@@ -1,0 +1,10 @@
+{
+  "run": "fill1000bs",
+  "checkedAt": "2026-11-14T10:58:13Z",
+  "checks": [
+    {"domain":"searshomeservices.com","status":"passed_prepublication_browser","finalUrl":"https://www.searshomeservices.com/repair","identityMatched":true,"supports":["direct provider","home appliance repair","exact Crestview page","exact Destin page","exact Fort Walton Beach page","exact Panama City page"]},
+    {"domain":"masseyservices.com","status":"passed_prepublication_browser","finalUrl":"https://www.masseyservices.com/","identityMatched":true,"supports":["direct provider","residential pest control","Panama City"]},
+    {"domain":"terminix.com","status":"passed_prepublication_browser","finalUrl":"https://www.terminix.com/exterminators/fl/niceville-2624/","identityMatched":true,"supports":["direct provider","home pest control","explicit Crestview service area"]},
+    {"domain":"orkin.com","status":"passed_prepublication_browser","finalUrl":"https://www.orkin.com/locations/florida-fl/pensacola-pest-control","identityMatched":true,"supports":["direct provider","home pest control","explicit Crestview service area"]}
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sears Home Services",
+    "website": "https://www.searshomeservices.com/repair",
+    "regions": ["crestview-fl", "destin-fl", "fort-walton-beach-fl", "panama-city-fl"],
+    "trades": ["appliance-repair"],
+    "sourceUrl": "https://www.searshomeservices.com/locations/fl/crestview/sears-appliance-repair",
+    "sourceVerifiedAt": "2026-11-14T10:53:15Z",
+    "evidenceNote": "Sears' official site identifies its own manufacturer-trained technicians, explicitly offers home-appliance repair, and provides city-specific service pages for Crestview, Destin, Fort Walton Beach and Panama City."
+  },
+  {
+    "name": "Massey Services",
+    "website": "https://www.masseyservices.com/",
+    "regions": ["panama-city-fl"],
+    "trades": ["pest-control"],
+    "sourceUrl": "https://www.masseyservices.com/panama-city/",
+    "sourceVerifiedAt": "2026-11-14T10:53:15Z",
+    "evidenceNote": "Massey's official Panama City page offers direct pest-control inspections and treatment to homeowners, expressly names Panama City, and lists Panama City among the serviced communities."
+  },
+  {
+    "name": "Terminix",
+    "website": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+    "regions": ["crestview-fl"],
+    "trades": ["pest-control"],
+    "sourceUrl": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+    "sourceVerifiedAt": "2026-11-14T10:53:15Z",
+    "evidenceNote": "Terminix's official Niceville-area branch page offers its direct year-round home pest-control program and explicitly lists Crestview in the branch service area."
+  },
+  {
+    "name": "Orkin",
+    "website": "https://www.orkin.com/locations/florida-fl/pensacola-pest-control",
+    "regions": ["crestview-fl"],
+    "trades": ["pest-control"],
+    "sourceUrl": "https://www.orkin.com/locations/florida-fl/pensacola-pest-control",
+    "sourceVerifiedAt": "2026-11-14T10:53:15Z",
+    "evidenceNote": "Orkin's official Pensacola branch page offers direct residential pest-control service and explicitly names Crestview among the communities served by that branch."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "run": "fill1000bs",
+  "researchedCandidates": 27,
+  "preparedCandidates": 4,
+  "preparedDistinctNewBusinesses": 1,
+  "preparedNewBusinessPlacements": 4,
+  "preparedExistingBusinessPlacements": 3,
+  "pendingCandidates": 2,
+  "rejectedOrResolvedCandidates": 21,
+  "holds": [
+    {"name":"Southern Home Appliance Services, LLC","status":"pending_working_official_website","reason":"Company and local-service evidence was found, but no working official business website was verified; directory and review profiles are insufficient."},
+    {"name":"Precision Auto Body of Crestview","status":"pending_working_official_website","reason":"State and third-party records corroborate the local operation, but the purported local-search page is not a qualifying official company website."},
+    {"name":"Greenview Services, LLC","website":"https://greenviewlawnservices.com/","status":"rejected_invalid_official_website","reason":"The preceding production browser verification redirected the domain to a registrar and hosting sales page."},
+    {"name":"Prospect Well Drilling","website":"https://www.wellservicesdestin.com/","status":"rejected_working_official_website","reason":"The preceding production browser failed on the official destination with net::ERR_HTTP2_PROTOCOL_ERROR."},
+    {"name":"appliancesrepairs.co Crestview","status":"rejected_leadgen_identity","reason":"Generic city-targeted pages did not establish an accountable local operation or qualifying official business identity."},
+    {"name":"The Appliance Advisor Crestview","status":"rejected_directory_or_referral","reason":"The city page did not establish a direct local provider responsible for completing residential repairs."},
+    {"name":"Adventure Marina service department","status":"rejected_duplicate_identity_risk","reason":"The current service page identifies Anchor Point Marine as the operating service company, which already exists at the fixed baseline."},
+    {"name":"Mullins Auto Body","website":"https://www.mullinsautobody850.com/","status":"rejected_unsupported_geography","reason":"The official site supports a Niceville operation but does not explicitly establish Crestview service; proximity is insufficient."},
+    {"name":"The Ship's Chandler","website":"https://theshipschandler.com/","status":"rejected_scope_priority","reason":"The official site supports a Destin boat-service operation, but this run prioritized clearer residential appliance and pest gaps and did not certify marine consumer scope."},
+    {"name":"Retail Fix It","status":"rejected_intermediary_and_commercial_scope","reason":"Commercial facility-maintenance and vendor-network content does not support residential locksmith or homeowner placements."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial facility-maintenance and vendor-network model lacks qualifying residential-service evidence; zero current public baseline placements render and no record was restored or counted."},
+    {"name":"WittCo Custom Pool and Spa","reason":"Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."}
+  ]
+}
