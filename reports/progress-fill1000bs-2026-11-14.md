@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000bs prepared checkpoint — 2026-11-14
+# Who Knows a Pro fill1000bs published checkpoint — 2026-11-14
 
 ## Run identity and baseline
 
@@ -14,19 +14,23 @@
 - New-business placements: 4.
 - Existing-business placements: 3 — Massey Services, Terminix and Orkin.
 - All seven placements target underfilled public pages in Crestview, Destin, Fort Walton Beach or Panama City.
-- Status: prepared, not yet published or live-verified.
-- Exact pending shortfall against the run target: 999 distinct new businesses.
+- Status: published, deployed and live-verified.
+- Published `main` data commit: `ca73949944dc3d32e1ffb9a542ad5cf985c689a6`.
+- Production deployment: `dpl_2uRYT8XNN2hVMrguU7mYasGZdY6r` (`READY`).
+- Published and live-verified: 1 distinct new business, 4 new-business placements and 3 existing-business placements.
+- Exact shortfall against the run target: 999 distinct new businesses.
+- Changes awaiting deployment or live verification: 0.
 
 ## Page-level change
 
 | City/category | Baseline displayed | Prepared displayed | Remaining displayed deficit |
 |---|---:|---:|---:|
-| Crestview / appliance repair | 9 | 10 | 10 |
-| Destin / appliance repair | 12 | 13 | 7 |
-| Fort Walton Beach / appliance repair | 11 | 12 | 8 |
-| Panama City / appliance repair | 13 | 14 | 6 |
-| Crestview / pest control | 18 | 20 | 0 |
-| Panama City / pest control | 15 | 16 | 4 |
+| Crestview / appliance repair | 9 | 10 live | 10 |
+| Destin / appliance repair | 12 | 13 live | 7 |
+| Fort Walton Beach / appliance repair | 11 | 12 live | 8 |
+| Panama City / appliance repair | 13 | 14 live | 6 |
+| Crestview / pest control | 18 | 20 live | 0 |
+| Panama City / pest control | 15 | 16 live | 4 |
 
 ## Displayed coverage after prepared changes
 
@@ -44,7 +48,8 @@
 - Terminix's official Niceville-area branch page establishes home pest control and explicitly lists Crestview.
 - Orkin's official Pensacola service-area page establishes local home pest control and explicitly lists Crestview. The earlier branch-number page no longer displayed Crestview, so the record was switched to the current service-area URL before publication.
 - Placement-scoped exceptions were added for excluded national-brand domains; the global exclusion list remains unchanged.
-- Fixed-baseline preservation, catalog slugs, duplicate identity handling, qualification-policy checks and displayed coverage assertions pass. ESLint and production build are pending.
+- Fixed-baseline preservation, catalog slugs, duplicate identity handling, qualification-policy checks, displayed coverage assertions, ESLint and the production build pass.
+- Production browser verification confirmed the six affected pages display the expected counts, all seven placements render, and each directory website link matches the intended working official destination.
 
 ## Research and holds
 
@@ -54,4 +59,4 @@
 - Retail Fix It remains unsupported for residential locksmith or homeowner work and was neither restored nor counted.
 - The historical WittCo Custom Pool and Spa Crestview placement remains flagged for unsupported geography. No historical record was deleted or hidden.
 
-Durable details are in the run evidence ledger, source checks, research holds, validation JSON and coverage CSV. Publication and live-verification identifiers will be added after deployment.
+Durable details are in the run evidence ledger, source checks, research holds, live-verification record, validation JSON and coverage CSV.

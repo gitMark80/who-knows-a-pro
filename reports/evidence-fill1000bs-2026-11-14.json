@@ -3,15 +3,15 @@
   "baselineCommit": "96d380083a91efcd77ca88d5034f36d10f991c8b",
   "baselinePlacements": 14682,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_deployed_live_verified",
   "publication": {
-    "dataCommit": null,
-    "deploymentId": null,
-    "deploymentState": "not_started",
-    "productionDomainVerifiedAt": null,
-    "distinctNewBusinesses": 0,
-    "newBusinessPlacements": 0,
-    "existingBusinessPlacements": 0
+    "dataCommit": "ca73949944dc3d32e1ffb9a542ad5cf985c689a6",
+    "deploymentId": "dpl_2uRYT8XNN2hVMrguU7mYasGZdY6r",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-14T11:02:46Z",
+    "distinctNewBusinesses": 1,
+    "newBusinessPlacements": 4,
+    "existingBusinessPlacements": 3
   },
   "records": [
     {

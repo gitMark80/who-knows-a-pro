@@ -1,0 +1,26 @@
+{
+  "run": "fill1000bs",
+  "verifiedAt": "2026-11-14T11:02:46Z",
+  "dataCommit": "ca73949944dc3d32e1ffb9a542ad5cf985c689a6",
+  "deploymentId": "dpl_2uRYT8XNN2hVMrguU7mYasGZdY6r",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "distinctNewBusinessesLiveVerified": 1,
+  "newBusinessPlacementsLiveVerified": 4,
+  "existingBusinessPlacementsLiveVerified": 3,
+  "pages": [
+    {"region":"crestview-fl","trade":"appliance-repair","displayedCount":10,"businesses":["Sears Home Services"]},
+    {"region":"destin-fl","trade":"appliance-repair","displayedCount":13,"businesses":["Sears Home Services"]},
+    {"region":"fort-walton-beach-fl","trade":"appliance-repair","displayedCount":12,"businesses":["Sears Home Services"]},
+    {"region":"panama-city-fl","trade":"appliance-repair","displayedCount":14,"businesses":["Sears Home Services"]},
+    {"region":"crestview-fl","trade":"pest-control","displayedCount":20,"businesses":["Terminix","Orkin"]},
+    {"region":"panama-city-fl","trade":"pest-control","displayedCount":16,"businesses":["Massey Services"]}
+  ],
+  "officialDestinations": [
+    {"name":"Sears Home Services","url":"https://www.searshomeservices.com/repair","status":"working_identity_and_residential_service_confirmed"},
+    {"name":"Massey Services","url":"https://www.masseyservices.com/","status":"working_identity_and_residential_service_confirmed"},
+    {"name":"Terminix","url":"https://www.terminix.com/exterminators/fl/niceville-2624/","status":"working_identity_residential_service_and_crestview_coverage_confirmed"},
+    {"name":"Orkin","url":"https://www.orkin.com/locations/florida-fl/pensacola-pest-control","status":"working_identity_residential_service_and_crestview_coverage_confirmed"}
+  ],
+  "awaitingDeploymentOrLiveVerification": 0
+}
