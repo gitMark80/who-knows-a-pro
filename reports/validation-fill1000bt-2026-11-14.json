@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-11-14T17:00:33.612Z",
+  "status": "prepared_not_published",
+  "baselineCommit": "d0c0b817cfe1d6c5a7c7e1bb069a7aa18643e0e4",
+  "baselinePreserved": 14689,
+  "distinctNewBusinessesPrepared": 1,
+  "newBusinessPlacementsPrepared": 1,
+  "existingBusinessPlacementsPrepared": 2,
+  "placementsPrepared": 3,
+  "targetDistinctNewBusinesses": 1000,
+  "shortfallPendingLiveVerification": 999,
+  "coverage": {
+    "totalPages": 1120,
+    "pagesAt20": 212,
+    "pagesBelow20": 908,
+    "emptyPages": 0,
+    "displayedDeficit": 9612
+  },
+  "additions": [
+    {
+      "id": "verified-v1-panama-city-fl-pest-control-callchorus-com-locations-panama-city-pest-control",
+      "name": "Chorus Pest",
+      "slug": "chorus-pest-panama-city-fl-pest-control",
+      "mainSlug": "chorus-pest",
+      "region": "panama-city-fl",
+      "trade": "pest-control",
+      "location": "Panama City, FL",
+      "summary": "",
+      "website": "https://callchorus.com/locations/panama-city-pest-control/",
+      "sourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "sourceVerifiedAt": "2026-11-14T16:59:23Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    },
+    {
+      "id": "verified-v1-panama-city-fl-pest-control-anchorpestcontrol-com",
+      "name": "Anchor Pest Control",
+      "slug": "anchor-pest-control-panama-city-fl-pest-control",
+      "mainSlug": "anchor-pest-control",
+      "region": "panama-city-fl",
+      "trade": "pest-control",
+      "location": "Panama City, FL",
+      "summary": "",
+      "website": "https://www.anchorpestcontrol.com/",
+      "sourceUrl": "https://www.anchorpestcontrol.com/pest-control/residential.php",
+      "sourceVerifiedAt": "2026-11-14T16:59:23Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    },
+    {
+      "id": "verified-v1-destin-fl-pest-control-terminix-com-exterminators-fl-niceville-2624",
+      "name": "Terminix",
+      "slug": "terminix-destin-fl-pest-control",
+      "mainSlug": "terminix-panama-city",
+      "region": "destin-fl",
+      "trade": "pest-control",
+      "location": "Destin, FL",
+      "summary": "",
+      "website": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "sourceVerifiedAt": "2026-11-14T16:59:23Z",
+      "source": "official_website",
+      "publicEmail": null,
+      "emailSourceUrl": null,
+      "emailVerifiedAt": null
+    }
+  ]
+}

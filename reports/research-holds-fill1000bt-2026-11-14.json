@@ -1,0 +1,45 @@
+{
+  "run": "fill1000bt",
+  "researchedCandidates": 18,
+  "preparedCandidates": 3,
+  "preparedDistinctNewBusinesses": 1,
+  "preparedNewBusinessPlacements": 1,
+  "preparedExistingBusinessPlacements": 2,
+  "pendingCandidates": 2,
+  "rejectedOrResolvedCandidates": 13,
+  "holds": [
+    {
+      "name": "ZAPS Pest Control",
+      "website": "https://zapspest.com/",
+      "status": "pending_specific_official_geography",
+      "reason": "Official site proves direct residential pest service but only says Florida and Texas; third-party city records were not substituted for the required official city coverage."
+    },
+    {
+      "name": "The Appliance Center",
+      "website": "https://www.theappliancecenterpc.com/",
+      "status": "pending_category_scope",
+      "reason": "Official site confirms a Panama City appliance retailer and after-sale support, but does not yet establish a sufficiently specific hireable household appliance-repair workflow."
+    },
+    {
+      "name": "appliancesrepairs.co city pages",
+      "status": "rejected_leadgen_identity",
+      "reason": "Generic city-targeted pages did not establish an accountable local operating business responsible for completing repairs."
+    },
+    {
+      "name": "Retail Fix It",
+      "status": "rejected_intermediary_and_commercial_scope",
+      "reason": "Commercial facility-maintenance and vendor-network content does not support residential locksmith or homeowner placements."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "domain": "retailfixit.com",
+      "reason": "Commercial facility-maintenance and vendor-network model lacks qualifying residential-service evidence; it remains excluded from verified completion counts and no public record was deleted."
+    },
+    {
+      "name": "WittCo Custom Pool and Spa",
+      "reason": "Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."
+    }
+  ]
+}

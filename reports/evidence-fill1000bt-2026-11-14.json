@@ -1,0 +1,92 @@
+{
+  "run": "fill1000bt",
+  "baselineCommit": "d0c0b817cfe1d6c5a7c7e1bb069a7aa18643e0e4",
+  "baselinePlacements": 14689,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": "not_started",
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 0,
+    "newBusinessPlacements": 0,
+    "existingBusinessPlacements": 0
+  },
+  "records": [
+    {
+      "name": "Chorus Pest",
+      "website": "https://callchorus.com/locations/panama-city-pest-control/",
+      "regions": ["panama-city-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official Panama City page says Chorus field professionals inspect the outside and inside of each home, tailor treatments, apply perimeter and interior controls, and return for recurring visits.",
+      "customerScope": "residential",
+      "customerEvidence": "The official city page expressly offers flexible pest-protection packages for Panama City homeowners and repeatedly describes inspections, treatments and protection for the customer's home and family.",
+      "customerSourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "geographicEvidence": "The official service page is specifically titled Pest Control Experts in Panama City, Florida, offers service in Panama City and surrounding areas, and publishes the Florida Panhandle office telephone number.",
+      "geographicSourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "identityEvidence": "The working callchorus.com official domain identifies Chorus Pest, its field professionals, direct quote workflow, customer billing resources, Florida Panhandle operation and residential pest service.",
+      "officialWebsiteFinalUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "evidenceNote": "Chorus Pest's official Panama City page jointly proves a direct residential pest-control provider, homeowner treatment packages, and exact Panama City service; no regional inference is used.",
+      "sourceUrl": "https://callchorus.com/locations/panama-city-pest-control/",
+      "sourceVerifiedAt": "2026-11-14T16:59:23Z",
+      "supportingUrls": [
+        "https://callchorus.com/locations/panama-city-pest-control/",
+        "https://callchorus.com/pest-control/",
+        "https://callchorus.com/contact/"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "The normalized Chorus Pest identity and callchorus.com domain were absent from all 14,689 fixed-baseline placements."
+    },
+    {
+      "name": "Anchor Pest Control",
+      "website": "https://www.anchorpestcontrol.com/",
+      "regions": ["panama-city-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Anchor's official residential page describes its own trained technicians conducting inspections, monitoring entryways, applying seasonal inside-and-out treatments, and returning between visits when needed.",
+      "customerScope": "residential",
+      "customerEvidence": "The official page is expressly for residential pest control and says Anchor protects customers' homes and families with quarterly inspections and treatments designed around household pests.",
+      "customerSourceUrl": "https://www.anchorpestcontrol.com/pest-control/residential.php",
+      "geographicEvidence": "The official residential service page's published title explicitly names Panama City, Florida alongside Crestview and Freeport; the placement uses the named Panama City service page and not proximity.",
+      "geographicSourceUrl": "https://www.anchorpestcontrol.com/pest-control/residential.php",
+      "identityEvidence": "The working anchorpestcontrol.com official domain identifies family-owned Anchor Pest Control, its direct technicians, free-estimate workflow, residential pest program and Florida pest-control license.",
+      "officialWebsiteFinalUrl": "https://www.anchorpestcontrol.com/",
+      "evidenceNote": "Anchor Pest Control's official residential page jointly establishes direct household pest treatment and explicitly named Panama City service; the business already existed at the fixed baseline.",
+      "sourceUrl": "https://www.anchorpestcontrol.com/pest-control/residential.php",
+      "sourceVerifiedAt": "2026-11-14T16:59:23Z",
+      "supportingUrls": [
+        "https://www.anchorpestcontrol.com/pest-control/residential.php",
+        "https://www.anchorpestcontrol.com/",
+        "https://www.anchorpestcontrol.com/contact.php"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "Anchor Pest Control and anchorpestcontrol.com already had fixed-baseline placements, but no Panama City pest-control placement; this is an existing-business extension."
+    },
+    {
+      "name": "Terminix",
+      "website": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "regions": ["destin-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Terminix's official branch page presents its own local service professionals as the team performing home inspections, scheduled pest treatments, termite service and its year-round PestFree365 program.",
+      "customerScope": "residential",
+      "customerEvidence": "The official branch page describes protecting homes and families from household pests, treating both the inside and outside of the home, and providing recurring home pest-control visits.",
+      "customerSourceUrl": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "geographicEvidence": "The official Fort Walton Beach/Niceville branch page explicitly lists Destin among the areas it proudly serves; the Destin placement relies on that exact branch coverage and not proximity.",
+      "geographicSourceUrl": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "identityEvidence": "The working terminix.com official domain identifies Terminix, the Fort Walton Beach branch address and telephone, local service professionals, direct scheduling and residential guarantee.",
+      "officialWebsiteFinalUrl": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "evidenceNote": "Terminix's official branch page jointly proves direct residential pest control and explicit Destin coverage; canonical aliasing preserves the existing fixed-baseline Terminix identity.",
+      "sourceUrl": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "sourceVerifiedAt": "2026-11-14T16:59:23Z",
+      "supportingUrls": [
+        "https://www.terminix.com/exterminators/fl/niceville-2624/",
+        "https://www.terminix.com/pest-control/"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "The terminix.com domain and canonical Terminix identity existed at the fixed baseline; the new Destin placement aliases to that profile and is not counted as a new business."
+    }
+  ]
+}
