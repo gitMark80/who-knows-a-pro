@@ -1,0 +1,43 @@
+{
+  "run": "fill1000bt",
+  "verifiedAt": "2026-11-14T17:05:36Z",
+  "dataCommit": "94a59d71ad2afffcf63eecf58454e06381ae71eb",
+  "deploymentId": "dpl_2zzVjJjtKiJQbUpCu1PVbfiZ257v",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "distinctNewBusinessesLiveVerified": 1,
+  "newBusinessPlacementsLiveVerified": 1,
+  "existingBusinessPlacementsLiveVerified": 2,
+  "pages": [
+    {
+      "region": "destin-fl",
+      "trade": "pest-control",
+      "displayedCount": 20,
+      "businesses": ["Terminix"]
+    },
+    {
+      "region": "panama-city-fl",
+      "trade": "pest-control",
+      "displayedCount": 18,
+      "businesses": ["Anchor Pest Control", "Chorus Pest"]
+    }
+  ],
+  "officialDestinations": [
+    {
+      "name": "Chorus Pest",
+      "url": "https://callchorus.com/locations/panama-city-pest-control/",
+      "status": "working_identity_residential_service_and_panama_city_confirmed"
+    },
+    {
+      "name": "Anchor Pest Control",
+      "url": "https://www.anchorpestcontrol.com/",
+      "status": "working_identity_and_residential_provider_confirmed"
+    },
+    {
+      "name": "Terminix",
+      "url": "https://www.terminix.com/exterminators/fl/niceville-2624/",
+      "status": "working_identity_and_residential_provider_confirmed"
+    }
+  ],
+  "awaitingDeploymentOrLiveVerification": 0
+}
