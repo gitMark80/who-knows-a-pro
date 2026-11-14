@@ -1,0 +1,36 @@
+{
+  "run": "fill1000br",
+  "verifiedAt": "2026-11-14T05:01:03Z",
+  "dataCommit": "e50029620ed9a441de0b8d5873de704f6a01431c",
+  "deploymentId": "dpl_DALMvfgH4R39uhkAqQabnmNd1NUv",
+  "deploymentState": "READY",
+  "productionPage": "https://whoknowsapro.com/crestview-fl/landscaping",
+  "displayedBusinessCount": 20,
+  "checks": [
+    {
+      "name": "Lee's Lawn Care Inc.",
+      "listingVisible": true,
+      "directoryWebsiteUrl": "https://www.leeslawncare.com/",
+      "officialWebsiteFinalUrl": "https://www.leeslawncare.com/",
+      "identityMatched": true,
+      "residentialCategoryEvidenceVisible": true,
+      "crestviewEvidenceVisible": true
+    },
+    {
+      "name": "Goforth Lawn Care",
+      "listingVisible": true,
+      "directoryWebsiteUrl": "https://www.goforthlawncare.com/",
+      "officialWebsiteFinalUrl": "https://www.goforthlawncare.com/",
+      "identityMatched": true,
+      "residentialCategoryEvidenceVisible": true,
+      "crestviewEvidenceVisible": true
+    }
+  ],
+  "removedDuringVerification": [
+    {
+      "name": "Greenview Services, LLC",
+      "website": "https://greenviewlawnservices.com/",
+      "reason": "Redirected to a registrar and hosting sales page rather than the business; removed before final counting."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Who Knows a Pro fill1000br prepared checkpoint — 2026-11-14
+# Who Knows a Pro fill1000br published checkpoint — 2026-11-14
 
 ## Run identity and baseline
 
@@ -14,14 +14,18 @@
 - New-business placements: 2.
 - Existing-business placements: 0.
 - All placements target the underfilled Crestview landscaping page.
-- Status: prepared, not yet published or live-verified.
-- Exact shortfall against the run target if both pass production verification: 998 distinct new businesses.
+- Status: published, deployed and live-verified.
+- Published `main` data commit: `e50029620ed9a441de0b8d5873de704f6a01431c`.
+- Production deployment: `dpl_DALMvfgH4R39uhkAqQabnmNd1NUv` (`READY`).
+- Published and live-verified: 2 distinct new businesses, 2 new-business placements and 0 existing-business placements.
+- Exact shortfall against the run target: 998 distinct new businesses.
+- Changes awaiting deployment or live verification: 0.
 
 ## Page-level change
 
 | City/category | Baseline | Prepared | Remaining displayed deficit |
 |---|---:|---:|---:|
-| Crestview / landscaping | 18 | 20 | 0 |
+| Crestview / landscaping | 18 | 20 live | 0 |
 
 ## Displayed coverage after prepared changes
 
@@ -34,9 +38,10 @@
 
 ## Qualification and validation
 
-- Both prepared providers have official-site evidence for direct provider identity, residential yard or homeowner scope, landscaping category match and explicit Crestview service.
+- Both published providers have official-site evidence for direct provider identity, residential yard or homeowner scope, landscaping category match and explicit Crestview service.
 - Both normalized identities and domains are absent from the fixed baseline.
-- Production publication, deployment and live browser verification remain pending.
+- JSON parsing, active city slugs, visible category slugs, duplicate placement checks, fixed-baseline preservation, underfilled-page checks, qualification-policy validation, ESLint and the production build all pass.
+- Production browser verification confirmed the Crestview landscaping page displays 20 businesses, both retained listings render, and both official destinations show the intended business with the supporting residential landscaping and Crestview content.
 
 ## Research and holds
 
