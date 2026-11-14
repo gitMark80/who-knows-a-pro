@@ -1,0 +1,51 @@
+{
+  "run": "fill1000bu",
+  "researchedCandidates": 13,
+  "preparedCandidates": 3,
+  "preparedDistinctNewBusinesses": 1,
+  "preparedNewBusinessPlacements": 2,
+  "preparedExistingBusinessPlacements": 2,
+  "pendingCandidates": 4,
+  "rejectedOrResolvedCandidates": 6,
+  "holds": [
+    {
+      "name": "Okaloosa Concrete Contractors",
+      "website": "https://okaloosaconcretecontractors.com/",
+      "status": "pending_operating_identity",
+      "reason": "The site claims exact residential concrete coverage, but no sufficiently clear accountable operating identity was corroborated; it was withheld rather than risk publishing a lead-generation page."
+    },
+    {
+      "name": "Watermark Pools",
+      "website": "https://www.watermarkpools.com/",
+      "status": "pending_specific_official_geography",
+      "reason": "Official service areas name Destin and nearby communities but do not explicitly name Fort Walton Beach; proximity was not used."
+    },
+    {
+      "name": "P&D Enterprises",
+      "website": "https://www.panddenterprises.com/",
+      "status": "pending_specific_official_geography",
+      "reason": "Official site supports residential irrigation in Fort Walton Beach and Shalimar but does not explicitly establish Destin coverage."
+    },
+    {
+      "name": "House2House",
+      "status": "pending_specific_official_geography",
+      "reason": "Official pages support irrigation in Crestview, Fort Walton Beach and Niceville, but the available Destin references did not jointly establish city-specific irrigation service."
+    },
+    {
+      "name": "Retail Fix It",
+      "status": "rejected_intermediary_and_commercial_scope",
+      "reason": "Commercial facility-maintenance and vendor-network content does not support residential locksmith or homeowner placements."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "domain": "retailfixit.com",
+      "reason": "Commercial facility-maintenance and vendor-network model lacks qualifying residential-service evidence; it remains excluded from verified completion counts and no public record was deleted."
+    },
+    {
+      "name": "WittCo Custom Pool and Spa",
+      "reason": "Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."
+    }
+  ]
+}

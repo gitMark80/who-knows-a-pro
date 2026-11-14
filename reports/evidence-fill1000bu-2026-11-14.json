@@ -1,0 +1,86 @@
+{
+  "run": "fill1000bu",
+  "baselineCommit": "638b5fcced1bbadf93870460b97547865db32636",
+  "baselinePlacements": 14692,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "publication": null,
+  "records": [
+    {
+      "name": "Final Approach Irrigation",
+      "website": "https://www.finalapproachirrigation.com/",
+      "regions": ["destin-fl", "fort-walton-beach-fl"],
+      "trades": ["irrigation-sprinkler-repair"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site invites direct quote requests and says Final Approach designs and installs irrigation systems and performs sprinkler-system repair and maintenance with its own irrigation expertise.",
+      "customerScope": "residential",
+      "customerEvidence": "The official irrigation article expressly recommends Final Approach installations and smart-irrigation upgrades for homeowners in Niceville, Destin and Fort Walton Beach.",
+      "customerSourceUrl": "https://www.finalapproachirrigation.com/post/smart-irrigation-vs-traditional-sprinklers-what-s-best-for-florida-lawns",
+      "geographicEvidence": "The official home page headline explicitly says Final Approach provides irrigation in Niceville, Destin and Fort Walton Beach, and the homeowner article repeats both target cities.",
+      "geographicSourceUrl": "https://www.finalapproachirrigation.com/",
+      "identityEvidence": "The working finalapproachirrigation.com official domain identifies Final Approach Irrigation, founder Hunter Brock, direct quote workflow, telephone, email and detailed irrigation services.",
+      "officialWebsiteFinalUrl": "https://www.finalapproachirrigation.com/",
+      "evidenceNote": "The same official business site jointly establishes Final Approach as the direct irrigation installer and repair provider, residential homeowner scope, and exact Destin and Fort Walton Beach coverage.",
+      "sourceUrl": "https://www.finalapproachirrigation.com/post/smart-irrigation-vs-traditional-sprinklers-what-s-best-for-florida-lawns",
+      "sourceVerifiedAt": "2026-11-14T22:53:49Z",
+      "supportingUrls": [
+        "https://www.finalapproachirrigation.com/",
+        "https://www.finalapproachirrigation.com/services",
+        "https://www.finalapproachirrigation.com/post/smart-irrigation-vs-traditional-sprinklers-what-s-best-for-florida-lawns",
+        "https://www.finalapproachirrigation.com/about"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "The normalized Final Approach Irrigation identity and finalapproachirrigation.com domain were absent from all 14,692 fixed-baseline placements; its two placements count as one new business."
+    },
+    {
+      "name": "Folkers Window Company",
+      "website": "https://folkers.com/",
+      "regions": ["crestview-fl"],
+      "trades": ["hurricane-shutters-impact-windows"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Folkers says its trained in-house crews custom-measure and professionally install impact windows and storm shutters, with no subcontractors and a direct estimate workflow.",
+      "customerScope": "residential",
+      "customerEvidence": "The official areas-served page says Folkers has helped homeowners protect their homes and that every listed community can access its hurricane-impact windows and storm-shutter products.",
+      "customerSourceUrl": "https://folkers.com/areas-we-serve/",
+      "geographicEvidence": "The official homeowner service-area page explicitly lists Crestview, says every community on the list receives the full product lineup, and identifies Crestview inside its Florida coverage.",
+      "geographicSourceUrl": "https://folkers.com/areas-we-serve/",
+      "identityEvidence": "The working folkers.com official domain identifies Folkers Window Company, its licenses, veteran ownership, in-house installation team, free-estimate workflow and direct storm-protection services.",
+      "officialWebsiteFinalUrl": "https://folkers.com/",
+      "evidenceNote": "Folkers' official homeowner coverage page jointly proves direct professional installation, exact Crestview service and availability there of its hurricane impact windows and storm shutters.",
+      "sourceUrl": "https://folkers.com/areas-we-serve/",
+      "sourceVerifiedAt": "2026-11-14T22:53:49Z",
+      "supportingUrls": [
+        "https://folkers.com/areas-we-serve/",
+        "https://folkers.com/windows/hurricane-storm-shutters/",
+        "https://folkers.com/windows/impact-windows/"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "Folkers and folkers.com already had fixed-baseline placements, but no Crestview hurricane-shutters/impact-windows placement; this is an existing-business extension."
+    },
+    {
+      "name": "Neway Pools",
+      "website": "https://newaypools.com/",
+      "regions": ["fort-walton-beach-fl"],
+      "trades": ["pool-installation"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "Neway's official city page says the company oversees custom pool construction from design development through final installation and provides direct consultation and warranty coverage.",
+      "customerScope": "residential",
+      "customerEvidence": "The official Fort Walton Beach page repeatedly addresses homeowners, home backyards and residential custom inground-pool design and construction.",
+      "customerSourceUrl": "https://newaypools.com/fort-walton-beach-fl",
+      "geographicEvidence": "The official page is specifically for Fort Walton Beach, says Neway serves homeowners throughout that city and Okaloosa County, and describes management of local permitting and inspections.",
+      "geographicSourceUrl": "https://newaypools.com/fort-walton-beach-fl",
+      "identityEvidence": "The working newaypools.com official domain identifies Neway Pools, its Florida operation, direct quote workflow and Florida Certified Pool/Spa Contractor license CPC1460590.",
+      "officialWebsiteFinalUrl": "https://newaypools.com/",
+      "evidenceNote": "Neway's official Fort Walton Beach page jointly establishes a licensed direct pool builder, custom residential inground-pool construction, and explicit service to Fort Walton Beach homeowners.",
+      "sourceUrl": "https://newaypools.com/fort-walton-beach-fl",
+      "sourceVerifiedAt": "2026-11-14T22:53:49Z",
+      "supportingUrls": [
+        "https://newaypools.com/fort-walton-beach-fl",
+        "https://newaypools.com/",
+        "https://newaypools.com/contact-us/"
+      ],
+      "baselineIdentity": "existing",
+      "duplicateCheck": "Neway Pools and newaypools.com already existed at the fixed baseline, but no Fort Walton Beach pool-installation placement existed; this is an existing-business extension."
+    }
+  ]
+}
