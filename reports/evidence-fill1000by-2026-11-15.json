@@ -1,0 +1,72 @@
+{
+  "run": "fill1000by",
+  "baselineCommit": "ccb83a69f6a047b07c5e3f85049f5f85f340d545",
+  "baselinePlacements": 14662,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared",
+  "publication": {
+    "distinctNewBusinesses": 1,
+    "newBusinessPlacements": 1,
+    "existingBusinessPlacements": 0,
+    "suppressedNationalPlacements": 5
+  },
+  "records": [
+    {
+      "name": "SouthWind Pest & Termite",
+      "website": "https://southwindpestandtermite.com/",
+      "regions": ["fort-walton-beach-fl"],
+      "trades": ["pest-control"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official services page says SouthWind's licensed and insured technicians directly provide indoor and outdoor pest treatments, scheduled prevention and return service under its treatment guarantee.",
+      "customerScope": "residential",
+      "customerEvidence": "The official services page has a dedicated Residential Pest Control section and repeatedly describes protecting homes and gardens from household pests.",
+      "customerSourceUrl": "https://southwindpestandtermite.com/services/",
+      "geographicEvidence": "The official site publishes its operating office at 16 Walter Martin Road NE, Fort Walton Beach, Florida 32548, with the local service telephone number.",
+      "geographicSourceUrl": "https://southwindpestandtermite.com/contact-us/",
+      "identityEvidence": "The working southwindpestandtermite.com domain identifies SouthWind Pest & Termite, its hometown team, Fort Walton Beach office and direct service contacts.",
+      "officialWebsiteFinalUrl": "https://southwindpestandtermite.com/services/",
+      "localRegionalEvidence": "SouthWind describes itself as a hometown provider serving Florida communities and operates through the Fort Walton Beach company office; no national franchise or national consumer brand relationship was identified.",
+      "evidenceNote": "SouthWind's official site jointly establishes a direct residential pest-control provider and an actual Fort Walton Beach operation.",
+      "sourceUrl": "https://southwindpestandtermite.com/services/",
+      "sourceVerifiedAt": "2026-11-15T23:00:01Z",
+      "supportingUrls": [
+        "https://southwindpestandtermite.com/",
+        "https://southwindpestandtermite.com/about-us/",
+        "https://southwindpestandtermite.com/services/",
+        "https://southwindpestandtermite.com/contact-us/"
+      ],
+      "baselineIdentity": "new",
+      "duplicateCheck": "SouthWind Pest & Termite and southwindpestandtermite.com were absent from all 14,662 fixed-baseline placements."
+    }
+  ],
+  "nationalBrandSuppressions": [
+    {
+      "domain": "windowdepotemeraldcoast.com",
+      "brand": "Window Depot USA",
+      "placements": 1,
+      "reason": "The official national site describes a nationwide common-brand licensee network and national buying program. Local ownership does not satisfy the local/regional-brand-only rule.",
+      "supportingUrls": ["https://windowdepotusa.com/service/", "https://windowdepotpartnership.com/plan/"]
+    },
+    {
+      "domain": "maidright.com",
+      "brand": "Maid Right",
+      "placements": 1,
+      "reason": "Maid Right's official franchising page describes a national franchise system under Premium Service Brands.",
+      "supportingUrls": ["https://www.maidright.com/franchising/"]
+    },
+    {
+      "domain": "maids.com",
+      "brand": "The Maids",
+      "placements": 1,
+      "reason": "The Maids' official terms identify its retail network of franchised and licensed businesses and its corporate office.",
+      "supportingUrls": ["https://www.maids.com/terms-of-use/", "https://www.maids.com/our-company/contact-us/"]
+    },
+    {
+      "domain": "restoration1ofgulfcoast.com",
+      "brand": "Restoration 1",
+      "placements": 2,
+      "reason": "Restoration 1's official franchise site identifies a nationwide franchise network with 298 territories across 41 states.",
+      "supportingUrls": ["https://www.restoration1franchise.com/", "https://www.restoration1.com/about-us"]
+    }
+  ]
+}

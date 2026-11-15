@@ -322,6 +322,11 @@ export const excludedWebsiteDomains = [
   'windowworldriverregion.com',
   'windowworldsouthernms.com',
   'windowworldtampa.com',
+  // Nationally licensed/franchised brands using local-domain aliases.
+  'windowdepotemeraldcoast.com',
+  'maidright.com',
+  'maids.com',
+  'restoration1ofgulfcoast.com',
 ] as const;
 
 function hostOf(website: string) {

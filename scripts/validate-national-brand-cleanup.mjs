@@ -19,7 +19,7 @@ const leaked = directorySeed.filter((business) => isExcludedWebsite(business.web
 check('generated directory contains no excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
 check('no local-branch exceptions bypass national exclusions', !directorySeed.some(isAuditedExcludedDomainPlacement), 'zero placement exceptions');
 
-for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com']) {
+for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com', 'windowdepotemeraldcoast.com', 'maidright.com', 'maids.com', 'restoration1ofgulfcoast.com']) {
   check(`required national exclusion: ${domain}`, isExcludedWebsite(`https://www.${domain}/example`), domain);
 }
 

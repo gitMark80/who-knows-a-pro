@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-11-15T23:02:09.681Z",
+  "baselineCommit": "ccb83a69f6a047b07c5e3f85049f5f85f340d545",
+  "baselinePlacements": 14662,
+  "generatedPlacements": 14658,
+  "generatedProfiles": 3895,
+  "distinctNewBusinesses": 1,
+  "newBusinessPlacements": 1,
+  "existingBusinessPlacements": 0,
+  "suppressedNationalPlacements": 5,
+  "targetShortfall": 999,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 234,
+    "pagesBelow20": 886,
+    "emptyPages": 0,
+    "displayedDeficit": 9641
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities and 28 visible categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "SouthWind has one exact placement",
+      "pass": true,
+      "detail": "[{\"region\":\"fort-walton-beach-fl\",\"trade\":\"pest-control\"}]"
+    },
+    {
+      "name": "SouthWind was absent from fixed baseline",
+      "pass": true,
+      "detail": "new data exists only in fill1000by source file"
+    },
+    {
+      "name": "excluded brands do not leak",
+      "pass": true,
+      "detail": "zero local-domain national-brand placements"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    }
+  ],
+  "status": "pass"
+}

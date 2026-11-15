@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-11-15T23:00:01Z",
+  "method": "Official-site content review plus redirect-following HTTP retrieval",
+  "checks": [
+    { "url": "https://southwindpestandtermite.com/services/", "status": 200, "finalUrl": "https://southwindpestandtermite.com/services/", "identity": "SouthWind Pest & Termite", "result": "pass" },
+    { "url": "https://windowdepotemeraldcoast.com/", "status": 200, "finalUrl": "https://windowdepotemeraldcoast.com/", "identity": "Window Depot USA of the Emerald Coast", "result": "pass_for_suppression_review" },
+    { "url": "https://www.restoration1ofgulfcoast.com/", "status": 200, "finalUrl": "https://www.restoration1ofgulfcoast.com/", "identity": "Restoration 1 of the Gulf Coast", "result": "pass_for_suppression_review" },
+    { "url": "https://www.maidright.com/sarasota/", "status": 200, "finalUrl": "https://www.maidright.com/sarasota/", "identity": "Maid Right of Sarasota", "result": "pass_for_suppression_review" },
+    { "url": "https://www.maids.com/84/", "status": 200, "finalUrl": "https://www.maids.com/84/", "identity": "The Maids of Montgomery", "result": "pass_for_suppression_review" }
+  ]
+}

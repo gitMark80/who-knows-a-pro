@@ -1,0 +1,40 @@
+{
+  "run": "fill1000by",
+  "researchedIdentities": 17,
+  "publishedNew": 1,
+  "pending": 2,
+  "alreadyListedOrResolved": 14,
+  "holds": [
+    {
+      "name": "Service Irrigation Pros",
+      "website": "https://serviceirrigationpros.com/",
+      "target": "panama-city-fl|irrigation-sprinkler-repair",
+      "status": "pending",
+      "reason": "The official site establishes identity, Panama City operation and irrigation repair, but does not explicitly establish residential or homeowner work. Third-party residential claims were not used as placement evidence."
+    },
+    {
+      "name": "Fort Walton Beach Insulation",
+      "website": "https://www.fortwaltonbeachinsulation.com/",
+      "target": "crestview-fl|insulation",
+      "status": "pending",
+      "reason": "The site claims local residential insulation and exact Crestview coverage, but its 'vetted local pros' and nationwide referral language leave the accountable operating provider uncertain."
+    }
+  ],
+  "shortages": [
+    {
+      "target": "pace-fl|hurricane-shutters-impact-windows",
+      "displayedCountAfter": 19,
+      "reason": "Window Depot USA of the Emerald Coast is suppressed as a national licensed brand. No replacement local/regional provider was published without complete evidence."
+    },
+    {
+      "target": "biloxi-ms|water-damage-mold-remediation",
+      "displayedCountAfter": 6,
+      "reason": "Restoration 1's local-domain profile is suppressed as part of the national franchise network."
+    },
+    {
+      "target": "gulfport-ms|water-damage-mold-remediation",
+      "displayedCountAfter": 6,
+      "reason": "Restoration 1's local-domain profile is suppressed as part of the national franchise network."
+    }
+  ]
+}
