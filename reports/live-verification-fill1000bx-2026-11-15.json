@@ -1,0 +1,23 @@
+{
+  "run": "fill1000bx",
+  "verifiedAt": "2026-11-15T17:00:52Z",
+  "dataCommit": "fc022803b7d17863c7f762e9f5c07ab5be8e423f",
+  "deploymentId": "dpl_Hr3VhfhoFc5iMoFgHPo8wknBhoeB",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "status": "published_deployed_live_verified",
+  "distinctNewBusinessesLiveVerified": 5,
+  "newBusinessPlacementsLiveVerified": 6,
+  "existingBusinessPlacementsLiveVerified": 3,
+  "checks": [
+    {"page":"https://whoknowsapro.com/pace-fl/hurricane-shutters-impact-windows","business":"Window Depot USA of the Emerald Coast","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://windowdepotemeraldcoast.com/","websiteStatus":200,"finalUrl":"https://windowdepotemeraldcoast.com/"},
+    {"page":"https://whoknowsapro.com/orange-beach-al/hurricane-shutters-impact-windows","business":"Island Enclosures & Improvements","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://www.islandenclosures.com/","websiteStatus":200,"finalUrl":"https://www.islandenclosures.com/"},
+    {"page":"https://whoknowsapro.com/daphne-al/hurricane-shutters-impact-windows","business":"Island Enclosures & Improvements","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://www.islandenclosures.com/","websiteStatus":200,"finalUrl":"https://www.islandenclosures.com/"},
+    {"page":"https://whoknowsapro.com/orange-beach-al/painting","business":"American Coatings, LLC","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://americancoatingspropainting.com/","websiteStatus":200,"finalUrl":"https://americancoatingspropainting.com/"},
+    {"page":"https://whoknowsapro.com/fort-walton-beach-fl/concrete","business":"Brazilian Brickpavers FWB Inc.","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://brazilianbrickpaversfwbinc.com/","websiteStatus":200,"finalUrl":"https://brazilianbrickpaversfwbinc.com/"},
+    {"page":"https://whoknowsapro.com/grayton-beach-fl/screen-enclosures-pool-cages","business":"Martin Maintenance","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://martinmaintenancellc.com/","websiteStatus":200,"finalUrl":"https://martinmaintenancellc.com/"},
+    {"page":"https://whoknowsapro.com/grayton-beach-fl/hurricane-shutters-impact-windows","business":"Easy Shutter Services LLC","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://easyshutterservices.com/","websiteStatus":200,"finalUrl":"https://easyshutterservices.com/"},
+    {"page":"https://whoknowsapro.com/navarre-fl/insulation","business":"Emerald Coast Insulation","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://emeraldcoastinsulation.com/","websiteStatus":200,"finalUrl":"https://emeraldcoastinsulation.com/"},
+    {"page":"https://whoknowsapro.com/perdido-key-fl/fence-builders","business":"Mr. Fence of Florida","pageStatus":200,"listingVisible":true,"displayedCount":20,"officialWebsite":"https://gomrfencefl.com/","websiteStatus":200,"finalUrl":"https://gomrfencefl.com/"}
+  ]
+}
