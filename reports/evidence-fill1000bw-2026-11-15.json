@@ -3,8 +3,8 @@
   "baselineCommit": "329c1c63f31b44f18a2932751ecf67d5170d1922",
   "baselinePlacements": 14702,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
-  "publication": {"dataCommit":null,"deploymentId":null,"deploymentState":"not_started","distinctNewBusinesses":0,"newBusinessPlacements":0,"existingBusinessPlacements":0},
+  "status": "published_deployed_live_verified",
+  "publication": {"dataCommit":"ad28d4d41a94bd631397bec057c0e48ade3879ed","deploymentId":"dpl_HZZFhXazm5nogedM2kbnXqocqGrY","deploymentState":"READY","productionDomainVerifiedAt":"2026-11-15T11:01:14Z","distinctNewBusinesses":5,"newBusinessPlacements":8,"existingBusinessPlacements":0},
   "records": [
     {
       "name":"DCR Tampa","website":"https://dcrtampa.com/","regions":["tampa-fl"],"trades":["roofing","kitchen-bath-remodeling"],"providerRole":"direct-provider",

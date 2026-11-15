@@ -1,0 +1,15 @@
+{
+  "run":"fill1000bw","verifiedAt":"2026-11-15T11:01:14Z","dataCommit":"ad28d4d41a94bd631397bec057c0e48ade3879ed","deploymentId":"dpl_HZZFhXazm5nogedM2kbnXqocqGrY","deploymentState":"READY","productionDomain":"https://whoknowsapro.com",
+  "checks":[
+    {"page":"https://whoknowsapro.com/tampa-fl/roofing","business":"DCR Tampa","pageStatus":200,"listingVisible":true,"officialWebsite":"https://dcrtampa.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/tampa-fl/kitchen-bath-remodeling","business":"DCR Tampa","pageStatus":200,"listingVisible":true,"officialWebsite":"https://dcrtampa.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/tampa-fl/fence-builders","business":"Harris Home Solutions","pageStatus":200,"listingVisible":true,"officialWebsite":"https://www.harrishomesolutions.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/tampa-fl/concrete","business":"Harris Home Solutions","pageStatus":200,"listingVisible":true,"officialWebsite":"https://www.harrishomesolutions.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/tampa-fl/water-damage-mold-remediation","business":"Restoration Depot","pageStatus":200,"listingVisible":true,"officialWebsite":"https://restorationdepotllc.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/naples-fl/roofing","business":"Atlantis Roofing of Naples","pageStatus":200,"listingVisible":true,"officialWebsite":"https://atlantisroofingofnaples.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/mobile-al/home-inspections","business":"Alabama Building Inspection Services","pageStatus":200,"listingVisible":true,"officialWebsite":"https://alabama-inspections.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/daphne-al/home-inspections","business":"Alabama Building Inspection Services","pageStatus":200,"listingVisible":true,"officialWebsite":"https://alabama-inspections.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true}
+  ],
+  "coverage":{"totalPages":1120,"pagesAt20":230,"pagesBelow20":890,"emptyPages":0,"displayedDeficit":9594},
+  "distinctNewBusinessesPublishedLiveVerified":5,"newBusinessPlacementsPublishedLiveVerified":8,"existingBusinessPlacementsPublishedLiveVerified":0,"awaitingDeploymentOrLiveVerification":0
+}
