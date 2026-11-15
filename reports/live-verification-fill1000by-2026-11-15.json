@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-11-15T23:06:17Z",
+  "commit": "44b70439231c275100830540968b6fefa5915b66",
+  "deploymentId": "dpl_B7Tdz9SEBvMwfwm28gRcLQ1GYr3a",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "newListings": [
+    {
+      "name": "SouthWind Pest & Termite",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/pest-control",
+      "profileUrl": "https://whoknowsapro.com/business/southwind-pest-termite?region=fort-walton-beach-fl&trade=pest-control",
+      "pageStatus": 200,
+      "profileStatus": 200,
+      "listingVisible": true,
+      "displayedDistinctCount": 20,
+      "officialWebsite": "https://southwindpestandtermite.com/",
+      "officialWebsiteStatus": 200,
+      "officialWebsiteFinalUrl": "https://southwindpestandtermite.com/",
+      "result": "pass"
+    }
+  ],
+  "suppressionChecks": [
+    {
+      "pageUrl": "https://whoknowsapro.com/pace-fl/hurricane-shutters-impact-windows",
+      "pageStatus": 200,
+      "name": "Window Depot USA of the Emerald Coast",
+      "visible": false,
+      "result": "pass"
+    },
+    {
+      "pageUrl": "https://whoknowsapro.com/biloxi-ms/water-damage-mold-remediation",
+      "pageStatus": 200,
+      "name": "Restoration 1",
+      "visible": false,
+      "result": "pass"
+    },
+    {
+      "pageUrl": "https://whoknowsapro.com/gulfport-ms/water-damage-mold-remediation",
+      "pageStatus": 200,
+      "name": "Restoration 1",
+      "visible": false,
+      "result": "pass"
+    }
+  ],
+  "status": "pass"
+}

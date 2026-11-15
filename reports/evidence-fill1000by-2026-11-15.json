@@ -3,8 +3,12 @@
   "baselineCommit": "ccb83a69f6a047b07c5e3f85049f5f85f340d545",
   "baselinePlacements": 14662,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared",
+  "status": "published_deployed_live_verified",
   "publication": {
+    "dataCommit": "44b70439231c275100830540968b6fefa5915b66",
+    "deploymentId": "dpl_B7Tdz9SEBvMwfwm28gRcLQ1GYr3a",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-15T23:06:17Z",
     "distinctNewBusinesses": 1,
     "newBusinessPlacements": 1,
     "existingBusinessPlacements": 0,
