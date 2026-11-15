@@ -1,6 +1,10 @@
 # Who Knows a Pro fill1000bv progress — 2026-11-14
 
-Status: prepared, not yet published.
+Status: published, deployed and live-verified.
+
+- Data commit: `1aab388867b6510bcc111799874003e73088f65b`
+- Production deployment: `dpl_56QCaEGXxEQJ6pYJe7jNvhEEXYV9` (`READY`)
+- Production verified: 2026-11-15T04:58:37Z
 
 ## Fixed run-start baseline
 
@@ -18,23 +22,24 @@ Status: prepared, not yet published.
 
 These are rendered distinct-identity counts, not a claim that every historical record has been freshly audited. Evidence-backed sitewide completion remains unknown.
 
-## Prepared additions
+## Published additions
 
 - Distinct new businesses: 6.
 - New-business placements: 6.
 - Existing-business placements: 0.
 - Total placements: 6.
-- Tallahassee, Clearwater, Sarasota, Fort Myers and Fort Lauderdale roofing: 19 → 20 prepared.
-- Naples hurricane shutters and impact windows: 19 → 20 prepared.
+- Tallahassee, Clearwater, Sarasota, Fort Myers and Fort Lauderdale roofing: 19 → 20 live displayed distinct businesses.
+- Naples hurricane shutters and impact windows: 19 → 20 live displayed distinct businesses.
 
-## Prepared coverage
+## Published coverage
 
 - Pages displayed at 20+: 222
 - Pages displayed below 20: 898
 - Empty displayed pages: 0
 - Displayed deficit: 9,602
-- Target of 1,000 distinct new businesses: prepared 6; shortfall pending publication and live verification 994.
+- Target of 1,000 distinct new businesses: published and live-verified 6; exact shortfall 994.
+- Changes awaiting deployment or live verification: 0.
 
 ## Verification and holds
 
-All six prepared records have official-site evidence for direct provider identity, residential category scope, exact city or containing-county coverage, and working official destinations. Okaloosa Concrete Contractors remains pending operating identity. Watermark Pools, P&D Enterprises and House2House remain pending city-specific geography. Retail Fix It remains flagged as a commercial maintenance/vendor network and was neither restored nor deleted. No hidden categories, cities, user-submitted records, claimed records or paid placements were changed.
+All six published records have official-site evidence for direct provider identity, residential category scope, exact city or containing-county coverage, and working official destinations. Production verification confirmed every affected page, listing and official website destination. Okaloosa Concrete Contractors remains pending operating identity. Watermark Pools, P&D Enterprises and House2House remain pending city-specific geography. Retail Fix It remains flagged as a commercial maintenance/vendor network and was neither restored nor deleted. No hidden categories, cities, user-submitted records, claimed records or paid placements were changed.

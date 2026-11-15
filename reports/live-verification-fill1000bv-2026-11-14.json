@@ -1,0 +1,21 @@
+{
+  "run": "fill1000bv",
+  "verifiedAt": "2026-11-15T04:58:37Z",
+  "dataCommit": "1aab388867b6510bcc111799874003e73088f65b",
+  "deploymentId": "dpl_56QCaEGXxEQJ6pYJe7jNvhEEXYV9",
+  "deploymentState": "READY",
+  "productionDomain": "https://whoknowsapro.com",
+  "checks": [
+    {"page":"https://whoknowsapro.com/tallahassee-fl/roofing","business":"TSpark Enterprises","pageStatus":200,"listingVisible":true,"officialWebsite":"https://www.tsparkconstruction.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/clearwater-fl/roofing","business":"JAC Builders","pageStatus":200,"listingVisible":true,"officialWebsite":"https://www.jacbuildersfl.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/sarasota-fl/roofing","business":"Alvin J. Singleton Roofing","pageStatus":200,"listingVisible":true,"officialWebsite":"https://singletonroofing.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/fort-myers-fl/roofing","business":"MCM Roofing Services","pageStatus":200,"listingVisible":true,"officialWebsite":"https://mcmroofingservices.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/fort-lauderdale-fl/roofing","business":"Frank Seeber Roofing","pageStatus":200,"listingVisible":true,"officialWebsite":"https://frankseeberroofing.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true},
+    {"page":"https://whoknowsapro.com/naples-fl/hurricane-shutters-impact-windows","business":"Storm Guard Solutions","pageStatus":200,"listingVisible":true,"officialWebsite":"https://stormguardsolutions.com/","officialWebsiteStatus":200,"officialWebsiteIdentityConfirmed":true}
+  ],
+  "coverage": {"totalPages":1120,"pagesAt20":222,"pagesBelow20":898,"emptyPages":0,"displayedDeficit":9602},
+  "distinctNewBusinessesPublishedLiveVerified": 6,
+  "newBusinessPlacementsPublishedLiveVerified": 6,
+  "existingBusinessPlacementsPublishedLiveVerified": 0,
+  "awaitingDeploymentOrLiveVerification": 0
+}
