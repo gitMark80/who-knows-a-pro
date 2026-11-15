@@ -1,0 +1,14 @@
+{
+  "run":"fill1000bw","researchedCandidates":19,"preparedCandidates":5,"preparedDistinctNewBusinesses":5,"preparedNewBusinessPlacements":8,"preparedExistingBusinessPlacements":0,"pendingCandidates":4,"rejectedOrResolvedCandidates":10,
+  "holds":[
+    {"name":"Okaloosa Concrete Contractors","website":"https://okaloosaconcretecontractors.com/","status":"pending_operating_identity","reason":"Exact residential concrete and Fort Walton Beach claims remain insufficiently tied to an accountable operating identity; withheld rather than risk lead generation."},
+    {"name":"Watermark Pools","website":"https://www.watermarkpools.com/","status":"pending_specific_official_geography","reason":"Official evidence still does not explicitly name Fort Walton Beach; proximity was not used."},
+    {"name":"P&D Enterprises","website":"https://www.panddenterprises.com/","status":"pending_specific_official_geography","reason":"Official site supports Fort Walton Beach and Shalimar irrigation but not exact Destin coverage."},
+    {"name":"House2House","status":"pending_specific_official_geography","reason":"Available official evidence does not jointly establish exact Destin irrigation service."},
+    {"name":"Retail Fix It","status":"rejected_intermediary_and_commercial_scope","reason":"Commercial facility-maintenance and vendor-network content does not support residential locksmith or homeowner placements."}
+  ],
+  "historicalFlags":[
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial maintenance/vendor-network model lacks qualifying residential evidence; excluded from verified completion counts without deleting data."},
+    {"name":"WittCo Custom Pool and Spa","reason":"Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."}
+  ]
+}

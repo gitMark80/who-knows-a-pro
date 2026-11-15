@@ -1,0 +1,50 @@
+{
+  "run": "fill1000bw",
+  "baselineCommit": "329c1c63f31b44f18a2932751ecf67d5170d1922",
+  "baselinePlacements": 14702,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "publication": {"dataCommit":null,"deploymentId":null,"deploymentState":"not_started","distinctNewBusinesses":0,"newBusinessPlacements":0,"existingBusinessPlacements":0},
+  "records": [
+    {
+      "name":"DCR Tampa","website":"https://dcrtampa.com/","regions":["tampa-fl"],"trades":["roofing","kitchen-bath-remodeling"],"providerRole":"direct-provider",
+      "providerEvidence":"The official Tampa page identifies Duggan Construction & Roofing, its construction and roofing licenses, in-house project management, direct crews and estimate workflow.",
+      "customerScope":"residential","customerEvidence":"The page expressly says DCR has served Tampa homeowners for more than 20 years and offers roof repair/replacement and complete kitchen and bathroom remodeling.","customerSourceUrl":"https://dcrtampa.com/tampa/",
+      "geographicEvidence":"The official Tampa-specific page repeatedly states service to Tampa homeowners and lists a Tampa office.","geographicSourceUrl":"https://dcrtampa.com/tampa/",
+      "identityEvidence":"The working dcrtampa.com official domain identifies DCR Tampa, telephone, Tampa address, licensed operation and direct project workflow.","officialWebsiteFinalUrl":"https://dcrtampa.com/",
+      "evidenceNote":"The same official city page jointly proves DCR's licensed direct-provider identity, residential roofing and remodeling, and exact Tampa service.","sourceUrl":"https://dcrtampa.com/tampa/","sourceVerifiedAt":"2026-11-15T10:55:24Z","supportingUrls":["https://dcrtampa.com/tampa/","https://dcrtampa.com/"],"baselineIdentity":"new","duplicateCheck":"DCR Tampa and dcrtampa.com were absent from all 14,702 fixed-baseline placements."
+    },
+    {
+      "name":"Harris Home Solutions","website":"https://www.harrishomesolutions.com/","regions":["tampa-fl"],"trades":["fence-builders","concrete"],"providerRole":"direct-provider",
+      "providerEvidence":"The official site identifies Harris Home Solutions, Florida general-contractor license CGC1538352, Tampa address, direct estimate workflow and installation services.",
+      "customerScope":"residential","customerEvidence":"The site calls these residential upgrades for homeowners and expressly offers fence installation and concrete patios, walkways and slabs.","customerSourceUrl":"https://www.harrishomesolutions.com/",
+      "geographicEvidence":"The official site serves Hillsborough County, which contains Tampa, and identifies its operating address as 2701 E. Ellicott St., Tampa.","geographicSourceUrl":"https://www.harrishomesolutions.com/",
+      "identityEvidence":"The working harrishomesolutions.com domain identifies the licensed contractor, Tampa address, phone, email and direct quote workflow.","officialWebsiteFinalUrl":"https://www.harrishomesolutions.com/",
+      "evidenceNote":"Harris' official site jointly establishes a licensed direct residential contractor, qualifying fence and concrete services, and Tampa through its local address and Hillsborough coverage.","sourceUrl":"https://www.harrishomesolutions.com/","sourceVerifiedAt":"2026-11-15T10:55:24Z","supportingUrls":["https://www.harrishomesolutions.com/"],"baselineIdentity":"new","duplicateCheck":"Harris Home Solutions and harrishomesolutions.com were absent from all 14,702 fixed-baseline placements."
+    },
+    {
+      "name":"Restoration Depot","website":"https://restorationdepotllc.com/","regions":["tampa-fl"],"trades":["water-damage-mold-remediation"],"providerRole":"direct-provider",
+      "providerEvidence":"The official site identifies the licensed and IICRC-certified Tampa operator and a single direct company performing extraction, drying, mold remediation and rebuilding.",
+      "customerScope":"residential","customerEvidence":"The site explicitly provides water and mold restoration for Tampa homes, distinguishes its commercial service separately, and describes restored single-family homes and homeowners.","customerSourceUrl":"https://restorationdepotllc.com/",
+      "geographicEvidence":"The official site is Tampa-specific, lists a Tampa operating address and says the company has operated from East Tampa since 1983.","geographicSourceUrl":"https://restorationdepotllc.com/",
+      "identityEvidence":"The working restorationdepotllc.com domain identifies Restoration Depot, Tampa address, licenses, certification, telephone and direct emergency-response workflow.","officialWebsiteFinalUrl":"https://restorationdepotllc.com/",
+      "evidenceNote":"Restoration Depot's official site jointly proves its direct licensed identity, residential water-damage/mold service and exact Tampa operation.","sourceUrl":"https://restorationdepotllc.com/","sourceVerifiedAt":"2026-11-15T10:55:24Z","supportingUrls":["https://restorationdepotllc.com/"],"baselineIdentity":"new","duplicateCheck":"Restoration Depot and restorationdepotllc.com were absent from all 14,702 fixed-baseline placements."
+    },
+    {
+      "name":"Atlantis Roofing of Naples","website":"https://atlantisroofingofnaples.com/","regions":["naples-fl"],"trades":["roofing"],"providerRole":"direct-provider",
+      "providerEvidence":"The official page identifies the Atlantis Roofing team and Florida roofing and building licenses and accepts direct contact for installation and replacement.",
+      "customerScope":"residential","customerEvidence":"The official Naples replacement page expressly offers residential roof installations and links its dedicated Residential Roofing Service.","customerSourceUrl":"https://atlantisroofingofnaples.com/roof-replacement-naples-fl/",
+      "geographicEvidence":"The official page calls its team Naples, Florida roofers and lists its 4392 Corporate Square #2 Naples operating address.","geographicSourceUrl":"https://atlantisroofingofnaples.com/roof-replacement-naples-fl/",
+      "identityEvidence":"The working atlantisroofingofnaples.com domain identifies Atlantis Roofing of Naples, phone, Naples address and licenses CCC1327474 and CBC058832.","officialWebsiteFinalUrl":"https://atlantisroofingofnaples.com/",
+      "evidenceNote":"Atlantis' official page jointly proves a licensed direct roofer, residential installation/replacement and exact Naples operation.","sourceUrl":"https://atlantisroofingofnaples.com/roof-replacement-naples-fl/","sourceVerifiedAt":"2026-11-15T10:55:24Z","supportingUrls":["https://atlantisroofingofnaples.com/roof-replacement-naples-fl/","https://atlantisroofingofnaples.com/"],"baselineIdentity":"new","duplicateCheck":"Atlantis Roofing of Naples and atlantisroofingofnaples.com were absent from all 14,702 fixed-baseline placements."
+    },
+    {
+      "name":"Alabama Building Inspection Services","website":"https://alabama-inspections.com/","regions":["mobile-al","daphne-al"],"trades":["home-inspections"],"providerRole":"direct-provider",
+      "providerEvidence":"The official site identifies licensed and insured inspector Jim Pinion, direct booking and nearly 25 years of inspection operations.",
+      "customerScope":"residential","customerEvidence":"The site expressly offers detailed inspections for single-family homes, new homes, condominiums, townhouses, manufactured and modular homes.","customerSourceUrl":"https://alabama-inspections.com/",
+      "geographicEvidence":"The official site states service throughout Mobile and Baldwin Counties and explicitly names Daphne among covered cities; Mobile city is the county seat and the page addresses Mobile County home-inspection clients.","geographicSourceUrl":"https://alabama-inspections.com/",
+      "identityEvidence":"The working alabama-inspections.com domain identifies Alabama Building Inspection Services, Jim Pinion, telephone, direct booking and licensed operation.","officialWebsiteFinalUrl":"https://alabama-inspections.com/",
+      "evidenceNote":"The official site jointly establishes the direct licensed inspector, residential home-inspection scope, Mobile County coverage and exact Daphne coverage.","sourceUrl":"https://alabama-inspections.com/","sourceVerifiedAt":"2026-11-15T10:55:24Z","supportingUrls":["https://alabama-inspections.com/","https://alabama-inspections.com/inspections/"],"baselineIdentity":"new","duplicateCheck":"Alabama Building Inspection Services and alabama-inspections.com were absent from all 14,702 fixed-baseline placements; its two placements count as one new business."
+    }
+  ]
+}
