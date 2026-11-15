@@ -1,0 +1,18 @@
+{
+  "run": "fill1000bx",
+  "checkedAt": "2026-11-15T16:53:15Z",
+  "checks": [
+    {"name":"Island Enclosures & Improvements","url":"https://www.islandenclosures.com/hurricane-protection-security.html","result":"passed_official_evidence_prepublication","observed":"Official pages support direct installed residential hurricane protection and exact Orange Beach and Daphne service."},
+    {"name":"American Coatings, LLC","url":"https://americancoatingspropainting.com/","result":"passed_official_evidence_prepublication","observed":"Official site supports direct residential painting and exact Orange Beach coverage."},
+    {"name":"Emerald Coast Insulation","url":"https://emeraldcoastinsulation.com/navarre-fl/","result":"passed_official_evidence_prepublication","observed":"Official Navarre page supports direct residential insulation and exact city service."},
+    {"name":"Window Depot USA of the Emerald Coast","url":"https://windowdepotemeraldcoast.com/windows/impact-windows","result":"passed_official_evidence_prepublication","observed":"Official local branch site supports in-house residential impact-window installation from its Pace showroom."},
+    {"name":"Brazilian Brickpavers FWB Inc.","url":"https://brazilianbrickpaversfwbinc.com/Accessibility?domain=brazilianbrickpaversfwbinc","result":"passed_official_evidence_prepublication","observed":"Official site supports direct residential concrete driveway, patio and pool-deck service from Fort Walton Beach."},
+    {"name":"Easy Shutter Services LLC","url":"https://easyshutterservices.com/LocationPage?city=santa-rosa-beach","result":"passed_official_evidence_prepublication","observed":"Official 30A page supports residential hurricane-shutter installation and explicitly names Grayton Beach."},
+    {"name":"Mr. Fence of Florida","url":"https://gomrfencefl.com/perdido-key-fence-company/","result":"passed_official_evidence_prepublication","observed":"Official city page supports employee-crewed residential fence installation and exact Perdido Key coverage."},
+    {"name":"Martin Maintenance","url":"https://martinmaintenancellc.com/service/decks/","result":"passed_official_evidence_prepublication","observed":"Official page supports residential screen-room construction and exact Grayton Beach coverage."},
+    {"name":"Lesher Contracting","url":"https://leshercontracting.com/services","result":"rejected_official_website_unavailable","observed":"The official destination returned HTTP 503 during both normal and browser-user-agent checks."},
+    {"name":"Bright Light Irrigation Repair","url":"https://brightlightirr.com/","result":"rejected_official_website_unavailable","observed":"The identified official domain returned HTTP 503 and was not used."},
+    {"name":"Navarre Irrigation, Inc.","result":"pending_invalid_official_website","observed":"The identifiable business site resolves only to a social profile; no qualifying official business website was found."},
+    {"name":"Okaloosa Concrete Contractors","url":"https://okaloosaconcretecontractors.com/","result":"pending_operating_identity","observed":"Exact Fort Walton Beach residential claims remain insufficiently tied to a corroborated accountable operator."}
+  ]
+}

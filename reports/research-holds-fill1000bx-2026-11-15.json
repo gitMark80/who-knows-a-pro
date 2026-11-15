@@ -1,0 +1,24 @@
+{
+  "run": "fill1000bx",
+  "researchedCandidates": 28,
+  "preparedCandidates": 8,
+  "preparedDistinctNewBusinesses": 5,
+  "preparedNewBusinessPlacements": 6,
+  "preparedExistingBusinessPlacements": 3,
+  "pendingCandidates": 7,
+  "rejectedOrResolvedCandidates": 13,
+  "holds": [
+    {"name":"Navarre Irrigation, Inc.","status":"pending_invalid_official_website","reason":"Local residential irrigation evidence exists, but the business publishes only a social profile rather than a qualifying working official website."},
+    {"name":"Bright Light Irrigation Repair","website":"https://brightlightirr.com/","status":"rejected_invalid_official_website","reason":"The identified official domain returned HTTP 503 during verification."},
+    {"name":"Water Works Sprinkler Systems, Inc.","website":"https://waterworkspro.com/","status":"pending_specific_official_geography","reason":"The official site supports residential irrigation from Milton but does not explicitly publish Navarre coverage; proximity was not used."},
+    {"name":"Lesher Contracting","website":"https://leshercontracting.com/","status":"rejected_invalid_official_website","reason":"The official site returned HTTP 503, so the otherwise relevant Grayton Beach screen-room evidence was not published."},
+    {"name":"JC Patio Enclosure 30A","website":"https://www.jcpatioenclosures30a.com/","status":"pending_specific_official_geography","reason":"The official identity and screen-enclosure service are supportable, but exact Grayton Beach coverage was not found on the official site."},
+    {"name":"Ernest Rouse Concrete, LLC","status":"pending_invalid_official_website","reason":"Current local concrete and identity evidence exists, but no qualifying working official business website could be confirmed."},
+    {"name":"Okaloosa Concrete Contractors","website":"https://okaloosaconcretecontractors.com/","status":"pending_operating_identity","reason":"Exact residential concrete and Fort Walton Beach claims remain insufficiently tied to an accountable operating identity; withheld rather than risk lead generation."},
+    {"name":"Retail Fix It","status":"rejected_intermediary_and_commercial_scope","reason":"Commercial facility-maintenance and vendor-network content does not support residential locksmith or homeowner placements."}
+  ],
+  "historicalFlags": [
+    {"name":"Retail Fix It","domain":"retailfixit.com","reason":"Commercial maintenance/vendor-network model lacks qualifying residential evidence; excluded from verified completion counts without deleting data."},
+    {"name":"WittCo Custom Pool and Spa","reason":"Historical Crestview pool placement remains flagged for unsupported geography and excluded from verified completion claims."}
+  ]
+}
