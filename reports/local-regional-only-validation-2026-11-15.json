@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-11-15T18:51:41.176Z",
+  "excludedDomainRules": 309,
+  "generatedPlacements": 14662,
+  "generatedProfiles": 3898,
+  "assertions": [
+    {
+      "name": "excluded domain rules are unique",
+      "pass": true,
+      "detail": "309 rules"
+    },
+    {
+      "name": "generated directory contains no excluded websites",
+      "pass": true,
+      "detail": "0 leaked placements"
+    },
+    {
+      "name": "no local-branch exceptions bypass national exclusions",
+      "pass": true,
+      "detail": "zero placement exceptions"
+    },
+    {
+      "name": "required national exclusion: retailfixit.com",
+      "pass": true,
+      "detail": "retailfixit.com"
+    },
+    {
+      "name": "required national exclusion: servpro.com",
+      "pass": true,
+      "detail": "servpro.com"
+    },
+    {
+      "name": "required national exclusion: progressive.com",
+      "pass": true,
+      "detail": "progressive.com"
+    },
+    {
+      "name": "required national exclusion: mobilebayohd.com",
+      "pass": true,
+      "detail": "mobilebayohd.com"
+    },
+    {
+      "name": "required national exclusion: terminix.com",
+      "pass": true,
+      "detail": "terminix.com"
+    },
+    {
+      "name": "required national exclusion: orkin.com",
+      "pass": true,
+      "detail": "orkin.com"
+    },
+    {
+      "name": "required national exclusion: searshomeservices.com",
+      "pass": true,
+      "detail": "searshomeservices.com"
+    },
+    {
+      "name": "required national exclusion: pestdefense.com",
+      "pass": true,
+      "detail": "pestdefense.com"
+    },
+    {
+      "name": "required national exclusion: servicemasteralabama.com",
+      "pass": true,
+      "detail": "servicemasteralabama.com"
+    },
+    {
+      "name": "required national exclusion: precisiondoormobile.com",
+      "pass": true,
+      "detail": "precisiondoormobile.com"
+    },
+    {
+      "name": "required national exclusion: oxifresh.com",
+      "pass": true,
+      "detail": "oxifresh.com"
+    },
+    {
+      "name": "required national exclusion: merrymaids.com",
+      "pass": true,
+      "detail": "merrymaids.com"
+    },
+    {
+      "name": "required national exclusion: precisiontune.com",
+      "pass": true,
+      "detail": "precisiontune.com"
+    },
+    {
+      "name": "claimed national row remains excluded from public surfaces",
+      "pass": true,
+      "detail": "approved/claimed status does not bypass the website policy"
+    },
+    {
+      "name": "regional row remains eligible",
+      "pass": true,
+      "detail": "non-excluded approved regional website passes"
+    }
+  ],
+  "status": "pass"
+}

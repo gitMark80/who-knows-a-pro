@@ -1,5 +1,5 @@
 import { createClient, type Client, type InValue } from '@libsql/client';
-import { directorySeed, isAuditedExcludedDomainPlacement } from '@/data/directory';
+import { directorySeed } from '@/data/directory';
 import { additiveColumns, schemaStatements } from '@/db/setup';
 import { isExcludedWebsite } from '@/data/excluded-businesses';
 
@@ -48,7 +48,7 @@ export type BusinessProfile = Business & {
 /** Public directory surfaces exclude national brands even when a legacy row is claimed. */
 export function isPublicDirectoryBusiness(business: Pick<Business, 'approved' | 'is_test' | 'website' | 'region' | 'trade'>) {
   if (business.approved !== 1 || business.is_test) return false;
-  return isAuditedExcludedDomainPlacement(business) || !isExcludedWebsite(business.website);
+  return !isExcludedWebsite(business.website);
 }
 
 function publicBusiness(seed: (typeof directorySeed)[number]): Business {

@@ -3,10 +3,19 @@
  * and big-box chains that are not shown in the public directory. The directory
  * is intentionally limited to local and regional brands.
  * Matching is by website host (the domain or any subdomain of it).
- * To bring one back, delete its line here. Unclaimed database rows hidden by
- * ensureDatabase() are restored by setting approved = 1 again.
+ * These are public-display filters only: source records, approval state, claims,
+ * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // National/franchise brands and local aliases confirmed November 15, 2026.
+  // Official-source evidence: reports/local-regional-only-2026-11-15.md.
+  'pestdefense.com',
+  'servicemasteralabama.com',
+  'precisiondoormobile.com',
+  'oxifresh.com',
+  'merrymaids.com',
+  'precisiontune.com',
+
   // National facility, fleet, project-service, and dispatch networks.
   'abm.com',
   'agero.com',

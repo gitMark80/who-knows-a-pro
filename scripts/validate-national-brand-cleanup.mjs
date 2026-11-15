@@ -15,12 +15,11 @@ check(
   `${excludedWebsiteDomains.length} rules`,
 );
 
-const auditedExceptions = directorySeed.filter((business) => isExcludedWebsite(business.website));
-const leaked = auditedExceptions.filter((business) => !isAuditedExcludedDomainPlacement(business));
-check('generated directory has no unaudited excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
-check('excluded-domain placements are explicitly audited', auditedExceptions.length === 32, `${auditedExceptions.length} placement-scoped exceptions`);
+const leaked = directorySeed.filter((business) => isExcludedWebsite(business.website));
+check('generated directory contains no excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
+check('no local-branch exceptions bypass national exclusions', !directorySeed.some(isAuditedExcludedDomainPlacement), 'zero placement exceptions');
 
-for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com']) {
+for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com']) {
   check(`required national exclusion: ${domain}`, isExcludedWebsite(`https://www.${domain}/example`), domain);
 }
 
@@ -43,5 +42,5 @@ const report = {
   assertions,
   status: 'pass',
 };
-fs.writeFileSync(process.env.VALIDATION_OUTPUT, `${JSON.stringify(report, null, 2)}\n`);
+if (process.env.VALIDATION_OUTPUT) fs.writeFileSync(process.env.VALIDATION_OUTPUT, `${JSON.stringify(report, null, 2)}\n`);
 console.log(JSON.stringify(report));

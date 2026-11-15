@@ -622,58 +622,17 @@ const verifiedDirectorySeed = (currentVerifiedActiveProvidersData as readonly Ve
     return true;
   });
 
-// Global brand exclusions remain in force. These placement-scoped exceptions are
-// limited to branches whose current official pages independently establish a
-// direct residential provider, the exact category and the exact target city.
-const auditedExcludedDomainPlacements = new Set([
-  ...['crestview-fl', 'destin-fl', 'fort-walton-beach-fl', 'panama-city-fl', 'panama-city-beach-fl']
-    .flatMap((region) => [
-      `${region}|garage-door-repair|${normalizedWebsite('https://destinoverheaddoor.com/')}`,
-      `${region}|garage-door-repair|${normalizedWebsite('https://precisiondoorpensacola.com/')}`,
-    ]),
-  ...['panama-city-fl', 'panama-city-beach-fl'].flatMap((region) => [
-    `${region}|pest-control|${normalizedWebsite('https://www.terminix.com/exterminators/fl/panama-city-2622/')}`,
-    `${region}|pest-control|${normalizedWebsite('https://www.orkin.com/locations/branch-230')}`,
-    `${region}|pool-installation|${normalizedWebsite('https://www.asppoolco.com/panama-city/')}`,
-    `${region}|pool-service|${normalizedWebsite('https://www.asppoolco.com/panama-city/')}`,
-  ]),
-  // fill1000bo: each exception below is backed by an exact official branch or
-  // local service-area page in reports/evidence-fill1000bo-2026-11-13.json.
-  ...['crestview-fl', 'destin-fl', 'fort-walton-beach-fl', 'panama-city-fl', 'panama-city-beach-fl'].map(
-    (region) => `${region}|auto-body-collision|${normalizedWebsite('https://www.gerbercollision.com/')}`,
-  ),
-  ...['crestview-fl', 'fort-walton-beach-fl', 'panama-city-fl', 'panama-city-beach-fl'].map(
-    (region) => `${region}|auto-body-collision|${normalizedWebsite('https://classiccollision.com/')}`,
-  ),
-  ...['fort-walton-beach-fl', 'panama-city-fl'].map(
-    (region) => `${region}|auto-body-collision|${normalizedWebsite('https://www.maaco.com/')}`,
-  ),
-  ...['destin-fl', 'panama-city-fl', 'panama-city-beach-fl'].map(
-    (region) => `${region}|appliance-repair|${normalizedWebsite('https://www.mrappliance.com/panama-city/')}`,
-  ),
-  // fill1000bp: these city/category exceptions are supported by Caliber's
-  // official city pages and the placement evidence ledger for this run.
-  ...['crestview-fl', 'destin-fl', 'fort-walton-beach-fl'].map(
-    (region) => `${region}|auto-body-collision|${normalizedWebsite('https://www.caliber.com/')}`,
-  ),
-  // fill1000bs: Sears has exact official city appliance-repair pages, while
-  // Terminix and Orkin have official branch pages explicitly naming Crestview.
-  // Evidence is recorded in reports/evidence-fill1000bs-2026-11-14.json.
-  ...['crestview-fl', 'destin-fl', 'fort-walton-beach-fl', 'panama-city-fl'].map(
-    (region) => `${region}|appliance-repair|${normalizedWebsite('https://www.searshomeservices.com/repair')}`,
-  ),
-  `${'crestview-fl'}|pest-control|${normalizedWebsite('https://www.terminix.com/exterminators/fl/niceville-2624/')}`,
-  `${'destin-fl'}|pest-control|${normalizedWebsite('https://www.terminix.com/exterminators/fl/niceville-2624/')}`,
-  `${'crestview-fl'}|pest-control|${normalizedWebsite('https://www.orkin.com/locations/florida-fl/pensacola-pest-control')}`,
-]);
-
+// Mark's November 5 policy is local/regional brands only. A national brand's
+// local office or verified service area does not make it eligible. Keep source
+// records intact, but never allow a city/category exception through this filter.
+// Retained as a false-only compatibility export for historical audit scripts.
 export function isAuditedExcludedDomainPlacement(business: { region: string; trade: string; website: string }) {
-  return auditedExcludedDomainPlacements.has(`${business.region}|${business.trade}|${normalizedWebsite(business.website)}`);
+  void business;
+  return false;
 }
 
 export const directorySeed = [...clusterDirectorySeed, ...verifiedDirectorySeed].filter((business) =>
-  !isExcludedWebsite(business.website)
-  || isAuditedExcludedDomainPlacement(business),
+  !isExcludedWebsite(business.website),
 );
 
 export const directoryStats = {

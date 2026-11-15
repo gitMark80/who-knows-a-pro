@@ -34,6 +34,8 @@ jobs:
         run: pnpm lint
       - name: Public approval regression tests
         run: node --loader ./scripts/ts-data-loader.mjs tests/public-approval.mjs
+      - name: National-brand exclusion regression tests
+        run: node --loader ./scripts/ts-data-loader.mjs scripts/validate-national-brand-cleanup.mjs
       - name: Production build
         run: pnpm build
       # Integration tests run against an isolated SQLite file with fake keys.
