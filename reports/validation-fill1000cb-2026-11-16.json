@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-11-16T22:53:15.035Z",
+  "baselineCommit": "40b7fdc8935c3973fe8e53635cf234aab9282228",
+  "baselinePlacements": 14665,
+  "generatedPlacements": 14667,
+  "generatedProfiles": 3898,
+  "distinctNewBusinesses": 0,
+  "newBusinessPlacements": 0,
+  "existingBusinessPlacements": 2,
+  "suppressedNationalPlacements": 0,
+  "suppressedInvalidWebsitePlacements": 0,
+  "researchedCandidates": 17,
+  "pendingCandidates": 5,
+  "targetShortfall": 1000,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 236,
+    "pagesBelow20": 884,
+    "emptyPages": 0,
+    "displayedDeficit": 9632
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities and 28 visible categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "Quincy identity has only supported placements",
+      "pass": true,
+      "detail": "[\"grayton-beach-fl|hvac\",\"panama-city-beach-fl|hvac\",\"panama-city-beach-fl|insulation\",\"panama-city-fl|hvac\",\"panama-city-fl|insulation\"]"
+    },
+    {
+      "name": "Quincy remains an existing baseline business",
+      "pass": true,
+      "detail": "baseline source contains quincysair.com"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    },
+    {
+      "name": "Panama City insulation changed only to 15",
+      "pass": true,
+      "detail": "Panama City insulation 15"
+    },
+    {
+      "name": "Panama City Beach insulation changed only to 15",
+      "pass": true,
+      "detail": "Panama City Beach insulation 15"
+    }
+  ],
+  "status": "pass"
+}

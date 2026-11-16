@@ -1,0 +1,18 @@
+{
+  "run": "fill1000cb",
+  "checkedAt": "2026-11-16T22:52:07Z",
+  "researchedCandidates": 17,
+  "pending": [
+    {"name":"Precision Auto Body of Crestview","reason":"Current Florida entity evidence confirms the local shop, but no working official business site with category evidence was verified."},
+    {"name":"Wreck-A-Mended Auto Body","reason":"A qualifying working official site jointly proving the local operating identity, collision-repair service and target coverage was not verified."},
+    {"name":"Overhead Professional Doors","reason":"The apparent official domain returned HTTP 404 during this run, so it cannot qualify as a working official business website."},
+    {"name":"Hall Septic Tank Service","reason":"Current official web content emphasizes roll-off and portable-toilet services; direct current residential septic service and operating-identity evidence remain ambiguous."},
+    {"name":"Fort Walton Beach Insulation","reason":"The site uses vetted-local-pro and national-finder language; a direct accountable operating identity remains unverified."}
+  ],
+  "rejected": [
+    {"name":"Classic Collision, Gerber Collision, Caliber Collision and AutoNation candidates","reason":"Large multi-state or national brands are outside Mark's local/regional-only policy."},
+    {"name":"ASP Panama City","reason":"National franchise and therefore outside the local/regional-only policy even if locally operated."},
+    {"name":"Retail Fix It","reason":"Commercial maintenance/vendor network, not a verified local residential locksmith; remains suppressed and not deleted."},
+    {"name":"Niceville Paint & Body and Mullins Auto Body for Crestview","reason":"Local providers with official sites, but neither site expressly supports Crestview coverage; proximity was not inferred."}
+  ]
+}

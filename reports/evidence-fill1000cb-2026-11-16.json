@@ -1,0 +1,45 @@
+{
+  "run": "fill1000cb",
+  "baselineCommit": "40b7fdc8935c3973fe8e53635cf234aab9282228",
+  "baselinePlacements": 14665,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": "not_started",
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 0,
+    "newBusinessPlacements": 0,
+    "existingBusinessPlacements": 2,
+    "suppressedNationalPlacements": 0,
+    "suppressedInvalidWebsitePlacements": 0
+  },
+  "records": [
+    {
+      "name": "Quincy's Heating & Air Conditioning",
+      "website": "https://quincysair.com/",
+      "placements": [
+        "panama-city-fl|insulation",
+        "panama-city-beach-fl|insulation"
+      ],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official pages say Quincy's own crew assesses and installs attic insulation and that the work is not referred out.",
+      "customerScope": "residential",
+      "customerEvidence": "Both official pages describe insulation and ductwork work in homes, houses and residential attics.",
+      "geographicEvidence": {
+        "panama-city-fl|insulation": "The official Panama City page names Panama City, ZIP codes 32401 and 32405, and residential attic-insulation work there.",
+        "panama-city-beach-fl|insulation": "The official Panama City Beach page expressly titles and describes ductwork and attic-insulation service in Panama City Beach."
+      },
+      "identityEvidence": "The official site identifies Frosty Comfort, Inc. DBA Quincy's Heating & Air Conditioning and publishes its Panama City Beach address and direct phone.",
+      "localRegionalEvidence": "Family-owned Emerald Coast and Bay County operator since 1979; the official site presents a regional service footprint rather than a national franchise or branch network.",
+      "supportingUrls": [
+        "https://quincysair.com/areas/panama-city-fl/ductwork-and-insulation/",
+        "https://quincysair.com/ductwork-and-insulation"
+      ],
+      "sourceVerifiedAt": "2026-11-16T22:52:07Z",
+      "baselineIdentity": "existing",
+      "duplicateCheck": "quincysair.com was already represented in the fixed baseline for HVAC, so these are reported only as two existing-business placements and zero new businesses."
+    }
+  ]
+}
