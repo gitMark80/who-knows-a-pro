@@ -29,5 +29,6 @@ Retail Fix It remains suppressed as a commercial maintenance/vendor network. No 
 
 - Initial data commit `cf3ee3cbbe40512f7f439f2c5493e7c7c206c49b` deployed READY as `dpl_4TrfEXhdAjqKUndfms472rFqo2vL`.
 - Production confirmed the three intended directory placements were visible, including 24-7 Pump Out on Miami septic services.
-- Production-time outbound checks disqualified Paul Camp Pool Builders and Tri-State Appliance Repair because their official sites were not working. A source-retaining public-suppression correction is prepared and must deploy before final completion is recorded.
-- Corrected displayed coverage is expected to be 236 pages at 20+, 884 below 20, 0 empty, and a displayed deficit of 9,634. Full evidence-backed sitewide coverage remains unknown because historical pages are not fully audited.
+- Production-time outbound checks disqualified Paul Camp Pool Builders and Tri-State Appliance Repair because their official sites were not working. Source-retaining correction commit `3898bd24a2ee9d5d5111179178f95ab924a32f6a` deployed READY as `dpl_DAkXeEgnNm9s3Snw98NTdZbmVBQ2`.
+- Production re-verification at `2026-11-16T16:58:06Z` confirmed both failed-site listings are absent, Dothan pool installation displays 4, Dothan appliance repair displays 8, and 24-7 Pump Out remains visible among 19 Miami septic-service businesses with a working official link.
+- Final displayed coverage is 236 pages at 20+, 884 below 20, 0 empty, and a displayed deficit of 9,634. Full evidence-backed sitewide coverage remains unknown because historical pages are not fully audited.
