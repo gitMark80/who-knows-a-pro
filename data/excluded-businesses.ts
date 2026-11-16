@@ -327,6 +327,8 @@ export const excludedWebsiteDomains = [
   'maidright.com',
   'maids.com',
   'restoration1ofgulfcoast.com',
+  // Official domain currently resolves to a Wix disconnected-domain error page.
+  'solveall.biz',
 ] as const;
 
 function hostOf(website: string) {

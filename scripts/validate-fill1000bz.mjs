@@ -6,7 +6,6 @@ import { isExcludedWebsite } from '../data/excluded-businesses.ts';
 const baselineCommit = '23956edb29b60a9c07e5a978165be41322b18edb';
 const baselinePlacements = 14658;
 const expected = new Map([
-  ['solveall.biz', new Set(['fort-walton-beach-fl|marine-services', 'destin-fl|marine-services'])],
   ['twogeorgesmarine.com', new Set(['fort-walton-beach-fl|marine-services', 'destin-fl|marine-services'])],
   ['tommysglass.net', new Set(['panama-city-fl|hurricane-shutters-impact-windows', 'panama-city-beach-fl|hurricane-shutters-impact-windows'])],
   ['jmstormshutterservices.godaddysites.com', new Set(['panama-city-fl|hurricane-shutters-impact-windows', 'panama-city-beach-fl|hurricane-shutters-impact-windows'])],
@@ -37,9 +36,10 @@ for (const [providerDomain, expectedPlacements] of expected) {
 
 const baselineSource = fs.readFileSync('data/directory.ts', 'utf8').replace("import verifiedFill1000bzData from './verified-coverage-2026-11-15-fill1000bz.json';", '');
 assertions.push(
-  { name: 'new domains were absent from fixed baseline sources', pass: [...expected.keys()].every((providerDomain) => !baselineSource.includes(providerDomain)), detail: 'new domains exist only in the fill1000bz source file' },
+  { name: 'new domains were absent from fixed baseline sources', pass: [...expected.keys(), 'solveall.biz'].every((providerDomain) => !baselineSource.includes(providerDomain)), detail: 'new domains exist only in the fill1000bz source file' },
+  { name: 'failed Solve All website is suppressed', pass: !directorySeed.some((business) => domain(business.website) === 'solveall.biz') && isExcludedWebsite('https://www.solveall.biz/'), detail: 'record preserved in source data; zero public placements' },
   { name: 'all configured exclusions hold', pass: !directorySeed.some((business) => isExcludedWebsite(business.website)), detail: 'zero excluded-domain placements' },
-  { name: 'priority marine pages changed as expected', pass: coverage.find((page) => page.region === 'fort-walton-beach-fl' && page.trade === 'marine-services')?.distinctBusinesses === 20 && coverage.find((page) => page.region === 'destin-fl' && page.trade === 'marine-services')?.distinctBusinesses === 19, detail: 'Fort Walton Beach 20; Destin 19' },
+  { name: 'priority marine pages changed as expected', pass: coverage.find((page) => page.region === 'fort-walton-beach-fl' && page.trade === 'marine-services')?.distinctBusinesses === 19 && coverage.find((page) => page.region === 'destin-fl' && page.trade === 'marine-services')?.distinctBusinesses === 18, detail: 'Fort Walton Beach 19; Destin 18' },
   { name: 'Panama storm-protection pages reached 20', pass: coverage.filter((page) => ['panama-city-fl', 'panama-city-beach-fl'].includes(page.region) && page.trade === 'hurricane-shutters-impact-windows').every((page) => page.distinctBusinesses === 20), detail: 'Panama City 20; Panama City Beach 20' },
 );
 
@@ -64,11 +64,11 @@ const report = {
   baselinePlacements,
   generatedPlacements: directorySeed.length,
   generatedProfiles: new Set(directorySeed.map((business) => business.mainSlug)).size,
-  distinctNewBusinesses: 4,
-  newBusinessPlacements: 8,
+  distinctNewBusinesses: 3,
+  newBusinessPlacements: 6,
   existingBusinessPlacements: 0,
   suppressedNationalPlacements: 0,
-  targetShortfall: 996,
+  targetShortfall: 997,
   metrics,
   assertions,
   status: 'pass',

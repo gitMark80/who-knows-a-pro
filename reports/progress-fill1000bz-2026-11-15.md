@@ -9,23 +9,25 @@
 - Baseline displayed coverage: 234 pages at 20+, 886 below 20, 0 empty, displayed deficit 9,641
 - Another fill process was not active when the run began.
 
-## Prepared changes
+## Published data and live correction
 
-- 4 distinct new local or regional businesses, 8 city/category placements.
-- Fort Walton Beach marine services: 18 → 20 (Solve All Services; Two Georges Marine).
-- Destin marine services: 17 → 19 (Solve All Services; Two Georges Marine).
+- 3 distinct new local or regional businesses, 6 city/category placements after live verification.
+- Fort Walton Beach marine services: 18 → 19 (Two Georges Marine).
+- Destin marine services: 17 → 18 (Two Georges Marine).
 - Panama City hurricane shutters & impact windows: 18 → 20 (Tommy's Glass & Mirror Company; JM Storm Shutter Services).
 - Panama City Beach hurricane shutters & impact windows: 18 → 20 (Tommy's Glass & Mirror Company; JM Storm Shutter Services).
+- Solve All Services initially passed indexed-content review but its official domain resolved live to a Wix disconnected-domain error. Its source record is preserved and its two placements are now suppressed; it is excluded from completed counts.
 - No existing-business placement was added and no national brand was added.
 - No records were deleted or edited. Claims, billing, approval and non-test gates are unchanged.
 
 ## Evidence status
 
-- Each prepared placement has a working official website, direct-provider evidence, homeowner or recreational-consumer evidence, exact city or accepted county coverage, and local/regional-brand evidence.
+- Each counted placement has a working official website, direct-provider evidence, homeowner or recreational-consumer evidence, exact city or accepted county coverage, and local/regional-brand evidence.
 - Fort Walton Beach Insulation, Bugg Me Knot, Panhandle Marine and Service Irrigation Pros remain pending; their uncertainty is documented in `reports/research-holds-fill1000bz-2026-11-15.json`.
 - Displayed counts are rendering counts, not a sitewide evidence certification. Unaudited historical placements remain unknown and are not treated as verified completion.
 
 ## Publication state
 
-- Prepared locally; not yet committed, deployed or live-verified.
+- Initial data commit `f6de17284d57394a9b67acfecfccf19efca2cd99` deployed READY as `dpl_5cdLDPxHv1zm7rPzs5xHcsbvtMto`.
+- Live correction for the failed Solve All domain is pending publication and re-verification.
 - The evidence ledger, fixed baseline, candidate holds and coverage snapshot make this run resumable.

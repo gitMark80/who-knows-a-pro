@@ -2,7 +2,7 @@
   "run": "fill1000bz",
   "checkedAt": "2026-11-16T04:49:43Z",
   "checks": [
-    {"name":"Solve All Services","officialWebsite":"https://www.solveall.biz/","working":true,"identityMatch":true,"directProvider":true,"residentialOrConsumer":true,"localRegionalBrand":true,"geography":["Fort Walton Beach","Destin"],"category":"marine-services"},
+    {"name":"Solve All Services","officialWebsite":"https://www.solveall.biz/","working":false,"identityMatch":false,"directProvider":null,"residentialOrConsumer":null,"localRegionalBrand":null,"geography":[],"category":"marine-services","liveFailure":"The final destination displays Wix ConnectYourDomain Error: This domain isn't connected to a site. Record preserved but public placements suppressed and excluded from completed counts."},
     {"name":"Two Georges Marine","officialWebsite":"https://www.twogeorgesmarine.com/","working":true,"identityMatch":true,"directProvider":true,"residentialOrConsumer":true,"localRegionalBrand":true,"geography":["Fort Walton Beach","Destin"],"category":"marine-services"},
     {"name":"Tommy's Glass & Mirror Company","officialWebsite":"https://tommysglass.net/","working":true,"identityMatch":true,"directProvider":true,"residentialOrConsumer":true,"localRegionalBrand":true,"geography":["Panama City","Panama City Beach"],"category":"hurricane-shutters-impact-windows"},
     {"name":"JM Storm Shutter Services","officialWebsite":"https://jmstormshutterservices.godaddysites.com/","working":true,"identityMatch":true,"directProvider":true,"residentialOrConsumer":true,"localRegionalBrand":true,"geography":["Bay County (contains Panama City and Panama City Beach)"],"category":"hurricane-shutters-impact-windows"}

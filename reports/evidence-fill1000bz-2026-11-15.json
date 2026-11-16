@@ -9,8 +9,8 @@
     "deploymentId": null,
     "deploymentState": "NOT_STARTED",
     "productionDomainVerifiedAt": null,
-    "distinctNewBusinesses": 4,
-    "newBusinessPlacements": 8,
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 6,
     "existingBusinessPlacements": 0,
     "suppressedNationalPlacements": 0
   },
@@ -31,7 +31,9 @@
       "sourceVerifiedAt": "2026-11-16T04:49:43Z",
       "supportingUrls": ["https://www.solveall.biz/"],
       "baselineIdentity": "new",
-      "duplicateCheck": "Solve All Services and solveall.biz were absent from all 14,658 fixed-baseline placements."
+      "duplicateCheck": "Solve All Services and solveall.biz were absent from all 14,658 fixed-baseline placements.",
+      "completionStatus": "suppressed_invalid_official_website",
+      "liveVerificationFailure": "The final destination displayed Wix ConnectYourDomain Error and stated that the domain is not connected to a site. The source record is preserved, both placements are filtered from public display, and this business is not counted."
     },
     {
       "name": "Two Georges Marine",
