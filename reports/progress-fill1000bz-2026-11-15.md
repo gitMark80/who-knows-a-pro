@@ -29,5 +29,7 @@
 ## Publication state
 
 - Initial data commit `f6de17284d57394a9b67acfecfccf19efca2cd99` deployed READY as `dpl_5cdLDPxHv1zm7rPzs5xHcsbvtMto`.
-- Live correction for the failed Solve All domain is pending publication and re-verification.
+- Corrected data commit `5fff7b21bbaa8dcac12f48b248fb2db602b77afc` deployed READY as `dpl_7M1vShQEhqytBurDN7ikmzvnsN9z`.
+- Production pages and their outbound official-site links were rechecked at `2026-11-16T04:58:57Z`. Two Georges Marine, Tommy's Glass & Mirror Company and JM Storm Shutter Services are visible on every supported page; Solve All Services is absent.
+- Final displayed coverage: 236 pages at 20+, 884 below 20, 0 empty, displayed deficit 9,635. Full evidence-backed sitewide coverage remains unknown because historical pages are not fully audited.
 - The evidence ledger, fixed baseline, candidate holds and coverage snapshot make this run resumable.

@@ -1,0 +1,60 @@
+{
+  "run": "fill1000bz",
+  "verifiedAt": "2026-11-16T04:58:57Z",
+  "baselineCommit": "23956edb29b60a9c07e5a978165be41322b18edb",
+  "productionCommit": "5fff7b21bbaa8dcac12f48b248fb2db602b77afc",
+  "deploymentId": "dpl_7M1vShQEhqytBurDN7ikmzvnsN9z",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 6,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 997
+  },
+  "pages": [
+    {
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/marine-services",
+      "displayedBusinesses": 19,
+      "verifiedNewListings": ["Two Georges Marine"],
+      "officialLinks": ["https://www.twogeorgesmarine.com/"],
+      "suppressedListings": ["Solve All Services"]
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/marine-services",
+      "displayedBusinesses": 18,
+      "verifiedNewListings": ["Two Georges Marine"],
+      "officialLinks": ["https://www.twogeorgesmarine.com/"],
+      "suppressedListings": ["Solve All Services"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/hurricane-shutters-impact-windows",
+      "displayedBusinesses": 20,
+      "verifiedNewListings": ["Tommy's Glass & Mirror Company", "JM Storm Shutter Services"],
+      "officialLinks": ["https://tommysglass.net/", "https://jmstormshutterservices.godaddysites.com/"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/hurricane-shutters-impact-windows",
+      "displayedBusinesses": 20,
+      "verifiedNewListings": ["Tommy's Glass & Mirror Company", "JM Storm Shutter Services"],
+      "officialLinks": ["https://tommysglass.net/", "https://jmstormshutterservices.godaddysites.com/"]
+    }
+  ],
+  "officialWebsiteFinalDestinations": [
+    {"name":"Two Georges Marine","requested":"https://www.twogeorgesmarine.com/","final":"https://www.twogeorgesmarine.com/","identityMatch":true,"working":true},
+    {"name":"Tommy's Glass & Mirror Company","requested":"https://tommysglass.net/","final":"https://tommysglass.net/","identityMatch":true,"working":true},
+    {"name":"JM Storm Shutter Services","requested":"https://jmstormshutterservices.godaddysites.com/","final":"https://jmstormshutterservices.godaddysites.com/","identityMatch":true,"working":true},
+    {"name":"Solve All Services","requested":"https://www.solveall.biz/","final":"https://www.solveall.biz/","identityMatch":false,"working":false,"result":"Wix ConnectYourDomain Error; domain is not connected to a site; record preserved and public placements suppressed"}
+  ],
+  "coverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "displayedPagesAt20Plus": 236,
+    "displayedPagesBelow20": 884,
+    "displayedEmptyPages": 0,
+    "displayedRemainingDeficit": 9635,
+    "evidenceBackedSitewideCompletion": "unknown"
+  },
+  "awaitingDeploymentOrLiveVerification": 0
+}
