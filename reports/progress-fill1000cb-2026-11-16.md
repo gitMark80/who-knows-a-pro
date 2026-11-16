@@ -26,4 +26,7 @@ Retail Fix It remains suppressed as a commercial maintenance/vendor network. No 
 
 ## Publication state
 
-- Prepared locally from the fixed baseline; publication, deployment and live verification are pending.
+- Data commit `370ec6528c151c564febc6c1ffd0c937b198afa7` published to `main` and deployed READY as `dpl_5uzagRcDTXfqQSLvLPfu2j1G1Rnd`.
+- Production verification at `2026-11-16T22:57:08Z` confirmed 15 displayed businesses on both Panama City insulation and Panama City Beach insulation, with Quincy's present on each page.
+- Both directory listings link to `quincysair.com`; the official Panama City and Panama City Beach pages remained working and identity-matched during the live check.
+- Completed totals remain 0 distinct new businesses, 0 new-business placements and 2 existing-business placements. Nothing is awaiting deployment or live verification.

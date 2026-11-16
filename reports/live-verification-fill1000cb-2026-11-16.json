@@ -1,0 +1,56 @@
+{
+  "run": "fill1000cb",
+  "verifiedAt": "2026-11-16T22:57:08Z",
+  "baselineCommit": "40b7fdc8935c3973fe8e53635cf234aab9282228",
+  "productionCommit": "370ec6528c151c564febc6c1ffd0c937b198afa7",
+  "deploymentId": "dpl_5uzagRcDTXfqQSLvLPfu2j1G1Rnd",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 0,
+    "newBusinessPlacements": 0,
+    "existingBusinessPlacements": 2,
+    "targetShortfall": 1000
+  },
+  "pages": [
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/insulation",
+      "displayedBusinesses": 15,
+      "verifiedExistingListing": "Quincy's Heating & Air Conditioning",
+      "officialLink": "https://quincysair.com/"
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/insulation",
+      "displayedBusinesses": 15,
+      "verifiedExistingListing": "Quincy's Heating & Air Conditioning",
+      "officialLink": "https://quincysair.com/"
+    }
+  ],
+  "officialWebsiteFinalDestinations": [
+    {
+      "name": "Quincy's Heating & Air Conditioning — Panama City insulation evidence",
+      "requested": "https://quincysair.com/areas/panama-city-fl/ductwork-and-insulation/",
+      "final": "https://quincysair.com/areas/panama-city-fl/ductwork-and-insulation/",
+      "identityMatch": true,
+      "working": true
+    },
+    {
+      "name": "Quincy's Heating & Air Conditioning — Panama City Beach insulation evidence",
+      "requested": "https://quincysair.com/ductwork-and-insulation",
+      "final": "https://quincysair.com/ductwork-and-insulation",
+      "identityMatch": true,
+      "working": true
+    }
+  ],
+  "coverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "displayedPagesAt20Plus": 236,
+    "displayedPagesBelow20": 884,
+    "displayedEmptyPages": 0,
+    "displayedRemainingDeficit": 9632,
+    "evidenceBackedSitewideCompletion": "unknown"
+  },
+  "awaitingDeploymentOrLiveVerification": 0
+}
