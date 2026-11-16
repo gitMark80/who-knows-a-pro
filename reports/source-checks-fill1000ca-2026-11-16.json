@@ -7,6 +7,12 @@
       "url": "https://dothanpools.com/",
       "finalUrl": "https://dothanpools.com/",
       "status": 200,
+      "productionRecheck": {
+        "checkedAt": "2026-11-16T16:53:01Z",
+        "status": 503,
+        "working": false,
+        "result": "Official domain returned HTTP 503 and the cloud browser encountered an HTTP/2 protocol error; source record retained and public placement queued for suppression."
+      },
       "identity": "Paul Camp Pool Builders",
       "residentialService": "Custom new swimming-pool design and construction for homeowners and families.",
       "geography": "Dothan is expressly named on the homepage, service copy and contact page.",
@@ -17,6 +23,12 @@
       "url": "https://www.tristateappliancerepair.com/",
       "finalUrl": "https://www.tristateappliancerepair.com/",
       "status": 200,
+      "productionRecheck": {
+        "checkedAt": "2026-11-16T16:53:01Z",
+        "status": 404,
+        "working": false,
+        "result": "Official homepage returned HTTP 404 during production verification; source record retained and public placement queued for suppression."
+      },
       "identity": "Tri-State Appliance Repair",
       "residentialService": "In-home repair of major household appliances; official copy expressly says residential and homeowners.",
       "geography": "Dothan is expressly named with Enterprise and Ozark.",

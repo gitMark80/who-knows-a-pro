@@ -9,11 +9,11 @@
 
 ## Prepared changes
 
-- Paul Camp Pool Builders — new local Dothan residential pool-installation business.
-- Tri-State Appliance Repair — new local Dothan residential appliance-repair business; its official site now works and resolves the earlier `SITE NOT FOUND` hold.
+- Paul Camp Pool Builders — proposed local Dothan residential pool-installation business, then suppressed after its official domain failed the production-time working-site check.
+- Tri-State Appliance Repair — proposed local Dothan residential appliance-repair business, then suppressed after its official homepage failed the production-time working-site check.
 - 24-7 Pump Out — one independently supported Miami septic-services placement for an existing regional business already represented at the fixed baseline.
 
-Prepared totals are **2 distinct new businesses**, **2 new-business placements**, and **1 existing-business placement**. These remain prepared rather than completed until publication, deployment and live verification succeed.
+The initial deployment exposed working-site failures that disqualify both proposed new businesses: Paul Camp's official domain returned HTTP 503, and Tri-State's homepage returned HTTP 404. Both source records remain intact, while their public placements are being suppressed. The only completed candidate after live verification is **1 existing-business placement** for 24-7 Pump Out in Miami; **0 distinct new businesses** qualify for this run.
 
 ## Coverage
 
@@ -27,4 +27,7 @@ Retail Fix It remains suppressed as a commercial maintenance/vendor network. No 
 
 ## Publication state
 
-Not yet committed, deployed or live-verified. Recheck `origin/main`, reconcile any concurrent change, publish through the established GitHub/Vercel workflow, and update the evidence and live-verification ledgers only after production checks.
+- Initial data commit `cf3ee3cbbe40512f7f439f2c5493e7c7c206c49b` deployed READY as `dpl_4TrfEXhdAjqKUndfms472rFqo2vL`.
+- Production confirmed the three intended directory placements were visible, including 24-7 Pump Out on Miami septic services.
+- Production-time outbound checks disqualified Paul Camp Pool Builders and Tri-State Appliance Repair because their official sites were not working. A source-retaining public-suppression correction is prepared and must deploy before final completion is recorded.
+- Corrected displayed coverage is expected to be 236 pages at 20+, 884 below 20, 0 empty, and a displayed deficit of 9,634. Full evidence-backed sitewide coverage remains unknown because historical pages are not fully audited.

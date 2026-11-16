@@ -1,20 +1,21 @@
 {
-  "checkedAt": "2026-11-16T16:47:21.565Z",
+  "checkedAt": "2026-11-16T16:54:09.046Z",
   "baselineCommit": "bbccd9cdbca8d2a4b73c403e53097e4b23903ba3",
   "baselinePlacements": 14664,
-  "generatedPlacements": 14667,
-  "generatedProfiles": 3900,
-  "distinctNewBusinesses": 2,
-  "newBusinessPlacements": 2,
+  "generatedPlacements": 14665,
+  "generatedProfiles": 3898,
+  "distinctNewBusinesses": 0,
+  "newBusinessPlacements": 0,
   "existingBusinessPlacements": 1,
   "suppressedNationalPlacements": 0,
-  "targetShortfall": 998,
+  "suppressedInvalidWebsitePlacements": 2,
+  "targetShortfall": 1000,
   "metrics": {
     "totalPages": 1120,
     "pagesAt20": 236,
     "pagesBelow20": 884,
     "emptyPages": 0,
-    "displayedDeficit": 9632
+    "displayedDeficit": 9634
   },
   "assertions": [
     {
@@ -28,16 +29,6 @@
       "detail": "1120 pages"
     },
     {
-      "name": "dothanpools.com has only supported placements",
-      "pass": true,
-      "detail": "[\"dothan-al|pool-installation\"]"
-    },
-    {
-      "name": "tristateappliancerepair.com has only supported placements",
-      "pass": true,
-      "detail": "[\"dothan-al|appliance-repair\"]"
-    },
-    {
       "name": "rapidpumpout.com has only supported placements",
       "pass": true,
       "detail": "[\"fort-lauderdale-fl|septic-services\",\"miami-fl|septic-services\",\"west-palm-beach-fl|septic-services\"]"
@@ -48,14 +39,19 @@
       "detail": "new domains exist only in the fill1000ca source file"
     },
     {
+      "name": "failed new-business websites are suppressed",
+      "pass": true,
+      "detail": "source records preserved; zero public placements"
+    },
+    {
       "name": "all configured exclusions hold",
       "pass": true,
       "detail": "zero excluded-domain placements"
     },
     {
-      "name": "Dothan additions changed only supported pages",
+      "name": "failed Dothan additions remain absent",
       "pass": true,
-      "detail": "Dothan pool installation 5; appliance repair 9"
+      "detail": "Dothan pool installation 4; appliance repair 8"
     },
     {
       "name": "Miami septic extension changed only supported page",

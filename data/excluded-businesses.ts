@@ -329,6 +329,9 @@ export const excludedWebsiteDomains = [
   'restoration1ofgulfcoast.com',
   // Official domain currently resolves to a Wix disconnected-domain error page.
   'solveall.biz',
+  // Official domains failed production-time working-site verification; source records are retained.
+  'dothanpools.com',
+  'tristateappliancerepair.com',
 ] as const;
 
 function hostOf(website: string) {

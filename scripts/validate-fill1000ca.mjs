@@ -6,8 +6,6 @@ import { isExcludedWebsite } from '../data/excluded-businesses.ts';
 const baselineCommit = 'bbccd9cdbca8d2a4b73c403e53097e4b23903ba3';
 const baselinePlacements = 14664;
 const expected = new Map([
-  ['dothanpools.com', new Set(['dothan-al|pool-installation'])],
-  ['tristateappliancerepair.com', new Set(['dothan-al|appliance-repair'])],
   ['rapidpumpout.com', new Set(['west-palm-beach-fl|septic-services', 'fort-lauderdale-fl|septic-services', 'miami-fl|septic-services'])],
 ]);
 
@@ -32,8 +30,9 @@ for (const [providerDomain, expectedPlacements] of expected) {
 const baselineSource = fs.readFileSync('data/directory.ts', 'utf8').replace("import verifiedFill1000caData from './verified-coverage-2026-11-16-fill1000ca.json';", '');
 assertions.push(
   { name: 'new domains were absent from fixed baseline sources', pass: ['dothanpools.com', 'tristateappliancerepair.com'].every((providerDomain) => !baselineSource.includes(providerDomain)), detail: 'new domains exist only in the fill1000ca source file' },
+  { name: 'failed new-business websites are suppressed', pass: ['dothanpools.com', 'tristateappliancerepair.com'].every((providerDomain) => !directorySeed.some((business) => domain(business.website) === providerDomain) && isExcludedWebsite(`https://${providerDomain}/`)), detail: 'source records preserved; zero public placements' },
   { name: 'all configured exclusions hold', pass: !directorySeed.some((business) => isExcludedWebsite(business.website)), detail: 'zero excluded-domain placements' },
-  { name: 'Dothan additions changed only supported pages', pass: coverage.find((page) => page.region === 'dothan-al' && page.trade === 'pool-installation')?.distinctBusinesses === 5 && coverage.find((page) => page.region === 'dothan-al' && page.trade === 'appliance-repair')?.distinctBusinesses === 9, detail: 'Dothan pool installation 5; appliance repair 9' },
+  { name: 'failed Dothan additions remain absent', pass: coverage.find((page) => page.region === 'dothan-al' && page.trade === 'pool-installation')?.distinctBusinesses === 4 && coverage.find((page) => page.region === 'dothan-al' && page.trade === 'appliance-repair')?.distinctBusinesses === 8, detail: 'Dothan pool installation 4; appliance repair 8' },
   { name: 'Miami septic extension changed only supported page', pass: coverage.find((page) => page.region === 'miami-fl' && page.trade === 'septic-services')?.distinctBusinesses === 19, detail: 'Miami septic services 19' },
 );
 
@@ -53,8 +52,8 @@ const report = {
   checkedAt: new Date().toISOString(), baselineCommit, baselinePlacements,
   generatedPlacements: directorySeed.length,
   generatedProfiles: new Set(directorySeed.map((business) => business.mainSlug)).size,
-  distinctNewBusinesses: 2, newBusinessPlacements: 2, existingBusinessPlacements: 1,
-  suppressedNationalPlacements: 0, targetShortfall: 998, metrics, assertions, status: 'pass',
+  distinctNewBusinesses: 0, newBusinessPlacements: 0, existingBusinessPlacements: 1,
+  suppressedNationalPlacements: 0, suppressedInvalidWebsitePlacements: 2, targetShortfall: 1000, metrics, assertions, status: 'pass',
 };
 fs.writeFileSync('reports/validation-fill1000ca-2026-11-16.json', JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify(report));
