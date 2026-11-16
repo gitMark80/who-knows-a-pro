@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-11-16T16:47:21.565Z",
+  "baselineCommit": "bbccd9cdbca8d2a4b73c403e53097e4b23903ba3",
+  "baselinePlacements": 14664,
+  "generatedPlacements": 14667,
+  "generatedProfiles": 3900,
+  "distinctNewBusinesses": 2,
+  "newBusinessPlacements": 2,
+  "existingBusinessPlacements": 1,
+  "suppressedNationalPlacements": 0,
+  "targetShortfall": 998,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 236,
+    "pagesBelow20": 884,
+    "emptyPages": 0,
+    "displayedDeficit": 9632
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities and 28 visible categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "dothanpools.com has only supported placements",
+      "pass": true,
+      "detail": "[\"dothan-al|pool-installation\"]"
+    },
+    {
+      "name": "tristateappliancerepair.com has only supported placements",
+      "pass": true,
+      "detail": "[\"dothan-al|appliance-repair\"]"
+    },
+    {
+      "name": "rapidpumpout.com has only supported placements",
+      "pass": true,
+      "detail": "[\"fort-lauderdale-fl|septic-services\",\"miami-fl|septic-services\",\"west-palm-beach-fl|septic-services\"]"
+    },
+    {
+      "name": "new domains were absent from fixed baseline sources",
+      "pass": true,
+      "detail": "new domains exist only in the fill1000ca source file"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    },
+    {
+      "name": "Dothan additions changed only supported pages",
+      "pass": true,
+      "detail": "Dothan pool installation 5; appliance repair 9"
+    },
+    {
+      "name": "Miami septic extension changed only supported page",
+      "pass": true,
+      "detail": "Miami septic services 19"
+    }
+  ],
+  "status": "pass"
+}

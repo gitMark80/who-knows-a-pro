@@ -1,0 +1,67 @@
+{
+  "run": "fill1000ca",
+  "baselineCommit": "bbccd9cdbca8d2a4b73c403e53097e4b23903ba3",
+  "baselinePlacements": 14664,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": "not_started",
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 0,
+    "newBusinessPlacements": 0,
+    "existingBusinessPlacements": 0,
+    "suppressedNationalPlacements": 0
+  },
+  "records": [
+    {
+      "name": "Paul Camp Pool Builders",
+      "website": "https://dothanpools.com/",
+      "placements": ["dothan-al|pool-installation"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site presents Paul Camp as the pool designer and builder and directly offers custom new swimming-pool construction.",
+      "customerScope": "residential",
+      "customerEvidence": "The official homepage and contact page address homeowners and families planning a custom backyard pool.",
+      "geographicEvidence": "The official site repeatedly names Dothan as a market where Paul Camp builds pools.",
+      "identityEvidence": "The working dothanpools.com site consistently identifies Paul Camp Pool Builders and publishes a direct Dothan-area telephone and email.",
+      "localRegionalEvidence": "The site presents one owner-led South Alabama operation serving Dothan, Enterprise and Ozark; no national franchise or branch relationship is identified.",
+      "supportingUrls": ["https://dothanpools.com/", "https://dothanpools.com/contact-us/", "https://dothanpools.com/saltwater-pools-dothan/"],
+      "sourceVerifiedAt": "2026-11-16T11:07:56Z",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Paul Camp Pool Builders and dothanpools.com were absent from all 14,664 fixed-baseline placements."
+    },
+    {
+      "name": "Tri-State Appliance Repair",
+      "website": "https://www.tristateappliancerepair.com/",
+      "placements": ["dothan-al|appliance-repair"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site directly offers diagnosis and repair of refrigerators, washers, dryers, ovens, dishwashers and other major home appliances.",
+      "customerScope": "residential",
+      "customerEvidence": "The official homepage expressly says the company specializes in residential appliance repair and serves homeowners.",
+      "geographicEvidence": "The official homepage expressly lists Dothan, Enterprise and Ozark as served communities.",
+      "identityEvidence": "The working tristateappliancerepair.com site identifies Tri-State Appliance Repair and publishes its direct Wiregrass contact details.",
+      "localRegionalEvidence": "The official site presents a local Wiregrass service company limited to three named southeast Alabama communities; no national franchise or dispatch network is identified.",
+      "supportingUrls": ["https://www.tristateappliancerepair.com/"],
+      "sourceVerifiedAt": "2026-11-16T11:07:56Z",
+      "baselineIdentity": "new",
+      "duplicateCheck": "Tri-State Appliance Repair and tristateappliancerepair.com were absent from all 14,664 fixed-baseline placements; the fresh official site resolves an earlier SITE NOT FOUND hold."
+    },
+    {
+      "name": "24-7 Pump Out (Rapid Rescue Trucking LLC)",
+      "website": "https://www.rapidpumpout.com/service-areas/",
+      "placements": ["miami-fl|septic-services"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site directly offers residential septic pumping, installation, repair, drain-field and inspection services.",
+      "customerScope": "residential",
+      "customerEvidence": "The official service-area evidence expressly describes residential septic work.",
+      "geographicEvidence": "The official service-area page expressly names Miami.",
+      "identityEvidence": "The official site identifies Rapid Rescue Trucking LLC as DBA 24-7 Pump Out.",
+      "localRegionalEvidence": "This is an existing Florida regional operator already represented in the baseline in Fort Lauderdale and West Palm Beach; the Miami placement does not create a new business identity.",
+      "supportingUrls": ["https://www.rapidpumpout.com/service-areas/"],
+      "sourceVerifiedAt": "2026-11-16T11:07:56Z",
+      "baselineIdentity": "existing",
+      "duplicateCheck": "The domain was present at baseline in two cities, so this is reported only as one existing-business placement."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "run": "fill1000ca",
+  "checkedAt": "2026-11-16T11:07:56Z",
+  "sources": [
+    {
+      "name": "Paul Camp Pool Builders",
+      "url": "https://dothanpools.com/",
+      "finalUrl": "https://dothanpools.com/",
+      "status": 200,
+      "identity": "Paul Camp Pool Builders",
+      "residentialService": "Custom new swimming-pool design and construction for homeowners and families.",
+      "geography": "Dothan is expressly named on the homepage, service copy and contact page.",
+      "localRegional": "Owner-led operation serving Dothan, Enterprise and Ozark; no national franchise relationship identified."
+    },
+    {
+      "name": "Tri-State Appliance Repair",
+      "url": "https://www.tristateappliancerepair.com/",
+      "finalUrl": "https://www.tristateappliancerepair.com/",
+      "status": 200,
+      "identity": "Tri-State Appliance Repair",
+      "residentialService": "In-home repair of major household appliances; official copy expressly says residential and homeowners.",
+      "geography": "Dothan is expressly named with Enterprise and Ozark.",
+      "localRegional": "Local Wiregrass company limited to named southeast Alabama communities; no national franchise relationship identified."
+    },
+    {
+      "name": "24-7 Pump Out (Rapid Rescue Trucking LLC)",
+      "url": "https://www.rapidpumpout.com/service-areas/",
+      "finalUrl": "https://www.rapidpumpout.com/service-areas/",
+      "status": 200,
+      "identity": "Rapid Rescue Trucking LLC DBA 24-7 Pump Out",
+      "residentialService": "Residential septic pumping, installation, drain-field repair and inspections.",
+      "geography": "Miami is expressly named on the official service-area page.",
+      "localRegional": "Existing Florida regional operator; the Miami row extends an established baseline identity rather than creating a new business."
+    }
+  ]
+}

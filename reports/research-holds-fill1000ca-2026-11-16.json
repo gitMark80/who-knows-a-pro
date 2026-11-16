@@ -1,0 +1,20 @@
+{
+  "run": "fill1000ca",
+  "checkedAt": "2026-11-16T11:07:56Z",
+  "pending": [
+    {"name":"Precision Auto Body of Crestview","reason":"Current Florida entity evidence confirms the local shop, but no working official business site with category evidence was verified."},
+    {"name":"R&C Auto Body Crestview","reason":"Local identity is corroborated, but the only working same-name official domain belongs to an unrelated New Jersey business; no qualifying Crestview official site was verified."},
+    {"name":"The Paint and Body Shop of Pensacola","reason":"The official Weebly page confirms identity and address but does not document collision-repair services; the business name alone is insufficient category evidence."},
+    {"name":"Bama Pool Services LLC","reason":"Authorized public records identify a local residential pool-service business, but its claimed official domain was unreachable and no working official business site was verified."},
+    {"name":"Dream Pools of Dothan LLC","reason":"Licensing and entity records corroborate the local operator, but no working official business site belonging to the Dothan company was found."},
+    {"name":"Fort Walton Beach Insulation","reason":"The site uses vetted-local-pro and national-finder language; a direct accountable operating identity remains unverified."},
+    {"name":"Bugg Me Knot","reason":"The claimed Florida operating identity and pest-control licensing remain ambiguous."},
+    {"name":"Panhandle Marine","reason":"The purported official domain remains unreachable as a working business website."},
+    {"name":"Service Irrigation Pros","reason":"The current official site does not expressly establish residential or homeowner scope."}
+  ],
+  "rejected": [
+    {"name":"Panhandle Platforms and Marine Repairs","reason":"The official service site still renders, but the Florida LLC voluntarily dissolved on March 16, 2026; it was not treated as a current qualifying business."},
+    {"name":"Classic Collision / Gerber / Caliber / AutoNation collision candidates","reason":"Large multi-state or national brands are outside Mark's local/regional-only policy."},
+    {"name":"Retail Fix It","reason":"Commercial maintenance/vendor network, not a verified local residential locksmith; remains suppressed and not deleted."}
+  ]
+}
