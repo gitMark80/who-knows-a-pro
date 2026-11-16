@@ -1,0 +1,44 @@
+{
+  "run": "fill1000bz",
+  "checkedAt": "2026-11-16T04:49:43Z",
+  "pending": [
+    {
+      "name": "Fort Walton Beach Insulation",
+      "website": "https://www.fortwaltonbeachinsulation.com/",
+      "candidatePlacements": ["fort-walton-beach-fl|insulation", "crestview-fl|insulation", "destin-fl|insulation"],
+      "reason": "The site has explicit residential services and exact cities but uses 'Vetted Local Pros' and national-finder language. Direct operating identity remains uncertain, so it was not published."
+    },
+    {
+      "name": "Bugg Me Knot",
+      "website": "https://buggmeknot.software/",
+      "candidatePlacements": ["destin-fl|pest-control", "crestview-fl|pest-control", "panama-city-fl|pest-control"],
+      "reason": "The official site claims local direct residential service and exact cities, but independent corroboration of the Florida operating identity and pest-control license was not sufficient in this run; a same-name Missouri dissolution adds identity ambiguity."
+    },
+    {
+      "name": "Panhandle Marine",
+      "website": "https://panhandlemarinepartsandservice.com/",
+      "candidatePlacements": ["fort-walton-beach-fl|marine-services"],
+      "reason": "Authorized sources corroborate a local boat-repair operation, but the purported official domain could not be reached as a working business website."
+    },
+    {
+      "name": "Service Irrigation Pros",
+      "website": "https://serviceirrigationpros.com/",
+      "candidatePlacements": ["panama-city-fl|irrigation-sprinkler-repair"],
+      "reason": "The official site establishes identity, Panama City location and irrigation work but does not explicitly establish residential or homeowner service. This is an existing displayed record and was not counted as evidence-backed."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Summit Electrical Services / Apex Electric Pros",
+      "reason": "Generic lead-generation pages share the same toll-free number across unrelated domains and many cities; no qualifying local operating identity was established."
+    },
+    {
+      "name": "Pest Marshals",
+      "reason": "Official site identifies a multi-state franchise brand; national franchises are excluded even when locally operated."
+    },
+    {
+      "name": "Knox Pest Control",
+      "reason": "Regional rather than national, but the official site did not explicitly name Destin or a county service area covering Destin, so exact geographic evidence was insufficient."
+    }
+  ]
+}

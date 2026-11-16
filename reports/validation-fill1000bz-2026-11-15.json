@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-11-16T04:51:09.689Z",
+  "baselineCommit": "23956edb29b60a9c07e5a978165be41322b18edb",
+  "baselinePlacements": 14658,
+  "generatedPlacements": 14666,
+  "generatedProfiles": 3899,
+  "distinctNewBusinesses": 4,
+  "newBusinessPlacements": 8,
+  "existingBusinessPlacements": 0,
+  "suppressedNationalPlacements": 0,
+  "targetShortfall": 996,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 237,
+    "pagesBelow20": 883,
+    "emptyPages": 0,
+    "displayedDeficit": 9633
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities and 28 visible categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "solveall.biz has only supported placements",
+      "pass": true,
+      "detail": "[\"destin-fl|marine-services\",\"fort-walton-beach-fl|marine-services\"]"
+    },
+    {
+      "name": "twogeorgesmarine.com has only supported placements",
+      "pass": true,
+      "detail": "[\"destin-fl|marine-services\",\"fort-walton-beach-fl|marine-services\"]"
+    },
+    {
+      "name": "tommysglass.net has only supported placements",
+      "pass": true,
+      "detail": "[\"panama-city-beach-fl|hurricane-shutters-impact-windows\",\"panama-city-fl|hurricane-shutters-impact-windows\"]"
+    },
+    {
+      "name": "jmstormshutterservices.godaddysites.com has only supported placements",
+      "pass": true,
+      "detail": "[\"panama-city-beach-fl|hurricane-shutters-impact-windows\",\"panama-city-fl|hurricane-shutters-impact-windows\"]"
+    },
+    {
+      "name": "new domains were absent from fixed baseline sources",
+      "pass": true,
+      "detail": "new domains exist only in the fill1000bz source file"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    },
+    {
+      "name": "priority marine pages changed as expected",
+      "pass": true,
+      "detail": "Fort Walton Beach 20; Destin 19"
+    },
+    {
+      "name": "Panama storm-protection pages reached 20",
+      "pass": true,
+      "detail": "Panama City 20; Panama City Beach 20"
+    }
+  ],
+  "status": "pass"
+}
