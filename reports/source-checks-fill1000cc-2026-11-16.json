@@ -1,0 +1,15 @@
+{
+  "run": "fill1000cc",
+  "checkedAt": "2026-11-17T04:59:23Z",
+  "checks": [
+    {"name":"Tri-State Appliance Repair","url":"https://www.tristateappliancerepair.com/services","finalUrl":"https://www.tristateappliancerepair.com/services","status":"pass_new_business","observed":"Working official deep page identified the direct local provider, household appliance-repair services and Dothan coverage; the still-broken homepage is not used as the public destination."},
+    {"name":"Buds N' Blossoms Nursery & Landscaping","url":"https://buds-n-blossoms.com/landscaping/irrigation/","finalUrl":"https://buds-n-blossoms.com/landscaping/irrigation/","status":"pass_new_business","observed":"Working official page offered irrigation installation and repair for residential landscapes throughout the Wiregrass and published the Dothan address."},
+    {"name":"Buds N' Blossoms Nursery & Landscaping","url":"https://buds-n-blossoms.com/landscaping/landscape-installation/","finalUrl":"https://buds-n-blossoms.com/landscaping/landscape-installation/","status":"pass_new_business","observed":"Working official page offered direct residential landscape installation throughout Dothan and the Wiregrass area."},
+    {"name":"A to Z Appliance Repair","url":"https://www.atoznwfl.com/milton-appliance-repair-pros","finalUrl":"https://www.atoznwfl.com/milton-appliance-repair-pros","status":"pass_existing_business_link_correction","observed":"Working official service-area page offered household appliance repair and expressly listed Destin and Fort Walton Beach."},
+    {"name":"A Cedar Oak","url":"https://acedaroak.com/","status":"pending_invalid_website","observed":"The apparent official destination returned HTTP 404; no placement was published."},
+    {"name":"A1 Guaranteed Appliance","status":"pending_invalid_website","observed":"The apparent official destination returned HTTP 503; no placement was published."},
+    {"name":"Second Chance Used Appliances","status":"pending_invalid_website","observed":"The apparent official destination returned HTTP 503; no placement was published."},
+    {"name":"S & J Irrigation","url":"https://sandjirrigation.com/","status":"pending_invalid_website","observed":"Search content described residential Wiregrass service, but the official homepage returned HTTP 404; no placement was published."},
+    {"name":"Retail Fix It","url":"https://retailfixit.com/","status":"rejected_historical_intermediary","observed":"Commercial retail-maintenance/vendor-network positioning does not establish a qualifying local residential locksmith. The historical source remains retained and its public suppression is unchanged."}
+  ]
+}

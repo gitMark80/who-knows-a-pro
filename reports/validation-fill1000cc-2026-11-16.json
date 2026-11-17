@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-11-17T05:01:24.195Z",
+  "baselineCommit": "25233ba4973fd3a367497eb1da5f70159808352c",
+  "baselinePlacements": 14667,
+  "baselineProfiles": 3898,
+  "generatedPlacements": 14670,
+  "generatedProfiles": 3900,
+  "distinctNewBusinesses": 2,
+  "newBusinessPlacements": 3,
+  "existingBusinessPlacements": 0,
+  "officialWebsiteCorrections": 2,
+  "suppressedNationalPlacements": 0,
+  "suppressedInvalidWebsitePlacements": 1,
+  "researchedCandidates": 16,
+  "pendingCandidates": 5,
+  "targetShortfall": 998,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 236,
+    "pagesBelow20": 884,
+    "emptyPages": 0,
+    "displayedDeficit": 9629
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities, 28 visible and 12 hidden categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "Tri-State has only supported placement",
+      "pass": true,
+      "detail": "[\"dothan-al|appliance-repair\"]"
+    },
+    {
+      "name": "Tri-State uses working deep official page",
+      "pass": true,
+      "detail": "https://www.tristateappliancerepair.com/services"
+    },
+    {
+      "name": "Tri-State was absent from baseline public directory",
+      "pass": true,
+      "detail": "baseline retained the source row but suppressed the failed homepage"
+    },
+    {
+      "name": "Buds has only supported placements",
+      "pass": true,
+      "detail": "[\"dothan-al|irrigation-sprinkler-repair\",\"dothan-al|landscaping\"]"
+    },
+    {
+      "name": "Buds was absent from baseline data",
+      "pass": true,
+      "detail": "no baseline matches"
+    },
+    {
+      "name": "A to Z official-link correction did not add placements",
+      "pass": true,
+      "detail": "[\"destin-fl|appliance-repair\",\"fort-walton-beach-fl|appliance-repair\",\"gulf-breeze-fl|appliance-repair\",\"navarre-fl|appliance-repair\"]"
+    },
+    {
+      "name": "unsupported historical Crestview A to Z row remains visible and flagged",
+      "pass": true,
+      "detail": "no deletion or visibility change"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    },
+    {
+      "name": "Dothan appliance repair increased to 9",
+      "pass": true,
+      "detail": "expected 9"
+    },
+    {
+      "name": "Dothan irrigation increased to 4",
+      "pass": true,
+      "detail": "expected 4"
+    },
+    {
+      "name": "Dothan landscaping increased to 7",
+      "pass": true,
+      "detail": "expected 7"
+    }
+  ],
+  "status": "pass"
+}

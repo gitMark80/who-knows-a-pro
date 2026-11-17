@@ -1,0 +1,13 @@
+{
+  "run": "fill1000cc",
+  "checkedAt": "2026-11-17T04:59:23Z",
+  "newFlags": [
+    {"business":"A to Z Appliance Repair","placement":"crestview-fl|appliance-repair","reason":"unsupported_geography_and_invalid_official_website","detail":"The historical Crestview row still uses an obsolete third-party directory-style URL, while the current official A to Z service-area page does not expressly name Crestview. It is excluded from evidence-backed completion counts but was not deleted or hidden."}
+  ],
+  "carriedForward": [
+    {"business":"Retail Fix It","reason":"commercial_intermediary_and_unsupported_residential_service","detail":"Commercial retail-maintenance/vendor-network evidence does not establish a local residential locksmith. Its retained source record and prior public suppression remain unchanged."}
+  ],
+  "visibilityChanges": 0,
+  "deletions": 0,
+  "claimsOrBillingChanges": 0
+}

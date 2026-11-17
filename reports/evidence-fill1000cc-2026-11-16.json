@@ -1,0 +1,69 @@
+{
+  "run": "fill1000cc",
+  "baselineCommit": "25233ba4973fd3a367497eb1da5f70159808352c",
+  "baselinePlacements": 14667,
+  "baselineProfiles": 3898,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "prepared_not_published",
+  "records": [
+    {
+      "name": "Tri-State Appliance Repair",
+      "website": "https://www.tristateappliancerepair.com/services",
+      "placements": ["dothan-al|appliance-repair"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official services page offers repair of refrigerators, freezers, ice makers, dishwashers, ranges, ovens, washers and dryers by Tri-State Appliance Repair.",
+      "customerScope": "residential",
+      "customerEvidence": "The official page describes appliances as essential in every home, discusses home safety and household products, and offers direct appliance repair.",
+      "geographicEvidence": {"dothan-al|appliance-repair": "The working official services page expressly states that Tri-State repairs appliances in Dothan, Enterprise and Ozark."},
+      "identityEvidence": "The official site identifies Tri-State Appliance Repair, its 106 S Connor St Enterprise location and direct 334-393-3005 phone.",
+      "localRegionalEvidence": "The company describes 36 years serving Southeast Alabama and a Wiregrass-area footprint, not a national franchise or branch network.",
+      "supportingUrls": ["https://www.tristateappliancerepair.com/services"],
+      "sourceVerifiedAt": "2026-11-17T04:59:23Z",
+      "baselineIdentity": "new",
+      "duplicateCheck": "The identity had a retained but publicly suppressed source row at the fixed baseline because its homepage failed; it had zero baseline placements and profiles. The newly working official deep page resolves the website hold without creating a duplicate."
+    },
+    {
+      "name": "Buds N' Blossoms Nursery & Landscaping",
+      "website": "https://buds-n-blossoms.com/",
+      "placements": ["dothan-al|irrigation-sprinkler-repair", "dothan-al|landscaping"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official site directly offers irrigation installation and repair plus landscape design and installation, with its own Dothan team handling work from design through installation.",
+      "customerScope": "residential",
+      "customerEvidence": "The irrigation and installation pages explicitly describe residential landscapes, homes, homeowners' yards and residential properties.",
+      "geographicEvidence": {
+        "dothan-al|irrigation-sprinkler-repair": "The official irrigation page describes service throughout the Wiregrass and publishes the Dothan operating address.",
+        "dothan-al|landscaping": "The official installation page explicitly says the team creates residential landscapes throughout Dothan and the Wiregrass area."
+      },
+      "identityEvidence": "The official site identifies Buds N' Blossoms Nursery & Landscaping, its 5881 US-431 Dothan address and direct 334-793-0616 phone.",
+      "localRegionalEvidence": "The about page describes local Dothan roots and a Wiregrass operating footprint; no national brand, franchise or branch network was found.",
+      "supportingUrls": [
+        "https://buds-n-blossoms.com/about-us/",
+        "https://buds-n-blossoms.com/landscaping/irrigation/",
+        "https://buds-n-blossoms.com/landscaping/landscape-design/",
+        "https://buds-n-blossoms.com/landscaping/landscape-installation/"
+      ],
+      "sourceVerifiedAt": "2026-11-17T04:59:23Z",
+      "baselineIdentity": "new",
+      "duplicateCheck": "The business name and normalized domain were absent from fixed-baseline directory data. Both placements share one main identity and count once toward the run's new-business total."
+    },
+    {
+      "name": "A to Z Appliance Repair",
+      "website": "https://www.atoznwfl.com/",
+      "placements": ["destin-fl|appliance-repair", "fort-walton-beach-fl|appliance-repair"],
+      "providerRole": "direct-provider",
+      "providerEvidence": "The official veteran-owned site directly repairs household refrigerators, ovens, washers and dryers.",
+      "customerScope": "residential",
+      "customerEvidence": "The official site offers residential household-appliance repair and describes home appliance failures and repairs.",
+      "geographicEvidence": {
+        "destin-fl|appliance-repair": "The official service-area page expressly lists Destin.",
+        "fort-walton-beach-fl|appliance-repair": "The official service-area page expressly lists Fort Walton Beach."
+      },
+      "identityEvidence": "The branded official domain identifies A to Z Appliance Repair and matches the existing directory identity already aliased from the obsolete third-party domain.",
+      "localRegionalEvidence": "The site describes an owner-operated Northwest Florida service footprint, not a national franchise or branch network.",
+      "supportingUrls": ["https://www.atoznwfl.com/", "https://www.atoznwfl.com/milton-appliance-repair-pros"],
+      "sourceVerifiedAt": "2026-11-17T04:59:23Z",
+      "baselineIdentity": "existing",
+      "duplicateCheck": "This is an official-link correction for two existing placements. It adds zero profiles and zero placements and is excluded from the distinct-new-business total."
+    }
+  ]
+}

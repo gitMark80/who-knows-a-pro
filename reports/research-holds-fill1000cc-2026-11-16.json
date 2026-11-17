@@ -1,0 +1,22 @@
+{
+  "run": "fill1000cc",
+  "checkedAt": "2026-11-17T04:59:23Z",
+  "researchedCandidates": 16,
+  "pending": [
+    {"name":"Precision Auto Body of Crestview","reason":"Current local identity evidence exists, but no working official business website jointly proving collision service and the target operation was verified."},
+    {"name":"Wreck-A-Mended Auto Body","reason":"A working official site jointly proving the local operating identity and collision-repair service was not verified."},
+    {"name":"A Cedar Oak","reason":"The apparent official destination returned HTTP 404."},
+    {"name":"A1 Guaranteed Appliance and Second Chance Used Appliances","reason":"The apparent official destinations returned HTTP 503 during verification."},
+    {"name":"S & J Irrigation","reason":"Promising residential Wiregrass search evidence was found, but the official homepage returned HTTP 404 and no working official deep page was verified."}
+  ],
+  "rejected": [
+    {"name":"Classic Collision, Gerber Collision, Caliber Collision, AutoNation and Mr. Appliance candidates","reason":"Large national brands or national franchises are outside Mark's local/regional-only policy."},
+    {"name":"Ron's appliance result","reason":"The destination was a local-search directory rather than the provider's official business website."},
+    {"name":"Niceville Paint & Body and Mullins Auto Body for Crestview","reason":"Local official sites did not expressly support Crestview coverage; proximity was not inferred."},
+    {"name":"Retail Fix It","reason":"Commercial maintenance/vendor network, not a verified local residential locksmith; remains suppressed without deleting its source record."}
+  ],
+  "existingCandidates": [
+    {"name":"Crestview Paint & Body, Mike's Auto Collision, Purvis Appliance Repair and Home Appliance Service of Destin","reason":"Qualifying local results already existed in the fixed baseline and therefore were not counted again."},
+    {"name":"A to Z Appliance Repair","reason":"Existing identity; two obsolete third-party public links were corrected to the official site and reported separately from additions."}
+  ]
+}
