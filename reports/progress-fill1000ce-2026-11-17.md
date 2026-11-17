@@ -9,21 +9,21 @@
 
 ## Prepared additions
 
-- Appliance repair: Anthony's Appliance Service Inc, Benson's Appliance Center and Southern Appliance Pros.
-- Landscaping: Coach's Lawn Care, Ohana Turf Services, Jim Rillo Landscaping, LBC Landscape, Kent's Landscaping and Three Brothers Landscaping.
+- Appliance repair: Anthony's Appliance Service Inc and Southern Appliance Pros.
+- Landscaping: Coach's Lawn Care, Ohana Turf Services, Jim Rillo Landscaping, LBC Landscape and Kent's Landscaping.
 
-This batch contains **9 distinct new businesses**, **16 new-business placements**, and **0 existing-business placements**. The exact shortfall against the 1,000-new-business target is **991**.
+This corrected batch contains **7 distinct new businesses**, **13 new-business placements**, and **0 existing-business placements**. The exact shortfall against the 1,000-new-business target is **993**. Benson's Appliance Center and Three Brothers Landscaping were removed from the batch after live checks found an unrelated domain redirect and an expired website, respectively.
 
 ## Generated coverage
 
-The generated directory contains 14,700 placements and 3,912 profiles. Displayed coverage is 237 pages at 20+, 883 below 20 and 0 empty; the displayed deficit changed from 9,615 to 9,599.
+The corrected generated directory contains 14,697 placements and 3,910 profiles. Displayed coverage is 237 pages at 20+, 883 below 20 and 0 empty; the displayed deficit changed from 9,615 to 9,602.
 
 | City/category | Before | Generated | Added | Remaining deficit |
 |---|---:|---:|---:|---:|
-| Foley appliance repair | 10 | 11 | 1 | 9 |
-| Foley landscaping | 6 | 12 | 6 | 8 |
+| Foley appliance repair | 10 | 10 | 0 | 10 |
+| Foley landscaping | 6 | 11 | 5 | 9 |
 | Gulf Shores appliance repair | 9 | 10 | 1 | 10 |
-| Gulf Shores landscaping | 6 | 11 | 5 | 9 |
+| Gulf Shores landscaping | 6 | 10 | 4 | 10 |
 | Orange Beach appliance repair | 10 | 12 | 2 | 8 |
 | Orange Beach landscaping | 19 | 20 | 1 | 0 |
 
@@ -33,7 +33,7 @@ These are rendered distinct-identity counts, not certification of every historic
 
 Priority research first revisited the lowest gaps in Crestview, Panama City, Destin and Fort Walton Beach. Results were already present at the baseline or remained pending because the official site or category scope was insufficient. Research then moved outward to the nearest underfilled Alabama Gulf Coast pages.
 
-Twenty-eight candidates were researched; four remain pending. National brands were rejected. Retail Fix It remains suppressed as a commercial maintenance/vendor network. The historical Hometown Garage Doors domain-sharing variants remain flagged without deletion or a new visibility change.
+Twenty-eight candidates were researched; six remain pending or rejected from publication. National brands were rejected. Retail Fix It remains suppressed as a commercial maintenance/vendor network. The historical Hometown Garage Doors domain-sharing variants remain flagged without deletion or a new visibility change.
 
 ## Publication state
 

@@ -3,14 +3,14 @@
   "checkedAt": "2026-11-17T17:10:00Z",
   "checks": [
     {"domain":"anthonysapplianceal.com","status":"pass_prepublication"},
-    {"domain":"bensonsappliancecenter.com","status":"pass_prepublication"},
+    {"domain":"bensonsappliancecenter.com","status":"rejected_unrelated_redirect_removed"},
     {"domain":"southernappliancepros.com","status":"pass_prepublication"},
     {"domain":"coachslawncare.com","status":"pass_prepublication"},
     {"domain":"ohanaturf.com","status":"pass_prepublication"},
     {"domain":"jimrillolandscaping.com","status":"pass_prepublication"},
     {"domain":"lbclandscape.com","status":"pass_prepublication"},
     {"domain":"kentslandscaping.com","status":"pass_prepublication"},
-    {"domain":"threebrotherslandscape.com","status":"pass_prepublication"},
+    {"domain":"threebrotherslandscape.com","status":"rejected_expired_website_removed"},
     {"domain":"autocraftcc.com","status":"pending_unreachable_official_website"},
     {"domain":"retailfixit.com","status":"historical_hold_intermediary_commercial"}
   ]

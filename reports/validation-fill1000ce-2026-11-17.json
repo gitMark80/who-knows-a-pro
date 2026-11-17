@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-11-17T16:57:00.711Z",
+  "checkedAt": "2026-11-17T17:05:28.900Z",
   "baselineCommit": "449d32c7ac018afc63bff27ec710b6ce13f4c167",
   "baselinePlacements": 14684,
   "baselineProfiles": 3903,
-  "generatedPlacements": 14700,
-  "generatedProfiles": 3912,
-  "distinctNewBusinesses": 9,
-  "newBusinessPlacements": 16,
+  "generatedPlacements": 14697,
+  "generatedProfiles": 3910,
+  "distinctNewBusinesses": 7,
+  "newBusinessPlacements": 13,
   "existingBusinessPlacements": 0,
   "suppressedNationalPlacements": 0,
   "researchedCandidates": 28,
-  "pendingCandidates": 4,
-  "targetShortfall": 991,
+  "pendingCandidates": 6,
+  "targetShortfall": 993,
   "metrics": {
     "totalPages": 1120,
     "pagesAt20": 237,
     "pagesBelow20": 883,
     "emptyPages": 0,
-    "displayedDeficit": 9599
+    "displayedDeficit": 9602
   },
   "assertions": [
     {
@@ -39,11 +39,6 @@
       "name": "anthonysapplianceal.com has only supported placements",
       "pass": true,
       "detail": "[\"gulf-shores-al|appliance-repair\",\"orange-beach-al|appliance-repair\"]"
-    },
-    {
-      "name": "bensonsappliancecenter.com has only supported placements",
-      "pass": true,
-      "detail": "[\"foley-al|appliance-repair\"]"
     },
     {
       "name": "southernappliancepros.com has only supported placements",
@@ -76,19 +71,14 @@
       "detail": "[\"foley-al|landscaping\"]"
     },
     {
-      "name": "threebrotherslandscape.com has only supported placements",
-      "pass": true,
-      "detail": "[\"foley-al|landscaping\",\"gulf-shores-al|landscaping\"]"
-    },
-    {
       "name": "new placement total",
       "pass": true,
-      "detail": "14700 placements"
+      "detail": "14697 placements"
     },
     {
       "name": "new profile total",
       "pass": true,
-      "detail": "3912 profiles"
+      "detail": "3910 profiles"
     },
     {
       "name": "Orange Beach landscaping stopped at target",
