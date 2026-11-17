@@ -7,18 +7,18 @@
 - Current catalog: 40 active cities, 28 visible categories and 12 hidden categories, producing 1,120 public city/category pages. Grayton Beach is active; Pensacola Beach is absent. No catalog state changed.
 - No concurrent fill or build process was found before work began.
 
-## Prepared additions
+## Published additions
 
 - Appliance repair: Anthony's Appliance Service Inc and Southern Appliance Pros.
 - Landscaping: Coach's Lawn Care, Ohana Turf Services, Jim Rillo Landscaping, LBC Landscape and Kent's Landscaping.
 
 This corrected batch contains **7 distinct new businesses**, **13 new-business placements**, and **0 existing-business placements**. The exact shortfall against the 1,000-new-business target is **993**. Benson's Appliance Center and Three Brothers Landscaping were removed from the batch after live checks found an unrelated domain redirect and an expired website, respectively.
 
-## Generated coverage
+## Live coverage
 
-The corrected generated directory contains 14,697 placements and 3,910 profiles. Displayed coverage is 237 pages at 20+, 883 below 20 and 0 empty; the displayed deficit changed from 9,615 to 9,602.
+The corrected live directory contains 14,697 placements and 3,910 profiles. Displayed coverage is 237 pages at 20+, 883 below 20 and 0 empty; the displayed deficit changed from 9,615 to 9,602.
 
-| City/category | Before | Generated | Added | Remaining deficit |
+| City/category | Before | Live | Added | Remaining deficit |
 |---|---:|---:|---:|---:|
 | Foley appliance repair | 10 | 10 | 0 | 10 |
 | Foley landscaping | 6 | 11 | 5 | 9 |
@@ -37,4 +37,4 @@ Twenty-eight candidates were researched; six remain pending or rejected from pub
 
 ## Publication state
 
-Prepared and validated locally. Publication and live verification remain pending.
+Corrected data commit `f3b94941e874e95ddf0b09bebcf3a343dec8b76d` deployed READY as `dpl_5CMhvMMBSrja69uLytA73dNGTV1w`. Production verification at `2026-11-17T17:08:00Z` confirmed all 13 qualifying placements on the six affected pages, exact displayed counts, absence of the two rejected listings, and working identity-matched final destinations for all seven counted official websites. Nothing is awaiting deployment or live verification.

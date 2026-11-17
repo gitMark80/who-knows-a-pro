@@ -4,7 +4,17 @@
   "baselinePlacements": 14684,
   "baselineProfiles": 3903,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
+  "status": "published_deployed_live_verified",
+  "publication": {
+    "dataCommit": "f3b94941e874e95ddf0b09bebcf3a343dec8b76d",
+    "deploymentId": "dpl_5CMhvMMBSrja69uLytA73dNGTV1w",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-17T17:08:00Z",
+    "distinctNewBusinesses": 7,
+    "newBusinessPlacements": 13,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 993
+  },
   "records": [
     {"domain":"anthonysapplianceal.com","business":"Anthony's Appliance Service Inc","placements":["gulf-shores-al|appliance-repair","orange-beach-al|appliance-repair"],"sourceUrls":["https://www.anthonysapplianceal.com/"],"residentialEvidence":"Official site offers in-home kitchen and laundry appliance repair.","geographicEvidence":"Official site explicitly serves Gulf Shores and Orange Beach.","localRegionalEvidence":"Local provider operating in the named coastal market since 1979.","verifiedAt":"2026-11-17T17:10:00Z"},
     {"domain":"southernappliancepros.com","business":"Southern Appliance Pros","placements":["orange-beach-al|appliance-repair"],"sourceUrls":["https://www.southernappliancepros.com/"],"residentialEvidence":"Official site offers refrigerator, washer, dryer, stove and dishwasher repair.","geographicEvidence":"Official site expressly identifies Orange Beach as its market.","localRegionalEvidence":"Owner-operated local provider.","verifiedAt":"2026-11-17T17:10:00Z"},

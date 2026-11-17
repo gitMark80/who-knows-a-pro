@@ -1,0 +1,49 @@
+{
+  "run": "fill1000ce",
+  "verifiedAt": "2026-11-17T17:08:00Z",
+  "baselineCommit": "449d32c7ac018afc63bff27ec710b6ce13f4c167",
+  "dataCommit": "f3b94941e874e95ddf0b09bebcf3a343dec8b76d",
+  "deploymentId": "dpl_5CMhvMMBSrja69uLytA73dNGTV1w",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 7,
+    "newBusinessPlacements": 13,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 993
+  },
+  "pages": [
+    {"url":"https://whoknowsapro.com/foley-al/appliance-repair","displayedBusinesses":10,"verifiedNewListings":[],"verifiedAbsent":["Benson's Appliance Center"]},
+    {"url":"https://whoknowsapro.com/gulf-shores-al/appliance-repair","displayedBusinesses":10,"verifiedNewListings":["Anthony's Appliance Service Inc"]},
+    {"url":"https://whoknowsapro.com/orange-beach-al/appliance-repair","displayedBusinesses":12,"verifiedNewListings":["Anthony's Appliance Service Inc","Southern Appliance Pros"]},
+    {"url":"https://whoknowsapro.com/foley-al/landscaping","displayedBusinesses":11,"verifiedNewListings":["Coach's Lawn Care","Ohana Turf Services","Jim Rillo Landscaping","LBC Landscape","Kent's Landscaping"],"verifiedAbsent":["Three Brothers Landscaping"]},
+    {"url":"https://whoknowsapro.com/gulf-shores-al/landscaping","displayedBusinesses":10,"verifiedNewListings":["Coach's Lawn Care","Ohana Turf Services","Jim Rillo Landscaping","LBC Landscape"],"verifiedAbsent":["Three Brothers Landscaping"]},
+    {"url":"https://whoknowsapro.com/orange-beach-al/landscaping","displayedBusinesses":20,"verifiedNewListings":["Coach's Lawn Care"]}
+  ],
+  "officialWebsiteFinalDestinations": [
+    {"name":"Anthony's Appliance Service Inc","final":"https://www.anthonysapplianceal.com/","observedTitle":"Home | Anthonys Appliance Service Inc","identityMatch":true,"working":true},
+    {"name":"Southern Appliance Pros","final":"https://www.southernappliancepros.com/","observedTitle":"Southern Appliance Pros - Top Rated Appliance Repair - Orange Beach, Alabama","identityMatch":true,"working":true},
+    {"name":"Coach's Lawn Care","final":"https://www.coachslawncare.com/","observedTitle":"Coach's Lawn Care","identityMatch":true,"working":true},
+    {"name":"Ohana Turf Services","final":"https://ohanaturf.com/","observedTitle":"Lawn Care Services in Foley, AL, Gulf Shores, AL - Ohana Turf Services","identityMatch":true,"working":true},
+    {"name":"Jim Rillo Landscaping","final":"https://jimrillolandscaping.com/","observedTitle":"Trusted Landscape Design - Jim Rillo Landscaping - Fairhope, AL","identityMatch":true,"working":true},
+    {"name":"LBC Landscape","final":"https://www.lbclandscape.com/","observedTitle":"Landscape Consultation & Design | LBC Landscape","identityMatch":true,"working":true},
+    {"name":"Kent's Landscaping","final":"https://www.kentslandscaping.com/","observedTitle":"Kent's Landscaping | Foley, AL","identityMatch":true,"working":true}
+  ],
+  "rejectedAfterDestinationCheck": [
+    {"name":"Benson's Appliance Center","observedFinal":"https://trunori.com/shop/product/propara","reason":"Unrelated gambling redirect; removed from public batch and excluded from counts."},
+    {"name":"Three Brothers Landscaping","observedFinal":"https://www.threebrotherslandscape.com/","reason":"Squarespace Website Expired page; removed from public batch and excluded from counts."}
+  ],
+  "coverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "displayedPagesAt20Plus": 237,
+    "displayedPagesBelow20": 883,
+    "displayedEmptyPages": 0,
+    "displayedRemainingDeficit": 9602,
+    "displayedPlacements": 14697,
+    "displayedProfiles": 3910,
+    "evidenceBackedSitewideCompletion": "unknown"
+  },
+  "awaitingDeploymentOrLiveVerification": 0
+}
