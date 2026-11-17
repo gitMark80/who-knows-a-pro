@@ -1,0 +1,21 @@
+{
+  "run": "fill1000cf",
+  "checkedAt": "2026-11-17T22:59:18Z",
+  "researchedCandidates": 34,
+  "pending": [
+    {"name":"Pool Giant LLC","reason":"Current local residential pool-service evidence exists, but the provider's website link resolves only to Facebook; no qualifying official provider-owned website was verified."},
+    {"name":"Port City Pools","reason":"Official site supports residential pool service but does not name an active catalog city or an exact service area supporting a placement."},
+    {"name":"850 Garage Doors LLC","reason":"Local residential service was found only on a prohibited directory profile; no working provider-owned official website was verified."},
+    {"name":"Ron's Appliance Service & Parts","reason":"Only a directory-hosted local-search website was found, not an independent official business website."},
+    {"name":"Southern Home Appliance Services LLC","reason":"Local residential activity is described by third-party profiles, but no working official provider-owned website was verified."},
+    {"name":"Destin Collision Inc","reason":"The historic local identity could not be tied to a currently working independent official site; the old location/domain now reflects a national operator."}
+  ],
+  "rejected": [
+    {"name":"National pool, collision, appliance and garage-door franchises","reason":"Excluded under Mark's local/regional-only policy."},
+    {"name":"Retail Fix It","reason":"Commercial maintenance/vendor network; source remains retained and public suppression remains unchanged."}
+  ],
+  "historicalFlags": [
+    {"identity":"Hometown Garage Doors / Hometown Garage Doors LLC","reason":"Two retained historical main slugs share hometowngaragenwfl.com; likely duplicate identity, not deleted or newly hidden."},
+    {"identity":"Retail Fix It","reason":"Historical commercial intermediary remains suppressed and excluded from qualifying counts."}
+  ]
+}

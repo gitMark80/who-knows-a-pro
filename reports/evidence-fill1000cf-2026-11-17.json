@@ -1,0 +1,56 @@
+{
+  "run": "fill1000cf",
+  "baselineCommit": "7ac335c7e2468bb21f0877409638457e61d32a57",
+  "baselinePlacements": 14697,
+  "baselineProfiles": 3910,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "validated_awaiting_publication",
+  "publication": {
+    "distinctNewBusinesses": 4,
+    "newBusinessPlacements": 4,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 996
+  },
+  "records": [
+    {
+      "domain": "aardvarklawnandpool.com",
+      "business": "Aardvark Lawn & Pool Services",
+      "placements": ["panama-city-fl|pool-service"],
+      "sourceUrls": ["https://www.aardvarklawnandpool.com/"],
+      "residentialEvidence": "Official site offers weekly and twice-weekly full-service pool maintenance.",
+      "geographicEvidence": "Official site explicitly names Panama City in its service area.",
+      "localRegionalEvidence": "Official site identifies a licensed, insured and family-owned Northwest Florida business.",
+      "verifiedAt": "2026-11-17T22:59:18Z"
+    },
+    {
+      "domain": "gulfsidepoolservice.com",
+      "business": "Gulfside Pool Service LLC",
+      "placements": ["panama-city-fl|pool-service"],
+      "sourceUrls": ["https://gulfsidepoolservice.com/", "https://gulfsidepoolservice.com/contact-us/"],
+      "residentialEvidence": "Official site offers weekly residential pool cleaning and maintenance.",
+      "geographicEvidence": "Official contact page identifies the business in Panama City, Florida.",
+      "localRegionalEvidence": "Official site describes a small local family-owned and operated company.",
+      "verifiedAt": "2026-11-17T22:59:18Z"
+    },
+    {
+      "domain": "kellysclearpools.com",
+      "business": "Kelly's Clear Pools",
+      "placements": ["panama-city-beach-fl|pool-service"],
+      "sourceUrls": ["https://kellysclearpools.com/"],
+      "residentialEvidence": "Official owner-operated site offers residential weekly pool cleaning.",
+      "geographicEvidence": "Official site identifies the company with the Panama City Beach community and identifies its owner as a Panama City Beach resident.",
+      "localRegionalEvidence": "Owner-operated local provider, not a franchise or national branch.",
+      "verifiedAt": "2026-11-17T22:59:18Z"
+    },
+    {
+      "domain": "floridainboards.com",
+      "business": "Florida Inboards",
+      "placements": ["panama-city-fl|marine-services"],
+      "sourceUrls": ["https://www.floridainboards.com/", "https://www.floridainboards.com/about-us.html"],
+      "residentialEvidence": "Official site offers direct repair for customer-owned waterski, wakeboard and high-performance inboard boats.",
+      "geographicEvidence": "Official site says the family-owned business is located in Panama City, Florida.",
+      "localRegionalEvidence": "Family-owned and operated Panama City marine repair business.",
+      "verifiedAt": "2026-11-17T22:59:18Z"
+    }
+  ]
+}

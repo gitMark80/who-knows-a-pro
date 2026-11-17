@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-17T23:00:01.728Z",
+  "baselineCommit": "7ac335c7e2468bb21f0877409638457e61d32a57",
+  "baselinePlacements": 14697,
+  "baselineProfiles": 3910,
+  "generatedPlacements": 14701,
+  "generatedProfiles": 3914,
+  "distinctNewBusinesses": 4,
+  "newBusinessPlacements": 4,
+  "existingBusinessPlacements": 0,
+  "suppressedNationalPlacements": 0,
+  "researchedCandidates": 34,
+  "pendingCandidates": 6,
+  "targetShortfall": 996,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 238,
+    "pagesBelow20": 882,
+    "emptyPages": 0,
+    "displayedDeficit": 9598
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities, 28 visible and 12 hidden categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "fixed-baseline identities are new",
+      "pass": true,
+      "detail": "no baseline source matches"
+    },
+    {
+      "name": "aardvarklawnandpool.com has only supported placements",
+      "pass": true,
+      "detail": "[\"panama-city-fl|pool-service\"]"
+    },
+    {
+      "name": "gulfsidepoolservice.com has only supported placements",
+      "pass": true,
+      "detail": "[\"panama-city-fl|pool-service\"]"
+    },
+    {
+      "name": "kellysclearpools.com has only supported placements",
+      "pass": true,
+      "detail": "[\"panama-city-beach-fl|pool-service\"]"
+    },
+    {
+      "name": "floridainboards.com has only supported placements",
+      "pass": true,
+      "detail": "[\"panama-city-fl|marine-services\"]"
+    },
+    {
+      "name": "new placement total",
+      "pass": true,
+      "detail": "14701 placements"
+    },
+    {
+      "name": "new profile total",
+      "pass": true,
+      "detail": "3914 profiles"
+    },
+    {
+      "name": "Panama City Beach pool service stopped at target",
+      "pass": true,
+      "detail": "no above-target placement added"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    },
+    {
+      "name": "historical Hometown identity variants retained for review",
+      "pass": true,
+      "detail": "two historical main slugs share one official domain; no deletion or visibility change"
+    }
+  ],
+  "status": "pass"
+}
