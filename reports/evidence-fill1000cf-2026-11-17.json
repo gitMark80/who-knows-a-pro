@@ -4,8 +4,12 @@
   "baselinePlacements": 14697,
   "baselineProfiles": 3910,
   "targetDistinctNewBusinesses": 1000,
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "publication": {
+    "dataCommit": "72553797bf4bc208532c6139e714f69a4e03c06b",
+    "deploymentId": "dpl_7rvVF7i73T9aRSFGrZ9B7HjkDxGs",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-17T23:09:02Z",
     "distinctNewBusinesses": 3,
     "newBusinessPlacements": 3,
     "existingBusinessPlacements": 0,

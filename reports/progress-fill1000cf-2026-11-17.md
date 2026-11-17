@@ -31,4 +31,4 @@ Priority research covered the lowest gaps in Crestview, Destin, Fort Walton Beac
 
 ## Publication state
 
-The batch is validated locally and awaiting publication, deployment and production verification. No addition is counted as completed until it is visible in production and its official destination is identity-matched.
+Corrected data commit `72553797bf4bc208532c6139e714f69a4e03c06b` deployed READY as `dpl_7rvVF7i73T9aRSFGrZ9B7HjkDxGs`. Production verification at `2026-11-17T23:09:02Z` confirmed all three qualifying placements on the two affected pool-service pages, exact displayed counts of 19 and 20, continued absence of Florida Inboards from the Panama City marine page, and working identity-matched final destinations for all three counted official websites. Nothing is awaiting deployment or live verification.

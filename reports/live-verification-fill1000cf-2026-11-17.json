@@ -1,0 +1,61 @@
+{
+  "run": "fill1000cf",
+  "verifiedAt": "2026-11-17T23:09:02Z",
+  "baselineCommit": "7ac335c7e2468bb21f0877409638457e61d32a57",
+  "dataCommit": "72553797bf4bc208532c6139e714f69a4e03c06b",
+  "deploymentId": "dpl_7rvVF7i73T9aRSFGrZ9B7HjkDxGs",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 3,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 997
+  },
+  "pages": [
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/pool-service",
+      "displayedBusinesses": 19,
+      "verifiedNewListings": ["Aardvark Lawn & Pool Services", "Gulfside Pool Service LLC"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-beach-fl/pool-service",
+      "displayedBusinesses": 20,
+      "verifiedNewListings": ["Kelly's Clear Pools"]
+    },
+    {
+      "url": "https://whoknowsapro.com/panama-city-fl/marine-services",
+      "displayedBusinesses": 16,
+      "verifiedAbsent": ["Florida Inboards"]
+    }
+  ],
+  "officialWebsiteFinalDestinations": [
+    {
+      "name": "Aardvark Lawn & Pool Services",
+      "final": "https://www.aardvarklawnandpool.com/",
+      "observedTitle": "Aardvark lawn & pool - Home",
+      "identityMatch": true,
+      "working": true
+    },
+    {
+      "name": "Gulfside Pool Service LLC",
+      "final": "https://gulfsidepoolservice.com/",
+      "observedTitle": "Gulfside Pool Service LLC | Pool Services",
+      "identityMatch": true,
+      "working": true
+    },
+    {
+      "name": "Kelly's Clear Pools",
+      "final": "https://kellysclearpools.com/",
+      "observedTitle": "Pool Service - Kelly's Clear Pools",
+      "identityMatch": true,
+      "working": true
+    }
+  ],
+  "rejectedAfterPublicationCheck": [
+    {
+      "name": "Florida Inboards",
+      "website": "https://www.floridainboards.com/",
+      "reason": "Repeated live checks returned ERR_HTTP2_PROTOCOL_ERROR; removed from the public data batch and excluded from completed additions."
+    }
+  ]
+}
