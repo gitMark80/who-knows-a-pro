@@ -1,0 +1,19 @@
+{
+  "run": "fill1000ce",
+  "checkedAt": "2026-11-17T17:10:00Z",
+  "researchedCandidates": 28,
+  "pending": [
+    {"name":"Auto Craft Collision Center","reason":"A local Gulf Shores identity was corroborated, but its provider-owned official website could not be retrieved for current identity and service verification."},
+    {"name":"Hometown Appliance Repair","reason":"Local residential appliance repair is described by authorized community profiles, but no working official provider-owned website was found."},
+    {"name":"A S A P Appliance Repair","reason":"Local identity appears in licensing/business profiles, but a working official provider-owned site with residential service evidence was not verified."},
+    {"name":"Affordable Appliance Repair","reason":"Only a directory-hosted local-search page was found; it is not an independent official business website."}
+  ],
+  "rejected": [
+    {"name":"National collision and appliance franchises","reason":"Excluded under Mark's local/regional-only policy."},
+    {"name":"Retail Fix It","reason":"Commercial maintenance/vendor network; source remains retained and public suppression remains unchanged."}
+  ],
+  "historicalFlags": [
+    {"identity":"Hometown Garage Doors / Hometown Garage Doors LLC","reason":"Two retained historical main slugs share hometowngaragenwfl.com; likely duplicate identity, not deleted or newly hidden."},
+    {"identity":"Retail Fix It","reason":"Historical commercial intermediary remains suppressed and excluded from qualifying counts."}
+  ]
+}
