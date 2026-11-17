@@ -29,4 +29,7 @@ The historical Crestview A to Z row remains flagged for unsupported geography an
 ## Publication state
 
 - Initial data commit `ba0173627a19a6c55cec8c67315d1d14d93c17f9` deployed READY, but live verification found Tri-State's official destination invalid.
-- A corrective suppression commit is pending publication and deployment; completed totals are not final until that correction is live-verified.
+- Corrective commit `9fb6cd9a09cb6ecfa3d9ffa96378fcf941179e9e` restored Tri-State suppression and deployed READY as `dpl_BfG7jHDi9gokECDycCQR3sQxwNzp`.
+- Production verification at `2026-11-17T05:09:44Z` confirmed 8 Dothan appliance-repair businesses with Tri-State absent, 4 Dothan irrigation businesses and 7 Dothan landscaping businesses with Buds N' Blossoms present.
+- Destin and Fort Walton Beach appliance repair each remain at 11, with A to Z's public links corrected to `atoznwfl.com`. The official Buds and A to Z evidence pages remained working and identity-matched.
+- Completed totals are 1 distinct new business, 2 new-business placements, 0 existing-business placements and 2 official-link corrections. Nothing is awaiting deployment or live verification.

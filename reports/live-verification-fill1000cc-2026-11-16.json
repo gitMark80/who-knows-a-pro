@@ -1,0 +1,92 @@
+{
+  "run": "fill1000cc",
+  "verifiedAt": "2026-11-17T05:09:44Z",
+  "baselineCommit": "25233ba4973fd3a367497eb1da5f70159808352c",
+  "initialDataCommit": "ba0173627a19a6c55cec8c67315d1d14d93c17f9",
+  "correctedDataCommit": "9fb6cd9a09cb6ecfa3d9ffa96378fcf941179e9e",
+  "deploymentId": "dpl_BfG7jHDi9gokECDycCQR3sQxwNzp",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 1,
+    "newBusinessPlacements": 2,
+    "existingBusinessPlacements": 0,
+    "officialWebsiteCorrections": 2,
+    "targetShortfall": 999
+  },
+  "pages": [
+    {
+      "url": "https://whoknowsapro.com/dothan-al/appliance-repair",
+      "displayedBusinesses": 8,
+      "verifiedAbsentListing": "Tri-State Appliance Repair",
+      "reason": "Fresh official destination rendered SITE NOT FOUND; source record retained and public display suppressed."
+    },
+    {
+      "url": "https://whoknowsapro.com/dothan-al/irrigation-sprinkler-repair",
+      "displayedBusinesses": 4,
+      "verifiedNewListing": "Buds N' Blossoms Nursery & Landscaping",
+      "officialLink": "https://buds-n-blossoms.com/"
+    },
+    {
+      "url": "https://whoknowsapro.com/dothan-al/landscaping",
+      "displayedBusinesses": 7,
+      "verifiedNewListing": "Buds N' Blossoms Nursery & Landscaping",
+      "officialLink": "https://buds-n-blossoms.com/"
+    },
+    {
+      "url": "https://whoknowsapro.com/destin-fl/appliance-repair",
+      "displayedBusinesses": 11,
+      "verifiedExistingListing": "A to Z Appliance Repair",
+      "officialLink": "https://www.atoznwfl.com/"
+    },
+    {
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/appliance-repair",
+      "displayedBusinesses": 11,
+      "verifiedExistingListing": "A to Z Appliance Repair",
+      "officialLink": "https://www.atoznwfl.com/"
+    }
+  ],
+  "officialWebsiteFinalDestinations": [
+    {
+      "name": "Buds N' Blossoms Nursery & Landscaping",
+      "requested": "https://buds-n-blossoms.com/landscaping/landscape-installation/",
+      "final": "https://buds-n-blossoms.com/landscaping/landscape-installation/",
+      "identityMatch": true,
+      "working": true,
+      "residentialEvidencePresent": true,
+      "dothanEvidencePresent": true,
+      "irrigationEvidencePresent": true
+    },
+    {
+      "name": "A to Z Appliance Repair",
+      "requested": "https://www.atoznwfl.com/milton-appliance-repair-pros",
+      "final": "https://www.atoznwfl.com/milton-appliance-repair-pros",
+      "identityMatch": true,
+      "working": true,
+      "destinEvidencePresent": true,
+      "fortWaltonBeachEvidencePresent": true
+    },
+    {
+      "name": "Tri-State Appliance Repair",
+      "requested": "https://www.tristateappliancerepair.com/services",
+      "final": "https://www.tristateappliancerepair.com/services",
+      "identityMatch": false,
+      "working": false,
+      "observedTitle": "SITE NOT FOUND",
+      "disposition": "source retained; excluded from public display and completed counts"
+    }
+  ],
+  "coverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "displayedPagesAt20Plus": 236,
+    "displayedPagesBelow20": 884,
+    "displayedEmptyPages": 0,
+    "displayedRemainingDeficit": 9630,
+    "displayedPlacements": 14669,
+    "displayedProfiles": 3899,
+    "evidenceBackedSitewideCompletion": "unknown"
+  },
+  "awaitingDeploymentOrLiveVerification": 0
+}

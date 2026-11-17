@@ -4,7 +4,19 @@
   "baselinePlacements": 14667,
   "baselineProfiles": 3898,
   "targetDistinctNewBusinesses": 1000,
-  "status": "published_correction_pending",
+  "status": "published_deployed_live_verified",
+  "publication": {
+    "initialDataCommit": "ba0173627a19a6c55cec8c67315d1d14d93c17f9",
+    "correctedDataCommit": "9fb6cd9a09cb6ecfa3d9ffa96378fcf941179e9e",
+    "deploymentId": "dpl_BfG7jHDi9gokECDycCQR3sQxwNzp",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-17T05:09:44Z",
+    "distinctNewBusinesses": 1,
+    "newBusinessPlacements": 2,
+    "existingBusinessPlacements": 0,
+    "officialWebsiteCorrections": 2,
+    "targetShortfall": 999
+  },
   "pendingRecords": [
     {
       "name": "Tri-State Appliance Repair",
