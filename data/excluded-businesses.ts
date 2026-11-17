@@ -331,6 +331,7 @@ export const excludedWebsiteDomains = [
   'solveall.biz',
   // Official domains failed production-time working-site verification; source records are retained.
   'dothanpools.com',
+  'tristateappliancerepair.com',
 ] as const;
 
 function hostOf(website: string) {

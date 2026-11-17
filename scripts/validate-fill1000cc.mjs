@@ -31,15 +31,14 @@ try {
 const assertions = [
   { name: 'catalog is current', pass: activeRegions.length === 40 && visibleTrades.length === 28 && hiddenTradeSlugs.size === 12, detail: `${activeRegions.length} active cities, ${visibleTrades.length} visible and ${hiddenTradeSlugs.size} hidden categories` },
   { name: 'public page count', pass: coverage.length === 1120, detail: `${coverage.length} pages` },
-  { name: 'Tri-State has only supported placement', pass: JSON.stringify(placementsForDomain('tristateappliancerepair.com')) === JSON.stringify(['dothan-al|appliance-repair']), detail: JSON.stringify(placementsForDomain('tristateappliancerepair.com')) },
-  { name: 'Tri-State uses working deep official page', pass: directorySeed.find((business) => domain(business.website) === 'tristateappliancerepair.com')?.website === 'https://www.tristateappliancerepair.com/services', detail: directorySeed.find((business) => domain(business.website) === 'tristateappliancerepair.com')?.website ?? 'missing' },
-  { name: 'Tri-State was absent from baseline public directory', pass: baselineExclusions.includes("'tristateappliancerepair.com'") && baselineDirectory.includes('verifiedFill1000caData'), detail: 'baseline retained the source row but suppressed the failed homepage' },
+  { name: 'Tri-State failed live website remains suppressed', pass: placementsForDomain('tristateappliancerepair.com').length === 0 && isExcludedWebsite('https://www.tristateappliancerepair.com/services'), detail: JSON.stringify(placementsForDomain('tristateappliancerepair.com')) },
+  { name: 'Tri-State source history is retained', pass: baselineExclusions.includes("'tristateappliancerepair.com'") && baselineDirectory.includes('verifiedFill1000caData'), detail: 'source rows retained; zero public placements' },
   { name: 'Buds has only supported placements', pass: JSON.stringify(placementsForDomain('buds-n-blossoms.com')) === JSON.stringify(['dothan-al|irrigation-sprinkler-repair', 'dothan-al|landscaping']), detail: JSON.stringify(placementsForDomain('buds-n-blossoms.com')) },
   { name: 'Buds was absent from baseline data', pass: baselineSources === '', detail: baselineSources || 'no baseline matches' },
   { name: 'A to Z official-link correction did not add placements', pass: JSON.stringify(placementsForDomain('atoznwfl.com')) === JSON.stringify(['destin-fl|appliance-repair', 'fort-walton-beach-fl|appliance-repair', 'gulf-breeze-fl|appliance-repair', 'navarre-fl|appliance-repair']), detail: JSON.stringify(placementsForDomain('atoznwfl.com')) },
   { name: 'unsupported historical Crestview A to Z row remains visible and flagged', pass: directorySeed.some((business) => business.region === 'crestview-fl' && business.trade === 'appliance-repair' && domain(business.website) === 'appliance-repairs-destin.fl-biz.com'), detail: 'no deletion or visibility change' },
   { name: 'all configured exclusions hold', pass: !directorySeed.some((business) => isExcludedWebsite(business.website)), detail: 'zero excluded-domain placements' },
-  { name: 'Dothan appliance repair increased to 9', pass: coverage.find((page) => page.region === 'dothan-al' && page.trade === 'appliance-repair')?.distinctBusinesses === 9, detail: 'expected 9' },
+  { name: 'Dothan appliance repair remains at 8 after live-site failure', pass: coverage.find((page) => page.region === 'dothan-al' && page.trade === 'appliance-repair')?.distinctBusinesses === 8, detail: 'expected 8' },
   { name: 'Dothan irrigation increased to 4', pass: coverage.find((page) => page.region === 'dothan-al' && page.trade === 'irrigation-sprinkler-repair')?.distinctBusinesses === 4, detail: 'expected 4' },
   { name: 'Dothan landscaping increased to 7', pass: coverage.find((page) => page.region === 'dothan-al' && page.trade === 'landscaping')?.distinctBusinesses === 7, detail: 'expected 7' },
 ];
@@ -57,9 +56,9 @@ const report = {
   checkedAt: new Date().toISOString(), baselineCommit, baselinePlacements, baselineProfiles,
   generatedPlacements: directorySeed.length,
   generatedProfiles: new Set(directorySeed.map((business) => business.mainSlug)).size,
-  distinctNewBusinesses: 2, newBusinessPlacements: 3, existingBusinessPlacements: 0,
-  officialWebsiteCorrections: 2, suppressedNationalPlacements: 0, suppressedInvalidWebsitePlacements: 1,
-  researchedCandidates: 16, pendingCandidates: 5, targetShortfall: 998,
+  distinctNewBusinesses: 1, newBusinessPlacements: 2, existingBusinessPlacements: 0,
+  officialWebsiteCorrections: 2, suppressedNationalPlacements: 0, suppressedInvalidWebsitePlacements: 2,
+  researchedCandidates: 16, pendingCandidates: 6, targetShortfall: 999,
   metrics, assertions, status: 'pass',
 };
 fs.writeFileSync('reports/validation-fill1000cc-2026-11-16.json', JSON.stringify(report, null, 2) + '\n');

@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-11-17T05:01:24.195Z",
+  "checkedAt": "2026-11-17T05:07:00.678Z",
   "baselineCommit": "25233ba4973fd3a367497eb1da5f70159808352c",
   "baselinePlacements": 14667,
   "baselineProfiles": 3898,
-  "generatedPlacements": 14670,
-  "generatedProfiles": 3900,
-  "distinctNewBusinesses": 2,
-  "newBusinessPlacements": 3,
+  "generatedPlacements": 14669,
+  "generatedProfiles": 3899,
+  "distinctNewBusinesses": 1,
+  "newBusinessPlacements": 2,
   "existingBusinessPlacements": 0,
   "officialWebsiteCorrections": 2,
   "suppressedNationalPlacements": 0,
-  "suppressedInvalidWebsitePlacements": 1,
+  "suppressedInvalidWebsitePlacements": 2,
   "researchedCandidates": 16,
-  "pendingCandidates": 5,
-  "targetShortfall": 998,
+  "pendingCandidates": 6,
+  "targetShortfall": 999,
   "metrics": {
     "totalPages": 1120,
     "pagesAt20": 236,
     "pagesBelow20": 884,
     "emptyPages": 0,
-    "displayedDeficit": 9629
+    "displayedDeficit": 9630
   },
   "assertions": [
     {
@@ -33,19 +33,14 @@
       "detail": "1120 pages"
     },
     {
-      "name": "Tri-State has only supported placement",
+      "name": "Tri-State failed live website remains suppressed",
       "pass": true,
-      "detail": "[\"dothan-al|appliance-repair\"]"
+      "detail": "[]"
     },
     {
-      "name": "Tri-State uses working deep official page",
+      "name": "Tri-State source history is retained",
       "pass": true,
-      "detail": "https://www.tristateappliancerepair.com/services"
-    },
-    {
-      "name": "Tri-State was absent from baseline public directory",
-      "pass": true,
-      "detail": "baseline retained the source row but suppressed the failed homepage"
+      "detail": "source rows retained; zero public placements"
     },
     {
       "name": "Buds has only supported placements",
@@ -73,9 +68,9 @@
       "detail": "zero excluded-domain placements"
     },
     {
-      "name": "Dothan appliance repair increased to 9",
+      "name": "Dothan appliance repair remains at 8 after live-site failure",
       "pass": true,
-      "detail": "expected 9"
+      "detail": "expected 8"
     },
     {
       "name": "Dothan irrigation increased to 4",

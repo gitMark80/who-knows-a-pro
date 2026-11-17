@@ -4,8 +4,8 @@
   "baselinePlacements": 14667,
   "baselineProfiles": 3898,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_not_published",
-  "records": [
+  "status": "published_correction_pending",
+  "pendingRecords": [
     {
       "name": "Tri-State Appliance Repair",
       "website": "https://www.tristateappliancerepair.com/services",
@@ -20,8 +20,11 @@
       "supportingUrls": ["https://www.tristateappliancerepair.com/services"],
       "sourceVerifiedAt": "2026-11-17T04:59:23Z",
       "baselineIdentity": "new",
-      "duplicateCheck": "The identity had a retained but publicly suppressed source row at the fixed baseline because its homepage failed; it had zero baseline placements and profiles. The newly working official deep page resolves the website hold without creating a duplicate."
-    },
+      "duplicateCheck": "The identity had a retained but publicly suppressed source row at the fixed baseline. Fresh browser verification on the deployed /services link rendered SITE NOT FOUND, so the domain is suppressed again and contributes zero completed businesses or placements.",
+      "unresolvedLimitation": "The search crawler indexed service and Dothan content, but the live browser destination is an unpublished Wix SITE NOT FOUND page."
+    }
+  ],
+  "records": [
     {
       "name": "Buds N' Blossoms Nursery & Landscaping",
       "website": "https://buds-n-blossoms.com/",
