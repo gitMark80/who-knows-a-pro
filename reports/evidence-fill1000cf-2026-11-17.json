@@ -6,10 +6,10 @@
   "targetDistinctNewBusinesses": 1000,
   "status": "validated_awaiting_publication",
   "publication": {
-    "distinctNewBusinesses": 4,
-    "newBusinessPlacements": 4,
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 3,
     "existingBusinessPlacements": 0,
-    "targetShortfall": 996
+    "targetShortfall": 997
   },
   "records": [
     {
@@ -40,16 +40,6 @@
       "residentialEvidence": "Official owner-operated site offers residential weekly pool cleaning.",
       "geographicEvidence": "Official site identifies the company with the Panama City Beach community and identifies its owner as a Panama City Beach resident.",
       "localRegionalEvidence": "Owner-operated local provider, not a franchise or national branch.",
-      "verifiedAt": "2026-11-17T22:59:18Z"
-    },
-    {
-      "domain": "floridainboards.com",
-      "business": "Florida Inboards",
-      "placements": ["panama-city-fl|marine-services"],
-      "sourceUrls": ["https://www.floridainboards.com/", "https://www.floridainboards.com/about-us.html"],
-      "residentialEvidence": "Official site offers direct repair for customer-owned waterski, wakeboard and high-performance inboard boats.",
-      "geographicEvidence": "Official site says the family-owned business is located in Panama City, Florida.",
-      "localRegionalEvidence": "Family-owned and operated Panama City marine repair business.",
       "verifiedAt": "2026-11-17T22:59:18Z"
     }
   ]

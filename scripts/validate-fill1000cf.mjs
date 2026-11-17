@@ -7,7 +7,7 @@ import { isExcludedWebsite } from '../data/excluded-businesses.ts';
 const baselineCommit = '7ac335c7e2468bb21f0877409638457e61d32a57';
 const baselinePlacements = 14697;
 const baselineProfiles = 3910;
-const domains = ['aardvarklawnandpool.com', 'gulfsidepoolservice.com', 'kellysclearpools.com', 'floridainboards.com'];
+const domains = ['aardvarklawnandpool.com', 'gulfsidepoolservice.com', 'kellysclearpools.com'];
 const domain = (value) => new URL(value).hostname.toLowerCase().replace(/^www\./, '');
 const coverage = [];
 for (const region of activeRegions) for (const trade of visibleTrades) {
@@ -20,7 +20,6 @@ const expectedPlacements = new Map([
   ['aardvarklawnandpool.com', ['panama-city-fl|pool-service']],
   ['gulfsidepoolservice.com', ['panama-city-fl|pool-service']],
   ['kellysclearpools.com', ['panama-city-beach-fl|pool-service']],
-  ['floridainboards.com', ['panama-city-fl|marine-services']],
 ]);
 const placementsForDomain = (providerDomain) => directorySeed
   .filter((business) => domain(business.website) === providerDomain)
@@ -41,8 +40,8 @@ const assertions = [
   { name: 'public page count', pass: coverage.length === 1120, detail: `${coverage.length} pages` },
   { name: 'fixed-baseline identities are new', pass: baselineMatches === '', detail: baselineMatches || 'no baseline source matches' },
   ...[...expectedPlacements].map(([providerDomain, expected]) => ({ name: `${providerDomain} has only supported placements`, pass: JSON.stringify(placementsForDomain(providerDomain)) === JSON.stringify(expected), detail: JSON.stringify(placementsForDomain(providerDomain)) })),
-  { name: 'new placement total', pass: directorySeed.length === baselinePlacements + 4, detail: `${directorySeed.length} placements` },
-  { name: 'new profile total', pass: new Set(directorySeed.map((business) => business.mainSlug)).size === baselineProfiles + 4, detail: `${new Set(directorySeed.map((business) => business.mainSlug)).size} profiles` },
+  { name: 'new placement total', pass: directorySeed.length === baselinePlacements + 3, detail: `${directorySeed.length} placements` },
+  { name: 'new profile total', pass: new Set(directorySeed.map((business) => business.mainSlug)).size === baselineProfiles + 3, detail: `${new Set(directorySeed.map((business) => business.mainSlug)).size} profiles` },
   { name: 'Panama City Beach pool service stopped at target', pass: coverage.find((page) => page.region === 'panama-city-beach-fl' && page.trade === 'pool-service')?.distinctBusinesses === 20, detail: 'no above-target placement added' },
   { name: 'all configured exclusions hold', pass: !directorySeed.some((business) => isExcludedWebsite(business.website)), detail: 'zero excluded-domain placements' },
   { name: 'historical Hometown identity variants retained for review', pass: new Set(directorySeed.filter((business) => domain(business.website) === 'hometowngaragenwfl.com').map((business) => business.mainSlug)).size === 2, detail: 'two historical main slugs share one official domain; no deletion or visibility change' },
@@ -61,9 +60,9 @@ const report = {
   checkedAt: new Date().toISOString(), baselineCommit, baselinePlacements, baselineProfiles,
   generatedPlacements: directorySeed.length,
   generatedProfiles: new Set(directorySeed.map((business) => business.mainSlug)).size,
-  distinctNewBusinesses: 4, newBusinessPlacements: 4, existingBusinessPlacements: 0,
-  suppressedNationalPlacements: 0, researchedCandidates: 34, pendingCandidates: 6,
-  targetShortfall: 996, metrics, assertions, status: 'pass',
+  distinctNewBusinesses: 3, newBusinessPlacements: 3, existingBusinessPlacements: 0,
+  suppressedNationalPlacements: 0, researchedCandidates: 34, pendingCandidates: 7,
+  targetShortfall: 997, metrics, assertions, status: 'pass',
 };
 fs.writeFileSync('reports/validation-fill1000cf-2026-11-17.json', JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify(report));

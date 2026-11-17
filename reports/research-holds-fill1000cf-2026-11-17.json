@@ -3,6 +3,7 @@
   "checkedAt": "2026-11-17T22:59:18Z",
   "researchedCandidates": 34,
   "pending": [
+    {"name":"Florida Inboards","reason":"Removed after publication because repeated live destination checks returned ERR_HTTP2_PROTOCOL_ERROR; excluded from completed additions until the official site is reliably reachable."},
     {"name":"Pool Giant LLC","reason":"Current local residential pool-service evidence exists, but the provider's website link resolves only to Facebook; no qualifying official provider-owned website was verified."},
     {"name":"Port City Pools","reason":"Official site supports residential pool service but does not name an active catalog city or an exact service area supporting a placement."},
     {"name":"850 Garage Doors LLC","reason":"Local residential service was found only on a prohibited directory profile; no working provider-owned official website was verified."},

@@ -10,18 +10,16 @@
 ## Validated additions
 
 - Panama City pool service: Aardvark Lawn & Pool Services and Gulfside Pool Service LLC.
-- Panama City marine services: Florida Inboards.
 - Panama City Beach pool service: Kelly's Clear Pools.
 
-This batch contains **4 distinct new businesses**, **4 new-business placements**, and **0 existing-business placements**. The exact shortfall against the 1,000-new-business target is **996**.
+This corrected batch contains **3 distinct new businesses**, **3 new-business placements**, and **0 existing-business placements**. The exact shortfall against the 1,000-new-business target is **997**. Florida Inboards was removed after repeated live destination checks returned an HTTP/2 protocol error.
 
 ## Generated coverage
 
-The validated generated directory contains 14,701 placements and 3,914 profiles. Displayed coverage is 238 pages at 20+, 882 below 20 and 0 empty; displayed deficit changes from 9,602 to 9,598.
+The corrected generated directory contains 14,700 placements and 3,913 profiles. Displayed coverage is 238 pages at 20+, 882 below 20 and 0 empty; displayed deficit changes from 9,602 to 9,599.
 
 | City/category | Before | Generated | Added | Remaining deficit |
 |---|---:|---:|---:|---:|
-| Panama City marine services | 16 | 17 | 1 | 3 |
 | Panama City pool service | 17 | 19 | 2 | 1 |
 | Panama City Beach pool service | 19 | 20 | 1 | 0 |
 
