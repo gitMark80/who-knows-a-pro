@@ -4,16 +4,16 @@
   "baselinePlacements": 14669,
   "baselineProfiles": 3899,
   "targetDistinctNewBusinesses": 1000,
-  "status": "prepared_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "publication": {
-    "dataCommit": null,
-    "deploymentId": null,
-    "deploymentState": "pending",
-    "productionDomainVerifiedAt": null,
-    "distinctNewBusinesses": 0,
-    "newBusinessPlacements": 0,
+    "dataCommit": "c3d3355c76f50e5b28afab89099c47c7ccbcdf0b",
+    "deploymentId": "dpl_Ce87oB88T65uB2CoKyLPKjEBQHfy",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-17T11:09:00Z",
+    "distinctNewBusinesses": 4,
+    "newBusinessPlacements": 15,
     "existingBusinessPlacements": 0,
-    "targetShortfall": 1000
+    "targetShortfall": 996
   },
   "records": [
     {

@@ -7,20 +7,20 @@
 - Current catalog: 40 active cities, 28 visible categories and 12 hidden categories, producing 1,120 public city/category pages. Grayton Beach is active; Pensacola Beach is absent. No catalog state changed.
 - No concurrent fill or build process was found before work began.
 
-## Prepared additions
+## Published additions
 
 - Bed Bugs & Beyond: pest-control placements for Foley, Gulf Shores and Orange Beach.
 - Hilbun Pest Control: pest-control placements for Foley, Gulf Shores and Orange Beach.
 - Southern Target: pest-control and landscaping placements for Mobile, Foley, Gulf Shores and Orange Beach.
 - Bond Pest Control LLC: pest-control placement for Orange Beach.
 
-This is **4 distinct new businesses** and **15 new-business placements**, with **0 existing-business placements**. Before publication and live verification these remain prepared, not completed; the completed count is still zero and the provisional shortfall against the 1,000-new-business target is 1,000.
+This is **4 distinct new businesses published and live-verified**, **15 new-business placements**, and **0 existing-business placements**. The exact shortfall against the 1,000-new-business target is **996**.
 
-## Prepared coverage
+## Coverage
 
-If publication passes, the directory will contain 14,684 placements and 3,903 profiles. Displayed coverage remains 236 pages at 20+, 884 below 20 and 0 empty; the displayed deficit changes from 9,630 to 9,615. The affected counts are:
+The live directory contains 14,684 placements and 3,903 profiles. Displayed coverage remains 236 pages at 20+, 884 below 20 and 0 empty; the displayed deficit changed from 9,630 to 9,615. The affected counts are:
 
-| City/category | Before | Prepared | Added |
+| City/category | Before | Live | Added |
 |---|---:|---:|---:|
 | Mobile pest control | 12 | 13 | 1 |
 | Mobile landscaping | 12 | 13 | 1 |
@@ -43,4 +43,4 @@ The historical Hometown Garage Doors and Hometown Garage Doors LLC main slugs sh
 
 ## Publication state
 
-Publication, deployment and live verification are pending. Before publishing, re-read `main`, reconcile any concurrent changes, run JSON/schema/type/lint/build and exclusion checks, then verify every affected live page and each official destination. Until that succeeds, the additions must not be counted as completed.
+Data commit `c3d3355c76f50e5b28afab89099c47c7ccbcdf0b` deployed READY as `dpl_Ce87oB88T65uB2CoKyLPKjEBQHfy`. Production verification at `2026-11-17T11:09:00Z` confirmed all 15 placements on the eight affected pages, exact displayed counts, and working identity-matched final destinations for all four official websites. Nothing is awaiting deployment or live verification.

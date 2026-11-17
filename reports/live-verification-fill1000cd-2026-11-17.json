@@ -1,0 +1,44 @@
+{
+  "run": "fill1000cd",
+  "verifiedAt": "2026-11-17T11:09:00Z",
+  "baselineCommit": "940b15b8079738b4f64716f06d2c0137556de369",
+  "dataCommit": "c3d3355c76f50e5b28afab89099c47c7ccbcdf0b",
+  "deploymentId": "dpl_Ce87oB88T65uB2CoKyLPKjEBQHfy",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 4,
+    "newBusinessPlacements": 15,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 996
+  },
+  "pages": [
+    {"url":"https://whoknowsapro.com/foley-al/pest-control","displayedBusinesses":7,"verifiedNewListings":["Bed Bugs & Beyond","Hilbun Pest Control","Southern Target"]},
+    {"url":"https://whoknowsapro.com/gulf-shores-al/pest-control","displayedBusinesses":7,"verifiedNewListings":["Bed Bugs & Beyond","Hilbun Pest Control","Southern Target"]},
+    {"url":"https://whoknowsapro.com/orange-beach-al/pest-control","displayedBusinesses":15,"verifiedNewListings":["Bed Bugs & Beyond","Hilbun Pest Control","Southern Target","Bond Pest Control, LLC"]},
+    {"url":"https://whoknowsapro.com/mobile-al/pest-control","displayedBusinesses":13,"verifiedNewListings":["Southern Target"]},
+    {"url":"https://whoknowsapro.com/foley-al/landscaping","displayedBusinesses":6,"verifiedNewListings":["Southern Target"]},
+    {"url":"https://whoknowsapro.com/gulf-shores-al/landscaping","displayedBusinesses":6,"verifiedNewListings":["Southern Target"]},
+    {"url":"https://whoknowsapro.com/orange-beach-al/landscaping","displayedBusinesses":19,"verifiedNewListings":["Southern Target"]},
+    {"url":"https://whoknowsapro.com/mobile-al/landscaping","displayedBusinesses":13,"verifiedNewListings":["Southern Target"]}
+  ],
+  "officialWebsiteFinalDestinations": [
+    {"name":"Bed Bugs & Beyond","requested":"https://bedbugsandbeyond.net/","final":"https://bedbugsandbeyond.net/","observedTitle":"Pest Control in Baldwin County, AL | Bed Bugs & Beyond","identityMatch":true,"working":true},
+    {"name":"Hilbun Pest Control","requested":"https://www.hilbunpestservices.com/","final":"https://www.hilbunpestservices.com/","observedTitle":"Hilbun Pest Control | Pest, Termite, Mosquito & Rodent Control","identityMatch":true,"working":true},
+    {"name":"Southern Target","requested":"https://www.southerntarget.com/","final":"https://www.southerntarget.com/","observedTitle":"Pest Control & Lawn Care in Mobile & Baldwin County | Southern Target","identityMatch":true,"working":true},
+    {"name":"Bond Pest Control, LLC","requested":"https://bondpestcontrol.com/","final":"https://bondpestcontrol.com/","observedTitle":"Bed Bug Heat Treatment - Bond Pest Control, LLC","identityMatch":true,"working":true}
+  ],
+  "coverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "displayedPagesAt20Plus": 236,
+    "displayedPagesBelow20": 884,
+    "displayedEmptyPages": 0,
+    "displayedRemainingDeficit": 9615,
+    "displayedPlacements": 14684,
+    "displayedProfiles": 3903,
+    "evidenceBackedSitewideCompletion": "unknown"
+  },
+  "awaitingDeploymentOrLiveVerification": 0
+}
