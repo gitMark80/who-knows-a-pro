@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-11-17T11:02:37.545Z",
+  "baselineCommit": "940b15b8079738b4f64716f06d2c0137556de369",
+  "baselinePlacements": 14669,
+  "baselineProfiles": 3899,
+  "generatedPlacements": 14684,
+  "generatedProfiles": 3903,
+  "distinctNewBusinesses": 4,
+  "newBusinessPlacements": 15,
+  "existingBusinessPlacements": 0,
+  "suppressedNationalPlacements": 0,
+  "researchedCandidates": 24,
+  "pendingCandidates": 9,
+  "targetShortfall": 996,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 236,
+    "pagesBelow20": 884,
+    "emptyPages": 0,
+    "displayedDeficit": 9615
+  },
+  "assertions": [
+    {
+      "name": "catalog is current",
+      "pass": true,
+      "detail": "40 active cities, 28 visible and 12 hidden categories"
+    },
+    {
+      "name": "public page count",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "fixed-baseline identities are new",
+      "pass": true,
+      "detail": "no baseline source matches"
+    },
+    {
+      "name": "bedbugsandbeyond.net has only supported placements",
+      "pass": true,
+      "detail": "[\"foley-al|pest-control\",\"gulf-shores-al|pest-control\",\"orange-beach-al|pest-control\"]"
+    },
+    {
+      "name": "hilbunpestservices.com has only supported placements",
+      "pass": true,
+      "detail": "[\"foley-al|pest-control\",\"gulf-shores-al|pest-control\",\"orange-beach-al|pest-control\"]"
+    },
+    {
+      "name": "southerntarget.com has only supported placements",
+      "pass": true,
+      "detail": "[\"foley-al|landscaping\",\"foley-al|pest-control\",\"gulf-shores-al|landscaping\",\"gulf-shores-al|pest-control\",\"mobile-al|landscaping\",\"mobile-al|pest-control\",\"orange-beach-al|landscaping\",\"orange-beach-al|pest-control\"]"
+    },
+    {
+      "name": "bondpestcontrol.com has only supported placements",
+      "pass": true,
+      "detail": "[\"orange-beach-al|pest-control\"]"
+    },
+    {
+      "name": "new placement total",
+      "pass": true,
+      "detail": "14684 placements"
+    },
+    {
+      "name": "new profile total",
+      "pass": true,
+      "detail": "3903 profiles"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    },
+    {
+      "name": "historical Hometown identity variants retained for review",
+      "pass": true,
+      "detail": "two historical main slugs share one official domain; no deletion or visibility change"
+    }
+  ],
+  "status": "pass"
+}

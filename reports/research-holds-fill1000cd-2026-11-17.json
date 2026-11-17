@@ -1,0 +1,27 @@
+{
+  "run": "fill1000cd",
+  "checkedAt": "2026-11-17T11:00:00Z",
+  "researchedCandidates": 24,
+  "pending": [
+    {"name":"Vettes Unlimited","reason":"Active local Crestview identity and auto-body service were corroborated, but its apparent official domain was not working or retrievable."},
+    {"name":"Kingsbury Auto Body","reason":"Local Panama City collision evidence exists, but a working official business website was not verified."},
+    {"name":"Bumpers Etc.","reason":"Directory results identify mobile collision work, but no qualifying official business site was found."},
+    {"name":"Clark's Auto Paint & Body","reason":"Local identity evidence exists, but no qualifying official business site was found."},
+    {"name":"Freeman Collision","reason":"A chamber profile supports Foley collision work, but no working official provider-owned site was verified."},
+    {"name":"A+ Dent Medic","reason":"Official service is paintless dent repair; the evidence remains narrower than the auto-body/collision category."},
+    {"name":"DentCraft Pro","reason":"Official service is mobile paintless dent repair; the evidence remains narrower than the auto-body/collision category."},
+    {"name":"Distributor Appliance Parts","reason":"Third-party results identify a local Fort Walton Beach service company, but a working official provider-owned site was not verified."},
+    {"name":"Whiting Pool & Spa","reason":"Residential pool service appeared only on a contractor-matching profile; no working official provider-owned site was verified."}
+  ],
+  "rejected": [
+    {"name":"Classic Collision, Gerber Collision, Caliber Collision, Crash Champions and ASP candidates","reason":"Large national brands or franchises are outside Mark's local/regional-only policy."},
+    {"name":"Retail Fix It","reason":"Commercial maintenance/vendor network, not a verified local residential provider; source retained and public suppression unchanged."}
+  ],
+  "existingCandidates": [
+    {"name":"Parker Septic, Superior Septic Sewer, Parrish Land Management, SWAT Pest Control, Arrow Pest Service, FNF Pools, Panama Pools & Spas, Hometown Garage Doors and People 1st Home Services","reason":"Qualifying results already existed at the fixed baseline and were not counted again."}
+  ],
+  "historicalFlags": [
+    {"identity":"Hometown Garage Doors / Hometown Garage Doors LLC","reason":"Two historical main slugs share hometowngaragenwfl.com and appear to be one provider identity. They do not coexist on a single city/category page, but sitewide identity totals should not treat them as separate companies until reconciled. No source row was deleted or hidden."},
+    {"identity":"Retail Fix It","reason":"Historical commercial facility-maintenance/vendor network remains suppressed and excluded from qualifying counts."}
+  ]
+}
