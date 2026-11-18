@@ -1,9 +1,9 @@
 {
   "checkedAt": "2026-11-18T16:52:48Z",
   "records": [
-    {"business": "BeachFront Lawn Care", "url": "https://beachfrontlawncare.com/", "httpStatus": 200, "result": "working_official_identity_service_locality_match"},
-    {"business": "Daniel's Tree & Land Services", "url": "https://www.danielstreeandland.com/", "httpStatus": 200, "result": "working_official_identity_service_locality_match"},
-    {"business": "Greater Grounds Landscaping & Lawn Services", "url": "https://www.msgreatergrounds.com/", "httpStatus": 200, "result": "working_official_identity_service_locality_match"},
+    {"business": "BeachFront Lawn Care", "url": "https://beachfrontlawncare.com/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Daniel's Tree & Land Services", "url": "https://www.danielstreeandland.com/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Greater Grounds Landscaping & Lawn Services", "url": "https://www.msgreatergrounds.com/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
     {"business": "Retail Fix It", "url": "https://retailfixit.com/", "result": "historical_hold_intermediary_commercial_and_publicly_suppressed"}
   ]
 }
