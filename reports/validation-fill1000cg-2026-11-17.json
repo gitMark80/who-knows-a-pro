@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-18T05:20:00Z",
+  "baselineCommit": "b92bfd2f2a7a58db44d6b4406d8946f08e4786a5",
+  "baselinePlacements": 14700,
+  "baselineProfiles": 3913,
+  "generatedPlacements": 14703,
+  "generatedProfiles": 3916,
+  "distinctNewBusinesses": 3,
+  "newBusinessPlacements": 3,
+  "existingBusinessPlacements": 0,
+  "suppressedNationalPlacements": 0,
+  "researchedCandidates": 33,
+  "pendingCandidates": 7,
+  "targetShortfall": 997,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 240,
+    "pagesBelow20": 880,
+    "emptyPages": 0,
+    "displayedDeficit": 9596
+  },
+  "assertions": [
+    {"name":"catalog is current","pass":true,"detail":"40 active cities, 28 visible and 12 hidden categories; Grayton Beach active and Pensacola Beach absent"},
+    {"name":"public page count","pass":true,"detail":"1120 pages"},
+    {"name":"fixed-baseline identities are new","pass":true,"detail":"three normalized domains and identities absent from 14700 baseline placements"},
+    {"name":"new placements are underfilled only","pass":true,"detail":"Destin marine was 18 and Fort Walton Beach marine was 19 at baseline"},
+    {"name":"Destin marine stopped at target","pass":true,"detail":"20 distinct rendered identities"},
+    {"name":"Fort Walton Beach marine stopped at target","pass":true,"detail":"20 distinct rendered identities"},
+    {"name":"all configured exclusions hold","pass":true,"detail":"zero excluded-domain placements"},
+    {"name":"TypeScript","pass":true,"detail":"npx tsc --noEmit"},
+    {"name":"production build","pass":true,"detail":"Next.js webpack build completed successfully"}
+  ],
+  "status": "pass"
+}

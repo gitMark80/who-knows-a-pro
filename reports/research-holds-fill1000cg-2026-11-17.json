@@ -1,0 +1,15 @@
+{
+  "run": "fill1000cg",
+  "researchedCandidates": 33,
+  "publishedCandidates": 3,
+  "pendingOrRejectedCandidates": 7,
+  "holds": [
+    {"name":"Veteran Septic and Site Construction","website":"https://veteranseptic.net/","status":"pending_placement_evidence","reason":"The official site now works and supports septic installation and repair, but it does not explicitly establish Panama City service coverage or residential customers; licensing records alone do not establish both."},
+    {"name":"Helmer Pools","website":"https://helmerpoolsinc.com/","status":"pending_geographic_evidence","reason":"The official site supports local residential pool construction but does not explicitly name a qualifying active-city service area in body text."},
+    {"name":"Precision Auto Body Inc.","status":"pending_official_website","reason":"A local Crestview collision provider was identified, but only third-party profiles were verified; no working official company website was established."},
+    {"name":"Wreck-A-Mended Collision Center","status":"pending_official_website","reason":"Local profiles identify a Panama City provider, but no working official company website was verified."},
+    {"name":"A J's Service Marine","status":"pending_official_website","reason":"A local Destin marine provider was identified, but the search result resolved only to a third-party listing rather than a verified official site."},
+    {"name":"Panhandle Marine","website":"http://panhandlemarinepartsandservice.com/","status":"pending_working_official_website","reason":"Third-party sources identify a local Fort Walton Beach repair shop, but a working identity-matched official destination was not verified."},
+    {"name":"Islander Dive Service LLC dba Powr Scrub of Destin","website":"https://islanderdiveservice.jobbersites.com/","status":"not_published_target_reached","reason":"Official hosted site supports Destin marine maintenance, but the Destin marine page reached 20 using two stronger new identities before this candidate was needed."}
+  ]
+}

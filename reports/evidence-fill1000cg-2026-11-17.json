@@ -1,0 +1,53 @@
+{
+  "run": "fill1000cg",
+  "baselineCommit": "b92bfd2f2a7a58db44d6b4406d8946f08e4786a5",
+  "baselinePlacements": 14700,
+  "baselineProfiles": 3913,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "validated_awaiting_publication",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": "not_started",
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 0,
+    "newBusinessPlacements": 0,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 1000
+  },
+  "records": [
+    {
+      "domain": "compuprop1.com",
+      "business": "CompuProp",
+      "placements": ["fort-walton-beach-fl|marine-services"],
+      "sourceUrls": ["https://www.compuprop1.com/", "https://www.compuprop1.com/contact-us/4512213", "https://www.compuprop1.com/propeller-repairs/4512210"],
+      "serviceEvidence": "Official site documents in-house boat-propeller repair, scanning, tuning and replacement.",
+      "geographicEvidence": "Official contact page lists 611 Lovejoy Road, Fort Walton Beach, Florida 32548.",
+      "localRegionalEvidence": "Official site identifies a locally owned operation serving the marine industry since 2003.",
+      "duplicateCheck": "Normalized name and compuprop1.com domain were absent from all 14,700 fixed-baseline placements.",
+      "verifiedAt": "2026-11-18T05:15:00Z"
+    },
+    {
+      "domain": "destinboatcare.com",
+      "business": "Destin Boat Care",
+      "placements": ["destin-fl|marine-services"],
+      "sourceUrls": ["https://www.destinboatcare.com/", "https://www.destinboatcare.com/about"],
+      "serviceEvidence": "Official site offers boat detailing, restoration, cleaning and protective maintenance directly to boat owners.",
+      "geographicEvidence": "Official business identity and service pages identify Destin Boat Care and a Destin operation.",
+      "localRegionalEvidence": "Official about page identifies an owner-led, locally owned company established in 2015.",
+      "duplicateCheck": "Normalized name and destinboatcare.com domain were absent from all 14,700 fixed-baseline placements.",
+      "verifiedAt": "2026-11-18T05:15:00Z"
+    },
+    {
+      "domain": "theshipschandler.com",
+      "business": "The Ship's Chandler",
+      "placements": ["destin-fl|marine-services"],
+      "sourceUrls": ["https://theshipschandler.com/", "https://theshipschandler.com/boat-motor-parts-service/"],
+      "serviceEvidence": "Official service-department page documents boat and outboard maintenance, repair, warranty work and customizations.",
+      "geographicEvidence": "Official page lists the service operation at 646 Harbor Boulevard, Destin, Florida 32541.",
+      "localRegionalEvidence": "Official site documents a two-location Destin/Freeport regional business operating since 1980.",
+      "duplicateCheck": "The business had been researched historically, but its normalized identity and theshipschandler.com domain were absent from all 14,700 fixed-baseline placements.",
+      "verifiedAt": "2026-11-18T05:15:00Z"
+    }
+  ]
+}

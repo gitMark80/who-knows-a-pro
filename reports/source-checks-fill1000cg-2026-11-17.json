@@ -1,0 +1,13 @@
+{
+  "run": "fill1000cg",
+  "checkedAt": "2026-11-18T05:15:00Z",
+  "checks": [
+    {"domain":"compuprop1.com","status":"pass_official_identity_service_and_city_match"},
+    {"domain":"destinboatcare.com","status":"pass_official_identity_service_and_city_match"},
+    {"domain":"theshipschandler.com","status":"pass_official_identity_service_and_city_match"},
+    {"domain":"retailfixit.com","status":"historical_hold_intermediary_commercial_and_publicly_suppressed"},
+    {"domain":"asppoolco.com","status":"rejected_national_franchise"},
+    {"domain":"gerbercollision.com","status":"rejected_national_brand"},
+    {"domain":"classiccollision.com","status":"rejected_national_brand_and_publicly_suppressed"}
+  ]
+}
