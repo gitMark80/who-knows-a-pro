@@ -1,17 +1,17 @@
 {
   "checkedAt": "2026-11-18T23:00:32Z",
   "records": [
-    {"business": "Flooring Dunn Right", "url": "https://www.flooringdunnright.com/about-us", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
+    {"business": "Flooring Dunn Right", "url": "https://www.flooringdunnright.com/about-us", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
     {"business": "Kemp's Construction & Lawn Care", "url": "https://concretecontractorgulfport.com/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
     {"business": "Kemp's Construction & Lawn Care", "url": "https://kempsconstructionlawncare.com/", "httpStatus": 200, "finalUrl": "https://kempsconstructionlawncare.com/lander", "result": "rejected_alternate_domain_generic_landing_page_not_public_destination"},
-    {"business": "All-Day Construction, LLC", "url": "https://www.alldayconstructionllc.com/about", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "Danny Miller Plumbing", "url": "https://www.dannymillerplumbing.com/service-areas/", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "CJ's Plumbing Repair", "url": "https://cjsplumbingrepair.com/", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "A Royal Flush Plumbing", "url": "https://arfplumbing.com/faq/", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "Wales Wilson Plumbing, LLC", "url": "https://waleswilsonplumbingllc.com/", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "Tillman's Services", "url": "https://tillmansheatingandair.com/locations/", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "Reliance Mechanical", "url": "https://relyonreliance.com/service-area", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
-    {"business": "Teddy Bear Services", "url": "https://www.teddybearservices.com/plumbing-services", "httpStatus": 200, "result": "pass_official_identity_service_locality_match"},
+    {"business": "All-Day Construction, LLC", "url": "https://www.alldayconstructionllc.com/about", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Danny Miller Plumbing", "url": "https://www.dannymillerplumbing.com/service-areas/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "CJ's Plumbing Repair", "url": "https://cjsplumbingrepair.com/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "A Royal Flush Plumbing", "url": "https://arfplumbing.com/faq/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Wales Wilson Plumbing, LLC", "url": "https://waleswilsonplumbingllc.com/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Tillman's Services", "url": "https://tillmansheatingandair.com/locations/", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Reliance Mechanical", "url": "https://relyonreliance.com/service-area", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
+    {"business": "Teddy Bear Services", "url": "https://www.teddybearservices.com/plumbing-services", "httpStatus": 200, "result": "pass_live_official_identity_service_locality_match"},
     {"business": "Retail Fix It", "url": "https://retailfixit.com/", "result": "historical_hold_intermediary_commercial_and_publicly_suppressed"}
   ]
 }

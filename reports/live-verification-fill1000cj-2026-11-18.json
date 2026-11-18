@@ -1,0 +1,39 @@
+{
+  "run": "fill1000cj",
+  "checkedAt": "2026-11-18T23:08:23Z",
+  "baselineCommit": "f07585bfe57e40dee6c40563ba6ea0d1d2d6e2b4",
+  "initialDataCommit": "13fefce9cda5d8e5249e94ade8f2060935177b91",
+  "finalDataCommit": "ea9785cb13377bb1f9b319ac0f6625fe76ed300a",
+  "deploymentId": "dpl_HV8CCEgJTL9zU7j3wbsf1Ce7bnxa",
+  "deploymentState": "READY",
+  "pages": [
+    {"url": "https://whoknowsapro.com/biloxi-ms/flooring", "displayedBusinesses": 5, "verifiedListings": ["Flooring Dunn Right"]},
+    {"url": "https://whoknowsapro.com/gulfport-ms/flooring", "displayedBusinesses": 4, "verifiedListings": ["All-Day Construction, LLC"]},
+    {"url": "https://whoknowsapro.com/gulfport-ms/concrete", "displayedBusinesses": 6, "verifiedListings": ["Kemp's Construction & Lawn Care", "All-Day Construction, LLC"]},
+    {"url": "https://whoknowsapro.com/biloxi-ms/plumbing", "displayedBusinesses": 11, "verifiedListings": ["Danny Miller Plumbing", "CJ's Plumbing Repair", "A Royal Flush Plumbing", "Wales Wilson Plumbing, LLC", "Tillman's Services", "Reliance Mechanical", "Teddy Bear Services"]},
+    {"url": "https://whoknowsapro.com/gulfport-ms/plumbing", "displayedBusinesses": 11, "verifiedListings": ["Danny Miller Plumbing", "CJ's Plumbing Repair", "A Royal Flush Plumbing", "Wales Wilson Plumbing, LLC", "Tillman's Services", "Reliance Mechanical", "Teddy Bear Services"]},
+    {"url": "https://whoknowsapro.com/biloxi-ms/hvac", "displayedBusinesses": 9, "verifiedListings": ["Tillman's Services"]},
+    {"url": "https://whoknowsapro.com/gulfport-ms/hvac", "displayedBusinesses": 8, "verifiedListings": ["Tillman's Services"]},
+    {"url": "https://whoknowsapro.com/biloxi-ms/electrical", "displayedBusinesses": 8, "verifiedListings": ["Tillman's Services", "Reliance Mechanical"]},
+    {"url": "https://whoknowsapro.com/gulfport-ms/electrical", "displayedBusinesses": 7, "verifiedListings": ["Tillman's Services", "Reliance Mechanical"]}
+  ],
+  "officialWebsites": [
+    {"business": "Flooring Dunn Right", "finalUrl": "https://www.flooringdunnright.com/", "working": true, "identityMatch": true},
+    {"business": "Kemp's Construction & Lawn Care", "finalUrl": "https://concretecontractorgulfport.com/", "working": true, "identityMatch": true},
+    {"business": "All-Day Construction, LLC", "finalUrl": "https://www.alldayconstructionllc.com/", "working": true, "identityMatch": true},
+    {"business": "Danny Miller Plumbing", "finalUrl": "https://www.dannymillerplumbing.com/", "working": true, "identityMatch": true},
+    {"business": "CJ's Plumbing Repair", "finalUrl": "https://cjsplumbingrepair.com/", "working": true, "identityMatch": true},
+    {"business": "A Royal Flush Plumbing", "finalUrl": "https://arfplumbing.com/", "working": true, "identityMatch": true},
+    {"business": "Wales Wilson Plumbing, LLC", "finalUrl": "https://waleswilsonplumbingllc.com/", "working": true, "identityMatch": true},
+    {"business": "Tillman's Services", "finalUrl": "https://tillmansheatingandair.com/", "working": true, "identityMatch": true},
+    {"business": "Reliance Mechanical", "finalUrl": "https://relyonreliance.com/", "working": true, "identityMatch": true},
+    {"business": "Teddy Bear Services", "finalUrl": "https://www.teddybearservices.com/", "working": true, "identityMatch": true}
+  ],
+  "completed": {
+    "distinctNewBusinessesPublishedAndLiveVerified": 8,
+    "newBusinessPlacementsPublishedAndLiveVerified": 18,
+    "existingBusinessPlacementsPublishedAndLiveVerified": 6,
+    "targetShortfall": 992
+  },
+  "awaiting": {"distinctNewBusinesses": 0, "placements": 0, "reason": null}
+}
