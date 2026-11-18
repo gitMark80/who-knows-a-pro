@@ -10,7 +10,7 @@ const baselineProfiles = 3919;
 const domain = (value) => new URL(value).hostname.toLowerCase().replace(/^www\./, '');
 const newDomains = [
   'flooringdunnright.com',
-  'kempsconstructionlawncare.com',
+  'concretecontractorgulfport.com',
   'alldayconstructionllc.com',
   'dannymillerplumbing.com',
   'cjsplumbingrepair.com',
@@ -20,7 +20,7 @@ const newDomains = [
 ];
 const expectedPlacements = new Map([
   ['flooringdunnright.com', ['biloxi-ms|flooring']],
-  ['kempsconstructionlawncare.com', ['gulfport-ms|concrete']],
+  ['concretecontractorgulfport.com', ['gulfport-ms|concrete']],
   ['alldayconstructionllc.com', ['gulfport-ms|concrete', 'gulfport-ms|flooring']],
   ['dannymillerplumbing.com', ['biloxi-ms|plumbing', 'gulfport-ms|plumbing']],
   ['cjsplumbingrepair.com', ['biloxi-ms|plumbing', 'gulfport-ms|plumbing']],
