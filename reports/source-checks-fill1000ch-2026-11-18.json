@@ -4,14 +4,14 @@
     {
       "business": "Florida Inboards",
       "url": "http://www.floridainboards.com/",
-      "result": "working_official_identity_match",
-      "observed": "Official homepage identifies a family-owned boat-repair business conveniently located in Panama City, Florida."
+      "result": "pass_live_official_identity_match",
+      "observed": "Working official HTTP endpoint returned 200 and identifies a family-owned boat-repair business conveniently located in Panama City, Florida. The provider's HTTPS endpoint currently fails and is not used by the directory."
     },
     {
       "business": "Florida Inboards",
       "url": "http://www.floridainboards.com/about-us.html",
-      "result": "working_official_service_and_locality_evidence",
-      "observed": "Official about page documents direct inboard-boat repair, hull/fiberglass/gelcoat work and detailing, and identifies a family-owned Panama City operation."
+      "result": "pass_live_official_service_and_locality_evidence",
+      "observed": "Working official HTTP about page returned 200, documents direct inboard-boat repair, hull/fiberglass/gelcoat work and detailing, and identifies a family-owned Panama City operation."
     },
     {
       "business": "Retail Fix It",

@@ -29,4 +29,4 @@ Thirty-three distinct candidate identities were examined across the lowest gaps 
 
 ## Validation and publication state
 
-Data/schema, catalog slugs, normalized identity/domain deduplication, exclusion handling, TypeScript and production-build checks are recorded separately. Data commit `3515d9e9dc8f1065644b0d21da29033fd57e2e4a` deployed successfully as `dpl_13HbEbCVG8pGqK6NLN6Q6hN6gYnS`; the live directory showed 17 businesses and Florida Inboards once. The first deployment used the provider's failing HTTPS endpoint. A follow-up changes the listing and evidence links to its working official HTTP endpoint before final live verification.
+Data/schema, catalog slugs, normalized identity/domain deduplication, exclusion handling, TypeScript and production-build checks are recorded separately. Final data commit `f1342b50b89bfa3446162d752a9b42cc0e0011cb` deployed successfully as `dpl_7LnNtzpe6TsDf4bHnBjHY7eVrtbm`. The live directory showed 17 businesses and Florida Inboards once. Its corrected official HTTP endpoint returned 200 and rendered the intended Florida Inboards site; the provider's failing HTTPS endpoint is not used by the directory.
