@@ -1,0 +1,130 @@
+{
+  "run": "fill1000cj",
+  "baselineCommit": "f07585bfe57e40dee6c40563ba6ea0d1d2d6e2b4",
+  "baselinePlacements": 14709,
+  "baselineProfiles": 3919,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "validated_awaiting_publication",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": null,
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 8,
+    "newBusinessPlacements": 18,
+    "existingBusinessPlacements": 6,
+    "targetShortfall": 992
+  },
+  "records": [
+    {
+      "domain": "flooringdunnright.com",
+      "business": "Flooring Dunn Right",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|flooring"],
+      "sourceUrls": ["https://www.flooringdunnright.com/", "https://www.flooringdunnright.com/about-us"],
+      "serviceEvidence": "Official site documents in-home flooring projects, free in-home estimates and work from ideas through project completion.",
+      "geographicEvidence": "Official site gives a Biloxi showroom address and identifies Jamie Dunn as a Biloxi owner.",
+      "localRegionalEvidence": "Official site states the company is locally owned and has floored the Gulf Coast for more than 20 years.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "kempsconstructionlawncare.com",
+      "business": "Kemp's Construction & Lawn Care",
+      "baselineIdentity": false,
+      "placements": ["gulfport-ms|concrete"],
+      "sourceUrls": ["https://kempsconstructionlawncare.com/", "https://concretecontractorgulfport.com/about_us"],
+      "serviceEvidence": "Official sites document residential driveway, patio, sidewalk, pathway and decorative-concrete installation.",
+      "geographicEvidence": "Official concrete site states the family business is based in and proudly serves Gulfport.",
+      "localRegionalEvidence": "Official site describes a licensed, family-owned Gulfport contractor with more than 25 years of experience.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "alldayconstructionllc.com",
+      "business": "All-Day Construction, LLC",
+      "baselineIdentity": false,
+      "placements": ["gulfport-ms|concrete", "gulfport-ms|flooring"],
+      "sourceUrls": ["https://www.alldayconstructionllc.com/", "https://www.alldayconstructionllc.com/about", "https://www.alldayconstructionllc.com/contact"],
+      "serviceEvidence": "Official site offers indoor flooring, stained concrete, patios, pool decks, walkways and driveways for homes and businesses.",
+      "geographicEvidence": "Official site identifies the business and showroom in Gulfport and states it serves the Mississippi Gulf Coast.",
+      "localRegionalEvidence": "Official site names local founder Robert Davis and says he founded the business in 2012.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "dannymillerplumbing.com",
+      "business": "Danny Miller Plumbing",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing"],
+      "sourceUrls": ["https://www.dannymillerplumbing.com/", "https://www.dannymillerplumbing.com/residential-services/", "https://www.dannymillerplumbing.com/service-areas/"],
+      "serviceEvidence": "Official site documents residential plumbing repairs performed in customers' homes.",
+      "geographicEvidence": "Official service-area page explicitly names both Gulfport and Biloxi.",
+      "localRegionalEvidence": "Official site identifies a family-owned Gulfport company with a long-serving local team.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "cjsplumbingrepair.com",
+      "business": "CJ's Plumbing Repair",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing"],
+      "sourceUrls": ["https://cjsplumbingrepair.com/"],
+      "serviceEvidence": "Official site addresses homeowners and documents direct leak, drain, water-heater and full-system plumbing work.",
+      "geographicEvidence": "Official site explicitly names Gulfport and Biloxi in its service area.",
+      "localRegionalEvidence": "Official site identifies CJ's as locally owned and operated on the Mississippi Gulf Coast.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "arfplumbing.com",
+      "business": "A Royal Flush Plumbing",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing"],
+      "sourceUrls": ["https://arfplumbing.com/", "https://arfplumbing.com/faq/", "https://arfplumbing.com/privacy/"],
+      "serviceEvidence": "Official site documents licensed residential plumbing, repair and emergency service.",
+      "geographicEvidence": "Official FAQ names Gulfport and Biloxi; the company privacy page gives its Gulfport address.",
+      "localRegionalEvidence": "Official site identifies a family-owned Gulf Coast plumbing company operating since 1995.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "waleswilsonplumbingllc.com",
+      "business": "Wales Wilson Plumbing, LLC",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing"],
+      "sourceUrls": ["https://waleswilsonplumbingllc.com/"],
+      "serviceEvidence": "Official site documents licensed residential drain, water-heater, leak, fixture and emergency plumbing services.",
+      "geographicEvidence": "Official site explicitly names Biloxi and Gulfport in its service area.",
+      "localRegionalEvidence": "Official site identifies a local licensed Vancleave LLC serving Jackson and Harrison counties.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "tillmansheatingandair.com",
+      "business": "Tillman's Services",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing", "biloxi-ms|hvac", "gulfport-ms|hvac", "biloxi-ms|electrical", "gulfport-ms|electrical"],
+      "sourceUrls": ["https://tillmansheatingandair.com/", "https://tillmansheatingandair.com/locations/", "https://tillmansheatingandair.com/services/"],
+      "serviceEvidence": "Official site documents residential HVAC, plumbing and electrical service for homeowners.",
+      "geographicEvidence": "Official location and service pages explicitly document all three services in both Biloxi and Gulfport.",
+      "localRegionalEvidence": "Official site names founder Lucas Tillman and describes a local family-owned business operating since 1990.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "relyonreliance.com",
+      "business": "Reliance Mechanical",
+      "baselineIdentity": true,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing", "biloxi-ms|electrical", "gulfport-ms|electrical"],
+      "sourceUrls": ["https://relyonreliance.com/", "https://relyonreliance.com/service-area"],
+      "serviceEvidence": "Official site documents residential plumbing and electrical work for homes.",
+      "geographicEvidence": "Official service-area page explicitly names Gulfport and Biloxi for the locally dispatched crew.",
+      "localRegionalEvidence": "Official site identifies a locally owned, family-operated Gulfport business.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    },
+    {
+      "domain": "teddybearservices.com",
+      "business": "Teddy Bear Services",
+      "baselineIdentity": true,
+      "placements": ["biloxi-ms|plumbing", "gulfport-ms|plumbing"],
+      "sourceUrls": ["https://www.teddybearservices.com/plumbing-services"],
+      "serviceEvidence": "Official page explicitly documents licensed residential plumbing repairs, water heaters, disposals, leaks and drains.",
+      "geographicEvidence": "The same official plumbing page explicitly names Biloxi and Gulfport.",
+      "localRegionalEvidence": "Official site identifies a locally owned South Mississippi provider operating for more than four decades.",
+      "verifiedAt": "2026-11-18T23:00:32Z"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "run": "fill1000cj",
+  "baselineCommit": "f07585bfe57e40dee6c40563ba6ea0d1d2d6e2b4",
+  "researchedDistinctIdentities": 27,
+  "publishedNewBusinesses": 8,
+  "publishedExistingBusinessIdentities": 2,
+  "alreadyInBaselineNoNewPlacement": 9,
+  "pendingOrRejected": 8,
+  "priorityResearchResult": "Fresh searches of the lowest Destin, Fort Walton Beach, Crestview and Panama City gaps again produced only fixed-baseline identities, national brands, or candidates without sufficient official identity and exact-city evidence. Research then continued west along the Gulf Coast without padding those priority pages.",
+  "holds": [
+    {"business": "Gerber Collision & Glass", "reason": "National chain; excluded even where a local branch exists."},
+    {"business": "Classic Collision", "reason": "Multi-state national chain; excluded."},
+    {"business": "Coastal Concrete", "reason": "The official-looking site contains unresolved template-team content and insufficient reliable exact-city evidence."},
+    {"business": "New Look Concrete Solutions", "reason": "Generic identity and lead-generation risk remain unresolved; accountable ownership was not verified."},
+    {"business": "Biloxi Concrete Contractors", "reason": "Generic identity and lead-generation risk remain unresolved; accountable ownership was not verified."},
+    {"business": "Premier Biloxi Concrete", "reason": "Official-site claims still require independent identity or licensing corroboration before publication."},
+    {"business": "Precise Plumbing, LLC", "reason": "Official site contains a placeholder license number; identity and licensing remain unresolved."},
+    {"business": "Quality Flooring Supply", "reason": "Official site establishes a materials supplier and rug-binding service, not residential flooring installation."}
+  ]
+}

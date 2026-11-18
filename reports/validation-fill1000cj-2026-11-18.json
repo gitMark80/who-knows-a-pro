@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-11-18T23:01:49.267Z",
+  "baselineCommit": "f07585bfe57e40dee6c40563ba6ea0d1d2d6e2b4",
+  "baselinePlacements": 14709,
+  "baselineProfiles": 3919,
+  "generatedPlacements": 14733,
+  "generatedProfiles": 3927,
+  "distinctNewBusinesses": 8,
+  "newBusinessPlacements": 18,
+  "existingBusinessPlacements": 6,
+  "targetShortfall": 992,
+  "metrics": {
+    "totalPages": 1120,
+    "pagesAt20": 240,
+    "pagesBelow20": 880,
+    "emptyPages": 0,
+    "displayedDeficit": 9566
+  },
+  "assertions": [
+    {
+      "name": "catalog preserved",
+      "pass": true,
+      "detail": "40 active, 28 visible, 12 hidden"
+    },
+    {
+      "name": "public page count preserved",
+      "pass": true,
+      "detail": "1120 pages"
+    },
+    {
+      "name": "new identities absent from fixed baseline",
+      "pass": true,
+      "detail": "no fixed-baseline source matches"
+    },
+    {
+      "name": "flooringdunnright.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|flooring\"]"
+    },
+    {
+      "name": "kempsconstructionlawncare.com has only supported placements",
+      "pass": true,
+      "detail": "[\"gulfport-ms|concrete\"]"
+    },
+    {
+      "name": "alldayconstructionllc.com has only supported placements",
+      "pass": true,
+      "detail": "[\"gulfport-ms|concrete\",\"gulfport-ms|flooring\"]"
+    },
+    {
+      "name": "dannymillerplumbing.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|plumbing\",\"gulfport-ms|plumbing\"]"
+    },
+    {
+      "name": "cjsplumbingrepair.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|plumbing\",\"gulfport-ms|plumbing\"]"
+    },
+    {
+      "name": "arfplumbing.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|plumbing\",\"gulfport-ms|plumbing\"]"
+    },
+    {
+      "name": "waleswilsonplumbingllc.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|plumbing\",\"gulfport-ms|plumbing\"]"
+    },
+    {
+      "name": "tillmansheatingandair.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|electrical\",\"biloxi-ms|hvac\",\"biloxi-ms|plumbing\",\"gulfport-ms|electrical\",\"gulfport-ms|hvac\",\"gulfport-ms|plumbing\"]"
+    },
+    {
+      "name": "relyonreliance.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|electrical\",\"biloxi-ms|generator-installation\",\"biloxi-ms|plumbing\",\"gulfport-ms|electrical\",\"gulfport-ms|generator-installation\",\"gulfport-ms|plumbing\"]"
+    },
+    {
+      "name": "teddybearservices.com has only supported placements",
+      "pass": true,
+      "detail": "[\"biloxi-ms|insulation\",\"biloxi-ms|kitchen-bath-remodeling\",\"biloxi-ms|plumbing\",\"biloxi-ms|water-damage-mold-remediation\",\"gulfport-ms|insulation\",\"gulfport-ms|kitchen-bath-remodeling\",\"gulfport-ms|plumbing\",\"gulfport-ms|water-damage-mold-remediation\"]"
+    },
+    {
+      "name": "placement total",
+      "pass": true,
+      "detail": "14733 placements"
+    },
+    {
+      "name": "profile total",
+      "pass": true,
+      "detail": "3927 profiles"
+    },
+    {
+      "name": "all affected pages remain under target",
+      "pass": true,
+      "detail": "no padding or above-target placement"
+    },
+    {
+      "name": "all configured exclusions hold",
+      "pass": true,
+      "detail": "zero excluded-domain placements"
+    }
+  ],
+  "status": "pass"
+}
