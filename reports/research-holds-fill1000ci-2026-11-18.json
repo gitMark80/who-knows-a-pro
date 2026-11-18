@@ -1,0 +1,21 @@
+{
+  "run": "fill1000ci",
+  "baselineCommit": "9192b389295ca3c9eb63500f68f793a755e1d176",
+  "researchedDistinctIdentities": 31,
+  "publishedNewBusinesses": 2,
+  "publishedExistingBusinessPlacements": 1,
+  "alreadyInBaselineNoNewPlacement": 19,
+  "pendingOrRejected": 9,
+  "priorityResearchResult": "Fresh searches of the lowest Destin, Fort Walton Beach, Crestview and Panama City gaps produced only fixed-baseline identities, national brands, or candidates without a working accountable official site and exact-city evidence.",
+  "holds": [
+    {"business": "Precision Auto Body", "reason": "No working official business website was verified."},
+    {"business": "Gerber Collision & Glass", "reason": "National chain; excluded even though local branches exist."},
+    {"business": "Classic Collision", "reason": "Multi-state national chain; excluded."},
+    {"business": "ASP Panama City", "reason": "National franchise; excluded."},
+    {"business": "Floor Coverings International Gulf Coast", "reason": "National franchise; excluded."},
+    {"business": "Premier Biloxi Concrete", "reason": "Official-site claims require additional independent identity and licensing corroboration before publication."},
+    {"business": "Flooring Dunn Right", "reason": "A working official site with sufficient residential-installation evidence did not surface; third-party sources alone are insufficient."},
+    {"business": "Gulfside Pool Service", "reason": "Only third-party discovery evidence surfaced; official identity and exact residential service evidence remain unresolved."},
+    {"business": "Comfort Insulators", "reason": "Local insulation identity surfaced, but a working official site was not verified."}
+  ]
+}

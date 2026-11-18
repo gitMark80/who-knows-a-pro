@@ -1,0 +1,53 @@
+{
+  "run": "fill1000ci",
+  "baselineCommit": "9192b389295ca3c9eb63500f68f793a755e1d176",
+  "baselinePlacements": 14704,
+  "baselineProfiles": 3917,
+  "targetDistinctNewBusinesses": 1000,
+  "status": "validated_awaiting_publication",
+  "publication": {
+    "dataCommit": null,
+    "deploymentId": null,
+    "deploymentState": "not_started",
+    "productionDomainVerifiedAt": null,
+    "distinctNewBusinesses": 2,
+    "newBusinessPlacements": 4,
+    "existingBusinessPlacements": 1,
+    "targetShortfall": 998
+  },
+  "records": [
+    {
+      "domain": "beachfrontlawncare.com",
+      "business": "BeachFront Lawn Care",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|landscaping", "biloxi-ms|fence-builders"],
+      "sourceUrls": ["https://beachfrontlawncare.com/"],
+      "serviceEvidence": "Official site documents homeowner lawn care, flower-bed maintenance and direct construction of privacy fences.",
+      "geographicEvidence": "Official site lists 1636 Popps Ferry Road, Biloxi, MS and states that it serves Harrison County.",
+      "localRegionalEvidence": "BeachFront Lawn Care LLC presents a single Gulf Coast operation rather than a national brand or franchise.",
+      "verifiedAt": "2026-11-18T16:52:48Z"
+    },
+    {
+      "domain": "danielstreeandland.com",
+      "business": "Daniel's Tree & Land Services",
+      "baselineIdentity": false,
+      "placements": ["biloxi-ms|landscaping", "biloxi-ms|tree-service"],
+      "sourceUrls": ["https://www.danielstreeandland.com/", "https://www.danielstreeandland.com/services", "https://www.danielstreeandland.com/contact"],
+      "serviceEvidence": "Official service page documents direct tree removal, trimming and planting plus sod, garden landscaping, clearing and backyard hardscaping.",
+      "geographicEvidence": "Official site and contact page list 1366 Father Ryan Avenue, Biloxi, MS 39530.",
+      "localRegionalEvidence": "Official site names founder and owner William Daniel and describes a locally operated Mississippi Gulf Coast business.",
+      "verifiedAt": "2026-11-18T16:52:48Z"
+    },
+    {
+      "domain": "msgreatergrounds.com",
+      "business": "Greater Grounds Landscaping & Lawn Services",
+      "baselineIdentity": true,
+      "placements": ["biloxi-ms|landscaping"],
+      "sourceUrls": ["https://www.msgreatergrounds.com/"],
+      "serviceEvidence": "Official site documents residential landscaping, lawn maintenance, planting, sod and garden-bed care.",
+      "geographicEvidence": "Official site identifies the business in Biloxi and says it has served the Biloxi and Gulf Coast area for more than 20 years.",
+      "localRegionalEvidence": "Official site identifies locally owned Greater Grounds and owner Michael Williamson.",
+      "verifiedAt": "2026-11-18T16:52:48Z"
+    }
+  ]
+}

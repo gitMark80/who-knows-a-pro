@@ -1,0 +1,36 @@
+{
+  "run": "fill1000ci",
+  "checkedAt": "2026-11-18T16:54:16Z",
+  "baselineCommit": "9192b389295ca3c9eb63500f68f793a755e1d176",
+  "status": "pass",
+  "checks": {
+    "jsonParse": "pass",
+    "catalogSlugs": "pass",
+    "normalizedIdentityAndDomainDeduplication": "pass",
+    "onlyUnderfilledPagesChanged": "pass",
+    "nationalBrandExclusions": "pass_316_rules_0_leaks",
+    "approvalAndClaimedRowsDoNotBypassExclusions": "pass",
+    "retailFixItRemainsSuppressed": "pass",
+    "typescript": "pass",
+    "productionBuild": "pass",
+    "gitDiffCheck": "pass",
+    "officialWebsiteRetrieval": "pass_all_3_http_200_identity_matches"
+  },
+  "generated": {
+    "placements": 14709,
+    "profiles": 3919,
+    "normalizedDomains": 3877,
+    "totalPages": 1120,
+    "pagesAt20OrMore": 240,
+    "pagesBelow20": 880,
+    "emptyPages": 0,
+    "displayedDeficit": 9590
+  },
+  "historicalAudit": {
+    "flaggedSourceRows": 584,
+    "flaggedPlacements": 8816,
+    "flaggedBusinessIdentities": 158,
+    "retailFixItPlacements": 396,
+    "visibilityChanged": false
+  }
+}
