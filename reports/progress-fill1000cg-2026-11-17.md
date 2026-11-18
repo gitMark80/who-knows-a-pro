@@ -31,4 +31,4 @@ Thirty-three candidate identities were examined across the lowest gaps in Crestv
 
 ## Validation and publication state
 
-TypeScript, the full Next.js production build, catalog/slug validation, deduplication, exclusion handling, and generated coverage checks pass. Publication, deployment and production-page verification are pending and must remain distinct from the validated additions above.
+TypeScript, the full Next.js production build, catalog/slug validation, deduplication, exclusion handling, and generated coverage checks pass. Data commit `312f25549954f2b332f796f35b3f8ae147c2bdf4` deployed READY as `dpl_BRfhD6kbcEX3c2tJQKj2tgdB9VYE`. Production verification at `2026-11-18T05:02:07Z` confirmed exact displayed counts of 20 on both affected pages, all three new listing names, and working identity-matched final destinations for all three official websites. Nothing is awaiting deployment or live verification.

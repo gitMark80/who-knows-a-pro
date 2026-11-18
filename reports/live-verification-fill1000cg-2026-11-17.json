@@ -1,0 +1,49 @@
+{
+  "run": "fill1000cg",
+  "verifiedAt": "2026-11-18T05:02:07Z",
+  "baselineCommit": "b92bfd2f2a7a58db44d6b4406d8946f08e4786a5",
+  "dataCommit": "312f25549954f2b332f796f35b3f8ae147c2bdf4",
+  "deploymentId": "dpl_BRfhD6kbcEX3c2tJQKj2tgdB9VYE",
+  "deploymentState": "READY",
+  "completed": {
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 3,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 997
+  },
+  "pages": [
+    {
+      "url": "https://whoknowsapro.com/destin-fl/marine-services",
+      "displayedBusinesses": 20,
+      "verifiedNewListings": ["Destin Boat Care", "The Ship's Chandler"]
+    },
+    {
+      "url": "https://whoknowsapro.com/fort-walton-beach-fl/marine-services",
+      "displayedBusinesses": 20,
+      "verifiedNewListings": ["CompuProp"]
+    }
+  ],
+  "officialWebsiteFinalDestinations": [
+    {
+      "name": "CompuProp",
+      "final": "https://www.compuprop1.com/",
+      "observedTitle": "CompuProp | Propeller Repairs | Fort Walton Beach, FL",
+      "identityMatch": true,
+      "working": true
+    },
+    {
+      "name": "Destin Boat Care",
+      "final": "https://www.destinboatcare.com/",
+      "observedTitle": "Destin boat detailing- Destin Boat Care",
+      "identityMatch": true,
+      "working": true
+    },
+    {
+      "name": "The Ship's Chandler",
+      "final": "https://theshipschandler.com/",
+      "observedTitle": "Boat & Outboard Sales / Service / Repair - Destin & Freeport",
+      "identityMatch": true,
+      "working": true
+    }
+  ]
+}

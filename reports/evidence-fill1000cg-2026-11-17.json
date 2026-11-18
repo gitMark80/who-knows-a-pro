@@ -4,16 +4,16 @@
   "baselinePlacements": 14700,
   "baselineProfiles": 3913,
   "targetDistinctNewBusinesses": 1000,
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "publication": {
-    "dataCommit": null,
-    "deploymentId": null,
-    "deploymentState": "not_started",
-    "productionDomainVerifiedAt": null,
-    "distinctNewBusinesses": 0,
-    "newBusinessPlacements": 0,
+    "dataCommit": "312f25549954f2b332f796f35b3f8ae147c2bdf4",
+    "deploymentId": "dpl_BRfhD6kbcEX3c2tJQKj2tgdB9VYE",
+    "deploymentState": "READY",
+    "productionDomainVerifiedAt": "2026-11-18T05:02:07Z",
+    "distinctNewBusinesses": 3,
+    "newBusinessPlacements": 3,
     "existingBusinessPlacements": 0,
-    "targetShortfall": 1000
+    "targetShortfall": 997
   },
   "records": [
     {
@@ -25,7 +25,7 @@
       "geographicEvidence": "Official contact page lists 611 Lovejoy Road, Fort Walton Beach, Florida 32548.",
       "localRegionalEvidence": "Official site identifies a locally owned operation serving the marine industry since 2003.",
       "duplicateCheck": "Normalized name and compuprop1.com domain were absent from all 14,700 fixed-baseline placements.",
-      "verifiedAt": "2026-11-18T05:15:00Z"
+      "verifiedAt": "2026-11-18T04:55:00Z"
     },
     {
       "domain": "destinboatcare.com",
@@ -36,7 +36,7 @@
       "geographicEvidence": "Official business identity and service pages identify Destin Boat Care and a Destin operation.",
       "localRegionalEvidence": "Official about page identifies an owner-led, locally owned company established in 2015.",
       "duplicateCheck": "Normalized name and destinboatcare.com domain were absent from all 14,700 fixed-baseline placements.",
-      "verifiedAt": "2026-11-18T05:15:00Z"
+      "verifiedAt": "2026-11-18T04:55:00Z"
     },
     {
       "domain": "theshipschandler.com",
@@ -47,7 +47,7 @@
       "geographicEvidence": "Official page lists the service operation at 646 Harbor Boulevard, Destin, Florida 32541.",
       "localRegionalEvidence": "Official site documents a two-location Destin/Freeport regional business operating since 1980.",
       "duplicateCheck": "The business had been researched historically, but its normalized identity and theshipschandler.com domain were absent from all 14,700 fixed-baseline placements.",
-      "verifiedAt": "2026-11-18T05:15:00Z"
+      "verifiedAt": "2026-11-18T04:55:00Z"
     }
   ]
 }
