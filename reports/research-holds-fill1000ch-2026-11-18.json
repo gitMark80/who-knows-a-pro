@@ -1,0 +1,22 @@
+{
+  "run": "fill1000ch",
+  "researchedDistinctCandidates": 33,
+  "publishedCandidates": ["Florida Inboards"],
+  "alreadyInBaseline": [
+    "Crestview Paint & Body", "Mike's Auto Collision", "Purvis Appliance Repair", "Home Appliance Services of Destin", "Emerald Coast Appliance Service", "Hometown Garage Doors", "Garage Door Guru", "Blue Water Garage Door", "Parrish Land Management", "Parker Septic", "Superior Septic Sewer", "House 2 House Lawns", "Terry's Landscape", "Five Star Irrigation", "Sunshine Irrigation", "LGM Landscape & Irrigation", "Tamtech Pool & Spa", "Prater's Insulators", "Blue Line Insulation", "Panama Pools & Spas", "Watermark Pools", "Whittaker Electric", "Keefe & Sons Electric", "Telford Reynolds Electric"
+  ],
+  "pendingOrRejected": [
+    {"name": "Comfort Insulators", "reason": "Local identity and residential insulation work are corroborated, but a working official business website could not be verified."},
+    {"name": "Fort Walton Beach Insulation", "reason": "The site uses generic local-pro/network language and does not sufficiently establish the accountable operating business behind the landing page."},
+    {"name": "Helmer Pools", "reason": "Official site verifies a local residential pool builder but does not explicitly state service coverage for an underfilled active city in body text."},
+    {"name": "Bright Blue Pools", "reason": "Official site supports Destin pool remodeling, but the underfilled page is pool installation and the available contractor scope does not clearly support new-pool construction."},
+    {"name": "Marine Maintenance of Bay County", "reason": "Official site establishes a Panama City Beach operation and a broad regional range, but not explicit Panama City service coverage; the two cities are kept distinct."},
+    {"name": "Boats N' Hoes Maintenance and Repair", "reason": "Local boat-repair identity was found, but a working official business website could not be verified."},
+    {"name": "Precision Auto Body", "reason": "Only third-party profiles were available; no working official website was verified."},
+    {"name": "Veteran Septic and Site Construction", "reason": "Official service evidence exists, but exact Panama City residential placement evidence remains incomplete."}
+  ],
+  "identityNotes": [
+    {"name": "Emerald Coast Pool Company", "reason": "emeraldcoastpool.com is an alternate/current domain for an existing baseline identity already represented under emeraldcoastpoolcompany.com; it is not a new business."},
+    {"name": "Retail Fix It", "reason": "Commercial facility-maintenance/vendor-network identity remains suppressed and excluded from qualifying counts."}
+  ]
+}

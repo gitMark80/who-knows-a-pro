@@ -1,0 +1,32 @@
+{
+  "run": "fill1000ch",
+  "validatedAt": "2026-11-18T10:54:00Z",
+  "status": "pass",
+  "checks": {
+    "jsonParse": "pass",
+    "typescriptNoEmit": "pass",
+    "nextProductionBuildWebpack": "pass",
+    "gitDiffCheck": "pass",
+    "catalogAndSlugAudit": "pass",
+    "normalizedIdentityDomainDeduplication": "pass",
+    "nationalBrandExclusion": "pass",
+    "approvalAndNonTestGates": "preserved",
+    "historicalQualificationAudit": {
+      "status": "pass_existing_flags_preserved",
+      "flaggedSourceRows": 584,
+      "flaggedPlacements": 8816,
+      "flaggedBusinessIdentities": 158,
+      "retailFixItPlacements": 396
+    }
+  },
+  "generatedCoverage": {
+    "placements": 14704,
+    "profiles": 3917,
+    "normalizedDomains": 3875,
+    "publicPages": 1120,
+    "pagesAt20OrMore": 240,
+    "pagesBelow20": 880,
+    "emptyPages": 0,
+    "displayedDeficit": 9595
+  }
+}
