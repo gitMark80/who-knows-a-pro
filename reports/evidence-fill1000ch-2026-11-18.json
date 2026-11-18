@@ -4,11 +4,11 @@
   "baselinePlacements": 14703,
   "baselineProfiles": 3916,
   "targetDistinctNewBusinesses": 1000,
-  "status": "validated_awaiting_publication",
+  "status": "published_awaiting_corrected_link_deployment",
   "publication": {
-    "dataCommit": null,
-    "deploymentId": null,
-    "deploymentState": "not_started",
+    "dataCommit": "3515d9e9dc8f1065644b0d21da29033fd57e2e4a",
+    "deploymentId": "dpl_13HbEbCVG8pGqK6NLN6Q6hN6gYnS",
+    "deploymentState": "ready_directory_link_correction_pending",
     "productionDomainVerifiedAt": null,
     "distinctNewBusinesses": 1,
     "newBusinessPlacements": 1,
@@ -21,8 +21,8 @@
       "business": "Florida Inboards",
       "placements": ["panama-city-fl|marine-services"],
       "sourceUrls": [
-        "https://www.floridainboards.com/",
-        "https://www.floridainboards.com/about-us.html"
+        "http://www.floridainboards.com/",
+        "http://www.floridainboards.com/about-us.html"
       ],
       "serviceEvidence": "Official site offers full-service repair for waterski, wakeboard and inboard boats, plus hull, fiberglass and gelcoat repair, painting and detailing.",
       "geographicEvidence": "Official home and about pages identify the operation as located in Panama City, Florida.",

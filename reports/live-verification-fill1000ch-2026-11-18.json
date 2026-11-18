@@ -1,0 +1,32 @@
+{
+  "run": "fill1000ch",
+  "checkedAt": "2026-11-18T10:58:19Z",
+  "baselineCommit": "5c594cd9fd3b797c228a8711b1811caf12280020",
+  "dataCommit": "3515d9e9dc8f1065644b0d21da29033fd57e2e4a",
+  "deploymentId": "dpl_13HbEbCVG8pGqK6NLN6Q6hN6gYnS",
+  "deploymentState": "READY",
+  "directoryPage": {
+    "url": "https://whoknowsapro.com/panama-city-fl/marine-services",
+    "displayedBusinesses": 17,
+    "business": "Florida Inboards",
+    "occurrences": 1,
+    "result": "pass"
+  },
+  "officialWebsite": {
+    "configuredUrl": "https://www.floridainboards.com/",
+    "result": "correction_required",
+    "observed": "The HTTPS endpoint returned an HTTP/2 protocol error in the live browser and 503 through direct retrieval. The same official site and identity returned 200 over HTTP, so the directory link is being corrected before completion is counted.",
+    "correctedUrl": "http://www.floridainboards.com/"
+  },
+  "completed": {
+    "distinctNewBusinessesPublishedAndLiveVerified": 0,
+    "newBusinessPlacementsPublishedAndLiveVerified": 0,
+    "existingBusinessPlacements": 0,
+    "targetShortfall": 1000
+  },
+  "awaiting": {
+    "distinctNewBusinesses": 1,
+    "newBusinessPlacements": 1,
+    "reason": "corrected official-site link deployment and live verification"
+  }
+}

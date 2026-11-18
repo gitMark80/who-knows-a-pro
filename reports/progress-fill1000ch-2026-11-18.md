@@ -29,4 +29,4 @@ Thirty-three distinct candidate identities were examined across the lowest gaps 
 
 ## Validation and publication state
 
-Data/schema, catalog slugs, normalized identity/domain deduplication, exclusion handling, TypeScript and production-build checks are recorded separately. Publication and production verification fields remain distinct and will be updated only after the main-branch commit deploys and the live page and official destination are confirmed.
+Data/schema, catalog slugs, normalized identity/domain deduplication, exclusion handling, TypeScript and production-build checks are recorded separately. Data commit `3515d9e9dc8f1065644b0d21da29033fd57e2e4a` deployed successfully as `dpl_13HbEbCVG8pGqK6NLN6Q6hN6gYnS`; the live directory showed 17 businesses and Florida Inboards once. The first deployment used the provider's failing HTTPS endpoint. A follow-up changes the listing and evidence links to its working official HTTP endpoint before final live verification.
