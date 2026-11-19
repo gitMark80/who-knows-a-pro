@@ -1,7 +1,7 @@
 {
   "runDate": "2026-11-19",
   "baselineCommit": "bce5162ff1533c97c9a735104e7d4a0b19436d81",
-  "status": "validated_pending_deployment",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "name": "Kennedy Tree Service",
@@ -302,5 +302,199 @@
       ],
       "disposition": "Already suppressed; retained"
     }
+  },
+  "publication": {
+    "dataCommit": "ccd58f1b7d3901d2b40325ac407afd2a7c9c5c71",
+    "deployment": {
+      "id": "dpl_88BQf7M5JX3mniVGmjKKsYfzbWVV",
+      "state": "READY"
+    },
+    "checkedAt": "2026-11-19T10:55:57.553Z",
+    "placements": [
+      {
+        "pageUrl": "https://whoknowsapro.com/biloxi-ms/tree-service",
+        "name": "Kennedy Tree Service",
+        "website": "https://kennedytreeservicems.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://kennedytreeservicems.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulfport-ms/tree-service",
+        "name": "Kennedy Tree Service",
+        "website": "https://kennedytreeservicems.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://kennedytreeservicems.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/biloxi-ms/gutters",
+        "name": "Gulf Coast Gutters LLC",
+        "website": "https://www.gulfcoastguttersllc.net/",
+        "cardCount": 7,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.gulfcoastguttersllc.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/gutters",
+        "name": "Five Star Exterior Services",
+        "website": "https://call5starexteriors.com/",
+        "cardCount": 12,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://call5starexteriors.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/gutters",
+        "name": "Ironman Metal Systems",
+        "website": "https://ironmanmetalsystem.com/about",
+        "cardCount": 12,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://ironmanmetalsystem.com/about",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/orange-beach-al/gutters",
+        "name": "Ironman Metal Systems",
+        "website": "https://ironmanmetalsystem.com/about",
+        "cardCount": 13,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://ironmanmetalsystem.com/about",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/gutters",
+        "name": "The Coastal Carpenter",
+        "website": "https://thecoastalcarpenter.com/",
+        "cardCount": 13,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://thecoastalcarpenter.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/gutters",
+        "name": "The Coastal Carpenter",
+        "website": "https://thecoastalcarpenter.com/",
+        "cardCount": 13,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://thecoastalcarpenter.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/generator-installation",
+        "name": "JC Electric & Generator LLC",
+        "website": "https://jcelectricandgenerator.godaddysites.com/",
+        "cardCount": 15,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://jcelectricandgenerator.godaddysites.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/generator-installation",
+        "name": "JC Electric & Generator LLC",
+        "website": "https://jcelectricandgenerator.godaddysites.com/",
+        "cardCount": 14,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://jcelectricandgenerator.godaddysites.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/generator-installation",
+        "name": "Professional Systems",
+        "website": "https://prosystems.org/",
+        "cardCount": 17,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://prosystems.org/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulfport-ms/tree-service",
+        "name": "Stogner Tree & Land Improvement LLC",
+        "website": "https://stognertreeandlandimprovement.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://stognertreeandlandimprovement.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/navarre-fl/irrigation-sprinkler-repair",
+        "name": "Coastal Lawn and Landscaping",
+        "website": "https://www.coastallawnandlandscaping.com/",
+        "cardCount": 20,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.coastallawnandlandscaping.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/biloxi-ms/irrigation-sprinkler-repair",
+        "name": "Edrington Greenscapes",
+        "website": "https://edringtongreenscapes.com/",
+        "cardCount": 5,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://edringtongreenscapes.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      }
+    ],
+    "national": {
+      "pageUrl": "https://whoknowsapro.com/birmingham-al/insulation",
+      "cardCount": 7,
+      "truteamAbsent": true
+    },
+    "displayedCoverage": {
+      "cities": 40,
+      "categories": 28,
+      "pairs": 1120,
+      "meets_minimum": 241,
+      "below_minimum": 879,
+      "empty": 0,
+      "missing_placements": 9549
+    },
+    "qualifiedSitewideCoverage": null,
+    "generatedPublicProfiles": 3936,
+    "generatedPublicPlacements": 14750,
+    "distinctNewBusinesses": 8,
+    "newBusinessPlacements": 12,
+    "existingBusinessPlacements": 2,
+    "nationalPlacementsSuppressed": 1,
+    "newBusinessShortfall": 992,
+    "awaitingDeploymentOrLiveVerification": 0,
+    "localChecks": [
+      "production build with TypeScript",
+      "JSON and catalog slugs",
+      "baseline domain deduplication",
+      "exact 1,120 page-count deltas",
+      "public approval, non-test and national exclusion gates"
+    ]
   }
 }
