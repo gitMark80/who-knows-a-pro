@@ -1,0 +1,164 @@
+{
+  "run": "fill1000ck",
+  "baselineCommit": "bcd990b854c75bf5a7e1766d71fce0054581f684",
+  "verificationDate": "2026-11-18 America/Chicago",
+  "status": "validated_for_publication",
+  "placements": [
+    {
+      "business": "Lawn Butlers",
+      "website": "https://thelawnbutlers.com/",
+      "region": "panama-city-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "baselineIdentity": false,
+      "sourceVerifiedAt": "2026-11-19T04:51:29Z",
+      "sourceUrls": [
+        "https://thelawnbutlers.com/"
+      ],
+      "evidenceNote": "The family-run company offers irrigation repairs and adjustments for residential yards. Its official site names Panama City and Panama City Beach as separate service areas.",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Lawn Butlers",
+      "website": "https://thelawnbutlers.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "baselineIdentity": false,
+      "sourceVerifiedAt": "2026-11-19T04:51:29Z",
+      "sourceUrls": [
+        "https://thelawnbutlers.com/"
+      ],
+      "evidenceNote": "The family-run company offers irrigation repairs and adjustments for residential yards. Its official site names Panama City and Panama City Beach as separate service areas.",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Coastal Repair Solutions",
+      "website": "https://www.coastalrepairsolutions.com/",
+      "region": "mobile-al",
+      "trade": "appliance-repair",
+      "baselineIdentity": false,
+      "sourceVerifiedAt": "2026-11-19T04:51:29Z",
+      "sourceUrls": [
+        "https://www.coastalrepairsolutions.com/",
+        "https://www.coastalrepairsolutions.com/service/appliances/",
+        "https://www.coastalrepairsolutions.com/about/"
+      ],
+      "evidenceNote": "The local family-owned company repairs household washers, dryers, ranges, refrigerators and dishwashers. Its appliance service page gives its operating address in Mobile, and its About page confirms it serves Mobile County.",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Happy Home Insulation",
+      "website": "https://happyhomeinsulation.com/",
+      "region": "fairhope-al",
+      "trade": "insulation",
+      "baselineIdentity": true,
+      "sourceVerifiedAt": "2026-11-19T04:51:29Z",
+      "sourceUrls": [
+        "https://happyhomeinsulation.com/"
+      ],
+      "evidenceNote": "The official site describes this family-owned contractor's home attic, roofline and crawlspace insulation services and explicitly lists Fairhope among its service areas.",
+      "unresolvedLimitation": null
+    }
+  ],
+  "research": {
+    "reviewedIdentities": 48,
+    "baselineNoAdditionalPlacement": [
+      "Crestview Paint & Body",
+      "Hometown Garage Doors LLC",
+      "Home Appliance Service of Destin",
+      "Parker Septic",
+      "Independent Appliance",
+      "Seaside Appliance World",
+      "Prater’s Insulators",
+      "House 2 House Lawn Care",
+      "Sunshine Irrigation Co",
+      "Panama Pools & Spas",
+      "Prime Plumbing Services",
+      "Cadenhead Services",
+      "ML Florida Services",
+      "Telford Reynolds Electric",
+      "Rogers & Grant Septic Services",
+      "Purvis Appliance Repair",
+      "Southern Poolscapes",
+      "Neway Pools",
+      "Colson’s Electrical Services",
+      "Cal’s Appliance Repair",
+      "Southern Garage Doors LLC",
+      "Distributor Appliance Parts",
+      "Appliance Service LLC",
+      "Anthony’s Appliance Service",
+      "A Plus Garage Doors",
+      "Superior Scapes",
+      "Alabama Tank Service",
+      "Brandow’s Lawn & Landscape",
+      "Stump Depot",
+      "Emerald Coast Pools",
+      "Key Irrigation",
+      "Terry’s Landscape",
+      "Pinckard & Son Garage Doors",
+      "Blue Water Garage Door",
+      "Cook’s Pest Control"
+    ],
+    "pendingOrRejected": [
+      {
+        "name": "Wreck-A-Mended Collision Center",
+        "reason": "No working official business site established."
+      },
+      {
+        "name": "Cook’s Custom Service",
+        "reason": "No working official site found in the Fort Walton Beach search."
+      },
+      {
+        "name": "Mike’s Auto Collision",
+        "reason": "Directory result only. Official site and current local ownership unresolved."
+      },
+      {
+        "name": "Crestview Marine",
+        "reason": "Official shop site found. Requested residential-property evidence is unresolved for this category."
+      },
+      {
+        "name": "Blue Heron Landscape",
+        "reason": "Baseline identity. No additional underfilled city placement was independently resolved in this pass."
+      },
+      {
+        "name": "Appliance Tech of Mobile",
+        "reason": "Directory result only. Official website unresolved."
+      },
+      {
+        "name": "Baldwin Appliance",
+        "reason": "Public domain displays placeholder license numbers, test inventory and an Acme template footer."
+      },
+      {
+        "name": "Davis Exterminators",
+        "reason": "Official Arrow acquisition notice. Treat any current operation under the acquiring brand as ineligible pending separate evidence of a qualifying independent identity. No public baseline placement matched Davis."
+      },
+      {
+        "name": "America’s Swimming Pool Company",
+        "reason": "National franchise. Ineligible."
+      },
+      {
+        "name": "Precision Garage Door Service",
+        "reason": "National brand. Already excluded."
+      }
+    ]
+  },
+  "historical": {
+    "audit": "reports/historical-qualification-flags-2026-11-03.json",
+    "flaggedIdentities": 158,
+    "flaggedSourceRows": 584,
+    "flaggedRawPlacements": 8816,
+    "retailFixIt": {
+      "sourceUrls": [
+        "https://www.retailfixit.com/about-us/",
+        "https://www.retailfixit.com/integrated-facility-maintenance-for-retail-stores/"
+      ],
+      "flaggedSourceRows": 22,
+      "flaggedRawPlacements": 396,
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_local_geography",
+        "intermediary_or_managed_network"
+      ],
+      "visibility": "already suppressed by domain rule"
+    }
+  }
+}
