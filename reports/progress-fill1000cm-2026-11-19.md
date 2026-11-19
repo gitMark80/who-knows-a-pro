@@ -4,7 +4,7 @@ Fixed baseline `0f33f90f25a93dd8e41254dc158c498d5eae7f48`. Recovered from the la
 
 The baseline displayed 241 pages at or above 20, 879 below 20, zero empty, and a displayed deficit of 9,549. The sitewide qualification-backed coverage and deficit are unknown pending review of historical placements.
 
-| City/category | Baseline | Projected display | Placements from new businesses | Placements from listed businesses | National placements hidden | Displayed deficit |
+| City/category | Baseline | Live display | Placements from new businesses | Placements from listed businesses | National placements hidden | Displayed deficit |
 |---|---:|---:|---:|---:|---:|---:|
 | Fairhope pest control | 4 | 5 | 1 | 0 | 0 | 15 |
 | Foley pest control | 7 | 9 | 1 | 1 | 0 | 11 |
@@ -16,7 +16,9 @@ The baseline displayed 241 pages at or above 20, 879 below 20, zero empty, and a
 | Gulfport pest control | 5 | 8 | 2 | 1 | 0 | 12 |
 | Gulfport pool service | 7 | 8 | 1 | 0 | 0 | 12 |
 
-The five proposed new local businesses account for eight placements. Previously listed businesses account for five placements. The Puddle Pool Services franchise rule suppresses two old public placements and retains claims, billing and records. Locally generated totals are 3,940 profiles, 14,761 placements and a displayed deficit of 9,538. Deployment and live verification are pending.
+The five newly published local businesses account for eight placements. Previously listed businesses account for five placements. The Puddle Pool Services franchise rule suppresses two old public placements and retains claims, billing and records. Locally generated totals are 3,940 profiles, 14,761 placements and a displayed deficit of 9,538. Production commit `e87cdccc064398912b30eb7bb067e5f02dd8c8b9` reached READY in Vercel deployment `dpl_9pVQSTsDYsUQGeFusbgwtAMbHFC6`. All 13 placement cards and their official websites passed live verification, and both Puddle placements were confirmed absent. The exact new-business shortfall is 995. No additions await deployment or live verification.
+
+The fresh 1,120-page audit found 241 pages displaying at least 20, 879 below 20, zero empty, and a displayed deficit of 9,538. See the full public count matrix in `live-coverage-fill1000cm-2026-11-19.csv`. The evidence-backed deficit remains unknown sitewide.
 
 Reviewed 70 distinct named candidates, including 48 existing businesses with no additional supported underfilled placement, 12 pending candidates and two ineligible national brands. The lowest-count priority combinations in Destin, Fort Walton Beach, Crestview and Panama City were searched first. Duplicate businesses, missing official sites, and uncertain city coverage limited additions there. Continue research there and across the lower-count Gulf Coast pages. Evidence and unresolved cases are recorded in the ledger.
 
