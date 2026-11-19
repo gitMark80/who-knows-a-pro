@@ -4,14 +4,16 @@ Run-start main `bcd990b854c75bf5a7e1766d71fce0054581f684`. No overlapping fill p
 
 Baseline seed: 3,927 public business profiles and 14,733 placements. Live city cards: 240 pages at 20+, 880 below 20, zero empty, 9,566 displayed slots below the target. Residential and geographic qualification of unaudited historical placements remains unknown.
 
-| City/category | Before | Candidate total | From new businesses | From listed businesses | Displayed deficit after |
+| City/category | Before | Live total | From new businesses | From listed businesses | Displayed deficit after |
 |---|---:|---:|---:|---:|---:|
 | Panama City irrigation and sprinkler repair | 18 | 19 | 1 | 0 | 1 |
 | Panama City Beach irrigation and sprinkler repair | 10 | 11 | 1 | 0 | 9 |
 | Mobile appliance repair | 8 | 9 | 1 | 0 | 11 |
 | Fairhope insulation | 5 | 6 | 0 | 1 | 14 |
 
-The change stages two new identities and four placements, including one placement for a previously listed identity. Generated totals: 3,929 profiles, 14,737 placements, 240 pages at 20+, 880 below, zero empty, displayed deficit 9,562. Completion count remains pending production verification.
+The production directory published two new identities and four placements, including one placement for a previously listed identity. Generated totals: 3,929 profiles, 14,737 placements, 240 pages at 20+, 880 below, zero empty, displayed deficit 9,562. All four listing cards and their three official website destinations passed live verification. The exact new-business shortfall is 998. No placement awaits deployment or verification.
+
+Production data commit `ca6a60951c767d4446cc366d5f566da90bf49b01`. Vercel deployment `dpl_75fHnPrkk82DgzwpPp1t95kTjMbx` reached READY. The follow-up live audit of all 40 city pages confirmed 9,562 displayed slots below target, with only the four listed city/category counts changed. Sitewide evidence-backed coverage remains unknown. The evidence ledger includes the final URLs, page counts, unresolved candidates and this run’s publication status.
 
 The evidence ledger records 48 reviewed identities, including 35 already listed without a new placement and 10 held or rejected. The priority-city searches yielded duplicate providers or insufficient official evidence for most lowest-count pages. Resume with those underfilled categories and the unresolved candidates. No exhaustion of local providers is asserted.
 

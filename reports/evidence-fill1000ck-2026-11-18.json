@@ -2,7 +2,7 @@
   "run": "fill1000ck",
   "baselineCommit": "bcd990b854c75bf5a7e1766d71fce0054581f684",
   "verificationDate": "2026-11-18 America/Chicago",
-  "status": "validated_for_publication",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "business": "Lawn Butlers",
@@ -160,5 +160,78 @@
       ],
       "visibility": "already suppressed by domain rule"
     }
+  },
+  "publication": {
+    "dataCommit": "ca6a60951c767d4446cc366d5f566da90bf49b01",
+    "deploymentId": "dpl_75fHnPrkk82DgzwpPp1t95kTjMbx",
+    "deploymentState": "READY",
+    "checkedAt": "2026-11-19T04:56:01.716Z",
+    "pages": [
+      {
+        "directoryUrl": "https://whoknowsapro.com/panama-city-fl/irrigation-sprinkler-repair",
+        "business": "Lawn Butlers",
+        "website": "https://thelawnbutlers.com/",
+        "listingCount": 19,
+        "expected": 19,
+        "matchingCards": 1,
+        "officialStatus": 200,
+        "officialFinalUrl": "https://thelawnbutlers.com/",
+        "identityMatch": true,
+        "passed": true
+      },
+      {
+        "directoryUrl": "https://whoknowsapro.com/panama-city-beach-fl/irrigation-sprinkler-repair",
+        "business": "Lawn Butlers",
+        "website": "https://thelawnbutlers.com/",
+        "listingCount": 11,
+        "expected": 11,
+        "matchingCards": 1,
+        "officialStatus": 200,
+        "officialFinalUrl": "https://thelawnbutlers.com/",
+        "identityMatch": true,
+        "passed": true
+      },
+      {
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/appliance-repair",
+        "business": "Coastal Repair Solutions",
+        "website": "https://www.coastalrepairsolutions.com/",
+        "listingCount": 9,
+        "expected": 9,
+        "matchingCards": 1,
+        "officialStatus": 200,
+        "officialFinalUrl": "https://www.coastalrepairsolutions.com/",
+        "identityMatch": true,
+        "passed": true
+      },
+      {
+        "directoryUrl": "https://whoknowsapro.com/fairhope-al/insulation",
+        "business": "Happy Home Insulation",
+        "website": "https://happyhomeinsulation.com/",
+        "listingCount": 6,
+        "expected": 6,
+        "matchingCards": 1,
+        "officialStatus": 200,
+        "officialFinalUrl": "https://happyhomeinsulation.com/",
+        "identityMatch": true,
+        "passed": true
+      }
+    ],
+    "displayedCoverage": {
+      "cities": 40,
+      "categories": 28,
+      "pairs": 1120,
+      "meets_minimum": 240,
+      "below_minimum": 880,
+      "empty": 0,
+      "missing_placements": 9562
+    },
+    "publicProfilesFromSeed": 3929,
+    "totalSeedPlacements": 14737,
+    "sitewideQualifiedCoverage": null,
+    "newBusinesses": 2,
+    "placementsByNewBusinesses": 3,
+    "placementsByExistingBusinesses": 1,
+    "shortfallAgainst1000": 998,
+    "placementsAwaitingDeploymentOrVerification": 0
   }
 }
