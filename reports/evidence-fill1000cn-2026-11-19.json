@@ -1,7 +1,7 @@
 {
   "runDate": "2026-11-19",
   "baselineCommit": "89853209fd4c75fcda542283637f1d0c3f5165b6",
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "name": "Chill Appliance Repair",
@@ -176,7 +176,7 @@
     },
     {
       "name": "S & J Irrigation",
-      "website": "https://sjirrigation.com/",
+      "website": "https://www.sandjirrigation.com/",
       "note": "Dothan irrigation. Site returned HTTP 404 during direct verification."
     },
     {
@@ -331,5 +331,185 @@
       "name": "Garcia's Lawn Care & Landscaping LLC",
       "note": "The provider-specific Jobber site is its own official public website."
     }
-  ]
+  ],
+  "researchedCandidateCounts": {
+    "distinct": 85,
+    "newPublished": 9,
+    "previouslyListed": 62,
+    "pending": 10,
+    "ineligible": 4
+  },
+  "publication": {
+    "commit": "744d16ffd0f7a6171e10c66c7db469ead9ab5eb9",
+    "deploymentId": "dpl_47odMdmeykz5RapNN7TpNUN6f7hp",
+    "deploymentStatus": "READY",
+    "newBusinessesLiveVerified": 9,
+    "placementsFromNewBusinessesLiveVerified": 10,
+    "placementsFromExistingBusinessesLiveVerified": 1,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "shortfallAgainst1000": 991
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-19T22:58:08.834Z",
+    "placements": [
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/appliance-repair",
+        "name": "Chill Appliance Repair",
+        "website": "https://chillappliancerepair.com/",
+        "cardCount": 9,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://chillappliancerepair.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+        "name": "Premier Pools of Tallahassee",
+        "website": "https://premierpoolstallahassee.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://premierpoolstallahassee.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+        "name": "Pear Tree Pool & Spa",
+        "website": "https://peartreepool.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://peartreepool.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+        "name": "Freedom Pools & Spas",
+        "website": "https://www.freedompoolandspa.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.freedompoolandspa.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+        "name": "Terry's Pool Service",
+        "website": "https://terryspools.net/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://terryspools.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+        "name": "Tallahassee Pool Tech",
+        "website": "https://www.tallahassee-pool-service.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.tallahassee-pool-service.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
+        "name": "Garcia's Lawn Care & Landscaping LLC",
+        "website": "https://garciaslawncareandlandscapingllc.jobbersites.com/",
+        "cardCount": 7,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://garciaslawncareandlandscapingllc.jobbersites.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
+        "name": "S & R Landscaping",
+        "website": "https://www.snrlandscaping.com/",
+        "cardCount": 7,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.snrlandscaping.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/tree-service",
+        "name": "S & R Landscaping",
+        "website": "https://www.snrlandscaping.com/",
+        "cardCount": 8,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.snrlandscaping.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
+        "name": "Esposito Garden Center",
+        "website": "https://espositogardencenter.com/",
+        "cardCount": 7,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://espositogardencenter.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/panama-city-fl/pool-installation",
+        "name": "Patriot Pool Solutions",
+        "website": "https://patriotpoolsolutions.com/",
+        "cardCount": 16,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://patriotpoolsolutions.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      }
+    ]
+  },
+  "liveCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "pagesDisplaying20OrMore": 241,
+    "pagesDisplayingFewerThan20": 879,
+    "emptyDisplayedPages": 0,
+    "displayedPlacementDeficit": 9527,
+    "baselineDisplayedPlacements": 13176,
+    "liveDisplayedPlacements": 13187,
+    "sitewideQualificationBackedDeficit": null,
+    "qualificationBackedPagesAt20": null,
+    "changedPages": {
+      "panama-city-fl/pool-installation": [
+        15,
+        16
+      ],
+      "tallahassee-fl/appliance-repair": [
+        8,
+        9
+      ],
+      "tallahassee-fl/irrigation-sprinkler-repair": [
+        4,
+        7
+      ],
+      "tallahassee-fl/pool-service": [
+        6,
+        11
+      ],
+      "tallahassee-fl/tree-service": [
+        7,
+        8
+      ]
+    }
+  }
 }
