@@ -9,6 +9,8 @@
 export const excludedWebsiteDomains = [
   // TruTeam owns a nationwide network of local installation branches.
   'truteam.com',
+  // Puddle Pool Services operates a North American franchise network.
+  'puddlepools.com',
 
   // National/franchise brands and local aliases confirmed November 15, 2026.
   // Official-source evidence: reports/local-regional-only-2026-11-15.md.
