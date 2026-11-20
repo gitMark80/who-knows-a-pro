@@ -1,0 +1,813 @@
+{
+  "runDate": "2026-11-20",
+  "baselineCommit": "460065eae496f9a1beaf79691c051369456a5828",
+  "status": "validated_awaiting_publication",
+  "placements": [
+    {
+      "name": "Precision Marine Maintenance",
+      "website": "https://precisionmarinemaintenance.com/",
+      "region": "panama-city-fl",
+      "trade": "marine-services",
+      "sourceUrl": "https://precisionmarinemaintenance.com/services/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Panama City mobile operator provides outboard repair, wiring and maintenance for recreational boat owners at their docks. Florida corporate records match the business name and Panama City address.",
+      "existing": false,
+      "sourceUrls": [
+        "https://precisionmarinemaintenance.com/",
+        "https://precisionmarinemaintenance.com/services/",
+        "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l26000254294-c767d078-20d3-41b4-8a3b-42f9c086e876&directionType=Initial&inquirytype=EntityName&listNameOrder=PRECISIONMARINECONCEPTS+P050000726490&searchNameOrder=PRECISIONMARINEMAINTENANCE+L260002542940&searchTerm=Precision+Marine+Concepts+Inc."
+      ]
+    },
+    {
+      "name": "Precision Marine Maintenance",
+      "website": "https://precisionmarinemaintenance.com/",
+      "region": "panama-city-beach-fl",
+      "trade": "marine-services",
+      "sourceUrl": "https://precisionmarinemaintenance.com/gallery/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The operator’s project gallery explicitly names Panama City Beach separately from Panama City. Its services page describes on-site motor service and repairs for recreational boat owners.",
+      "existing": false,
+      "sourceUrls": [
+        "https://precisionmarinemaintenance.com/",
+        "https://precisionmarinemaintenance.com/gallery/",
+        "https://precisionmarinemaintenance.com/services/",
+        "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l26000254294-c767d078-20d3-41b4-8a3b-42f9c086e876&directionType=Initial&inquirytype=EntityName&listNameOrder=PRECISIONMARINECONCEPTS+P050000726490&searchNameOrder=PRECISIONMARINEMAINTENANCE+L260002542940&searchTerm=Precision+Marine+Concepts+Inc."
+      ]
+    },
+    {
+      "name": "Soundside Mobile Marine",
+      "website": "https://soundsidemobilemarine.com/",
+      "region": "navarre-fl",
+      "trade": "marine-services",
+      "sourceUrl": "https://soundsidemobilemarine.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Navarre-based operator services recreational four-stroke outboards at waterfront homes and docks, including oil and lower-unit service.",
+      "existing": false,
+      "sourceUrls": [
+        "https://soundsidemobilemarine.com/"
+      ]
+    },
+    {
+      "name": "Soundside Mobile Marine",
+      "website": "https://soundsidemobilemarine.com/",
+      "region": "gulf-breeze-fl",
+      "trade": "marine-services",
+      "sourceUrl": "https://soundsidemobilemarine.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Navarre operator specifically names Gulf Breeze on its mobile route and offers recreation-boat outboard maintenance at residential docks and driveways.",
+      "existing": false,
+      "sourceUrls": [
+        "https://soundsidemobilemarine.com/"
+      ]
+    },
+    {
+      "name": "Outdoor Services of Pace",
+      "website": "https://osop1907.wixsite.com/paceflorida",
+      "region": "pace-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://osop1907.wixsite.com/paceflorida",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The local operator’s official hosted site identifies Pace as its base and directly offers troubleshooting and repair of home irrigation systems.",
+      "existing": false,
+      "sourceUrls": [
+        "https://osop1907.wixsite.com/paceflorida"
+      ]
+    },
+    {
+      "name": "Clear Water Pool & Spa",
+      "website": "https://cwpoolandspa.com/",
+      "region": "mobile-al",
+      "trade": "pool-service",
+      "sourceUrl": "https://cwpoolandspa.com/services",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Mobile shop dispatches its own local technician to clean homeowners’ pools, balance the water, and assess pump and filter problems.",
+      "existing": false,
+      "sourceUrls": [
+        "https://cwpoolandspa.com/",
+        "https://cwpoolandspa.com/services",
+        "https://cwpoolandspa.com/about",
+        "https://clearwaterpoolandspaservices.com/about/"
+      ]
+    },
+    {
+      "name": "Appliance Tech of Mobile",
+      "website": "https://www.tvandappliancetechofmobile.com/",
+      "region": "mobile-al",
+      "trade": "appliance-repair",
+      "sourceUrl": "https://www.tvandappliancetechofmobile.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The local technician’s official website identifies Mobile and offers in-home diagnosis and repair of household washers, dryers, refrigerators and other major appliances.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.tvandappliancetechofmobile.com/"
+      ]
+    },
+    {
+      "name": "Phoenix Hardscapes",
+      "website": "https://www.phoenixhardscape.net/",
+      "region": "daphne-al",
+      "trade": "concrete",
+      "sourceUrl": "https://www.phoenixhardscape.net/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The local concrete contractor explicitly serves Daphne homes and describes replacing residential driveways and pouring concrete slabs and paved areas.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.phoenixhardscape.net/"
+      ]
+    },
+    {
+      "name": "Phoenix Hardscapes",
+      "website": "https://www.phoenixhardscape.net/",
+      "region": "fairhope-al",
+      "trade": "concrete",
+      "sourceUrl": "https://www.phoenixhardscape.net/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The firm’s residential concrete page explicitly lists Fairhope and offers directly poured concrete driveways, slabs and walkways for homeowners.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.phoenixhardscape.net/"
+      ]
+    },
+    {
+      "name": "High Tide Contracting and Roofing",
+      "website": "https://hightidecontractingandroofing.com/",
+      "region": "foley-al",
+      "trade": "roofing",
+      "sourceUrl": "https://hightidecontractingandroofing.com/repairs/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "This family-owned contractor operates from Foley. Its roof repair page offers repairs for homeowners and gives the Foley operating address.",
+      "existing": false,
+      "sourceUrls": [
+        "https://hightidecontractingandroofing.com/",
+        "https://hightidecontractingandroofing.com/repairs/",
+        "https://hightidecontractingandroofing.com/about/"
+      ]
+    },
+    {
+      "name": "Roof Squirrel Roofing",
+      "website": "https://roofsquirrel.com/",
+      "region": "gulf-shores-al",
+      "trade": "roofing",
+      "sourceUrl": "https://roofsquirrel.com/alabama/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The family-operated regional roofer explicitly serves Gulf Shores, offering shingle and metal roof repairs and replacements to homeowners.",
+      "existing": false,
+      "sourceUrls": [
+        "https://roofsquirrel.com/",
+        "https://roofsquirrel.com/alabama/"
+      ]
+    },
+    {
+      "name": "ARC Roofing",
+      "website": "https://arcroofingal.com/",
+      "region": "foley-al",
+      "trade": "roofing",
+      "sourceUrl": "https://arcroofingal.com/service-areas/foley-al/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley service page offers residential roof repairs and replacements. The owner-led Alabama roofing business identifies its own crew and direct oversight.",
+      "existing": false,
+      "sourceUrls": [
+        "https://arcroofingal.com/",
+        "https://arcroofingal.com/service-areas/foley-al/",
+        "https://arcroofingal.com/about/"
+      ]
+    },
+    {
+      "name": "R & S Paving & Grading",
+      "website": "https://www.randspaving.com/",
+      "region": "foley-al",
+      "trade": "concrete",
+      "sourceUrl": "https://www.randspaving.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley-based family contractor offers concrete driveways as part of its residential paving services and names Foley in its service area.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.randspaving.com/"
+      ]
+    },
+    {
+      "name": "R & S Paving & Grading",
+      "website": "https://www.randspaving.com/",
+      "region": "daphne-al",
+      "trade": "concrete",
+      "sourceUrl": "https://www.randspaving.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The local family contractor specifically includes Daphne and lists concrete driveways among the services it delivers to residential property owners.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.randspaving.com/"
+      ]
+    },
+    {
+      "name": "Spartan Outdoor Services",
+      "website": "https://spartanoutdoorservicesllc.com/",
+      "region": "foley-al",
+      "trade": "concrete",
+      "sourceUrl": "https://spartanoutdoorservicesllc.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley contractor offers concrete pouring for home driveways, patios, paths and slabs in Foley and shows its residential project work.",
+      "existing": false,
+      "sourceUrls": [
+        "https://spartanoutdoorservicesllc.com/"
+      ]
+    },
+    {
+      "name": "AllSport Concrete",
+      "website": "https://www.allsportconcrete.com/",
+      "region": "foley-al",
+      "trade": "concrete",
+      "sourceUrl": "https://www.allsportconcrete.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley concrete contractor describes its direct driveway, patio and carport concrete installations for homeowners in Foley.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.allsportconcrete.com/"
+      ]
+    },
+    {
+      "name": "Striker Pest Control",
+      "website": "https://strikerpestcontrol.com/",
+      "region": "daphne-al",
+      "trade": "pest-control",
+      "sourceUrl": "https://strikerpestcontrol.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The family-operated Spanish Fort company provides quarterly residential pest control throughout Baldwin County. The county lists Daphne as a municipality, and the company describes service in Daphne.",
+      "existing": false,
+      "sourceUrls": [
+        "https://strikerpestcontrol.com/",
+        "https://baldwincountyal.gov/municipalities",
+        "https://strikerpestcontrol.com/contact"
+      ]
+    },
+    {
+      "name": "Striker Pest Control",
+      "website": "https://strikerpestcontrol.com/",
+      "region": "fairhope-al",
+      "trade": "pest-control",
+      "sourceUrl": "https://strikerpestcontrol.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The company offers quarterly household pest treatment throughout Baldwin County and shows a Fairhope customer example. Baldwin County identifies Fairhope as a municipality.",
+      "existing": false,
+      "sourceUrls": [
+        "https://strikerpestcontrol.com/",
+        "https://baldwincountyal.gov/municipalities"
+      ]
+    },
+    {
+      "name": "The Pool Store",
+      "website": "https://gulfshorespoolstore.com/",
+      "region": "gulf-shores-al",
+      "trade": "pool-service",
+      "sourceUrl": "https://gulfshorespoolstore.com/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Gulf Shores team directly cleans homeowners’ pools, balances water every week, and performs pool pump and equipment repairs.",
+      "existing": false,
+      "sourceUrls": [
+        "https://gulfshorespoolstore.com/"
+      ]
+    },
+    {
+      "name": "Jubilee Pool & Patio",
+      "website": "https://jubileepoolpatio.com/",
+      "region": "daphne-al",
+      "trade": "pool-service",
+      "sourceUrl": "https://jubileepoolpatio.com/about-us/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The veteran- and family-owned operator has a Daphne location and directly offers home pool cleaning, weekly maintenance and equipment installation in Daphne.",
+      "existing": false,
+      "sourceUrls": [
+        "https://jubileepoolpatio.com/",
+        "https://jubileepoolpatio.com/about-us/"
+      ]
+    },
+    {
+      "name": "Jubilee Pool & Patio",
+      "website": "https://jubileepoolpatio.com/",
+      "region": "fairhope-al",
+      "trade": "pool-service",
+      "sourceUrl": "https://jubileepoolpatio.com/about-us/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The company's Fairhope location and stated Baldwin County home pool maintenance service support weekly cleaning and pool care for Fairhope customers.",
+      "existing": false,
+      "sourceUrls": [
+        "https://jubileepoolpatio.com/",
+        "https://jubileepoolpatio.com/about-us/",
+        "https://jubileepoolpatio.com/contact/",
+        "https://baldwincountyal.gov/municipalities"
+      ]
+    },
+    {
+      "name": "850 Garage Doors",
+      "website": "https://www.850garagedoors.com/",
+      "region": "crestview-fl",
+      "trade": "garage-door-repair",
+      "sourceUrl": "https://www.850garagedoors.com/crestview/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The regional garage door company’s Crestview page offers homeowners opener and garage door repairs performed by its own technicians.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.850garagedoors.com/",
+        "https://www.850garagedoors.com/crestview/"
+      ]
+    },
+    {
+      "name": "850 Garage Doors",
+      "website": "https://www.850garagedoors.com/",
+      "region": "fort-walton-beach-fl",
+      "trade": "garage-door-repair",
+      "sourceUrl": "https://www.850garagedoors.com/fort-walton-beach/garage-door-repair/",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The company’s Fort Walton Beach page explicitly covers garage door spring repair and sensor diagnosis for Fort Walton Beach homeowners.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.850garagedoors.com/",
+        "https://www.850garagedoors.com/fort-walton-beach/garage-door-repair/"
+      ]
+    },
+    {
+      "name": "DADS Roofing",
+      "website": "https://www.dadsroofing.com/",
+      "region": "gulf-shores-al",
+      "trade": "roofing",
+      "sourceUrl": "https://www.dadsroofing.com/contact",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley-based family contractor explicitly names Gulf Shores for homeowner service. Its official about page describes direct roof repairs and replacements.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.dadsroofing.com/",
+        "https://www.dadsroofing.com/contact",
+        "https://www.dadsroofing.com/about-us"
+      ]
+    },
+    {
+      "name": "DADS Roofing",
+      "website": "https://www.dadsroofing.com/",
+      "region": "foley-al",
+      "trade": "roofing",
+      "sourceUrl": "https://www.dadsroofing.com/contact",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley-based family contractor explicitly names Foley for homeowner service. Its official about page describes direct roof repairs and replacements.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.dadsroofing.com/",
+        "https://www.dadsroofing.com/contact",
+        "https://www.dadsroofing.com/about-us"
+      ]
+    },
+    {
+      "name": "DADS Roofing",
+      "website": "https://www.dadsroofing.com/",
+      "region": "daphne-al",
+      "trade": "roofing",
+      "sourceUrl": "https://www.dadsroofing.com/contact",
+      "sourceVerifiedAt": "2026-11-20T10:57:52Z",
+      "evidenceNote": "The Foley-based family contractor explicitly names Daphne for homeowner service. Its official about page describes direct roof repairs and replacements.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.dadsroofing.com/",
+        "https://www.dadsroofing.com/contact",
+        "https://www.dadsroofing.com/about-us"
+      ]
+    }
+  ],
+  "identityChecks": [
+    {
+      "name": "Polar Insulation",
+      "url": "https://www.wewahitchkainsulation.com/",
+      "canonical": "https://polarinsulation.us/",
+      "note": "Alternative site explicitly identifies Polar Insulation. The Panama City insulation placement already exists."
+    },
+    {
+      "name": "DADS Roofing",
+      "url": "https://lily-celery-ljfl.squarespace.com/about-us",
+      "canonical": "https://www.dadsroofing.com/",
+      "note": "The hosted about page has the same owner and company content. The official branded site is used for existing-business placements."
+    },
+    {
+      "name": "Clear Water Pool & Spa",
+      "url": "https://clearwaterpoolandspaservices.com/about/",
+      "canonical": "https://cwpoolandspa.com/",
+      "note": "The older domain redirects to the current official website. The pair was treated as one new business."
+    },
+    {
+      "name": "Soundside Mobile Marine",
+      "url": "https://soundsidemobilemarine.com/",
+      "canonical": "https://soundsidemobilemarine.com/",
+      "note": "The official site identifies Soundside Marine, LLC and a distinct mobile outboard operation. The baseline name Soundside Marine Electronics links to a separate Milton trolling motor shop with different contact details and service offering."
+    }
+  ],
+  "reviewedBaselineDomains": [
+    {
+      "name": "850 Garage Doors",
+      "domain": "850garagedoors.com"
+    },
+    {
+      "name": "Ace Overhead Garage Doors",
+      "domain": "aceoverheadgaragedoors.com"
+    },
+    {
+      "name": "Alabama Poolworks",
+      "domain": "alabamapoolworks.com"
+    },
+    {
+      "name": "Alabama Termite & Pest Services",
+      "domain": "alabamatermite.com"
+    },
+    {
+      "name": "All Pro Watercraft & ATV Service",
+      "domain": "allpromarineandrepair.com"
+    },
+    {
+      "name": "Appliance Partners",
+      "domain": "appliance.partners"
+    },
+    {
+      "name": "Appliance Doctor",
+      "domain": "appliancedoctorfl.com"
+    },
+    {
+      "name": "Appliance Expert",
+      "domain": "applianceexpertal.com"
+    },
+    {
+      "name": "Arrow Pest Service",
+      "domain": "arrowps.com"
+    },
+    {
+      "name": "Bay To Beach Pools",
+      "domain": "baytobeachpools.com"
+    },
+    {
+      "name": "Best Tree and Sprinkler Service",
+      "domain": "besttreeandsprinklerservice.com"
+    },
+    {
+      "name": "Breeze Mobile Marine",
+      "domain": "breezemobilemarine.com"
+    },
+    {
+      "name": "Brock Lawn & Pest Control",
+      "domain": "brockpest.com"
+    },
+    {
+      "name": "Bryan Pest Control",
+      "domain": "bryanpestcontrol.com"
+    },
+    {
+      "name": "Bug Out Service",
+      "domain": "bugoutwf.com"
+    },
+    {
+      "name": "Cal's Appliance Repair",
+      "domain": "calsappliancerepair.com"
+    },
+    {
+      "name": "ProCon Decorative Concrete",
+      "domain": "concretebyprocon.com"
+    },
+    {
+      "name": "Conrad Construction",
+      "domain": "conradconstructionremodeling.com"
+    },
+    {
+      "name": "Cook's Pest Control — Biloxi-Gulfport",
+      "domain": "cookspest.com"
+    },
+    {
+      "name": "Cox Pools",
+      "domain": "coxpools.com"
+    },
+    {
+      "name": "Cramer Marine & Outdoor",
+      "domain": "cramermarineandoutdoor.com"
+    },
+    {
+      "name": "Crestview Marine",
+      "domain": "crestviewmarine.wixsite.com"
+    },
+    {
+      "name": "Custom Marine Service",
+      "domain": "customserviceco.com"
+    },
+    {
+      "name": "Curtis Williams Services",
+      "domain": "cwsbuilds.com"
+    },
+    {
+      "name": "DADS Roofing",
+      "domain": "dadsroofing.com"
+    },
+    {
+      "name": "Cadenhead Services",
+      "domain": "dontbugme.com"
+    },
+    {
+      "name": "Easy Pour Concrete",
+      "domain": "easypourconcrete.com"
+    },
+    {
+      "name": "Emerald Coast Appliance Service",
+      "domain": "emeraldcoastapplianceservice.com"
+    },
+    {
+      "name": "Emerald Coast Fiberglass Pools",
+      "domain": "emeraldcoastfiberglasspools.com"
+    },
+    {
+      "name": "Emerald Coast Pools",
+      "domain": "emeraldcoastpoolcompany.com"
+    },
+    {
+      "name": "F & H Roofing",
+      "domain": "fandhroofing.com"
+    },
+    {
+      "name": "GoPest",
+      "domain": "gopest.net"
+    },
+    {
+      "name": "Guardian Pest Control",
+      "domain": "guardianonceayear.com"
+    },
+    {
+      "name": "Home Appliance Service of Destin",
+      "domain": "hasdestin.com"
+    },
+    {
+      "name": "Hilbun Pest Control",
+      "domain": "hilbunpestservices.com"
+    },
+    {
+      "name": "Hometown Garage Doors LLC",
+      "domain": "hometowngaragenwfl.com"
+    },
+    {
+      "name": "House 2 House Lawn Care",
+      "domain": "house2houselawns.com"
+    },
+    {
+      "name": "I Can Do All Things Pest Control",
+      "domain": "icdatpestcontrol.com"
+    },
+    {
+      "name": "Island Pool LLC",
+      "domain": "islandpoolllc.com"
+    },
+    {
+      "name": "Johnson Pools",
+      "domain": "johnsonpoolsinc.com"
+    },
+    {
+      "name": "Lewis Concrete Contractors",
+      "domain": "lewisconcretecontractors.com"
+    },
+    {
+      "name": "LGM Landscape & Irrigation",
+      "domain": "lgmlandscapeandirrigation.com"
+    },
+    {
+      "name": "Magnolia Outdoor Living",
+      "domain": "magnolia-outdoor-living.com"
+    },
+    {
+      "name": "ML Florida Services LLC",
+      "domain": "mlfloridaservices.com"
+    },
+    {
+      "name": "Mobile Marine Pros",
+      "domain": "mobilemarinepro.com"
+    },
+    {
+      "name": "Octopus Solutions",
+      "domain": "octopussolutionsllc.com"
+    },
+    {
+      "name": "Panama Pools & Spas",
+      "domain": "panamapoolsandspas.com"
+    },
+    {
+      "name": "Parker Septic",
+      "domain": "parkersepticpanamacity.com"
+    },
+    {
+      "name": "People 1st Home Services",
+      "domain": "people1sthomeservices.com"
+    },
+    {
+      "name": "Pierce Pest Solutions",
+      "domain": "piercepestsolutionsllc.com"
+    },
+    {
+      "name": "Pinckard & Son Garage Doors",
+      "domain": "pinckardandsongaragedoors.com"
+    },
+    {
+      "name": "Polar Insulation",
+      "domain": "polarinsulation.us"
+    },
+    {
+      "name": "Prater's Insulators",
+      "domain": "pratersinsulators.com"
+    },
+    {
+      "name": "Precision Pools LLC",
+      "domain": "precisionpoolsllc.com"
+    },
+    {
+      "name": "Procare Pest Control",
+      "domain": "procarepestcontrol.com"
+    },
+    {
+      "name": "Purvis Appliance Repair LLC",
+      "domain": "purvisappliancerepair.com"
+    },
+    {
+      "name": "Revolutions Marine",
+      "domain": "revolutionsmarinegulfcoast.com"
+    },
+    {
+      "name": "River Park Pools",
+      "domain": "riverparkpools.com"
+    },
+    {
+      "name": "Rogan's Pro Appliance Repair",
+      "domain": "rogansproappliance.com"
+    },
+    {
+      "name": "Rogers & Grant Septic Services",
+      "domain": "rogersgrantseptic.com"
+    },
+    {
+      "name": "Sal's Lawn Care & Home Repair",
+      "domain": "salshomerepair.com"
+    },
+    {
+      "name": "Scott's Appliance Service",
+      "domain": "scottsappservice.com"
+    },
+    {
+      "name": "Shawn's Appliance Repair & HVAC Services",
+      "domain": "shawnsapplianceservices.com"
+    },
+    {
+      "name": "Smith Landscaping Solutions",
+      "domain": "smithlandscapingsolutions.com"
+    },
+    {
+      "name": "Southern Poolscapes",
+      "domain": "southernpoolscapes.com"
+    },
+    {
+      "name": "Superior Scapes",
+      "domain": "superiorscapesgulfcoast.com"
+    },
+    {
+      "name": "Superior Septic Sewer",
+      "domain": "superiorsepticsewer.com"
+    },
+    {
+      "name": "Terry's Landscape",
+      "domain": "terryslandscapinginc.com"
+    },
+    {
+      "name": "Tigers Concrete",
+      "domain": "tigersconcrete.com"
+    },
+    {
+      "name": "Zeb Watts Septic",
+      "domain": "zebwattsseptic.com"
+    }
+  ],
+  "pendingCandidates": [
+    {
+      "name": "Gulfcoast Boat Repair",
+      "website": "https://gulfcoast-boatrepair-panamacity.com/",
+      "note": "Panama City marine services. The site offers on-site repairs but locally accountable operator identity remains uncorroborated from the earlier hold."
+    },
+    {
+      "name": "Mobile Appliance Repair",
+      "website": "https://www.mobileappliancerepair.com/",
+      "note": "Mobile appliance repair. The marketing site names in-home repair but the identity of a locally accountable repair provider is not established."
+    },
+    {
+      "name": "Southern Home Appliance Services LLC",
+      "note": "Crestview appliance repair. A business-owned official site remains unverified."
+    },
+    {
+      "name": "Ron's Appliance Service & Parts",
+      "note": "Crestview appliance repair. Direct residential service versus a parts shop, and a working official site, are not confirmed."
+    },
+    {
+      "name": "Comfort Insulators",
+      "note": "Panama City insulation. Official website and exact residential offering have not been verified."
+    },
+    {
+      "name": "A1 Septic Worx LLC",
+      "note": "Panama City septic. State filings corroborate identity but official service website and specific residential coverage remain unverified."
+    },
+    {
+      "name": "Fort Walton Beach Insulation",
+      "website": "https://www.fortwaltonbeachinsulation.com/",
+      "note": "Fort Walton Beach insulation. Prior hold remains open until the actual local operator is identified."
+    },
+    {
+      "name": "Jay's Mobile Marine LLC",
+      "note": "Panama City marine services. No independently verified official business website."
+    },
+    {
+      "name": "Primetime Concrete Mobile",
+      "website": "https://primetimeconcretemobile.com/",
+      "note": "Mobile concrete. Local operation needs corroboration beyond generic call intake and city marketing."
+    },
+    {
+      "name": "Baldwin Appliance",
+      "website": "https://baldwinappliance.com/about/index.php",
+      "note": "Baldwin County appliance repair. In-home service is described but placeholder license values appear on the official page. Confirm legal identity and local operation before adding."
+    },
+    {
+      "name": "Perdue Concrete",
+      "website": "https://perdueconcreteinc.com/",
+      "note": "Baldwin concrete. The site mentions house foundations, but local residential project coverage beyond a mailing address remains uncertain."
+    },
+    {
+      "name": "Pool Pro Service Inc",
+      "website": "https://poolproserviceinc.com/",
+      "note": "Gulf Shores pool service. The site shows a local location and cleaning but does not clearly establish home pool service."
+    },
+    {
+      "name": "Clearspire Pools",
+      "note": "Foley pool service. Official business-owned site and residential scope unconfirmed."
+    }
+  ],
+  "withheldCandidates": [
+    {
+      "name": "United Water Restoration Group of Mobile",
+      "website": "https://uwrgmobile.com/about-us/",
+      "note": "The local site explicitly identifies the branch as part of United Water Restoration Group’s national franchise network. Neither the local alias nor a matching branch appeared in the baseline."
+    },
+    {
+      "name": "BlueLux Pools",
+      "website": "https://blueluxpools.com/",
+      "note": "The official site describes operations across multiple distant regions including Florida, Texas, and Nevada. It falls outside the local or regional brand scope."
+    },
+    {
+      "name": "Premier Pools & Spas",
+      "website": "https://premierpoolsandspas.com/pool-builders/florida/panama-city/",
+      "note": "National franchise."
+    },
+    {
+      "name": "Koala Insulation",
+      "website": "https://koalainsulation.com/panama-city",
+      "note": "National franchise."
+    },
+    {
+      "name": "ProLift Garage Doors",
+      "website": "https://book.proliftdoors.com/florida-panhandle/",
+      "note": "National franchise."
+    },
+    {
+      "name": "Tajmahome",
+      "website": "https://tajmahome.com/al/mobile/irrigation-repair/",
+      "note": "Referral or matching site."
+    },
+    {
+      "name": "BoatFixExperts",
+      "website": "https://www.boatfixexperts.com/boat-repair/florida/panama-city",
+      "note": "Directory-style listing source without documented direct local service."
+    },
+    {
+      "name": "Spearhead Mechanical",
+      "website": "https://spearheadmechanical.com/contact-us",
+      "note": "Working local residential plumbing evidence. All target Panhandle plumbing pages checked for this lead were at the displayed target, so no placement selected."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "website": "https://www.retailfixit.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "status": "already_suppressed",
+      "rawPlacements": 396,
+      "note": "Official company site presents nationwide commercial facilities management and vendor registration. No local residential locksmith qualification."
+    },
+    {
+      "name": "ML Florida Services LLC",
+      "website": "https://mlfloridaservices.com/",
+      "reasons": [
+        "official_website_automated_review_blocker"
+      ],
+      "status": "review_only",
+      "note": "Current search index identifies the Panama City in-home repair operator. One source reader failed because the page exceeded its content-size limit. This is not evidence of a dead website. Recheck the historical website without changing its visibility."
+    }
+  ],
+  "latestHistoricalScan": {
+    "flaggedBusinessIdentities": 158,
+    "flaggedSourceRows": 584,
+    "flaggedRawPlacements": 8816,
+    "retailFixItRawPlacements": 396
+  }
+}
