@@ -1,7 +1,7 @@
 {
   "runDate": "2026-11-20",
   "baselineCommit": "3c4c78da70428f6798cb09c1ec7a5bd4b4241f75",
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "name": "Allgood Outdoor Services",
@@ -817,5 +817,405 @@
     "flaggedSourceRows": 584,
     "flaggedRawPlacements": 8816,
     "retailFixItRawPlacements": 396
+  },
+  "publication": {
+    "commit": "5bb4502897f243c6bf0067afccb144064c711858",
+    "productionDeployment": "dpl_2nvSewgSofy8Jnr78rXrDwts4zuM",
+    "productionStatus": "READY",
+    "newBusinessesLiveVerified": 23,
+    "newBusinessPlacementsLiveVerified": 24,
+    "existingBusinessPlacementsLiveVerified": 4,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "newBusinessShortfall": 977
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-20T22:55:56.140Z",
+    "placements": [
+      {
+        "pageUrl": "https://whoknowsapro.com/crestview-fl/irrigation-sprinkler-repair",
+        "name": "Allgood Outdoor Services",
+        "website": "https://allgoodoutdoorservices.com/",
+        "displayedCards": 15,
+        "matchingCards": 1,
+        "finalUrl": "https://allgoodoutdoorservices.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/irrigation-sprinkler-repair",
+        "name": "Allgood Outdoor Services",
+        "website": "https://allgoodoutdoorservices.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://allgoodoutdoorservices.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/perdido-key-fl/flooring",
+        "name": "Jonathan's Flooring",
+        "website": "https://www.jonathansflooring.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://www.jonathansflooring.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/dothan-al/electrical",
+        "name": "Steve's Plumbing & Electric",
+        "website": "https://www.stevesplumbingandelectric.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.stevesplumbingandelectric.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/dothan-al/flooring",
+        "name": "Clark's Flooring Co.",
+        "website": "https://www.clarksflooringcompany.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.clarksflooringcompany.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "name": "Selrahc Termite & Pest Control",
+        "website": "https://selrahcpest.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://selrahcpest.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "name": "Rock Solid Termite and Pest Control",
+        "website": "https://www.rocksolidpest.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.rocksolidpest.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "name": "Big Bend Eubanks Termite & Pest Control",
+        "website": "https://www.bigbendeubanks.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.bigbendeubanks.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "name": "Why U Buggin' Pest & Termite Control",
+        "website": "https://www.whyubugginpestcontrol.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.whyubugginpestcontrol.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/hvac",
+        "name": "Precision Air Conditioning & Heating",
+        "website": "https://tallahasseehvacr.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://tallahasseehvacr.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/hvac",
+        "name": "Intelligent Air",
+        "website": "https://www.intelligentairllc.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://www.intelligentairllc.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/hvac",
+        "name": "Giddens Air Conditioning",
+        "website": "https://www.giddensac.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://www.giddensac.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/hvac",
+        "name": "Tadlock Heating and Air",
+        "website": "https://tadlockhvac.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://tadlockhvac.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/landscaping",
+        "name": "GR Lawn Care & Landscaping",
+        "website": "https://grlawncarefl.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://grlawncarefl.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/landscaping",
+        "name": "Sod 2 Day",
+        "website": "https://sod2day.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://sod2day.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/landscaping",
+        "name": "Super Coop Landscapes",
+        "website": "https://www.supercooplandscape.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.supercooplandscape.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/landscaping",
+        "name": "Talquin Landscaping",
+        "website": "https://www.talquinlandscapingfl.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.talquinlandscapingfl.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/gutters",
+        "name": "Bradley's Custom Gutters",
+        "website": "https://bradleyscustomgutters.com/",
+        "displayedCards": 12,
+        "matchingCards": 1,
+        "finalUrl": "https://bradleyscustomgutters.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/gutters",
+        "name": "New Vision Gutters",
+        "website": "https://newvisiongutters.com/",
+        "displayedCards": 12,
+        "matchingCards": 1,
+        "finalUrl": "https://newvisiongutters.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/gutters",
+        "name": "Capital City Gutter",
+        "website": "https://www.capitalcitygutter.com/",
+        "displayedCards": 12,
+        "matchingCards": 1,
+        "finalUrl": "https://www.capitalcitygutter.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/gutters",
+        "name": "McKeithen Roofing",
+        "website": "https://www.mckeithenroofing.net/",
+        "displayedCards": 12,
+        "matchingCards": 1,
+        "finalUrl": "https://www.mckeithenroofing.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/tree-service",
+        "name": "Cricket's Tree Service",
+        "website": "https://www.cricketstree.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.cricketstree.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/fence-builders",
+        "name": "Credence Land and Fence",
+        "website": "https://credencefence.com/",
+        "displayedCards": 13,
+        "matchingCards": 1,
+        "finalUrl": "https://credencefence.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/tallahassee-fl/fence-builders",
+        "name": "Watson & Sons Carpentry",
+        "website": "https://watsonandsons.co/",
+        "displayedCards": 13,
+        "matchingCards": 1,
+        "finalUrl": "https://watsonandsons.co/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/milton-fl/marine-services",
+        "name": "Soundside Mobile Marine",
+        "website": "https://soundsidemobilemarine.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://soundsidemobilemarine.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/pensacola-fl/marine-services",
+        "name": "Soundside Mobile Marine",
+        "website": "https://soundsidemobilemarine.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://soundsidemobilemarine.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/tree-service",
+        "name": "Chris Francis Tree Care",
+        "website": "https://www.daphnetrees.com/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://www.daphnetrees.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/tree-service",
+        "name": "Chris Francis Tree Care",
+        "website": "https://www.daphnetrees.com/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://www.daphnetrees.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      }
+    ]
+  },
+  "liveCoverage": {
+    "pages": 1120,
+    "displayedPlacementsBefore": 13257,
+    "displayedPlacementsAfter": 13285,
+    "displayedAtLeast20": 241,
+    "displayedBelow20": 879,
+    "emptyDisplayed": 0,
+    "displayedDeficit": 9429,
+    "changedPages": {
+      "crestview-fl/irrigation-sprinkler-repair": [
+        14,
+        15
+      ],
+      "dothan-al/electrical": [
+        6,
+        7
+      ],
+      "dothan-al/flooring": [
+        6,
+        7
+      ],
+      "foley-al/tree-service": [
+        9,
+        10
+      ],
+      "grayton-beach-fl/irrigation-sprinkler-repair": [
+        8,
+        9
+      ],
+      "gulf-shores-al/tree-service": [
+        9,
+        10
+      ],
+      "milton-fl/marine-services": [
+        16,
+        17
+      ],
+      "pensacola-fl/marine-services": [
+        16,
+        17
+      ],
+      "perdido-key-fl/flooring": [
+        16,
+        17
+      ],
+      "tallahassee-fl/fence-builders": [
+        11,
+        13
+      ],
+      "tallahassee-fl/gutters": [
+        8,
+        12
+      ],
+      "tallahassee-fl/hvac": [
+        7,
+        11
+      ],
+      "tallahassee-fl/landscaping": [
+        5,
+        9
+      ],
+      "tallahassee-fl/pest-control": [
+        4,
+        8
+      ],
+      "tallahassee-fl/tree-service": [
+        8,
+        9
+      ]
+    },
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "qualificationBackedDeficit": null,
+    "qualificationBackedPagesAt20": null
   }
 }
