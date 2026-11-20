@@ -1,7 +1,7 @@
 {
   "runDate": "2026-11-20",
   "baselineCommit": "426fd5d643d513fd1c1027a5539660fad34f5580",
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "name": "Paz of Mind",
@@ -910,5 +910,433 @@
     "flaggedSourceRows": 584,
     "flaggedRawPlacements": 8816,
     "retailFixItRawPlacements": 396
+  },
+  "publication": {
+    "commit": "389b41ab26f16b8875df7eab381561641c6eebb2",
+    "productionDeployment": "dpl_BuATkFZa6wQuUJGPvntkPR4hJSHK",
+    "productionStatus": "READY",
+    "newBusinessesLiveVerified": 14,
+    "newBusinessPlacementsLiveVerified": 24,
+    "existingBusinessPlacementsLiveVerified": 4,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "newBusinessShortfall": 986
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-20T16:55:50.859Z",
+    "placements": [
+      {
+        "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/irrigation-sprinkler-repair",
+        "name": "Paz of Mind",
+        "website": "https://pazofmindservices.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://pazofmindservices.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/kitchen-bath-remodeling",
+        "name": "Coastal Construction Co.",
+        "website": "https://coastalconstructional.com/",
+        "displayedCards": 18,
+        "matchingCards": 1,
+        "finalUrl": "https://coastalconstructional.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/kitchen-bath-remodeling",
+        "name": "Coastal Construction Co.",
+        "website": "https://coastalconstructional.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://coastalconstructional.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/electrical",
+        "name": "Wave Electric",
+        "website": "https://waveelectricalexperts.com/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://waveelectricalexperts.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/electrical",
+        "name": "Wave Electric",
+        "website": "https://waveelectricalexperts.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://waveelectricalexperts.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/electrical",
+        "name": "FastFriendly",
+        "website": "https://www.fastfriendly.net/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://www.fastfriendly.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/appliance-repair",
+        "name": "FastFriendly",
+        "website": "https://www.fastfriendly.net/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://www.fastfriendly.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/electrical",
+        "name": "Teem Electric",
+        "website": "https://electricianteem.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://electricianteem.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/electrical",
+        "name": "Teem Electric",
+        "website": "https://electricianteem.com/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://electricianteem.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/electrical",
+        "name": "Lighthouse Electric of Gulf Shores",
+        "website": "https://www.lighthouseelectricgulfshores.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.lighthouseelectricgulfshores.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/painting",
+        "name": "Pro 1 Painters",
+        "website": "https://pro1painters.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://pro1painters.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/painting",
+        "name": "Pro 1 Painters",
+        "website": "https://pro1painters.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://pro1painters.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/flooring",
+        "name": "Sandridge Flooring",
+        "website": "https://www.sandridgefloors.com/",
+        "displayedCards": 13,
+        "matchingCards": 1,
+        "finalUrl": "https://www.sandridgefloors.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/flooring",
+        "name": "Sandridge Flooring",
+        "website": "https://www.sandridgefloors.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.sandridgefloors.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/flooring",
+        "name": "Streamline Construction",
+        "website": "https://streamlineconstructionsal.com/",
+        "displayedCards": 13,
+        "matchingCards": 1,
+        "finalUrl": "https://streamlineconstructionsal.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/water-damage-mold-remediation",
+        "name": "Phoenix Restoration Services",
+        "website": "https://www.phoenixrest.com/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://www.phoenixrest.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/water-damage-mold-remediation",
+        "name": "Phoenix Restoration Services",
+        "website": "https://www.phoenixrest.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.phoenixrest.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/water-damage-mold-remediation",
+        "name": "Phoenix Restoration Services",
+        "website": "https://www.phoenixrest.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.phoenixrest.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/painting",
+        "name": "JMCO Painting",
+        "website": "https://jmcopainting.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://jmcopainting.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/painting",
+        "name": "Prime Coat Painting",
+        "website": "https://primecoatpaint.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://primecoatpaint.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/painting",
+        "name": "Prime Coat Painting",
+        "website": "https://primecoatpaint.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://primecoatpaint.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/hvac",
+        "name": "Kindness Air",
+        "website": "https://www.kindnessair.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://www.kindnessair.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/hvac",
+        "name": "Kindness Air",
+        "website": "https://www.kindnessair.com/",
+        "displayedCards": 11,
+        "matchingCards": 1,
+        "finalUrl": "https://www.kindnessair.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/flooring",
+        "name": "Thomas Pro Flooring",
+        "website": "https://www.thomasprofloors.com/",
+        "displayedCards": 13,
+        "matchingCards": 1,
+        "finalUrl": "https://www.thomasprofloors.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/septic-services",
+        "name": "JLG Septic",
+        "website": "https://www.jlgsepticgulfbreeze.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://www.jlgsepticgulfbreeze.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/navarre-fl/septic-services",
+        "name": "JLG Septic",
+        "website": "https://www.jlgsepticgulfbreeze.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://www.jlgsepticgulfbreeze.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/insulation",
+        "name": "SealTight Foam",
+        "website": "https://www.sealtightfoam.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.sealtightfoam.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/insulation",
+        "name": "SealTight Foam",
+        "website": "https://www.sealtightfoam.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://www.sealtightfoam.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      }
+    ]
+  },
+  "liveCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "displayedPlacementsBefore": 13229,
+    "displayedPlacementsAfter": 13257,
+    "displayedAtLeast20": 241,
+    "displayedBelow20": 879,
+    "emptyDisplayed": 0,
+    "displayedDeficit": 9457,
+    "changedPages": {
+      "daphne-al/appliance-repair": [
+        9,
+        10
+      ],
+      "daphne-al/electrical": [
+        8,
+        10
+      ],
+      "daphne-al/hvac": [
+        10,
+        11
+      ],
+      "daphne-al/kitchen-bath-remodeling": [
+        16,
+        17
+      ],
+      "daphne-al/painting": [
+        7,
+        9
+      ],
+      "daphne-al/water-damage-mold-remediation": [
+        7,
+        8
+      ],
+      "fairhope-al/electrical": [
+        9,
+        11
+      ],
+      "fairhope-al/flooring": [
+        7,
+        8
+      ],
+      "fairhope-al/insulation": [
+        6,
+        7
+      ],
+      "fairhope-al/kitchen-bath-remodeling": [
+        17,
+        18
+      ],
+      "fairhope-al/painting": [
+        8,
+        9
+      ],
+      "fairhope-al/water-damage-mold-remediation": [
+        7,
+        8
+      ],
+      "foley-al/painting": [
+        8,
+        9
+      ],
+      "grayton-beach-fl/irrigation-sprinkler-repair": [
+        7,
+        8
+      ],
+      "gulf-breeze-fl/septic-services": [
+        16,
+        17
+      ],
+      "gulf-shores-al/electrical": [
+        7,
+        9
+      ],
+      "gulf-shores-al/hvac": [
+        10,
+        11
+      ],
+      "gulf-shores-al/insulation": [
+        7,
+        8
+      ],
+      "gulf-shores-al/painting": [
+        7,
+        8
+      ],
+      "mobile-al/flooring": [
+        10,
+        13
+      ],
+      "mobile-al/water-damage-mold-remediation": [
+        9,
+        10
+      ],
+      "navarre-fl/septic-services": [
+        16,
+        17
+      ]
+    },
+    "qualificationBackedDeficit": null,
+    "qualificationBackedPagesAt20": null
   }
 }
