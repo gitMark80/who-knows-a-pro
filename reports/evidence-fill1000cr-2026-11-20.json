@@ -1,0 +1,821 @@
+{
+  "runDate": "2026-11-20",
+  "baselineCommit": "3c4c78da70428f6798cb09c1ec7a5bd4b4241f75",
+  "status": "validated_awaiting_publication",
+  "placements": [
+    {
+      "name": "Allgood Outdoor Services",
+      "website": "https://allgoodoutdoorservices.com/",
+      "region": "crestview-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://allgoodoutdoorservices.com/areas/crestview",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The local design-build crew names Crestview homes for irrigation and links its installation and repair service. It describes drainage-aware irrigation zones and schedules for Crestview lawns.",
+      "existing": false,
+      "sourceUrls": [
+        "https://allgoodoutdoorservices.com/",
+        "https://allgoodoutdoorservices.com/areas/crestview",
+        "https://allgoodoutdoorservices.com/services/irrigation"
+      ]
+    },
+    {
+      "name": "Allgood Outdoor Services",
+      "website": "https://allgoodoutdoorservices.com/",
+      "region": "grayton-beach-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://allgoodoutdoorservices.com/areas/30a",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The local Freeport crew directly installs and repairs residential irrigation throughout 30A and South Walton. Its 30A page places Grayton Beach in that operating area.",
+      "existing": false,
+      "sourceUrls": [
+        "https://allgoodoutdoorservices.com/",
+        "https://allgoodoutdoorservices.com/areas/30a",
+        "https://allgoodoutdoorservices.com/services/irrigation",
+        "https://www.visitsouthwalton.com/neighborhoods/grayton-beach/"
+      ]
+    },
+    {
+      "name": "Jonathan's Flooring",
+      "website": "https://www.jonathansflooring.com/",
+      "region": "perdido-key-fl",
+      "trade": "flooring",
+      "sourceUrl": "https://www.jonathansflooring.com/serving-area",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally owned family installer schedules in-home consultations and installs floors. Its official coverage page lists Perdido Key.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.jonathansflooring.com/",
+        "https://www.jonathansflooring.com/serving-area",
+        "https://www.jonathansflooring.com/floor-and-tile-services"
+      ]
+    },
+    {
+      "name": "Steve's Plumbing & Electric",
+      "website": "https://www.stevesplumbingandelectric.com/",
+      "region": "dothan-al",
+      "trade": "electrical",
+      "sourceUrl": "https://www.stevesplumbingandelectric.com/pages/residential-electrical",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Dothan provider offers direct residential lighting, outlet, circuit breaker and wiring installation or repair and gives its Dothan operating location.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.stevesplumbingandelectric.com/",
+        "https://www.stevesplumbingandelectric.com/pages/residential-electrical"
+      ]
+    },
+    {
+      "name": "Clark's Flooring Co.",
+      "website": "https://www.clarksflooringcompany.com/",
+      "region": "dothan-al",
+      "trade": "flooring",
+      "sourceUrl": "https://www.clarksflooringcompany.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Dothan family flooring company advertises hardwood refinishing and identifies local homeowners as customers. The official about page gives its Dothan showroom location.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.clarksflooringcompany.com/",
+        "https://www.clarksflooringcompany.com/aboutus"
+      ]
+    },
+    {
+      "name": "Selrahc Termite & Pest Control",
+      "website": "https://selrahcpest.com/",
+      "region": "tallahassee-fl",
+      "trade": "pest-control",
+      "sourceUrl": "https://selrahcpest.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee family pest company offers direct residential pest and termite treatments and explicitly names Tallahassee.",
+      "existing": false,
+      "sourceUrls": [
+        "https://selrahcpest.com/"
+      ]
+    },
+    {
+      "name": "Rock Solid Termite and Pest Control",
+      "website": "https://www.rocksolidpest.com/",
+      "region": "tallahassee-fl",
+      "trade": "pest-control",
+      "sourceUrl": "https://www.rocksolidpest.com/about-us",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally owned company runs a Tallahassee operation and offers pest prevention and treatment for residential properties.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.rocksolidpest.com/",
+        "https://www.rocksolidpest.com/about-us"
+      ]
+    },
+    {
+      "name": "Big Bend Eubanks Termite & Pest Control",
+      "website": "https://www.bigbendeubanks.com/",
+      "region": "tallahassee-fl",
+      "trade": "pest-control",
+      "sourceUrl": "https://www.bigbendeubanks.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "This family-run Tallahassee business names Tallahassee residents and offers its own household pest and termite control service.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.bigbendeubanks.com/"
+      ]
+    },
+    {
+      "name": "Why U Buggin' Pest & Termite Control",
+      "website": "https://www.whyubugginpestcontrol.com/",
+      "region": "tallahassee-fl",
+      "trade": "pest-control",
+      "sourceUrl": "https://www.whyubugginpestcontrol.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The veteran- and family-owned Tallahassee provider describes direct licensed pest and termite treatments for residential customers in Tallahassee.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.whyubugginpestcontrol.com/"
+      ]
+    },
+    {
+      "name": "Precision Air Conditioning & Heating",
+      "website": "https://tallahasseehvacr.com/",
+      "region": "tallahassee-fl",
+      "trade": "hvac",
+      "sourceUrl": "https://tallahasseehvacr.com/ac-repair",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The local family HVAC company names Tallahassee and Killearn for household air-conditioning repair and shows the Tallahassee operation.",
+      "existing": false,
+      "sourceUrls": [
+        "https://tallahasseehvacr.com/",
+        "https://tallahasseehvacr.com/ac-repair",
+        "https://tallahasseehvacr.com/about-us"
+      ]
+    },
+    {
+      "name": "Intelligent Air",
+      "website": "https://www.intelligentairllc.com/",
+      "region": "tallahassee-fl",
+      "trade": "hvac",
+      "sourceUrl": "https://www.intelligentairllc.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee-owned HVAC contractor explicitly offers homeowners local air-conditioning repair, installation, and maintenance.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.intelligentairllc.com/"
+      ]
+    },
+    {
+      "name": "Giddens Air Conditioning",
+      "website": "https://www.giddensac.com/",
+      "region": "tallahassee-fl",
+      "trade": "hvac",
+      "sourceUrl": "https://www.giddensac.com/about-giddens.asp",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally owned Tallahassee HVAC company offers residential replacement, installation, repair, and maintenance. It identifies Tallahassee as its local market.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.giddensac.com/",
+        "https://www.giddensac.com/about-giddens.asp"
+      ]
+    },
+    {
+      "name": "Tadlock Heating and Air",
+      "website": "https://tadlockhvac.com/",
+      "region": "tallahassee-fl",
+      "trade": "hvac",
+      "sourceUrl": "https://tadlockhvac.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "Nick and Brittney Tadlock’s local HVAC company directly offers Tallahassee homeowners HVAC repair, maintenance and replacement.",
+      "existing": false,
+      "sourceUrls": [
+        "https://tadlockhvac.com/"
+      ]
+    },
+    {
+      "name": "GR Lawn Care & Landscaping",
+      "website": "https://grlawncarefl.com/",
+      "region": "tallahassee-fl",
+      "trade": "landscaping",
+      "sourceUrl": "https://grlawncarefl.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee owner-operated team offers local homeowners landscape design and installation, sod, mulch and planting.",
+      "existing": false,
+      "sourceUrls": [
+        "https://grlawncarefl.com/"
+      ]
+    },
+    {
+      "name": "Sod 2 Day",
+      "website": "https://sod2day.com/",
+      "region": "tallahassee-fl",
+      "trade": "landscaping",
+      "sourceUrl": "https://sod2day.com/about",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally owned sod contractor directly installs sod and prepares residential yards in Tallahassee, including locally completed home projects.",
+      "existing": false,
+      "sourceUrls": [
+        "https://sod2day.com/",
+        "https://sod2day.com/about"
+      ]
+    },
+    {
+      "name": "Super Coop Landscapes",
+      "website": "https://www.supercooplandscape.com/",
+      "region": "tallahassee-fl",
+      "trade": "landscaping",
+      "sourceUrl": "https://www.supercooplandscape.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee owner describes design and installation of residential landscaping and outdoor spaces for Tallahassee homeowners.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.supercooplandscape.com/"
+      ]
+    },
+    {
+      "name": "Talquin Landscaping",
+      "website": "https://www.talquinlandscapingfl.com/",
+      "region": "tallahassee-fl",
+      "trade": "landscaping",
+      "sourceUrl": "https://www.talquinlandscapingfl.com/services/landscaper/residential-landscape-installation",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee provider explicitly offers planting, grading and other landscape installations for homeowners in the city.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.talquinlandscapingfl.com/",
+        "https://www.talquinlandscapingfl.com/services/landscaper/residential-landscape-installation"
+      ]
+    },
+    {
+      "name": "Bradley's Custom Gutters",
+      "website": "https://bradleyscustomgutters.com/",
+      "region": "tallahassee-fl",
+      "trade": "gutters",
+      "sourceUrl": "https://bradleyscustomgutters.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The regional family gutter company provides Tallahassee homeowners with seamless gutter installation and replacement, along with residential gutter repair.",
+      "existing": false,
+      "sourceUrls": [
+        "https://bradleyscustomgutters.com/"
+      ]
+    },
+    {
+      "name": "New Vision Gutters",
+      "website": "https://newvisiongutters.com/",
+      "region": "tallahassee-fl",
+      "trade": "gutters",
+      "sourceUrl": "https://newvisiongutters.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "This local operator provides seamless gutter installation, repair, and cleaning for Tallahassee homeowners and gives its Tallahassee operating location.",
+      "existing": false,
+      "sourceUrls": [
+        "https://newvisiongutters.com/"
+      ]
+    },
+    {
+      "name": "Capital City Gutter",
+      "website": "https://www.capitalcitygutter.com/",
+      "region": "tallahassee-fl",
+      "trade": "gutters",
+      "sourceUrl": "https://www.capitalcitygutter.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The family-owned company names Tallahassee as its residential service area and directly installs or replaces home seamless gutters.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.capitalcitygutter.com/"
+      ]
+    },
+    {
+      "name": "McKeithen Roofing",
+      "website": "https://www.mckeithenroofing.net/",
+      "region": "tallahassee-fl",
+      "trade": "gutters",
+      "sourceUrl": "https://www.mckeithenroofing.net/gutters",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee company’s homeowner gutter page describes installation, replacement and downspout work and gives its local Tallahassee address.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.mckeithenroofing.net/",
+        "https://www.mckeithenroofing.net/gutters"
+      ]
+    },
+    {
+      "name": "Cricket's Tree Service",
+      "website": "https://www.cricketstree.com/",
+      "region": "tallahassee-fl",
+      "trade": "tree-service",
+      "sourceUrl": "https://www.cricketstree.com/services",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The Tallahassee family operator directly offers removal and pruning and describes its crews’ work to protect homes and yards in Tallahassee.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.cricketstree.com/",
+        "https://www.cricketstree.com/services"
+      ]
+    },
+    {
+      "name": "Credence Land and Fence",
+      "website": "https://credencefence.com/",
+      "region": "tallahassee-fl",
+      "trade": "fence-builders",
+      "sourceUrl": "https://credencefence.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The local Tallahassee fence company lists its operation in the city and directly installs and repairs residential fencing, including privacy fences.",
+      "existing": false,
+      "sourceUrls": [
+        "https://credencefence.com/"
+      ]
+    },
+    {
+      "name": "Watson & Sons Carpentry",
+      "website": "https://watsonandsons.co/",
+      "region": "tallahassee-fl",
+      "trade": "fence-builders",
+      "sourceUrl": "https://watsonandsons.co/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The family-owned Tallahassee crew builds and repairs fences for homeowners and specifically identifies Tallahassee as its local market.",
+      "existing": false,
+      "sourceUrls": [
+        "https://watsonandsons.co/"
+      ]
+    },
+    {
+      "name": "Soundside Mobile Marine",
+      "website": "https://soundsidemobilemarine.com/",
+      "region": "milton-fl",
+      "trade": "marine-services",
+      "sourceUrl": "https://soundsidemobilemarine.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally operated marine provider specifically lists Milton on its service route and directly maintains recreational four-stroke outboards at homes, docks, and driveways.",
+      "existing": true,
+      "sourceUrls": [
+        "https://soundsidemobilemarine.com/"
+      ]
+    },
+    {
+      "name": "Soundside Mobile Marine",
+      "website": "https://soundsidemobilemarine.com/",
+      "region": "pensacola-fl",
+      "trade": "marine-services",
+      "sourceUrl": "https://soundsidemobilemarine.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally operated marine provider specifically lists Pensacola on its service route and directly maintains recreational four-stroke outboards at homes, docks, and driveways.",
+      "existing": true,
+      "sourceUrls": [
+        "https://soundsidemobilemarine.com/"
+      ]
+    },
+    {
+      "name": "Chris Francis Tree Care",
+      "website": "https://www.daphnetrees.com/",
+      "region": "foley-al",
+      "trade": "tree-service",
+      "sourceUrl": "https://www.daphnetrees.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally owned arborist explicitly names Foley on its official Daphne-area site, which names Chris Francis Tree Care and gives the company’s contact details and offers tree removal, trimming, and care for homeowners.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.daphnetrees.com/"
+      ]
+    },
+    {
+      "name": "Chris Francis Tree Care",
+      "website": "https://www.daphnetrees.com/",
+      "region": "gulf-shores-al",
+      "trade": "tree-service",
+      "sourceUrl": "https://www.daphnetrees.com/",
+      "sourceVerifiedAt": "2026-11-20T22:51:58Z",
+      "evidenceNote": "The locally owned arborist explicitly names Gulf Shores on its official Daphne-area site, which names Chris Francis Tree Care and gives the company’s contact details and offers tree removal, trimming, and care for homeowners.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.daphnetrees.com/"
+      ]
+    }
+  ],
+  "reviewedBaselineDomains": [
+    {
+      "domain": "2gaugemt.com",
+      "name": "2 Gauge Marine & Trailer"
+    },
+    {
+      "domain": "ardsdothan.com",
+      "name": "Ard's Plumbing & Electric"
+    },
+    {
+      "domain": "arrowps.com",
+      "name": "Arrow Pest Service"
+    },
+    {
+      "domain": "baldwincountysewer.com",
+      "name": "Baldwin County Sewer Service"
+    },
+    {
+      "domain": "bluewatergaragedoorservices.com",
+      "name": "Blue Water Garage Door Services"
+    },
+    {
+      "domain": "brockpest.com",
+      "name": "Brock Lawn & Pest Control"
+    },
+    {
+      "domain": "callodoms.com",
+      "name": "Odom's Plumbing and Electric"
+    },
+    {
+      "domain": "capitalcityseptic.com",
+      "name": "Capital City Septic"
+    },
+    {
+      "domain": "chrisfrancistreecare.com",
+      "name": "Chris Francis Tree Care"
+    },
+    {
+      "domain": "colsonselectric.com",
+      "name": "Colson's Electrical Services"
+    },
+    {
+      "domain": "concretetallahassee.com",
+      "name": "CSC Construction Services Corporation"
+    },
+    {
+      "domain": "cookspest.com",
+      "name": "Cook's Pest Control — Biloxi-Gulfport"
+    },
+    {
+      "domain": "cosbyheatingcooling.com",
+      "name": "Cosby's Heating & Cooling - Appliance Services"
+    },
+    {
+      "domain": "coxpools.com",
+      "name": "Cox Pools"
+    },
+    {
+      "domain": "crestviewgenerators.com",
+      "name": "Casey Electric Inc"
+    },
+    {
+      "domain": "degraafelectrical.com",
+      "name": "DeGraaf Electrical Service"
+    },
+    {
+      "domain": "dontbugme.com",
+      "name": "Cadenhead Services"
+    },
+    {
+      "domain": "dothanawning.com",
+      "name": "Dothan Awning & Exteriors"
+    },
+    {
+      "domain": "dothanhousepainters.com",
+      "name": "Dothan House Painters"
+    },
+    {
+      "domain": "ecoheatingandcooling.com",
+      "name": "Eco Heating and Cooling, LLC"
+    },
+    {
+      "domain": "elbrusconsulting.wordpress.com",
+      "name": "Florida Septic & Sewer Service, Inc."
+    },
+    {
+      "domain": "elitehardwoodfloorsllc.com",
+      "name": "Elite Hardwood Flooring Specialist LLC"
+    },
+    {
+      "domain": "emeraldcoastpoolcompany.com",
+      "name": "Emerald Coast Pools"
+    },
+    {
+      "domain": "exodusmarineservices.com",
+      "name": "Exodus Marine Services"
+    },
+    {
+      "domain": "garystreesvc.com",
+      "name": "Gary's Tree Service"
+    },
+    {
+      "domain": "generxgenerators.com",
+      "name": "GenerX Generators"
+    },
+    {
+      "domain": "goodsoilseptic.com",
+      "name": "Good Soil Septic Services"
+    },
+    {
+      "domain": "gutterbuddiesalabama.com",
+      "name": "Gutter Buddies of Lower Alabama"
+    },
+    {
+      "domain": "hathcockonline.com",
+      "name": "Hathcock Home Services"
+    },
+    {
+      "domain": "hel-co.com",
+      "name": "Hel-Co Tree Services"
+    },
+    {
+      "domain": "hollowaycarpetonedothan.com",
+      "name": "Holloway Carpet One Floor & Home"
+    },
+    {
+      "domain": "hometowngaragenwfl.com",
+      "name": "Hometown Garage Doors LLC"
+    },
+    {
+      "domain": "house2houselawns.com",
+      "name": "House 2 House Lawn Care"
+    },
+    {
+      "domain": "jandmpaintersllc.com",
+      "name": "J&M Painters LLC"
+    },
+    {
+      "domain": "jgelectricinc.com",
+      "name": "J.G. Electric"
+    },
+    {
+      "domain": "kingairsystems.com",
+      "name": "King Air Systems"
+    },
+    {
+      "domain": "landscapingpluscrestview.com",
+      "name": "Landscaping Plus of Crestview"
+    },
+    {
+      "domain": "lgmlandscapeandirrigation.com",
+      "name": "LGM Landscape & Irrigation"
+    },
+    {
+      "domain": "mccombselectrical.com",
+      "name": "McCombs Electrical Heating & Air"
+    },
+    {
+      "domain": "mediamechanical.net",
+      "name": "Media Mechanical"
+    },
+    {
+      "domain": "meyerselectric.net",
+      "name": "Meyers Electric"
+    },
+    {
+      "domain": "midcoastlawn.com",
+      "name": "Mid-Coast Lawn Management"
+    },
+    {
+      "domain": "mrpoolal.com",
+      "name": "Mr. Pool"
+    },
+    {
+      "domain": "parkersepticpanamacity.com",
+      "name": "Parker Septic"
+    },
+    {
+      "domain": "patiopluspools.net",
+      "name": "Patio Plus Pool Service"
+    },
+    {
+      "domain": "pazofmindservices.com",
+      "name": "Paz of Mind"
+    },
+    {
+      "domain": "pcsnursery.com",
+      "name": "PC's Nursery & Landscaping"
+    },
+    {
+      "domain": "pcsolutionllc.com",
+      "name": "P&C Septic Solutions"
+    },
+    {
+      "domain": "perennialsouth.com",
+      "name": "Perennial South LLC"
+    },
+    {
+      "domain": "phoenixservicellc.com",
+      "name": "Phoenix Services LLC"
+    },
+    {
+      "domain": "pinckardgaragedoors.com",
+      "name": "Pinckard Garage Doors"
+    },
+    {
+      "domain": "pooleasphaltandconcretellc.com",
+      "name": "Poole Asphalt & Concrete LLC"
+    },
+    {
+      "domain": "procleannotsomekid.com",
+      "name": "ProClean Restoration and Cleaning"
+    },
+    {
+      "domain": "qualityprivacyfence.com",
+      "name": "Quality Privacy Fence LLC"
+    },
+    {
+      "domain": "revolutionsmarinegulfcoast.com",
+      "name": "Revolutions Marine"
+    },
+    {
+      "domain": "rogersgrantseptic.com",
+      "name": "Rogers & Grant Septic Services"
+    },
+    {
+      "domain": "sbguttersllc.com",
+      "name": "Spann Brothers Gutters & Siding"
+    },
+    {
+      "domain": "screen-room-builder.com",
+      "name": "Southern Shores Contracting"
+    },
+    {
+      "domain": "snellflooring.com",
+      "name": "Snell Flooring"
+    },
+    {
+      "domain": "soundsidemobilemarine.com",
+      "name": "Soundside Mobile Marine"
+    },
+    {
+      "domain": "southeasterncooling.com",
+      "name": "Southeastern Cooling, Heating & Plumbing"
+    },
+    {
+      "domain": "ssfencedothan.com",
+      "name": "Southern Style Fence & Lawncare"
+    },
+    {
+      "domain": "sunshineirrigationco.com",
+      "name": "Sunshine Irrigation Co"
+    },
+    {
+      "domain": "telfordreynoldselectric.com",
+      "name": "Telford Reynolds Electric"
+    },
+    {
+      "domain": "terryslandscapinginc.com",
+      "name": "Terry's Landscape"
+    },
+    {
+      "domain": "thegoatpropertyservices.com",
+      "name": "The GOAT Property Services"
+    },
+    {
+      "domain": "thomasprofloors.com",
+      "name": "Thomas Pro Flooring"
+    },
+    {
+      "domain": "wagnerair.com",
+      "name": "Wagner Air Conditioning Service"
+    },
+    {
+      "domain": "whittonworks.com",
+      "name": "Whitton Works"
+    }
+  ],
+  "pendingCandidates": [
+    {
+      "name": "LDR's Attic Insulation & Roofing Services",
+      "note": "Fort Walton Beach. A working official site and accountable residential insulation provider are unverified."
+    },
+    {
+      "name": "Panhandle Generator Service",
+      "note": "Panama City. An official site and current direct residential generator installation remain unconfirmed."
+    },
+    {
+      "name": "Landscaping Plus of Crestview",
+      "url": "https://landscapingpluscrestview.com/",
+      "note": "The trade page returned a gateway error. Verify the official page and residential irrigation scope."
+    },
+    {
+      "name": "Buck's Lawn and Tree Service",
+      "url": "https://buckslawnandtreeservicellc.com/",
+      "note": "Residential tree work is clear. Specific Panama City coverage was unconfirmed."
+    },
+    {
+      "name": "Capital City Air",
+      "url": "https://capitalcityair.com/",
+      "note": "The official site timed out. Check the live site and residential scope before publication."
+    },
+    {
+      "name": "Wiregrass Gutter Pros",
+      "url": "https://wiregrassgutterpros.com/",
+      "note": "The service pages name Dothan. Local operating identity and relationship to similarly branded Dothan Gutter Pros remain unresolved."
+    },
+    {
+      "name": "Dothan Premier Concrete Co.",
+      "note": "A directory-hosted marketing profile was found. An operator-controlled official website and local provider identity remain unresolved."
+    },
+    {
+      "name": "BCR Electric",
+      "url": "https://www.bcrelectric-llc.com/about/",
+      "note": "The about page returned 404. Hold until an official site and relevant residential generator service are verified."
+    },
+    {
+      "name": "TideTech",
+      "note": "Identified a marine listing in Pace but no verifiable official website."
+    },
+    {
+      "name": "Waterhawk Gutters",
+      "url": "https://waterhawkgutters.com/",
+      "note": "The Tallahassee operator and gutter installation are clear. Gather stronger official homeowner or residential job evidence."
+    },
+    {
+      "name": "Canopy Tree Care",
+      "url": "https://canopytreecarefl.com/",
+      "note": "Official site identifies the Tallahassee operator. Exact residential tree work needs further service evidence."
+    },
+    {
+      "name": "Big Bend Tree Service",
+      "url": "https://bigbendtreeservice.com/",
+      "note": "Tallahassee operation and tree-removal service are clear. Explicit home-service evidence was not established."
+    },
+    {
+      "name": "The Cutting Edge Lawn Design",
+      "url": "https://www.thecuttingedgelawndesign.com/",
+      "note": "Official-page retrieval returned 502. Recheck current website and local residential landscaping scope."
+    }
+  ],
+  "withheldCandidates": [
+    {
+      "name": "Leslie's Pool Supplies",
+      "url": "https://lesliespool.com/location/panama-city-florida-panama-city-683.html",
+      "note": "National retail/service brand."
+    },
+    {
+      "name": "Pinch A Penny",
+      "url": "https://pinchapenny.com/stores/dothan-al-94",
+      "note": "National franchise."
+    },
+    {
+      "name": "Truly Nolen",
+      "url": "https://www.trulynolen.com/franchise/tallahassee-fl/about-us",
+      "note": "National franchise."
+    },
+    {
+      "name": "BoatFixExperts",
+      "url": "https://www.boatfixexperts.com/boat-repair/florida/milton",
+      "note": "Directory, not a verified direct local provider."
+    },
+    {
+      "name": "S&S Marine Repair",
+      "url": "https://ssmarinerepair.com/about-us/",
+      "note": "Official coverage is North Port and Charlotte/Sarasota counties. Milton and Pace are unsupported."
+    },
+    {
+      "name": "DeGraaf Electrical Service",
+      "url": "https://degraafelectrical.com/generator-connection-pace-fl/",
+      "note": "Existing operator. Installs portable generator inlets and transfer switches only in this evidence. The actual generator-installation category remains unsupported."
+    }
+  ],
+  "identityChecks": [
+    {
+      "name": "Chris Francis Tree Care",
+      "baselineDomain": "chrisfrancistreecare.com",
+      "verifiedAlternateDomain": "daphnetrees.com",
+      "note": "Daphne site explicitly names the operator and repeats its business phone. Original domain's direct fetch returned 406. Use the working company site for new placements and canonicalize both domains as one existing identity."
+    },
+    {
+      "name": "Daniel's Heating and Cooling",
+      "baselineDomain": "danielheatingandcooling.com",
+      "alternateDomain": "danielsheatingandcoolingdothan.com",
+      "note": "Matching Dothan service business already appears in the baseline. No new profile was added."
+    },
+    {
+      "name": "Hometown Garage Doors",
+      "baselineDomain": "hometowngaragenwfl.com",
+      "alternateDomain": "hometowngaragedoorsnf.com",
+      "note": "Prior checkpoint tied both domains to the same Crestview address and business phone. No repeat placement."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "url": "https://www.retailfixit.com/",
+      "status": "already_suppressed",
+      "rawPlacements": 396,
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "note": "The official site describes nationwide commercial facilities-management services and vendor intake."
+    },
+    {
+      "name": "Dothan Gutter Pros",
+      "url": "https://dothangutterpros.com/",
+      "region": "dothan-al",
+      "trade": "gutters",
+      "status": "review_only",
+      "reasons": [
+        "potential_intermediary"
+      ],
+      "note": "The official footer says the service connects homeowners with cleaning and maintenance. Direct work and accountable local operating identity require independent confirmation. Public record was retained."
+    },
+    {
+      "name": "Chris Francis Tree Care",
+      "url": "https://chrisfrancistreecare.com/",
+      "status": "review_only",
+      "reasons": [
+        "official_website_direct_fetch_blocker"
+      ],
+      "note": "The prior website returned HTTP 406 in direct checks. Existing sources are retained. New placements link to the verified company-operated Daphne domain."
+    }
+  ],
+  "historicalScan": {
+    "flaggedBusinessIdentities": 158,
+    "flaggedSourceRows": 584,
+    "flaggedRawPlacements": 8816,
+    "retailFixItRawPlacements": 396
+  }
+}
