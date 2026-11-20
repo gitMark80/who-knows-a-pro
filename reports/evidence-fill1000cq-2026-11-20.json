@@ -1,0 +1,914 @@
+{
+  "runDate": "2026-11-20",
+  "baselineCommit": "426fd5d643d513fd1c1027a5539660fad34f5580",
+  "status": "validated_awaiting_publication",
+  "placements": [
+    {
+      "name": "Paz of Mind",
+      "website": "https://pazofmindservices.com/",
+      "region": "grayton-beach-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://pazofmindservices.com/services/irrigation-and-lawn",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The local 30A operator directly repairs sprinkler systems for homes in South Walton County. South Walton’s official tourism site identifies Grayton Beach as a South Walton neighborhood.",
+      "existing": false,
+      "sourceUrls": [
+        "https://pazofmindservices.com/",
+        "https://pazofmindservices.com/services/irrigation-and-lawn",
+        "https://www.visitsouthwalton.com/neighborhoods/grayton-beach/"
+      ]
+    },
+    {
+      "name": "Coastal Construction Co.",
+      "website": "https://coastalconstructional.com/",
+      "region": "fairhope-al",
+      "trade": "kitchen-bath-remodeling",
+      "sourceUrl": "https://coastalconstructional.com/about/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Baldwin County contractor names Fairhope homeowners and offers kitchen and bathroom renovation. The official homepage shows a Fairhope home remodeling project.",
+      "existing": false,
+      "sourceUrls": [
+        "https://coastalconstructional.com/",
+        "https://coastalconstructional.com/about/",
+        "https://baldwincountyal.gov/municipalities"
+      ]
+    },
+    {
+      "name": "Coastal Construction Co.",
+      "website": "https://coastalconstructional.com/",
+      "region": "daphne-al",
+      "trade": "kitchen-bath-remodeling",
+      "sourceUrl": "https://coastalconstructional.com/about/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The regional contractor’s about page describes a customer’s completed kitchen and master-bath renovation in Daphne and the company explicitly serves Baldwin County.",
+      "existing": false,
+      "sourceUrls": [
+        "https://coastalconstructional.com/",
+        "https://coastalconstructional.com/about/",
+        "https://baldwincountyal.gov/municipalities"
+      ]
+    },
+    {
+      "name": "Wave Electric",
+      "website": "https://waveelectricalexperts.com/",
+      "region": "daphne-al",
+      "trade": "electrical",
+      "sourceUrl": "https://waveelectricalexperts.com/about/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The family-run Baldwin County electrical company explicitly describes residential electrical service calls for homeowners in Daphne, including lighting, wiring or panel problems.",
+      "existing": false,
+      "sourceUrls": [
+        "https://waveelectricalexperts.com/",
+        "https://waveelectricalexperts.com/about/"
+      ]
+    },
+    {
+      "name": "Wave Electric",
+      "website": "https://waveelectricalexperts.com/",
+      "region": "fairhope-al",
+      "trade": "electrical",
+      "sourceUrl": "https://waveelectricalexperts.com/about/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The family-run Baldwin County electrical company explicitly describes residential electrical service calls for homeowners in Fairhope, including lighting, wiring or panel problems.",
+      "existing": false,
+      "sourceUrls": [
+        "https://waveelectricalexperts.com/",
+        "https://waveelectricalexperts.com/about/"
+      ]
+    },
+    {
+      "name": "FastFriendly",
+      "website": "https://www.fastfriendly.net/",
+      "region": "fairhope-al",
+      "trade": "electrical",
+      "sourceUrl": "https://www.fastfriendly.net/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Fairhope company identifies its own local electricians for residential wiring, lighting, panel upgrades and electrical repairs, and names Fairhope in its home-service territory.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.fastfriendly.net/"
+      ]
+    },
+    {
+      "name": "FastFriendly",
+      "website": "https://www.fastfriendly.net/",
+      "region": "daphne-al",
+      "trade": "appliance-repair",
+      "sourceUrl": "https://www.fastfriendly.net/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "FastFriendly names Daphne in its home-service territory and its service list explicitly offers home appliance repair performed by the provider’s crew.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.fastfriendly.net/"
+      ]
+    },
+    {
+      "name": "Teem Electric",
+      "website": "https://electricianteem.com/",
+      "region": "gulf-shores-al",
+      "trade": "electrical",
+      "sourceUrl": "https://electricianteem.com/electrician-services",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The local Baldwin County electrical contractor specifically names Gulf Shores on the page offering direct residential electrical installation and repair.",
+      "existing": false,
+      "sourceUrls": [
+        "https://electricianteem.com/",
+        "https://electricianteem.com/electrician-services"
+      ]
+    },
+    {
+      "name": "Teem Electric",
+      "website": "https://electricianteem.com/",
+      "region": "daphne-al",
+      "trade": "electrical",
+      "sourceUrl": "https://electricianteem.com/electrician-services",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The local Baldwin County electrical contractor specifically names Daphne on the page offering direct residential electrical installation and repair.",
+      "existing": false,
+      "sourceUrls": [
+        "https://electricianteem.com/",
+        "https://electricianteem.com/electrician-services"
+      ]
+    },
+    {
+      "name": "Lighthouse Electric of Gulf Shores",
+      "website": "https://www.lighthouseelectricgulfshores.com/",
+      "region": "gulf-shores-al",
+      "trade": "electrical",
+      "sourceUrl": "https://www.lighthouseelectricgulfshores.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The owner-led Gulf Shores electrical firm operates locally and offers home electrical repair. Its official site describes a completed household fan repair by its owner.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.lighthouseelectricgulfshores.com/"
+      ]
+    },
+    {
+      "name": "Pro 1 Painters",
+      "website": "https://pro1painters.com/",
+      "region": "gulf-shores-al",
+      "trade": "painting",
+      "sourceUrl": "https://pro1painters.com/service-areas/gulf-shores/interior-painting/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Mobile Bay painting company offers residential interior painting in Gulf Shores and describes its own crews’ work in Gulf Shores homes from West Beach to Craft Farms.",
+      "existing": false,
+      "sourceUrls": [
+        "https://pro1painters.com/",
+        "https://pro1painters.com/service-areas/gulf-shores/interior-painting/"
+      ]
+    },
+    {
+      "name": "Pro 1 Painters",
+      "website": "https://pro1painters.com/",
+      "region": "daphne-al",
+      "trade": "painting",
+      "sourceUrl": "https://pro1painters.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The regional painting company's official homepage specifically lists Daphne and offers homeowners interior, exterior and cabinet painting.",
+      "existing": false,
+      "sourceUrls": [
+        "https://pro1painters.com/"
+      ]
+    },
+    {
+      "name": "Sandridge Flooring",
+      "website": "https://www.sandridgefloors.com/",
+      "region": "mobile-al",
+      "trade": "flooring",
+      "sourceUrl": "https://www.sandridgefloors.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The family-owned hardwood installer names Mobile and describes residential hardwood installation, with an official image of its installation work in Mobile.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.sandridgefloors.com/"
+      ]
+    },
+    {
+      "name": "Sandridge Flooring",
+      "website": "https://www.sandridgefloors.com/",
+      "region": "fairhope-al",
+      "trade": "flooring",
+      "sourceUrl": "https://www.sandridgefloors.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The family-owned installer provides hardwood installation and refinishing for homes across Baldwin County. Baldwin County’s municipality directory identifies Fairhope in that county.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.sandridgefloors.com/",
+        "https://baldwincountyal.gov/municipalities"
+      ]
+    },
+    {
+      "name": "Streamline Construction",
+      "website": "https://streamlineconstructionsal.com/",
+      "region": "mobile-al",
+      "trade": "flooring",
+      "sourceUrl": "https://streamlineconstructionsal.com/flooring-installation/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The local Mobile construction operator’s official flooring page specifically describes direct residential hardwood, tile and luxury vinyl flooring installation in Mobile.",
+      "existing": false,
+      "sourceUrls": [
+        "https://streamlineconstructionsal.com/",
+        "https://streamlineconstructionsal.com/flooring-installation/"
+      ]
+    },
+    {
+      "name": "Phoenix Restoration Services",
+      "website": "https://www.phoenixrest.com/",
+      "region": "mobile-al",
+      "trade": "water-damage-mold-remediation",
+      "sourceUrl": "https://www.phoenixrest.com/service-area",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Mobile-based Gulf Coast restoration company explicitly lists Mobile on its service-area page and describes water mitigation and mold remediation for residential properties on its official homepage.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.phoenixrest.com/",
+        "https://www.phoenixrest.com/service-area"
+      ]
+    },
+    {
+      "name": "Phoenix Restoration Services",
+      "website": "https://www.phoenixrest.com/",
+      "region": "daphne-al",
+      "trade": "water-damage-mold-remediation",
+      "sourceUrl": "https://www.phoenixrest.com/service-area",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Mobile-based Gulf Coast restoration company explicitly lists Daphne on its service-area page and describes water mitigation and mold remediation for residential properties on its official homepage.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.phoenixrest.com/",
+        "https://www.phoenixrest.com/service-area"
+      ]
+    },
+    {
+      "name": "Phoenix Restoration Services",
+      "website": "https://www.phoenixrest.com/",
+      "region": "fairhope-al",
+      "trade": "water-damage-mold-remediation",
+      "sourceUrl": "https://www.phoenixrest.com/service-area",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Mobile-based Gulf Coast restoration company explicitly lists Fairhope on its service-area page and describes water mitigation and mold remediation for residential properties on its official homepage.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.phoenixrest.com/",
+        "https://www.phoenixrest.com/service-area"
+      ]
+    },
+    {
+      "name": "JMCO Painting",
+      "website": "https://jmcopainting.com/",
+      "region": "foley-al",
+      "trade": "painting",
+      "sourceUrl": "https://jmcopainting.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The local painting business gives its Foley operating location and describes direct interior and exterior painting projects for residential clients.",
+      "existing": false,
+      "sourceUrls": [
+        "https://jmcopainting.com/"
+      ]
+    },
+    {
+      "name": "Prime Coat Painting",
+      "website": "https://primecoatpaint.com/",
+      "region": "daphne-al",
+      "trade": "painting",
+      "sourceUrl": "https://primecoatpaint.com/about-us/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Mobile-based company’s official about page explicitly serves Daphne and describes residential interior and exterior painting done by its own team.",
+      "existing": false,
+      "sourceUrls": [
+        "https://primecoatpaint.com/",
+        "https://primecoatpaint.com/about-us/"
+      ]
+    },
+    {
+      "name": "Prime Coat Painting",
+      "website": "https://primecoatpaint.com/",
+      "region": "fairhope-al",
+      "trade": "painting",
+      "sourceUrl": "https://primecoatpaint.com/about-us/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Mobile-based company’s official about page explicitly serves Fairhope and describes residential interior and exterior painting done by its own team.",
+      "existing": false,
+      "sourceUrls": [
+        "https://primecoatpaint.com/",
+        "https://primecoatpaint.com/about-us/"
+      ]
+    },
+    {
+      "name": "Kindness Air",
+      "website": "https://www.kindnessair.com/",
+      "region": "daphne-al",
+      "trade": "hvac",
+      "sourceUrl": "https://www.kindnessair.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The locally owned HVAC provider names Daphne among the communities where its owner directly repairs, maintains, and installs home heating and air conditioning systems.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.kindnessair.com/"
+      ]
+    },
+    {
+      "name": "Kindness Air",
+      "website": "https://www.kindnessair.com/",
+      "region": "gulf-shores-al",
+      "trade": "hvac",
+      "sourceUrl": "https://www.kindnessair.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The locally owned HVAC provider names Gulf Shores among the communities where its owner directly repairs, maintains, and installs home heating and air conditioning systems.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.kindnessair.com/"
+      ]
+    },
+    {
+      "name": "Thomas Pro Flooring",
+      "website": "https://www.thomasprofloors.com/",
+      "region": "mobile-al",
+      "trade": "flooring",
+      "sourceUrl": "https://www.thomasprofloors.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The regional hardwood contractor’s Mobile-focused official site offers home hardwood floor installation, refinishing and repair with a residential project gallery.",
+      "existing": false,
+      "sourceUrls": [
+        "https://www.thomasprofloors.com/"
+      ]
+    },
+    {
+      "name": "JLG Septic",
+      "website": "https://www.jlgsepticgulfbreeze.com/",
+      "region": "gulf-breeze-fl",
+      "trade": "septic-services",
+      "sourceUrl": "https://www.jlgsepticgulfbreeze.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Gulf Breeze-based company explicitly lists Gulf Breeze in its service area and describes residential septic installation, maintenance, and repair delivered by its team.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.jlgsepticgulfbreeze.com/"
+      ]
+    },
+    {
+      "name": "JLG Septic",
+      "website": "https://www.jlgsepticgulfbreeze.com/",
+      "region": "navarre-fl",
+      "trade": "septic-services",
+      "sourceUrl": "https://www.jlgsepticgulfbreeze.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The Gulf Breeze-based company explicitly lists Navarre in its service area and describes residential septic installation, maintenance, and repair delivered by its team.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.jlgsepticgulfbreeze.com/"
+      ]
+    },
+    {
+      "name": "SealTight Foam",
+      "website": "https://www.sealtightfoam.com/",
+      "region": "fairhope-al",
+      "trade": "insulation",
+      "sourceUrl": "https://www.sealtightfoam.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The regional contractor explicitly lists Fairhope for home spray foam insulation. Its official site describes insulation installations for existing homes, including attics and crawl spaces.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.sealtightfoam.com/"
+      ]
+    },
+    {
+      "name": "SealTight Foam",
+      "website": "https://www.sealtightfoam.com/",
+      "region": "gulf-shores-al",
+      "trade": "insulation",
+      "sourceUrl": "https://www.sealtightfoam.com/",
+      "sourceVerifiedAt": "2026-11-20T16:52:27Z",
+      "evidenceNote": "The regional contractor explicitly lists Gulf Shores for home spray foam insulation. Its official site describes insulation installations for existing homes, including attics and crawl spaces.",
+      "existing": true,
+      "sourceUrls": [
+        "https://www.sealtightfoam.com/"
+      ]
+    }
+  ],
+  "reviewedBaselineDomains": [
+    {
+      "domain": "advantagehpe.com",
+      "name": "Advantage HVAC, Plumbing & Electrical"
+    },
+    {
+      "domain": "aironehc.com",
+      "name": "Air One Heating & Cooling"
+    },
+    {
+      "domain": "americancoatingspropainting.com",
+      "name": "American Coatings, LLC"
+    },
+    {
+      "domain": "americangutter850.com",
+      "name": "American Gutter Enterprises"
+    },
+    {
+      "domain": "aplusgaragedoorsal.com",
+      "name": "A Plus Garage Doors"
+    },
+    {
+      "domain": "aquatikapoolservices.com",
+      "name": "Aquatika Pool Services"
+    },
+    {
+      "domain": "arboroutlawz.com",
+      "name": "Arbor Outlawz"
+    },
+    {
+      "domain": "arbortreecare.org",
+      "name": "Arbor Tree Care"
+    },
+    {
+      "domain": "atoznwfl.com",
+      "name": "A to Z Appliance Repair"
+    },
+    {
+      "domain": "bamaflooring.com",
+      "name": "Bama Flooring"
+    },
+    {
+      "domain": "bens-auto.com",
+      "name": "Ben's Automotive"
+    },
+    {
+      "domain": "bluescience.com",
+      "name": "Blue Science"
+    },
+    {
+      "domain": "brandowslandscaping.com",
+      "name": "Brandow's Lawn & Landscape"
+    },
+    {
+      "domain": "calsappliancerepair.com",
+      "name": "Cal's Appliance Repair"
+    },
+    {
+      "domain": "cmdappliancerepair.com",
+      "name": "CMD Appliance Repair"
+    },
+    {
+      "domain": "coastalcreationslps.com",
+      "name": "Coastal Creations Landscaping and Palm Services"
+    },
+    {
+      "domain": "coastalpwr.com",
+      "name": "Coastal Power & Gas"
+    },
+    {
+      "domain": "colsonselectric.com",
+      "name": "Colson's Electrical Services"
+    },
+    {
+      "domain": "comfortservicesal.com",
+      "name": "Comfort Services"
+    },
+    {
+      "domain": "coneappliance.com",
+      "name": "Cone Appliance Repair"
+    },
+    {
+      "domain": "cornerstone.enterprises",
+      "name": "Cornerstone"
+    },
+    {
+      "domain": "crestviewgenerators.com",
+      "name": "Casey Electric Inc"
+    },
+    {
+      "domain": "cyclopspainting.com",
+      "name": "Cyclops Painting and Coatings"
+    },
+    {
+      "domain": "davidsapplianceservice.com",
+      "name": "David's Appliance Service"
+    },
+    {
+      "domain": "edwadepainting.com",
+      "name": "Ed Wade Painting"
+    },
+    {
+      "domain": "elbrusconsulting.wordpress.com",
+      "name": "Florida Septic & Sewer Service, Inc."
+    },
+    {
+      "domain": "elitehardwoodfloorsllc.com",
+      "name": "Elite Hardwood Flooring Specialist LLC"
+    },
+    {
+      "domain": "emeraldcoastapplianceservice.com",
+      "name": "Emerald Coast Appliance Service"
+    },
+    {
+      "domain": "fatherandsonlandscape.com",
+      "name": "Father and Son Pest and Lawn Solutions"
+    },
+    {
+      "domain": "flneedsprayfoam.com",
+      "name": "Blue Line Insulation"
+    },
+    {
+      "domain": "floridamanresidential.com",
+      "name": "Florida Man Residential"
+    },
+    {
+      "domain": "garagedoormedicsllc.com",
+      "name": "Garage Door Medics"
+    },
+    {
+      "domain": "goodiespoolcare.com",
+      "name": "Goodies Pool Care LLC"
+    },
+    {
+      "domain": "greencoastliving.com",
+      "name": "Green Coast Living"
+    },
+    {
+      "domain": "gulfcoastgaragepros.com",
+      "name": "Gulf Coast Garage Pros"
+    },
+    {
+      "domain": "gulfcoastpoolandspa.com",
+      "name": "Gulf Coast Pool & Spa"
+    },
+    {
+      "domain": "gulfshoreselectrical.com",
+      "name": "Gulf Shores Electrical"
+    },
+    {
+      "domain": "gulfsideappliancerepair.com",
+      "name": "Gulfside Appliance Repair"
+    },
+    {
+      "domain": "happyhomeinsulation.com",
+      "name": "Happy Home Insulation"
+    },
+    {
+      "domain": "hasdestin.com",
+      "name": "Home Appliance Service of Destin"
+    },
+    {
+      "domain": "hipoolservice.com",
+      "name": "H.I. Pool Service LLC"
+    },
+    {
+      "domain": "hometowngaragenwfl.com",
+      "name": "Hometown Garage Doors LLC"
+    },
+    {
+      "domain": "inlandairsystemsinc.com",
+      "name": "Inland Air Systems"
+    },
+    {
+      "domain": "insul8al.com",
+      "name": "Insul8"
+    },
+    {
+      "domain": "jlgsepticgulfbreeze.com",
+      "name": "JLG Septic"
+    },
+    {
+      "domain": "keyirrigation.com",
+      "name": "Key Irrigation"
+    },
+    {
+      "domain": "lgmlandscapeandirrigation.com",
+      "name": "LGM Landscape & Irrigation"
+    },
+    {
+      "domain": "makocontractors.com",
+      "name": "Mako Contractors"
+    },
+    {
+      "domain": "mavericksepticservice.com",
+      "name": "Maverick Septic Service"
+    },
+    {
+      "domain": "midcoastlawn.com",
+      "name": "Mid-Coast Lawn Management"
+    },
+    {
+      "domain": "mikesautocollision.net",
+      "name": "Mike's Auto Collision"
+    },
+    {
+      "domain": "mobileconcretecontractors.com",
+      "name": "Mobile Concrete Contractors"
+    },
+    {
+      "domain": "mrmisterirrigationllc.com",
+      "name": "Mr Mister Irrigation"
+    },
+    {
+      "domain": "northwestfloridagutters.com",
+      "name": "Northwest Florida Gutters"
+    },
+    {
+      "domain": "ocpeadensepticservice.com",
+      "name": "OC Peaden Septic Service"
+    },
+    {
+      "domain": "pacepoolandspa.com",
+      "name": "Pace Pool & Spa Service"
+    },
+    {
+      "domain": "paceseptic.com",
+      "name": "Pace Septic"
+    },
+    {
+      "domain": "panamacitybeachlawnservicesirrigation.com",
+      "name": "Panama City Beach Lawn Services & Irrigation"
+    },
+    {
+      "domain": "panamapoolsandspas.com",
+      "name": "Panama Pools & Spas"
+    },
+    {
+      "domain": "parkersepticpanamacity.com",
+      "name": "Parker Septic"
+    },
+    {
+      "domain": "patiopluspools.net",
+      "name": "Patio Plus Pool Service"
+    },
+    {
+      "domain": "peacockpoolservices.com",
+      "name": "Peacock Pool Service"
+    },
+    {
+      "domain": "pensacolappliancerepair.com",
+      "name": "Emerald Coast Appliance Repair"
+    },
+    {
+      "domain": "people1sthomeservices.com",
+      "name": "People 1st Home Services"
+    },
+    {
+      "domain": "phoenixservicellc.com",
+      "name": "Phoenix Services LLC"
+    },
+    {
+      "domain": "polarinsulation.us",
+      "name": "Polar Insulation"
+    },
+    {
+      "domain": "pratersinsulators.com",
+      "name": "Prater's Insulators"
+    },
+    {
+      "domain": "premierguttersllc.com",
+      "name": "Premier Gutters"
+    },
+    {
+      "domain": "purvisappliancerepair.com",
+      "name": "Purvis Appliance Repair LLC"
+    },
+    {
+      "domain": "restoritllc.com",
+      "name": "Restorit"
+    },
+    {
+      "domain": "robertspaintingllc.com",
+      "name": "Robert's Painting"
+    },
+    {
+      "domain": "rogersgrantseptic.com",
+      "name": "Rogers & Grant Septic Services"
+    },
+    {
+      "domain": "saltyairco.com",
+      "name": "Salty Air Landscaping & Maintenance"
+    },
+    {
+      "domain": "schnelloggerstreeservice.com",
+      "name": "Schnelloggers Tree Service & Removal"
+    },
+    {
+      "domain": "sealtightfoam.com",
+      "name": "SealTight Foam"
+    },
+    {
+      "domain": "serviceirrigationpros.com",
+      "name": "Service Irrigation Pros"
+    },
+    {
+      "domain": "southerngaragedoorsllc.com",
+      "name": "Southern Garage Doors LLC"
+    },
+    {
+      "domain": "southernguttercompany.com",
+      "name": "Southern Gutter Company of NWFL"
+    },
+    {
+      "domain": "splashpoolsnwfl.com",
+      "name": "Splash Pools of NWFL"
+    },
+    {
+      "domain": "sunbeltinsulators.net",
+      "name": "Sunbelt Insulators"
+    },
+    {
+      "domain": "sunflooring.com",
+      "name": "Sun Flooring"
+    },
+    {
+      "domain": "sunshineirrigationco.com",
+      "name": "Sunshine Irrigation Co"
+    },
+    {
+      "domain": "superiorsepticsewer.com",
+      "name": "Superior Septic Sewer"
+    },
+    {
+      "domain": "telfordreynoldselectric.com",
+      "name": "Telford Reynolds Electric"
+    },
+    {
+      "domain": "terryslandscapinginc.com",
+      "name": "Terry's Landscape"
+    },
+    {
+      "domain": "tidaltouchpaint.com",
+      "name": "Tidal Touch Painting & Restoration"
+    },
+    {
+      "domain": "treesunlimited.us",
+      "name": "Trees Unlimited"
+    },
+    {
+      "domain": "tswall.com",
+      "name": "TS Wall & Sons, Inc."
+    },
+    {
+      "domain": "whittonworks.com",
+      "name": "Whitton Works"
+    },
+    {
+      "domain": "zebwattsseptic.com",
+      "name": "Zeb Watts Septic"
+    }
+  ],
+  "pendingCandidates": [
+    {
+      "name": "Southern Home Appliance Services",
+      "note": "Crestview appliance repair. Working official website remains unverified."
+    },
+    {
+      "name": "Ron's Appliance Service & Parts",
+      "note": "Crestview appliance repair. Direct household repair and official site remain unresolved."
+    },
+    {
+      "name": "A1 Septic Worx LLC",
+      "note": "State filing corroborates the business. No official site with Panama City residential service was found."
+    },
+    {
+      "name": "Fort Walton Beach Insulation",
+      "url": "https://www.fortwaltonbeachinsulation.com/",
+      "note": "Accountable local residential operator remains unconfirmed."
+    },
+    {
+      "name": "Top Dog Pest Control",
+      "url": "https://www.panhandlepests.net/",
+      "note": "Official service material does not establish specific coverage in Panama City."
+    },
+    {
+      "name": "Pace Seamless Gutter's",
+      "note": "No official website verified for the Pace gutter contractor."
+    },
+    {
+      "name": "Perdido Garage Door Repairs",
+      "note": "An independently verifiable official website for this listing is unresolved."
+    },
+    {
+      "name": "Paz of Mind – Panama City",
+      "url": "https://pazofmindservices.com/services/irrigation-and-lawn",
+      "note": "The company advertises select properties in Bay County and explicitly names West Panama City Beach. Seeking additional evidence specific to Panama City before expanding."
+    },
+    {
+      "name": "Thomas Pro Flooring – Perdido Key",
+      "url": "https://www.thomasprofloors.com/",
+      "note": "The search index mentions a prior Perdido Key project but it was not confirmed in the current official page. The Mobile placement has independent official evidence."
+    },
+    {
+      "name": "Prestigious Flooring",
+      "url": "https://www.prestigiousflooringanddesign.com/",
+      "note": "Official-page retrieval returned 404. Hold until a working official site is confirmed."
+    },
+    {
+      "name": "Fairhope Floor Covering",
+      "url": "https://fairhopefloor.com/",
+      "note": "Site lists products but direct flooring installation for homeowners remains unconfirmed."
+    },
+    {
+      "name": "Pickering Building & Renovations",
+      "url": "https://www.pickeringbuilding.com/",
+      "note": "Local home-building and general remodeling are clear. Kitchen or bath category scope needs specific evidence."
+    },
+    {
+      "name": "Eddie's Painting Service",
+      "url": "https://www.eddiespaintingservice.com/",
+      "note": "Residential painting is clear. The current site’s ambiguous location wording does not establish the targeted Alabama cities."
+    },
+    {
+      "name": "Gimino's Appliance Repair",
+      "note": "State registration alone does not establish a working official website or city-level residential scope."
+    }
+  ],
+  "withheldCandidates": [
+    {
+      "name": "CertaPro Painters",
+      "url": "https://certapro.com/mobile/",
+      "note": "National franchise."
+    },
+    {
+      "name": "Critter Control",
+      "url": "https://www.crittercontrol.com/office-finder/florida/critter-control-in-santa-rosa-beach/",
+      "note": "National brand."
+    },
+    {
+      "name": "Coastal Insulation / TruTeam",
+      "url": "https://www.truteam.com/spray-foam-contractors-branches/fl/panama-city/65/",
+      "note": "National operator."
+    },
+    {
+      "name": "Overhead Door Company of Mobile Bay",
+      "url": "https://mobilebayohd.com/garage-door-service-area/",
+      "note": "National Overhead Door brand and existing exclusion rule."
+    },
+    {
+      "name": "ProLift Garage Doors",
+      "url": "https://www.proliftdoors.com/south-alabama/areas-we-serve/baldwin-county/",
+      "note": "National franchise."
+    },
+    {
+      "name": "United Water Restoration Group of Mobile",
+      "url": "https://uwrgmobile.com/about-us/",
+      "note": "The local site identifies it as part of a national restoration franchise. The alias was absent in the generated baseline."
+    },
+    {
+      "name": "Marcos Irrigation Repair",
+      "url": "https://crestview-fl.marcosirrigationrepair.com/contact",
+      "note": "Templated service landing page without adequate accountable local operating identity."
+    }
+  ],
+  "identityChecks": [
+    {
+      "name": "FastFriendly",
+      "alternateName": "Michael Reinhart Services",
+      "note": "The official site identifies both names as one operator. Neither identity nor the official domain appears in the fixed baseline."
+    },
+    {
+      "name": "SealTight Foam",
+      "alternateName": "Seal Tight Foam",
+      "note": "Existing records share the same official domain. Both new placements use its canonical brand. The official homepage confirms each place and service directly."
+    },
+    {
+      "name": "Ingersoll's Air Conditioning and Heating",
+      "alternateDomain": "https://sites.google.com/view/ingersollac/",
+      "note": "Matches the baseline ingersollac.com operator. No placements were added for the alternate site."
+    },
+    {
+      "name": "Emerald Coast Wastewater Solutions",
+      "note": "The current service site already has a baseline Crestview septic placement. Older domains or directory results are not new identities."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "url": "https://www.retailfixit.com/",
+      "status": "already_suppressed",
+      "rawPlacements": 396,
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "note": "Official site describes nationwide facilities management and vendor recruitment without local residential service evidence."
+    },
+    {
+      "name": "Florida Septic & Sewer Service",
+      "url": "https://elbrusconsulting.wordpress.com/",
+      "status": "review_only",
+      "reasons": [
+        "outdated_official_location",
+        "possible_related_business_identity"
+      ],
+      "note": "Historical marketing site describes a Destin location. Current Florida corporate and license records give a Crestview address. Review legacy Destin and Fort Walton Beach placements and any related Rogers & Grant identity before expanding. No public change."
+    },
+    {
+      "name": "SealTight Foam / Seal Tight Foam",
+      "url": "https://www.sealtightfoam.com/",
+      "status": "review_only",
+      "reasons": [
+        "duplicate_identity"
+      ],
+      "note": "Same business domain appears under two profile names. Count as one provider for qualification. No historical profile removed."
+    }
+  ],
+  "latestHistoricalScan": {
+    "flaggedBusinessIdentities": 158,
+    "flaggedSourceRows": 584,
+    "flaggedRawPlacements": 8816,
+    "retailFixItRawPlacements": 396
+  }
+}
