@@ -1,7 +1,7 @@
 {
   "runDate": "2026-11-19",
   "baselineCommit": "34794114b3fb115e09cecd38a3ea0dcc117d9ef8",
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "name": "Patriot Appliance Repair",
@@ -764,5 +764,269 @@
     "flaggedSourceRows": 584,
     "flaggedRawPlacements": 8816,
     "retailFixItFlaggedRawPlacements": 396
+  },
+  "publication": {
+    "commit": "135321416d297d63308ef9d8179666ae4a564eb9",
+    "productionDeployment": "dpl_4Y4HL1HZi1WFoeFZTtwRbGt5pZ1q",
+    "productionStatus": "READY",
+    "newBusinessesLiveVerified": 6,
+    "newBusinessPlacementsLiveVerified": 10,
+    "existingBusinessPlacementsLiveVerified": 6,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "newBusinessShortfall": 994
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-20T05:01:58.982Z",
+    "placements": [
+      {
+        "pageUrl": "https://whoknowsapro.com/pensacola-fl/appliance-repair",
+        "name": "Patriot Appliance Repair",
+        "website": "https://mypatriotappliance.com/index.html",
+        "cardCount": 15,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://mypatriotappliance.com/index.html",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/navarre-fl/appliance-repair",
+        "name": "Patriot Appliance Repair",
+        "website": "https://mypatriotappliance.com/index.html",
+        "cardCount": 14,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://mypatriotappliance.com/index.html",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/appliance-repair",
+        "name": "Patriot Appliance Repair",
+        "website": "https://mypatriotappliance.com/index.html",
+        "cardCount": 16,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://mypatriotappliance.com/index.html",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/milton-fl/generator-installation",
+        "name": "MDE Electric LLC",
+        "website": "https://www.mdmasterelectric.com/",
+        "cardCount": 16,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.mdmasterelectric.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/panama-city-fl/tree-service",
+        "name": "Emerald Coast Stump Grinding",
+        "website": "https://www.emeraldcoaststumpgrinding.net/",
+        "cardCount": 18,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.emeraldcoaststumpgrinding.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/irrigation-sprinkler-repair",
+        "name": "Magnolia Outdoor Living",
+        "website": "https://magnolia-outdoor-living.com/",
+        "cardCount": 6,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://magnolia-outdoor-living.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/irrigation-sprinkler-repair",
+        "name": "Best Tree and Sprinkler Service",
+        "website": "https://besttreeandsprinklerservice.com/",
+        "cardCount": 6,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://besttreeandsprinklerservice.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/irrigation-sprinkler-repair",
+        "name": "Best Tree and Sprinkler Service",
+        "website": "https://besttreeandsprinklerservice.com/",
+        "cardCount": 8,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://besttreeandsprinklerservice.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/irrigation-sprinkler-repair",
+        "name": "Baldwin County Irrigation",
+        "website": "https://www.baldwincountyirrigation.com/",
+        "cardCount": 6,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.baldwincountyirrigation.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/irrigation-sprinkler-repair",
+        "name": "Baldwin County Irrigation",
+        "website": "https://www.baldwincountyirrigation.com/",
+        "cardCount": 8,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.baldwincountyirrigation.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/navarre-fl/garage-door-repair",
+        "name": "Hometown Garage Doors LLC",
+        "website": "https://www.hometowngaragenwfl.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.hometowngaragenwfl.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/milton-fl/pool-installation",
+        "name": "Neway Pools",
+        "website": "https://newaypools.com/",
+        "cardCount": 14,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://newaypools.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/pensacola-fl/pool-installation",
+        "name": "Tropical Sun Pools",
+        "website": "https://www.tropicalsunpools.com/",
+        "cardCount": 17,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.tropicalsunpools.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/pace-fl/pool-service",
+        "name": "Diamond Pool Care",
+        "website": "https://www.diamond-poolcare.com/",
+        "cardCount": 11,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.diamond-poolcare.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/milton-fl/pool-service",
+        "name": "Diamond Pool Care",
+        "website": "https://www.diamond-poolcare.com/",
+        "cardCount": 13,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://www.diamond-poolcare.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/appliance-repair",
+        "name": "People 1st Home Services",
+        "website": "https://people1sthomeservices.com/",
+        "cardCount": 10,
+        "matchingCards": 1,
+        "officialFinalUrl": "https://people1sthomeservices.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      }
+    ]
+  },
+  "liveCoverage": {
+    "pages": 1120,
+    "displayedPlacementsBefore": 13187,
+    "displayedPlacementsAfter": 13203,
+    "displayedDeficit": 9511,
+    "displayedAtLeast20": 241,
+    "displayedBelow20": 879,
+    "emptyDisplayed": 0,
+    "changedPages": {
+      "fairhope-al/irrigation-sprinkler-repair": [
+        7,
+        8
+      ],
+      "foley-al/irrigation-sprinkler-repair": [
+        7,
+        8
+      ],
+      "grayton-beach-fl/appliance-repair": [
+        9,
+        10
+      ],
+      "gulf-breeze-fl/appliance-repair": [
+        15,
+        16
+      ],
+      "milton-fl/generator-installation": [
+        15,
+        16
+      ],
+      "milton-fl/pool-installation": [
+        13,
+        14
+      ],
+      "milton-fl/pool-service": [
+        12,
+        13
+      ],
+      "mobile-al/irrigation-sprinkler-repair": [
+        3,
+        6
+      ],
+      "navarre-fl/appliance-repair": [
+        13,
+        14
+      ],
+      "navarre-fl/garage-door-repair": [
+        10,
+        11
+      ],
+      "pace-fl/pool-service": [
+        10,
+        11
+      ],
+      "panama-city-fl/tree-service": [
+        17,
+        18
+      ],
+      "pensacola-fl/appliance-repair": [
+        14,
+        15
+      ],
+      "pensacola-fl/pool-installation": [
+        16,
+        17
+      ]
+    },
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "qualificationBackedDeficit": null,
+    "qualificationBackedPagesAt20": null
   }
 }
