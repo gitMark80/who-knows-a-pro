@@ -1,8 +1,8 @@
 # Directory fill checkpoint — November 20, 2026
 
-Fixed baseline `460065eae496f9a1beaf79691c051369456a5828`. The prior evidence and all live city counts were read before changes. GitHub reported no in-progress main workflows. The catalog contains 40 active cities, 28 visible categories, 12 hidden categories and 1,120 public pages. Grayton Beach is active and Pensacola Beach is absent.
+Fixed baseline `460065eae496f9a1beaf79691c051369456a5828`. The prior checkpoint and live counts were read before changes. GitHub reported no in-progress main workflows at the start. The current catalog covers 40 active cities, 28 visible categories, 12 hidden categories and 1,120 public pages. Grayton Beach is active and Pensacola Beach is absent.
 
-| City | Category | Baseline displayed | Projected displayed | New-business placements | Existing-business placements | Projected displayed deficit |
+| City | Category | Baseline displayed | Live displayed | New-business placements | Existing-business placements | Displayed deficit |
 |---|---|---:|---:|---:|---:|---:|
 | crestview-fl | garage-door-repair | 14 | 15 | 0 | 1 | 5 |
 | daphne-al | concrete | 5 | 7 | 2 | 0 | 13 |
@@ -25,8 +25,12 @@ Fixed baseline `460065eae496f9a1beaf79691c051369456a5828`. The prior evidence an
 | panama-city-beach-fl | marine-services | 15 | 16 | 1 | 0 | 4 |
 | panama-city-fl | marine-services | 17 | 18 | 1 | 0 | 2 |
 
-Prepared 15 distinct new local and regional businesses for 21 placements, plus five placements from existing businesses. Publication is pending. The live baseline counted 13,203 displayed placements, 241 pages displaying at least 20, 879 below 20, zero empty and a displayed deficit of 9,511. Historical qualifications remain unaudited at site scale.
+Published and live-verified 15 distinct new local and regional businesses. They contributed 21 placements. Two previously listed businesses contributed another five placements. The exact new-business shortfall is 985. Data commit `549cfb3ad8f0c29cf52812e5df85da9987212005` reached READY in production deployment `dpl_FqZD6tjhYVhQsg1geZQsFUGzARWM`. All 26 cards appeared exactly once on their intended pages and linked to the intended official businesses. No placements await deployment or live verification.
 
-The ledger records 15 fresh qualifying identities, 70 matched baseline domains, 13 pending candidates and 8 withheld cases. The first pass covered Destin, Fort Walton Beach, Crestview, and Panama City. Several priority searches found previously listed businesses, unavailable official sites, or unclear provider identities. Research continued around Pensacola and coastal Alabama. No local-market shortage was certified.
+Live coverage rose from 13,203 to 13,229 displayed placements. The only displayed count changes affected the 20 pages above. Of 1,120 pages, 241 display at least 20 records, 879 display fewer than 20, and zero are empty. The displayed placement deficit is 9,485, down 26. This is a lower bound for the qualification-backed deficit. The exact qualification-backed deficit and number of pages independently verified at 20 remain unknown while historical entries are unaudited. The source generates 3,970 profiles and 14,814 placements before live display. The full city/category count matrix is in `live-coverage-fill1000cp-2026-11-20.csv`.
 
-The latest historical scan flags 158 identities across 584 source rows and 8,816 raw placements, including 396 historical Retail Fix It placements. Its existing national-brand visibility suppression passed validation. The retained data was not edited. Existing category, geography, approval and non-test gates were preserved. The reviewed data import accommodates 20, and discovery queues candidates for independent review.
+The ledger records 15 qualifying new identities, 70 matched baseline domains, 13 pending cases, eight withheld cases, and identity and redirect checks. Priority searches started in Destin, Fort Walton Beach, Crestview and Panama City. Existing providers, unresolved residential or local-service proof, and missing official websites limited additions. Research continued around Pensacola and coastal Alabama. No market shortage was certified.
+
+The latest historical scan flags 158 identities across 584 source rows and 8,816 raw placements. Reason counts overlap. It flagged 131 identities for unsupported geography, 55 for unsupported residential service, and five for possible intermediary status. Retail Fix It accounts for 396 historical placements. Its official site describes a nationwide commercial facilities-management network and vendor intake. The existing visibility suppression passed validation and the historical records were preserved. One historical appliance website hit a content-size limit in an automated review and remains logged without any public visibility change.
+
+The production build, JSON schema, catalog slugs, fixed-baseline identity and placement deduplication, and national-brand visibility checks passed. Existing approval and non-test gates, claims, billing and catalog data were preserved. The reviewed import supports 20, and discovery queues candidates for independent review.

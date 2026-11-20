@@ -1,7 +1,7 @@
 {
   "runDate": "2026-11-20",
   "baselineCommit": "460065eae496f9a1beaf79691c051369456a5828",
-  "status": "validated_awaiting_publication",
+  "status": "published_deployed_live_verified",
   "placements": [
     {
       "name": "Precision Marine Maintenance",
@@ -809,5 +809,403 @@
     "flaggedSourceRows": 584,
     "flaggedRawPlacements": 8816,
     "retailFixItRawPlacements": 396
+  },
+  "publication": {
+    "commit": "549cfb3ad8f0c29cf52812e5df85da9987212005",
+    "productionDeployment": "dpl_FqZD6tjhYVhQsg1geZQsFUGzARWM",
+    "productionStatus": "READY",
+    "newBusinessesLiveVerified": 15,
+    "newBusinessPlacementsLiveVerified": 21,
+    "existingBusinessPlacementsLiveVerified": 5,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "newBusinessShortfall": 985
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-20T11:00:39.618Z",
+    "placements": [
+      {
+        "pageUrl": "https://whoknowsapro.com/panama-city-fl/marine-services",
+        "name": "Precision Marine Maintenance",
+        "website": "https://precisionmarinemaintenance.com/",
+        "displayedCards": 18,
+        "matchingCards": 1,
+        "finalUrl": "https://precisionmarinemaintenance.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/marine-services",
+        "name": "Precision Marine Maintenance",
+        "website": "https://precisionmarinemaintenance.com/",
+        "displayedCards": 16,
+        "matchingCards": 1,
+        "finalUrl": "https://precisionmarinemaintenance.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/navarre-fl/marine-services",
+        "name": "Soundside Mobile Marine",
+        "website": "https://soundsidemobilemarine.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://soundsidemobilemarine.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/marine-services",
+        "name": "Soundside Mobile Marine",
+        "website": "https://soundsidemobilemarine.com/",
+        "displayedCards": 17,
+        "matchingCards": 1,
+        "finalUrl": "https://soundsidemobilemarine.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/pace-fl/irrigation-sprinkler-repair",
+        "name": "Outdoor Services of Pace",
+        "website": "https://osop1907.wixsite.com/paceflorida",
+        "displayedCards": 12,
+        "matchingCards": 1,
+        "finalUrl": "https://osop1907.wixsite.com/paceflorida",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/pool-service",
+        "name": "Clear Water Pool & Spa",
+        "website": "https://cwpoolandspa.com/",
+        "displayedCards": 16,
+        "matchingCards": 1,
+        "finalUrl": "https://cwpoolandspa.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/mobile-al/appliance-repair",
+        "name": "Appliance Tech of Mobile",
+        "website": "https://www.tvandappliancetechofmobile.com/",
+        "displayedCards": 10,
+        "matchingCards": 1,
+        "finalUrl": "https://www.tvandappliancetechofmobile.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/concrete",
+        "name": "Phoenix Hardscapes",
+        "website": "https://www.phoenixhardscape.net/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.phoenixhardscape.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/concrete",
+        "name": "Phoenix Hardscapes",
+        "website": "https://www.phoenixhardscape.net/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.phoenixhardscape.net/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/roofing",
+        "name": "High Tide Contracting and Roofing",
+        "website": "https://hightidecontractingandroofing.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://hightidecontractingandroofing.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/roofing",
+        "name": "Roof Squirrel Roofing",
+        "website": "https://roofsquirrel.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://roofsquirrel.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/roofing",
+        "name": "ARC Roofing",
+        "website": "https://arcroofingal.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://arcroofingal.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/concrete",
+        "name": "R & S Paving & Grading",
+        "website": "https://www.randspaving.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.randspaving.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/concrete",
+        "name": "R & S Paving & Grading",
+        "website": "https://www.randspaving.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.randspaving.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/concrete",
+        "name": "Spartan Outdoor Services",
+        "website": "https://spartanoutdoorservicesllc.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://spartanoutdoorservicesllc.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/concrete",
+        "name": "AllSport Concrete",
+        "website": "https://www.allsportconcrete.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.allsportconcrete.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/pest-control",
+        "name": "Striker Pest Control",
+        "website": "https://strikerpestcontrol.com/",
+        "displayedCards": 5,
+        "matchingCards": 1,
+        "finalUrl": "https://strikerpestcontrol.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/pest-control",
+        "name": "Striker Pest Control",
+        "website": "https://strikerpestcontrol.com/",
+        "displayedCards": 6,
+        "matchingCards": 1,
+        "finalUrl": "https://strikerpestcontrol.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/pool-service",
+        "name": "The Pool Store",
+        "website": "https://gulfshorespoolstore.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://gulfshorespoolstore.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/pool-service",
+        "name": "Jubilee Pool & Patio",
+        "website": "https://jubileepoolpatio.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://jubileepoolpatio.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fairhope-al/pool-service",
+        "name": "Jubilee Pool & Patio",
+        "website": "https://jubileepoolpatio.com/",
+        "displayedCards": 8,
+        "matchingCards": 1,
+        "finalUrl": "https://jubileepoolpatio.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/crestview-fl/garage-door-repair",
+        "name": "850 Garage Doors",
+        "website": "https://www.850garagedoors.com/",
+        "displayedCards": 15,
+        "matchingCards": 1,
+        "finalUrl": "https://www.850garagedoors.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/garage-door-repair",
+        "name": "850 Garage Doors",
+        "website": "https://www.850garagedoors.com/",
+        "displayedCards": 16,
+        "matchingCards": 1,
+        "finalUrl": "https://www.850garagedoors.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/gulf-shores-al/roofing",
+        "name": "DADS Roofing",
+        "website": "https://www.dadsroofing.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.dadsroofing.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/foley-al/roofing",
+        "name": "DADS Roofing",
+        "website": "https://www.dadsroofing.com/",
+        "displayedCards": 9,
+        "matchingCards": 1,
+        "finalUrl": "https://www.dadsroofing.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      },
+      {
+        "pageUrl": "https://whoknowsapro.com/daphne-al/roofing",
+        "name": "DADS Roofing",
+        "website": "https://www.dadsroofing.com/",
+        "displayedCards": 7,
+        "matchingCards": 1,
+        "finalUrl": "https://www.dadsroofing.com/",
+        "officialStatus": 200,
+        "identityMatch": true,
+        "pass": true
+      }
+    ]
+  },
+  "liveCoverage": {
+    "pages": 1120,
+    "displayedPlacementsBefore": 13203,
+    "displayedPlacementsAfter": 13229,
+    "displayedDeficit": 9485,
+    "displayedAtLeast20": 241,
+    "displayedBelow20": 879,
+    "emptyDisplayed": 0,
+    "changedPages": {
+      "crestview-fl/garage-door-repair": [
+        14,
+        15
+      ],
+      "daphne-al/concrete": [
+        5,
+        7
+      ],
+      "daphne-al/pest-control": [
+        4,
+        5
+      ],
+      "daphne-al/pool-service": [
+        7,
+        8
+      ],
+      "daphne-al/roofing": [
+        6,
+        7
+      ],
+      "fairhope-al/concrete": [
+        6,
+        7
+      ],
+      "fairhope-al/pest-control": [
+        5,
+        6
+      ],
+      "fairhope-al/pool-service": [
+        7,
+        8
+      ],
+      "foley-al/concrete": [
+        6,
+        9
+      ],
+      "foley-al/roofing": [
+        6,
+        9
+      ],
+      "fort-walton-beach-fl/garage-door-repair": [
+        15,
+        16
+      ],
+      "gulf-breeze-fl/marine-services": [
+        16,
+        17
+      ],
+      "gulf-shores-al/pool-service": [
+        7,
+        8
+      ],
+      "gulf-shores-al/roofing": [
+        5,
+        7
+      ],
+      "mobile-al/appliance-repair": [
+        9,
+        10
+      ],
+      "mobile-al/pool-service": [
+        15,
+        16
+      ],
+      "navarre-fl/marine-services": [
+        16,
+        17
+      ],
+      "pace-fl/irrigation-sprinkler-repair": [
+        11,
+        12
+      ],
+      "panama-city-beach-fl/marine-services": [
+        15,
+        16
+      ],
+      "panama-city-fl/marine-services": [
+        17,
+        18
+      ]
+    },
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "qualificationBackedDeficit": null,
+    "qualificationBackedPagesAt20": null
   }
 }
