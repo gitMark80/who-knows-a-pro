@@ -1,7 +1,7 @@
 {
   "baselineCommit": "a3b5b9837e555f89f6f95696e1e716ddfbbfa5d8",
   "runDate": "2026-11-21",
-  "status": "locally_validated_awaiting_production",
+  "status": "published_deployed_live_verified",
   "previousCheckpoint": "reports/evidence-fill1000cs-2026-11-20.json",
   "reviewedBaselineDomains": [
     "850h2o.com",
@@ -181,7 +181,8 @@
           ]
         }
       ]
-    }
+    },
+    "livePlacementsSuppressed": 4
   },
   "historicalScan": {
     "flaggedIdentities": 158,
@@ -1571,9 +1572,24 @@
     "qualificationBackedTotals": null
   },
   "publication": {
-    "status": "awaiting_commit_and_deployment",
-    "liveVerifiedNewBusinesses": 0,
-    "liveVerifiedPlacements": 0
+    "dataCommit": "1368feba83cb87411cea14d103e6da886435fba2",
+    "productionDeployment": {
+      "id": "dpl_DmFNjYqsmEwsTiz7VVLAhLhZq5Lw",
+      "state": "READY",
+      "inspectorUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/DmFNjYqsmEwsTiz7VVLAhLhZq5Lw"
+    },
+    "liveVerifiedNewBusinesses": 66,
+    "liveVerifiedNewBusinessPlacements": 68,
+    "liveVerifiedExistingBusinessPlacements": 1,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0,
+    "shortfallAgainst1000": 934,
+    "followUpCommit": "edcf0f7b2eaef5c6bd0ec5ae4f56691a7a1c5d1f",
+    "followUpProductionDeployment": {
+      "id": "dpl_GTEGwLmuQ4qUhQvXh9NsYzN1PMcS",
+      "state": "READY",
+      "inspectorUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/GTEGwLmuQ4qUhQvXh9NsYzN1PMcS"
+    }
   },
   "researchSummary": {
     "baselineDomainsScreened": 126,
@@ -1600,5 +1616,1232 @@
       ],
       "evidence": "Bama identifies its Mobile family business and uses 251-478-7015. Advanced Pest Control of Alabama identifies a different operation and uses 251-981-3000."
     }
-  ]
+  ],
+  "liveVerification": {
+    "checkedAt": "2026-11-21T11:03:13.788100+00:00",
+    "placements": [
+      {
+        "name": "GoldStar Insulation",
+        "citySlug": "crestview-fl",
+        "categorySlug": "insulation",
+        "directoryUrl": "https://whoknowsapro.com/crestview-fl/insulation",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.goldstar-insulation.com/",
+          "status": 200,
+          "finalUrl": "https://www.goldstar-insulation.com/",
+          "identityMarker": "GoldStar Insulation",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "GoldStar Insulation",
+        "citySlug": "fort-walton-beach-fl",
+        "categorySlug": "insulation",
+        "directoryUrl": "https://whoknowsapro.com/fort-walton-beach-fl/insulation",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.goldstar-insulation.com/",
+          "status": 200,
+          "finalUrl": "https://www.goldstar-insulation.com/",
+          "identityMarker": "GoldStar Insulation",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Hual Electric",
+        "citySlug": "crestview-fl",
+        "categorySlug": "generator-installation",
+        "directoryUrl": "https://whoknowsapro.com/crestview-fl/generator-installation",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://hualelectric.com/",
+          "status": 200,
+          "finalUrl": "https://hualelectric.com/",
+          "identityMarker": "Hual Electric",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Hual Electric",
+        "citySlug": "pace-fl",
+        "categorySlug": "generator-installation",
+        "directoryUrl": "https://whoknowsapro.com/pace-fl/generator-installation",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://hualelectric.com/",
+          "status": 200,
+          "finalUrl": "https://hualelectric.com/",
+          "identityMarker": "Hual Electric",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Arrow Pest Service",
+        "citySlug": "panama-city-beach-fl",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/panama-city-beach-fl/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://arrowps.com/",
+          "status": 200,
+          "finalUrl": "https://arrowps.com/",
+          "identityMarker": "Arrow Pest Service",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Be Cool HVAC",
+        "citySlug": "foley-al",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/foley-al/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.becoolhvac.com/",
+          "status": 200,
+          "finalUrl": "https://www.becoolhvac.com/",
+          "identityMarker": "Be Cool HVAC",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Schoen Heating & Air Conditioning",
+        "citySlug": "foley-al",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/foley-al/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.schoenheatingandair.net/",
+          "status": 200,
+          "finalUrl": "https://www.schoenheatingandair.net/",
+          "identityMarker": "Schoen Heating",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Gulf Coast HVAC",
+        "citySlug": "foley-al",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/foley-al/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.gulfcoasthvacllc.com/",
+          "status": 200,
+          "finalUrl": "https://www.gulfcoasthvacllc.com/",
+          "identityMarker": "Gulf Coast HVAC",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Pride HVAC",
+        "citySlug": "foley-al",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/foley-al/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://pridehvacllc.com/",
+          "status": 200,
+          "finalUrl": "https://pridehvacllc.com/",
+          "identityMarker": "Pride HVAC",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Buzzkill Pest Control",
+        "citySlug": "mobile-al",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.buzzkill-pestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://www.buzzkill-pestcontrol.com/",
+          "identityMarker": "Buzzkill Pest Control",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Gulf Coast Pest Control",
+        "citySlug": "mobile-al",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.gulfcoast-pestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://www.gulfcoast-pestcontrol.com/",
+          "identityMarker": "Gulf Coast Pest Control",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "YellowHammer Pest Solutions",
+        "citySlug": "mobile-al",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://yellowhammerpestsolutions.com/",
+          "status": 200,
+          "finalUrl": "https://yellowhammerpestsolutions.com/",
+          "identityMarker": "YellowHammer Pest Solutions",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Bama Pest Control",
+        "citySlug": "mobile-al",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://bamapestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://bamapestcontrol.com/",
+          "identityMarker": "Bama Pest Control",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Prime HVAC",
+        "citySlug": "dothan-al",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/dothan-al/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://primehvacdothan.com/",
+          "status": 200,
+          "finalUrl": "https://primehvacdothan.com/",
+          "identityMarker": "Prime HVAC",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Brian's Septic Service",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "septic-services",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/septic-services",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://brianseptic.com/",
+          "status": 200,
+          "finalUrl": "https://brianseptic.com/",
+          "identityMarker": "Brian's Septic Service",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "McManus Pool and Spa",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "pool-service",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.mcmanuspoolandspa.com/",
+          "status": 200,
+          "finalUrl": "https://www.mcmanuspoolandspa.com/",
+          "identityMarker": "McManus Pool and Spa",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Canopy Tree Care",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "tree-service",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/tree-service",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://canopytreecarefl.com/",
+          "status": 200,
+          "finalUrl": "https://canopytreecarefl.com/",
+          "identityMarker": "Canopy Tree Care",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Love's Tree Care",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "tree-service",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/tree-service",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://lovestree.com/",
+          "status": 200,
+          "finalUrl": "https://lovestree.com/",
+          "identityMarker": "Love's Tree Care",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Hilliard Irrigation Services",
+        "citySlug": "birmingham-al",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/birmingham-al/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://hilliardirrigationservices.com/",
+          "status": 200,
+          "finalUrl": "https://hilliardirrigationservices.com/",
+          "identityMarker": "Hilliard Irrigation Services",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "HydroHive Irrigation",
+        "citySlug": "birmingham-al",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/birmingham-al/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.hydrohiveirrigation.com/",
+          "status": 200,
+          "finalUrl": "https://www.hydrohiveirrigation.com/",
+          "identityMarker": "HydroHive Irrigation",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "SepticWorks",
+        "citySlug": "birmingham-al",
+        "categorySlug": "septic-services",
+        "directoryUrl": "https://whoknowsapro.com/birmingham-al/septic-services",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://septicworksal.com/",
+          "status": 200,
+          "finalUrl": "https://septicworksal.com/",
+          "identityMarker": "SepticWorks",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Serenity Appliance",
+        "citySlug": "birmingham-al",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/birmingham-al/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.serenityappliance.com/",
+          "status": 200,
+          "finalUrl": "https://www.serenityappliance.com/",
+          "identityMarker": "Serenity Appliance",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "B & C Irrigation Systems",
+        "citySlug": "huntsville-al",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/huntsville-al/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.bandcirrigation.com/",
+          "status": 200,
+          "finalUrl": "https://www.bandcirrigation.com/",
+          "identityMarker": "B & C Irrigation",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "West Way Landwork",
+        "citySlug": "huntsville-al",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/huntsville-al/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.westwaylandwork.com/",
+          "status": 200,
+          "finalUrl": "https://www.westwaylandwork.com/",
+          "identityMarker": "West Way Landwork",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Cooper Building & Roofing",
+        "citySlug": "huntsville-al",
+        "categorySlug": "roofing",
+        "directoryUrl": "https://whoknowsapro.com/huntsville-al/roofing",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://coopertheroofer.com/",
+          "status": 200,
+          "finalUrl": "https://coopertheroofer.com/",
+          "identityMarker": "Cooper Building & Roofing",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "256-ROOFERS",
+        "citySlug": "huntsville-al",
+        "categorySlug": "roofing",
+        "directoryUrl": "https://whoknowsapro.com/huntsville-al/roofing",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://256roofers.com/",
+          "status": 200,
+          "finalUrl": "https://256roofers.com/",
+          "identityMarker": "256-ROOFERS",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Bitter Heating & Air Conditioning",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.bitterheatingandair.com/",
+          "status": 200,
+          "finalUrl": "https://www.bitterheatingandair.com/",
+          "identityMarker": "Bitter Heating & Air Conditioning",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Glenn Baker's Heating & Air Conditioning",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://glennbakershvac.com/",
+          "status": 200,
+          "finalUrl": "https://glennbakershvac.com/",
+          "identityMarker": "Glenn Baker",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Bayou South Mechanical Services",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://bayousouthmechanical.com/",
+          "status": 200,
+          "finalUrl": "https://bayousouthmechanical.com/",
+          "identityMarker": "Bayou South Mechanical Services",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Thermal Solutions",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://thermalsolutionsllc.com/",
+          "status": 200,
+          "finalUrl": "https://thermalsolutionsllc.com/",
+          "identityMarker": "Thermal Solutions",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Air Creation Heating & Cooling",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "hvac",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/hvac",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.aircreationheatingandcooling.com/",
+          "status": 200,
+          "finalUrl": "https://www.aircreationheatingandcooling.com/",
+          "identityMarker": "Air Creation Heating & Cooling",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Hernandez Lawnscape",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://hernandezlawnscape.com/",
+          "status": 200,
+          "finalUrl": "https://hernandezlawnscape.com/",
+          "identityMarker": "Hernandez Lawnscape",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Persac Lawn & Landscape",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "landscaping",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/landscaping",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.persaclawn.com/",
+          "status": 200,
+          "finalUrl": "https://www.persaclawn.com/",
+          "identityMarker": "Persac Lawn & Landscape",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Amen Appliance Repair",
+        "citySlug": "baton-rouge-la",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/baton-rouge-la/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.amenappliancerepair.com/",
+          "status": 200,
+          "finalUrl": "https://www.amenappliancerepair.com/",
+          "identityMarker": "Amen Appliance Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Vista Landscaping",
+        "citySlug": "new-orleans-la",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/new-orleans-la/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.vlnola.com/",
+          "status": 200,
+          "finalUrl": "https://www.vlnola.com/",
+          "identityMarker": "Vista Landscaping",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Atlanta Appliance Techs",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://atlantaappliancetechs.com/",
+          "status": 200,
+          "finalUrl": "https://atlantaappliancetechs.com/",
+          "identityMarker": "Atlanta Appliance Techs",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Broken Wing Appliance",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.brokenwingappliance.com/",
+          "status": 200,
+          "finalUrl": "https://www.brokenwingappliance.com/",
+          "identityMarker": "Broken Wing Appliance",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "The Sprinkler Man",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://sprinklermanusa.com/",
+          "status": 200,
+          "finalUrl": "https://sprinklermanusa.com/",
+          "identityMarker": "Sprinkler Man",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Big City Irrigation",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.bigcityirrigation.com/",
+          "status": 200,
+          "finalUrl": "https://www.bigcityirrigation.com/",
+          "identityMarker": "Big City Irrigation",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Entech Irrigation",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://jacksonvillesprinkler.com/",
+          "status": 200,
+          "finalUrl": "https://jacksonvillesprinkler.com/",
+          "identityMarker": "Entech Irrigation",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Aladdin Irrigation Repair",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.aladdinirrigationfl.net/",
+          "status": 200,
+          "finalUrl": "https://www.aladdinirrigationfl.net/",
+          "identityMarker": "Aladdin Irrigation Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "APTech Appliances Repair",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://apservicesappliancerepair.com/",
+          "status": 200,
+          "finalUrl": "https://apservicesappliancerepair.com/",
+          "identityMarker": "APTech Appliances Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Appliance Doctors",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.appliancedrsofjax.com/",
+          "status": 200,
+          "finalUrl": "https://www.appliancedrsofjax.com/",
+          "identityMarker": "Appliance Doctors",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "904 Appliance Repair",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://904appliance.com/",
+          "status": 200,
+          "finalUrl": "https://904appliance.com/",
+          "identityMarker": "904 Appliance Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Sullivan & Son Appliance Repair and More",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://sullivanandsonllc.com/",
+          "status": 200,
+          "finalUrl": "https://sullivanandsonllc.com/",
+          "identityMarker": "Sullivan & Son",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "AAA Fast Repairs",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.aaafastapplianceservice.com/",
+          "status": 200,
+          "finalUrl": "https://www.aaafastapplianceservice.com/",
+          "identityMarker": "AAA Fast",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "A-Aaron Appliance Service & Repair",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://aaaronappliance.com/",
+          "status": 200,
+          "finalUrl": "https://aaaronappliance.com/",
+          "identityMarker": "A-Aaron Appliance Service & Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Swift Appliance Repair",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.swiftapplianceinc.com/",
+          "status": 200,
+          "finalUrl": "https://www.swiftapplianceinc.com/",
+          "identityMarker": "Swift Appliance Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Better Homes Appliance Repair",
+        "citySlug": "tampa-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.betterhomesappliance.com/",
+          "status": 200,
+          "finalUrl": "https://www.betterhomesappliance.com/",
+          "identityMarker": "Better Homes Appliance Repair",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Nik's Fix Appliance",
+        "citySlug": "tampa-fl",
+        "categorySlug": "appliance-repair",
+        "directoryUrl": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://niksfixappliance.com/",
+          "status": 200,
+          "finalUrl": "https://niksfixappliance.com/",
+          "identityMarker": "Nik’s Fix Appliance",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "IGOCAR",
+        "citySlug": "pensacola-fl",
+        "categorySlug": "auto-body-collision",
+        "directoryUrl": "https://whoknowsapro.com/pensacola-fl/auto-body-collision",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.igocar.store/",
+          "status": 200,
+          "finalUrl": "https://igocar.store/",
+          "identityMarker": "IGOCAR",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Bell's Lawncare",
+        "citySlug": "gulf-breeze-fl",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/gulf-breeze-fl/irrigation-sprinkler-repair",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.bellslawncare.com/",
+          "status": 200,
+          "finalUrl": "https://www.bellslawncare.com/",
+          "identityMarker": "Bell's Lawncare",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Adcock Flooring",
+        "citySlug": "huntsville-al",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/huntsville-al/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.adcockflooringal.com/",
+          "status": 200,
+          "finalUrl": "https://www.adcockflooringal.com/",
+          "identityMarker": "Adcock Flooring",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Floors By Moore",
+        "citySlug": "huntsville-al",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/huntsville-al/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://floorsbymoorehuntsville.com/",
+          "status": 200,
+          "finalUrl": "https://floorsbymoorehuntsville.com/",
+          "identityMarker": "Floors By Moore",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "SEA Construction",
+        "citySlug": "birmingham-al",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/birmingham-al/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://seaconstruction.net/",
+          "status": 200,
+          "finalUrl": "https://seaconstruction.net/",
+          "identityMarker": "SEA Construction",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Brian's Flooring & Design",
+        "citySlug": "birmingham-al",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/birmingham-al/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.shopbriansflooring.com/",
+          "status": 200,
+          "finalUrl": "https://www.shopbriansflooring.com/",
+          "identityMarker": "Brian's Flooring & Design",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "ATL Seamless Gutters",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "gutters",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/gutters",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://atlseamlessgutters.com/",
+          "status": 200,
+          "finalUrl": "https://atlseamlessgutters.com/",
+          "identityMarker": "ATL Seamless Gutters",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Fonso Gutters",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "gutters",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/gutters",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.fonsogutters.com/",
+          "status": 200,
+          "finalUrl": "https://www.fonsogutters.com/",
+          "identityMarker": "Fonso Gutters",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Super Seamless Gutters",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "gutters",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/gutters",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.superseamlessgutter.com/",
+          "status": 200,
+          "finalUrl": "https://www.superseamlessgutter.com/",
+          "identityMarker": "Super Seamless Gutters",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Sanchez Gutters",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "gutters",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/gutters",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.sanchezgutters.com/",
+          "status": 200,
+          "finalUrl": "https://www.sanchezgutters.com/",
+          "identityMarker": "Sanchez Gutters",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Urban Seamless Gutters",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "gutters",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/gutters",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://urbanseamlessguttersatl.com/",
+          "status": 200,
+          "finalUrl": "https://urbanseamlessguttersatl.com/",
+          "identityMarker": "Urban Seamless Gutters",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Peachtree Flooring",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://peachtreeflooringinc.com/",
+          "status": 200,
+          "finalUrl": "https://peachtreeflooringinc.com/",
+          "identityMarker": "Peachtree Flooring",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Olivas Hardwood Flooring",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.olivashardwoodflooring.com/",
+          "status": 200,
+          "finalUrl": "https://www.olivashardwoodflooring.com/",
+          "identityMarker": "Olivas Hardwood Flooring",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Chattahoochee Hardwood Flooring",
+        "citySlug": "atlanta-ga",
+        "categorySlug": "flooring",
+        "directoryUrl": "https://whoknowsapro.com/atlanta-ga/flooring",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://www.chflooring.com/",
+          "status": 200,
+          "finalUrl": "https://www.chflooring.com/",
+          "identityMarker": "Chattahoochee Hardwood Flooring",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Vaughan & Son Pest Control",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://ridmypest.com/",
+          "status": 200,
+          "finalUrl": "https://ridmypest.com/",
+          "identityMarker": "Vaughan & Son Pest Control",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Ken-Tech Pest Control",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://kentechpestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://kentechpestcontrol.com/",
+          "identityMarker": "Ken-Tech Pest Control",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "AmeriPest",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://ameripestonline.com/",
+          "status": 200,
+          "finalUrl": "https://ameripestonline.com/",
+          "identityMarker": "AmeriPest",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "KnockOut Pest Control",
+        "citySlug": "jacksonville-fl",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/jacksonville-fl/pest-control",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://knockoutpestcontroljacksonville.com/",
+          "status": 200,
+          "finalUrl": "https://knockoutpestcontroljacksonville.com/",
+          "identityMarker": "KnockOut Pest Control",
+          "identityConfirmed": true
+        },
+        "verified": true
+      },
+      {
+        "name": "Pool Pro Service",
+        "citySlug": "gulf-shores-al",
+        "categorySlug": "pool-service",
+        "directoryUrl": "https://whoknowsapro.com/gulf-shores-al/pool-service",
+        "matchingNameCards": 1,
+        "matchingDomainCards": 1,
+        "exactCards": 1,
+        "website": {
+          "url": "https://poolproserviceinc.com/",
+          "status": 200,
+          "finalUrl": "https://poolproserviceinc.com/",
+          "identityMarker": "Pool Pro Service",
+          "identityConfirmed": true
+        },
+        "verified": true
+      }
+    ],
+    "nationalBrandCards": {
+      "daphne-al/pest-control": [],
+      "fairhope-al/pest-control": [],
+      "foley-al/pest-control": [],
+      "huntsville-al/pest-control": []
+    },
+    "publicIdentitySearch": {
+      "Retail Fix It": {
+        "status": 200,
+        "results": []
+      },
+      "Arrow Exterminators": {
+        "status": 200,
+        "results": []
+      },
+      "Arrow Pest Service": {
+        "status": 200,
+        "results": [
+          {
+            "slug": "arrow-pest-service-panama-city-beach-fl-pest-control",
+            "name": "Arrow Pest Service",
+            "claimed": false,
+            "places": [
+              "Panama City Beach, FL",
+              "Panama City, FL"
+            ],
+            "categories": [
+              "Pest control"
+            ]
+          }
+        ]
+      }
+    },
+    "visibility": {
+      "arrowExterminatorsPublicSearchAbsent": true,
+      "retailFixItPublicSearchAbsent": true,
+      "arrowPestServicePublicSearchVisible": true
+    },
+    "suppressedPublicProfileHttpStatus": 404
+  },
+  "liveCoverage": {
+    "pages": 1120,
+    "displayedPlacements": 13375,
+    "displayedAt20": 242,
+    "displayedBelow20": 878,
+    "empty": 0,
+    "displayedDeficit": 9339,
+    "qualificationBackedTotals": null,
+    "observedDeltaMatchesRun": true
+  }
 }
