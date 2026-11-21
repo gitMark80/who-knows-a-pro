@@ -23,6 +23,18 @@ export const excludedWebsiteDomains = [
   'greenhomesolutions.com',
   'tiresplus.com',
 
+  // Confirmed national service brands and their local consumer-facing sites.
+  'carmedic.biz',
+  'destinflooring-america.com',
+  'destinflooringamericadestin.com',
+  'flooringamerica.com',
+  'lightspeedrestoration.com',
+  'restopros.co',
+  'rhodes-flooringamerica.com',
+  'tuffy.com',
+  'tuffygulfbreeze.com',
+  'tuffygunn.com',
+
   // National/franchise brands and local aliases confirmed November 15, 2026.
   // Official-source evidence: reports/local-regional-only-2026-11-15.md.
   'pestdefense.com',
