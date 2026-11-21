@@ -2,7 +2,7 @@
   "runDate": "2026-11-21",
   "baselineCommit": "51d2e36e8a26e73e727b92c7e17889ff2dd57f7c",
   "previousCheckpoint": "reports/progress-fill1000ct-2026-11-21.md",
-  "status": "validated_awaiting_production",
+  "status": "published_deployed_live_verified",
   "reviewedBaselineDomains": [
     "alabamapoolworks.com",
     "allneedzconstruction.com",
@@ -180,7 +180,13 @@
     "rawSourceRows": 584,
     "rawPlacements": 8816,
     "businessIdentities": 158,
-    "retailFixItRawPlacements": 396
+    "retailFixItRawPlacements": 396,
+    "durableHistoricalIndex": "reports/historical-qualification-flags-2026-11-03.json",
+    "reasonCountsByBusinessIdentity": {
+      "unsupported_residential_service": 55,
+      "unsupported_specific_geography": 131,
+      "intermediary_or_managed_network": 5
+    }
   },
   "historicalFlags": [
     {
@@ -192,7 +198,12 @@
         "unsupported geography",
         "intermediary status"
       ],
-      "note": "The current site markets nationwide facilities management and collects vendor registrations. No scoped local residential locksmith evidence. Prior public exclusion retained."
+      "note": "The current site markets nationwide facilities management and collects vendor registrations. No scoped local residential locksmith evidence. Prior public exclusion retained.",
+      "sourceUrls": [
+        "https://www.retailfixit.com/"
+      ],
+      "rawHistoricalPlacements": 396,
+      "publicIdentitySearchMatches": []
     },
     {
       "name": "Nexcore Pro",
@@ -213,6 +224,80 @@
       ],
       "rawGeneratedPlacements": 28,
       "note": "The site describes facility mechanical, plumbing and air-quality support across Florida. It names Tampa as its office. Its generic statewide facility service is insufficient for historic residential plumbing placements. Flagged for review without a visibility change."
+    },
+    {
+      "name": "Vixxo",
+      "website": "https://www.vixxo.com/",
+      "sourceUrls": [
+        "https://www.vixxo.com/about-us/overview",
+        "https://www.vixxo.com/service-providers"
+      ],
+      "rawHistoricalPlacements": 460,
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "note": "Coordinates vendors for nationwide multi-site retail, restaurant, grocery and convenience customers."
+    },
+    {
+      "name": "Divisions Maintenance Group",
+      "website": "https://divisionsmg.com/",
+      "sourceUrls": [
+        "https://divisionsmg.com/dmg-pro/",
+        "https://legal.divisionsmg.com/"
+      ],
+      "rawHistoricalPlacements": 426,
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "note": "Operates a nationwide vendor network serving multisite organizations. Its use of residential refers to property portfolios."
+    },
+    {
+      "name": "Command7",
+      "website": "https://www.command7.com/",
+      "sourceUrls": [
+        "https://www.command7.com/our-services"
+      ],
+      "rawHistoricalPlacements": 309,
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "note": "Markets nationwide facility maintenance to portfolio operators using its network."
+    },
+    {
+      "name": "Lessen",
+      "website": "https://www.lessen.com/",
+      "sourceUrls": [
+        "https://www.lessen.com/service-hub",
+        "https://www.lessen.com/become-a-vendor"
+      ],
+      "rawHistoricalPlacements": 190,
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "note": "Manages service across rental and commercial portfolios through a nationwide vendor network."
+    },
+    {
+      "name": "C&D Industrial Maintenance",
+      "website": "https://www.cdindmaint.com/",
+      "sourceUrls": [
+        "https://www.cdindmaint.com/about-us",
+        "https://www.cdindmaint.com/sa/mobile-al",
+        "https://www.cdindmaint.com/sa/huntsville-al"
+      ],
+      "rawGeneratedPlacements": 13,
+      "issues": [
+        "unsupported residential service",
+        "incorrect category"
+      ],
+      "note": "Official pages document commercial and industrial door repairs. The cited city pages do not substantiate residential garage-door work."
     }
   ],
   "identityReview": [
@@ -268,6 +353,16 @@
         "https://tropicalpoolsinc.net/"
       ],
       "note": "The official Louisiana operation is distinct from the similarly named Tropical Sun Pools in the Pensacola area."
+    },
+    {
+      "name": "NOLA Flooring and Nola Floors LLC",
+      "sourceUrls": [
+        "https://nolaflooring.com/terms-and-conditions",
+        "https://nolaflooring.com/flooring-new-orleans",
+        "https://www.nolafloorsllc.com/contact-us/",
+        "https://www.nolafloorsllc.com/about-us/"
+      ],
+      "note": "NOLA Flooring identifies its legal company as New Orleans Flooring Distributors, LLC and uses a showroom phone ending in 5777. The separate Nola Floors, LLC family contractor uses a contact number ending in 9184."
     }
   ],
   "pendingCandidates": [
@@ -789,11 +884,13 @@
       "evidenceNote": "The Pensacola-based Overhead Door & Operator Co. specifically offers garage door and opener repairs to Destin homeowners. Its legal name and Pensacola officer distinguish the local operation from the national Overhead Door franchise.",
       "sourceUrls": [
         "https://odoperator.com/service-areas/",
-        "https://odoperator.com/about-us/"
+        "https://odoperator.com/about-us/",
+        "https://odoperator.com/garage-door-repair-installation-destin-fl/"
       ],
       "sourceDestinations": [
         "https://odoperator.com/service-areas/",
-        "https://odoperator.com/about-us/"
+        "https://odoperator.com/about-us/",
+        "https://odoperator.com/garage-door-repair-installation-destin-fl/"
       ],
       "officialSite": {
         "status": 200,
@@ -803,7 +900,19 @@
       },
       "priorLivePageCount": 15,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/destin-fl/garage-door-repair",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://odoperator.com/",
+          "title": "Garage Door Repair | Overhead Door & Operator",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Overhead Door & Operator",
@@ -814,11 +923,13 @@
       "evidenceNote": "The company’s official service-area page names Fort Walton Beach for garage door and opener repairs. The local Pensacola company describes its technicians fixing broken residential garage door parts.",
       "sourceUrls": [
         "https://odoperator.com/service-areas/",
-        "https://odoperator.com/about-us/"
+        "https://odoperator.com/about-us/",
+        "https://odoperator.com/garage-door-repair-installation-fort-walton-beach-fl/"
       ],
       "sourceDestinations": [
         "https://odoperator.com/service-areas/",
-        "https://odoperator.com/about-us/"
+        "https://odoperator.com/about-us/",
+        "https://odoperator.com/garage-door-repair-installation-fort-walton-beach-fl/"
       ],
       "officialSite": {
         "status": 200,
@@ -828,7 +939,19 @@
       },
       "priorLivePageCount": 16,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/garage-door-repair",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://odoperator.com/",
+          "title": "Garage Door Repair | Overhead Door & Operator",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Bryan's Lawn Maintenance",
@@ -851,7 +974,19 @@
       },
       "priorLivePageCount": 16,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/pensacola-fl/irrigation-sprinkler-repair",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://bryanslawnmaintenance.com/",
+          "title": "Bryan's Lawn Maintenance",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Emerald Pool & Spa",
@@ -874,7 +1009,19 @@
       },
       "priorLivePageCount": 7,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/foley-al/pool-service",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.emeraldspaservice.com/",
+          "title": "Emerald Pool & Spa",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "MOB Tree Service",
@@ -899,7 +1046,19 @@
       },
       "priorLivePageCount": 13,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/tree-service",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://mobtreeservice.com/",
+          "title": "MOB Tree Service | Mobile AL Tree Care & Removal Company",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "GCG Coastal Fencing",
@@ -922,7 +1081,19 @@
       },
       "priorLivePageCount": 9,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/gulfport-ms/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://gcgcoastalfencing.com/",
+          "title": "Fence Company Gulfport Biloxi | Fence Installation Contractor Gulfport",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Gulf Coast Fence Company",
@@ -945,7 +1116,19 @@
       },
       "priorLivePageCount": 9,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/gulfport-ms/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.gulfcoastfenceco.com/",
+          "title": "Gulf Coast Fence Company| Pascagoula, MS",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Martin Exteriors",
@@ -968,7 +1151,19 @@
       },
       "priorLivePageCount": 10,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/biloxi-ms/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://martinexteriorsllc.com/",
+          "title": "Martin Exteriors",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Honey Do Construction",
@@ -991,7 +1186,19 @@
       },
       "priorLivePageCount": 11,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/gulfport-ms/kitchen-bath-remodeling",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://honeydo-construction.com/",
+          "title": "General Contractor Hattiesburg MS | Honey Do Construction",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Wards Heating & Air Conditioning",
@@ -1016,7 +1223,19 @@
       },
       "priorLivePageCount": 8,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/gulfport-ms/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.wardscooling.com/",
+          "title": "Hire HVAC Specialists South Carolina - Repair & Maintenance",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Broussard Services",
@@ -1039,7 +1258,19 @@
       },
       "priorLivePageCount": 9,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/biloxi-ms/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://broussardservices.com/",
+          "title": "HVAC/Plumber in Nashville TN & Biloxi MS | Broussard Services",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Precise Plumbing",
@@ -1062,7 +1293,19 @@
       },
       "priorLivePageCount": 11,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/biloxi-ms/plumbing",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://preciseplumbingva.com/",
+          "title": "PrecisePlumbing — Biloxi, MS Plumbing Experts | Mississippi Gulf Coast",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "S&Z Guillen Landscape and Lawn Care",
@@ -1085,7 +1328,19 @@
       },
       "priorLivePageCount": 13,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.szguillen.com/",
+          "title": "S&Z Guillen Lawn Care & Landscape | Transform Your Lawn Today!",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Turfmaster Landscape",
@@ -1108,7 +1363,19 @@
       },
       "priorLivePageCount": 13,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://turfmastermobile.com/",
+          "title": "Turfmaster Landscape – Commercial & Residential Landscaping in Mobile, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Yard Art Landscapes",
@@ -1131,7 +1398,19 @@
       },
       "priorLivePageCount": 13,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://yardartlandscapes.net/",
+          "title": "Yard Art Landscapes",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Hayes Painting",
@@ -1154,7 +1433,19 @@
       },
       "priorLivePageCount": 16,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://hayespaint.com/",
+          "title": "Hayes Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "RD Lowes",
@@ -1177,7 +1468,19 @@
       },
       "priorLivePageCount": 16,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://rdlowesinc.com/",
+          "title": "RD LOWES, INC.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Brewer Painting",
@@ -1200,7 +1503,19 @@
       },
       "priorLivePageCount": 16,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://brewerpainting.net/site/",
+          "title": "Brewer Painting | Residential & Commercial Painter in Mobile, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Seashore Painting & Renovations",
@@ -1223,7 +1538,19 @@
       },
       "priorLivePageCount": 9,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/foley-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.seashorepaintingandrenovations.com/",
+          "title": "Painting Contractor, Renovation Contractor | Foley, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "TJ's Quality Painting",
@@ -1246,7 +1573,19 @@
       },
       "priorLivePageCount": 9,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fairhope-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.tjsqualitypaintingllc.com/",
+          "title": "Home | TJ’s Quality Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Pickle's Painting",
@@ -1269,7 +1608,19 @@
       },
       "priorLivePageCount": 9,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fairhope-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://picklespainting.com/",
+          "title": "Painting Contractor Fairhope, AL - Pickle's Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Floorcrafters",
@@ -1292,7 +1643,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.floorcraftersnola.com/",
+          "title": "Floorcrafters | Hardwood Floor Installation & Refinishing | New Orleans, LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "FloorMasters of New Orleans",
@@ -1315,7 +1678,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://floormastersofneworleans.com/",
+          "title": "FloorMasters Refinish Hardwood - FLOOR MASTERS of NEW ORLEANS",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Huey's Floors",
@@ -1338,7 +1713,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://hueysfloors.com/",
+          "title": "HUEY'S FLOORS - Hardwood Floors, Laminate Flooring, Floor Refinishing",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Nola Dustless",
@@ -1361,7 +1748,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.noladustless.com/",
+          "title": "Flooring Contractor New Orleans | Nola Dustless",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Floor de Lis",
@@ -1384,7 +1783,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://floordelis.com/",
+          "title": "Home - Floor de Lis Flooring New Orleans, LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Nola Floors",
@@ -1407,7 +1818,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.nolafloorsllc.com/",
+          "title": "Nola Floors, LLC – For All of Your Hardwood Flooring Needs",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Nola Flooring",
@@ -1430,7 +1853,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://nolaflooring.com/",
+          "title": "New Orleans Flooring: Trusted Flooring Store In Greater New Orleans & Baton Rouge",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "D&D Coatings",
@@ -1453,7 +1888,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://dndcoatings.net/",
+          "title": "D&D Coatings — Professional Residential & Commercial Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "NOLA House Painting",
@@ -1476,7 +1923,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://nolahousepainting.com/",
+          "title": "Residential and Commercial Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Keith Guy",
@@ -1499,7 +1958,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://keithguyinc.net/",
+          "title": "below\n         is a fallback for the initial server-rendered HTML only; it is replaced\n         by SEOHead on each route. -->\n     Keith Guy Inc. | Luxury House Painters New Orleans & Northshore",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Big Picture Painting",
@@ -1522,7 +1993,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://bigpicturepainting.com/",
+          "title": "New Orleans Painting Contractors | Big Picture Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Big Easy Painting",
@@ -1545,7 +2028,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bigeasypainting.com/",
+          "title": "New Orleans Interior & Exterior Painting | Big Easy Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "RM Concrete",
@@ -1568,7 +2063,19 @@
       },
       "priorLivePageCount": 3,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.rmconcretela.com/",
+          "title": "RM Concrete NOLA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Chris' Paving",
@@ -1591,7 +2098,19 @@
       },
       "priorLivePageCount": 3,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.chrispaving.com/",
+          "title": "New Orleans Paving Company | Asphalt & Concrete Contractors",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Floor Pro Installation Services",
@@ -1614,7 +2133,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.gofloorpro.com/",
+          "title": "Floor Pro Installation Services, LLC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Metro Floors & More",
@@ -1637,7 +2168,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://metrofloorsandmore.com/",
+          "title": "Metro Floors – And More",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Stampley's Flooring",
@@ -1660,7 +2203,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.stampleysflooring.com/",
+          "title": "Stampley's Flooring",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Assured Flooring & Countertops",
@@ -1683,7 +2238,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.assuredflooring.net/",
+          "title": "Top Flooring and Countertops in Baton Rouge, LA | Home | Assured Flooring & Countertops",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Built Right Renovations",
@@ -1706,7 +2273,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.builtrightrenovations.com/",
+          "title": "Built Right Renovations | Repairs and Remodels | Baton Rouge, LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "WJ Hardwood Designs",
@@ -1729,7 +2308,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://batonrougehardwoodflooring.com/",
+          "title": "WJ Hardwood Designs - Hardwood Flooring | Baton Rogue LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Hubbard Flooring Studio",
@@ -1752,7 +2343,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/flooring",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.hubbardflooringstudio.com/",
+          "title": "Baton Rouge Flooring Dealer | Flooring, Furniture, Countertops | Hubbard Flooring Studio",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Russell Pool Company",
@@ -1775,7 +2378,19 @@
       },
       "priorLivePageCount": 8,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-installation",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://russellpools.com/",
+          "title": "Pool Design & Maintenance Experts in Baton Rouge, LA | Russell Pool Company",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "LA Pool Company",
@@ -1798,7 +2413,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://thepoolcompanyla.com/",
+          "title": "LA Pool Company - Trusted Pool Services in Baton Rouge",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Tropical Pools",
@@ -1821,7 +2448,19 @@
       },
       "priorLivePageCount": 8,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-installation",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://tropicalpoolsinc.net/",
+          "title": "Tropical Pools: Your Trusted Pool Care Experts",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Drew Concrete Works",
@@ -1844,7 +2483,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://drewconcreteworks.com/",
+          "title": "Home - Drew Concrete Works",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "AB Concrete",
@@ -1867,7 +2518,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.abconcretela.com/",
+          "title": "Best Concrete Services | AB Concrete | Baton Rouge, Prairieville & Gonzales, LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Parish Outdoor Builders",
@@ -1890,7 +2553,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://parishoutdoorbuilders.com/",
+          "title": "Outdoor Living in Baton Rouge | Parish Outdoor Builders",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Lopez Quality Concrete",
@@ -1913,7 +2588,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://lopezqualityconcrete.com/",
+          "title": "Home | Lopez Quality Concrete | Baton Rouge, LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Top One Painting",
@@ -1936,7 +2623,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.toponepainting.com/",
+          "title": "Painting Companies Trussville, AL | Top One Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Capps Painting",
@@ -1959,7 +2658,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.cappspainting.com/",
+          "title": "Capps Painting – Birmingham AL Painting & Remodeling | Commercial & Residential Interior and Exterior Painting and Remodeling",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Stoney Oak Painting",
@@ -1982,7 +2693,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://stoneyoakpainting.com/home",
+          "title": "Painting Services in Birmingham | Stoney Oak Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Altract Co.",
@@ -2006,7 +2729,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://altractco.com/",
+          "title": "Painter in Vestavia Hills, AL | Interior & Exterior Painting | Altract Co.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Revive Pro Painting",
@@ -2029,7 +2764,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://revive-pro.com/",
+          "title": "Revive Pro Painting | Birmingham House & Commercial Painters",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Prime Painting & Contracting",
@@ -2052,7 +2799,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://primepaint.net/",
+          "title": "Prime Painting & Contracting | Birmingham AL Painters",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Straight Line Painting",
@@ -2075,7 +2834,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://straightlinepainting.net/",
+          "title": "House Painters Huntsville, AL | Straight Line Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Home Improvement Painting",
@@ -2098,7 +2869,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://homeimprovementpainting.com/",
+          "title": "Inactive Business",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Marathon Painting & Roofing",
@@ -2121,7 +2904,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.marathonpaintingandroofing.com/",
+          "title": "Home Improvement Services | Marathon Painting and Roofing | Huntsville",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Carden Landscaping",
@@ -2144,7 +2939,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.cardenlandscaping.com/",
+          "title": "Carden Landscaping Athens | Top Landscaping Services in Athens, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Lookin' Goode Landscaping",
@@ -2167,7 +2974,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://goodelandscaping.com/",
+          "title": "Huntsville, AL Landscaping | Lookin' Goode Landscaping",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Splawn Landscape & Design",
@@ -2190,7 +3009,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://splawnlandscaping.com/",
+          "title": "Home - Splawn Landscape & Design | Huntsville, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Turf Titans",
@@ -2213,7 +3044,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.turftitan.net/",
+          "title": "Turf Titans | Family-Owned Lawn Care in North Alabama — No Contracts",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Square One Landscape Group",
@@ -2236,7 +3079,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://squareonela.com/",
+          "title": "Home - Square One Landscape Group",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Landscape Images",
@@ -2259,7 +3114,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.landscapeimagesltd.com/",
+          "title": "New Orleans Landscape Design | Landscape Images Ltd.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Exterior Designs",
@@ -2282,7 +3149,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://exteriordesignsbev.com/",
+          "title": "New Orleans Landscaping by Exterior Designs, Inc.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Elliott Land Management",
@@ -2305,7 +3184,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://elliottlm.com/",
+          "title": "Elliott Land Management, Landscaping in Birmingham AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Grass Enforcers",
@@ -2328,7 +3219,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.grassenforcers.com/",
+          "title": "Landscaper near Birmingham, Alabama - Grass Enforcers",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Rooted",
@@ -2351,7 +3254,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.rootedscapes.com/",
+          "title": "Rooted | Rooted Landscaping | Charleston SC & Birmingham AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Snider Landscapes",
@@ -2374,7 +3289,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.sniderlandscapes.com/",
+          "title": "Snider Landscapes | Birmingham, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Spark Medic",
@@ -2397,7 +3324,19 @@
       },
       "priorLivePageCount": 4,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://sparkmedicinc.com/",
+          "title": "Licensed Electrician in Huntsville, AL | Spark Medic",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Urban Electric",
@@ -2420,7 +3359,19 @@
       },
       "priorLivePageCount": 4,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.urbanelectricllc.net/",
+          "title": "Urban Electric",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Hooser Bro's Electric",
@@ -2443,7 +3394,19 @@
       },
       "priorLivePageCount": 4,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.hooserbroselectric.com/",
+          "title": "Licensed Electrician | Hooser Bro's  | Huntsville, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Gutter Pro Florida",
@@ -2466,7 +3429,19 @@
       },
       "priorLivePageCount": 5,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.gutterproflorida.com/",
+          "title": "Seamless Gutter Installation Jacksonville FL | Gutter Pro",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Sea Glass Exteriors",
@@ -2490,7 +3465,19 @@
       },
       "priorLivePageCount": 5,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.seaglassjax.com/",
+          "title": "Sea Glass Exteriors | Roofing and Siding in Jax, FL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Broadside Gutters & Exterior",
@@ -2513,7 +3500,19 @@
       },
       "priorLivePageCount": 5,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.broadsidegutters.com/",
+          "title": "Jacksonville Gutters, Painting & Exteriors | Broadside",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Synergy Roofing",
@@ -2536,7 +3535,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/roofing",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://roofingneworleans.net/",
+          "title": "New Orleans Roof Repair & Roofing Company | Synergy",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Robertson Roofing",
@@ -2559,7 +3570,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/roofing",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://robertsonroofinginc.com/",
+          "title": "Robertson Roofing Inc – New Orleans Commercial and Residential Roofing Repair Contractor New Orleans LA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Guidry's Roofing and Siding",
@@ -2582,7 +3605,19 @@
       },
       "priorLivePageCount": 1,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/roofing",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.guidryroofing.com/",
+          "title": "Guidry's Roofing and Siding",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Solid Foundation",
@@ -2605,7 +3640,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://sfbham.com/",
+          "title": "Birmingham, AL Sitework, Construction & Remodeling | Solid Foundation LLC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Quality Concrete Birmingham",
@@ -2615,10 +3662,12 @@
       "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
       "evidenceNote": "The Birmingham operator offers direct residential concrete work, including driveway demolition and replacement, patios and foundations.",
       "sourceUrls": [
-        "https://qualityconcretebirmingham.com/"
+        "https://qualityconcretebirmingham.com/",
+        "https://qualityconcretebirmingham.com/about-us/"
       ],
       "sourceDestinations": [
-        "https://qualityconcretebirmingham.com/"
+        "https://qualityconcretebirmingham.com/",
+        "https://qualityconcretebirmingham.com/about-us/"
       ],
       "officialSite": {
         "status": 200,
@@ -2628,7 +3677,19 @@
       },
       "priorLivePageCount": 2,
       "priorMatchingCards": 0,
-      "publicationStatus": "awaiting_production"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/concrete",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://qualityconcretebirmingham.com/",
+          "title": "Quality Concrete Birmingham | Concrete Contractor Birmingham, AL",
+          "identityConfirmed": true
+        }
+      }
     }
   ],
   "checks": {
@@ -2638,6 +3699,69 @@
     "build": "passed for business additions and initial exclusions",
     "nationalVisibilityGateRegression": "passed for all seven brands",
     "activeMainWorkflowsAtStart": 0,
-    "activeMainWorkflowsBeforeFirstPublish": 0
-  }
+    "activeMainWorkflowsBeforeFirstPublish": 0,
+    "finalLiveCountReconciliation": "passed"
+  },
+  "publication": {
+    "dataCommit": "4d90410adfcd1f923315ca04d4f84d9a63c86f04",
+    "additionalNationalSuppressionCommit": "978b6127d6dca24dbed2f3495ca8db52243f36eb",
+    "productionDeployments": [
+      {
+        "id": "dpl_83SFE4hMcZxXQWMZuWDVHNqT7LqG",
+        "state": "READY",
+        "inspectorUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/83SFE4hMcZxXQWMZuWDVHNqT7LqG"
+      },
+      {
+        "id": "dpl_CdUWUz1KMmQVMgi5YSNEnLzi5pZP",
+        "state": "READY",
+        "inspectorUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/CdUWUz1KMmQVMgi5YSNEnLzi5pZP"
+      }
+    ],
+    "verifiedAt": "2026-11-21T17:08:23.831591+00:00",
+    "liveVerifiedNewBusinesses": 79,
+    "liveVerifiedPlacementsByNewBusinesses": 80,
+    "liveVerifiedPlacementsByBaselineBusinesses": 0,
+    "liveSuppressedNationalPlacements": 41,
+    "suppressedNationalPlacementsByDomain": {
+      "usainsulation.net": 1,
+      "murphycompanyusa.com": 23,
+      "ifoamalabama.com": 3,
+      "nationalconcretepolishing.net": 4,
+      "advantaclean.com": 1,
+      "greenhomesolutions.com": 2,
+      "tiresplus.com": 6,
+      "ifoam.com": 1
+    },
+    "remainingNationalCards": {},
+    "publicIdentitySearchMatches": {
+      "AdvantaClean": [],
+      "Green Home Solutions of Mississippi Gulf Coast": [],
+      "Murphy Company": [],
+      "National Concrete Polishing": [],
+      "Retail Fix It": [],
+      "Tires Plus Total Car Care": [],
+      "USA Insulation": [],
+      "iFOAM Alabama": [],
+      "iFOAM of Tampa": []
+    },
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0,
+    "shortfallAgainst1000": 921
+  },
+  "finalDisplayedCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "displayedAt20": 242,
+    "displayedBelow20": 878,
+    "displayedEmpty": 0,
+    "displayedPlacements": 13414,
+    "displayedDeficit": 9300,
+    "freshlyVerifiedAt20": 0,
+    "qualifyingAt20Unknown": 242,
+    "qualifyingDeficit": null
+  },
+  "liveCoverageUnexpectedCountChanges": {},
+  "historicalAuditLimit": "Prior duplicate and invalid website flags remain unresolved unless separately adjudicated. This run did not systematically retest those two issues across all historical records."
 }
