@@ -227,6 +227,16 @@
         "https://whoknowsapro.com/business/daniel-s-heating-and-cooling"
       ],
       "note": "Public search found the existing Dothan profile with the same name using ‘and’ in place of the ampersand. Excluded from this run."
+    },
+    {
+      "business": "Crestview Paint & Body",
+      "citySlug": "crestview-fl",
+      "categorySlug": "auto-body-collision",
+      "website": "https://crestviewpaintandbody.com/",
+      "issues": [
+        "existing baseline identity"
+      ],
+      "note": "Existing Crestview card corroborated by the official site’s Crestview shop and consumer collision repair service. No new business or placement."
     }
   ],
   "pendingCandidates": [
@@ -239,10 +249,10 @@
     },
     {
       "name": "Marine Maintenance of Bay County",
-      "market": "Panama City",
+      "market": "Panama City Beach",
       "category": "marine-services",
       "website": "https://marinemaint.com/",
-      "blocker": "Official root timed out on inspection. Verify a working website and private recreational vessel work."
+      "blocker": "State filing and published contact details point to Panama City Beach. Official contact page returned HTTP 502. Confirm a working company-controlled website and recreational vessel work before placement."
     },
     {
       "name": "Waugh Custom Homes",
@@ -369,13 +379,6 @@
       "category": "generator-installation",
       "website": "https://dothan-al.dpattersonelectric.com/",
       "blocker": "Site returned HTTP 403, with current local operation unresolved."
-    },
-    {
-      "name": "Pool Pro Service",
-      "market": "Gulf Shores",
-      "category": "pool-service",
-      "website": "https://poolproserviceinc.com/",
-      "blocker": "Official site confirms pool cleaning and a Gulf Shores operation. Confirm the provider services residential pools specifically."
     }
   ],
   "withheldCandidates": [
@@ -1480,6 +1483,22 @@
       "baselineDisplayedCount": 2,
       "existingBusiness": false,
       "unresolvedLimitation": null
+    },
+    {
+      "business": "Pool Pro Service",
+      "website": "https://poolproserviceinc.com/",
+      "citySlug": "gulf-shores-al",
+      "categorySlug": "pool-service",
+      "sourceUrls": [
+        "https://poolproserviceinc.com/swimming-pool-inspections",
+        "https://poolproserviceinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-21T11:00:51Z",
+      "evidenceNote": "The Gulf Shores-based pool company offers local homeowners weekly cleaning and water balancing after residential pool inspection, with options for equipment repair.",
+      "officialWebsiteFinalUrl": "https://poolproserviceinc.com/",
+      "baselineDisplayedCount": 8,
+      "existingBusiness": false,
+      "unresolvedLimitation": null
     }
   ],
   "baselinePublicIdentitySearchMatches": {
@@ -1558,8 +1577,8 @@
   },
   "researchSummary": {
     "baselineDomainsScreened": 126,
-    "newIdentitiesQualified": 65,
-    "pendingCandidates": 21,
+    "newIdentitiesQualified": 66,
+    "pendingCandidates": 20,
     "withheldCandidates": 8
   },
   "identityChecks": [
