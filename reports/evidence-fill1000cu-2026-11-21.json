@@ -141,6 +141,39 @@
         "https://nationalconcretepolishing.net/location/"
       ],
       "note": "The company identifies its established nationwide concrete flooring operation. The filter does not match the similarly named nationalconcretefl.com business."
+    },
+    {
+      "name": "iFOAM",
+      "domains": [
+        "ifoam.com",
+        "ifoamalabama.com"
+      ],
+      "sources": [
+        "https://www.ifoam.com/own-a-franchise/",
+        "https://www.ifoam.com/locations/",
+        "https://ifoamalabama.com/about-ifoam/",
+        "https://www.ifoam.com/tampa-fl/"
+      ],
+      "note": "The parent advertises a multi-state insulation franchise. The Alabama affiliate identifies itself as an independently owned iFOAM franchise. The Tampa card uses the corporate domain."
+    },
+    {
+      "name": "Green Home Solutions",
+      "domain": "greenhomesolutions.com",
+      "sources": [
+        "https://www.greenhomesolutions.com/our-locations/",
+        "https://www.greenhomesolutions.com/atlanta-ga/request-a-quote/",
+        "https://www.greenhomesolutions.com/our-locations/mississippi/"
+      ],
+      "note": "The official site describes a national franchise network and lists Mississippi under the same brand."
+    },
+    {
+      "name": "Tires Plus Total Car Care",
+      "domain": "tiresplus.com",
+      "sources": [
+        "https://www.tiresplus.com/about-tires-plus-total-car-care/",
+        "https://www.tiresplus.com/local/state/"
+      ],
+      "note": "The official site describes the Bridgestone-owned chain with more than 400 stores across 23 states."
     }
   ],
   "historicalScan": {
@@ -437,6 +470,12 @@
         "links": [
           "https://murphycompanyusa.com/index.php"
         ]
+      },
+      {
+        "name": "iFOAM Alabama",
+        "links": [
+          "https://ifoamalabama.com/"
+        ]
       }
     ],
     "baton-rouge-la/insulation": [
@@ -460,6 +499,12 @@
         "name": "Murphy Company",
         "links": [
           "https://murphycompanyusa.com/index.php"
+        ]
+      },
+      {
+        "name": "iFOAM Alabama",
+        "links": [
+          "https://ifoamalabama.com/"
         ]
       }
     ],
@@ -581,6 +626,12 @@
         "links": [
           "https://murphycompanyusa.com/index.php"
         ]
+      },
+      {
+        "name": "iFOAM Alabama",
+        "links": [
+          "https://ifoamalabama.com/"
+        ]
       }
     ],
     "naples-fl/insulation": [
@@ -652,6 +703,78 @@
         "name": "Murphy Company",
         "links": [
           "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "biloxi-ms/water-damage-mold-remediation": [
+      {
+        "name": "Green Home Solutions of Mississippi Gulf Coast",
+        "links": [
+          "https://www.greenhomesolutions.com/gulf-coast-ms/"
+        ]
+      }
+    ],
+    "fort-lauderdale-fl/auto-mechanics": [
+      {
+        "name": "Tires Plus Total Car Care",
+        "links": [
+          "https://www.tiresplus.com/"
+        ]
+      }
+    ],
+    "gulfport-ms/water-damage-mold-remediation": [
+      {
+        "name": "Green Home Solutions of Mississippi Gulf Coast",
+        "links": [
+          "https://www.greenhomesolutions.com/gulf-coast-ms/"
+        ]
+      }
+    ],
+    "miami-fl/auto-mechanics": [
+      {
+        "name": "Tires Plus Total Car Care",
+        "links": [
+          "https://www.tiresplus.com/"
+        ]
+      }
+    ],
+    "naples-fl/auto-mechanics": [
+      {
+        "name": "Tires Plus Total Car Care",
+        "links": [
+          "https://www.tiresplus.com/"
+        ]
+      }
+    ],
+    "st-petersburg-fl/auto-mechanics": [
+      {
+        "name": "Tires Plus Total Car Care",
+        "links": [
+          "https://www.tiresplus.com/"
+        ]
+      }
+    ],
+    "tallahassee-fl/auto-mechanics": [
+      {
+        "name": "Tires Plus Total Car Care",
+        "links": [
+          "https://www.tiresplus.com/"
+        ]
+      }
+    ],
+    "tampa-fl/insulation": [
+      {
+        "name": "iFOAM of Tampa",
+        "links": [
+          "https://www.ifoam.com/tampa-fl/"
+        ]
+      }
+    ],
+    "west-palm-beach-fl/auto-mechanics": [
+      {
+        "name": "Tires Plus Total Car Care",
+        "links": [
+          "https://www.tiresplus.com/"
         ]
       }
     ]
@@ -2507,5 +2630,14 @@
       "priorMatchingCards": 0,
       "publicationStatus": "awaiting_production"
     }
-  ]
+  ],
+  "checks": {
+    "generatedAdditions": 80,
+    "generatedPublicExclusions": 41,
+    "unchangedGeneratedPlacements": 14919,
+    "build": "passed for business additions and initial exclusions",
+    "nationalVisibilityGateRegression": "passed for all seven brands",
+    "activeMainWorkflowsAtStart": 0,
+    "activeMainWorkflowsBeforeFirstPublish": 0
+  }
 }
