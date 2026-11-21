@@ -13,6 +13,11 @@ export const excludedWebsiteDomains = [
   'puddlepools.com',
   // Arrow Exterminators reports 200 service centers across 16 states.
   'arrowexterminators.com',
+  // National insulation, flooring, and remediation operators confirmed in the November 21 audit.
+  'advantaclean.com',
+  'usainsulation.net',
+  'murphycompanyusa.com',
+  'nationalconcretepolishing.net',
 
   // National/franchise brands and local aliases confirmed November 15, 2026.
   // Official-source evidence: reports/local-regional-only-2026-11-15.md.

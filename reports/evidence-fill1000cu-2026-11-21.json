@@ -1,0 +1,2511 @@
+{
+  "runDate": "2026-11-21",
+  "baselineCommit": "51d2e36e8a26e73e727b92c7e17889ff2dd57f7c",
+  "previousCheckpoint": "reports/progress-fill1000ct-2026-11-21.md",
+  "status": "validated_awaiting_production",
+  "reviewedBaselineDomains": [
+    "alabamapoolworks.com",
+    "allneedzconstruction.com",
+    "allpropaintandbody.com",
+    "allsetgaragedoorrepair.com",
+    "appliancedoctorfl.com",
+    "aquatikapoolservices.com",
+    "arrowps.com",
+    "bamapoolsinc.com",
+    "blueheronlandscapellc.com",
+    "bluescience.com",
+    "bluewatergaragedoorservices.com",
+    "burksremodel.com",
+    "calsappliancerepair.com",
+    "centralpools.com",
+    "cjsplumbingrepair.com",
+    "cmasonconcrete.com",
+    "coastalcustomfencing.com",
+    "coastaloverheaddoor.org",
+    "cobiafence.com",
+    "cookspest.com",
+    "crescent-coatings.com",
+    "csc-building.com",
+    "cslawncaremobile.com",
+    "davesgaragedoors.net",
+    "dc-lawn.com",
+    "disasterappliancemaster.com",
+    "dobbsappliance.com",
+    "dunnawayfence.com",
+    "edringtongreenscapes.com",
+    "elbrusconsulting.wordpress.com",
+    "emeraldcoastapplianceservice.com",
+    "emeraldcoastwastewatersolution.com",
+    "escambiacollision.com",
+    "estespainting.com",
+    "exodusmarineservices.com",
+    "expertinsulationgulfcoast.com",
+    "generxgenerators.com",
+    "gilbertsonpools.com",
+    "goodiespoolcare.com",
+    "grossandson.net",
+    "hasdestin.com",
+    "hernandezlawnscape.com",
+    "hipoolservice.com",
+    "holifieldpest.com",
+    "hometowngaragenwfl.com",
+    "hydraflowirrigationfl.com",
+    "independentappliance.com",
+    "jaysappl.net",
+    "jennerandsons.com",
+    "jmcopainting.com",
+    "johnleenissan.com",
+    "knightlandscapeconcepts.com",
+    "knppower.com",
+    "kroblandscape.com",
+    "laserappliancefl.com",
+    "mikesautocollision.net",
+    "mobilealpaintingandconstruction.com",
+    "nosweatautomotive.com",
+    "octopussolutionsllc.com",
+    "panamapoolsandspas.com",
+    "parkersepticpanamacity.com",
+    "patiopluspools.net",
+    "people1sthomeservices.com",
+    "pestcontrolpc.com",
+    "phoenixservicellc.com",
+    "pinckardandsongaragedoors.com",
+    "poolrepairmobileal.com",
+    "poolsandparadise.net",
+    "precisionpoolandpatio.com",
+    "precisionpoolsllc.com",
+    "pro1painters.com",
+    "purvisappliancerepair.com",
+    "qualityinsulation.net",
+    "relyonreliance.com",
+    "revolutionsmarinegulfcoast.com",
+    "rogersgrantseptic.com",
+    "rtsallamericangaragedoors.com",
+    "salshomerepair.com",
+    "sarservicesllc.com",
+    "scottsappservice.com",
+    "sealelectrical.com",
+    "seasideapplianceworld.com",
+    "soundsidemobilemarine.com",
+    "soundsidetrollingmotor.com",
+    "southerngutterguys.com",
+    "southerntidepools.com",
+    "splashpoolsnwfl.com",
+    "superiorsepticsewer.com",
+    "superiorsouthms.com",
+    "teddybearservices.com",
+    "telfordreynoldselectric.com",
+    "tidaltouchpaint.com",
+    "tillmansheatingandair.com",
+    "town-and-country-irrigation-service.com",
+    "tvandappliancetechofmobile.com",
+    "whittonworks.com",
+    "yourcabinetsource.com"
+  ],
+  "nationalBrandReview": [
+    {
+      "name": "AdvantaClean",
+      "domain": "advantaclean.com",
+      "sources": [
+        "https://franchise.advantaclean.com/",
+        "https://www.advantaclean.com/locations/",
+        "https://www.advantaclean.com/new-orleans-la/"
+      ],
+      "note": "The franchisor promotes a nationwide remediation franchise. The New Orleans business uses that national brand and corporate domain."
+    },
+    {
+      "name": "USA Insulation",
+      "domain": "usainsulation.net",
+      "sources": [
+        "https://usainsulation.net/",
+        "https://usainsulation.net/locations",
+        "https://usainsulation.net/atlanta/about-us/contact-us"
+      ],
+      "note": "The official site describes residential insulation sold nationwide. Its Atlanta page identifies a franchise location under the national brand."
+    },
+    {
+      "name": "Murphy Company",
+      "domain": "murphycompanyusa.com",
+      "sources": [
+        "https://www.murphycompanyusa.com/where-we-go.php",
+        "https://www.murphycompanyusa.com/who-we-are.php",
+        "https://www.murphycompanyusa.com/project-profiles.php"
+      ],
+      "note": "This company identifies South Dakota offices and a national operation with crews mobilizing countrywide, with documented multi-state projects. The domain excludes this exact company."
+    },
+    {
+      "name": "National Concrete Polishing",
+      "domain": "nationalconcretepolishing.net",
+      "sources": [
+        "https://nationalconcretepolishing.net/",
+        "https://nationalconcretepolishing.net/location/"
+      ],
+      "note": "The company identifies its established nationwide concrete flooring operation. The filter does not match the similarly named nationalconcretefl.com business."
+    }
+  ],
+  "historicalScan": {
+    "rawSourceRows": 584,
+    "rawPlacements": 8816,
+    "businessIdentities": 158,
+    "retailFixItRawPlacements": 396
+  },
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "website": "https://www.retailfixit.com/",
+      "issues": [
+        "unsupported residential service",
+        "incorrect category",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "note": "The current site markets nationwide facilities management and collects vendor registrations. No scoped local residential locksmith evidence. Prior public exclusion retained."
+    },
+    {
+      "name": "Nexcore Pro",
+      "website": "https://www.nexcorepro.com/",
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography"
+      ],
+      "rawGeneratedPlacements": 39,
+      "note": "The company describes itself as a statewide commercial and industrial electrical contractor, including utility and data center projects. Historic residential-category and city placements require primary evidence. It was flagged for review without a visibility change."
+    },
+    {
+      "name": "Total Building Solutions",
+      "website": "https://totalbuilding.solutions/",
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography"
+      ],
+      "rawGeneratedPlacements": 28,
+      "note": "The site describes facility mechanical, plumbing and air-quality support across Florida. It names Tampa as its office. Its generic statewide facility service is insufficient for historic residential plumbing placements. Flagged for review without a visibility change."
+    }
+  ],
+  "identityReview": [
+    {
+      "name": "Overhead Door & Operator Co.",
+      "sourceUrls": [
+        "https://odoperator.com/about-us/",
+        "https://odoperator.com/service-areas/",
+        "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=domp-p08000031173-e226d50c-37cd-46e1-8aa1-3a8517573b67&directionType=CurrentList&inquirytype=EntityName"
+      ],
+      "note": "Same name and telephone on the service site. Florida identifies the local legal entity and officer James Cummings in Pensacola. Different entity and domain from the Overhead Door national franchise."
+    },
+    {
+      "name": "GroundWorks Baton Rouge",
+      "sourceUrls": [
+        "https://www.groundworksla.com/"
+      ],
+      "note": "The official website identifies a Baton Rouge landscaping and grounds company. It does not establish identity with the similarly named national foundation company."
+    },
+    {
+      "name": "Patriot Pool & Spa",
+      "sourceUrls": [
+        "https://www.patriotpoolandspa.us/"
+      ],
+      "note": "The website describes the veteran-owned Fort Walton Beach business. The same-name national affiliate concern was not substantiated."
+    },
+    {
+      "name": "Hernandez Concrete Works",
+      "sourceUrls": [
+        "https://hernandezconcreteworks.com/",
+        "https://hernandezlawnscape.com/"
+      ],
+      "note": "The concrete site calls the baseline Hernandez Lawnscape its sister operation and states that the concrete division launched in 2026. Determine canonical ownership and branding before counting a separate identity."
+    },
+    {
+      "name": "MOB Tree Service",
+      "sourceUrls": [
+        "https://mobtreeservice.com/contact-us/",
+        "https://treeservicemobile.com/"
+      ],
+      "note": "Mobile-area businesses have distinct official domains and business telephone numbers ending in 5282 and 6100."
+    },
+    {
+      "name": "AB Concrete",
+      "sourceUrls": [
+        "https://abconcretela.com/"
+      ],
+      "note": "The official Louisiana provider is distinct from the similarly named Alabama providers found by the live search."
+    },
+    {
+      "name": "Tropical Pools",
+      "sourceUrls": [
+        "https://tropicalpoolsinc.net/"
+      ],
+      "note": "The official Louisiana operation is distinct from the similarly named Tropical Sun Pools in the Pensacola area."
+    }
+  ],
+  "pendingCandidates": [
+    {
+      "name": "Emerald Coast Wastewater Solutions",
+      "market": "Crestview",
+      "category": "septic-services",
+      "website": null,
+      "blocker": "Florida registration corroborates identity. A working official site and home service evidence remain outstanding."
+    },
+    {
+      "name": "Fowlers Septic Tanks",
+      "market": "Crestview",
+      "category": "septic-services",
+      "website": null,
+      "blocker": "No company-controlled website verified for current home septic installation."
+    },
+    {
+      "name": "Purvis Appliance Repair",
+      "market": "Crestview",
+      "category": "appliance-repair",
+      "website": null,
+      "blocker": "Only directory results surfaced. Confirm a working official website."
+    },
+    {
+      "name": "Affordable Tech Services",
+      "market": "Crestview",
+      "category": "appliance-repair",
+      "website": null,
+      "blocker": "No reliable official site or exact Crestview coverage established."
+    },
+    {
+      "name": "Advanced Appliance Services",
+      "market": "Panama City",
+      "category": "appliance-repair",
+      "website": null,
+      "blocker": "No official website verified."
+    },
+    {
+      "name": "Dobbs Appliance Repair",
+      "market": "Panama City",
+      "category": "appliance-repair",
+      "website": null,
+      "blocker": "No official website verified."
+    },
+    {
+      "name": "Wreck-A-Mended Collision Center",
+      "market": "Panama City",
+      "category": "auto-body-collision",
+      "website": null,
+      "blocker": "No working first-party company site verified."
+    },
+    {
+      "name": "Mike’s Auto Collision",
+      "market": "Panama City",
+      "category": "auto-body-collision",
+      "website": null,
+      "blocker": "Business registry is not first-party consumer repair evidence. Find working official site."
+    },
+    {
+      "name": "BluePeak Garage Door’s Supply",
+      "market": "Panama City",
+      "category": "garage-door-repair",
+      "website": "https://bluepeakgaragedoor.com/",
+      "blocker": "Pages claim local garage repairs. Corroborate real direct provider identity."
+    },
+    {
+      "name": "Top Dog Pest Control",
+      "market": "Panama City",
+      "category": "pest-control",
+      "website": "https://www.panhandlepests.net/",
+      "blocker": "Official site supports residential service; broad Panhandle language alone does not establish Panama City coverage."
+    },
+    {
+      "name": "That Garage Door Guy",
+      "market": "Pensacola region",
+      "category": "garage-door-repair",
+      "website": "https://www.thatgaragedoorguyllc.com/",
+      "blocker": "Official URL returned HTTP 404 in research."
+    },
+    {
+      "name": "Coastal Lawn Sprinkler",
+      "market": "Pensacola",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://coastallawnsprinkler.com/",
+      "blocker": "Current homepage returned a page shell. Establish official household sprinkler repair and city service from an accessible source."
+    },
+    {
+      "name": "Jay’s Appliance Repair",
+      "market": "Gulfport",
+      "category": "appliance-repair",
+      "website": null,
+      "blocker": "Only third-party listings. Verify working official home appliance service site."
+    },
+    {
+      "name": "Simply Seamless Guttering",
+      "market": "Gulfport",
+      "category": "gutters",
+      "website": null,
+      "blocker": "Official site still unverified."
+    },
+    {
+      "name": "Hernandez Concrete Works",
+      "market": "Baton Rouge",
+      "category": "concrete",
+      "website": "https://hernandezconcreteworks.com/",
+      "blocker": "Baseline sister-company identity requires review before assigning a separate business profile."
+    },
+    {
+      "name": "JMA Painters",
+      "market": "New Orleans",
+      "category": "painting",
+      "website": "https://jmapainters.com/residential-painting/",
+      "blocker": "Fetched site lacked usable current service content."
+    },
+    {
+      "name": "Urena Painting",
+      "market": "Huntsville",
+      "category": "painting",
+      "website": "https://www.urenapainting256.com/",
+      "blocker": "Official URL returned HTTP 502 during review."
+    },
+    {
+      "name": "Marine Maintenance of Bay County",
+      "market": "Panama City Beach",
+      "category": "marine-services",
+      "website": "https://www.marinemaint.com/contact.asp",
+      "blocker": "Previous run’s official fetch returned HTTP 502. No qualifying working site found in this pass."
+    }
+  ],
+  "withheldCandidates": [
+    {
+      "name": "Thompson Power Systems",
+      "website": "https://thompsonpowersystems.com/locations/panama-city/",
+      "why": "Panama City page describes industrial and commercial equipment and emergency backup power for businesses. It does not substantiate residential home generator installation."
+    },
+    {
+      "name": "Precise directory city pages",
+      "website": "https://theapplianceadvisor.com/appliance-repair/fl/fort-walton-beach",
+      "why": "Intermediary resource, not the original provider website."
+    },
+    {
+      "name": "America’s Swimming Pool Company",
+      "website": "https://www.asppoolco.com/panama-city/packages/",
+      "why": "National franchise."
+    },
+    {
+      "name": "Precision Door Service",
+      "website": "https://precisiondoorpensacola.com/contact",
+      "why": "National franchise."
+    },
+    {
+      "name": "Puddle Pool Services",
+      "website": "https://puddlepools.com/locations/panama-city-fl/",
+      "why": "National franchise."
+    },
+    {
+      "name": "Maaco",
+      "website": "https://www.maaco.com/locations/fl/pensacola-10186/",
+      "why": "National franchise."
+    }
+  ],
+  "baselineDisplayedCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "at20": 242,
+    "below20": 878,
+    "empty": 0,
+    "deficit": 9339,
+    "placements": 13375
+  },
+  "historicalAuditFile": "scripts/audit-qualification-failures.mjs",
+  "baselineMatchingPublicSearches": {
+    "AB Concrete": [
+      "Abraham's Concrete Service and More",
+      "Absolute Top Concrete & Masonry",
+      "Alabama Concrete Services"
+    ],
+    "MOB Tree Service": [
+      "Mobile Tree Service"
+    ],
+    "Tropical Pools": [
+      "Tropical Sun Pools"
+    ]
+  },
+  "nationalCardsBaseline": {
+    "atlanta-ga/insulation": [
+      {
+        "name": "USA Insulation of Atlanta",
+        "links": [
+          "https://usainsulation.net/atlanta"
+        ]
+      }
+    ],
+    "auburn-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "baton-rouge-la/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "biloxi-ms/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "birmingham-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "clearwater-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "daphne-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "dothan-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "fairhope-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "foley-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "fort-lauderdale-fl/concrete": [
+      {
+        "name": "National Concrete Polishing",
+        "links": [
+          "https://nationalconcretepolishing.net/"
+        ]
+      }
+    ],
+    "fort-lauderdale-fl/flooring": [
+      {
+        "name": "National Concrete Polishing",
+        "links": [
+          "https://nationalconcretepolishing.net/"
+        ]
+      }
+    ],
+    "fort-lauderdale-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "fort-myers-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "gulf-shores-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "gulfport-ms/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "huntsville-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "jacksonville-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "miami-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "montgomery-al/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "naples-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "new-orleans-la/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "new-orleans-la/water-damage-mold-remediation": [
+      {
+        "name": "AdvantaClean",
+        "links": [
+          "https://www.advantaclean.com/new-orleans-la/"
+        ]
+      }
+    ],
+    "orlando-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "sarasota-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "st-petersburg-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ],
+    "west-palm-beach-fl/concrete": [
+      {
+        "name": "National Concrete Polishing",
+        "links": [
+          "https://nationalconcretepolishing.net/"
+        ]
+      }
+    ],
+    "west-palm-beach-fl/flooring": [
+      {
+        "name": "National Concrete Polishing",
+        "links": [
+          "https://nationalconcretepolishing.net/"
+        ]
+      }
+    ],
+    "west-palm-beach-fl/insulation": [
+      {
+        "name": "Murphy Company",
+        "links": [
+          "https://murphycompanyusa.com/index.php"
+        ]
+      }
+    ]
+  },
+  "placements": [
+    {
+      "name": "Overhead Door & Operator",
+      "website": "https://odoperator.com/",
+      "city": "destin-fl",
+      "category": "garage-door-repair",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Pensacola-based Overhead Door & Operator Co. specifically offers garage door and opener repairs to Destin homeowners. Its legal name and Pensacola officer distinguish the local operation from the national Overhead Door franchise.",
+      "sourceUrls": [
+        "https://odoperator.com/service-areas/",
+        "https://odoperator.com/about-us/"
+      ],
+      "sourceDestinations": [
+        "https://odoperator.com/service-areas/",
+        "https://odoperator.com/about-us/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://odoperator.com/",
+        "title": "Garage Door Repair | Overhead Door & Operator",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 15,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Overhead Door & Operator",
+      "website": "https://odoperator.com/",
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company’s official service-area page names Fort Walton Beach for garage door and opener repairs. The local Pensacola company describes its technicians fixing broken residential garage door parts.",
+      "sourceUrls": [
+        "https://odoperator.com/service-areas/",
+        "https://odoperator.com/about-us/"
+      ],
+      "sourceDestinations": [
+        "https://odoperator.com/service-areas/",
+        "https://odoperator.com/about-us/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://odoperator.com/",
+        "title": "Garage Door Repair | Overhead Door & Operator",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 16,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Bryan's Lawn Maintenance",
+      "website": "https://bryanslawnmaintenance.com/",
+      "city": "pensacola-fl",
+      "category": "irrigation-sprinkler-repair",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Pensacola company identifies residential sprinkler installation and repair as services performed by its trained irrigation technicians. Its irrigation page describes onsite diagnostics and replacement.",
+      "sourceUrls": [
+        "https://bryanslawnmaintenance.com/pages/irrigation-sprinklers-pensacola"
+      ],
+      "sourceDestinations": [
+        "https://bryanslawnmaintenance.com/pages/irrigation-sprinklers-pensacola"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://bryanslawnmaintenance.com/",
+        "title": "Bryan's Lawn Maintenance",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 16,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Emerald Pool & Spa",
+      "website": "https://www.emeraldspaservice.com/",
+      "city": "foley-al",
+      "category": "pool-service",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Foley-based pool company describes its technicians providing family pool and spa cleaning and repair. Its contact information identifies the Foley location.",
+      "sourceUrls": [
+        "https://www.emeraldspaservice.com/about"
+      ],
+      "sourceDestinations": [
+        "https://www.emeraldspaservice.com/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.emeraldspaservice.com/",
+        "title": "Emerald Pool & Spa",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 7,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "MOB Tree Service",
+      "website": "https://mobtreeservice.com/",
+      "city": "mobile-al",
+      "category": "tree-service",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Mobile arborist-led provider offers yard tree removal, pruning and stump grinding to city residents. The site lists a Mobile contact location.",
+      "sourceUrls": [
+        "https://mobtreeservice.com/",
+        "https://mobtreeservice.com/contact-us/"
+      ],
+      "sourceDestinations": [
+        "https://mobtreeservice.com/",
+        "https://mobtreeservice.com/contact-us/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://mobtreeservice.com/",
+        "title": "MOB Tree Service | Mobile AL Tree Care & Removal Company",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 13,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "GCG Coastal Fencing",
+      "website": "https://gcgcoastalfencing.com/",
+      "city": "gulfport-ms",
+      "category": "fence-builders",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "GCG explicitly serves Gulfport homeowners with direct custom fence installation and repair, including site design and installation by its local crew.",
+      "sourceUrls": [
+        "https://gcgcoastalfencing.com/"
+      ],
+      "sourceDestinations": [
+        "https://gcgcoastalfencing.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://gcgcoastalfencing.com/",
+        "title": "Fence Company Gulfport Biloxi | Fence Installation Contractor Gulfport",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 9,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Gulf Coast Fence Company",
+      "website": "https://www.gulfcoastfenceco.com/",
+      "city": "gulfport-ms",
+      "category": "fence-builders",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company operates a Gulfport office and offers professional installation of residential privacy and other fences to Mississippi Gulf Coast homeowners.",
+      "sourceUrls": [
+        "https://www.gulfcoastfenceco.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.gulfcoastfenceco.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.gulfcoastfenceco.com/",
+        "title": "Gulf Coast Fence Company| Pascagoula, MS",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 9,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Martin Exteriors",
+      "website": "https://martinexteriorsllc.com/",
+      "city": "biloxi-ms",
+      "category": "fence-builders",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The locally owned coastal Mississippi team lists Biloxi for professional installation and removal of residential privacy, picket, and pool fences.",
+      "sourceUrls": [
+        "https://martinexteriorsllc.com/"
+      ],
+      "sourceDestinations": [
+        "https://martinexteriorsllc.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://martinexteriorsllc.com/",
+        "title": "Martin Exteriors",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 10,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Honey Do Construction",
+      "website": "https://honeydo-construction.com/",
+      "city": "gulfport-ms",
+      "category": "kitchen-bath-remodeling",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Mississippi contractor’s Gulfport service page expressly offers local homeowners kitchen and bath renovations with its own contracting team.",
+      "sourceUrls": [
+        "https://honeydo-construction.com/service-areas/gulfport-ms"
+      ],
+      "sourceDestinations": [
+        "https://honeydo-construction.com/service-areas/gulfport-ms"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://honeydo-construction.com/",
+        "title": "General Contractor Hattiesburg MS | Honey Do Construction",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 11,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Wards Heating & Air Conditioning",
+      "website": "https://www.wardscooling.com/",
+      "city": "gulfport-ms",
+      "category": "hvac",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company lists its Gulfport operating address and offers Gulfport homeowners AC repair, installation and maintenance. The about page identifies its residential technicians.",
+      "sourceUrls": [
+        "https://www.wardscooling.com/",
+        "https://www.wardscooling.com/about-us/"
+      ],
+      "sourceDestinations": [
+        "https://www.wardscooling.com/",
+        "https://www.wardscooling.com/about-us/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.wardscooling.com/",
+        "title": "Hire HVAC Specialists South Carolina - Repair & Maintenance",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 8,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Broussard Services",
+      "website": "https://broussardservices.com/",
+      "city": "biloxi-ms",
+      "category": "hvac",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The regional provider names Biloxi as an operating location and offers residential heating and cooling repairs and replacement through its own HVAC team.",
+      "sourceUrls": [
+        "https://broussardservices.com/residential/"
+      ],
+      "sourceDestinations": [
+        "https://broussardservices.com/residential/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://broussardservices.com/",
+        "title": "HVAC/Plumber in Nashville TN & Biloxi MS | Broussard Services",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 9,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Precise Plumbing",
+      "website": "https://preciseplumbingva.com/",
+      "city": "biloxi-ms",
+      "category": "plumbing",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-operated Gulf Coast plumber expressly names Biloxi for household plumbing, including repair work and replacement of toilets, faucets and disposals.",
+      "sourceUrls": [
+        "https://preciseplumbingva.com/"
+      ],
+      "sourceDestinations": [
+        "https://preciseplumbingva.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://preciseplumbingva.com/",
+        "title": "PrecisePlumbing — Biloxi, MS Plumbing Experts | Mississippi Gulf Coast",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 11,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "S&Z Guillen Landscape and Lawn Care",
+      "website": "https://www.szguillen.com/",
+      "city": "mobile-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned company is based in Mobile and advertises landscaping for local homes, including planting, mulching and yard makeovers.",
+      "sourceUrls": [
+        "https://www.szguillen.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.szguillen.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.szguillen.com/",
+        "title": "S&Z Guillen Lawn Care & Landscape | Transform Your Lawn Today!",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 13,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Turfmaster Landscape",
+      "website": "https://turfmastermobile.com/",
+      "city": "mobile-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-run Mobile-area landscaper offers its own crews for residential landscape installations, including sod, plants and retaining walls.",
+      "sourceUrls": [
+        "https://turfmastermobile.com/services/landscape-installation/"
+      ],
+      "sourceDestinations": [
+        "https://turfmastermobile.com/services/landscape-installation/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://turfmastermobile.com/",
+        "title": "Turfmaster Landscape – Commercial & Residential Landscaping in Mobile, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 13,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Yard Art Landscapes",
+      "website": "https://yardartlandscapes.net/",
+      "city": "mobile-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local owner identifies Mobile County coverage and offers residential garden and landscape installation. Mobile is within the stated county service area.",
+      "sourceUrls": [
+        "https://yardartlandscapes.net/services.php"
+      ],
+      "sourceDestinations": [
+        "https://yardartlandscapes.net/services.php"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://yardartlandscapes.net/",
+        "title": "Yard Art Landscapes",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 13,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Hayes Painting",
+      "website": "https://hayespaint.com/",
+      "city": "mobile-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Mobile family-run contractor explicitly offers interior, exterior and cabinet painting for homes in Mobile and documents completed residential work.",
+      "sourceUrls": [
+        "https://hayespaint.com/"
+      ],
+      "sourceDestinations": [
+        "https://hayespaint.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://hayespaint.com/",
+        "title": "Hayes Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 16,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "RD Lowes",
+      "website": "https://rdlowesinc.com/",
+      "city": "mobile-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The independently operated painter’s service page directly offers Mobile-area homeowners residential painting, including walls and interior and exterior finishes.",
+      "sourceUrls": [
+        "https://rdlowesinc.com/residential_painting.html"
+      ],
+      "sourceDestinations": [
+        "https://rdlowesinc.com/residential_painting.html"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://rdlowesinc.com/",
+        "title": "RD LOWES, INC.",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 16,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Brewer Painting",
+      "website": "https://brewerpainting.net/site/",
+      "city": "mobile-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Mobile family business identifies local household painting as a direct service, including exterior coatings, interior rooms and cabinet paint.",
+      "sourceUrls": [
+        "https://brewerpainting.net/site/"
+      ],
+      "sourceDestinations": [
+        "https://brewerpainting.net/site/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://brewerpainting.net/site/",
+        "title": "Brewer Painting | Residential & Commercial Painter in Mobile, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 16,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Seashore Painting & Renovations",
+      "website": "https://www.seashorepaintingandrenovations.com/",
+      "city": "foley-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The locally based Foley provider explicitly offers custom residential paint projects to homeowners in Foley and across Baldwin County.",
+      "sourceUrls": [
+        "https://www.seashorepaintingandrenovations.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.seashorepaintingandrenovations.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.seashorepaintingandrenovations.com/",
+        "title": "Painting Contractor, Renovation Contractor | Foley, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 9,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "TJ's Quality Painting",
+      "website": "https://www.tjsqualitypaintingllc.com/",
+      "city": "fairhope-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The official Fairhope residential service page offers direct interior and exterior painting and staining to homeowners in the city.",
+      "sourceUrls": [
+        "https://www.tjsqualitypaintingllc.com/residential-painting"
+      ],
+      "sourceDestinations": [
+        "https://www.tjsqualitypaintingllc.com/residential-painting"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.tjsqualitypaintingllc.com/",
+        "title": "Home | TJ’s Quality Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 9,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Pickle's Painting",
+      "website": "https://picklespainting.com/",
+      "city": "fairhope-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "Owner Shane Pickle’s Fairhope company offers local household interior and exterior painting with its own painters and describes service for homeowners.",
+      "sourceUrls": [
+        "https://picklespainting.com/"
+      ],
+      "sourceDestinations": [
+        "https://picklespainting.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://picklespainting.com/",
+        "title": "Painting Contractor Fairhope, AL - Pickle's Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 9,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Floorcrafters",
+      "website": "https://www.floorcraftersnola.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned New Orleans company offers hardwood installation, sanding and refinishing and shows installations and finish options for home living spaces.",
+      "sourceUrls": [
+        "https://www.floorcraftersnola.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.floorcraftersnola.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.floorcraftersnola.com/",
+        "title": "Floorcrafters | Hardwood Floor Installation & Refinishing | New Orleans, LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "FloorMasters of New Orleans",
+      "website": "https://floormastersofneworleans.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The locally owned provider identifies New Orleans and describes residential hardwood installation and refinishing, including matching flooring in existing properties.",
+      "sourceUrls": [
+        "https://floormastersofneworleans.com/about-us/"
+      ],
+      "sourceDestinations": [
+        "https://floormastersofneworleans.com/about-us/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://floormastersofneworleans.com/",
+        "title": "FloorMasters Refinish Hardwood - FLOOR MASTERS of NEW ORLEANS",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Huey's Floors",
+      "website": "https://hueysfloors.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The owner-run New Orleans provider offers hardwood flooring installation and refinishing, including historic home floors, and documents its residential projects.",
+      "sourceUrls": [
+        "https://hueysfloors.com/"
+      ],
+      "sourceDestinations": [
+        "https://hueysfloors.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://hueysfloors.com/",
+        "title": "HUEY'S FLOORS - Hardwood Floors, Laminate Flooring, Floor Refinishing",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Nola Dustless",
+      "website": "https://www.noladustless.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "Its Greater New Orleans service page describes direct residential flooring installation and hardwood floor refinishing, with technicians handling work from materials to final finish.",
+      "sourceUrls": [
+        "https://www.noladustless.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.noladustless.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.noladustless.com/",
+        "title": "Flooring Contractor New Orleans | Nola Dustless",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Floor de Lis",
+      "website": "https://floordelis.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned New Orleans flooring company provides in-home estimates and its own installers for residential flooring work, with a location in the city.",
+      "sourceUrls": [
+        "https://floordelis.com/"
+      ],
+      "sourceDestinations": [
+        "https://floordelis.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://floordelis.com/",
+        "title": "Home - Floor de Lis Flooring New Orleans, LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Nola Floors",
+      "website": "https://www.nolafloorsllc.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local installer’s FAQ explicitly covers New Orleans residential hardwood work, including removing old flooring and installing engineered or reclaimed wood.",
+      "sourceUrls": [
+        "https://www.nolafloorsllc.com/faq/"
+      ],
+      "sourceDestinations": [
+        "https://www.nolafloorsllc.com/faq/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.nolafloorsllc.com/",
+        "title": "Nola Floors, LLC – For All of Your Hardwood Flooring Needs",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Nola Flooring",
+      "website": "https://nolaflooring.com/",
+      "city": "new-orleans-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company’s city service page offers its own crews for in-home New Orleans flooring installation, from subfloor measurement to new floors.",
+      "sourceUrls": [
+        "https://nolaflooring.com/flooring-new-orleans"
+      ],
+      "sourceDestinations": [
+        "https://nolaflooring.com/flooring-new-orleans"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://nolaflooring.com/",
+        "title": "New Orleans Flooring: Trusted Flooring Store In Greater New Orleans & Baton Rouge",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "D&D Coatings",
+      "website": "https://www.dndcoatings.net/",
+      "city": "new-orleans-la",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "This locally operated contractor identifies New Orleans residents as customers and provides direct interior and exterior house painting by its own painters.",
+      "sourceUrls": [
+        "https://www.dndcoatings.net/"
+      ],
+      "sourceDestinations": [
+        "https://dndcoatings.net/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://dndcoatings.net/",
+        "title": "D&D Coatings — Professional Residential & Commercial Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "NOLA House Painting",
+      "website": "https://nolahousepainting.com/",
+      "city": "new-orleans-la",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local provider explicitly names New Orleans in its service area and lists residential interior, exterior and kitchen-cabinet painting performed by its team.",
+      "sourceUrls": [
+        "https://nolahousepainting.com/"
+      ],
+      "sourceDestinations": [
+        "https://nolahousepainting.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://nolahousepainting.com/",
+        "title": "Residential and Commercial Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Keith Guy",
+      "website": "https://keithguyinc.net/",
+      "city": "new-orleans-la",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local company identifies New Orleans and describes residential interior, exterior and specialty painting, including work on historic New Orleans homes.",
+      "sourceUrls": [
+        "https://keithguyinc.net/about"
+      ],
+      "sourceDestinations": [
+        "https://keithguyinc.net/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://keithguyinc.net/",
+        "title": "below\n         is a fallback for the initial server-rendered HTML only; it is replaced\n         by SEOHead on each route. -->\n     Keith Guy Inc. | Luxury House Painters New Orleans & Northshore",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Big Picture Painting",
+      "website": "https://bigpicturepainting.com/",
+      "city": "new-orleans-la",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The official site names New Orleans for interior and exterior residential painting with its own preparation and painting services.",
+      "sourceUrls": [
+        "https://bigpicturepainting.com/"
+      ],
+      "sourceDestinations": [
+        "https://bigpicturepainting.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://bigpicturepainting.com/",
+        "title": "New Orleans Painting Contractors | Big Picture Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Big Easy Painting",
+      "website": "https://www.bigeasypainting.com/",
+      "city": "new-orleans-la",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local contractor’s city page expressly offers New Orleans homeowners direct interior and exterior painting with its own house-painting crew.",
+      "sourceUrls": [
+        "https://www.bigeasypainting.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.bigeasypainting.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.bigeasypainting.com/",
+        "title": "New Orleans Interior & Exterior Painting | Big Easy Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "RM Concrete",
+      "website": "https://www.rmconcretela.com/",
+      "city": "new-orleans-la",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The New Orleans-area owner describes direct custom residential concrete work, including driveway pours and slabs, and specifies the metro as its operating market.",
+      "sourceUrls": [
+        "https://www.rmconcretela.com/about"
+      ],
+      "sourceDestinations": [
+        "https://www.rmconcretela.com/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.rmconcretela.com/",
+        "title": "RM Concrete NOLA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 3,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Chris' Paving",
+      "website": "https://www.chrispaving.com/",
+      "city": "new-orleans-la",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local family-run New Orleans paving contractor directly installs residential driveways, offering concrete work in its Greater New Orleans service area.",
+      "sourceUrls": [
+        "https://www.chrispaving.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.chrispaving.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.chrispaving.com/",
+        "title": "New Orleans Paving Company | Asphalt & Concrete Contractors",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 3,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Floor Pro Installation Services",
+      "website": "https://www.gofloorpro.com/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Baton Rouge-based contractor installs flooring for homeowners using its own installation crews, including single-room residential jobs.",
+      "sourceUrls": [
+        "https://www.gofloorpro.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.gofloorpro.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.gofloorpro.com/",
+        "title": "Floor Pro Installation Services, LLC",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Metro Floors & More",
+      "website": "https://metrofloorsandmore.com/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Baton Rouge company offers professional home flooring installation and describes residential wood-look, tile and carpet projects.",
+      "sourceUrls": [
+        "https://metrofloorsandmore.com/"
+      ],
+      "sourceDestinations": [
+        "https://metrofloorsandmore.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://metrofloorsandmore.com/",
+        "title": "Metro Floors – And More",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Stampley's Flooring",
+      "website": "https://www.stampleysflooring.com/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The proprietor identifies direct hardwood, tile and vinyl flooring installation for Baton Rouge homes, including single-room remodels.",
+      "sourceUrls": [
+        "https://www.stampleysflooring.com/about"
+      ],
+      "sourceDestinations": [
+        "https://www.stampleysflooring.com/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.stampleysflooring.com/",
+        "title": "Stampley's Flooring",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Assured Flooring & Countertops",
+      "website": "https://www.assuredflooring.net/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local Baton Rouge installer documents hands-on installation of wood and tile flooring for residential projects, including the Rouzan home.",
+      "sourceUrls": [
+        "https://www.assuredflooring.net/"
+      ],
+      "sourceDestinations": [
+        "https://www.assuredflooring.net/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.assuredflooring.net/",
+        "title": "Top Flooring and Countertops in Baton Rouge, LA | Home | Assured Flooring & Countertops",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Built Right Renovations",
+      "website": "https://www.builtrightrenovations.com/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company's Baton Rouge flooring page offers direct residential replacement and installation of hardwood, carpet and other floor surfaces.",
+      "sourceUrls": [
+        "https://www.builtrightrenovations.com/flooring"
+      ],
+      "sourceDestinations": [
+        "https://www.builtrightrenovations.com/flooring"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.builtrightrenovations.com/",
+        "title": "Built Right Renovations | Repairs and Remodels | Baton Rouge, LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "WJ Hardwood Designs",
+      "website": "https://batonrougehardwoodflooring.com/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The owner-run Baton Rouge company offers hardwood flooring installation and refinishing for local homeowners, including restoration of worn home floors.",
+      "sourceUrls": [
+        "https://batonrougehardwoodflooring.com/about-us"
+      ],
+      "sourceDestinations": [
+        "https://batonrougehardwoodflooring.com/about-us"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://batonrougehardwoodflooring.com/",
+        "title": "WJ Hardwood Designs - Hardwood Flooring | Baton Rogue LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Hubbard Flooring Studio",
+      "website": "https://www.hubbardflooringstudio.com/",
+      "city": "baton-rouge-la",
+      "category": "flooring",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned studio’s Baton Rouge location offers residential in-home flooring work with installers and lists professional vinyl and hardwood installations.",
+      "sourceUrls": [
+        "https://www.hubbardflooringstudio.com/about/"
+      ],
+      "sourceDestinations": [
+        "https://www.hubbardflooringstudio.com/about/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.hubbardflooringstudio.com/",
+        "title": "Baton Rouge Flooring Dealer | Flooring, Furniture, Countertops | Hubbard Flooring Studio",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Russell Pool Company",
+      "website": "https://russellpools.com/",
+      "city": "baton-rouge-la",
+      "category": "pool-installation",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local Baton Rouge family contractor designs and constructs custom pools. Its official site describes the pool construction team and shows home backyard pool work.",
+      "sourceUrls": [
+        "https://russellpools.com/about/"
+      ],
+      "sourceDestinations": [
+        "https://russellpools.com/about/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://russellpools.com/",
+        "title": "Pool Design & Maintenance Experts in Baton Rouge, LA | Russell Pool Company",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 8,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "LA Pool Company",
+      "website": "https://thepoolcompanyla.com/",
+      "city": "baton-rouge-la",
+      "category": "pool-service",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-run company names Baton Rouge and offers weekly residential pool cleaning, chemical balancing, liner work and repairs for homeowners.",
+      "sourceUrls": [
+        "https://thepoolcompanyla.com/"
+      ],
+      "sourceDestinations": [
+        "https://thepoolcompanyla.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://thepoolcompanyla.com/",
+        "title": "LA Pool Company - Trusted Pool Services in Baton Rouge",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Tropical Pools",
+      "website": "https://tropicalpoolsinc.net/",
+      "city": "baton-rouge-la",
+      "category": "pool-installation",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Louisiana family company lists custom pools it built and renovated in the Baton Rouge area. Its owner oversees construction from sale through completion.",
+      "sourceUrls": [
+        "https://tropicalpoolsinc.net/about/"
+      ],
+      "sourceDestinations": [
+        "https://tropicalpoolsinc.net/about/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://tropicalpoolsinc.net/",
+        "title": "Tropical Pools: Your Trusted Pool Care Experts",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 8,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Drew Concrete Works",
+      "website": "https://drewconcreteworks.com/",
+      "city": "baton-rouge-la",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local owner-operated concrete business expressly serves Baton Rouge-area homeowners with direct driveway, step, sidewalk and other concrete installations.",
+      "sourceUrls": [
+        "https://drewconcreteworks.com/"
+      ],
+      "sourceDestinations": [
+        "https://drewconcreteworks.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://drewconcreteworks.com/",
+        "title": "Home - Drew Concrete Works",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "AB Concrete",
+      "website": "https://www.abconcretela.com/",
+      "city": "baton-rouge-la",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company’s official FAQ directly names Baton Rouge for residential concrete work, including new driveways, patios and replacement of damaged slabs.",
+      "sourceUrls": [
+        "https://www.abconcretela.com/faq"
+      ],
+      "sourceDestinations": [
+        "https://www.abconcretela.com/faq"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.abconcretela.com/",
+        "title": "Best Concrete Services | AB Concrete | Baton Rouge, Prairieville & Gonzales, LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Parish Outdoor Builders",
+      "website": "https://parishoutdoorbuilders.com/",
+      "city": "baton-rouge-la",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The contractor’s concrete service page names Baton Rouge and documents household driveway and patio pours, including dedicated residential patio and driveway work.",
+      "sourceUrls": [
+        "https://parishoutdoorbuilders.com/concrete"
+      ],
+      "sourceDestinations": [
+        "https://parishoutdoorbuilders.com/concrete"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://parishoutdoorbuilders.com/",
+        "title": "Outdoor Living in Baton Rouge | Parish Outdoor Builders",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Lopez Quality Concrete",
+      "website": "https://lopezqualityconcrete.com/",
+      "city": "baton-rouge-la",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned company identifies Baton Rouge and directly pours concrete driveways and home foundations for residential construction.",
+      "sourceUrls": [
+        "https://lopezqualityconcrete.com/"
+      ],
+      "sourceDestinations": [
+        "https://lopezqualityconcrete.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://lopezqualityconcrete.com/",
+        "title": "Home | Lopez Quality Concrete | Baton Rouge, LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Top One Painting",
+      "website": "https://www.toponepainting.com/",
+      "city": "birmingham-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The locally owned family company explicitly serves Birmingham homes with direct interior and exterior painting, cabinet refinishing and staining.",
+      "sourceUrls": [
+        "https://www.toponepainting.com/about"
+      ],
+      "sourceDestinations": [
+        "https://www.toponepainting.com/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.toponepainting.com/",
+        "title": "Painting Companies Trussville, AL | Top One Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Capps Painting",
+      "website": "https://www.cappspainting.com/",
+      "city": "birmingham-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-run Birmingham-area company expressly offers residential interior and exterior painting, with home project examples and a direct service contact.",
+      "sourceUrls": [
+        "https://www.cappspainting.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.cappspainting.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.cappspainting.com/",
+        "title": "Capps Painting – Birmingham AL Painting & Remodeling | Commercial & Residential Interior and Exterior Painting and Remodeling",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Stoney Oak Painting",
+      "website": "https://stoneyoakpainting.com/home",
+      "city": "birmingham-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Birmingham paint contractor identifies local residential interior and exterior work, including preparation and finishes inside the home.",
+      "sourceUrls": [
+        "https://stoneyoakpainting.com/residential-painting"
+      ],
+      "sourceDestinations": [
+        "https://stoneyoakpainting.com/residential-painting"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://stoneyoakpainting.com/home",
+        "title": "Painting Services in Birmingham | Stoney Oak Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Altract Co.",
+      "website": "https://altractco.com/",
+      "city": "birmingham-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Vestavia Hills-based company names Birmingham homeowners for direct interior and exterior house painting and identifies Birmingham on its service-area list.",
+      "sourceUrls": [
+        "https://altractco.com/"
+      ],
+      "sourceDestinations": [
+        "https://altractco.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://altractco.com/",
+        "title": "Painter in Vestavia Hills, AL | Interior & Exterior Painting | Altract Co.",
+        "identityConfirmed": true,
+        "verificationMethod": "Decoded Brotli with curl and confirmed company name, residential painting and Birmingham coverage in the official website body."
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Revive Pro Painting",
+      "website": "https://revive-pro.com/",
+      "city": "birmingham-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Alabama company identifies Birmingham for direct interior and exterior residential painting, describing the prep, coating and finishing work performed there.",
+      "sourceUrls": [
+        "https://revive-pro.com/"
+      ],
+      "sourceDestinations": [
+        "https://revive-pro.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://revive-pro.com/",
+        "title": "Revive Pro Painting | Birmingham House & Commercial Painters",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Prime Painting & Contracting",
+      "website": "https://primepaint.net/",
+      "city": "birmingham-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned provider’s Birmingham page directly offers interior and exterior painting for residents and explains its crew’s preparation and cleanup.",
+      "sourceUrls": [
+        "https://primepaint.net/areas/birmingham.html"
+      ],
+      "sourceDestinations": [
+        "https://primepaint.net/areas/birmingham.html"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://primepaint.net/",
+        "title": "Prime Painting & Contracting | Birmingham AL Painters",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Straight Line Painting",
+      "website": "https://straightlinepainting.net/",
+      "city": "huntsville-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The locally operated Huntsville painter describes its in-house team providing interior and exterior house painting and refinishing for city homeowners.",
+      "sourceUrls": [
+        "https://straightlinepainting.net/"
+      ],
+      "sourceDestinations": [
+        "https://straightlinepainting.net/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://straightlinepainting.net/",
+        "title": "House Painters Huntsville, AL | Straight Line Painting",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Home Improvement Painting",
+      "website": "https://homeimprovementpainting.com/",
+      "city": "huntsville-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned Huntsville company offers interior and exterior work for local homes, including surface preparation and deck staining.",
+      "sourceUrls": [
+        "https://homeimprovementpainting.com/"
+      ],
+      "sourceDestinations": [
+        "https://homeimprovementpainting.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://homeimprovementpainting.com/",
+        "title": "Inactive Business",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Marathon Painting & Roofing",
+      "website": "https://www.marathonpaintingandroofing.com/",
+      "city": "huntsville-al",
+      "category": "painting",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned business’s Huntsville page offers direct home interior and exterior painting, including rooms, trim and exterior surfaces.",
+      "sourceUrls": [
+        "https://www.marathonpaintingandroofing.com/painting"
+      ],
+      "sourceDestinations": [
+        "https://www.marathonpaintingandroofing.com/painting"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.marathonpaintingandroofing.com/",
+        "title": "Home Improvement Services | Marathon Painting and Roofing | Huntsville",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Carden Landscaping",
+      "website": "https://www.cardenlandscaping.com/",
+      "city": "huntsville-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The locally owned family company names Huntsville and describes directly completed residential landscape projects for North Alabama homeowners.",
+      "sourceUrls": [
+        "https://www.cardenlandscaping.com/about"
+      ],
+      "sourceDestinations": [
+        "https://www.cardenlandscaping.com/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.cardenlandscaping.com/",
+        "title": "Carden Landscaping Athens | Top Landscaping Services in Athens, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Lookin' Goode Landscaping",
+      "website": "https://goodelandscaping.com/",
+      "city": "huntsville-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Huntsville company’s official services page offers direct residential landscape design, installation, planting and hardscape work.",
+      "sourceUrls": [
+        "https://goodelandscaping.com/services.html"
+      ],
+      "sourceDestinations": [
+        "https://goodelandscaping.com/services.html"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://goodelandscaping.com/",
+        "title": "Huntsville, AL Landscaping | Lookin' Goode Landscaping",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Splawn Landscape & Design",
+      "website": "https://splawnlandscaping.com/",
+      "city": "huntsville-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local Huntsville landscape company offers design and installation for residential properties. Its services page gives the Huntsville operating address.",
+      "sourceUrls": [
+        "https://splawnlandscaping.com/services/"
+      ],
+      "sourceDestinations": [
+        "https://splawnlandscaping.com/services/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://splawnlandscaping.com/",
+        "title": "Home - Splawn Landscape & Design | Huntsville, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Turf Titans",
+      "website": "https://www.turftitan.net/",
+      "city": "huntsville-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local company’s landscape design page names Huntsville homeowners for its planting and installation service, including grading, beds and shrubs.",
+      "sourceUrls": [
+        "https://www.turftitan.net/services/landscape-design"
+      ],
+      "sourceDestinations": [
+        "https://www.turftitan.net/services/landscape-design"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.turftitan.net/",
+        "title": "Turf Titans | Family-Owned Lawn Care in North Alabama — No Contracts",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Square One Landscape Group",
+      "website": "https://squareonela.com/",
+      "city": "baton-rouge-la",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company identifies its Baton Rouge operation and takes direct residential landscape design, installation and project proposals from local homeowners.",
+      "sourceUrls": [
+        "https://squareonela.com/contact/"
+      ],
+      "sourceDestinations": [
+        "https://squareonela.com/contact/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://squareonela.com/",
+        "title": "Home - Square One Landscape Group",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Landscape Images",
+      "website": "https://www.landscapeimagesltd.com/",
+      "city": "new-orleans-la",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local design-build team expressly installs and maintains residential gardens in New Orleans, with onsite planting and hardscape work.",
+      "sourceUrls": [
+        "https://www.landscapeimagesltd.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.landscapeimagesltd.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.landscapeimagesltd.com/",
+        "title": "New Orleans Landscape Design | Landscape Images Ltd.",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Exterior Designs",
+      "website": "https://exteriordesignsbev.com/",
+      "city": "new-orleans-la",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The official contact and service page identifies the New Orleans landscape design-build business and offers direct residential installations in city neighborhoods.",
+      "sourceUrls": [
+        "https://exteriordesignsbev.com/contact-us/"
+      ],
+      "sourceDestinations": [
+        "https://exteriordesignsbev.com/contact-us/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://exteriordesignsbev.com/",
+        "title": "New Orleans Landscaping by Exterior Designs, Inc.",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Elliott Land Management",
+      "website": "https://elliottlm.com/",
+      "city": "birmingham-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Birmingham company documents residential landscape installations in named local neighborhoods, including planting, garden beds and backyard work.",
+      "sourceUrls": [
+        "https://elliottlm.com/"
+      ],
+      "sourceDestinations": [
+        "https://elliottlm.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://elliottlm.com/",
+        "title": "Elliott Land Management, Landscaping in Birmingham AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Grass Enforcers",
+      "website": "https://www.grassenforcers.com/",
+      "city": "birmingham-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-operated Birmingham provider offers direct landscape installation and bed improvement for local residential yards.",
+      "sourceUrls": [
+        "https://www.grassenforcers.com/our-services"
+      ],
+      "sourceDestinations": [
+        "https://www.grassenforcers.com/our-services"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.grassenforcers.com/",
+        "title": "Landscaper near Birmingham, Alabama - Grass Enforcers",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Rooted",
+      "website": "https://www.rootedscapes.com/",
+      "city": "birmingham-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned Birmingham landscaping company offers residential landscape and yard improvement services and identifies homeowner work in Birmingham.",
+      "sourceUrls": [
+        "https://www.rootedscapes.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.rootedscapes.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.rootedscapes.com/",
+        "title": "Rooted | Rooted Landscaping | Charleston SC & Birmingham AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Snider Landscapes",
+      "website": "https://www.sniderlandscapes.com/",
+      "city": "birmingham-al",
+      "category": "landscaping",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned Birmingham company presents direct landscape design and installation services for homes and gives its local operating city.",
+      "sourceUrls": [
+        "https://www.sniderlandscapes.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.sniderlandscapes.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.sniderlandscapes.com/",
+        "title": "Snider Landscapes | Birmingham, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Spark Medic",
+      "website": "https://sparkmedicinc.com/",
+      "city": "huntsville-al",
+      "category": "electrical",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Huntsville electrical service page identifies direct home electrical work in the city, including repairs and panel service from the local company.",
+      "sourceUrls": [
+        "https://sparkmedicinc.com/services"
+      ],
+      "sourceDestinations": [
+        "https://sparkmedicinc.com/services"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://sparkmedicinc.com/",
+        "title": "Licensed Electrician in Huntsville, AL | Spark Medic",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 4,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Urban Electric",
+      "website": "https://www.urbanelectricllc.net/",
+      "city": "huntsville-al",
+      "category": "electrical",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The local Huntsville electrical company offers residential troubleshooting, fixture and wiring installation, repair and upgrades to city's homeowners.",
+      "sourceUrls": [
+        "https://www.urbanelectricllc.net/"
+      ],
+      "sourceDestinations": [
+        "https://www.urbanelectricllc.net/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.urbanelectricllc.net/",
+        "title": "Urban Electric",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 4,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Hooser Bro's Electric",
+      "website": "https://www.hooserbroselectric.com/",
+      "city": "huntsville-al",
+      "category": "electrical",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The company explicitly serves Huntsville homeowners with direct electrical work, including panel installation and residential rewiring.",
+      "sourceUrls": [
+        "https://www.hooserbroselectric.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.hooserbroselectric.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.hooserbroselectric.com/",
+        "title": "Licensed Electrician | Hooser Bro's  | Huntsville, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 4,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Gutter Pro Florida",
+      "website": "https://www.gutterproflorida.com/",
+      "city": "jacksonville-fl",
+      "category": "gutters",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The owner-run company names Jacksonville and illustrates completed seamless gutter installations on homes in the city’s Queens Harbour area.",
+      "sourceUrls": [
+        "https://www.gutterproflorida.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.gutterproflorida.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.gutterproflorida.com/",
+        "title": "Seamless Gutter Installation Jacksonville FL | Gutter Pro",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 5,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Sea Glass Exteriors",
+      "website": "https://www.seaglassjax.com/",
+      "city": "jacksonville-fl",
+      "category": "gutters",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Jacksonville-area family exterior contractor explicitly offers direct gutter installation, replacement and repairs for Jacksonville homeowners.",
+      "sourceUrls": [
+        "https://www.seaglassjax.com/gutters"
+      ],
+      "sourceDestinations": [
+        "https://www.seaglassjax.com/gutters"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.seaglassjax.com/",
+        "title": "Sea Glass Exteriors | Roofing and Siding in Jax, FL",
+        "identityConfirmed": true,
+        "verificationMethod": "Confirmed Sea Glass Exteriors in the official homepage and Jacksonville gutter service page titles. The live exact-name search for this current branding returned no results."
+      },
+      "priorLivePageCount": 5,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Broadside Gutters & Exterior",
+      "website": "https://www.broadsidegutters.com/",
+      "city": "jacksonville-fl",
+      "category": "gutters",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The family-owned company offers custom seamless gutters directly to homeowners. Its Jacksonville-focused site describes residential installation and local projects.",
+      "sourceUrls": [
+        "https://www.broadsidegutters.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.broadsidegutters.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.broadsidegutters.com/",
+        "title": "Jacksonville Gutters, Painting & Exteriors | Broadside",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 5,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Synergy Roofing",
+      "website": "https://roofingneworleans.net/",
+      "city": "new-orleans-la",
+      "category": "roofing",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The New Orleans owner-led company identifies the city as its base and describes residential repairs and roof replacements performed by its own crew.",
+      "sourceUrls": [
+        "https://roofingneworleans.net/about"
+      ],
+      "sourceDestinations": [
+        "https://roofingneworleans.net/about"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://roofingneworleans.net/",
+        "title": "New Orleans Roof Repair & Roofing Company | Synergy",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Robertson Roofing",
+      "website": "https://robertsonroofinginc.com/",
+      "city": "new-orleans-la",
+      "category": "roofing",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "Its official New Orleans site offers residential roofing and roof repair with its own roof specialists on area homes.",
+      "sourceUrls": [
+        "https://robertsonroofinginc.com/"
+      ],
+      "sourceDestinations": [
+        "https://robertsonroofinginc.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://robertsonroofinginc.com/",
+        "title": "Robertson Roofing Inc – New Orleans Commercial and Residential Roofing Repair Contractor New Orleans LA",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Guidry's Roofing and Siding",
+      "website": "https://www.guidryroofing.com/",
+      "city": "new-orleans-la",
+      "category": "roofing",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Westbank company names the Greater New Orleans area and offers direct home repair and replacement for weather-damaged and aging roofs.",
+      "sourceUrls": [
+        "https://www.guidryroofing.com/"
+      ],
+      "sourceDestinations": [
+        "https://www.guidryroofing.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.guidryroofing.com/",
+        "title": "Guidry's Roofing and Siding",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 1,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Solid Foundation",
+      "website": "https://sfbham.com/",
+      "city": "birmingham-al",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Birmingham concrete service page explicitly offers residential driveway, slab and patio installation and concrete replacement throughout the city.",
+      "sourceUrls": [
+        "https://sfbham.com/concrete/"
+      ],
+      "sourceDestinations": [
+        "https://sfbham.com/concrete/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://sfbham.com/",
+        "title": "Birmingham, AL Sitework, Construction & Remodeling | Solid Foundation LLC",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    },
+    {
+      "name": "Quality Concrete Birmingham",
+      "website": "https://qualityconcretebirmingham.com/",
+      "city": "birmingham-al",
+      "category": "concrete",
+      "sourceVerifiedAt": "2026-11-21T17:03:08+00:00",
+      "evidenceNote": "The Birmingham operator offers direct residential concrete work, including driveway demolition and replacement, patios and foundations.",
+      "sourceUrls": [
+        "https://qualityconcretebirmingham.com/"
+      ],
+      "sourceDestinations": [
+        "https://qualityconcretebirmingham.com/"
+      ],
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://qualityconcretebirmingham.com/",
+        "title": "Quality Concrete Birmingham | Concrete Contractor Birmingham, AL",
+        "identityConfirmed": true
+      },
+      "priorLivePageCount": 2,
+      "priorMatchingCards": 0,
+      "publicationStatus": "awaiting_production"
+    }
+  ]
+}
