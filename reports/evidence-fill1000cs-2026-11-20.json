@@ -1,0 +1,1267 @@
+{
+  "runDate": "2026-11-20",
+  "baselineCommit": "f98c2b125b928c89bc713b8d2f3545abaa83c1d6",
+  "status": "locally_validated_awaiting_production",
+  "publication": {
+    "dataCommit": null,
+    "productionDeployment": null,
+    "liveVerifiedNewBusinesses": 0,
+    "liveVerifiedPlacements": 0
+  },
+  "historicalScan": {
+    "report": "reports/historical-qualification-flags-2026-11-03.json",
+    "flaggedIdentities": 158,
+    "sourceRows": 584,
+    "rawPlacements": 8816,
+    "retailFixItRawPlacements": 396
+  },
+  "reviewedBaselineDomains": [
+    "360hi.pro",
+    "a-applianceservice.com",
+    "actionmarinedothan.com",
+    "alabamatermite.com",
+    "allpolyfoam.com",
+    "americandoorsolutionsllc.com",
+    "ameriprogaragedoors.com",
+    "apalacheeseptic.com",
+    "apexhvacs.com",
+    "appliance-heroes.com",
+    "arrowps.com",
+    "bluewatergaragedoorservices.com",
+    "brandowslandscaping.com",
+    "bryanpestcontrol.com",
+    "buds-n-blossoms.com",
+    "calsappliancerepair.com",
+    "carterinsulation.com",
+    "circlepest.com",
+    "coastalcreationslps.com",
+    "coastalrepairsolutions.com",
+    "concretetallahassee.com",
+    "cookspest.com",
+    "coxpools.com",
+    "dancoservicesal.com",
+    "dandasprayfoam.com",
+    "davesgaragedoors.net",
+    "deluxefencingoutdoors.com",
+    "dfselectricalservices.com",
+    "doorandgutterpro.com",
+    "dothanawning.com",
+    "dothanoverheaddoor.com",
+    "easyheatingcooling.com",
+    "ecopestemeraldcoast.com",
+    "elbrusconsulting.wordpress.com",
+    "emeraldcoastapplianceservice.com",
+    "emeraldcoastinsulation.com",
+    "emeraldcoastpoolcompany.com",
+    "exquisitepoolsdestin.com",
+    "fatherandsonlandscape.com",
+    "flneedsprayfoam.com",
+    "garagedoordoctorfl.com",
+    "generxgenerators.com",
+    "gentryfarmhousellc.com",
+    "guardianhi.com",
+    "guardianonceayear.com",
+    "gulfbreezepoolsandspas.com",
+    "gulfcoastpoolconstruction.com",
+    "gutterbuddiesalabama.com",
+    "hansensupertechs.com",
+    "hasdestin.com",
+    "hathcockonline.com",
+    "hometowngaragenwfl.com",
+    "icdatpestcontrol.com",
+    "independentappliance.com",
+    "ironmanmetalsystem.com",
+    "jasonrepairs.com",
+    "jdubspoolservice.com",
+    "johnsonpoolsinc.com",
+    "kitchenvisions.net",
+    "locksmithchick.com",
+    "makocontractors.com",
+    "masseyservices.com",
+    "mcdonald-construction.com",
+    "meadows-electrical.com",
+    "mercerappliancerepair.com",
+    "mitsbaywalton.com",
+    "mpgaragedoors.com",
+    "newaypools.com",
+    "oasispoolmgmt.com",
+    "panamacitypools.com",
+    "panamapoolsandspas.com",
+    "paradisefencing.net",
+    "parkersepticpanamacity.com",
+    "parrishlandmanagement.com",
+    "paynepoolprofessionals.com",
+    "pcsnursery.com",
+    "people1sthomeservices.com",
+    "perennialsouth.com",
+    "perkelectric.com",
+    "pest-ex.net",
+    "pestcontrolpc.com",
+    "phillipspoolservice.com",
+    "pinckardandsongaragedoors.com",
+    "pooleasphaltandconcretellc.com",
+    "pratersinsulators.com",
+    "prestigeinsulationsolutions.com",
+    "pureearthlandscaping.com",
+    "qualityprivacyfence.com",
+    "quickapplianceinc.com",
+    "radiantexteriorpw.com",
+    "randrbackhoeseptic.com",
+    "rogersgrantseptic.com",
+    "rossplumbingdothan.com",
+    "saltyairco.com",
+    "santafence.com",
+    "sarservicesllc.com",
+    "sbguttersllc.com",
+    "serviceirrigationpros.com",
+    "southerngaragedoorsllc.com",
+    "southerngutterguys.com",
+    "southernpoolscapes.com",
+    "southernsepticsolutions.com",
+    "southwindpestandtermite.com",
+    "ssfencedothan.com",
+    "stateupgrades.com",
+    "superiorsepticsewer.com",
+    "taborpestcontrol.com",
+    "tallahasseegaragedoor.com",
+    "tamtechpools.net",
+    "telfordreynoldselectric.com",
+    "thegoatpropertyservices.com",
+    "thehalowash.com",
+    "tvandappliancetechofmobile.com",
+    "uniquepoolspcb.com",
+    "waltoncountygaragedoor.repair",
+    "wiregrassdoor.com",
+    "zebwattsseptic.com"
+  ],
+  "pendingCandidates": [
+    {
+      "name": "Gulf Line Garage Door Expert",
+      "url": "https://gulflinegaragedoorexpert.com/about/",
+      "city": "Crestview, Destin, Fort Walton Beach",
+      "category": "garage-door-repair",
+      "reason": "First-party site claims technician service. Corroborate the local operation and direct-provider identity."
+    },
+    {
+      "name": "Fort Walton Beach Insulation",
+      "url": "https://www.fortwaltonbeachinsulation.com/",
+      "city": "Fort Walton Beach",
+      "category": "insulation",
+      "reason": "Confirm that the business behind the service site operates locally and performs the work."
+    },
+    {
+      "name": "Bugg Me Knot",
+      "url": "https://buggmeknot.software/",
+      "city": "Panhandle",
+      "category": "pest-control",
+      "reason": "Website claims home services. Confirm local operator identity and exact covered cities."
+    },
+    {
+      "name": "Emerald Coast Pest Control",
+      "url": null,
+      "city": "Destin",
+      "category": "pest-control",
+      "reason": "Find a working official business site and confirm identity and home service."
+    },
+    {
+      "name": "Advanced Appliance Services",
+      "url": null,
+      "city": "Panama City",
+      "category": "appliance-repair",
+      "reason": "Locate a working official site for the named repair company."
+    },
+    {
+      "name": "Dobbs Appliance Repair",
+      "url": null,
+      "city": "Panama City",
+      "category": "appliance-repair",
+      "reason": "Find an official website with household service and city evidence."
+    },
+    {
+      "name": "S and L Auto Body",
+      "url": null,
+      "city": "Crestview",
+      "category": "auto-body-collision",
+      "reason": "Find an official website for this operation and verify consumer collision repair."
+    },
+    {
+      "name": "Crestview Paint & Body",
+      "url": null,
+      "city": "Crestview",
+      "category": "auto-body-collision",
+      "reason": "Need a working official site and present operating identity."
+    },
+    {
+      "name": "Hall Septic Tank Service",
+      "url": null,
+      "city": "Panama City",
+      "category": "septic-services",
+      "reason": "Need an official site identifying active home septic service."
+    },
+    {
+      "name": "Mancia’s Remodeling Construction",
+      "url": "https://manciasremodelingconstructionllc.com/",
+      "city": "Tallahassee",
+      "category": "kitchen-bath-remodeling",
+      "reason": "Official page returned HTTP 502 in the research fetch. Confirm final destination and content."
+    },
+    {
+      "name": "S & J Irrigation",
+      "url": "https://www.sandjirrigation.com/",
+      "city": "Dothan",
+      "category": "irrigation-sprinkler-repair",
+      "reason": "Retrieved URL returned HTTP 404. Locate a working first-party destination."
+    },
+    {
+      "name": "Raindance Irrigation",
+      "url": "https://www.tallahassee-irrigation.com/service-page/irrigation-system-repair",
+      "city": "Tallahassee",
+      "category": "irrigation-sprinkler-repair",
+      "reason": "Local repair is supported. Confirm that the service is available for home systems."
+    },
+    {
+      "name": "Ashley Marine",
+      "url": "https://www.ashleysboats.com/contact",
+      "city": "Dothan, Panama City, Pensacola",
+      "category": "marine-services",
+      "reason": "Official site confirms retail branches. Locate a first-party service page covering marine repair at the relevant branch."
+    },
+    {
+      "name": "Dothan Spray Foam Insulation",
+      "url": "https://dothansprayfoaminsulation.com/",
+      "city": "Dothan",
+      "category": "insulation",
+      "reason": "Corroborate the site’s operating identity and distinguish it from other similar city-name insulation sites."
+    },
+    {
+      "name": "Dothan Spray Foam",
+      "url": "https://www.dothansprayfoam.com/",
+      "city": "Dothan",
+      "category": "insulation",
+      "reason": "Confirm operating identity and direct service, including relationship to similarly named sites."
+    },
+    {
+      "name": "Dothan Concrete Company",
+      "url": "https://www.dothanconcretecontractor.com/",
+      "city": "Dothan",
+      "category": "concrete",
+      "reason": "Confirm that the site identifies a direct local contractor who performs the residential work."
+    },
+    {
+      "name": "Barrett Landscape",
+      "url": "https://gulfbreezelandscaping.com/contact-us/",
+      "city": "Gulf Breeze",
+      "category": "irrigation-sprinkler-repair",
+      "reason": "Contact form offers irrigation inquiries. Need explicit residential sprinkler repair service evidence."
+    },
+    {
+      "name": "Marco’s Irrigation Repair",
+      "url": "https://panama-city-fl.marcosirrigationrepair.com/contact",
+      "city": "Panama City",
+      "category": "irrigation-sprinkler-repair",
+      "reason": "Fetch failed. Confirm direct-provider identity and current local coverage before using the city pages."
+    },
+    {
+      "name": "Emerald Coast Pools alternate domain",
+      "url": "https://www.emeraldcoastpool.com/",
+      "city": "Panama City",
+      "category": "pool-installation",
+      "reason": "Fetch failed. Resolve identity and relationship to the existing Emerald Coast Pools profile before any placement."
+    }
+  ],
+  "withheldCandidates": [
+    {
+      "name": "America’s Swimming Pool Company",
+      "url": "https://www.asppoolco.com/",
+      "reason": "National franchise brand."
+    },
+    {
+      "name": "Precision Garage Door Service",
+      "url": "https://precisiondoorpensacola.com/",
+      "reason": "National franchise brand. Also screened the Tallahassee affiliate domain."
+    },
+    {
+      "name": "Overhead Door Company of Northwest Florida",
+      "url": "https://destinoverheaddoor.com/",
+      "reason": "National Overhead Door brand branch. Existing exclusion covers this domain."
+    },
+    {
+      "name": "Lowe’s",
+      "url": "https://www.lowes.com/",
+      "reason": "National retail chain."
+    },
+    {
+      "name": "ForeverLawn",
+      "url": "https://www.foreverlawn.com/",
+      "reason": "National brand."
+    },
+    {
+      "name": "Pinch A Penny",
+      "url": "https://pinchapenny.com/",
+      "reason": "National franchise brand."
+    },
+    {
+      "name": "Local Landscaping",
+      "url": "https://local-landscaping.com/",
+      "reason": "Directory or matching site."
+    },
+    {
+      "name": "Tajmahome",
+      "url": "https://tajmahome.com/",
+      "reason": "City/category matching site without qualifying direct local-provider evidence."
+    },
+    {
+      "name": "Vortex Doors of Tallahassee",
+      "url": "https://www.vortexdoorstallahassee.com/",
+      "reason": "Commercial door service does not establish household garage door repair."
+    }
+  ],
+  "historicalFlags": [
+    {
+      "business": "Retail Fix It",
+      "sourceUrl": "https://www.retailfixit.com/",
+      "flags": [
+        "unsupported_residential_service",
+        "incorrect_category",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "evidence": "Its site describes multi-location commercial maintenance, nationwide facilities management and managed vendors. No direct local residential locksmith evidence was found. Existing domain suppression and empty public name search confirmed. Historical source rows retained.",
+      "rawPlacements": 396
+    },
+    {
+      "business": "360 Home Improvements",
+      "citySlug": "crestview-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://360hi.pro/garage-doors",
+        "https://360hi.pro/contact"
+      ],
+      "flags": [
+        "unsupported_specific_geography"
+      ],
+      "evidence": "A live card uses the generic website. The service page offers residential garage door repair statewide and the contact page lists Broward offices. These pages do not establish residential garage service in Crestview. Review the rest of its 134 generated placements individually."
+    },
+    {
+      "business": "Statewide Garage Doors",
+      "citySlug": "crestview-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://www.statewidegaragedoors.com/serving-area",
+        "https://www.statewidegaragedoors.com/faqs"
+      ],
+      "flags": [
+        "unsupported_specific_geography"
+      ],
+      "evidence": "Official service-area and service FAQ emphasize Southwest Florida markets. Crestview garage service remains unsupported by those pages."
+    },
+    {
+      "business": "Dothan Gutter Pros",
+      "citySlug": "dothan-al",
+      "categorySlug": "gutters",
+      "flags": [
+        "intermediary_or_managed_network"
+      ],
+      "evidence": "The prior checkpoint documented site language about connecting homeowners to service providers. This run carries forward that unresolved audit."
+    },
+    {
+      "business": "Hometown Garage Doors",
+      "citySlug": "panama-city-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://www.hometowngaragedoorsnf.com/contact-us",
+        "https://www.hometowngaragenwfl.com/contact-us"
+      ],
+      "flags": [
+        "duplicate_identity"
+      ],
+      "evidence": "The Hometown Co. alternate domain shares Hometown Garage Doors LLC’s phone and fax. The historical Hometown Garage Doors name variant also uses the LLC domain. Review historical canonical profiles with claims intact. The new Gulf Breeze placement uses the LLC’s existing canonical profile."
+    }
+  ],
+  "identityChecks": [
+    {
+      "business": "RC Electric of Tallahassee",
+      "sourceUrls": [
+        "https://rcelectric.net/services/",
+        "https://rcelectricms.com/generator-installations/"
+      ],
+      "note": "Official domains, operators, contact details and operating regions distinguish the Tallahassee provider from the Gulfport company named RC Electric. City qualifier distinguishes the profile."
+    },
+    {
+      "business": "Hometown Garage Doors LLC",
+      "sourceUrls": [
+        "https://www.hometowngaragenwfl.com/contact-us",
+        "https://www.hometowngaragedoorsnf.com/contact-us"
+      ],
+      "note": "Confirmed alternate site by shared phone and fax. Gulf Breeze is a new placement for the existing LLC profile."
+    },
+    {
+      "business": "Palm Bay Pools",
+      "sourceUrls": [
+        "https://www.panamacitypools.com/",
+        "https://palm-bay-pools-llc.builtbybluecoast.com/"
+      ],
+      "note": "The portfolio example identifies the existing business. The example returned 502 and is not used as its official link."
+    },
+    {
+      "business": "R&R Backhoe, Dozer, & Septic Services",
+      "sourceUrls": [
+        "https://www.randrbackhoeseptic.com/",
+        "https://www.randrbackhoeseptic.net/septic-pumping"
+      ],
+      "note": "Matching business name and Dothan operation. Treat the alternate site as the existing business pending any later URL review."
+    }
+  ],
+  "baselineLiveCards": {
+    "checkedAt": "2026-11-21T04:56:33.897682+00:00",
+    "placements": [
+      {
+        "business": "Southeast Spray Foam Insulation",
+        "citySlug": "panama-city-fl",
+        "categorySlug": "insulation",
+        "directoryUrl": "https://whoknowsapro.com/panama-city-fl/insulation",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Southeast Spray Foam Insulation",
+        "citySlug": "dothan-al",
+        "categorySlug": "insulation",
+        "directoryUrl": "https://whoknowsapro.com/dothan-al/insulation",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Taylored Services",
+        "citySlug": "destin-fl",
+        "categorySlug": "garage-door-repair",
+        "directoryUrl": "https://whoknowsapro.com/destin-fl/garage-door-repair",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Taylored Services",
+        "citySlug": "pensacola-fl",
+        "categorySlug": "garage-door-repair",
+        "directoryUrl": "https://whoknowsapro.com/pensacola-fl/garage-door-repair",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Hometown Garage Doors LLC",
+        "citySlug": "gulf-breeze-fl",
+        "categorySlug": "garage-door-repair",
+        "directoryUrl": "https://whoknowsapro.com/gulf-breeze-fl/garage-door-repair",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Newland Lawn Care",
+        "citySlug": "gulf-breeze-fl",
+        "categorySlug": "irrigation-sprinkler-repair",
+        "directoryUrl": "https://whoknowsapro.com/gulf-breeze-fl/irrigation-sprinkler-repair",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Pool Captains",
+        "citySlug": "grayton-beach-fl",
+        "categorySlug": "pool-service",
+        "directoryUrl": "https://whoknowsapro.com/grayton-beach-fl/pool-service",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Emerald Coast Pool Management",
+        "citySlug": "grayton-beach-fl",
+        "categorySlug": "pool-service",
+        "directoryUrl": "https://whoknowsapro.com/grayton-beach-fl/pool-service",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Trueline Fence",
+        "citySlug": "foley-al",
+        "categorySlug": "fence-builders",
+        "directoryUrl": "https://whoknowsapro.com/foley-al/fence-builders",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Trueline Fence",
+        "citySlug": "mobile-al",
+        "categorySlug": "fence-builders",
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/fence-builders",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "YB Construction",
+        "citySlug": "mobile-al",
+        "categorySlug": "gutters",
+        "directoryUrl": "https://whoknowsapro.com/mobile-al/gutters",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Southern Door Company",
+        "citySlug": "dothan-al",
+        "categorySlug": "garage-door-repair",
+        "directoryUrl": "https://whoknowsapro.com/dothan-al/garage-door-repair",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Duke Pest Services",
+        "citySlug": "dothan-al",
+        "categorySlug": "pest-control",
+        "directoryUrl": "https://whoknowsapro.com/dothan-al/pest-control",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Garcia Pine Straw and Lawn Care",
+        "citySlug": "dothan-al",
+        "categorySlug": "landscaping",
+        "directoryUrl": "https://whoknowsapro.com/dothan-al/landscaping",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Tri-State Parking Lot Maintenance",
+        "citySlug": "dothan-al",
+        "categorySlug": "concrete",
+        "directoryUrl": "https://whoknowsapro.com/dothan-al/concrete",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "GT Electric of Florida",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "electrical",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/electrical",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "GT Electric of Florida",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "generator-installation",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/generator-installation",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Fraser Electric",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "electrical",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/electrical",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "McKinney Electric of Tallahassee",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "electrical",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/electrical",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "RC Electric of Tallahassee",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "electrical",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/electrical",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "McManus Kitchen and Bath",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "kitchen-bath-remodeling",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/kitchen-bath-remodeling",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "H & H Construction & Restoration Services",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "kitchen-bath-remodeling",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/kitchen-bath-remodeling",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Kelly's Garage Door Services",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "garage-door-repair",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/garage-door-repair",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "Concrete Services Unlimited",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "concrete",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/concrete",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      },
+      {
+        "business": "J & H Masonry & Concrete",
+        "citySlug": "tallahassee-fl",
+        "categorySlug": "concrete",
+        "directoryUrl": "https://whoknowsapro.com/tallahassee-fl/concrete",
+        "matchingCards": 0,
+        "matchingDomainCards": 0,
+        "websiteOnCard": false
+      }
+    ],
+    "pageCards": {
+      "destin-fl/garage-door-repair": 14,
+      "dothan-al/concrete": 4,
+      "dothan-al/garage-door-repair": 6,
+      "dothan-al/insulation": 6,
+      "dothan-al/landscaping": 7,
+      "dothan-al/pest-control": 6,
+      "foley-al/fence-builders": 13,
+      "grayton-beach-fl/pool-service": 13,
+      "gulf-breeze-fl/garage-door-repair": 11,
+      "gulf-breeze-fl/irrigation-sprinkler-repair": 18,
+      "mobile-al/fence-builders": 15,
+      "mobile-al/gutters": 12,
+      "panama-city-fl/insulation": 15,
+      "pensacola-fl/garage-door-repair": 10,
+      "tallahassee-fl/concrete": 10,
+      "tallahassee-fl/electrical": 9,
+      "tallahassee-fl/garage-door-repair": 6,
+      "tallahassee-fl/generator-installation": 10,
+      "tallahassee-fl/kitchen-bath-remodeling": 10
+    }
+  },
+  "placements": [
+    {
+      "business": "Southeast Spray Foam Insulation",
+      "website": "https://southeast-insulation.com/",
+      "citySlug": "panama-city-fl",
+      "categorySlug": "insulation",
+      "sourceUrls": [
+        "https://southeast-insulation.com/areas-of-service/panama-city-spray-foam-insulation-contractor/",
+        "https://southeast-insulation.com/"
+      ],
+      "sourceUrl": "https://southeast-insulation.com/areas-of-service/panama-city-spray-foam-insulation-contractor/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Chipley-based installer’s Panama City page offers spray foam installation in homes, including attics and air-sealing work.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 15,
+      "officialWebsiteFinalUrl": "https://southeast-insulation.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Southeast Spray Foam Insulation",
+      "website": "https://southeast-insulation.com/",
+      "citySlug": "dothan-al",
+      "categorySlug": "insulation",
+      "sourceUrls": [
+        "https://southeast-insulation.com/areas-of-service/insulation-contractor-dothan/",
+        "https://southeast-insulation.com/"
+      ],
+      "sourceUrl": "https://southeast-insulation.com/areas-of-service/insulation-contractor-dothan/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Chipley installer’s Dothan page describes its technicians installing spray foam in houses, including walls and ceilings.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 6,
+      "officialWebsiteFinalUrl": "https://southeast-insulation.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Taylored Services",
+      "website": "https://www.tayloredservices.net/",
+      "citySlug": "destin-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://www.tayloredservices.net/"
+      ],
+      "sourceUrl": "https://www.tayloredservices.net/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "Owner-operator Chris Taylor names Destin as a service endpoint and offers garage door installation and repair for households.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 14,
+      "officialWebsiteFinalUrl": "https://www.tayloredservices.net/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Taylored Services",
+      "website": "https://www.tayloredservices.net/",
+      "citySlug": "pensacola-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://www.tayloredservices.net/"
+      ],
+      "sourceUrl": "https://www.tayloredservices.net/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The owner-operated Pensacola business describes household garage door installation, repair and after-hours service, and gives its Pensacola location.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 10,
+      "officialWebsiteFinalUrl": "https://www.tayloredservices.net/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Hometown Garage Doors LLC",
+      "website": "https://www.hometowngaragenwfl.com/",
+      "citySlug": "gulf-breeze-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://www.hometowngaragenwfl.com/gulf-breeze-fl",
+        "https://www.hometowngaragenwfl.com/",
+        "https://www.hometowngaragenwfl.com/contact-us"
+      ],
+      "sourceUrl": "https://www.hometowngaragenwfl.com/gulf-breeze-fl",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The company’s Gulf Breeze page names the city and offers garage door repair, installation and replacement for local homeowners.",
+      "existingBusiness": true,
+      "baselineDisplayedCount": 11,
+      "officialWebsiteFinalUrl": "https://www.hometowngaragenwfl.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Newland Lawn Care",
+      "website": "https://www.newlandlawncare.com/",
+      "citySlug": "gulf-breeze-fl",
+      "categorySlug": "irrigation-sprinkler-repair",
+      "sourceUrls": [
+        "https://www.newlandlawncare.com/landscaping",
+        "https://www.newlandlawncare.com/"
+      ],
+      "sourceUrl": "https://www.newlandlawncare.com/landscaping",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Gulf Breeze company’s residential landscape service page offers sprinkler system repairs and modifications for home yards.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 18,
+      "officialWebsiteFinalUrl": "https://www.newlandlawncare.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Pool Captains",
+      "website": "https://www.poolcaptains.com/",
+      "citySlug": "grayton-beach-fl",
+      "categorySlug": "pool-service",
+      "sourceUrls": [
+        "https://www.poolcaptains.com/locations/grayton-beach",
+        "https://www.poolcaptains.com/",
+        "https://www.poolcaptains.com/about-us"
+      ],
+      "sourceUrl": "https://www.poolcaptains.com/locations/grayton-beach",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Emerald Coast team’s Grayton Beach page offers weekly pool cleaning and maintenance, including cleaning backyard pools and balancing water chemistry.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 13,
+      "officialWebsiteFinalUrl": "https://www.poolcaptains.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Emerald Coast Pool Management",
+      "website": "https://ecpmpools.com/index.html",
+      "citySlug": "grayton-beach-fl",
+      "categorySlug": "pool-service",
+      "sourceUrls": [
+        "https://ecpmpools.com/index.html"
+      ],
+      "sourceUrl": "https://ecpmpools.com/index.html",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Santa Rosa Beach company specializes in saltwater pool maintenance for residential rentals and explicitly lists Grayton Beach in its technician service area.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 13,
+      "officialWebsiteFinalUrl": "https://ecpmpools.com/index.html",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Trueline Fence",
+      "website": "https://www.truelinefenceal.com/",
+      "citySlug": "foley-al",
+      "categorySlug": "fence-builders",
+      "sourceUrls": [
+        "https://www.truelinefenceal.com/wood-pressure-treated-fencing",
+        "https://www.truelinefenceal.com/"
+      ],
+      "sourceUrl": "https://www.truelinefenceal.com/wood-pressure-treated-fencing",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The family-owned regional company’s wood-fencing page lists Foley and describes its team designing and installing custom pressure-treated fences for homeowners.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 13,
+      "officialWebsiteFinalUrl": "https://www.truelinefenceal.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Trueline Fence",
+      "website": "https://www.truelinefenceal.com/",
+      "citySlug": "mobile-al",
+      "categorySlug": "fence-builders",
+      "sourceUrls": [
+        "https://www.truelinefenceal.com/wood-pressure-treated-fencing",
+        "https://www.truelinefenceal.com/"
+      ],
+      "sourceUrl": "https://www.truelinefenceal.com/wood-pressure-treated-fencing",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The family-owned company’s wood-fencing page explicitly lists Mobile for its custom pressure-treated fence design and installation service for homeowners.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 15,
+      "officialWebsiteFinalUrl": "https://www.truelinefenceal.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "YB Construction",
+      "website": "https://ybconstructionllc.com/index.html",
+      "citySlug": "mobile-al",
+      "categorySlug": "gutters",
+      "sourceUrls": [
+        "https://ybconstructionllc.com/gutters.html",
+        "https://ybconstructionllc.com/index.html"
+      ],
+      "sourceUrl": "https://ybconstructionllc.com/gutters.html",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Mobile-based residential contractor provides seamless gutter installation and replacement, including examples of its work on home drainage systems.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 12,
+      "officialWebsiteFinalUrl": "https://ybconstructionllc.com/index.html",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Southern Door Company",
+      "website": "https://southerndoordothan.com/",
+      "citySlug": "dothan-al",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://southerndoordothan.com/residential/",
+        "https://southerndoordothan.com/"
+      ],
+      "sourceUrl": "https://southerndoordothan.com/residential/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The family-owned Dothan door company offers residential garage doors, and its home page confirms its installers perform and warrant installation work.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 6,
+      "officialWebsiteFinalUrl": "https://southerndoordothan.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Duke Pest Services",
+      "website": "https://www.dukepest.com/",
+      "citySlug": "dothan-al",
+      "categorySlug": "pest-control",
+      "sourceUrls": [
+        "https://www.dukepest.com/dothan-al/",
+        "https://www.dukepest.com/"
+      ],
+      "sourceUrl": "https://www.dukepest.com/dothan-al/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The family-owned Wiregrass company’s Dothan page offers recurring household pest and termite control and identifies the technician as its own.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 6,
+      "officialWebsiteFinalUrl": "https://www.dukepest.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Garcia Pine Straw and Lawn Care",
+      "website": "https://garciapinestrawandlawncare.com/",
+      "citySlug": "dothan-al",
+      "categorySlug": "landscaping",
+      "sourceUrls": [
+        "https://garciapinestrawandlawncare.com/dothan-residental-lawn-care/",
+        "https://garciapinestrawandlawncare.com/"
+      ],
+      "sourceUrl": "https://garciapinestrawandlawncare.com/dothan-residental-lawn-care/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Dothan residential service page offers landscape design, tree and shrub planting and sod installation performed by Garcia’s crew for homeowners.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 7,
+      "officialWebsiteFinalUrl": "https://garciapinestrawandlawncare.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Tri-State Parking Lot Maintenance",
+      "website": "https://tristateparkinglot.com/",
+      "citySlug": "dothan-al",
+      "categorySlug": "concrete",
+      "sourceUrls": [
+        "https://tristateparkinglot.com/"
+      ],
+      "sourceUrl": "https://tristateparkinglot.com/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Dothan-based contractor offers asphalt paving and concrete construction directly to homeowners and lists residential driveway service.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 4,
+      "officialWebsiteFinalUrl": "https://tristateparkinglot.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "GT Electric of Florida",
+      "website": "https://gtelectricfl.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "electrical",
+      "sourceUrls": [
+        "https://gtelectricfl.com/residential-services/",
+        "https://gtelectricfl.com/"
+      ],
+      "sourceUrl": "https://gtelectricfl.com/residential-services/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Tallahassee electrical contractor offers household rewiring and electrical upgrades, including panel installations, breakers, outlets and lighting.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 9,
+      "officialWebsiteFinalUrl": "https://gtelectricfl.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "GT Electric of Florida",
+      "website": "https://gtelectricfl.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "generator-installation",
+      "sourceUrls": [
+        "https://gtelectricfl.com/whole-home-generator/",
+        "https://gtelectricfl.com/"
+      ],
+      "sourceUrl": "https://gtelectricfl.com/whole-home-generator/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The whole-home generator page directly offers backup generator installation and maintenance for homeowners in Tallahassee.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 10,
+      "officialWebsiteFinalUrl": "https://gtelectricfl.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Fraser Electric",
+      "website": "https://fraserelectric.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "electrical",
+      "sourceUrls": [
+        "https://fraserelectric.com/fraser-electric.html",
+        "https://fraserelectric.com/"
+      ],
+      "sourceUrl": "https://fraserelectric.com/fraser-electric.html",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The official page identifies Fraser as a Tallahassee-based electrical contractor providing electrical troubleshooting, repairs and panel upgrades for homes in the city.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 9,
+      "officialWebsiteFinalUrl": "https://fraserelectric.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "McKinney Electric of Tallahassee",
+      "website": "https://mckinneyelectricoftallahassee.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "electrical",
+      "sourceUrls": [
+        "https://mckinneyelectricoftallahassee.com/residential",
+        "https://mckinneyelectricoftallahassee.com/",
+        "https://mckinneyelectricoftallahassee.com/contact"
+      ],
+      "sourceUrl": "https://mckinneyelectricoftallahassee.com/residential",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The family-owned contractor describes home electrical panel upgrades, rewiring and outlet installation. Its contact page explicitly names Tallahassee as its service area.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 9,
+      "officialWebsiteFinalUrl": "https://mckinneyelectricoftallahassee.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "RC Electric of Tallahassee",
+      "website": "https://rcelectric.net/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "electrical",
+      "sourceUrls": [
+        "https://rcelectric.net/services/",
+        "https://rcelectric.net/"
+      ],
+      "sourceUrl": "https://rcelectric.net/services/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Tallahassee contractor offers residential panel replacements, wiring upgrades and electrical repairs. Its Florida license and contact details distinguish it from RC Electric in Mississippi.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 9,
+      "officialWebsiteFinalUrl": "https://rcelectric.net/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "McManus Kitchen and Bath",
+      "website": "https://mcmanuskitchenandbath.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "kitchen-bath-remodeling",
+      "sourceUrls": [
+        "https://mcmanuskitchenandbath.com/"
+      ],
+      "sourceUrl": "https://mcmanuskitchenandbath.com/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Tallahassee design-build contractor offers turnkey kitchen and bathroom renovation to homeowners and describes completed in-city remodeling work.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 10,
+      "officialWebsiteFinalUrl": "https://mcmanuskitchenandbath.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "H & H Construction & Restoration Services",
+      "website": "https://remodeltallahassee.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "kitchen-bath-remodeling",
+      "sourceUrls": [
+        "https://remodeltallahassee.com/residential-remodeling",
+        "https://remodeltallahassee.com/"
+      ],
+      "sourceUrl": "https://remodeltallahassee.com/residential-remodeling",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The residential remodeling page expressly offers Tallahassee homeowners turnkey kitchen and bathroom renovation, including cabinet and flooring installation.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 10,
+      "officialWebsiteFinalUrl": "https://remodeltallahassee.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Kelly's Garage Door Services",
+      "website": "https://www.kellysgaragedoorservices.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "garage-door-repair",
+      "sourceUrls": [
+        "https://www.kellysgaragedoorservices.com/"
+      ],
+      "sourceUrl": "https://www.kellysgaragedoorservices.com/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The Tallahassee shop’s site describes residential garage door installation and repair, including broken springs and garage door openers, and gives its local shop address.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 6,
+      "officialWebsiteFinalUrl": "https://www.kellysgaragedoorservices.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "Concrete Services Unlimited",
+      "website": "https://www.concreteservicesunlimitedinc.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "concrete",
+      "sourceUrls": [
+        "https://www.concreteservicesunlimitedinc.com/"
+      ],
+      "sourceUrl": "https://www.concreteservicesunlimitedinc.com/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "Owner Calvin Singleton Jr. says his Tallahassee company completes jobs in the city and offers residential concrete pouring for driveways, foundations and steps.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 10,
+      "officialWebsiteFinalUrl": "https://www.concreteservicesunlimitedinc.com/",
+      "unresolvedLimitation": null
+    },
+    {
+      "business": "J & H Masonry & Concrete",
+      "website": "https://www.jhmasonryconcrete.com/",
+      "citySlug": "tallahassee-fl",
+      "categorySlug": "concrete",
+      "sourceUrls": [
+        "https://www.jhmasonryconcrete.com/"
+      ],
+      "sourceUrl": "https://www.jhmasonryconcrete.com/",
+      "sourceVerifiedAt": "2026-11-21T04:55:43Z",
+      "evidenceNote": "The official site identifies the Tallahassee masonry contractor, its residential concrete services and its installation of driveways, patios and steps.",
+      "existingBusiness": false,
+      "baselineDisplayedCount": 10,
+      "officialWebsiteFinalUrl": "https://www.jhmasonryconcrete.com/",
+      "unresolvedLimitation": null
+    }
+  ],
+  "baselinePublicIdentitySearch": {
+    "Concrete Services Unlimited": {
+      "status": 200,
+      "results": []
+    },
+    "Duke Pest Services": {
+      "status": 200,
+      "results": []
+    },
+    "Emerald Coast Pool Management": {
+      "status": 200,
+      "results": []
+    },
+    "Fraser Electric": {
+      "status": 200,
+      "results": []
+    },
+    "GT Electric of Florida": {
+      "status": 200,
+      "results": []
+    },
+    "Garcia Pine Straw and Lawn Care": {
+      "status": 200,
+      "results": []
+    },
+    "H & H Construction & Restoration Services": {
+      "status": 200,
+      "results": []
+    },
+    "Hometown Garage Doors LLC": {
+      "status": 200,
+      "results": [
+        {
+          "slug": "hometown-garage-doors-llc-navarre-fl-garage-door-repair",
+          "name": "Hometown Garage Doors LLC",
+          "claimed": false,
+          "places": [
+            "Navarre, FL",
+            "Destin, FL",
+            "Fort Walton Beach, FL"
+          ],
+          "categories": [
+            "Garage door repair"
+          ]
+        }
+      ]
+    },
+    "J & H Masonry & Concrete": {
+      "status": 200,
+      "results": [
+        {
+          "slug": "absolute-top-concrete-masonry-panama-city-fl-concrete",
+          "name": "Absolute Top Concrete & Masonry",
+          "claimed": false,
+          "places": [
+            "Panama City, FL"
+          ],
+          "categories": [
+            "Concrete & driveways"
+          ]
+        },
+        {
+          "slug": "keith-s-concrete-masonry-tampa-fl-concrete",
+          "name": "Keith's Concrete & Masonry",
+          "claimed": false,
+          "places": [
+            "Tampa, FL"
+          ],
+          "categories": [
+            "Concrete & driveways"
+          ]
+        }
+      ]
+    },
+    "Kelly's Garage Door Services": {
+      "status": 200,
+      "results": []
+    },
+    "McKinney Electric of Tallahassee": {
+      "status": 200,
+      "results": []
+    },
+    "McManus Kitchen and Bath": {
+      "status": 200,
+      "results": []
+    },
+    "Newland Lawn Care": {
+      "status": 200,
+      "results": []
+    },
+    "Pool Captains": {
+      "status": 200,
+      "results": []
+    },
+    "RC Electric of Tallahassee": {
+      "status": 200,
+      "results": [
+        {
+          "slug": "rc-electric-gulfport-ms-generator-installation",
+          "name": "RC Electric",
+          "claimed": false,
+          "places": [
+            "Gulfport, MS"
+          ],
+          "categories": [
+            "Generator installation"
+          ]
+        },
+        {
+          "slug": "rcs-electrical-services-destin-fl-generator-installation",
+          "name": "RCS Electrical Services",
+          "claimed": false,
+          "places": [
+            "Destin, FL",
+            "Fort Walton Beach, FL",
+            "Crestview, FL"
+          ],
+          "categories": [
+            "Generator installation",
+            "Electrical"
+          ]
+        },
+        {
+          "slug": "one-source-heating-cooling-plumbing-electrical-huntsville-al-hvac",
+          "name": "One Source Heating, Cooling, Plumbing & Electrical",
+          "claimed": false,
+          "places": [
+            "Huntsville, AL"
+          ],
+          "categories": [
+            "HVAC",
+            "Plumbing",
+            "Electrical"
+          ]
+        }
+      ]
+    },
+    "Southeast Spray Foam Insulation": {
+      "status": 200,
+      "results": []
+    },
+    "Southern Door Company": {
+      "status": 200,
+      "results": []
+    },
+    "Taylored Services": {
+      "status": 200,
+      "results": []
+    },
+    "Tri-State Parking Lot Maintenance": {
+      "status": 200,
+      "results": []
+    },
+    "Trueline Fence": {
+      "status": 200,
+      "results": []
+    },
+    "YB Construction": {
+      "status": 200,
+      "results": []
+    }
+  },
+  "liveCoverage": {
+    "cities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "baselineDisplayedAt20": 241,
+    "baselineDisplayedBelow20": 879,
+    "baselineEmpty": 0,
+    "baselineDisplayedDeficit": 9429,
+    "qualificationBackedTotals": null
+  },
+  "researchSummary": {
+    "newQualifiedIdentities": 20,
+    "existingBaselineDomainsScreened": 117,
+    "pendingCandidates": 19,
+    "withheldCandidates": 9
+  }
+}
