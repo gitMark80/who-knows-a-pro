@@ -19,7 +19,7 @@ const leaked = directorySeed.filter((business) => isExcludedWebsite(business.web
 check('generated directory contains no excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
 check('no local-branch exceptions bypass national exclusions', !directorySeed.some(isAuditedExcludedDomainPlacement), 'zero placement exceptions');
 
-for (const domain of ['retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com', 'windowdepotemeraldcoast.com', 'maidright.com', 'maids.com', 'restoration1ofgulfcoast.com']) {
+for (const domain of ['arrowexterminators.com', 'retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com', 'windowdepotemeraldcoast.com', 'maidright.com', 'maids.com', 'restoration1ofgulfcoast.com']) {
   check(`required national exclusion: ${domain}`, isExcludedWebsite(`https://www.${domain}/example`), domain);
 }
 
@@ -32,6 +32,17 @@ check(
   'regional row remains eligible',
   isPublicDirectoryBusiness({ approved: 1, is_test: 0, website: 'https://example-regional-pro.test/', region: 'pensacola-fl', trade: 'plumbing' }),
   'non-excluded approved regional website passes',
+);
+
+check(
+  'claimed Arrow Exterminators is excluded from public surfaces',
+  !isPublicDirectoryBusiness({ approved: 1, is_test: 0, website: 'https://www.arrowexterminators.com/alabama/' }),
+  'the public filter applies to approved legacy profiles',
+);
+check(
+  'independent Panama City Arrow Pest Service remains eligible',
+  isPublicDirectoryBusiness({ approved: 1, is_test: 0, website: 'https://arrowps.com/', region: 'panama-city-fl', trade: 'pest-control' }),
+  'the Glover family business is distinct from Arrow Exterminators',
 );
 
 const report = {

@@ -11,6 +11,8 @@ export const excludedWebsiteDomains = [
   'truteam.com',
   // Puddle Pool Services operates a North American franchise network.
   'puddlepools.com',
+  // Arrow Exterminators reports 200 service centers across 16 states.
+  'arrowexterminators.com',
 
   // National/franchise brands and local aliases confirmed November 15, 2026.
   // Official-source evidence: reports/local-regional-only-2026-11-15.md.
