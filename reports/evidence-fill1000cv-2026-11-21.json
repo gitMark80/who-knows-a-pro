@@ -119,7 +119,7 @@
   "runDate": "2026-11-21",
   "baselineCommit": "05a1367679f11d74f79b49d545c1d0db2fb57544",
   "previousCheckpoint": "reports/progress-fill1000cu-2026-11-21.md",
-  "status": "validated_awaiting_production",
+  "status": "published_deployed_live_verified",
   "baselineDisplayedCoverage": {
     "activeCities": 40,
     "visibleCategories": 28,
@@ -537,7 +537,19 @@
       },
       "baselineDisplayedCount": 5,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/gulfport-ms/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.williamsmithpaintandbody.com/",
+          "title": "William Smith Paint and Body | Bumper Repairs | Gulfport, MS",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Beach Auto Painting & Collision",
@@ -566,7 +578,19 @@
       },
       "baselineDisplayedCount": 12,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/pensacola-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://beachautopainting.com/",
+          "title": "New Beach",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Dane's Pest Control",
@@ -595,7 +619,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://danespest.com/",
+          "title": "Pest Control North Alabama | Dane's Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "The Bug Doctor",
@@ -624,7 +660,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bugdoctor911.com/pest-control-service-huntsville--al",
+          "title": "Pest Control Services | Huntsville, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Bug Stompers",
@@ -653,7 +701,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.thebugstompers.net/services/pest-control",
+          "title": "Pest Control North Alabama | Bug Stompers",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "ATEC Pest Control",
@@ -682,7 +742,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://atecpestcontrol.com/about/",
+          "title": "About | ATEC Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Spectrum Pest Management",
@@ -711,7 +783,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.spectrumpestmanagement.com/about.html",
+          "title": "Background Information about Spectrum Pest Management",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Cothren's Pest Control",
@@ -740,7 +824,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://cothrenspest.com/about/",
+          "title": "About - Cothren's Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Scout Pest Control",
@@ -769,7 +865,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.scoutpestcontrol.com/pest-control-in-huntsville-al/",
+          "title": "Pest Control in Huntsville AL | Scout Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Milton Outdoors",
@@ -798,7 +906,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://miltonoutdoorsllc.com/",
+          "title": "Home",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Lawn King",
@@ -827,7 +947,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://lawnkingmontgomery.com/about-us/",
+          "title": "About Lawn King Lawn Care & Landscaping - Montgomery, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "New Leaf Lawn Care & Landscaping",
@@ -856,7 +988,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://lawncarelandscaping.wordpress.com/about/",
+          "title": "About New Leaf – Montgomery, AL | New Leaf Lawn Care & Landscaping",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Ground Effects",
@@ -885,7 +1029,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.groundeffects-landscaping.com/about-us",
+          "title": "About Us | Ground Effects LLC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Herb Pressure & Lawn Care",
@@ -914,7 +1070,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://herblawncarellc.com/",
+          "title": "Landscaping & Hardscaping in Montgomery, AL | Herb Pressure & Lawn Car",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Top Notch Lawns",
@@ -943,7 +1111,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/landscaping",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://topnotchlawns.com/about-top-notch-lawns-trusted-lawn-landscape-experts-al/",
+          "title": "About Us - Top Notch Lawns",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Burt's One Stop Shop",
@@ -972,7 +1152,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://burtsonestopshop.com/",
+          "title": "Burt's One Stop Shop | Auto Repair Montgomery, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "River Region Auto and Service",
@@ -1001,7 +1193,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://riverregionauto.com/",
+          "title": "River Region Auto and Services – Serving Montgomery since 1957",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Eagle Air & Battery",
@@ -1030,7 +1234,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.eagleairandbattery.com/",
+          "title": "Eagle Air & Battery | Engine Repairs | Montgomery, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Cloverdale Service Center",
@@ -1059,7 +1275,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.cloverdaleservicecenter-al.com/",
+          "title": "Cloverdale Service Center in Montgomery, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Crew Co",
@@ -1088,7 +1316,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://crewco.co/",
+          "title": "Crew Co",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Nicotri Electric",
@@ -1117,7 +1357,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.nicotrielectric.com/",
+          "title": "Certified Electrician in Baton Rouge | Nicotri Electric, Inc.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Double D Electric",
@@ -1146,7 +1398,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.doubledelectricbr.com/",
+          "title": "Electrical Services | Denham Springs, LA | Double D Electric",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "GSE Integrated",
@@ -1175,7 +1439,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.gseintegrated.com/about",
+          "title": "About GSE Integrated | Baton Rouge Electricians Since 2009",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Manno Electric",
@@ -1204,7 +1480,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.mannoelectricinc.com/about-manno-electric",
+          "title": "About Us - Manno Electric Inc",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Illuminate Electrical",
@@ -1233,7 +1521,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/electrical",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://illuminatebr.com/about/",
+          "title": "About Illuminate Electrical | Baton Rouge Electricians",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "D.A. Exterminating",
@@ -1262,7 +1562,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://daexterminating.com/residential/",
+          "title": "Residential Pest Control in New Orleans | DA Exterminating",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "JPC Exterminating",
@@ -1291,7 +1603,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.jpcexterminating.com/residential-pest-control",
+          "title": "Home Pest Control | New Orleans, LA | JPC Exterminating",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Safe Spot Pest Control",
@@ -1320,7 +1644,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.safespotpestcontrol.net/about-us",
+          "title": "About Us | safespotpest",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Audubon Pest Control",
@@ -1349,7 +1685,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://audubonpestcontrol.com/",
+          "title": "Audubon Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "General Heating & Air Conditioning",
@@ -1378,7 +1726,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://ghacnola.com/about/",
+          "title": "About Us",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Air It Up",
@@ -1407,7 +1767,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://airitupnola.com/",
+          "title": "HVAC Repair & Installation in New Orleans, LA | Air It Up",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Bruzeau's Air Conditioning & Heating",
@@ -1436,7 +1808,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://bruzeau.com/",
+          "title": "Bruzeau's Air Conditioning & Heating – Family-owned in Metairie since 1957 · Serving Greater New Orleans",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Bellande Services",
@@ -1465,7 +1849,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bellandeservices.com/",
+          "title": "Emergency HVAC Repair | Affordable HVAC Repairs | Bellande Services | New Orleans",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Chill Out A/C & Heating",
@@ -1494,7 +1890,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://chilloutac.com/about-us/",
+          "title": "About Us - Chill Out A/C & Heating, Inc",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Call the AC Guy",
@@ -1523,7 +1931,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://calltheacguy.com/about/",
+          "title": "About – calltheacguy.com",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Vanderbrook & Son",
@@ -1552,7 +1972,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://vanderbrookandson.com/about-our-company/",
+          "title": "About Vanderbrook & Son - Vanderbrook & Son",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "JC Services AC",
@@ -1581,7 +2013,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.jcservicesac.com/",
+          "title": "JC Services AC | HVAC & Plumbing Contractor in New Orleans & Northshore",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "H&E Comfort Services",
@@ -1610,7 +2054,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.hecomfortservices.com/about/",
+          "title": "About Us - H&E Comfort Services",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "La Grange AC & Heating",
@@ -1639,7 +2095,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://lagrangehvac.com/",
+          "title": "HVAC Repair in New Orleans, LA | La Grange AC & Heating",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Precise Comfort and Climate Specialists",
@@ -1668,7 +2136,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://precisecomfort.net/company/",
+          "title": "About Precise Comfort And Climate Specialists | New Orleans HVAC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Feniv's A/C and Heating",
@@ -1697,7 +2177,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.fenivsac.com/",
+          "title": "Air Conditioning | Fenivs | New Orleans",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Singleton Heating & Cooling",
@@ -1726,7 +2218,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.singletonac.com/",
+          "title": "Singleton Heating & Cooling",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Hagerman Services",
@@ -1755,7 +2259,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://hagermanservices.com/",
+          "title": "Hagerman Services: New Orleans HVAC Services",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Alliance Air Condition and Heating",
@@ -1784,7 +2300,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/hvac",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://nolaairandheat.com/",
+          "title": "Air Condition Repair – New Orleans Heating and Cooling",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Fencing Unlimited",
@@ -1813,7 +2341,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.fencingunlimited.com/",
+          "title": "Fencing Unlimited | Top Fencing Contractor in Birmingham",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Evergrove Landscaping",
@@ -1842,7 +2382,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.evergrovelandscapingllc.com/fence-installation-repair",
+          "title": "Fence Installation & Repair in Birmingham, AL | Evergrove Landscaping LLC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Swift Fencing Co.",
@@ -1871,7 +2423,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.swiftfencingco.com/",
+          "title": "Fence Experts | Birmingham, AL | Swift Fencing Co.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Birmingham Fence & Deck",
@@ -1900,7 +2464,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.birminghamfenceanddeck.com/",
+          "title": "Birmingham Fence & Deck - Home",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Coosa Valley Fence and Deck",
@@ -1929,7 +2505,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://coosavalleyfence.com/",
+          "title": "Coosa Valley Fence and Deck | Fence Company in Sylacauga, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Covenant Renovation",
@@ -1958,7 +2546,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://covenantrenovation.com/services/decks-pergolas",
+          "title": "Decks & Pergolas in Birmingham, AL | Covenant Renovation",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Sanchez Construction, Remodeling & Services",
@@ -1987,7 +2587,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.sanchezremodelingandroofing.com/fencing-services/",
+          "title": "Fencing Services | Birmingham, AL | Sanchez Construction, Remodeling & Services",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Athens Fence Co.",
@@ -2016,7 +2628,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.athensfence.com/",
+          "title": "Fence Company Huntsville, AL | Madison, AL | Athens Fence Co",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "CCE Fencing",
@@ -2045,7 +2669,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.ccefencing.com/",
+          "title": "CCE Fencing | Fence Contractor in Huntsville, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Dawfin Fence",
@@ -2074,7 +2710,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://dawfinfence.com/fence-installation-huntsville-al/",
+          "title": "Fence Installation in Huntsville, AL | Veteran Owned | Dawfin Fence",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Traditions Fence",
@@ -2103,7 +2751,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.traditionsfence.com/",
+          "title": "Fences and Gates | Huntsville, AL | Traditions Fence",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Creative Containment",
@@ -2132,7 +2792,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.ccfencing.com/services/wood-fence-installation",
+          "title": "Wood Fence Installation | Safe Containment | Huntsville, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "B&B Fence",
@@ -2161,7 +2833,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bnbfencing.com/about/",
+          "title": "About",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "CRC",
@@ -2190,7 +2874,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/insulation",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://buildwithcrc.com/services/spray-foam-insulation/baton-rouge",
+          "title": "Insulation Contractor in Baton Rouge, LA | CRC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Sunlight Contractors",
@@ -2219,7 +2915,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/insulation",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.sunlightcontractors.com/baton-rouge/",
+          "title": "Spray Foam Insulation Baton Rouge, LA | Sunlight Contractors",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "A2Z Garage Door Services",
@@ -2248,7 +2956,19 @@
       },
       "baselineDisplayedCount": 11,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/pensacola-fl/garage-door-repair",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://a2zgaragedoorfl.com/",
+          "title": "A2Z Garage Doors",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Jubilee Insulation",
@@ -2277,7 +2997,19 @@
       },
       "baselineDisplayedCount": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/daphne-al/insulation",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://jubileeinsulation.com/",
+          "title": "Jubilee Insulation",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Bay Pest Control",
@@ -2306,7 +3038,19 @@
       },
       "baselineDisplayedCount": 7,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/biloxi-ms/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://baypestcontrol.biz/",
+          "title": "Bay Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Billy's Septic Services",
@@ -2335,7 +3079,19 @@
       },
       "baselineDisplayedCount": 11,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/septic-services",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.billyssepticservices.com/",
+          "title": "Billy's Septic Services | Mobile, AL",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Suzy Q's Septic Services",
@@ -2364,7 +3120,19 @@
       },
       "baselineDisplayedCount": 11,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/septic-services",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.suzyqssepticservices.com/",
+          "title": "Affordable Septic Tank Pumping Services Near Me | Mobile, Alabama | Suzy Q's Septic",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Vargas Painting",
@@ -2393,7 +3161,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.vargaspaintingllc.com/",
+          "title": "Residential & Commercial Painting | Vargas Painting LLC | Baton Rouge",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Academy Painting",
@@ -2422,7 +3202,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.academypaintingbr.com/",
+          "title": "Academy Painting LLC – Your Trusted Painting Experts.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Bayou Painting",
@@ -2451,7 +3243,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bayoupainting.co/",
+          "title": "Bayou Painting",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "MJ Custom Painting",
@@ -2480,7 +3284,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://mjcustompainting.net/",
+          "title": "MJ Custom Painting LLC – Baton Rouge Painting Contractor",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Louisiana Painters",
@@ -2509,7 +3325,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.lapaintersllc.com/about-2",
+          "title": "About | Louisiana Painters LLC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "JB Master Painter & Remodeling",
@@ -2538,7 +3366,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/painting",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://jbmasterpainter.com/",
+          "title": "Baton Rouge Painter & Remodeling | JB Master Painter — Veteran Owned",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Al's Pest Control Service",
@@ -2569,7 +3409,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://alspestcontrol.com/about/",
+          "title": "ABOUT – Al's Pest Control Service, Inc.",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "J&J Exterminating",
@@ -2598,7 +3450,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.jjext.com/",
+          "title": "J&J Exterminating | Termite and Pest Control | Since 1959",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "LaJaunie's Pest Control",
@@ -2629,7 +3493,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/new-orleans-la/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.lajaunies.com/service/residential-pest-control/",
+          "title": "Same-Day Residential Pest Control in Louisiana",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Lisa's Paint & Body",
@@ -2658,7 +3534,19 @@
       },
       "baselineDisplayedCount": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://lisaspaintandbody.com/",
+          "title": "Car and Truck Repair & Painting - Tallahassee Florida - Lisa's Paint & Body",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Sheffield's Body Shop",
@@ -2687,7 +3575,19 @@
       },
       "baselineDisplayedCount": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://sheffieldcollision.com/about-us/",
+          "title": "About Us",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Tallahassee Accurate Auto",
@@ -2716,7 +3616,19 @@
       },
       "baselineDisplayedCount": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://accurateautofleet.com/",
+          "title": "Home - Tallahassee Accurate Auto",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "All American Auto Electric",
@@ -2745,7 +3657,19 @@
       },
       "baselineDisplayedCount": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://allamericanautoelectric.com/",
+          "title": "Auto Repair Tallahassee, FL - Expert Mechanics - All American Auto Electric",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Pedro's Auto Repair",
@@ -2774,7 +3698,19 @@
       },
       "baselineDisplayedCount": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.pedrosautorepairtallahassee.com/",
+          "title": "Pedro's Auto Repair | auto repair shop | 2874 Industrial Plaza Drive, Tallahassee, FL, USA",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Ray Gordon Brake Service",
@@ -2803,7 +3739,19 @@
       },
       "baselineDisplayedCount": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-mechanics",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.raygordonbrakeservice.com/brake-repair-services",
+          "title": "Brake Repair & Maintenance | Tallahassee, FL | Ray Gordon",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Roslund's Paint and Body Shop",
@@ -2832,7 +3780,19 @@
       },
       "baselineDisplayedCount": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://roslundspaintandbody.com/",
+          "title": "Roslund's Paint and Body Shop – Tallahassee Automotive Body Shop",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Advantage Auto Body of Tallahassee",
@@ -2861,7 +3821,19 @@
       },
       "baselineDisplayedCount": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://advantageautobodytlh.com/",
+          "title": "Advantage Auto Body of Tallahassee – Where Honesty and Quality Come First",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "BT Performance Unlimited",
@@ -2890,7 +3862,19 @@
       },
       "baselineDisplayedCount": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/auto-body-collision",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.btperformance-unlimited.com/",
+          "title": "BT Performance Unlimited Auto Body Repair – Tallahassee",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "EnviroCare",
@@ -2919,7 +3903,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": true,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.envirocarellc.com/",
+          "title": "EnviroCare — Family-Owned Alabama Since 1958",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Crown Service Termite & Pest",
@@ -2950,7 +3946,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.crownserviceal.com/",
+          "title": "Pest Control in Huntsville, AL | Crown Service Termite & Pest | Pest Control Near Me",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Pest King",
@@ -2981,7 +3989,19 @@
       },
       "baselineDisplayedCount": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/pest-control",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.pest-king.com/about",
+          "title": "About Pest King | Huntsville Pest Control",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Redstone Fencing",
@@ -3012,7 +4032,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://redstonefencing.com/",
+          "title": "Home - Redstone Fencing",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Rocket City Fence",
@@ -3041,7 +4073,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://rocketcityfence.com/",
+          "title": "Rocket City Fence LLC - Professional Fence Installation | Huntsville, Alabama",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Huntsville Residential Fencing",
@@ -3072,7 +4116,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://huntsvilleresidentialfencing.com/booking/",
+          "title": "Huntsville Fencing Service | Schedule For Free Quote",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Fencing North Alabama",
@@ -3101,7 +4157,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/huntsville-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://fencingnorthalabama.com/about-us/",
+          "title": "About Us – Fencing North Alabama",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Spartan Fence",
@@ -3130,7 +4198,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://spartanfenceco.com/residential/",
+          "title": "Residential Fence Installation in Birmingham, AL | Spartan",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "Premier Fence of Birmingham",
@@ -3161,7 +4241,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://premier-fences.com/residential-fencing/",
+          "title": "Residential Fencing Services | Warrior, Gardendale & Fultondale, AL | Premier Fence of Birmingham, LLC",
+          "identityConfirmed": true
+        }
+      }
     },
     {
       "name": "The Fence Dudes",
@@ -3192,7 +4284,19 @@
       },
       "baselineDisplayedCount": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/birmingham-al/fence-builders",
+        "exactCards": 1,
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://thefencedudes.com/residential-fencing/",
+          "title": "Residential Fencing - Fence Dudes: Expert Craftsmanship in Every Fence",
+          "identityConfirmed": true
+        }
+      }
     }
   ],
   "candidateReview": [
@@ -3370,14 +4474,62 @@
         "https://cooperscoatings.com/services/residential-new-construction-spray-foam.aspx",
         "https://cooperscoatings.com/"
       ]
+    },
+    {
+      "name": "Veteran Septic and Site Construction",
+      "market": "Panama City",
+      "category": "septic-services",
+      "status": "pending",
+      "issue": "Florida corporate registration corroborated the identity. A working first-party website that establishes direct residential septic service is still needed.",
+      "sources": [
+        "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l17000029731-5c6434ce-3064-469d-81be-7d9d9c99d973"
+      ]
+    },
+    {
+      "name": "Affordable Septic & Equipment Services",
+      "market": "Panama City",
+      "category": "septic-services",
+      "status": "pending",
+      "issue": "No official service website verified."
+    },
+    {
+      "name": "A-1 Septic Tank Service",
+      "market": "Panama City",
+      "category": "septic-services",
+      "status": "pending",
+      "issue": "The Southport license has a similar name to a Port Charlotte website. The Port Charlotte site does not establish the Bay County company’s official site or service area.",
+      "sources": [
+        "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=44973F4701BDBC6E382113B4D867417A",
+        "https://www.a1stsfl.com/"
+      ]
     }
   ],
   "publication": {
-    "validatedNewBusinesses": 91,
-    "validatedNewBusinessPlacements": 91,
-    "validatedExistingBusinessPlacements": 1,
-    "awaitingDeployment": 92,
-    "liveVerifiedNewBusinesses": 0
+    "dataCommit": "d5efaad122ee4f3acee8153ee1838d4bf80ce677",
+    "productionDeployment": {
+      "id": "dpl_CuhLQ2zQkKMj7ssS67uBeN8RNNhT",
+      "state": "READY",
+      "inspectorUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/CuhLQ2zQkKMj7ssS67uBeN8RNNhT"
+    },
+    "verifiedAt": "2026-11-21T23:07:23.644191+00:00",
+    "committedNewBusinesses": 91,
+    "committedNewBusinessPlacements": 91,
+    "committedExistingBusinessPlacements": 1,
+    "liveVerifiedNewBusinesses": 91,
+    "liveVerifiedNewBusinessPlacements": 91,
+    "liveVerifiedExistingBusinessPlacements": 1,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0,
+    "shortfallAgainst1000": 909,
+    "liveSuppressedNationalPlacements": 40,
+    "liveSuppressedNationalPlacementsByBrand": {
+      "CarMedic": 16,
+      "Lightspeed Restoration": 6,
+      "RestoPros": 6,
+      "Flooring America": 7,
+      "Tuffy Tire & Auto Service": 5
+    },
+    "remainingNationalCards": {}
   },
   "historicalScan": {
     "rawSourceRows": 584,
@@ -3405,7 +4557,8 @@
         "unsupported geography",
         "intermediary status"
       ],
-      "finding": "Its website describes vendor-backed nationwide retail and facility maintenance. The source supplies no direct residential locksmith service or placement-specific city evidence. Historical records are retained."
+      "finding": "Its website describes vendor-backed nationwide retail and facility maintenance. The source supplies no direct residential locksmith service or placement-specific city evidence. Historical records are retained.",
+      "liveProfileHttpStatus": 404
     },
     {
       "name": "Vixxo",
@@ -3458,6 +4611,54 @@
       "canonical public profile routes"
     ],
     "publishedBusinessSearchUsedForAbsence": false,
-    "candidateCollector": "The collector outputs review candidates. It does not publish and already reads the 20-placement deficit. No API spending."
+    "candidateCollector": "The collector outputs review candidates. It does not publish and already reads the 20-placement deficit. No API spending.",
+    "laterExistingDomains": [
+      "customserviceco.com",
+      "millermarineinc.net",
+      "floridainboards.com",
+      "thomasmarinepcb.com",
+      "profiberglassmarine.com",
+      "393marinerepair.com",
+      "crestviewmarine.wixsite.com",
+      "mobilemarinepro.com",
+      "sunshineirrigationco.com",
+      "cwsbuilds.com"
+    ],
+    "additionalReverifiedBaseline": [
+      {
+        "name": "Colson's Electrical Services",
+        "market": "crestview-fl",
+        "category": "generator-installation",
+        "sources": [
+          "https://www.colsonselectric.com/",
+          "https://generac.colsonselectric.com/"
+        ],
+        "finding": "Live target card links to its own official site. Crestview office and directly installed whole-home standby generators are supported. This is a previously listed business placement."
+      }
+    ]
+  },
+  "finalDisplayedCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "displayedAt20": 242,
+    "displayedBelow20": 878,
+    "displayedEmpty": 0,
+    "displayedPlacements": 13466,
+    "displayedDeficit": 9242,
+    "freshlyVerifiedAt20": 0,
+    "qualifyingAt20Unknown": 242,
+    "qualifyingDeficit": null
+  },
+  "coverageCountDiscrepancies": {},
+  "verificationChecks": {
+    "unchangedSeedEntries": 14959,
+    "baselineActionsInProgress": 0,
+    "prepublishActionsInProgress": 0,
+    "productionBuild": "passed",
+    "nationalGateRegression": "passed",
+    "liveCountReconciliation": "passed",
+    "fullHistoricalQualification": "pending"
   }
 }
