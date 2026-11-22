@@ -419,14 +419,14 @@
         "city": "baton-rouge-la",
         "trade": "insulation",
         "website": "https://www.cajunfoamsprayinsulation.com/",
-        "reason": "The site establishes homeowner insulation and statewide operations, but the Baton Rouge mention concerns volunteer work. Obtain a service-area page naming Baton Rouge or its parish."
+        "reason": "The site describes residential installation and a Port Allen operation. Its Baton Rouge reference concerns volunteering. Confirm service to Baton Rouge or a named service area that contains Baton Rouge."
       },
       {
         "name": "National Collision & RV Repair",
         "city": "mobile-al",
         "trade": "auto-body-collision",
         "website": "https://nationalcollisionrv.com/about.html",
-        "reason": "The website describes consumer automotive and RV repair. Confirm its local location and current ownership before listing."
+        "reason": "The official shop address is in Theodore, Alabama. The site confirms car and RV body repair. Confirm City of Mobile service coverage and ownership before placing it on the Mobile page."
       },
       {
         "name": "Fort Walton Garage Door Repair Guru",
@@ -583,7 +583,26 @@
         "website": null,
         "reason": "Check whether the alternate name is the same company and find a current official site showing homeowner service."
       }
-    ]
+    ],
+    "priorityRechecks": {
+      "alreadyPlaced": [
+        "Phoenix Services LLC in Crestview pool service and pool installation",
+        "Southland Pool & Lawn LLC in Crestview pool service",
+        "Spears Pest Control in Crestview pest control",
+        "Salty Waters Marine in Crestview marine services",
+        "The Dent-ist Paintless Dent Repair in Panama City collision repair"
+      ],
+      "unresolved": [
+        "H3O Pools in Panama City lacks a confirmed official site. The similarly named water systems website was not established as its site.",
+        "Lightning Pool Service and Construction in Crestview had a public licensing record but no confirmed official business site.",
+        "Fowlers Septic Tanks in Crestview had registry and third-party entries but no working official site was confirmed.",
+        "Emerald Coast Pest Control led to entity and third-party profiles; alternate brand identity and official site are unresolved."
+      ],
+      "existingPlacementsAccepted": [
+        "Gulf Coast Appliance in Destin appliance repair"
+      ]
+    },
+    "pipeline": "The existing collector outputs review candidates separately. It does not write public seed data. Public seed ingestion has no five-listing cap."
   },
   "placements": [
     {
@@ -623,7 +642,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Vic's Custom Paint & Body",
+          "city": "mobile-al",
+          "trade": "auto-body-collision",
+          "page": "https://whoknowsapro.com/mobile-al/auto-body-collision",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Vic's Custom Paint & Body",
+              "links": [
+                "https://www.vicspaintandbody.com/paint-body-services"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.vicspaintandbody.com/paint-body-services",
+          "title": "Paint & Body Services in Mobile, AL | Vic’s Custom Paint & Body",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.vicspaintandbody.com/paint-body-services",
+            "status": 200,
+            "finalUrl": "https://www.vicspaintandbody.com/paint-body-services",
+            "title": "Paint & Body Services in Mobile, AL | Vic’s Custom Paint & Body"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Nature by Design ATL",
@@ -669,7 +724,49 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Nature by Design ATL",
+          "city": "atlanta-ga",
+          "trade": "landscaping",
+          "page": "https://whoknowsapro.com/atlanta-ga/landscaping",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Nature by Design ATL",
+              "links": [
+                "https://www.naturebydesignatl.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.naturebydesignatl.com/",
+          "title": "Landscape Design & Installation | Nature by Design ATL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.naturebydesignatl.com/",
+            "status": 200,
+            "finalUrl": "https://www.naturebydesignatl.com/",
+            "title": "Landscape Design & Installation | Nature by Design ATL"
+          },
+          {
+            "url": "https://www.naturebydesignatl.com/contact",
+            "status": 200,
+            "finalUrl": "https://www.naturebydesignatl.com/contact",
+            "title": "Landscape Consultation | Nature by Design ATL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Bloom'n Gardens Landscape",
@@ -708,7 +805,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Bloom'n Gardens Landscape",
+          "city": "atlanta-ga",
+          "trade": "landscaping",
+          "page": "https://whoknowsapro.com/atlanta-ga/landscaping",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Bloom'n Gardens Landscape",
+              "links": [
+                "https://bloomngardens.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://bloomngardens.com/about/",
+          "title": "About Us | Bloom’n Gardens Landscape",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://bloomngardens.com/about/",
+            "status": 200,
+            "finalUrl": "https://bloomngardens.com/about/",
+            "title": "About Us | Bloom’n Gardens Landscape"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Miller Landscape",
@@ -747,7 +880,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Miller Landscape",
+          "city": "atlanta-ga",
+          "trade": "landscaping",
+          "page": "https://whoknowsapro.com/atlanta-ga/landscaping",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Miller Landscape",
+              "links": [
+                "https://millerlandscape-maintenance.com/about-us"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://millerlandscape-maintenance.com/about-us",
+          "title": "About Our Company | Our History",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://millerlandscape-maintenance.com/about-us",
+            "status": 200,
+            "finalUrl": "https://millerlandscape-maintenance.com/about-us",
+            "title": "About Our Company | Our History"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "C & J Landscape",
@@ -786,7 +955,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "C & J Landscape",
+          "city": "atlanta-ga",
+          "trade": "landscaping",
+          "page": "https://whoknowsapro.com/atlanta-ga/landscaping",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "C & J Landscape",
+              "links": [
+                "https://c-and-j-landscaping.com/about"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://c-and-j-landscaping.com/about",
+          "title": "About Us — C & J Landscape",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://c-and-j-landscaping.com/about",
+            "status": 200,
+            "finalUrl": "https://c-and-j-landscaping.com/about",
+            "title": "About Us — C & J Landscape"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Soules Landscapes",
@@ -825,7 +1030,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Soules Landscapes",
+          "city": "atlanta-ga",
+          "trade": "landscaping",
+          "page": "https://whoknowsapro.com/atlanta-ga/landscaping",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Soules Landscapes",
+              "links": [
+                "https://souleslandscapes.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://souleslandscapes.com/",
+          "title": "Landscape design and build in Atlanta | Soules Landscapes",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://souleslandscapes.com/",
+            "status": 200,
+            "finalUrl": "https://souleslandscapes.com/",
+            "title": "Landscape design and build in Atlanta | Soules Landscapes"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Camden & Co Lawn Care",
@@ -864,7 +1105,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Camden & Co Lawn Care",
+          "city": "atlanta-ga",
+          "trade": "landscaping",
+          "page": "https://whoknowsapro.com/atlanta-ga/landscaping",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Camden & Co Lawn Care",
+              "links": [
+                "https://camdenlawnguys.com/about"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://camdenlawnguys.com/about",
+          "title": "About | Camden & Co Lawn Care",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://camdenlawnguys.com/about",
+            "status": 200,
+            "finalUrl": "https://camdenlawnguys.com/about",
+            "title": "About | Camden & Co Lawn Care"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Power Garage Doors",
@@ -903,7 +1180,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Power Garage Doors",
+          "city": "miami-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/miami-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Power Garage Doors",
+              "links": [
+                "https://www.powergaragedoors.us/about-us/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.powergaragedoors.us/about-us/",
+          "title": "About Us: Licensed Garage Door Company in Hialeah | Power Garage Doors",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.powergaragedoors.us/about-us/",
+            "status": 200,
+            "finalUrl": "https://www.powergaragedoors.us/about-us/",
+            "title": "About Us: Licensed Garage Door Company in Hialeah | Power Garage Doors"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Joe's Doors",
@@ -942,7 +1255,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Joe's Doors",
+          "city": "miami-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/miami-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Joe's Doors",
+              "links": [
+                "https://www.joesdoors.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.joesdoors.com/about/",
+          "title": "About Joes Doors Garage Door Services in Florida",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.joesdoors.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.joesdoors.com/about/",
+            "title": "About Joes Doors Garage Door Services in Florida"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Pro Garage Doors",
@@ -981,7 +1330,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Pro Garage Doors",
+          "city": "miami-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/miami-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Pro Garage Doors",
+              "links": [
+                "https://progaragedoorsusa.com/miami-dade-county/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://progaragedoorsusa.com/miami-dade-county/",
+          "title": "Garage Door Repair in Miami-Dade County, FL | Pro Garage Doors",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://progaragedoorsusa.com/miami-dade-county/",
+            "status": 200,
+            "finalUrl": "https://progaragedoorsusa.com/miami-dade-county/",
+            "title": "Garage Door Repair in Miami-Dade County, FL | Pro Garage Doors"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Havacar Autobody",
@@ -1020,7 +1405,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Havacar Autobody",
+          "city": "clearwater-fl",
+          "trade": "auto-body-collision",
+          "page": "https://whoknowsapro.com/clearwater-fl/auto-body-collision",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Havacar Autobody",
+              "links": [
+                "https://www.havacarautobody.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.havacarautobody.com/",
+          "title": "Havacar Autobody - Collision Repairs, Custom Painting, Body Work, Restorations and more!",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.havacarautobody.com/",
+            "status": 200,
+            "finalUrl": "https://www.havacarautobody.com/",
+            "title": "Havacar Autobody - Collision Repairs, Custom Painting, Body Work, Restorations and more!"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Driven Image Customs",
@@ -1059,7 +1480,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Driven Image Customs",
+          "city": "clearwater-fl",
+          "trade": "auto-body-collision",
+          "page": "https://whoknowsapro.com/clearwater-fl/auto-body-collision",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Driven Image Customs",
+              "links": [
+                "https://drivenimageauto.com/cosmetic-light-collision-repair/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://drivenimageauto.com/cosmetic-light-collision-repair/",
+          "title": "Cosmetic & Light Collision Repair Clearwater FL | Fast Fixes",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://drivenimageauto.com/cosmetic-light-collision-repair/",
+            "status": 200,
+            "finalUrl": "https://drivenimageauto.com/cosmetic-light-collision-repair/",
+            "title": "Cosmetic & Light Collision Repair Clearwater FL | Fast Fixes"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Red Mountain Pest & Termite",
@@ -1098,7 +1555,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Red Mountain Pest & Termite",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Red Mountain Pest & Termite",
+              "links": [
+                "https://redmountainpest.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://redmountainpest.com/",
+          "title": "Pest & Termite Control in Birmingham, AL | Red Mountain Pest",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://redmountainpest.com/",
+            "status": 200,
+            "finalUrl": "https://redmountainpest.com/",
+            "title": "Pest & Termite Control in Birmingham, AL | Red Mountain Pest"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "The Bug Man",
@@ -1137,7 +1630,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "The Bug Man",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "The Bug Man",
+              "links": [
+                "https://bugmanbham.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://bugmanbham.com/",
+          "title": "Birmingham Pest & Ant Control | The Bug Man",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://bugmanbham.com/",
+            "status": 200,
+            "finalUrl": "https://bugmanbham.com/",
+            "title": "Birmingham Pest & Ant Control | The Bug Man"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Pest X Pest Services",
@@ -1176,7 +1705,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Pest X Pest Services",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Pest X Pest Services",
+              "links": [
+                "https://www.pestxalabama.com/birmingham"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.pestxalabama.com/birmingham",
+          "title": "Pest Control Birmingham AL | Family-Owned, From $39/mo",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.pestxalabama.com/birmingham",
+            "status": 200,
+            "finalUrl": "https://www.pestxalabama.com/birmingham",
+            "title": "Pest Control Birmingham AL | Family-Owned, From $39/mo"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Sipsey Pest Solutions",
@@ -1215,7 +1780,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Sipsey Pest Solutions",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Sipsey Pest Solutions",
+              "links": [
+                "https://www.sipseypestsolutions.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.sipseypestsolutions.com/",
+          "title": "Pest Control Birmingham AL | Sipsey Pest Solutions",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.sipseypestsolutions.com/",
+            "status": 200,
+            "finalUrl": "https://www.sipseypestsolutions.com/",
+            "title": "Pest Control Birmingham AL | Sipsey Pest Solutions"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Guardian Pest & Wildlife Control",
@@ -1254,7 +1855,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Guardian Pest & Wildlife Control",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Guardian Pest & Wildlife Control",
+              "links": [
+                "https://www.guardianpestandwildlifecontrol.com/about-us/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.guardianpestandwildlifecontrol.com/about-us/",
+          "title": "ABOUT US - Guardian Pest & Wildlife Control | Birmingham & Chelsea, AL Pest Inspections & Treatment | Bed Bugs, Termite Inspection & WIR Wood Infestation Report | Mosquito, Ant, Cockroach, Spider, Scorpion, Tick, Flea, Bee & Wasp Stinging Insect Nest Removal | Mice & Rat Rodent, Pigeon, Squirrel, Raccoon, Possum, Bat & Snake Wildlife Exclusion Management in Jefferson, St. Clair & Shelby County, Alabama",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.guardianpestandwildlifecontrol.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://www.guardianpestandwildlifecontrol.com/about-us/",
+            "title": "ABOUT US - Guardian Pest & Wildlife Control | Birmingham & Chelsea, AL Pest Inspections & Treatment | Bed Bugs, Termite Inspection & WIR Wood Infestation Report | Mosquito, Ant, Cockroach, Spider, Scorpion, Tick, Flea, Bee & Wasp Stinging Insect Nest Removal | Mice & Rat Rodent, Pigeon, Squirrel, Raccoon, Possum, Bat & Snake Wildlife Exclusion Management in Jefferson, St. Clair & Shelby County, Alabama"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Superior Pest Management",
@@ -1293,7 +1930,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Superior Pest Management",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Superior Pest Management",
+              "links": [
+                "https://www.superiorpestal.com/birmingham-al-pest-control"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.superiorpestal.com/birmingham-al-pest-control",
+          "title": "Birmingham, AL Pest Control — Superior Pest Management",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.superiorpestal.com/birmingham-al-pest-control",
+            "status": 200,
+            "finalUrl": "https://www.superiorpestal.com/birmingham-al-pest-control",
+            "title": "Birmingham, AL Pest Control — Superior Pest Management"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Blanton Exterminating Company",
@@ -1332,7 +2005,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Blanton Exterminating Company",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Blanton Exterminating Company",
+              "links": [
+                "https://www.blantonext.net/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.blantonext.net/",
+          "title": "Home | Blanton Exterminating Company",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.blantonext.net/",
+            "status": 200,
+            "finalUrl": "https://www.blantonext.net/",
+            "title": "Home | Blanton Exterminating Company"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Vulcan Termite & Pest Control",
@@ -1371,7 +2080,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Vulcan Termite & Pest Control",
+          "city": "birmingham-al",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/birmingham-al/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Vulcan Termite & Pest Control",
+              "links": [
+                "https://www.vulcantermite.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.vulcantermite.com/",
+          "title": "Pest Control & Extermination Services in Birmingham, AL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.vulcantermite.com/",
+            "status": 200,
+            "finalUrl": "https://www.vulcantermite.com/",
+            "title": "Pest Control & Extermination Services in Birmingham, AL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Huntsville Superior Concrete",
@@ -1410,7 +2155,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Huntsville Superior Concrete",
+          "city": "huntsville-al",
+          "trade": "concrete",
+          "page": "https://whoknowsapro.com/huntsville-al/concrete",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Huntsville Superior Concrete",
+              "links": [
+                "https://huntsvillesuperiorconcrete.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://huntsvillesuperiorconcrete.com/",
+          "title": "Huntsville Superior Concrete | Huntsville Concrete Contractor",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://huntsvillesuperiorconcrete.com/",
+            "status": 200,
+            "finalUrl": "https://huntsvillesuperiorconcrete.com/",
+            "title": "Huntsville Superior Concrete | Huntsville Concrete Contractor"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Aqua Docs Pool Service",
@@ -1449,7 +2230,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Aqua Docs Pool Service",
+          "city": "panama-city-fl",
+          "trade": "pool-service",
+          "page": "https://whoknowsapro.com/panama-city-fl/pool-service",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Aqua Docs Pool Service",
+              "links": [
+                "https://aquadocspool.com/contact/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://aquadocspool.com/contact/",
+          "title": "Contact Aqua Docs Pool Service | Request Pool Repair NW FL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://aquadocspool.com/contact/",
+            "status": 200,
+            "finalUrl": "https://aquadocspool.com/contact/",
+            "title": "Contact Aqua Docs Pool Service | Request Pool Repair NW FL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Adams Air & Electric",
@@ -1488,7 +2305,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Adams Air & Electric",
+          "city": "biloxi-ms",
+          "trade": "electrical",
+          "page": "https://whoknowsapro.com/biloxi-ms/electrical",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Adams Air & Electric",
+              "links": [
+                "https://www.adamsairandelectric.com/electrical/3738712"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.adamsairandelectric.com/electrical/3738712",
+          "title": "Outages | Electrical Repair | Electrician | Biloxi, MS",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.adamsairandelectric.com/electrical/3738712",
+            "status": 200,
+            "finalUrl": "https://www.adamsairandelectric.com/electrical/3738712",
+            "title": "Outages | Electrical Repair | Electrician | Biloxi, MS"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "C & A Landscape",
@@ -1527,7 +2380,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "C & A Landscape",
+          "city": "tallahassee-fl",
+          "trade": "irrigation-sprinkler-repair",
+          "page": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "C & A Landscape",
+              "links": [
+                "https://www.calandscapellc.com/irrigation"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.calandscapellc.com/irrigation",
+          "title": "Irrigation | C & A  Landscape | Tallahassee, Florida",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.calandscapellc.com/irrigation",
+            "status": 200,
+            "finalUrl": "https://www.calandscapellc.com/irrigation",
+            "title": "Irrigation | C & A  Landscape | Tallahassee, Florida"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "O-Town Fencing",
@@ -1566,7 +2455,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "O-Town Fencing",
+          "city": "orlando-fl",
+          "trade": "fence-builders",
+          "page": "https://whoknowsapro.com/orlando-fl/fence-builders",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "O-Town Fencing",
+              "links": [
+                "https://o-townfencing.com/about-us"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://o-townfencing.com/about-us",
+          "title": "About O-Town Fencing | Owner-Operated Fence Company",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://o-townfencing.com/about-us",
+            "status": 200,
+            "finalUrl": "https://o-townfencing.com/about-us",
+            "title": "About O-Town Fencing | Owner-Operated Fence Company"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Gifford Fence",
@@ -1605,7 +2530,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Gifford Fence",
+          "city": "orlando-fl",
+          "trade": "fence-builders",
+          "page": "https://whoknowsapro.com/orlando-fl/fence-builders",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Gifford Fence",
+              "links": [
+                "https://www.giffordfenceorlando.com/wood-fence-prices.html"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.giffordfenceorlando.com/wood-fence-prices.html",
+          "title": "Wood Fence Orlando, FL | Installation & Repair | Gifford - Gifford Fence",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.giffordfenceorlando.com/wood-fence-prices.html",
+            "status": 200,
+            "finalUrl": "https://www.giffordfenceorlando.com/wood-fence-prices.html",
+            "title": "Wood Fence Orlando, FL | Installation & Repair | Gifford - Gifford Fence"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "L&C Fence",
@@ -1644,7 +2605,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "L&C Fence",
+          "city": "orlando-fl",
+          "trade": "fence-builders",
+          "page": "https://whoknowsapro.com/orlando-fl/fence-builders",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "L&C Fence",
+              "links": [
+                "https://lcfencellc.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://lcfencellc.com/",
+          "title": "L&C Fence LLC | Fence Installation & Repair in Orlando, FL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://lcfencellc.com/",
+            "status": 200,
+            "finalUrl": "https://lcfencellc.com/",
+            "title": "L&C Fence LLC | Fence Installation & Repair in Orlando, FL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Beach Environmental Pest Control",
@@ -1683,7 +2680,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Beach Environmental Pest Control",
+          "city": "west-palm-beach-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Beach Environmental Pest Control",
+              "links": [
+                "https://www.beach-environmental.com/west-palm-beach-pest-control/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.beach-environmental.com/west-palm-beach-pest-control/",
+          "title": "Exterminator Services in West Palm Beach | Beach Environmental Pest Control",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.beach-environmental.com/west-palm-beach-pest-control/",
+            "status": 200,
+            "finalUrl": "https://www.beach-environmental.com/west-palm-beach-pest-control/",
+            "title": "Exterminator Services in West Palm Beach | Beach Environmental Pest Control"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Paino Pest Management",
@@ -1722,7 +2755,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Paino Pest Management",
+          "city": "west-palm-beach-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Paino Pest Management",
+              "links": [
+                "https://www.painopest.com/about"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.painopest.com/about",
+          "title": "About The Company — Paino Pest Management",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.painopest.com/about",
+            "status": 200,
+            "finalUrl": "https://www.painopest.com/about",
+            "title": "About The Company — Paino Pest Management"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Xecutive Garage Door",
@@ -1761,7 +2830,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Xecutive Garage Door",
+          "city": "atlanta-ga",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/atlanta-ga/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Xecutive Garage Door",
+              "links": [
+                "https://xecutivegaragedoors.com/about"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://xecutivegaragedoors.com/about",
+          "title": "About Xecutive Garage Door | Metro Atlanta's Trusted Local Garage Door Team",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://xecutivegaragedoors.com/about",
+            "status": 200,
+            "finalUrl": "https://xecutivegaragedoors.com/about",
+            "title": "About Xecutive Garage Door | Metro Atlanta's Trusted Local Garage Door Team"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Able Tree Service",
@@ -1800,7 +2905,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Able Tree Service",
+          "city": "new-orleans-la",
+          "trade": "tree-service",
+          "page": "https://whoknowsapro.com/new-orleans-la/tree-service",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Able Tree Service",
+              "links": [
+                "https://abletreeforme.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://abletreeforme.com/",
+          "title": "Tree Service New Orleans & Metairie | Able Tree Service",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://abletreeforme.com/",
+            "status": 200,
+            "finalUrl": "https://abletreeforme.com/",
+            "title": "Tree Service New Orleans & Metairie | Able Tree Service"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "PestArmor Termite & Pest Services",
@@ -1839,7 +2980,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "PestArmor Termite & Pest Services",
+          "city": "sarasota-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/sarasota-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "PestArmor Termite & Pest Services",
+              "links": [
+                "https://www.pestarmorservices.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.pestarmorservices.com/",
+          "title": "PestArmor Termite & Pest Services Sarasota County | Trusted Pest Control",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.pestarmorservices.com/",
+            "status": 200,
+            "finalUrl": "https://www.pestarmorservices.com/",
+            "title": "PestArmor Termite & Pest Services Sarasota County | Trusted Pest Control"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Steve's Termite & Pest Control",
@@ -1878,7 +3055,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Steve's Termite & Pest Control",
+          "city": "sarasota-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/sarasota-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Steve's Termite & Pest Control",
+              "links": [
+                "https://www.stevespest.com/about-steves-termite-pest-control-sarasota-florida.html"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.stevespest.com/about-steves-termite-pest-control-sarasota-florida.html",
+          "title": "About Steve's Termite and Pest Control in Sarasota, Florida",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.stevespest.com/about-steves-termite-pest-control-sarasota-florida.html",
+            "status": 200,
+            "finalUrl": "https://www.stevespest.com/about-steves-termite-pest-control-sarasota-florida.html",
+            "title": "About Steve's Termite and Pest Control in Sarasota, Florida"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "A-Banish Pest Control",
@@ -1917,7 +3130,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "A-Banish Pest Control",
+          "city": "sarasota-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/sarasota-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "A-Banish Pest Control",
+              "links": [
+                "https://www.abanishpestcontrol.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.abanishpestcontrol.com/",
+          "title": "A-Banish Pest Control | Sarasota's Family Pest Control Since 1996",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.abanishpestcontrol.com/",
+            "status": 200,
+            "finalUrl": "https://www.abanishpestcontrol.com/",
+            "title": "A-Banish Pest Control | Sarasota's Family Pest Control Since 1996"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Pestherapy",
@@ -1956,7 +3205,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Pestherapy",
+          "city": "sarasota-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/sarasota-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Pestherapy",
+              "links": [
+                "https://pestherapy.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://pestherapy.com/",
+          "title": "Home - Pestherapy",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://pestherapy.com/",
+            "status": 200,
+            "finalUrl": "https://pestherapy.com/",
+            "title": "Home - Pestherapy"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Hall's Termite and Pest Co.",
@@ -1995,7 +3280,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Hall's Termite and Pest Co.",
+          "city": "sarasota-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/sarasota-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Hall's Termite and Pest Co.",
+              "links": [
+                "https://www.hallspest.com/about-us"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.hallspest.com/about-us",
+          "title": "Pest Control Company Sarasota FL - Hall's Termite and Pest Co",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.hallspest.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.hallspest.com/about-us",
+            "title": "Pest Control Company Sarasota FL - Hall's Termite and Pest Co"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Pest n' Tent",
@@ -2034,7 +3355,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:52:54.808439+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Pest n' Tent",
+          "city": "sarasota-fl",
+          "trade": "pest-control",
+          "page": "https://whoknowsapro.com/sarasota-fl/pest-control",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Pest n' Tent",
+              "links": [
+                "https://pestntent.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://pestntent.com/",
+          "title": "Home - Pest n' Tent LLC",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://pestntent.com/",
+            "status": 200,
+            "finalUrl": "https://pestntent.com/",
+            "title": "Home - Pest n' Tent LLC"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Sunshine Plumbing",
@@ -2073,7 +3430,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Sunshine Plumbing",
+          "city": "baton-rouge-la",
+          "trade": "plumbing",
+          "page": "https://whoknowsapro.com/baton-rouge-la/plumbing",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Sunshine Plumbing",
+              "links": [
+                "https://www.sunshineplumbingco.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.sunshineplumbingco.com/",
+          "title": "Baton Rouge Plumber | 10+ Years of Experience",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.sunshineplumbingco.com/",
+            "status": 200,
+            "finalUrl": "https://www.sunshineplumbingco.com/",
+            "title": "Baton Rouge Plumber | 10+ Years of Experience"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Bayou Crew Plumbing",
@@ -2112,7 +3505,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Bayou Crew Plumbing",
+          "city": "baton-rouge-la",
+          "trade": "plumbing",
+          "page": "https://whoknowsapro.com/baton-rouge-la/plumbing",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Bayou Crew Plumbing",
+              "links": [
+                "https://www.callbayoucrew.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.callbayoucrew.com/about/",
+          "title": "About Your Local Baton Rouge Plumbing Company | Bayou Crew Plumbing",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.callbayoucrew.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.callbayoucrew.com/about/",
+            "title": "About Your Local Baton Rouge Plumbing Company | Bayou Crew Plumbing"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Reliable Plumbing",
@@ -2151,7 +3580,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Reliable Plumbing",
+          "city": "baton-rouge-la",
+          "trade": "plumbing",
+          "page": "https://whoknowsapro.com/baton-rouge-la/plumbing",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Reliable Plumbing",
+              "links": [
+                "https://reliableplumbinginc.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://reliableplumbinginc.com/",
+          "title": "Plumbing Services in Baton Rouge, LA | Reliable Plumbing",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://reliableplumbinginc.com/",
+            "status": 200,
+            "finalUrl": "https://reliableplumbinginc.com/",
+            "title": "Plumbing Services in Baton Rouge, LA | Reliable Plumbing"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Bennett Plumbing Heating & Air",
@@ -2190,7 +3655,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Bennett Plumbing Heating & Air",
+          "city": "baton-rouge-la",
+          "trade": "plumbing",
+          "page": "https://whoknowsapro.com/baton-rouge-la/plumbing",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Bennett Plumbing Heating & Air",
+              "links": [
+                "https://bennettpha.com/about-us/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://bennettpha.com/about-us/",
+          "title": "About Us | Bennett Plumbing Heating & Air",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://bennettpha.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://bennettpha.com/about-us/",
+            "title": "About Us | Bennett Plumbing Heating & Air"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "AAction Sprinkler Repair",
@@ -2229,7 +3730,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "AAction Sprinkler Repair",
+          "city": "orlando-fl",
+          "trade": "irrigation-sprinkler-repair",
+          "page": "https://whoknowsapro.com/orlando-fl/irrigation-sprinkler-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "AAction Sprinkler Repair",
+              "links": [
+                "https://www.aactionsprinkler.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.aactionsprinkler.com/",
+          "title": "Sprinkler Repair Central Florida | AAction Sprinkler Repair",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.aactionsprinkler.com/",
+            "status": 200,
+            "finalUrl": "https://www.aactionsprinkler.com/",
+            "title": "Sprinkler Repair Central Florida | AAction Sprinkler Repair"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "SalSan Irrigation",
@@ -2268,7 +3805,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "SalSan Irrigation",
+          "city": "orlando-fl",
+          "trade": "irrigation-sprinkler-repair",
+          "page": "https://whoknowsapro.com/orlando-fl/irrigation-sprinkler-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "SalSan Irrigation",
+              "links": [
+                "https://salsanirrigation.com/sprinkler-repair"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://salsanirrigation.com/sprinkler-repair",
+          "title": "Seo / Sprinkler Repair | SalSan Irrigation",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://salsanirrigation.com/sprinkler-repair",
+            "status": 200,
+            "finalUrl": "https://salsanirrigation.com/sprinkler-repair",
+            "title": "Seo / Sprinkler Repair | SalSan Irrigation"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Elite Irrigation Maintenance",
@@ -2307,7 +3880,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Elite Irrigation Maintenance",
+          "city": "orlando-fl",
+          "trade": "irrigation-sprinkler-repair",
+          "page": "https://whoknowsapro.com/orlando-fl/irrigation-sprinkler-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Elite Irrigation Maintenance",
+              "links": [
+                "https://www.eliteirrigationmaintenance.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.eliteirrigationmaintenance.com/",
+          "title": "Elite Irrigation Maintenance | Irrigation & Sprinkler Installation",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.eliteirrigationmaintenance.com/",
+            "status": 200,
+            "finalUrl": "https://www.eliteirrigationmaintenance.com/",
+            "title": "Elite Irrigation Maintenance | Irrigation & Sprinkler Installation"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "LDS Garage Doors",
@@ -2346,7 +3955,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "LDS Garage Doors",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "LDS Garage Doors",
+              "links": [
+                "https://www.ldsgaragedoors.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.ldsgaragedoors.com/",
+          "title": "Jacksonville Garage Door Repair | LDS Garage Doors",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.ldsgaragedoors.com/",
+            "status": 200,
+            "finalUrl": "https://www.ldsgaragedoors.com/",
+            "title": "Jacksonville Garage Door Repair | LDS Garage Doors"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "WeFix Garage Doors",
@@ -2385,7 +4030,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "WeFix Garage Doors",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "WeFix Garage Doors",
+              "links": [
+                "https://wefixgaragedoor.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://wefixgaragedoor.com/about/",
+          "title": "About WeFix Garage Doors | Family-Owned in Jacksonville Since 1996",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://wefixgaragedoor.com/about/",
+            "status": 200,
+            "finalUrl": "https://wefixgaragedoor.com/about/",
+            "title": "About WeFix Garage Doors | Family-Owned in Jacksonville Since 1996"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "A1A Overhead Door Company",
@@ -2424,7 +4105,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "A1A Overhead Door Company",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "A1A Overhead Door Company",
+              "links": [
+                "https://www.a1aoverheaddoors.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.a1aoverheaddoors.com/about/",
+          "title": "About | A1A Overhead Door Company",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.a1aoverheaddoors.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.a1aoverheaddoors.com/about/",
+            "title": "About | A1A Overhead Door Company"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "America's Garage Doors",
@@ -2463,7 +4180,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "America's Garage Doors",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "America's Garage Doors",
+              "links": [
+                "https://www.americasgaragedoors.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.americasgaragedoors.com/about/",
+          "title": "About | America's Garage Doors",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.americasgaragedoors.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.americasgaragedoors.com/about/",
+            "title": "About | America's Garage Doors"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Coastal Door and Gate",
@@ -2502,7 +4255,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Coastal Door and Gate",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Coastal Door and Gate",
+              "links": [
+                "https://www.coastaldoorandgate.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.coastaldoorandgate.com/",
+          "title": "Garage door repair | Coastal Door and Gate LLC | Jacksonville",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.coastaldoorandgate.com/",
+            "status": 200,
+            "finalUrl": "https://www.coastaldoorandgate.com/",
+            "title": "Garage door repair | Coastal Door and Gate LLC | Jacksonville"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Burdens Overhead Door",
@@ -2541,7 +4330,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Burdens Overhead Door",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Burdens Overhead Door",
+              "links": [
+                "https://burdensdoorsjax.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://burdensdoorsjax.com/about/",
+          "title": "Garage Door Service in Jacksonville | Burdens Doors Jax",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://burdensdoorsjax.com/about/",
+            "status": 200,
+            "finalUrl": "https://burdensdoorsjax.com/about/",
+            "title": "Garage Door Service in Jacksonville | Burdens Doors Jax"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Action Garage Door Services",
@@ -2580,7 +4405,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Action Garage Door Services",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Action Garage Door Services",
+              "links": [
+                "https://jacksonvillegaragedoorpros.com/about-action-garage-door/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://jacksonvillegaragedoorpros.com/about-action-garage-door/",
+          "title": "About Action Garage Door | Family-Owned in Jacksonville, FL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://jacksonvillegaragedoorpros.com/about-action-garage-door/",
+            "status": 200,
+            "finalUrl": "https://jacksonvillegaragedoorpros.com/about-action-garage-door/",
+            "title": "About Action Garage Door | Family-Owned in Jacksonville, FL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Ninja Garage Doors",
@@ -2619,7 +4480,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Ninja Garage Doors",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Ninja Garage Doors",
+              "links": [
+                "https://www.ninjagaragedoors.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.ninjagaragedoors.com/",
+          "title": "Ninja Garage Doors",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.ninjagaragedoors.com/",
+            "status": 200,
+            "finalUrl": "https://www.ninjagaragedoors.com/",
+            "title": "Ninja Garage Doors"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Florida Garage Doors",
@@ -2658,7 +4555,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Florida Garage Doors",
+          "city": "jacksonville-fl",
+          "trade": "garage-door-repair",
+          "page": "https://whoknowsapro.com/jacksonville-fl/garage-door-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Florida Garage Doors",
+              "links": [
+                "https://www.floridagaragedoors.net/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.floridagaragedoors.net/",
+          "title": "Florida Garage Doors | Garage Door Repair Jacksonville, FL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.floridagaragedoors.net/",
+            "status": 200,
+            "finalUrl": "https://www.floridagaragedoors.net/",
+            "title": "Florida Garage Doors | Garage Door Repair Jacksonville, FL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "All About Water Irrigation & Wells",
@@ -2697,7 +4630,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "All About Water Irrigation & Wells",
+          "city": "clearwater-fl",
+          "trade": "irrigation-sprinkler-repair",
+          "page": "https://whoknowsapro.com/clearwater-fl/irrigation-sprinkler-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "All About Water Irrigation & Wells",
+              "links": [
+                "https://allaboutwaterirrigation.com/contact-us"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://allaboutwaterirrigation.com/contact-us",
+          "title": "Contact Us | All About Water Irrigation & Wells",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://allaboutwaterirrigation.com/contact-us",
+            "status": 200,
+            "finalUrl": "https://allaboutwaterirrigation.com/contact-us",
+            "title": "Contact Us | All About Water Irrigation & Wells"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Charlie's Wells Irrigation",
@@ -2736,7 +4705,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Charlie's Wells Irrigation",
+          "city": "clearwater-fl",
+          "trade": "irrigation-sprinkler-repair",
+          "page": "https://whoknowsapro.com/clearwater-fl/irrigation-sprinkler-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Charlie's Wells Irrigation",
+              "links": [
+                "https://www.charlieswells.com/services/sprinkler-systems/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.charlieswells.com/services/sprinkler-systems/",
+          "title": "Sprinkler Company in Clearwater | Charlie’s Wells Irrigation",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.charlieswells.com/services/sprinkler-systems/",
+            "status": 200,
+            "finalUrl": "https://www.charlieswells.com/services/sprinkler-systems/",
+            "title": "Sprinkler Company in Clearwater | Charlie’s Wells Irrigation"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Greener Grounds Lawn & Tree",
@@ -2775,7 +4780,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Greener Grounds Lawn & Tree",
+          "city": "birmingham-al",
+          "trade": "tree-service",
+          "page": "https://whoknowsapro.com/birmingham-al/tree-service",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Greener Grounds Lawn & Tree",
+              "links": [
+                "https://greenergroundslawncare.com/about-us/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://greenergroundslawncare.com/about-us/",
+          "title": "About Greener Grounds Lawn & Tree",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://greenergroundslawncare.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://greenergroundslawncare.com/about-us/",
+            "title": "About Greener Grounds Lawn & Tree"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Champion Tree Service",
@@ -2814,7 +4855,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Champion Tree Service",
+          "city": "birmingham-al",
+          "trade": "tree-service",
+          "page": "https://whoknowsapro.com/birmingham-al/tree-service",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Champion Tree Service",
+              "links": [
+                "https://championtreebham.com/about/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://championtreebham.com/about/",
+          "title": "About - Champion Tree Service",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://championtreebham.com/about/",
+            "status": 200,
+            "finalUrl": "https://championtreebham.com/about/",
+            "title": "About - Champion Tree Service"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Clark Heating & Plumbing",
@@ -2853,7 +4930,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Clark Heating & Plumbing",
+          "city": "montgomery-al",
+          "trade": "hvac",
+          "page": "https://whoknowsapro.com/montgomery-al/hvac",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Clark Heating & Plumbing",
+              "links": [
+                "https://www.clarkcomfort.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.clarkcomfort.com/",
+          "title": "HVAC & Plumbing in Montgomery, AL | Clark Heating & Plumbing",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.clarkcomfort.com/",
+            "status": 200,
+            "finalUrl": "https://www.clarkcomfort.com/",
+            "title": "HVAC & Plumbing in Montgomery, AL | Clark Heating & Plumbing"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Andrew Ellis HVAC",
@@ -2892,7 +5005,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Andrew Ellis HVAC",
+          "city": "montgomery-al",
+          "trade": "hvac",
+          "page": "https://whoknowsapro.com/montgomery-al/hvac",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Andrew Ellis HVAC",
+              "links": [
+                "https://www.thecomfortgurus.com/about"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://www.thecomfortgurus.com/about",
+          "title": "About Us | Andrew Ellis HVAC",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://www.thecomfortgurus.com/about",
+            "status": 200,
+            "finalUrl": "https://www.thecomfortgurus.com/about",
+            "title": "About Us | Andrew Ellis HVAC"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "United Heating & Air",
@@ -2931,7 +5080,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "United Heating & Air",
+          "city": "montgomery-al",
+          "trade": "hvac",
+          "page": "https://whoknowsapro.com/montgomery-al/hvac",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "United Heating & Air",
+              "links": [
+                "https://unitedheating.net/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://unitedheating.net/",
+          "title": "Heating & Air Conditioning Contractor in Montgomery, AL | United Heating & Air",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://unitedheating.net/",
+            "status": 200,
+            "finalUrl": "https://unitedheating.net/",
+            "title": "Heating & Air Conditioning Contractor in Montgomery, AL | United Heating & Air"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Joel Foy Electrical Service",
@@ -2970,7 +5155,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Joel Foy Electrical Service",
+          "city": "tallahassee-fl",
+          "trade": "electrical",
+          "page": "https://whoknowsapro.com/tallahassee-fl/electrical",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Joel Foy Electrical Service",
+              "links": [
+                "https://joelfoyelectric.com/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://joelfoyelectric.com/",
+          "title": "Tallahassee Electrician - Joel Foy",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://joelfoyelectric.com/",
+            "status": 200,
+            "finalUrl": "https://joelfoyelectric.com/",
+            "title": "Tallahassee Electrician - Joel Foy"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Meeks Electrical Services",
@@ -3009,7 +5230,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:53:43.426423+00:00",
-      "identityStatus": "new"
+      "identityStatus": "new",
+      "finalVerification": {
+        "card": {
+          "name": "Meeks Electrical Services",
+          "city": "tallahassee-fl",
+          "trade": "electrical",
+          "page": "https://whoknowsapro.com/tallahassee-fl/electrical",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Meeks Electrical Services",
+              "links": [
+                "https://meekselectrical.com/about-us/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://meekselectrical.com/about-us/",
+          "title": "About Us | Electrician Tallahassee, FL",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://meekselectrical.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://meekselectrical.com/about-us/",
+            "title": "About Us | Electrician Tallahassee, FL"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     },
     {
       "name": "Gulf Coast Appliance",
@@ -3048,7 +5305,43 @@
       ],
       "blockers": [],
       "sourceVerifiedAt": "2026-11-22T16:54:25.686333+00:00",
-      "identityStatus": "previously_listed"
+      "identityStatus": "previously_listed",
+      "finalVerification": {
+        "card": {
+          "name": "Gulf Coast Appliance",
+          "city": "destin-fl",
+          "trade": "appliance-repair",
+          "page": "https://whoknowsapro.com/destin-fl/appliance-repair",
+          "nameMatches": 1,
+          "domainMatches": 1,
+          "exactCards": [
+            {
+              "name": "Gulf Coast Appliance",
+              "links": [
+                "https://gulfcoastappliancefl.net/"
+              ]
+            }
+          ],
+          "profileStatus": 200
+        },
+        "officialDestination": {
+          "status": 200,
+          "finalUrl": "https://gulfcoastappliancefl.net/",
+          "title": "Gulf Coast Appliance | 5-Star Rated Appliance Repair",
+          "identityMatch": true,
+          "domainMatch": true
+        },
+        "supportingSources": [
+          {
+            "url": "https://gulfcoastappliancefl.net/",
+            "status": 200,
+            "finalUrl": "https://gulfcoastappliancefl.net/",
+            "title": "Gulf Coast Appliance | 5-Star Rated Appliance Repair"
+          }
+        ],
+        "blockers": []
+      },
+      "status": "live_verified"
     }
   ],
   "nationalBrands": {
@@ -3174,6 +5467,58 @@
         ],
         "profileStatus": 200
       }
+    ],
+    "finalCards": [
+      {
+        "name": "Fox Pest Control",
+        "city": "baton-rouge-la",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/baton-rouge-la/pest-control",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": [],
+        "profileStatus": 404
+      },
+      {
+        "name": "Express Oil Change & Tire Engineers",
+        "city": "pace-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/pace-fl/auto-mechanics",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": [],
+        "profileStatus": 404
+      },
+      {
+        "name": "Express Oil Change & Tire Engineers",
+        "city": "fairhope-al",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fairhope-al/auto-mechanics",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": [],
+        "profileStatus": 404
+      },
+      {
+        "name": "Express Oil Change & Tire Engineers",
+        "city": "biloxi-ms",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/biloxi-ms/auto-mechanics",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": [],
+        "profileStatus": 404
+      },
+      {
+        "name": "Goodyear Auto Service - Foley",
+        "city": "foley-al",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/foley-al/auto-mechanics",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": [],
+        "profileStatus": 404
+      }
     ]
   },
   "historicalAudit": {
@@ -3191,7 +5536,8 @@
         "unsupported specific geography",
         "intermediary or facility network"
       ],
-      "evidence": "The company describes nationwide retail/facility maintenance and vendor onboarding. The reviewed official site offers no local residential locksmith evidence. Existing public exclusion retained."
+      "evidence": "The company describes nationwide retail/facility maintenance and vendor onboarding. The reviewed official site offers no local residential locksmith evidence. Existing public exclusion retained.",
+      "finalProfileStatus": 404
     },
     "retainedFlags": {
       "source": "evidence-fill1000cw-2026-11-21.json",
@@ -3216,15 +5562,66 @@
         }
       ]
     },
-    "fullHistoricalAudit": false
+    "fullHistoricalAudit": false,
+    "networkRechecks": [
+      {
+        "name": "Vixxo",
+        "sourceUrl": "https://www.vixxo.com/",
+        "finding": "The site targets facilities operators and retail clients. It does not establish placement-specific homeowner services."
+      },
+      {
+        "name": "Divisions Maintenance Group",
+        "sourceUrl": "https://dmg360.com/",
+        "finding": "The site describes national portfolio and facility servicing. It does not substantiate local residential services."
+      },
+      {
+        "name": "All In One Services",
+        "sourceUrl": "https://www.allinonesvc.com/",
+        "finding": "The advertised appliance work supports multi-location commercial facilities. Household appliance service remains unsupported."
+      },
+      {
+        "name": "CARE Facility Maintenance",
+        "sourceUrl": "https://carefms.com/",
+        "finding": "The company offers commercial facility operations, including commercial locksmith work. No direct residential locksmith evidence was found."
+      }
+    ]
   },
   "publication": {
-    "status": "prepared",
-    "planned": 63,
-    "liveVerifiedNewBusinesses": 0,
-    "newBusinessPlacementsLive": 0,
-    "existingBusinessPlacementsLive": 0,
-    "awaitingDeployment": 63,
-    "awaitingLiveVerification": 0
+    "status": "live_verified",
+    "contentCommit": "3da58270f305750bfe4f86d8b91db8af0ab6b64c",
+    "vercelProductionDeployment": "dpl_8cQE2kjjZHdBY36KQjjWMivZP9vj",
+    "vercelUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/8cQE2kjjZHdBY36KQjjWMivZP9vj",
+    "vercelStatus": "READY",
+    "verifiedAt": "2026-11-22T16:58:27.063930+00:00",
+    "newBusinessesLiveVerified": 62,
+    "newBusinessPlacementsLive": 62,
+    "existingBusinessPlacementsLive": 1,
+    "newBusinessShortfall": 938,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0,
+    "pendingLiveVerificationNames": [],
+    "verifiedNationalSuppressions": 5
+  },
+  "coverageAfter": {
+    "displayedPlacements": 13600,
+    "displayedAt20Plus": 242,
+    "displayedBelow20": 878,
+    "emptyPages": 0,
+    "displayedDeficit": 9105,
+    "qualifyingDeficitLowerBound": 9105,
+    "exactQualifyingDeficit": null,
+    "freshlyVerifiedAt20Plus": 0,
+    "displayedCountDiscrepancies": []
+  },
+  "checks": {
+    "catalog": true,
+    "schema": true,
+    "sourceIdentityAndRedirects": true,
+    "baselineDuplicateHandling": true,
+    "approvalNonTest": true,
+    "nationalVisibility": true,
+    "productionBuild": true,
+    "lint": true,
+    "priorGeneratedRecordsPreserved": true
   }
 }
