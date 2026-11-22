@@ -109,7 +109,7 @@
       "xtremefl.com",
       "zebwattsseptic.com"
     ],
-    "distinctPlacementCandidatesInDetailedReview": 70,
+    "distinctPlacementCandidatesInDetailedReview": 73,
     "officialDestinationChecks": 56,
     "candidateSitesByMarket": "Priority Panhandle, Pensacola-area and coastal Alabama/Mississippi gaps were researched before other low-count pages. Strongest eligible leads reached further markets after current sites or identities could not be verified for additional priority-city placements.",
     "priorityResult": "Searches for appliance service, collision, garage doors, standby generators, irrigation, septic, pool construction and insulation primarily returned already listed providers, services missing an official source, national brands or unresolved service-area scope. These searches did not establish an exhaustive local shortage.",
@@ -307,8 +307,50 @@
         "trade": "flooring",
         "website": "https://www.actonflooringbirmingham.com/about",
         "reason": "Confirm the current residential installation scope and whether the Guild affiliation is a national consumer brand or an independent business affiliation."
+      },
+      {
+        "name": "A1 Septic Worx",
+        "city": "panama-city-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "A state entity record supports the business identity. Confirm an operating official site with residential work and Panama City service coverage."
+      },
+      {
+        "name": "High Def Spray Foam",
+        "city": "fort-walton-beach-fl",
+        "trade": "insulation",
+        "website": null,
+        "reason": "Third-party results did not establish a current official site or direct residential insulation work in Fort Walton Beach."
+      },
+      {
+        "name": "All’s Attic Insulation & Roofing Services",
+        "city": "fort-walton-beach-fl",
+        "trade": "insulation",
+        "website": null,
+        "reason": "Check whether the alternate name is the same company and find a current official site showing homeowner service."
       }
-    ]
+    ],
+    "repeatPriorityChecks": {
+      "alreadyPlaced": [
+        "Parker Septic",
+        "Yoder Septic Service",
+        "Superior Septic Sewer",
+        "Gilbert’s Septic Services",
+        "Colson’s Electrical Services",
+        "Casey Electric",
+        "Father and Son Pest and Lawn Solutions",
+        "EcoPest Termite and Pest Control",
+        "Cadenhead Services"
+      ],
+      "existingCoverageNotEstablished": [
+        {
+          "name": "Patriot Pest Management",
+          "city": "destin-fl",
+          "trade": "pest-control",
+          "reason": "The business is listed elsewhere. The reviewed official material did not establish Destin residential coverage."
+        }
+      ]
+    }
   },
   "placements": [
     {
@@ -338,7 +380,32 @@
           "finalUrl": "https://qualitypaintandbody.biz/",
           "title": "Quailty Paint and Body – Gulfport's #1 Collision Shop"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Quality Paint and Body",
+        "city": "gulfport-ms",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/gulfport-ms/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Quality Paint and Body",
+            "links": [
+              "https://qualitypaintandbody.biz/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://qualitypaintandbody.biz/",
+          "title": "Quailty Paint and Body – Gulfport's #1 Collision Shop",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -367,7 +434,32 @@
           "finalUrl": "https://www.ddautobodysarasota.com/about-us",
           "title": "ABOUT US | My Site"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "D&D Autobody",
+        "city": "sarasota-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "D&D Autobody",
+            "links": [
+              "https://www.ddautobodysarasota.com/about-us"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.ddautobodysarasota.com/about-us",
+          "title": "ABOUT US | My Site",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -396,7 +488,32 @@
           "finalUrl": "https://www.bigthreeperformance.com/",
           "title": "BMW & European Auto Repair in Sarasota | Big Three Performance"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Big Three Performance",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Big Three Performance",
+            "links": [
+              "https://www.bigthreeperformance.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bigthreeperformance.com/",
+          "title": "BMW & European Auto Repair in Sarasota | Big Three Performance",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -425,7 +542,32 @@
           "finalUrl": "https://www.stickneypointautorepair.com/",
           "title": "www.stickneypointautorepair.com"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Stickney Point Auto Repair",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Stickney Point Auto Repair",
+            "links": [
+              "https://www.stickneypointautorepair.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.stickneypointautorepair.com/",
+          "title": "www.stickneypointautorepair.com",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -454,7 +596,32 @@
           "finalUrl": "https://srqautorepair.com/",
           "title": "Auto Repair Sarasota FL | Honest Mechanics Near Clark Rd & I-75 : Automotive Service Garage | Auto Repair in Sarasota, FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Automotive Service Garage",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Automotive Service Garage",
+            "links": [
+              "https://srqautorepair.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://srqautorepair.com/",
+          "title": "Auto Repair Sarasota FL | Honest Mechanics Near Clark Rd & I-75 : Automotive Service Garage | Auto Repair in Sarasota, FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -483,7 +650,32 @@
           "finalUrl": "https://cc-pdr.com/",
           "title": "Caswell Corrective Paintless Dent Repair - Home"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Caswell Corrective Paintless Dent Repair",
+        "city": "sarasota-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Caswell Corrective Paintless Dent Repair",
+            "links": [
+              "https://cc-pdr.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://cc-pdr.com/",
+          "title": "Caswell Corrective Paintless Dent Repair - Home",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -512,7 +704,32 @@
           "finalUrl": "https://nottsautomotive.com/",
           "title": "Auto Repair Shop in Sarasota | Auto Mechanics | Nott's Automotive"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Nott's Automotive",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Nott's Automotive",
+            "links": [
+              "https://nottsautomotive.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://nottsautomotive.com/",
+          "title": "Auto Repair Shop in Sarasota | Auto Mechanics | Nott's Automotive",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -541,7 +758,32 @@
           "finalUrl": "https://www.burksautorepair.com/about",
           "title": "About Burk’s Auto Repair Center | Family-Owned Auto Repair in Sarasota"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Burk's Auto Repair Center",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Burk's Auto Repair Center",
+            "links": [
+              "https://www.burksautorepair.com/about"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.burksautorepair.com/about",
+          "title": "About Burk’s Auto Repair Center | Family-Owned Auto Repair in Sarasota",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -570,7 +812,32 @@
           "finalUrl": "https://www.skipsautomotive.com/",
           "title": "Sarasota Auto Repair | Engine, Brake & AC Experts | Skip's Automotive"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Skip's Automotive",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Skip's Automotive",
+            "links": [
+              "https://www.skipsautomotive.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.skipsautomotive.com/",
+          "title": "Sarasota Auto Repair | Engine, Brake & AC Experts | Skip's Automotive",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -599,7 +866,32 @@
           "finalUrl": "https://www.beilersautorepair.com/",
           "title": "Auto Repair Services | Beiler's Auto Repair Inc. | Sarasota, FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Beiler's Auto Repair",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Beiler's Auto Repair",
+            "links": [
+              "https://www.beilersautorepair.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.beilersautorepair.com/",
+          "title": "Auto Repair Services | Beiler's Auto Repair Inc. | Sarasota, FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "sarasota-fl",
@@ -628,7 +920,32 @@
           "finalUrl": "https://www.cartuneup-sarasota.com/",
           "title": "Veteran-Owned Auto Repair in Sarasota, FL | Car Tune Up Sarasota"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Car Tune Up Sarasota",
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/sarasota-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Car Tune Up Sarasota",
+            "links": [
+              "https://www.cartuneup-sarasota.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.cartuneup-sarasota.com/",
+          "title": "Veteran-Owned Auto Repair in Sarasota, FL | Car Tune Up Sarasota",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "naples-fl",
@@ -657,7 +974,32 @@
           "finalUrl": "https://www.perfectionbodyshop.com/",
           "title": "Perfection Body Shop & Auto Repair of Naples | Naples Collision Repair | 5857 Shirley Street unit d, Naples, FL 34109, USA"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Perfection Body Shop",
+        "city": "naples-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/naples-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Perfection Body Shop",
+            "links": [
+              "https://www.perfectionbodyshop.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.perfectionbodyshop.com/",
+          "title": "Perfection Body Shop & Auto Repair of Naples | Naples Collision Repair | 5857 Shirley Street unit d, Naples, FL 34109, USA",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-myers-fl",
@@ -686,7 +1028,32 @@
           "finalUrl": "https://terrywynterauto.com/about-us/",
           "title": "Family-Owned Auto Repair Shop Since 1996 | Terry Wynter"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Terry Wynter Auto Service Center",
+        "city": "fort-myers-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fort-myers-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Terry Wynter Auto Service Center",
+            "links": [
+              "https://terrywynterauto.com/about-us/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://terrywynterauto.com/about-us/",
+          "title": "Family-Owned Auto Repair Shop Since 1996 | Terry Wynter",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-myers-fl",
@@ -715,7 +1082,32 @@
           "finalUrl": "https://jaeauto.com/about-us",
           "title": "Drivevanta: Trusted Auto Repair in Fort Myers | DriveVanta"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "J.A.E. Automotive",
+        "city": "fort-myers-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fort-myers-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "J.A.E. Automotive",
+            "links": [
+              "https://jaeauto.com/about-us"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://jaeauto.com/about-us",
+          "title": "Drivevanta: Trusted Auto Repair in Fort Myers | DriveVanta",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-myers-fl",
@@ -744,7 +1136,32 @@
           "finalUrl": "https://onthespotautorepairdiagnostics.com/about/",
           "title": "About On The Spot Auto Repair & Diagnostics | Brake Repair in Fort Myers, FL 33901"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "On The Spot Auto Repair & Diagnostics",
+        "city": "fort-myers-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fort-myers-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "On The Spot Auto Repair & Diagnostics",
+            "links": [
+              "https://onthespotautorepairdiagnostics.com/about/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://onthespotautorepairdiagnostics.com/about/",
+          "title": "About On The Spot Auto Repair & Diagnostics | Brake Repair in Fort Myers, FL 33901",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "naples-fl",
@@ -773,7 +1190,32 @@
           "finalUrl": "https://advancedcollisionspecialists.com/",
           "title": "Advanced Collision Specialists - Naples Automotive Repair Shop"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Advanced Collision Specialists",
+        "city": "naples-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/naples-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Advanced Collision Specialists",
+            "links": [
+              "https://advancedcollisionspecialists.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://advancedcollisionspecialists.com/",
+          "title": "Advanced Collision Specialists - Naples Automotive Repair Shop",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-myers-fl",
@@ -802,7 +1244,32 @@
           "finalUrl": "https://www.karrautomotive.com/",
           "title": "Auto Repair in Fort Myers, FL | Karr Automotive"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Karr Automotive",
+        "city": "fort-myers-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fort-myers-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Karr Automotive",
+            "links": [
+              "https://www.karrautomotive.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.karrautomotive.com/",
+          "title": "Auto Repair in Fort Myers, FL | Karr Automotive",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-myers-fl",
@@ -831,7 +1298,32 @@
           "finalUrl": "https://www.pineyroadautorepair.com/",
           "title": "Piney Road Auto Repair North Fort Myers FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Piney Road Auto Repair",
+        "city": "fort-myers-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fort-myers-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Piney Road Auto Repair",
+            "links": [
+              "https://www.pineyroadautorepair.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.pineyroadautorepair.com/",
+          "title": "Piney Road Auto Repair North Fort Myers FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "naples-fl",
@@ -860,7 +1352,32 @@
           "finalUrl": "https://www.economybodyshop.com/auto-body-repair",
           "title": "Auto Body Repair and Paint Services | Naples, FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Economy Body Shop",
+        "city": "naples-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/naples-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Economy Body Shop",
+            "links": [
+              "https://www.economybodyshop.com/auto-body-repair"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.economybodyshop.com/auto-body-repair",
+          "title": "Auto Body Repair and Paint Services | Naples, FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-myers-fl",
@@ -889,7 +1406,32 @@
           "finalUrl": "https://www.mandrperformance.com/",
           "title": "Home | M&R Performance | Fort Myers, FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "M&R Performance",
+        "city": "fort-myers-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/fort-myers-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "M&R Performance",
+            "links": [
+              "https://www.mandrperformance.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.mandrperformance.com/",
+          "title": "Home | M&R Performance | Fort Myers, FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "miami-fl",
@@ -918,7 +1460,32 @@
           "finalUrl": "https://www.irrigatemiami.com/services",
           "title": "Sprinkler and Irrigation Services in Miami | Irrigate Miami"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Irrigate Miami",
+        "city": "miami-fl",
+        "trade": "irrigation-sprinkler-repair",
+        "page": "https://whoknowsapro.com/miami-fl/irrigation-sprinkler-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Irrigate Miami",
+            "links": [
+              "https://www.irrigatemiami.com/services"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.irrigatemiami.com/services",
+          "title": "Sprinkler and Irrigation Services in Miami | Irrigate Miami",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -947,7 +1514,32 @@
           "finalUrl": "https://debugem.com/about/",
           "title": "About DeBugem | Family-Run Pest Control PBC Since 1998"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "DeBugem",
+        "city": "west-palm-beach-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "DeBugem",
+            "links": [
+              "https://debugem.com/about/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://debugem.com/about/",
+          "title": "About DeBugem | Family-Run Pest Control PBC Since 1998",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -976,7 +1568,32 @@
           "finalUrl": "https://shorelinepestservices.com/",
           "title": "Home - Shoreline Environmental Pest Solutions"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Shoreline Environmental Pest Solutions",
+        "city": "west-palm-beach-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Shoreline Environmental Pest Solutions",
+            "links": [
+              "https://shorelinepestservices.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://shorelinepestservices.com/",
+          "title": "Home - Shoreline Environmental Pest Solutions",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -1005,7 +1622,32 @@
           "finalUrl": "https://highlandpest.com/",
           "title": "Highland Pest Control | Pest, Lawn & Termite Solutions in Okeechobee & West Palm Beach"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Highland Pest Control",
+        "city": "west-palm-beach-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Highland Pest Control",
+            "links": [
+              "https://highlandpest.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://highlandpest.com/",
+          "title": "Highland Pest Control | Pest, Lawn & Termite Solutions in Okeechobee & West Palm Beach",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "miami-fl",
@@ -1034,7 +1676,32 @@
           "finalUrl": "https://www.santanaslawnsprinklers.com/",
           "title": "Santana's Lawn Sprinklers, Corp Sprinklers Miami, Florida"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Santana's Lawn Sprinklers",
+        "city": "miami-fl",
+        "trade": "irrigation-sprinkler-repair",
+        "page": "https://whoknowsapro.com/miami-fl/irrigation-sprinkler-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Santana's Lawn Sprinklers",
+            "links": [
+              "https://www.santanaslawnsprinklers.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.santanaslawnsprinklers.com/",
+          "title": "Santana's Lawn Sprinklers, Corp Sprinklers Miami, Florida",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -1063,7 +1730,32 @@
           "finalUrl": "https://www.abpestcontrol.com/",
           "title": "West Palm Beach Pest Control | Above and Beyond Pest Control"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Above and Beyond Pest Control",
+        "city": "west-palm-beach-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Above and Beyond Pest Control",
+            "links": [
+              "https://www.abpestcontrol.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.abpestcontrol.com/",
+          "title": "West Palm Beach Pest Control | Above and Beyond Pest Control",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -1092,7 +1784,32 @@
           "finalUrl": "https://safehomezone.com/",
           "title": "West Palm Beach Pest Control | Safe Home Pest Control"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Safe Home Pest Control",
+        "city": "west-palm-beach-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Safe Home Pest Control",
+            "links": [
+              "https://safehomezone.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://safehomezone.com/",
+          "title": "West Palm Beach Pest Control | Safe Home Pest Control",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "tampa-fl",
@@ -1121,7 +1838,32 @@
           "finalUrl": "https://www.minorautodamage.com/about",
           "title": "About Our Family-Owned Tampa Auto Body Shop — Minor Auto Damage, LLC"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Minor Auto Damage",
+        "city": "tampa-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/tampa-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Minor Auto Damage",
+            "links": [
+              "https://www.minorautodamage.com/about"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.minorautodamage.com/about",
+          "title": "About Our Family-Owned Tampa Auto Body Shop — Minor Auto Damage, LLC",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "tampa-fl",
@@ -1150,7 +1892,32 @@
           "finalUrl": "https://frautobodyshop.com/about/index.html",
           "title": "About Us — Owner-Operated Shop in East Tampa | F&R Auto Body"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "F&R Auto Body",
+        "city": "tampa-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/tampa-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "F&R Auto Body",
+            "links": [
+              "https://frautobodyshop.com/about/index.html"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://frautobodyshop.com/about/index.html",
+          "title": "About Us — Owner-Operated Shop in East Tampa | F&R Auto Body",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "tampa-fl",
@@ -1179,7 +1946,32 @@
           "finalUrl": "https://www.avelarsbodyshop.com/about",
           "title": "Avelar's Body Shop - About"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Avelar's Body Shop",
+        "city": "tampa-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/tampa-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Avelar's Body Shop",
+            "links": [
+              "https://www.avelarsbodyshop.com/about"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.avelarsbodyshop.com/about",
+          "title": "Avelar's Body Shop - About",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "tampa-fl",
@@ -1208,7 +2000,32 @@
           "finalUrl": "https://savageautodesign.com/",
           "title": "Savage Auto Design | Auto Repair & Body Shop in Tampa, FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Savage Auto Design",
+        "city": "tampa-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/tampa-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Savage Auto Design",
+            "links": [
+              "https://savageautodesign.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://savageautodesign.com/",
+          "title": "Savage Auto Design | Auto Repair & Body Shop in Tampa, FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "tampa-fl",
@@ -1237,7 +2054,32 @@
           "finalUrl": "https://www.rapidresolveseptic.com/",
           "title": "Septic Services & Repair | Tampa, FL | Rapid Resolve Septic"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "ASAP Rapid Resolve Septic",
+        "city": "tampa-fl",
+        "trade": "septic-services",
+        "page": "https://whoknowsapro.com/tampa-fl/septic-services",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "ASAP Rapid Resolve Septic",
+            "links": [
+              "https://rapidresolveseptic.com/tampa-residential-septic-services/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.rapidresolveseptic.com/",
+          "title": "Septic Services & Repair | Tampa, FL | Rapid Resolve Septic",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "tampa-fl",
@@ -1266,7 +2108,32 @@
           "finalUrl": "https://shalomautobody.com/about/",
           "title": "About – Shalom Auto Body"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Shalom Auto Body",
+        "city": "tampa-fl",
+        "trade": "auto-body-collision",
+        "page": "https://whoknowsapro.com/tampa-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Shalom Auto Body",
+            "links": [
+              "https://shalomautobody.com/about/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://shalomautobody.com/about/",
+          "title": "About – Shalom Auto Body",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "panama-city-beach-fl",
@@ -1295,7 +2162,32 @@
           "finalUrl": "https://expresstirepcb.com/about-us/",
           "title": "About Us - Express Tire And Auto Service"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Express Tire and Auto Service",
+        "city": "panama-city-beach-fl",
+        "trade": "auto-mechanics",
+        "page": "https://whoknowsapro.com/panama-city-beach-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Express Tire and Auto Service",
+            "links": [
+              "https://expresstirepcb.com/about-us/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://expresstirepcb.com/about-us/",
+          "title": "About Us - Express Tire And Auto Service",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "montgomery-al",
@@ -1324,7 +2216,32 @@
           "finalUrl": "https://www.kcnummyconcrete.net/residential-concrete",
           "title": "Residential Concrete | Driveways and Patios | Montgomery, AL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "K. C. Nummy Concrete",
+        "city": "montgomery-al",
+        "trade": "concrete",
+        "page": "https://whoknowsapro.com/montgomery-al/concrete",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "K. C. Nummy Concrete",
+            "links": [
+              "https://www.kcnummyconcrete.net/residential-concrete"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.kcnummyconcrete.net/residential-concrete",
+          "title": "Residential Concrete | Driveways and Patios | Montgomery, AL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "montgomery-al",
@@ -1353,7 +2270,32 @@
           "finalUrl": "https://ppsriverregion.com/about-pest-pro",
           "title": "About Pest Pro Services | Locally Owned Pest Control Alabama"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Pest Pro Services",
+        "city": "montgomery-al",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/montgomery-al/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Pest Pro Services",
+            "links": [
+              "https://ppsriverregion.com/about-pest-pro"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://ppsriverregion.com/about-pest-pro",
+          "title": "About Pest Pro Services | Locally Owned Pest Control Alabama",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "montgomery-al",
@@ -1382,7 +2324,32 @@
           "finalUrl": "https://www.aandcconstruction.com/concrete-services/",
           "title": "Concrete Pouring Services | Concrete Pouring in Montgomery | A & C Construction"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "A&C Construction",
+        "city": "montgomery-al",
+        "trade": "concrete",
+        "page": "https://whoknowsapro.com/montgomery-al/concrete",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "A&C Construction",
+            "links": [
+              "https://www.aandcconstruction.com/concrete-services/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.aandcconstruction.com/concrete-services/",
+          "title": "Concrete Pouring Services | Concrete Pouring in Montgomery | A & C Construction",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "montgomery-al",
@@ -1411,7 +2378,32 @@
           "finalUrl": "https://www.allpestsolutionsal.com/",
           "title": "Mosquitoes | Fleas | Ticks | Pest Control"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "All Pest Solutions",
+        "city": "montgomery-al",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/montgomery-al/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "All Pest Solutions",
+            "links": [
+              "https://www.allpestsolutionsal.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.allpestsolutionsal.com/",
+          "title": "Mosquitoes | Fleas | Ticks | Pest Control",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1440,7 +2432,32 @@
           "finalUrl": "https://b3outdoordesign.com/about/",
           "title": "About - B3 Outdoor Design"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "B3 Outdoor Design",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "B3 Outdoor Design",
+            "links": [
+              "https://b3outdoordesign.com/about/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://b3outdoordesign.com/about/",
+          "title": "About - B3 Outdoor Design",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1469,7 +2486,32 @@
           "finalUrl": "https://www.cllandscape.com/",
           "title": "Landscaping & Irrigation Services | C & L Landscape | Jacksonville, FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "C & L Landscape",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "C & L Landscape",
+            "links": [
+              "https://www.cllandscape.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.cllandscape.com/",
+          "title": "Landscaping & Irrigation Services | C & L Landscape | Jacksonville, FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-lauderdale-fl",
@@ -1498,7 +2540,32 @@
           "finalUrl": "https://www.livingstonlandscapes.com/",
           "title": "Livingston Landscapes and Design"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Livingston Landscapes & Design",
+        "city": "fort-lauderdale-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Livingston Landscapes & Design",
+            "links": [
+              "https://www.livingstonlandscapes.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.livingstonlandscapes.com/",
+          "title": "Livingston Landscapes and Design",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-lauderdale-fl",
@@ -1527,7 +2594,32 @@
           "finalUrl": "https://gardenbyjr.com/",
           "title": "Garden by J.R — Landscape Design, Fort Lauderdale"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Garden by J.R.",
+        "city": "fort-lauderdale-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Garden by J.R.",
+            "links": [
+              "https://gardenbyjr.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://gardenbyjr.com/",
+          "title": "Garden by J.R — Landscape Design, Fort Lauderdale",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1556,7 +2648,32 @@
           "finalUrl": "https://revivalpropertydesign.com/",
           "title": "Revival Property Design"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Revival Property Design",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Revival Property Design",
+            "links": [
+              "https://revivalpropertydesign.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://revivalpropertydesign.com/",
+          "title": "Revival Property Design",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1585,7 +2702,32 @@
           "finalUrl": "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company",
           "title": "Expert Landscaping & Sod Installation in Jacksonville FL"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Southside Outdoor Services",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Southside Outdoor Services",
+            "links": [
+              "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company",
+          "title": "Expert Landscaping & Sod Installation in Jacksonville FL",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1614,7 +2756,32 @@
           "finalUrl": "https://www.viegardendesign.com/residential",
           "title": "Residential — Vie Garden Design"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Vie Garden Design",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Vie Garden Design",
+            "links": [
+              "https://www.viegardendesign.com/residential"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.viegardendesign.com/residential",
+          "title": "Residential — Vie Garden Design",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "fort-lauderdale-fl",
@@ -1643,7 +2810,32 @@
           "finalUrl": "https://botanicaldesignsfl.com/about",
           "title": "Landscape Renovation in Coral Springs, FL | Botanical Designs"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Botanical Designs",
+        "city": "fort-lauderdale-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Botanical Designs",
+            "links": [
+              "https://botanicaldesignsfl.com/about"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://botanicaldesignsfl.com/about",
+          "title": "Landscape Renovation in Coral Springs, FL | Botanical Designs",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1672,7 +2864,32 @@
           "finalUrl": "https://www.holidaysofjax.com/services-4",
           "title": "Landscape Services | Holiday's Nursery"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Holiday's Nursery & Landscaping",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Holiday's Nursery & Landscaping",
+            "links": [
+              "https://www.holidaysofjax.com/services-4"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.holidaysofjax.com/services-4",
+          "title": "Landscape Services | Holiday's Nursery",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1701,7 +2918,32 @@
           "finalUrl": "https://www.newrootsh.com/",
           "title": "New Roots Hardscapes  | pavers"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "New Roots Hardscapes & Landscapes",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "New Roots Hardscapes & Landscapes",
+            "links": [
+              "https://www.newrootsh.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.newrootsh.com/",
+          "title": "New Roots Hardscapes  | pavers",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1730,7 +2972,32 @@
           "finalUrl": "https://www.horizonlandscapingjax.com/",
           "title": "Home | Horizon Landscaping"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Horizon Landscaping",
+        "city": "jacksonville-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/jacksonville-fl/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Horizon Landscaping",
+            "links": [
+              "https://www.horizonlandscapingjax.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.horizonlandscapingjax.com/",
+          "title": "Home | Horizon Landscaping",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "daphne-al",
@@ -1759,7 +3026,32 @@
           "finalUrl": "https://algscapes.com/",
           "title": "Landscaping & Hardscapes in Daphne, AL | Andrews Lawn & Garden"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Andrews Lawn & Garden",
+        "city": "daphne-al",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/daphne-al/landscaping",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Andrews Lawn & Garden",
+            "links": [
+              "https://algscapes.com/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://algscapes.com/",
+          "title": "Landscaping & Hardscapes in Daphne, AL | Andrews Lawn & Garden",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "daphne-al",
@@ -1788,7 +3080,32 @@
           "finalUrl": "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al",
           "title": "Historic malbis sprinkler repair daphne al"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "GulfScape Landscaping & Carpentry",
+        "city": "daphne-al",
+        "trade": "irrigation-sprinkler-repair",
+        "page": "https://whoknowsapro.com/daphne-al/irrigation-sprinkler-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "GulfScape Landscaping & Carpentry",
+            "links": [
+              "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al",
+          "title": "Historic malbis sprinkler repair daphne al",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "birmingham-al",
@@ -1823,7 +3140,32 @@
           "finalUrl": "https://www.rodgersflooring.com/about.html",
           "title": "About Our Birmingham Flooring Company | Rodgers Flooring"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Rodgers Flooring",
+        "city": "birmingham-al",
+        "trade": "flooring",
+        "page": "https://whoknowsapro.com/birmingham-al/flooring",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Rodgers Flooring",
+            "links": [
+              "https://www.rodgersflooring.com/wood-floor-installation.html"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.rodgersflooring.com/wood-floor-installation.html",
+          "title": "Wood Floor Installation Birmingham AL | Rodgers Flooring",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     },
     {
       "city": "birmingham-al",
@@ -1858,7 +3200,32 @@
           "finalUrl": "https://southerncpt.com/our-team/tim-hightower/",
           "title": "Tim Hightower - Southern Carpet, Hardwood & Tile"
         }
-      ]
+      ],
+      "publicVerification": {
+        "name": "Southern Carpet, Hardwood & Tile",
+        "city": "birmingham-al",
+        "trade": "flooring",
+        "page": "https://whoknowsapro.com/birmingham-al/flooring",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "Southern Carpet, Hardwood & Tile",
+            "links": [
+              "https://southerncpt.com/residential/"
+            ]
+          }
+        ],
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://southerncpt.com/residential/",
+          "title": "Residential - Southern Carpet, Hardwood & Tile",
+          "identity": true,
+          "domainMatch": true
+        },
+        "liveVerified": true
+      },
+      "status": "live_verified"
     }
   ],
   "nationalBrands": {
@@ -1938,6 +3305,35 @@
           }
         ]
       }
+    ],
+    "finalPublicCards": [
+      {
+        "name": "911 Restoration of Mississippi Gulf Coast",
+        "city": "biloxi-ms",
+        "trade": "water-damage-mold-remediation",
+        "page": "https://whoknowsapro.com/biloxi-ms/water-damage-mold-remediation",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      {
+        "name": "911 Restoration of Mississippi Gulf Coast",
+        "city": "gulfport-ms",
+        "trade": "water-damage-mold-remediation",
+        "page": "https://whoknowsapro.com/gulfport-ms/water-damage-mold-remediation",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      {
+        "name": "OGD Overhead Garage Door",
+        "city": "pensacola-fl",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/pensacola-fl/garage-door-repair",
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      }
     ]
   },
   "historicalAudit": {
@@ -1986,7 +3382,9 @@
         "https://www.retailfixit.com/"
       ],
       "publicProfileStatusAtBaseline": 404,
-      "review": "Official material describes national facility and store maintenance and managed vendor onboarding. It does not establish local residential locksmith service. Leave prior public exclusion and source rows as recorded."
+      "review": "Official material describes national facility and store maintenance and managed vendor onboarding. It does not establish local residential locksmith service. Leave prior public exclusion and source rows as recorded.",
+      "additionalIssue": "incorrect_category_for_residential_locksmith",
+      "publicProfileStatusAfterDeployment": 404
     },
     "businesses": [
       {
@@ -4360,8 +5758,72 @@
         "name": "Divisions Maintenance Group",
         "sourceUrl": "https://dmg360.com/",
         "finding": "Official site markets nationwide facilities management. Historical flags remain."
+      },
+      {
+        "name": "Command7",
+        "sourceUrl": "https://www.command7.com/",
+        "finding": "The company promotes nationwide building and facility management for business operations. The site does not establish direct residential trades for specific cities."
+      },
+      {
+        "name": "All In One Services",
+        "sourceUrl": "https://www.allinonesvc.com/",
+        "finding": "Its official site targets multi-location commercial facilities and commercial appliances. The advertised equipment work does not qualify for household appliance repair."
+      },
+      {
+        "name": "PR Services",
+        "sourceUrl": "https://prsretailsolutions.com/",
+        "finding": "Its official site describes crews delivering national commercial facility programs. It does not establish direct residential jobs in the listed cities."
+      },
+      {
+        "name": "Local Buckets",
+        "sourceUrl": "https://localbuckets.com/",
+        "finding": "The company advertises self-performing teams for nationwide facility management and multi-state portfolios. Specific residential city coverage remains unsupported."
+      },
+      {
+        "name": "Lessen",
+        "sourceUrl": "https://www.lessen.com/",
+        "finding": "It markets a multi-market operating platform and vendor network. Its references to single-family housing do not identify direct service or specific residential coverage for these placements."
+      },
+      {
+        "name": "CARE Facility Maintenance",
+        "sourceUrl": "https://carefms.com/",
+        "finding": "Its locksmith offer is expressly for commercial sites, and its other markets may be served by a partner network. It does not support the residential locksmith placements."
+      },
+      {
+        "name": "Gallant",
+        "sourceUrl": "https://egallant.com/",
+        "finding": "Its site describes national commercial construction and facility-maintenance programs for retailers, restaurants and other institutional clients."
+      },
+      {
+        "name": "TrueSource",
+        "sourceUrl": "https://truesource.com/",
+        "finding": "Its national facility maintenance is marketed to retail, industrial and restaurant customers and supported by a network of affiliates."
       }
-    ]
+    ],
+    "baselineSourceScope": "The scan covers the older 2026-09-28 source file. Counts are raw evidence flags and may include excluded or duplicate rows. Other legacy data remains unaudited.",
+    "carriedForwardIssues": {
+      "source": "evidence-fill1000cw-2026-11-21.json",
+      "flags": [
+        {
+          "name": "Hometown Garage Doors",
+          "sources": [
+            "https://www.hometowngaragedoorsnf.com/",
+            "https://www.hometowngaragenwfl.com/contact-us"
+          ],
+          "issues": [
+            "duplicate identity"
+          ],
+          "finding": "The alternate and baseline websites share the same Crestview operating address and phone. No duplicate was added."
+        },
+        {
+          "name": "Solve All, Dothan Pools and Tri-State Appliance Repair",
+          "issues": [
+            "invalid official website"
+          ],
+          "finding": "Prior historical flags are retained. This run did not requalify the listings."
+        }
+      ]
+    }
   },
   "validation": {
     "sourceSchemaAndCatalog": "pass",
@@ -4370,14 +5832,37 @@
     "nationalVisibilityRegression": "pass",
     "publicApprovalRegression": "pass",
     "productionBuild": "pass",
-    "discoveryCollector": "Existing collector requires official website and service-area review. Its output is a research artifact and has no public import path. The existing source importer has no five-business cap."
+    "discoveryCollector": "Existing collector requires official website and service-area review. Its output is a research artifact and has no public import path. The existing source importer has no five-business cap.",
+    "lint": "pass",
+    "concurrency": "Main was rechecked against the fixed baseline and GitHub Actions listed no in-progress main workflow before the fast-forward publication."
   },
   "publication": {
-    "status": "prepared",
-    "liveVerifiedNewBusinesses": 0,
-    "newBusinessPlacementsLive": 0,
+    "status": "live_verified",
+    "contentCommit": "677c475ffd4048a7ffd860179928c12c38192c0e",
+    "vercelDeploymentId": "dpl_5QY3Zaf8VW4rfnC6Guoq6Xs6T3pM",
+    "vercelDeploymentUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/5QY3Zaf8VW4rfnC6Guoq6Xs6T3pM",
+    "vercelProductionStatus": "READY",
+    "verifiedAt": "2026-11-22T10:58:59.937511+00:00",
+    "liveVerifiedNewBusinesses": 53,
+    "newBusinessPlacementsLive": 53,
     "existingBusinessPlacementsLive": 0,
-    "placementsAwaitingPublication": 53,
-    "placementsAwaitingLiveVerification": 0
-  }
+    "placementsAwaitingPublication": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "nationalPlacementsSuppressedLive": 3,
+    "nationalPlacementsAwaitingLiveVerification": 0,
+    "exactTargetShortfall": 947
+  },
+  "coverageAfter": {
+    "displayedPlacements": 13542,
+    "displayedAt20Plus": 241,
+    "displayedBelow20": 879,
+    "emptyPages": 0,
+    "displayedDeficit": 9163,
+    "freshlyVerifiedAt20Plus": 0,
+    "publishedPages": 1120,
+    "completeHistoricalQualificationAudit": false,
+    "qualifyingDeficitLowerBound": 9163,
+    "qualifyingDeficitExact": null
+  },
+  "coverageUnexpectedDeltas": []
 }
