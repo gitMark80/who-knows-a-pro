@@ -1,0 +1,2818 @@
+{
+  "runDate": "2026-11-22",
+  "baselineCommit": "2edec57211aa8757b08fdf813873603b1e14a6b1",
+  "baselineTree": "f992f3383d5eddbc01ca4283f143b9c316527e85",
+  "previousCheckpoint": "progress-fill1000cy-2026-11-22.md",
+  "catalog": {
+    "activeCities": 40,
+    "publicCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "graytonBeachActive": true,
+    "pensacolaBeachActive": false
+  },
+  "baselineCoverage": {
+    "displayedPlacements": 13600,
+    "displayed20Plus": 242,
+    "displayedBelow20": 878,
+    "empty": 0,
+    "displayedDeficit": 9105
+  },
+  "priorityCities": [
+    "destin-fl",
+    "fort-walton-beach-fl",
+    "crestview-fl",
+    "panama-city-fl"
+  ],
+  "historicalAudit": {
+    "previousLedger": "evidence-fill1000cy-2026-11-22.json",
+    "sourceScanIdentities": 158,
+    "sourceScanRows": 584,
+    "sourceScanRawPlacements": 8816,
+    "retailFixIt": {
+      "sourceUrl": "https://www.retailfixit.com/",
+      "rawPlacements": 396,
+      "baselineProfileStatus": 404,
+      "issues": [
+        "unsupported residential service",
+        "incorrect residential locksmith category",
+        "unsupported specific geography",
+        "intermediary or facility network"
+      ],
+      "evidence": "The company describes nationwide retail/facility maintenance and vendor onboarding. The reviewed official site offers no local residential locksmith evidence. Existing public exclusion retained.",
+      "finalProfileStatus": 404,
+      "recheckedSource": "https://www.retailfixit.com/",
+      "qualification": "Official site describes nationwide facility maintenance, retail customers, contractor matching and vendor sign-up. Residential locksmith scope and local operation are unsupported."
+    },
+    "networkChecks": [
+      {
+        "name": "Vixxo",
+        "url": "https://www.vixxo.com/",
+        "evidence": "The official site markets nationwide facility work for operators and retail clients."
+      },
+      {
+        "name": "Divisions Maintenance Group",
+        "url": "https://dmg360.com/",
+        "evidence": "The official site markets servicing property portfolios nationwide."
+      }
+    ],
+    "carriedForward": {
+      "source": "evidence-fill1000cw-2026-11-21.json",
+      "flags": [
+        {
+          "name": "Hometown Garage Doors",
+          "sources": [
+            "https://www.hometowngaragedoorsnf.com/",
+            "https://www.hometowngaragenwfl.com/contact-us"
+          ],
+          "issues": [
+            "duplicate identity"
+          ],
+          "finding": "The alternate and baseline websites share the same Crestview operating address and phone. No duplicate was added."
+        },
+        {
+          "name": "Solve All, Dothan Pools and Tri-State Appliance Repair",
+          "issues": [
+            "invalid official website"
+          ],
+          "finding": "Prior historical flags are retained. This run did not requalify the listings."
+        }
+      ]
+    },
+    "fullAudit": false,
+    "newFlags": [
+      {
+        "name": "JLG Septic Services",
+        "city": "biloxi-ms",
+        "trade": "septic-services",
+        "website": "https://jlgsepticllc.com/",
+        "sources": [
+          "https://jlgsepticllc.com/",
+          "https://jlgsepticllc.com/service-areas/mississippi/biloxi/",
+          "https://www.jlgsepticgulfbreeze.com/"
+        ],
+        "issues": [
+          "unverified local operation",
+          "uncertain provider identity"
+        ],
+        "evidence": "The Biloxi landing page belongs to a website that claims nationwide service from a Milton operation. Independent evidence of direct delivery in Biloxi is unresolved. The separately listed Gulf Breeze website uses a different phone number, represents a local service area, and shows a Florida service license. Do not assume the two identities are interchangeable.",
+        "qualified": false
+      }
+    ]
+  },
+  "nationalBrandReview": {
+    "suppressionsPlanned": 0,
+    "reviewedRegionalIdentities": [
+      "Bug Out Service of West Florida",
+      "Peaden",
+      "Fence Outlet",
+      "National Garage Door of Atlanta",
+      "National Pool Service"
+    ],
+    "finding": "The reviewed sites identify distinct local or regional operations. The active public gate continues to exclude previously confirmed national brands.",
+    "sources": [
+      "https://www.bugoutwf.com/",
+      "https://www.peaden.com/about",
+      "https://www.fenceoutlet.com/about-us/",
+      "https://nationalgaragedooratlanta.com/",
+      "https://www.natpool.com/"
+    ]
+  },
+  "discovery": {
+    "detailedCandidates": 73,
+    "httpValidatedCandidates": 62,
+    "rescreenedExistingDomains": [
+      "393marinerepair.com",
+      "a1collisionshop.com",
+      "alliancepestcontrols.com",
+      "allpropaintandbody.com",
+      "anthonysapplianceal.com",
+      "appliancerepairservicesgulfbreeze.com",
+      "arboroutlawz.com",
+      "arbortreecare.org",
+      "asppoolco.com",
+      "baypestcontrol.biz",
+      "bestpestmanagement.com",
+      "bluewatergaragedoorservices.com",
+      "book.proliftdoors.com",
+      "bugoutwf.com",
+      "cajunoverheaddoor.com",
+      "capitalcomfort.com",
+      "chandlerappliancerepairs.com",
+      "circlepest.com",
+      "coastalrepairsolutions.com",
+      "corbittmoseleyplumbing.com",
+      "crestviewmarine.wixsite.com",
+      "dapi-fl.com",
+      "dontbugme.com",
+      "doortechbr.com",
+      "dukepest.com",
+      "durhamservice.com",
+      "elbrusconsulting.wordpress.com",
+      "emeraldcoastapplianceservice.com",
+      "emeraldcoastcollisionrepair.com",
+      "emeraldcoastpoolcompany.com",
+      "fatherandsonlandscape.com",
+      "flneedsprayfoam.com",
+      "gerbercollision.com",
+      "gulfcoastappliancefl.net",
+      "gulfcoasttreespecialists.com",
+      "gulfshorespoolstore.com",
+      "hasdestin.com",
+      "hometowngaragenwfl.com",
+      "house2houselawns.com",
+      "ibppanhandle.com",
+      "insectecopestcompany.com",
+      "insulationpanamacity.com",
+      "islandpoolllc.com",
+      "jandbapplianceal.com",
+      "jemairgulfbreeze.com",
+      "jlgsepticgulfbreeze.com",
+      "jlgsepticllc.com",
+      "lgmlandscapeandirrigation.com",
+      "mavericksepticservice.com",
+      "miraclestripbodyshop.com",
+      "mobilemarinepro.com",
+      "mypatriotappliance.com",
+      "navarrepestcontrol.com",
+      "northwestautocollision.com",
+      "ocpeadensepticservice.com",
+      "overheaddoor.com",
+      "overheaddoorbatonrouge.com",
+      "paradiserepairpensacola.com",
+      "parkersepticpanamacity.com",
+      "parrishlandmanagement.com",
+      "paynepoolprofessionals.com",
+      "pensacolappliancerepair.com",
+      "pest-ex.net",
+      "precisionpoolsllc.com",
+      "prestigeplumbingseptic.com",
+      "primeplumbingservicesfl.com",
+      "qualitygaragedoorwestpalm.com",
+      "rogersgrantseptic.com",
+      "simplyspotlessmobile.com",
+      "southernpoolscapes.com",
+      "sunshineautomotiveinc.com",
+      "sunshineirrigationco.com",
+      "superiorscapesgulfcoast.com",
+      "superiorsepticsewer.com",
+      "superiorspray.com",
+      "swiftpoolmaintenance251.com",
+      "taborpestcontrol.com",
+      "tallahasseegaragedoor.com",
+      "tamtechpools.net",
+      "terryslandscapinginc.com",
+      "thebodyworksfl.com",
+      "trophypestcontrol.com",
+      "winwithallsouth.com",
+      "zebwattsseptic.com"
+    ],
+    "pending": [
+      {
+        "name": "Dixie Paint & Body Shop",
+        "city": "st-petersburg-fl",
+        "trade": "auto-body-collision",
+        "website": "https://autobodytampa.com/body-shop/auto-body-repair-shop-st-petersburg-fl/",
+        "marker": "Dixie Paint",
+        "note": "The regional family-owned shop explicitly offers St. Petersburg drivers collision repair services for private vehicles from its Tampa operation.",
+        "sources": [
+          "https://autobodytampa.com/body-shop/auto-body-repair-shop-st-petersburg-fl/"
+        ],
+        "identityStatus": "new",
+        "proof": {
+          "name": "Dixie Paint & Body Shop",
+          "city": "st-petersburg-fl",
+          "trade": "auto-body-collision",
+          "page": "https://whoknowsapro.com/st-petersburg-fl/auto-body-collision",
+          "profileStatus": 404,
+          "nameMatches": 0,
+          "domainMatches": 0,
+          "exactCards": []
+        },
+        "websiteCheck": {
+          "status": 403,
+          "finalUrl": "https://autobodytampa.com/body-shop/auto-body-repair-shop-st-petersburg-fl/",
+          "title": "Site Unavailable",
+          "identityMatch": false,
+          "domainMatch": true
+        },
+        "sourceChecks": [
+          {
+            "url": "https://autobodytampa.com/body-shop/auto-body-repair-shop-st-petersburg-fl/",
+            "status": 403,
+            "finalUrl": "https://autobodytampa.com/body-shop/auto-body-repair-shop-st-petersburg-fl/",
+            "title": "Site Unavailable"
+          }
+        ],
+        "blockers": [
+          "Official destination unavailable or identity could not be confirmed",
+          "Supporting official source unavailable or redirects to a different domain"
+        ],
+        "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+      },
+      {
+        "name": "JR Peaden Septic",
+        "city": "milton-fl",
+        "trade": "septic-services",
+        "website": "https://jrpeadenseptic.com/",
+        "reason": "The business site confirms its name and Milton operation. Its short contact page lacks evidence of residential pumping or installations, and the relationship to another listed Peaden septic operator remains unresolved."
+      },
+      {
+        "name": "Fort Walton Beach Insulation",
+        "city": "fort-walton-beach-fl",
+        "trade": "insulation",
+        "website": "https://www.fortwaltonbeachinsulation.com/retrofit-insulation-fort-walton-beach-fl",
+        "reason": "The city-specific marketing page describes residential work. Confirm its underlying operating company before listing."
+      },
+      {
+        "name": "Able Services of Northwest Florida",
+        "city": "panama-city-fl",
+        "trade": "tree-service",
+        "website": "https://ableservicesnwfl.com/",
+        "reason": "The company describes residential tree work and projects in Panama City Beach. Confirm actual service in Panama City or explicit Bay County coverage."
+      },
+      {
+        "name": "Panhandle Bucket Work",
+        "city": "panama-city-fl",
+        "trade": "tree-service",
+        "website": "https://panhandlebucketworkllc.com/",
+        "reason": "The source names Panama City Beach and Santa Rosa Beach. Panama City coverage remains unresolved."
+      },
+      {
+        "name": "Emerald Coast Services and Repair",
+        "city": "crestview-fl",
+        "trade": "garage-door-repair",
+        "website": "https://emeraldcoastservicesandrepairfl.com/about",
+        "reason": "The local operation advertises handyman and door repair. Confirm it repairs residential garage doors, including their door assemblies or openers."
+      },
+      {
+        "name": "Patriot Foam",
+        "city": "panama-city-fl",
+        "trade": "insulation",
+        "website": "https://patriotfoam.com/",
+        "reason": "The official destination could not be verified for the intended business or Panama City residential insulation."
+      },
+      {
+        "name": "TJ’s Tree Services",
+        "city": "panama-city-fl",
+        "trade": "tree-service",
+        "website": "https://tjs-tree-services.com/",
+        "reason": "The working official business website, service and city could not all be confirmed."
+      },
+      {
+        "name": "Carter & Sons Septic Tank Service",
+        "city": "milton-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "Research found third-party records. Confirm a current official site and residential septic work."
+      }
+    ],
+    "withheld": [],
+    "identityAndBrandChecks": [
+      {
+        "name": "Hometown Garage Doors alternate domain",
+        "city": "crestview-fl",
+        "trade": "garage-door-repair",
+        "website": "https://www.hometowngaragedoorsnf.com/",
+        "reason": "Earlier checkpoint matched the same operating address and phone as the listed Hometown Garage Doors. Treat as an alternate domain."
+      },
+      {
+        "name": "Clear Water Pool & Spa alternate domain",
+        "city": "mobile-al",
+        "trade": "pool-service",
+        "website": "https://clearwaterpoolandspaservices.com/",
+        "reason": "The destination identifies the existing Mobile company and its official cwpoolandspa.com website. The placement already exists."
+      },
+      {
+        "name": "National Garage Door of Atlanta",
+        "city": "atlanta-ga",
+        "trade": "garage-door-repair",
+        "website": "https://nationalgaragedooratlanta.com/",
+        "reason": "Existing business. Its official site describes a family-operated metro Atlanta company. Its name alone is insufficient for a national-brand suppression."
+      }
+    ],
+    "priorPriorityHolds": [
+      {
+        "name": "Precision Collision / Crestview",
+        "city": "crestview-fl",
+        "trade": "auto-body-collision",
+        "website": null,
+        "reason": "Confirm the specific Crestview operator and current locally owned official website before considering an addition."
+      },
+      {
+        "name": "Haid Electric",
+        "city": "panama-city-fl",
+        "trade": "generator-installation",
+        "website": "https://haidelectric.com/portable-generator-backup-systems-2/",
+        "reason": "The site lists portable backup systems. Confirm the working service page and the exact residential installation offered."
+      },
+      {
+        "name": "Florida Septic",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "The search surfaced a third-party record. A working official website and residential work evidence are needed."
+      },
+      {
+        "name": "Emerald Coast Wastewater Solutions",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "Confirm the official website and service to local households."
+      },
+      {
+        "name": "Fowlers Septic Tanks",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "A working official business website and current residential-service evidence are missing."
+      },
+      {
+        "name": "Superior First Response",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "Confirm direct residential service and a working official website."
+      },
+      {
+        "name": "Destin Collision",
+        "city": "destin-fl",
+        "trade": "auto-body-collision",
+        "website": null,
+        "reason": "Confirm an operating local identity and working official site. A directory record alone is insufficient."
+      },
+      {
+        "name": "A1 Guaranteed Appliance Sales",
+        "city": "fort-walton-beach-fl",
+        "trade": "appliance-repair",
+        "website": null,
+        "reason": "Confirm a working official website and repair work for customers beyond appliance sales."
+      },
+      {
+        "name": "Lightning Pool Service and Construction",
+        "city": "crestview-fl",
+        "trade": "pool-installation",
+        "website": null,
+        "reason": "Business records surfaced. Confirm a working official site and direct residential pool construction today."
+      },
+      {
+        "name": "H3O Pools",
+        "city": "panama-city-fl",
+        "trade": "pool-installation",
+        "website": null,
+        "reason": "Third-party descriptions need current official-site, residential construction and identity confirmation."
+      },
+      {
+        "name": "A1 Septic Worx",
+        "city": "panama-city-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "A state entity record supports the business identity. Confirm an operating official site with residential work and Panama City service coverage."
+      },
+      {
+        "name": "High Def Spray Foam",
+        "city": "fort-walton-beach-fl",
+        "trade": "insulation",
+        "website": null,
+        "reason": "Third-party results did not establish a current official site or direct residential insulation work in Fort Walton Beach."
+      },
+      {
+        "name": "All’s Attic Insulation & Roofing Services",
+        "city": "fort-walton-beach-fl",
+        "trade": "insulation",
+        "website": null,
+        "reason": "Check whether the alternate name is the same company and find a current official site showing homeowner service."
+      }
+    ],
+    "pipeline": "The candidate collector sets the status to needs_official_website_and_service_area_verification. It does not publish. The current verified-source ingestion has no five-listing cap."
+  },
+  "placements": [
+    {
+      "name": "Hilton's Termite and Pest Control",
+      "city": "navarre-fl",
+      "trade": "pest-control",
+      "website": "https://hiltonstermiteandpestcontrol.com/",
+      "marker": "Hilton",
+      "note": "The local pest control company explicitly describes direct ant and termite inspections and treatments for homeowners in Navarre, Florida.",
+      "sources": [
+        "https://hiltonstermiteandpestcontrol.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Hilton's Termite and Pest Control",
+        "city": "navarre-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/navarre-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://hiltonstermiteandpestcontrol.com/",
+        "title": "Exterminator in Navarre, FL | Hilton's Termite And Pest Control",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://hiltonstermiteandpestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://hiltonstermiteandpestcontrol.com/",
+          "title": "Exterminator in Navarre, FL | Hilton's Termite And Pest Control"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "BugPro Pest & Termite Control",
+      "city": "gulfport-ms",
+      "trade": "pest-control",
+      "website": "https://bugpro.net/gulfport",
+      "marker": "BugPro",
+      "note": "The local pest provider specifically lists Gulfport neighborhoods and offers its own residential pest inspections and treatments for termites and household pests.",
+      "sources": [
+        "https://bugpro.net/gulfport"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "BugPro Pest & Termite Control",
+        "city": "gulfport-ms",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/gulfport-ms/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://bugpro.net/gulfport",
+        "title": "Pest Control Gulfport, MS | Termite & Exterminator | BugPro",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://bugpro.net/gulfport",
+          "status": 200,
+          "finalUrl": "https://bugpro.net/gulfport",
+          "title": "Pest Control Gulfport, MS | Termite & Exterminator | BugPro"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Havard Pest Control",
+      "city": "gulfport-ms",
+      "trade": "pest-control",
+      "website": "https://havardpest.com/about-havard/",
+      "marker": "Havard Pest Control",
+      "note": "The Gulfport-rooted regional business serves Mississippi, Alabama and Louisiana and describes direct residential pest work by its local team in Gulfport.",
+      "sources": [
+        "https://havardpest.com/about-havard/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Havard Pest Control",
+        "city": "gulfport-ms",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/gulfport-ms/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://havardpest.com/about-havard/",
+        "title": "Serving the South Since 1947 - Havard Pest Control",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://havardpest.com/about-havard/",
+          "status": 200,
+          "finalUrl": "https://havardpest.com/about-havard/",
+          "title": "Serving the South Since 1947 - Havard Pest Control"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Amy's Plumbing Corp",
+      "city": "fort-lauderdale-fl",
+      "trade": "plumbing",
+      "website": "https://www.amysplumbing.com/",
+      "marker": "Amy",
+      "note": "The local plumber is based in Fort Lauderdale, explicitly serves local residences, and directly repairs plumbing fixtures, pipes and water heaters.",
+      "sources": [
+        "https://www.amysplumbing.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Amy's Plumbing Corp",
+        "city": "fort-lauderdale-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.amysplumbing.com/",
+        "title": "AMY'S PLUMBING CORP - Amy's Plumbing | Licensed Broward County Plumber Since 2017",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.amysplumbing.com/",
+          "status": 200,
+          "finalUrl": "https://www.amysplumbing.com/",
+          "title": "AMY'S PLUMBING CORP - Amy's Plumbing | Licensed Broward County Plumber Since 2017"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Kyle Plumbing",
+      "city": "fort-lauderdale-fl",
+      "trade": "plumbing",
+      "website": "https://www.kyleplumbing.com/fort-lauderdale",
+      "marker": "Kyle Plumbing",
+      "note": "The South Florida provider explicitly serves Fort Lauderdale and directly repairs and installs household pipes, fixtures and water heaters.",
+      "sources": [
+        "https://www.kyleplumbing.com/fort-lauderdale"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Kyle Plumbing",
+        "city": "fort-lauderdale-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.kyleplumbing.com/fort-lauderdale",
+        "title": "Plumber in Fort Lauderdale, FL | Kyle Plumbing",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.kyleplumbing.com/fort-lauderdale",
+          "status": 200,
+          "finalUrl": "https://www.kyleplumbing.com/fort-lauderdale",
+          "title": "Plumber in Fort Lauderdale, FL | Kyle Plumbing"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "TC&D",
+      "city": "orlando-fl",
+      "trade": "landscaping",
+      "website": "https://www.landscape-orlando.com/",
+      "marker": "Orlando",
+      "note": "The local landscape contractor names downtown Orlando as a service area and describes direct outdoor design and landscape installation for residential properties.",
+      "sources": [
+        "https://www.landscape-orlando.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "TC&D",
+        "city": "orlando-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/orlando-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.landscape-orlando.com/",
+        "title": "landscape design orlando - TC&D",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.landscape-orlando.com/",
+          "status": 200,
+          "finalUrl": "https://www.landscape-orlando.com/",
+          "title": "landscape design orlando - TC&D"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "GreenWorks",
+      "city": "orlando-fl",
+      "trade": "landscaping",
+      "website": "https://greenworksfl.com/orlando-landscaping/",
+      "marker": "GreenWorks",
+      "note": "The local company explicitly offers Orlando homeowners direct landscape installations including planting, sod and other landscape improvements.",
+      "sources": [
+        "https://greenworksfl.com/orlando-landscaping/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "GreenWorks",
+        "city": "orlando-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/orlando-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://greenworksfl.com/orlando-landscaping/",
+        "title": "Orlando Landscaping Services & Installation | GreenWorks",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://greenworksfl.com/orlando-landscaping/",
+          "status": 200,
+          "finalUrl": "https://greenworksfl.com/orlando-landscaping/",
+          "title": "Orlando Landscaping Services & Installation | GreenWorks"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "BLG Environmental Services",
+      "city": "orlando-fl",
+      "trade": "landscaping",
+      "website": "https://blgenvironmental.com/residential/",
+      "marker": "BLG",
+      "note": "The regional business lists Orlando in its residential landscape service area and directly designs and installs landscaping for homeowners.",
+      "sources": [
+        "https://blgenvironmental.com/residential/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "BLG Environmental Services",
+        "city": "orlando-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/orlando-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://blgenvironmental.com/residential/",
+        "title": "Residential Landscaping for Orlando, FL | BLG Environmental Services",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://blgenvironmental.com/residential/",
+          "status": 200,
+          "finalUrl": "https://blgenvironmental.com/residential/",
+          "title": "Residential Landscaping for Orlando, FL | BLG Environmental Services"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "EarthWise Horticultural Services",
+      "city": "orlando-fl",
+      "trade": "landscaping",
+      "website": "https://www.earthwisescott.com/",
+      "marker": "EarthWise",
+      "note": "The locally operated horticultural company names Orlando and describes designing and directly installing landscape improvements for existing homes.",
+      "sources": [
+        "https://www.earthwisescott.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "EarthWise Horticultural Services",
+        "city": "orlando-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/orlando-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.earthwisescott.com/",
+        "title": "Earthwise Horticultural Services",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.earthwisescott.com/",
+          "status": 200,
+          "finalUrl": "https://www.earthwisescott.com/",
+          "title": "Earthwise Horticultural Services"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Flamingo Landscapes",
+      "city": "orlando-fl",
+      "trade": "landscaping",
+      "website": "https://www.flamingolandscapes.com/",
+      "marker": "Flamingo",
+      "note": "The Orlando-area landscape company describes direct landscape installation for residential clients and documents serving homes in Orlando.",
+      "sources": [
+        "https://www.flamingolandscapes.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Flamingo Landscapes",
+        "city": "orlando-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/orlando-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.flamingolandscapes.com/",
+        "title": "Landscaping Company | Orlando | Flamingo Landscapes",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.flamingolandscapes.com/",
+          "status": 200,
+          "finalUrl": "https://www.flamingolandscapes.com/",
+          "title": "Landscaping Company | Orlando | Flamingo Landscapes"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "A Cut Above The Rest",
+      "city": "orlando-fl",
+      "trade": "landscaping",
+      "website": "https://acutaboveorlando.com/",
+      "marker": "Cut Above",
+      "note": "The Orlando-area landscape company locates its work in Orlando and explicitly provides direct design and installation services for residential landscapes.",
+      "sources": [
+        "https://acutaboveorlando.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "A Cut Above The Rest",
+        "city": "orlando-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/orlando-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://acutaboveorlando.com/",
+        "title": "Orlando Landscaping & Lawn Care Company | A Cut Above The Rest",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://acutaboveorlando.com/",
+          "status": 200,
+          "finalUrl": "https://acutaboveorlando.com/",
+          "title": "Orlando Landscaping & Lawn Care Company | A Cut Above The Rest"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Pest Care",
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "website": "https://www.pestcare.com/",
+      "marker": "Pest Care",
+      "note": "The family-owned Tampa Bay business provides its own pest and rodent treatments in homes. Tampa is within the stated Tampa Bay metro service area.",
+      "sources": [
+        "https://www.pestcare.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Pest Care",
+        "city": "tampa-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/tampa-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.pestcare.com/",
+        "title": "PEST CARE LLC - Pest Care",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.pestcare.com/",
+          "status": 200,
+          "finalUrl": "https://www.pestcare.com/",
+          "title": "PEST CARE LLC - Pest Care"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Bug Man Pest Control",
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "website": "https://www.bugmanpestcontrol.com/",
+      "marker": "Bug Man",
+      "note": "The Tampa Bay company directly treats pests in homes in Hillsborough County, which contains Tampa, and explains residential pest treatment on its site.",
+      "sources": [
+        "https://www.bugmanpestcontrol.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Bug Man Pest Control",
+        "city": "tampa-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/tampa-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.bugmanpestcontrol.com/",
+        "title": "Tampa Bay Area Pest Control | Bug Man | No Contracts",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.bugmanpestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://www.bugmanpestcontrol.com/",
+          "title": "Tampa Bay Area Pest Control | Bug Man | No Contracts"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Alafia Termite & Pest Control",
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "website": "https://alafiapestcontrol.wixsite.com/alafiapestcontrol",
+      "marker": "Alafia",
+      "note": "The family-operated pest company lists Hillsborough County, which contains Tampa, and directly provides residential termite and household pest treatments.",
+      "sources": [
+        "https://alafiapestcontrol.wixsite.com/alafiapestcontrol"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Alafia Termite & Pest Control",
+        "city": "tampa-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/tampa-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://alafiapestcontrol.wixsite.com/alafiapestcontrol",
+        "title": "Alafia Termite & Pest Control | Family-owned in Riverview, Tampa",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://alafiapestcontrol.wixsite.com/alafiapestcontrol",
+          "status": 200,
+          "finalUrl": "https://alafiapestcontrol.wixsite.com/alafiapestcontrol",
+          "title": "Alafia Termite & Pest Control | Family-owned in Riverview, Tampa"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Venning Pest Control",
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "website": "https://venningpestcontrol.com/",
+      "marker": "Venning Pest Control",
+      "note": "The family-owned pest company explicitly serves the Tampa Bay metro, which includes Tampa, and offers direct pest treatments for local residential customers.",
+      "sources": [
+        "https://venningpestcontrol.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Venning Pest Control",
+        "city": "tampa-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/tampa-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://venningpestcontrol.com/",
+        "title": "Venning Pest Control – Environmental Solutions for Pest Management",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://venningpestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://venningpestcontrol.com/",
+          "title": "Venning Pest Control – Environmental Solutions for Pest Management"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Wahlbeck Pest Control",
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "website": "https://www.wahlbeckpestcontrol.com/",
+      "marker": "Wahlbeck",
+      "note": "The family operator offers direct home pest and termite treatments and explicitly covers Hillsborough County, which contains Tampa.",
+      "sources": [
+        "https://www.wahlbeckpestcontrol.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Wahlbeck Pest Control",
+        "city": "tampa-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/tampa-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.wahlbeckpestcontrol.com/",
+        "title": "Wahlbeck Pest Control",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.wahlbeckpestcontrol.com/",
+          "status": 200,
+          "finalUrl": "https://www.wahlbeckpestcontrol.com/",
+          "title": "Wahlbeck Pest Control"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Insect IQ",
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "website": "https://www.insectiq.com/about-us",
+      "marker": "Insect IQ",
+      "note": "The independent family firm directly treats pests in area homes and identifies its Tampa Bay metro coverage, which includes Tampa.",
+      "sources": [
+        "https://www.insectiq.com/about-us"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Insect IQ",
+        "city": "tampa-fl",
+        "trade": "pest-control",
+        "page": "https://whoknowsapro.com/tampa-fl/pest-control",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.insectiq.com/about-us",
+        "title": "About Us - Insect IQ",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.insectiq.com/about-us",
+          "status": 200,
+          "finalUrl": "https://www.insectiq.com/about-us",
+          "title": "About Us - Insect IQ"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Bay Plumbing Co.",
+      "city": "miami-fl",
+      "trade": "plumbing",
+      "website": "https://www.bayplumbingco.com/",
+      "marker": "Bay Plumbing",
+      "note": "The regional Miami-Dade company directly offers residential plumbing repairs, drains and fixture work. The city of Miami is in Miami-Dade County.",
+      "sources": [
+        "https://www.bayplumbingco.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Bay Plumbing Co.",
+        "city": "miami-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/miami-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.bayplumbingco.com/",
+        "title": "Bay Plumbing Co. | Miami-Dade Plumbing Company Since 1968",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.bayplumbingco.com/",
+          "status": 200,
+          "finalUrl": "https://www.bayplumbingco.com/",
+          "title": "Bay Plumbing Co. | Miami-Dade Plumbing Company Since 1968"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "All Pristine Plumbing",
+      "city": "miami-fl",
+      "trade": "plumbing",
+      "website": "https://allpristineplumbing.com/about-us",
+      "marker": "All Pristine",
+      "note": "The family company serves local homes throughout Miami-Dade County including Miami, and directly provides plumbing repairs and installation.",
+      "sources": [
+        "https://allpristineplumbing.com/about-us"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "All Pristine Plumbing",
+        "city": "miami-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/miami-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://allpristineplumbing.com/about-us",
+        "title": "About All Pristine Plumbing LLC | Family-Owned South Florida Plumbers",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://allpristineplumbing.com/about-us",
+          "status": 200,
+          "finalUrl": "https://allpristineplumbing.com/about-us",
+          "title": "About All Pristine Plumbing LLC | Family-Owned South Florida Plumbers"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Main Plumbing Services",
+      "city": "miami-fl",
+      "trade": "plumbing",
+      "website": "https://mainplumbingmiami.com/about/",
+      "marker": "Main Plumbing",
+      "note": "The family-run provider directly repairs home plumbing, drains and water heaters and states it serves Miami-Dade, which includes the city of Miami.",
+      "sources": [
+        "https://mainplumbingmiami.com/about/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Main Plumbing Services",
+        "city": "miami-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/miami-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://mainplumbingmiami.com/about/",
+        "title": "About Main Plumbing Services, a Family-Run Miami Plumber",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://mainplumbingmiami.com/about/",
+          "status": 200,
+          "finalUrl": "https://mainplumbingmiami.com/about/",
+          "title": "About Main Plumbing Services, a Family-Run Miami Plumber"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Trust Plumbing",
+      "city": "miami-fl",
+      "trade": "plumbing",
+      "website": "https://www.trustplumbingcorp.com/about-us",
+      "marker": "Trust Plumbing",
+      "note": "The local operator describes direct plumbing repair and installation for Miami homeowners and expressly identifies the Miami market.",
+      "sources": [
+        "https://www.trustplumbingcorp.com/about-us"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Trust Plumbing",
+        "city": "miami-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/miami-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.trustplumbingcorp.com/about-us",
+        "title": "About Us | Trust Plumbing Corp",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.trustplumbingcorp.com/about-us",
+          "status": 200,
+          "finalUrl": "https://www.trustplumbingcorp.com/about-us",
+          "title": "About Us | Trust Plumbing Corp"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Cutler Bay Plumbing",
+      "city": "miami-fl",
+      "trade": "plumbing",
+      "website": "https://cutlerbayplumbing.com/about-us.html",
+      "marker": "Cutler Bay Plumbing",
+      "note": "The local family company lists Miami by name and offers direct residential plumbing repairs including drains, leaks and fixture work.",
+      "sources": [
+        "https://cutlerbayplumbing.com/about-us.html"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Cutler Bay Plumbing",
+        "city": "miami-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/miami-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://cutlerbayplumbing.com/about-us.html",
+        "title": "About Cutler Bay Plumbing | Family-Owned Miami Plumber",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://cutlerbayplumbing.com/about-us.html",
+          "status": 200,
+          "finalUrl": "https://cutlerbayplumbing.com/about-us.html",
+          "title": "About Cutler Bay Plumbing | Family-Owned Miami Plumber"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "JALU CORP",
+      "city": "miami-fl",
+      "trade": "plumbing",
+      "website": "https://jalucorp.us/en/about",
+      "marker": "JALU CORP",
+      "note": "The locally founded Miami plumbing company directly repairs leaks, drains and other household plumbing problems for homeowners and names Miami.",
+      "sources": [
+        "https://jalucorp.us/en/about"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "JALU CORP",
+        "city": "miami-fl",
+        "trade": "plumbing",
+        "page": "https://whoknowsapro.com/miami-fl/plumbing",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://jalucorp.us/en/about",
+        "title": "About JALU CORP | Miami Plumbing Company",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://jalucorp.us/en/about",
+          "status": 200,
+          "finalUrl": "https://jalucorp.us/en/about",
+          "title": "About JALU CORP | Miami Plumbing Company"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Parker & Sons Heating & Cooling",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://parkerandsonshvac.net/about-us/",
+      "marker": "Parker",
+      "note": "The Birmingham family heating and cooling provider directly repairs and installs equipment for area homeowners and explicitly describes Birmingham coverage.",
+      "sources": [
+        "https://parkerandsonshvac.net/about-us/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Parker & Sons Heating & Cooling",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://parkerandsonshvac.net/about-us/",
+        "title": "About Us - Parker & Sons Heating & Cooling",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://parkerandsonshvac.net/about-us/",
+          "status": 200,
+          "finalUrl": "https://parkerandsonshvac.net/about-us/",
+          "title": "About Us - Parker & Sons Heating & Cooling"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Guin Service",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://www.guinservice.com/",
+      "marker": "Guin Service",
+      "note": "The local Birmingham family company directly repairs and installs home air conditioning and heating systems throughout the Birmingham area.",
+      "sources": [
+        "https://www.guinservice.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Guin Service",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.guinservice.com/",
+        "title": "Birmingham's Trusted HVAC and Plumbing Expert | Guin Service",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.guinservice.com/",
+          "status": 200,
+          "finalUrl": "https://www.guinservice.com/",
+          "title": "Birmingham's Trusted HVAC and Plumbing Expert | Guin Service"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Cool Breeze",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://coolbreezeinc.com/",
+      "marker": "Cool Breeze",
+      "note": "The local family HVAC company names Birmingham and directly repairs and installs air conditioning and heating systems for area households.",
+      "sources": [
+        "https://coolbreezeinc.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Cool Breeze",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://coolbreezeinc.com/",
+        "title": "HVAC Near You | AC & Heating Repair | Birmingham AL",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://coolbreezeinc.com/",
+          "status": 200,
+          "finalUrl": "https://coolbreezeinc.com/",
+          "title": "HVAC Near You | AC & Heating Repair | Birmingham AL"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Wade Heating & Air",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://wadehvac.com/about/",
+      "marker": "Wade",
+      "note": "The family company explicitly serves Birmingham and directly repairs and installs heating and air conditioning equipment for homeowners.",
+      "sources": [
+        "https://wadehvac.com/about/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Wade Heating & Air",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://wadehvac.com/about/",
+        "title": "Family-Owned HVAC Experts in Greater Birmingham, AL | Wade",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://wadehvac.com/about/",
+          "status": 200,
+          "finalUrl": "https://wadehvac.com/about/",
+          "title": "Family-Owned HVAC Experts in Greater Birmingham, AL | Wade"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Engle Services",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://engleservicesheatingandair.com/birmingham-heating-and-air/",
+      "marker": "Engle Services",
+      "note": "The company identifies its Birmingham operation and documents direct residential furnace and air conditioning repairs at Birmingham homes.",
+      "sources": [
+        "https://engleservicesheatingandair.com/birmingham-heating-and-air/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Engle Services",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://engleservicesheatingandair.com/birmingham-heating-and-air/",
+        "title": "Birmingham Heating and Air, Plumbing & Electrical - Engle Services",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://engleservicesheatingandair.com/birmingham-heating-and-air/",
+          "status": 200,
+          "finalUrl": "https://engleservicesheatingandair.com/birmingham-heating-and-air/",
+          "title": "Birmingham Heating and Air, Plumbing & Electrical - Engle Services"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Gipson Heating & Air Conditioning",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://gipsonheatingandair.com/",
+      "marker": "Gipson",
+      "note": "The local family company provides direct heating and cooling repair for homes and explicitly describes serving the Birmingham area.",
+      "sources": [
+        "https://gipsonheatingandair.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Gipson Heating & Air Conditioning",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://gipsonheatingandair.com/",
+        "title": "Gipson Heating & Air Conditioning - Birmingham #1 AC Repair",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://gipsonheatingandair.com/",
+          "status": 200,
+          "finalUrl": "https://gipsonheatingandair.com/",
+          "title": "Gipson Heating & Air Conditioning - Birmingham #1 AC Repair"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Holland Heating & Cooling Services",
+      "city": "birmingham-al",
+      "trade": "hvac",
+      "website": "https://www.hollandhcs.com/",
+      "marker": "HCS",
+      "note": "The local family HVAC company explicitly serves Birmingham homes and provides direct installation and repair of heating and cooling equipment.",
+      "sources": [
+        "https://www.hollandhcs.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Holland Heating & Cooling Services",
+        "city": "birmingham-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/birmingham-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.hollandhcs.com/",
+        "title": "HCS | Expert HVAC Services in Birmingham, AL | Book Now",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.hollandhcs.com/",
+          "status": 200,
+          "finalUrl": "https://www.hollandhcs.com/",
+          "title": "HCS | Expert HVAC Services in Birmingham, AL | Book Now"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Seaborn Johnson Construction",
+      "city": "auburn-al",
+      "trade": "concrete",
+      "website": "https://sjcconcrete.net/residential-services/",
+      "marker": "Seaborn Johnson",
+      "note": "The Auburn company has a dedicated residential concrete service and directly installs concrete driveways, patios and other flatwork at homes.",
+      "sources": [
+        "https://sjcconcrete.net/residential-services/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Seaborn Johnson Construction",
+        "city": "auburn-al",
+        "trade": "concrete",
+        "page": "https://whoknowsapro.com/auburn-al/concrete",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://sjcconcrete.net/residential-services/",
+        "title": "Residential Services - SJC Concrete: Premier Concrete Professionals",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://sjcconcrete.net/residential-services/",
+          "status": 200,
+          "finalUrl": "https://sjcconcrete.net/residential-services/",
+          "title": "Residential Services - SJC Concrete: Premier Concrete Professionals"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Sheridan Electric",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.sheridanelectricnola.com/",
+      "marker": "Sheridan Electric",
+      "note": "The local family electrical contractor serves New Orleans and directly carries out electrical repairs and improvements for residential customers.",
+      "sources": [
+        "https://www.sheridanelectricnola.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Sheridan Electric",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.sheridanelectricnola.com/",
+        "title": "Sheridan Electric Nola",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.sheridanelectricnola.com/",
+          "status": 200,
+          "finalUrl": "https://www.sheridanelectricnola.com/",
+          "title": "Sheridan Electric Nola"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Let There Be Light Electric",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://letherebelightelectric.com/about",
+      "marker": "Let There Be Light",
+      "note": "The family electrical contractor lists New Orleans and describes its own residential electrical work including repairs and panel improvements.",
+      "sources": [
+        "https://letherebelightelectric.com/about"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Let There Be Light Electric",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://letherebelightelectric.com/about",
+        "title": "About | Let There Be Light Electric",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://letherebelightelectric.com/about",
+          "status": 200,
+          "finalUrl": "https://letherebelightelectric.com/about",
+          "title": "About | Let There Be Light Electric"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "No Limits Electrical",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.nolimitselectrical.com/",
+      "marker": "No Limits",
+      "note": "The family electrician identifies New Orleans coverage and directly offers local residential wiring and electrical repair work.",
+      "sources": [
+        "https://www.nolimitselectrical.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "No Limits Electrical",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.nolimitselectrical.com/",
+        "title": "Electrical Contractor | Gretna & New Orleans, LA",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.nolimitselectrical.com/",
+          "status": 200,
+          "finalUrl": "https://www.nolimitselectrical.com/",
+          "title": "Electrical Contractor | Gretna & New Orleans, LA"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Lagniappe Electric",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.lagniappeelectric.com/about/",
+      "marker": "Lagniappe Electric",
+      "note": "The independent electrician explicitly serves greater New Orleans including the city, offering direct electrical service and repairs for residences.",
+      "sources": [
+        "https://www.lagniappeelectric.com/about/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Lagniappe Electric",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.lagniappeelectric.com/about/",
+        "title": "About – Lagniappe Electric LLC – New Orleans, LA",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.lagniappeelectric.com/about/",
+          "status": 200,
+          "finalUrl": "https://www.lagniappeelectric.com/about/",
+          "title": "About – Lagniappe Electric LLC – New Orleans, LA"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "HD Electric",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.hdelectric.info/about",
+      "marker": "HD Electric",
+      "note": "The local team describes direct electrical work on residences across greater New Orleans, which contains the city of New Orleans.",
+      "sources": [
+        "https://www.hdelectric.info/about"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "HD Electric",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.hdelectric.info/about",
+        "title": "About — HD Electric, LLC",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.hdelectric.info/about",
+          "status": 200,
+          "finalUrl": "https://www.hdelectric.info/about",
+          "title": "About — HD Electric, LLC"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "TK Electric",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.tkselectrical.com/services/",
+      "marker": "TK Electric",
+      "note": "The local family business explicitly serves New Orleans and directly performs household electrical repairs, installations and service.",
+      "sources": [
+        "https://www.tkselectrical.com/services/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "TK Electric",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.tkselectrical.com/services/",
+        "title": "Electrical Services in New Orleans, LA | TK Electric",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.tkselectrical.com/services/",
+          "status": 200,
+          "finalUrl": "https://www.tkselectrical.com/services/",
+          "title": "Electrical Services in New Orleans, LA | TK Electric"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Fitzgerald Electrical",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://fitzgeraldelectricalnola.com/",
+      "marker": "Fitzgerald Electrical",
+      "note": "The family business explicitly serves greater New Orleans and directly provides residential electrical work for local homeowners.",
+      "sources": [
+        "https://fitzgeraldelectricalnola.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Fitzgerald Electrical",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://fitzgeraldelectricalnola.com/",
+        "title": "Fitzgerald Electrical - Electrician - New Orleans, Louisiana",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://fitzgeraldelectricalnola.com/",
+          "status": 200,
+          "finalUrl": "https://fitzgeraldelectricalnola.com/",
+          "title": "Fitzgerald Electrical - Electrician - New Orleans, Louisiana"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Lead Electric",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.leadelectric.net/",
+      "marker": "Lead Electric",
+      "note": "The regional company lists the Greater New Orleans area, which contains New Orleans, and directly offers home electrical upgrades and repairs.",
+      "sources": [
+        "https://www.leadelectric.net/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Lead Electric",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.leadelectric.net/",
+        "title": "Licensed electrical professionals offering complete electrical solutions in Louisiana, Lead Electric LLC",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.leadelectric.net/",
+          "status": 200,
+          "finalUrl": "https://www.leadelectric.net/",
+          "title": "Licensed electrical professionals offering complete electrical solutions in Louisiana, Lead Electric LLC"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Fantastical Electrical",
+      "city": "new-orleans-la",
+      "trade": "electrical",
+      "website": "https://www.fantasticalelectrical.com/projects",
+      "marker": "Fantastical Electrical",
+      "note": "The local company names New Orleans and documents direct electrical repairs and installations on residential properties.",
+      "sources": [
+        "https://www.fantasticalelectrical.com/projects"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Fantastical Electrical",
+        "city": "new-orleans-la",
+        "trade": "electrical",
+        "page": "https://whoknowsapro.com/new-orleans-la/electrical",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.fantasticalelectrical.com/projects",
+        "title": "Designing electrical solutions to meet your needs",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.fantasticalelectrical.com/projects",
+          "status": 200,
+          "finalUrl": "https://www.fantasticalelectrical.com/projects",
+          "title": "Designing electrical solutions to meet your needs"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "A Plus Comfort",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://www.apluscomfortllc.com/about",
+      "marker": "A Plus Comfort",
+      "note": "The family business identifies Huntsville as its operating city and offers direct heating and cooling system service for local homeowners.",
+      "sources": [
+        "https://www.apluscomfortllc.com/about"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "A Plus Comfort",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.apluscomfortllc.com/about",
+        "title": "About A Plus Comfort | Huntsville, AL HVAC Maintenance",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.apluscomfortllc.com/about",
+          "status": 200,
+          "finalUrl": "https://www.apluscomfortllc.com/about",
+          "title": "About A Plus Comfort | Huntsville, AL HVAC Maintenance"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Airmetric",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://www.airmetrichvac.com/about",
+      "marker": "Airmetric",
+      "note": "The local South Huntsville company directly services heating and air conditioning systems in Huntsville homes and identifies its local operation.",
+      "sources": [
+        "https://www.airmetrichvac.com/about"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Airmetric",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.airmetrichvac.com/about",
+        "title": "About",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.airmetrichvac.com/about",
+          "status": 200,
+          "finalUrl": "https://www.airmetrichvac.com/about",
+          "title": "About"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Eagle Pro Heating, Cooling, Plumbing & Insulation",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://calleaglepro.com/about/",
+      "marker": "Eagle Pro",
+      "note": "The locally operated company names Huntsville in its service area and describes direct heating and cooling service for local homeowners.",
+      "sources": [
+        "https://calleaglepro.com/about/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Eagle Pro Heating, Cooling, Plumbing & Insulation",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://calleaglepro.com/about/",
+        "title": "About - Eagle Pro Heating, Cooling, Plumbing & Insulation",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://calleaglepro.com/about/",
+          "status": 200,
+          "finalUrl": "https://calleaglepro.com/about/",
+          "title": "About - Eagle Pro Heating, Cooling, Plumbing & Insulation"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Craig Comfort",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://www.craigcomfort.com/",
+      "marker": "Craig Comfort",
+      "note": "The family operation explicitly serves Huntsville and directly repairs and installs heating and air conditioning systems for homeowner customers.",
+      "sources": [
+        "https://www.craigcomfort.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Craig Comfort",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.craigcomfort.com/",
+        "title": "HVAC Heating and Cooling for your Home and Business - Craig Comfort",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.craigcomfort.com/",
+          "status": 200,
+          "finalUrl": "https://www.craigcomfort.com/",
+          "title": "HVAC Heating and Cooling for your Home and Business - Craig Comfort"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "H.C. Blake",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://hcblakeairconditioning.com/hc-blake-inc.html",
+      "marker": "Blake",
+      "note": "The family company lists its Huntsville operation and describes direct heating and air conditioning work for area homeowners.",
+      "sources": [
+        "https://hcblakeairconditioning.com/hc-blake-inc.html"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "H.C. Blake",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://hcblakeairconditioning.com/hc-blake-inc.html",
+        "title": "Call H C Blake Inc | Heating Huntsville | Air Conditioning Huntsville",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://hcblakeairconditioning.com/hc-blake-inc.html",
+          "status": 200,
+          "finalUrl": "https://hcblakeairconditioning.com/hc-blake-inc.html",
+          "title": "Call H C Blake Inc | Heating Huntsville | Air Conditioning Huntsville"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Pointer Heating & Air",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://pointerheatingandair.com/why-pointer",
+      "marker": "Pointer",
+      "note": "The locally owned sibling-run HVAC company names Huntsville and directly services and repairs heating and cooling equipment for homeowners.",
+      "sources": [
+        "https://pointerheatingandair.com/why-pointer"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Pointer Heating & Air",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://pointerheatingandair.com/why-pointer",
+        "title": "Why Choose Pointer Heating & Air? | Madison & Huntsville, AL",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://pointerheatingandair.com/why-pointer",
+          "status": 200,
+          "finalUrl": "https://pointerheatingandair.com/why-pointer",
+          "title": "Why Choose Pointer Heating & Air? | Madison & Huntsville, AL"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Conlon Heating & Cooling",
+      "city": "huntsville-al",
+      "trade": "hvac",
+      "website": "https://conlonheatingandcooling.com/about.html",
+      "marker": "Conlon",
+      "note": "The local owner identifies Huntsville as an explicit market and provides direct home heating and cooling diagnostics and repairs.",
+      "sources": [
+        "https://conlonheatingandcooling.com/about.html"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Conlon Heating & Cooling",
+        "city": "huntsville-al",
+        "trade": "hvac",
+        "page": "https://whoknowsapro.com/huntsville-al/hvac",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://conlonheatingandcooling.com/about/",
+        "title": "About Conlon Heating & Cooling | Local HVAC in Madison, AL",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://conlonheatingandcooling.com/about.html",
+          "status": 200,
+          "finalUrl": "https://conlonheatingandcooling.com/about/",
+          "title": "About Conlon Heating & Cooling | Local HVAC in Madison, AL"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "C.T. Garage Door",
+      "city": "west-palm-beach-fl",
+      "trade": "garage-door-repair",
+      "website": "https://ctgaragedoors.com/services/",
+      "marker": "Garage Door",
+      "note": "The local garage door company directly provides residential garage-door spring and opener repairs throughout Palm Beach County, which contains West Palm Beach.",
+      "sources": [
+        "https://ctgaragedoors.com/services/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "C.T. Garage Door",
+        "city": "west-palm-beach-fl",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/garage-door-repair",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://ctgaragedoors.com/services/",
+        "title": "Services - C.T Garage Door",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://ctgaragedoors.com/services/",
+          "status": 200,
+          "finalUrl": "https://ctgaragedoors.com/services/",
+          "title": "Services - C.T Garage Door"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "E.N.K Garage Door Services",
+      "city": "west-palm-beach-fl",
+      "trade": "garage-door-repair",
+      "website": "https://www.enkgaragedoor.com/about/",
+      "marker": "ENK",
+      "note": "The locally owned family company lists West Palm Beach and performs direct residential garage door and opener service for area homeowners.",
+      "sources": [
+        "https://www.enkgaragedoor.com/about/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "E.N.K Garage Door Services",
+        "city": "west-palm-beach-fl",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/garage-door-repair",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.enkgaragedoor.com/about/",
+        "title": "About E.N.K Garage Door Services",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.enkgaragedoor.com/about/",
+          "status": 200,
+          "finalUrl": "https://www.enkgaragedoor.com/about/",
+          "title": "About E.N.K Garage Door Services"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Green Garage Door Repair",
+      "city": "west-palm-beach-fl",
+      "trade": "garage-door-repair",
+      "website": "https://greengaragedoorrepair.com/service-areas/west-palm-beach",
+      "marker": "Green Garage Door",
+      "note": "The family West Palm Beach shop expressly offers local homeowners direct spring, cable and other residential garage door repairs.",
+      "sources": [
+        "https://greengaragedoorrepair.com/service-areas/west-palm-beach"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Green Garage Door Repair",
+        "city": "west-palm-beach-fl",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/garage-door-repair",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://greengaragedoorrepair.com/service-areas/west-palm-beach",
+        "title": "West Palm Beach, FL Garage Door Repair | Green Garage Door Repair",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://greengaragedoorrepair.com/service-areas/west-palm-beach",
+          "status": 200,
+          "finalUrl": "https://greengaragedoorrepair.com/service-areas/west-palm-beach",
+          "title": "West Palm Beach, FL Garage Door Repair | Green Garage Door Repair"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:54:06.213086+00:00"
+    },
+    {
+      "name": "Sarasota Landscaping Inc.",
+      "city": "sarasota-fl",
+      "trade": "landscaping",
+      "website": "https://sarasotalandscaping.com/services/landscape-installation/",
+      "marker": "Sarasota Landscaping",
+      "note": "The owner-operated installer names Sarasota and describes planting and full-yard landscape installations at local homes, with examples of finished work.",
+      "sources": [
+        "https://sarasotalandscaping.com/services/landscape-installation/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Sarasota Landscaping Inc.",
+        "city": "sarasota-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/sarasota-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://sarasotalandscaping.com/services/landscape-installation/",
+        "title": "Landscape Installation & Full Yard Redos in Sarasota, FL | Sarasota Landscaping Inc.",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://sarasotalandscaping.com/services/landscape-installation/",
+          "status": 200,
+          "finalUrl": "https://sarasotalandscaping.com/services/landscape-installation/",
+          "title": "Landscape Installation & Full Yard Redos in Sarasota, FL | Sarasota Landscaping Inc."
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Mike Armstrong Landscaping",
+      "city": "sarasota-fl",
+      "trade": "landscaping",
+      "website": "https://mikearmstronglandscaping.com/",
+      "marker": "Mike Armstrong",
+      "note": "The local family company explicitly offers residential landscape installation across Sarasota County, which contains Sarasota.",
+      "sources": [
+        "https://mikearmstronglandscaping.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Mike Armstrong Landscaping",
+        "city": "sarasota-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/sarasota-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://mikearmstronglandscaping.com/",
+        "title": "Mike Armstrong Landscaping Inc.",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://mikearmstronglandscaping.com/",
+          "status": 200,
+          "finalUrl": "https://mikearmstronglandscaping.com/",
+          "title": "Mike Armstrong Landscaping Inc."
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Gulfside Landscape",
+      "city": "sarasota-fl",
+      "trade": "landscaping",
+      "website": "https://gulfsidelandscape.com/",
+      "marker": "Gulfside",
+      "note": "The family landscape company offers direct residential design and landscape installation across Sarasota County, which contains Sarasota.",
+      "sources": [
+        "https://gulfsidelandscape.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Gulfside Landscape",
+        "city": "sarasota-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/sarasota-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://gulfsidelandscape.com/",
+        "title": "Landscaping Services - Venice & Sarasota, Florida - Gulfside Landscape",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://gulfsidelandscape.com/",
+          "status": 200,
+          "finalUrl": "https://gulfsidelandscape.com/",
+          "title": "Landscaping Services - Venice & Sarasota, Florida - Gulfside Landscape"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Velora Landscape",
+      "city": "sarasota-fl",
+      "trade": "landscaping",
+      "website": "https://veloralandscape.com/about/",
+      "marker": "Velora",
+      "note": "The regional company directly installs residential landscape plantings across Sarasota County, including the city of Sarasota.",
+      "sources": [
+        "https://veloralandscape.com/about/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Velora Landscape",
+        "city": "sarasota-fl",
+        "trade": "landscaping",
+        "page": "https://whoknowsapro.com/sarasota-fl/landscaping",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://veloralandscape.com/about/",
+        "title": "Landscape Industry | Horticulture and Landscape Design | Velora Landscape",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://veloralandscape.com/about/",
+          "status": 200,
+          "finalUrl": "https://veloralandscape.com/about/",
+          "title": "Landscape Industry | Horticulture and Landscape Design | Velora Landscape"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Artemis Outdoor Services",
+      "city": "jacksonville-fl",
+      "trade": "tree-service",
+      "website": "https://artemisoutdoorservices.com/tree-removal-tree-services/",
+      "marker": "Artemis Outdoor Services",
+      "note": "The Jacksonville operator gives its local business address and directly performs residential tree trimming, removal and stump grinding in Jacksonville.",
+      "sources": [
+        "https://artemisoutdoorservices.com/tree-removal-tree-services/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Artemis Outdoor Services",
+        "city": "jacksonville-fl",
+        "trade": "tree-service",
+        "page": "https://whoknowsapro.com/jacksonville-fl/tree-service",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://artemisoutdoorservices.com/tree-removal-tree-services/",
+        "title": "Tree Services – Artemis Outdoor Services",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://artemisoutdoorservices.com/tree-removal-tree-services/",
+          "status": 200,
+          "finalUrl": "https://artemisoutdoorservices.com/tree-removal-tree-services/",
+          "title": "Tree Services – Artemis Outdoor Services"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Snip's Tree Service",
+      "city": "jacksonville-fl",
+      "trade": "tree-service",
+      "website": "https://www.snipstree.com/",
+      "marker": "SNIP",
+      "note": "The local operator offers arborist-led tree trimming, hazard removal and residential tree work in Jacksonville and Duval County.",
+      "sources": [
+        "https://www.snipstree.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Snip's Tree Service",
+        "city": "jacksonville-fl",
+        "trade": "tree-service",
+        "page": "https://whoknowsapro.com/jacksonville-fl/tree-service",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.snipstree.com/",
+        "title": "Tree Services | Jacksonville, FL - SNIP’S TREE SERVICE",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.snipstree.com/",
+          "status": 200,
+          "finalUrl": "https://www.snipstree.com/",
+          "title": "Tree Services | Jacksonville, FL - SNIP’S TREE SERVICE"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Babin's Garage Doors",
+      "city": "baton-rouge-la",
+      "trade": "garage-door-repair",
+      "website": "https://www.babinsgaragedoors.com/about-us",
+      "marker": "Babin",
+      "note": "The regional company directly repairs residential garage doors and names Greater Baton Rouge, which contains the City of Baton Rouge.",
+      "sources": [
+        "https://www.babinsgaragedoors.com/about-us"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Babin's Garage Doors",
+        "city": "baton-rouge-la",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/baton-rouge-la/garage-door-repair",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.babinsgaragedoors.com/about-us",
+        "title": "Expert Garage Doors | Babin's Prairieville",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.babinsgaragedoors.com/about-us",
+          "status": 200,
+          "finalUrl": "https://www.babinsgaragedoors.com/about-us",
+          "title": "Expert Garage Doors | Babin's Prairieville"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Pat's Garage Doors & Repair",
+      "city": "baton-rouge-la",
+      "trade": "garage-door-repair",
+      "website": "https://www.patsgaragedoorsla.com/about",
+      "marker": "Garage Doors",
+      "note": "The local Baton Rouge operator directly services and repairs homeowner garage doors, with its business located in the Baton Rouge area.",
+      "sources": [
+        "https://www.patsgaragedoorsla.com/about"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Pat's Garage Doors & Repair",
+        "city": "baton-rouge-la",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/baton-rouge-la/garage-door-repair",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.patsgaragedoorsla.com/about",
+        "title": "About Garage Doors | Baton Rouge, LA | Pat’s Garage Doors & Repair, LLC",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.patsgaragedoorsla.com/about",
+          "status": 200,
+          "finalUrl": "https://www.patsgaragedoorsla.com/about",
+          "title": "About Garage Doors | Baton Rouge, LA | Pat’s Garage Doors & Repair, LLC"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Highland Garage Door",
+      "city": "baton-rouge-la",
+      "trade": "garage-door-repair",
+      "website": "https://highlandgarage.com/about-us/",
+      "marker": "Highland Garage Door",
+      "note": "The local family operation identifies Baton Rouge area service and directly repairs and replaces residential garage doors and openers.",
+      "sources": [
+        "https://highlandgarage.com/about-us/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Highland Garage Door",
+        "city": "baton-rouge-la",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/baton-rouge-la/garage-door-repair",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://highlandgarage.com/about-us/",
+        "title": "About Us | Highland Garage Door",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://highlandgarage.com/about-us/",
+          "status": 200,
+          "finalUrl": "https://highlandgarage.com/about-us/",
+          "title": "About Us | Highland Garage Door"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:21.567813+00:00"
+    },
+    {
+      "name": "Onsite Property & Demo",
+      "city": "panama-city-fl",
+      "trade": "tree-service",
+      "website": "https://groundworkfl.com/",
+      "marker": "Onsite Property",
+      "note": "The Panama City operator identifies its own equipment and crew, and provides tree and stump removal or fallen tree cleanup on residential properties across Bay County.",
+      "sources": [
+        "https://groundworkfl.com/"
+      ],
+      "identityStatus": "new",
+      "proof": {
+        "name": "Onsite Property & Demo",
+        "city": "panama-city-fl",
+        "trade": "tree-service",
+        "page": "https://whoknowsapro.com/panama-city-fl/tree-service",
+        "profileStatus": 404,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://groundworkfl.com/",
+        "title": "",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://groundworkfl.com/",
+          "status": 200,
+          "finalUrl": "https://groundworkfl.com/",
+          "title": ""
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:55.069430+00:00"
+    },
+    {
+      "name": "JLG Septic",
+      "city": "milton-fl",
+      "trade": "septic-services",
+      "website": "https://www.jlgsepticgulfbreeze.com/",
+      "marker": "JLG Septic",
+      "note": "The existing Gulf Breeze provider names Milton in its service area and directly pumps, repairs and installs septic systems for local homes.",
+      "sources": [
+        "https://www.jlgsepticgulfbreeze.com/"
+      ],
+      "identityStatus": "previously_listed",
+      "proof": {
+        "name": "JLG Septic",
+        "city": "milton-fl",
+        "trade": "septic-services",
+        "page": "https://whoknowsapro.com/milton-fl/septic-services",
+        "profileStatus": 200,
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "exactCards": []
+      },
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.jlgsepticgulfbreeze.com/",
+        "title": "Septic Solutions | JLG Septic | Gulf Breeze, FL",
+        "identityMatch": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.jlgsepticgulfbreeze.com/",
+          "status": 200,
+          "finalUrl": "https://www.jlgsepticgulfbreeze.com/",
+          "title": "Septic Solutions | JLG Septic | Gulf Breeze, FL"
+        }
+      ],
+      "blockers": [],
+      "sourceVerifiedAt": "2026-11-22T22:55:55.069430+00:00"
+    }
+  ],
+  "publication": {
+    "status": "prepared",
+    "newBusinessesLiveVerified": 0,
+    "newBusinessPlacementsLive": 0,
+    "existingBusinessPlacementsLive": 0,
+    "awaitingDeployment": 61,
+    "awaitingLiveVerification": 0
+  }
+}
