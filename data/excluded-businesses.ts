@@ -23,6 +23,11 @@ export const excludedWebsiteDomains = [
   'greenhomesolutions.com',
   'tiresplus.com',
 
+  // 911 Restoration and OGD use national brands on these local sites.
+  '911restorationmississippigulfcoast.com',
+  'ogd.com',
+  'overheadgaragedoorpensacola.com',
+
   // Confirmed national service brands and their local consumer-facing sites.
   'carmedic.biz',
   // Nationwide dent repair and national flooring retail cooperative.

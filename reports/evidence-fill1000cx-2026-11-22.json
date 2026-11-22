@@ -1,0 +1,4383 @@
+{
+  "baselineCommit": "64189e805c449db41dae63571a01b2a518bb77cb",
+  "baselineTree": "332b2afc4a48e23146296cd0af721c8f52636260",
+  "baselineCheckedAt": "2026-11-22T10:52:53.147611+00:00",
+  "previousCheckpoint": "progress-fill1000cw-2026-11-21.md",
+  "catalog": {
+    "activeCities": 40,
+    "publicCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "graytonBeachActive": true,
+    "pensacolaBeachActive": false
+  },
+  "baselineCoverage": {
+    "displayedPlacements": 13492,
+    "displayedAt20Plus": 241,
+    "displayedBelow20": 879,
+    "emptyPages": 0,
+    "displayedDeficit": 9213,
+    "completeHistoricalQualificationAudit": false
+  },
+  "priorityCities": [
+    "destin-fl",
+    "fort-walton-beach-fl",
+    "crestview-fl",
+    "panama-city-fl"
+  ],
+  "discovery": {
+    "existingDomainsRescreened": [
+      "19thstreetautocenter.com",
+      "absolutetermiteandpestcontrol.com",
+      "aceoverheadgaragedoors.com",
+      "aitkensondemand.com",
+      "allaboutgaragedoorsinc.com",
+      "alliekats.com",
+      "allpropaintandbody.com",
+      "allsetgaragedoorrepair.com",
+      "ameriprogaragedoors.com",
+      "atoznwfl.com",
+      "autobodyangels.com",
+      "autorepairtampabay.com",
+      "bioshielddothan.com",
+      "bluewatergaragedoorservices.com",
+      "callawayautorepair.com",
+      "calsappliancerepair.com",
+      "carterinsulation.com",
+      "coastalexcellencemobiledentrepair.com",
+      "coastaloverheaddoor.org",
+      "dapi-fl.com",
+      "davesautosarasota.com",
+      "elbrusconsulting.wordpress.com",
+      "emeraldcoastapplianceservice.com",
+      "empirepestdefense.com",
+      "ensleyseptic.com",
+      "garagedoordoctorfl.com",
+      "garrettswreckerservicepc.com",
+      "generxgenerators.com",
+      "goldstar-insulation.com",
+      "gomrfencefl.com",
+      "greenstarirrigation.com",
+      "gulfbreezepoolsandspas.com",
+      "gulffencecon.com",
+      "hasdestin.com",
+      "holcombpools.com",
+      "hometowngaragenwfl.com",
+      "house2houselawns.com",
+      "igocar.store",
+      "jlgsepticgulfbreeze.com",
+      "johnsonpoolsinc.com",
+      "jrglandscapingandirrigation.com",
+      "kaphomesolutions.com",
+      "keefeandsonselectric.com",
+      "macdaddyirrigation.com",
+      "maddensepticservices.com",
+      "meyerselectric.net",
+      "mikesautocollision.net",
+      "mlc-development.com",
+      "nosweatautomotive.com",
+      "ocpeadensepticservice.com",
+      "octopussolutionsllc.com",
+      "parkersepticpanamacity.com",
+      "people1sthomeservices.com",
+      "pinckardandsongaragedoors.com",
+      "priceandsonsfencin.wixsite.com",
+      "primeplumbingseptic.com",
+      "purvisappliancerepair.com",
+      "rkplumbingservices.com",
+      "rogersgrantseptic.com",
+      "rtsallamericangaragedoors.com",
+      "scenicgroup.com",
+      "seaconstruction.net",
+      "septicbluetampa.com",
+      "sextonlandscapes.com",
+      "shermansautorepair.com",
+      "shopbriansflooring.com",
+      "slaughterpestcontrol.com",
+      "southerngaragedoorsllc.com",
+      "spearspestcontrol.com",
+      "telfordreynoldselectric.com",
+      "terryslandscapinginc.com",
+      "timsmithacura.com",
+      "totalconcreteconstruction.com",
+      "town-and-country-irrigation-service.com",
+      "uniquecollisioncenter.com",
+      "whittakerelectric.com",
+      "whittonworks.com",
+      "williamsmithpaintandbody.com",
+      "wprincfl.com",
+      "xtremefl.com",
+      "zebwattsseptic.com"
+    ],
+    "distinctPlacementCandidatesInDetailedReview": 70,
+    "officialDestinationChecks": 56,
+    "candidateSitesByMarket": "Priority Panhandle, Pensacola-area and coastal Alabama/Mississippi gaps were researched before other low-count pages. Strongest eligible leads reached further markets after current sites or identities could not be verified for additional priority-city placements.",
+    "priorityResult": "Searches for appliance service, collision, garage doors, standby generators, irrigation, septic, pool construction and insulation primarily returned already listed providers, services missing an official source, national brands or unresolved service-area scope. These searches did not establish an exhaustive local shortage.",
+    "withheld": [
+      {
+        "name": "Polar Insulation",
+        "city": "panama-city-fl",
+        "trade": "insulation",
+        "alternateSite": "https://www.homeinsulationpanamacity.com/",
+        "baselineSite": "https://polarinsulation.us/",
+        "reason": "The alternate site is the same existing regional provider. The target placement already exists."
+      },
+      {
+        "name": "Price and Son’s Fencing",
+        "city": "panama-city-fl",
+        "trade": "fence-builders",
+        "website": "https://priceandsonsfencing.com/about-us/",
+        "reason": "Target already displays 20 listings. The reviewed page was outside the publication set for this run."
+      },
+      {
+        "name": "S.I. Lawn Care",
+        "city": "gulfport-ms",
+        "trade": "lawn-care",
+        "website": "https://si-lawncare.com/about",
+        "reason": "The lawn-care category is hidden. The page does not justify treating maintenance alone as a substitute for broader landscape installation."
+      }
+    ],
+    "pending": [
+      {
+        "city": "sarasota-fl",
+        "trade": "auto-mechanics",
+        "name": "Lowe's Automotive Service",
+        "website": "https://www.lowesautomotiveservice.com/",
+        "note": "The Sarasota family automotive shop identifies its own location and offers mechanical repair and maintenance for private vehicles.",
+        "marker": "Automotive Service",
+        "sources": [
+          "https://www.lowesautomotiveservice.com/"
+        ],
+        "reason": "Official website could not be confirmed at the final public destination.",
+        "websiteCheck": {
+          "status": 502,
+          "finalUrl": "https://www.lowesautomotiveservice.com/",
+          "title": "lowesautomotiveservice.com | 502: Bad gateway",
+          "identity": false,
+          "domainMatch": true
+        },
+        "sourceChecks": [
+          {
+            "status": 502,
+            "finalUrl": "https://www.lowesautomotiveservice.com/",
+            "title": "lowesautomotiveservice.com | 502: Bad gateway"
+          }
+        ],
+        "baselineProfile": {
+          "status": 404,
+          "finalUrl": "https://whoknowsapro.com/business/lowe-s-automotive-service",
+          "title": "Who Knows a Pro? | Find Trusted Local Pros"
+        }
+      },
+      {
+        "city": "milton-fl",
+        "trade": "irrigation-sprinkler-repair",
+        "name": "Coastal Lawn Sprinkler",
+        "website": "https://coastallawnsprinkler.com/",
+        "note": "The family-operated Milton business offers lawn irrigation installation, repair and maintenance directly to customers from its identified local operation.",
+        "marker": "Lawn Sprinkler",
+        "sources": [
+          "https://coastallawnsprinkler.com/"
+        ],
+        "reason": "Official website could not be confirmed at the final public destination.",
+        "websiteCheck": {
+          "status": 200,
+          "finalUrl": "https://coastallawnsprinkler.com/",
+          "title": "Home",
+          "identity": false,
+          "domainMatch": true
+        },
+        "sourceChecks": [
+          {
+            "status": 200,
+            "finalUrl": "https://coastallawnsprinkler.com/",
+            "title": "Home"
+          }
+        ],
+        "baselineProfile": {
+          "status": 404,
+          "finalUrl": "https://whoknowsapro.com/business/coastal-lawn-sprinkler",
+          "title": "Who Knows a Pro? | Find Trusted Local Pros"
+        }
+      },
+      {
+        "city": "daphne-al",
+        "trade": "irrigation-sprinkler-repair",
+        "name": "Domino's Professional Service",
+        "website": "https://www.dominoesprofessionalservices.com/services/landscaping/irrigation-repair",
+        "note": "The local family company explicitly serves Daphne homeowners and sends its own team to diagnose leaks and repair sprinkler heads, valves and controllers.",
+        "marker": "Professional Service",
+        "sources": [
+          "https://www.dominoesprofessionalservices.com/services/landscaping/irrigation-repair"
+        ],
+        "reason": "Official website could not be confirmed at the final public destination.",
+        "websiteCheck": {
+          "status": 406,
+          "finalUrl": "https://www.dominoesprofessionalservices.com/services/landscaping/irrigation-repair",
+          "title": "Error 406 - Not Acceptable",
+          "identity": false,
+          "domainMatch": true
+        },
+        "sourceChecks": [
+          {
+            "status": 406,
+            "finalUrl": "https://www.dominoesprofessionalservices.com/services/landscaping/irrigation-repair",
+            "title": "Error 406 - Not Acceptable"
+          }
+        ],
+        "baselineProfile": {
+          "status": 404,
+          "finalUrl": "https://whoknowsapro.com/business/domino-s-professional-service",
+          "title": "Who Knows a Pro? | Find Trusted Local Pros"
+        }
+      },
+      {
+        "name": "Precision Collision / Crestview",
+        "city": "crestview-fl",
+        "trade": "auto-body-collision",
+        "website": null,
+        "reason": "Confirm the specific Crestview operator and current locally owned official website before considering an addition."
+      },
+      {
+        "name": "Haid Electric",
+        "city": "panama-city-fl",
+        "trade": "generator-installation",
+        "website": "https://haidelectric.com/portable-generator-backup-systems-2/",
+        "reason": "The site lists portable backup systems. Confirm the working service page and the exact residential installation offered."
+      },
+      {
+        "name": "Florida Septic",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "The search surfaced a third-party record. A working official website and residential work evidence are needed."
+      },
+      {
+        "name": "Emerald Coast Wastewater Solutions",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "Confirm the official website and service to local households."
+      },
+      {
+        "name": "Fowlers Septic Tanks",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "A working official business website and current residential-service evidence are missing."
+      },
+      {
+        "name": "Superior First Response",
+        "city": "crestview-fl",
+        "trade": "septic-services",
+        "website": null,
+        "reason": "Confirm direct residential service and a working official website."
+      },
+      {
+        "name": "Destin Collision",
+        "city": "destin-fl",
+        "trade": "auto-body-collision",
+        "website": null,
+        "reason": "Confirm an operating local identity and working official site. A directory record alone is insufficient."
+      },
+      {
+        "name": "A1 Guaranteed Appliance Sales",
+        "city": "fort-walton-beach-fl",
+        "trade": "appliance-repair",
+        "website": null,
+        "reason": "Confirm a working official website and repair work for customers beyond appliance sales."
+      },
+      {
+        "name": "Lightning Pool Service and Construction",
+        "city": "crestview-fl",
+        "trade": "pool-installation",
+        "website": null,
+        "reason": "Business records surfaced. Confirm a working official site and direct residential pool construction today."
+      },
+      {
+        "name": "H3O Pools",
+        "city": "panama-city-fl",
+        "trade": "pool-installation",
+        "website": null,
+        "reason": "Third-party descriptions need current official-site, residential construction and identity confirmation."
+      },
+      {
+        "name": "Acton Flooring",
+        "city": "birmingham-al",
+        "trade": "flooring",
+        "website": "https://www.actonflooringbirmingham.com/about",
+        "reason": "Confirm the current residential installation scope and whether the Guild affiliation is a national consumer brand or an independent business affiliation."
+      }
+    ]
+  },
+  "placements": [
+    {
+      "city": "gulfport-ms",
+      "trade": "auto-body-collision",
+      "name": "Quality Paint and Body",
+      "website": "https://qualitypaintandbody.biz/",
+      "note": "The Gulfport shop identifies its local operation and directly offers collision, dent and paint work for customer vehicles.",
+      "marker": "Quality Paint and Body",
+      "sources": [
+        "https://qualitypaintandbody.biz/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://qualitypaintandbody.biz/",
+        "title": "Quailty Paint and Body – Gulfport's #1 Collision Shop",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://qualitypaintandbody.biz/",
+          "title": "Quailty Paint and Body – Gulfport's #1 Collision Shop"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-body-collision",
+      "name": "D&D Autobody",
+      "website": "https://www.ddautobodysarasota.com/about-us",
+      "note": "The Sarasota family shop offers direct accident repairs, bodywork and repainting for local car owners.",
+      "marker": "Autobody",
+      "sources": [
+        "https://www.ddautobodysarasota.com/about-us"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.ddautobodysarasota.com/about-us",
+        "title": "ABOUT US | My Site",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.ddautobodysarasota.com/about-us",
+          "title": "ABOUT US | My Site"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Big Three Performance",
+      "website": "https://www.bigthreeperformance.com/",
+      "note": "The Sarasota family shop identifies local operations and offers direct service, diagnosis and mechanical repair for everyday drivers' vehicles.",
+      "marker": "Big Three Performance",
+      "sources": [
+        "https://www.bigthreeperformance.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.bigthreeperformance.com/",
+        "title": "BMW & European Auto Repair in Sarasota | Big Three Performance",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.bigthreeperformance.com/",
+          "title": "BMW & European Auto Repair in Sarasota | Big Three Performance"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Stickney Point Auto Repair",
+      "website": "https://www.stickneypointautorepair.com/",
+      "note": "The family-operated garage gives its Sarasota operating address and provides maintenance and repairs directly for customer cars.",
+      "marker": "Stickney Point Auto Repair",
+      "sources": [
+        "https://www.stickneypointautorepair.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.stickneypointautorepair.com/",
+        "title": "www.stickneypointautorepair.com",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.stickneypointautorepair.com/",
+          "title": "www.stickneypointautorepair.com"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Automotive Service Garage",
+      "website": "https://srqautorepair.com/",
+      "note": "The local garage gives its Sarasota operating address and offers Sarasota drivers its own mechanical and repair services.",
+      "marker": "Automotive Service Garage",
+      "sources": [
+        "https://srqautorepair.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://srqautorepair.com/",
+        "title": "Auto Repair Sarasota FL | Honest Mechanics Near Clark Rd & I-75 : Automotive Service Garage | Auto Repair in Sarasota, FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://srqautorepair.com/",
+          "title": "Auto Repair Sarasota FL | Honest Mechanics Near Clark Rd & I-75 : Automotive Service Garage | Auto Repair in Sarasota, FL"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-body-collision",
+      "name": "Caswell Corrective Paintless Dent Repair",
+      "website": "https://cc-pdr.com/",
+      "note": "The Sarasota family company directly removes dents and restores body panels on customers' own cars and confirms it serves Sarasota.",
+      "marker": "Caswell",
+      "sources": [
+        "https://cc-pdr.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://cc-pdr.com/",
+        "title": "Caswell Corrective Paintless Dent Repair - Home",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://cc-pdr.com/",
+          "title": "Caswell Corrective Paintless Dent Repair - Home"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Nott's Automotive",
+      "website": "https://nottsautomotive.com/",
+      "note": "The local family shop describes its direct repair, maintenance and diagnostic work for Sarasota motorists.",
+      "marker": "Nott",
+      "sources": [
+        "https://nottsautomotive.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://nottsautomotive.com/",
+        "title": "Auto Repair Shop in Sarasota | Auto Mechanics | Nott's Automotive",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://nottsautomotive.com/",
+          "title": "Auto Repair Shop in Sarasota | Auto Mechanics | Nott's Automotive"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Burk's Auto Repair Center",
+      "website": "https://www.burksautorepair.com/about",
+      "note": "The independent third-generation shop gives its Sarasota facility and has on-site technicians for the repair and maintenance of private vehicles.",
+      "marker": "Burk",
+      "sources": [
+        "https://www.burksautorepair.com/about"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.burksautorepair.com/about",
+        "title": "About Burk’s Auto Repair Center | Family-Owned Auto Repair in Sarasota",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.burksautorepair.com/about",
+          "title": "About Burk’s Auto Repair Center | Family-Owned Auto Repair in Sarasota"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Skip's Automotive",
+      "website": "https://www.skipsautomotive.com/",
+      "note": "The Sarasota family shop directly provides automotive repair and maintenance, including engine, brake and AC work on customer vehicles.",
+      "marker": "Skip",
+      "sources": [
+        "https://www.skipsautomotive.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.skipsautomotive.com/",
+        "title": "Sarasota Auto Repair | Engine, Brake & AC Experts | Skip's Automotive",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.skipsautomotive.com/",
+          "title": "Sarasota Auto Repair | Engine, Brake & AC Experts | Skip's Automotive"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Beiler's Auto Repair",
+      "website": "https://www.beilersautorepair.com/",
+      "note": "The company gives its Sarasota shop location and describes direct service on customer vehicles from oil changes to engine replacement.",
+      "marker": "Beiler",
+      "sources": [
+        "https://www.beilersautorepair.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.beilersautorepair.com/",
+        "title": "Auto Repair Services | Beiler's Auto Repair Inc. | Sarasota, FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.beilersautorepair.com/",
+          "title": "Auto Repair Services | Beiler's Auto Repair Inc. | Sarasota, FL"
+        }
+      ]
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "auto-mechanics",
+      "name": "Car Tune Up Sarasota",
+      "website": "https://www.cartuneup-sarasota.com/",
+      "note": "The locally operated veteran-owned company gives its Sarasota repair garage address and provides direct mechanical repairs for private motorists.",
+      "marker": "Car Tune Up",
+      "sources": [
+        "https://www.cartuneup-sarasota.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.cartuneup-sarasota.com/",
+        "title": "Veteran-Owned Auto Repair in Sarasota, FL | Car Tune Up Sarasota",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.cartuneup-sarasota.com/",
+          "title": "Veteran-Owned Auto Repair in Sarasota, FL | Car Tune Up Sarasota"
+        }
+      ]
+    },
+    {
+      "city": "naples-fl",
+      "trade": "auto-body-collision",
+      "name": "Perfection Body Shop",
+      "website": "https://www.perfectionbodyshop.com/",
+      "note": "The family-operated Naples repair shop offers direct accident repairs and paintwork on private vehicles, including luxury cars.",
+      "marker": "Perfection Body Shop",
+      "sources": [
+        "https://www.perfectionbodyshop.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.perfectionbodyshop.com/",
+        "title": "Perfection Body Shop & Auto Repair of Naples | Naples Collision Repair | 5857 Shirley Street unit d, Naples, FL 34109, USA",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.perfectionbodyshop.com/",
+          "title": "Perfection Body Shop & Auto Repair of Naples | Naples Collision Repair | 5857 Shirley Street unit d, Naples, FL 34109, USA"
+        }
+      ]
+    },
+    {
+      "city": "fort-myers-fl",
+      "trade": "auto-mechanics",
+      "name": "Terry Wynter Auto Service Center",
+      "website": "https://terrywynterauto.com/about-us/",
+      "note": "The Fort Myers family shop directly repairs customer cars and lists engine, radiator and air-conditioning service.",
+      "marker": "Terry Wynter",
+      "sources": [
+        "https://terrywynterauto.com/about-us/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://terrywynterauto.com/about-us/",
+        "title": "Family-Owned Auto Repair Shop Since 1996 | Terry Wynter",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://terrywynterauto.com/about-us/",
+          "title": "Family-Owned Auto Repair Shop Since 1996 | Terry Wynter"
+        }
+      ]
+    },
+    {
+      "city": "fort-myers-fl",
+      "trade": "auto-mechanics",
+      "name": "J.A.E. Automotive",
+      "website": "https://jaeauto.com/about-us",
+      "note": "The Fort Myers family shop identifies its own team and direct mechanical and maintenance work for car owners.",
+      "marker": "Automotive",
+      "sources": [
+        "https://jaeauto.com/about-us"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://jaeauto.com/about-us",
+        "title": "Drivevanta: Trusted Auto Repair in Fort Myers | DriveVanta",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://jaeauto.com/about-us",
+          "title": "Drivevanta: Trusted Auto Repair in Fort Myers | DriveVanta"
+        }
+      ]
+    },
+    {
+      "city": "fort-myers-fl",
+      "trade": "auto-mechanics",
+      "name": "On The Spot Auto Repair & Diagnostics",
+      "website": "https://onthespotautorepairdiagnostics.com/about/",
+      "note": "The family-owned Fort Myers garage identifies its own local facility and offers diagnostic, engine, brake and AC work on customer cars.",
+      "marker": "On The Spot",
+      "sources": [
+        "https://onthespotautorepairdiagnostics.com/about/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://onthespotautorepairdiagnostics.com/about/",
+        "title": "About On The Spot Auto Repair & Diagnostics | Brake Repair in Fort Myers, FL 33901",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://onthespotautorepairdiagnostics.com/about/",
+          "title": "About On The Spot Auto Repair & Diagnostics | Brake Repair in Fort Myers, FL 33901"
+        }
+      ]
+    },
+    {
+      "city": "naples-fl",
+      "trade": "auto-body-collision",
+      "name": "Advanced Collision Specialists",
+      "website": "https://advancedcollisionspecialists.com/",
+      "note": "The Naples facility identifies its local shop and provides accident and body repairs for consumer vehicles.",
+      "marker": "Advanced Collision Specialists",
+      "sources": [
+        "https://advancedcollisionspecialists.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://advancedcollisionspecialists.com/",
+        "title": "Advanced Collision Specialists - Naples Automotive Repair Shop",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://advancedcollisionspecialists.com/",
+          "title": "Advanced Collision Specialists - Naples Automotive Repair Shop"
+        }
+      ]
+    },
+    {
+      "city": "fort-myers-fl",
+      "trade": "auto-mechanics",
+      "name": "Karr Automotive",
+      "website": "https://www.karrautomotive.com/",
+      "note": "The Fort Myers shop directly offers automotive maintenance and repair to local drivers and describes the work it carries out.",
+      "marker": "Karr Automotive",
+      "sources": [
+        "https://www.karrautomotive.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.karrautomotive.com/",
+        "title": "Auto Repair in Fort Myers, FL | Karr Automotive",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.karrautomotive.com/",
+          "title": "Auto Repair in Fort Myers, FL | Karr Automotive"
+        }
+      ]
+    },
+    {
+      "city": "fort-myers-fl",
+      "trade": "auto-mechanics",
+      "name": "Piney Road Auto Repair",
+      "website": "https://www.pineyroadautorepair.com/",
+      "note": "The family shop explicitly covers Lee County, which contains Fort Myers, and performs direct automotive maintenance and mechanical repair for area drivers.",
+      "marker": "Piney Road Auto Repair",
+      "sources": [
+        "https://www.pineyroadautorepair.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.pineyroadautorepair.com/",
+        "title": "Piney Road Auto Repair North Fort Myers FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.pineyroadautorepair.com/",
+          "title": "Piney Road Auto Repair North Fort Myers FL"
+        }
+      ]
+    },
+    {
+      "city": "naples-fl",
+      "trade": "auto-body-collision",
+      "name": "Economy Body Shop",
+      "website": "https://www.economybodyshop.com/auto-body-repair",
+      "note": "The Naples family body shop offers direct auto collision and paint refinishing repairs for owners of passenger vehicles.",
+      "marker": "Economy Body Shop",
+      "sources": [
+        "https://www.economybodyshop.com/auto-body-repair"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.economybodyshop.com/auto-body-repair",
+        "title": "Auto Body Repair and Paint Services | Naples, FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.economybodyshop.com/auto-body-repair",
+          "title": "Auto Body Repair and Paint Services | Naples, FL"
+        }
+      ]
+    },
+    {
+      "city": "fort-myers-fl",
+      "trade": "auto-mechanics",
+      "name": "M&R Performance",
+      "website": "https://www.mandrperformance.com/",
+      "note": "The family-owned shop identifies Fort Myers as its operating city and provides direct full-service mechanical repair and maintenance for customers' vehicles.",
+      "marker": "Performance",
+      "sources": [
+        "https://www.mandrperformance.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.mandrperformance.com/",
+        "title": "Home | M&R Performance | Fort Myers, FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.mandrperformance.com/",
+          "title": "Home | M&R Performance | Fort Myers, FL"
+        }
+      ]
+    },
+    {
+      "city": "miami-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "name": "Irrigate Miami",
+      "website": "https://www.irrigatemiami.com/services",
+      "note": "The Miami-Dade team directly diagnoses and repairs residential sprinkler and irrigation systems, including valves, leaks and controllers. Miami is within Miami-Dade County.",
+      "marker": "Irrigate Miami",
+      "sources": [
+        "https://www.irrigatemiami.com/services"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.irrigatemiami.com/services",
+        "title": "Sprinkler and Irrigation Services in Miami | Irrigate Miami",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.irrigatemiami.com/services",
+          "title": "Sprinkler and Irrigation Services in Miami | Irrigate Miami"
+        }
+      ]
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "trade": "pest-control",
+      "name": "DeBugem",
+      "website": "https://debugem.com/about/",
+      "note": "The independently owned local company treats homes across Palm Beach County, which contains West Palm Beach, and describes its own residential pest-control work.",
+      "marker": "DeBugem",
+      "sources": [
+        "https://debugem.com/about/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://debugem.com/about/",
+        "title": "About DeBugem | Family-Run Pest Control PBC Since 1998",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://debugem.com/about/",
+          "title": "About DeBugem | Family-Run Pest Control PBC Since 1998"
+        }
+      ]
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "trade": "pest-control",
+      "name": "Shoreline Environmental Pest Solutions",
+      "website": "https://shorelinepestservices.com/",
+      "note": "The local family company offers direct residential pest treatment across Palm Beach County, which includes West Palm Beach.",
+      "marker": "Shoreline",
+      "sources": [
+        "https://shorelinepestservices.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://shorelinepestservices.com/",
+        "title": "Home - Shoreline Environmental Pest Solutions",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://shorelinepestservices.com/",
+          "title": "Home - Shoreline Environmental Pest Solutions"
+        }
+      ]
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "trade": "pest-control",
+      "name": "Highland Pest Control",
+      "website": "https://highlandpest.com/",
+      "note": "The family company explicitly names West Palm Beach and offers direct residential pest, termite and inspection services.",
+      "marker": "Highland Pest Control",
+      "sources": [
+        "https://highlandpest.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://highlandpest.com/",
+        "title": "Highland Pest Control | Pest, Lawn & Termite Solutions in Okeechobee & West Palm Beach",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://highlandpest.com/",
+          "title": "Highland Pest Control | Pest, Lawn & Termite Solutions in Okeechobee & West Palm Beach"
+        }
+      ]
+    },
+    {
+      "city": "miami-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "name": "Santana's Lawn Sprinklers",
+      "website": "https://www.santanaslawnsprinklers.com/",
+      "note": "The Miami family-owned irrigation business provides direct sprinkler system installation and repairs for area property owners.",
+      "marker": "Santana",
+      "sources": [
+        "https://www.santanaslawnsprinklers.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.santanaslawnsprinklers.com/",
+        "title": "Santana's Lawn Sprinklers, Corp Sprinklers Miami, Florida",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.santanaslawnsprinklers.com/",
+          "title": "Santana's Lawn Sprinklers, Corp Sprinklers Miami, Florida"
+        }
+      ]
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "trade": "pest-control",
+      "name": "Above and Beyond Pest Control",
+      "website": "https://www.abpestcontrol.com/",
+      "note": "The family-owned company names West Palm Beach and provides direct pest and termite treatment for homeowners.",
+      "marker": "Above and Beyond Pest Control",
+      "sources": [
+        "https://www.abpestcontrol.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.abpestcontrol.com/",
+        "title": "West Palm Beach Pest Control | Above and Beyond Pest Control",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.abpestcontrol.com/",
+          "title": "West Palm Beach Pest Control | Above and Beyond Pest Control"
+        }
+      ]
+    },
+    {
+      "city": "west-palm-beach-fl",
+      "trade": "pest-control",
+      "name": "Safe Home Pest Control",
+      "website": "https://safehomezone.com/",
+      "note": "The West Palm Beach provider describes its own technicians performing pest treatment and inspections for residential customers.",
+      "marker": "Safe Home",
+      "sources": [
+        "https://safehomezone.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://safehomezone.com/",
+        "title": "West Palm Beach Pest Control | Safe Home Pest Control",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://safehomezone.com/",
+          "title": "West Palm Beach Pest Control | Safe Home Pest Control"
+        }
+      ]
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "auto-body-collision",
+      "name": "Minor Auto Damage",
+      "website": "https://www.minorautodamage.com/about",
+      "note": "The Tampa family shop offers direct collision and dent repair for personal cars from its local operating shop.",
+      "marker": "Minor Auto Damage",
+      "sources": [
+        "https://www.minorautodamage.com/about"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.minorautodamage.com/about",
+        "title": "About Our Family-Owned Tampa Auto Body Shop — Minor Auto Damage, LLC",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.minorautodamage.com/about",
+          "title": "About Our Family-Owned Tampa Auto Body Shop — Minor Auto Damage, LLC"
+        }
+      ]
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "auto-body-collision",
+      "name": "F&R Auto Body",
+      "website": "https://frautobodyshop.com/about/index.html",
+      "note": "The East Tampa owners identify their local workshop and provide accident repairs, dent removal and repainting directly to motorists.",
+      "marker": "Auto Body",
+      "sources": [
+        "https://frautobodyshop.com/about/index.html"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://frautobodyshop.com/about/index.html",
+        "title": "About Us — Owner-Operated Shop in East Tampa | F&R Auto Body",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://frautobodyshop.com/about/index.html",
+          "title": "About Us — Owner-Operated Shop in East Tampa | F&R Auto Body"
+        }
+      ]
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "auto-body-collision",
+      "name": "Avelar's Body Shop",
+      "website": "https://www.avelarsbodyshop.com/about",
+      "note": "The family-operated Tampa shop identifies its local shop and delivers collision and paint repairs directly for private motorists.",
+      "marker": "Avelar",
+      "sources": [
+        "https://www.avelarsbodyshop.com/about"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.avelarsbodyshop.com/about",
+        "title": "Avelar's Body Shop - About",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.avelarsbodyshop.com/about",
+          "title": "Avelar's Body Shop - About"
+        }
+      ]
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "auto-body-collision",
+      "name": "Savage Auto Design",
+      "website": "https://savageautodesign.com/",
+      "note": "The locally owned Tampa shop identifies its facility and provides direct vehicle collision and mechanical repairs to local drivers.",
+      "marker": "Savage Auto Design",
+      "sources": [
+        "https://savageautodesign.com/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://savageautodesign.com/",
+        "title": "Savage Auto Design | Auto Repair & Body Shop in Tampa, FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://savageautodesign.com/",
+          "title": "Savage Auto Design | Auto Repair & Body Shop in Tampa, FL"
+        }
+      ]
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "septic-services",
+      "name": "ASAP Rapid Resolve Septic",
+      "website": "https://rapidresolveseptic.com/tampa-residential-septic-services/",
+      "note": "The direct provider's Tampa residential page expressly covers household on-site septic work, including issues affecting tanks and lift stations.",
+      "marker": "Rapid Resolve Septic",
+      "sources": [
+        "https://rapidresolveseptic.com/tampa-residential-septic-services/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.rapidresolveseptic.com/",
+        "title": "Septic Services & Repair | Tampa, FL | Rapid Resolve Septic",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.rapidresolveseptic.com/",
+          "title": "Septic Services & Repair | Tampa, FL | Rapid Resolve Septic"
+        }
+      ]
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "auto-body-collision",
+      "name": "Shalom Auto Body",
+      "website": "https://shalomautobody.com/about/",
+      "note": "The family-founded Tampa shop directly provides collision repair, refinishing and structural work for customer cars.",
+      "marker": "Shalom Auto Body",
+      "sources": [
+        "https://shalomautobody.com/about/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://shalomautobody.com/about/",
+        "title": "About – Shalom Auto Body",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://shalomautobody.com/about/",
+          "title": "About – Shalom Auto Body"
+        }
+      ]
+    },
+    {
+      "city": "panama-city-beach-fl",
+      "trade": "auto-mechanics",
+      "name": "Express Tire and Auto Service",
+      "website": "https://expresstirepcb.com/about-us/",
+      "note": "The family owned Panama City Beach shop gives its local Navy Boulevard location and provides direct maintenance and repairs for private motorists.",
+      "marker": "Express Tire",
+      "sources": [
+        "https://expresstirepcb.com/about-us/"
+      ],
+      "scope": "consumer",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://expresstirepcb.com/about-us/",
+        "title": "About Us - Express Tire And Auto Service",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://expresstirepcb.com/about-us/",
+          "title": "About Us - Express Tire And Auto Service"
+        }
+      ]
+    },
+    {
+      "city": "montgomery-al",
+      "trade": "concrete",
+      "name": "K. C. Nummy Concrete",
+      "website": "https://www.kcnummyconcrete.net/residential-concrete",
+      "note": "The locally owned Montgomery contractor offers direct residential driveway and patio concrete repairs and installations.",
+      "marker": "Nummy Concrete",
+      "sources": [
+        "https://www.kcnummyconcrete.net/residential-concrete"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.kcnummyconcrete.net/residential-concrete",
+        "title": "Residential Concrete | Driveways and Patios | Montgomery, AL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.kcnummyconcrete.net/residential-concrete",
+          "title": "Residential Concrete | Driveways and Patios | Montgomery, AL"
+        }
+      ]
+    },
+    {
+      "city": "montgomery-al",
+      "trade": "pest-control",
+      "name": "Pest Pro Services",
+      "website": "https://ppsriverregion.com/about-pest-pro",
+      "note": "The locally owned pest company identifies its Montgomery River Region operations and provides direct household pest treatment.",
+      "marker": "Pest Pro",
+      "sources": [
+        "https://ppsriverregion.com/about-pest-pro"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://ppsriverregion.com/about-pest-pro",
+        "title": "About Pest Pro Services | Locally Owned Pest Control Alabama",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://ppsriverregion.com/about-pest-pro",
+          "title": "About Pest Pro Services | Locally Owned Pest Control Alabama"
+        }
+      ]
+    },
+    {
+      "city": "montgomery-al",
+      "trade": "concrete",
+      "name": "A&C Construction",
+      "website": "https://www.aandcconstruction.com/concrete-services/",
+      "note": "The Montgomery contractor lists its local address and offers homeowner driveway grading, concrete pouring and maintenance.",
+      "marker": "Construction",
+      "sources": [
+        "https://www.aandcconstruction.com/concrete-services/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.aandcconstruction.com/concrete-services/",
+        "title": "Concrete Pouring Services | Concrete Pouring in Montgomery | A & C Construction",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.aandcconstruction.com/concrete-services/",
+          "title": "Concrete Pouring Services | Concrete Pouring in Montgomery | A & C Construction"
+        }
+      ]
+    },
+    {
+      "city": "montgomery-al",
+      "trade": "pest-control",
+      "name": "All Pest Solutions",
+      "website": "https://www.allpestsolutionsal.com/",
+      "note": "The local family-owned business lists Montgomery and directly applies residential outdoor mosquito, tick and other pest treatments.",
+      "marker": "All Pest Solutions",
+      "sources": [
+        "https://www.allpestsolutionsal.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.allpestsolutionsal.com/",
+        "title": "Mosquitoes | Fleas | Ticks | Pest Control",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.allpestsolutionsal.com/",
+          "title": "Mosquitoes | Fleas | Ticks | Pest Control"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "B3 Outdoor Design",
+      "website": "https://b3outdoordesign.com/about/",
+      "note": "The Jacksonville family operator describes its own landscape design and installation crew for residential outdoor spaces.",
+      "marker": "B3 Outdoor Design",
+      "sources": [
+        "https://b3outdoordesign.com/about/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://b3outdoordesign.com/about/",
+        "title": "About - B3 Outdoor Design",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://b3outdoordesign.com/about/",
+          "title": "About - B3 Outdoor Design"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "C & L Landscape",
+      "website": "https://www.cllandscape.com/",
+      "note": "The local family company identifies Jacksonville and provides direct residential landscaping, installation and irrigation work.",
+      "marker": "Landscape",
+      "sources": [
+        "https://www.cllandscape.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.cllandscape.com/",
+        "title": "Landscaping & Irrigation Services | C & L Landscape | Jacksonville, FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.cllandscape.com/",
+          "title": "Landscaping & Irrigation Services | C & L Landscape | Jacksonville, FL"
+        }
+      ]
+    },
+    {
+      "city": "fort-lauderdale-fl",
+      "trade": "landscaping",
+      "name": "Livingston Landscapes & Design",
+      "website": "https://www.livingstonlandscapes.com/",
+      "note": "The family-operated company identifies its Fort Lauderdale location and carries out home landscape installation, plant work and outdoor lighting.",
+      "marker": "Livingston Landscapes",
+      "sources": [
+        "https://www.livingstonlandscapes.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.livingstonlandscapes.com/",
+        "title": "Livingston Landscapes and Design",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.livingstonlandscapes.com/",
+          "title": "Livingston Landscapes and Design"
+        }
+      ]
+    },
+    {
+      "city": "fort-lauderdale-fl",
+      "trade": "landscaping",
+      "name": "Garden by J.R.",
+      "website": "https://gardenbyjr.com/",
+      "note": "The Fort Lauderdale family company directly designs and installs landscaping for homeowners and documents work on area homes.",
+      "marker": "Garden by",
+      "sources": [
+        "https://gardenbyjr.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://gardenbyjr.com/",
+        "title": "Garden by J.R — Landscape Design, Fort Lauderdale",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://gardenbyjr.com/",
+          "title": "Garden by J.R — Landscape Design, Fort Lauderdale"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "Revival Property Design",
+      "website": "https://revivalpropertydesign.com/",
+      "note": "The local family business specifically names Jacksonville and performs residential designs and installations with its own team.",
+      "marker": "Revival Property Design",
+      "sources": [
+        "https://revivalpropertydesign.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://revivalpropertydesign.com/",
+        "title": "Revival Property Design",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://revivalpropertydesign.com/",
+          "title": "Revival Property Design"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "Southside Outdoor Services",
+      "website": "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company",
+      "note": "The Jacksonville company identifies its direct residential landscape work and sod installation throughout Jacksonville.",
+      "marker": "Southside Outdoor Services",
+      "sources": [
+        "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company",
+        "title": "Expert Landscaping & Sod Installation in Jacksonville FL",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://southsideservicesllc.com/about-our-jacksonville-landscaping-company",
+          "title": "Expert Landscaping & Sod Installation in Jacksonville FL"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "Vie Garden Design",
+      "website": "https://www.viegardendesign.com/residential",
+      "note": "Its residential service page explicitly offers Jacksonville homeowners landscape design and installation from sketch to final planting.",
+      "marker": "Vie Garden Design",
+      "sources": [
+        "https://www.viegardendesign.com/residential"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.viegardendesign.com/residential",
+        "title": "Residential — Vie Garden Design",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.viegardendesign.com/residential",
+          "title": "Residential — Vie Garden Design"
+        }
+      ]
+    },
+    {
+      "city": "fort-lauderdale-fl",
+      "trade": "landscaping",
+      "name": "Botanical Designs",
+      "website": "https://botanicaldesignsfl.com/about",
+      "note": "The family company directly designs and installs residential landscaping in Greater Fort Lauderdale, which includes the city.",
+      "marker": "Botanical Designs",
+      "sources": [
+        "https://botanicaldesignsfl.com/about"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://botanicaldesignsfl.com/about",
+        "title": "Landscape Renovation in Coral Springs, FL | Botanical Designs",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://botanicaldesignsfl.com/about",
+          "title": "Landscape Renovation in Coral Springs, FL | Botanical Designs"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "Holiday's Nursery & Landscaping",
+      "website": "https://www.holidaysofjax.com/services-4",
+      "note": "The Jacksonville family company offers direct landscape installation services for local homes as well as nursery products.",
+      "marker": "Holiday",
+      "sources": [
+        "https://www.holidaysofjax.com/services-4"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.holidaysofjax.com/services-4",
+        "title": "Landscape Services | Holiday's Nursery",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.holidaysofjax.com/services-4",
+          "title": "Landscape Services | Holiday's Nursery"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "New Roots Hardscapes & Landscapes",
+      "website": "https://www.newrootsh.com/",
+      "note": "The Jacksonville family operator directly designs and installs landscaping for residential customers.",
+      "marker": "New Roots",
+      "sources": [
+        "https://www.newrootsh.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.newrootsh.com/",
+        "title": "New Roots Hardscapes  | pavers",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.newrootsh.com/",
+          "title": "New Roots Hardscapes  | pavers"
+        }
+      ]
+    },
+    {
+      "city": "jacksonville-fl",
+      "trade": "landscaping",
+      "name": "Horizon Landscaping",
+      "website": "https://www.horizonlandscapingjax.com/",
+      "note": "The Jacksonville local business identifies both residential and commercial work and directly creates and installs landscapes for local home yards.",
+      "marker": "Horizon Landscaping",
+      "sources": [
+        "https://www.horizonlandscapingjax.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.horizonlandscapingjax.com/",
+        "title": "Home | Horizon Landscaping",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.horizonlandscapingjax.com/",
+          "title": "Home | Horizon Landscaping"
+        }
+      ]
+    },
+    {
+      "city": "daphne-al",
+      "trade": "landscaping",
+      "name": "Andrews Lawn & Garden",
+      "website": "https://algscapes.com/",
+      "note": "The Daphne company identifies its own crew designing and installing landscapes and lists homeowner work and service in Daphne.",
+      "marker": "Andrews",
+      "sources": [
+        "https://algscapes.com/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://algscapes.com/",
+        "title": "Landscaping & Hardscapes in Daphne, AL | Andrews Lawn & Garden",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://algscapes.com/",
+          "title": "Landscaping & Hardscapes in Daphne, AL | Andrews Lawn & Garden"
+        }
+      ]
+    },
+    {
+      "city": "daphne-al",
+      "trade": "irrigation-sprinkler-repair",
+      "name": "GulfScape Landscaping & Carpentry",
+      "website": "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al",
+      "note": "The local business describes a Daphne lawn sprinkler project and directly offers residential repairs including replacement of buried valves and sprinkler controllers.",
+      "marker": "GulfScape",
+      "sources": [
+        "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al",
+        "title": "Historic malbis sprinkler repair daphne al",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://gulfscapellc.com/our-projects/historic-malbis-sprinkler-repair-daphne-al",
+          "title": "Historic malbis sprinkler repair daphne al"
+        }
+      ]
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "flooring",
+      "name": "Rodgers Flooring",
+      "website": "https://www.rodgersflooring.com/wood-floor-installation.html",
+      "note": "The owner's Birmingham crew installs, repairs and refinishes hardwood floors in homes, and explicitly includes Birmingham in its service areas.",
+      "marker": "Rodgers Flooring",
+      "sources": [
+        "https://www.rodgersflooring.com/wood-floor-installation.html",
+        "https://www.rodgersflooring.com/about.html"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://www.rodgersflooring.com/wood-floor-installation.html",
+        "title": "Wood Floor Installation Birmingham AL | Rodgers Flooring",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.rodgersflooring.com/wood-floor-installation.html",
+          "title": "Wood Floor Installation Birmingham AL | Rodgers Flooring"
+        },
+        {
+          "status": 200,
+          "finalUrl": "https://www.rodgersflooring.com/about.html",
+          "title": "About Our Birmingham Flooring Company | Rodgers Flooring"
+        }
+      ]
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "flooring",
+      "name": "Southern Carpet, Hardwood & Tile",
+      "website": "https://southerncpt.com/residential/",
+      "note": "The locally based Birmingham company uses its own installation team for residential flooring and identifies its Birmingham operation on both official pages.",
+      "marker": "Southern Carpet",
+      "sources": [
+        "https://southerncpt.com/residential/",
+        "https://southerncpt.com/our-team/tim-hightower/"
+      ],
+      "scope": "residential",
+      "sourceVerifiedAt": "2026-11-22T10:54:31+00:00",
+      "baselineProfileStatus": 404,
+      "baselinePageCardMatches": 0,
+      "websiteCheck": {
+        "status": 200,
+        "finalUrl": "https://southerncpt.com/residential/",
+        "title": "Residential - Southern Carpet, Hardwood & Tile",
+        "identity": true,
+        "domainMatch": true
+      },
+      "sourceChecks": [
+        {
+          "status": 200,
+          "finalUrl": "https://southerncpt.com/residential/",
+          "title": "Residential - Southern Carpet, Hardwood & Tile"
+        },
+        {
+          "status": 200,
+          "finalUrl": "https://southerncpt.com/our-team/tim-hightower/",
+          "title": "Tim Hightower - Southern Carpet, Hardwood & Tile"
+        }
+      ]
+    }
+  ],
+  "nationalBrands": {
+    "identities": [
+      {
+        "name": "911 Restoration",
+        "domains": [
+          "911restorationmississippigulfcoast.com"
+        ],
+        "sources": [
+          "https://911restorationfranchise.com/franchise-opportunities/",
+          "https://www.911restoration.com/branches/gulf-coast-mississippi",
+          "https://www.911restorationmississippigulfcoast.com/"
+        ],
+        "evidence": "The parent describes a nationwide franchise and links to its Mississippi Gulf Coast branch. The branch lists the national brand on its legacy local domain."
+      },
+      {
+        "name": "OGD Overhead Garage Door",
+        "domains": [
+          "ogd.com",
+          "overheadgaragedoorpensacola.com"
+        ],
+        "sources": [
+          "https://ogd.com/About-Us/",
+          "https://ogd.com/fl/pensacola/",
+          "https://overheadgaragedoorpensacola.com/navarre/"
+        ],
+        "evidence": "OGD identifies itself as a nationwide garage door and dock company. The local pages identify OGD and the Pensacola service region."
+      }
+    ],
+    "confirmedBaselineCards": [
+      {
+        "name": "911 Restoration of Mississippi Gulf Coast",
+        "city": "biloxi-ms",
+        "trade": "water-damage-mold-remediation",
+        "page": "https://whoknowsapro.com/biloxi-ms/water-damage-mold-remediation",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "911 Restoration of Mississippi Gulf Coast",
+            "links": [
+              "https://www.911restorationmississippigulfcoast.com/"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "911 Restoration of Mississippi Gulf Coast",
+        "city": "gulfport-ms",
+        "trade": "water-damage-mold-remediation",
+        "page": "https://whoknowsapro.com/gulfport-ms/water-damage-mold-remediation",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "911 Restoration of Mississippi Gulf Coast",
+            "links": [
+              "https://www.911restorationmississippigulfcoast.com/"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OGD Overhead Garage Door",
+        "city": "pensacola-fl",
+        "trade": "garage-door-repair",
+        "page": "https://whoknowsapro.com/pensacola-fl/garage-door-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": [
+          {
+            "name": "OGD Overhead Garage Door",
+            "links": [
+              "https://ogd.com/"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "historicalAudit": {
+    "checkedAt": "2026-11-22T10:48:11.144Z",
+    "sourcePath": "data/verified-coverage-2026-09-28.json",
+    "status": "review_required_public_visibility_unchanged",
+    "methodology": "Conservative text scan of saved evidence. A flag excludes a placement from qualifying coverage until residential service, direct-provider status, category match, specific local coverage, and official identity are jointly reverified. Flags do not delete or hide records.",
+    "flaggedSourceRows": 584,
+    "flaggedPlacements": 8816,
+    "flaggedBusinessIdentities": 158,
+    "retailFixIt": {
+      "name": "Retail Fix It",
+      "website": "https://www.retailfixit.com/",
+      "reasons": [
+        "unsupported_residential_service",
+        "unsupported_specific_geography",
+        "intermediary_or_managed_network"
+      ],
+      "sourceRows": 22,
+      "placements": 396,
+      "sourceIndexes": [
+        2024,
+        2027,
+        2030,
+        2033,
+        2035,
+        2057,
+        2108,
+        2125,
+        2127,
+        2129,
+        2132,
+        2138,
+        2141,
+        2209,
+        2211,
+        2213,
+        2322,
+        2324,
+        2348,
+        2354,
+        2360,
+        2445
+      ],
+      "officialSources": [
+        "https://www.retailfixit.com/"
+      ],
+      "publicProfileStatusAtBaseline": 404,
+      "review": "Official material describes national facility and store maintenance and managed vendor onboarding. It does not establish local residential locksmith service. Leave prior public exclusion and source rows as recorded."
+    },
+    "businesses": [
+      {
+        "name": "Vixxo",
+        "website": "https://www.vixxo.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 32,
+        "placements": 460,
+        "sourceIndexes": [
+          2126,
+          2130,
+          2133,
+          2139,
+          2140,
+          2142,
+          2144,
+          2146,
+          2148,
+          2149,
+          2150,
+          2155,
+          2156,
+          2158,
+          2162,
+          2210,
+          2212,
+          2214,
+          2286,
+          2293,
+          2303,
+          2323,
+          2344,
+          2350,
+          2355,
+          2358,
+          2362,
+          2376,
+          2403,
+          2409,
+          2440,
+          2447
+        ]
+      },
+      {
+        "name": "Divisions Maintenance Group",
+        "website": "https://dmg360.com/",
+        "reasons": [
+          "unsupported_specific_geography",
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 38,
+        "placements": 426,
+        "sourceIndexes": [
+          2165,
+          2169,
+          2172,
+          2175,
+          2176,
+          2178,
+          2179,
+          2182,
+          2185,
+          2186,
+          2189,
+          2191,
+          2195,
+          2198,
+          2202,
+          2282,
+          2285,
+          2288,
+          2292,
+          2297,
+          2308,
+          2314,
+          2316,
+          2317,
+          2320,
+          2342,
+          2351,
+          2356,
+          2359,
+          2367,
+          2381,
+          2392,
+          2402,
+          2404,
+          2414,
+          2426,
+          2435,
+          2451
+        ]
+      },
+      {
+        "name": "Retail Fix It",
+        "website": "https://www.retailfixit.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography",
+          "intermediary_or_managed_network"
+        ],
+        "sourceRows": 22,
+        "placements": 396,
+        "sourceIndexes": [
+          2024,
+          2027,
+          2030,
+          2033,
+          2035,
+          2057,
+          2108,
+          2125,
+          2127,
+          2129,
+          2132,
+          2138,
+          2141,
+          2209,
+          2211,
+          2213,
+          2322,
+          2324,
+          2348,
+          2354,
+          2360,
+          2445
+        ]
+      },
+      {
+        "name": "Command7",
+        "website": "https://www.command7.com/",
+        "reasons": [
+          "unsupported_specific_geography",
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 19,
+        "placements": 309,
+        "sourceIndexes": [
+          2018,
+          2022,
+          2039,
+          2040,
+          2058,
+          2059,
+          2067,
+          2071,
+          2072,
+          2073,
+          2094,
+          2095,
+          2097,
+          2098,
+          2100,
+          2109,
+          2119,
+          2120,
+          2123
+        ]
+      },
+      {
+        "name": "All In One Services",
+        "website": "https://www.allinonesvc.com/",
+        "reasons": [
+          "unsupported_specific_geography",
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 19,
+        "placements": 238,
+        "sourceIndexes": [
+          2250,
+          2251,
+          2258,
+          2294,
+          2305,
+          2311,
+          2327,
+          2329,
+          2332,
+          2334,
+          2336,
+          2340,
+          2346,
+          2378,
+          2391,
+          2401,
+          2411,
+          2423,
+          2450
+        ]
+      },
+      {
+        "name": "PR Services",
+        "website": "https://prsretailsolutions.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 8,
+        "placements": 233,
+        "sourceIndexes": [
+          1985,
+          1994,
+          1997,
+          2000,
+          2005,
+          2008,
+          2012,
+          2015
+        ]
+      },
+      {
+        "name": "Local Buckets",
+        "website": "https://localbuckets.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 7,
+        "placements": 216,
+        "sourceIndexes": [
+          1983,
+          1984,
+          1993,
+          1999,
+          2003,
+          2007,
+          2010
+        ]
+      },
+      {
+        "name": "Lessen",
+        "website": "https://www.lessen.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 18,
+        "placements": 190,
+        "sourceIndexes": [
+          2166,
+          2167,
+          2174,
+          2188,
+          2190,
+          2201,
+          2205,
+          2206,
+          2287,
+          2291,
+          2321,
+          2347,
+          2373,
+          2388,
+          2398,
+          2421,
+          2432,
+          2434
+        ]
+      },
+      {
+        "name": "CARE Facility Maintenance",
+        "website": "https://carefms.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 7,
+        "placements": 184,
+        "sourceIndexes": [
+          2017,
+          2019,
+          2021,
+          2026,
+          2029,
+          2032,
+          2034
+        ]
+      },
+      {
+        "name": "Gallant",
+        "website": "https://egallant.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 24,
+        "placements": 174,
+        "sourceIndexes": [
+          2221,
+          2225,
+          2226,
+          2227,
+          2229,
+          2233,
+          2236,
+          2240,
+          2246,
+          2271,
+          2275,
+          2278,
+          2281,
+          2299,
+          2319,
+          2357,
+          2368,
+          2383,
+          2393,
+          2405,
+          2416,
+          2428,
+          2437,
+          2453
+        ]
+      },
+      {
+        "name": "TrueSource",
+        "website": "https://truesource.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 12,
+        "placements": 167,
+        "sourceIndexes": [
+          2168,
+          2171,
+          2177,
+          2181,
+          2194,
+          2207,
+          2284,
+          2302,
+          2349,
+          2361,
+          2408,
+          2446
+        ]
+      },
+      {
+        "name": "Ferrandino & Son",
+        "website": "https://ferrandinoandson.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 12,
+        "placements": 153,
+        "sourceIndexes": [
+          2131,
+          2137,
+          2145,
+          2153,
+          2159,
+          2208,
+          2290,
+          2353,
+          2371,
+          2386,
+          2419,
+          2441
+        ]
+      },
+      {
+        "name": "Genstone Field Services",
+        "website": "https://www.genstonefieldservices.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 19,
+        "placements": 151,
+        "sourceIndexes": [
+          2216,
+          2222,
+          2228,
+          2230,
+          2234,
+          2241,
+          2249,
+          2264,
+          2266,
+          2272,
+          2279,
+          2372,
+          2387,
+          2396,
+          2406,
+          2420,
+          2431,
+          2442,
+          2455
+        ]
+      },
+      {
+        "name": "EMCOR Facilities Services",
+        "website": "https://emcorfacilities.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 18,
+        "placements": 148,
+        "sourceIndexes": [
+          2173,
+          2180,
+          2184,
+          2187,
+          2193,
+          2197,
+          2200,
+          2204,
+          2289,
+          2300,
+          2352,
+          2369,
+          2384,
+          2394,
+          2417,
+          2429,
+          2438,
+          2454
+        ]
+      },
+      {
+        "name": "VXO Services",
+        "website": "https://vxoservices.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 11,
+        "placements": 142,
+        "sourceIndexes": [
+          2252,
+          2253,
+          2255,
+          2257,
+          2260,
+          2263,
+          2345,
+          2363,
+          2400,
+          2407,
+          2448
+        ]
+      },
+      {
+        "name": "NEST",
+        "website": "https://www.enternest.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 13,
+        "placements": 139,
+        "sourceIndexes": [
+          2254,
+          2256,
+          2259,
+          2261,
+          2301,
+          2325,
+          2330,
+          2370,
+          2385,
+          2395,
+          2418,
+          2430,
+          2439
+        ]
+      },
+      {
+        "name": "MCS",
+        "website": "https://mcsgo.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 11,
+        "placements": 138,
+        "sourceIndexes": [
+          2217,
+          2223,
+          2235,
+          2267,
+          2273,
+          2280,
+          2328,
+          2337,
+          2374,
+          2390,
+          2443
+        ]
+      },
+      {
+        "name": "ABM",
+        "website": "https://www.abm.com/",
+        "reasons": [
+          "unsupported_specific_geography",
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 17,
+        "placements": 136,
+        "sourceIndexes": [
+          2219,
+          2231,
+          2237,
+          2243,
+          2247,
+          2265,
+          2269,
+          2276,
+          2304,
+          2310,
+          2335,
+          2339,
+          2365,
+          2377,
+          2410,
+          2422,
+          2449
+        ]
+      },
+      {
+        "name": "Barron Facility Services",
+        "website": "https://www.barronfacilityservices.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 5,
+        "placements": 124,
+        "sourceIndexes": [
+          2020,
+          2023,
+          2025,
+          2028,
+          2031
+        ]
+      },
+      {
+        "name": "Superior Facility Service Group",
+        "website": "https://superiorfsg.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 5,
+        "placements": 116,
+        "sourceIndexes": [
+          2534,
+          2538,
+          2551,
+          2553,
+          2559
+        ]
+      },
+      {
+        "name": "MaintenX",
+        "website": "https://maintenx.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography",
+          "intermediary_or_managed_network"
+        ],
+        "sourceRows": 10,
+        "placements": 115,
+        "sourceIndexes": [
+          2147,
+          2152,
+          2154,
+          2157,
+          2161,
+          2215,
+          2364,
+          2389,
+          2399,
+          2433
+        ]
+      },
+      {
+        "name": "PHFM",
+        "website": "https://www.phfmservices.com/",
+        "reasons": [
+          "unsupported_specific_geography",
+          "intermediary_or_managed_network",
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 8,
+        "placements": 110,
+        "sourceIndexes": [
+          2262,
+          2326,
+          2331,
+          2333,
+          2338,
+          2341,
+          2375,
+          2456
+        ]
+      },
+      {
+        "name": "SLM Facility Solutions Nationwide",
+        "website": "https://www.slmfacilities.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 108,
+        "sourceIndexes": [
+          2461,
+          2475,
+          2483,
+          2492
+        ]
+      },
+      {
+        "name": "Fleet Response",
+        "website": "https://www.fleetresponse.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 3,
+        "placements": 106,
+        "sourceIndexes": [
+          2504,
+          2507,
+          2512
+        ]
+      },
+      {
+        "name": "FrontStreet Facility Solutions",
+        "website": "https://frontstreetfs.com/",
+        "reasons": [
+          "unsupported_specific_geography",
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 7,
+        "placements": 93,
+        "sourceIndexes": [
+          2467,
+          2479,
+          2488,
+          2493,
+          2496,
+          2497,
+          2499
+        ]
+      },
+      {
+        "name": "Sovereign Commercial Services",
+        "website": "https://www.sovereignfacilities.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 3,
+        "placements": 91,
+        "sourceIndexes": [
+          2473,
+          2478,
+          2485
+        ]
+      },
+      {
+        "name": "Broadway National",
+        "website": "https://broadwaynational.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 14,
+        "placements": 88,
+        "sourceIndexes": [
+          2220,
+          2232,
+          2238,
+          2244,
+          2248,
+          2270,
+          2277,
+          2295,
+          2306,
+          2312,
+          2366,
+          2379,
+          2412,
+          2424
+        ]
+      },
+      {
+        "name": "Total Comfort Group",
+        "website": "https://total-cg.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 3,
+        "placements": 82,
+        "sourceIndexes": [
+          1995,
+          1998,
+          2016
+        ]
+      },
+      {
+        "name": "DH Pace",
+        "website": "https://www.dhpace.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 79,
+        "sourceIndexes": [
+          2083,
+          2084
+        ]
+      },
+      {
+        "name": "Ferguson Aquatics",
+        "website": "https://www.fergusonaquatics.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 77,
+        "sourceIndexes": [
+          2041,
+          2045,
+          2102,
+          2110
+        ]
+      },
+      {
+        "name": "Cox Fleet",
+        "website": "https://coxfleet.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 76,
+        "sourceIndexes": [
+          2462,
+          2472
+        ]
+      },
+      {
+        "name": "Iron Wolf Facilities",
+        "website": "https://ironwolffacilityservices.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 5,
+        "placements": 76,
+        "sourceIndexes": [
+          2476,
+          2482,
+          2490,
+          2495,
+          2500
+        ]
+      },
+      {
+        "name": "Headwater Construction Group",
+        "website": "https://www.headwatercg.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 75,
+        "sourceIndexes": [
+          2042,
+          2046,
+          2103,
+          2111
+        ]
+      },
+      {
+        "name": "The Pool Company Inc.",
+        "website": "https://www.tpcipools.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 74,
+        "sourceIndexes": [
+          2043,
+          2049,
+          2106,
+          2112
+        ]
+      },
+      {
+        "name": "Performance Contracting",
+        "website": "https://www.performancecontracting.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 6,
+        "placements": 72,
+        "sourceIndexes": [
+          2055,
+          2063,
+          2069,
+          2092,
+          2117,
+          2122
+        ]
+      },
+      {
+        "name": "Local One FM",
+        "website": "https://localonefm.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 69,
+        "sourceIndexes": [
+          2469,
+          2480,
+          2491,
+          2501
+        ]
+      },
+      {
+        "name": "Wheels",
+        "website": "https://www.wheels.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 69,
+        "sourceIndexes": [
+          2509,
+          2514
+        ]
+      },
+      {
+        "name": "Hero Facility Services",
+        "website": "https://www.herofacilityservices.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "intermediary_or_managed_network",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 5,
+        "placements": 66,
+        "sourceIndexes": [
+          2460,
+          2489,
+          2494,
+          2498,
+          2502
+        ]
+      },
+      {
+        "name": "Gilliana Pools",
+        "website": "https://www.gilliana.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 64,
+        "sourceIndexes": [
+          2523,
+          2530
+        ]
+      },
+      {
+        "name": "Facility Solutions Group",
+        "website": "https://fsg.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 63,
+        "sourceIndexes": [
+          1990,
+          1991
+        ]
+      },
+      {
+        "name": "Williams Diversified LLC",
+        "website": "https://williamsdiversified.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 3,
+        "placements": 61,
+        "sourceIndexes": [
+          2539,
+          2552,
+          2560
+        ]
+      },
+      {
+        "name": "Preferred LLC",
+        "website": "https://www.preferredllc.net/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 4,
+        "placements": 59,
+        "sourceIndexes": [
+          2064,
+          2065,
+          2070,
+          2093
+        ]
+      },
+      {
+        "name": "Mega Service Solutions",
+        "website": "https://megasvs.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 58,
+        "sourceIndexes": [
+          2468,
+          2470
+        ]
+      },
+      {
+        "name": "Inside Edge Commercial Interior Services",
+        "website": "https://www.iecis.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 57,
+        "sourceIndexes": [
+          2002,
+          2009
+        ]
+      },
+      {
+        "name": "JRC",
+        "website": "https://www.jrcinco.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 57,
+        "sourceIndexes": [
+          2143,
+          2151,
+          2343,
+          2397
+        ]
+      },
+      {
+        "name": "MSC Floors",
+        "website": "https://mscfloors.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 56,
+        "sourceIndexes": [
+          2004,
+          2011
+        ]
+      },
+      {
+        "name": "Exposed Surfaces",
+        "website": "https://exposedsurfaces.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 53,
+        "sourceIndexes": [
+          2062,
+          2066,
+          2087,
+          2090
+        ]
+      },
+      {
+        "name": "Springwise Facility Management",
+        "website": "https://www.springwisefm.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 47,
+        "sourceIndexes": [
+          2516,
+          2517
+        ]
+      },
+      {
+        "name": "Agero",
+        "website": "https://www.agero.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2080
+        ]
+      },
+      {
+        "name": "AJ's Dent",
+        "website": "https://ajsdent.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2566
+        ]
+      },
+      {
+        "name": "ASAP Site Services",
+        "website": "https://www.asapsiteservices.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2459
+        ]
+      },
+      {
+        "name": "California Pools Commercial",
+        "website": "https://californiapools.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2464
+        ]
+      },
+      {
+        "name": "Dent Wizard",
+        "website": "https://www.dentwizard.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2458
+        ]
+      },
+      {
+        "name": "Detail Masters",
+        "website": "https://detailmasters.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2568
+        ]
+      },
+      {
+        "name": "Hobart Service",
+        "website": "https://www.hobartcorp.com/service",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2527
+        ]
+      },
+      {
+        "name": "HONK",
+        "website": "https://www.honkforhelp.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2081
+        ]
+      },
+      {
+        "name": "National Hail & Dent Removal",
+        "website": "https://nationalhailanddent.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2569
+        ]
+      },
+      {
+        "name": "PDR BR",
+        "website": "https://pdr-br.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2570
+        ]
+      },
+      {
+        "name": "Smart Care",
+        "website": "https://smartcaresolutions.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2078
+        ]
+      },
+      {
+        "name": "SOS Roadside",
+        "website": "https://sosroadside.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2082
+        ]
+      },
+      {
+        "name": "Tech24",
+        "website": "https://www.mytech24.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2076
+        ]
+      },
+      {
+        "name": "The PDR Company",
+        "website": "https://thepdrcompany.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2571
+        ]
+      },
+      {
+        "name": "Unlimited Service Group",
+        "website": "https://unlimitedservice.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2079
+        ]
+      },
+      {
+        "name": "Vortex Doors",
+        "website": "https://www.vortexdoors.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 40,
+        "sourceIndexes": [
+          2085
+        ]
+      },
+      {
+        "name": "Allstate Roadside",
+        "website": "https://www.allstate.com/roadside-assistance",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 39,
+        "sourceIndexes": [
+          2922
+        ]
+      },
+      {
+        "name": "AMS Roofing",
+        "website": "https://amsroofing.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 39,
+        "sourceIndexes": [
+          2574,
+          2583
+        ]
+      },
+      {
+        "name": "Vanguard Hail Solutions",
+        "website": "https://www.vanguardhailsolutions.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 39,
+        "sourceIndexes": [
+          2572
+        ]
+      },
+      {
+        "name": "Arctic Industrial Insulation, LLC",
+        "website": "https://arcticindustrialinsulation.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 38,
+        "sourceIndexes": [
+          1988
+        ]
+      },
+      {
+        "name": "Aquatic Surfaces",
+        "website": "https://aquaticsurface.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 37,
+        "sourceIndexes": [
+          2044,
+          2101
+        ]
+      },
+      {
+        "name": "ATC Hilyer Services",
+        "website": "https://www.atcservices.us/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 37,
+        "sourceIndexes": [
+          1950
+        ]
+      },
+      {
+        "name": "Central Shades",
+        "website": "https://www.centralshades.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 37,
+        "sourceIndexes": [
+          2575,
+          2585
+        ]
+      },
+      {
+        "name": "CTC Disaster Response",
+        "website": "https://ctcdisaster.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 37,
+        "sourceIndexes": [
+          1986
+        ]
+      },
+      {
+        "name": "EC Ruff Marine",
+        "website": "https://ecruffmarine.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 37,
+        "sourceIndexes": [
+          2562
+        ]
+      },
+      {
+        "name": "EOLA Power",
+        "website": "https://eolapower.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 37,
+        "sourceIndexes": [
+          1989
+        ]
+      },
+      {
+        "name": "NPS Tree Experts",
+        "website": "https://npstree.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 37,
+        "sourceIndexes": [
+          1987
+        ]
+      },
+      {
+        "name": "Triton Liners",
+        "website": "https://www.tritonliners.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 37,
+        "sourceIndexes": [
+          2506
+        ]
+      },
+      {
+        "name": "ConTeras",
+        "website": "https://conteras.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 36,
+        "sourceIndexes": [
+          2051,
+          2113
+        ]
+      },
+      {
+        "name": "Nextech",
+        "website": "https://www.nextechna.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 36,
+        "sourceIndexes": [
+          2510
+        ]
+      },
+      {
+        "name": "Membrane Concepts",
+        "website": "https://membraneconcepts.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 35,
+        "sourceIndexes": [
+          2047,
+          2104
+        ]
+      },
+      {
+        "name": "FiberChem",
+        "website": "https://fiber-chem.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 34,
+        "sourceIndexes": [
+          2052,
+          2114
+        ]
+      },
+      {
+        "name": "Invertech Solutions",
+        "website": "https://invertechsolutions.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 34,
+        "sourceIndexes": [
+          2037,
+          2075,
+          2096,
+          2099
+        ]
+      },
+      {
+        "name": "JM Swimming Pools Installation",
+        "website": "https://www.jmswimmingpools.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 34,
+        "sourceIndexes": [
+          2524
+        ]
+      },
+      {
+        "name": "Mid-America Pool Renovation",
+        "website": "https://www.poolrenovation.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 34,
+        "sourceIndexes": [
+          2048,
+          2105
+        ]
+      },
+      {
+        "name": "Pioneer Critical Power",
+        "website": "https://www.pioneercriticalpower.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 33,
+        "sourceIndexes": [
+          2531
+        ]
+      },
+      {
+        "name": "Power Plus",
+        "website": "https://powerplus.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 33,
+        "sourceIndexes": [
+          2086
+        ]
+      },
+      {
+        "name": "PowerSecure",
+        "website": "https://powersecure.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 33,
+        "sourceIndexes": [
+          2532
+        ]
+      },
+      {
+        "name": "Progressive Roadside Assistance",
+        "website": "https://www.progressive.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 33,
+        "sourceIndexes": [
+          2926
+        ]
+      },
+      {
+        "name": "Armor Screen",
+        "website": "https://armorscreen.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 32,
+        "sourceIndexes": [
+          2511
+        ]
+      },
+      {
+        "name": "Axis Hospitality Construction",
+        "website": "https://axishc.net/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 32,
+        "sourceIndexes": [
+          2533
+        ]
+      },
+      {
+        "name": "Aqua Pools Construction",
+        "website": "https://aquapoolsconstruction.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 30,
+        "sourceIndexes": [
+          2529
+        ]
+      },
+      {
+        "name": "Door Systems",
+        "website": "https://www.doorsystems.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 30,
+        "sourceIndexes": [
+          2515
+        ]
+      },
+      {
+        "name": "McCarthy Wild Services Inc.",
+        "website": "https://www.mwitx.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 30,
+        "sourceIndexes": [
+          2054,
+          2116
+        ]
+      },
+      {
+        "name": "Venergy Group",
+        "website": "https://venergygroup.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 30,
+        "sourceIndexes": [
+          2548
+        ]
+      },
+      {
+        "name": "BoatUS Towing Service",
+        "website": "https://www.boatus.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 29,
+        "sourceIndexes": [
+          2927
+        ]
+      },
+      {
+        "name": "CBF, LLC",
+        "website": "https://www.cbfllcusa.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 29,
+        "sourceIndexes": [
+          2542
+        ]
+      },
+      {
+        "name": "Fence Labor Corp",
+        "website": "https://fencelabor.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 29,
+        "sourceIndexes": [
+          2001
+        ]
+      },
+      {
+        "name": "First Finish LLC",
+        "website": "https://www.firstfinish.net/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 29,
+        "sourceIndexes": [
+          2543
+        ]
+      },
+      {
+        "name": "Briggs Service, Inc.",
+        "website": "https://www.briggsserviceinc.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 28,
+        "sourceIndexes": [
+          2013
+        ]
+      },
+      {
+        "name": "Heritage Fence Company",
+        "website": "https://heritage-fence.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 28,
+        "sourceIndexes": [
+          2481
+        ]
+      },
+      {
+        "name": "PWI Construction",
+        "website": "https://pwiconstruction.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 28,
+        "sourceIndexes": [
+          2544
+        ]
+      },
+      {
+        "name": "Sea Tow",
+        "website": "https://seatow.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 28,
+        "sourceIndexes": [
+          2929
+        ]
+      },
+      {
+        "name": "E P Floors Corp.",
+        "website": "https://epfloors.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 27,
+        "sourceIndexes": [
+          2061,
+          2089
+        ]
+      },
+      {
+        "name": "M&D Marine Services",
+        "website": "https://mdmarineservices.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 27,
+        "sourceIndexes": [
+          2520
+        ]
+      },
+      {
+        "name": "OILKLEEN",
+        "website": "https://oilkleen.com/mobile-ship-repair/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 27,
+        "sourceIndexes": [
+          2521
+        ]
+      },
+      {
+        "name": "U.S. Maritime Solutions",
+        "website": "https://www.usmaritimesolutions.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 27,
+        "sourceIndexes": [
+          2522
+        ]
+      },
+      {
+        "name": "Smart Build",
+        "website": "https://smartbuildne.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 26,
+        "sourceIndexes": [
+          2549
+        ]
+      },
+      {
+        "name": "APi Construction Company",
+        "website": "https://www.apiconst.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 25,
+        "sourceIndexes": [
+          2486
+        ]
+      },
+      {
+        "name": "Caldwell Insulation",
+        "website": "https://caldwellinsulation.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 24,
+        "sourceIndexes": [
+          2487
+        ]
+      },
+      {
+        "name": "Cook Brothers Insulation",
+        "website": "https://www.cook-bros.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 24,
+        "sourceIndexes": [
+          2554
+        ]
+      },
+      {
+        "name": "CQ Insulation",
+        "website": "https://www.cqinsulation.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 23,
+        "sourceIndexes": [
+          2555
+        ]
+      },
+      {
+        "name": "Good Neighbor Fence Company",
+        "website": "https://www.fence4u.biz/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 20,
+        "sourceIndexes": [
+          1906
+        ]
+      },
+      {
+        "name": "Old Dominion Insulation",
+        "website": "https://odins.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 20,
+        "sourceIndexes": [
+          2557
+        ]
+      },
+      {
+        "name": "Powerco Restoration",
+        "website": "https://www.powercorestoration.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 20,
+        "sourceIndexes": [
+          1891
+        ]
+      },
+      {
+        "name": "Custom Construction Solutions",
+        "website": "https://www.ccsofflorida.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 19,
+        "sourceIndexes": [
+          1875
+        ]
+      },
+      {
+        "name": "Suncor Solar & Home Improvements",
+        "website": "https://www.suncorsolar.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 19,
+        "sourceIndexes": [
+          1918,
+          1928
+        ]
+      },
+      {
+        "name": "CLS Facility Services",
+        "website": "https://clsfacilityservices.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "intermediary_or_managed_network"
+        ],
+        "sourceRows": 8,
+        "placements": 18,
+        "sourceIndexes": [
+          2239,
+          2245,
+          2296,
+          2307,
+          2313,
+          2380,
+          2413,
+          2425
+        ]
+      },
+      {
+        "name": "Home Inspection Services",
+        "website": "https://www.hisfl.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 18,
+        "sourceIndexes": [
+          2587
+        ]
+      },
+      {
+        "name": "ATI Restoration",
+        "website": "https://atirestoration.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 17,
+        "sourceIndexes": [
+          2545
+        ]
+      },
+      {
+        "name": "BMS CAT",
+        "website": "https://www.bmscat.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 17,
+        "sourceIndexes": [
+          2546
+        ]
+      },
+      {
+        "name": "Express Marine Repair",
+        "website": "https://expressmarinerepair.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 17,
+        "sourceIndexes": [
+          2684
+        ]
+      },
+      {
+        "name": "Jon Diesel Marine",
+        "website": "https://www.jondieselmarine.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 17,
+        "sourceIndexes": [
+          2563
+        ]
+      },
+      {
+        "name": "Florida Remediation Pros",
+        "website": "https://flremediation.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 16,
+        "sourceIndexes": [
+          1915
+        ]
+      },
+      {
+        "name": "Home Inspections by Neal Development Group",
+        "website": "https://homeinspectionsndg.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 16,
+        "sourceIndexes": [
+          2591
+        ]
+      },
+      {
+        "name": "Kustom US",
+        "website": "https://kustom.us/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 16,
+        "sourceIndexes": [
+          2547
+        ]
+      },
+      {
+        "name": "Progressive Specialty Contractors",
+        "website": "https://www.progressive-sc.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 15,
+        "sourceIndexes": [
+          2558
+        ]
+      },
+      {
+        "name": "Sunshine State Home Inspections",
+        "website": "https://www.sunshinestatehomeinspections.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 15,
+        "sourceIndexes": [
+          2704
+        ]
+      },
+      {
+        "name": "SGC Florida, LLC",
+        "website": "https://sgc-florida.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 12,
+        "sourceIndexes": [
+          1972
+        ]
+      },
+      {
+        "name": "AREM Professional Aluminum Services Inc.",
+        "website": "https://aremprofessional.com/en",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 7,
+        "sourceIndexes": [
+          3528
+        ]
+      },
+      {
+        "name": "ServiceMaster Restore",
+        "website": "https://servicemasterrestore.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 6,
+        "placements": 7,
+        "sourceIndexes": [
+          3788,
+          3795,
+          3797,
+          3803,
+          3806,
+          3837
+        ]
+      },
+      {
+        "name": "Suncoast Inspections",
+        "website": "https://suncoastinspections.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 6,
+        "sourceIndexes": [
+          3311
+        ]
+      },
+      {
+        "name": "House Doctors of Southwest Atlanta",
+        "website": "https://www.housedoctors.com/south-birmingham-shelby-co/services/fence-repair-and-installation/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 5,
+        "placements": 5,
+        "sourceIndexes": [
+          3801,
+          4127,
+          4134,
+          4137,
+          4144
+        ]
+      },
+      {
+        "name": "Mr. Electric",
+        "website": "https://mrelectric.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 4,
+        "placements": 4,
+        "sourceIndexes": [
+          3205,
+          3212,
+          3226,
+          3234
+        ]
+      },
+      {
+        "name": "National Concrete Polishing",
+        "website": "https://nationalconcretepolishing.net/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 4,
+        "sourceIndexes": [
+          2088,
+          2091
+        ]
+      },
+      {
+        "name": "The Paint Guy",
+        "website": "https://thepaintguydestin.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 4,
+        "sourceIndexes": [
+          1727
+        ]
+      },
+      {
+        "name": "All Dry Services",
+        "website": "https://myalldry.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 3,
+        "placements": 3,
+        "sourceIndexes": [
+          3752,
+          3753,
+          3763
+        ]
+      },
+      {
+        "name": "JB Solutions",
+        "website": "https://jbsolutions4.com/screen-enclosure/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 3,
+        "sourceIndexes": [
+          3569
+        ]
+      },
+      {
+        "name": "Rainbow Restoration",
+        "website": "https://rainbowrestores.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 3,
+        "placements": 3,
+        "sourceIndexes": [
+          3155,
+          3165,
+          3259
+        ]
+      },
+      {
+        "name": "SavATree Tampa",
+        "website": "https://www.savatree.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 3,
+        "placements": 3,
+        "sourceIndexes": [
+          3786,
+          3820,
+          3825
+        ]
+      },
+      {
+        "name": "Aptive Environmental",
+        "website": "https://aptivepestcontrol.com/locations/florida-fl/jacksonville-pest-control/local-branch/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 2,
+        "placements": 2,
+        "sourceIndexes": [
+          3026,
+          3062
+        ]
+      },
+      {
+        "name": "Brookstone Restoration",
+        "website": "https://brookstonerestoration.com/",
+        "reasons": [
+          "unsupported_residential_service",
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 2,
+        "sourceIndexes": [
+          3154
+        ]
+      },
+      {
+        "name": "Crews Septic Solutions",
+        "website": "https://crewssepticsolutions.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 2,
+        "sourceIndexes": [
+          3220
+        ]
+      },
+      {
+        "name": "GroundWorks",
+        "website": "https://www.groundworksla.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 2,
+        "sourceIndexes": [
+          3381
+        ]
+      },
+      {
+        "name": "Magic City Door",
+        "website": "https://magiccitydoor.com/services/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 2,
+        "sourceIndexes": [
+          3982
+        ]
+      },
+      {
+        "name": "On My Way Septic",
+        "website": "https://www.onmywayseptic.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 2,
+        "sourceIndexes": [
+          3243
+        ]
+      },
+      {
+        "name": "Canebrake Construction",
+        "website": "https://canebrake.co/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3869
+        ]
+      },
+      {
+        "name": "Conserva Irrigation",
+        "website": "https://www.conservairrigation.com/tampa/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3036
+        ]
+      },
+      {
+        "name": "Cornerstone Custom Builders LLC",
+        "website": "https://ccbdothan.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3846
+        ]
+      },
+      {
+        "name": "Hail Free Solutions",
+        "website": "https://888511hail.com/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          2667
+        ]
+      },
+      {
+        "name": "Highland Homes Construction LLC",
+        "website": "https://highlandhomela.com/remodeling/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3866
+        ]
+      },
+      {
+        "name": "Middlebrooks Contractors, Inc.",
+        "website": "https://www.middlebrookscontractors.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3681
+        ]
+      },
+      {
+        "name": "Mr. Rooter Plumbing",
+        "website": "https://www.mrrooter.com/locations/alabama/birmingham/septic-system-repair/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3755
+        ]
+      },
+      {
+        "name": "RooterMan",
+        "website": "https://www.rooterman.com/baton-rouge/",
+        "reasons": [
+          "unsupported_specific_geography"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3714
+        ]
+      },
+      {
+        "name": "Serve One Construction",
+        "website": "https://www.serveoneconstruction.com/remodeling-services",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3870
+        ]
+      },
+      {
+        "name": "Sexton Lawn & Landscape",
+        "website": "https://www.sextonlandscapes.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          1791
+        ]
+      },
+      {
+        "name": "Shepherd Electric Company",
+        "website": "https://www.shepherd-electric.net/residential-electrical/generators/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          4120
+        ]
+      },
+      {
+        "name": "Toulmin Kitchen & Bath",
+        "website": "https://www.toulmincabinetry.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3871
+        ]
+      },
+      {
+        "name": "Walker Construction Company Inc.",
+        "website": "https://www.walkerconstructiondothan.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3847
+        ]
+      },
+      {
+        "name": "YellowHammer Design & Construction",
+        "website": "https://yellowhammerconstruction.com/",
+        "reasons": [
+          "unsupported_residential_service"
+        ],
+        "sourceRows": 1,
+        "placements": 1,
+        "sourceIndexes": [
+          3872
+        ]
+      }
+    ],
+    "summaryByReason": {
+      "unsupported_residential_service": 55,
+      "unsupported_specific_geography": 131,
+      "intermediary_or_managed_network": 5
+    },
+    "relatedReview": [
+      {
+        "name": "Vixxo",
+        "sourceUrl": "https://www.vixxo.com/",
+        "finding": "Official site markets nationwide facilities maintenance to facility operators. Historical flags remain."
+      },
+      {
+        "name": "Divisions Maintenance Group",
+        "sourceUrl": "https://dmg360.com/",
+        "finding": "Official site markets nationwide facilities management. Historical flags remain."
+      }
+    ]
+  },
+  "validation": {
+    "sourceSchemaAndCatalog": "pass",
+    "rawIdentityAndDomainReview": "pass",
+    "preservedExistingGeneratedPlacements": "All generated placements other than the three targeted national rows retain their baseline record values and IDs.",
+    "nationalVisibilityRegression": "pass",
+    "publicApprovalRegression": "pass",
+    "productionBuild": "pass",
+    "discoveryCollector": "Existing collector requires official website and service-area review. Its output is a research artifact and has no public import path. The existing source importer has no five-business cap."
+  },
+  "publication": {
+    "status": "prepared",
+    "liveVerifiedNewBusinesses": 0,
+    "newBusinessPlacementsLive": 0,
+    "existingBusinessPlacementsLive": 0,
+    "placementsAwaitingPublication": 53,
+    "placementsAwaitingLiveVerification": 0
+  }
+}

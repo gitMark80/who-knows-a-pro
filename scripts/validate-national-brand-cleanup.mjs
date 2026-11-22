@@ -19,7 +19,7 @@ const leaked = directorySeed.filter((business) => isExcludedWebsite(business.web
 check('generated directory contains no excluded websites', leaked.length === 0, `${leaked.length} leaked placements`);
 check('no local-branch exceptions bypass national exclusions', !directorySeed.some(isAuditedExcludedDomainPlacement), 'zero placement exceptions');
 
-for (const domain of ['bobtaylorscarpetonecrestview.com', 'bobtaylorscarpetoneopp.com', 'carpetone.com', 'carpetonedothan.com', 'carpetonepanamacity.com', 'ccadent.com', 'hollowaycarpetonedothan.com', 'carmedic.biz', 'destinflooring-america.com', 'destinflooringamericadestin.com', 'flooringamerica.com', 'lightspeedrestoration.com', 'restopros.co', 'rhodes-flooringamerica.com', 'tuffy.com', 'tuffygulfbreeze.com', 'tuffygunn.com', 'arrowexterminators.com', 'advantaclean.com', 'usainsulation.net', 'murphycompanyusa.com', 'nationalconcretepolishing.net', 'ifoam.com', 'ifoamalabama.com', 'greenhomesolutions.com', 'tiresplus.com', 'retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com', 'windowdepotemeraldcoast.com', 'maidright.com', 'maids.com', 'restoration1ofgulfcoast.com']) {
+for (const domain of ['911restorationmississippigulfcoast.com', 'ogd.com', 'overheadgaragedoorpensacola.com', 'bobtaylorscarpetonecrestview.com', 'bobtaylorscarpetoneopp.com', 'carpetone.com', 'carpetonedothan.com', 'carpetonepanamacity.com', 'ccadent.com', 'hollowaycarpetonedothan.com', 'carmedic.biz', 'destinflooring-america.com', 'destinflooringamericadestin.com', 'flooringamerica.com', 'lightspeedrestoration.com', 'restopros.co', 'rhodes-flooringamerica.com', 'tuffy.com', 'tuffygulfbreeze.com', 'tuffygunn.com', 'arrowexterminators.com', 'advantaclean.com', 'usainsulation.net', 'murphycompanyusa.com', 'nationalconcretepolishing.net', 'ifoam.com', 'ifoamalabama.com', 'greenhomesolutions.com', 'tiresplus.com', 'retailfixit.com', 'servpro.com', 'progressive.com', 'mobilebayohd.com', 'terminix.com', 'orkin.com', 'searshomeservices.com', 'pestdefense.com', 'servicemasteralabama.com', 'precisiondoormobile.com', 'oxifresh.com', 'merrymaids.com', 'precisiontune.com', 'windowdepotemeraldcoast.com', 'maidright.com', 'maids.com', 'restoration1ofgulfcoast.com']) {
   check(`required national exclusion: ${domain}`, isExcludedWebsite(`https://www.${domain}/example`), domain);
 }
 
@@ -55,6 +55,14 @@ check(
   isPublicDirectoryBusiness({ approved: 1, is_test: 0, website: 'https://odoperator.com/', region: 'pensacola-fl', trade: 'garage-door-repair' }),
   'the local Overhead Door & Operator domain is distinct from national brand domains',
 );
+
+for (const website of ['https://www.911restorationmississippigulfcoast.com/', 'https://ogd.com/fl/pensacola/']) {
+  check(
+    `approved national branch remains excluded: ${website}`,
+    !isPublicDirectoryBusiness({ approved: 1, is_test: 0, website }),
+    'the domain exclusion also covers approved records',
+  );
+}
 
 const report = {
   checkedAt: new Date().toISOString(),
