@@ -25,6 +25,14 @@ export const excludedWebsiteDomains = [
 
   // Confirmed national service brands and their local consumer-facing sites.
   'carmedic.biz',
+  // Nationwide dent repair and national flooring retail cooperative.
+  'bobtaylorscarpetonecrestview.com',
+  'bobtaylorscarpetoneopp.com',
+  'carpetone.com',
+  'carpetonedothan.com',
+  'carpetonepanamacity.com',
+  'ccadent.com',
+  'hollowaycarpetonedothan.com',
   'destinflooring-america.com',
   'destinflooringamericadestin.com',
   'flooringamerica.com',

@@ -1,0 +1,2464 @@
+{
+  "discoveryDomains": 364,
+  "screenedExistingDomains": [
+    "allsetgaragedoorrepair.com",
+    "aplusmaintenanceservices.co",
+    "appliancedoctorfl.com",
+    "arrowps.com",
+    "bens-auto.com",
+    "bluewatergaragedoorservices.com",
+    "bradleyscustomgutters.com",
+    "brockpest.com",
+    "bryanpestcontrol.com",
+    "calsappliancerepair.com",
+    "capitalcitygutter.com",
+    "carsoncutters.com",
+    "carterinsulation.com",
+    "coastaloverheaddoor.org",
+    "coastlineinsulation.com",
+    "colsonselectric.com",
+    "cookspest.com",
+    "cosbyheatingcooling.com",
+    "coxpools.com",
+    "crestviewgenerators.com",
+    "crestviewpaintandbody.com",
+    "csi-restorationandcleaning.com",
+    "dc-lawn.com",
+    "disasterappliancemaster.com",
+    "dobbsappliance.com",
+    "ecoheatingandcooling.com",
+    "elbrusconsulting.wordpress.com",
+    "emeraldcoastapplianceservice.com",
+    "emeraldcoastinsulation.com",
+    "fcdesigncenter.com",
+    "fnfpools.com",
+    "generxgenerators.com",
+    "gilbertsonpools.com",
+    "guardianonceayear.com",
+    "gwautomotive.com",
+    "handymandestin.com",
+    "hasdestin.com",
+    "hayespaint.com",
+    "homelyft.net",
+    "hometowngaragenwfl.com",
+    "honkaautorepairs.com",
+    "house2houselawns.com",
+    "icdatpestcontrol.com",
+    "independentappliance.com",
+    "keefeandsonselectric.com",
+    "landscapingpluscrestview.com",
+    "lawnsbyscott.com",
+    "laytonsgarage.com",
+    "lgmlandscapeandirrigation.com",
+    "mckeithenroofing.net",
+    "mdcelectric.com",
+    "meyerselectric.net",
+    "mikesautocollision.net",
+    "newvisiongutters.com",
+    "panamapoolsandspas.com",
+    "parkersepticpanamacity.com",
+    "pcsnursery.com",
+    "phoenixservicellc.com",
+    "prestigeinsulationsolutions.com",
+    "primehvacdothan.com",
+    "purvisappliancerepair.com",
+    "raincontrolgutters.com",
+    "rapidmitigation.com",
+    "restylersinc.com",
+    "rtsallamericangaragedoors.com",
+    "scenicgroup.com",
+    "sealtightfoam.com",
+    "seasideapplianceworld.com",
+    "sextonlandscapes.com",
+    "smithlandscapingsolutions.com",
+    "southeasterncooling.com",
+    "spearspestcontrol.com",
+    "sunriseirrigation.com",
+    "sunshineirrigationco.com",
+    "superiorscapesgulfcoast.com",
+    "tallahasseegaragedoor.com",
+    "teddybearservices.com",
+    "telfordreynoldselectric.com",
+    "terryslandscapinginc.com",
+    "theauburnappliance.com",
+    "tigerpointpaintandbody.com",
+    "tlhgutters.com",
+    "toponepainting.com",
+    "trinitypropertymaintenance.com",
+    "wadefamilyhomesllc.com",
+    "wagnerair.com",
+    "whittakerelectric.com",
+    "whittonworks.com",
+    "wrecktified.com",
+    "wrenscollisioncenters.com"
+  ],
+  "runDate": "2026-11-21",
+  "baselineCommit": "0c908b7083fa2b7223255611094f4025e5737ff9",
+  "previousCheckpoint": "reports/progress-fill1000cv-2026-11-21.md",
+  "status": "validated_awaiting_production",
+  "baselineDisplayedCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "displayedAt20": 242,
+    "displayedBelow20": 878,
+    "displayedEmpty": 0,
+    "displayedDeficit": 9242,
+    "displayedPlacements": 13466
+  },
+  "placements": [
+    {
+      "name": "P1 Pest Control",
+      "city": "orlando-fl",
+      "category": "pest-control",
+      "website": "https://p1pestco.com/about/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://p1pestco.com/about/"
+      ],
+      "evidenceNote": "The family company names Orlando and describes direct inspection and pest treatment for local homeowners.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://p1pestco.com/about/",
+        "title": "About P1 Pest Control | Orlando, FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/p1-pest-control"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Town & Country Pest Solutions",
+      "city": "orlando-fl",
+      "category": "pest-control",
+      "website": "https://www.townandcountrypestsolutions.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.townandcountrypestsolutions.com/about-us"
+      ],
+      "evidenceNote": "The family company names Greater Orlando and identifies Edwin Cordova as the technician overseeing household pest and termite work.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.townandcountrypestsolutions.com/about-us",
+        "title": "About Us | Family-Owned Pest Control in Orlando | Town & Country Pest Solutions",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/town-country-pest-solutions"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Panther Pest Control",
+      "city": "orlando-fl",
+      "category": "pest-control",
+      "website": "https://www.panther-pest.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.panther-pest.com/about"
+      ],
+      "evidenceNote": "The Central Florida family company explains how it inspects and treats pests in Orlando homes.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.panther-pest.com/about",
+        "title": "Our Story | Panther Pest Control",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/panther-pest-control"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Byrne Termite & Pest Control",
+      "city": "orlando-fl",
+      "category": "pest-control",
+      "website": "https://www.byrnepest.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.byrnepest.com/"
+      ],
+      "evidenceNote": "The family operator directly treats residential pests and termites in Orlando and identifies it as a service market.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.byrnepest.com/",
+        "title": "Byrne Termite & Pest Control – Byrne Termite & Pest Control",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/byrne-termite-pest-control"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Best Pest Control",
+      "city": "orlando-fl",
+      "category": "pest-control",
+      "website": "https://www.bestpestcfl.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.bestpestcfl.com/about"
+      ],
+      "evidenceNote": "The company names its Orlando operation and provides its own residential pest treatments across Orange County, which contains Orlando.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.bestpestcfl.com/about",
+        "title": "ABOUT | Best Pest Control Orlando",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/best-pest-control"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Golden Pest Services",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "website": "https://www.goldenpestservices.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.goldenpestservices.com/about"
+      ],
+      "evidenceNote": "The owner-operated Miami company describes treating household pests and termites at local homes and condos.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.goldenpestservices.com/about",
+        "title": "About Golden Pest Services | Golden Pest Services",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/golden-pest-services"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Natural Resources",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "website": "https://naturalresourcesmiami.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://naturalresourcesmiami.com/"
+      ],
+      "evidenceNote": "The site identifies the Miami family operator and describes home treatment of ants, roaches, spiders and other pests.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://naturalresourcesmiami.com/",
+        "title": "Eco Friendly Pest Control Miami | Natural Resources",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/natural-resources"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "JM Pest Control Solutions",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "website": "https://www.jmpestcontrolmiami.com/services/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.jmpestcontrolmiami.com/services/"
+      ],
+      "evidenceNote": "The family provider treats household pests directly throughout Miami-Dade County, which contains the City of Miami.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.jmpestcontrolmiami.com/services/",
+        "title": "Pest Control & Termite Services | JM Pest Control Solutions",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/jm-pest-control-solutions"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Dever Pest Control",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "website": "https://www.deverpestfl.com/about.html",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.deverpestfl.com/about.html"
+      ],
+      "evidenceNote": "The family company names Miami in its service area and treats single-family homes and other residential properties directly.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.deverpestfl.com/about.html",
+        "title": "About Dever Pest Control | Family-Owned South Florida Exterminator",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/dever-pest-control"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Larry Grella Automotive",
+      "city": "clearwater-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.larrygrellaauto.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.larrygrellaauto.com/"
+      ],
+      "evidenceNote": "The family-owned Clearwater shop identifies the local workshop and repairs customers' personal cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.larrygrellaauto.com/",
+        "title": "Auto Repair | Larry Grella Automotive | Clearwater",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/larry-grella-automotive"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "A Choice Automotive",
+      "city": "clearwater-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.achoiceautomotive.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.achoiceautomotive.com/"
+      ],
+      "evidenceNote": "The family-owned Clearwater shop gives its local operating address and offers vehicle diagnostics and repairs for local drivers.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.achoiceautomotive.com/",
+        "title": "A Choice Automotive LLC – Clearwater, FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/a-choice-automotive"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "A&J Garage",
+      "city": "st-petersburg-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.aandjgarage.com/about-us/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.aandjgarage.com/about-us/"
+      ],
+      "evidenceNote": "Owner Robby Raley identifies his St. Petersburg shop and provides direct maintenance and major engine work for foreign and domestic cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.aandjgarage.com/about-us/",
+        "title": "About Us – aandjgarage",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/a-j-garage"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "St. Pete Auto Works",
+      "city": "st-petersburg-fl",
+      "category": "auto-mechanics",
+      "website": "https://stpeteautoworks.com/about/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://stpeteautoworks.com/about/"
+      ],
+      "evidenceNote": "The independent shop identifies its St. Petersburg repair location and provides diagnostics and repair for private motorists.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://stpeteautoworks.com/about/",
+        "title": "About St. Pete Auto Works | Independent Auto Repair",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/st-pete-auto-works"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Bob's Auto Repair",
+      "city": "clearwater-fl",
+      "category": "auto-mechanics",
+      "website": "https://bobsclearwaterautorepair.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://bobsclearwaterautorepair.com/"
+      ],
+      "evidenceNote": "The Clearwater shop provides direct private-vehicle repairs through its on-site technicians and lists its local address.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://bobsclearwaterautorepair.com/",
+        "title": "Bob's Auto Repair",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/bob-s-auto-repair"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Wrench Masters",
+      "city": "st-petersburg-fl",
+      "category": "auto-mechanics",
+      "website": "https://wrenchmastersauto.com/about/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://wrenchmastersauto.com/about/"
+      ],
+      "evidenceNote": "The St. Petersburg family shop identifies Kenny Gehringer and its own automotive diagnostic and repair technicians.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://wrenchmastersauto.com/about/",
+        "title": "About Us | WrenchMastersAuto.com - Performance Parts & Auto Repair | St Pete, FL 33709",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/wrench-masters"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Kirk's Auto Performance",
+      "city": "st-petersburg-fl",
+      "category": "auto-mechanics",
+      "website": "https://kirksautoperformance.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://kirksautoperformance.com/about"
+      ],
+      "evidenceNote": "The independent St. Petersburg mechanic identifies the shop address and direct engine and transmission repair for vehicle owners.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://kirksautoperformance.com/about",
+        "title": "About Ian Kirkpatrick, St. Petersburg Mechanic | Kirk's Auto Performance",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/kirk-s-auto-performance"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Middleton's Auto Care",
+      "city": "st-petersburg-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.middletonsautocare.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.middletonsautocare.com/"
+      ],
+      "evidenceNote": "The family-operated St. Petersburg workshop directly repairs personal cars and offers brakes, diagnostics and transmission work.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.middletonsautocare.com/",
+        "title": "Auto Repair in St. Petersburg, FL | Middleton's Auto Care",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/middleton-s-auto-care"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Southport Auto Repair",
+      "city": "fort-lauderdale-fl",
+      "category": "auto-mechanics",
+      "website": "https://southport-auto-repair.com/about-us/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://southport-auto-repair.com/about-us/"
+      ],
+      "evidenceNote": "The independent family shop names Fort Lauderdale and directly diagnoses and repairs local drivers' personal vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://southport-auto-repair.com/about-us/",
+        "title": "About Southport Auto Repair | Fort Lauderdale",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/southport-auto-repair"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "European Auto Service",
+      "city": "fort-lauderdale-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.europeanautoservicefl.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.europeanautoservicefl.com/"
+      ],
+      "evidenceNote": "The local family shop gives its Fort Lauderdale address and provides personal vehicle diagnostics, maintenance and mechanical repairs.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.europeanautoservicefl.com/",
+        "title": "European Auto Service, Mechanic and Body shop | 2180 SW 38th Street, Fort Lauderdale, FL 33312",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/european-auto-service"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Your WrenchTech",
+      "city": "fort-lauderdale-fl",
+      "category": "auto-mechanics",
+      "website": "https://yourwrenchtech.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://yourwrenchtech.com/"
+      ],
+      "evidenceNote": "The local family mobile mechanic explicitly serves Fort Lauderdale households and directly diagnoses and repairs their vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://yourwrenchtech.com/",
+        "title": "Mobile Mechanic Fort Lauderdale, FL | Your WrenchTech",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/your-wrenchtech"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Martenson Performance",
+      "city": "fort-lauderdale-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.martensonperformance.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.martensonperformance.com/"
+      ],
+      "evidenceNote": "The family company identifies Fort Lauderdale as its operating location and describes automotive service and repairs for owners of European cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.martensonperformance.com/",
+        "title": "Volkswagen | Auto | Fort Lauderdale",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/martenson-performance"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Jimmy's German Auto Repair",
+      "city": "fort-lauderdale-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.jimmysgermanautorepair.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.jimmysgermanautorepair.com/"
+      ],
+      "evidenceNote": "The family shop identifies a Fort Lauderdale location and offers direct personal German car diagnostics, engine repair and maintenance.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.jimmysgermanautorepair.com/",
+        "title": "Auto Repair in Fort Lauderdale, FL | Jimmy's German Auto Repair",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/jimmy-s-german-auto-repair"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Master Tech Auto Repair",
+      "city": "fort-lauderdale-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.mastertechautoshop.com/services.html",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.mastertechautoshop.com/services.html"
+      ],
+      "evidenceNote": "The Fort Lauderdale operator gives its shop address and provides on-site maintenance and repair for private foreign and domestic cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.mastertechautoshop.com/services.html",
+        "title": "Master Tech - Ft. Lauderdale Automotive Services",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/master-tech-auto-repair"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Budget Auto Painting",
+      "city": "atlanta-ga",
+      "category": "auto-body-collision",
+      "website": "https://www.chambleeautobodyshop.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.chambleeautobodyshop.com/"
+      ],
+      "evidenceNote": "The family shop explicitly serves Greater Atlanta residents and carries out private-car collision repair, restoration and body paint in Chamblee.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.chambleeautobodyshop.com/",
+        "title": "Auto Body Repair | Budget Auto Painting | Chamblee, GA",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/budget-auto-painting"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "SOS Irrigation Repair",
+      "city": "tampa-fl",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://www.sosirrigationrepair.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.sosirrigationrepair.com/about-us"
+      ],
+      "evidenceNote": "The family-owned business identifies Tampa as its base and provides direct residential irrigation troubleshooting and repair.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.sosirrigationrepair.com/about-us",
+        "title": "About Us",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/sos-irrigation-repair"
+      },
+      "baselineDisplayed": 4,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Skyway Gutters",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://skywaygutters.com/locations/tampa-fl",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://skywaygutters.com/locations/tampa-fl"
+      ],
+      "evidenceNote": "The Tampa page explicitly offers homes seamless gutter installation by the local crew, including fabrication at the house.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://skywaygutters.com/locations/tampa-fl",
+        "title": "Gutter Installation Tampa FL | Skyway Gutters",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/skyway-gutters"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Sunshine State Gutters",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://sunshinestategutters.com/about/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://sunshinestategutters.com/about/"
+      ],
+      "evidenceNote": "The regional team specifically includes Tampa and directly installs, replaces and inspects gutters for homeowners.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://sunshinestategutters.com/about/",
+        "title": "About Sunshine State Gutters | Pasco County & Tampa Bay",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/sunshine-state-gutters"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "American Custom Guttering",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://americancustomguttering.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://americancustomguttering.com/"
+      ],
+      "evidenceNote": "The installer covers Hillsborough County, which contains Tampa, and directly fabricates and installs gutters and downspouts at area homes.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://americancustomguttering.com/",
+        "title": "Seamless Gutters Odessa & Tampa Bay FL | American Custom Guttering",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/american-custom-guttering"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Goterra Irrigation",
+      "city": "tampa-fl",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://goterrairrigation.com/contact/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://goterrairrigation.com/contact/"
+      ],
+      "evidenceNote": "The family contractor explicitly serves Tampa and offers direct residential sprinkler repairs and installations.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://goterrairrigation.com/contact/",
+        "title": "Contact Goterra Irrigation | Call (813) 946-9772",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/goterra-irrigation"
+      },
+      "baselineDisplayed": 4,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Designer Gutter Company",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://www.designergutterco.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.designergutterco.com/about"
+      ],
+      "evidenceNote": "The veteran family business serves Tampa Bay homeowners with directly installed custom seamless gutters. Tampa is the principal city of the Tampa Bay market named on the site.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.designergutterco.com/about",
+        "title": "About Designer Gutter Company | Gutter Company in Florida",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/designer-gutter-company"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "SoFlo Gutters",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://www.soflogutters.com/areas/tampa",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.soflogutters.com/areas/tampa"
+      ],
+      "evidenceNote": "The Tampa service page expressly offers local homeowners installation and repair of seamless gutters by the family crew.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.soflogutters.com/areas/tampa",
+        "title": "Seamless Gutters in Tampa, FL | Installation & Repair | SoFlo Gutters",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/soflo-gutters"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Your Way Exteriors",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://yourwayexteriors.com/seamless-gutters/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://yourwayexteriors.com/seamless-gutters/"
+      ],
+      "evidenceNote": "The family team names Tampa and fabricates and installs seamless gutters directly on residential properties.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://yourwayexteriors.com/seamless-gutters/",
+        "title": "Seamless Gutters in Tampa Bay | Your Way Exteriors",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/your-way-exteriors"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "JR One Aluminum",
+      "city": "tampa-fl",
+      "category": "gutters",
+      "website": "https://www.jronegutters.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.jronegutters.com/about"
+      ],
+      "evidenceNote": "The family business describes its Tampa gutter installation work and documents its own crew serving homeowners.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.jronegutters.com/about",
+        "title": "Family-Owned Tampa Bay Gutter Specialist | JR One Aluminum",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/jr-one-aluminum"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Absolute Termite & Pest Control",
+      "city": "montgomery-al",
+      "category": "pest-control",
+      "website": "https://absolutetermiteandpestcontrol.com/contact",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://absolutetermiteandpestcontrol.com/contact"
+      ],
+      "evidenceNote": "The local company gives its Montgomery location and describes direct pest and termite treatment for homes.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://absolutetermiteandpestcontrol.com/contact",
+        "title": "Contact Absolute Termite & Pest Control",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/absolute-termite-pest-control"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Slaughter Pest Control",
+      "city": "montgomery-al",
+      "category": "pest-control",
+      "website": "https://slaughterpestcontrol.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://slaughterpestcontrol.com/"
+      ],
+      "evidenceNote": "The family operator explicitly serves Montgomery and provides direct pest inspections and treatments for residences.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://slaughterpestcontrol.com/",
+        "title": "Slaughter Pest Control – Limited Liability Company (LLC)",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/slaughter-pest-control"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Sunshine Automotive",
+      "city": "st-petersburg-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.sunshineautomotiveinc.com/about-us/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.sunshineautomotiveinc.com/about-us/"
+      ],
+      "evidenceNote": "The St. Petersburg family shop offers private-vehicle body and collision repairs by its own trained technicians.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.sunshineautomotiveinc.com/about-us/",
+        "title": "About Sunshine Automotive Inc. in St. Pete, Florida",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/sunshine-automotive"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Northwest Collision Center",
+      "city": "st-petersburg-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.northwestautocollision.com/contact-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.northwestautocollision.com/contact-us"
+      ],
+      "evidenceNote": "The St. Petersburg body shop identifies its local facility and directly provides personal vehicle accident and body repair.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.northwestautocollision.com/contact-us",
+        "title": "Contact Northwest Collision Center | St. Petersburg, FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/northwest-collision-center"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Igor's AutoWerks",
+      "city": "clearwater-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.autowerkslargo.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.autowerkslargo.com/about-us"
+      ],
+      "evidenceNote": "The independent shop gives its Clearwater repair location and directly works on customer vehicles, including collision and bumper repair.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.autowerkslargo.com/about-us",
+        "title": "ABOUT US | Igor",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/igor-s-autowerks"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Cruz Auto Body Repair",
+      "city": "clearwater-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.cruzautobodyrepair.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.cruzautobodyrepair.com/"
+      ],
+      "evidenceNote": "The family auto body shop names Clearwater as a service market and directly provides collision and body repair for local drivers.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.cruzautobodyrepair.com/",
+        "title": "Auto Body Shop | Cruz Auto Body Repair",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/cruz-auto-body-repair"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "The BodyWorks",
+      "city": "st-petersburg-fl",
+      "category": "auto-body-collision",
+      "website": "https://thebodyworksfl.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://thebodyworksfl.com/about-us"
+      ],
+      "evidenceNote": "The independent Mel Mendez shop identifies its St. Petersburg workshop and provides crash repairs, restorations and painting on personal cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://thebodyworksfl.com/about-us",
+        "title": "About Us | Auto Body Repair In St. Pete, FL | The BodyWorks",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/the-bodyworks"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "The Wrench Connection",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.thewrenchconnection.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.thewrenchconnection.com/about-us"
+      ],
+      "evidenceNote": "The locally owned Orlando shop directly services and repairs customers' vehicles through its own mechanics.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.thewrenchconnection.com/about-us",
+        "title": "About Us | The Wrench Connection | Orlando, FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/the-wrench-connection"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Pinto's Auto Repair",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.pintosautorepair.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.pintosautorepair.com/"
+      ],
+      "evidenceNote": "The local shop identifies an Orlando repair location and offers direct care and repair of customers' personal vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.pintosautorepair.com/",
+        "title": "HOME | pintosautorepair",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/pinto-s-auto-repair"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Wilcox & Son Automotive",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://wilcoxauto.com/about/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://wilcoxauto.com/about/"
+      ],
+      "evidenceNote": "The independent family shop operates in Orlando's SODO district and directly diagnoses and repairs local motorists' vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://wilcoxauto.com/about/",
+        "title": "About Wilcox & Son Automotive | Family-Owned Orlando Mechanic Since 2010",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/wilcox-son-automotive"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Flex Auto",
+      "city": "orlando-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.flexautofl.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.flexautofl.com/about-us"
+      ],
+      "evidenceNote": "The family business identifies its Orlando repair location and directly provides collision repair and refinishing for customer vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.flexautofl.com/about-us",
+        "title": "About Our Shop | Flex Auto | Orlando, FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/flex-auto"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Expert Car Care",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.expertcarcare.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.expertcarcare.com/about-us"
+      ],
+      "evidenceNote": "The Florida family operator identifies Orlando in its regional network and directly provides maintenance and repair for personal cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.expertcarcare.com/about-us",
+        "title": "About Our Auto Repair Team | Orlando, FL | Expert Car Care",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/expert-car-care"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Irish Mike's Total Car Care",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://irishmikesautomotive.com/about-us/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://irishmikesautomotive.com/about-us/"
+      ],
+      "evidenceNote": "The Flynn family company names Orlando and documents its own direct automotive repair services.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://irishmikesautomotive.com/about-us/",
+        "title": "About Irish Mike's Automotive – Orlando FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/irish-mike-s-total-car-care"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Michael's Paint & Body",
+      "city": "orlando-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.michaelspaintandbody.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.michaelspaintandbody.com/"
+      ],
+      "evidenceNote": "The family-owned Orlando collision shop directly makes body repairs and restores cars for customers, including walk-ins.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.michaelspaintandbody.com/",
+        "title": "Michael's Paint & Body Inc | HOME",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/michael-s-paint-body"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Forsyth Auto",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.forsythautofl.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.forsythautofl.com/"
+      ],
+      "evidenceNote": "The family-owned shop says it repairs private vehicles for drivers across Orlando and identifies its own technicians.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.forsythautofl.com/",
+        "title": "Auto Repair | Greater Orlando Area | Forsyth Auto",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/forsyth-auto"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Unique Auto Repair",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://uniqueauto.godaddysites.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://uniqueauto.godaddysites.com/"
+      ],
+      "evidenceNote": "The family-operated shop gives its Orlando location and directly offers mechanical repair for customers' cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://uniqueauto.godaddysites.com/",
+        "title": "Unique Auto",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/unique-auto-repair"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Orlando Auto Doctor",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.orlandoautodoctor.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.orlandoautodoctor.com/"
+      ],
+      "evidenceNote": "The family-operated shop identifies its Orlando operating address and offers direct service and repairs for drivers' own cars.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.orlandoautodoctor.com/",
+        "title": "Auto Repair, Orlando FL | Orlando Auto Doctor",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/orlando-auto-doctor"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Griffis Automotive Repair",
+      "city": "orlando-fl",
+      "category": "auto-mechanics",
+      "website": "https://griffisautomotiverepair.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://griffisautomotiverepair.com/"
+      ],
+      "evidenceNote": "The Orlando repair shop offers direct mechanical diagnosis and automotive repair for owners of personal vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://griffisautomotiverepair.com/",
+        "title": "Home | Griffis Automotive Repair",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/griffis-automotive-repair"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Pro Paint Body Shop",
+      "city": "orlando-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.propaintbodyshop.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.propaintbodyshop.com/"
+      ],
+      "evidenceNote": "The Romero family shop identifies Orlando as its operating location and repairs collision damage, straightens frames and refinishes personal vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.propaintbodyshop.com/",
+        "title": "Pro Paint Body Shop | Collision Repair in Orlando, FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/pro-paint-body-shop"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "East Colonial Auto Body & Paint",
+      "city": "orlando-fl",
+      "category": "auto-body-collision",
+      "website": "https://eastcolonialautobody.com/about/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://eastcolonialautobody.com/about/"
+      ],
+      "evidenceNote": "The independent family body shop gives its Orlando shop location and directly performs passenger-vehicle collision and paint work.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://eastcolonialautobody.com/about/",
+        "title": "About Us – East Colonial Auto Body & Paint",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/east-colonial-auto-body-paint"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Tu-Tone Tony's Auto Body",
+      "city": "orlando-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.tutonetonys.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.tutonetonys.com/"
+      ],
+      "evidenceNote": "The family shop names Greater Orlando and directly repairs bumped and dented personal cars and panels.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.tutonetonys.com/",
+        "title": "Home - Tu-Tone Tony's Auto Body",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/tu-tone-tony-s-auto-body"
+      },
+      "baselineDisplayed": 2,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "BES Contractors",
+      "city": "panama-city-fl",
+      "category": "pool-installation",
+      "website": "https://bescontractors.com/service/swimming-pools/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://bescontractors.com/service/swimming-pools/",
+        "https://bescontractors.com/",
+        "https://bescontractors.com/projects/"
+      ],
+      "evidenceNote": "Bay Engineering Solutions identifies Panama City among its operating markets and takes responsibility for building residential gunite and other in-ground pools using its subcontractor team.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://bescontractors.com/service/swimming-pools/",
+        "title": "Swimming Pools in Northwest Florida - Bay Engineering Solutions",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/bes-contractors"
+      },
+      "baselineDisplayed": 16,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Allie Kats Paint & Bodyworks",
+      "city": "pensacola-fl",
+      "category": "auto-body-collision",
+      "website": "https://alliekats.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://alliekats.com/"
+      ],
+      "evidenceNote": "The shop's official site identifies its West Nine Mile Road location in Pensacola and offers direct body repair, repainting and related service for customer vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://alliekats.com/",
+        "title": "ALLIE KATS PAINT & BODYWORKS",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/allie-kats-paint-bodyworks"
+      },
+      "baselineDisplayed": 12,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Waterhawk Gutters",
+      "city": "tallahassee-fl",
+      "category": "gutters",
+      "website": "https://waterhawkgutters.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://waterhawkgutters.com/"
+      ],
+      "evidenceNote": "The local Tallahassee family-owned installer offers directly fitted seamless and half-round gutters for homeowners.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://waterhawkgutters.com/",
+        "title": "Waterhawk Gutters - Tallahassee's Premier Gutter Specialists",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/waterhawk-gutters"
+      },
+      "baselineDisplayed": 12,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Molina Rain Gutters",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://molinaraingutters.com/about_us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://molinaraingutters.com/about_us"
+      ],
+      "evidenceNote": "The family-owned provider names Miami and directly installs and services home gutters, guards and downspouts.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://molinaraingutters.com/about_us",
+        "title": "Molina Rain Gutters - Downspout Installation - Miami, FL 33193",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/molina-rain-gutters"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Rain Gutters by Green Solution",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://www.rainguttersbygreensolution.com/about-us",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.rainguttersbygreensolution.com/about-us"
+      ],
+      "evidenceNote": "The Miami-based gutter company identifies its local operation and directly installs and repairs home rain gutters and downspouts.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.rainguttersbygreensolution.com/about-us",
+        "title": "About Us | Miami Gutter Company Since 2014",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/rain-gutters-by-green-solution"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Southern Gutters FL",
+      "city": "fort-lauderdale-fl",
+      "category": "gutters",
+      "website": "https://southernguttersfl.com/about-us/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://southernguttersfl.com/about-us/"
+      ],
+      "evidenceNote": "The North Lauderdale family company supplies its own gutter crew and covers Broward County, which contains Fort Lauderdale, for residential gutter projects.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://southernguttersfl.com/about-us/",
+        "title": "About Our Family-Owned Gutter Company | Southern Gutters FL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/southern-gutters-fl"
+      },
+      "baselineDisplayed": 4,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Riteway Seamless Rain Gutters",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://ritewayseamlessraingutters.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://ritewayseamlessraingutters.com/"
+      ],
+      "evidenceNote": "The family company identifies its Miami market, direct installation crews, and work for residential customers across Miami-Dade County.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://ritewayseamlessraingutters.com/",
+        "title": "Riteway Seamless Rain Gutters",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/riteway-seamless-rain-gutters"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Infinity Rain Gutters",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://www.infinityraingutterspro.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.infinityraingutterspro.com/"
+      ],
+      "evidenceNote": "The Miami company offers its own gutter team for residential installation and repairs and identifies the city as its service market.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.infinityraingutterspro.com/",
+        "title": "Infinity Rain Gutters",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/infinity-rain-gutters"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Crespo Rain Gutters",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://cresporaingutters.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://cresporaingutters.com/"
+      ],
+      "evidenceNote": "The family business names Miami and directly installs rain gutters on single-family homes and other residences.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://cresporaingutters.com/",
+        "title": "Crespo Rain Gutters - The Best Gutter Company in Miami!",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/crespo-rain-gutters"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Master Pro Rain Gutters",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://masterproraingutters.com/about.php",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://masterproraingutters.com/about.php"
+      ],
+      "evidenceNote": "The Miami-area company identifies its operating address in Miami-Dade and describes direct residential gutter installation and repair by its own crews.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://masterproraingutters.com/about.php",
+        "title": "About Master Pro Rain Gutters | South Florida Gutter Contractor",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/master-pro-rain-gutters"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Preeminent Home Improvement",
+      "city": "mobile-al",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://preeminenthome.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://preeminenthome.com/"
+      ],
+      "evidenceNote": "The Mobile operator identifies its local operation and offers direct property and landscape sprinkler system work for homes.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://preeminenthome.com/",
+        "title": "Handyman, Sprinkler, Home Improvement Business in Mobile Alabama | Preeminent Home Improvement",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/preeminent-home-improvement"
+      },
+      "baselineDisplayed": 6,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Chuck's Quality Painting",
+      "city": "montgomery-al",
+      "category": "painting",
+      "website": "https://chucksqualitypainting.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://chucksqualitypainting.com/"
+      ],
+      "evidenceNote": "The Montgomery operator expressly offers residential painting and identifies its Montgomery operating address.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://chucksqualitypainting.com/",
+        "title": "Chuck's Quality Painting - Montgomery, AL",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/chuck-s-quality-painting"
+      },
+      "baselineDisplayed": 1,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Victor's Body Shop",
+      "city": "jacksonville-fl",
+      "category": "auto-body-collision",
+      "website": "https://victorsbodyshop.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://victorsbodyshop.com/"
+      ],
+      "evidenceNote": "The local family-run Jacksonville shop offers direct collision repair, painting and minor body work for private drivers.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://victorsbodyshop.com/",
+        "title": "Victor's Body Shop in Jacksonville, FL | Auto Body Repair & Paint",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/victor-s-body-shop"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "San Jose Collision",
+      "city": "jacksonville-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.sanjosecollisionjax.com/our-story.html",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.sanjosecollisionjax.com/our-story.html"
+      ],
+      "evidenceNote": "The Jacksonville family shop directly repairs customer vehicles on premises with its own collision and paint technicians.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.sanjosecollisionjax.com/our-story.html",
+        "title": "About Our Collision Center In Jacksonville, FL | San Jose Collision Inc",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/san-jose-collision"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Novix Autobody",
+      "city": "jacksonville-fl",
+      "category": "auto-body-collision",
+      "website": "https://novixautobody.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://novixautobody.com/"
+      ],
+      "evidenceNote": "The Jacksonville facility lists direct collision repair, painting, and dent and ding repairs for customer vehicles.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://novixautobody.com/",
+        "title": "Auto Body Shop and Collision Repair in Jacksonville, FL | Novix Autobody",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/novix-autobody"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Paint Pros Jax",
+      "city": "jacksonville-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.paintprosjax.com/about",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.paintprosjax.com/about"
+      ],
+      "evidenceNote": "The Jacksonville family team offers direct collision repair and customer-car repainting from its local facility.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.paintprosjax.com/about",
+        "title": "About — Paint Pros Jax",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/paint-pros-jax"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    },
+    {
+      "name": "Oceanside Collision",
+      "city": "jacksonville-fl",
+      "category": "auto-body-collision",
+      "website": "https://www.oceansidecollision.com/",
+      "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
+      "sourceUrls": [
+        "https://www.oceansidecollision.com/"
+      ],
+      "evidenceNote": "The local family shop expressly serves Jacksonville residents and identifies its owner and direct body and accident repairs.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://www.oceansidecollision.com/",
+        "title": "Oceanside Collision| Auto Paint And Body Shop| Atlantic Beach",
+        "identity": true
+      },
+      "runStartPublicProfile": {
+        "status": 404,
+        "finalUrl": "https://whoknowsapro.com/business/oceanside-collision"
+      },
+      "baselineDisplayed": 3,
+      "baselineIdentity": false,
+      "publicationStatus": "validated_awaiting_deployment"
+    }
+  ],
+  "candidateReview": [
+    {
+      "name": "Goggans Coatings",
+      "market": "Montgomery",
+      "category": "painting",
+      "website": "https://www.gogganscoatings.com/",
+      "status": "withheld",
+      "issue": "The official site and service catalog describe commercial and industrial coating work. Current residential house painting was not established."
+    },
+    {
+      "name": "Precision Auto Body of Crestview and S&L Auto Body",
+      "market": "Crestview",
+      "category": "auto-body-collision",
+      "status": "pending",
+      "issue": "Repeated identity searches surfaced corporate or directory records. No working provider-owned site was confirmed."
+    },
+    {
+      "name": "Southern Home Appliance Services",
+      "market": "Crestview",
+      "category": "appliance-repair",
+      "status": "pending",
+      "issue": "No provider-controlled working website or exact residential repair scope verified."
+    },
+    {
+      "name": "Wreck-A-Mended and Hand Touched Auto Repair Paint & Body",
+      "market": "Panama City",
+      "category": "auto-body-collision",
+      "status": "pending",
+      "issue": "Local candidates surfaced. A working official site is still needed for each identity."
+    },
+    {
+      "name": "Veteran Septic and Site Construction",
+      "market": "Panama City",
+      "category": "septic-services",
+      "status": "pending",
+      "issue": "Prior Florida corporate corroboration retained. First-party website documenting household septic work is unresolved."
+    },
+    {
+      "name": "Fort Walton Beach Insulation",
+      "market": "Fort Walton Beach",
+      "category": "insulation",
+      "website": "https://www.fortwaltonbeachinsulation.com/",
+      "status": "pending",
+      "issue": "Confirm independently that the business performs its own gutter or insulation work. Generic vetted-provider marketing does not settle the operator identity."
+    },
+    {
+      "name": "Tayco Services",
+      "market": "Destin",
+      "category": "appliance-repair",
+      "website": "https://taycoservices.com/",
+      "status": "pending",
+      "issue": "A remodeling and repair identity surfaced, but the site was not independently confirmed for local work on household appliances."
+    },
+    {
+      "name": "Olympus Builders",
+      "market": "Panama City",
+      "category": "pool-installation",
+      "website": "https://baycountybuilders.com/about",
+      "status": "pending",
+      "issue": "Official site documents Panhandle residential building and renovation. Direct residential pool installation is unverified."
+    },
+    {
+      "name": "Complete Electric",
+      "market": "Panama City",
+      "category": "generator-installation",
+      "website": "https://www.iheartelectric.com/",
+      "status": "pending",
+      "issue": "Residential electrical operation is documented. Direct household standby generator installation was not verified for this category."
+    },
+    {
+      "name": "Florida Standby Power Systems",
+      "market": "Panama City",
+      "category": "generator-installation",
+      "website": "https://floridastandbypowersystems.com/",
+      "status": "pending",
+      "issue": "Family business identity surfaced. The website must still establish city-specific household standby generator installation."
+    },
+    {
+      "name": "H & H Carpets",
+      "market": "Montgomery",
+      "category": "flooring",
+      "website": "https://www.hhcarpets.com/services",
+      "status": "pending",
+      "issue": "The official website gives its Montgomery showroom and home estimates. Verify its own residential installation service rather than inferring it from retail."
+    },
+    {
+      "name": "Appliance Service Auburn",
+      "market": "Auburn",
+      "category": "appliance-repair",
+      "website": "https://applianceserviceauburn.com/contact",
+      "status": "withheld",
+      "issue": "The official-looking page publishes a 555-0142 placeholder number and no corroborated operating business identity."
+    },
+    {
+      "name": "Gulfport Water Damage Restoration",
+      "market": "Gulfport",
+      "category": "water-damage-mold-remediation",
+      "website": "https://gulfportwaterdamage.com/about/",
+      "status": "withheld",
+      "issue": "The site identifies itself as a matching service connecting homeowners to other contractors."
+    },
+    {
+      "name": "The Grounds Guys",
+      "market": "Gulfport and Montgomery",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://www.groundsguys.com/",
+      "status": "withheld",
+      "issue": "National franchise brand."
+    },
+    {
+      "name": "Hometown Garage Doors Co.",
+      "market": "Crestview",
+      "category": "garage-door-repair",
+      "website": "https://www.hometowngaragedoorsnf.com/",
+      "status": "already_present_alias",
+      "issue": "The old domain matches the current baseline Hometown Garage Doors LLC phone number and Crestview operating address.",
+      "sources": [
+        "https://www.hometowngaragedoorsnf.com/",
+        "https://www.hometowngaragenwfl.com/contact-us"
+      ]
+    },
+    {
+      "name": "Target Exterminating & Lawn Care",
+      "city": "montgomery-al",
+      "category": "pest-control",
+      "website": "https://targetexterminatingandlawncare.com/",
+      "status": "pending",
+      "issue": "The legacy website redirects to Target Lawn Care. The current destination did not corroborate the original residential pest-control offering.",
+      "officialSite": {
+        "status": 200,
+        "finalUrl": "https://targetlawn.com/",
+        "title": "Target Lawn Care | Serving Montgomery, Prattville, Pike Road",
+        "identity": false
+      },
+      "sources": [
+        "https://targetexterminatingandlawncare.com/"
+      ]
+    },
+    {
+      "name": "S & J Irrigation",
+      "city": "dothan-al",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://www.sandjirrigation.com/irrigation-sprinkler-system/3767083",
+      "status": "pending",
+      "issue": "Working official destination or required source not confirmed (destination HTTP 404).",
+      "officialSite": {
+        "status": 404,
+        "finalUrl": "https://www.sandjirrigation.com/irrigation-sprinkler-system/3767083",
+        "title": "SITE NOT FOUND",
+        "identity": false
+      },
+      "sources": [
+        "https://www.sandjirrigation.com/irrigation-sprinkler-system/3767083",
+        "https://www.sandjirrigation.com/"
+      ]
+    },
+    {
+      "name": "Coast to Coast Gutters",
+      "city": "fort-lauderdale-fl",
+      "category": "gutters",
+      "website": "https://www.coasttocoastgutters.com/residential-gutters/",
+      "status": "already_present",
+      "issue": "The same provider is already publicly listed on the target page.",
+      "profile": {
+        "status": 200,
+        "finalUrl": "https://whoknowsapro.com/business/coast-to-coast-gutters"
+      },
+      "baselineDomains": [
+        "coasttocoastgutters.com"
+      ]
+    },
+    {
+      "name": "Rainbow Rain Gutters",
+      "city": "miami-fl",
+      "category": "gutters",
+      "website": "https://www.rainbowraingutters.net/about-us/",
+      "status": "identity_review",
+      "issue": "The Miami .net site and the Mississippi .com site claim different operating markets. Resolve the identical name safely before adding or changing either identity.",
+      "profile": {
+        "status": 200,
+        "finalUrl": "https://whoknowsapro.com/business/rainbow-rain-gutters"
+      },
+      "baselineDomains": [
+        "rainbowraingutters.com"
+      ]
+    }
+  ],
+  "nationalBrandReview": [
+    {
+      "name": "CCA Dent",
+      "domains": [
+        "ccadent.com"
+      ],
+      "sources": [
+        "https://www.ccadent.com/",
+        "https://www.ccadent.com/faq"
+      ],
+      "note": "The company markets nationwide hail and paintless dent repair and explains that its crews travel to storm areas across the United States and set up temporary operations."
+    },
+    {
+      "name": "Carpet One Floor & Home",
+      "domains": [
+        "carpetone.com",
+        "carpetonepanamacity.com",
+        "bobtaylorscarpetonecrestview.com",
+        "bobtaylorscarpetoneopp.com",
+        "hollowaycarpetonedothan.com",
+        "carpetonedothan.com"
+      ],
+      "sources": [
+        "https://www.carpetone.com/about/cooperatives",
+        "https://www.carpetonepanamacity.com/about-us",
+        "https://www.bobtaylorscarpetonecrestview.com/about-us",
+        "https://www.hollowaycarpetonedothan.com/about-us"
+      ],
+      "note": "The member sites use the common national consumer brand. The company identifies a retail cooperative of member-owned businesses. Exact consumer-facing Carpet One domains are filtered."
+    }
+  ],
+  "nationalCardsBaseline": {
+    "atlanta-ga/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "auburn-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "baton-rouge-la/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "biloxi-ms/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "birmingham-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "clearwater-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "crestview-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "crestview-fl/flooring": [
+      {
+        "name": "Bob Taylor's Carpet One Floor & Home",
+        "links": [
+          "https://www.bobtaylorscarpetonecrestview.com/"
+        ]
+      },
+      {
+        "name": "Carpet One Floor & Home of Panama City",
+        "links": [
+          "https://www.carpetonepanamacity.com/"
+        ]
+      }
+    ],
+    "daphne-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "destin-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "dothan-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "dothan-al/flooring": [
+      {
+        "name": "Holloway Carpet One Floor & Home",
+        "links": [
+          "https://www.hollowaycarpetonedothan.com/installation-services-1"
+        ]
+      }
+    ],
+    "fairhope-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "foley-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "fort-lauderdale-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "fort-myers-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "fort-walton-beach-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "grayton-beach-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "gulf-breeze-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "gulf-shores-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "gulfport-ms/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "huntsville-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "jacksonville-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "miami-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "milton-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "mobile-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "montgomery-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "naples-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "navarre-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "new-orleans-la/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "orange-beach-al/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "orlando-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "pace-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "panama-city-beach-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "panama-city-beach-fl/flooring": [
+      {
+        "name": "Carpet One Floor & Home of Panama City",
+        "links": [
+          "https://www.carpetonepanamacity.com/"
+        ]
+      }
+    ],
+    "panama-city-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "panama-city-fl/flooring": [
+      {
+        "name": "Carpet One Floor & Home of Panama City",
+        "links": [
+          "https://www.carpetonepanamacity.com/"
+        ]
+      }
+    ],
+    "pensacola-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "perdido-key-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "sarasota-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "st-petersburg-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "tallahassee-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "tampa-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ],
+    "west-palm-beach-fl/auto-body-collision": [
+      {
+        "name": "CCA Dent",
+        "links": [
+          "https://www.ccadent.com/"
+        ]
+      }
+    ]
+  },
+  "publication": {
+    "committed": false,
+    "validatedNewBusinesses": 71,
+    "validatedNewBusinessPlacements": 71,
+    "validatedExistingBusinessPlacements": 0,
+    "awaitingDeployment": 71,
+    "liveVerifiedNewBusinesses": 0
+  },
+  "historicalScan": {
+    "rawSourceRows": 584,
+    "rawPlacements": 8816,
+    "businessIdentities": 158,
+    "retailFixItRawPlacements": 396,
+    "originalIndex": "reports/historical-qualification-flags-2026-11-03.json",
+    "priorDetailedFlags": "reports/evidence-fill1000cv-2026-11-21.json"
+  },
+  "historicalFlags": [
+    {
+      "name": "Retail Fix It",
+      "sources": [
+        "https://www.retailfixit.com/"
+      ],
+      "rawPlacements": 396,
+      "issues": [
+        "unsupported residential service",
+        "incorrect category",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "finding": "The company describes multi-location facility maintenance and vendor onboarding nationwide. Direct residential locksmith service and specific local service evidence were not established.",
+      "publicProfileStatus": 404
+    },
+    {
+      "name": "Hometown Garage Doors",
+      "sources": [
+        "https://www.hometowngaragedoorsnf.com/",
+        "https://www.hometowngaragenwfl.com/contact-us"
+      ],
+      "issues": [
+        "duplicate identity"
+      ],
+      "finding": "The alternate and baseline websites share the same Crestview operating address and phone. No duplicate was added."
+    },
+    {
+      "name": "Solve All, Dothan Pools and Tri-State Appliance Repair",
+      "issues": [
+        "invalid official website"
+      ],
+      "finding": "Prior historical flags are retained. This run did not requalify the listings."
+    }
+  ],
+  "researchChecks": {
+    "proposedPlacements": 75,
+    "priorityCities": [
+      "Destin",
+      "Fort Walton Beach",
+      "Crestview",
+      "Panama City"
+    ],
+    "resolvedFromPriorRun": [
+      {
+        "name": "Allie Kats Paint & Bodyworks",
+        "source": "https://alliekats.com/",
+        "finding": "Current official page explicitly identifies its operating shop at 1807 West Nine Mile Road, Pensacola."
+      }
+    ],
+    "candidateCollector": "Existing workflow is review-only and uses live deficits with the 20-placement target. No automatic publication or paid discovery was used."
+  }
+}
