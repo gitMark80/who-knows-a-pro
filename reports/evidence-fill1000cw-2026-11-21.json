@@ -95,7 +95,7 @@
   "runDate": "2026-11-21",
   "baselineCommit": "0c908b7083fa2b7223255611094f4025e5737ff9",
   "previousCheckpoint": "reports/progress-fill1000cv-2026-11-21.md",
-  "status": "validated_awaiting_production",
+  "status": "published_deployed_live_verified",
   "baselineDisplayedCoverage": {
     "activeCities": 40,
     "visibleCategories": 28,
@@ -130,7 +130,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://p1pestco.com/about/",
+          "title": "About P1 Pest Control | Orlando, FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Town & Country Pest Solutions",
@@ -154,7 +166,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.townandcountrypestsolutions.com/about-us",
+          "title": "About Us | Family-Owned Pest Control in Orlando | Town & Country Pest Solutions",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Panther Pest Control",
@@ -178,7 +202,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.panther-pest.com/about",
+          "title": "Our Story | Panther Pest Control",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Byrne Termite & Pest Control",
@@ -202,7 +238,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.byrnepest.com/",
+          "title": "Byrne Termite & Pest Control – Byrne Termite & Pest Control",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Best Pest Control",
@@ -226,7 +274,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.bestpestcfl.com/about",
+          "title": "ABOUT | Best Pest Control Orlando",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Golden Pest Services",
@@ -250,7 +310,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.goldenpestservices.com/about",
+          "title": "About Golden Pest Services | Golden Pest Services",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Natural Resources",
@@ -274,7 +346,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://naturalresourcesmiami.com/",
+          "title": "Eco Friendly Pest Control Miami | Natural Resources",
+          "identity": true
+        }
+      }
     },
     {
       "name": "JM Pest Control Solutions",
@@ -298,7 +382,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.jmpestcontrolmiami.com/services/",
+          "title": "Pest Control & Termite Services | JM Pest Control Solutions",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Dever Pest Control",
@@ -322,7 +418,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.deverpestfl.com/about.html",
+          "title": "About Dever Pest Control | Family-Owned South Florida Exterminator",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Larry Grella Automotive",
@@ -346,7 +454,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/clearwater-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.larrygrellaauto.com/",
+          "title": "Auto Repair | Larry Grella Automotive | Clearwater",
+          "identity": true
+        }
+      }
     },
     {
       "name": "A Choice Automotive",
@@ -370,7 +490,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/clearwater-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.achoiceautomotive.com/",
+          "title": "A Choice Automotive LLC – Clearwater, FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "A&J Garage",
@@ -394,7 +526,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.aandjgarage.com/about-us/",
+          "title": "About Us – aandjgarage",
+          "identity": true
+        }
+      }
     },
     {
       "name": "St. Pete Auto Works",
@@ -418,7 +562,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://stpeteautoworks.com/about/",
+          "title": "About St. Pete Auto Works | Independent Auto Repair",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Bob's Auto Repair",
@@ -442,7 +598,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/clearwater-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://bobsclearwaterautorepair.com/",
+          "title": "Bob's Auto Repair",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Wrench Masters",
@@ -466,7 +634,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://wrenchmastersauto.com/about/",
+          "title": "About Us | WrenchMastersAuto.com - Performance Parts & Auto Repair | St Pete, FL 33709",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Kirk's Auto Performance",
@@ -490,7 +670,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://kirksautoperformance.com/about",
+          "title": "About Ian Kirkpatrick, St. Petersburg Mechanic | Kirk's Auto Performance",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Middleton's Auto Care",
@@ -514,7 +706,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.middletonsautocare.com/",
+          "title": "Auto Repair in St. Petersburg, FL | Middleton's Auto Care",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Southport Auto Repair",
@@ -538,7 +742,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://southport-auto-repair.com/about-us/",
+          "title": "About Southport Auto Repair | Fort Lauderdale",
+          "identity": true
+        }
+      }
     },
     {
       "name": "European Auto Service",
@@ -562,7 +778,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.europeanautoservicefl.com/",
+          "title": "European Auto Service, Mechanic and Body shop | 2180 SW 38th Street, Fort Lauderdale, FL 33312",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Your WrenchTech",
@@ -586,7 +814,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://yourwrenchtech.com/",
+          "title": "Mobile Mechanic Fort Lauderdale, FL | Your WrenchTech",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Martenson Performance",
@@ -610,7 +850,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.martensonperformance.com/",
+          "title": "Volkswagen | Auto | Fort Lauderdale",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Jimmy's German Auto Repair",
@@ -634,7 +886,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.jimmysgermanautorepair.com/",
+          "title": "Auto Repair in Fort Lauderdale, FL | Jimmy's German Auto Repair",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Master Tech Auto Repair",
@@ -658,7 +922,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.mastertechautoshop.com/services.html",
+          "title": "Master Tech - Ft. Lauderdale Automotive Services",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Budget Auto Painting",
@@ -682,7 +958,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/atlanta-ga/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.chambleeautobodyshop.com/",
+          "title": "Auto Body Repair | Budget Auto Painting | Chamblee, GA",
+          "identity": true
+        }
+      }
     },
     {
       "name": "SOS Irrigation Repair",
@@ -706,7 +994,19 @@
       },
       "baselineDisplayed": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/irrigation-sprinkler-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.sosirrigationrepair.com/about-us",
+          "title": "About Us",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Skyway Gutters",
@@ -730,7 +1030,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://skywaygutters.com/locations/tampa-fl",
+          "title": "Gutter Installation Tampa FL | Skyway Gutters",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Sunshine State Gutters",
@@ -754,7 +1066,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://sunshinestategutters.com/about/",
+          "title": "About Sunshine State Gutters | Pasco County & Tampa Bay",
+          "identity": true
+        }
+      }
     },
     {
       "name": "American Custom Guttering",
@@ -778,7 +1102,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://americancustomguttering.com/",
+          "title": "Seamless Gutters Odessa & Tampa Bay FL | American Custom Guttering",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Goterra Irrigation",
@@ -787,7 +1123,8 @@
       "website": "https://goterrairrigation.com/contact/",
       "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
       "sourceUrls": [
-        "https://goterrairrigation.com/contact/"
+        "https://goterrairrigation.com/contact/",
+        "https://goterrairrigation.com/irrigation-repair-in-tampa-fl/"
       ],
       "evidenceNote": "The family contractor explicitly serves Tampa and offers direct residential sprinkler repairs and installations.",
       "officialSite": {
@@ -802,7 +1139,19 @@
       },
       "baselineDisplayed": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/irrigation-sprinkler-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://goterrairrigation.com/contact/",
+          "title": "Contact Goterra Irrigation | Call (813) 946-9772",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Designer Gutter Company",
@@ -811,7 +1160,8 @@
       "website": "https://www.designergutterco.com/about",
       "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
       "sourceUrls": [
-        "https://www.designergutterco.com/about"
+        "https://www.designergutterco.com/about",
+        "https://www.designergutterco.com/services-areas/tampa"
       ],
       "evidenceNote": "The veteran family business serves Tampa Bay homeowners with directly installed custom seamless gutters. Tampa is the principal city of the Tampa Bay market named on the site.",
       "officialSite": {
@@ -826,7 +1176,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.designergutterco.com/about",
+          "title": "About Designer Gutter Company | Gutter Company in Florida",
+          "identity": true
+        }
+      }
     },
     {
       "name": "SoFlo Gutters",
@@ -850,7 +1212,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.soflogutters.com/areas/tampa",
+          "title": "Seamless Gutters in Tampa, FL | Installation & Repair | SoFlo Gutters",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Your Way Exteriors",
@@ -874,7 +1248,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://yourwayexteriors.com/seamless-gutters/",
+          "title": "Seamless Gutters in Tampa Bay | Your Way Exteriors",
+          "identity": true
+        }
+      }
     },
     {
       "name": "JR One Aluminum",
@@ -898,7 +1284,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tampa-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.jronegutters.com/about",
+          "title": "Family-Owned Tampa Bay Gutter Specialist | JR One Aluminum",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Absolute Termite & Pest Control",
@@ -922,7 +1320,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://absolutetermiteandpestcontrol.com/contact",
+          "title": "Contact Absolute Termite & Pest Control",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Slaughter Pest Control",
@@ -946,7 +1356,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/pest-control",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://slaughterpestcontrol.com/",
+          "title": "Slaughter Pest Control – Limited Liability Company (LLC)",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Sunshine Automotive",
@@ -970,7 +1392,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.sunshineautomotiveinc.com/about-us/",
+          "title": "About Sunshine Automotive Inc. in St. Pete, Florida",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Northwest Collision Center",
@@ -994,7 +1428,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.northwestautocollision.com/contact-us",
+          "title": "Contact Northwest Collision Center | St. Petersburg, FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Igor's AutoWerks",
@@ -1018,7 +1464,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/clearwater-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.autowerkslargo.com/about-us",
+          "title": "ABOUT US | Igor",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Cruz Auto Body Repair",
@@ -1042,7 +1500,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/clearwater-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.cruzautobodyrepair.com/",
+          "title": "Auto Body Shop | Cruz Auto Body Repair",
+          "identity": true
+        }
+      }
     },
     {
       "name": "The BodyWorks",
@@ -1066,7 +1536,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://thebodyworksfl.com/about-us",
+          "title": "About Us | Auto Body Repair In St. Pete, FL | The BodyWorks",
+          "identity": true
+        }
+      }
     },
     {
       "name": "The Wrench Connection",
@@ -1090,7 +1572,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.thewrenchconnection.com/about-us",
+          "title": "About Us | The Wrench Connection | Orlando, FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Pinto's Auto Repair",
@@ -1114,7 +1608,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.pintosautorepair.com/",
+          "title": "HOME | pintosautorepair",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Wilcox & Son Automotive",
@@ -1138,7 +1644,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://wilcoxauto.com/about/",
+          "title": "About Wilcox & Son Automotive | Family-Owned Orlando Mechanic Since 2010",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Flex Auto",
@@ -1162,7 +1680,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.flexautofl.com/about-us",
+          "title": "About Our Shop | Flex Auto | Orlando, FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Expert Car Care",
@@ -1186,7 +1716,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.expertcarcare.com/about-us",
+          "title": "About Our Auto Repair Team | Orlando, FL | Expert Car Care",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Irish Mike's Total Car Care",
@@ -1210,7 +1752,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://irishmikesautomotive.com/about-us/",
+          "title": "About Irish Mike's Automotive – Orlando FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Michael's Paint & Body",
@@ -1234,7 +1788,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.michaelspaintandbody.com/",
+          "title": "Michael's Paint & Body Inc | HOME",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Forsyth Auto",
@@ -1258,7 +1824,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.forsythautofl.com/",
+          "title": "Auto Repair | Greater Orlando Area | Forsyth Auto",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Unique Auto Repair",
@@ -1282,7 +1860,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://uniqueauto.godaddysites.com/",
+          "title": "Unique Auto",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Orlando Auto Doctor",
@@ -1306,7 +1896,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.orlandoautodoctor.com/",
+          "title": "Auto Repair, Orlando FL | Orlando Auto Doctor",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Griffis Automotive Repair",
@@ -1330,7 +1932,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-mechanics",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://griffisautomotiverepair.com/",
+          "title": "Home | Griffis Automotive Repair",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Pro Paint Body Shop",
@@ -1354,7 +1968,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.propaintbodyshop.com/",
+          "title": "Pro Paint Body Shop | Collision Repair in Orlando, FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "East Colonial Auto Body & Paint",
@@ -1378,7 +2004,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://eastcolonialautobody.com/about/",
+          "title": "About Us – East Colonial Auto Body & Paint",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Tu-Tone Tony's Auto Body",
@@ -1402,7 +2040,19 @@
       },
       "baselineDisplayed": 2,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/orlando-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.tutonetonys.com/",
+          "title": "Home - Tu-Tone Tony's Auto Body",
+          "identity": true
+        }
+      }
     },
     {
       "name": "BES Contractors",
@@ -1428,7 +2078,19 @@
       },
       "baselineDisplayed": 16,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/panama-city-fl/pool-installation",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://bescontractors.com/service/swimming-pools/",
+          "title": "Swimming Pools in Northwest Florida - Bay Engineering Solutions",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Allie Kats Paint & Bodyworks",
@@ -1452,7 +2114,19 @@
       },
       "baselineDisplayed": 12,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/pensacola-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://alliekats.com/",
+          "title": "ALLIE KATS PAINT & BODYWORKS",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Waterhawk Gutters",
@@ -1476,7 +2150,19 @@
       },
       "baselineDisplayed": 12,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://waterhawkgutters.com/",
+          "title": "Waterhawk Gutters - Tallahassee's Premier Gutter Specialists",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Molina Rain Gutters",
@@ -1500,7 +2186,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://molinaraingutters.com/about_us",
+          "title": "Molina Rain Gutters - Downspout Installation - Miami, FL 33193",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Rain Gutters by Green Solution",
@@ -1524,7 +2222,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.rainguttersbygreensolution.com/about-us",
+          "title": "About Us | Miami Gutter Company Since 2014",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Southern Gutters FL",
@@ -1548,7 +2258,19 @@
       },
       "baselineDisplayed": 4,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://southernguttersfl.com/about-us/",
+          "title": "About Our Family-Owned Gutter Company | Southern Gutters FL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Riteway Seamless Rain Gutters",
@@ -1572,7 +2294,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://ritewayseamlessraingutters.com/",
+          "title": "Riteway Seamless Rain Gutters",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Infinity Rain Gutters",
@@ -1596,7 +2330,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.infinityraingutterspro.com/",
+          "title": "Infinity Rain Gutters",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Crespo Rain Gutters",
@@ -1620,7 +2366,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://cresporaingutters.com/",
+          "title": "Crespo Rain Gutters - The Best Gutter Company in Miami!",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Master Pro Rain Gutters",
@@ -1629,7 +2387,8 @@
       "website": "https://masterproraingutters.com/about.php",
       "sourceVerifiedAt": "2026-11-22T05:03:05+00:00",
       "sourceUrls": [
-        "https://masterproraingutters.com/about.php"
+        "https://masterproraingutters.com/about.php",
+        "https://www.masterproraingutters.com/service-areas/"
       ],
       "evidenceNote": "The Miami-area company identifies its operating address in Miami-Dade and describes direct residential gutter installation and repair by its own crews.",
       "officialSite": {
@@ -1644,7 +2403,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/miami-fl/gutters",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://masterproraingutters.com/about.php",
+          "title": "About Master Pro Rain Gutters | South Florida Gutter Contractor",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Preeminent Home Improvement",
@@ -1668,7 +2439,19 @@
       },
       "baselineDisplayed": 6,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/mobile-al/irrigation-sprinkler-repair",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://preeminenthome.com/",
+          "title": "Handyman, Sprinkler, Home Improvement Business in Mobile Alabama | Preeminent Home Improvement",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Chuck's Quality Painting",
@@ -1692,7 +2475,19 @@
       },
       "baselineDisplayed": 1,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/montgomery-al/painting",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://chucksqualitypainting.com/",
+          "title": "Chuck's Quality Painting - Montgomery, AL",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Victor's Body Shop",
@@ -1716,7 +2511,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://victorsbodyshop.com/",
+          "title": "Victor's Body Shop in Jacksonville, FL | Auto Body Repair & Paint",
+          "identity": true
+        }
+      }
     },
     {
       "name": "San Jose Collision",
@@ -1740,7 +2547,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.sanjosecollisionjax.com/our-story.html",
+          "title": "About Our Collision Center In Jacksonville, FL | San Jose Collision Inc",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Novix Autobody",
@@ -1764,7 +2583,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://novixautobody.com/",
+          "title": "Auto Body Shop and Collision Repair in Jacksonville, FL | Novix Autobody",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Paint Pros Jax",
@@ -1788,7 +2619,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.paintprosjax.com/about",
+          "title": "About — Paint Pros Jax",
+          "identity": true
+        }
+      }
     },
     {
       "name": "Oceanside Collision",
@@ -1812,7 +2655,19 @@
       },
       "baselineDisplayed": 3,
       "baselineIdentity": false,
-      "publicationStatus": "validated_awaiting_deployment"
+      "publicationStatus": "live_verified",
+      "liveProof": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-body-collision",
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "exactCards": 1,
+        "officialSite": {
+          "status": 200,
+          "finalUrl": "https://www.oceansidecollision.com/",
+          "title": "Oceanside Collision| Auto Paint And Body Shop| Atlantic Beach",
+          "identity": true
+        }
+      }
     }
   ],
   "candidateReview": [
@@ -1999,6 +2854,44 @@
       },
       "baselineDomains": [
         "rainbowraingutters.com"
+      ]
+    },
+    {
+      "name": "Second Chance Used Appliances & Repair",
+      "market": "Fort Walton Beach",
+      "category": "appliance-repair",
+      "status": "pending",
+      "issue": "A local repair operation appears in public records. No working provider-controlled service site was confirmed in this pass."
+    },
+    {
+      "name": "Panama Pest Services",
+      "market": "Panama City",
+      "category": "pest-control",
+      "status": "pending",
+      "issue": "Public registration confirms that a similarly named Florida entity exists. Its working official site and homeowner service in Panama City are outstanding.",
+      "sources": [
+        "https://search.sunbiz.org/Inquiry/corporationsearch/SearchResults?inquiryType=EntityName&searchTerm=PANAMA+PARTNERS+LLC"
+      ]
+    },
+    {
+      "name": "BluePeak Garage Door Supply",
+      "market": "Panama City",
+      "category": "garage-door-repair",
+      "status": "pending",
+      "issue": "The purported official website states it serves Panama City homeowners. Confirm the local operating entity at its advertised street address and whether it directly provides repairs.",
+      "sources": [
+        "https://bluepeakgaragedoor.com/contact/",
+        "https://bluepeakgaragedoor.com/garage-door-installation-panama-city-fl/"
+      ]
+    },
+    {
+      "name": "Mullins Auto Body",
+      "market": "Destin",
+      "category": "auto-body-collision",
+      "status": "already_present",
+      "issue": "Official services page explicitly names Destin. The company already has a baseline Destin placement.",
+      "sources": [
+        "https://www.mullinsautobody850.com/services"
       ]
     }
   ],
@@ -2394,12 +3287,26 @@
     ]
   },
   "publication": {
-    "committed": false,
-    "validatedNewBusinesses": 71,
-    "validatedNewBusinessPlacements": 71,
-    "validatedExistingBusinessPlacements": 0,
-    "awaitingDeployment": 71,
-    "liveVerifiedNewBusinesses": 0
+    "dataCommit": "84984bff13076a2ff2fea2cf6113f8d7ee7f33f2",
+    "productionDeployment": {
+      "id": "dpl_81RDodBcg9LsP5sSFGp6rCpsRUhW",
+      "state": "READY",
+      "inspectorUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/81RDodBcg9LsP5sSFGp6rCpsRUhW"
+    },
+    "liveVerifiedAt": "2026-11-22T05:05:37.222548+00:00",
+    "committedNewBusinesses": 71,
+    "liveVerifiedNewBusinesses": 71,
+    "liveVerifiedNewBusinessPlacements": 71,
+    "liveVerifiedExistingBusinessPlacements": 0,
+    "shortfallAgainst1000": 929,
+    "awaitingDeployment": 0,
+    "awaitingLiveVerification": 0,
+    "liveSuppressedNationalPlacements": 45,
+    "suppressedNationalPlacementsByBrand": {
+      "CCA Dent": 40,
+      "Carpet One Floor & Home": 5
+    },
+    "remainingNationalCards": {}
   },
   "historicalScan": {
     "rawSourceRows": 584,
@@ -2423,7 +3330,8 @@
         "intermediary status"
       ],
       "finding": "The company describes multi-location facility maintenance and vendor onboarding nationwide. Direct residential locksmith service and specific local service evidence were not established.",
-      "publicProfileStatus": 404
+      "publicProfileStatus": 404,
+      "finalPublicProfileStatus": 404
     },
     {
       "name": "Hometown Garage Doors",
@@ -2442,6 +3350,15 @@
         "invalid official website"
       ],
       "finding": "Prior historical flags are retained. This run did not requalify the listings."
+    },
+    {
+      "name": "Vixxo and Divisions Maintenance Group",
+      "issues": [
+        "unsupported residential service",
+        "unsupported geography",
+        "intermediary status"
+      ],
+      "finding": "Prior review found nationwide vendor coordination for property portfolios. The previous checkpoint preserves per-provider official source URLs."
     }
   ],
   "researchChecks": {
@@ -2460,5 +3377,27 @@
       }
     ],
     "candidateCollector": "Existing workflow is review-only and uses live deficits with the 20-placement target. No automatic publication or paid discovery was used."
+  },
+  "finalDisplayedCoverage": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "pages": 1120,
+    "displayedAt20": 241,
+    "displayedBelow20": 879,
+    "displayedEmpty": 0,
+    "displayedPlacements": 13492,
+    "displayedDeficit": 9213,
+    "freshlyVerifiedAt20": 0,
+    "qualifyingAt20Unknown": 241,
+    "qualifyingDeficit": null
+  },
+  "liveCountReconciliationDiscrepancies": {},
+  "checks": {
+    "localBuild": "passed",
+    "publicVisibilityRegression": "passed",
+    "prepublishActiveMainWorkflows": 0,
+    "baselineActiveMainWorkflows": 0,
+    "liveCountReconciliation": "passed"
   }
 }
