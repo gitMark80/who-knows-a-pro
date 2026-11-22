@@ -64,6 +64,19 @@ for (const website of ['https://www.911restorationmississippigulfcoast.com/', 'h
   );
 }
 
+for (const website of [
+  'https://www.expressoil.com/stores/',
+  'https://www.goodyear.com/en-us/shops/AL/Foley/000902293',
+  'https://www.goodyearautoservice.com/',
+  'https://fox-pest.com/locations/louisiana/baton-rouge/',
+]) {
+  check(
+    `approved national branch remains excluded: ${website}`,
+    !isPublicDirectoryBusiness({ approved: 1, is_test: 0, website }),
+    'the domain exclusion also covers approved records',
+  );
+}
+
 const report = {
   checkedAt: new Date().toISOString(),
   excludedDomainRules: excludedWebsiteDomains.length,

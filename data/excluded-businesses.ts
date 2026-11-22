@@ -23,6 +23,12 @@ export const excludedWebsiteDomains = [
   'greenhomesolutions.com',
   'tiresplus.com',
 
+  // National automotive service chains and the Rollins Fox Pest Control brand.
+  'expressoil.com',
+  'goodyear.com',
+  'goodyearautoservice.com',
+  'fox-pest.com',
+
   // 911 Restoration and OGD use national brands on these local sites.
   '911restorationmississippigulfcoast.com',
   'ogd.com',
