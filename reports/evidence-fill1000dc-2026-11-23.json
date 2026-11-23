@@ -135,7 +135,49 @@
         "note": "The existing card links to the local family business. Its home page advertises its own weekly or biweekly pool cleaning and maintenance for households, names Panama City under its service area and solicits quotes for either pool or appliance work. This supports the existing residential pool placement. No new business or placement credit.",
         "verificationDate": "2026-11-23"
       }
-    ]
+    ],
+    "freshFlaggedPlacements": [
+      {
+        "name": "ARP Insulation",
+        "city": "fort-walton-beach-fl",
+        "category": "insulation",
+        "issue": "unsupported specific geography",
+        "sources": [
+          "https://www.arpinsulation.com/"
+        ],
+        "evidence": "Official site supports residential insulation and names operations in Orlando, Jacksonville, Tampa, Fort Myers and Leesburg. General statewide service does not establish service in Fort Walton Beach.",
+        "checkedAt": "2026-11-23T16:58:47.835459+00:00",
+        "publicDisplayPreserved": true,
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/insulation"
+      },
+      {
+        "name": "Integrity Spray Foam",
+        "city": "fort-walton-beach-fl",
+        "category": "insulation",
+        "issue": "unsupported specific geography",
+        "sources": [
+          "https://integrityfoam.com/"
+        ],
+        "evidence": "Official homepage describes household insulation and statewide coverage, but it did not establish Fort Walton Beach or verified Okaloosa County service.",
+        "checkedAt": "2026-11-23T16:58:47.835459+00:00",
+        "publicDisplayPreserved": true,
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/insulation"
+      },
+      {
+        "name": "Southern Foam Insulation",
+        "city": "fort-walton-beach-fl",
+        "category": "insulation",
+        "issue": "unsupported specific geography",
+        "sources": [
+          "https://southernfoaminsulation.com/"
+        ],
+        "evidence": "Official page gives explicit coverage for Orlando and Central Florida communities. It does not establish a Fort Walton Beach operation or coverage.",
+        "checkedAt": "2026-11-23T16:58:47.835459+00:00",
+        "publicDisplayPreserved": true,
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/insulation"
+      }
+    ],
+    "freshInsulationNotes": "The Fort Walton Beach page reached 20 displayed records. Existing company sites had three unresolved geographic matches, and the qualifying total was not certified."
   },
   "discovery": {
     "distinctDomainsScreened": 231,
@@ -304,7 +346,7 @@
         "https://preferredpaversandconcrete.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/concrete",
         "profileStatus": 404,
         "finalUrl": "https://preferredpaversandconcrete.com/",
@@ -320,7 +362,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://preferredpaversandconcrete.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://preferredpaversandconcrete.com/",
+            "status": 200,
+            "finalUrl": "https://preferredpaversandconcrete.com/"
+          }
+        ],
+        "matches": [
+          [
+            "preferred pavers concrete",
+            [
+              "https://preferredpaversandconcrete.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Garrity Painting",
@@ -333,7 +400,7 @@
         "https://garritypainting.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/painting",
         "profileStatus": 404,
         "finalUrl": "https://garritypainting.com/",
@@ -349,7 +416,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/painting",
+        "profileStatus": 200,
+        "finalUrl": "https://garritypainting.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://garritypainting.com/",
+            "status": 200,
+            "finalUrl": "https://garritypainting.com/"
+          }
+        ],
+        "matches": [
+          [
+            "garrity painting",
+            [
+              "https://garritypainting.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Joe the Hardwood Floor Guy",
@@ -362,7 +454,7 @@
         "https://www.joethehardwoodfloorguy.com/faqs"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.joethehardwoodfloorguy.com/faqs",
@@ -378,7 +470,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.joethehardwoodfloorguy.com/faqs",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.joethehardwoodfloorguy.com/faqs",
+            "status": 200,
+            "finalUrl": "https://www.joethehardwoodfloorguy.com/faqs"
+          }
+        ],
+        "matches": [
+          [
+            "joe the hardwood floor guy",
+            [
+              "https://www.joethehardwoodfloorguy.com/faqs"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Procraft Flooring and Tile",
@@ -391,7 +508,7 @@
         "https://www.procraftflooringandtile.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.procraftflooringandtile.com/",
@@ -407,7 +524,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.procraftflooringandtile.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.procraftflooringandtile.com/",
+            "status": 200,
+            "finalUrl": "https://www.procraftflooringandtile.com/"
+          }
+        ],
+        "matches": [
+          [
+            "procraft flooring and tile",
+            [
+              "https://www.procraftflooringandtile.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "TMC Concrete Services",
@@ -420,7 +562,7 @@
         "https://www.tmcconcreteservices.com/concrete-driveway-installation"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.tmcconcreteservices.com/concrete-driveway-installation",
@@ -436,7 +578,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.tmcconcreteservices.com/concrete-driveway-installation",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.tmcconcreteservices.com/concrete-driveway-installation",
+            "status": 200,
+            "finalUrl": "https://www.tmcconcreteservices.com/concrete-driveway-installation"
+          }
+        ],
+        "matches": [
+          [
+            "tmc concrete services",
+            [
+              "https://www.tmcconcreteservices.com/concrete-driveway-installation"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Matt Yoder Concrete",
@@ -449,7 +616,7 @@
         "https://www.mattyoderconcrete.com/concrete-services"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.mattyoderconcrete.com/concrete-services",
@@ -465,7 +632,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.mattyoderconcrete.com/concrete-services",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.mattyoderconcrete.com/concrete-services",
+            "status": 200,
+            "finalUrl": "https://www.mattyoderconcrete.com/concrete-services"
+          }
+        ],
+        "matches": [
+          [
+            "matt yoder concrete",
+            [
+              "https://www.mattyoderconcrete.com/concrete-services"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Floor Installation Service",
@@ -478,7 +670,7 @@
         "https://floorinstallationservice.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://floorinstallationservice.com/",
@@ -494,7 +686,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://floorinstallationservice.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://floorinstallationservice.com/",
+            "status": 200,
+            "finalUrl": "https://floorinstallationservice.com/"
+          }
+        ],
+        "matches": [
+          [
+            "floor installation service",
+            [
+              "https://floorinstallationservice.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Wakefield Hardwood Floors",
@@ -507,7 +724,7 @@
         "https://wakefieldhardwoodfloors.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://wakefieldhardwoodfloors.com/about/",
@@ -523,7 +740,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://wakefieldhardwoodfloors.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://wakefieldhardwoodfloors.com/about/",
+            "status": 200,
+            "finalUrl": "https://wakefieldhardwoodfloors.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "wakefield hardwood floors",
+            [
+              "https://wakefieldhardwoodfloors.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "FerCo Construction",
@@ -536,7 +778,7 @@
         "https://fercoconstructional.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/huntsville-al/concrete",
         "profileStatus": 404,
         "finalUrl": "https://fercoconstructional.com/",
@@ -552,7 +794,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/huntsville-al/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://fercoconstructional.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://fercoconstructional.com/",
+            "status": 200,
+            "finalUrl": "https://fercoconstructional.com/"
+          }
+        ],
+        "matches": [
+          [
+            "ferco construction",
+            [
+              "https://fercoconstructional.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Tavarez Designs",
@@ -565,7 +832,7 @@
         "https://www.tavarezdesignsllc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/huntsville-al/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.tavarezdesignsllc.com/",
@@ -581,7 +848,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/huntsville-al/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.tavarezdesignsllc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.tavarezdesignsllc.com/",
+            "status": 200,
+            "finalUrl": "https://www.tavarezdesignsllc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "tavarez designs",
+            [
+              "https://www.tavarezdesignsllc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "All Things Concrete Services",
@@ -594,7 +886,7 @@
         "https://allthingsconcreteservices.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/huntsville-al/concrete",
         "profileStatus": 404,
         "finalUrl": "https://allthingsconcreteservices.com/",
@@ -610,7 +902,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/huntsville-al/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://allthingsconcreteservices.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://allthingsconcreteservices.com/",
+            "status": 200,
+            "finalUrl": "https://allthingsconcreteservices.com/"
+          }
+        ],
+        "matches": [
+          [
+            "all things concrete services",
+            [
+              "https://allthingsconcreteservices.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Nunes 4 Flooring",
@@ -623,7 +940,7 @@
         "https://nunes4flooring.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://nunes4flooring.com/about/",
@@ -639,7 +956,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://nunes4flooring.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://nunes4flooring.com/about/",
+            "status": 200,
+            "finalUrl": "https://nunes4flooring.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "nunes 4 flooring",
+            [
+              "https://nunes4flooring.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "United Surface Technology Group",
@@ -652,7 +994,7 @@
         "https://www.ustgconcrete.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.ustgconcrete.com/",
@@ -668,7 +1010,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.ustgconcrete.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.ustgconcrete.com/",
+            "status": 200,
+            "finalUrl": "https://www.ustgconcrete.com/"
+          }
+        ],
+        "matches": [
+          [
+            "united surface technology group",
+            [
+              "https://www.ustgconcrete.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Dominant Flooring",
@@ -681,7 +1048,7 @@
         "https://www.dominantflooring.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.dominantflooring.com/",
@@ -697,7 +1064,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.dominantflooring.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.dominantflooring.com/",
+            "status": 200,
+            "finalUrl": "https://www.dominantflooring.com/"
+          }
+        ],
+        "matches": [
+          [
+            "dominant flooring",
+            [
+              "https://www.dominantflooring.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Mike Nakhel Flooring",
@@ -710,7 +1102,7 @@
         "https://mikenakhelflooring.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://mikenakhelflooring.com/about",
@@ -726,7 +1118,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://mikenakhelflooring.com/about",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://mikenakhelflooring.com/about",
+            "status": 200,
+            "finalUrl": "https://mikenakhelflooring.com/about"
+          }
+        ],
+        "matches": [
+          [
+            "mike nakhel flooring",
+            [
+              "https://mikenakhelflooring.com/about"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Dexter’s Floors",
@@ -739,7 +1156,7 @@
         "https://www.dextersfloorsofjax.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.dextersfloorsofjax.com/",
@@ -755,7 +1172,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.dextersfloorsofjax.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.dextersfloorsofjax.com/",
+            "status": 200,
+            "finalUrl": "https://www.dextersfloorsofjax.com/"
+          }
+        ],
+        "matches": [
+          [
+            "dexters floors",
+            [
+              "https://www.dextersfloorsofjax.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Grand Marlin Flooring",
@@ -768,7 +1210,7 @@
         "https://www.grandmarlinconstruction.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.grandmarlinconstruction.com/",
@@ -784,7 +1226,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.grandmarlinconstruction.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.grandmarlinconstruction.com/",
+            "status": 200,
+            "finalUrl": "https://www.grandmarlinconstruction.com/"
+          }
+        ],
+        "matches": [
+          [
+            "grand marlin flooring",
+            [
+              "https://www.grandmarlinconstruction.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Gator Carpet and Tile",
@@ -797,7 +1264,7 @@
         "https://carpetjax.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://carpetjax.com/",
@@ -813,7 +1280,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://carpetjax.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://carpetjax.com/",
+            "status": 200,
+            "finalUrl": "https://carpetjax.com/"
+          }
+        ],
+        "matches": [
+          [
+            "gator carpet and tile",
+            [
+              "https://carpetjax.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Dalton Direct Carpet",
@@ -826,7 +1318,7 @@
         "https://www.daltondirectcarpet.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.daltondirectcarpet.com/about-us",
@@ -842,7 +1334,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.daltondirectcarpet.com/about-us",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.daltondirectcarpet.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.daltondirectcarpet.com/about-us"
+          }
+        ],
+        "matches": [
+          [
+            "dalton direct carpet",
+            [
+              "https://www.daltondirectcarpet.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Bross Restoration",
@@ -855,7 +1372,7 @@
         "https://www.brossisboss.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/baton-rouge-la/water-damage-mold-remediation",
         "profileStatus": 404,
         "finalUrl": "https://www.brossisboss.com/",
@@ -871,7 +1388,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/water-damage-mold-remediation",
+        "profileStatus": 200,
+        "finalUrl": "https://www.brossisboss.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.brossisboss.com/",
+            "status": 200,
+            "finalUrl": "https://www.brossisboss.com/"
+          }
+        ],
+        "matches": [
+          [
+            "bross restoration",
+            [
+              "https://www.brossisboss.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Next Wave Detailing",
@@ -884,7 +1426,7 @@
         "https://www.nextwavedetailing.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/pensacola-fl/marine-services",
         "profileStatus": 404,
         "finalUrl": "https://www.nextwavedetailing.com/",
@@ -900,7 +1442,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/pensacola-fl/marine-services",
+        "profileStatus": 200,
+        "finalUrl": "https://www.nextwavedetailing.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.nextwavedetailing.com/",
+            "status": 200,
+            "finalUrl": "https://www.nextwavedetailing.com/"
+          }
+        ],
+        "matches": [
+          [
+            "next wave detailing",
+            [
+              "https://www.nextwavedetailing.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Drakes Mobile Detailing",
@@ -913,7 +1480,7 @@
         "https://drakesmobiledetailing.com/boat-detailing/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/pensacola-fl/marine-services",
         "profileStatus": 404,
         "finalUrl": "https://drakesmobiledetailing.com/boat-detailing/",
@@ -929,7 +1496,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/pensacola-fl/marine-services",
+        "profileStatus": 200,
+        "finalUrl": "https://drakesmobiledetailing.com/boat-detailing/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://drakesmobiledetailing.com/boat-detailing/",
+            "status": 200,
+            "finalUrl": "https://drakesmobiledetailing.com/boat-detailing/"
+          }
+        ],
+        "matches": [
+          [
+            "drakes mobile detailing",
+            [
+              "https://drakesmobiledetailing.com/boat-detailing/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Baird Quality Painting",
@@ -942,7 +1534,7 @@
         "https://www.bairdqualitypainting.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/painting",
         "profileStatus": 404,
         "finalUrl": "https://www.bairdqualitypainting.com/",
@@ -958,7 +1550,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/painting",
+        "profileStatus": 200,
+        "finalUrl": "https://www.bairdqualitypainting.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.bairdqualitypainting.com/",
+            "status": 200,
+            "finalUrl": "https://www.bairdqualitypainting.com/"
+          }
+        ],
+        "matches": [
+          [
+            "baird quality painting",
+            [
+              "https://www.bairdqualitypainting.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Andy’s Fence",
@@ -971,7 +1588,7 @@
         "https://www.andysfence.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/fence-builders",
         "profileStatus": 404,
         "finalUrl": "https://www.andysfence.com/",
@@ -987,7 +1604,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/fence-builders",
+        "profileStatus": 200,
+        "finalUrl": "https://www.andysfence.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.andysfence.com/",
+            "status": 200,
+            "finalUrl": "https://www.andysfence.com/"
+          }
+        ],
+        "matches": [
+          [
+            "andys fence",
+            [
+              "https://www.andysfence.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Hage Fence",
@@ -1000,7 +1642,7 @@
         "https://hagefence.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/fence-builders",
         "profileStatus": 404,
         "finalUrl": "https://hagefence.com/",
@@ -1016,7 +1658,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/fence-builders",
+        "profileStatus": 200,
+        "finalUrl": "https://hagefence.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://hagefence.com/",
+            "status": 200,
+            "finalUrl": "https://hagefence.com/"
+          }
+        ],
+        "matches": [
+          [
+            "hage fence",
+            [
+              "https://hagefence.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Classic Enterprises",
@@ -1029,7 +1696,7 @@
         "https://classicenterprisesflorida.com/residential-services/fence-installation/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/fence-builders",
         "profileStatus": 404,
         "finalUrl": "https://classicenterprisesflorida.com/residential-services/fence-installation/",
@@ -1045,7 +1712,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/fence-builders",
+        "profileStatus": 200,
+        "finalUrl": "https://classicenterprisesflorida.com/residential-services/fence-installation/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://classicenterprisesflorida.com/residential-services/fence-installation/",
+            "status": 200,
+            "finalUrl": "https://classicenterprisesflorida.com/residential-services/fence-installation/"
+          }
+        ],
+        "matches": [
+          [
+            "classic enterprises",
+            [
+              "https://classicenterprisesflorida.com/residential-services/fence-installation/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Ken’s Concrete Design",
@@ -1059,7 +1751,7 @@
         "https://www.kensconcrete.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/huntsville-al/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.kensconcrete.com/",
@@ -1080,7 +1772,37 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/huntsville-al/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.kensconcrete.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.kensconcrete.com/",
+            "status": 200,
+            "finalUrl": "https://www.kensconcrete.com/"
+          },
+          {
+            "url": "https://www.kensconcrete.com/about",
+            "status": 200,
+            "finalUrl": "https://www.kensconcrete.com/about"
+          }
+        ],
+        "matches": [
+          [
+            "kens concrete design",
+            [
+              "https://www.kensconcrete.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Benitez Next Level Flooring",
@@ -1093,7 +1815,7 @@
         "https://benitezfloors.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://benitezfloors.com/",
@@ -1109,7 +1831,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://benitezfloors.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://benitezfloors.com/",
+            "status": 200,
+            "finalUrl": "https://benitezfloors.com/"
+          }
+        ],
+        "matches": [
+          [
+            "benitez next level flooring",
+            [
+              "https://benitezfloors.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "CMD Fencing",
@@ -1123,7 +1870,7 @@
         "https://cmdfencing.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/daphne-al/fence-builders",
         "profileStatus": 404,
         "finalUrl": "https://cmdfencing.com/about-cmd-fencing/",
@@ -1144,7 +1891,37 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/daphne-al/fence-builders",
+        "profileStatus": 200,
+        "finalUrl": "https://cmdfencing.com/about-cmd-fencing/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://cmdfencing.com/about-cmd-fencing/",
+            "status": 200,
+            "finalUrl": "https://cmdfencing.com/about-cmd-fencing/"
+          },
+          {
+            "url": "https://cmdfencing.com/",
+            "status": 200,
+            "finalUrl": "https://cmdfencing.com/"
+          }
+        ],
+        "matches": [
+          [
+            "cmd fencing",
+            [
+              "https://cmdfencing.com/about-cmd-fencing/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "D&D Seamless Gutters",
@@ -1157,7 +1934,7 @@
         "https://sarasotaseamlessgutters.com/about-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://sarasotaseamlessgutters.com/about-us/",
@@ -1173,7 +1950,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://sarasotaseamlessgutters.com/about-us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://sarasotaseamlessgutters.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://sarasotaseamlessgutters.com/about-us/"
+          }
+        ],
+        "matches": [
+          [
+            "d d seamless gutters",
+            [
+              "https://sarasotaseamlessgutters.com/about-us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Shenk Seamless Gutters",
@@ -1186,7 +1988,7 @@
         "https://www.shenkseamlessgutters.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://www.shenkseamlessgutters.com/",
@@ -1202,7 +2004,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://www.shenkseamlessgutters.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.shenkseamlessgutters.com/",
+            "status": 200,
+            "finalUrl": "https://www.shenkseamlessgutters.com/"
+          }
+        ],
+        "matches": [
+          [
+            "shenk seamless gutters",
+            [
+              "https://www.shenkseamlessgutters.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Raindance Irrigation",
@@ -1215,7 +2042,7 @@
         "https://www.tallahassee-irrigation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "finalUrl": "https://www.tallahassee-irrigation.com/",
@@ -1231,7 +2058,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://www.tallahassee-irrigation.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.tallahassee-irrigation.com/",
+            "status": 200,
+            "finalUrl": "https://www.tallahassee-irrigation.com/"
+          }
+        ],
+        "matches": [
+          [
+            "raindance irrigation",
+            [
+              "https://www.tallahassee-irrigation.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Velasquez Landscape & Irrigation",
@@ -1244,7 +2096,7 @@
         "https://landscapertallahassee.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "finalUrl": "https://landscapertallahassee.com/",
@@ -1260,7 +2112,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://landscapertallahassee.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://landscapertallahassee.com/",
+            "status": 200,
+            "finalUrl": "https://landscapertallahassee.com/"
+          }
+        ],
+        "matches": [
+          [
+            "velasquez landscape irrigation",
+            [
+              "https://landscapertallahassee.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Brogan Concrete Services",
@@ -1273,7 +2150,7 @@
         "https://broganconcrete.com/services/driveway/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/concrete",
         "profileStatus": 404,
         "finalUrl": "https://broganconcrete.com/services/driveway/",
@@ -1289,7 +2166,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://broganconcrete.com/services/driveway/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://broganconcrete.com/services/driveway/",
+            "status": 200,
+            "finalUrl": "https://broganconcrete.com/services/driveway/"
+          }
+        ],
+        "matches": [
+          [
+            "brogan concrete services",
+            [
+              "https://broganconcrete.com/services/driveway/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "A-1 Driveway Replacement",
@@ -1302,7 +2204,7 @@
         "https://www.a1driveway.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.a1driveway.com/",
@@ -1318,7 +2220,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.a1driveway.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.a1driveway.com/",
+            "status": 200,
+            "finalUrl": "https://www.a1driveway.com/"
+          }
+        ],
+        "matches": [
+          [
+            "a 1 driveway replacement",
+            [
+              "https://www.a1driveway.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Quality Concrete Solutions",
@@ -1331,7 +2258,7 @@
         "https://www.qualityconcretesolutionsllc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/concrete",
         "profileStatus": 404,
         "finalUrl": "https://www.qualityconcretesolutionsllc.com/",
@@ -1347,7 +2274,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/concrete",
+        "profileStatus": 200,
+        "finalUrl": "https://www.qualityconcretesolutionsllc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.qualityconcretesolutionsllc.com/",
+            "status": 200,
+            "finalUrl": "https://www.qualityconcretesolutionsllc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "quality concrete solutions",
+            [
+              "https://www.qualityconcretesolutionsllc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "ProFoam & Coatings",
@@ -1360,7 +2312,7 @@
         "https://profoamcoatings.com/spray-foam-insulation-fort-lauderdale-fl/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/fort-lauderdale-fl/insulation",
         "profileStatus": 404,
         "finalUrl": "https://profoamcoatings.com/spray-foam-insulation-fort-lauderdale-fl/",
@@ -1376,7 +2328,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://profoamcoatings.com/spray-foam-insulation-fort-lauderdale-fl/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://profoamcoatings.com/spray-foam-insulation-fort-lauderdale-fl/",
+            "status": 200,
+            "finalUrl": "https://profoamcoatings.com/spray-foam-insulation-fort-lauderdale-fl/"
+          }
+        ],
+        "matches": [
+          [
+            "profoam coatings",
+            [
+              "https://profoamcoatings.com/spray-foam-insulation-fort-lauderdale-fl/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Always Speedy Appliance Service",
@@ -1389,7 +2366,7 @@
         "https://www.speedyappliance.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://www.speedyappliance.com/about/",
@@ -1405,7 +2382,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://www.speedyappliance.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.speedyappliance.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.speedyappliance.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "always speedy appliance service",
+            [
+              "https://www.speedyappliance.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Pestwise",
@@ -1418,7 +2420,7 @@
         "https://pestwisellc.com/about-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pest-control",
         "profileStatus": 404,
         "finalUrl": "https://pestwisellc.com/about-us/",
@@ -1434,7 +2436,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pest-control",
+        "profileStatus": 200,
+        "finalUrl": "https://pestwisellc.com/about-us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://pestwisellc.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://pestwisellc.com/about-us/"
+          }
+        ],
+        "matches": [
+          [
+            "pestwise",
+            [
+              "https://pestwisellc.com/about-us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Kelleys Seamless Gutters",
@@ -1447,7 +2474,7 @@
         "https://kelleysgutters.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://kelleysgutters.com/",
@@ -1463,7 +2490,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://kelleysgutters.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://kelleysgutters.com/",
+            "status": 200,
+            "finalUrl": "https://kelleysgutters.com/"
+          }
+        ],
+        "matches": [
+          [
+            "kelleys seamless gutters",
+            [
+              "https://kelleysgutters.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "All American Sprinkler Repair",
@@ -1476,7 +2528,7 @@
         "https://www.aasprinklerrepair.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "finalUrl": "https://www.aasprinklerrepair.com/",
@@ -1492,7 +2544,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://www.aasprinklerrepair.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.aasprinklerrepair.com/",
+            "status": 200,
+            "finalUrl": "https://www.aasprinklerrepair.com/"
+          }
+        ],
+        "matches": [
+          [
+            "all american sprinkler repair",
+            [
+              "https://www.aasprinklerrepair.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "North Florida Insulation",
@@ -1505,7 +2582,7 @@
         "https://www.northfloridainsulation.com/insulation-installation"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/insulation",
         "profileStatus": 404,
         "finalUrl": "https://www.northfloridainsulation.com/insulation-installation",
@@ -1521,7 +2598,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://www.northfloridainsulation.com/insulation-installation",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.northfloridainsulation.com/insulation-installation",
+            "status": 200,
+            "finalUrl": "https://www.northfloridainsulation.com/insulation-installation"
+          }
+        ],
+        "matches": [
+          [
+            "north florida insulation",
+            [
+              "https://www.northfloridainsulation.com/insulation-installation"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Clark Spray Foam",
@@ -1534,7 +2636,7 @@
         "https://clarksprayfoam.com/insulation-services/attic-insulation/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/insulation",
         "profileStatus": 404,
         "finalUrl": "https://clarksprayfoam.com/insulation-services/attic-insulation/",
@@ -1550,7 +2652,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://clarksprayfoam.com/insulation-services/attic-insulation/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://clarksprayfoam.com/insulation-services/attic-insulation/",
+            "status": 200,
+            "finalUrl": "https://clarksprayfoam.com/insulation-services/attic-insulation/"
+          }
+        ],
+        "matches": [
+          [
+            "clark spray foam",
+            [
+              "https://clarksprayfoam.com/insulation-services/attic-insulation/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Sotelos Pool Service",
@@ -1563,7 +2690,7 @@
         "https://www.sotelospoolservice.com/service-areas/sarasota"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://www.sotelospoolservice.com/service-areas/sarasota",
@@ -1579,7 +2706,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.sotelospoolservice.com/service-areas/sarasota",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.sotelospoolservice.com/service-areas/sarasota",
+            "status": 200,
+            "finalUrl": "https://www.sotelospoolservice.com/service-areas/sarasota"
+          }
+        ],
+        "matches": [
+          [
+            "sotelos pool service",
+            [
+              "https://www.sotelospoolservice.com/service-areas/sarasota"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Groovy Pools",
@@ -1592,7 +2744,7 @@
         "https://www.groovypools.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://www.groovypools.com/",
@@ -1608,7 +2760,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.groovypools.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.groovypools.com/",
+            "status": 200,
+            "finalUrl": "https://www.groovypools.com/"
+          }
+        ],
+        "matches": [
+          [
+            "groovy pools",
+            [
+              "https://www.groovypools.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Stellar Rays Pool Service",
@@ -1621,7 +2798,7 @@
         "https://www.stellar-rays.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://www.stellar-rays.com/",
@@ -1637,7 +2814,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.stellar-rays.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.stellar-rays.com/",
+            "status": 200,
+            "finalUrl": "https://www.stellar-rays.com/"
+          }
+        ],
+        "matches": [
+          [
+            "stellar rays pool service",
+            [
+              "https://www.stellar-rays.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Sentinel Fencing",
@@ -1650,7 +2852,7 @@
         "https://sentinelfencing.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tallahassee-fl/fence-builders",
         "profileStatus": 404,
         "finalUrl": "https://sentinelfencing.com/",
@@ -1666,7 +2868,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/fence-builders",
+        "profileStatus": 200,
+        "finalUrl": "https://sentinelfencing.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://sentinelfencing.com/",
+            "status": 200,
+            "finalUrl": "https://sentinelfencing.com/"
+          }
+        ],
+        "matches": [
+          [
+            "sentinel fencing",
+            [
+              "https://sentinelfencing.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "B & B Painting",
@@ -1679,7 +2906,7 @@
         "https://www.bandbpaintingal.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/huntsville-al/painting",
         "profileStatus": 404,
         "finalUrl": "https://www.bandbpaintingal.com/",
@@ -1695,7 +2922,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/huntsville-al/painting",
+        "profileStatus": 200,
+        "finalUrl": "https://www.bandbpaintingal.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.bandbpaintingal.com/",
+            "status": 200,
+            "finalUrl": "https://www.bandbpaintingal.com/"
+          }
+        ],
+        "matches": [
+          [
+            "b b painting",
+            [
+              "https://www.bandbpaintingal.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Prestige Insulation Solutions",
@@ -1708,7 +2960,7 @@
         "https://prestigeinsulationsolutions.com/spray-foam-insulation-fort-walton-beach-fl/"
       ],
       "identityStatus": "existing",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/fort-walton-beach-fl/insulation",
         "profileStatus": 200,
         "finalUrl": "https://prestigeinsulationsolutions.com/spray-foam-insulation-fort-walton-beach-fl/",
@@ -1724,7 +2976,32 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://prestigeinsulationsolutions.com/spray-foam-insulation-fort-walton-beach-fl/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://prestigeinsulationsolutions.com/spray-foam-insulation-fort-walton-beach-fl/",
+            "status": 200,
+            "finalUrl": "https://prestigeinsulationsolutions.com/spray-foam-insulation-fort-walton-beach-fl/"
+          }
+        ],
+        "matches": [
+          [
+            "prestige insulation solutions",
+            [
+              "https://prestigeinsulationsolutions.com/spray-foam-insulation-fort-walton-beach-fl/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Tamiami Insulation",
@@ -1737,7 +3014,7 @@
         "https://tamiamiinsulation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/fort-myers-fl/insulation",
         "profileStatus": 404,
         "finalUrl": "https://tamiamiinsulation.com/",
@@ -1753,19 +3030,74 @@
         "matches": [],
         "exactCards": 0,
         "blockers": []
-      }
+      },
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/fort-myers-fl/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://tamiamiinsulation.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://tamiamiinsulation.com/",
+            "status": 200,
+            "finalUrl": "https://tamiamiinsulation.com/"
+          }
+        ],
+        "matches": [
+          [
+            "tamiami insulation",
+            [
+              "https://tamiamiinsulation.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     }
   ],
   "publication": {
-    "status": "source prepared for production",
+    "status": "deployed and live-verified",
     "target": 1000,
     "committedDistinctNewBusinesses": 49,
     "newPlacementsPrepared": 49,
     "existingPlacementsPrepared": 1,
-    "liveVerification": "pending",
-    "liveVerifiedNewBusinesses": 0
+    "liveVerification": "complete for this batch",
+    "liveVerifiedNewBusinesses": 49,
+    "productionSourceCommit": "33590a97381cdc3dbfdbd01a71313cbca546026c",
+    "productionDeployment": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/7anbHeRMhivr8JP179sr7xKSvon4",
+    "productionDeploymentState": "READY",
+    "liveVerificationAt": "2026-11-23T16:58:47.835459+00:00",
+    "liveVerifiedNewBusinessPlacements": 49,
+    "liveVerifiedExistingBusinessPlacements": 1,
+    "newBusinessShortfall": 951,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "verificationBlockers": []
   },
   "validation": {
-    "baseline": "Comparison of baseline generated/source data and live cards; repeated providers screened by normalized domain, name and public profile."
+    "baseline": "Comparison of baseline generated/source data and live cards; repeated providers screened by normalized domain, name and public profile.",
+    "build": "passed",
+    "lint": "passed",
+    "schemaCatalogDuplicatesPlacements": "passed",
+    "approvalAndNonTest": "passed",
+    "nationalDomainPolicy": "passed",
+    "liveCityCategoryCountAudit": "passed",
+    "countReconciliation": "matched"
+  },
+  "coverageAfter": {
+    "totalPages": 1120,
+    "displayedPlacements": 13826,
+    "displayedAtLeast20": 243,
+    "displayedBelow20": 877,
+    "displayedEmpty": 0,
+    "pagesNewlyCertifiedAt20Qualified": 0,
+    "qualifyingCoverageAtDisplayed20Plus": "unaudited",
+    "qualifyingDeficitExact": null,
+    "qualifyingDeficitLowerBoundFromDisplayedCounts": 8879,
+    "unexpectedDisplayedDeltas": [],
+    "coverageMatrix": "reports/live-coverage-fill1000dc-2026-11-23.csv"
   }
 }
