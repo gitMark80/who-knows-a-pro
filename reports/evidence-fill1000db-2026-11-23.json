@@ -155,7 +155,75 @@
         }
       }
     ],
-    "ruling": "Existing public visibility gate only. No claim, billing, approval, test flags, or source records changed."
+    "ruling": "Existing public visibility gate only. No claim, billing, approval, test flags, or source records changed.",
+    "productionPublicChecks": [
+      {
+        "name": "RIDD Pest Control",
+        "city": "destin-fl",
+        "trade": "pest-control",
+        "website": "https://www.ridd.com/",
+        "check": {
+          "page": "https://whoknowsapro.com/destin-fl/pest-control",
+          "profileStatus": 404,
+          "exactCards": [],
+          "nameMatches": 0,
+          "domainMatches": 0
+        }
+      },
+      {
+        "name": "RIDD Pest Control",
+        "city": "panama-city-fl",
+        "trade": "pest-control",
+        "website": "https://www.ridd.com/",
+        "check": {
+          "page": "https://whoknowsapro.com/panama-city-fl/pest-control",
+          "profileStatus": 404,
+          "exactCards": [],
+          "nameMatches": 0,
+          "domainMatches": 0
+        }
+      },
+      {
+        "name": "RIDD Pest Control",
+        "city": "pensacola-fl",
+        "trade": "pest-control",
+        "website": "https://www.ridd.com/",
+        "check": {
+          "page": "https://whoknowsapro.com/pensacola-fl/pest-control",
+          "profileStatus": 404,
+          "exactCards": [],
+          "nameMatches": 0,
+          "domainMatches": 0
+        }
+      },
+      {
+        "name": "Apex Restoration DKI",
+        "city": "birmingham-al",
+        "trade": "water-damage-mold-remediation",
+        "website": "https://apexdki.com/location/birmingham-location/",
+        "check": {
+          "page": "https://whoknowsapro.com/birmingham-al/water-damage-mold-remediation",
+          "profileStatus": 404,
+          "exactCards": [],
+          "nameMatches": 0,
+          "domainMatches": 0
+        }
+      },
+      {
+        "name": "Apex Restoration DKI",
+        "city": "huntsville-al",
+        "trade": "water-damage-mold-remediation",
+        "website": "https://apexdki.com/location/huntsville-location/",
+        "check": {
+          "page": "https://whoknowsapro.com/huntsville-al/water-damage-mold-remediation",
+          "profileStatus": 404,
+          "exactCards": [],
+          "nameMatches": 0,
+          "domainMatches": 0
+        }
+      }
+    ],
+    "publicPlacementsRemoved": 5
   },
   "historicalAudit": {
     "priorLedger": "reports/evidence-fill1000da-2026-11-22.json",
@@ -230,7 +298,21 @@
         "finding": "Prior historical flags are retained. This run did not requalify the listings."
       }
     ],
-    "fullAudit": false
+    "fullAudit": false,
+    "resolvedPlacementChecks": [
+      {
+        "name": "Rogan's Pro Appliance Repair",
+        "city": "panama-city-fl",
+        "category": "pool-service",
+        "sources": [
+          "https://www.rogansproappliance.com/",
+          "https://www.rogansproappliance.com/post/book-biweekly-pool-service-for-reliable-care"
+        ],
+        "directoryPage": "https://whoknowsapro.com/panama-city-fl/pool-service",
+        "note": "The existing card links to the local family business. Its home page advertises its own weekly or biweekly pool cleaning and maintenance for households, names Panama City under its service area and solicits quotes for either pool or appliance work. This supports the existing residential pool placement. No new business or placement credit.",
+        "verificationDate": "2026-11-23"
+      }
+    ]
   },
   "discovery": {
     "initialScreenDistinctDomains": 227,
@@ -366,6 +448,13 @@
         "city": "panama-city-fl",
         "trade": "irrigation-sprinkler-repair",
         "blocker": "Discovery located third-party pages. A qualifying working official website could not be confirmed."
+      },
+      {
+        "name": "Destin Collision",
+        "city": "destin-fl",
+        "trade": "auto-body-collision",
+        "attemptedWebsite": "https://destincollisioninc.localsearch.com/",
+        "blocker": "Could not confirm a working official business website. The attempted address came from an external pointer and did not resolve to usable content."
       }
     ],
     "withheldAtPageTarget": [
@@ -634,7 +723,30 @@
         "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
       }
     ],
-    "marketWideShortagesEstablished": false
+    "marketWideShortagesEstablished": false,
+    "additionalReviewedRejections": [
+      {
+        "name": "Coastal Home Management 30A",
+        "city": "grayton-beach-fl",
+        "trade": "pest-control",
+        "sources": [
+          "https://coastalhomemngt30a.com/about"
+        ],
+        "reason": "The official site explicitly covers Grayton Beach for home-watch services and coordinates outside trades. It does not substantiate direct residential pest control."
+      }
+    ],
+    "practicalShortfallNotes": [
+      {
+        "city": "destin-fl",
+        "trade": "auto-body-collision",
+        "note": "Known local providers Mullins, All Pro and Crestview Paint & Body already have placements. A separate Destin Collision official domain could not be confirmed. No evidence supports filling the remaining positions in this run."
+      },
+      {
+        "city": "panama-city-fl",
+        "trade": "irrigation-sprinkler-repair",
+        "note": "Existing local operator Brandow already represented. Additional leads did not establish a working official site and eligible residential service, leaving the page underfilled."
+      }
+    ]
   },
   "placements": [
     {
@@ -648,7 +760,8 @@
         "https://www.gulfbreezetire.com/about-us"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/gulf-breeze-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -666,7 +779,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/gulf-breeze-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Gulf Breeze Tire Centre",
+            "links": [
+              "https://www.gulfbreezetire.com/about-us"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.gulfbreezetire.com/about-us",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.gulfbreezetire.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.gulfbreezetire.com/about-us"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "gulf-breeze-fl",
@@ -679,7 +817,8 @@
         "https://affordableautomotivegulfbreeze.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/gulf-breeze-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -697,7 +836,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/gulf-breeze-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Affordable Automotive",
+            "links": [
+              "https://affordableautomotivegulfbreeze.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://affordableautomotivegulfbreeze.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://affordableautomotivegulfbreeze.com/",
+            "status": 200,
+            "finalUrl": "https://affordableautomotivegulfbreeze.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "gulf-breeze-fl",
@@ -710,7 +874,8 @@
         "https://cannonautomotiveservice.com/about-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/gulf-breeze-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -728,7 +893,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/gulf-breeze-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Cannon Automotive",
+            "links": [
+              "https://cannonautomotiveservice.com/about-us/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://cannonautomotiveservice.com/about-us/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://cannonautomotiveservice.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://cannonautomotiveservice.com/about-us/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "tallahassee-fl",
@@ -741,7 +931,8 @@
         "https://kingdomconstructionfl.com/hardwood-flooring/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tallahassee-fl/flooring",
         "profileStatus": 404,
         "exactCards": [],
@@ -759,7 +950,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/flooring",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Kingdom Construction",
+            "links": [
+              "https://kingdomconstructionfl.com/hardwood-flooring/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://kingdomconstructionfl.com/hardwood-flooring/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://kingdomconstructionfl.com/hardwood-flooring/",
+            "status": 200,
+            "finalUrl": "https://kingdomconstructionfl.com/hardwood-flooring/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "tallahassee-fl",
@@ -772,7 +988,8 @@
         "https://magnoliahardwoodfloors.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tallahassee-fl/flooring",
         "profileStatus": 404,
         "exactCards": [],
@@ -790,7 +1007,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/flooring",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Magnolia Hardwood Floors",
+            "links": [
+              "https://magnoliahardwoodfloors.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://magnoliahardwoodfloors.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://magnoliahardwoodfloors.com/",
+            "status": 200,
+            "finalUrl": "https://magnoliahardwoodfloors.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -803,7 +1045,8 @@
         "https://benchmarkqualitygutters.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
         "profileStatus": 404,
         "exactCards": [],
@@ -821,7 +1064,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Benchmark Quality Gutters",
+            "links": [
+              "https://benchmarkqualitygutters.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://benchmarkqualitygutters.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://benchmarkqualitygutters.com/",
+            "status": 200,
+            "finalUrl": "https://benchmarkqualitygutters.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -834,7 +1102,8 @@
         "https://shermathgutters.com/about-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
         "profileStatus": 404,
         "exactCards": [],
@@ -852,7 +1121,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Shermath Gutter",
+            "links": [
+              "https://shermathgutters.com/about-us/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://shermathgutters.com/about-us/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://shermathgutters.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://shermathgutters.com/about-us/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -865,7 +1159,8 @@
         "https://guttersforlife.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
         "profileStatus": 404,
         "exactCards": [],
@@ -883,7 +1178,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Gutters for Life",
+            "links": [
+              "https://guttersforlife.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://guttersforlife.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://guttersforlife.com/",
+            "status": 200,
+            "finalUrl": "https://guttersforlife.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -896,7 +1216,8 @@
         "https://aguttersllc.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
         "profileStatus": 404,
         "exactCards": [],
@@ -914,7 +1235,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "A+ Gutters",
+            "links": [
+              "https://aguttersllc.com/about/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://aguttersllc.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://aguttersllc.com/about/",
+            "status": 200,
+            "finalUrl": "https://aguttersllc.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -927,7 +1273,8 @@
         "https://www.endlesssummerroofing.com/residential-roofing/gutter-services/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
         "profileStatus": 404,
         "exactCards": [],
@@ -945,7 +1292,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/gutters",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Endless Summer Roofing",
+            "links": [
+              "https://www.endlesssummerroofing.com/residential-roofing/gutter-services/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.endlesssummerroofing.com/residential-roofing/gutter-services/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.endlesssummerroofing.com/residential-roofing/gutter-services/",
+            "status": 200,
+            "finalUrl": "https://www.endlesssummerroofing.com/residential-roofing/gutter-services/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "orlando-fl",
@@ -958,7 +1330,8 @@
         "https://harveybakerplumbing.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -976,7 +1349,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Harvey Baker Plumbing",
+            "links": [
+              "https://harveybakerplumbing.com/about/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://harveybakerplumbing.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://harveybakerplumbing.com/about/",
+            "status": 200,
+            "finalUrl": "https://harveybakerplumbing.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "orlando-fl",
@@ -989,7 +1387,8 @@
         "https://www.herrellplumbing.com/orlando-plumbing.html"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1007,7 +1406,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Herrell Plumbing",
+            "links": [
+              "https://www.herrellplumbing.com/orlando-plumbing.html"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.herrellplumbing.com/orlando-plumbing.html",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.herrellplumbing.com/orlando-plumbing.html",
+            "status": 200,
+            "finalUrl": "https://www.herrellplumbing.com/orlando-plumbing.html"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "orlando-fl",
@@ -1020,7 +1444,8 @@
         "https://www.petesplumbingfl.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1038,7 +1463,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Pete's Plumbing",
+            "links": [
+              "https://www.petesplumbingfl.com/about"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.petesplumbingfl.com/about",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.petesplumbingfl.com/about",
+            "status": 200,
+            "finalUrl": "https://www.petesplumbingfl.com/about"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "orlando-fl",
@@ -1051,7 +1501,8 @@
         "https://www.pandmplumbingfl.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1069,7 +1520,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "P and M Plumbing",
+            "links": [
+              "https://www.pandmplumbingfl.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.pandmplumbingfl.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.pandmplumbingfl.com/",
+            "status": 200,
+            "finalUrl": "https://www.pandmplumbingfl.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "orlando-fl",
@@ -1082,7 +1558,8 @@
         "https://choiceplumbingorlando.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1100,7 +1577,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Choice Plumbing Orlando",
+            "links": [
+              "https://choiceplumbingorlando.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://choiceplumbingorlando.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://choiceplumbingorlando.com/",
+            "status": 200,
+            "finalUrl": "https://choiceplumbingorlando.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "orlando-fl",
@@ -1113,7 +1615,8 @@
         "https://strongholdplumbingfl.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1131,7 +1634,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Stronghold Plumbing",
+            "links": [
+              "https://strongholdplumbingfl.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://strongholdplumbingfl.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://strongholdplumbingfl.com/",
+            "status": 200,
+            "finalUrl": "https://strongholdplumbingfl.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1144,7 +1672,8 @@
         "https://www.clautomotiveinc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1162,7 +1691,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "C & L Automotive",
+            "links": [
+              "https://www.clautomotiveinc.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.clautomotiveinc.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.clautomotiveinc.com/",
+            "status": 200,
+            "finalUrl": "https://www.clautomotiveinc.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1175,7 +1729,8 @@
         "https://www.jordanautofl.com/contact/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1193,7 +1748,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Jordan Auto Repairs",
+            "links": [
+              "https://www.jordanautofl.com/contact/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.jordanautofl.com/contact/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.jordanautofl.com/contact/",
+            "status": 200,
+            "finalUrl": "https://www.jordanautofl.com/contact/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1206,7 +1786,8 @@
         "https://maxiautorepair.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1224,7 +1805,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Maxi's Auto Repair",
+            "links": [
+              "https://maxiautorepair.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://maxiautorepair.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://maxiautorepair.com/",
+            "status": 200,
+            "finalUrl": "https://maxiautorepair.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1237,7 +1843,8 @@
         "https://www.ortegacarcare.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1255,7 +1862,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Ortega Car Care",
+            "links": [
+              "https://www.ortegacarcare.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.ortegacarcare.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.ortegacarcare.com/",
+            "status": 200,
+            "finalUrl": "https://www.ortegacarcare.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1268,7 +1900,8 @@
         "https://pachecosautoserviceinc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1286,7 +1919,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "San Marco Certified Auto Repair",
+            "links": [
+              "https://pachecosautoserviceinc.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://pachecosautoserviceinc.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://pachecosautoserviceinc.com/",
+            "status": 200,
+            "finalUrl": "https://pachecosautoserviceinc.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1299,7 +1957,8 @@
         "https://everythingautorepair.com/support-and-technical/contact-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1317,7 +1976,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Everything Automotive",
+            "links": [
+              "https://everythingautorepair.com/support-and-technical/contact-us/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://everythingautorepair.com/support-and-technical/contact-us/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://everythingautorepair.com/support-and-technical/contact-us/",
+            "status": 200,
+            "finalUrl": "https://everythingautorepair.com/support-and-technical/contact-us/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "jacksonville-fl",
@@ -1330,7 +2014,8 @@
         "https://southsideeuro.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -1348,7 +2033,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Southside Euro",
+            "links": [
+              "https://southsideeuro.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://southsideeuro.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://southsideeuro.com/",
+            "status": 200,
+            "finalUrl": "https://southsideeuro.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1361,7 +2071,8 @@
         "https://milltownflooring.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/flooring",
         "profileStatus": 404,
         "exactCards": [],
@@ -1379,7 +2090,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/flooring",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Mill Town Flooring",
+            "links": [
+              "https://milltownflooring.com/about"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://milltownflooring.com/about",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://milltownflooring.com/about",
+            "status": 200,
+            "finalUrl": "https://milltownflooring.com/about"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1392,7 +2128,8 @@
         "https://csflooring.co/index.html"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/flooring",
         "profileStatus": 404,
         "exactCards": [],
@@ -1410,7 +2147,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/flooring",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "CS Flooring",
+            "links": [
+              "https://csflooring.co/index.html"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://csflooring.co/index.html",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://csflooring.co/index.html",
+            "status": 200,
+            "finalUrl": "https://csflooring.co/index.html"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1423,7 +2185,8 @@
         "https://www.aandrflooringatlanta.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/flooring",
         "profileStatus": 404,
         "exactCards": [],
@@ -1441,7 +2204,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/flooring",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "A & R Flooring",
+            "links": [
+              "https://www.aandrflooringatlanta.com/about"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.aandrflooringatlanta.com/about",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.aandrflooringatlanta.com/about",
+            "status": 200,
+            "finalUrl": "https://www.aandrflooringatlanta.com/about"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1454,7 +2242,8 @@
         "https://tropicalgreenirrigation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -1472,7 +2261,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Tropical Green Irrigation",
+            "links": [
+              "https://tropicalgreenirrigation.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://tropicalgreenirrigation.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://tropicalgreenirrigation.com/",
+            "status": 200,
+            "finalUrl": "https://tropicalgreenirrigation.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1485,7 +2299,8 @@
         "https://rainfall-irrigation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -1503,7 +2318,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Rainfall Irrigation",
+            "links": [
+              "https://rainfall-irrigation.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://rainfall-irrigation.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://rainfall-irrigation.com/",
+            "status": 200,
+            "finalUrl": "https://rainfall-irrigation.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1516,7 +2356,8 @@
         "https://www.haynesirrigation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -1534,7 +2375,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Haynes Irrigation & Sprinklers",
+            "links": [
+              "https://www.haynesirrigation.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.haynesirrigation.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.haynesirrigation.com/",
+            "status": 200,
+            "finalUrl": "https://www.haynesirrigation.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "atlanta-ga",
@@ -1547,7 +2413,8 @@
         "https://watertheyard.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -1565,7 +2432,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/atlanta-ga/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Ecosystems Irrigation",
+            "links": [
+              "https://watertheyard.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://watertheyard.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://watertheyard.com/",
+            "status": 200,
+            "finalUrl": "https://watertheyard.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "baton-rouge-la",
@@ -1578,7 +2470,8 @@
         "https://www.elevationpoolsandoutdoors.com/maintenance"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
         "profileStatus": 404,
         "exactCards": [],
@@ -1596,7 +2489,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Elevation Pools & Outdoors",
+            "links": [
+              "https://www.elevationpoolsandoutdoors.com/maintenance"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.elevationpoolsandoutdoors.com/maintenance",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.elevationpoolsandoutdoors.com/maintenance",
+            "status": 200,
+            "finalUrl": "https://www.elevationpoolsandoutdoors.com/maintenance"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "baton-rouge-la",
@@ -1609,7 +2527,8 @@
         "https://www.lucasfirminpools.com/services-maintenance-qr"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
         "profileStatus": 404,
         "exactCards": [],
@@ -1627,7 +2546,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Lucas Firmin Pools",
+            "links": [
+              "https://www.lucasfirminpools.com/services-maintenance-qr"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.lucasfirminpools.com/services-maintenance-qr",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.lucasfirminpools.com/services-maintenance-qr",
+            "status": 200,
+            "finalUrl": "https://www.lucasfirminpools.com/services-maintenance-qr"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "baton-rouge-la",
@@ -1640,7 +2584,8 @@
         "https://propool-br.com/index.html"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
         "profileStatus": 404,
         "exactCards": [],
@@ -1658,7 +2603,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Pro Pool Maintenance",
+            "links": [
+              "https://propool-br.com/index.html"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://propool-br.com/index.html",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://propool-br.com/index.html",
+            "status": 200,
+            "finalUrl": "https://propool-br.com/index.html"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "baton-rouge-la",
@@ -1671,7 +2641,8 @@
         "https://www.easleypools.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
         "profileStatus": 404,
         "exactCards": [],
@@ -1689,7 +2660,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/pool-service",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Easley Pool Service",
+            "links": [
+              "https://www.easleypools.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.easleypools.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.easleypools.com/",
+            "status": 200,
+            "finalUrl": "https://www.easleypools.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "new-orleans-la",
@@ -1702,7 +2698,8 @@
         "https://www.forsythefence.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/fence-builders",
         "profileStatus": 404,
         "exactCards": [],
@@ -1720,7 +2717,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/fence-builders",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Forsythe Fence",
+            "links": [
+              "https://www.forsythefence.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.forsythefence.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.forsythefence.com/",
+            "status": 200,
+            "finalUrl": "https://www.forsythefence.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "new-orleans-la",
@@ -1733,7 +2755,8 @@
         "https://thefenceman-neworleans.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/fence-builders",
         "profileStatus": 404,
         "exactCards": [],
@@ -1751,7 +2774,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/fence-builders",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "The Fenceman",
+            "links": [
+              "https://thefenceman-neworleans.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://thefenceman-neworleans.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://thefenceman-neworleans.com/",
+            "status": 200,
+            "finalUrl": "https://thefenceman-neworleans.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "birmingham-al",
@@ -1764,7 +2812,8 @@
         "https://bhamelectrical.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/electrical",
         "profileStatus": 404,
         "exactCards": [],
@@ -1782,7 +2831,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/electrical",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "BhamElectrical",
+            "links": [
+              "https://bhamelectrical.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://bhamelectrical.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://bhamelectrical.com/",
+            "status": 200,
+            "finalUrl": "https://bhamelectrical.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "birmingham-al",
@@ -1795,7 +2869,8 @@
         "https://www.advancedelectricalcompany.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/electrical",
         "profileStatus": 404,
         "exactCards": [],
@@ -1813,7 +2888,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/electrical",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Advanced Electrical Company",
+            "links": [
+              "https://www.advancedelectricalcompany.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.advancedelectricalcompany.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.advancedelectricalcompany.com/",
+            "status": 200,
+            "finalUrl": "https://www.advancedelectricalcompany.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "birmingham-al",
@@ -1826,7 +2926,8 @@
         "https://truevoltageal.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/electrical",
         "profileStatus": 404,
         "exactCards": [],
@@ -1844,7 +2945,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/electrical",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "True Voltage",
+            "links": [
+              "https://truevoltageal.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://truevoltageal.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://truevoltageal.com/",
+            "status": 200,
+            "finalUrl": "https://truevoltageal.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "birmingham-al",
@@ -1857,7 +2983,8 @@
         "https://www.prestigehomeservicesal.com/about-prestige-home-services"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/electrical",
         "profileStatus": 404,
         "exactCards": [],
@@ -1875,7 +3002,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/electrical",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Prestige Electric and Plumbing",
+            "links": [
+              "https://www.prestigehomeservicesal.com/about-prestige-home-services"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.prestigehomeservicesal.com/about-prestige-home-services",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.prestigehomeservicesal.com/about-prestige-home-services",
+            "status": 200,
+            "finalUrl": "https://www.prestigehomeservicesal.com/about-prestige-home-services"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "birmingham-al",
@@ -1888,7 +3040,8 @@
         "https://www.thmelectrical.com/about-us"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/electrical",
         "profileStatus": 404,
         "exactCards": [],
@@ -1906,7 +3059,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/electrical",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "THM Electrical",
+            "links": [
+              "https://www.thmelectrical.com/about-us"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.thmelectrical.com/about-us",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.thmelectrical.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.thmelectrical.com/about-us"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -1919,7 +3097,8 @@
         "https://customplumb.com/contact/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1937,7 +3116,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Custom Plumbing",
+            "links": [
+              "https://customplumb.com/contact/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://customplumb.com/contact/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://customplumb.com/contact/",
+            "status": 200,
+            "finalUrl": "https://customplumb.com/contact/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -1950,7 +3154,8 @@
         "https://callpapasplumbing.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1968,7 +3173,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Papa's Plumbing",
+            "links": [
+              "https://callpapasplumbing.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://callpapasplumbing.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://callpapasplumbing.com/",
+            "status": 200,
+            "finalUrl": "https://callpapasplumbing.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -1981,7 +3211,8 @@
         "https://mrplumberfl.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -1999,7 +3230,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Mister Plumber",
+            "links": [
+              "https://mrplumberfl.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://mrplumberfl.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://mrplumberfl.com/",
+            "status": 200,
+            "finalUrl": "https://mrplumberfl.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -2012,7 +3268,8 @@
         "https://www.deemariaplumbing.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -2030,7 +3287,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Dee Maria Plumbing",
+            "links": [
+              "https://www.deemariaplumbing.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.deemariaplumbing.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.deemariaplumbing.com/",
+            "status": 200,
+            "finalUrl": "https://www.deemariaplumbing.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -2043,7 +3325,8 @@
         "https://www.integrityplumbing-drain.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -2061,7 +3344,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Integrity Plumbing & Drain",
+            "links": [
+              "https://www.integrityplumbing-drain.com/about/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.integrityplumbing-drain.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.integrityplumbing-drain.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.integrityplumbing-drain.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "west-palm-beach-fl",
@@ -2074,7 +3382,8 @@
         "https://plumbingbyus.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
         "profileStatus": 404,
         "exactCards": [],
@@ -2092,7 +3401,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/plumbing",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Plumbing By Us",
+            "links": [
+              "https://plumbingbyus.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://plumbingbyus.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://plumbingbyus.com/",
+            "status": 200,
+            "finalUrl": "https://plumbingbyus.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "naples-fl",
@@ -2105,7 +3439,8 @@
         "https://www.irrigationandgardening.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -2123,7 +3458,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Irrigation & Gardening Local Repair",
+            "links": [
+              "https://www.irrigationandgardening.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.irrigationandgardening.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.irrigationandgardening.com/",
+            "status": 200,
+            "finalUrl": "https://www.irrigationandgardening.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "naples-fl",
@@ -2136,7 +3496,8 @@
         "https://tntmarino.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -2154,7 +3515,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "TNT Marino Irrigation",
+            "links": [
+              "https://tntmarino.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://tntmarino.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://tntmarino.com/",
+            "status": 200,
+            "finalUrl": "https://tntmarino.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "naples-fl",
@@ -2167,7 +3553,8 @@
         "https://westfloridasprinklers.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/irrigation-sprinkler-repair",
         "profileStatus": 404,
         "exactCards": [],
@@ -2185,7 +3572,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "West Florida Sprinklers",
+            "links": [
+              "https://westfloridasprinklers.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://westfloridasprinklers.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://westfloridasprinklers.com/",
+            "status": 200,
+            "finalUrl": "https://westfloridasprinklers.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "st-petersburg-fl",
@@ -2198,7 +3610,8 @@
         "https://www.acetireandautos.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -2216,7 +3629,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Ace Tire & Auto",
+            "links": [
+              "https://www.acetireandautos.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.acetireandautos.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.acetireandautos.com/",
+            "status": 200,
+            "finalUrl": "https://www.acetireandautos.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "st-petersburg-fl",
@@ -2229,7 +3667,8 @@
         "https://bigjohnstire.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -2247,7 +3686,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Big John's Brake & Alignment Service",
+            "links": [
+              "https://bigjohnstire.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://bigjohnstire.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://bigjohnstire.com/",
+            "status": 200,
+            "finalUrl": "https://bigjohnstire.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "st-petersburg-fl",
@@ -2260,7 +3724,8 @@
         "https://michellesultimatecarcare.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
         "profileStatus": 404,
         "exactCards": [],
@@ -2278,7 +3743,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:50:04.550680+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/auto-mechanics",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Michelle's Ultimate Car Care",
+            "links": [
+              "https://michellesultimatecarcare.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://michellesultimatecarcare.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://michellesultimatecarcare.com/",
+            "status": 200,
+            "finalUrl": "https://michellesultimatecarcare.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "crestview-fl",
@@ -2292,7 +3782,8 @@
         "https://www.myokaloosa.com/index.php/towns-municipalities"
       ],
       "identityStatus": "existing",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/crestview-fl/irrigation-sprinkler-repair",
         "profileStatus": 200,
         "exactCards": [],
@@ -2315,7 +3806,37 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/crestview-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "HydraFlow Irrigation",
+            "links": [
+              "https://www.hydraflowirrigationfl.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.hydraflowirrigationfl.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.hydraflowirrigationfl.com/",
+            "status": 200,
+            "finalUrl": "https://www.hydraflowirrigationfl.com/"
+          },
+          {
+            "url": "https://www.myokaloosa.com/index.php/towns-municipalities",
+            "status": 200,
+            "finalUrl": "https://www.myokaloosa.com/index.php/towns-municipalities"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "milton-fl",
@@ -2328,7 +3849,8 @@
         "https://www.hydraflowirrigationfl.com/"
       ],
       "identityStatus": "existing",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/milton-fl/irrigation-sprinkler-repair",
         "profileStatus": 200,
         "exactCards": [],
@@ -2346,7 +3868,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/milton-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "HydraFlow Irrigation",
+            "links": [
+              "https://www.hydraflowirrigationfl.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.hydraflowirrigationfl.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.hydraflowirrigationfl.com/",
+            "status": 200,
+            "finalUrl": "https://www.hydraflowirrigationfl.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "pace-fl",
@@ -2359,7 +3906,8 @@
         "https://www.hydraflowirrigationfl.com/"
       ],
       "identityStatus": "existing",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/pace-fl/irrigation-sprinkler-repair",
         "profileStatus": 200,
         "exactCards": [],
@@ -2377,7 +3925,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/pace-fl/irrigation-sprinkler-repair",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "HydraFlow Irrigation",
+            "links": [
+              "https://www.hydraflowirrigationfl.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.hydraflowirrigationfl.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.hydraflowirrigationfl.com/",
+            "status": 200,
+            "finalUrl": "https://www.hydraflowirrigationfl.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "st-petersburg-fl",
@@ -2390,7 +3963,8 @@
         "https://tidalrestoration.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/water-damage-mold-remediation",
         "profileStatus": 404,
         "exactCards": [],
@@ -2408,7 +3982,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/water-damage-mold-remediation",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Tidal Restoration",
+            "links": [
+              "https://tidalrestoration.com/about/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://tidalrestoration.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://tidalrestoration.com/about/",
+            "status": 200,
+            "finalUrl": "https://tidalrestoration.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "clearwater-fl",
@@ -2421,7 +4020,8 @@
         "https://mrdryout.com/about-mr-dry-out/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/water-damage-mold-remediation",
         "profileStatus": 404,
         "exactCards": [],
@@ -2439,7 +4039,32 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/water-damage-mold-remediation",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Mr. Dry Out",
+            "links": [
+              "https://mrdryout.com/about-mr-dry-out/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://mrdryout.com/about-mr-dry-out/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://mrdryout.com/about-mr-dry-out/",
+            "status": 200,
+            "finalUrl": "https://mrdryout.com/about-mr-dry-out/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "city": "gulfport-ms",
@@ -2452,7 +4077,8 @@
         "https://www.gulfportconcretecontractor.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/gulfport-ms/concrete",
         "profileStatus": 404,
         "exactCards": [],
@@ -2470,20 +4096,44 @@
         ],
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-23T10:51:07.173890+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/gulfport-ms/concrete",
+        "profileStatus": 200,
+        "exactCards": [
+          {
+            "name": "Gulfport Concrete",
+            "links": [
+              "https://www.gulfportconcretecontractor.com/"
+            ]
+          }
+        ],
+        "nameMatches": 1,
+        "domainMatches": 1,
+        "status": 200,
+        "finalUrl": "https://www.gulfportconcretecontractor.com/",
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.gulfportconcretecontractor.com/",
+            "status": 200,
+            "finalUrl": "https://www.gulfportconcretecontractor.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     }
   ],
   "publication": {
-    "status": "source prepared for GitHub main and Vercel production",
+    "status": "deployed and live-verified",
     "distinctNewBusinessTarget": 1000,
-    "newBusinessesCommittedIfApplied": 56,
     "newBusinessPlacementsPrepared": 56,
     "existingBusinessPlacementsPrepared": 3,
-    "distinctNewBusinessesLiveVerified": 0,
-    "liveVerifiedNewBusinessPlacements": 0,
-    "liveVerifiedExistingBusinessPlacements": 0,
-    "remainingNewBusinessShortfall": 1000,
-    "liveVerification": "pending",
+    "distinctNewBusinessesLiveVerified": 56,
+    "liveVerifiedNewBusinessPlacements": 56,
+    "liveVerifiedExistingBusinessPlacements": 3,
+    "remainingNewBusinessShortfall": 944,
+    "liveVerification": "complete for this batch",
     "firstProductionDeployment": {
       "sourceCommit": "3a2f7e51bc23931e0a854d893642b929796c237f",
       "url": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/4fK3iNDSdSXji6TZauw6gt2PLTsK",
@@ -2492,9 +4142,38 @@
       "verifiedNewPlacements": 56,
       "verifiedExistingPlacements": 3,
       "nationalListingsSuppressed": 3
-    }
+    },
+    "productionSourceCommit": "a28f663bda790bb31b293da9d4fac294912502ff",
+    "productionDeploymentUrl": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/36wadMuqV4Ccmp2m12DdRbPwWysq",
+    "productionDeploymentState": "READY",
+    "liveVerifiedAt": "2026-11-23T10:57:58.427901+00:00",
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "liveVerificationBlockers": [],
+    "newBusinessesInSourceCommit": 56
   },
   "validation": {
-    "approach": "Baseline name and normalized domain checks against repository directory data and live cards, official destination and content checks, explicit residential service and geography for each placement, existing cap and visibility gates. Full historical audit remains open."
+    "approach": "Baseline name and normalized domain checks against repository directory data and live cards, official destination and content checks, explicit residential service and geography for each placement, existing cap and visibility gates. Full historical audit remains open.",
+    "build": "passed",
+    "lint": "passed",
+    "publicApprovalAndNonTest": "passed",
+    "nationalBrandRegression": "passed",
+    "sourceSchemaAndExactGeneratedDiff": "passed",
+    "liveWholeCatalogCoverage": "passed",
+    "changedPageCountReconciliation": "matched"
+  },
+  "coverageAfter": {
+    "catalogPages": 1120,
+    "displayedPlacements": 13776,
+    "displayedAtLeast20": 242,
+    "displayedBelow20": 878,
+    "displayedEmpty": 0,
+    "pagesProvenBelow20ByDisplayedCount": 878,
+    "pagesNewlyAuditedTo20Qualifying": 0,
+    "pagesWithDisplayed20PlusAndUnauditedQualifyingCount": 242,
+    "displayedDeficitLowerBound": 8929,
+    "exactQualifyingDeficit": null,
+    "unexpectedDisplayedDeltas": [],
+    "pageMatrix": "reports/live-coverage-fill1000db-2026-11-23.csv"
   }
 }
