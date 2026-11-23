@@ -1,0 +1,2175 @@
+{
+  "runDate": "2026-11-22",
+  "baselineCommit": "1fb238543eccb59c31551a58af9ebaf81851cc02",
+  "baselineTree": "873212937dc04b8a8691172795079425b2d7e6cc",
+  "previousCheckpoint": "progress-fill1000cz-2026-11-22.md",
+  "catalog": {
+    "activeCities": 40,
+    "publicCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "graytonBeachActive": true,
+    "pensacolaBeachActive": false
+  },
+  "baselineCoverage": {
+    "displayedPlacements": 13661,
+    "displayed20Plus": 242,
+    "displayedBelow20": 878,
+    "empty": 0,
+    "displayedDeficit": 9044
+  },
+  "priorityCities": [
+    "destin-fl",
+    "fort-walton-beach-fl",
+    "crestview-fl",
+    "panama-city-fl"
+  ],
+  "nationalBrandReview": {
+    "newPublicSuppressions": 0,
+    "reviewed": [
+      {
+        "name": "Mr. Fence of Florida",
+        "url": "https://gomrfencefl.com/about-us/",
+        "finding": "The operating brand describes local ownership and a Panama City/Pensacola operation. A national affiliation was not established."
+      },
+      {
+        "name": "Massey Services",
+        "url": "https://www.masseyservices.com/locations/",
+        "finding": "The site shows a multi-state operating region. The review did not establish that this is a nationwide consumer brand."
+      }
+    ]
+  },
+  "historicalAudit": {
+    "priorLedger": "evidence-fill1000cz-2026-11-22.json",
+    "historicalIdentitiesFlagged": 158,
+    "sourceScanRows": 584,
+    "sourceScanRawPlacements": 8816,
+    "retailFixIt": {
+      "sourceUrl": "https://www.retailfixit.com/",
+      "rawPlacements": 396,
+      "baselineProfileStatus": 404,
+      "issues": [
+        "unsupported residential service",
+        "incorrect residential locksmith category",
+        "unsupported specific geography",
+        "intermediary or facility network"
+      ],
+      "evidence": "The company describes nationwide retail/facility maintenance and vendor onboarding. The reviewed official site offers no local residential locksmith evidence. Existing public exclusion retained.",
+      "finalProfileStatus": 404,
+      "recheckedSource": "https://www.retailfixit.com/",
+      "qualification": "Official site describes nationwide facility maintenance, retail customers, contractor matching and vendor sign-up. Residential locksmith scope and local operation are unsupported."
+    },
+    "networkChecks": [
+      {
+        "name": "Vixxo",
+        "url": "https://www.vixxo.com/",
+        "evidence": "The official site markets nationwide facility work for operators and retail clients."
+      },
+      {
+        "name": "Divisions Maintenance Group",
+        "url": "https://dmg360.com/",
+        "evidence": "The official site markets servicing property portfolios nationwide."
+      }
+    ],
+    "carriedForwardIssues": [
+      {
+        "name": "JLG Septic Services",
+        "city": "biloxi-ms",
+        "trade": "septic-services",
+        "website": "https://jlgsepticllc.com/",
+        "sources": [
+          "https://jlgsepticllc.com/",
+          "https://jlgsepticllc.com/service-areas/mississippi/biloxi/",
+          "https://www.jlgsepticgulfbreeze.com/"
+        ],
+        "issues": [
+          "unverified local operation",
+          "uncertain provider identity"
+        ],
+        "evidence": "The Biloxi landing page belongs to a website that claims nationwide service from a Milton operation. Independent evidence of direct delivery in Biloxi is unresolved. The separately listed Gulf Breeze website uses a different phone number, represents a local service area, and shows a Florida service license. Do not assume the two identities are interchangeable.",
+        "qualified": false,
+        "baselineCardVisible": true
+      },
+      {
+        "name": "Hometown Garage Doors",
+        "sources": [
+          "https://www.hometowngaragedoorsnf.com/",
+          "https://www.hometowngaragenwfl.com/contact-us"
+        ],
+        "issues": [
+          "duplicate identity"
+        ],
+        "finding": "The alternate and baseline websites share the same Crestview operating address and phone. No duplicate was added."
+      },
+      {
+        "name": "Solve All, Dothan Pools and Tri-State Appliance Repair",
+        "issues": [
+          "invalid official website"
+        ],
+        "finding": "Prior historical flags are retained. This run did not requalify the listings."
+      }
+    ],
+    "fullAudit": false
+  },
+  "discovery": {
+    "detailedCandidates": 72,
+    "directChecks": 61,
+    "existingSourceDomainsRescreened": [
+      "adcockflooringal.com",
+      "allaboutgaragedoorsinc.com",
+      "allbrandrepairs.com",
+      "allgoodoutdoorservices.com",
+      "allpropaintandbody.com",
+      "apsgaragedoor.com",
+      "ardsdothan.com",
+      "arfplumbing.com",
+      "atoznwfl.com",
+      "autoairandrepair.net",
+      "bamaflooring.com",
+      "bigbendeubanks.com",
+      "bluecollarautorepairfl.com",
+      "bluewatergaragedoorservices.com",
+      "brandowslandscaping.com",
+      "bryanpestcontrol.com",
+      "builtrightrenovations.com",
+      "callaquaman.com",
+      "callodoms.com",
+      "calsappliancerepair.com",
+      "carmedic.biz",
+      "cjsplumbingrepair.com",
+      "cmdappliancerepair.com",
+      "coastalbodyworks.com",
+      "coastalexcellencemobiledentrepair.com",
+      "coastaloutdoorfl.com",
+      "coastaloverheaddoor.org",
+      "cramermarineandoutdoor.com",
+      "daexterminating.com",
+      "dannymillerplumbing.com",
+      "dapi-fl.com",
+      "disasterappliancemaster.com",
+      "dontbugme.com",
+      "e2pools.com",
+      "economyapplianceheatandair.com",
+      "elbrusconsulting.wordpress.com",
+      "emeraldcoastpoolcompany.com",
+      "fatherandsonlandscape.com",
+      "floorsbymoorehuntsville.com",
+      "floridastoresfirestone.com",
+      "garagedoorgurullc.com",
+      "garagedoormedicsllc.com",
+      "gerbercollision.com",
+      "gofloorpro.com",
+      "groundsguys.com",
+      "guardianonceayear.com",
+      "gulfcoastpoolconstruction.com",
+      "gulfcoasttreespecialists.com",
+      "gulfshoresautorepair.com",
+      "gulfsideappliancerepair.com",
+      "hometowngaragenwfl.com",
+      "hubbardflooringstudio.com",
+      "igocar.store",
+      "jpcexterminating.com",
+      "maaco.com",
+      "metrofloorsandmore.com",
+      "midcoastlawn.com",
+      "millermarineinc.net",
+      "mistersparky.com",
+      "nosweatautomotive.com",
+      "panamacitypools.com",
+      "panamapoolsandspas.com",
+      "paradiserepairpensacola.com",
+      "pazofmindservices.com",
+      "pensacoladentrepair.com",
+      "pensacolappliancerepair.com",
+      "phoenixservicellc.com",
+      "pinckardgaragedoors.com",
+      "poolwerx.com",
+      "precisiondoor.net",
+      "precisiondoormobile.com",
+      "precisionmarinemaintenance.com",
+      "profiberglassmarine.com",
+      "relyonreliance.com",
+      "rocksolidpest.com",
+      "saltyairco.com",
+      "sasserelectric.com",
+      "selrahcpest.com",
+      "sextonlandscapes.com",
+      "southerngaragedoorsllc.com",
+      "southernpoolscapes.com",
+      "sparklingkleenpools.com",
+      "spearspestcontrol.com",
+      "stampleysflooring.com",
+      "sunflooring.com",
+      "superiorscapesgulfcoast.com",
+      "tandaamericancarcare.com",
+      "teddybearservices.com",
+      "waltoncountygaragedoor.repair",
+      "whittonworks.com",
+      "whyubugginpestcontrol.com",
+      "woodfloorshuntsville.com",
+      "wrenscollisioncenters.com",
+      "zebwattsseptic.com"
+    ],
+    "pending": [
+      {
+        "city": "fort-lauderdale-fl",
+        "trade": "electrical",
+        "name": "Superior Electric & Air",
+        "website": "https://superiorelectricandair.com/about/",
+        "marker": "Superior Electric",
+        "sources": [
+          "https://superiorelectricandair.com/about/"
+        ],
+        "note": "The local family electrical business names Fort Lauderdale and provides direct residential electrical repair, lighting and electrical upgrades.",
+        "identityStatus": "new",
+        "check": {
+          "page": "https://whoknowsapro.com/fort-lauderdale-fl/electrical",
+          "publicProfileStatus": 404,
+          "exactCards": [],
+          "nameMatches": 0,
+          "domainMatches": 0,
+          "status": 500,
+          "finalUrl": "https://superiorelectricandair.com/about/",
+          "websiteIdentityConfirmed": false,
+          "sourceChecks": [
+            {
+              "url": "https://superiorelectricandair.com/about/",
+              "status": 500,
+              "finalUrl": "https://superiorelectricandair.com/about/"
+            }
+          ],
+          "blockers": [
+            "Working official website or business identity unconfirmed",
+            "Supporting source unavailable"
+          ]
+        },
+        "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+      },
+      {
+        "name": "Downey’s Tire & Auto",
+        "city": "pace-fl",
+        "trade": "auto-mechanics",
+        "website": "https://www.downeystire.com/",
+        "reason": "The owner website describes the shop as opening soon. Confirm that direct work for customers has begun before listing."
+      },
+      {
+        "name": "Beach 2 Bay Appliance Services",
+        "city": "destin-fl",
+        "trade": "appliance-repair",
+        "website": "https://beach2bayappliance.com/destin/",
+        "reason": "The Destin page describes residential appliance service, but the same domain’s Fort Walton Beach route returned unrelated casino content in a source check. Confirm the official website is restored before adding either placement."
+      },
+      {
+        "name": "Dr Roof of Alabama",
+        "city": "birmingham-al",
+        "trade": "roofing",
+        "website": "https://www.drroofal.com/about-us",
+        "reason": "Confirm the current operating brand and its relationship to similarly named roofing providers before publication."
+      },
+      {
+        "name": "Pete Moore Collision Center",
+        "city": "pensacola-fl",
+        "trade": "auto-body-collision",
+        "website": "https://www.petemooremitsubishi.com/collision-center/",
+        "reason": "Confirm the public collision-service brand and its relationship to the national vehicle franchise before listing."
+      },
+      {
+        "name": "Aces Inc.",
+        "city": "crestview-fl",
+        "trade": "pool-service",
+        "website": "https://acesfm.com/",
+        "reason": "The official site mentions pool equipment. Direct household work and specific service coverage for Crestview still need verification."
+      },
+      {
+        "name": "Art Marine",
+        "city": "panama-city-fl",
+        "trade": "marine-services",
+        "website": null,
+        "reason": "Third-party results did not establish a working official site and direct service to private boat owners."
+      },
+      {
+        "name": "Baton Rouge Dearman’s Flooring",
+        "city": "baton-rouge-la",
+        "trade": "flooring",
+        "website": "https://www.dearmansflooring.com/about",
+        "reason": "Confirm working official destination and actual residential installation service within Baton Rouge."
+      },
+      {
+        "name": "Why U Buggin’",
+        "city": "tallahassee-fl",
+        "trade": "pest-control",
+        "website": "https://www.wubpc.com/",
+        "reason": "Confirm a current working official destination and exact residential service coverage."
+      },
+      {
+        "name": "Premier Outdoor Tree Services",
+        "city": "orlando-fl",
+        "trade": "tree-service",
+        "website": "https://premieroutdoortreeservices.com/about-us/",
+        "reason": "Confirm direct residential tree services and the current business operation rather than relying on the search title."
+      }
+    ],
+    "withheld": [],
+    "identityChecks": [
+      {
+        "name": "Huntsville Hardwood Works",
+        "website": "https://huntsvillehardwoodworks.com/",
+        "reason": "Its own site says pricing is supplied by another contractor. A direct residential flooring provider was not established."
+      },
+      {
+        "name": "Aloha Pool Service aliases",
+        "website": "https://sarasotapoolpump.com/",
+        "reason": "The separate Sarasota pool motor sites identify Aloha Pool Service. Count the accepted Sarasota placement once under its canonical service site."
+      },
+      {
+        "name": "BCR Collision Center",
+        "website": "https://www.bcrcollisioncenter.com/",
+        "reason": "Official research verified that the Foley placement already exists."
+      }
+    ],
+    "pipeline": "The collector sends leads to official-website and service-area review. It does not publish. No five-listing cap prevents qualified source records from being used."
+  },
+  "placements": [
+    {
+      "city": "fairhope-al",
+      "trade": "electrical",
+      "name": "Overstreet Electric",
+      "website": "https://overstreetelectric.com/about-us/",
+      "marker": "Overstreet Electric",
+      "sources": [
+        "https://overstreetelectric.com/about-us/"
+      ],
+      "note": "The Fairhope electrical contractor identifies its local operation and offers direct residential electrical repairs, installation and related household services.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fairhope-al/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://overstreetelectric.com/about-us/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://overstreetelectric.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://overstreetelectric.com/about-us/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "fairhope-al",
+      "trade": "electrical",
+      "name": "Wingard Services",
+      "website": "https://www.wingardservices.com/",
+      "marker": "Wingard Services",
+      "sources": [
+        "https://www.wingardservices.com/"
+      ],
+      "note": "The electrical company gives its Fairhope location and directly offers residential electrical installations, troubleshooting and repairs.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fairhope-al/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.wingardservices.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.wingardservices.com/",
+            "status": 200,
+            "finalUrl": "https://www.wingardservices.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "mobile-al",
+      "trade": "garage-door-repair",
+      "name": "Port City Garage Doors",
+      "website": "https://portcitygaragedoors.com/",
+      "marker": "Port City Garage Doors",
+      "sources": [
+        "https://portcitygaragedoors.com/"
+      ],
+      "note": "The Mobile company names its home market and directly offers household garage door, spring and opener repair for local customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/mobile-al/garage-door-repair",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://portcitygaragedoors.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://portcitygaragedoors.com/",
+            "status": 200,
+            "finalUrl": "https://portcitygaragedoors.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "biloxi-ms",
+      "trade": "roofing",
+      "name": "Durden Roof Care",
+      "website": "https://durdenroofcare.com/about.html",
+      "marker": "Durden Roof Care",
+      "sources": [
+        "https://durdenroofcare.com/about.html"
+      ],
+      "note": "The family-run roofing company is based in Biloxi and offers direct roof repairs, care and replacement for homeowners and businesses.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/biloxi-ms/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://durdenroofcare.com/about.html",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://durdenroofcare.com/about.html",
+            "status": 200,
+            "finalUrl": "https://durdenroofcare.com/about.html"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "biloxi-ms",
+      "trade": "roofing",
+      "name": "Expert Renovations",
+      "website": "https://expertrenovations.com/",
+      "marker": "Expert Renovations",
+      "sources": [
+        "https://expertrenovations.com/"
+      ],
+      "note": "The regional contractor names Biloxi and directly carries out roof repair and restoration for homeowners in its Mississippi service area.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/biloxi-ms/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://expertrenovations.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://expertrenovations.com/",
+            "status": 200,
+            "finalUrl": "https://expertrenovations.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "biloxi-ms",
+      "trade": "roofing",
+      "name": "Moza Hebert",
+      "website": "https://mhroof.com/roofing/roof-replacement/",
+      "marker": "Moza Hebert",
+      "sources": [
+        "https://mhroof.com/roofing/roof-replacement/"
+      ],
+      "note": "The local Gulf Coast roofer lists Biloxi in its service area and directly installs replacement roofing for residential properties.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/biloxi-ms/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://mhroof.com/roofing/roof-replacement/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://mhroof.com/roofing/roof-replacement/",
+            "status": 200,
+            "finalUrl": "https://mhroof.com/roofing/roof-replacement/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "orlando-fl",
+      "trade": "tree-service",
+      "name": "Kevin's Tree Service",
+      "website": "https://kevinstreeservices.com/about-us/",
+      "marker": "Kevin",
+      "sources": [
+        "https://kevinstreeservices.com/about-us/"
+      ],
+      "note": "The locally owned tree service offers removal and trimming for homeowners in Orlando and describes its own operating team.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/orlando-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://kevinstreeservices.com/about-us/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://kevinstreeservices.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://kevinstreeservices.com/about-us/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "orlando-fl",
+      "trade": "tree-service",
+      "name": "Regional Tree Care",
+      "website": "https://regionaltreecarellc.com/about-us",
+      "marker": "Regional Tree Care",
+      "sources": [
+        "https://regionaltreecarellc.com/about-us"
+      ],
+      "note": "The veteran-owned Orlando tree team identifies its local operation and describes its direct home tree trimming and removal services.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/orlando-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://regionaltreecarellc.com/about-us",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://regionaltreecarellc.com/about-us",
+            "status": 200,
+            "finalUrl": "https://regionaltreecarellc.com/about-us"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "orlando-fl",
+      "trade": "tree-service",
+      "name": "McCullough Tree Service",
+      "website": "https://mcculloughtreeservice.com/about/",
+      "marker": "McCullough",
+      "sources": [
+        "https://mcculloughtreeservice.com/about/"
+      ],
+      "note": "The company explicitly names Orlando and provides direct tree removal, trimming and related work for residential and commercial customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/orlando-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://mcculloughtreeservice.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://mcculloughtreeservice.com/about/",
+            "status": 200,
+            "finalUrl": "https://mcculloughtreeservice.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "orlando-fl",
+      "trade": "tree-service",
+      "name": "Central Florida Tree Service",
+      "website": "https://centralfloridatreeservices.com/",
+      "marker": "Central Florida Tree Service",
+      "sources": [
+        "https://centralfloridatreeservices.com/"
+      ],
+      "note": "The local operator explicitly provides tree trimming, pruning and stump and tree removal for residential customers in Orlando.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/orlando-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://centralfloridatreeservices.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://centralfloridatreeservices.com/",
+            "status": 200,
+            "finalUrl": "https://centralfloridatreeservices.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "orlando-fl",
+      "trade": "tree-service",
+      "name": "K & E Tree Service",
+      "website": "https://www.ketreeservicefl.com/",
+      "marker": "Tree Service",
+      "sources": [
+        "https://www.ketreeservicefl.com/"
+      ],
+      "note": "The Orlando family-owned company offers direct tree removal and tree trimming services for local residential properties and homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/orlando-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.ketreeservicefl.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.ketreeservicefl.com/",
+            "status": 200,
+            "finalUrl": "https://www.ketreeservicefl.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "orlando-fl",
+      "trade": "tree-service",
+      "name": "Jay's Quality Tree Service",
+      "website": "https://www.jaysqualitytreeservice.com/",
+      "marker": "Quality Tree Service",
+      "sources": [
+        "https://www.jaysqualitytreeservice.com/"
+      ],
+      "note": "The family operator expressly serves Orlando and offers direct tree removal, trimming and related services for homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/orlando-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.jaysqualitytreeservice.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.jaysqualitytreeservice.com/",
+            "status": 200,
+            "finalUrl": "https://www.jaysqualitytreeservice.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "miami-fl",
+      "trade": "concrete",
+      "name": "Concrete Designs",
+      "website": "https://concretedesignsllc.com/our-services",
+      "marker": "Concrete Designs",
+      "sources": [
+        "https://concretedesignsllc.com/our-services"
+      ],
+      "note": "The family company directly installs residential patios, driveways and concrete surfaces across Miami-Dade County, which contains Miami.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/miami-fl/concrete",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://concretedesignsllc.com/our-services",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://concretedesignsllc.com/our-services",
+            "status": 200,
+            "finalUrl": "https://concretedesignsllc.com/our-services"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "miami-fl",
+      "trade": "concrete",
+      "name": "Bedrock Paving & Concrete",
+      "website": "https://bedrockpnc.com/about",
+      "marker": "Bedrock Paving",
+      "sources": [
+        "https://bedrockpnc.com/about"
+      ],
+      "note": "The regional team installs concrete driveways and patios for homes across Miami-Dade, specifically including the city of Miami within the county.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/miami-fl/concrete",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://bedrockpnc.com/about",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://bedrockpnc.com/about",
+            "status": 200,
+            "finalUrl": "https://bedrockpnc.com/about"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "miami-fl",
+      "trade": "concrete",
+      "name": "Vazquez Concrete Finish",
+      "website": "https://vazquezconcretefinish.com/about/",
+      "marker": "Vazquez Concrete",
+      "sources": [
+        "https://vazquezconcretefinish.com/about/"
+      ],
+      "note": "The Miami-based contractor documents directly installed residential slabs and pool decks and offers concrete services to Miami homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/miami-fl/concrete",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://vazquezconcretefinish.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://vazquezconcretefinish.com/about/",
+            "status": 200,
+            "finalUrl": "https://vazquezconcretefinish.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "fort-lauderdale-fl",
+      "trade": "electrical",
+      "name": "Watt's Up Electric",
+      "website": "https://www.wattsupsfl.com/sebastian-posada",
+      "marker": "Watt",
+      "sources": [
+        "https://www.wattsupsfl.com/sebastian-posada"
+      ],
+      "note": "The regional owner-operated electrician lists Fort Lauderdale and directly provides home wiring, electrical upgrades and related services.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.wattsupsfl.com/sebastian-posada",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.wattsupsfl.com/sebastian-posada",
+            "status": 200,
+            "finalUrl": "https://www.wattsupsfl.com/sebastian-posada"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "fort-lauderdale-fl",
+      "trade": "electrical",
+      "name": "Burley Electrical Services",
+      "website": "https://www.burleyelectrical.com/us/",
+      "marker": "Burley Electrical",
+      "sources": [
+        "https://www.burleyelectrical.com/us/"
+      ],
+      "note": "The South Florida electrician directly offers residential lighting, wiring and electrical repair and explicitly lists Fort Lauderdale.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.burleyelectrical.com/us/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.burleyelectrical.com/us/",
+            "status": 200,
+            "finalUrl": "https://www.burleyelectrical.com/us/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "fort-lauderdale-fl",
+      "trade": "electrical",
+      "name": "Brown's Electrical Repair",
+      "website": "https://brownselectricalrepair.com/",
+      "marker": "Electrical Repair",
+      "sources": [
+        "https://brownselectricalrepair.com/"
+      ],
+      "note": "The Fort Lauderdale owner describes his local electrical trade operation and offers direct electrical repairs and upgrades to residential customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fort-lauderdale-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://brownselectricalrepair.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://brownselectricalrepair.com/",
+            "status": 200,
+            "finalUrl": "https://brownselectricalrepair.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Charitable Roofing",
+      "website": "https://www.charitableroofing.com/about",
+      "marker": "Charitable Roofing",
+      "sources": [
+        "https://www.charitableroofing.com/about"
+      ],
+      "note": "The Birmingham roofing business explicitly covers homeowners and directly delivers roof repairs and residential roof replacement.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.charitableroofing.com/about",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.charitableroofing.com/about",
+            "status": 200,
+            "finalUrl": "https://www.charitableroofing.com/about"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Summit Renovation",
+      "website": "https://www.summitrenovation.net/residential-roofing/",
+      "marker": "Summit Renovation",
+      "sources": [
+        "https://www.summitrenovation.net/residential-roofing/"
+      ],
+      "note": "The Birmingham company describes its own residential roof repairs and installations and identifies its local Birmingham operation.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.summitrenovation.net/residential-roofing/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.summitrenovation.net/residential-roofing/",
+            "status": 200,
+            "finalUrl": "https://www.summitrenovation.net/residential-roofing/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Bill White Roofing and Specialty",
+      "website": "https://www.bwroof.com/about",
+      "marker": "Bill White Roofing",
+      "sources": [
+        "https://www.bwroof.com/about"
+      ],
+      "note": "The regional roofer explicitly serves Birmingham and provides direct residential roof repair and replacement for homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.bwroof.com/about",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.bwroof.com/about",
+            "status": 200,
+            "finalUrl": "https://www.bwroof.com/about"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "BLW Roofing",
+      "website": "https://www.blw-roofing.com/",
+      "marker": "BLW Roofing",
+      "sources": [
+        "https://www.blw-roofing.com/"
+      ],
+      "note": "The company lists the Birmingham metro, which includes Birmingham, and documents its own shingle and other roof work on homes.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.blw-roofing.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.blw-roofing.com/",
+            "status": 200,
+            "finalUrl": "https://www.blw-roofing.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Hometown Roofing & Restorations",
+      "website": "https://htroofers.com/about-hometown-roofing-restorations/",
+      "marker": "Hometown Roofing",
+      "sources": [
+        "https://htroofers.com/about-hometown-roofing-restorations/"
+      ],
+      "note": "The local business explicitly names Birmingham homeowners and describes its direct roofing repair and replacement services for area residences.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://htroofers.com/about-hometown-roofing-restorations/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://htroofers.com/about-hometown-roofing-restorations/",
+            "status": 200,
+            "finalUrl": "https://htroofers.com/about-hometown-roofing-restorations/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Roof Armor",
+      "website": "https://www.roofarmoral.com/",
+      "marker": "Roof Armor",
+      "sources": [
+        "https://www.roofarmoral.com/"
+      ],
+      "note": "The veteran-owned roofer identifies itself as a Birmingham company and directly offers roofing repairs and replacements for residential customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.roofarmoral.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.roofarmoral.com/",
+            "status": 200,
+            "finalUrl": "https://www.roofarmoral.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Monarch Roofing",
+      "website": "https://monarchroofingllc.com/",
+      "marker": "Monarch Roofing",
+      "sources": [
+        "https://monarchroofingllc.com/"
+      ],
+      "note": "The locally operated company identifies Birmingham as its market and directly installs and repairs roofs for homeowners there.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://monarchroofingllc.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://monarchroofingllc.com/",
+            "status": 200,
+            "finalUrl": "https://monarchroofingllc.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "roofing",
+      "name": "Alabama Roof Detectives",
+      "website": "https://alroofdetectives.com/contact-us",
+      "marker": "Alabama Roof Detectives",
+      "sources": [
+        "https://alroofdetectives.com/contact-us"
+      ],
+      "note": "The company lists its Birmingham office and directly offers roof inspections, repairs and replacements for local residential customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/birmingham-al/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://alroofdetectives.com/contact-us",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://alroofdetectives.com/contact-us",
+            "status": 200,
+            "finalUrl": "https://alroofdetectives.com/contact-us"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "tallahassee-fl",
+      "trade": "pest-control",
+      "name": "Miley Pest Control",
+      "website": "https://www.mileypestcontrol.com/",
+      "marker": "Miley Pest Control",
+      "sources": [
+        "https://www.mileypestcontrol.com/"
+      ],
+      "note": "The local owner names Tallahassee as an operating area and directly provides pest control for area homes and businesses.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.mileypestcontrol.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.mileypestcontrol.com/",
+            "status": 200,
+            "finalUrl": "https://www.mileypestcontrol.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "tallahassee-fl",
+      "trade": "pest-control",
+      "name": "Capital City Pest Control",
+      "website": "https://capitalcitypest.com/about/",
+      "marker": "Capital City Pest Control",
+      "sources": [
+        "https://capitalcitypest.com/about/"
+      ],
+      "note": "The locally owned business explicitly serves Tallahassee homeowners and offers direct pest inspections and long-term household pest treatments.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://capitalcitypest.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://capitalcitypest.com/about/",
+            "status": 200,
+            "finalUrl": "https://capitalcitypest.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "tallahassee-fl",
+      "trade": "pest-control",
+      "name": "Paul's Pest Control",
+      "website": "https://callpauls.com/",
+      "marker": "Paul",
+      "sources": [
+        "https://callpauls.com/"
+      ],
+      "note": "The regional family-run company expressly serves Tallahassee homes and provides direct household pest control and prevention.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/tallahassee-fl/pest-control",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://callpauls.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://callpauls.com/",
+            "status": 200,
+            "finalUrl": "https://callpauls.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "pool-service",
+      "name": "ARK Pools",
+      "website": "https://www.arkpools.com/",
+      "marker": "ARK Pools",
+      "sources": [
+        "https://www.arkpools.com/"
+      ],
+      "note": "The family company directly repairs and upgrades residential pool equipment across Sarasota County, which includes Sarasota.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.arkpools.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.arkpools.com/",
+            "status": 200,
+            "finalUrl": "https://www.arkpools.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "pool-service",
+      "name": "Dave Cass Pools",
+      "website": "https://davecasspools.com/",
+      "marker": "Dave Cass",
+      "sources": [
+        "https://davecasspools.com/"
+      ],
+      "note": "The local company explicitly names Sarasota and directly repairs and replaces residential swimming pool equipment for homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://davecasspools.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://davecasspools.com/",
+            "status": 200,
+            "finalUrl": "https://davecasspools.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "pool-service",
+      "name": "Aloha Pool Service",
+      "website": "https://alohapoolrepair.com/locations",
+      "marker": "Aloha",
+      "sources": [
+        "https://alohapoolrepair.com/locations"
+      ],
+      "note": "The local provider names Sarasota and directly repairs and replaces pool pumps and equipment for homeowners in its service area.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://alohapoolrepair.com/locations",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://alohapoolrepair.com/locations",
+            "status": 200,
+            "finalUrl": "https://alohapoolrepair.com/locations"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "pool-service",
+      "name": "Super Shark Pools",
+      "website": "https://www.supersharkpools.com/",
+      "marker": "Super Shark Pools",
+      "sources": [
+        "https://www.supersharkpools.com/"
+      ],
+      "note": "The Sarasota pool firm directly provides residential swimming pool repair, resurfacing and related services and explicitly lists Sarasota coverage.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/sarasota-fl/pool-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.supersharkpools.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.supersharkpools.com/",
+            "status": 200,
+            "finalUrl": "https://www.supersharkpools.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "st-petersburg-fl",
+      "trade": "landscaping",
+      "name": "Living Roots Eco Design",
+      "website": "https://livingrootsecodesign.com/",
+      "marker": "Living Roots",
+      "sources": [
+        "https://livingrootsecodesign.com/"
+      ],
+      "note": "The St. Petersburg business offers direct native landscape design and installation for residential projects in Pinellas County, which includes the city.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/landscaping",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://livingrootsecodesign.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://livingrootsecodesign.com/",
+            "status": 200,
+            "finalUrl": "https://livingrootsecodesign.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "st-petersburg-fl",
+      "trade": "landscaping",
+      "name": "Dirt Girls Garden Design",
+      "website": "https://dirtgirlsgardendesign.com/",
+      "marker": "Dirt Girls",
+      "sources": [
+        "https://dirtgirlsgardendesign.com/"
+      ],
+      "note": "The local team identifies St. Petersburg and directly designs and installs native gardens and landscapes for local homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/landscaping",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://dirtgirlsgardendesign.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://dirtgirlsgardendesign.com/",
+            "status": 200,
+            "finalUrl": "https://dirtgirlsgardendesign.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "st-petersburg-fl",
+      "trade": "landscaping",
+      "name": "S&S Tree and Landscape",
+      "website": "https://centralserviceswest.net/",
+      "marker": "Landscape",
+      "sources": [
+        "https://centralserviceswest.net/"
+      ],
+      "note": "The locally operated company explicitly serves St. Petersburg and installs and maintains residential landscape features for local customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/landscaping",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://centralserviceswest.net/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://centralserviceswest.net/",
+            "status": 200,
+            "finalUrl": "https://centralserviceswest.net/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "dothan-al",
+      "trade": "plumbing",
+      "name": "Mike's Plumbing",
+      "website": "https://www.mikesplumbingdothan.com/",
+      "marker": "Plumbing",
+      "sources": [
+        "https://www.mikesplumbingdothan.com/"
+      ],
+      "note": "The independent company identifies Dothan and directly performs residential plumbing repairs, installations and related work for local households.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/dothan-al/plumbing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.mikesplumbingdothan.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.mikesplumbingdothan.com/",
+            "status": 200,
+            "finalUrl": "https://www.mikesplumbingdothan.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "dothan-al",
+      "trade": "plumbing",
+      "name": "Ski's Plumbing",
+      "website": "https://skisplumbingdothan.com/",
+      "marker": "Plumbing",
+      "sources": [
+        "https://skisplumbingdothan.com/"
+      ],
+      "note": "The locally based operator identifies Dothan service and directly provides home plumbing installation, inspection and repair for residents.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/dothan-al/plumbing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://skisplumbingdothan.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://skisplumbingdothan.com/",
+            "status": 200,
+            "finalUrl": "https://skisplumbingdothan.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "huntsville-al",
+      "trade": "flooring",
+      "name": "Monarch Flooring",
+      "website": "https://monarchflooringinstallation.com/",
+      "marker": "Monarch Flooring",
+      "sources": [
+        "https://monarchflooringinstallation.com/"
+      ],
+      "note": "The regional flooring firm expressly serves Huntsville and directly installs flooring in houses through its local installation service.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/huntsville-al/flooring",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://monarchflooringinstallation.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://monarchflooringinstallation.com/",
+            "status": 200,
+            "finalUrl": "https://monarchflooringinstallation.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "huntsville-al",
+      "trade": "flooring",
+      "name": "Lunko Construction",
+      "website": "https://lunkoconstruction.com/",
+      "marker": "Lunko Construction",
+      "sources": [
+        "https://lunkoconstruction.com/"
+      ],
+      "note": "The local remodeler names Huntsville and directly installs and replaces floors and tile for residential properties.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/huntsville-al/flooring",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://lunkoconstruction.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://lunkoconstruction.com/",
+            "status": 200,
+            "finalUrl": "https://lunkoconstruction.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "huntsville-al",
+      "trade": "flooring",
+      "name": "Anthony McCay Hardwood Flooring",
+      "website": "https://www.anthonymccayhardwoodflooring.com/",
+      "marker": "Anthony McCay",
+      "sources": [
+        "https://www.anthonymccayhardwoodflooring.com/"
+      ],
+      "note": "The local family company in Huntsville directly installs and refinishes hardwood flooring for residential customers.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/huntsville-al/flooring",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.anthonymccayhardwoodflooring.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.anthonymccayhardwoodflooring.com/",
+            "status": 200,
+            "finalUrl": "https://www.anthonymccayhardwoodflooring.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "clearwater-fl",
+      "trade": "electrical",
+      "name": "Dunedin Electric",
+      "website": "https://www.dunedinelectric.com/",
+      "marker": "Dunedin Electric",
+      "sources": [
+        "https://www.dunedinelectric.com/"
+      ],
+      "note": "The family-operated electrical company identifies its Clearwater location and provides direct electrical repair and installation for homes.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/clearwater-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.dunedinelectric.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.dunedinelectric.com/",
+            "status": 200,
+            "finalUrl": "https://www.dunedinelectric.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "clearwater-fl",
+      "trade": "electrical",
+      "name": "Duncanson Electric",
+      "website": "https://duncansonelectric.com/",
+      "marker": "Duncanson",
+      "sources": [
+        "https://duncansonelectric.com/"
+      ],
+      "note": "The regional operator explicitly serves Clearwater and provides direct residential wiring, lighting and electrical repairs to homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/clearwater-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://duncansonelectric.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://duncansonelectric.com/",
+            "status": 200,
+            "finalUrl": "https://duncansonelectric.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "clearwater-fl",
+      "trade": "electrical",
+      "name": "Montgomery Electrical Services",
+      "website": "https://www.montgomeryelec.com/",
+      "marker": "Montgomery Electrical",
+      "sources": [
+        "https://www.montgomeryelec.com/"
+      ],
+      "note": "The Clearwater electrical contractor directly offers home circuit diagnostics, electrical repairs and installations within the Clearwater area.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/clearwater-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.montgomeryelec.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.montgomeryelec.com/",
+            "status": 200,
+            "finalUrl": "https://www.montgomeryelec.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:58:20.985247+00:00"
+    },
+    {
+      "city": "milton-fl",
+      "trade": "auto-mechanics",
+      "name": "Two Step Auto",
+      "website": "https://www.twostepauto.com/",
+      "marker": "Two Step Auto",
+      "sources": [
+        "https://www.twostepauto.com/"
+      ],
+      "note": "The local Milton shop identifies its operating address and directly repairs passenger vehicles, including engines, coolant leaks and power windows.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/milton-fl/auto-mechanics",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.twostepauto.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.twostepauto.com/",
+            "status": 200,
+            "finalUrl": "https://www.twostepauto.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T05:00:46.674547+00:00"
+    },
+    {
+      "city": "daphne-al",
+      "trade": "flooring",
+      "name": "Jubilee Flooring & Decorating",
+      "website": "https://www.jubilee-flooring.com/about/",
+      "marker": "Jubilee Flooring",
+      "sources": [
+        "https://www.jubilee-flooring.com/about/"
+      ],
+      "note": "The Daphne company identifies its local operation and works with homeowners from floor selection through installation on residential remodels.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/daphne-al/flooring",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.jubilee-flooring.com/about/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.jubilee-flooring.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.jubilee-flooring.com/about/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T05:00:46.674547+00:00"
+    },
+    {
+      "city": "fairhope-al",
+      "trade": "electrical",
+      "name": "Professional Electric",
+      "website": "https://proelectricusa.com/about-us/",
+      "marker": "Professional Electric",
+      "sources": [
+        "https://proelectricusa.com/about-us/"
+      ],
+      "note": "The local electrical company posts direct residential repair and installation throughout Baldwin County, which includes Fairhope.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fairhope-al/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://proelectricusa.com/about-us/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://proelectricusa.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://proelectricusa.com/about-us/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T05:00:46.674547+00:00"
+    },
+    {
+      "city": "destin-fl",
+      "trade": "garage-door-repair",
+      "name": "Gulf Line Garage Door Expert",
+      "website": "https://gulflinegaragedoorexpert.com/service-areas/destin-fl/",
+      "marker": "Gulf Line",
+      "sources": [
+        "https://gulflinegaragedoorexpert.com/service-areas/destin-fl/"
+      ],
+      "note": "The Mary Esther repair crew identifies Destin neighborhoods on its regular routes and offers garage door and hardware repairs for local homes.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/destin-fl/garage-door-repair",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://gulflinegaragedoorexpert.com/service-areas/destin-fl/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://gulflinegaragedoorexpert.com/service-areas/destin-fl/",
+            "status": 200,
+            "finalUrl": "https://gulflinegaragedoorexpert.com/service-areas/destin-fl/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:28.761237+00:00"
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "trade": "garage-door-repair",
+      "name": "Gulf Line Garage Door Expert",
+      "website": "https://gulflinegaragedoorexpert.com/service-areas/fort-walton-beach-fl/",
+      "marker": "Gulf Line",
+      "sources": [
+        "https://gulflinegaragedoorexpert.com/service-areas/fort-walton-beach-fl/"
+      ],
+      "note": "The Mary Esther operator explicitly serves Fort Walton Beach household customers with direct garage door repair, spring replacement and related services.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/garage-door-repair",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://gulflinegaragedoorexpert.com/service-areas/fort-walton-beach-fl/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://gulflinegaragedoorexpert.com/service-areas/fort-walton-beach-fl/",
+            "status": 200,
+            "finalUrl": "https://gulflinegaragedoorexpert.com/service-areas/fort-walton-beach-fl/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "crestview-fl",
+      "trade": "garage-door-repair",
+      "name": "Gulf Line Garage Door Expert",
+      "website": "https://gulflinegaragedoorexpert.com/service-areas/crestview-fl/",
+      "marker": "Gulf Line",
+      "sources": [
+        "https://gulflinegaragedoorexpert.com/service-areas/crestview-fl/"
+      ],
+      "note": "The operator names Crestview and explains that its own crew travels from Mary Esther to repair residential garage doors and related equipment.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/crestview-fl/garage-door-repair",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://gulflinegaragedoorexpert.com/service-areas/crestview-fl/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://gulflinegaragedoorexpert.com/service-areas/crestview-fl/",
+            "status": 200,
+            "finalUrl": "https://gulflinegaragedoorexpert.com/service-areas/crestview-fl/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "panama-city-fl",
+      "trade": "tree-service",
+      "name": "TJ's Tree Services",
+      "website": "https://www.tjs-tree-services.com/",
+      "marker": "Tree Services",
+      "sources": [
+        "https://www.tjs-tree-services.com/",
+        "https://www.tjs-tree-services.com/about-us"
+      ],
+      "note": "The local family tree company explicitly serves Panama City and offers direct tree removal and trimming for residential outdoor properties.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/panama-city-fl/tree-service",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.tjs-tree-services.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.tjs-tree-services.com/",
+            "status": 200,
+            "finalUrl": "https://www.tjs-tree-services.com/"
+          },
+          {
+            "url": "https://www.tjs-tree-services.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.tjs-tree-services.com/about-us"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "biloxi-ms",
+      "trade": "roofing",
+      "name": "Castle Roofing",
+      "website": "https://www.castleroofingms.com/",
+      "marker": "Castle Roofing",
+      "sources": [
+        "https://www.castleroofingms.com/"
+      ],
+      "note": "The local roofing company identifies its Biloxi operation and offers direct residential roof replacement and related roof work to homeowners.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/biloxi-ms/roofing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.castleroofingms.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.castleroofingms.com/",
+            "status": 200,
+            "finalUrl": "https://www.castleroofingms.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "gulfport-ms",
+      "trade": "plumbing",
+      "name": "Serv-Flow Plumbing",
+      "website": "https://servflowplumbing.com/",
+      "marker": "Serv Flow",
+      "sources": [
+        "https://servflowplumbing.com/"
+      ],
+      "note": "The family operator is based in Gulfport and directly clears drains and sewer lines and performs related plumbing work for local homes.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/gulfport-ms/plumbing",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://servflowplumbing.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://servflowplumbing.com/",
+            "status": 200,
+            "finalUrl": "https://servflowplumbing.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "electrical",
+      "name": "APS Electrical Solutions",
+      "website": "https://apselectricalsolutions.com/residential",
+      "marker": "APS",
+      "sources": [
+        "https://apselectricalsolutions.com/residential"
+      ],
+      "note": "The Naples electrical company describes direct residential installation, maintenance and repairs and explicitly identifies Naples as the service market.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/naples-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://apselectricalsolutions.com/residential",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://apselectricalsolutions.com/residential",
+            "status": 200,
+            "finalUrl": "https://apselectricalsolutions.com/residential"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "electrical",
+      "name": "EEE Electrical",
+      "website": "https://www.eeeelectricllc.com/about-us",
+      "marker": "EEE Electrical",
+      "sources": [
+        "https://www.eeeelectricllc.com/about-us"
+      ],
+      "note": "The local family electrical contractor identifies Naples as its operating city and directly serves homeowners with electrical installation and repairs.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/naples-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.eeeelectricllc.com/about-us",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.eeeelectricllc.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.eeeelectricllc.com/about-us"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "electrical",
+      "name": "Goodwin Electric",
+      "website": "https://www.mygoodwinelectric.com/electrical-repair-services",
+      "marker": "Goodwin Electric",
+      "sources": [
+        "https://www.mygoodwinelectric.com/electrical-repair-services"
+      ],
+      "note": "The regional electrical company gives its Naples operation and offers direct residential electrical repairs, outlets, panels and wiring services.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/naples-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://www.mygoodwinelectric.com/electrical-repair-services",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://www.mygoodwinelectric.com/electrical-repair-services",
+            "status": 200,
+            "finalUrl": "https://www.mygoodwinelectric.com/electrical-repair-services"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "electrical",
+      "name": "Excel Electric of Naples",
+      "website": "https://excelelectricnaples.com/",
+      "marker": "Excel Electric",
+      "sources": [
+        "https://excelelectricnaples.com/"
+      ],
+      "note": "The local contractor identifies its Naples operation and offers direct residential electrical repair and installation for area homes.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/naples-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://excelelectricnaples.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://excelelectricnaples.com/",
+            "status": 200,
+            "finalUrl": "https://excelelectricnaples.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "electrical",
+      "name": "Lightspeed Electrical Services",
+      "website": "https://lightspeedes.com/",
+      "marker": "Lightspeed Electrical",
+      "sources": [
+        "https://lightspeedes.com/"
+      ],
+      "note": "The Naples electrician explicitly serves local homes and directly performs electrical upgrades, wiring and related work in residential properties.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/naples-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://lightspeedes.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://lightspeedes.com/",
+            "status": 200,
+            "finalUrl": "https://lightspeedes.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "electrical",
+      "name": "The Electric Meister",
+      "website": "https://theelectricmeister.squarespace.com/residential-services",
+      "marker": "Electric Meister",
+      "sources": [
+        "https://theelectricmeister.squarespace.com/residential-services"
+      ],
+      "note": "The Naples company explicitly offers direct electrical repairs, new wiring and installations for homeowners and condo residents in Naples.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/naples-fl/electrical",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://theelectricmeister.squarespace.com/residential-services",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://theelectricmeister.squarespace.com/residential-services",
+            "status": 200,
+            "finalUrl": "https://theelectricmeister.squarespace.com/residential-services"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T04:59:20.423791+00:00"
+    }
+  ],
+  "publication": {
+    "status": "prepared",
+    "newBusinessesLiveVerified": 0,
+    "awaitingDeployment": 59,
+    "awaitingLiveVerification": 0
+  }
+}
