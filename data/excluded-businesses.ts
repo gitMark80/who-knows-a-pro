@@ -188,6 +188,7 @@ export const excludedWebsiteDomains = [
   'allstate.com',
   'amerispec.com',
   'anthonysylvan.com',
+  'apexdki.com',
   'aprobirmingham.com',
   'archadeck.com',
   'auburnmoldremoval.com',

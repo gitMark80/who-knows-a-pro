@@ -40,6 +40,17 @@
           "https://www.ridd.com/locations"
         ],
         "evidence": "RIDD markets one consumer brand for U.S. pest control and lists branches from Utah to Virginia, the Carolinas, Georgia and Florida. Its national footprint extends beyond a single region. The public filter preserves every source record."
+      },
+      {
+        "name": "Apex Restoration DKI",
+        "domains": [
+          "apexdki.com"
+        ],
+        "sources": [
+          "https://apexdki.com/about-us/",
+          "https://apexdki.com/disaster-restoration/"
+        ],
+        "evidence": "The exact business serves Tennessee, North Alabama, North Georgia, Central Texas and Denver under one 12-location home restoration brand. It co-brands with Disaster Kleenup International, confirms membership in the continental network and markets nationwide access to crews and equipment. The public exclusion applies only to this business domain."
       }
     ],
     "baselinePublicChecks": [
@@ -96,6 +107,46 @@
               "name": "RIDD Pest Control",
               "links": [
                 "https://www.ridd.com/"
+              ]
+            }
+          ],
+          "nameMatches": 1,
+          "domainMatches": 1
+        }
+      },
+      {
+        "name": "Apex Restoration DKI",
+        "city": "birmingham-al",
+        "trade": "water-damage-mold-remediation",
+        "website": "https://apexdki.com/location/birmingham-location/",
+        "check": {
+          "page": "https://whoknowsapro.com/birmingham-al/water-damage-mold-remediation",
+          "profileStatus": 200,
+          "exactCards": [
+            {
+              "name": "Apex Restoration DKI",
+              "links": [
+                "https://apexdki.com/location/birmingham-location/"
+              ]
+            }
+          ],
+          "nameMatches": 1,
+          "domainMatches": 1
+        }
+      },
+      {
+        "name": "Apex Restoration DKI",
+        "city": "huntsville-al",
+        "trade": "water-damage-mold-remediation",
+        "website": "https://apexdki.com/location/huntsville-location/",
+        "check": {
+          "page": "https://whoknowsapro.com/huntsville-al/water-damage-mold-remediation",
+          "profileStatus": 200,
+          "exactCards": [
+            {
+              "name": "Apex Restoration DKI",
+              "links": [
+                "https://apexdki.com/location/huntsville-location/"
               ]
             }
           ],
@@ -315,13 +366,6 @@
         "city": "panama-city-fl",
         "trade": "irrigation-sprinkler-repair",
         "blocker": "Discovery located third-party pages. A qualifying working official website could not be confirmed."
-      },
-      {
-        "name": "Apex Restoration DKI",
-        "sources": [
-          "https://apexrestorationdki.com/about-us/"
-        ],
-        "blocker": "The company reports acquisitions and operations outside the Southeast. The exact relationship between the subject business and the national DKI network needs further verification."
       }
     ],
     "withheldAtPageTarget": [
@@ -2439,7 +2483,16 @@
     "liveVerifiedNewBusinessPlacements": 0,
     "liveVerifiedExistingBusinessPlacements": 0,
     "remainingNewBusinessShortfall": 1000,
-    "liveVerification": "pending"
+    "liveVerification": "pending",
+    "firstProductionDeployment": {
+      "sourceCommit": "3a2f7e51bc23931e0a854d893642b929796c237f",
+      "url": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/4fK3iNDSdSXji6TZauw6gt2PLTsK",
+      "state": "READY",
+      "verifiedNewBusinesses": 56,
+      "verifiedNewPlacements": 56,
+      "verifiedExistingPlacements": 3,
+      "nationalListingsSuppressed": 3
+    }
   },
   "validation": {
     "approach": "Baseline name and normalized domain checks against repository directory data and live cards, official destination and content checks, explicit residential service and geography for each placement, existing cap and visibility gates. Full historical audit remains open."
