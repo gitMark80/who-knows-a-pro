@@ -112,8 +112,8 @@
     "fullAudit": false
   },
   "discovery": {
-    "detailedCandidates": 72,
-    "directChecks": 61,
+    "detailedCandidates": 73,
+    "directChecks": 63,
     "existingSourceDomainsRescreened": [
       "adcockflooringal.com",
       "allaboutgaragedoorsinc.com",
@@ -253,13 +253,6 @@
         "reason": "The owner website describes the shop as opening soon. Confirm that direct work for customers has begun before listing."
       },
       {
-        "name": "Beach 2 Bay Appliance Services",
-        "city": "destin-fl",
-        "trade": "appliance-repair",
-        "website": "https://beach2bayappliance.com/destin/",
-        "reason": "The Destin page describes residential appliance service, but the same domain’s Fort Walton Beach route returned unrelated casino content in a source check. Confirm the official website is restored before adding either placement."
-      },
-      {
         "name": "Dr Roof of Alabama",
         "city": "birmingham-al",
         "trade": "roofing",
@@ -327,9 +320,76 @@
         "reason": "Official research verified that the Foley placement already exists."
       }
     ],
-    "pipeline": "The collector sends leads to official-website and service-area review. It does not publish. No five-listing cap prevents qualified source records from being used."
+    "pipeline": "The collector sends leads to official-website and service-area review. It does not publish. No five-listing cap prevents qualified source records from being used.",
+    "revalidatedWebsite": {
+      "name": "Beach 2 Bay Appliance Services",
+      "sourceUrl": "https://beach2bayappliance.com/",
+      "finding": "The current live homepage identifies the business, relevant household repairs and exact service to both cities. The former Destin and Fort Walton Beach subpages returned 404 in direct checks. Only the working current home page is published."
+    }
   },
   "placements": [
+    {
+      "city": "destin-fl",
+      "trade": "appliance-repair",
+      "name": "Beach 2 Bay Appliance Services",
+      "website": "https://beach2bayappliance.com/",
+      "marker": "Beach 2 Bay Appliance Services",
+      "sources": [
+        "https://beach2bayappliance.com/"
+      ],
+      "note": "The Niceville repair operator directly services household refrigerators, washers and dryers and explicitly names Destin on its current official home page.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/destin-fl/appliance-repair",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://beach2bayappliance.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://beach2bayappliance.com/",
+            "status": 200,
+            "finalUrl": "https://beach2bayappliance.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T05:02:45.488963+00:00"
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "trade": "appliance-repair",
+      "name": "Beach 2 Bay Appliance Services",
+      "website": "https://beach2bayappliance.com/",
+      "marker": "Beach 2 Bay Appliance Services",
+      "sources": [
+        "https://beach2bayappliance.com/"
+      ],
+      "note": "The current official home page names Fort Walton Beach and describes the operator’s direct repairs of household dishwashers, dryers and other appliances.",
+      "identityStatus": "new",
+      "check": {
+        "page": "https://whoknowsapro.com/fort-walton-beach-fl/appliance-repair",
+        "publicProfileStatus": 404,
+        "exactCards": [],
+        "nameMatches": 0,
+        "domainMatches": 0,
+        "status": 200,
+        "finalUrl": "https://beach2bayappliance.com/",
+        "websiteIdentityConfirmed": true,
+        "sourceChecks": [
+          {
+            "url": "https://beach2bayappliance.com/",
+            "status": 200,
+            "finalUrl": "https://beach2bayappliance.com/"
+          }
+        ],
+        "blockers": []
+      },
+      "sourceVerifiedAt": "2026-11-23T05:02:45.488963+00:00"
+    },
     {
       "city": "fairhope-al",
       "trade": "electrical",
@@ -2169,7 +2229,8 @@
   "publication": {
     "status": "prepared",
     "newBusinessesLiveVerified": 0,
-    "awaitingDeployment": 59,
-    "awaitingLiveVerification": 0
+    "awaitingDeployment": 61,
+    "awaitingLiveVerification": 0,
+    "initialContentCommit": "be48e738efb89bf74261049ceb9750740401e2d6"
   }
 }
