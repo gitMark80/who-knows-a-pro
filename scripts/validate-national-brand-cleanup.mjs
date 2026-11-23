@@ -65,6 +65,7 @@ for (const website of ['https://www.911restorationmississippigulfcoast.com/', 'h
 }
 
 for (const website of [
+  'https://www.ridd.com/locations/florida/panama-city-fl',
   'https://www.expressoil.com/stores/',
   'https://www.goodyear.com/en-us/shops/AL/Foley/000902293',
   'https://www.goodyearautoservice.com/',

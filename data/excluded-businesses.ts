@@ -295,6 +295,7 @@ export const excludedWebsiteDomains = [
   'rainbowrestores.com',
   'rebath.com',
   'renuityhome.com',
+  'ridd.com',
   'rooterman.com',
   'rootermanhuntsville.com',
   'savatree.com',
