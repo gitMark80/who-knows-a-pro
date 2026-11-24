@@ -520,12 +520,64 @@
         ],
         "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
         "visibilityDecision": "retained on public surfaces; excluded from qualifying credit"
+      },
+      {
+        "name": "ARP Insulation",
+        "city": "crestview-fl",
+        "category": "insulation",
+        "website": "https://www.arpinsulation.com/",
+        "sources": [
+          "https://www.arpinsulation.com/"
+        ],
+        "evidence": "The company lists Central and South Florida or Jacksonville operations. The statewide blanket claim does not establish service in Crestview or Okaloosa County.",
+        "issues": [
+          "unsupported specific geography"
+        ],
+        "publicPage": "https://whoknowsapro.com/crestview-fl/insulation",
+        "exactCards": 1,
+        "sourceVerifiedAt": "2026-11-24T22:57:41.758581+00:00",
+        "visibilityDecision": "retained on public surfaces; excluded from qualifying credit"
+      },
+      {
+        "name": "Integrity Spray Foam",
+        "city": "crestview-fl",
+        "category": "insulation",
+        "website": "https://integrityfoam.com/",
+        "sources": [
+          "https://integrityfoam.com/"
+        ],
+        "evidence": "Official website describes residential insulation and a general statewide offer. Specific Crestview or Okaloosa County coverage was not established.",
+        "issues": [
+          "unsupported specific geography"
+        ],
+        "publicPage": "https://whoknowsapro.com/crestview-fl/insulation",
+        "exactCards": 1,
+        "sourceVerifiedAt": "2026-11-24T22:57:41.758581+00:00",
+        "visibilityDecision": "retained on public surfaces; excluded from qualifying credit"
+      },
+      {
+        "name": "Southern Foam Insulation",
+        "city": "crestview-fl",
+        "category": "insulation",
+        "website": "https://southernfoaminsulation.com/",
+        "sources": [
+          "https://southernfoaminsulation.com/"
+        ],
+        "evidence": "Official site advertises Orlando-area residential insulation. The reviewed official service geography does not include Crestview or Okaloosa County.",
+        "issues": [
+          "unsupported specific geography"
+        ],
+        "publicPage": "https://whoknowsapro.com/crestview-fl/insulation",
+        "exactCards": 1,
+        "sourceVerifiedAt": "2026-11-24T22:57:41.758581+00:00",
+        "visibilityDecision": "retained on public surfaces; excluded from qualifying credit"
       }
     ],
     "retailFixIt": {
       "officialSource": "https://www.retailfixit.com/",
       "publicProfileStatus": 404,
-      "finding": "Official pages market nationwide commercial facilities management and vendor recruitment. Residential locksmith scope and local eligibility are unsupported."
+      "finding": "Official pages market nationwide commercial facilities management and vendor recruitment. Residential locksmith scope and local eligibility are unsupported.",
+      "postDeploymentDirectProfileStatus": 404
     }
   },
   "discovery": {
@@ -813,7 +865,8 @@
         "reason": "Residential landscape work is evidenced, but specific sprinkler repair scope was not established."
       }
     ],
-    "marketWideShortageEstablished": false
+    "marketWideShortageEstablished": false,
+    "distinctPendingEntries": 11
   },
   "placements": [
     {
@@ -827,7 +880,8 @@
         "https://gulfcoastinsulation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/crestview-fl/insulation",
         "profileStatus": 404,
         "finalUrl": "https://gulfcoastinsulation.com/",
@@ -844,7 +898,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/crestview-fl/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://gulfcoastinsulation.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://gulfcoastinsulation.com/",
+            "status": 200,
+            "finalUrl": "https://gulfcoastinsulation.com/"
+          }
+        ],
+        "matches": [
+          [
+            "gulf coast insulation",
+            [
+              "https://gulfcoastinsulation.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "RJ’s Seamless Gutters",
@@ -857,7 +935,8 @@
         "https://www.rjsgutters.net/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/gulf-shores-al/gutters",
         "profileStatus": 404,
         "finalUrl": "https://www.rjsgutters.net/",
@@ -874,7 +953,37 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/gulf-shores-al/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://www.rjsgutters.net/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.rjsgutters.net/",
+            "status": 200,
+            "finalUrl": "https://www.rjsgutters.net/"
+          }
+        ],
+        "matches": [
+          [
+            "rjs seamless gutters",
+            [
+              "https://www.rjsgutters.net/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified",
+      "supportingSources": [
+        {
+          "sourceUrl": "https://www.gulfshoresal.gov/410/About-Gulf-Shores",
+          "evidenceNote": "The city’s official information establishes that Gulf Shores is in Baldwin County. The provider explicitly lists Baldwin County coverage."
+        }
+      ]
     },
     {
       "name": "Star Electric",
@@ -887,7 +996,8 @@
         "https://starelectric.energy/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/montgomery-al/electrical",
         "profileStatus": 404,
         "finalUrl": "https://starelectric.energy/about",
@@ -904,7 +1014,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/montgomery-al/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://starelectric.energy/about",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://starelectric.energy/about",
+            "status": 200,
+            "finalUrl": "https://starelectric.energy/about"
+          }
+        ],
+        "matches": [
+          [
+            "star electric",
+            [
+              "https://starelectric.energy/about"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "JC Electric",
@@ -917,7 +1051,8 @@
         "https://jcellc.net/residential"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/montgomery-al/electrical",
         "profileStatus": 404,
         "finalUrl": "https://jcellc.net/residential",
@@ -934,7 +1069,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/montgomery-al/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://jcellc.net/residential",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://jcellc.net/residential",
+            "status": 200,
+            "finalUrl": "https://jcellc.net/residential"
+          }
+        ],
+        "matches": [
+          [
+            "jc electric",
+            [
+              "https://jcellc.net/residential"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Augusta Horticulture",
@@ -947,7 +1106,8 @@
         "https://www.augustascapes.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/landscaping",
         "profileStatus": 404,
         "finalUrl": "https://www.augustascapes.com/",
@@ -964,7 +1124,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "profileStatus": 200,
+        "finalUrl": "https://www.augustascapes.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.augustascapes.com/",
+            "status": 200,
+            "finalUrl": "https://www.augustascapes.com/"
+          }
+        ],
+        "matches": [
+          [
+            "augusta horticulture",
+            [
+              "https://www.augustascapes.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "H & L Outdoors",
@@ -977,7 +1161,8 @@
         "https://handloutdoors.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/landscaping",
         "profileStatus": 404,
         "finalUrl": "https://handloutdoors.com/about/",
@@ -994,7 +1179,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "profileStatus": 200,
+        "finalUrl": "https://handloutdoors.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://handloutdoors.com/about/",
+            "status": 200,
+            "finalUrl": "https://handloutdoors.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "h l outdoors",
+            [
+              "https://handloutdoors.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Mitchell Turf and Landscapes",
@@ -1007,7 +1216,8 @@
         "https://mitchellturfandlandscapes.com/landscape_installation"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/landscaping",
         "profileStatus": 404,
         "finalUrl": "https://mitchellturfandlandscapes.com/landscape_installation",
@@ -1024,7 +1234,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "profileStatus": 200,
+        "finalUrl": "https://mitchellturfandlandscapes.com/landscape_installation",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://mitchellturfandlandscapes.com/landscape_installation",
+            "status": 200,
+            "finalUrl": "https://mitchellturfandlandscapes.com/landscape_installation"
+          }
+        ],
+        "matches": [
+          [
+            "mitchell turf and landscapes",
+            [
+              "https://mitchellturfandlandscapes.com/landscape_installation"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Nature One",
@@ -1037,7 +1271,8 @@
         "https://natureoneinc.com/kevin-thienpont/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/birmingham-al/landscaping",
         "profileStatus": 404,
         "finalUrl": "https://natureoneinc.com/kevin-thienpont/",
@@ -1054,7 +1289,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/birmingham-al/landscaping",
+        "profileStatus": 200,
+        "finalUrl": "https://natureoneinc.com/kevin-thienpont/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://natureoneinc.com/kevin-thienpont/",
+            "status": 200,
+            "finalUrl": "https://natureoneinc.com/kevin-thienpont/"
+          }
+        ],
+        "matches": [
+          [
+            "nature one",
+            [
+              "https://natureoneinc.com/kevin-thienpont/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Cars Collision",
@@ -1067,7 +1326,8 @@
         "https://carscollisioncenterllc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/huntsville-al/auto-body-collision",
         "profileStatus": 404,
         "finalUrl": "https://carscollisioncenterllc.com/",
@@ -1084,7 +1344,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/huntsville-al/auto-body-collision",
+        "profileStatus": 200,
+        "finalUrl": "https://carscollisioncenterllc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://carscollisioncenterllc.com/",
+            "status": 200,
+            "finalUrl": "https://carscollisioncenterllc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "cars collision",
+            [
+              "https://carscollisioncenterllc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Cajun Foam Insulation",
@@ -1097,7 +1381,8 @@
         "https://www.cajunfoamsprayinsulation.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/baton-rouge-la/insulation",
         "profileStatus": 404,
         "finalUrl": "https://www.cajunfoamsprayinsulation.com/",
@@ -1114,7 +1399,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/baton-rouge-la/insulation",
+        "profileStatus": 200,
+        "finalUrl": "https://www.cajunfoamsprayinsulation.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.cajunfoamsprayinsulation.com/",
+            "status": 200,
+            "finalUrl": "https://www.cajunfoamsprayinsulation.com/"
+          }
+        ],
+        "matches": [
+          [
+            "cajun foam insulation",
+            [
+              "https://www.cajunfoamsprayinsulation.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Saia Plumbing",
@@ -1127,7 +1436,8 @@
         "https://www.saiaplumbinginc.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.saiaplumbinginc.com/about/",
@@ -1144,7 +1454,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.saiaplumbinginc.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.saiaplumbinginc.com/about/",
+            "status": 200,
+            "finalUrl": "https://www.saiaplumbinginc.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "saia plumbing",
+            [
+              "https://www.saiaplumbinginc.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Plumb & Square",
@@ -1157,7 +1491,8 @@
         "https://www.plumbandsquare.com/about-us"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.plumbandsquare.com/about-us",
@@ -1174,7 +1509,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.plumbandsquare.com/about-us",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.plumbandsquare.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.plumbandsquare.com/about-us"
+          }
+        ],
+        "matches": [
+          [
+            "plumb square",
+            [
+              "https://www.plumbandsquare.com/about-us"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Pipes R Us Plumbing",
@@ -1187,7 +1546,8 @@
         "https://pipesrusplumbing.net/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://pipesrusplumbing.net/",
@@ -1204,7 +1564,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://pipesrusplumbing.net/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://pipesrusplumbing.net/",
+            "status": 200,
+            "finalUrl": "https://pipesrusplumbing.net/"
+          }
+        ],
+        "matches": [
+          [
+            "pipes r us plumbing",
+            [
+              "https://pipesrusplumbing.net/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "G Fox Plumbing",
@@ -1217,7 +1601,8 @@
         "https://www.gfoxplumbing.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.gfoxplumbing.com/about",
@@ -1234,7 +1619,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.gfoxplumbing.com/about",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.gfoxplumbing.com/about",
+            "status": 200,
+            "finalUrl": "https://www.gfoxplumbing.com/about"
+          }
+        ],
+        "matches": [
+          [
+            "g fox plumbing",
+            [
+              "https://www.gfoxplumbing.com/about"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Beep-Me Plumbing",
@@ -1247,7 +1656,8 @@
         "https://www.beep-meplumbing.com/services"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.beep-meplumbing.com/services",
@@ -1264,7 +1674,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.beep-meplumbing.com/services",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.beep-meplumbing.com/services",
+            "status": 200,
+            "finalUrl": "https://www.beep-meplumbing.com/services"
+          }
+        ],
+        "matches": [
+          [
+            "beep me plumbing",
+            [
+              "https://www.beep-meplumbing.com/services"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Donnie’s Plumbing",
@@ -1277,7 +1711,8 @@
         "https://donniesplumbing.com/about.html"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://donniesplumbing.com/about.html",
@@ -1294,7 +1729,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://donniesplumbing.com/about.html",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://donniesplumbing.com/about.html",
+            "status": 200,
+            "finalUrl": "https://donniesplumbing.com/about.html"
+          }
+        ],
+        "matches": [
+          [
+            "donnies plumbing",
+            [
+              "https://donniesplumbing.com/about.html"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Noel’s Plumbing",
@@ -1307,7 +1766,8 @@
         "https://www.noelsplumbing.net/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.noelsplumbing.net/",
@@ -1324,7 +1784,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.noelsplumbing.net/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.noelsplumbing.net/",
+            "status": 200,
+            "finalUrl": "https://www.noelsplumbing.net/"
+          }
+        ],
+        "matches": [
+          [
+            "noels plumbing",
+            [
+              "https://www.noelsplumbing.net/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Bienvenu Brothers",
@@ -1337,7 +1821,8 @@
         "https://www.bienvenu.com/services/plumbing/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.bienvenu.com/services/plumbing/",
@@ -1354,7 +1839,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.bienvenu.com/services/plumbing/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.bienvenu.com/services/plumbing/",
+            "status": 200,
+            "finalUrl": "https://www.bienvenu.com/services/plumbing/"
+          }
+        ],
+        "matches": [
+          [
+            "bienvenu brothers",
+            [
+              "https://www.bienvenu.com/services/plumbing/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Harold’s Plumbing",
@@ -1367,7 +1876,8 @@
         "https://www.haroldsplumbing.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
         "profileStatus": 404,
         "finalUrl": "https://www.haroldsplumbing.com/about",
@@ -1384,7 +1894,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/new-orleans-la/plumbing",
+        "profileStatus": 200,
+        "finalUrl": "https://www.haroldsplumbing.com/about",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.haroldsplumbing.com/about",
+            "status": 200,
+            "finalUrl": "https://www.haroldsplumbing.com/about"
+          }
+        ],
+        "matches": [
+          [
+            "harolds plumbing",
+            [
+              "https://www.haroldsplumbing.com/about"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Five Star Heating and Air",
@@ -1397,7 +1931,8 @@
         "https://fivestarheatingandair.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://fivestarheatingandair.com/",
@@ -1414,7 +1949,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://fivestarheatingandair.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://fivestarheatingandair.com/",
+            "status": 200,
+            "finalUrl": "https://fivestarheatingandair.com/"
+          }
+        ],
+        "matches": [
+          [
+            "five star heating and air",
+            [
+              "https://fivestarheatingandair.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Air Tolentino",
@@ -1427,7 +1986,8 @@
         "https://www.airtolentino.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://www.airtolentino.com/",
@@ -1444,7 +2004,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://www.airtolentino.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.airtolentino.com/",
+            "status": 200,
+            "finalUrl": "https://www.airtolentino.com/"
+          }
+        ],
+        "matches": [
+          [
+            "air tolentino",
+            [
+              "https://www.airtolentino.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Eagle Air Jax",
@@ -1457,7 +2041,8 @@
         "https://eagleairjax.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://eagleairjax.com/",
@@ -1474,7 +2059,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://eagleairjax.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://eagleairjax.com/",
+            "status": 200,
+            "finalUrl": "https://eagleairjax.com/"
+          }
+        ],
+        "matches": [
+          [
+            "eagle air jax",
+            [
+              "https://eagleairjax.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Weather Engineers",
@@ -1487,7 +2096,8 @@
         "https://weatherengineers.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://weatherengineers.com/",
@@ -1504,7 +2114,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://weatherengineers.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://weatherengineers.com/",
+            "status": 200,
+            "finalUrl": "https://weatherengineers.com/"
+          }
+        ],
+        "matches": [
+          [
+            "weather engineers",
+            [
+              "https://weatherengineers.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Bold City Heating & Air",
@@ -1517,7 +2151,8 @@
         "https://boldcityac.com/about-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://boldcityac.com/about-us/",
@@ -1534,7 +2169,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://boldcityac.com/about-us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://boldcityac.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://boldcityac.com/about-us/"
+          }
+        ],
+        "matches": [
+          [
+            "bold city heating air",
+            [
+              "https://boldcityac.com/about-us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Taylor’s Heating & Air",
@@ -1547,7 +2206,8 @@
         "https://taylorsheatingandair.net/residential-heating-air-conditioning-ventilation-services-jacksonville-florida.html"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://taylorsheatingandair.net/residential-heating-air-conditioning-ventilation-services-jacksonville-florida.html",
@@ -1564,7 +2224,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://taylorsheatingandair.net/residential-heating-air-conditioning-ventilation-services-jacksonville-florida.html",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://taylorsheatingandair.net/residential-heating-air-conditioning-ventilation-services-jacksonville-florida.html",
+            "status": 200,
+            "finalUrl": "https://taylorsheatingandair.net/residential-heating-air-conditioning-ventilation-services-jacksonville-florida.html"
+          }
+        ],
+        "matches": [
+          [
+            "taylors heating air",
+            [
+              "https://taylorsheatingandair.net/residential-heating-air-conditioning-ventilation-services-jacksonville-florida.html"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "ICEBURG Heating & Air",
@@ -1577,7 +2261,8 @@
         "https://www.iceburgac.com/about-us"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://www.iceburgac.com/about-us",
@@ -1594,7 +2279,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://www.iceburgac.com/about-us",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.iceburgac.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.iceburgac.com/about-us"
+          }
+        ],
+        "matches": [
+          [
+            "iceburg heating air",
+            [
+              "https://www.iceburgac.com/about-us"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Emergency Heating and Air",
@@ -1607,7 +2316,8 @@
         "https://www.emergencyhvacjax.com/about-us"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://www.emergencyhvacjax.com/about-us",
@@ -1624,7 +2334,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://www.emergencyhvacjax.com/about-us",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.emergencyhvacjax.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.emergencyhvacjax.com/about-us"
+          }
+        ],
+        "matches": [
+          [
+            "emergency heating and air",
+            [
+              "https://www.emergencyhvacjax.com/about-us"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Mighty Air",
@@ -1637,7 +2371,8 @@
         "https://mightyairinc.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
         "profileStatus": 404,
         "finalUrl": "https://mightyairinc.com/about/",
@@ -1654,7 +2389,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/jacksonville-fl/hvac",
+        "profileStatus": 200,
+        "finalUrl": "https://mightyairinc.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://mightyairinc.com/about/",
+            "status": 200,
+            "finalUrl": "https://mightyairinc.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "mighty air",
+            [
+              "https://mightyairinc.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Absolute Seamless Gutters",
@@ -1667,7 +2426,8 @@
         "https://www.absoluteguttersorlando.com/about-us"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://www.absoluteguttersorlando.com/about-us",
@@ -1684,7 +2444,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://www.absoluteguttersorlando.com/about-us",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.absoluteguttersorlando.com/about-us",
+            "status": 200,
+            "finalUrl": "https://www.absoluteguttersorlando.com/about-us"
+          }
+        ],
+        "matches": [
+          [
+            "absolute seamless gutters",
+            [
+              "https://www.absoluteguttersorlando.com/about-us"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Flod Services",
@@ -1697,7 +2481,8 @@
         "https://flodservices.com/services"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://flodservices.com/services",
@@ -1714,7 +2499,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://flodservices.com/services",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://flodservices.com/services",
+            "status": 200,
+            "finalUrl": "https://flodservices.com/services"
+          }
+        ],
+        "matches": [
+          [
+            "flod services",
+            [
+              "https://flodservices.com/services"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Assure-U Roofing",
@@ -1727,7 +2536,8 @@
         "https://assure-u.net/services/gutter-installation"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://www.assure-u.net/services/gutter-installation",
@@ -1744,7 +2554,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://www.assure-u.net/services/gutter-installation",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://assure-u.net/services/gutter-installation",
+            "status": 200,
+            "finalUrl": "https://www.assure-u.net/services/gutter-installation"
+          }
+        ],
+        "matches": [
+          [
+            "assure u roofing",
+            [
+              "https://assure-u.net/services/gutter-installation"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "O’Neill Seamless Gutters",
@@ -1757,7 +2591,8 @@
         "https://oneillseamlessgutters.com/orlando/gutters-installation-orlando-florida/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/orlando-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://oneillseamlessgutters.com/orlando/gutters-installation-orlando-florida/",
@@ -1774,7 +2609,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/orlando-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://oneillseamlessgutters.com/orlando/gutters-installation-orlando-florida/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://oneillseamlessgutters.com/orlando/gutters-installation-orlando-florida/",
+            "status": 200,
+            "finalUrl": "https://oneillseamlessgutters.com/orlando/gutters-installation-orlando-florida/"
+          }
+        ],
+        "matches": [
+          [
+            "oneill seamless gutters",
+            [
+              "https://oneillseamlessgutters.com/orlando/gutters-installation-orlando-florida/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Artur Company",
@@ -1787,7 +2646,8 @@
         "https://arturtech.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://arturtech.com/about/",
@@ -1804,7 +2664,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://arturtech.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://arturtech.com/about/",
+            "status": 200,
+            "finalUrl": "https://arturtech.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "artur company",
+            [
+              "https://arturtech.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Appliance Services LLC",
@@ -1817,7 +2701,8 @@
         "https://www.applianceservicesusa.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://www.applianceservicesusa.com/",
@@ -1834,7 +2719,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://www.applianceservicesusa.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.applianceservicesusa.com/",
+            "status": 200,
+            "finalUrl": "https://www.applianceservicesusa.com/"
+          }
+        ],
+        "matches": [
+          [
+            "appliance services llc",
+            [
+              "https://www.applianceservicesusa.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Ralph’s Appliance and Air Conditioning Repair",
@@ -1847,7 +2756,8 @@
         "https://www.ralphsappliancerepair.com/us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://www.ralphsappliancerepair.com/us/",
@@ -1864,7 +2774,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://www.ralphsappliancerepair.com/us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.ralphsappliancerepair.com/us/",
+            "status": 200,
+            "finalUrl": "https://www.ralphsappliancerepair.com/us/"
+          }
+        ],
+        "matches": [
+          [
+            "ralphs appliance and air conditioning repair",
+            [
+              "https://www.ralphsappliancerepair.com/us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "ABC Used Appliances and Service",
@@ -1877,7 +2811,8 @@
         "https://tampausedappliances.com/about-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://tampausedappliances.com/about-us/",
@@ -1894,7 +2829,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://tampausedappliances.com/about-us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://tampausedappliances.com/about-us/",
+            "status": 200,
+            "finalUrl": "https://tampausedappliances.com/about-us/"
+          }
+        ],
+        "matches": [
+          [
+            "abc used appliances and service",
+            [
+              "https://tampausedappliances.com/about-us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "MonoTech",
@@ -1907,7 +2866,8 @@
         "https://monotechfl.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://monotechfl.com/",
@@ -1924,7 +2884,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://monotechfl.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://monotechfl.com/",
+            "status": 200,
+            "finalUrl": "https://monotechfl.com/"
+          }
+        ],
+        "matches": [
+          [
+            "monotech",
+            [
+              "https://monotechfl.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Fix Appliance",
@@ -1937,7 +2921,8 @@
         "https://fixappliance.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://fixappliance.com/about/",
@@ -1954,7 +2939,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/tampa-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://fixappliance.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://fixappliance.com/about/",
+            "status": 200,
+            "finalUrl": "https://fixappliance.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "fix appliance",
+            [
+              "https://fixappliance.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Aqua Glimmer Pool Services",
@@ -1967,7 +2976,8 @@
         "https://www.aquaglimmerpoolservices.com/pool-cleaning-clearwater"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://www.aquaglimmerpoolservices.com/pool-cleaning-clearwater",
@@ -1984,7 +2994,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.aquaglimmerpoolservices.com/pool-cleaning-clearwater",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.aquaglimmerpoolservices.com/pool-cleaning-clearwater",
+            "status": 200,
+            "finalUrl": "https://www.aquaglimmerpoolservices.com/pool-cleaning-clearwater"
+          }
+        ],
+        "matches": [
+          [
+            "aqua glimmer pool services",
+            [
+              "https://www.aquaglimmerpoolservices.com/pool-cleaning-clearwater"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Bayside Pool Service",
@@ -1997,7 +3031,8 @@
         "https://baysidepoolservice.com/services/residential"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://baysidepoolservice.com/services/residential",
@@ -2014,7 +3049,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://baysidepoolservice.com/services/residential",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://baysidepoolservice.com/services/residential",
+            "status": 200,
+            "finalUrl": "https://baysidepoolservice.com/services/residential"
+          }
+        ],
+        "matches": [
+          [
+            "bayside pool service",
+            [
+              "https://baysidepoolservice.com/services/residential"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Point of Pines Pools & Service",
@@ -2027,7 +3086,8 @@
         "https://poppools.com/service-areas/clearwater-fl/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://poppools.com/service-areas/clearwater-fl/",
@@ -2044,7 +3104,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://poppools.com/service-areas/clearwater-fl/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://poppools.com/service-areas/clearwater-fl/",
+            "status": 200,
+            "finalUrl": "https://poppools.com/service-areas/clearwater-fl/"
+          }
+        ],
+        "matches": [
+          [
+            "point of pines pools service",
+            [
+              "https://poppools.com/service-areas/clearwater-fl/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Clear Waters Pool Care",
@@ -2057,7 +3141,8 @@
         "https://www.clearwaterspc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://clearwaterspc.com/",
@@ -2074,7 +3159,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://clearwaterspc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.clearwaterspc.com/",
+            "status": 200,
+            "finalUrl": "https://clearwaterspc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "clear waters pool care",
+            [
+              "https://www.clearwaterspc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Gulf Coast Pool Care",
@@ -2087,7 +3196,8 @@
         "https://www.gulfcoastpoolcarefl.com/clearwater-pool-service"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://www.gulfcoastpoolcarefl.com/clearwater-pool-service",
@@ -2104,7 +3214,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.gulfcoastpoolcarefl.com/clearwater-pool-service",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.gulfcoastpoolcarefl.com/clearwater-pool-service",
+            "status": 200,
+            "finalUrl": "https://www.gulfcoastpoolcarefl.com/clearwater-pool-service"
+          }
+        ],
+        "matches": [
+          [
+            "gulf coast pool care",
+            [
+              "https://www.gulfcoastpoolcarefl.com/clearwater-pool-service"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Clear Wave Pool Cleaning",
@@ -2117,7 +3251,8 @@
         "https://clearwavepoolsllc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
         "profileStatus": 404,
         "finalUrl": "https://clearwavepoolsllc.com/",
@@ -2134,7 +3269,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/clearwater-fl/pool-service",
+        "profileStatus": 200,
+        "finalUrl": "https://clearwavepoolsllc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://clearwavepoolsllc.com/",
+            "status": 200,
+            "finalUrl": "https://clearwavepoolsllc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "clear wave pool cleaning",
+            [
+              "https://clearwavepoolsllc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Gutters Plus Soffit and Fascia",
@@ -2147,7 +3306,8 @@
         "https://www.guttersplusfl.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://www.guttersplusfl.com/",
@@ -2164,7 +3324,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://www.guttersplusfl.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.guttersplusfl.com/",
+            "status": 200,
+            "finalUrl": "https://www.guttersplusfl.com/"
+          }
+        ],
+        "matches": [
+          [
+            "gutters plus soffit and fascia",
+            [
+              "https://www.guttersplusfl.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "All Seamless Gutters",
@@ -2177,7 +3361,8 @@
         "https://www.allseamlessgutters.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/st-petersburg-fl/gutters",
         "profileStatus": 404,
         "finalUrl": "https://www.allseamlessgutters.com/",
@@ -2194,7 +3379,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/st-petersburg-fl/gutters",
+        "profileStatus": 200,
+        "finalUrl": "https://www.allseamlessgutters.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.allseamlessgutters.com/",
+            "status": 200,
+            "finalUrl": "https://www.allseamlessgutters.com/"
+          }
+        ],
+        "matches": [
+          [
+            "all seamless gutters",
+            [
+              "https://www.allseamlessgutters.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Simply Trees",
@@ -2207,7 +3416,8 @@
         "https://simplytreesfl.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
         "profileStatus": 404,
         "finalUrl": "https://simplytreesfl.com/about",
@@ -2224,7 +3434,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
+        "profileStatus": 200,
+        "finalUrl": "https://simplytreesfl.com/about",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://simplytreesfl.com/about",
+            "status": 200,
+            "finalUrl": "https://simplytreesfl.com/about"
+          }
+        ],
+        "matches": [
+          [
+            "simply trees",
+            [
+              "https://simplytreesfl.com/about"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Sarasota Tree Service Pros",
@@ -2237,7 +3471,8 @@
         "https://www.sarasotatreeservicepros.com/about"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
         "profileStatus": 404,
         "finalUrl": "https://www.sarasotatreeservicepros.com/about",
@@ -2254,7 +3489,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.sarasotatreeservicepros.com/about",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.sarasotatreeservicepros.com/about",
+            "status": 200,
+            "finalUrl": "https://www.sarasotatreeservicepros.com/about"
+          }
+        ],
+        "matches": [
+          [
+            "sarasota tree service pros",
+            [
+              "https://www.sarasotatreeservicepros.com/about"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Harley’s Tree Service",
@@ -2267,7 +3526,8 @@
         "https://harleystree.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
         "profileStatus": 404,
         "finalUrl": "https://harleystree.com/",
@@ -2284,7 +3544,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
+        "profileStatus": 200,
+        "finalUrl": "https://harleystree.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://harleystree.com/",
+            "status": 200,
+            "finalUrl": "https://harleystree.com/"
+          }
+        ],
+        "matches": [
+          [
+            "harleys tree service",
+            [
+              "https://harleystree.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Bouie Tree",
@@ -2297,7 +3581,8 @@
         "https://www.bouietree.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
         "profileStatus": 404,
         "finalUrl": "https://www.bouietree.com/",
@@ -2314,7 +3599,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
+        "profileStatus": 200,
+        "finalUrl": "https://www.bouietree.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.bouietree.com/",
+            "status": 200,
+            "finalUrl": "https://www.bouietree.com/"
+          }
+        ],
+        "matches": [
+          [
+            "bouie tree",
+            [
+              "https://www.bouietree.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Eagle Eye Tree and Land Services",
@@ -2327,7 +3636,8 @@
         "https://eagleeyetreeservice.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
         "profileStatus": 404,
         "finalUrl": "https://eagleeyetreeservice.com/",
@@ -2344,7 +3654,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/sarasota-fl/tree-service",
+        "profileStatus": 200,
+        "finalUrl": "https://eagleeyetreeservice.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://eagleeyetreeservice.com/",
+            "status": 200,
+            "finalUrl": "https://eagleeyetreeservice.com/"
+          }
+        ],
+        "matches": [
+          [
+            "eagle eye tree and land services",
+            [
+              "https://eagleeyetreeservice.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "West Coast Garage Doors",
@@ -2357,7 +3691,8 @@
         "https://www.westcoastgaragedoorsswfl.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/fort-myers-fl/garage-door-repair",
         "profileStatus": 404,
         "finalUrl": "https://www.westcoastgaragedoorsswfl.com/",
@@ -2374,7 +3709,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/fort-myers-fl/garage-door-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://www.westcoastgaragedoorsswfl.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.westcoastgaragedoorsswfl.com/",
+            "status": 200,
+            "finalUrl": "https://www.westcoastgaragedoorsswfl.com/"
+          }
+        ],
+        "matches": [
+          [
+            "west coast garage doors",
+            [
+              "https://www.westcoastgaragedoorsswfl.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Eddie’s Garage Door",
@@ -2387,7 +3746,8 @@
         "https://eddiesgaragedoorusa.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/fort-myers-fl/garage-door-repair",
         "profileStatus": 404,
         "finalUrl": "https://eddiesgaragedoorusa.com/about/",
@@ -2404,7 +3764,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/fort-myers-fl/garage-door-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://eddiesgaragedoorusa.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://eddiesgaragedoorusa.com/about/",
+            "status": 200,
+            "finalUrl": "https://eddiesgaragedoorusa.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "eddies garage door",
+            [
+              "https://eddiesgaragedoorusa.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Creative Tile & Hardwood Floors",
@@ -2417,7 +3801,8 @@
         "https://ctc-naples.com/meet-us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://ctc-naples.com/meet-us/",
@@ -2434,7 +3819,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://ctc-naples.com/meet-us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://ctc-naples.com/meet-us/",
+            "status": 200,
+            "finalUrl": "https://ctc-naples.com/meet-us/"
+          }
+        ],
+        "matches": [
+          [
+            "creative tile hardwood floors",
+            [
+              "https://ctc-naples.com/meet-us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "The Floor Meisters",
@@ -2447,7 +3856,8 @@
         "https://floormeisters.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://floormeisters.com/",
@@ -2464,7 +3874,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://floormeisters.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://floormeisters.com/",
+            "status": 200,
+            "finalUrl": "https://floormeisters.com/"
+          }
+        ],
+        "matches": [
+          [
+            "the floor meisters",
+            [
+              "https://floormeisters.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Robert’s Flooring Solutions & Design",
@@ -2477,7 +3911,8 @@
         "https://robertsflooringsolutions.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://robertsflooringsolutions.com/",
@@ -2494,7 +3929,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://robertsflooringsolutions.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://robertsflooringsolutions.com/",
+            "status": 200,
+            "finalUrl": "https://robertsflooringsolutions.com/"
+          }
+        ],
+        "matches": [
+          [
+            "roberts flooring solutions design",
+            [
+              "https://robertsflooringsolutions.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "ProFloors & Cabinets",
@@ -2507,7 +3966,8 @@
         "https://profloors.biz/our-story"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://profloors.biz/our-story",
@@ -2524,7 +3984,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://profloors.biz/our-story",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://profloors.biz/our-story",
+            "status": 200,
+            "finalUrl": "https://profloors.biz/our-story"
+          }
+        ],
+        "matches": [
+          [
+            "profloors cabinets",
+            [
+              "https://profloors.biz/our-story"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "CDR Flooring",
@@ -2537,7 +4021,8 @@
         "https://www.cdrflooringllc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/naples-fl/flooring",
         "profileStatus": 404,
         "finalUrl": "https://www.cdrflooringllc.com/",
@@ -2554,7 +4039,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/naples-fl/flooring",
+        "profileStatus": 200,
+        "finalUrl": "https://www.cdrflooringllc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.cdrflooringllc.com/",
+            "status": 200,
+            "finalUrl": "https://www.cdrflooringllc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "cdr flooring",
+            [
+              "https://www.cdrflooringllc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Oliver Perry Electric",
@@ -2567,7 +4076,8 @@
         "https://oliverperryelectric.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://oliverperryelectric.com/",
@@ -2584,7 +4094,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://oliverperryelectric.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://oliverperryelectric.com/",
+            "status": 200,
+            "finalUrl": "https://oliverperryelectric.com/"
+          }
+        ],
+        "matches": [
+          [
+            "oliver perry electric",
+            [
+              "https://oliverperryelectric.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Power4 Electric",
@@ -2597,7 +4131,8 @@
         "https://power4electric.com/about/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://power4electric.com/about/",
@@ -2614,7 +4149,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://power4electric.com/about/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://power4electric.com/about/",
+            "status": 200,
+            "finalUrl": "https://power4electric.com/about/"
+          }
+        ],
+        "matches": [
+          [
+            "power4 electric",
+            [
+              "https://power4electric.com/about/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Quintana Electric Brothers",
@@ -2627,7 +4186,8 @@
         "https://www.quintanaelectricbros.com/about-us.html"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://www.quintanaelectricbros.com/about-us.html",
@@ -2644,7 +4204,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://www.quintanaelectricbros.com/about-us.html",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.quintanaelectricbros.com/about-us.html",
+            "status": 200,
+            "finalUrl": "https://www.quintanaelectricbros.com/about-us.html"
+          }
+        ],
+        "matches": [
+          [
+            "quintana electric brothers",
+            [
+              "https://www.quintanaelectricbros.com/about-us.html"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Langer Electric Services",
@@ -2657,7 +4241,8 @@
         "https://www.langerelectricservices.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://www.langerelectricservices.com/",
@@ -2674,7 +4259,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://www.langerelectricservices.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.langerelectricservices.com/",
+            "status": 200,
+            "finalUrl": "https://www.langerelectricservices.com/"
+          }
+        ],
+        "matches": [
+          [
+            "langer electric services",
+            [
+              "https://www.langerelectricservices.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Fuze Electric Services",
@@ -2687,7 +4296,8 @@
         "https://www.4fuze.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://www.4fuze.com/",
@@ -2704,7 +4314,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://www.4fuze.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.4fuze.com/",
+            "status": 200,
+            "finalUrl": "https://www.4fuze.com/"
+          }
+        ],
+        "matches": [
+          [
+            "fuze electric services",
+            [
+              "https://www.4fuze.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Y&M Electrical Contractor",
@@ -2717,7 +4351,8 @@
         "https://www.ymelectricc.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://www.ymelectricc.com/",
@@ -2734,7 +4369,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://www.ymelectricc.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://www.ymelectricc.com/",
+            "status": 200,
+            "finalUrl": "https://www.ymelectricc.com/"
+          }
+        ],
+        "matches": [
+          [
+            "y m electrical contractor",
+            [
+              "https://www.ymelectricc.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Daylight Electric",
@@ -2747,7 +4406,8 @@
         "https://daylightelectric.com/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/miami-fl/electrical",
         "profileStatus": 404,
         "finalUrl": "https://daylightelectric.com/",
@@ -2764,7 +4424,31 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/miami-fl/electrical",
+        "profileStatus": 200,
+        "finalUrl": "https://daylightelectric.com/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://daylightelectric.com/",
+            "status": 200,
+            "finalUrl": "https://daylightelectric.com/"
+          }
+        ],
+        "matches": [
+          [
+            "daylight electric",
+            [
+              "https://daylightelectric.com/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     },
     {
       "name": "Lurico Appliance Repair",
@@ -2777,7 +4461,8 @@
         "https://lurico.us/"
       ],
       "identityStatus": "new",
-      "check": {
+      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00",
+      "baselineCheck": {
         "page": "https://whoknowsapro.com/west-palm-beach-fl/appliance-repair",
         "profileStatus": 404,
         "finalUrl": "https://lurico.us/",
@@ -2794,18 +4479,73 @@
         "exactCards": 0,
         "blockers": []
       },
-      "sourceVerifiedAt": "2026-11-24T22:54:20.710138+00:00"
+      "liveCheck": {
+        "page": "https://whoknowsapro.com/west-palm-beach-fl/appliance-repair",
+        "profileStatus": 200,
+        "finalUrl": "https://lurico.us/",
+        "status": 200,
+        "websiteIdentityConfirmed": true,
+        "sources": [
+          {
+            "url": "https://lurico.us/",
+            "status": 200,
+            "finalUrl": "https://lurico.us/"
+          }
+        ],
+        "matches": [
+          [
+            "lurico appliance repair",
+            [
+              "https://lurico.us/"
+            ]
+          ]
+        ],
+        "exactCards": 1,
+        "blockers": []
+      },
+      "publicationStatus": "live-verified"
     }
   ],
   "publication": {
-    "status": "staged",
+    "status": "deployed and live-verified",
     "targetDistinctNewBusinesses": 1000,
     "distinctNewBusinessesInSource": 66,
     "newBusinessPlacementsInSource": 66,
     "existingBusinessPlacementsInSource": 0,
-    "liveVerification": "pending"
+    "liveVerification": "complete for this batch",
+    "productionSourceCommit": "d03552e0ce1a5e5c38bd4b731a58318a1a51b241",
+    "productionDeployment": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/FMG8fJbt9DGet3LmBpT5SpVjkmAg",
+    "productionDeploymentState": "READY",
+    "liveVerificationAt": "2026-11-24T22:57:41.758581+00:00",
+    "liveVerifiedNewBusinesses": 66,
+    "liveVerifiedNewBusinessPlacements": 66,
+    "liveVerifiedExistingBusinessPlacements": 0,
+    "newBusinessShortfall": 934,
+    "placementsAwaitingDeployment": 0,
+    "placementsAwaitingLiveVerification": 0,
+    "verificationBlockers": []
   },
   "validation": {
-    "candidateCollector": "The repository collector is a dry-run discovery tool and does not publish. The verified importer has no five-placement cap."
+    "candidateCollector": "The repository collector is a dry-run discovery tool and does not publish. The verified importer has no five-placement cap.",
+    "build": "passed",
+    "lint": "passed",
+    "schemaCatalogDuplicatesPlacements": "passed",
+    "approvalAndNonTest": "passed",
+    "nationalDomainPolicy": "passed",
+    "liveCityCategoryCountAudit": "passed",
+    "countReconciliation": "matched"
+  },
+  "coverageAfter": {
+    "totalPages": 1120,
+    "displayedPlacements": 14011,
+    "displayedAtLeast20": 247,
+    "displayedBelow20": 873,
+    "displayedEmpty": 0,
+    "pagesNewlyCertifiedAt20Qualified": 0,
+    "qualifyingCoverageAtDisplayed20Plus": "unaudited",
+    "qualifyingDeficitExact": null,
+    "qualifyingDeficitLowerBoundFromDisplayedCounts": 8694,
+    "unexpectedDisplayedDeltas": [],
+    "coverageMatrix": "reports/live-coverage-fill1000df-2026-11-24.csv"
   }
 }
