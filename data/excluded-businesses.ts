@@ -37,6 +37,10 @@ export const excludedWebsiteDomains = [
   'codypools.com',
   'challengerpools.com',
 
+  // Large pool-service brands operating in separate US regions.
+  'bluescience.com',
+  'pooltroopers.com',
+
   // National automotive service chains and the Rollins Fox Pest Control brand.
   'expressoil.com',
   'goodyear.com',
