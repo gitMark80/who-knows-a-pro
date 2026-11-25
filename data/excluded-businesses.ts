@@ -27,6 +27,12 @@ export const excludedWebsiteDomains = [
   'brockgaragedoors.com',
   'carpetonehuntsville.com',
 
+  // National service networks and locally operated locations that use national brands.
+  'carpetlandusaal.com',
+  'garagedoorsrepairs.us',
+  'precisiondoortallahassee.com',
+  'springhillgaragedoorsfl.com',
+
   // National automotive service chains and the Rollins Fox Pest Control brand.
   'expressoil.com',
   'goodyear.com',
