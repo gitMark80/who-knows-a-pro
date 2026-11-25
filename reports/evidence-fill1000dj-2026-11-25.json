@@ -1,0 +1,3010 @@
+{
+  "runDate": "2026-11-25",
+  "baselineCommit": "6ffb9cded159d07c053abefc35293455e2c1b9eb",
+  "baselineTree": "c3056ab459b395e8724c4815febe2a0dc3dae12e",
+  "previousCheckpoint": "reports/progress-fill1000di-2026-11-25.md",
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "includesGraytonBeach": true,
+    "includesPensacolaBeach": false
+  },
+  "baselineCoverage": {
+    "publicPages": 1120,
+    "displayedPlacements": 14324,
+    "displayedAtLeast20": 246,
+    "displayedBelow20": 874,
+    "displayedEmpty": 0,
+    "displayedDeficit": 8381,
+    "qualifyingDeficitExact": null
+  },
+  "liveCoverage": {
+    "publicPages": 1120,
+    "displayedPlacements": 14324,
+    "displayedAtLeast20": 246,
+    "displayedBelow20": 874,
+    "displayedEmpty": 0,
+    "displayedDeficit": 8381,
+    "qualifyingDeficitExact": null,
+    "qualifyingEvidenceDeficitLowerBound": 8548,
+    "confirmedBelow20LowerBound": 918,
+    "freshlyCertifiedAt20": 0,
+    "fullyAuditedQualifyingTotal": null
+  },
+  "research": {
+    "initialDistinctSearchDomainsScreened": 629,
+    "initialSourcePageOpens": 336,
+    "initialCityTradeSearches": 116,
+    "placementCandidatesChecked": 111,
+    "candidateChecksPending": 6,
+    "otherClosedCandidateOutcomes": 6
+  },
+  "publicationCommit": null,
+  "productionDeployment": null,
+  "preparedNewBusinesses": 98,
+  "preparedExistingBusinessPlacements": 1,
+  "liveVerifiedNewBusinesses": 0,
+  "liveVerifiedNewBusinessPlacements": 0,
+  "liveVerifiedExistingBusinessPlacements": 0,
+  "newBusinessShortfall": 1000,
+  "awaitingDeployment": 99,
+  "awaitingLiveVerification": 0,
+  "nationalVisibilityRemovals": [],
+  "newNationalDomainExclusions": {
+    "maloufcarpetone.com": [
+      "https://www.maloufcarpetone.com/",
+      "https://www.carpetone.com/locations/alabama",
+      "https://www.carpetone.com/about/cooperatives"
+    ],
+    "precisiondooratlanta.com": [
+      "https://precisiondooratlanta.com/learning-center/hyper_template/about/",
+      "https://www.precisiondoor.net/Locations"
+    ],
+    "stpetegaragedoors.com": [
+      "https://stpetegaragedoors.com/reviews/city/st-petersburg",
+      "https://www.precisiondoor.net/locations/florida/st-petersburg"
+    ],
+    "taylorcarpetone.com": [
+      "https://taylorcarpetone.com/",
+      "https://www.carpetone.com/locations/florida/naples",
+      "https://www.carpetone.com/about/cooperatives"
+    ],
+    "tuffydaphne.com": [
+      "https://www.tuffydaphne.com/",
+      "https://www.tuffy.com/franchise"
+    ]
+  },
+  "pendingCandidates": [
+    {
+      "city": "fairhope-al",
+      "trade": "landscaping",
+      "name": "Greer Gardens",
+      "url": "https://greergardensal.com/",
+      "marker": "Greer Gardens",
+      "note": "The Fairhope landscape company designs and installs home landscapes directly and identifies its local Fairhope operation.",
+      "existing": false,
+      "reason": "official destination unconfirmed: 503 https://greergardensal.com/",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "sarasota-fl",
+      "trade": "electrical",
+      "name": "Precision Electric Sarasota",
+      "url": "https://precisionelectricsarasota.com/",
+      "marker": "Precision Electric",
+      "note": "The Sarasota-area business offers direct residential electrical repairs and outlet and breaker work for Sarasota homeowners.",
+      "existing": false,
+      "reason": "official destination unconfirmed: 404 https://precisionelectricsarasota.com/",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "name": "JM Irrigation",
+      "url": "https://jmirrigationfl.com/",
+      "marker": "JM Irrigation",
+      "note": "The local irrigation company explicitly offers Naples homeowners direct lawn sprinkler repair and installation.",
+      "existing": false,
+      "reason": "official destination unconfirmed: 200 https://jmirrigationfl.com/",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "name": "Holt Pest Control",
+      "url": "https://www.holtpestcontrol.com/",
+      "marker": "Holt Pest Control",
+      "note": "The local family-operated company directly treats residential pests in the Tampa Bay area, including Tampa.",
+      "existing": false,
+      "reason": "official destination unconfirmed: 200 https://www.holtpestcontrol.com/",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "miami-fl",
+      "trade": "auto-body-collision",
+      "name": "Miami Sunshine Auto Painting",
+      "url": "https://miamisunshineautopainting.com/",
+      "marker": "Miami Sunshine Auto Painting",
+      "note": "The family-owned local shop directly repairs collision and auto body damage for drivers in Miami-Dade County, including Miami.",
+      "existing": false,
+      "reason": "official destination unconfirmed: 403 https://miamisunshineautopainting.com/",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "birmingham-al",
+      "trade": "electrical",
+      "name": "Total Power Electric",
+      "url": "https://www.totalpwrelectric.com/about-us",
+      "marker": "Total Power Electric",
+      "note": "The locally owned contractor names Birmingham and describes electrical work for homeowners and its team’s residential repairs and installation experience.",
+      "existing": false,
+      "reason": "official destination unconfirmed: 502 https://www.totalpwrelectric.com/about-us",
+      "sourceVerifiedAt": "2026-11-25"
+    }
+  ],
+  "otherCandidateOutcomes": [
+    {
+      "city": "tampa-fl",
+      "trade": "septic-services",
+      "name": "Quality Septic",
+      "url": "https://qualitysepticincorporated.com/",
+      "marker": "Quality Septic",
+      "note": "The family-owned regional septic contractor directly pumps and repairs home septic systems across Hillsborough County, which includes Tampa.",
+      "existing": false,
+      "reason": "already listed by domain, business name or documented alias",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "irrigation-sprinkler-repair",
+      "name": "The Sprinkler Man",
+      "url": "https://www.thesprinklermaninc.com/sprinkler-repair",
+      "marker": "Sprinkler Man",
+      "note": "The independent Naples provider documents direct lawn sprinkler repairs for local homes.",
+      "existing": false,
+      "reason": "already listed by domain, business name or documented alias",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "name": "Bingham Pest Control & Fumigation",
+      "url": "https://binghampestcontrol.com/",
+      "marker": "Bingham Pest Control",
+      "note": "The locally owned company offers direct home pest and termite control throughout Tampa Bay, including Tampa.",
+      "existing": false,
+      "reason": "conservative displayed-count capacity reached",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "gulfport-ms",
+      "trade": "concrete",
+      "name": "All Day Construction",
+      "url": "https://alldayconstruction.squarespace.com/",
+      "marker": "All Day Construction",
+      "note": "The contractor identifies its Gulfport operation and offers concrete patios, pool decks and other concrete work directly to property owners.",
+      "existing": false,
+      "reason": "already listed on public page",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "electrical",
+      "name": "Blue Sky Electrical Services",
+      "url": "https://blueskyelectricalservices.com/index.html",
+      "marker": "Blue Sky",
+      "note": "This family-owned electrician lists Hillsborough County, which includes Tampa, and describes residential lighting, panels and troubleshooting.",
+      "existing": false,
+      "reason": "conservative displayed-count capacity reached",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "electrical",
+      "name": "RW Electrical Services",
+      "url": "https://rdwelectric.com/about-us/",
+      "marker": "RW Electrical Services",
+      "note": "The family-operated company expressly performs electrical projects for homes in Tampa, with residential services including repair and upgrades.",
+      "existing": false,
+      "reason": "conservative displayed-count capacity reached",
+      "sourceVerifiedAt": "2026-11-25"
+    }
+  ],
+  "liveVerificationPending": [],
+  "historicalFlags": [
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "orange-beach-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orange-beach-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "mobile-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/mobile-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Purvis Appliance Repair LLC",
+      "website": "https://purvisappliancerepair.com/",
+      "businessSlug": "purvis-appliance-repair-llc",
+      "city": "crestview-fl",
+      "category": "appliance-repair",
+      "sourceUrls": [
+        "https://purvisappliancerepair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unverified_official_destination"
+      ],
+      "evidence": "Official source returned 200 at https://purvisappliancerepair.com/; a working identity-confirmed official destination remains unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/appliance-repair"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "crestview-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "gulf-shores-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/gulf-shores-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "fairhope-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fairhope-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "daphne-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/daphne-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "panama-city-beach-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "dothan-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/dothan-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "montgomery-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/montgomery-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "tallahassee-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "auburn-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/auburn-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "new-orleans-la",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/new-orleans-la/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "baton-rouge-la",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/baton-rouge-la/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "birmingham-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/birmingham-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "huntsville-al",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/huntsville-al/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "jacksonville-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "clearwater-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "st-petersburg-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "orlando-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "sarasota-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "fort-myers-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "naples-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "west-palm-beach-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "fort-lauderdale-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "miami-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/miami-fl/screen-enclosures-pool-cages"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "gulf-shores-al",
+      "category": "fence-builders",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/gulf-shores-al/fence-builders"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "fairhope-al",
+      "category": "fence-builders",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fairhope-al/fence-builders"
+    },
+    {
+      "name": "Precision Aluminum",
+      "website": "https://www.precisionalum.com/",
+      "businessSlug": "precision-aluminum",
+      "city": "daphne-al",
+      "category": "fence-builders",
+      "sourceUrls": [
+        "https://www.precisionalum.com/contactus/",
+        "https://www.precisionalum.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential aluminum exterior work and publishes a Foley operation. Its contact form describes its service footprint by state. Current first-party evidence of service in this city is unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/daphne-al/fence-builders"
+    },
+    {
+      "name": "Garage Door Guru LLC",
+      "website": "https://garagedoorgurullc.com/",
+      "businessSlug": "garage-door-guru-llc",
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "sourceUrls": [
+        "https://garagedoorgurullc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unverified_official_destination"
+      ],
+      "evidence": "Official source returned 503 at https://garagedoorgurullc.com/; a working identity-confirmed official destination remains unresolved.",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/garage-door-repair"
+    }
+  ],
+  "carriedForwardFlags": [
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "destin-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "fort-walton-beach-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "crestview-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "panama-city-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "foley-al",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/foley-al/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "gulf-shores-al",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/gulf-shores-al/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "pensacola-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pensacola-fl/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "milton-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/concrete"
+    },
+    {
+      "name": "WPR Inc.",
+      "website": "https://www.wprincfl.com/",
+      "businessSlug": "wpr-inc",
+      "city": "orange-beach-al",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orange-beach-al/concrete"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-walton-beach-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "crestview-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "gulf-breeze-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "pace-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "milton-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "perdido-key-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "navarre-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/navarre-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "grayton-beach-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tallahassee-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "jacksonville-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "orlando-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tampa-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "st-petersburg-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "clearwater-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "sarasota-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "naples-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "west-palm-beach-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-lauderdale-fl",
+      "category": "flooring",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/flooring"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-walton-beach-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "crestview-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "panama-city-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "gulf-breeze-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "pace-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "milton-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "perdido-key-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "grayton-beach-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "panama-city-beach-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tallahassee-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "jacksonville-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "orlando-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tampa-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "st-petersburg-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "clearwater-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "sarasota-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-myers-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "naples-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "west-palm-beach-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-lauderdale-fl",
+      "category": "painting",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/painting"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "panama-city-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "pace-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "milton-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "perdido-key-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "navarre-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/navarre-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "grayton-beach-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "panama-city-beach-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tallahassee-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "jacksonville-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "orlando-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tampa-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "st-petersburg-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "clearwater-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "sarasota-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-myers-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "naples-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "west-palm-beach-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-lauderdale-fl",
+      "category": "water-damage-mold-remediation",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/water-damage-mold-remediation"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "grayton-beach-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tallahassee-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "jacksonville-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "orlando-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "tampa-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "st-petersburg-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "clearwater-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "sarasota-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-myers-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "naples-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "west-palm-beach-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/roofing"
+    },
+    {
+      "name": "TMaso Restoration",
+      "website": "https://tmasorestoration.com/construction.html",
+      "businessSlug": "tmaso-restoration",
+      "city": "fort-lauderdale-fl",
+      "category": "roofing",
+      "reasonCode": "invalid_official_website",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/roofing"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "fort-walton-beach-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "panama-city-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "crestview-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "destin-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "pace-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "milton-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "grayton-beach-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "panama-city-beach-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "tallahassee-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "jacksonville-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "tampa-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "clearwater-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "st-petersburg-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "orlando-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "sarasota-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "fort-myers-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "naples-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "west-palm-beach-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "fort-lauderdale-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/concrete"
+    },
+    {
+      "name": "Industrial Concrete, LLC",
+      "website": "https://industrialconcretefl.com/",
+      "businessSlug": "industrial-concrete-llc",
+      "city": "miami-fl",
+      "category": "concrete",
+      "reasonCode": "unsupported_residential_service",
+      "previousRun": "fill1000dh",
+      "publicVisibility": "liveReconfirmed",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/miami-fl/concrete"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "destin-fl",
+      "category": "gutters",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/gutters"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "fort-walton-beach-fl",
+      "category": "gutters",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/gutters"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "crestview-fl",
+      "category": "gutters",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/gutters"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "panama-city-fl",
+      "category": "gutters",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/gutters"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "destin-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/hurricane-shutters-impact-windows"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "fort-walton-beach-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/hurricane-shutters-impact-windows"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "crestview-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/hurricane-shutters-impact-windows"
+    },
+    {
+      "name": "Advantage Roofing & Construction",
+      "website": "https://advantageroofs.com/",
+      "businessSlug": "advantage-roofing-construction",
+      "city": "panama-city-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrl": "https://advantageroofs.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The official site names Tampa Bay, Nature Coast and Sarasota as its primary operating markets. The wider Florida statement requests confirmation and does not substantiate this specific priority city and category.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/hurricane-shutters-impact-windows"
+    },
+    {
+      "name": "Nationwide Gutter",
+      "website": "https://www.nationwidegutter.com/",
+      "businessSlug": "nationwide-gutter",
+      "city": "new-orleans-la",
+      "category": "gutters",
+      "sourceUrl": "https://www.nationwidegutter.com/",
+      "reasonCodes": [
+        "unsupported_geography",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The contractor describes operating in major Texas markets, traveling by request and specializing in large multi-unit projects. New Orleans homeowner gutter service was not substantiated.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/new-orleans-la/gutters"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "crestview-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "destin-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "panama-city-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "pensacola-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pensacola-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "gulf-breeze-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "pace-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "perdido-key-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "milton-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "navarre-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/navarre-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "grayton-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "panama-city-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "tallahassee-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "jacksonville-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "tampa-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "clearwater-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "st-petersburg-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "orlando-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "sarasota-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "fort-myers-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "naples-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "west-palm-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/pool-installation"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "miami-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/miami-fl/pool-installation"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/pool-installation"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "crestview-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/pool-installation"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "destin-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/pool-installation"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "panama-city-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/pool-installation"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "tampa-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/pool-installation"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "crestview-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "destin-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pensacola-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pensacola-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pace-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "perdido-key-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "milton-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "grayton-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "tallahassee-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "tampa-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "clearwater-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "st-petersburg-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "orlando-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "sarasota-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/naples-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "west-palm-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/pool-service"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "miami-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/miami-fl/pool-service"
+    }
+  ],
+  "nationalChecks": [
+    {
+      "city": "atlanta-ga",
+      "category": "garage-door-repair",
+      "domain": "precisiondooratlanta.com",
+      "url": "https://whoknowsapro.com/atlanta-ga/garage-door-repair",
+      "httpStatus": "200",
+      "domainMentioned": false
+    },
+    {
+      "city": "st-petersburg-fl",
+      "category": "garage-door-repair",
+      "domain": "stpetegaragedoors.com",
+      "url": "https://whoknowsapro.com/st-petersburg-fl/garage-door-repair",
+      "httpStatus": "200",
+      "domainMentioned": false
+    },
+    {
+      "city": "daphne-al",
+      "category": "auto-mechanics",
+      "domain": "tuffydaphne.com",
+      "url": "https://whoknowsapro.com/daphne-al/auto-mechanics",
+      "httpStatus": "200",
+      "domainMentioned": false
+    },
+    {
+      "city": "birmingham-al",
+      "category": "flooring",
+      "domain": "maloufcarpetone.com",
+      "url": "https://whoknowsapro.com/birmingham-al/flooring",
+      "httpStatus": "200",
+      "domainMentioned": false
+    },
+    {
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "domain": "taylorcarpetone.com",
+      "url": "https://whoknowsapro.com/fort-myers-fl/flooring",
+      "httpStatus": "200",
+      "domainMentioned": false
+    },
+    {
+      "city": "naples-fl",
+      "category": "flooring",
+      "domain": "taylorcarpetone.com",
+      "url": "https://whoknowsapro.com/naples-fl/flooring",
+      "httpStatus": "200",
+      "domainMentioned": false
+    }
+  ],
+  "retailFixIt": {
+    "sourceUrl": "https://retailfixit.com/",
+    "profileUrl": "https://whoknowsapro.com/business/retail-fix-it",
+    "profileStatus": "404",
+    "status": "existing_exclusion",
+    "reason": "First-party material describes nationwide retail facilities maintenance and a vendor network. Local residential locksmith service is unsupported."
+  },
+  "simplePoolCare": {
+    "profileStatus": "200",
+    "officialStatus": "200",
+    "present": false,
+    "page": "https://whoknowsapro.com/west-palm-beach-fl/pool-service"
+  },
+  "limitations": [
+    "Only repository inventory, source files, the public page catalog and public profiles were available for baseline deduplication. Private directory inventory was unavailable.",
+    "Historical eligibility outside the audited placements is unknown. Displayed counts measure records and can include duplicate or unsupported businesses.",
+    "Searches in the priority cities continued through lower-count categories. Results repeatedly surfaced existing providers, national or intermediary businesses or sites without clear current evidence. This sprint does not certify that a city has exhausted its qualified providers.",
+    "Precision Aluminum is regional. The flags concern specific city service evidence, and the source and public visibility were preserved."
+  ]
+}

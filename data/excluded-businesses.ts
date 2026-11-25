@@ -7,6 +7,12 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Independently owned locations trading under national franchise or retail cooperative brands.
+  'maloufcarpetone.com',
+  'precisiondooratlanta.com',
+  'stpetegaragedoors.com',
+  'taylorcarpetone.com',
+  'tuffydaphne.com',
   // TruTeam owns a nationwide network of local installation branches.
   'truteam.com',
   // Puddle Pool Services operates a North American franchise network.
