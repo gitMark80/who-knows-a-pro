@@ -33,6 +33,10 @@ export const excludedWebsiteDomains = [
   'precisiondoortallahassee.com',
   'springhillgaragedoorsfl.com',
 
+  // Challenger Pools was acquired and rebranded by Cody Pools.
+  'codypools.com',
+  'challengerpools.com',
+
   // National automotive service chains and the Rollins Fox Pest Control brand.
   'expressoil.com',
   'goodyear.com',
