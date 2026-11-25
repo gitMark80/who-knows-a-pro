@@ -22,25 +22,25 @@
   },
   "liveCoverage": {
     "publicPages": 1120,
-    "displayedPlacements": 14251,
-    "displayedAtLeast20": 247,
-    "displayedBelow20": 873,
+    "displayedPlacements": 14324,
+    "displayedAtLeast20": 246,
+    "displayedBelow20": 874,
     "displayedEmpty": 0,
-    "displayedDeficit": 8454,
+    "displayedDeficit": 8381,
     "qualifyingDeficitExact": null,
-    "qualifyingDeficitLowerBound": 8535
+    "qualifyingDeficitLowerBound": 8462
   },
   "distinctSearchDomainsScreened": 604,
   "sourcePageChecks": 370,
   "directPlacementChecks": 111,
-  "liveVerifiedNewBusinesses": 0,
-  "liveVerifiedNewBusinessPlacements": 0,
+  "liveVerifiedNewBusinesses": 96,
+  "liveVerifiedNewBusinessPlacements": 96,
   "liveVerifiedExistingBusinessPlacements": 0,
-  "newBusinessShortfall": 1000,
-  "publicationCommit": null,
-  "productionDeployment": null,
-  "awaitingDeployment": 97,
-  "awaitingLiveVerification": 0,
+  "newBusinessShortfall": 904,
+  "publicationCommit": "2f9416626c27f611b2820b8cf44a37213244250d",
+  "productionDeployment": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/64oUcenpcByG6WuSPvmK1mzv5GQW",
+  "awaitingDeployment": 0,
+  "awaitingLiveVerification": 1,
   "pendingCandidates": [
     {
       "city": "gulfport-ms",
@@ -243,7 +243,21 @@
       "reason": "The regional branch uses the national Precision franchise brand."
     }
   ],
-  "liveVerificationPending": [],
+  "liveVerificationPending": [
+    {
+      "city": "west-palm-beach-fl",
+      "trade": "pool-service",
+      "name": "Simple Pool Care",
+      "url": "https://simplepoolcare.com/",
+      "marker": "Simple Pool Care",
+      "note": "The West Palm Beach provider offers direct weekly pool maintenance and pool equipment repair for local homeowners.",
+      "existing": false,
+      "finalUrl": "https://simplepoolcare.com/",
+      "reason": "The public profile and official website resolve. The intended West Palm Beach pool-service page still lacks the listing card, so placement verification is pending.",
+      "publicProfileStatus": 200,
+      "publicProfile": "https://whoknowsapro.com/business/simple-pool-care"
+    }
+  ],
   "historicalFlags": [
     {
       "name": "Advantage Roofing & Construction",
@@ -369,6 +383,766 @@
         "unsupported_residential_service"
       ],
       "evidence": "The contractor describes operating in major Texas markets, traveling by request and specializing in large multi-unit projects. New Orleans homeowner gutter service was not substantiated.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "crestview-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "destin-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "panama-city-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "pensacola-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "gulf-breeze-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "pace-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "perdido-key-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "milton-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "navarre-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "grayton-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "panama-city-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "tallahassee-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "jacksonville-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "tampa-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "clearwater-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "st-petersburg-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "orlando-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "sarasota-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "fort-myers-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "naples-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "west-palm-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Clients First Landscape Solutions",
+      "website": "https://cflandscapes.com/",
+      "businessSlug": "clients-first-landscape-solutions",
+      "city": "miami-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://cflandscapes.com/",
+      "reasonCodes": [
+        "unsupported_residential_service",
+        "unsupported_geography"
+      ],
+      "evidence": "The official site describes its dedicated pool division as commercial, serving general contractors, developers and property managers. The reviewed Florida scope does not establish this city’s homeowner pool installation.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "crestview-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "destin-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "panama-city-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "Focco Construction & Design Corp",
+      "website": "https://www.foccocd.com/",
+      "businessSlug": "focco-construction-design-corp",
+      "city": "tampa-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.foccocd.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The contractor describes residential construction and statewide reach. Its listed operations and service descriptions did not establish homeowner pool installation in this specific city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "crestview-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "destin-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pensacola-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pace-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "perdido-key-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "milton-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "grayton-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "tallahassee-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "tampa-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "clearwater-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "st-petersburg-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "orlando-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "sarasota-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "west-palm-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "miami-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained"
     }
@@ -1367,14 +2141,406 @@
         "https://carpetsplusbuyinggroup.com/our-company/history/"
       ],
       "reason": "The Dothan store uses the national Carpetland USA brand. Public exclusion preserves the source record and unrelated claims, billing and approval state.",
-      "publication": "awaitingDeployment"
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Cody Pools Florida",
+      "website": "https://florida.codypools.com/",
+      "businessSlug": "cody-pools-florida",
+      "city": "tampa-fl",
+      "category": "pool-installation",
+      "sourceUrls": [
+        "https://florida.codypools.com/challenger-pools-is-now-part-of-cody-pools/",
+        "https://codypools.com/"
+      ],
+      "reason": "Cody Pools operates the national brand, and its Florida operation confirms that Challenger was acquired and rebranded. Both historical profiles represent one operating identity.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Challenger Pools",
+      "website": "https://www.challengerpools.com/",
+      "businessSlug": "challenger-pools",
+      "city": "tampa-fl",
+      "category": "pool-installation",
+      "sourceUrls": [
+        "https://florida.codypools.com/challenger-pools-is-now-part-of-cody-pools/",
+        "https://codypools.com/"
+      ],
+      "reason": "Cody Pools operates the national brand, and its Florida operation confirms that Challenger was acquired and rebranded. Both historical profiles represent one operating identity.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Cody Pools Tampa",
+      "website": "https://florida.codypools.com/screen-enclosures/",
+      "businessSlug": "cody-pools-tampa",
+      "city": "tampa-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://florida.codypools.com/challenger-pools-is-now-part-of-cody-pools/",
+        "https://codypools.com/"
+      ],
+      "reason": "Cody Pools operates the national brand, and its Florida operation confirms that Challenger was acquired and rebranded. Both historical profiles represent one operating identity.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/",
+      "businessSlug": "pool-troopers",
+      "city": "st-petersburg-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/",
+      "businessSlug": "pool-troopers",
+      "city": "clearwater-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/",
+      "businessSlug": "pool-troopers",
+      "city": "sarasota-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/",
+      "businessSlug": "pool-troopers",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/",
+      "businessSlug": "pool-troopers",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "clearwater-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "st-petersburg-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "sarasota-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "orlando-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "west-palm-beach-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Blue Science",
+      "website": "https://www.bluescience.com/",
+      "businessSlug": "blue-science",
+      "city": "miami-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://www.bluescience.com/",
+        "https://bluescience.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/locations/florida-pool-service/",
+      "businessSlug": "pool-troopers",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/locations/florida-pool-service/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/locations/florida-pool-service/",
+      "businessSlug": "pool-troopers",
+      "city": "orlando-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/locations/florida-pool-service/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/locations/florida-pool-service/",
+      "businessSlug": "pool-troopers",
+      "city": "west-palm-beach-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/locations/florida-pool-service/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
+    },
+    {
+      "name": "Pool Troopers",
+      "website": "https://pooltroopers.com/locations/florida-pool-service/",
+      "businessSlug": "pool-troopers",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-service",
+      "sourceUrls": [
+        "https://pooltroopers.com/locations/florida-pool-service/",
+        "https://pooltroopers.com/"
+      ],
+      "reason": "Official site documents a single large pool-service brand operating across multiple noncontiguous US regions.",
+      "publication": "liveHidden"
     }
+  ],
+  "publicExclusionChecks": [
+    [
+      "https://whoknowsapro.com/dothan-al/flooring",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/carpetland-usa-granite-flooring",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/retail-fix-it",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/tampa-fl/pool-installation",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/cody-pools-florida",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/challenger-pools",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/cody-pools-tampa",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/tampa-fl/screen-enclosures-pool-cages",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/st-petersburg-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/pool-troopers",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/clearwater-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/sarasota-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/fort-myers-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/naples-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/jacksonville-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/business/blue-science",
+      "404",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/orlando-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/west-palm-beach-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/fort-lauderdale-fl/pool-service",
+      "200",
+      true
+    ],
+    [
+      "https://whoknowsapro.com/miami-fl/pool-service",
+      "200",
+      true
+    ]
   ],
   "newNationalDomainExclusions": [
     "carpetlandusaal.com",
     "garagedoorsrepairs.us",
     "precisiondoortallahassee.com",
-    "springhillgaragedoorsfl.com"
+    "springhillgaragedoorsfl.com",
+    "codypools.com",
+    "challengerpools.com",
+    "bluescience.com",
+    "pooltroopers.com"
   ],
   "retailFixIt": {
     "sourceUrl": "https://www.retailfixit.com/",
@@ -1399,7 +2565,7 @@
       "officialDestination": "https://www.prettycoolpools30a.com/",
       "evidenceNote": "The local 30A company expressly includes Grayton Beach and offers direct weekly swimming pool maintenance for homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Aqualine Pool Management",
@@ -1413,7 +2579,7 @@
       "officialDestination": "https://apmpools.com/",
       "evidenceNote": "The family-owned Santa Rosa Beach-area company specifically names Grayton Beach and provides homeowners with weekly pool cleaning and direct repair.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Fairhope Floor Covering",
@@ -1427,7 +2593,7 @@
       "officialDestination": "https://fairhopefloor.com/",
       "evidenceNote": "The Fairhope operator installs and refinishes tile and hardwood floors for local homes in Fairhope and throughout Baldwin County.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Bay Flooring & Design",
@@ -1441,7 +2607,7 @@
       "officialDestination": "https://www.bayflooringanddesign.com/",
       "evidenceNote": "The local Fairhope showroom directly provides flooring installations for area homeowners and remodelers, beyond materials sales.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Gafford Roofing Repair",
@@ -1455,7 +2621,7 @@
       "officialDestination": "https://www.gaffordroofing.com/",
       "evidenceNote": "The family-operated regional roofer expressly lists Gulf Shores and performs home roofing repairs and installations.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Kirkley Floor Covering",
@@ -1469,7 +2635,7 @@
       "officialDestination": "https://www.kirkleyflooring.com/contact",
       "evidenceNote": "The locally operated flooring company identifies its Auburn service area and offers residential flooring installation.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Ronnie Smith Builders",
@@ -1483,7 +2649,7 @@
       "officialDestination": "https://ronniesmithbuilders.com/about-us/",
       "evidenceNote": "The regional contractor provides homeowner water damage restoration in the River Region around Montgomery and works directly with homeowners through the restoration process.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Alabama Aquatics",
@@ -1497,7 +2663,7 @@
       "officialDestination": "https://alabamaaquatics.com/",
       "evidenceNote": "The locally owned company offers direct weekly home swimming pool cleaning and equipment repair throughout Greater Birmingham, including Birmingham.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Swimming Pool Services",
@@ -1511,7 +2677,7 @@
       "officialDestination": "https://swimmingpoolservices.net/our-services/",
       "evidenceNote": "The Birmingham company maintains and repairs residential pool and spa equipment and provides recurring local pool cleaning.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "B & J Pools",
@@ -1525,7 +2691,7 @@
       "officialDestination": "https://www.poolcontractorbirminghamal.com/about",
       "evidenceNote": "The Birmingham pool contractor offers weekly residential swimming pool cleaning, chlorine checks and opening and closing services.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Splash Painting & Drywall",
@@ -1539,7 +2705,7 @@
       "officialDestination": "https://www.splashpaintinganddrywall.com/service/1/painting",
       "evidenceNote": "The local Huntsville-area crew advertises direct interior and exterior residential painting.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Salvant Environmental Services",
@@ -1553,7 +2719,7 @@
       "officialDestination": "https://www.salvant.com/about-2/",
       "evidenceNote": "The family-operated Baton Rouge provider offers homeowner pest and termite control in the Baton Rouge area.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Cotton’s Pest Control",
@@ -1567,7 +2733,7 @@
       "officialDestination": "https://www.cottonspestcontrol.com/",
       "evidenceNote": "The family-owned company offers residential pest and termite treatments and explicitly serves southeast Baton Rouge.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Wilson Services",
@@ -1581,7 +2747,7 @@
       "officialDestination": "https://wilsonservicesme.com/",
       "evidenceNote": "The local family company offers residential pest and termite service for Baton Rouge homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Freedom Insulation",
@@ -1595,7 +2761,7 @@
       "officialDestination": "https://getfreedominsulation.com/attic-insulation",
       "evidenceNote": "The regional company names New Orleans and directly removes and installs attic insulation for homeowners, including spray foam and blown-in options.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "NOLA Spray Foam",
@@ -1609,7 +2775,7 @@
       "officialDestination": "https://nolasprayfoamllc.com/",
       "evidenceNote": "The local operation installs home spray foam insulation for residential projects in Greater New Orleans.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Baxley Irrigation",
@@ -1623,7 +2789,7 @@
       "officialDestination": "https://baxleyirrigation.com/about",
       "evidenceNote": "The family-operated local contractor identifies the Atlanta area and offers direct sprinkler repair and residential irrigation service.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Sprinkalawn",
@@ -1637,7 +2803,7 @@
       "officialDestination": "https://sprinkalawn.com/about/",
       "evidenceNote": "The regional Atlanta irrigation contractor directly designs, installs, maintains and repairs sprinkler systems for homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Dockside Mobile Marine",
@@ -1651,7 +2817,7 @@
       "officialDestination": "https://www.docksidemarinellc.com/",
       "evidenceNote": "The Jacksonville company directly diagnoses, services and repairs recreational boats without requiring owners to bring the boat to a shop.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Neptune Marine Service",
@@ -1665,7 +2831,7 @@
       "officialDestination": "https://www.neptunemarineservicefl.com/service-area",
       "evidenceNote": "The independently operated mobile mechanic expressly covers Jacksonville for personal boat outboard, inboard, and electrical repairs at docks and marinas.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Advance Marine",
@@ -1679,7 +2845,7 @@
       "officialDestination": "https://advancemarinejacksonville.com/store",
       "evidenceNote": "The Jacksonville boat service shop provides direct repairs on personal boats with Yamaha, Suzuki and Tohatsu outboard engines.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Jacksonville Mobile Marine Service",
@@ -1693,7 +2859,7 @@
       "officialDestination": "https://www.mobilemarinemechanicjacksonville.com/home",
       "evidenceNote": "The locally operated Jacksonville marine mechanic offers direct maintenance and repair for local boat owners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Bolt Electric",
@@ -1707,7 +2873,7 @@
       "officialDestination": "https://boltelectricnfl.com/areas-we-serve/jacksonville/generators",
       "evidenceNote": "The family-operated Jacksonville electrician offers local homeowners direct standby generator installation and permitting.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "The Generator Guys",
@@ -1721,7 +2887,7 @@
       "officialDestination": "https://www.generatorsjax.com/",
       "evidenceNote": "The Jacksonville generator company specializes in directly installing and repairing home standby generators.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "My Emergency Power",
@@ -1735,7 +2901,7 @@
       "officialDestination": "https://myemergencypower.com/",
       "evidenceNote": "The local North Florida installer offers direct home standby generator installation and names the Jacksonville service market.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Puzzle Electric",
@@ -1749,7 +2915,7 @@
       "officialDestination": "https://puzzleelectric.com/services/generator-installation",
       "evidenceNote": "The Jacksonville regional electrical company offers direct standby and whole-home generator installation for residents.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Father and Son AC",
@@ -1763,7 +2929,7 @@
       "officialDestination": "https://fatherandsonac.com/about/service-area/orlando/",
       "evidenceNote": "The family-owned local provider names Orlando and offers direct residential AC repair, installation and servicing.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Duncan’s Air Conditioning & Heating",
@@ -1777,7 +2943,7 @@
       "officialDestination": "https://duncansacorlando.com/",
       "evidenceNote": "The local Orlando HVAC company directly installs and repairs home air conditioning and heating systems.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "No Sweat AC and Heating",
@@ -1791,7 +2957,7 @@
       "officialDestination": "https://nosweatorlando.com/about/",
       "evidenceNote": "The founder-led local team offers direct residential HVAC diagnosis, repair and replacement in Orlando.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "ASR Services",
@@ -1805,7 +2971,7 @@
       "officialDestination": "https://asrhvacservices.com/",
       "evidenceNote": "The Greater Orlando HVAC contractor directly performs AC repairs and installations for homeowners in Orlando.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "All Phaze Irrigation",
@@ -1819,7 +2985,7 @@
       "officialDestination": "https://allphazeirrigation.com/locations/st-petersburg/",
       "evidenceNote": "The local contractor’s St. Petersburg service page documents direct residential sprinkler system repair and installation.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Hassett Electrical",
@@ -1833,7 +2999,7 @@
       "officialDestination": "https://hassettelectrical.com/services/generator-installation",
       "evidenceNote": "The regional Tampa Bay electrical contractor directly installs whole-house standby generators for area homeowners, including Tampa.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Extreme Temp",
@@ -1847,7 +3013,7 @@
       "officialDestination": "https://extremetempac.com/service-areas/fort-myers/",
       "evidenceNote": "The family-owned Fort Myers HVAC contractor documents local home installations and provides direct AC repair and installation in Fort Myers.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "J&D Heating and Air Conditioning",
@@ -1861,7 +3027,7 @@
       "officialDestination": "https://janddac.com/",
       "evidenceNote": "The family-run company serves Fort Myers with home AC and heating repair, replacement and maintenance.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Simple Pool Care",
@@ -1875,7 +3041,7 @@
       "officialDestination": "https://simplepoolcare.com/",
       "evidenceNote": "The West Palm Beach provider offers direct weekly pool maintenance and pool equipment repair for local homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "deployedPendingVerification"
     },
     {
       "name": "Easy Now Pools",
@@ -1889,7 +3055,7 @@
       "officialDestination": "https://easynowpools.com/pool-service",
       "evidenceNote": "The regional company offers recurring residential pool cleaning and water testing across Palm Beach County, including West Palm Beach.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Turtle Pool Care",
@@ -1903,7 +3069,7 @@
       "officialDestination": "https://turtlepoolcare.com/service-areas/west-palm-beach/ibis",
       "evidenceNote": "The family-owned pool company specifically names the Ibis community in West Palm Beach and offers weekly cleaning and water testing to local homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Rising Sun Pool & Spa",
@@ -1917,7 +3083,7 @@
       "officialDestination": "https://risingsunpoolandspa.com/services/weekly",
       "evidenceNote": "The local western Palm Beach County business explicitly names West Palm Beach and provides recurring home pool cleaning and maintenance.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Allday Fence",
@@ -1931,7 +3097,7 @@
       "officialDestination": "https://www.alldayfence.com/about",
       "evidenceNote": "The family-run operation directly installs fences for household customers across Miami-Dade County, including Miami.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Henry’s Fence",
@@ -1945,7 +3111,7 @@
       "officialDestination": "https://henrysfenceinc.com/home",
       "evidenceNote": "The local family-owned fence contractor supplies and installs residential fencing from its Miami operation.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Osuna Ornamental",
@@ -1959,7 +3125,7 @@
       "officialDestination": "https://www.osunaornamental.com/",
       "evidenceNote": "The Miami contractor directly fabricates and installs gates and fences for Miami homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Fence With Style",
@@ -1973,7 +3139,7 @@
       "officialDestination": "https://fencewithstyle.com/about/",
       "evidenceNote": "The Miami-Dade contractor identifies its operating business and provides direct home fence and gate installation in its Miami market.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Cardinal Insulation",
@@ -1987,7 +3153,7 @@
       "officialDestination": "https://cardinalinsulation.com/miami",
       "evidenceNote": "The local company’s Miami service page documents blown-in insulation and attic air sealing for houses in named Miami neighborhoods.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "ALA Roofer",
@@ -2001,7 +3167,7 @@
       "officialDestination": "https://alaroofer.com/daphne-al-roofing-services/",
       "evidenceNote": "The Alabama contractor names Daphne on its roofing service page and performs direct home roof repair and replacement.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "AP Irrigation Repair",
@@ -2015,7 +3181,7 @@
       "officialDestination": "https://apirrigationrepair.com/",
       "evidenceNote": "The Auburn-area company specializes in direct residential sprinkler diagnosis and repair and identifies Auburn in its local coverage.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "GWC Restoration",
@@ -2029,7 +3195,7 @@
       "officialDestination": "https://gwcrestoration.com/",
       "evidenceNote": "The Madison-based locally operated company offers direct residential water damage mitigation and identifies Huntsville as a served city.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Redline Mitigation & Restoration",
@@ -2043,7 +3209,7 @@
       "officialDestination": "https://www.redlinerestores.com/",
       "evidenceNote": "The North Alabama company directly provides residential water extraction, mitigation and restoration and covers Huntsville.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "APL Service",
@@ -2057,7 +3223,7 @@
       "officialDestination": "https://aplserv.com/appliance-repair",
       "evidenceNote": "The family-owned Atlanta company offers direct home appliance repairs and maintenance on its Atlanta service page.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Scott’s Pools & Spas",
@@ -2071,7 +3237,7 @@
       "officialDestination": "https://scottspools.net/new-pool-construction/",
       "evidenceNote": "The local company offers new residential pool construction and shows work for homeowners in Jacksonville.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Aqua Luxe Pools",
@@ -2085,7 +3251,7 @@
       "officialDestination": "https://aqualuxepoolsjax.com/services/custom-pool-construction/",
       "evidenceNote": "The Jacksonville contractor directly designs and constructs custom residential swimming pools in Jacksonville.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Sunrise Pools of Jax",
@@ -2099,7 +3265,7 @@
       "officialDestination": "https://sunrisepoolsjax.com/about-us/",
       "evidenceNote": "The local builder explicitly designs and builds new swimming pools for homeowners in Jacksonville.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Castle Pools",
@@ -2113,7 +3279,7 @@
       "officialDestination": "https://castlepoolsjax.com/pool-builder-jacksonville-fl/",
       "evidenceNote": "The local company’s Jacksonville page offers direct custom pool design and construction for area homes.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Frank’s Pool Services",
@@ -2127,7 +3293,7 @@
       "officialDestination": "https://www.frankspoolservicesinc.com/new-pool-construction-jacksonville",
       "evidenceNote": "The company’s Jacksonville service page explicitly offers new residential pool design and construction to city homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Epic Pools",
@@ -2141,7 +3307,7 @@
       "officialDestination": "https://epicpool.com/",
       "evidenceNote": "The Northeast Florida residential pool installer provides custom pool and spa construction and identifies Jacksonville-area operations.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Clarkson Pools",
@@ -2155,7 +3321,7 @@
       "officialDestination": "https://clarksonpools.com/residential-pools/",
       "evidenceNote": "The Jacksonville pool builder has a residential division that directly designs and builds swimming pools for homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Pool Titan",
@@ -2169,7 +3335,7 @@
       "officialDestination": "https://www.pooltitanfl.com/",
       "evidenceNote": "The Jacksonville company directly designs and builds custom swimming pools for residential backyards in Jacksonville.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Central Florida Paint & Body",
@@ -2183,7 +3349,7 @@
       "officialDestination": "https://cfpab.com/our-shop/about-us",
       "evidenceNote": "The local collision shop identifies Orlando as its operation and offers direct collision repairs for individual vehicle owners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Reliant",
@@ -2197,7 +3363,7 @@
       "officialDestination": "https://www.reliantacguys.com/electrical/generators",
       "evidenceNote": "The regional electrical provider offers Clearwater homeowners direct standby generator installation and related service.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "St. Petersburg Termite",
@@ -2211,7 +3377,7 @@
       "officialDestination": "https://www.sptermite.com/",
       "evidenceNote": "The family-owned St. Petersburg company directly treats drywood termites in residential homes through its local fumigation operation.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "GES Pest and Fumigation",
@@ -2225,7 +3391,7 @@
       "officialDestination": "https://gespestandfumigation.com/home",
       "evidenceNote": "The family and veteran-owned business specifically serves St. Petersburg for residential pest, termite and fumigation services.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Splash City Pools",
@@ -2239,7 +3405,7 @@
       "officialDestination": "https://splashcitypools.com/about-us/",
       "evidenceNote": "The local Tampa pool builder directly designs and installs custom residential pools for Tampa homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Pool Pros Construction",
@@ -2253,7 +3419,7 @@
       "officialDestination": "https://poolproscfl.com/about/",
       "evidenceNote": "The family-run builder constructs in-ground concrete pools for homes in Hillsborough County, including Tampa, and across the Tampa Bay area.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Lee Custom Pools",
@@ -2267,7 +3433,7 @@
       "officialDestination": "https://www.leecustompools.com/",
       "evidenceNote": "The local contractor provides end-to-end custom swimming pool design and installation for homes in Greater Tampa Bay, including Tampa.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "SiteWorx Pools",
@@ -2281,7 +3447,7 @@
       "officialDestination": "https://www.siteworxoutdoors.com/",
       "evidenceNote": "The local Tampa company directly designs and builds pools and spas for residential backyards.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Pine Ridge Imports",
@@ -2295,7 +3461,7 @@
       "officialDestination": "https://pineridgeimports.com/about-pine-ridge-imports-naples-auto-repair/",
       "evidenceNote": "The local independent Naples shop services personal vehicles and directly provides diagnostics and import auto repairs.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "One Way Auto Care",
@@ -2309,7 +3475,7 @@
       "officialDestination": "https://onewayautocare.com/",
       "evidenceNote": "The family-owned Naples shop directly repairs brakes, engines and other systems on individual drivers’ vehicles.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Windermere Sustainable Car Care",
@@ -2323,7 +3489,7 @@
       "officialDestination": "https://www.windermereway.com/",
       "evidenceNote": "The local shop identifies Naples and Collier County and directly maintains and repairs personal vehicles for local owners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Blue Sky Solutions",
@@ -2337,7 +3503,7 @@
       "officialDestination": "https://goblueskysolutions.com/about-us/",
       "evidenceNote": "The locally operated Fort Myers company directly treats home pests and rodents from its Fort Myers operation.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Fort Myers Pest Control",
@@ -2351,7 +3517,7 @@
       "officialDestination": "https://fortmyerspestcontrol.com/about-us/",
       "evidenceNote": "The regional company offers direct household pest, rodent and termite treatments for Fort Myers homes.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Armstrong Pest Control",
@@ -2365,7 +3531,7 @@
       "officialDestination": "https://www.armstrongpest.com/about-us/",
       "evidenceNote": "The Fort Myers family company offers direct household pest and rodent control for area homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Tempco Pest Control",
@@ -2379,7 +3545,7 @@
       "officialDestination": "https://tempcopestcontrol.com/about-us/",
       "evidenceNote": "The regional provider explicitly lists Fort Myers and directly offers residential pest and termite treatment.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Crews Complete Pest Solutions",
@@ -2393,7 +3559,7 @@
       "officialDestination": "https://crewscomplete.com/",
       "evidenceNote": "The local company explicitly identifies Fort Myers and directly offers pest control for houses.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "LaSirene Pool and Spa Cleaning Solutions",
@@ -2407,7 +3573,7 @@
       "officialDestination": "https://lasirenepoolandspacleaning.com/",
       "evidenceNote": "The local provider offers direct swimming pool cleaning and maintenance in Miami-Dade County, which includes Miami homes.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Manny Pools",
@@ -2421,7 +3587,7 @@
       "officialDestination": "https://www.poolsmanny.com/",
       "evidenceNote": "The Miami-owned company directly cleans and maintains residential pools on its weekly Miami route.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "JAF Pool & Patio",
@@ -2435,7 +3601,7 @@
       "officialDestination": "https://jafpoolandpatio.com/",
       "evidenceNote": "The local South Florida company directly cleans and maintains home swimming pools in Miami-Dade County, including Miami.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "All Clean Pool Services",
@@ -2449,7 +3615,7 @@
       "officialDestination": "https://allcleanpoolservices.com/",
       "evidenceNote": "The local provider offers direct residential pool cleaning and maintenance in Miami-Dade County, which includes Miami.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Pool Vice",
@@ -2463,7 +3629,7 @@
       "officialDestination": "https://poolvice.com/",
       "evidenceNote": "The locally operated company directly maintains residential swimming pools in Miami-Dade County, including Miami.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "D&V Lawn Care & Housekeeping Services",
@@ -2477,7 +3643,7 @@
       "officialDestination": "https://dvlawncarehousekeepingsvcs.com/",
       "evidenceNote": "The Crestview-based service company specifically offers direct residential irrigation system installation and repair for local properties.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Signature Pool Care",
@@ -2491,7 +3657,7 @@
       "officialDestination": "https://signaturepoolcare.com/location/pool-services-in-grayton-beach-fl/",
       "evidenceNote": "The regional provider’s Grayton Beach page offers direct weekly maintenance of residential pools and identifies village streets and homes along its service route.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Advanced Appliance",
@@ -2505,7 +3671,7 @@
       "officialDestination": "https://advanced-appliance.com/",
       "evidenceNote": "The local business directly repairs residential household appliances, including kitchen appliances, and explicitly identifies Birmingham as a service city.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Beam Collision and Restoration",
@@ -2519,7 +3685,7 @@
       "officialDestination": "https://beamcollision.com/about/",
       "evidenceNote": "The Atlanta-based shop directly repairs collision damage and performs refinishing and restoration for Atlanta drivers.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Fletcher’s Collision Center",
@@ -2533,7 +3699,7 @@
       "officialDestination": "https://www.fletcherscollisioncenter.com/",
       "evidenceNote": "The family-owned shop identifies Mid City, New Orleans and directly repairs collision damage and body frames for private vehicles.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "A Vargas Body Shop",
@@ -2547,7 +3713,7 @@
       "officialDestination": "https://avargasbodyshop.com/",
       "evidenceNote": "The locally operated New Orleans body shop directly provides collision and exterior auto body repair for city drivers.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Bills Auto Collision",
@@ -2561,7 +3727,7 @@
       "officialDestination": "https://www.billsautocollision.com/",
       "evidenceNote": "The regional Metairie shop specifically identifies New Orleans residents in its service market and directly performs private vehicle collision repairs.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "E & M Auto Service",
@@ -2575,7 +3741,7 @@
       "officialDestination": "https://eandmautoserviceinc.com/",
       "evidenceNote": "The locally owned Tampa family shop directly repairs and maintains personal cars, including brakes and mechanical repairs.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "7th Gear Auto Care",
@@ -2589,7 +3755,7 @@
       "officialDestination": "https://www.autorepairtampafl.com/about",
       "evidenceNote": "The family-owned Tampa repair shop directly cares for local residents’ personal vehicles and handles mechanical repairs and maintenance.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "SOS Automotive",
@@ -2603,7 +3769,7 @@
       "officialDestination": "https://sosautomotiveinc.com/index.html",
       "evidenceNote": "The family-owned Tampa Bay shop serves Tampa residents and directly handles mechanical repair of consumer vehicles.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "McLeod’s Auto Service",
@@ -2617,7 +3783,7 @@
       "officialDestination": "https://mcleodsautoservice.com/",
       "evidenceNote": "The locally owned Tampa shop directly performs general mechanical repairs and scheduled maintenance for Tampa drivers.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "SprinklerWorks",
@@ -2631,7 +3797,7 @@
       "officialDestination": "https://callsprinklerworks.com/about-us/",
       "evidenceNote": "The locally owned Sarasota company provides direct residential irrigation installation and sprinkler maintenance from its local operation.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "AquaTech Irrigation",
@@ -2645,7 +3811,7 @@
       "officialDestination": "https://www.aquatechirrigationfl.com/about-us/",
       "evidenceNote": "The Sarasota-serving irrigation contractor offers home sprinkler repairs, maintenance and installation directly to Sarasota homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Moby Auto Collision Repair Center",
@@ -2659,7 +3825,7 @@
       "officialDestination": "https://www.mobyauto.com/about",
       "evidenceNote": "The Miami family-operated body shop provides direct collision repair and refinishing for local individual vehicle owners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Giant Motors Auto Body & Paint",
@@ -2673,7 +3839,7 @@
       "officialDestination": "https://giantmotorsauto.com/",
       "evidenceNote": "The independent Miami shop directly repairs accident and body damage on foreign and domestic personal vehicles.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Stephen Goulet Roofing",
@@ -2687,7 +3853,7 @@
       "officialDestination": "https://www.stephengouletroofing.com/",
       "evidenceNote": "The company identifies its Daphne operation and directly repairs and replaces residential roofs for homeowners.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "OakScape Property Services",
@@ -2701,7 +3867,7 @@
       "officialDestination": "https://oakscapeal.com/services/sprinkler-repair",
       "evidenceNote": "The locally operated Birmingham company explicitly provides sprinkler troubleshooting and repairs for home lawns in Birmingham.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Reliable Portable Toilets",
@@ -2715,7 +3881,7 @@
       "officialDestination": "https://www.reliableportabletoiletsllc.com/service-page/septic-tank-pumping-quote",
       "evidenceNote": "The regional septic provider directly pumps residential tanks and specifically names the Greater New Orleans area, including New Orleans.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Aquarius Pools",
@@ -2729,7 +3895,7 @@
       "officialDestination": "https://www.aquariuspoolsflorida.com/pool-service-faq/",
       "evidenceNote": "The regional company expressly serves West Palm Beach homeowners, offering recurring residential pool cleaning and equipment repair.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     },
     {
       "name": "Garage Doors by Roy North",
@@ -2743,7 +3909,7 @@
       "officialDestination": "https://www.northdoors.com/spring-repair-replacement",
       "evidenceNote": "The local family-run Fort Myers repair company directly repairs residential garage door springs and hardware.",
       "businessInRunStartBaseline": false,
-      "status": "committedPendingDeployment"
+      "status": "liveVerified"
     }
   ]
 }
