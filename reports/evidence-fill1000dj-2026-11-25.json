@@ -22,14 +22,14 @@
   },
   "liveCoverage": {
     "publicPages": 1120,
-    "displayedPlacements": 14324,
-    "displayedAtLeast20": 246,
-    "displayedBelow20": 874,
+    "displayedPlacements": 14426,
+    "displayedAtLeast20": 248,
+    "displayedBelow20": 872,
     "displayedEmpty": 0,
-    "displayedDeficit": 8381,
+    "displayedDeficit": 8279,
     "qualifyingDeficitExact": null,
-    "qualifyingEvidenceDeficitLowerBound": 8548,
-    "confirmedBelow20LowerBound": 918,
+    "qualifyingEvidenceDeficitLowerBound": 8446,
+    "confirmedBelow20LowerBound": 916,
     "freshlyCertifiedAt20": 0,
     "fullyAuditedQualifyingTotal": null
   },
@@ -37,19 +37,21 @@
     "initialDistinctSearchDomainsScreened": 629,
     "initialSourcePageOpens": 336,
     "initialCityTradeSearches": 116,
-    "placementCandidatesChecked": 111,
-    "candidateChecksPending": 6,
-    "otherClosedCandidateOutcomes": 6
+    "placementCandidatesChecked": 114,
+    "candidateChecksPending": 4,
+    "otherClosedCandidateOutcomes": 8
   },
-  "publicationCommit": null,
-  "productionDeployment": null,
-  "preparedNewBusinesses": 98,
-  "preparedExistingBusinessPlacements": 1,
-  "liveVerifiedNewBusinesses": 0,
-  "liveVerifiedNewBusinessPlacements": 0,
-  "liveVerifiedExistingBusinessPlacements": 0,
-  "newBusinessShortfall": 1000,
-  "awaitingDeployment": 99,
+  "publicationCommit": "6ad2f2057fea773e051edfcfbf03d26684632f29",
+  "productionDeployment": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/Ct7Et17HtBj1rG1LWxAzRtS2dTwr",
+  "initialPublicationCommit": "d13c7b1da362e31139d7f2ba65279efad72d01c9",
+  "initialProductionDeployment": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/6ws7Cr8W2C8stnj4D2JMqTiW96f4",
+  "preparedNewBusinesses": 99,
+  "preparedExistingBusinessPlacements": 3,
+  "liveVerifiedNewBusinesses": 99,
+  "liveVerifiedNewBusinessPlacements": 99,
+  "liveVerifiedExistingBusinessPlacements": 3,
+  "newBusinessShortfall": 901,
+  "awaitingDeployment": 0,
   "awaitingLiveVerification": 0,
   "nationalVisibilityRemovals": [],
   "newNationalDomainExclusions": {
@@ -96,29 +98,7 @@
       "marker": "Precision Electric",
       "note": "The Sarasota-area business offers direct residential electrical repairs and outlet and breaker work for Sarasota homeowners.",
       "existing": false,
-      "reason": "official destination unconfirmed: 404 https://precisionelectricsarasota.com/",
-      "sourceVerifiedAt": "2026-11-25"
-    },
-    {
-      "city": "naples-fl",
-      "trade": "irrigation-sprinkler-repair",
-      "name": "JM Irrigation",
-      "url": "https://jmirrigationfl.com/",
-      "marker": "JM Irrigation",
-      "note": "The local irrigation company explicitly offers Naples homeowners direct lawn sprinkler repair and installation.",
-      "existing": false,
-      "reason": "official destination unconfirmed: 200 https://jmirrigationfl.com/",
-      "sourceVerifiedAt": "2026-11-25"
-    },
-    {
-      "city": "tampa-fl",
-      "trade": "pest-control",
-      "name": "Holt Pest Control",
-      "url": "https://www.holtpestcontrol.com/",
-      "marker": "Holt Pest Control",
-      "note": "The local family-operated company directly treats residential pests in the Tampa Bay area, including Tampa.",
-      "existing": false,
-      "reason": "official destination unconfirmed: 200 https://www.holtpestcontrol.com/",
+      "reason": "official destination unconfirmed: both hostname forms return a live 404 site-not-found response",
       "sourceVerifiedAt": "2026-11-25"
     },
     {
@@ -159,12 +139,34 @@
     {
       "city": "naples-fl",
       "trade": "irrigation-sprinkler-repair",
+      "name": "JM Irrigation",
+      "url": "https://jmirrigationfl.com/",
+      "marker": "JM Irrigation",
+      "note": "The local irrigation company explicitly offers Naples homeowners direct lawn sprinkler repair and installation.",
+      "existing": false,
+      "reason": "official site reports inactive business on a fresh first-party check",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "naples-fl",
+      "trade": "irrigation-sprinkler-repair",
       "name": "The Sprinkler Man",
       "url": "https://www.thesprinklermaninc.com/sprinkler-repair",
       "marker": "Sprinkler Man",
       "note": "The independent Naples provider documents direct lawn sprinkler repairs for local homes.",
       "existing": false,
       "reason": "already listed by domain, business name or documented alias",
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "city": "tampa-fl",
+      "trade": "pest-control",
+      "name": "Holt Pest Control",
+      "url": "https://www.holtpestcontrol.com/",
+      "marker": "Holt Pest Control",
+      "note": "The local family-operated company directly treats residential pests in the Tampa Bay area, including Tampa.",
+      "existing": false,
+      "reason": "Tampa pest control reached the displayed-count limit and the direct official site response did not confirm identity",
       "sourceVerifiedAt": "2026-11-25"
     },
     {
@@ -213,6 +215,1446 @@
     }
   ],
   "liveVerificationPending": [],
+  "placements": [
+    {
+      "name": "Emerald Bay Boatworks",
+      "city": "gulf-breeze-fl",
+      "category": "marine-services",
+      "sourceUrl": "https://emeraldbayboatworks.com/",
+      "sourceUrls": [
+        "https://emeraldbayboatworks.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://emeraldbayboatworks.com/",
+      "evidenceNote": "The company names Gulf Breeze and directly repairs local boat owners’ vessels and marine equipment.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Jones Pest Services",
+      "city": "pensacola-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://www.jonespest.com/",
+      "sourceUrls": [
+        "https://www.jonespest.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.jonespest.com/",
+      "evidenceNote": "The local veteran-owned company identifies Pensacola and directly provides home pest control and termite treatments in the area.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Southern Landscape Renovations",
+      "city": "fairhope-al",
+      "category": "landscaping",
+      "sourceUrl": "https://slreasternshore.com/",
+      "sourceUrls": [
+        "https://slreasternshore.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://slreasternshore.com/",
+      "evidenceNote": "The local Fairhope contractor provides landscape design and installation at residences and identifies Fairhope as its working base.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "A Able Appliance Repair",
+      "city": "huntsville-al",
+      "category": "appliance-repair",
+      "sourceUrl": "https://www.aableappliancerepair.net/",
+      "sourceUrls": [
+        "https://www.aableappliancerepair.net/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.aableappliancerepair.net/",
+      "evidenceNote": "The family-owned Huntsville operation provides direct repairs on home appliances, including washers, refrigerators and kitchen appliances.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "CLEAR Restoration",
+      "city": "baton-rouge-la",
+      "category": "water-damage-mold-remediation",
+      "sourceUrl": "https://clearrestore.com/contact-clear-restoration/",
+      "sourceUrls": [
+        "https://clearrestore.com/contact-clear-restoration/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://clearrestore.com/contact-clear-restoration/",
+      "evidenceNote": "The local Baton Rouge company directly provides water extraction, structural drying and mold remediation for homes in Baton Rouge.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Big Easy Remediation",
+      "city": "new-orleans-la",
+      "category": "water-damage-mold-remediation",
+      "sourceUrl": "https://www.bigeasyremediation.com/about/",
+      "sourceUrls": [
+        "https://www.bigeasyremediation.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.bigeasyremediation.com/about/",
+      "evidenceNote": "The local New Orleans remediation company specifically offers direct residential water damage restoration and home mold removal.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Wesley’s Pool Service",
+      "city": "atlanta-ga",
+      "category": "pool-service",
+      "sourceUrl": "https://www.wesleyspoolservice.com/",
+      "sourceUrls": [
+        "https://www.wesleyspoolservice.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.wesleyspoolservice.com/",
+      "evidenceNote": "The local company directly provides recurring residential pool maintenance in the Atlanta area, which includes Atlanta.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Conte Electric",
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "sourceUrl": "https://conteelectricjax.com/",
+      "sourceUrls": [
+        "https://conteelectricjax.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://conteelectricjax.com/",
+      "evidenceNote": "The local Jacksonville electrician directly handles residential electrical service calls, repairs and fixture replacements in Jacksonville.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Joel’s Electrical",
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "sourceUrl": "https://joelselectrical.com/about/",
+      "sourceUrls": [
+        "https://joelselectrical.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://joelselectrical.com/about/",
+      "evidenceNote": "The family-operated Jacksonville electrician directly visits local homes for electrical repairs, panel upgrades and rewiring.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Gispert Electrical Solutions",
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "sourceUrl": "https://gispertelectrical.com/about-us/",
+      "sourceUrls": [
+        "https://gispertelectrical.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://gispertelectrical.com/about-us/",
+      "evidenceNote": "The locally owned Jacksonville company directly performs residential wiring, electrical installations and repairs.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Northeast Florida Wiring Solutions",
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "sourceUrl": "https://www.northeastfloridawiringsolutions.com/residential/",
+      "sourceUrls": [
+        "https://www.northeastfloridawiringsolutions.com/residential/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.northeastfloridawiringsolutions.com/residential/",
+      "evidenceNote": "The Jacksonville contractor documents direct residential wiring installation and electrical service in Jacksonville.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Pure Power Electrical",
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "sourceUrl": "https://gotpurepower.com/about",
+      "sourceUrls": [
+        "https://gotpurepower.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://gotpurepower.com/about",
+      "evidenceNote": "The local Jacksonville business offers homeowners panel work, outlet installation, circuit breaker replacement and wiring repair.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Empire Electric",
+      "city": "jacksonville-fl",
+      "category": "electrical",
+      "sourceUrl": "https://www.empireelec.com/residential-electrician/",
+      "sourceUrls": [
+        "https://www.empireelec.com/residential-electrician/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.empireelec.com/residential-electrician/",
+      "evidenceNote": "The company’s Jacksonville residential electrical page lists direct outlet, breaker, wiring and electrical repair services for local homes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Central Florida Pools",
+      "city": "orlando-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://www.centralfloridapools.com/",
+      "sourceUrls": [
+        "https://www.centralfloridapools.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.centralfloridapools.com/",
+      "evidenceNote": "The regional builder directly designs and constructs custom in-ground swimming pools for Orlando homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "All Seasons Pools",
+      "city": "orlando-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://allseasonspools.com/",
+      "sourceUrls": [
+        "https://allseasonspools.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://allseasonspools.com/",
+      "evidenceNote": "The Central Florida pool builder describes direct residential pool construction and identifies Orlando as a local market.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Artesian Pools",
+      "city": "orlando-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://artesianpools.com/",
+      "sourceUrls": [
+        "https://artesianpools.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://artesianpools.com/",
+      "evidenceNote": "The locally operated contractor custom builds in-ground gunite swimming pools for homeowners in Orlando.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Wahoo Electric",
+      "city": "sarasota-fl",
+      "category": "electrical",
+      "sourceUrl": "https://wahooelectric.com/",
+      "sourceUrls": [
+        "https://wahooelectric.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://wahooelectric.com/",
+      "evidenceNote": "The local residential electrician directly provides wiring and fixture installation across Sarasota County, including Sarasota.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "The Original Electrician",
+      "city": "sarasota-fl",
+      "category": "electrical",
+      "sourceUrl": "https://my-elect.com/about/",
+      "sourceUrls": [
+        "https://my-elect.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://my-elect.com/about/",
+      "evidenceNote": "The local Sarasota company describes direct household electrical repair and installation services from its Sarasota operation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Murphy Electric",
+      "city": "sarasota-fl",
+      "category": "electrical",
+      "sourceUrl": "https://www.murphyelectricvenice.com/",
+      "sourceUrls": [
+        "https://www.murphyelectricvenice.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.murphyelectricvenice.com/",
+      "evidenceNote": "The regional contractor directly handles homeowner rewiring and circuit-breaker work across Sarasota County, including Sarasota.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Floorz",
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "sourceUrl": "https://floorzfortmyers.com/",
+      "sourceUrls": [
+        "https://floorzfortmyers.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://floorzfortmyers.com/",
+      "evidenceNote": "The family-owned Fort Myers company offers direct flooring installation for local homes and identifies hardwood, vinyl, laminate, tile and carpet.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Floorark",
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "sourceUrl": "https://floorark.com/",
+      "sourceUrls": [
+        "https://floorark.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://floorark.com/",
+      "evidenceNote": "The Fort Myers flooring company directly installs flooring for local residences and identifies the showroom and installation operation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "JM Floors",
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "sourceUrl": "https://www.jmfloorsswfl.com/",
+      "sourceUrls": [
+        "https://www.jmfloorsswfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.jmfloorsswfl.com/",
+      "evidenceNote": "The local Fort Myers flooring company offers direct hardwood, luxury vinyl plank, laminate and carpet installation for homes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Sena’s Flooring",
+      "city": "fort-myers-fl",
+      "category": "flooring",
+      "sourceUrl": "https://www.senasflooring.com/",
+      "sourceUrls": [
+        "https://www.senasflooring.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.senasflooring.com/",
+      "evidenceNote": "The local father-and-son contractor directly installs and refinishes residential wood floors in Fort Myers.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Swift Air Conditioning",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://swiftacfl.com/",
+      "sourceUrls": [
+        "https://swiftacfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://swiftacfl.com/",
+      "evidenceNote": "The local West Palm Beach provider directly repairs, installs and maintains air conditioners for area homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Berkun Air",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://berkunair.com/",
+      "sourceUrls": [
+        "https://berkunair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://berkunair.com/",
+      "evidenceNote": "The local residential contractor provides direct AC service, installation and repair in Palm Beach County, which includes West Palm Beach.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "JNH Cooling Services",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://jnhcoolingservices.com/",
+      "sourceUrls": [
+        "https://jnhcoolingservices.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://jnhcoolingservices.com/",
+      "evidenceNote": "The family operator directly repairs, maintains and replaces residential air conditioners throughout Palm Beach County, which includes West Palm Beach.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Lowen Air Conditioning",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://lowenac.com/about-us",
+      "sourceUrls": [
+        "https://lowenac.com/about-us"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://lowenac.com/about-us",
+      "evidenceNote": "The local family-owned company identifies its West Palm Beach operation and performs household heating and air conditioning repair and installation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "A-C Temp",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://www.a-ctemp.com/",
+      "sourceUrls": [
+        "https://www.a-ctemp.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.a-ctemp.com/",
+      "evidenceNote": "The West Palm Beach contractor directly repairs and installs residential AC and heating equipment.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "ACS Advanced Climate Solutions",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://acsclimatesolutions.com/",
+      "sourceUrls": [
+        "https://acsclimatesolutions.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://acsclimatesolutions.com/",
+      "evidenceNote": "The family-owned South Florida firm offers direct household AC service in West Palm Beach.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Kyzar Air Conditioning",
+      "city": "west-palm-beach-fl",
+      "category": "hvac",
+      "sourceUrl": "https://kyzarairconditioning.com/",
+      "sourceUrls": [
+        "https://kyzarairconditioning.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://kyzarairconditioning.com/",
+      "evidenceNote": "The regional company explicitly identifies West Palm Beach and directly repairs, replaces and maintains home air conditioning.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Danova Renovations",
+      "city": "fort-lauderdale-fl",
+      "category": "flooring",
+      "sourceUrl": "https://danovapaint.com/services/flooring",
+      "sourceUrls": [
+        "https://danovapaint.com/services/flooring"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://danovapaint.com/services/flooring",
+      "evidenceNote": "The Fort Lauderdale company directly installs hardwood, tile, laminate and vinyl plank floors in local homes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Florida Termite Guys",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://floridatermiteguys.com/about/",
+      "sourceUrls": [
+        "https://floridatermiteguys.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://floridatermiteguys.com/about/",
+      "evidenceNote": "The family-operated Miami termite company offers direct residential termite and pest treatments in Miami.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Toro Pest Management",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://www.toropest.com/",
+      "sourceUrls": [
+        "https://www.toropest.com/",
+        "https://www.miamidade.gov/global/management/municipalities.page"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.toropest.com/",
+      "evidenceNote": "The Miami-area operator provides residential pest and rodent management directly across Miami-Dade County, including Miami.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Darn Quick Termite & Fumigation",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://www.darnquicktermite.com/",
+      "sourceUrls": [
+        "https://www.darnquicktermite.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.darnquicktermite.com/",
+      "evidenceNote": "The local Miami-area company directly protects homes from termites and offers residential pest control in Miami.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Delta Pest Control",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://deltapestcontrol.group/",
+      "sourceUrls": [
+        "https://deltapestcontrol.group/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://deltapestcontrol.group/",
+      "evidenceNote": "The family-owned Miami company directly treats drywood termites, other household pests and rodents at Miami residences.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Goodbye Bugs Pest Control",
+      "city": "miami-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://www.goodbyebugs.net/",
+      "sourceUrls": [
+        "https://www.goodbyebugs.net/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.goodbyebugs.net/",
+      "evidenceNote": "The locally owned Miami business directly provides household pest treatments and termite and bed-bug fumigation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Lynn’s Tire and Automotive",
+      "city": "fairhope-al",
+      "category": "auto-mechanics",
+      "sourceUrl": "https://lynnstireandauto.com/",
+      "sourceUrls": [
+        "https://lynnstireandauto.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://lynnstireandauto.com/",
+      "evidenceNote": "The regional shop directly repairs consumer vehicles across Baldwin County, including Fairhope, and offers mechanical repairs and maintenance.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Rocket City Water Wizards",
+      "city": "huntsville-al",
+      "category": "pool-service",
+      "sourceUrl": "https://rocketcitywaterwizards.com/service/",
+      "sourceUrls": [
+        "https://rocketcitywaterwizards.com/service/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://rocketcitywaterwizards.com/service/",
+      "evidenceNote": "The local Huntsville pool company offers direct ongoing maintenance, cleaning and water checks for residential swimming pools.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Let It Bee Landscaping",
+      "city": "baton-rouge-la",
+      "category": "landscaping",
+      "sourceUrl": "https://letitbeelandscaping.wordpress.com/",
+      "sourceUrls": [
+        "https://letitbeelandscaping.wordpress.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://letitbeelandscaping.wordpress.com/",
+      "evidenceNote": "The Baton Rouge landscape company installs and maintains residential native plantings and garden beds directly for local homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Nola Appliance Repair",
+      "city": "new-orleans-la",
+      "category": "appliance-repair",
+      "sourceUrl": "https://www.nolaappliance.com/about/",
+      "sourceUrls": [
+        "https://www.nolaappliance.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.nolaappliance.com/about/",
+      "evidenceNote": "The locally owned New Orleans metro company offers direct in-home appliance diagnostics and repair for residents of New Orleans.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Viking Remodeling Solutions",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://vikingremodelingsolutions.com/",
+      "sourceUrls": [
+        "https://vikingremodelingsolutions.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://vikingremodelingsolutions.com/",
+      "evidenceNote": "The family-owned Orlando contractor directly remodels residential kitchens and bathrooms for Orlando homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Aldava Kitchen & Bathrooms Remodeling",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://www.aldavacabinets.com/",
+      "sourceUrls": [
+        "https://www.aldavacabinets.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.aldavacabinets.com/",
+      "evidenceNote": "The family-owned Orlando business offers direct residential kitchen and bathroom remodeling and professional cabinet installation from its local operation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "The HomeStyles Group",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://www.thehomestylesgroup.com/",
+      "sourceUrls": [
+        "https://www.thehomestylesgroup.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.thehomestylesgroup.com/",
+      "evidenceNote": "The family-run design-build group works on home kitchen and bath remodels and identifies residential Orlando service.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Pam’s Home Remodeling",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://www.pamsflooring.com/",
+      "sourceUrls": [
+        "https://www.pamsflooring.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.pamsflooring.com/",
+      "evidenceNote": "The independent Orlando company directly installs residential kitchens and bathrooms and documents the work offered for local homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Collins Kitchen and Bath",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://www.collinskb.com/orlando-fl",
+      "sourceUrls": [
+        "https://www.collinskb.com/orlando-fl"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.collinskb.com/orlando-fl",
+      "evidenceNote": "The veteran-owned contractor explicitly serves Orlando homeowners and manages residential kitchen and bathroom remodeling projects directly.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "JMT Cabinets",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://jmtcabinets.com/",
+      "sourceUrls": [
+        "https://jmtcabinets.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://jmtcabinets.com/",
+      "evidenceNote": "The Orlando company offers kitchen and bathroom remodels for local homeowners, plus cabinet installation and refacing.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Renown Home Renovations",
+      "city": "orlando-fl",
+      "category": "kitchen-bath-remodeling",
+      "sourceUrl": "https://www.renownhomerenovations.com/",
+      "sourceUrls": [
+        "https://www.renownhomerenovations.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.renownhomerenovations.com/",
+      "evidenceNote": "The Orlando remodeling contractor advertises direct kitchen and bathroom renovations for local homes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Schwahn’s Lawns",
+      "city": "clearwater-fl",
+      "category": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://schwahnslawns.com/sprinkler-repair/",
+      "sourceUrls": [
+        "https://schwahnslawns.com/sprinkler-repair/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://schwahnslawns.com/sprinkler-repair/",
+      "evidenceNote": "The local service provider names Clearwater and directly repairs sprinkler systems for residential landscapes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "American Appliance",
+      "city": "st-petersburg-fl",
+      "category": "appliance-repair",
+      "sourceUrl": "https://americanapplianceinc.com/parts-and-service/",
+      "sourceUrls": [
+        "https://americanapplianceinc.com/parts-and-service/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://americanapplianceinc.com/parts-and-service/",
+      "evidenceNote": "The St. Petersburg company dispatches its own technicians in the area for home appliance diagnosis and repair.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "North River Landscape",
+      "city": "sarasota-fl",
+      "category": "landscaping",
+      "sourceUrl": "https://www.northriverlandscape.net/",
+      "sourceUrls": [
+        "https://www.northriverlandscape.net/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.northriverlandscape.net/",
+      "evidenceNote": "The family-operated company directly designs and installs residential landscapes in Sarasota and its nearby service area.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Borden Landscape Design",
+      "city": "sarasota-fl",
+      "category": "landscaping",
+      "sourceUrl": "https://www.bordenlandscape.com/",
+      "sourceUrls": [
+        "https://www.bordenlandscape.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.bordenlandscape.com/",
+      "evidenceNote": "The Sarasota company documents design and installation work on Sarasota residential landscapes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Abby Air",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://www.abbyairinc.com/",
+      "sourceUrls": [
+        "https://www.abbyairinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.abbyairinc.com/",
+      "evidenceNote": "The Naples firm has an identified local operation and directly provides residential air conditioning repair and replacement.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Family Air Conditioning & Heating",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://www.familyairconditioning.net/about",
+      "sourceUrls": [
+        "https://www.familyairconditioning.net/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.familyairconditioning.net/about",
+      "evidenceNote": "The locally owned Naples provider directly installs, repairs and maintains home heating and cooling systems.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Mr. Quick Fix",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://www.mrquickfixusa.com/",
+      "sourceUrls": [
+        "https://www.mrquickfixusa.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.mrquickfixusa.com/",
+      "evidenceNote": "The locally operated Naples company advertises direct residential HVAC and air conditioning repair for Naples homes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "American Mechanical of Southwest Florida",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://americanmechanical-swfl.com/residential-hvac",
+      "sourceUrls": [
+        "https://americanmechanical-swfl.com/residential-hvac"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://americanmechanical-swfl.com/residential-hvac",
+      "evidenceNote": "The regional company documents home HVAC service in Collier County, which includes Naples, and directly performs residential system repair and installation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Cold Front HVAC",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://www.colfronthvac.com/about",
+      "sourceUrls": [
+        "https://www.colfronthvac.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.colfronthvac.com/about",
+      "evidenceNote": "The Naples-based family business offers direct tune-ups, repairs and installation for Naples homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Key to Cool",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://keytocool.com/company",
+      "sourceUrls": [
+        "https://keytocool.com/company"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://keytocool.com/company",
+      "evidenceNote": "The local Naples air-conditioning company directly serves residential HVAC clients and residential new construction in Naples.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "JP Brett & Sons Air Conditioning",
+      "city": "naples-fl",
+      "category": "hvac",
+      "sourceUrl": "https://www.brettairconditioning.com/hvac-services/hvac-repair/",
+      "sourceUrls": [
+        "https://www.brettairconditioning.com/hvac-services/hvac-repair/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.brettairconditioning.com/hvac-services/hvac-repair/",
+      "evidenceNote": "The Naples company specifically offers direct home heating and air conditioning repairs for Naples and surrounding Collier County.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Sealtite Insulation",
+      "city": "fort-myers-fl",
+      "category": "insulation",
+      "sourceUrl": "https://sealtiteflorida.com/services/",
+      "sourceUrls": [
+        "https://sealtiteflorida.com/services/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://sealtiteflorida.com/services/",
+      "evidenceNote": "The family-owned regional company explicitly serves Fort Myers and directly installs residential spray foam insulation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Wrench Brothers",
+      "city": "west-palm-beach-fl",
+      "category": "auto-mechanics",
+      "sourceUrl": "https://thewrenchbrothers.com/",
+      "sourceUrls": [
+        "https://thewrenchbrothers.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://thewrenchbrothers.com/",
+      "evidenceNote": "The West Palm Beach family shop directly offers mechanical auto repairs and maintenance for private vehicle owners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Rojas Auto Repair",
+      "city": "west-palm-beach-fl",
+      "category": "auto-mechanics",
+      "sourceUrl": "https://rojasautorepair.us/contact-us",
+      "sourceUrls": [
+        "https://rojasautorepair.us/contact-us"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://rojasautorepair.us/contact-us",
+      "evidenceNote": "The family-owned shop explicitly serves West Palm Beach and offers direct mechanical repairs, including brake service, for private cars.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Master Techs Auto Repair",
+      "city": "west-palm-beach-fl",
+      "category": "auto-mechanics",
+      "sourceUrl": "https://www.mastertechsautorepair.com/",
+      "sourceUrls": [
+        "https://www.mastertechsautorepair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.mastertechsautorepair.com/",
+      "evidenceNote": "The local family-owned West Palm Beach shop directly services and repairs personal vehicles.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "America Wood Floors",
+      "city": "miami-fl",
+      "category": "flooring",
+      "sourceUrl": "https://americaflooring.co/",
+      "sourceUrls": [
+        "https://americaflooring.co/",
+        "https://www.miamidade.gov/global/management/municipalities.page"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://americaflooring.co/",
+      "evidenceNote": "The family-owned installation provider directly installs hardwood in homes and condos throughout Miami-Dade County, including Miami.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Pride Flooring & Home Decor",
+      "city": "miami-fl",
+      "category": "flooring",
+      "sourceUrl": "https://www.prideflooring.com/flooring-faq-pride-flooring-home-decor-miami-fl",
+      "sourceUrls": [
+        "https://www.prideflooring.com/flooring-faq-pride-flooring-home-decor-miami-fl"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.prideflooring.com/flooring-faq-pride-flooring-home-decor-miami-fl",
+      "evidenceNote": "The family-operated Miami company directly provides installation of flooring for residences and identifies its Miami operation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Original Wood Floors",
+      "city": "miami-fl",
+      "category": "flooring",
+      "sourceUrl": "https://www.originalwoodfloor.com/about-us",
+      "sourceUrls": [
+        "https://www.originalwoodfloor.com/about-us"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.originalwoodfloor.com/about-us",
+      "evidenceNote": "The local Miami company directly installs and repairs household hardwood and laminate floors from its Miami operation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Jorge’s Body Shop",
+      "city": "miami-fl",
+      "category": "auto-body-collision",
+      "sourceUrl": "https://jorgesbodyshop.com/about-us/",
+      "sourceUrls": [
+        "https://jorgesbodyshop.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://jorgesbodyshop.com/about-us/",
+      "evidenceNote": "The family-owned Miami shop directly repairs collision damage and provides auto body refinishing for individual car owners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Bird Road Body Shop",
+      "city": "miami-fl",
+      "category": "auto-body-collision",
+      "sourceUrl": "https://birdroadbodyshop.com/",
+      "sourceUrls": [
+        "https://birdroadbodyshop.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://birdroadbodyshop.com/",
+      "evidenceNote": "The local Miami family service directly repairs collision and body damage on individual drivers’ cars.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Auto Perfection Miami",
+      "city": "miami-fl",
+      "category": "auto-body-collision",
+      "sourceUrl": "https://www.autoperfectionmiami.com/",
+      "sourceUrls": [
+        "https://www.autoperfectionmiami.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.autoperfectionmiami.com/",
+      "evidenceNote": "The Miami shop directly performs collision, auto body and cosmetic repairs for individual local drivers.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Starr's Auto Repair",
+      "city": "navarre-fl",
+      "category": "auto-mechanics",
+      "sourceUrl": "https://www.starrsautorepair.com/",
+      "sourceUrls": [
+        "https://www.starrsautorepair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.starrsautorepair.com/",
+      "evidenceNote": "The shop names its Navarre Parkway location in Navarre and offers direct repairs on customers' personal cars.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Dually Doors",
+      "city": "gulf-breeze-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://www.duallydoors.com/residential-garage-door-company-pensacola/gulf-breeze-fl-residential-garage-door-repair",
+      "sourceUrls": [
+        "https://www.duallydoors.com/residential-garage-door-company-pensacola/gulf-breeze-fl-residential-garage-door-repair"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.duallydoors.com/residential-garage-door-company-pensacola/gulf-breeze-fl-residential-garage-door-repair",
+      "evidenceNote": "Its Gulf Breeze residential service page describes repairs to home garage door operators, cables, springs and belts by its crew.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Juan's Home Services",
+      "city": "auburn-al",
+      "category": "tree-service",
+      "sourceUrl": "https://www.juanhomeservices.com/about.php",
+      "sourceUrls": [
+        "https://www.juanhomeservices.com/about.php"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.juanhomeservices.com/about.php",
+      "evidenceNote": "This locally operated maintenance company explicitly serves Auburn homeowners and describes direct seasonal tree pruning and removal of downed trees.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "BTOP Landscaping",
+      "city": "montgomery-al",
+      "category": "landscaping",
+      "sourceUrl": "https://www.btopslandscapinginc.com/",
+      "sourceUrls": [
+        "https://www.btopslandscapinginc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.btopslandscapinginc.com/",
+      "evidenceNote": "Its Montgomery service site identifies residential clients and describes landscape installation and lawn care, with a completed backyard sod project.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Avans Electric",
+      "city": "birmingham-al",
+      "category": "electrical",
+      "sourceUrl": "https://www.avanselectric.com/",
+      "sourceUrls": [
+        "https://www.avanselectric.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.avanselectric.com/",
+      "evidenceNote": "The regional Cullman-based electrician names Birmingham and advertises direct electrical repairs, troubleshooting and upgrades for homes.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Dynamic Electrical Company",
+      "city": "birmingham-al",
+      "category": "electrical",
+      "sourceUrl": "https://www.dynamicelectricalcomp.com/",
+      "sourceUrls": [
+        "https://www.dynamicelectricalcomp.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.dynamicelectricalcomp.com/",
+      "evidenceNote": "The Trussville company serves homeowners in the Birmingham area with electrical repairs, remodeling and service upgrades.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Bunn's and Bennett Heating and Air",
+      "city": "huntsville-al",
+      "category": "insulation",
+      "sourceUrl": "https://bunnshvac.com/attic-insulation/",
+      "sourceUrls": [
+        "https://bunnshvac.com/attic-insulation/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://bunnshvac.com/attic-insulation/",
+      "evidenceNote": "The Huntsville contractor’s attic insulation page explains installation to reduce heat loss and energy costs in homes and identifies the Huntsville operation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Bed Wetters Irrigation & Lighting",
+      "city": "new-orleans-la",
+      "category": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://www.bedwettersirrigationdesigns.com/irrigation-installation",
+      "sourceUrls": [
+        "https://www.bedwettersirrigationdesigns.com/irrigation-installation"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.bedwettersirrigationdesigns.com/irrigation-installation",
+      "evidenceNote": "Its New Orleans installation page describes the local company’s sprinkler installation and repair for customers’ lawns.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "DeKalb Concrete",
+      "city": "atlanta-ga",
+      "category": "concrete",
+      "sourceUrl": "https://dekalbconcretellc.com/about",
+      "sourceUrls": [
+        "https://dekalbconcretellc.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://dekalbconcretellc.com/about",
+      "evidenceNote": "The family-owned Atlanta metro contractor directly installs residential concrete, including driveways, patios and walkways.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Zamora Concrete",
+      "city": "atlanta-ga",
+      "category": "concrete",
+      "sourceUrl": "https://www.zamoraconcretega.com/about_us",
+      "sourceUrls": [
+        "https://www.zamoraconcretega.com/about_us"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.zamoraconcretega.com/about_us",
+      "evidenceNote": "The company states it is locally family owned in Atlanta and offers residential driveway and concrete services with its own team.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "7V Roofing",
+      "city": "jacksonville-fl",
+      "category": "roofing",
+      "sourceUrl": "https://www.7vroofing.com/",
+      "sourceUrls": [
+        "https://www.7vroofing.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.7vroofing.com/",
+      "evidenceNote": "The family-owned contractor names Jacksonville and shows before-and-after Jacksonville home roof replacements it performed.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Vigilante & Family Roofing Services",
+      "city": "jacksonville-fl",
+      "category": "roofing",
+      "sourceUrl": "https://vigilanteroofing.com/contact-residential-commercial-roof-repair/",
+      "sourceUrls": [
+        "https://vigilanteroofing.com/contact-residential-commercial-roof-repair/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://vigilanteroofing.com/contact-residential-commercial-roof-repair/",
+      "evidenceNote": "Its Jacksonville contact page identifies the independent family company and offers residential roof repairs and replacements in Jacksonville.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "J. Irrigation Repair",
+      "city": "orlando-fl",
+      "category": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://jirrigationrepair.com/contact/",
+      "sourceUrls": [
+        "https://jirrigationrepair.com/contact/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://jirrigationrepair.com/contact/",
+      "evidenceNote": "The family business is based in Orlando and offers residential landscape sprinkler repairs and new systems, with customer examples of sprinkler pipe repairs.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Sprinkler Repair Inc.",
+      "city": "orlando-fl",
+      "category": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://sprinklerrepairinc.com/",
+      "sourceUrls": [
+        "https://sprinklerrepairinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://sprinklerrepairinc.com/",
+      "evidenceNote": "The family-owned provider names Orlando and works directly on residential irrigation system repair, design and installation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Groves Electric",
+      "city": "tampa-fl",
+      "category": "electrical",
+      "sourceUrl": "https://www.groveselectricinc.com/",
+      "sourceUrls": [
+        "https://www.groveselectricinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.groveselectricinc.com/",
+      "evidenceNote": "This family-owned electrician names Tampa and offers residential wiring, service repairs and home EV charger installations.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "SAUL Electrical Services",
+      "city": "tampa-fl",
+      "category": "electrical",
+      "sourceUrl": "https://www.saulelectricalservices.com/electrician-hillsborough-county",
+      "sourceUrls": [
+        "https://www.saulelectricalservices.com/electrician-hillsborough-county"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.saulelectricalservices.com/electrician-hillsborough-county",
+      "evidenceNote": "Its Hillsborough County service page names Tampa and describes electrical repairs, panel upgrades and whole-home protection for Tampa homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "SP Automotive Collision & Repair",
+      "city": "sarasota-fl",
+      "category": "auto-body-collision",
+      "sourceUrl": "https://www.spmotorworks.com/",
+      "sourceUrls": [
+        "https://www.spmotorworks.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.spmotorworks.com/",
+      "evidenceNote": "The shop identifies its Sarasota collision repair facility and offers direct body repairs for customers’ privately owned vehicles.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Coastal Auto Collision & Customs",
+      "city": "sarasota-fl",
+      "category": "auto-body-collision",
+      "sourceUrl": "https://coastalautocollision.com/",
+      "sourceUrls": [
+        "https://coastalautocollision.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://coastalautocollision.com/",
+      "evidenceNote": "The Sarasota shop provides collision and body repair for consumer vehicles and identifies the Sarasota service address.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Jackson's Auto Body",
+      "city": "sarasota-fl",
+      "category": "auto-body-collision",
+      "sourceUrl": "https://www.jacksonsautobody.net/",
+      "sourceUrls": [
+        "https://www.jacksonsautobody.net/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.jacksonsautobody.net/",
+      "evidenceNote": "Its Sarasota shop offers consumer collision repair, body painting and frame straightening. The official site confirms the Sarasota address.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Ideal Insulation",
+      "city": "naples-fl",
+      "category": "insulation",
+      "sourceUrl": "https://www.idealinsulationinc.com/contact-us-ideal-insulation",
+      "sourceUrls": [
+        "https://www.idealinsulationinc.com/contact-us-ideal-insulation"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.idealinsulationinc.com/contact-us-ideal-insulation",
+      "evidenceNote": "The Naples-based insulation crew lists its Naples operation and works directly with homeowners on insulation.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Spray Foam Naples",
+      "city": "naples-fl",
+      "category": "insulation",
+      "sourceUrl": "https://sprayfoamnaples.com/services/residential-insulation/",
+      "sourceUrls": [
+        "https://sprayfoamnaples.com/services/residential-insulation/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://sprayfoamnaples.com/services/residential-insulation/",
+      "evidenceNote": "The local Naples service page describes installing spray foam insulation in residential walls, attics and other home spaces.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Igloo Insulation",
+      "city": "naples-fl",
+      "category": "insulation",
+      "sourceUrl": "https://www.iglooinsulationfl.com/residential-insulation",
+      "sourceUrls": [
+        "https://www.iglooinsulationfl.com/residential-insulation"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.iglooinsulationfl.com/residential-insulation",
+      "evidenceNote": "Its residential service page names Naples and offers direct home insulation installation to limit heat loss.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Dynamic Automotive",
+      "city": "fort-myers-fl",
+      "category": "auto-mechanics",
+      "sourceUrl": "https://dynamicfl.com/",
+      "sourceUrls": [
+        "https://dynamicfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://dynamicfl.com/",
+      "evidenceNote": "The independent Fort Myers repair shop lists repairs and maintenance directly for private vehicles and names its Fort Myers location.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "ICS Renovations",
+      "city": "west-palm-beach-fl",
+      "category": "flooring",
+      "sourceUrl": "https://icsrenovationsfl.com/services/flooring-installation",
+      "sourceUrls": [
+        "https://icsrenovationsfl.com/services/flooring-installation"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://icsrenovationsfl.com/services/flooring-installation",
+      "evidenceNote": "The regional family company directly installs vinyl and porcelain flooring in homes and names West Palm Beach on its flooring service page.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Inspirations Flooring",
+      "city": "west-palm-beach-fl",
+      "category": "flooring",
+      "sourceUrl": "https://inspirationsflooring.com/home/",
+      "sourceUrls": [
+        "https://inspirationsflooring.com/home/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://inspirationsflooring.com/home/",
+      "evidenceNote": "The local shop’s official site offers hardwood flooring installed in West Palm Beach homes by its own installation team.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Fix It Right Electric",
+      "city": "fort-lauderdale-fl",
+      "category": "electrical",
+      "sourceUrl": "https://fixitrightelectricservices.com/",
+      "sourceUrls": [
+        "https://fixitrightelectricservices.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://fixitrightelectricservices.com/",
+      "evidenceNote": "The South Florida family operation names Fort Lauderdale and provides home electrical repairs, lighting and panel service.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Miami Tree Cuts",
+      "city": "miami-fl",
+      "category": "tree-service",
+      "sourceUrl": "https://miamitreecuts.com/about-us/",
+      "sourceUrls": [
+        "https://miamitreecuts.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://miamitreecuts.com/about-us/",
+      "evidenceNote": "The local tree crew describes doing tree, palm and stump removal for homeowners and identifies Miami as its working base.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Martin's Tree Solution",
+      "city": "miami-fl",
+      "category": "tree-service",
+      "sourceUrl": "https://www.martinstreesolution.com/",
+      "sourceUrls": [
+        "https://www.martinstreesolution.com/",
+        "https://www.miamidade.gov/global/management/municipalities.page"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://martinstreesolution.com/",
+      "evidenceNote": "The family crew advertises removal, trimming and stump grinding for homeowners across Miami-Dade County, which includes Miami.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Abraham Professional Tree Service",
+      "city": "miami-fl",
+      "category": "tree-service",
+      "sourceUrl": "https://abrahamtreeservice.com/",
+      "sourceUrls": [
+        "https://abrahamtreeservice.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://abrahamtreeservice.com/",
+      "evidenceNote": "The family-operated crew identifies Miami and shows its own tree removal work there. Its official site offers residential tree work and stump grinding.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Tree Masters",
+      "city": "miami-fl",
+      "category": "tree-service",
+      "sourceUrl": "https://www.treemastersfl.com/about-us/",
+      "sourceUrls": [
+        "https://www.treemastersfl.com/about-us/",
+        "https://www.miamidade.gov/global/management/municipalities.page"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.treemastersfl.com/about-us/",
+      "evidenceNote": "The local family-operated company offers tree removal, trimming and stump work to homeowners in Miami-Dade County, which includes Miami.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Rogan's Pro Appliance Repair",
+      "city": "tallahassee-fl",
+      "category": "appliance-repair",
+      "sourceUrl": "https://www.rogansproappliance.com/marianna-appliance-repair",
+      "sourceUrls": [
+        "https://www.rogansproappliance.com/marianna-appliance-repair",
+        "https://www.rogansproappliance.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://www.rogansproappliance.com/",
+      "evidenceNote": "The family-owned appliance company specifically names Tallahassee in its regional service description and lists repairs for residential washers, dryers, refrigerators and dishwashers.",
+      "existingAtBaseline": true,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "JP Nichols Construction",
+      "city": "destin-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://jpnicholsconstruction.com/",
+      "sourceUrls": [
+        "https://jpnicholsconstruction.com/",
+        "https://jpnicholsconstruction.com/about-jp-nichols/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://jpnicholsconstruction.com/",
+      "evidenceNote": "This regional family-owned construction company names Destin and describes designing and building custom residential swimming pools for homeowners.",
+      "existingAtBaseline": false,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Patriot Pool Solutions",
+      "city": "crestview-fl",
+      "category": "pool-installation",
+      "sourceUrl": "https://patriotpoolsolutions.com/about/",
+      "sourceUrls": [
+        "https://patriotpoolsolutions.com/about/",
+        "https://patriotpoolsolutions.com/",
+        "https://www.myokaloosa.com/index.php/towns-municipalities"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://patriotpoolsolutions.com/",
+      "evidenceNote": "The local company builds custom backyard pools for homeowners throughout Okaloosa County. The county government identifies Crestview as one of its municipalities.",
+      "existingAtBaseline": true,
+      "publicationStatus": "live_verified"
+    },
+    {
+      "name": "Patriot Pool Solutions",
+      "city": "crestview-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://patriotpoolsolutions.com/about/",
+      "sourceUrls": [
+        "https://patriotpoolsolutions.com/about/",
+        "https://patriotpoolsolutions.com/",
+        "https://www.myokaloosa.com/index.php/towns-municipalities"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "officialDestination": "https://patriotpoolsolutions.com/",
+      "evidenceNote": "The local company directly provides weekly residential pool cleaning, maintenance and repairs throughout Okaloosa County. The county government identifies Crestview as one of its municipalities.",
+      "existingAtBaseline": true,
+      "publicationStatus": "live_verified"
+    }
+  ],
   "historicalFlags": [
     {
       "name": "Precision Aluminum",
@@ -3001,6 +4443,40 @@
     "present": false,
     "page": "https://whoknowsapro.com/west-palm-beach-fl/pool-service"
   },
+  "priorityResearch": [
+    {
+      "city": "destin-fl",
+      "category": "auto-body-collision",
+      "outcome": "Official All Pro Paint and Body result was already listed. Gerber was a national brand. Other results did not establish an eligible official site."
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "outcome": "Blue Water and Garage Door Guru were already listed. Garage Door Guru’s official destination returned repeated 5xx."
+    },
+    {
+      "city": "crestview-fl",
+      "category": "appliance-repair",
+      "outcome": "Purvis was already listed and its official response did not identify an operating business. A third-party lead for Southern Home Appliance Services did not supply first-party evidence."
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "septic-services",
+      "outcome": "Parker Septic was already listed. Other results were directories or lacked an official site with local residential septic service."
+    }
+  ],
+  "nationalNameReviews": [
+    {
+      "name": "National Pool Service",
+      "sourceUrl": "https://www.natpool.com/",
+      "conclusion": "The business describes family ownership and residential service in Palm Beach County."
+    },
+    {
+      "name": "National Garage Door of Atlanta",
+      "sourceUrl": "https://nationalgaragedooratlanta.com/residential-garage-door-repair/",
+      "conclusion": "The company describes local ownership and the Atlanta service area."
+    }
+  ],
   "limitations": [
     "Only repository inventory, source files, the public page catalog and public profiles were available for baseline deduplication. Private directory inventory was unavailable.",
     "Historical eligibility outside the audited placements is unknown. Displayed counts measure records and can include duplicate or unsupported businesses.",
