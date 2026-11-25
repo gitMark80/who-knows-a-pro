@@ -23,6 +23,10 @@ export const excludedWebsiteDomains = [
   'greenhomesolutions.com',
   'tiresplus.com',
 
+  // National garage door network and Huntsville branch of the Carpet One cooperative.
+  'brockgaragedoors.com',
+  'carpetonehuntsville.com',
+
   // National automotive service chains and the Rollins Fox Pest Control brand.
   'expressoil.com',
   'goodyear.com',
