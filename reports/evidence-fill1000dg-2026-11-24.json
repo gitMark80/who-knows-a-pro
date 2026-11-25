@@ -1,0 +1,1972 @@
+{
+  "runDate": "2026-11-24",
+  "baselineCommit": "d684e808bcb3310e056b2309f410c238a921749b",
+  "baselineTree": "2c13274216b89dd02db7e5ddd509535eacc787f8",
+  "previousCheckpoint": "reports/progress-fill1000df-2026-11-24.md",
+  "catalog": {
+    "activeCities": 40,
+    "visibleCategories": 28,
+    "hiddenCategories": 12,
+    "publicPages": 1120,
+    "includesGraytonBeach": true,
+    "includesPensacolaBeach": false,
+    "panamaCityAndPanamaCityBeachSeparate": true
+  },
+  "baselineCoverage": {
+    "pages": 1120,
+    "displayedPlacements": 14011,
+    "displayedAtLeast20": 247,
+    "displayedBelow20": 873,
+    "displayedEmpty": 0,
+    "displayedDeficitLowerBound": 8694,
+    "qualifyingDeficitExact": null
+  },
+  "currentCoverage": {
+    "pages": 1120,
+    "displayedPlacements": 14011,
+    "displayedAtLeast20": 247,
+    "displayedBelow20": 873,
+    "displayedEmpty": 0,
+    "displayedDeficitLowerBound": 8694,
+    "qualifyingDeficitExact": null
+  },
+  "distinctSearchDomainsScreened": 419,
+  "officialCandidatePageChecks": 170,
+  "directPlacementChecks": 124,
+  "status": "committedPendingDeployment",
+  "publicationCommit": null,
+  "deploymentUrl": null,
+  "liveVerifiedNewBusinesses": 0,
+  "newBusinessShortfall": 1000,
+  "liveVerifiedNewBusinessPlacements": 0,
+  "liveVerifiedExistingBusinessPlacements": 0,
+  "awaitingDeployment": 124,
+  "awaitingLiveVerification": 0,
+  "placements": [
+    {
+      "name": "Rayzor Sharp Customs and Collision Repair",
+      "city": "pensacola-fl",
+      "category": "auto-body-collision",
+      "website": "https://rayzorcustomsandcollision.webnode.page/",
+      "officialDestination": "https://rayzorcustomsandcollision.webnode.page/",
+      "sourceUrls": [
+        "https://rayzorcustomsandcollision.webnode.page/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The official shop page gives its Pensacola workshop and invites individual car owners to bring vehicles in for collision and auto body repair.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Birmingham Elite Concrete",
+      "city": "birmingham-al",
+      "category": "concrete",
+      "website": "https://www.birminghameliteconcrete.com/about",
+      "officialDestination": "https://www.birminghameliteconcrete.com/about",
+      "sourceUrls": [
+        "https://www.birminghameliteconcrete.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned contractor describes pouring Birmingham homes' concrete driveways, patios and slabs.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "GAE Concrete Co.",
+      "city": "birmingham-al",
+      "category": "concrete",
+      "website": "https://birminghamconcretesolution.com/index.html",
+      "officialDestination": "https://birminghamconcretesolution.com/index.html",
+      "sourceUrls": [
+        "https://birminghamconcretesolution.com/index.html"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned contractor offers concrete driveways, sidewalks and patios for Birmingham homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Vanguard Concrete Birmingham",
+      "city": "birmingham-al",
+      "category": "concrete",
+      "website": "https://vanguardconcretebirmingham.com/",
+      "officialDestination": "https://vanguardconcretebirmingham.com/",
+      "sourceUrls": [
+        "https://vanguardconcretebirmingham.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned Birmingham contractor offers residential driveway installation, repair and replacement.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "American Forestry Services",
+      "city": "baton-rouge-la",
+      "category": "tree-service",
+      "website": "https://americanforestryservices.com/tree-removal-services/",
+      "officialDestination": "https://americanforestryservices.com/tree-removal-services/",
+      "sourceUrls": [
+        "https://americanforestryservices.com/tree-removal-services/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional crew removes hazardous and unwanted trees from home lots in Baton Rouge and across southern Louisiana.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Mr. D’s Tree Service",
+      "city": "baton-rouge-la",
+      "category": "tree-service",
+      "website": "https://mrdtreebr.com/",
+      "officialDestination": "https://mrdtreebr.com/",
+      "sourceUrls": [
+        "https://mrdtreebr.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned company offers residential tree trimming and removal across Greater Baton Rouge, including Baton Rouge.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "T.O.’s Lawn & Landscaping",
+      "city": "new-orleans-la",
+      "category": "landscaping",
+      "website": "https://www.toslawnandlandscaping.com/",
+      "officialDestination": "https://www.toslawnandlandscaping.com/",
+      "sourceUrls": [
+        "https://www.toslawnandlandscaping.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family company's website offers landscaping and yard improvements for homes across Greater New Orleans, including the city.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "The Plant Gallery",
+      "city": "new-orleans-la",
+      "category": "landscaping",
+      "website": "https://theplantgallery.com/about-us/our-story/",
+      "officialDestination": "https://theplantgallery.com/about-us/our-story/",
+      "sourceUrls": [
+        "https://theplantgallery.com/about-us/our-story/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local firm grew from its French Quarter shop into a New Orleans residential landscape design and maintenance provider.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Eric’s Tidy Turf Landscaping",
+      "city": "new-orleans-la",
+      "category": "landscaping",
+      "website": "https://www.ericstidyturf.com/services/residential-landscaping",
+      "officialDestination": "https://www.ericstidyturf.com/services/residential-landscaping",
+      "sourceUrls": [
+        "https://www.ericstidyturf.com/services/residential-landscaping"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local in-house team designs, builds and maintains New Orleans residential gardens, yards and patios and shows completed home projects.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Kendale Air Conditioning",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://www.kendaleair.com/about-us/",
+      "officialDestination": "https://www.kendaleair.com/about-us/",
+      "sourceUrls": [
+        "https://www.kendaleair.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned Miami-based company repairs and installs home cooling equipment for Miami-Dade communities including Miami.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Acree Air Miami",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://www.acreeairmiami.com/",
+      "officialDestination": "https://www.acreeairmiami.com/",
+      "sourceUrls": [
+        "https://www.acreeairmiami.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This company identifies itself as a locally owned independent contractor and offers Miami homeowners residential AC repair and installation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Marvin’s Air Conditioning",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://marvinair.com/",
+      "officialDestination": "https://marvinair.com/",
+      "sourceUrls": [
+        "https://marvinair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned company identifies its Miami location and offers HVAC repair, replacement and installation to Miami homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "ECO Air Conditioning Miami",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://ecoacflorida.com/",
+      "officialDestination": "https://ecoacflorida.com/",
+      "sourceUrls": [
+        "https://ecoacflorida.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned contractor offers Miami homeowners AC repair and maintenance and explicitly covers Miami-Dade County, which includes Miami.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Air & Heat Conditioning Doctors",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://airdoctor.us/",
+      "officialDestination": "https://airdoctor.us/",
+      "sourceUrls": [
+        "https://airdoctor.us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned company offers residential AC repair, installation and replacement in Miami and expressly covers Miami-Dade.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Xelor Air & Heat",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://www.xelorair.com/",
+      "officialDestination": "https://www.xelorair.com/",
+      "sourceUrls": [
+        "https://www.xelorair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This family-owned HVAC provider explicitly includes Miami and services residential heating and cooling equipment.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Flow-Tech Air Conditioning",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://flowtechac.com/who-we-are/",
+      "officialDestination": "https://flowtechac.com/who-we-are/",
+      "sourceUrls": [
+        "https://flowtechac.com/who-we-are/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The owner-led Miami contractor offers residential AC repair and installation from its Miami operation and expressly covers the Miami area.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "South Cooling",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://www.southcooling.com/",
+      "officialDestination": "https://www.southcooling.com/",
+      "sourceUrls": [
+        "https://www.southcooling.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned company offers homeowners AC installation, service and heating repair in Miami-Dade County, which includes Miami.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Raircon Corporation",
+      "city": "miami-fl",
+      "category": "hvac",
+      "website": "https://raircon.com/",
+      "officialDestination": "https://raircon.com/",
+      "sourceUrls": [
+        "https://raircon.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned contractor identifies home air-conditioning and mechanical services in its Miami-Dade coverage, which includes Miami.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "NEFL Quality Pools",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "website": "https://www.neflqualitypools.com/",
+      "officialDestination": "https://www.neflqualitypools.com/",
+      "sourceUrls": [
+        "https://www.neflqualitypools.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Jacksonville provider identifies residential pool maintenance and pool equipment repair as direct services.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "AquaTec Pool Care",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "website": "https://www.aquatecjax.com/about",
+      "officialDestination": "https://www.aquatecjax.com/about",
+      "sourceUrls": [
+        "https://www.aquatecjax.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Jacksonville-based team provides professional swimming pool maintenance and cleaning for residential customers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "RightWay Pool",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "website": "https://www.rightwaypool.com/",
+      "officialDestination": "https://www.rightwaypool.com/",
+      "sourceUrls": [
+        "https://www.rightwaypool.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local pool team provides weekly backyard pool cleaning, skimming and chemical balancing in Jacksonville.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Paragon Pools",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "website": "https://paragonpoolsjax.com/pool-cleaning/",
+      "officialDestination": "https://paragonpoolsjax.com/pool-cleaning/",
+      "sourceUrls": [
+        "https://paragonpoolsjax.com/pool-cleaning/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "Its Jacksonville service page offers residential pool cleaning and direct recurring swimming pool maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Clean & Clear Pools",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "website": "https://www.cleanandclearpoolsfl.com/",
+      "officialDestination": "https://www.cleanandclearpoolsfl.com/",
+      "sourceUrls": [
+        "https://www.cleanandclearpoolsfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The team offers homeowners in Jacksonville weekly cleaning, chemistry balancing and in-house swimming pool repairs.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Belleair Palms",
+      "city": "clearwater-fl",
+      "category": "landscaping",
+      "website": "https://www.belleairpalms.com/",
+      "officialDestination": "https://www.belleairpalms.com/",
+      "sourceUrls": [
+        "https://www.belleairpalms.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Clearwater family company offers direct residential landscape design, landscape installation and palm planting.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Green Thumb Landscape Design",
+      "city": "clearwater-fl",
+      "category": "landscaping",
+      "website": "https://www.gtlad.com/",
+      "officialDestination": "https://www.gtlad.com/",
+      "sourceUrls": [
+        "https://www.gtlad.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "Its Clearwater shop offers local homes landscape design and outdoor installations including plantings and artificial turf.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Local Roots Landscaping",
+      "city": "clearwater-fl",
+      "category": "landscaping",
+      "website": "https://www.localrootslandscapedesigns.com/contact.html",
+      "officialDestination": "https://www.localrootslandscapedesigns.com/contact.html",
+      "sourceUrls": [
+        "https://www.localrootslandscapedesigns.com/contact.html"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local studio explicitly lists Clearwater for landscape design and sod installation and describes residential landscape services.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Bright Shield Services",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "website": "https://www.brightshieldservices.com/",
+      "officialDestination": "https://www.brightshieldservices.com/",
+      "sourceUrls": [
+        "https://www.brightshieldservices.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Naples owner-operated company provides residential pool cleaning in Naples and across Collier County.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Coastal Rinse",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "website": "https://www.coastalrinse.com/",
+      "officialDestination": "https://www.coastalrinse.com/",
+      "sourceUrls": [
+        "https://www.coastalrinse.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local pool company offers Naples homeowners weekly swimming pool cleaning, brushing and maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Sea Breeze Pool Service",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "website": "https://seabreezepoolcleaning.com/",
+      "officialDestination": "https://seabreezepoolcleaning.com/",
+      "sourceUrls": [
+        "https://seabreezepoolcleaning.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Naples family-owned company offers recurring cleaning and maintenance for home swimming pools in Naples.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ebenezer Naples Pool Service",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "website": "https://ebenezernaplespools.com/about",
+      "officialDestination": "https://ebenezernaplespools.com/about",
+      "sourceUrls": [
+        "https://ebenezernaplespools.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Naples-founded pool company explicitly names Naples and performs weekly home pool care and equipment maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "ABA Pool Cleaning",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "website": "https://www.abapoolcleaning.com/",
+      "officialDestination": "https://www.abapoolcleaning.com/",
+      "sourceUrls": [
+        "https://www.abapoolcleaning.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-run service offers recurring swimming pool cleaning and repair for homeowners in Naples.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "AAP Air Services",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://www.aapair.com/about.html",
+      "officialDestination": "https://www.aapair.com/about.html",
+      "sourceUrls": [
+        "https://www.aapair.com/about.html"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Sarasota company describes residential HVAC repair, preventive maintenance and heating and cooling installation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "SRQ AC",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://srqac.com/",
+      "officialDestination": "https://srqac.com/",
+      "sourceUrls": [
+        "https://srqac.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This Sarasota HVAC team directly handles residential AC installation, repair, maintenance and replacement.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Air Comfort Services",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://acssarasota.com/residential",
+      "officialDestination": "https://acssarasota.com/residential",
+      "sourceUrls": [
+        "https://acssarasota.com/residential"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned residential HVAC provider specifically names Sarasota and offers home cooling and HVAC work.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Aqua Plumbing & Air",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://www.aquaplumbingsarasota.com/about-us",
+      "officialDestination": "https://www.aquaplumbingsarasota.com/about-us",
+      "sourceUrls": [
+        "https://www.aquaplumbingsarasota.com/about-us"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local company explicitly offers Sarasota households HVAC service and home comfort system maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Rench’s Cooling & Heating",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://renchs-air.com/",
+      "officialDestination": "https://renchs-air.com/",
+      "sourceUrls": [
+        "https://renchs-air.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family business provides AC repair, replacements and maintenance for homeowners across Sarasota County, including Sarasota.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Green Cooling Solutions",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://www.greencoolingsolutions.com/",
+      "officialDestination": "https://www.greencoolingsolutions.com/",
+      "sourceUrls": [
+        "https://www.greencoolingsolutions.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned Sarasota company offers direct residential AC repair, installation and HVAC maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Manasota Cooling & Heating",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://manasotacooling.com/",
+      "officialDestination": "https://manasotacooling.com/",
+      "sourceUrls": [
+        "https://manasotacooling.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned company expressly serves Sarasota homeowners with AC repair, HVAC maintenance and system installation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Redline Cooling & Heating",
+      "city": "sarasota-fl",
+      "category": "hvac",
+      "website": "https://www.redlinecooling.net/",
+      "officialDestination": "https://www.redlinecooling.net/",
+      "sourceUrls": [
+        "https://www.redlinecooling.net/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-operated Sarasota company offers home air-conditioning repair and describes its residential HVAC service area.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Cureton Plumbing",
+      "city": "tallahassee-fl",
+      "category": "plumbing",
+      "website": "https://curetonplumbing.com/",
+      "officialDestination": "https://curetonplumbing.com/",
+      "sourceUrls": [
+        "https://curetonplumbing.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned firm explicitly serves Tallahassee and provides repair, remodeling and installation in residential properties.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Smith Plumbing Company",
+      "city": "tallahassee-fl",
+      "category": "plumbing",
+      "website": "https://smithplumbingco.com/",
+      "officialDestination": "https://smithplumbingco.com/",
+      "sourceUrls": [
+        "https://smithplumbingco.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned Tallahassee company offers direct residential plumbing repair and installation from its Tallahassee location.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Brown Plumbing of Tallahassee",
+      "city": "tallahassee-fl",
+      "category": "plumbing",
+      "website": "https://brownplumbinginc.com/",
+      "officialDestination": "https://brownplumbinginc.com/",
+      "sourceUrls": [
+        "https://brownplumbinginc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This locally owned Tallahassee company identifies direct residential plumbing services and home repairs.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Seminole Plumbing",
+      "city": "tallahassee-fl",
+      "category": "plumbing",
+      "website": "https://www.seminoleplumbing.com/residential-service",
+      "officialDestination": "https://www.seminoleplumbing.com/residential-service",
+      "sourceUrls": [
+        "https://www.seminoleplumbing.com/residential-service"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Tallahassee-based plumbing company offers home plumbing repairs through its residential technicians.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Keith Lawson Services",
+      "city": "tallahassee-fl",
+      "category": "plumbing",
+      "website": "https://www.keithlawson.com/plumbing/",
+      "officialDestination": "https://www.keithlawson.com/plumbing/",
+      "sourceUrls": [
+        "https://www.keithlawson.com/plumbing/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional provider identifies Tallahassee and offers direct residential plumbing repair for fixtures, leaks and home plumbing systems.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Verittas",
+      "city": "orlando-fl",
+      "category": "appliance-repair",
+      "website": "https://www.verittasllc.com/",
+      "officialDestination": "https://www.verittasllc.com/",
+      "sourceUrls": [
+        "https://www.verittasllc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Greater Orlando company repairs home appliances directly for Orlando-area homeowners, including private-pay customers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Alpha Appliance Repair",
+      "city": "orlando-fl",
+      "category": "appliance-repair",
+      "website": "https://alphaappliancerepairfl.com/service-areas/appliance-repair-in-orlando/",
+      "officialDestination": "https://alphaappliancerepairfl.com/service-areas/appliance-repair-in-orlando/",
+      "sourceUrls": [
+        "https://alphaappliancerepairfl.com/service-areas/appliance-repair-in-orlando/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned team provides in-home refrigerator, washer, dryer, dishwasher and oven diagnostics and repair in Orlando.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Mr. Shark Appliance Repair",
+      "city": "orlando-fl",
+      "category": "appliance-repair",
+      "website": "https://appliancefixsameday.com/",
+      "officialDestination": "https://appliancefixsameday.com/",
+      "sourceUrls": [
+        "https://appliancefixsameday.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local company identifies Orlando and provides in-home repairs on refrigerators, washers, dryers, ovens and dishwashers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Water Management",
+      "city": "west-palm-beach-fl",
+      "category": "irrigation-sprinkler-repair",
+      "website": "https://www.watermanagementfl.com/",
+      "officialDestination": "https://www.watermanagementfl.com/",
+      "sourceUrls": [
+        "https://www.watermanagementfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional company offers residential irrigation and sprinkler service in Palm Beach County, which includes West Palm Beach.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Tree Rescue",
+      "city": "st-petersburg-fl",
+      "category": "tree-service",
+      "website": "https://treerescuefl.com/",
+      "officialDestination": "https://treerescuefl.com/",
+      "sourceUrls": [
+        "https://treerescuefl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned crew expressly lists St. Petersburg and offers home tree trimming, removal, stump grinding and storm response.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Pinellas Property Services",
+      "city": "st-petersburg-fl",
+      "category": "tree-service",
+      "website": "https://www.pinellaspropertyservices.com/",
+      "officialDestination": "https://www.pinellaspropertyservices.com/",
+      "sourceUrls": [
+        "https://www.pinellaspropertyservices.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The company explicitly names St. Petersburg for residential tree care and offers direct removal and trimming services.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Swim Tech SWFL",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://www.swimtechswfl.com/",
+      "officialDestination": "https://www.swimtechswfl.com/",
+      "sourceUrls": [
+        "https://www.swimtechswfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned Fort Myers company provides recurring home swimming pool cleaning and chemistry maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "West Coast Pool Services & Repair",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://www.westcoastpoolrepair.com/",
+      "officialDestination": "https://www.westcoastpoolrepair.com/",
+      "sourceUrls": [
+        "https://www.westcoastpoolrepair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family company offers Fort Myers homeowners weekly residential pool service and pool equipment repair.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Wilkins Pool Care",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://www.wilkinspoolcare.com/",
+      "officialDestination": "https://www.wilkinspoolcare.com/",
+      "sourceUrls": [
+        "https://www.wilkinspoolcare.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This family-operated company provides homeowners with pool service and repair in Lee County and explicitly names Fort Myers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Clear Water Pool Cleaning",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://clearwaterpoolcleaning.company/",
+      "officialDestination": "https://clearwaterpoolcleaning.company/",
+      "sourceUrls": [
+        "https://clearwaterpoolcleaning.company/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned team names Fort Myers for residential swimming pool cleaning, chemical balancing and maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Pool Guys Who Care",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://www.poolguyswhocare.com/about-us",
+      "officialDestination": "https://www.poolguyswhocare.com/about-us",
+      "sourceUrls": [
+        "https://www.poolguyswhocare.com/about-us"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-run company names Fort Myers and directly services and repairs residential pools, including for seasonal homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "ICM Pool Service",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://icmpools.com/about",
+      "officialDestination": "https://icmpools.com/about",
+      "sourceUrls": [
+        "https://icmpools.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned regional company names Fort Myers and provides residential pool cleaning, service and repair.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "A&E Pools",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://ae-pools.com/pool-service-maintenance-fort-myers/",
+      "officialDestination": "https://ae-pools.com/pool-service-maintenance-fort-myers/",
+      "sourceUrls": [
+        "https://ae-pools.com/pool-service-maintenance-fort-myers/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "Its Fort Myers service page offers ongoing pool cleaning and equipment maintenance for local homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Angel Falls Pool & Pressure Cleaning",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://angelfallspool.com/",
+      "officialDestination": "https://angelfallspool.com/",
+      "sourceUrls": [
+        "https://angelfallspool.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This regional family-owned pool company names Fort Myers and provides residential swimming pool cleaning and maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Pure Paradise Pool Services",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://www.pureparadisepools.com/",
+      "officialDestination": "https://www.pureparadisepools.com/",
+      "sourceUrls": [
+        "https://www.pureparadisepools.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This local company identifies Fort Myers for residential pool cleaning and regular swimming pool maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ultimate Pool Care",
+      "city": "fort-myers-fl",
+      "category": "pool-service",
+      "website": "https://ultimatepoolcarellc.com/about-ultimate-pool-care-swfl/",
+      "officialDestination": "https://ultimatepoolcarellc.com/about-ultimate-pool-care-swfl/",
+      "sourceUrls": [
+        "https://ultimatepoolcarellc.com/about-ultimate-pool-care-swfl/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Fort Myers company provides recurring home pool cleaning and maintenance and explicitly identifies Fort Myers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Evergreen Lawn & Pest Control",
+      "city": "fort-lauderdale-fl",
+      "category": "pest-control",
+      "website": "https://www.evergreenpc.com/fort-lauderdale-broward-county/",
+      "officialDestination": "https://www.evergreenpc.com/fort-lauderdale-broward-county/",
+      "sourceUrls": [
+        "https://www.evergreenpc.com/fort-lauderdale-broward-county/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Florida company provides home pest, termite and mosquito control in its named Fort Lauderdale service area.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "In Touch Pest Control",
+      "city": "fort-lauderdale-fl",
+      "category": "pest-control",
+      "website": "https://intouchpestcontrol.com/",
+      "officialDestination": "https://intouchpestcontrol.com/",
+      "sourceUrls": [
+        "https://intouchpestcontrol.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-run pest company identifies Fort Lauderdale for home pest control and residential termite treatments.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Arrest-A-Pest",
+      "city": "fort-lauderdale-fl",
+      "category": "pest-control",
+      "website": "https://2arrestapest.com/residential",
+      "officialDestination": "https://2arrestapest.com/residential",
+      "sourceUrls": [
+        "https://2arrestapest.com/residential"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Fort Lauderdale family company directly provides home pest treatments and rodent control across Broward County including Fort Lauderdale.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Davis Landscape Company",
+      "city": "auburn-al",
+      "category": "landscaping",
+      "website": "https://dlcauburn.com/",
+      "officialDestination": "https://dlcauburn.com/",
+      "sourceUrls": [
+        "https://dlcauburn.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Auburn family company offers residential landscaping and documents landscaping projects in Auburn.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "R&R Landscaping",
+      "city": "auburn-al",
+      "category": "landscaping",
+      "website": "https://rrlandscapes.com/",
+      "officialDestination": "https://rrlandscapes.com/",
+      "sourceUrls": [
+        "https://rrlandscapes.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "Its Auburn team designs, builds and maintains landscapes for Auburn homes with documented local projects.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Rolling Lawns",
+      "city": "auburn-al",
+      "category": "landscaping",
+      "website": "https://rollinglawns.me/service-area",
+      "officialDestination": "https://rollinglawns.me/service-area",
+      "sourceUrls": [
+        "https://rollinglawns.me/service-area"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned crew explicitly covers Auburn homes for lawn and landscape maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Southern Oaks",
+      "city": "auburn-al",
+      "category": "landscaping",
+      "website": "https://southernoaksllc.wixsite.com/oaks",
+      "officialDestination": "https://southernoaksllc.wixsite.com/oaks",
+      "sourceUrls": [
+        "https://southernoaksllc.wixsite.com/oaks"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local lawn and landscape business lists Auburn and offers residential lawn and landscape care.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Recinos Landscape & Outdoor Solutions",
+      "city": "auburn-al",
+      "category": "landscaping",
+      "website": "https://rlandscapeoutdoorsolution.com/about-us/",
+      "officialDestination": "https://rlandscapeoutdoorsolution.com/about-us/",
+      "sourceUrls": [
+        "https://rlandscapeoutdoorsolution.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The owner-led local firm identifies Auburn and offers home landscape and outdoor landscaping projects.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Greatfully Green",
+      "city": "auburn-al",
+      "category": "landscaping",
+      "website": "https://greatfullygreen.net/",
+      "officialDestination": "https://greatfullygreen.net/",
+      "sourceUrls": [
+        "https://greatfullygreen.net/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The owner-operated Auburn company offers residential lawn and turf maintenance for Auburn homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "404 Gutters",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://404gutters.com/",
+      "officialDestination": "https://404gutters.com/",
+      "sourceUrls": [
+        "https://404gutters.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned regional contractor installs and services gutters on homes in metro Atlanta, including Atlanta.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "JMJ Construction",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://jmjconstructionga.com/services/gutters",
+      "officialDestination": "https://jmjconstructionga.com/services/gutters",
+      "sourceUrls": [
+        "https://jmjconstructionga.com/services/gutters"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "Its Atlanta gutter service page details installation of home gutters and downspouts and gutter repairs.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "King Rosa Gutters",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://kingrosagutters.com/",
+      "officialDestination": "https://kingrosagutters.com/",
+      "sourceUrls": [
+        "https://kingrosagutters.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local provider expressly offers Atlanta homeowners direct gutter installation and repair.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "TRG Gutter Guards",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://www.trggutterguards.com/",
+      "officialDestination": "https://www.trggutterguards.com/",
+      "sourceUrls": [
+        "https://www.trggutterguards.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned Atlanta business offers gutter installation and repair to Atlanta homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Mr. Roofer of Atlanta",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://www.mrrooferatlanta.com/residential-roofing/gutter-replacement-and-installation/",
+      "officialDestination": "https://www.mrrooferatlanta.com/residential-roofing/gutter-replacement-and-installation/",
+      "sourceUrls": [
+        "https://www.mrrooferatlanta.com/residential-roofing/gutter-replacement-and-installation/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local contractor's residential gutter page names Atlanta and describes repair, replacement and seamless installations.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Five Star Gutters",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://www.fivestargutter.com/",
+      "officialDestination": "https://www.fivestargutter.com/",
+      "sourceUrls": [
+        "https://www.fivestargutter.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional company installs gutter systems for home customers across metropolitan Atlanta, including Atlanta.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "A&M Seamless Gutters",
+      "city": "atlanta-ga",
+      "category": "gutters",
+      "website": "https://amseamlessgutter.com/",
+      "officialDestination": "https://amseamlessgutter.com/",
+      "sourceUrls": [
+        "https://amseamlessgutter.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned metro Atlanta firm installs and repairs seamless gutters on homes including in Atlanta.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Impeccable Rooftops",
+      "city": "fairhope-al",
+      "category": "roofing",
+      "website": "https://www.impeccablerooftopsllc.com/",
+      "officialDestination": "https://www.impeccablerooftopsllc.com/",
+      "sourceUrls": [
+        "https://www.impeccablerooftopsllc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local roofing contractor identifies its Fairhope operation and offers roofing repair and replacement for local homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Secure Access",
+      "city": "baton-rouge-la",
+      "category": "fence-builders",
+      "website": "https://www.secureaccessllc.com/",
+      "officialDestination": "https://www.secureaccessllc.com/",
+      "sourceUrls": [
+        "https://www.secureaccessllc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local company explicitly offers residential fencing and directly installs fences and gates for Baton Rouge properties.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Royal Aquatics Pool Service",
+      "city": "new-orleans-la",
+      "category": "pool-service",
+      "website": "https://royalaquaticspoolservicellc.com/",
+      "officialDestination": "https://royalaquaticspoolservicellc.com/",
+      "sourceUrls": [
+        "https://royalaquaticspoolservicellc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned company names New Orleans and offers recurring residential pool maintenance and cleaning.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Sparkle Pools",
+      "city": "new-orleans-la",
+      "category": "pool-service",
+      "website": "https://www.sparklepoolsnola.com/",
+      "officialDestination": "https://www.sparklepoolsnola.com/",
+      "sourceUrls": [
+        "https://www.sparklepoolsnola.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional provider offers direct residential pool maintenance service across metro New Orleans, including the city.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Hammerhead Pools",
+      "city": "new-orleans-la",
+      "category": "pool-service",
+      "website": "https://www.hammerheadnola.com/swimming-pool-weekly-maintenance-services-new-orleans",
+      "officialDestination": "https://www.hammerheadnola.com/swimming-pool-weekly-maintenance-services-new-orleans",
+      "sourceUrls": [
+        "https://www.hammerheadnola.com/swimming-pool-weekly-maintenance-services-new-orleans"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local company names New Orleans for weekly residential swimming pool maintenance and cleaning.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Who Dat Pool Service",
+      "city": "new-orleans-la",
+      "category": "pool-service",
+      "website": "https://www.whodatpoolservice.com/",
+      "officialDestination": "https://www.whodatpoolservice.com/",
+      "sourceUrls": [
+        "https://www.whodatpoolservice.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-run company identifies New Orleans for ongoing maintenance and cleaning of home swimming pools.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Peachy Pools",
+      "city": "new-orleans-la",
+      "category": "pool-service",
+      "website": "https://peachy-pools.com/faq/",
+      "officialDestination": "https://peachy-pools.com/faq/",
+      "sourceUrls": [
+        "https://peachy-pools.com/faq/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional company explicitly offers Greater New Orleans homeowners recurring residential pool cleaning and maintenance.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "LA Pool Pro",
+      "city": "new-orleans-la",
+      "category": "pool-service",
+      "website": "https://lapoolpro.com/",
+      "officialDestination": "https://lapoolpro.com/",
+      "sourceUrls": [
+        "https://lapoolpro.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The New Orleans company offers direct residential swimming pool services for local homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Mario’s Auto Repair",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://miamimarioautorepair.com/",
+      "officialDestination": "https://miamimarioautorepair.com/",
+      "sourceUrls": [
+        "https://miamimarioautorepair.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family shop names its Miami location and offers vehicle repairs for individual drivers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Precision Auto Werks",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.pawmotorsport.com/aboutus.php",
+      "officialDestination": "https://www.pawmotorsport.com/aboutus.php",
+      "sourceUrls": [
+        "https://www.pawmotorsport.com/aboutus.php"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-operated Miami shop directly repairs and maintains personal vehicles from its Miami location.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Smutny & Ross Auto Servicing",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://smutnyandross.com/",
+      "officialDestination": "https://smutnyandross.com/",
+      "sourceUrls": [
+        "https://smutnyandross.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This independently branded family shop gives its Miami location and invites owners to bring in personal cars for general mechanical repair.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Manny’s Auto Service",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.mannysautoservice.com/",
+      "officialDestination": "https://www.mannysautoservice.com/",
+      "sourceUrls": [
+        "https://www.mannysautoservice.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This owner-operated Miami shop identifies its local location and offers general auto repairs to individual vehicle owners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Miami Euro Auto Center",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://miamieuroautocenter.com/",
+      "officialDestination": "https://miamieuroautocenter.com/",
+      "sourceUrls": [
+        "https://miamieuroautocenter.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "This independent Miami workshop offers diagnostics and repairs for individual owners of European automobiles.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Martinez Car Solutions",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.martinezcarsolutions.com/",
+      "officialDestination": "https://www.martinezcarsolutions.com/",
+      "sourceUrls": [
+        "https://www.martinezcarsolutions.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Miami mobile mechanic serves individual vehicle owners and explicitly offers mechanical repairs at Miami homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ginacho’s Auto Miami Customs",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://ginachosauto.com/",
+      "officialDestination": "https://ginachosauto.com/",
+      "sourceUrls": [
+        "https://ginachosauto.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned Kendall shop identifies Miami-area service and offers brakes, diagnostics and general automotive repairs for individual drivers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Japanese Auto Tech",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://japaneseautomiami.com/about/",
+      "officialDestination": "https://japaneseautomiami.com/about/",
+      "sourceUrls": [
+        "https://japaneseautomiami.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The independent Miami shop repairs and maintains vehicles for local owners of Japanese cars.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "AutoTrust International",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://autotrustmiami.com/",
+      "officialDestination": "https://autotrustmiami.com/",
+      "sourceUrls": [
+        "https://autotrustmiami.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned independent shop explicitly serves greater Miami and offers personal vehicle repair and maintenance as a dealer alternative.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Gold Wing Motors",
+      "city": "miami-fl",
+      "category": "auto-mechanics",
+      "website": "https://www.goldwingmotors.com/about",
+      "officialDestination": "https://www.goldwingmotors.com/about",
+      "sourceUrls": [
+        "https://www.goldwingmotors.com/about"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The independent shop operates in Miami and offers mechanical service and repairs for individual owners of German vehicles.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Insulate It Solutions",
+      "city": "orlando-fl",
+      "category": "insulation",
+      "website": "https://insulateitfl.com/about/",
+      "officialDestination": "https://insulateitfl.com/about/",
+      "sourceUrls": [
+        "https://insulateitfl.com/about/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned Central Florida installer explicitly names Orlando and documents residential insulation installations.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Energy Savings Systems",
+      "city": "orlando-fl",
+      "category": "insulation",
+      "website": "https://energysavingssystems.com/",
+      "officialDestination": "https://energysavingssystems.com/",
+      "sourceUrls": [
+        "https://energysavingssystems.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The contractor explicitly works in Orlando and offers direct fiberglass and other insulation installations for local homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "All Florida Insulation",
+      "city": "orlando-fl",
+      "category": "insulation",
+      "website": "https://www.allfloridainsulation.com/service-area.html",
+      "officialDestination": "https://www.allfloridainsulation.com/service-area.html",
+      "sourceUrls": [
+        "https://www.allfloridainsulation.com/service-area.html"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional installer names Orlando and describes residential attic insulation work and spray foam installations.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Fix My Attic",
+      "city": "orlando-fl",
+      "category": "insulation",
+      "website": "https://fixmyattic.com/",
+      "officialDestination": "https://fixmyattic.com/",
+      "sourceUrls": [
+        "https://fixmyattic.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Orlando company offers homeowners attic inspections and installation of blown-in insulation and radiant barriers.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Attic Pros",
+      "city": "orlando-fl",
+      "category": "insulation",
+      "website": "https://atticinsulationguys.com/service-areas/",
+      "officialDestination": "https://atticinsulationguys.com/service-areas/",
+      "sourceUrls": [
+        "https://atticinsulationguys.com/service-areas/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family insulation company names Orlando and offers direct residential attic insulation work.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Local Garage Door Repair and Installation",
+      "city": "tampa-fl",
+      "category": "garage-door-repair",
+      "website": "https://localgaragedoorrepairandinstallation.com/",
+      "officialDestination": "https://localgaragedoorrepairandinstallation.com/",
+      "sourceUrls": [
+        "https://localgaragedoorrepairandinstallation.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional operator identifies its Tampa office and repairs residential garage door springs, openers, cables and other components.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Trinity Garage Door Service",
+      "city": "tampa-fl",
+      "category": "garage-door-repair",
+      "website": "https://trinitygaragedoorservice.com/contact/",
+      "officialDestination": "https://trinitygaragedoorservice.com/contact/",
+      "sourceUrls": [
+        "https://trinitygaragedoorservice.com/contact/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family garage door repair business explicitly names Tampa and services residential garage doors.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "The Original Economy Garage Doors",
+      "city": "tampa-fl",
+      "category": "garage-door-repair",
+      "website": "https://theoriginalegd.com/",
+      "officialDestination": "https://theoriginalegd.com/",
+      "sourceUrls": [
+        "https://theoriginalegd.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned Tampa business directly services and replaces residential garage doors through its local operation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Mr. Garage Door of Tampa",
+      "city": "tampa-fl",
+      "category": "garage-door-repair",
+      "website": "https://www.mrgaragedooroftampa.com/contact-us",
+      "officialDestination": "https://www.mrgaragedooroftampa.com/contact-us",
+      "sourceUrls": [
+        "https://www.mrgaragedooroftampa.com/contact-us"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned Tampa business names Tampa for direct garage door repairs and residential garage door installation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Black Dog Garage Doors",
+      "city": "tampa-fl",
+      "category": "garage-door-repair",
+      "website": "https://blackdoggaragedoors.com/",
+      "officialDestination": "https://blackdoggaragedoors.com/",
+      "sourceUrls": [
+        "https://blackdoggaragedoors.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned Tampa business repairs garage-door springs, rollers, openers and related components for Tampa homes.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Perfect Reflections",
+      "city": "birmingham-al",
+      "category": "auto-body-collision",
+      "website": "https://www.perfectreflectionsbodyshop.com/",
+      "officialDestination": "https://www.perfectreflectionsbodyshop.com/",
+      "sourceUrls": [
+        "https://www.perfectreflectionsbodyshop.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The independent Birmingham shop serves local individual drivers with direct collision repair and refinishing.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Gonzalez Seamless Gutters & Gardening",
+      "city": "west-palm-beach-fl",
+      "category": "gutters",
+      "website": "https://www.gonzalezseamlessguttersandgardening.com/gutterinstallation",
+      "officialDestination": "https://www.gonzalezseamlessguttersandgardening.com/gutterinstallation",
+      "sourceUrls": [
+        "https://www.gonzalezseamlessguttersandgardening.com/gutterinstallation"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local West Palm Beach company installs seamless rain gutters for homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Gutter Brothers",
+      "city": "west-palm-beach-fl",
+      "category": "gutters",
+      "website": "https://gutterbrothersfl.com/",
+      "officialDestination": "https://gutterbrothersfl.com/",
+      "sourceUrls": [
+        "https://gutterbrothersfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional company installs and repairs seamless gutters for homeowners throughout Palm Beach County, including West Palm Beach.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Expert Seamless Gutter",
+      "city": "west-palm-beach-fl",
+      "category": "gutters",
+      "website": "https://seamlessgutterfl.com/contact-us/",
+      "officialDestination": "https://seamlessgutterfl.com/contact-us/",
+      "sourceUrls": [
+        "https://seamlessgutterfl.com/contact-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The company gives its West Palm Beach operation and offers direct seamless gutter installation to homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Gutter Sweeps",
+      "city": "west-palm-beach-fl",
+      "category": "gutters",
+      "website": "https://www.guttersweeps.com/guttersweepscom/services/west-palm-beach",
+      "officialDestination": "https://www.guttersweeps.com/guttersweepscom/services/west-palm-beach",
+      "sourceUrls": [
+        "https://www.guttersweeps.com/guttersweepscom/services/west-palm-beach"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned South Florida company explicitly serves West Palm Beach with home gutter cleaning, repair and installation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "E&E Gliddon",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://www.eegliddon.com/ac/repair/",
+      "officialDestination": "https://www.eegliddon.com/ac/repair/",
+      "sourceUrls": [
+        "https://www.eegliddon.com/ac/repair/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The St. Petersburg air conditioning team directly diagnoses and repairs residential cooling systems and explicitly names the city.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Smart Heating & Cooling",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://smartheatandcool.com/about-us/",
+      "officialDestination": "https://smartheatandcool.com/about-us/",
+      "sourceUrls": [
+        "https://smartheatandcool.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-operated St. Petersburg company directly serves local homeowners with heating and air conditioning services.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Phillips Air Conditioning & Heating",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://www.airphillips.com/",
+      "officialDestination": "https://www.airphillips.com/",
+      "sourceUrls": [
+        "https://www.airphillips.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned company directly delivers heating and air conditioning services to residential property owners in St. Petersburg.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "GoodWind Cooling & Heating",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://goodwindfl.com/about-us/",
+      "officialDestination": "https://goodwindfl.com/about-us/",
+      "sourceUrls": [
+        "https://goodwindfl.com/about-us/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local family business explicitly serves St. Petersburg and handles household AC and heating repairs.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Martin Carpenter’s Air Conditioning & Heating",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://www.keepingtampabaycool.com/residential-ac-repairs",
+      "officialDestination": "https://www.keepingtampabaycool.com/residential-ac-repairs",
+      "sourceUrls": [
+        "https://www.keepingtampabaycool.com/residential-ac-repairs"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned HVAC provider specifically offers residential air conditioning repair in St. Petersburg.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Nice Cold Air",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://nicecoldac.com/",
+      "officialDestination": "https://nicecoldac.com/",
+      "sourceUrls": [
+        "https://nicecoldac.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local owner-operated company lists St. Petersburg and provides household AC diagnostics, repair and installation.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "St. Pete Air Conditioning & Heating",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://stpeteairconditioningfl.com/",
+      "officialDestination": "https://stpeteairconditioningfl.com/",
+      "sourceUrls": [
+        "https://stpeteairconditioningfl.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned St. Petersburg business services and installs home central cooling and heating systems.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ryan’s Air Conditioning",
+      "city": "st-petersburg-fl",
+      "category": "hvac",
+      "website": "https://www.ryansairandheat.com/",
+      "officialDestination": "https://www.ryansairandheat.com/",
+      "sourceUrls": [
+        "https://www.ryansairandheat.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family-owned team explicitly names St. Petersburg for residential air conditioning and heating services.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Great Flooring of Atlanta",
+      "city": "atlanta-ga",
+      "category": "flooring",
+      "website": "https://www.gfafloors.com/",
+      "officialDestination": "https://www.gfafloors.com/",
+      "sourceUrls": [
+        "https://www.gfafloors.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The family company identifies Atlanta and offers residential flooring installation, refinishing and replacement.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Arbors Plus",
+      "city": "huntsville-al",
+      "category": "tree-service",
+      "website": "https://arborsplus.com/",
+      "officialDestination": "https://arborsplus.com/",
+      "sourceUrls": [
+        "https://arborsplus.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The named local owner offers Huntsville homeowners professional tree removal, pruning and storm cleanup.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ogle Tree Service",
+      "city": "huntsville-al",
+      "category": "tree-service",
+      "website": "https://www.ogletreeservice.com/",
+      "officialDestination": "https://www.ogletreeservice.com/",
+      "sourceUrls": [
+        "https://www.ogletreeservice.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The locally owned tree company names Huntsville and provides tree removal, trimming and other direct tree care to homeowners.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "J&C Tree Experts",
+      "city": "huntsville-al",
+      "category": "tree-service",
+      "website": "https://www.jandctreeexperts.com/",
+      "officialDestination": "https://www.jandctreeexperts.com/",
+      "sourceUrls": [
+        "https://www.jandctreeexperts.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The local Huntsville tree care company directly performs residential tree pruning, damage cleanup and removal.",
+      "businessInRunStartBaseline": false,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ace Overhead Garage Doors",
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "website": "https://www.aceoverheadgaragedoors.com/garage-door-repair-fort-walton-beach-fl",
+      "officialDestination": "https://www.aceoverheadgaragedoors.com/garage-door-repair-fort-walton-beach-fl",
+      "sourceUrls": [
+        "https://www.aceoverheadgaragedoors.com/garage-door-repair-fort-walton-beach-fl"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The regional provider's Fort Walton Beach page offers homeowners direct garage door repair including springs, cables and tracks.",
+      "businessInRunStartBaseline": true,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ace Overhead Garage Doors",
+      "city": "panama-city-fl",
+      "category": "garage-door-repair",
+      "website": "https://www.aceoverheadgaragedoors.com/garage-door-repair-panama-city-fl",
+      "officialDestination": "https://www.aceoverheadgaragedoors.com/garage-door-repair-panama-city-fl",
+      "sourceUrls": [
+        "https://www.aceoverheadgaragedoors.com/garage-door-repair-panama-city-fl"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Panama City service page offers direct residential garage door repair, replacement and installation in Panama City.",
+      "businessInRunStartBaseline": true,
+      "status": "committedPendingDeployment"
+    },
+    {
+      "name": "Ace Overhead Garage Doors",
+      "city": "pensacola-fl",
+      "category": "garage-door-repair",
+      "website": "https://www.aceoverheadgaragedoors.com/garage-door-repair-pensacola-fl",
+      "officialDestination": "https://www.aceoverheadgaragedoors.com/garage-door-repair-pensacola-fl",
+      "sourceUrls": [
+        "https://www.aceoverheadgaragedoors.com/garage-door-repair-pensacola-fl"
+      ],
+      "sourceVerifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "evidenceNote": "The Pensacola service page offers local homeowners garage door repairs and names the Pensacola operation.",
+      "businessInRunStartBaseline": true,
+      "status": "committedPendingDeployment"
+    }
+  ],
+  "candidateCheckResults": [],
+  "additionalPendingCandidates": [
+    {
+      "name": "Pace Pool & Spa Service",
+      "city": "pace-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://pacepoolandspa.weebly.com/",
+      "reason": "Local operation confirmed. Confirm direct recurring residential maintenance and compare with existing profiles before adding."
+    },
+    {
+      "name": "Door & Gate Services Navarre",
+      "city": "navarre-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://doorservicesnavarre.com/",
+      "reason": "The destination claims local residential garage door repair. Independent operating identity and responsibility for the work need further corroboration."
+    },
+    {
+      "name": "Taylored to 30A",
+      "city": "grayton-beach-fl",
+      "category": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://tayloredto30a.com/contact/",
+      "reason": "Residential Grayton Beach home coverage is explicit. Direct sprinkler repair was not established."
+    },
+    {
+      "name": "T&Js Pro Painting",
+      "city": "montgomery-al",
+      "category": "painting",
+      "sourceUrl": "https://tjspropainting16.wixsite.com/website",
+      "reason": "Confirm the Montgomery operator performs direct residential painting through a current official site."
+    },
+    {
+      "name": "Pest Worx",
+      "city": "fort-lauderdale-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://pestworx.com/termite-control/",
+      "reason": "Residential termite work is explicit. Fort Lauderdale city or Broward County coverage still needs verification."
+    },
+    {
+      "name": "Beacon Irrigation & Lighting",
+      "city": "west-palm-beach-fl",
+      "category": "irrigation-sprinkler-repair",
+      "sourceUrl": "https://beaconirrigation.com/",
+      "reason": "Confirm West Palm Beach or all Palm Beach County service and the direct residential installation or repair scope from official pages."
+    },
+    {
+      "name": "Appliance Service Auburn",
+      "city": "auburn-al",
+      "category": "appliance-repair",
+      "sourceUrl": "https://applianceserviceauburn.com/contact",
+      "reason": "The site lists Auburn. Confirm operating identity and direct residential repair."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "name": "Panhandle Generators",
+      "city": "panama-city-fl",
+      "category": "generator-installation",
+      "sourceUrl": "https://panhandlegenerators.com/panama-city",
+      "reason": "The site explicitly connects customers with third-party installers."
+    },
+    {
+      "name": "Sharkey Pools",
+      "city": "jacksonville-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://sharkeypools.com/",
+      "reason": "The published coverage lists Jacksonville Beach and other named communities. Jacksonville proper is unsupported."
+    },
+    {
+      "name": "Shine Pools & Pressure Cleaning",
+      "city": "naples-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://shinepoolservices.com/about/",
+      "reason": "The site uses the Sparkling Pools domain for billing. Treat domains as aliases pending confirmation of the operating identity."
+    },
+    {
+      "name": "Pest Assured",
+      "city": "perdido-key-fl",
+      "category": "pest-control",
+      "sourceUrl": "https://www.pestassuredfl.com/about",
+      "reason": "Residential services are explicit. Perdido Key service was not substantiated."
+    }
+  ],
+  "liveVerificationPending": [],
+  "historicalFlags": [
+    {
+      "name": "360 Home Improvements",
+      "businessSlug": "360-home-improvements",
+      "city": "destin-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://360hi.pro/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The contractor markets residential garage-door work across Florida. The reviewed site does not identify this specific priority city, a local branch or a qualifying county service area for that work.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "360 Home Improvements",
+      "businessSlug": "360-home-improvements",
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://360hi.pro/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The contractor markets residential garage-door work across Florida. The reviewed site does not identify this specific priority city, a local branch or a qualifying county service area for that work.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "360 Home Improvements",
+      "businessSlug": "360-home-improvements",
+      "city": "crestview-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://360hi.pro/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The contractor markets residential garage-door work across Florida. The reviewed site does not identify this specific priority city, a local branch or a qualifying county service area for that work.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "360 Home Improvements",
+      "businessSlug": "360-home-improvements",
+      "city": "panama-city-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://360hi.pro/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The contractor markets residential garage-door work across Florida. The reviewed site does not identify this specific priority city, a local branch or a qualifying county service area for that work.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "State Upgrades",
+      "businessSlug": "state-upgrades",
+      "city": "destin-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://stateupgrades.com/services/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The current services page describes regional Florida home upgrades and residential garage doors. It does not establish garage-door work in this specific priority city.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "State Upgrades",
+      "businessSlug": "state-upgrades",
+      "city": "fort-walton-beach-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://stateupgrades.com/services/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The current services page describes regional Florida home upgrades and residential garage doors. It does not establish garage-door work in this specific priority city.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "State Upgrades",
+      "businessSlug": "state-upgrades",
+      "city": "crestview-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://stateupgrades.com/services/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The current services page describes regional Florida home upgrades and residential garage doors. It does not establish garage-door work in this specific priority city.",
+      "publicVisibility": "retained"
+    },
+    {
+      "name": "State Upgrades",
+      "businessSlug": "state-upgrades",
+      "city": "panama-city-fl",
+      "category": "garage-door-repair",
+      "sourceUrl": "https://stateupgrades.com/services/",
+      "verifiedAt": "2026-11-25T04:59:00.668429+00:00",
+      "reasonCode": "unsupported_geography",
+      "evidence": "The current services page describes regional Florida home upgrades and residential garage doors. It does not establish garage-door work in this specific priority city.",
+      "publicVisibility": "retained"
+    }
+  ],
+  "retailFixIt": {
+    "sourceUrl": "https://www.retailfixit.com/",
+    "publicProfile": "https://whoknowsapro.com/business/retail-fix-it",
+    "publicHttpStatus": 404,
+    "reasonCodes": [
+      "unsupported_residential_service",
+      "incorrect_category",
+      "unsupported_geography",
+      "intermediary"
+    ],
+    "evidence": "The official site markets national facilities maintenance for multi-location businesses and vendor sign-up. The existing public gate applies."
+  },
+  "limitations": [
+    "Displayed totals include unaudited historical records. The exact qualifying coverage is unknown.",
+    "Private profiles were unavailable for independent identity auditing."
+  ]
+}
