@@ -7,6 +7,13 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // National pest-control, painting, and garage-door operator and franchise brands.
+  '360painting.com',
+  'flapest.com',
+  'paintez.com',
+  'precisiondoorhuntsville.com',
+  'precisiondoormiami.com',
+  'that1painter.com',
   // Public aliases for nationally branded branches, franchises, and retail chains.
   'americaninsulationalabama.com',
   'clearpestpros.com',
