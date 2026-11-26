@@ -7,6 +7,9 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Turner is an Anticimex North America company. Arrow Environmental is owned by Rentokil North America.
+  'turnerpest.com',
+  'arrowservices.com',
   // National pest-control, painting, and garage-door operator and franchise brands.
   '360painting.com',
   'flapest.com',
