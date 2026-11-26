@@ -1,18 +1,18 @@
 city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared_placements,verified_new_business_placements,verified_baseline_business_placements,national_placements_hidden,awaiting_live_verification,displayed_deficit,displayed_historical_flags,qualifying_evidence_deficit_lower_bound,qualifying_count
 "Atlanta, GA",atlanta-ga,Appliance repair,appliance-repair,11,11,0,0,0,0,0,9,0,9,unknown
-"Atlanta, GA",atlanta-ga,Auto body & collision,auto-body-collision,10,10,2,0,0,0,0,10,0,10,unknown
+"Atlanta, GA",atlanta-ga,Auto body & collision,auto-body-collision,10,12,2,2,0,0,0,8,0,8,unknown
 "Atlanta, GA",atlanta-ga,Auto mechanics,auto-mechanics,12,12,0,0,0,0,0,8,0,8,unknown
 "Atlanta, GA",atlanta-ga,Concrete & driveways,concrete,16,16,0,0,0,0,0,4,0,4,unknown
 "Atlanta, GA",atlanta-ga,Electrical,electrical,12,12,0,0,0,0,0,8,0,8,unknown
 "Atlanta, GA",atlanta-ga,Fence builders,fence-builders,16,16,0,0,0,0,0,4,0,4,unknown
-"Atlanta, GA",atlanta-ga,Flooring,flooring,10,10,1,0,0,0,0,10,0,10,unknown
-"Atlanta, GA",atlanta-ga,Garage door repair,garage-door-repair,10,10,2,0,0,0,0,10,0,10,unknown
+"Atlanta, GA",atlanta-ga,Flooring,flooring,10,11,1,1,0,0,0,9,0,9,unknown
+"Atlanta, GA",atlanta-ga,Garage door repair,garage-door-repair,10,12,2,2,0,0,0,8,0,8,unknown
 "Atlanta, GA",atlanta-ga,Generator installation,generator-installation,14,14,0,0,0,0,0,6,0,6,unknown
 "Atlanta, GA",atlanta-ga,Gutters,gutters,13,13,0,0,0,0,0,7,0,7,unknown
 "Atlanta, GA",atlanta-ga,Home inspections,home-inspections,17,17,0,0,0,0,0,3,0,3,unknown
 "Atlanta, GA",atlanta-ga,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,10,10,0,0,0,0,0,10,0,10,unknown
 "Atlanta, GA",atlanta-ga,HVAC,hvac,13,13,0,0,0,0,0,7,0,7,unknown
-"Atlanta, GA",atlanta-ga,Insulation,insulation,15,15,0,0,0,0,0,5,0,5,unknown
+"Atlanta, GA",atlanta-ga,Insulation,insulation,15,15,0,0,0,0,0,5,1,6,unknown
 "Atlanta, GA",atlanta-ga,Irrigation & sprinkler repair,irrigation-sprinkler-repair,11,11,0,0,0,0,0,9,0,9,unknown
 "Atlanta, GA",atlanta-ga,Kitchen & bath remodeling,kitchen-bath-remodeling,16,16,0,0,0,0,0,4,0,4,unknown
 "Atlanta, GA",atlanta-ga,Landscaping,landscaping,18,18,0,0,0,0,0,2,0,2,unknown
@@ -27,7 +27,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Atlanta, GA",atlanta-ga,Septic services,septic-services,11,11,0,0,0,0,0,9,0,9,unknown
 "Atlanta, GA",atlanta-ga,Tree service,tree-service,13,13,0,0,0,0,0,7,0,7,unknown
 "Atlanta, GA",atlanta-ga,Water damage & mold remediation,water-damage-mold-remediation,11,11,0,0,0,0,0,9,0,9,unknown
-"Auburn, AL",auburn-al,Appliance repair,appliance-repair,2,2,1,0,0,0,0,18,0,18,unknown
+"Auburn, AL",auburn-al,Appliance repair,appliance-repair,2,3,1,1,0,0,0,17,0,17,unknown
 "Auburn, AL",auburn-al,Auto body & collision,auto-body-collision,4,4,0,0,0,0,0,16,0,16,unknown
 "Auburn, AL",auburn-al,Auto mechanics,auto-mechanics,7,7,0,0,0,0,0,13,0,13,unknown
 "Auburn, AL",auburn-al,Concrete & driveways,concrete,7,7,0,0,0,0,0,13,0,13,unknown
@@ -40,12 +40,12 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Auburn, AL",auburn-al,Home inspections,home-inspections,14,14,0,0,0,0,0,6,0,6,unknown
 "Auburn, AL",auburn-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,3,0,0,0,0,0,17,0,17,unknown
 "Auburn, AL",auburn-al,HVAC,hvac,8,8,0,0,0,0,0,12,0,12,unknown
-"Auburn, AL",auburn-al,Insulation,insulation,5,5,0,0,0,0,0,15,0,15,unknown
+"Auburn, AL",auburn-al,Insulation,insulation,5,5,0,0,0,0,0,15,1,16,unknown
 "Auburn, AL",auburn-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,0,0,0,0,0,14,0,14,unknown
 "Auburn, AL",auburn-al,Kitchen & bath remodeling,kitchen-bath-remodeling,9,9,0,0,0,0,0,11,0,11,unknown
 "Auburn, AL",auburn-al,Landscaping,landscaping,10,10,0,0,0,0,0,10,0,10,unknown
 "Auburn, AL",auburn-al,Marine services,marine-services,5,5,0,0,0,0,0,15,0,15,unknown
-"Auburn, AL",auburn-al,Painting,painting,5,5,2,0,0,0,0,15,0,15,unknown
+"Auburn, AL",auburn-al,Painting,painting,5,7,2,2,0,0,0,13,0,13,unknown
 "Auburn, AL",auburn-al,Pest control,pest-control,5,5,0,0,0,0,0,15,0,15,unknown
 "Auburn, AL",auburn-al,Plumbing,plumbing,11,11,0,0,0,0,0,9,0,9,unknown
 "Auburn, AL",auburn-al,Pool installation,pool-installation,7,7,0,0,0,0,0,13,0,13,unknown
@@ -54,21 +54,21 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Auburn, AL",auburn-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,11,11,0,0,0,0,0,9,1,10,unknown
 "Auburn, AL",auburn-al,Septic services,septic-services,6,6,0,0,0,0,0,14,0,14,unknown
 "Auburn, AL",auburn-al,Tree service,tree-service,8,8,0,0,0,0,0,12,0,12,unknown
-"Auburn, AL",auburn-al,Water damage & mold remediation,water-damage-mold-remediation,3,3,1,0,0,0,0,17,0,17,unknown
+"Auburn, AL",auburn-al,Water damage & mold remediation,water-damage-mold-remediation,3,4,1,1,0,0,0,16,0,16,unknown
 "Baton Rouge, LA",baton-rouge-la,Appliance repair,appliance-repair,7,7,0,0,0,0,0,13,0,13,unknown
 "Baton Rouge, LA",baton-rouge-la,Auto body & collision,auto-body-collision,8,8,0,0,0,0,0,12,0,12,unknown
 "Baton Rouge, LA",baton-rouge-la,Auto mechanics,auto-mechanics,9,9,0,0,0,0,0,11,0,11,unknown
-"Baton Rouge, LA",baton-rouge-la,Concrete & driveways,concrete,6,6,3,0,0,0,0,14,0,14,unknown
+"Baton Rouge, LA",baton-rouge-la,Concrete & driveways,concrete,6,9,3,3,0,0,0,11,0,11,unknown
 "Baton Rouge, LA",baton-rouge-la,Electrical,electrical,10,10,0,0,0,0,0,10,0,10,unknown
 "Baton Rouge, LA",baton-rouge-la,Fence builders,fence-builders,9,9,0,0,0,0,0,11,0,11,unknown
 "Baton Rouge, LA",baton-rouge-la,Flooring,flooring,8,8,0,0,0,0,0,12,0,12,unknown
 "Baton Rouge, LA",baton-rouge-la,Garage door repair,garage-door-repair,11,11,0,0,0,0,0,9,0,9,unknown
-"Baton Rouge, LA",baton-rouge-la,Generator installation,generator-installation,7,7,1,0,0,0,0,13,0,13,unknown
+"Baton Rouge, LA",baton-rouge-la,Generator installation,generator-installation,7,8,1,1,0,0,0,12,0,12,unknown
 "Baton Rouge, LA",baton-rouge-la,Gutters,gutters,10,10,0,0,0,0,0,10,0,10,unknown
 "Baton Rouge, LA",baton-rouge-la,Home inspections,home-inspections,18,18,0,0,0,0,0,2,0,2,unknown
 "Baton Rouge, LA",baton-rouge-la,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,7,7,0,0,0,0,0,13,0,13,unknown
 "Baton Rouge, LA",baton-rouge-la,HVAC,hvac,11,11,0,0,0,0,0,9,0,9,unknown
-"Baton Rouge, LA",baton-rouge-la,Insulation,insulation,6,6,0,0,0,0,0,14,0,14,unknown
+"Baton Rouge, LA",baton-rouge-la,Insulation,insulation,6,6,0,0,0,0,0,14,1,15,unknown
 "Baton Rouge, LA",baton-rouge-la,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,7,0,0,0,0,0,13,0,13,unknown
 "Baton Rouge, LA",baton-rouge-la,Kitchen & bath remodeling,kitchen-bath-remodeling,9,9,0,0,0,0,0,11,0,11,unknown
 "Baton Rouge, LA",baton-rouge-la,Landscaping,landscaping,7,7,0,0,0,0,0,13,0,13,unknown
@@ -76,7 +76,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Baton Rouge, LA",baton-rouge-la,Painting,painting,8,8,0,0,0,0,0,12,0,12,unknown
 "Baton Rouge, LA",baton-rouge-la,Pest control,pest-control,7,7,0,0,0,0,0,13,0,13,unknown
 "Baton Rouge, LA",baton-rouge-la,Plumbing,plumbing,11,11,0,0,0,0,0,9,0,9,unknown
-"Baton Rouge, LA",baton-rouge-la,Pool installation,pool-installation,12,12,2,0,0,0,0,8,0,8,unknown
+"Baton Rouge, LA",baton-rouge-la,Pool installation,pool-installation,12,14,2,2,0,0,0,6,0,6,unknown
 "Baton Rouge, LA",baton-rouge-la,Pool service,pool-service,7,7,0,0,0,0,0,13,0,13,unknown
 "Baton Rouge, LA",baton-rouge-la,Roofing,roofing,9,9,0,0,0,0,0,11,0,11,unknown
 "Baton Rouge, LA",baton-rouge-la,Screen enclosures & pool cages,screen-enclosures-pool-cages,16,16,0,0,0,0,0,4,1,5,unknown
@@ -96,7 +96,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Biloxi, MS",biloxi-ms,Home inspections,home-inspections,10,10,0,0,0,0,0,10,0,10,unknown
 "Biloxi, MS",biloxi-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,12,0,0,0,0,0,8,0,8,unknown
 "Biloxi, MS",biloxi-ms,HVAC,hvac,10,10,0,0,0,0,0,10,0,10,unknown
-"Biloxi, MS",biloxi-ms,Insulation,insulation,5,5,0,0,0,0,0,15,0,15,unknown
+"Biloxi, MS",biloxi-ms,Insulation,insulation,5,5,0,0,0,0,0,15,1,16,unknown
 "Biloxi, MS",biloxi-ms,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,0,0,0,0,15,0,15,unknown
 "Biloxi, MS",biloxi-ms,Kitchen & bath remodeling,kitchen-bath-remodeling,11,11,0,0,0,0,0,9,0,9,unknown
 "Biloxi, MS",biloxi-ms,Landscaping,landscaping,7,7,0,0,0,0,0,13,0,13,unknown
@@ -113,7 +113,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Biloxi, MS",biloxi-ms,Water damage & mold remediation,water-damage-mold-remediation,4,4,0,0,0,0,0,16,0,16,unknown
 "Birmingham, AL",birmingham-al,Appliance repair,appliance-repair,8,8,0,0,0,0,0,12,0,12,unknown
 "Birmingham, AL",birmingham-al,Auto body & collision,auto-body-collision,5,5,0,0,0,0,0,15,0,15,unknown
-"Birmingham, AL",birmingham-al,Auto mechanics,auto-mechanics,7,7,4,0,0,0,0,13,0,13,unknown
+"Birmingham, AL",birmingham-al,Auto mechanics,auto-mechanics,7,11,4,4,0,0,0,9,0,9,unknown
 "Birmingham, AL",birmingham-al,Concrete & driveways,concrete,7,7,0,0,0,0,0,13,0,13,unknown
 "Birmingham, AL",birmingham-al,Electrical,electrical,13,13,0,0,0,0,0,7,0,7,unknown
 "Birmingham, AL",birmingham-al,Fence builders,fence-builders,13,13,0,0,0,0,0,7,0,7,unknown
@@ -124,7 +124,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Birmingham, AL",birmingham-al,Home inspections,home-inspections,15,15,0,0,0,0,0,5,0,5,unknown
 "Birmingham, AL",birmingham-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,3,0,0,0,0,0,17,0,17,unknown
 "Birmingham, AL",birmingham-al,HVAC,hvac,11,11,0,0,0,0,0,9,0,9,unknown
-"Birmingham, AL",birmingham-al,Insulation,insulation,6,6,1,0,0,0,0,14,0,14,unknown
+"Birmingham, AL",birmingham-al,Insulation,insulation,6,7,1,1,0,0,0,13,1,14,unknown
 "Birmingham, AL",birmingham-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,7,0,0,0,0,0,13,0,13,unknown
 "Birmingham, AL",birmingham-al,Kitchen & bath remodeling,kitchen-bath-remodeling,9,9,0,0,0,0,0,11,0,11,unknown
 "Birmingham, AL",birmingham-al,Landscaping,landscaping,9,9,0,0,0,0,0,11,0,11,unknown
@@ -138,28 +138,28 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Birmingham, AL",birmingham-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,12,12,0,0,0,0,0,8,1,9,unknown
 "Birmingham, AL",birmingham-al,Septic services,septic-services,9,9,0,0,0,0,0,11,0,11,unknown
 "Birmingham, AL",birmingham-al,Tree service,tree-service,11,11,0,0,0,0,0,9,0,9,unknown
-"Birmingham, AL",birmingham-al,Water damage & mold remediation,water-damage-mold-remediation,4,4,3,0,0,0,0,16,0,16,unknown
+"Birmingham, AL",birmingham-al,Water damage & mold remediation,water-damage-mold-remediation,4,7,3,3,0,0,0,13,0,13,unknown
 "Clearwater, FL",clearwater-fl,Appliance repair,appliance-repair,8,8,0,0,0,0,0,12,0,12,unknown
-"Clearwater, FL",clearwater-fl,Auto body & collision,auto-body-collision,5,5,2,0,0,0,0,15,0,15,unknown
-"Clearwater, FL",clearwater-fl,Auto mechanics,auto-mechanics,6,6,2,0,0,0,0,14,0,14,unknown
+"Clearwater, FL",clearwater-fl,Auto body & collision,auto-body-collision,5,7,2,2,0,0,0,13,0,13,unknown
+"Clearwater, FL",clearwater-fl,Auto mechanics,auto-mechanics,6,8,2,2,0,0,0,12,0,12,unknown
 "Clearwater, FL",clearwater-fl,Concrete & driveways,concrete,9,9,0,0,0,0,0,11,1,12,unknown
 "Clearwater, FL",clearwater-fl,Electrical,electrical,12,12,0,0,0,0,0,8,0,8,unknown
-"Clearwater, FL",clearwater-fl,Fence builders,fence-builders,11,11,1,0,0,0,0,9,0,9,unknown
+"Clearwater, FL",clearwater-fl,Fence builders,fence-builders,11,12,1,1,0,0,0,8,0,8,unknown
 "Clearwater, FL",clearwater-fl,Flooring,flooring,9,9,0,0,0,0,0,11,1,12,unknown
 "Clearwater, FL",clearwater-fl,Garage door repair,garage-door-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Clearwater, FL",clearwater-fl,Generator installation,generator-installation,8,8,0,0,0,0,0,12,0,12,unknown
-"Clearwater, FL",clearwater-fl,Gutters,gutters,8,8,1,0,0,0,0,12,0,12,unknown
+"Clearwater, FL",clearwater-fl,Gutters,gutters,8,9,1,1,0,0,0,11,0,11,unknown
 "Clearwater, FL",clearwater-fl,Home inspections,home-inspections,17,17,0,0,0,0,0,3,0,3,unknown
 "Clearwater, FL",clearwater-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,17,17,0,0,0,0,0,3,0,3,unknown
-"Clearwater, FL",clearwater-fl,HVAC,hvac,15,15,0,0,0,0,0,5,0,5,unknown
-"Clearwater, FL",clearwater-fl,Insulation,insulation,8,8,0,0,0,0,0,12,0,12,unknown
-"Clearwater, FL",clearwater-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,7,1,0,0,0,0,13,0,13,unknown
-"Clearwater, FL",clearwater-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,14,1,0,0,0,0,6,0,6,unknown
+"Clearwater, FL",clearwater-fl,HVAC,hvac,15,15,0,0,0,0,0,5,1,6,unknown
+"Clearwater, FL",clearwater-fl,Insulation,insulation,8,8,0,0,0,0,0,12,1,13,unknown
+"Clearwater, FL",clearwater-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,8,1,1,0,0,0,12,0,12,unknown
+"Clearwater, FL",clearwater-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,15,1,1,0,0,0,5,0,5,unknown
 "Clearwater, FL",clearwater-fl,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
 "Clearwater, FL",clearwater-fl,Marine services,marine-services,10,10,0,0,0,0,0,10,0,10,unknown
 "Clearwater, FL",clearwater-fl,Painting,painting,16,16,0,0,0,0,0,4,1,5,unknown
 "Clearwater, FL",clearwater-fl,Pest control,pest-control,8,8,0,0,0,0,0,12,0,12,unknown
-"Clearwater, FL",clearwater-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,0,10,unknown
+"Clearwater, FL",clearwater-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,1,11,unknown
 "Clearwater, FL",clearwater-fl,Pool installation,pool-installation,8,8,0,0,0,0,0,12,1,13,unknown
 "Clearwater, FL",clearwater-fl,Pool service,pool-service,10,10,0,0,0,0,0,10,1,11,unknown
 "Clearwater, FL",clearwater-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
@@ -184,10 +184,10 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Crestview, FL",crestview-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,17,17,0,0,0,0,0,3,0,3,unknown
 "Crestview, FL",crestview-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,23,23,0,0,0,0,0,0,0,0,unknown
 "Crestview, FL",crestview-fl,Landscaping,landscaping,20,20,0,0,0,0,0,0,0,0,unknown
-"Crestview, FL",crestview-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
+"Crestview, FL",crestview-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,1,6,unknown
 "Crestview, FL",crestview-fl,Painting,painting,22,22,0,0,0,0,0,0,1,0,unknown
 "Crestview, FL",crestview-fl,Pest control,pest-control,17,17,0,0,0,0,0,3,0,3,unknown
-"Crestview, FL",crestview-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
+"Crestview, FL",crestview-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,1,1,unknown
 "Crestview, FL",crestview-fl,Pool installation,pool-installation,18,18,0,0,0,0,0,2,2,4,unknown
 "Crestview, FL",crestview-fl,Pool service,pool-service,18,18,0,0,0,0,0,2,1,3,unknown
 "Crestview, FL",crestview-fl,Roofing,roofing,29,29,0,0,0,0,0,0,0,0,unknown
@@ -208,13 +208,13 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Daphne, AL",daphne-al,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
 "Daphne, AL",daphne-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,0,0,unknown
 "Daphne, AL",daphne-al,HVAC,hvac,11,11,0,0,0,0,0,9,0,9,unknown
-"Daphne, AL",daphne-al,Insulation,insulation,7,7,0,0,0,0,0,13,0,13,unknown
+"Daphne, AL",daphne-al,Insulation,insulation,7,7,0,0,0,0,0,13,1,14,unknown
 "Daphne, AL",daphne-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,8,8,0,0,0,0,0,12,0,12,unknown
 "Daphne, AL",daphne-al,Kitchen & bath remodeling,kitchen-bath-remodeling,18,18,0,0,0,0,0,2,0,2,unknown
 "Daphne, AL",daphne-al,Landscaping,landscaping,12,12,0,0,0,0,0,8,0,8,unknown
 "Daphne, AL",daphne-al,Marine services,marine-services,13,13,0,0,0,0,0,7,0,7,unknown
 "Daphne, AL",daphne-al,Painting,painting,10,10,0,0,0,0,0,10,0,10,unknown
-"Daphne, AL",daphne-al,Pest control,pest-control,4,4,1,0,0,0,0,16,0,16,unknown
+"Daphne, AL",daphne-al,Pest control,pest-control,4,5,1,1,0,0,0,15,0,15,unknown
 "Daphne, AL",daphne-al,Plumbing,plumbing,14,14,0,0,0,0,0,6,0,6,unknown
 "Daphne, AL",daphne-al,Pool installation,pool-installation,10,10,0,0,0,0,0,10,0,10,unknown
 "Daphne, AL",daphne-al,Pool service,pool-service,8,8,0,0,0,0,0,12,0,12,unknown
@@ -240,10 +240,10 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Destin, FL",destin-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,20,20,0,0,0,0,0,0,0,0,unknown
 "Destin, FL",destin-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,24,24,0,0,0,0,0,0,0,0,unknown
 "Destin, FL",destin-fl,Landscaping,landscaping,20,20,0,0,0,0,0,0,0,0,unknown
-"Destin, FL",destin-fl,Marine services,marine-services,20,20,0,0,0,0,0,0,0,0,unknown
+"Destin, FL",destin-fl,Marine services,marine-services,20,20,0,0,0,0,0,0,1,1,unknown
 "Destin, FL",destin-fl,Painting,painting,22,22,0,0,0,0,0,0,0,0,unknown
 "Destin, FL",destin-fl,Pest control,pest-control,17,17,0,0,0,0,0,3,0,3,unknown
-"Destin, FL",destin-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
+"Destin, FL",destin-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,1,1,unknown
 "Destin, FL",destin-fl,Pool installation,pool-installation,19,19,0,0,0,0,0,1,2,3,unknown
 "Destin, FL",destin-fl,Pool service,pool-service,20,20,0,0,0,0,0,0,1,1,unknown
 "Destin, FL",destin-fl,Roofing,roofing,32,32,0,0,0,0,0,0,0,0,unknown
@@ -257,14 +257,14 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Dothan, AL",dothan-al,Concrete & driveways,concrete,6,6,0,0,0,0,0,14,0,14,unknown
 "Dothan, AL",dothan-al,Electrical,electrical,7,7,0,0,0,0,0,13,0,13,unknown
 "Dothan, AL",dothan-al,Fence builders,fence-builders,7,7,0,0,0,0,0,13,0,13,unknown
-"Dothan, AL",dothan-al,Flooring,flooring,5,5,1,0,0,0,0,15,0,15,unknown
+"Dothan, AL",dothan-al,Flooring,flooring,5,6,1,1,0,0,0,14,0,14,unknown
 "Dothan, AL",dothan-al,Garage door repair,garage-door-repair,7,7,0,0,0,0,0,13,0,13,unknown
 "Dothan, AL",dothan-al,Generator installation,generator-installation,6,6,0,0,0,0,0,14,0,14,unknown
 "Dothan, AL",dothan-al,Gutters,gutters,8,8,0,0,0,0,0,12,0,12,unknown
 "Dothan, AL",dothan-al,Home inspections,home-inspections,9,9,0,0,0,0,0,11,0,11,unknown
 "Dothan, AL",dothan-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,3,3,0,0,0,0,0,17,0,17,unknown
 "Dothan, AL",dothan-al,HVAC,hvac,9,9,0,0,0,0,0,11,0,11,unknown
-"Dothan, AL",dothan-al,Insulation,insulation,6,6,0,0,0,0,0,14,0,14,unknown
+"Dothan, AL",dothan-al,Insulation,insulation,6,6,0,0,0,0,0,14,1,15,unknown
 "Dothan, AL",dothan-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,4,4,0,0,0,0,0,16,0,16,unknown
 "Dothan, AL",dothan-al,Kitchen & bath remodeling,kitchen-bath-remodeling,7,7,0,0,0,0,0,13,0,13,unknown
 "Dothan, AL",dothan-al,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
@@ -292,7 +292,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Fairhope, AL",fairhope-al,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
 "Fairhope, AL",fairhope-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,17,17,0,0,0,0,0,3,0,3,unknown
 "Fairhope, AL",fairhope-al,HVAC,hvac,10,10,0,0,0,0,0,10,0,10,unknown
-"Fairhope, AL",fairhope-al,Insulation,insulation,6,6,0,0,0,0,0,14,0,14,unknown
+"Fairhope, AL",fairhope-al,Insulation,insulation,6,6,0,0,0,0,0,14,1,15,unknown
 "Fairhope, AL",fairhope-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,8,8,0,0,0,0,0,12,0,12,unknown
 "Fairhope, AL",fairhope-al,Kitchen & bath remodeling,kitchen-bath-remodeling,18,18,0,0,0,0,0,2,0,2,unknown
 "Fairhope, AL",fairhope-al,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
@@ -320,7 +320,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Foley, AL",foley-al,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
 "Foley, AL",foley-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,0,0,unknown
 "Foley, AL",foley-al,HVAC,hvac,17,17,0,0,0,0,0,3,0,3,unknown
-"Foley, AL",foley-al,Insulation,insulation,6,6,0,0,0,0,0,14,0,14,unknown
+"Foley, AL",foley-al,Insulation,insulation,6,6,0,0,0,0,0,14,1,15,unknown
 "Foley, AL",foley-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,8,8,0,0,0,0,0,12,0,12,unknown
 "Foley, AL",foley-al,Kitchen & bath remodeling,kitchen-bath-remodeling,17,17,0,0,0,0,0,3,0,3,unknown
 "Foley, AL",foley-al,Landscaping,landscaping,11,11,0,0,0,0,0,9,0,9,unknown
@@ -336,7 +336,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Foley, AL",foley-al,Tree service,tree-service,11,11,0,0,0,0,0,9,0,9,unknown
 "Foley, AL",foley-al,Water damage & mold remediation,water-damage-mold-remediation,5,5,0,0,0,0,0,15,0,15,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Appliance repair,appliance-repair,10,10,0,0,0,0,0,10,0,10,unknown
-"Fort Lauderdale, FL",fort-lauderdale-fl,Auto body & collision,auto-body-collision,5,5,1,0,0,0,0,15,0,15,unknown
+"Fort Lauderdale, FL",fort-lauderdale-fl,Auto body & collision,auto-body-collision,5,6,1,1,0,0,0,14,0,14,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Auto mechanics,auto-mechanics,8,8,0,0,0,0,0,12,0,12,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Concrete & driveways,concrete,9,9,0,0,0,0,0,11,1,12,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Electrical,electrical,13,13,0,0,0,0,0,7,0,7,unknown
@@ -344,18 +344,18 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Fort Lauderdale, FL",fort-lauderdale-fl,Flooring,flooring,9,9,0,0,0,0,0,11,1,12,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Garage door repair,garage-door-repair,8,8,0,0,0,0,0,12,0,12,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Generator installation,generator-installation,12,12,0,0,0,0,0,8,0,8,unknown
-"Fort Lauderdale, FL",fort-lauderdale-fl,Gutters,gutters,7,7,2,0,0,0,0,13,0,13,unknown
+"Fort Lauderdale, FL",fort-lauderdale-fl,Gutters,gutters,7,9,2,2,0,0,0,11,0,11,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Home inspections,home-inspections,15,15,0,0,0,0,0,5,0,5,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,18,18,0,0,0,0,0,2,0,2,unknown
-"Fort Lauderdale, FL",fort-lauderdale-fl,HVAC,hvac,15,15,0,0,0,0,0,5,0,5,unknown
-"Fort Lauderdale, FL",fort-lauderdale-fl,Insulation,insulation,8,8,0,0,0,0,0,12,0,12,unknown
+"Fort Lauderdale, FL",fort-lauderdale-fl,HVAC,hvac,15,15,0,0,0,0,0,5,1,6,unknown
+"Fort Lauderdale, FL",fort-lauderdale-fl,Insulation,insulation,8,8,0,0,0,0,0,12,1,13,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,5,5,0,0,0,0,0,15,0,15,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,14,0,0,0,0,0,6,0,6,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Landscaping,landscaping,11,11,0,0,0,0,0,9,0,9,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Marine services,marine-services,14,14,0,0,0,0,0,6,0,6,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Painting,painting,17,17,0,0,0,0,0,3,1,4,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Pest control,pest-control,7,7,0,0,0,0,0,13,0,13,unknown
-"Fort Lauderdale, FL",fort-lauderdale-fl,Plumbing,plumbing,14,14,0,0,0,0,0,6,0,6,unknown
+"Fort Lauderdale, FL",fort-lauderdale-fl,Plumbing,plumbing,14,14,0,0,0,0,0,6,1,7,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Pool installation,pool-installation,9,9,0,0,0,0,0,11,1,12,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Pool service,pool-service,8,8,0,0,0,0,0,12,1,13,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
@@ -363,7 +363,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Fort Lauderdale, FL",fort-lauderdale-fl,Septic services,septic-services,17,17,0,0,0,0,0,3,0,3,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Tree service,tree-service,8,8,0,0,0,0,0,12,0,12,unknown
 "Fort Lauderdale, FL",fort-lauderdale-fl,Water damage & mold remediation,water-damage-mold-remediation,13,13,0,0,0,0,0,7,1,8,unknown
-"Fort Myers, FL",fort-myers-fl,Appliance repair,appliance-repair,8,8,1,0,0,0,0,12,0,12,unknown
+"Fort Myers, FL",fort-myers-fl,Appliance repair,appliance-repair,8,9,1,1,0,0,0,11,0,11,unknown
 "Fort Myers, FL",fort-myers-fl,Auto body & collision,auto-body-collision,7,7,0,0,0,0,0,13,0,13,unknown
 "Fort Myers, FL",fort-myers-fl,Auto mechanics,auto-mechanics,10,10,0,0,0,0,0,10,0,10,unknown
 "Fort Myers, FL",fort-myers-fl,Concrete & driveways,concrete,9,9,0,0,0,0,0,11,1,12,unknown
@@ -375,15 +375,15 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Fort Myers, FL",fort-myers-fl,Gutters,gutters,13,13,0,0,0,0,0,7,0,7,unknown
 "Fort Myers, FL",fort-myers-fl,Home inspections,home-inspections,14,14,0,0,0,0,0,6,0,6,unknown
 "Fort Myers, FL",fort-myers-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,17,17,0,0,0,0,0,3,0,3,unknown
-"Fort Myers, FL",fort-myers-fl,HVAC,hvac,8,8,6,0,0,0,0,12,0,12,unknown
-"Fort Myers, FL",fort-myers-fl,Insulation,insulation,9,9,0,0,0,0,0,11,0,11,unknown
+"Fort Myers, FL",fort-myers-fl,HVAC,hvac,8,14,6,6,0,0,0,6,1,7,unknown
+"Fort Myers, FL",fort-myers-fl,Insulation,insulation,9,9,0,0,0,0,0,11,1,12,unknown
 "Fort Myers, FL",fort-myers-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,0,0,0,0,0,14,0,14,unknown
 "Fort Myers, FL",fort-myers-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,13,13,0,0,0,0,0,7,0,7,unknown
 "Fort Myers, FL",fort-myers-fl,Landscaping,landscaping,12,12,0,0,0,0,0,8,0,8,unknown
 "Fort Myers, FL",fort-myers-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
 "Fort Myers, FL",fort-myers-fl,Painting,painting,11,11,0,0,0,0,0,9,1,10,unknown
 "Fort Myers, FL",fort-myers-fl,Pest control,pest-control,11,11,0,0,0,0,0,9,0,9,unknown
-"Fort Myers, FL",fort-myers-fl,Plumbing,plumbing,15,15,0,0,0,0,0,5,0,5,unknown
+"Fort Myers, FL",fort-myers-fl,Plumbing,plumbing,15,15,0,0,0,0,0,5,1,6,unknown
 "Fort Myers, FL",fort-myers-fl,Pool installation,pool-installation,11,11,0,0,0,0,0,9,1,10,unknown
 "Fort Myers, FL",fort-myers-fl,Pool service,pool-service,12,12,0,0,0,0,0,8,0,8,unknown
 "Fort Myers, FL",fort-myers-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
@@ -398,7 +398,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Fort Walton Beach, FL",fort-walton-beach-fl,Electrical,electrical,20,20,0,0,0,0,0,0,0,0,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Fence builders,fence-builders,20,20,0,0,0,0,0,0,0,0,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Flooring,flooring,22,22,0,0,0,0,0,0,2,0,unknown
-"Fort Walton Beach, FL",fort-walton-beach-fl,Garage door repair,garage-door-repair,19,19,1,0,0,0,0,1,2,3,unknown
+"Fort Walton Beach, FL",fort-walton-beach-fl,Garage door repair,garage-door-repair,19,20,1,0,1,0,0,0,2,2,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Generator installation,generator-installation,20,20,0,0,0,0,0,0,0,0,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Gutters,gutters,20,20,0,0,0,0,0,0,2,2,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Home inspections,home-inspections,23,23,0,0,0,0,0,0,0,0,unknown
@@ -408,10 +408,10 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Fort Walton Beach, FL",fort-walton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,20,20,0,0,0,0,0,0,0,0,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,23,23,0,0,0,0,0,0,0,0,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Landscaping,landscaping,20,20,0,0,0,0,0,0,0,0,unknown
-"Fort Walton Beach, FL",fort-walton-beach-fl,Marine services,marine-services,20,20,0,0,0,0,0,0,0,0,unknown
+"Fort Walton Beach, FL",fort-walton-beach-fl,Marine services,marine-services,20,20,0,0,0,0,0,0,1,1,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Painting,painting,22,22,0,0,0,0,0,0,1,0,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pest control,pest-control,20,20,0,0,0,0,0,0,0,0,unknown
-"Fort Walton Beach, FL",fort-walton-beach-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
+"Fort Walton Beach, FL",fort-walton-beach-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,1,1,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pool installation,pool-installation,20,20,0,0,0,0,0,0,2,2,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Pool service,pool-service,20,20,0,0,0,0,0,0,1,1,unknown
 "Fort Walton Beach, FL",fort-walton-beach-fl,Roofing,roofing,32,32,0,0,0,0,0,0,0,0,unknown
@@ -432,14 +432,14 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Grayton Beach, FL",grayton-beach-fl,Home inspections,home-inspections,18,18,0,0,0,0,0,2,0,2,unknown
 "Grayton Beach, FL",grayton-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,1,1,unknown
 "Grayton Beach, FL",grayton-beach-fl,HVAC,hvac,21,21,0,0,0,0,0,0,0,0,unknown
-"Grayton Beach, FL",grayton-beach-fl,Insulation,insulation,12,12,0,0,0,0,0,8,0,8,unknown
+"Grayton Beach, FL",grayton-beach-fl,Insulation,insulation,12,12,0,0,0,0,0,8,1,9,unknown
 "Grayton Beach, FL",grayton-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,9,9,0,0,0,0,0,11,0,11,unknown
 "Grayton Beach, FL",grayton-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,20,20,0,0,0,0,0,0,0,0,unknown
 "Grayton Beach, FL",grayton-beach-fl,Landscaping,landscaping,11,11,0,0,0,0,0,9,0,9,unknown
-"Grayton Beach, FL",grayton-beach-fl,Marine services,marine-services,16,16,0,0,0,0,0,4,0,4,unknown
+"Grayton Beach, FL",grayton-beach-fl,Marine services,marine-services,16,16,0,0,0,0,0,4,1,5,unknown
 "Grayton Beach, FL",grayton-beach-fl,Painting,painting,22,22,0,0,0,0,0,0,1,0,unknown
 "Grayton Beach, FL",grayton-beach-fl,Pest control,pest-control,6,6,0,0,0,0,0,14,0,14,unknown
-"Grayton Beach, FL",grayton-beach-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
+"Grayton Beach, FL",grayton-beach-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,1,1,unknown
 "Grayton Beach, FL",grayton-beach-fl,Pool installation,pool-installation,12,12,0,0,0,0,0,8,1,9,unknown
 "Grayton Beach, FL",grayton-beach-fl,Pool service,pool-service,18,18,0,0,0,0,0,2,1,3,unknown
 "Grayton Beach, FL",grayton-beach-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
@@ -464,7 +464,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Gulf Breeze, FL",gulf-breeze-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,20,20,0,0,0,0,0,0,0,0,unknown
 "Gulf Breeze, FL",gulf-breeze-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,25,25,0,0,0,0,0,0,0,0,unknown
 "Gulf Breeze, FL",gulf-breeze-fl,Landscaping,landscaping,23,23,0,0,0,0,0,0,0,0,unknown
-"Gulf Breeze, FL",gulf-breeze-fl,Marine services,marine-services,18,18,0,0,0,0,0,2,0,2,unknown
+"Gulf Breeze, FL",gulf-breeze-fl,Marine services,marine-services,18,18,0,0,0,0,0,2,1,3,unknown
 "Gulf Breeze, FL",gulf-breeze-fl,Painting,painting,21,21,0,0,0,0,0,0,1,0,unknown
 "Gulf Breeze, FL",gulf-breeze-fl,Pest control,pest-control,17,17,0,0,0,0,0,3,0,3,unknown
 "Gulf Breeze, FL",gulf-breeze-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
@@ -488,8 +488,8 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Gulf Shores, AL",gulf-shores-al,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
 "Gulf Shores, AL",gulf-shores-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,0,0,unknown
 "Gulf Shores, AL",gulf-shores-al,HVAC,hvac,11,11,0,0,0,0,0,9,0,9,unknown
-"Gulf Shores, AL",gulf-shores-al,Insulation,insulation,7,7,0,0,0,0,0,13,0,13,unknown
-"Gulf Shores, AL",gulf-shores-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,7,1,0,0,0,0,13,0,13,unknown
+"Gulf Shores, AL",gulf-shores-al,Insulation,insulation,7,7,0,0,0,0,0,13,1,14,unknown
+"Gulf Shores, AL",gulf-shores-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,8,1,1,0,0,0,12,0,12,unknown
 "Gulf Shores, AL",gulf-shores-al,Kitchen & bath remodeling,kitchen-bath-remodeling,17,17,0,0,0,0,0,3,0,3,unknown
 "Gulf Shores, AL",gulf-shores-al,Landscaping,landscaping,10,10,0,0,0,0,0,10,0,10,unknown
 "Gulf Shores, AL",gulf-shores-al,Marine services,marine-services,13,13,0,0,0,0,0,7,0,7,unknown
@@ -516,7 +516,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Gulfport, MS",gulfport-ms,Home inspections,home-inspections,12,12,0,0,0,0,0,8,0,8,unknown
 "Gulfport, MS",gulfport-ms,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,12,0,0,0,0,0,8,0,8,unknown
 "Gulfport, MS",gulfport-ms,HVAC,hvac,9,9,0,0,0,0,0,11,0,11,unknown
-"Gulfport, MS",gulfport-ms,Insulation,insulation,7,7,0,0,0,0,0,13,0,13,unknown
+"Gulfport, MS",gulfport-ms,Insulation,insulation,7,7,0,0,0,0,0,13,1,14,unknown
 "Gulfport, MS",gulfport-ms,Irrigation & sprinkler repair,irrigation-sprinkler-repair,3,3,0,0,0,0,0,17,0,17,unknown
 "Gulfport, MS",gulfport-ms,Kitchen & bath remodeling,kitchen-bath-remodeling,12,12,0,0,0,0,0,8,0,8,unknown
 "Gulfport, MS",gulfport-ms,Landscaping,landscaping,5,5,0,0,0,0,0,15,0,15,unknown
@@ -531,20 +531,20 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Gulfport, MS",gulfport-ms,Septic services,septic-services,6,6,0,0,0,0,0,14,0,14,unknown
 "Gulfport, MS",gulfport-ms,Tree service,tree-service,12,12,0,0,0,0,0,8,0,8,unknown
 "Gulfport, MS",gulfport-ms,Water damage & mold remediation,water-damage-mold-remediation,4,4,0,0,0,0,0,16,0,16,unknown
-"Huntsville, AL",huntsville-al,Appliance repair,appliance-repair,5,5,2,0,0,0,0,15,0,15,unknown
+"Huntsville, AL",huntsville-al,Appliance repair,appliance-repair,5,7,2,2,0,0,0,13,0,13,unknown
 "Huntsville, AL",huntsville-al,Auto body & collision,auto-body-collision,5,5,0,0,0,0,0,15,0,15,unknown
-"Huntsville, AL",huntsville-al,Auto mechanics,auto-mechanics,5,5,1,0,0,0,0,15,0,15,unknown
+"Huntsville, AL",huntsville-al,Auto mechanics,auto-mechanics,5,6,1,1,0,0,0,14,0,14,unknown
 "Huntsville, AL",huntsville-al,Concrete & driveways,concrete,9,9,0,0,0,0,0,11,0,11,unknown
 "Huntsville, AL",huntsville-al,Electrical,electrical,11,11,0,0,0,0,0,9,0,9,unknown
 "Huntsville, AL",huntsville-al,Fence builders,fence-builders,14,14,0,0,0,0,0,6,0,6,unknown
-"Huntsville, AL",huntsville-al,Flooring,flooring,6,6,1,0,0,0,0,14,0,14,unknown
+"Huntsville, AL",huntsville-al,Flooring,flooring,6,7,1,1,0,0,0,13,0,13,unknown
 "Huntsville, AL",huntsville-al,Garage door repair,garage-door-repair,8,8,0,0,0,0,0,12,0,12,unknown
 "Huntsville, AL",huntsville-al,Generator installation,generator-installation,12,12,0,0,0,0,0,8,0,8,unknown
 "Huntsville, AL",huntsville-al,Gutters,gutters,7,7,0,0,0,0,0,13,0,13,unknown
 "Huntsville, AL",huntsville-al,Home inspections,home-inspections,17,17,0,0,0,0,0,3,0,3,unknown
 "Huntsville, AL",huntsville-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,4,4,0,0,0,0,0,16,0,16,unknown
 "Huntsville, AL",huntsville-al,HVAC,hvac,11,11,0,0,0,0,0,9,0,9,unknown
-"Huntsville, AL",huntsville-al,Insulation,insulation,10,10,0,0,0,0,0,10,0,10,unknown
+"Huntsville, AL",huntsville-al,Insulation,insulation,10,10,0,0,0,0,0,10,1,11,unknown
 "Huntsville, AL",huntsville-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,0,0,0,0,0,14,0,14,unknown
 "Huntsville, AL",huntsville-al,Kitchen & bath remodeling,kitchen-bath-remodeling,7,7,0,0,0,0,0,13,0,13,unknown
 "Huntsville, AL",huntsville-al,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
@@ -554,13 +554,13 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Huntsville, AL",huntsville-al,Plumbing,plumbing,11,11,0,0,0,0,0,9,0,9,unknown
 "Huntsville, AL",huntsville-al,Pool installation,pool-installation,7,7,0,0,0,0,0,13,0,13,unknown
 "Huntsville, AL",huntsville-al,Pool service,pool-service,5,5,0,0,0,0,0,15,0,15,unknown
-"Huntsville, AL",huntsville-al,Roofing,roofing,8,8,2,0,0,0,0,12,0,12,unknown
+"Huntsville, AL",huntsville-al,Roofing,roofing,8,10,2,2,0,0,0,10,0,10,unknown
 "Huntsville, AL",huntsville-al,Screen enclosures & pool cages,screen-enclosures-pool-cages,13,13,0,0,0,0,0,7,1,8,unknown
 "Huntsville, AL",huntsville-al,Septic services,septic-services,10,10,0,0,0,0,0,10,0,10,unknown
 "Huntsville, AL",huntsville-al,Tree service,tree-service,7,7,0,0,0,0,0,13,0,13,unknown
 "Huntsville, AL",huntsville-al,Water damage & mold remediation,water-damage-mold-remediation,9,9,0,0,0,0,0,11,0,11,unknown
 "Jacksonville, FL",jacksonville-fl,Appliance repair,appliance-repair,13,13,0,0,0,0,0,7,0,7,unknown
-"Jacksonville, FL",jacksonville-fl,Auto body & collision,auto-body-collision,7,7,1,0,0,0,0,13,0,13,unknown
+"Jacksonville, FL",jacksonville-fl,Auto body & collision,auto-body-collision,7,8,1,1,0,0,0,12,0,12,unknown
 "Jacksonville, FL",jacksonville-fl,Auto mechanics,auto-mechanics,12,12,0,0,0,0,0,8,0,8,unknown
 "Jacksonville, FL",jacksonville-fl,Concrete & driveways,concrete,13,13,0,0,0,0,0,7,1,8,unknown
 "Jacksonville, FL",jacksonville-fl,Electrical,electrical,15,15,0,0,0,0,0,5,0,5,unknown
@@ -571,17 +571,17 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Jacksonville, FL",jacksonville-fl,Gutters,gutters,13,13,0,0,0,0,0,7,0,7,unknown
 "Jacksonville, FL",jacksonville-fl,Home inspections,home-inspections,14,14,0,0,0,0,0,6,0,6,unknown
 "Jacksonville, FL",jacksonville-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,15,15,0,0,0,0,0,5,0,5,unknown
-"Jacksonville, FL",jacksonville-fl,HVAC,hvac,15,15,0,0,0,0,0,5,0,5,unknown
-"Jacksonville, FL",jacksonville-fl,Insulation,insulation,9,9,2,0,0,0,0,11,0,11,unknown
+"Jacksonville, FL",jacksonville-fl,HVAC,hvac,15,15,0,0,0,0,0,5,1,6,unknown
+"Jacksonville, FL",jacksonville-fl,Insulation,insulation,9,11,2,2,0,0,0,9,1,10,unknown
 "Jacksonville, FL",jacksonville-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,11,11,0,0,0,0,0,9,0,9,unknown
 "Jacksonville, FL",jacksonville-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,13,13,0,0,0,0,0,7,0,7,unknown
 "Jacksonville, FL",jacksonville-fl,Landscaping,landscaping,15,15,0,0,0,0,0,5,0,5,unknown
 "Jacksonville, FL",jacksonville-fl,Marine services,marine-services,13,13,0,0,0,0,0,7,0,7,unknown
 "Jacksonville, FL",jacksonville-fl,Painting,painting,16,16,0,0,0,0,0,4,1,5,unknown
-"Jacksonville, FL",jacksonville-fl,Pest control,pest-control,10,10,3,0,0,0,0,10,0,10,unknown
-"Jacksonville, FL",jacksonville-fl,Plumbing,plumbing,10,10,7,0,0,0,0,10,0,10,unknown
+"Jacksonville, FL",jacksonville-fl,Pest control,pest-control,10,13,3,3,0,0,0,7,0,7,unknown
+"Jacksonville, FL",jacksonville-fl,Plumbing,plumbing,10,17,7,7,0,0,0,3,1,4,unknown
 "Jacksonville, FL",jacksonville-fl,Pool installation,pool-installation,14,14,0,0,0,0,0,6,1,7,unknown
-"Jacksonville, FL",jacksonville-fl,Pool service,pool-service,10,10,1,0,0,0,0,10,1,11,unknown
+"Jacksonville, FL",jacksonville-fl,Pool service,pool-service,10,11,1,1,0,0,0,9,1,10,unknown
 "Jacksonville, FL",jacksonville-fl,Roofing,roofing,19,19,0,0,0,0,0,1,1,2,unknown
 "Jacksonville, FL",jacksonville-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,16,16,0,0,0,0,0,4,1,5,unknown
 "Jacksonville, FL",jacksonville-fl,Septic services,septic-services,9,9,0,0,0,0,0,11,0,11,unknown
@@ -593,7 +593,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Miami, FL",miami-fl,Concrete & driveways,concrete,8,8,0,0,0,0,0,12,1,13,unknown
 "Miami, FL",miami-fl,Electrical,electrical,14,14,0,0,0,0,0,6,0,6,unknown
 "Miami, FL",miami-fl,Fence builders,fence-builders,11,11,0,0,0,0,0,9,0,9,unknown
-"Miami, FL",miami-fl,Flooring,flooring,8,8,4,0,0,0,0,12,0,12,unknown
+"Miami, FL",miami-fl,Flooring,flooring,8,12,4,4,0,0,0,8,0,8,unknown
 "Miami, FL",miami-fl,Garage door repair,garage-door-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Miami, FL",miami-fl,Generator installation,generator-installation,9,9,0,0,0,0,0,11,0,11,unknown
 "Miami, FL",miami-fl,Gutters,gutters,9,9,0,0,0,0,0,11,0,11,unknown
@@ -601,7 +601,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Miami, FL",miami-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,0,0,unknown
 "Miami, FL",miami-fl,HVAC,hvac,13,13,0,0,0,0,0,7,0,7,unknown
 "Miami, FL",miami-fl,Insulation,insulation,11,11,0,0,0,0,0,9,0,9,unknown
-"Miami, FL",miami-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,3,0,0,0,0,14,0,14,unknown
+"Miami, FL",miami-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,9,3,3,0,0,0,11,0,11,unknown
 "Miami, FL",miami-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,14,0,0,0,0,0,6,0,6,unknown
 "Miami, FL",miami-fl,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
 "Miami, FL",miami-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
@@ -632,7 +632,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Milton, FL",milton-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,13,13,0,0,0,0,0,7,0,7,unknown
 "Milton, FL",milton-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,22,22,0,0,0,0,0,0,0,0,unknown
 "Milton, FL",milton-fl,Landscaping,landscaping,21,21,0,0,0,0,0,0,0,0,unknown
-"Milton, FL",milton-fl,Marine services,marine-services,17,17,0,0,0,0,0,3,0,3,unknown
+"Milton, FL",milton-fl,Marine services,marine-services,17,17,0,0,0,0,0,3,1,4,unknown
 "Milton, FL",milton-fl,Painting,painting,21,21,0,0,0,0,0,0,1,0,unknown
 "Milton, FL",milton-fl,Pest control,pest-control,10,10,0,0,0,0,0,10,0,10,unknown
 "Milton, FL",milton-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
@@ -684,12 +684,12 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Montgomery, AL",montgomery-al,Home inspections,home-inspections,13,13,0,0,0,0,0,7,0,7,unknown
 "Montgomery, AL",montgomery-al,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,4,4,0,0,0,0,0,16,0,16,unknown
 "Montgomery, AL",montgomery-al,HVAC,hvac,9,9,0,0,0,0,0,11,0,11,unknown
-"Montgomery, AL",montgomery-al,Insulation,insulation,5,5,0,0,0,0,0,15,0,15,unknown
+"Montgomery, AL",montgomery-al,Insulation,insulation,5,5,0,0,0,0,0,15,1,16,unknown
 "Montgomery, AL",montgomery-al,Irrigation & sprinkler repair,irrigation-sprinkler-repair,2,2,0,0,0,0,0,18,0,18,unknown
 "Montgomery, AL",montgomery-al,Kitchen & bath remodeling,kitchen-bath-remodeling,10,10,0,0,0,0,0,10,0,10,unknown
 "Montgomery, AL",montgomery-al,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
 "Montgomery, AL",montgomery-al,Marine services,marine-services,5,5,0,0,0,0,0,15,0,15,unknown
-"Montgomery, AL",montgomery-al,Painting,painting,3,3,1,0,0,0,0,17,0,17,unknown
+"Montgomery, AL",montgomery-al,Painting,painting,3,4,1,1,0,0,0,16,0,16,unknown
 "Montgomery, AL",montgomery-al,Pest control,pest-control,5,5,0,0,0,0,0,15,0,15,unknown
 "Montgomery, AL",montgomery-al,Plumbing,plumbing,6,6,0,0,0,0,0,14,0,14,unknown
 "Montgomery, AL",montgomery-al,Pool installation,pool-installation,4,4,0,0,0,0,0,16,0,16,unknown
@@ -699,27 +699,27 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Montgomery, AL",montgomery-al,Septic services,septic-services,7,7,0,0,0,0,0,13,0,13,unknown
 "Montgomery, AL",montgomery-al,Tree service,tree-service,6,6,0,0,0,0,0,14,0,14,unknown
 "Montgomery, AL",montgomery-al,Water damage & mold remediation,water-damage-mold-remediation,3,3,0,0,0,0,0,17,0,17,unknown
-"Naples, FL",naples-fl,Appliance repair,appliance-repair,6,6,2,0,0,0,0,14,0,14,unknown
+"Naples, FL",naples-fl,Appliance repair,appliance-repair,6,8,2,2,0,0,0,12,0,12,unknown
 "Naples, FL",naples-fl,Auto body & collision,auto-body-collision,6,6,0,0,0,0,0,14,0,14,unknown
 "Naples, FL",naples-fl,Auto mechanics,auto-mechanics,9,9,0,0,0,0,0,11,0,11,unknown
-"Naples, FL",naples-fl,Concrete & driveways,concrete,9,9,4,0,0,0,0,11,1,12,unknown
+"Naples, FL",naples-fl,Concrete & driveways,concrete,9,13,4,4,0,0,0,7,1,8,unknown
 "Naples, FL",naples-fl,Electrical,electrical,19,19,0,0,0,0,0,1,0,1,unknown
 "Naples, FL",naples-fl,Fence builders,fence-builders,9,9,0,0,0,0,0,11,0,11,unknown
 "Naples, FL",naples-fl,Flooring,flooring,13,13,0,0,0,0,0,7,1,8,unknown
-"Naples, FL",naples-fl,Garage door repair,garage-door-repair,15,15,1,0,0,0,0,5,0,5,unknown
+"Naples, FL",naples-fl,Garage door repair,garage-door-repair,15,16,1,1,0,0,0,4,0,4,unknown
 "Naples, FL",naples-fl,Generator installation,generator-installation,9,9,0,0,0,0,0,11,0,11,unknown
 "Naples, FL",naples-fl,Gutters,gutters,9,9,0,0,0,0,0,11,0,11,unknown
 "Naples, FL",naples-fl,Home inspections,home-inspections,13,13,0,0,0,0,0,7,0,7,unknown
 "Naples, FL",naples-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,0,0,unknown
-"Naples, FL",naples-fl,HVAC,hvac,13,13,0,0,0,0,0,7,0,7,unknown
-"Naples, FL",naples-fl,Insulation,insulation,10,10,0,0,0,0,0,10,0,10,unknown
-"Naples, FL",naples-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,7,1,0,0,0,0,13,0,13,unknown
+"Naples, FL",naples-fl,HVAC,hvac,13,13,0,0,0,0,0,7,1,8,unknown
+"Naples, FL",naples-fl,Insulation,insulation,10,10,0,0,0,0,0,10,1,11,unknown
+"Naples, FL",naples-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,7,8,1,1,0,0,0,12,0,12,unknown
 "Naples, FL",naples-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,14,14,0,0,0,0,0,6,0,6,unknown
 "Naples, FL",naples-fl,Landscaping,landscaping,11,11,0,0,0,0,0,9,0,9,unknown
 "Naples, FL",naples-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
 "Naples, FL",naples-fl,Painting,painting,14,14,0,0,0,0,0,6,1,7,unknown
 "Naples, FL",naples-fl,Pest control,pest-control,13,13,0,0,0,0,0,7,0,7,unknown
-"Naples, FL",naples-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,0,10,unknown
+"Naples, FL",naples-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,1,11,unknown
 "Naples, FL",naples-fl,Pool installation,pool-installation,9,9,0,0,0,0,0,11,1,12,unknown
 "Naples, FL",naples-fl,Pool service,pool-service,10,10,0,0,0,0,0,10,0,10,unknown
 "Naples, FL",naples-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
@@ -755,11 +755,11 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Navarre, FL",navarre-fl,Septic services,septic-services,17,17,0,0,0,0,0,3,0,3,unknown
 "Navarre, FL",navarre-fl,Tree service,tree-service,24,24,0,0,0,0,0,0,0,0,unknown
 "Navarre, FL",navarre-fl,Water damage & mold remediation,water-damage-mold-remediation,20,20,0,0,0,0,0,0,1,1,unknown
-"New Orleans, LA",new-orleans-la,Appliance repair,appliance-repair,7,7,2,0,0,0,0,13,0,13,unknown
+"New Orleans, LA",new-orleans-la,Appliance repair,appliance-repair,7,9,2,2,0,0,0,11,0,11,unknown
 "New Orleans, LA",new-orleans-la,Auto body & collision,auto-body-collision,6,6,0,0,0,0,0,14,0,14,unknown
 "New Orleans, LA",new-orleans-la,Auto mechanics,auto-mechanics,8,8,0,0,0,0,0,12,0,12,unknown
 "New Orleans, LA",new-orleans-la,Concrete & driveways,concrete,7,7,0,0,0,0,0,13,0,13,unknown
-"New Orleans, LA",new-orleans-la,Electrical,electrical,13,13,1,0,0,0,0,7,0,7,unknown
+"New Orleans, LA",new-orleans-la,Electrical,electrical,13,14,1,1,0,0,0,6,0,6,unknown
 "New Orleans, LA",new-orleans-la,Fence builders,fence-builders,10,10,0,0,0,0,0,10,0,10,unknown
 "New Orleans, LA",new-orleans-la,Flooring,flooring,8,8,0,0,0,0,0,12,0,12,unknown
 "New Orleans, LA",new-orleans-la,Garage door repair,garage-door-repair,7,7,0,0,0,0,0,13,0,13,unknown
@@ -768,10 +768,10 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "New Orleans, LA",new-orleans-la,Home inspections,home-inspections,18,18,0,0,0,0,0,2,0,2,unknown
 "New Orleans, LA",new-orleans-la,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,12,0,0,0,0,0,8,0,8,unknown
 "New Orleans, LA",new-orleans-la,HVAC,hvac,18,18,0,0,0,0,0,2,0,2,unknown
-"New Orleans, LA",new-orleans-la,Insulation,insulation,6,6,0,0,0,0,0,14,0,14,unknown
+"New Orleans, LA",new-orleans-la,Insulation,insulation,6,6,0,0,0,0,0,14,1,15,unknown
 "New Orleans, LA",new-orleans-la,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,0,0,0,0,0,14,0,14,unknown
 "New Orleans, LA",new-orleans-la,Kitchen & bath remodeling,kitchen-bath-remodeling,8,8,0,0,0,0,0,12,0,12,unknown
-"New Orleans, LA",new-orleans-la,Landscaping,landscaping,6,6,4,0,0,0,0,14,0,14,unknown
+"New Orleans, LA",new-orleans-la,Landscaping,landscaping,6,10,4,4,0,0,0,10,0,10,unknown
 "New Orleans, LA",new-orleans-la,Marine services,marine-services,7,7,0,0,0,0,0,13,0,13,unknown
 "New Orleans, LA",new-orleans-la,Painting,painting,7,7,0,0,0,0,0,13,0,13,unknown
 "New Orleans, LA",new-orleans-la,Pest control,pest-control,8,8,0,0,0,0,0,12,0,12,unknown
@@ -814,8 +814,8 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Orlando, FL",orlando-fl,Appliance repair,appliance-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Orlando, FL",orlando-fl,Auto body & collision,auto-body-collision,8,8,0,0,0,0,0,12,0,12,unknown
 "Orlando, FL",orlando-fl,Auto mechanics,auto-mechanics,12,12,0,0,0,0,0,8,0,8,unknown
-"Orlando, FL",orlando-fl,Concrete & driveways,concrete,10,10,3,0,0,0,0,10,1,11,unknown
-"Orlando, FL",orlando-fl,Electrical,electrical,9,9,3,0,0,0,0,11,0,11,unknown
+"Orlando, FL",orlando-fl,Concrete & driveways,concrete,10,13,3,3,0,0,0,7,1,8,unknown
+"Orlando, FL",orlando-fl,Electrical,electrical,9,12,3,3,0,0,0,8,0,8,unknown
 "Orlando, FL",orlando-fl,Fence builders,fence-builders,14,14,0,0,0,0,0,6,0,6,unknown
 "Orlando, FL",orlando-fl,Flooring,flooring,11,11,0,0,0,0,0,9,1,10,unknown
 "Orlando, FL",orlando-fl,Garage door repair,garage-door-repair,15,15,0,0,0,0,0,5,0,5,unknown
@@ -823,15 +823,15 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Orlando, FL",orlando-fl,Gutters,gutters,10,10,0,0,0,0,0,10,0,10,unknown
 "Orlando, FL",orlando-fl,Home inspections,home-inspections,17,17,0,0,0,0,0,3,0,3,unknown
 "Orlando, FL",orlando-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,16,16,0,0,0,0,0,4,0,4,unknown
-"Orlando, FL",orlando-fl,HVAC,hvac,10,10,0,0,0,0,0,10,0,10,unknown
-"Orlando, FL",orlando-fl,Insulation,insulation,12,12,0,0,0,0,0,8,0,8,unknown
+"Orlando, FL",orlando-fl,HVAC,hvac,10,10,0,0,0,0,0,10,1,11,unknown
+"Orlando, FL",orlando-fl,Insulation,insulation,12,12,0,0,0,0,0,8,1,9,unknown
 "Orlando, FL",orlando-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Orlando, FL",orlando-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,15,15,0,0,0,0,0,5,0,5,unknown
 "Orlando, FL",orlando-fl,Landscaping,landscaping,17,17,0,0,0,0,0,3,0,3,unknown
 "Orlando, FL",orlando-fl,Marine services,marine-services,10,10,0,0,0,0,0,10,0,10,unknown
 "Orlando, FL",orlando-fl,Painting,painting,20,20,0,0,0,0,0,0,1,1,unknown
-"Orlando, FL",orlando-fl,Pest control,pest-control,9,9,1,0,0,0,0,11,0,11,unknown
-"Orlando, FL",orlando-fl,Plumbing,plumbing,16,16,0,0,0,0,0,4,0,4,unknown
+"Orlando, FL",orlando-fl,Pest control,pest-control,9,10,1,1,0,0,0,10,0,10,unknown
+"Orlando, FL",orlando-fl,Plumbing,plumbing,16,16,0,0,0,0,0,4,1,5,unknown
 "Orlando, FL",orlando-fl,Pool installation,pool-installation,11,11,0,0,0,0,0,9,1,10,unknown
 "Orlando, FL",orlando-fl,Pool service,pool-service,9,9,0,0,0,0,0,11,1,12,unknown
 "Orlando, FL",orlando-fl,Roofing,roofing,15,15,0,0,0,0,0,5,1,6,unknown
@@ -852,11 +852,11 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Pace, FL",pace-fl,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
 "Pace, FL",pace-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,19,19,0,0,0,0,0,1,1,2,unknown
 "Pace, FL",pace-fl,HVAC,hvac,22,22,0,0,0,0,0,0,0,0,unknown
-"Pace, FL",pace-fl,Insulation,insulation,14,14,0,0,0,0,0,6,0,6,unknown
+"Pace, FL",pace-fl,Insulation,insulation,14,14,0,0,0,0,0,6,1,7,unknown
 "Pace, FL",pace-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,13,13,0,0,0,0,0,7,0,7,unknown
 "Pace, FL",pace-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,22,22,0,0,0,0,0,0,0,0,unknown
 "Pace, FL",pace-fl,Landscaping,landscaping,20,20,0,0,0,0,0,0,0,0,unknown
-"Pace, FL",pace-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
+"Pace, FL",pace-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,1,6,unknown
 "Pace, FL",pace-fl,Painting,painting,21,21,0,0,0,0,0,0,1,0,unknown
 "Pace, FL",pace-fl,Pest control,pest-control,10,10,0,0,0,0,0,10,0,10,unknown
 "Pace, FL",pace-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
@@ -880,14 +880,14 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Panama City Beach, FL",panama-city-beach-fl,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,1,1,unknown
 "Panama City Beach, FL",panama-city-beach-fl,HVAC,hvac,23,23,0,0,0,0,0,0,0,0,unknown
-"Panama City Beach, FL",panama-city-beach-fl,Insulation,insulation,15,15,0,0,0,0,0,5,0,5,unknown
+"Panama City Beach, FL",panama-city-beach-fl,Insulation,insulation,15,15,0,0,0,0,0,5,1,6,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,11,11,0,0,0,0,0,9,0,9,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,20,20,0,0,0,0,0,0,0,0,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Landscaping,landscaping,13,13,0,0,0,0,0,7,0,7,unknown
-"Panama City Beach, FL",panama-city-beach-fl,Marine services,marine-services,16,16,0,0,0,0,0,4,0,4,unknown
+"Panama City Beach, FL",panama-city-beach-fl,Marine services,marine-services,16,16,0,0,0,0,0,4,1,5,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Painting,painting,21,21,0,0,0,0,0,0,1,0,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Pest control,pest-control,9,9,0,0,0,0,0,11,0,11,unknown
-"Panama City Beach, FL",panama-city-beach-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
+"Panama City Beach, FL",panama-city-beach-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,1,1,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Pool installation,pool-installation,15,15,0,0,0,0,0,5,1,6,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Pool service,pool-service,20,20,0,0,0,0,0,0,1,1,unknown
 "Panama City Beach, FL",panama-city-beach-fl,Roofing,roofing,20,20,0,0,0,0,0,0,0,0,unknown
@@ -908,14 +908,14 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Panama City, FL",panama-city-fl,Home inspections,home-inspections,21,21,0,0,0,0,0,0,0,0,unknown
 "Panama City, FL",panama-city-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,20,20,0,0,0,0,0,0,2,2,unknown
 "Panama City, FL",panama-city-fl,HVAC,hvac,26,26,0,0,0,0,0,0,0,0,unknown
-"Panama City, FL",panama-city-fl,Insulation,insulation,16,16,0,0,0,0,0,4,0,4,unknown
+"Panama City, FL",panama-city-fl,Insulation,insulation,16,16,0,0,0,0,0,4,1,5,unknown
 "Panama City, FL",panama-city-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,19,19,0,0,0,0,0,1,0,1,unknown
 "Panama City, FL",panama-city-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,21,21,0,0,0,0,0,0,0,0,unknown
 "Panama City, FL",panama-city-fl,Landscaping,landscaping,20,20,0,0,0,0,0,0,0,0,unknown
-"Panama City, FL",panama-city-fl,Marine services,marine-services,18,18,0,0,0,0,0,2,0,2,unknown
+"Panama City, FL",panama-city-fl,Marine services,marine-services,18,18,0,0,0,0,0,2,1,3,unknown
 "Panama City, FL",panama-city-fl,Painting,painting,21,21,0,0,0,0,0,0,1,0,unknown
 "Panama City, FL",panama-city-fl,Pest control,pest-control,13,13,0,0,0,0,0,7,0,7,unknown
-"Panama City, FL",panama-city-fl,Plumbing,plumbing,21,21,0,0,0,0,0,0,0,0,unknown
+"Panama City, FL",panama-city-fl,Plumbing,plumbing,21,21,0,0,0,0,0,0,1,0,unknown
 "Panama City, FL",panama-city-fl,Pool installation,pool-installation,17,17,0,0,0,0,0,3,2,5,unknown
 "Panama City, FL",panama-city-fl,Pool service,pool-service,20,20,0,0,0,0,0,0,1,1,unknown
 "Panama City, FL",panama-city-fl,Roofing,roofing,28,28,0,0,0,0,0,0,0,0,unknown
@@ -930,7 +930,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Pensacola, FL",pensacola-fl,Electrical,electrical,21,21,0,0,0,0,0,0,0,0,unknown
 "Pensacola, FL",pensacola-fl,Fence builders,fence-builders,25,25,0,0,0,0,0,0,0,0,unknown
 "Pensacola, FL",pensacola-fl,Flooring,flooring,25,25,0,0,0,0,0,0,0,0,unknown
-"Pensacola, FL",pensacola-fl,Garage door repair,garage-door-repair,13,13,1,0,0,0,0,7,1,8,unknown
+"Pensacola, FL",pensacola-fl,Garage door repair,garage-door-repair,13,14,1,0,1,0,0,6,1,7,unknown
 "Pensacola, FL",pensacola-fl,Generator installation,generator-installation,20,20,0,0,0,0,0,0,0,0,unknown
 "Pensacola, FL",pensacola-fl,Gutters,gutters,20,20,0,0,0,0,0,0,1,1,unknown
 "Pensacola, FL",pensacola-fl,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
@@ -958,7 +958,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Perdido Key, FL",perdido-key-fl,Electrical,electrical,20,20,0,0,0,0,0,0,0,0,unknown
 "Perdido Key, FL",perdido-key-fl,Fence builders,fence-builders,20,20,0,0,0,0,0,0,0,0,unknown
 "Perdido Key, FL",perdido-key-fl,Flooring,flooring,17,17,0,0,0,0,0,3,1,4,unknown
-"Perdido Key, FL",perdido-key-fl,Garage door repair,garage-door-repair,8,8,1,0,0,0,0,12,1,13,unknown
+"Perdido Key, FL",perdido-key-fl,Garage door repair,garage-door-repair,8,9,1,0,1,0,0,11,1,12,unknown
 "Perdido Key, FL",perdido-key-fl,Generator installation,generator-installation,18,18,0,0,0,0,0,2,0,2,unknown
 "Perdido Key, FL",perdido-key-fl,Gutters,gutters,12,12,0,0,0,0,0,8,1,9,unknown
 "Perdido Key, FL",perdido-key-fl,Home inspections,home-inspections,20,20,0,0,0,0,0,0,0,0,unknown
@@ -968,7 +968,7 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Perdido Key, FL",perdido-key-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,12,12,0,0,0,0,0,8,0,8,unknown
 "Perdido Key, FL",perdido-key-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,21,21,0,0,0,0,0,0,0,0,unknown
 "Perdido Key, FL",perdido-key-fl,Landscaping,landscaping,18,18,0,0,0,0,0,2,0,2,unknown
-"Perdido Key, FL",perdido-key-fl,Marine services,marine-services,17,17,0,0,0,0,0,3,0,3,unknown
+"Perdido Key, FL",perdido-key-fl,Marine services,marine-services,17,17,0,0,0,0,0,3,1,4,unknown
 "Perdido Key, FL",perdido-key-fl,Painting,painting,20,20,0,0,0,0,0,0,1,1,unknown
 "Perdido Key, FL",perdido-key-fl,Pest control,pest-control,12,12,0,0,0,0,0,8,0,8,unknown
 "Perdido Key, FL",perdido-key-fl,Plumbing,plumbing,20,20,0,0,0,0,0,0,0,0,unknown
@@ -987,25 +987,25 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Sarasota, FL",sarasota-fl,Fence builders,fence-builders,9,9,0,0,0,0,0,11,0,11,unknown
 "Sarasota, FL",sarasota-fl,Flooring,flooring,16,16,0,0,0,0,0,4,1,5,unknown
 "Sarasota, FL",sarasota-fl,Garage door repair,garage-door-repair,15,15,0,0,0,0,0,5,0,5,unknown
-"Sarasota, FL",sarasota-fl,Generator installation,generator-installation,9,9,2,0,0,0,0,11,0,11,unknown
+"Sarasota, FL",sarasota-fl,Generator installation,generator-installation,9,11,2,2,0,0,0,9,0,9,unknown
 "Sarasota, FL",sarasota-fl,Gutters,gutters,9,9,0,0,0,0,0,11,0,11,unknown
 "Sarasota, FL",sarasota-fl,Home inspections,home-inspections,17,17,0,0,0,0,0,3,0,3,unknown
 "Sarasota, FL",sarasota-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,16,16,0,0,0,0,0,4,0,4,unknown
-"Sarasota, FL",sarasota-fl,HVAC,hvac,14,14,0,0,0,0,0,6,0,6,unknown
-"Sarasota, FL",sarasota-fl,Insulation,insulation,11,11,0,0,0,0,0,9,0,9,unknown
+"Sarasota, FL",sarasota-fl,HVAC,hvac,14,14,0,0,0,0,0,6,1,7,unknown
+"Sarasota, FL",sarasota-fl,Insulation,insulation,11,11,0,0,0,0,0,9,1,10,unknown
 "Sarasota, FL",sarasota-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Sarasota, FL",sarasota-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,11,11,0,0,0,0,0,9,0,9,unknown
-"Sarasota, FL",sarasota-fl,Landscaping,landscaping,10,10,5,0,0,0,0,10,0,10,unknown
+"Sarasota, FL",sarasota-fl,Landscaping,landscaping,10,15,5,5,0,0,0,5,0,5,unknown
 "Sarasota, FL",sarasota-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
-"Sarasota, FL",sarasota-fl,Painting,painting,19,19,1,0,0,0,0,1,1,2,unknown
-"Sarasota, FL",sarasota-fl,Pest control,pest-control,12,12,1,0,0,0,0,8,0,8,unknown
-"Sarasota, FL",sarasota-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,0,10,unknown
+"Sarasota, FL",sarasota-fl,Painting,painting,19,20,1,1,0,0,0,0,1,1,unknown
+"Sarasota, FL",sarasota-fl,Pest control,pest-control,12,13,1,1,0,0,0,7,0,7,unknown
+"Sarasota, FL",sarasota-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,1,11,unknown
 "Sarasota, FL",sarasota-fl,Pool installation,pool-installation,13,13,0,0,0,0,0,7,1,8,unknown
 "Sarasota, FL",sarasota-fl,Pool service,pool-service,10,10,0,0,0,0,0,10,0,10,unknown
 "Sarasota, FL",sarasota-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
 "Sarasota, FL",sarasota-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,19,19,0,0,0,0,0,1,1,2,unknown
 "Sarasota, FL",sarasota-fl,Septic services,septic-services,10,10,0,0,0,0,0,10,0,10,unknown
-"Sarasota, FL",sarasota-fl,Tree service,tree-service,9,9,1,0,0,0,0,11,0,11,unknown
+"Sarasota, FL",sarasota-fl,Tree service,tree-service,9,10,1,1,0,0,0,10,0,10,unknown
 "Sarasota, FL",sarasota-fl,Water damage & mold remediation,water-damage-mold-remediation,15,15,0,0,0,0,0,5,1,6,unknown
 "St. Petersburg, FL",st-petersburg-fl,Appliance repair,appliance-repair,9,9,0,0,0,0,0,11,0,11,unknown
 "St. Petersburg, FL",st-petersburg-fl,Auto body & collision,auto-body-collision,4,4,0,0,0,0,0,16,0,16,unknown
@@ -1019,15 +1019,15 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "St. Petersburg, FL",st-petersburg-fl,Gutters,gutters,10,10,0,0,0,0,0,10,0,10,unknown
 "St. Petersburg, FL",st-petersburg-fl,Home inspections,home-inspections,14,14,0,0,0,0,0,6,0,6,unknown
 "St. Petersburg, FL",st-petersburg-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,16,16,0,0,0,0,0,4,0,4,unknown
-"St. Petersburg, FL",st-petersburg-fl,HVAC,hvac,14,14,0,0,0,0,0,6,0,6,unknown
-"St. Petersburg, FL",st-petersburg-fl,Insulation,insulation,8,8,0,0,0,0,0,12,0,12,unknown
+"St. Petersburg, FL",st-petersburg-fl,HVAC,hvac,14,14,0,0,0,0,0,6,1,7,unknown
+"St. Petersburg, FL",st-petersburg-fl,Insulation,insulation,8,8,0,0,0,0,0,12,1,13,unknown
 "St. Petersburg, FL",st-petersburg-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,0,0,0,0,0,14,0,14,unknown
 "St. Petersburg, FL",st-petersburg-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,10,10,0,0,0,0,0,10,0,10,unknown
 "St. Petersburg, FL",st-petersburg-fl,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
 "St. Petersburg, FL",st-petersburg-fl,Marine services,marine-services,11,11,0,0,0,0,0,9,0,9,unknown
 "St. Petersburg, FL",st-petersburg-fl,Painting,painting,16,16,0,0,0,0,0,4,1,5,unknown
 "St. Petersburg, FL",st-petersburg-fl,Pest control,pest-control,6,6,0,0,0,0,0,14,0,14,unknown
-"St. Petersburg, FL",st-petersburg-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,0,10,unknown
+"St. Petersburg, FL",st-petersburg-fl,Plumbing,plumbing,10,10,0,0,0,0,0,10,1,11,unknown
 "St. Petersburg, FL",st-petersburg-fl,Pool installation,pool-installation,8,8,0,0,0,0,0,12,1,13,unknown
 "St. Petersburg, FL",st-petersburg-fl,Pool service,pool-service,8,8,0,0,0,0,0,12,1,13,unknown
 "St. Petersburg, FL",st-petersburg-fl,Roofing,roofing,15,15,0,0,0,0,0,5,1,6,unknown
@@ -1037,25 +1037,25 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "St. Petersburg, FL",st-petersburg-fl,Water damage & mold remediation,water-damage-mold-remediation,15,15,0,0,0,0,0,5,1,6,unknown
 "Tallahassee, FL",tallahassee-fl,Appliance repair,appliance-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Tallahassee, FL",tallahassee-fl,Auto body & collision,auto-body-collision,9,9,0,0,0,0,0,11,0,11,unknown
-"Tallahassee, FL",tallahassee-fl,Auto mechanics,auto-mechanics,11,11,1,0,0,0,0,9,0,9,unknown
+"Tallahassee, FL",tallahassee-fl,Auto mechanics,auto-mechanics,11,12,1,1,0,0,0,8,0,8,unknown
 "Tallahassee, FL",tallahassee-fl,Concrete & driveways,concrete,12,12,0,0,0,0,0,8,1,9,unknown
 "Tallahassee, FL",tallahassee-fl,Electrical,electrical,15,15,0,0,0,0,0,5,0,5,unknown
 "Tallahassee, FL",tallahassee-fl,Fence builders,fence-builders,14,14,0,0,0,0,0,6,0,6,unknown
 "Tallahassee, FL",tallahassee-fl,Flooring,flooring,12,12,0,0,0,0,0,8,1,9,unknown
-"Tallahassee, FL",tallahassee-fl,Garage door repair,garage-door-repair,7,7,1,0,0,0,0,13,0,13,unknown
+"Tallahassee, FL",tallahassee-fl,Garage door repair,garage-door-repair,7,8,1,1,0,0,0,12,0,12,unknown
 "Tallahassee, FL",tallahassee-fl,Generator installation,generator-installation,11,11,0,0,0,0,0,9,0,9,unknown
 "Tallahassee, FL",tallahassee-fl,Gutters,gutters,13,13,0,0,0,0,0,7,0,7,unknown
 "Tallahassee, FL",tallahassee-fl,Home inspections,home-inspections,16,16,0,0,0,0,0,4,0,4,unknown
 "Tallahassee, FL",tallahassee-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,12,12,0,0,0,0,0,8,0,8,unknown
-"Tallahassee, FL",tallahassee-fl,HVAC,hvac,11,11,0,0,0,0,0,9,0,9,unknown
-"Tallahassee, FL",tallahassee-fl,Insulation,insulation,10,10,1,0,0,0,0,10,0,10,unknown
+"Tallahassee, FL",tallahassee-fl,HVAC,hvac,11,11,0,0,0,0,0,9,1,10,unknown
+"Tallahassee, FL",tallahassee-fl,Insulation,insulation,10,11,1,1,0,0,0,9,1,10,unknown
 "Tallahassee, FL",tallahassee-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,10,10,0,0,0,0,0,10,0,10,unknown
 "Tallahassee, FL",tallahassee-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,12,12,0,0,0,0,0,8,0,8,unknown
 "Tallahassee, FL",tallahassee-fl,Landscaping,landscaping,12,12,0,0,0,0,0,8,0,8,unknown
 "Tallahassee, FL",tallahassee-fl,Marine services,marine-services,15,15,0,0,0,0,0,5,0,5,unknown
 "Tallahassee, FL",tallahassee-fl,Painting,painting,13,13,0,0,0,0,0,7,1,8,unknown
 "Tallahassee, FL",tallahassee-fl,Pest control,pest-control,11,11,0,0,0,0,0,9,0,9,unknown
-"Tallahassee, FL",tallahassee-fl,Plumbing,plumbing,15,15,0,0,0,0,0,5,0,5,unknown
+"Tallahassee, FL",tallahassee-fl,Plumbing,plumbing,15,15,0,0,0,0,0,5,1,6,unknown
 "Tallahassee, FL",tallahassee-fl,Pool installation,pool-installation,11,11,0,0,0,0,0,9,1,10,unknown
 "Tallahassee, FL",tallahassee-fl,Pool service,pool-service,12,12,0,0,0,0,0,8,1,9,unknown
 "Tallahassee, FL",tallahassee-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
@@ -1075,22 +1075,22 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "Tampa, FL",tampa-fl,Gutters,gutters,17,17,0,0,0,0,0,3,0,3,unknown
 "Tampa, FL",tampa-fl,Home inspections,home-inspections,17,17,0,0,0,0,0,3,0,3,unknown
 "Tampa, FL",tampa-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,17,17,0,0,0,0,0,3,0,3,unknown
-"Tampa, FL",tampa-fl,HVAC,hvac,17,17,0,0,0,0,0,3,0,3,unknown
-"Tampa, FL",tampa-fl,Insulation,insulation,14,14,3,0,0,0,0,6,0,6,unknown
+"Tampa, FL",tampa-fl,HVAC,hvac,17,17,0,0,0,0,0,3,1,4,unknown
+"Tampa, FL",tampa-fl,Insulation,insulation,14,17,3,3,0,0,0,3,0,3,unknown
 "Tampa, FL",tampa-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,12,12,0,0,0,0,0,8,0,8,unknown
 "Tampa, FL",tampa-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,20,20,0,0,0,0,0,0,0,0,unknown
 "Tampa, FL",tampa-fl,Landscaping,landscaping,15,15,0,0,0,0,0,5,0,5,unknown
 "Tampa, FL",tampa-fl,Marine services,marine-services,16,16,0,0,0,0,0,4,0,4,unknown
 "Tampa, FL",tampa-fl,Painting,painting,20,20,0,0,0,0,0,0,1,1,unknown
 "Tampa, FL",tampa-fl,Pest control,pest-control,18,18,0,0,0,0,0,2,0,2,unknown
-"Tampa, FL",tampa-fl,Plumbing,plumbing,18,18,0,0,0,0,0,2,0,2,unknown
+"Tampa, FL",tampa-fl,Plumbing,plumbing,18,18,0,0,0,0,0,2,1,3,unknown
 "Tampa, FL",tampa-fl,Pool installation,pool-installation,18,18,0,0,0,0,0,2,2,4,unknown
 "Tampa, FL",tampa-fl,Pool service,pool-service,17,17,0,0,0,0,0,3,0,3,unknown
 "Tampa, FL",tampa-fl,Roofing,roofing,20,20,0,0,0,0,0,0,1,1,unknown
 "Tampa, FL",tampa-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,19,19,0,0,0,0,0,1,0,1,unknown
 "Tampa, FL",tampa-fl,Septic services,septic-services,11,11,0,0,0,0,0,9,0,9,unknown
-"Tampa, FL",tampa-fl,Tree service,tree-service,14,14,2,0,0,0,0,6,0,6,unknown
-"Tampa, FL",tampa-fl,Water damage & mold remediation,water-damage-mold-remediation,20,20,0,0,0,0,0,0,1,1,unknown
+"Tampa, FL",tampa-fl,Tree service,tree-service,14,16,2,2,0,0,0,4,0,4,unknown
+"Tampa, FL",tampa-fl,Water damage & mold remediation,water-damage-mold-remediation,20,19,0,0,0,1,0,1,1,2,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Appliance repair,appliance-repair,13,13,0,0,0,0,0,7,0,7,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Auto body & collision,auto-body-collision,6,6,0,0,0,0,0,14,0,14,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Auto mechanics,auto-mechanics,10,10,0,0,0,0,0,10,0,10,unknown
@@ -1100,20 +1100,20 @@ city,city_slug,category,category_slug,baseline_displayed,live_displayed,prepared
 "West Palm Beach, FL",west-palm-beach-fl,Flooring,flooring,10,10,0,0,0,0,0,10,1,11,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Garage door repair,garage-door-repair,11,11,0,0,0,0,0,9,0,9,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Generator installation,generator-installation,11,11,0,0,0,0,0,9,0,9,unknown
-"West Palm Beach, FL",west-palm-beach-fl,Gutters,gutters,8,8,3,0,0,0,0,12,0,12,unknown
+"West Palm Beach, FL",west-palm-beach-fl,Gutters,gutters,8,11,3,3,0,0,0,9,0,9,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Home inspections,home-inspections,15,15,0,0,0,0,0,5,0,5,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Hurricane shutters & impact windows,hurricane-shutters-impact-windows,17,17,0,0,0,0,0,3,0,3,unknown
-"West Palm Beach, FL",west-palm-beach-fl,HVAC,hvac,15,15,0,0,0,0,0,5,0,5,unknown
-"West Palm Beach, FL",west-palm-beach-fl,Insulation,insulation,9,9,1,0,0,0,0,11,0,11,unknown
-"West Palm Beach, FL",west-palm-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,6,1,0,0,0,0,14,0,14,unknown
+"West Palm Beach, FL",west-palm-beach-fl,HVAC,hvac,15,15,0,0,0,0,0,5,1,6,unknown
+"West Palm Beach, FL",west-palm-beach-fl,Insulation,insulation,9,10,1,1,0,0,0,10,1,11,unknown
+"West Palm Beach, FL",west-palm-beach-fl,Irrigation & sprinkler repair,irrigation-sprinkler-repair,6,7,1,1,0,0,0,13,0,13,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Kitchen & bath remodeling,kitchen-bath-remodeling,9,9,0,0,0,0,0,11,0,11,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Landscaping,landscaping,8,8,0,0,0,0,0,12,0,12,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Marine services,marine-services,13,13,0,0,0,0,0,7,0,7,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Painting,painting,17,17,0,0,0,0,0,3,1,4,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Pest control,pest-control,9,9,0,0,0,0,0,11,0,11,unknown
-"West Palm Beach, FL",west-palm-beach-fl,Plumbing,plumbing,17,17,0,0,0,0,0,3,0,3,unknown
+"West Palm Beach, FL",west-palm-beach-fl,Plumbing,plumbing,17,17,0,0,0,0,0,3,1,4,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Pool installation,pool-installation,12,12,0,0,0,0,0,8,1,9,unknown
-"West Palm Beach, FL",west-palm-beach-fl,Pool service,pool-service,8,8,1,0,0,0,0,12,1,13,unknown
+"West Palm Beach, FL",west-palm-beach-fl,Pool service,pool-service,8,9,1,1,0,0,0,11,1,12,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Roofing,roofing,17,17,0,0,0,0,0,3,1,4,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Screen enclosures & pool cages,screen-enclosures-pool-cages,14,14,0,0,0,0,0,6,1,7,unknown
 "West Palm Beach, FL",west-palm-beach-fl,Septic services,septic-services,9,9,0,0,0,0,0,11,0,11,unknown
