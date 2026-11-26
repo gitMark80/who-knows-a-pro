@@ -7,6 +7,11 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Public aliases for nationally branded branches, franchises, and retail chains.
+  'americaninsulationalabama.com',
+  'clearpestpros.com',
+  'floorstogo.com',
+  'overheaddoorstallahassee.com',
   // Independently owned locations trading under national franchise or retail cooperative brands.
   'maloufcarpetone.com',
   'precisiondooratlanta.com',
