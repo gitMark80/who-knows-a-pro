@@ -19,23 +19,23 @@
   },
   "live": {
     "pages": 1120,
-    "records": 14426,
+    "records": 14537,
     "atLeast20": 248,
     "below20": 872,
     "empty": 0,
-    "displayedDeficit": 8279,
+    "displayedDeficit": 8168,
     "qualifyingDeficitExact": null,
-    "qualifyingEvidenceDeficitLowerBound": 8449,
-    "minimumPagesBelow20WithEvidence": 916,
+    "qualifyingEvidenceDeficitLowerBound": 8364,
+    "minimumPagesBelow20WithEvidence": 930,
     "freshlyCertifiedPagesAt20": 0
   },
-  "publishedCommit": null,
-  "productionDeployment": null,
-  "verifiedNewBusinesses": 0,
-  "verifiedNewBusinessPlacements": 0,
-  "verifiedBaselineBusinessPlacements": 0,
-  "shortfall": 1000,
-  "awaitingDeployment": 111,
+  "publishedCommit": "0485131f9d6a0269daf5f37819e5b13981687739",
+  "productionDeployment": "https://vercel.com/gitmark80s-projects/who-knows-a-pro/GvDvmxm93SDBBBYZoHbXfVyEXKm2",
+  "verifiedNewBusinesses": 110,
+  "verifiedNewBusinessPlacements": 110,
+  "verifiedBaselineBusinessPlacements": 1,
+  "shortfall": 890,
+  "awaitingDeployment": 0,
   "awaitingLiveVerification": 0,
   "research": {
     "cityCategoryQueries": 138,
@@ -115,7 +115,12 @@
       "note": "The Fairhope landscape company designs and installs home landscapes directly and identifies its local Fairhope operation.",
       "existing": false,
       "reason": "official destination unconfirmed: 503 https://greergardensal.com/",
-      "sourceVerifiedAt": "2026-11-25"
+      "sourceVerifiedAt": "2026-11-25",
+      "recheck": {
+        "status": "503",
+        "finalUrl": "https://greergardensal.com/",
+        "identityConfirmed": false
+      }
     },
     {
       "city": "sarasota-fl",
@@ -126,7 +131,12 @@
       "note": "The Sarasota-area business offers direct residential electrical repairs and outlet and breaker work for Sarasota homeowners.",
       "existing": false,
       "reason": "official destination unconfirmed: both hostname forms return a live 404 site-not-found response",
-      "sourceVerifiedAt": "2026-11-25"
+      "sourceVerifiedAt": "2026-11-25",
+      "recheck": {
+        "status": "404",
+        "finalUrl": "https://precisionelectricsarasota.com/",
+        "identityConfirmed": false
+      }
     },
     {
       "city": "miami-fl",
@@ -137,7 +147,12 @@
       "note": "The family-owned local shop directly repairs collision and auto body damage for drivers in Miami-Dade County, including Miami.",
       "existing": false,
       "reason": "official destination unconfirmed: 403 https://miamisunshineautopainting.com/",
-      "sourceVerifiedAt": "2026-11-25"
+      "sourceVerifiedAt": "2026-11-25",
+      "recheck": {
+        "status": "403",
+        "finalUrl": "https://miamisunshineautopainting.com/",
+        "identityConfirmed": false
+      }
     },
     {
       "city": "birmingham-al",
@@ -148,7 +163,12 @@
       "note": "The locally owned contractor names Birmingham and describes electrical work for homeowners and its team’s residential repairs and installation experience.",
       "existing": false,
       "reason": "official destination unconfirmed: 502 https://www.totalpwrelectric.com/about-us",
-      "sourceVerifiedAt": "2026-11-25"
+      "sourceVerifiedAt": "2026-11-25",
+      "recheck": {
+        "status": "502",
+        "finalUrl": "https://www.totalpwrelectric.com/about-us",
+        "identityConfirmed": false
+      }
     }
   ],
   "closedCandidateOutcomes": [
@@ -217,7 +237,7 @@
       "evidenceNote": "The Mobile County body shop describes its own technicians doing auto body and paint repairs for local individual customers and identifies its Mobile operation.",
       "officialDestination": "https://nationalcollisionrv.com/about.html",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "State Fencing",
@@ -231,7 +251,7 @@
       "evidenceNote": "The Baton Rouge company installs custom wood, privacy, and other home fences and identifies Baton Rouge in its service area.",
       "officialDestination": "https://www.statefencing.com/services/custom-fences/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "LA Fence & Bulkheads",
@@ -245,7 +265,7 @@
       "evidenceNote": "The locally owned contractor explicitly serves Baton Rouge homeowners and performs its own fence installations and repairs there.",
       "officialDestination": "https://lafencingandbulkheads.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Harris Fence & Patio",
@@ -259,7 +279,7 @@
       "evidenceNote": "The owner-operated Baton Rouge business installs fences and gates at homes and identifies its Baton Rouge base and service market.",
       "officialDestination": "https://harrisfencingandgatesllc.com/about/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Fortified Fence",
@@ -273,7 +293,7 @@
       "evidenceNote": "The Baton Rouge installation page offers residential fence construction, including vinyl fences designed for local homeowners.",
       "officialDestination": "https://fortifiedusa.net/fence-installation",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Legend Fence",
@@ -287,7 +307,7 @@
       "evidenceNote": "The company’s owner describes directly building wood and aluminum fences throughout Baton Rouge for customers including homeowners.",
       "officialDestination": "https://www.legend-fence.com/about",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Ryan Environmental",
@@ -301,7 +321,7 @@
       "evidenceNote": "The locally founded company directly performs mold remediation and water intrusion work for Baton Rouge homeowners and documents its local history.",
       "officialDestination": "https://www.ryanservices.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Parish Restoration",
@@ -315,7 +335,7 @@
       "evidenceNote": "The veteran-owned company expressly offers professional mold remediation and water damage restoration to homes in Baton Rouge.",
       "officialDestination": "https://parishrestoration.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Lighthouse Disaster Services",
@@ -329,7 +349,7 @@
       "evidenceNote": "The local contractor lists Baton Rouge and offers cleanup and restoration after residential water damage and mold growth.",
       "officialDestination": "https://geauxlighthouse.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Legacy Environmental Services",
@@ -343,7 +363,7 @@
       "evidenceNote": "The family-owned Childersburg contractor lists Birmingham in its service area and documents home water and mold services and mold remediation.",
       "officialDestination": "https://legacyenviroserv.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Sunshine Restorations",
@@ -357,7 +377,7 @@
       "evidenceNote": "The independently operated Alabama company lists Daphne and provides direct mitigation and repairs for homeowners after water and mold damage.",
       "officialDestination": "https://restorewithsunshine.com/about-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Bear Creek Pools & More",
@@ -371,7 +391,7 @@
       "evidenceNote": "The company’s official contact and pool installation pages offer direct backyard swimming pool installations in greater Dothan and identify a local Dothan operation.",
       "officialDestination": "https://bearcreekpoolsandmore.com/contact-bear-creek-pools/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "AT&T Automotive",
@@ -385,7 +405,7 @@
       "evidenceNote": "The veteran-owned Huntsville shop identifies its Huntsville location and directly performs maintenance and mechanical repairs for drivers’ personal vehicles.",
       "officialDestination": "https://atautomotive.services/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Damson Service Center",
@@ -399,7 +419,7 @@
       "evidenceNote": "The Huntsville family shop lists its local shop address and provides maintenance and mechanical repairs to consumers.",
       "officialDestination": "https://www.damsonservice.com/about-us",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Prodigy Boy Management",
@@ -413,7 +433,7 @@
       "evidenceNote": "The locally based Montgomery flooring company advertises direct residential flooring installations and documents work for homeowners in Montgomery.",
       "officialDestination": "https://www.prodigyfloorsandmore.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Jairo's Painting",
@@ -427,7 +447,7 @@
       "evidenceNote": "The locally based Montgomery contractor offers homeowners direct interior and exterior painting and cabinet painting.",
       "officialDestination": "https://jppaintingsllc.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Bulldog Flooring",
@@ -441,7 +461,7 @@
       "evidenceNote": "The Atlanta owner-operated flooring company serves Atlanta homes with its own crew for hardwood installation and refinishing.",
       "officialDestination": "https://flooringbulldog.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Premier Property Restoration",
@@ -455,7 +475,7 @@
       "evidenceNote": "The locally operated Houma contractor explicitly serves New Orleans and directly restores water and mold damage for residential properties.",
       "officialDestination": "https://www.premierppr.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Star Spray Foam Insulation",
@@ -469,7 +489,7 @@
       "evidenceNote": "The owner-led insulation contractor identifies New Orleans and directly installs spray foam insulation in New Orleans homes.",
       "officialDestination": "https://www.ecostarfoam.com/about-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "In-Tech Insulation",
@@ -483,7 +503,7 @@
       "evidenceNote": "The regional insulation contractor names Greater New Orleans and installs residential insulation for homeowners.",
       "officialDestination": "https://www.in-techinsulation.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Energy Enforcement",
@@ -497,7 +517,7 @@
       "evidenceNote": "The North Florida company identifies its Jacksonville market and directly installs blown-in insulation and spray foam for homeowners there.",
       "officialDestination": "https://www.energyenforcement.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Thiago Landscaping",
@@ -511,7 +531,7 @@
       "evidenceNote": "The local owner’s Clearwater site gives its Clearwater operation and describes planting, mulching and residential landscape installation.",
       "officialDestination": "https://www.thiagolandscaping.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "CJ's Landscaping",
@@ -525,7 +545,7 @@
       "evidenceNote": "The company’s Clearwater page offers an in-house design, planting and landscaping crew for Clearwater homeowners.",
       "officialDestination": "https://cjslandscaping.com/landscaper-near-clearwater-fl/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "On Demand Tree Service",
@@ -539,7 +559,7 @@
       "evidenceNote": "The local St. Petersburg company directly removes and trims trees and grinds stumps for local homeowners.",
       "officialDestination": "https://www.stpeteandpinellastreeservice.com/get-to-know-us",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "St Pete Tree Service",
@@ -553,7 +573,7 @@
       "evidenceNote": "The provider’s own service page explicitly serves St. Petersburg and describes residential tree removal, trimming and other tree care.",
       "officialDestination": "https://stpetetreeservice.com/services",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "JMAR Auto Body Shop",
@@ -567,7 +587,7 @@
       "evidenceNote": "The family-owned Orlando shop offers consumer collision, body and paint repairs and identifies its Orlando facility.",
       "officialDestination": "https://jmarautobodyshop.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Sir Charles Appliance Repair",
@@ -581,7 +601,7 @@
       "evidenceNote": "The family-owned Orlando company offers direct repair of major household appliances to Orlando customers.",
       "officialDestination": "https://sircharlesrepair.com/about/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "SVA Appliance Repair",
@@ -595,7 +615,7 @@
       "evidenceNote": "The Orlando-based family company identifies Orlando and directly services household refrigerators, dryers and other appliances in the city.",
       "officialDestination": "https://www.svaappliancerepair.com/index.html",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "The Irrigators",
@@ -609,7 +629,7 @@
       "evidenceNote": "The company’s Tampa service page names Tampa and describes technicians performing sprinkler diagnostics, repairs and residential irrigation installations.",
       "officialDestination": "https://www.irrigatorsfl.com/locations/tampa-fl",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Graham Landscape",
@@ -623,7 +643,7 @@
       "evidenceNote": "The local contractor names Tampa and directly installs and repairs residential lawn irrigation systems.",
       "officialDestination": "https://www.grahamlandscape.com/irrigation/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Green's Lawn Sprinklers and Landscaping",
@@ -637,7 +657,7 @@
       "evidenceNote": "The family’s lawn sprinkler provider names Tampa and describes repair service on residential lawn sprinkler systems.",
       "officialDestination": "https://greenslawnsprinklers.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Appliance Specialists",
@@ -651,7 +671,7 @@
       "evidenceNote": "The Venice family company explicitly covers Sarasota and handles home appliance repairs, installations and maintenance.",
       "officialDestination": "https://appliancespecialistsllc.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Gulf Crest Appliance Repair",
@@ -665,7 +685,7 @@
       "evidenceNote": "The family-operated provider’s Sarasota service page lists direct home refrigerator, washer, dryer, dishwasher and range repair.",
       "officialDestination": "https://applianceinsarasota.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Premier Appliance Repair of Southwest Florida",
@@ -679,7 +699,7 @@
       "evidenceNote": "The multigenerational Southwest Florida company names Sarasota and sends its technicians to homes for appliance repairs.",
       "officialDestination": "https://premierapplianceswfl.com/about-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Kingdom Appliance Repair Services",
@@ -693,7 +713,7 @@
       "evidenceNote": "The family-operated company names Sarasota and directly repairs major household appliances including washers, dryers and refrigerators.",
       "officialDestination": "https://www.kingdomappliancerepairfl.com/about/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Trinity Appliance Repair",
@@ -707,7 +727,7 @@
       "evidenceNote": "The local company names Sarasota and lists direct appliance repairs for homeowners, including refrigerators, laundry equipment and ovens.",
       "officialDestination": "https://www.trinityappliancerepairfl.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "GoFix Appliance Repair",
@@ -721,7 +741,7 @@
       "evidenceNote": "The Sarasota company identifies a local operation and its direct home appliance repairs within Sarasota.",
       "officialDestination": "https://gofixappliance.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Coastal Irrigation & Plumbing",
@@ -735,7 +755,7 @@
       "evidenceNote": "Its Fort Myers sprinkler page describes installing and repairing irrigation systems for residential lawns and serving the city directly.",
       "officialDestination": "https://www.coastalirrigationplumbing.com/service-areas/fort-myers/sprinkler-systems/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Luke's Auto X-teriors",
@@ -749,7 +769,7 @@
       "evidenceNote": "The family-operated Fort Myers collision and paint shop directly repairs cosmetic damage to customers’ personal cars and trucks.",
       "officialDestination": "https://www.autoxteriors.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Prime Paint & Repair",
@@ -763,7 +783,7 @@
       "evidenceNote": "The owner-operated Fort Myers shop documents its local address and directly performs automotive collision and paint repairs.",
       "officialDestination": "https://www.primepaintrepair.com/who-we-are",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "ITC Collision",
@@ -777,7 +797,7 @@
       "evidenceNote": "The family-owned Fort Myers collision center documents direct collision repair on customers’ vehicles.",
       "officialDestination": "https://www.itccollision.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "S & S Auto Collision",
@@ -791,7 +811,7 @@
       "evidenceNote": "The family-operated shop identifies its Fort Myers repair address and provides residents direct automobile collision and body repairs.",
       "officialDestination": "https://www.ssbodyshopfl.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Doug Brann Paint and Body Repair",
@@ -805,7 +825,7 @@
       "evidenceNote": "The independently operated Naples body shop identifies its Naples operation and supplies direct collision and paint repairs for consumer vehicles.",
       "officialDestination": "https://naplespaintandbodyshop.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Florida Irrigation",
@@ -819,7 +839,7 @@
       "evidenceNote": "The local company’s residential installation and sprinkler-repair page includes West Palm Beach in its Florida service area.",
       "officialDestination": "https://floridairrigationinc.com/residential-irrigation/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "All Sprinkler Repair & Pump",
@@ -833,7 +853,7 @@
       "evidenceNote": "The Coral Springs family company explicitly lists Fort Lauderdale and directly repairs sprinkler and pump systems on residential properties.",
       "officialDestination": "https://allsprinklerrepair.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Agility Property Maintenance",
@@ -847,7 +867,7 @@
       "evidenceNote": "The local operation’s dedicated Fort Lauderdale page offers direct residential lawn sprinkler and irrigation troubleshooting and repairs.",
       "officialDestination": "https://agilitypropertymaintenance.com/irrigation-repair",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Emanuel Pool",
@@ -861,7 +881,7 @@
       "evidenceNote": "The regional company names Fort Lauderdale and offers its direct weekly residential pool cleaning and maintenance there.",
       "officialDestination": "https://emanuelpool.com/pool-service-fort-lauderdale",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Kova Pool Services",
@@ -875,7 +895,7 @@
       "evidenceNote": "The Fort Lauderdale service page describes its company’s direct weekly cleaning, chemical balancing and maintenance for local homes.",
       "officialDestination": "https://www.kovapoolservices.com/pool-cleaning-fort-lauderdale-fl",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Greenstar Landscaping",
@@ -889,7 +909,7 @@
       "evidenceNote": "The locally operated contractor identifies its Miami operation and directly installs and services residential irrigation and sprinkler systems.",
       "officialDestination": "https://www.greenstarlandscapingco.com/contact-us",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "NP Insulation Services",
@@ -903,7 +923,7 @@
       "evidenceNote": "The family-owned company names Miami and performs home insulation upgrades, with its own team installing spray foam and attic insulation.",
       "officialDestination": "https://npinsulationservices.com/about-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Home Insulation Inc.",
@@ -918,7 +938,7 @@
       "evidenceNote": "The family-operated insulation installer lists Miami-Dade County, which includes the City of Miami, and provides installation in homes.",
       "officialDestination": "https://www.hinsulation.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "American Attic Insulation USA",
@@ -932,7 +952,7 @@
       "evidenceNote": "The family-owned company’s site identifies its Miami area operation and describes direct attic insulation installation for homeowners.",
       "officialDestination": "https://www.americanatticinsulationusa.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Attic Plus",
@@ -946,7 +966,7 @@
       "evidenceNote": "The Hallandale Beach family business lists Miami as a service area and installs or replaces home attic insulation.",
       "officialDestination": "https://atticinsulationplus.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Yoky Insulation",
@@ -960,7 +980,7 @@
       "evidenceNote": "The family-operated contractor lists its local Miami address and offers professional attic insulation services directly to residents.",
       "officialDestination": "https://yokyinsulationinc.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Prime Termite and Pest",
@@ -974,7 +994,7 @@
       "evidenceNote": "The Fairhope business identifies its local operating address and offers direct termite and household pest treatments for local homeowners.",
       "officialDestination": "https://primetermiteandpest.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Scarborough Insulation Company",
@@ -988,7 +1008,7 @@
       "evidenceNote": "The family insulation contractor explicitly serves Montgomery and offers homeowners direct attic, blown-in fiberglass and spray foam insulation installation.",
       "officialDestination": "https://www.scarboroughinsulationcompany.com/spray-foam",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Castle Foam",
@@ -1002,7 +1022,7 @@
       "evidenceNote": "The veteran-owned company names Montgomery and installs spray foam and blown-in insulation in area homes.",
       "officialDestination": "https://castlefoam.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Magic City Autoworks",
@@ -1016,7 +1036,7 @@
       "evidenceNote": "The independently operated Birmingham paint and body shop identifies its local address and performs collision repairs on customers’ personal vehicles.",
       "officialDestination": "https://magiccityautoworks.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Mach Contracting",
@@ -1030,7 +1050,7 @@
       "evidenceNote": "The owner-operated company lists a Huntsville address and offers direct residential spray foam insulation installations.",
       "officialDestination": "https://machinsulation.net/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Tennessee Valley Spray Foam",
@@ -1044,7 +1064,7 @@
       "evidenceNote": "The local Huntsville company directly installs residential open- and closed-cell spray foam insulation and identifies its Huntsville operating base.",
       "officialDestination": "https://tennesseevalleysprayfoam.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Alabama Insulation",
@@ -1058,7 +1078,7 @@
       "evidenceNote": "The local insulation company specifically identifies Huntsville homes and offers residential attic and spray foam insulation installation.",
       "officialDestination": "https://www.alabamainsulation.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Tree Cutter BR",
@@ -1072,7 +1092,7 @@
       "evidenceNote": "The local operator names Baton Rouge and offers direct property tree trimming, disease assessment and removals in the city.",
       "officialDestination": "https://treecutterbr.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Professional Pruning & Property Care",
@@ -1086,7 +1106,7 @@
       "evidenceNote": "The Baton Rouge company identifies its local address and provides direct tree trimming, removal and other property tree work.",
       "officialDestination": "https://ppptree.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Tree Surgery by Ricky Vincent",
@@ -1100,7 +1120,7 @@
       "evidenceNote": "The family-operated Baton Rouge business explicitly serves the city and provides direct tree service, including tree removal, to customers.",
       "officialDestination": "https://treesurgeryrv.com/services/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Branch Garage Door Sales",
@@ -1114,7 +1134,7 @@
       "evidenceNote": "The second-generation Orlando business specializes in directly repairing and servicing residential garage doors and openers.",
       "officialDestination": "https://branchgaragedoors.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Concierge Garage Doors",
@@ -1128,7 +1148,7 @@
       "evidenceNote": "The locally owned business explicitly serves Orlando homeowners and directly installs and repairs garage doors and openers.",
       "officialDestination": "https://www.conciergegaragedoors.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Hicks Garage Doors",
@@ -1142,7 +1162,7 @@
       "evidenceNote": "The third-generation operator names Orlando and performs residential garage door installation, repairs and opener service.",
       "officialDestination": "https://www.hicksgaragedoors.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Don Pedro & Sons Garage Doors",
@@ -1156,7 +1176,7 @@
       "evidenceNote": "The locally operated contractor explicitly includes Orlando and offers hands-on garage door and opener repairs for homeowners.",
       "officialDestination": "https://www.donpedrosonsgaragedoors.com/about-us",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Doors N More",
@@ -1170,7 +1190,7 @@
       "evidenceNote": "The family company names Orlando and directly provides garage door repairs and installations to area homeowners.",
       "officialDestination": "https://www.doorsnmore.com/aboutus",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "E&S Garage Doors",
@@ -1184,7 +1204,7 @@
       "evidenceNote": "The owner-operated Central Florida company specifically names Orlando and provides residential garage door service and repair.",
       "officialDestination": "https://www.esgaragedoors.com/about-us",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "John P Steyer Septic",
@@ -1198,7 +1218,7 @@
       "evidenceNote": "The family-operated company identifies its Sarasota business and performs septic system service, repairs and installation for homes.",
       "officialDestination": "https://www.sarasotasepticsysteminstallations.com/about_us",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Waters Septic",
@@ -1212,7 +1232,7 @@
       "evidenceNote": "The multigenerational family provider explicitly serves Sarasota homeowners and directly services residential septic systems.",
       "officialDestination": "https://www.watersseptic.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "WWJD Gutters of Florida",
@@ -1226,7 +1246,7 @@
       "evidenceNote": "The local family company names Fort Myers and measures and professionally installs gutters for residential customers.",
       "officialDestination": "https://wwjdguttersofflorida.com/contact/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "New Era Gutters",
@@ -1240,7 +1260,7 @@
       "evidenceNote": "The family-owned contractor documents direct seamless gutter installation for Fort Myers homes.",
       "officialDestination": "https://neweragutterservices.com/seamless-gutter-install/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "All Around Gutters & Exteriors",
@@ -1254,7 +1274,7 @@
       "evidenceNote": "The local gutter team names Fort Myers and provides installation and repairs for residential gutter systems.",
       "officialDestination": "https://allaroundguttersandexteriors.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Zeus Gutter",
@@ -1268,7 +1288,7 @@
       "evidenceNote": "The Southwest Florida company names Fort Myers and offers installation of seamless gutters for local homeowners.",
       "officialDestination": "https://zeusgutter-capecoralfl.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "V&V Exterior Solutions",
@@ -1282,7 +1302,7 @@
       "evidenceNote": "The local company names Fort Myers and offers direct gutter installation and improvement services to area homeowners.",
       "officialDestination": "https://www.vvexterior.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Advanced Seamless Gutters",
@@ -1296,7 +1316,7 @@
       "evidenceNote": "The local company identifies its Fort Myers service and offers direct residential seamless gutter installation.",
       "officialDestination": "https://www.advgutters.com/contact",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Kish Pest Control",
@@ -1310,7 +1330,7 @@
       "evidenceNote": "The independent Naples company explicitly serves Naples homes and offers direct pest and termite treatments.",
       "officialDestination": "https://kishpest.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Premier Pest Management",
@@ -1324,7 +1344,7 @@
       "evidenceNote": "The Naples operator documents a local office and directs homeowners to its residential pest control and treatment services.",
       "officialDestination": "https://premierpestman.com/about-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "A Bug's Life Pest Control",
@@ -1338,7 +1358,7 @@
       "evidenceNote": "The family-operated company explicitly names Naples and sends its own local technicians to provide residential pest control.",
       "officialDestination": "https://abugslifepest.com/service-areas/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Personalized Pest Control",
@@ -1352,7 +1372,7 @@
       "evidenceNote": "The family-owned operation expressly serves Naples and provides direct pest management for homes.",
       "officialDestination": "https://personalizedpestcontrolnaples.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "D&D Pest Control",
@@ -1366,7 +1386,7 @@
       "evidenceNote": "The local operator names Naples and directly treats pest problems for area homeowners.",
       "officialDestination": "https://www.danddpest.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Insecto Pest Control",
@@ -1380,7 +1400,7 @@
       "evidenceNote": "The Naples service page describes a local family-owned company that provides hands-on pest control to local homeowners.",
       "officialDestination": "https://insectopests.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Sandy Soil Pest Control",
@@ -1394,7 +1414,7 @@
       "evidenceNote": "The family company expressly serves Naples and directly treats pests for area homes.",
       "officialDestination": "https://www.sandysoilpestcontrol.com/services-naples-florida",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Manley Tree Service",
@@ -1408,7 +1428,7 @@
       "evidenceNote": "The Fort Lauderdale provider identifies its local base and directly provides tree removal and pruning for area property owners.",
       "officialDestination": "https://www.manleytrees.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Discount Tree Service",
@@ -1422,7 +1442,7 @@
       "evidenceNote": "The family-owned operator directly serves Fort Lauderdale homeowners with tree removal, pruning and stump grinding.",
       "officialDestination": "https://discounttreesbroward.com/services/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Deep Blue Pool Services",
@@ -1436,7 +1456,7 @@
       "evidenceNote": "The Mississippi Gulf Coast contractor names Gulfport and offers its own residential backyard swimming pool installation.",
       "officialDestination": "https://deepbluepoolms.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Donald Tree Service",
@@ -1450,7 +1470,7 @@
       "evidenceNote": "The Auburn-based company explicitly serves Auburn and performs direct tree removal, trimming and brush clearing at local properties.",
       "officialDestination": "https://www.donaldtreeservicellc.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Tiger Tree Service",
@@ -1464,7 +1484,7 @@
       "evidenceNote": "The Auburn-based operator lists its local Auburn operation and provides direct property tree removal, pruning and stump grinding.",
       "officialDestination": "https://www.tigertreeservicellc.net/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Clear Waters Tree Service",
@@ -1478,7 +1498,7 @@
       "evidenceNote": "The locally owned company specifically serves Montgomery and performs direct tree removal and trimming for area homeowners.",
       "officialDestination": "https://clearwaterstreeservice.com/about/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Jacinto Tree Service",
@@ -1492,7 +1512,7 @@
       "evidenceNote": "The regional company names Montgomery and describes its own technicians performing tree removal, pruning and related residential property work.",
       "officialDestination": "https://jacintostreeservice.com/services-2/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Tire Town & Muffler",
@@ -1506,7 +1526,7 @@
       "evidenceNote": "The independently operated Tallahassee shop gives its Tallahassee address and offers direct maintenance and repair of drivers’ personal vehicles.",
       "officialDestination": "https://www.tiretownandmuffler.com/about",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "ProLevel Foam Insulation",
@@ -1520,7 +1540,7 @@
       "evidenceNote": "The local insulation contractor identifies its Baton Rouge operation and offers direct insulation installation on residential projects.",
       "officialDestination": "https://advancedinsulationla.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Big Sam Appliance Repair",
@@ -1534,7 +1554,7 @@
       "evidenceNote": "The independent operation has an Atlanta service page and offers direct repairs for household refrigerators, ovens, washers and other major appliances.",
       "officialDestination": "https://bigsamservice.com/service-areas-atlanta-metro/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Mandarin Concrete",
@@ -1548,7 +1568,7 @@
       "evidenceNote": "The locally owned contractor identifies its Jacksonville Southside service area and directly installs residential patios, driveways and other concrete work.",
       "officialDestination": "https://www.mandarinconcrete.com/about",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Ernest Concrete",
@@ -1562,7 +1582,7 @@
       "evidenceNote": "The company describes its locally owned Jacksonville concrete business and offers driveway installation and replacement for homeowners in the city.",
       "officialDestination": "https://www.ernestconcretefl.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "HudStone Construction",
@@ -1576,7 +1596,7 @@
       "evidenceNote": "The locally operated Jacksonville contractor directly installs concrete driveways, slabs and other concrete improvements for residential properties.",
       "officialDestination": "https://www.hudstoneconstruction.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Seamless Concrete Contractors",
@@ -1590,7 +1610,7 @@
       "evidenceNote": "The Jacksonville contractor identifies its local crew and provides direct home concrete services including driveway and patio work.",
       "officialDestination": "https://seamlessconcretefl.com/about-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "CDS Service Company",
@@ -1604,7 +1624,7 @@
       "evidenceNote": "The company’s St. Petersburg service page describes installing septic tanks and drain fields for homeowners and identifies its local work.",
       "officialDestination": "https://cdsserviceco.com/st-petersburg/septic-tank-installation/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Wood Family Flooring",
@@ -1618,7 +1638,7 @@
       "evidenceNote": "The family flooring company names Tampa and directly installs hardwood, vinyl plank and laminate for local homes.",
       "officialDestination": "https://woodfamilyflooring.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Insulate My Attic",
@@ -1632,7 +1652,7 @@
       "evidenceNote": "The local insulation company’s service page names Sarasota and offers homeowners attic insulation and related installation work.",
       "officialDestination": "https://www.insulatesarasota.com/services",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Lucky Duck Insulation",
@@ -1646,7 +1666,7 @@
       "evidenceNote": "The regional contractor names Sarasota and offers direct home insulation installations, including blown-in attic insulation.",
       "officialDestination": "https://luckyduckinsulation.com/contact.html",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Let's Reinsulate",
@@ -1660,7 +1680,7 @@
       "evidenceNote": "The regional contractor identifies Sarasota and installs or replaces attic insulation directly for homeowners in the area.",
       "officialDestination": "https://letsreinsulate.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Florida Insulation Systems",
@@ -1675,7 +1695,7 @@
       "evidenceNote": "The company identifies its Palm Beach County residential insulation operation, serving West Palm Beach within the county, and directs customers to its own installers.",
       "officialDestination": "https://www.floridainsulations.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "TC Thermal Solutions",
@@ -1689,7 +1709,7 @@
       "evidenceNote": "The company’s dedicated West Palm Beach page explains its direct spray foam, blown-in and attic insulation installations in homes.",
       "officialDestination": "https://tcthermalsolutions.com/areas/west-palm-beach/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "SunTech Appliance Repair",
@@ -1703,7 +1723,7 @@
       "evidenceNote": "The company identifies its Fort Myers operation and provides direct residential appliance repair for customers in the Fort Myers area.",
       "officialDestination": "https://www.suntech-fl.com/contact-us/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Art's Appliance Repair",
@@ -1717,7 +1737,7 @@
       "evidenceNote": "The owner-led company identifies Fort Myers within its service area and provides direct household appliance repair for area homeowners.",
       "officialDestination": "https://www.artfixnow.com/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Diamond Appliance Repair",
@@ -1731,7 +1751,7 @@
       "evidenceNote": "The family-operated company explicitly serves Fort Myers and directly repairs refrigerators, dishwashers, washers and other home appliances.",
       "officialDestination": "https://diamondappliancerepair.net/about/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Southern Insulation Company",
@@ -1745,7 +1765,7 @@
       "evidenceNote": "The Mobile service page identifies the local installer and documents its team directly installing and upgrading insulation in Mobile homes.",
       "officialDestination": "https://southerninsulationco.com/insulation-installation-mobile-alabama/",
       "existingAtBaseline": false,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     },
     {
       "name": "Dually Doors",
@@ -1760,7 +1780,7 @@
       "evidenceNote": "The Pensacola-based company explicitly provides residential garage door and opener repair and installation to Pensacola homeowners.",
       "officialDestination": "https://www.duallydoors.com/residential-garage-door-company-pensacola/gulf-breeze-fl-residential-garage-door-repair",
       "existingAtBaseline": true,
-      "publicationStatus": "awaiting_deployment"
+      "publicationStatus": "live_verified"
     }
   ],
   "nationalVisibilityRemovals": [],
@@ -1815,6 +1835,582 @@
       ],
       "evidence": "The official collision shop identifies Fort Walton Beach as its operating site. The source does not establish local collision service in panama city beach.",
       "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/auto-body-collision",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "crestview-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-walton-beach-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "destin-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pensacola-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/pensacola-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "gulf-breeze-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pace-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "perdido-key-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "milton-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "navarre-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/navarre-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "grayton-beach-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-beach-fl",
+      "category": "screen-enclosures-pool-cages",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/screen-enclosures-pool-cages",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "crestview-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-walton-beach-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "destin-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pace-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "milton-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "grayton-beach-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-beach-fl",
+      "category": "hurricane-shutters-impact-windows",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/hurricane-shutters-impact-windows",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "destin-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-walton-beach-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "crestview-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pensacola-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/pensacola-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "gulf-breeze-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/gulf-breeze-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pace-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "perdido-key-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "milton-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "navarre-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/navarre-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "grayton-beach-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/gutters",
+      "observedVisibility": "displayed"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-beach-fl",
+      "category": "gutters",
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/gutters",
       "observedVisibility": "displayed"
     }
   ],
@@ -4170,188 +4766,25 @@
       "name": "ScreenIT",
       "website": "https://screenitinc.com/",
       "businessSlug": "screenit",
-      "city": "crestview-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/crestview-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "panama-city-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/panama-city-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "fort-walton-beach-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "destin-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/destin-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "pensacola-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/pensacola-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "pace-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/pace-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "perdido-key-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "milton-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/milton-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "grayton-beach-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "panama-city-beach-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
       "city": "tallahassee-fl",
       "category": "pool-service",
       "sourceUrl": "https://screenitinc.com/",
       "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
+        "unsupported_geography"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained",
       "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service"
+      "pageUrl": "https://whoknowsapro.com/tallahassee-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
     },
     {
       "name": "ScreenIT",
@@ -4361,15 +4794,418 @@
       "category": "pool-service",
       "sourceUrl": "https://screenitinc.com/",
       "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
+        "unsupported_geography"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained",
       "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/pool-service"
+      "pageUrl": "https://whoknowsapro.com/jacksonville-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
     },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "clearwater-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/clearwater-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "st-petersburg-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "orlando-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/orlando-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "west-palm-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-lauderdale-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "miami-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "The current official site documents pool resurfacing. Its published local markets did not substantiate this target city, so the geographic restriction still applies.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/miami-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ]
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "crestview-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/crestview-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "fort-walton-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/fort-walton-beach-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "destin-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/destin-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pensacola-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pensacola-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "pace-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/pace-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "perdido-key-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/perdido-key-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "milton-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/milton-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "grayton-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/grayton-beach-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    },
+    {
+      "name": "ScreenIT",
+      "website": "https://screenitinc.com/",
+      "businessSlug": "screenit",
+      "city": "panama-city-beach-fl",
+      "category": "pool-service",
+      "sourceUrl": "https://screenitinc.com/",
+      "reasonCodes": [
+        "unsupported_geography"
+      ],
+      "evidence": "ScreenIT lists operating markets and crews from Tampa through Southwest Florida, plus a Palm Beach location. Its statewide statement does not establish the listed residential service in this Panhandle city.",
+      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
+      "publicVisibility": "retained",
+      "observedVisibility": "displayed",
+      "pageUrl": "https://whoknowsapro.com/panama-city-beach-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/locations/",
+        "https://screenitinc.com/"
+      ],
+      "sourceVerifiedAt": "2026-11-25"
+    }
+  ],
+  "reconsideredHistoricalFlags": [
     {
       "name": "ScreenIT",
       "website": "https://screenitinc.com/",
@@ -4381,62 +5217,20 @@
         "incorrect_category",
         "unsupported_residential_service"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "evidence": "The current official site documents pool resurfacing and lists this city among its published markets. The former blanket pool-category flag is held for review.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained",
       "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/tampa-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "clearwater-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
+      "pageUrl": "https://whoknowsapro.com/tampa-fl/pool-service",
+      "priorReasonCodes": [
         "incorrect_category",
         "unsupported_residential_service"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/clearwater-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "st-petersburg-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/st-petersburg-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "orlando-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/orlando-fl/pool-service"
+      "status": "category_flag_reconsidered_not_counted_as_verified"
     },
     {
       "name": "ScreenIT",
@@ -4449,11 +5243,20 @@
         "incorrect_category",
         "unsupported_residential_service"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "evidence": "The current official site documents pool resurfacing and lists this city among its published markets. The former blanket pool-category flag is held for review.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained",
       "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/sarasota-fl/pool-service"
+      "pageUrl": "https://whoknowsapro.com/sarasota-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ],
+      "status": "category_flag_reconsidered_not_counted_as_verified"
     },
     {
       "name": "ScreenIT",
@@ -4466,11 +5269,20 @@
         "incorrect_category",
         "unsupported_residential_service"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "evidence": "The current official site documents pool resurfacing and lists this city among its published markets. The former blanket pool-category flag is held for review.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained",
       "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/pool-service"
+      "pageUrl": "https://whoknowsapro.com/fort-myers-fl/pool-service",
+      "priorReasonCodes": [
+        "incorrect_category",
+        "unsupported_residential_service"
+      ],
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
+      ],
+      "status": "category_flag_reconsidered_not_counted_as_verified"
     },
     {
       "name": "ScreenIT",
@@ -4483,62 +5295,20 @@
         "incorrect_category",
         "unsupported_residential_service"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
+      "evidence": "The current official site documents pool resurfacing and lists this city among its published markets. The former blanket pool-category flag is held for review.",
       "checkedAt": "2026-11-25T16:56:29.145519+00:00",
       "publicVisibility": "retained",
       "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/naples-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "west-palm-beach-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
+      "pageUrl": "https://whoknowsapro.com/naples-fl/pool-service",
+      "priorReasonCodes": [
         "incorrect_category",
         "unsupported_residential_service"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/west-palm-beach-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "fort-lauderdale-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
+      "sourceUrls": [
+        "https://screenitinc.com/pool-resurfacing/",
+        "https://screenitinc.com/locations/"
       ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/fort-lauderdale-fl/pool-service"
-    },
-    {
-      "name": "ScreenIT",
-      "website": "https://screenitinc.com/",
-      "businessSlug": "screenit",
-      "city": "miami-fl",
-      "category": "pool-service",
-      "sourceUrl": "https://screenitinc.com/",
-      "reasonCodes": [
-        "incorrect_category",
-        "unsupported_residential_service"
-      ],
-      "evidence": "The official site offers screen enclosures, pool cages and rescreening. These offerings do not establish swimming pool water care, cleaning or equipment maintenance.",
-      "checkedAt": "2026-11-25T16:56:29.145519+00:00",
-      "publicVisibility": "retained",
-      "observedVisibility": "displayed",
-      "pageUrl": "https://whoknowsapro.com/miami-fl/pool-service"
+      "status": "category_flag_reconsidered_not_counted_as_verified"
     }
   ],
   "nationalDomains": {
@@ -4641,6 +5411,38 @@
     "profileStatus": "200",
     "cardVisible": false
   },
+  "priorityResearch": [
+    {
+      "city": "destin-fl",
+      "category": "auto-body-collision",
+      "outcome": "Local providers found on official sites were already present. Search also identified the local Gerber branch under its national brand."
+    },
+    {
+      "city": "fort-walton-beach-fl",
+      "category": "appliance-repair",
+      "outcome": "Search identified named shops and directory leads. No additional working first-party source established service, local coverage and a distinct identity together."
+    },
+    {
+      "city": "crestview-fl",
+      "category": "garage-door-repair",
+      "outcome": "Hometown Garage Doors already displayed on the city page."
+    },
+    {
+      "city": "crestview-fl",
+      "category": "appliance-repair",
+      "outcome": "Gulf Coast Appliances advertised retail delivery to Crestview. The company site did not establish qualified appliance repair there."
+    },
+    {
+      "city": "panama-city-fl",
+      "category": "septic-services",
+      "outcome": "Official providers found were already present. General directories and state registrations did not provide the missing first-party local homeowner service evidence."
+    },
+    {
+      "city": "grayton-beach-fl",
+      "category": "auto-body-collision",
+      "outcome": "Search surfaced nearby businesses that did not establish Grayton Beach coverage and the existing mobile dent provider."
+    }
+  ],
   "limitations": [
     "Historical qualifying counts are unknown outside reviewed evidence. The lower bound uses displayed rows, less flagged rows publicly reconfirmed in this run.",
     "The baseline includes the current checked-out data and public profile/card checks. Private directory records and overrides were unavailable for lookup.",
