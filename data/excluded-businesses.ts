@@ -7,6 +7,8 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // The Tampa office trades under the VetCor franchise brand.
+  'vetcorservices.com',
   // Turner is an Anticimex North America company. Arrow Environmental is owned by Rentokil North America.
   'turnerpest.com',
   'arrowservices.com',
