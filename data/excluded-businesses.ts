@@ -7,6 +7,10 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Sun Auto acquired both Gulf Coast operations. Retain records under their original domains.
+  'tandaamericancarcare.com',
+  'vannoystirespensacola.com',
+
   // Patio Enclosures operates nationally under Great Day Improvements.
   'patioenclosures.com',
   // Grease Monkey operates a nationwide automotive service franchise.

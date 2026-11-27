@@ -71,6 +71,8 @@ for (const website of [
   'https://www.goodyear.com/en-us/shops/AL/Foley/000902293',
   'https://www.goodyearautoservice.com/',
   'https://fox-pest.com/locations/louisiana/baton-rouge/',
+  'https://www.tandaamericancarcare.com/',
+  'https://www.vannoystirespensacola.com/',
 ]) {
   check(
     `approved national branch remains excluded: ${website}`,
