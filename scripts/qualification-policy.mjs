@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 
 const commercialOnly = /\b(commercial[- ]only|commercial (?:facility|facilities|properties|systems|equipment)|no residential|residential service is not asserted|household[- ]appliance service is not asserted)\b/i;
-const intermediary = /\b(referral (?:site|website|service)|lead seller|contractor[- ]matching|vendor network|managed (?:vendor|contractor|technician) network|sources? unrelated vendors)\b/i;
+const intermediary = /\b(referral (?:site|website|service)|lead seller|lead[- ]generation (?:company|website|site|service|platform|network)|contractor[- ]matching|vendor network|managed (?:vendor|contractor|technician) network|sources? unrelated vendors)\b/i;
 const vagueGeography = /\b(nationwide|all 50 states|throughout florida|the southeast)\b/i;
 
 export function validateQualifyingCandidate(candidate, { catalog, finalUrl } = {}) {
