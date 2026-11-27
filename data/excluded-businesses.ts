@@ -7,6 +7,8 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Patio Enclosures operates nationally under Great Day Improvements.
+  'patioenclosures.com',
   // Grease Monkey operates a nationwide automotive service franchise.
   'greasemonkey.com',
   // The Tampa office trades under the VetCor franchise brand.
