@@ -78,6 +78,10 @@ for (const website of [
   'https://www.donovanac.com/',
   'https://www.getbest.com/',
   'https://redcapnow.com/',
+  'https://www.accutempbr.com/',
+  'https://accutempbr.generacdealers.com/',
+  'https://blakebrothers.com/',
+  'https://myreliablepower.com/',
 ]) {
   check(
     `approved national branch remains excluded: ${website}`,

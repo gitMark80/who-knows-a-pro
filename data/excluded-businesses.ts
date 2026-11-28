@@ -7,6 +7,12 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Public operating brands of the national TurnPoint Services group.
+  'accutempbr.com',
+  'accutempbr.generacdealers.com',
+  'blakebrothers.com',
+  'myreliablepower.com',
+
   // Wrench Group and Apex operate national home-service networks.
   'coolray.com',
   'cooltoday.com',
