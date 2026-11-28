@@ -73,6 +73,11 @@ for (const website of [
   'https://fox-pest.com/locations/louisiana/baton-rouge/',
   'https://www.tandaamericancarcare.com/',
   'https://www.vannoystirespensacola.com/',
+  'https://www.coolray.com/',
+  'https://www.cooltoday.com/',
+  'https://www.donovanac.com/',
+  'https://www.getbest.com/',
+  'https://redcapnow.com/',
 ]) {
   check(
     `approved national branch remains excluded: ${website}`,

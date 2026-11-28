@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 
 const commercialOnly = /\b(commercial[- ]only|commercial (?:facility|facilities|properties|systems|equipment)|no residential|residential service is not asserted|household[- ]appliance service is not asserted)\b/i;
 const intermediary = /\b(referral (?:site|website|service)|lead seller|lead[- ]generation (?:company|website|site|service|platform|network)|contractor[- ]matching|vendor network|managed (?:vendor|contractor|technician) network|sources? unrelated vendors)\b/i;
+const thirdPartyMatching = /\b(?:independent matching service|not (?:a |an )?(?:restoration|installation|repair|service) contractor|connects? [^.!?\n]{0,60}homeowners with (?:a |an )?(?:pre-vetted|vetted|independent|third-party|licensed local)[, ]+(?:[^.!?\n]{0,32} )?(?:installers?|contractors?|professionals?|pros|technicians?))\b/i;
 const vagueGeography = /\b(nationwide|all 50 states|throughout florida|the southeast)\b/i;
 
 export function validateQualifyingCandidate(candidate, { catalog, finalUrl } = {}) {
@@ -17,9 +18,9 @@ export function validateQualifyingCandidate(candidate, { catalog, finalUrl } = {
   assert(candidate.officialWebsiteFinalUrl?.startsWith('https://'), `Official final URL missing for ${label}`);
   assert(typeof candidate.evidenceNote === 'string' && candidate.evidenceNote.length >= 100, `Joint placement evidence missing for ${label}`);
 
-  const combined = [candidate.evidenceNote, candidate.customerEvidence, candidate.providerEvidence].join(' ');
+  const combined = [candidate.evidenceNote, candidate.customerEvidence, candidate.providerEvidence, candidate.officialServiceExcerpt].join(' ');
   assert(!commercialOnly.test(combined), `Commercial-only evidence rejected for ${label}`);
-  assert(!intermediary.test(combined), `Intermediary/network evidence rejected for ${label}`);
+  assert(!intermediary.test(combined) && !thirdPartyMatching.test(combined), `Intermediary/network evidence rejected for ${label}`);
   if (vagueGeography.test(candidate.geographicEvidence)) {
     assert(/\b(city|county|metro|branch|street address|location|service area)\b/i.test(candidate.geographicEvidence), `Broad geography without a specific local connection rejected for ${label}`);
   }

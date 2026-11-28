@@ -7,6 +7,13 @@
  * and billing are preserved. Do not add local-branch exceptions for nationals.
  */
 export const excludedWebsiteDomains = [
+  // Wrench Group and Apex operate national home-service networks.
+  'coolray.com',
+  'cooltoday.com',
+  'donovanac.com',
+  'getbest.com',
+  'redcapnow.com',
+
   // Sun Auto acquired both Gulf Coast operations. Retain records under their original domains.
   'tandaamericancarcare.com',
   'vannoystirespensacola.com',
